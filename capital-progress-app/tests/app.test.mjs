@@ -16,7 +16,7 @@ test("interface stays focused on catalog, versions and reading", async () => {
     new URL("../public/index.html", import.meta.url),
     "utf8"
   );
-  assert.match(html, /翻译目录/);
+  assert.match(html, /<h1>目录<\/h1>/);
   assert.match(html, /全书目录/);
   assert.match(html, />正文</);
   assert.match(html, />版本</);
