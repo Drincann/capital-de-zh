@@ -1,0 +1,4 @@
+interface:
+  display_name: "资本论通俗新译"
+  short_description: "从可靠德文制作普通读者能直接读懂的现代汉语《资本论》读者版"
+  default_prompt: "使用 $translate-capital-de-zh 制作通俗、直白、可持续推进的《资本论》现代汉语读者版。"

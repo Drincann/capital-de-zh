@@ -1,0 +1,16 @@
+/work/
+/tmp_*
+/outputs/*
+!/outputs/capital-volume1-de-zh-new/
+!/outputs/capital-volume1-de-zh-new/**
+**/node_modules/
+**/dist/
+**/build/
+**/__pycache__/
+*.py[cod]
+*.regen.txt
+**/.wrangler/
+**/.DS_Store
+*.log
+.env
+.env.*

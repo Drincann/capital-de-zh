@@ -1,0 +1,4 @@
+interface:
+  display_name: "资本论德文新译"
+  short_description: "从德文可靠版本校勘并翻译成清楚简洁自然的现代汉语新译"
+  default_prompt: "使用 $translate-capital-de-zh 从可靠德文底本翻译《资本论》，并参校马克思修订的法文版。"

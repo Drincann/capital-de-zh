@@ -1,0 +1,13 @@
+{
+  "name": "capital-reader-progress",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs --open",
+    "build": "node scripts/build.mjs",
+    "sync": "node scripts/sync-progress.mjs",
+    "test": "node --test tests/app.test.mjs"
+  }
+}

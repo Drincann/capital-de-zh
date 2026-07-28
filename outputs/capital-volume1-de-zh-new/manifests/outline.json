@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "outline_version": 1,
+  "work_id": "capital-v1",
+  "title_zh": "《资本论》第一卷",
+  "base_edition": "de-1890",
+  "source": "MEGA II/10 Inhaltsverzeichnis",
+  "last_updated": "2026-07-28",
+  "parts": [
+    {
+      "part_id": "part01",
+      "number": 1,
+      "title_zh": "商品和货币",
+      "title_de": "Waare und Geld",
+      "chapters": [
+        {
+          "chapter_id": "ch01",
+          "number": 1,
+          "title_zh": "商品",
+          "title_de": "Die Waare",
+          "section_count": 4,
+          "sections": [
+            {
+              "section_id": "ch01-s01",
+              "number": 1,
+              "title_zh": "商品的两个因素：使用价值和价值"
+            },
+            {
+              "section_id": "ch01-s02",
+              "number": 2,
+              "title_zh": "商品中所包含的劳动的双重性质"
+            },
+            {
+              "section_id": "ch01-s03",
+              "number": 3,
+              "title_zh": "价值形式或交换价值"
+            },
+            {
+              "section_id": "ch01-s04",
+              "number": 4,
+              "title_zh": "商品的拜物教性质及其秘密"
+            }
+          ]
+        },
+        {
+          "chapter_id": "ch02",
+          "number": 2,
+          "title_zh": "交换过程",
+          "title_de": "Der Austauschproceß",
+          "section_count": 1,
+          "sections": [
+            {
+              "section_id": "ch02-s01",
+              "number": 1,
+              "title_zh": "交换过程"
+            }
+          ]
+        },
+        {
+          "chapter_id": "ch03",
+          "number": 3,
+          "title_zh": "货币或商品流通",
+          "title_de": "Das Geld oder die Waarencirkulation",
+          "section_count": 3,
+          "sections": [
+            {
+              "section_id": "ch03-s01",
+              "number": 1,
+              "title_zh": "价值尺度"
+            },
+            {
+              "section_id": "ch03-s02",
+              "number": 2,
+              "title_zh": "流通手段"
+            },
+            {
+              "section_id": "ch03-s03",
+              "number": 3,
+              "title_zh": "货币"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_id": "part02",
+      "number": 2,
+      "title_zh": "货币转化为资本",
+      "title_de": "Die Verwandlung von Geld in Kapital",
+      "chapters": [
+        {
+          "chapter_id": "ch04",
+          "number": 4,
+          "title_zh": "货币转化为资本",
+          "title_de": "Die Verwandlung von Geld in Kapital",
+          "section_count": 3,
+          "sections": [
+            {
+              "section_id": "ch04-s01",
+              "number": 1,
+              "title_zh": "资本的一般公式"
+            },
+            {
+              "section_id": "ch04-s02",
+              "number": 2,
+              "title_zh": "一般公式的矛盾"
+            },
+            {
+              "section_id": "ch04-s03",
+              "number": 3,
+              "title_zh": "劳动力的买和卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_id": "part03",
+      "number": 3,
+      "title_zh": "绝对剩余价值的生产",
+      "title_de": "Die Produktion des absoluten Mehrwerths",
+      "chapters": [
+        {
+          "chapter_id": "ch05",
+          "number": 5,
+          "title_zh": "劳动过程和价值增殖过程",
+          "title_de": "Arbeitsproceß und Verwerthungsproceß",
+          "section_count": 2,
+          "sections": [
+            {
+              "section_id": "ch05-s01",
+              "number": 1,
+              "title_zh": "劳动过程"
+            },
+            {
+              "section_id": "ch05-s02",
+              "number": 2,
+              "title_zh": "价值增殖过程"
+            }
+          ]
+        },
+        {
+          "chapter_id": "ch06",
+          "number": 6,
+          "title_zh": "不变资本和可变资本",
+          "title_de": "Konstantes Kapital und variables Kapital",
+          "section_count": 1,
+          "sections": [
+            {
+              "section_id": "ch06-s01",
+              "number": 1,
+              "title_zh": "不变资本和可变资本"
+            }
+          ]
+        },
+        {
+          "chapter_id": "ch07",
+          "number": 7,
+          "title_zh": "剩余价值率",
+          "title_de": "Die Rate des Mehrwerths",
+          "section_count": 4,
+          "sections": [
+            {
+              "section_id": "ch07-s01",
+              "number": 1,
+              "title_zh": "劳动力的剥削程度"
+            },
+            {
+              "section_id": "ch07-s02",
+              "number": 2,
+              "title_zh": "产品价值怎样分布在产品的各个部分中"
+            },
+            {
+              "section_id": "ch07-s03",
+              "number": 3,
+              "title_zh": "西尼尔的“最后一小时”"
+            },
+            {
+              "section_id": "ch07-s04",
+              "number": 4,
+              "title_zh": "剩余产品"
+            }
+          ]
+        },
+        {
+          "chapter_id": "ch08",
+          "number": 8,
+          "title_zh": "工作日",
+          "title_de": "Der Arbeitstag",
+          "section_count": 7,
+          "sections": [
+            {
+              "section_id": "ch08-s01",
+              "number": 1,
+              "title_zh": "工作日的界限"
+            },
+            {
+              "section_id": "ch08-s02",
+              "number": 2,
+              "title_zh": "对剩余劳动的贪欲：工厂主和领主"
+            },
+            {
+              "section_id": "ch08-s03",
+              "number": 3,
+              "title_zh": "没有法定剥削限制的英国工业部门"
+            },
+            {
+              "section_id": "ch08-s04",
+              "number": 4,
+              "title_zh": "日夜劳动：轮班制度"
+            },
+            {
+              "section_id": "ch08-s05",
+              "number": 5,
+              "title_zh": "争取正常工作日：从十四世纪中叶到十七世纪末强制延长工作日的法律"
+            },
+            {
+              "section_id": "ch08-s06",
+              "number": 6,
+              "title_zh": "争取正常工作日：用法律限制劳动时间，1833—1864年的英国工厂法"
+            },
+            {
+              "section_id": "ch08-s07",
+              "number": 7,
+              "title_zh": "争取正常工作日：英国工厂法对其他国家的影响"
+            }
+          ]
+        },
+        {
+          "chapter_id": "ch09",
+          "number": 9,
+          "title_zh": "剩余价值率和剩余价值量",
+          "title_de": "Rate und Masse des Mehrwerths",
+          "section_count": 1,
+          "sections": [
+            {
+              "section_id": "ch09-s01",
+              "number": 1,
+              "title_zh": "剩余价值率和剩余价值量"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_id": "part04",
+      "number": 4,
+      "title_zh": "相对剩余价值的生产",
+      "title_de": "Die Produktion des relativen Mehrwerths",
+      "chapters": [
+        {
+          "chapter_id": "ch10",
+          "number": 10,
+          "title_zh": "相对剩余价值的概念",
+          "title_de": "Begriff des relativen Mehrwerths",
+          "section_count": 1
+        },
+        {
+          "chapter_id": "ch11",
+          "number": 11,
+          "title_zh": "协作",
+          "title_de": "Kooperation",
+          "section_count": 1
+        },
+        {
+          "chapter_id": "ch12",
+          "number": 12,
+          "title_zh": "分工和工场手工业",
+          "title_de": "Theilung der Arbeit und Manufaktur",
+          "section_count": 5
+        },
+        {
+          "chapter_id": "ch13",
+          "number": 13,
+          "title_zh": "机器和大工业",
+          "title_de": "Maschinerie und große Industrie",
+          "section_count": 10
+        }
+      ]
+    },
+    {
+      "part_id": "part05",
+      "number": 5,
+      "title_zh": "绝对剩余价值和相对剩余价值的生产",
+      "title_de": "Die Produktion des absoluten und relativen Mehrwerths",
+      "chapters": [
+        {
+          "chapter_id": "ch14",
+          "number": 14,
+          "title_zh": "绝对剩余价值和相对剩余价值",
+          "title_de": "Absoluter und Relativer Mehrwerth",
+          "section_count": 1
+        },
+        {
+          "chapter_id": "ch15",
+          "number": 15,
+          "title_zh": "劳动力价格和剩余价值怎样变化",
+          "title_de": "Größenwechsel von Preis der Arbeitskraft und Mehrwerth",
+          "section_count": 4
+        },
+        {
+          "chapter_id": "ch16",
+          "number": 16,
+          "title_zh": "剩余价值率的各种公式",
+          "title_de": "Verschiedene Formeln für die Rate des Mehrwerths",
+          "section_count": 1
+        }
+      ]
+    },
+    {
+      "part_id": "part06",
+      "number": 6,
+      "title_zh": "工资",
+      "title_de": "Der Arbeitslohn",
+      "chapters": [
+        {
+          "chapter_id": "ch17",
+          "number": 17,
+          "title_zh": "劳动力的价值或价格怎样转化为工资",
+          "title_de": "Verwandlung von Werth, resp. Preis der Arbeitskraft in Arbeitslohn",
+          "section_count": 1
+        },
+        {
+          "chapter_id": "ch18",
+          "number": 18,
+          "title_zh": "计时工资",
+          "title_de": "Der Zeitlohn",
+          "section_count": 1
+        },
+        {
+          "chapter_id": "ch19",
+          "number": 19,
+          "title_zh": "计件工资",
+          "title_de": "Der Stücklohn",
+          "section_count": 1
+        },
+        {
+          "chapter_id": "ch20",
+          "number": 20,
+          "title_zh": "不同国家的工资差异",
+          "title_de": "Nationale Verschiedenheit der Arbeitslöhne",
+          "section_count": 1
+        }
+      ]
+    },
+    {
+      "part_id": "part07",
+      "number": 7,
+      "title_zh": "资本积累过程",
+      "title_de": "Der Akkumulationsproceß",
+      "chapters": [
+        {
+          "chapter_id": "ch21",
+          "number": 21,
+          "title_zh": "简单再生产",
+          "title_de": "Einfache Reproduktion",
+          "section_count": 1
+        },
+        {
+          "chapter_id": "ch22",
+          "number": 22,
+          "title_zh": "剩余价值转化为资本",
+          "title_de": "Verwandlung von Mehrwerth in Kapital",
+          "section_count": 5
+        },
+        {
+          "chapter_id": "ch23",
+          "number": 23,
+          "title_zh": "资本主义积累的一般规律",
+          "title_de": "Das allgemeine Gesetz der kapitalistischen Akkumulation",
+          "section_count": 5
+        },
+        {
+          "chapter_id": "ch24",
+          "number": 24,
+          "title_zh": "所谓原始积累",
+          "title_de": "Die sogenannte ursprüngliche Akkumulation",
+          "section_count": 7
+        },
+        {
+          "chapter_id": "ch25",
+          "number": 25,
+          "title_zh": "现代殖民制度",
+          "title_de": "Das moderne Kolonialsystem",
+          "section_count": 1
+        }
+      ]
+    }
+  ]
+}

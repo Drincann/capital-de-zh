@@ -1,0 +1,17 @@
+# 3) Die Werthform oder der Tauschwerth.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch01-s03-p0001] [MEGA p.49]
+Waaren kommen zur Welt in der Form von Gebrauchswerthen oder Waarenkörpern, als Eisen, Leinwand, Weizen u. s. w. Es ist dieß ihre hausbakkene Naturalform. Sie sind jedoch nur Waaren, weil Doppeltes, Gebrauchsgegenstände und zugleich Werthträger. Sie erscheinen daher nur als Waaren oder besitzen nur die Form von Waaren, sofern sie Doppelform besitzen, Naturalform und Werthform.
+
+[v1-ch01-s03-p0002] [MEGA p.49]
+Die Werthgegenständlichkeit der Waaren unterscheidet sich dadurch von der Wittib Hurtig, daß man nicht weiß, wo sie zu haben ist. Im graden Gegentheil zur sinnlich groben Gegenständlichkeit der Waarenkörper geht kein Atom Naturstoff in ihre Werthgegenständlichkeit ein. Man mag daher eine einzelne Waare drehen und wenden wie man will, sie bleibt unfaßbar als Werthding. Erinnern wir uns jedoch, daß die Waaren nur Werthgegenständlichkeit besitzen, sofern sie Ausdrücke derselben gesellschaftlichen Einheit, menschlicher Arbeit, sind, daß ihre Werthgegenständlichkeit also rein gesellschaftlich ist, so versteht sich auch von selbst, daß sie nur im gesellschaftlichen Verhältniß von Waare zu Waare erscheinen kann. Wir gingen in der That vom Tauschwerth oder Austauschverhältniß der Waaren aus, um ihrem darin versteckten Werth auf die Spur zu kommen. Wir müssen jetzt zu dieser Erscheinungsform des Werthes zurückkehren.
+
+[v1-ch01-s03-p0003] [MEGA p.49]
+Jedermann weiß, wenn er auch sonst nichts weiß, daß die Waaren eine mit den bunten Naturalformen ihrer Gebrauchswerthe höchst frappant kontrastirende, gemeinsame Werthform besitzen ‒ die Geldform. Hier gilt es jedoch zu leisten, was von der bürgerlichen Oekonomie nicht einmal versucht ward, nämlich die Genesis dieser Geldform nachzuweisen, also die Entwicklung des im Werthverhältniß der Waaren enthaltenen Werthausdrucks von seiner einfachsten unscheinbarsten Gestalt bis zur blendenden Geldform zu verfolgen. Damit verschwindet zugleich das Geldräthsel.
+
+[v1-ch01-s03-p0004] [MEGA p.49]
+Das einfachste Werthverhältniß ist offenbar das Werthverhältniß einer Waare zu einer einzigen verschiedenartigen Waare, gleichgültig welcher. Das Werthverhältniß zweier Waaren liefert daher den einfachsten Werthausdruck für eine Waare. |

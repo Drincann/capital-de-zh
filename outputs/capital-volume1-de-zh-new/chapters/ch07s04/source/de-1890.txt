@@ -1,0 +1,19 @@
+# 4. Das Mehrprodukt.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch07s04-p0001] [MEGA p.206]
+Den Theil des Produkts ( 1 10 von 20 Pfd. Garn oder 2 Pfd. Garn in dem Beispiel sub 2), worin sich der Mehrwerth darstellt, nennen wir Mehrprodukt (surplus produce, produit net). Wie die Rate des Mehrwerths durch sein Verhältniß nicht zur Gesammtsumme, sondern zum variablen Bestandtheil des Kapitals bestimmt wird, so die Höhe des Mehrprodukts durch sein Verhältniß nicht zum Rest des Gesammtprodukts, sondern zum Produkttheil, worin sich die nothwendige Arbeit darstellt. Wie die Produktion von Mehrwerth der bestimmende Zweck der kapitalistischen Produktion, so mißt nicht die absolute Größe des Produkts, sondern die relative Größe des Mehrprodukts, den Höhegrad des Reichthums 34).
+
+[v1-ch07s04-p0002] [MEGA p.207]
+Die Summe der nothwendigen Arbeit und der Mehrarbeit, der Zeitabschnitte, worin der Arbeiter den Ersatzwerth seiner Arbeitskraft und den Mehrwerth producirt, bildet die absolute Größe seiner Arbeitszeit ‒ den Arbeitstag (working day). |
+
+## Footnotes
+
+[note-001] [MEGA p.206]
+33) Indeß hatte der Herr Professor doch etwas bei seinem Manchester Ausflug profitirt! In den „Letters on the Factory Act“ hängt der ganze Reingewinn, „Profit“ und „Zins“ und sogar „something more“ an einer unbezahlten Arbeitsstunde des Arbeiters! Ein Jahr zuvor, in seinen zum Gemeinbesten Oxforder Studenten und gebildeter Philister verfaßten „Outlines of Political Economy“ hatte er noch gegenüber Ricardo’s Werthbestimmung durch die Arbeitszeit „entdeckt“, daß der Profit aus der Arbeit des Kapitalisten und der Zins aus seiner Ascetik, seiner „Abstinenz“ herstamme. Die Flause selbst war alt, aber das Wort „Abstinenz“ neu. Herr Roscher verdeutscht es richtig durch „Enthaltung“. Seine minder mit Latein beschlagnen Kompatrioten, Wirthe, Schulzen und andre Michels, haben es in „Entsagung“ vermöncht.
+
+[note-002] [MEGA p.206]
+34) „Für ein Individuum mit einem Kapital von 20000 Pfd. St., dessen Profite 2000 Pfd. St. jährlich betragen, wäre es ein durchaus gleichgültig Ding, ob sein Kapital 100 oder 1000 Arbeiter beschäftigt, ob die producirten Waaren sich zu 10000 oder 20000 Pfd. St. verkaufen, immer vorausgesetzt, daß seine Profite in allen Fällen nicht unter 2000 Pfd. St. fallen. Ist das reale Interesse einer Nation nicht dasselbe? Vorausgesetzt ihr reales Nettoeinkommen, ihre Renten und Profite bleiben dieselben, so ist es nicht von der geringsten Wichtigkeit, ob die Nation aus 10 oder 12 Millionen Einwohnern besteht.“ (Ric. l. c. p. 416.) Lange vor Ricardo sagte der Fanatiker des Mehrprodukts, Arthur Young, ein übrigens schwatzschweifiger, kritikloser Schriftsteller, dessen Ruf in umgekehrtem Verhältniß zu seinem Verdienst steht, u. A.: „Von welchem Nutzen würde in einem modernen Königreich eine ganze Provinz sein, deren Boden in altrömischer Manier, von kleinen, unabhängigen Bauern, meinetwegen noch so gut bebaut würde? Von welchem Zwecke, außer dem einzigen, Menschen zu erzeugen („the mere purpose of breeding men“), was an und für sich gar keinen Zweck hat“ („is a most useless purpose“). Arthur Young: „Political Arithmetic etc. London 1774“, p. 47. Zusatz zu Note 34. Sonderbar ist „the strong inclination to represent net wealth as beneficial to the labouring class... though it is evidently not on account of being net“. (Th. Hopkins: „On Rent of Land etc. London 1828“, p. 126.)

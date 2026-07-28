@@ -1,0 +1,125 @@
+# 2. Der Heißhunger nach Mehrarbeit. Fabrikant und Bojar.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch08s02-p0001] [MEGA p.211,212]
+Das Kapital hat die Mehrheit nicht erfunden. Ueberall, wo ein Theil der Gesellschaft das Monopol der Produktionsmittel besitzt, muß der Arbeiter, frei oder unfrei, der zu seiner Selbsterhaltung nothwendigen Arbeitszeit überschüssige Arbeitszeit zusetzen, um die Lebensmittel für den Eigner der Produktionsmittel zu produciren 41), sei dieser Eigenthümer nun atheniensischer καλὸς κἀγαϑός, etruskischer Theokrat, civis romanus, normännischer Baron, amerikanischer Sklavenhalter, walachischer Bojar, moderner Landlord oder Kapitalist 42). Indeß ist klar, daß, wenn in einer ökonomischen Gesellschaftsformation nicht der Tauschwerth, sondern der Gebrauchswerth des Produkts vorwiegt, die Mehrarbeit durch einen engern oder weitern Kreis von Bedürfnissen beschränkt ist, aber kein schrankenloses Bedürfniß nach Mehrarbeit aus dem Charakter der Produktion selbst entspringt. Entsetzlich zeigt sich daher im Alterthum die Ueberarbeit, wo es gilt den Tauschwerth in seiner selbständigen Geldgestalt zu gewinnen, in der Produktion von Gold und Silber. Gewaltsames zu Tod arbeiten ist hier die officielle Form der Ueberarbeit. Man lese nur den Diodorus Siculus 43). Doch sind dieß Ausnahmen in der alten Welt. Sobald aber Völker, deren Produktion sich noch in den niedrigren Formen der Sklavenarbeit, Frohnarbeit u. s. w. bewegt, hineingezogen werden in einen durch die kapitalistische Produktionsweise beherrschten Weltmarkt, der den Verkauf ihrer Produkte ins Ausland zum vorwiegenden Interesse entwickelt, wird den barbarischen Greueln der Sklaverei, Leibeigenschaft u. s. w. der civilisirte Greuel der Ueberarbeit aufgepfropft. Daher bewahrte die Negerarbeit in den südlichen Staaten der amerikanischen Union einen gemäßigt patriarchalischen Charakter, so lange die Produktion hauptsächlich auf den unmittelbaren Selbstbedarf gerichtet war. In dem Grade aber wie der Baumwollexport zum Lebensinteresse jener Staaten, ward die Ueberarbeitung des Negers, hier und da die Konsumtion seines Lebens in sieben Arbeitsjahren, Faktor eines berechneten und berechnenden Systems. Es galt nicht mehr eine gewisse Masse nützlicher Produkte aus ihm herauszuschlagen. Es galt nun die Produktion des Mehrwerths selbst. Aehnlich mit der Frohnarbeit, z. B. in den Donaufürstenthümern.
+
+[v1-ch08s02-p0002] [MEGA p.212]
+Die Vergleichung des Heißhungers nach Mehrarbeit in den Donaufürstenthümern mit demselben Heißhunger in englischen Fabriken bietet ein besondres Interesse, weil die Mehrarbeit in der Frohnarbeit eine selbständige, sinnlich wahrnehmbare Form besitzt.
+
+[v1-ch08s02-p0003] [MEGA p.212]
+Gesetzt der Arbeitstag zähle 6 Stunden nothwendiger Arbeit und 6 Stunden Mehrarbeit. So liefert der freie Arbeiter dem Kapitalisten wöchentlich 6 × 6, oder 36 Stunden Mehrarbeit. Es ist dasselbe, als arbeite er 3 Tage in der Woche für sich und 3 Tage in der Woche umsonst für den Kapitalisten. Aber dieß ist nicht sichtbar. Mehrarbeit und nothwendige Arbeit verschwimmen in einander. Ich kann daher dasselbe Verhältniß z. B. auch so ausdrücken, daß der Arbeiter in jeder Minute 30 Sekunden für sich und 30 Sekunden für den Kapitalisten arbeitet u. s. w. Anders mit der Frohnarbeit. Die nothwendige Arbeit, die z. B. der walachische Bauer zu seiner Selbsterhaltung verrichtet, ist räumlich getrennt von seiner Mehrarbeit für den Bojaren. Die eine verrichtet er auf seinem eignen Felde, die andre auf dem herrschaftlichen Gut. Beide Theile der Arbeitszeit existiren daher selbständig neben einander. In der Form der Frohnarbeit ist die Mehrarbeit genau abgeschieden von der nothwendigen Arbeit. An dem quantitativen Verhältniß von Mehrarbeit und nothwendiger Arbeit ändert diese verschiedne Erscheinungsform offenbar nichts. Drei Tage Mehrarbeit in der Woche bleiben drei Tage Arbeit, die kein Aequivalent für den Arbeiter selbst bildet, ob sie Frohnarbeit heiße oder Lohnarbeit. Bei dem Kapitalisten jedoch erscheint der Heißhunger nach Mehrarbeit im Drang zu maßloser Verlängrung des Arbeitstags, bei dem Bojaren einfacher in unmittelbarer Jagd auf Frohntage 44).
+
+[v1-ch08s02-p0004] [MEGA p.212,213]
+Die Frohnarbeit war in den Donaufürstenthümern verknüpft mit Naturalrenten und sonstigem Zubehör von Leibeigenschaft, bildete aber den entscheidenden Tribut an die herrschende Klasse. Wo dieß der Fall, entsprang die Frohnarbeit selten aus der Leibeigenschaft, Leibeigenschaft vielmehr meist umgekehrt aus der Frohnarbeit 44a). So in den rumänischen Provinzen. Ihre ursprüngliche Produktionsweise war auf Gemeineigenthum gegründet, aber nicht auf Gemeineigenthum in slavischer oder gar indischer Form. Ein Theil der Ländereien wurde als freies Privateigenthum von den Mitgliedern der Gemeinde selbständig bewirthschaftet, ein andrer Theil ‒ der ager publicus ‒ gemeinsam von ihnen bestellt. Die Produkte dieser gemeinsamen Arbeit dienten theils als Reservefonds für Mißernten und andre Zufälle, theils als Staatsschatz zur Deckung für die Kosten von Krieg, Religion und andre Gemeindeausgaben. Im Laufe der Zeit usurpirten kriegerische und kirchliche Würdenträger mit dem Gemeineigenthum die Leistungen für dasselbe. Die Arbeit der freien Bauern auf ihrem Gemeindeland verwandelte sich in Frohnarbeit für die Diebe des Gemeindelandes. Damit entwickelten sich zugleich Leibeigenschafts-Verhältnisse, jedoch nur thatsächlich, nicht gesetzlich, bis das weltbefreiende Rußland unter dem Vorwand, die Leibeigenschaft abzuschaffen, sie zum Gesetz erhob. Der Kodex der Frohnarbeit, den der russische General Kisseleff 1831 proklamirte, war natürlich von den Bojaren selbst diktirt. Rußland eroberte so mit einem Schlag die Magnaten der Donaufürstenthümer und den Beifallsklatsch der liberalen Crétins von ganz Europa.
+
+[v1-ch08s02-p0005] [MEGA p.213,214]
+Nach dem „Règlement organique“, so heißt jener Kodex der Frohnarbeit, schuldet jeder walachische Bauer, außer einer Masse detaillirter Naturalabgaben, dem s. g. Grundeigenthümer 1) zwölf Arbeitstage überhaupt, 2) einen Tag Feldarbeit und 3) einen Tag Holzfuhre. Summa Summarum 14 Tage im Jahre. Mit tiefer Einsicht in die politische Oekonomie wird jedoch der Arbeitstag nicht in seinem ordinären Sinn genommen, sondern der zur Herstellung eines täglichen Durchschnittsprodukts nothwendige Arbeitstag, aber das tägliche Durchschnittsprodukt ist pfiffiger Weise so bestimmt, daß kein Cyklope in 24 Stunden damit fertig würde. In den dürren Worten echt russischer Ironie erklärt daher das „Règlement“ selbst, unter 12 Arbeitstagen sei das Produkt einer Handarbeit von 36 Tagen zu verstehn, unter einem Tag Feldarbeit drei Tage, und unter einem Tag Holzfuhr ebenfalls das Dreifache. Summa: 42 Frohntage. Es kommt aber hinzu die s. g. Jobagie, Dienstleistungen, die dem Grundherrn für außerordentliche Produktionsbedürfnisse gebühren. Im Verhältniß zur Größe seiner Bevölkerung hat jedes Dorf jährlich ein bestimmtes Kontingent zur Jobagie zu stellen. Diese zusätzliche Frohnarbeit wird für jeden walachischen Bauern auf 14 Tage geschätzt. So beträgt die vorgeschriebne Frohnarbeit 56 Arbeitstage jährlich. Das Ackerbaujahr zählt aber in der Walachei wegen des schlechten Klimas nur 210 Tage, wovon 40 für Sonn- und Feiertage, 30 durchschnittlich für Unwetter, zusammen 70 Tage ausfallen. Bleiben 140 Arbeitstage. Das Verhältniß der Frohnarbeit zur nothwendigen Arbeit 56 84, oder 66⅔ Procent, drückt eine viel kleinere Rate des Mehrwerths aus als die, welche die Arbeit des englischen Agrikultur- oder Fabrikarbeiters regulirt. Dieß ist jedoch nur die gesetzlich vorgeschriebne Frohnarbeit. Und in noch „liberalerem“ Geist als die englische Fabrikgesetzgebung hat das „Règlement organique“ seine eigne Umgehung zu erleichtern gewußt. Nachdem es aus 12 Tagen 54 gemacht, wird das nominelle Tagwerk jedes der 54 Frohntage wieder so bestimmt, daß eine Zubuße auf die folgenden Tage fallen muß. In einem Tag z. B. soll eine Landstrecke ausgejätet werden, die zu dieser Operation, namentlich auf den Maispflanzungen, doppelt so viel Zeit erheischt. Das gesetzliche Tagwerk für einzelne Agrikulturarbeiten ist so auslegbar, daß der Tag im Monat Mai anfängt und im Monat Oktober aufhört. Für die Moldau sind die Bestimmungen noch härter. „Die zwölf Frohntage des Règlement organique“, rief ein siegtrunkner Bojar, „belaufen sich auf 365 Tage im Jahr!“ 45)
+
+[v1-ch08s02-p0006] [MEGA p.214]
+War das Règlement organique der Donaufürstenthümer ein positiver Ausdruck des Heißhungers nach Mehrarbeit, den jeder Paragraph legalisirt, so sind die englischen Factory-Acts negative Ausdrücke desselben Heißhungers. Diese Gesetze zügeln den Drang des Kapitals nach maßloser Aussaugung der Arbeitskraft durch gewaltsame Beschränkung des Arbeitstags von Staatswegen, und zwar von Seiten eines Staats, den Kapitalist und Landlord beherrschen. Von einer täglich bedrohlicher anschwellenden Arbeiterbewegung abgesehn, war die Beschränkung der Fabrikarbeit diktirt durch dieselbe Nothwendigkeit, welche den Guano auf die englischen Felder ausgoß. Dieselbe blinde Raubgier, die in dem einen Fall die Erde erschöpft, hatte in dem andren die Lebenskraft der Nation an der Wurzel ergriffen. Periodische Epidemien sprachen hier ebenso deutlich als das abnehmende Soldatenmaß in Deutschland und Frankreich 46). |
+
+[v1-ch08s02-p0007] [MEGA p.215]
+Der jetzt (1867) geltende Factory-Act von 1850 erlaubt für den durchschnittlichen Wochentag 10 Stunden, nämlich für die ersten 5 Wochentage 12 Stunden, von 6 Uhr Morgens bis 6 Uhr Abends, wovon aber ½ Stunde für Frühstück und eine Stunde für Mittagessen gesetzlich abgehn, also 10½ Arbeitsstunden bleiben, und 8 Stunden für den Samstag, von 6 Uhr Morgens bis 2 Uhr Nachmittags, wovon ½ Stunde für Frühstück abgeht. Bleiben 60 Arbeitsstunden, 10½ für die ersten fünf Wochentage, 7½ für den letzten Wochentag 47). Es sind eigne Wächter des Gesetzes bestellt, die dem Ministerium des Innern direkt untergeordneten Fabrikinspektoren, deren Berichte halbjährig von Parlamentswegen veröffentlicht werden. Sie liefern also eine fortlaufende und officielle Statistik über den Kapitalistenheißhunger nach Mehrarbeit.
+
+[v1-ch08s02-p0008] [MEGA p.215]
+Hören wir einen Augenblick die Fabrikinspektoren 48).
+
+[v1-ch08s02-p0009] [MEGA p.215,216]
+„Der betrügerische Fabrikant beginnt die Arbeit eine Viertelstunde, manchmal früher, manchmal später, vor 6 Uhr Morgens, und schließt sie eine Viertelstunde, manchmal früher, manchmal später, nach 6 Uhr Nachmittags. Er nimmt 5 Minuten weg vom Anfang und Ende der nominell für das Frühstück anberaumten halben Stunde, und knappt 10 Minuten ab zu Anfang und Ende der für Mittagessen anberaumten Stunde. Samstag arbeitet er eine Viertelstunde, manchmal mehr, manchmal weniger, nach 2 Uhr Nachmittags. So beträgt sein Gewinn:
+[table]
+Vor 6 Uhr Morgens | 15 Minuten. | 
+Nach 6 Uhr Morgens | 15 ” | 
+Für Frühstückszeit | 10 ” | Summa in 5 Tagen: 300 Minuten
+Beim Mittagessen | 20 ” | 
+ | 60 Minuten. | 
+[/table]
+[table]
+An Samstagen. | 
+Vor 6 Uhr Morgens | 15 Minuten. | Wöchentlicher Gesammtgewinn:
+Für Frühstück | 10 ” | 340 Minuten
+Nach 2 Uhr Nachmittags | 15 ” | 
+[/table]
+
+[v1-ch08s02-p0010] [MEGA p.216]
+Oder 5 Stunden 40 Minuten wöchentlich, was mit 50 Arbeitswochen multiplicirt, nach Abzug von 2 Wochen für Feiertage oder gelegentliche Unterbrechungen, 27 Arbeitstage gibt 49).“
+
+[v1-ch08s02-p0011] [MEGA p.216]
+„Wird der Arbeitstag täglich 5 Minuten über die Normaldauer verlängert, so gibt das 2½ Produktionstage im Jahr“ 50). „Eine zusätzliche Stunde täglich, dadurch gewonnen, daß bald hier ein Stückchen Zeit erhascht wird, bald dort ein andres Stückchen, macht aus den 12 Monaten des Jahres 13“ 51).
+
+[v1-ch08s02-p0012] [MEGA p.216]
+Krisen, worin die Produktion unterbrochen und nur „kurze Zeit“, nur während einiger Tage in der Woche, gearbeitet wird, ändern natürlich nichts an dem Trieb nach Verlängrung des Arbeitstags. Je weniger Geschäfte gemacht werden, desto größer soll der Gewinn auf das gemachte Geschäft sein. Je weniger Zeit gearbeitet werden kann, desto mehr Surplusarbeitszeit soll gearbeitet werden. So berichten die Fabrikinspektoren über die Periode der Krise von 1857 bis 1858:
+
+[v1-ch08s02-p0013] [MEGA p.216,217]
+„Man mag es für eine Inkonsequenz halten, daß irgendwelche Ueberarbeit zu einer Zeit stattfinde, wo der Handel so schlecht geht, aber sein schlechter Zustand spornt rücksichtslose Leute zu Ueberschreitungen; sie sichern sich so einen Extraprofit...“ „Zur selben Zeit“, sagt Leonard Horner, „wo 122 Fabriken in meinem Distrikt ganz aufgegeben sind, 143 still stehn und alle andren kurze Zeit arbeiten, wird die Ueberarbeit über die gesetzlich bestimmte Zeit fortgesetzt 52).“ „Obgleich“, sagt Herr Howell, „in den meisten Fabriken des schlechten Geschäftsstands wegen nur halbe Zeit gearbeitet wird, erhalte ich nach wie vor dieselbe Anzahl von Klagen, daß eine halbe Stunde oder ¾ Stunden täglich den Arbeitern weggeschnappt (snatched) werden durch Eingriffe in die ihnen gesetzlich gesicherten Fristen für Mahlzeit und Erholung 53).“
+
+[v1-ch08s02-p0014] [MEGA p.217]
+Dasselbe Phänomen wiederholt sich auf kleinerer Stufenleiter während der furchtbaren Baumwollkrise von 1861 bis 1865 54).
+
+[v1-ch08s02-p0015] [MEGA p.217]
+„Es wird zuweilen vorgeschützt, wenn wir Arbeiter während der Speisestunden oder sonst zu ungesetzlicher Zeit am Werk ertappen, daß sie die Fabrik durchaus nicht verlassen wollen, und daß es des Zwangs bedarf, um ihre Arbeit (Reinigen der Maschinen u. s. w.) zu unterbrechen, namentlich Samstag Nachmittags. Aber wenn die ‚Hände‘ nach Stillsetzung der Maschinerie in der Fabrik bleiben, geschieht es nur, weil ihnen zwischen 6 Uhr Morgens und 6 Uhr Abends, in den gesetzlich bestimmten Arbeitsstunden, keine Frist zur Verrichtung solcher Geschäfte gestattet worden ist 55).“
+
+[v1-ch08s02-p0016] [MEGA p.217,218]
+„Der durch Ueberarbeit über die gesetzliche Zeit zu machende Extraprofit scheint für viele Fabrikanten eine zu große Versuchung, um ihr widerstehn zu können. Sie rechnen auf die Chance nicht ausgefunden zu werden und berechnen, daß selbst im Fall der Entdeckung die Geringfügigkeit der Geldstrafen und Gerichtskosten ihnen immer noch eine Gewinnbilanz sichert 56).“ „Wo die zusätzliche Zeit durch Multiplikation kleiner Diebstähle („a multiplication of small thefts“) im Laufe des Tages gewonnen wird, stehn den Inspektoren fast unüberwindliche Schwierigkeiten der Beweisführung im Weg 57).“ Diese „kleinen Diebstähle“ des Kapitals an der Mahlzeit und Erholungszeit der Arbeiter bezeichnen die Fabrikinspektoren auch als „petty pilferings of minutes“, Mausereien von Minuten 58), „snatching a few minutes“, Wegschnappen von Minuten 59), oder wie die Arbeiter es technisch heißen, „nibbling and cribbling at meal times 60)“.
+
+[v1-ch08s02-p0017] [MEGA p.218]
+Man sieht, in dieser Atmosphäre ist die Bildung des Mehrwerths durch die Mehrarbeit kein Geheimniß. „Wenn Sie mir erlauben,“ sagte mir ein sehr respektabler Fabrikherr, „täglich nur 10 Minuten Ueberzeit arbeiten zu lassen, stecken Sie jährlich 1000 Pfd. St. in meine Tasche 61).“ „Zeitatome sind die Elemente des Gewinns 62).“
+
+[v1-ch08s02-p0018] [MEGA p.218]
+Nichts ist in dieser Hinsicht charakteristischer als die Bezeichnung der Arbeiter, die volle Zeit arbeiten, durch „full times“ und die der Kinder unter 13 Jahren, die nur 6 Stunden arbeiten dürfen, als „half times 63)“. Der Arbeiter ist hier nichts mehr als personificirte Arbeitszeit. Alle individuellen Unterschiede lösen sich auf in die von „Vollzeitler“ und „Halbzeitler“.
+
+## Footnotes
+
+[note-001] [MEGA p.211]
+41) “Those who labour... in reality feed both the pensioners called the rich, and themselves.” (Edmund Burke l. c. p. 2, 3.)
+
+[note-002] [MEGA p.211]
+42) Sehr naiv bemerkt Niebuhr in seiner „Römischen Geschichte“: „Man kann sich nicht verhehlen, daß Werke wie die etruskischen, die in ihren Trümmern erstaunen, in kleinen (!) Staaten Frohnherrn und Knechte voraussetzen.“ Viel tiefer sagte Sismondi, daß „Brüsseler Spitzen“ Lohnherrn und Lohndiener voraussetzen.
+
+[note-003] [MEGA p.211]
+43) „Man kann diese Unglücklichen (in den Goldbergwerken zwischen Aegypten, Aethiopien und Arabien), die nicht einmal ihren Körper reinlich halten, noch ihre Blöße decken können, nicht ansehn, ohne ihr jammervolles Schicksal zu beklagen. Denn da findet keine Nachsicht und keine Schonung statt für Kranke, für Gebrechliche, für Greise, für die weibliche Schwachheit. Alle müssen, durch Schläge gezwungen, fortarbeiten, bis der Tod ihren Qualen und ihrer Noth ein Ende macht.“ Diod. Sic. „Historische Bibliothek“, Buch 3, c. 13. [S. 258, 260.]
+
+[note-004] [MEGA p.212]
+44) Das Nachfolgende bezieht sich auf die Zustände der rumänischen Provinzen, wie sie sich vor der Umwälzung seit dem Krimkrieg gestaltet hatten.
+
+[note-005] [MEGA p.213]
+44a) ❲Note zur 3. Aufl. ‒ Dieß gilt ebenfalls für Deutschland und speciell für das ostelbische Preußen. Im 15. Jahrhundert war der deutsche Bauer fast überall ein, gewissen Leistungen in Produkt und Arbeit unterworfener, aber sonst wenigstens faktisch freier Mann. Die deutschen Kolonisten in Brandenburg, Pommern, Schlesien und Ostpreußen waren sogar rechtlich als Freie anerkannt. Der Sieg des Adels im Bauernkrieg machte dem ein Ende. Nicht nur die besiegten süddeutschen Bauern wurden wieder leibeigen. Schon seit Mitte des 16. Jahrhunderts werden die ostpreußischen, brandenburgischen, pommerschen und schlesischen, und bald darauf auch die schleswig-holsteinischen freien Bauern zu Leibeignen erniedrigt. (Maurer, „Frohnhöfe“ IV. Bd. ‒ Meitzen, „Der Boden des pr. Staats“. ‒ Hanssen, „Leibeigenschaft in Schleswig-Holstein“.) ‒ F. E.❳
+
+[note-006] [MEGA p.214]
+45) Weitere Details findet man in: E. Regnault: „Histoire politique et sociale des Principautés Danubiennes. Paris 1855“.
+
+[note-007] [MEGA p.214]
+46) „Im Allgemeinen spricht innerhalb gewisser Grenzen für das Gedeihen organischer Wesen das Ueberschreiten des Mittelmaßes ihrer Art. Für den Menschen verkleinert sich sein Körpermaß, wenn sein Gedeihen beeinträchtigt ist, sei es durch physische oder sociale Verhältnisse. In allen europäischen Ländern, wo Konskription besteht, hat seit Einführung derselben das mittlere Körpermaß der erwachsnen Männer und im Ganzen ihre Tauglichkeit zum Kriegsdienst abgenommen. Vor der Revolution (1789) war das Minimum für den Infanteristen in Frankreich 165 Centimeter; 1818 (Gesetz vom 10. März) 157, nach dem Gesetz vom 21. März 1832, 156 Centimeter; durchschnittlich in Frankreich wegen mangelnder Größe und Gebrechen über die Hälfte ausgemustert. Das Militärmaß war in Sachsen 1780: 178 Centimeter, jetzt 155. In Preußen ist es 157. Nach Angabe in der Bayrischen Zeitung vom 9. Mai 1862 von Dr. Meyer, stellt sich nach einem 9jährigen Durchschnitt heraus, daß in Preußen von 1000 Konskribirten 716 untauglich zum Militärdienst: 317 wegen Mindermaß und 399 wegen Gebrechen.... Berlin konnte 1858 sein Kontingent an Ersatz-Mannschaft nicht stellen, es fehlten 156 Mann.“ (J. v. Liebig: „Die Chemie in ihrer Anwendung auf Agrikultur und Physiologie. 1862. 7. Aufl.“ Band I, p. 117, 118.)
+
+[note-008] [MEGA p.215]
+47) Die Geschichte des Fabrikakts von 1850 folgt im Verlauf dieses Kapitels.
+
+[note-009] [MEGA p.215]
+48) Auf die Periode vom Beginn der großen Industrie in England bis 1845 gehe ich nur hier und da ein, und verweise den Leser darüber auf: „Die Lage der arbeitenden Klasse in England. Von Friedrich Engels. Leipzig 1845“. Wie tief Engels den Geist der kapitalistischen Produktionsweise begriff, zeigen die Factory Reports, Reports on Mines u. s. w., die seit 1845 erschienen sind, und wie bewundrungswürdig er die Zustände im Detail malte, zeigt der oberflächlichste Vergleich seiner Schrift mit den 18 bis 20 Jahre später veröffentlichten officiellen Reports der „Children’s Employment Commission“ (1863‒67). Diese handeln nämlich von Industriezweigen, worin die Fabrikgesetzgebung bis 1862 noch nicht eingeführt war, zum Theil noch nicht eingeführt ist. Hier wurde also den von Engels geschilderten Zuständen mehr oder minder große Aendrung nicht von außen aufgeherrscht. Meine Beispiele entlehne ich hauptsächlich der Freihandelsperiode nach 1848, jener paradiesischen Zeit, wovon eben so großmäulige als wissenschaftlich verwahrloste Freihandelshausirburschen den Deutschen so fabelhaft viel vorfauchen. ‒ Uebrigens figurirt England hier nur im Vordergrund, weil es die kapitalistische Produktion klassisch repräsentirt und allein eine officiell fortlaufende Statistik der behandelten Gegenstände besitzt.
+
+[note-010] [MEGA p.216]
+49) „Suggestions etc. by Mr. L. Horner, Inspector of Factories“, in: „Factories Regulation Acts. Ordered by the House of Commons to be printed 9. Aug. 1859“, p. 4, 5.
+
+[note-011] [MEGA p.216]
+50) „Reports of the Insp. of Fact. for the half year, Oct. 1856“, p. 35.
+
+[note-012] [MEGA p.216]
+51) „Reports etc. 30th April 1858“, p. 9, 10.
+
+[note-013] [MEGA p.216]
+52) „Reports etc.“ l. c. p. 10.
+
+[note-014] [MEGA p.217]
+53) „Reports etc.“ l. c. p. 25.
+
+[note-015] [MEGA p.217]
+54) „Reports etc. for the half year ending 30th April 1861“. Sieh Appendix No. 2; „Reports etc. 31st Octob. 1862“, p. 7, 52, 53. Die Ueberschreitungen werden wieder zahlreicher mit dem letzten Halbjahr 1863. Vgl. „Reports etc. ending 31st Oct. 1863“, p. 7.
+
+[note-016] [MEGA p.217]
+55) „Reports etc. 31st Oct. 1860“, p. 23. Mit welchem Fanatismus, nach gerichtlichen Aussagen der Fabrikanten, ihre Fabrikhände sich jeder Unterbrechung der Fabrikarbeit widersetzen, zeige folgendes Kuriosum: Anfang Juni 1836 gingen den Magistrates von Dewsbury (Yorkshire) Denunciationen zu, wonach die Eigner von 8 großen Fabriken in der Nähe von Batley den Fabrikakt verletzt hätten. Ein Theil dieser Herren war angeklagt, 5 Knaben zwischen 12 und 15 Jahren von 6 Uhr Morgens des Freitags bis 4 Uhr Nachmittag des folgenden Samstags abgearbeitet zu haben, ohne irgend eine Erholung zu gestatten, außer für Mahlzeiten und Eine Stunde Schlaf um Mitternacht. Und diese Kinder hatten die rastlose, 30stündige Arbeit zu verrichten in dem „shoddy-hole“, wie die Höhle heißt, worin Wollenlumpen aufgerissen werden und wo ein Luftmeer von Staub, Abfällen u. s. w. selbst den erwachsnen Arbeiter zwingt, den Mund beständig mit Schnupftüchern zu verbinden, zum Schutz seiner Lunge! Die Herren Angeklagten versicherten an Eidesstatt ‒ als Quäker waren sie zu skrupulös religiöse Männer einen Eid zu leisten, ‒ sie hätten in ihrer großen Barmherzigkeit den elenden Kindern 4 Stunden Schlaf erlaubt, aber die Starrköpfe von Kindern wollten durchaus nicht zu Bett gehn! Die Herrn Quäker wurden zu 20 Pfd. St. Geldbuße verurtheilt. Dryden ahnte diese Quäker: “Fox full fraught in seeming sanctity, That feared an oath, but like the devil would lie, That look’d like Lent, and had the holy leer, And durst not sin! before he said his prayer!”
+
+[note-017] [MEGA p.217]
+56) „Rep. etc. 31. Oct. 1856“ p. 34.

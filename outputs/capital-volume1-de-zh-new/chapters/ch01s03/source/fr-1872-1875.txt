@@ -1,0 +1,358 @@
+# III Forme de la valeur.
+
+Source: Wikisource human-corrected transcription of the 1872–1875 French edition.
+Source file: fr-1872-1875.wikisource.html
+
+[fr-ch01-s03-p0001] [French ed. p.18]
+Les marchandises viennent au monde sous la forme de valeurs d’usage ou de matières marchandes, telles que fer, toile, laine, etc. C’est là tout bonnement leur forme naturelle. Cependant elles ne sont marchandises que parce qu’elles sont deux choses à la fois, objets d’utilité et porte-valeur. Elles ne peuvent donc entrer dans la circulation qu’autant qu’elles se présentent sous une double forme, leur forme de nature et leur forme de valeur [ 16 ].
+
+[fr-ch01-s03-p0002] [French ed. p.18]
+La réalité que possède la valeur de la marchandise, diffère en ceci de l’amie de Falstaff, la veuve l’Éveillé, qu’on ne sait où la prendre. Par un contraste des plus criants avec la grossièreté du corps de la marchandise, il n’est pas un atome de matière qui pénètre dans sa valeur. On peut donc tourner et retourner à volonté une marchandise prise à part; en tant qu’objet de valeur, elle reste insaisissable. Si l’on se souvient cependant que les valeurs des marchandises n’ont qu’une réalité purement sociale, qu’elles ne l’acquièrent qu’en tant qu’elles sont des expressions de la même unité sociale, du travail humain, il devient évident que cette réalité sociale ne peut se manifester aussi que dans les transactions sociales, dans les rapports des marchandises les unes avec les autres. En fait, nous sommes partis de la valeur d’échange ou du rapport d’échange des marchandises pour trouver les traces de leur valeur qui y est cachée. Il nous faut revenir maintenant à cette forme sous laquelle la valeur nous est d’abord apparue.
+
+[fr-ch01-s03-p0003] [French ed. p.19]
+Chacun sait, lors même qu’il ne sait rien autre chose, que les marchandises possèdent une forme valeur particulière qui contraste de la manière la plus éclatante avec leurs formes naturelles diverses: la forme monnaie. Il s’agit maintenant de faire ce que l’économie bourgeoise n’a jamais essayé; il s’agit de fournir la genèse de la forme monnaie, c’est-à-dire de développer l’expression de la valeur contenue dans le rapport de valeur des marchandises depuis son ébauche la plus simple et la moins apparente jusqu’à cette forme monnaie qui saute aux yeux de tout le monde. En même temps sera résolue et disparaîtra l’énigme de la monnaie.
+
+[fr-ch01-s03-p0004] [French ed. p.19]
+En général les marchandises n’ont pas d’autre rapport entre elles qu’un rapport de valeur, et le rapport de valeur le plus simple est évidemment celui d’une marchandise avec une autre marchandise d’espèce différente, n’importe laquelle. Le rapport de valeur ou d’échange de deux marchandises fournit donc pour une marchandise l’expression de valeur la plus simple.
+
+[fr-ch01-s03-p0005] [French ed. p.19]
+A. Forme simple ou accidentelle de la valeur.
+
+[fr-ch01-s03-p0006] [French ed. p.19]
+x marchandise A = y marchandise B, ou x marchandise A vaut y marchandise B.
+
+[fr-ch01-s03-p0007] [French ed. p.19]
+(20 mètres de toile = 1 habit, ou 20 mètres de toile ont la valeur d’un habit.)
+
+[fr-ch01-s03-p0008] [French ed. p.19]
+Le mystère de toute forme de valeur gît dans cette forme simple. Aussi c’est dans son analyse que se trouve la difficulté.
+
+[fr-ch01-s03-p0009] [French ed. p.19]
+a) Les deux pôles de l’expression de la valeur: sa forme relative et sa forme équivalent.
+
+[fr-ch01-s03-p0010] [French ed. p.19]
+Deux marchandises différentes A et B, et, dans l’exemple que nous avons choisi, la toile et l’habit, jouent ici évidemment deux rôles distincts. La toile exprime sa valeur dans l’habit et celui-ci sert de matière à cette expression. La première marchandise joue un rôle actif, la seconde un rôle passif. La valeur de la première est exposée comme valeur relative, la seconde marchandise fonctionne comme équivalent.
+
+[fr-ch01-s03-p0011] [French ed. p.19]
+La forme relative et la forme équivalente sont deux aspects corrélatifs, inséparables, mais en même temps des extrêmes opposés, exclusifs l’un de l’autre, c’est-à-dire des pôles de la même expression de la valeur. Ils se distribuent toujours entre les diverses marchandises que cette expression met en rapport. Cette équation: 20 mètres de toile = 20 mètres de toile, exprime seulement que 20 mètres de toile ne sont pas autre chose que 20 mètres de toile, c’est-à-dire ne sont qu’une certaine somme d’une valeur d’usage. La valeur de la toile ne peut donc être exprimée que dans une autre marchandise, c’est-à-dire relativement. Cela suppose que cette autre marchandise se trouve en face d’elle sous forme d’équivalent. D’un autre côté, la marchandise qui figure comme équivalent ne peut se trouver à la fois sous forme de valeur relative. Elle n’exprime pas sa valeur, mais fournit seulement la matière pour l’expression de la valeur de la première marchandise.
+
+[fr-ch01-s03-p0012] [French ed. p.19]
+L’expression: 20 mètres de toile = un habit ou: 20 mètres de toile valent un habit, renferme, il est vrai, la réciproque: 1 habit = 20 mètres de toile ou: 1 habit vaut 20 mètres de toile. Mais il me faut alors renverser l’équation pour exprimer relativement la valeur de l’habit, et dès que je le fais, la toile devient équivalent à sa place. Une même marchandise ne peut donc revêtir simultanément ces deux formes dans la même expression de la valeur. Ces deux formes s’excluent polariquement.
+
+[fr-ch01-s03-p0013] [French ed. p.19]
+b) La forme relative de la valeur.
+
+[fr-ch01-s03-p0014] [French ed. p.19]
+1) Contenu de cette forme
+
+[fr-ch01-s03-p0015] [French ed. p.19]
+Pour trouver comment l’expression simple de la valeur d’une marchandise est contenue dans le rapport de valeur de deux marchandises, il faut d’abord l’examiner, abstraction faite de son côté quantitatif. C’est le contraire qu’on fait en général en envisageant dans le rapport de valeur exclusivement la proportion dans laquelle des quantités déterminées de deux sortes de marchandises sont dites égales entre elles. On oublie que des choses différentes ne peuvent être comparées quantitativement qu’après avoir été ramenées à la même unité. Alors seulement elles ont le même dénominateur et deviennent commensurables.
+
+[fr-ch01-s03-p0016] [French ed. p.19]
+Que 20 mètres de toile = 1 habit, ou = 20, ou = x habits, c’est-à-dire qu’une quantité donnée de toile vaille plus ou moins d’habits, une proportion de ce genre implique toujours que l’habit et la toile, comme grandeurs de valeur, sont des expressions de la même unité. Toile = habit, voilà le fondement de l’équation.
+
+[fr-ch01-s03-p0017] [French ed. p.19]
+Mais les deux marchandises dont la qualité égale, l’essence identique, est ainsi affirmée, n’y jouent pas le même rôle. Ce n’est que la valeur de la toile qui s’y trouve exprimée: Et comment? En la comparant à une marchandise d’une espèce différente, l’habit, comme son équivalent, c’est-à-dire une chose qui peut la remplacer ou est échangeable avec elle. Il est d’abord évident que l’habit entre dans ce rapport exclusivement comme forme d’existence de la valeur, car ce n’est qu’en exprimant de la valeur qu’il peut figurer comme valeur vis-à-vis d’une autre marchandise. De l’autre côté, le propre valoir de la toile se montre ici ou acquiert une expression distincte. En effet, la valeur habit pourrait-elle être mise en équation avec la toile ou lui servir d’équivalent, si celle-ci n’était pas elle-même valeur?
+
+[fr-ch01-s03-p0018] [French ed. p.19]
+Empruntons une analogie à la chimie. L’acide butyrique et le formiate de propyle sont deux corps qui diffèrent d’apparence aussi bien que de qualités physiques et chimiques. Néanmoins ils contiennent les mêmes éléments: carbone, hydrogène et oxygène. En outre, ils les contiennent dans la même proportion de C 4 H 8 O 2. Maintenant si on mettait le formiate de propyle en équation avec l’acide butyrique ou si on en faisait l’équivalent, le formiate de propyle ne figurerait dans ce rapport que comme forme d’existence de C 4 H 8 O 2, c’est-à-dire de la substance qui lui est commune avec l’acide. Une équation où le formiate de propyle jouerait le rôle d’équivalent de l’acide butyrique serait donc une manière un peu gauche d’exprimer la substance de l’acide comme quelque chose de tout à fait dictinct de sa forme corporelle.
+
+[fr-ch01-s03-p0019] [French ed. p.20]
+Si nous disons: en tant que valeurs toutes les marchandises ne sont que du travail humain cristallisé, nous les ramenons par notre analyse à l’abstraction valeur, mais avant comme après elles ne possèdent qu’une seule forme, leur forme naturelle d’objets utiles. Il en est tout autrement dès qu’une marchandise est mise en rapport de valeur avec une autre marchandise. Dès ce moment son caractère de valeur ressort et s’affirme comme sa propriété inhérente qui détermine sa relation avec l’autre marchandise.
+
+[fr-ch01-s03-p0020] [French ed. p.20]
+L’habit étant posé l’équivalent de la toile, le travail contenu dans l’habit est affirmé être identique avec le travail contenu dans la toile. Il est vrai que la taille se distingue du tissage. Mais son équation, avec le tissage la ramène par le fait à ce qu’elle a de réellement commun avec lui, à son caractère de travail humain. C’est une manière détournée d’exprimer que le tissage, en tant qu’il tisse de la valeur, ne se distingue en rien de la taille des vêtements, c’est-à-dire est du travail humain abstrait. Cette équation exprime donc le caractère spécifique du travail qui constitue la valeur de la toile.
+
+[fr-ch01-s03-p0021] [French ed. p.20]
+Il ne suffit pas cependant d’exprimer le caractère spécifique du travail qui fait la valeur de la toile. La force de travail de l’homme à l’état fluide ou le travail humain forme bien de la valeur, mais n’est pas valeur. Il ne devient valeur qu’à l’état coagulé sous la forme d’un objet. Ainsi les conditions qu’il faut remplir pour exprimer la valeur de la toile paraissent se contredire elles-mêmes. D’un côté il faut la représenter comme une pure condensation du travail humain abstrait, car en tant que valeur la marchandise n’a pas d’autre réalité. En même temps cette condensation doit revêtir la forme d’un objet visiblement distinct de la toile elle-même et qui, tout en lui appartenant, lui soit commune avec une autre marchandise. Ce problème est déjà résolu.
+
+[fr-ch01-s03-p0022] [French ed. p.20]
+En effet, nous avons vu que dès qu’il est posé comme équivalent, l’habit n’a plus besoin de passeport pour constater son caractère de valeur. Dans ce rôle sa propre forme d’existence devient une forme d’existence de la valeur; cependant l’habit, le corps de la marchandise habit, n’est qu’une simple valeur d’usage; un habit exprime aussi peu de valeur que le premier morceau de toile venu. Cela prouve tout simplement que dans le rapport de valeur de la toile il signifie plus qu’en dehors de ce rapport; de même que maint personnage important dans un costume galonné devient tout à fait insignifiant si les galons lui manquent.
+
+[fr-ch01-s03-p0023] [French ed. p.20]
+Dans la production de l’habit, de la force humaine a été dépensée en fait sous une forme particulière. Du travail humain est donc accumulé en lui. À ce point de vue, l’habit est porte-valeur, bien qu’il ne laisse pas percer cette qualité à travers la transparence de ses fils, si râpé qu’il soit. Et, dans le rapport de valeur de la toile, il ne signifie pas autre chose. Malgré son extérieur si bien boutonné, la toile a reconnu en lui une âme sœur pleine de valeur. C’est le côté platonique de l’affaire. En réalité l’habit ne peut point représenter dans ses relations extérieures la valeur, sans que la valeur prenne en même temps l’aspect d’un habit. C’est ainsi que le particulier A ne saurait représenter pour l’individu B une majesté, sans que la majesté aux yeux de B revête immédiatement et la figure et le corps de A; c’est pour cela probablement qu’elle change avec chaque nouveau père du peuple, de visage, de cheveux et de mainte autre chose.
+
+[fr-ch01-s03-p0024] [French ed. p.20]
+Le rapport qui fait de l’habit l’équivalent de la toile, métamorphose donc la forme habit en forme valeur de la toile ou exprime la valeur de la toile dans la valeur d’usage de l’habit. En tant que valeur d’usage, la toile est un objet sensiblement différent de l’habit; en tant que valeur, elle est chose égale à l’habit et en a l’aspect, comme cela est clairement prouvé par l’équivalence de l’habit avec elle. Sa propriété de valoir apparaît dans son égalité avec l’habit, comme la nature moutonnière du chrétien dans sa ressemblance avec l’agneau de Dieu.
+
+[fr-ch01-s03-p0025] [French ed. p.20]
+Comme on le voit, tout ce que l’analyse de la valeur nous avait révélé auparavant, la toile elle-même le dit, dès qu’elle entre en société avec une autre marchandise, l’habit. Seulement elle ne trahit ses pensées que dans le langage qui lui est familier, le langage des marchandises. Pour exprimer que sa valeur vient du travail humain, dans sa propriété abstraite, elle dit que l’habit en tant qu’il vaut autant qu’elle, c’est-à-dire est valeur, se compose du même travail qu’elle-même. Pour exprimer que sa réalité sublime comme valeur est distincte de son corps raide et filamenteux, elle dit que la valeur a l’aspect d’un habit, et que par conséquent elle-même, comme chose valable, ressemble à l’habit, comme un œuf à un autre. Remarquons en passant que la langue des marchandises possède, outre l’hébreu, beaucoup d’autres dialectes et patois plus ou moins corrects. Le mot allemand « Werthsein, » par exemple, exprime moins nettement que le verbe roman Valere, valer, et le français valoir, que l’affirmation de l’équivalence de la marchandise B avec la marchandise A est l’expression propre de la valeur de cette dernière. Paris vaut bien une messe.
+
+[fr-ch01-s03-p0026] [French ed. p.20]
+En vertu du rapport de valeur, la forme naturelle de la marchandise B devient la forme de valeur de la marchandise A, ou bien le corps de B devient pour A le miroir de sa valeur [ 17 ]. La valeur de la marchandise A ainsi exprimée dans la valeur d’usage de la marchandise B, acquiert la forme de valeur relative.
+
+[fr-ch01-s03-p0027] [French ed. p.20]
+2) Détermination quantitative de la valeur relative.
+
+[fr-ch01-s03-p0028] [French ed. p.20]
+Toute marchandise, dont la valeur doit être exprimée, est un certain quantum d’une chose utile, par exemple: 15 boisseaux de froment, 100 livres de café, etc., qui contient un quantum déterminé de travail. La forme de la valeur a donc à exprimer non-seulement de la valeur en général, mais une valeur d’une certaine grandeur. Dans le rapport de valeur de la marchandise A avec la marchandise B, non-seulement la marchandise B est déclarée égale à A au point de vue de la qualité, mais encore un certain quantum de B équivaut au quantum donné de A.
+
+[fr-ch01-s03-p0029] [French ed. p.21]
+L’équation: 20 mètres de toile = 1 habit, ou 20 mètres de toile valent un habit, suppose que les deux marchandises coûtent autant de travail l’une que l’autre, ou se produisent dans le même temps; mais ce temps varie pour chacune d’elles avec chaque variation de la force productive du travail qui la crée. Examinons maintenant l’influence de ces variations sur l’expression relative de la grandeur de valeur.
+
+[fr-ch01-s03-p0030] [French ed. p.21]
+I. Que la valeur de la toile change pendant que la valeur de l’habit reste constante [ 18 ]. — Le temps de travail nécessaire à sa production double-t-il, par suite, je suppose, d’un moindre rendement du sol qui fournit le lin, alors sa valeur double. Au lieu de 20 mètres de toile = 1 habit, nous aurions: 20 mètres de toile = 2 habits, parce que 1 habit contient maintenant moitié moins de travail. Le temps nécessaire à la production de la toile diminue-t-il au contraire de moitié par suite d’un perfectionnement apporté aux métiers à tisser, sa valeur diminue dans la même proportion. Dès lors 20 mètres de toile = 1/2 habit. La valeur relative de la marchandise A, c’est-à-dire sa valeur exprimée dans la marchandise B, hausse ou baisse par conséquent en raison directe de la valeur de la marchandise A si celle de la marchandise B reste constante.
+
+[fr-ch01-s03-p0031] [French ed. p.21]
+II. Que la valeur de la toile reste constante pendant que la valeur de l’habit varie. — Le temps nécessaire à la production de l’habit double-t-il dans ces circonstances, par suite, je suppose, d’une tonte de laine peu favorable, au lieu de 20 mètres de toile = 1 habit, nous avons maintenant 20 mètres de toile = 1/2 habit. La valeur de l’habit tombe-t-elle au contraire de moitié, alors 20 mètres de toile = 2 habits. La valeur de la marchandise A demeurant constante, on voit que sa valeur relative exprimée dans la marchandise B hausse ou baisse en raison inverse du changement de valeur de B.
+
+[fr-ch01-s03-p0032] [French ed. p.21]
+Si l’on compare les cas divers compris dans I et II, il est manifeste que le même changement de grandeur de la valeur relative peut résulter de causes tout opposées. Ainsi l’équation: 20 mètres de toile = 1 habit devient: 20 mètres de toile = 2 habits, soit parce que la valeur de la toile double ou que la valeur des habits diminue de moitié, et 20 mètres de toile = 1/2 habit, soit parce que la valeur de la toile diminue de moitié ou que la valeur de l’habit devient double.
+
+[fr-ch01-s03-p0033] [French ed. p.21]
+III. Les quantités de travail nécessaires à la production de la toile et de l’habit changent-elles simultanément? dans le même sens et dans la même proportion? Dans ce cas, 20 mètres de toile = 1 habit comme auparavant, quels que soient leurs changements de valeur. On découvre ces changements par comparaison avec une troisième marchandise dont la valeur reste la même. Si les valeurs de toutes les marchandises augmentaient ou diminuaient simultanément et dans la même proportion, leurs valeurs relatives n’éprouveraient aucune variation. Leur changement réel de valeur se reconnaîtrait à ce que dans un même temps de travail il serait maintenant livré en général une quantité de marchandises plus ou moins grande qu’auparavant.
+
+[fr-ch01-s03-p0034] [French ed. p.21]
+IV. Les temps de travail nécessaires à la production et de la toile et de l’habit, ainsi que leurs valeurs, peuvent simultanément changer dans le même sens, mais à un degré différent, ou dans un sens opposé, etc. L’influence de toute combinaison possible de ce genre sur la valeur relative d’une marchandise, se calcule facilement par l’emploi des cas I, II et III.
+
+[fr-ch01-s03-p0035] [French ed. p.21]
+Les changements réels dans la grandeur de la valeur ne se reflètent point, comme on le voit, ni clairement ni complétement dans leur expression relative. La valeur relative d’une marchandise peut changer, bien que sa valeur reste constante; elle peut rester constante, bien que sa valeur change, et enfin des changements dans la quantité de valeur et dans son expression relative peuvent être simultanés sans correspondre exactement [ 19 ].
+
+[fr-ch01-s03-p0036] [French ed. p.21]
+c) La forme d’équivalent et ses particularités.
+
+[fr-ch01-s03-p0037] [French ed. p.21]
+On l’a déjà vu: En même temps qu’une marchandise A (la toile) exprime sa valeur dans la valeur d’usage d’une marchandise différente B (l’habit), elle imprime à cette dernière une forme particulière de valeur, celle d’équivalent. La toile manifeste son propre caractère de valeur par un rapport dans lequel une autre marchandise, l’habit, tel qu’il est dans sa forme naturelle, lui fait équation. Elle exprime donc qu’elle-même vaut quelque chose, par ce fait qu’une autre marchandise, l’habit, est immédiatement échangeable avec elle.
+
+[fr-ch01-s03-p0038] [French ed. p.21]
+En tant que valeurs toutes les marchandises sont des expressions égales d’une même unité, le travail humain, remplaçables les unes par les autres. Une marchandise est par conséquent échangeable avec une autre marchandise, dès qu’elle possède une forme, qui l’a fait apparaître comme valeur.
+
+[fr-ch01-s03-p0039] [French ed. p.21]
+Une marchandise est immédiatement échangeable avec toute autre dont elle est l’équivalent, c’est-à-dire: la place qu’elle occupe dans le rapport de valeur, fait de sa forme naturelle la forme valeur de l’autre marchandise. Elle n’a pas besoin de revêtir une forme différente de sa forme naturelle pour se manifester comme valeur à l’autre marchandise, pour valoir comme telle et par conséquent pour être échangeable avec elle. La forme d’équivalent est donc pour une marchandise la forme sous laquelle elle est immédiatement échangeable avec une autre.
+
+[fr-ch01-s03-p0040] [French ed. p.22]
+Quand une marchandise, comme des habits, par exemple, sert d’équivalent à une autre marchandise, telle que la toile, et acquiert ainsi la propriété caractéristique d’être immédiatement échangeable avec celle-ci, la proportion n’est pas le moins du monde donnée dans laquelle cet échange peut s’effectuer. Comme la quantité de valeur de la toile est donnée, cela dépendra de la quantité de valeur des habits. Que dans le rapport de valeur, l’habit figure comme équivalent et la toile comme valeur relative, ou que ce soit l’inverse, la proportion, dans laquelle se fait l’échange, reste la même. La quantité de valeur respective des deux marchandises, mesurée par la durée comparative du travail nécessaire à leur production, est par conséquent une détermination tout à fait indépendante de la forme de valeur.
+
+[fr-ch01-s03-p0041] [French ed. p.22]
+La marchandise dont la valeur se trouve sous la forme relative est toujours exprimée comme quantité de valeur, tandis qu’au contraire il n’en est jamais ainsi de l’ équivalent qui figure toujours dans l’équation comme simple quantité d’une chose utile. 40 mètres de toile, par exemple, valent — quoi? 2 habits. La marchandise habit jouant ici le rôle d’équivalent, donnant ainsi un corps à la valeur de la toile, il suffit d’un certain quantum d’habits pour exprimer le quantum de valeur qui appartient à la toile. Donc 2 habits peuvent exprimer la quantité de valeur de 40 mètres de toile, mais non la leur propre. L’observation superficielle de ce fait, que dans l’équation de la valeur, l’équivalent ne figure jamais que comme simple quantum d’un objet d’utilité, a induit en erreur S. Bailey ainsi que beaucoup d’économistes avant et après lui. Ils n’ont vu dans l’expression de la valeur qu’un rapport de quantité. Or sous la forme d’équivalent une marchandise figure comme simple quantité d’une matière quelconque précisément parce que la quantité de sa valeur n’est pas exprimée.
+
+[fr-ch01-s03-p0042] [French ed. p.22]
+Les contradictions que renferme la forme d’équivalent exigent maintenant un examen plus approfondi de ses particularités.
+
+[fr-ch01-s03-p0043] [French ed. p.22]
+Première particularité de la forme d’équivalent:
+
+[fr-ch01-s03-p0044] [French ed. p.22]
+La valeur d’usage devient la forme de manifestation de son contraire, la valeur.
+
+[fr-ch01-s03-p0045] [French ed. p.22]
+La forme naturelle des marchandises devient leur forme de valeur. Mais, en fait, ce quid pro quo n’a lieu pour une marchandise B (habit, froment, fer, etc.) que dans les limites du rapport de valeur, dans lequel une autre marchandise A (toile, etc.) entre avec elle, et seulement dans ces limites. Considéré isolément, l’habit, par exemple, n’est qu’un objet d’utilité, une valeur d’usage, absolument comme la toile; sa forme n’est que la forme naturelle d’un genre particulier de marchandise. Mais comme aucune marchandise ne peut se rapporter à elle-même comme équivalent, ni faire de sa forme naturelle la forme de sa propre valeur, elle doit nécessairement prendre pour équivalent une autre marchandise dont la valeur d’usage lui sert ainsi de forme valeur.
+
+[fr-ch01-s03-p0046] [French ed. p.22]
+Une mesure appliquée aux marchandises en tant que matières, c’est-à-dire en tant que valeurs d’usage, va nous servir d’exemple pour mettre ce qui précède directement sous les yeux du lecteur. Un pain de sucre, puisqu’il est un corps, est pesant et par conséquent a du poids; mais il est impossible de voir ou de sentir ce poids rien qu’à l’apparence. Nous prenons maintenant divers morceaux de fer de poids connu. La forme matérielle du fer, considérée en elle-même, est aussi peu une forme de manifestation de la pesanteur que celle du pain de sucre. Cependant pour exprimer que ce dernier est pesant, nous le plaçons en un rapport de poids avec le fer. Dans ce rapport le fer est considéré comme un corps qui ne représente rien que de la pesanteur. Des quantités de fer employées pour mesurer le poids du sucre, représentent donc vis-à-vis de la matière sucre une simple forme, la forme sous laquelle la pesanteur se manifeste. Le fer ne peut jouer ce rôle qu’autant que le sucre ou n’importe quel autre corps, dont le poids doit être trouvé, est mis en rapport avec lui à ce point de vue. Si les deux objets n’étaient pas pesants, aucun rapport de cette espèce ne serait possible entre eux, et l’un ne pourrait point servir d’expression à la pesanteur de l’autre. Jetons-les tous deux dans la balance et nous voyons en fait qu’ils sont la même chose comme pesanteur, et que par conséquent dans une certaine proportion ils sont aussi du même poids. De même que le corps fer, comme mesure de poids, vis-à-vis du pain de sucre ne représente que pesanteur, de même dans notre expression de valeur, le corps habit vis-à-vis de la toile ne représente que valeur.
+
+[fr-ch01-s03-p0047] [French ed. p.22]
+Ici cependant cesse l’analogie. Dans l’expression de poids du pain de sucre, le fer représente une qualité naturelle commune aux deux corps, leur pesanteur, tandis que dans l’expression de valeur de la toile, le corps habit représente une qualité surnaturelle des deux objets, leur valeur, un caractère d’empreinte purement sociale.
+
+[fr-ch01-s03-p0048] [French ed. p.22]
+Du moment que la forme relative exprime la valeur d’une marchandise, de la toile, par exemple, comme quelque chose de complétement différent de son corps lui-même et de ses propriétés, comme quelque chose qui ressemble à un habit, par exemple, elle fait entendre que sous cette expression un rapport social est caché.
+
+[fr-ch01-s03-p0049] [French ed. p.23]
+C’est l’inverse qui a lieu avec la forme d’équivalent. Elle consiste précisément en ce que le corps d’une marchandise, un habit par exemple, en ce que cette chose telle quelle exprime de la valeur, et par conséquent possède naturellement forme de valeur. Il est vrai que ceci n’est juste qu’autant qu’une autre marchandise, comme la toile, se rapporte à elle comme équivalent [ 20 ]. Mais, de même que les propriétés matérielles d’une chose ne font que se confirmer dans ses rapports extérieurs avec d’autres choses au lieu d’en découler, de même l’habit semble tirer de la nature et non du rapport de valeur de la toile sa forme d’équivalent, sa propriété d’être immédiatement échangeable, au même titre que sa propriété d’être pesant ou de tenir chaud. De là le côté énigmatique de l’équivalent, côté qui ne frappe les yeux de l’économiste bourgeois que lorsque cette forme se montre à lui tout achevée, dans la monnaie. Pour dissiper ce caractère mystique de l’argent et de l’or, il cherche ensuite à les remplacer sournoisement par des marchandises moins éblouissantes; il fait et refait avec un plaisir toujours nouveau le catalogue de tous les articles qui, dans leur temps, ont joué le rôle d’équivalent. Il ne pressent pas que l’expression la plus simple de la valeur, telle que 20 mètres de toile valent un habit, contient déjà l’énigme et que c’est sous cette forme simple qu’il doit chercher à le résoudre.
+
+[fr-ch01-s03-p0050] [French ed. p.23]
+Deuxième particularité de la forme d’équivalent:
+
+[fr-ch01-s03-p0051] [French ed. p.23]
+Le travail concret devient la forme de manifestation de son contraire, le travail humain abstrait.
+
+[fr-ch01-s03-p0052] [French ed. p.23]
+Dans l’expression de la valeur d’une marchandise, le corps de l’équivalent figure toujours comme matérialisation du travail humain abstrait, et est toujours le produit d’un travail particulier, concret et utile. Ce travail concret ne sert donc ici qu’à exprimer du travail abstrait. Un habit, par exemple, est-il une simple réalisation, l’activité du tailleur qui se réalise en lui n’est aussi qu’une simple forme de réalisation du travail abstrait. Quand on exprime la valeur de la toile dans l’habit, l’utilité du travail du tailleur ne consiste pas en ce qu’il fait des habits et, selon le proverbe allemand, des hommes, mais en ce qu’il produit un corps, transparent de valeur, échantillon d’un travail qui ne se distingue en rien du travail réalisé dans la valeur de la toile. Pour pouvoir s’incorporer dans un tel miroir de valeur, il faut que le travail du tailleur ne reflète lui-même rien que sa propriété de travail humain.
+
+[fr-ch01-s03-p0053] [French ed. p.23]
+Les deux formes d’activité productive, tissage et confection de vêtements, exigent une dépense de force humaine. Toutes deux possèdent donc la propriété commune d’être du travail humain, et dans certains cas, comme, par exemple, lorsqu’il s’agit de la production de valeur, on ne doit les considérer qu’à ce point de vue. Il n’y a là rien de mystérieux; mais dans l’expression de valeur de la marchandise, la chose est prise au rebours. Pour exprimer, par exemple, que le tissage, non comme tel, mais en sa qualité de travail humain en général, forme la valeur de la toile, on lui oppose un autre travail, celui qui produit l’habit, l’équivalent de la toile, comme la forme expresse dans laquelle le travail humain se manifeste. Le travail du tailleur est ainsi métamorphosé en simple expression de sa propre qualité abstraite.
+
+[fr-ch01-s03-p0054] [French ed. p.23]
+Troisième particularité de la forme équivalent:
+
+[fr-ch01-s03-p0055] [French ed. p.23]
+Le travail concret qui produit l’équivalent, dans notre exemple, celui de tailleur, en servant simplement d’expression au travail humain indistinct, possède la forme de l’égalité avec un autre travail, celui que recèle la toile, et devient ainsi quoique travail privé, comme tout autre travail productif de marchandises, travail sous forme sociale immédiate. C’est pourquoi il se réalise par un produit qui est immédiatement échangeable avec une autre marchandise.
+
+[fr-ch01-s03-p0056] [French ed. p.23]
+Les deux particularités de la forme équivalent, examinées en dernier lieu, deviennent encore plus faciles à saisir, si nous remontons au grand penseur qui a analysé le premier la forme valeur, ainsi que tant d’autres formes, soit de la pensée, soit de la société, soit de la nature: nous avons nommé Aristote.
+
+[fr-ch01-s03-p0057] [French ed. p.23]
+D’abord Aristote exprime clairement que la forme argent de la marchandise n’est que l’aspect développé de la forme valeur simple, c’est-à-dire de l’expression de la valeur d’une marchandise dans une autre marchandise quelconque, car il dit:
+
+[fr-ch01-s03-p0058] [French ed. p.23]
+« 5 lits = 1 maison ( Κλίναι πέντε ἀντὶ οἰκίας ) ne diffère pas » de:
+
+[fr-ch01-s03-p0059] [French ed. p.23]
+« 5 lits = tant et tant d’argent. » ( Κλίναι πέντε ἀντὶ… ὅσου αἱ πέντε κλίναι. )
+
+[fr-ch01-s03-p0060] [French ed. p.23]
+Il voit de plus que le rapport de valeur qui contient cette expression de valeur suppose, de son côté, que la maison est déclarée égale au lit au point de vue de la qualité, et que ces objets, sensiblement différents, ne pourraient se comparer entre eux comme des grandeurs commensurables sans cette égalité d’essence. « L’échange, dit-il, ne peut avoir lieu sans l’égalité, ni l’égalité sans la commensurabilité » ( οὔτ’ἰσοτης μὴ οὔσης συμμετρίας ). Mais ici il hésite et renonce à l’analyse de la forme valeur. « Il est, ajoute-t-il, impossible en vérité ( τῇ μὲν οὖν ἀληθείᾳ ἀδύνατον ) que des choses si dissemblables soient commensurables entre elles, » c’est-à-dire de qualité égale. L’affirmation de leur égalité ne peut être que contraire à la nature des choses; « on y a seulement recours pour le besoin pratique. »
+
+[fr-ch01-s03-p0061] [French ed. p.23]
+Ainsi Aristote nous dit lui-même où son analyse vient échouer, — contre l’insuffisance de son concept de valeur. Quel est le « je ne sais quoi » d’égal, c’est-à-dire la substance commune que représente la maison pour le lit dans l’expression de la valeur de ce dernier? « Pareille chose, dit Aristote, ne peut en vérité exister. » Pourquoi? La maison représente vis-à-vis du lit quelque chose d’égal, en tant qu’elle représente ce qu’il y a de réellement égal dans tous les deux. Quoi donc? Le travail humain.
+
+[fr-ch01-s03-p0062] [French ed. p.23]
+Ce qui empêchait Aristote de lire dans la forme valeur des marchandises, que tous les travaux sont exprimés ici comme travail humain indistinct et par conséquent égaux, c’est que la société grecque reposait sur le travail des esclaves, et avait pour base naturelle l’inégalité des hommes et de leurs forces de travail. Le secret de l’expression de la valeur, l’égalité et l’équivalence de tous les travaux, parce que et en tant qu’ils sont du travail humain, ne peut être déchiffré que lorsque l’idée de l’égalité humaine a déjà acquis la ténacité d’un préjugé populaire. Mais ceci n’a lieu que dans une société où la forme marchandise est devenue la forme générale des produits du travail, où par conséquent le rapport des hommes entre eux comme producteurs et échangistes de marchandises est le rapport social dominant. Ce qui montre le génie d’Aristote, c’est qu’il a découvert dans l’expression de la valeur des marchandises un rapport d’égalité. L’état particulier de la société dans laquelle il vivait l’a seul empêché de trouver quel était le contenu réel de ce rapport.
+
+[fr-ch01-s03-p0063] [French ed. p.23]
+d) Ensemble de la forme valeur simple.
+
+[fr-ch01-s03-p0064] [French ed. p.24]
+La forme simple de la valeur d’une marchandise est contenue dans son rapport de valeur ou d’échange avec un seul autre genre de marchandise quel qu’il soit. La valeur de la marchandise A est exprimée qualitativement par la propriété de la marchandise B d’être immédiatement échangeable avec A. Elle est exprimée quantitativement par l’échange toujours possible d’un quantum déterminé de B avec le quantum donné de A. En d’autres termes, la valeur d’une marchandise est exprimée par cela seul qu’elle se pose comme valeur d’échange. Si donc au début de ce chapitre, pour suivre la manière de parler ordinaire, nous avons dit: la marchandise est valeur d’usage et valeur d’échange, pris à la lettre c’était faux. La marchandise est valeur d’usage ou objet d’utilité, et valeur. Elle se présente pour ce qu’elle est, chose double, dès que sa valeur possède une forme phénoménale propre, distincte de sa forme naturelle, celle de valeur d’échange; et elle ne possède jamais cette forme, si on la considère isolément. Dès qu’on sait cela, la vieille locution n’a plus de malice et sert pour l’abréviation.
+
+[fr-ch01-s03-p0065] [French ed. p.24]
+Il ressort de notre analyse que c’est de la nature de la valeur des marchandises que provient sa forme, et que ce n’est pas au contraire de la manière de les exprimer par un rapport d’échange que découlent la valeur et sa grandeur. C’est là pourtant l’erreur des mercantilistes et de leurs modernes zélateurs, les Ferrier, les Ganilh, etc. [ 21 ], aussi bien que de leurs antipodes, les commis voyageurs du libre échange, tels que Bastiat et consorts. Les mercantilistes appuient surtout sur le côté qualitatif de l’expression de la valeur, conséquemment sur la forme équivalent de la marchandise, réalisée à l’œil, dans la forme argent; les modernes champions du libre échange, au contraire, qui veulent se débarrasser à tout prix de leur marchandise, font ressortir exclusivement le côté quantitatif de la forme relative de la valeur. Pour eux il n’existe donc ni valeur ni grandeur de valeur en dehors de leur expression par le rapport d’échange, ce qui veut dire pratiquement en dehors de la cote quotidienne du prix courant. L’Écossais Mac Leod, qui s’est donné pour fonction d’habiller et d’orner d’un si grand luxe d’érudition le fouillis des préjugés économiques de Lombardstreet, — la rue des grands banquiers de Londres, — forme la synthèse réussie des mercantilistes superstitieux et des esprits forts du libre échange.
+
+[fr-ch01-s03-p0066] [French ed. p.24]
+Un examen attentif de l’expression de la valeur de A en B, a montré que dans ce rapport la forme naturelle de la marchandise A ne figure que comme forme de valeur d’usage, et la forme naturelle de la marchandise B que comme forme de valeur. L’opposition intime entre la valeur d’usage et la valeur d’une marchandise, se montre ainsi par le rapport de deux marchandises, rapport dans lequel A, dont la valeur doit être exprimée, ne se pose immédiatement que comme valeur d’usage, tandis que B au contraire, dans laquelle la valeur est exprimée, ne se pose immédiatement que comme valeur d’échange. La forme valeur simple d’une marchandise est donc la simple forme d’apparition des contrastes qu’elle recèle, c’est-à-dire de la valeur d’usage et de la valeur.
+
+[fr-ch01-s03-p0067] [French ed. p.24]
+Le produit du travail est dans n’importe quel état social valeur d’usage ou objet d’utilité; mais il n’y a qu’une époque déterminée dans le développement historique de la société, qui transforme généralement le produit du travail en marchandise, c’est celle où le travail dépensé dans la production des objets utiles revêt le caractère d’une qualité inhérente à ces choses, de leur valeur.
+
+[fr-ch01-s03-p0068] [French ed. p.24]
+Le produit du travail acquiert la forme marchandise, dès que sa valeur acquiert la forme de la valeur d’échange, opposée à sa forme naturelle; dès que par conséquent il est représenté comme l’unité dans laquelle se fondent ces contrastes. Il suit de là que la forme simple que revêt la valeur de la marchandise est aussi la forme primitive dans laquelle le produit du travail se présente comme marchandise et que le développement de la forme marchandise marche du même pas que celui de la forme valeur.
+
+[fr-ch01-s03-p0069] [French ed. p.24]
+À première vue on s’aperçoit de l’insuffisance de la forme valeur simple, ce germe qui doit subir une série de métamorphoses avant d’arriver à la forme prix.
+
+[fr-ch01-s03-p0070] [French ed. p.24]
+En effet, la forme simple ne fait que distinguer entre la valeur et la valeur d’usage d’une marchandise et la mettre en rapport d’échange avec une seule espèce de n’importe quelle autre marchandise, au lieu de représenter son égalité qualitative et sa proportionnalité quantitative avec toutes les marchandises. Dès que la valeur d’une marchandise est exprimée dans cette forme simple, une autre marchandise revêt de son côté la forme d’équivalent simple. Ainsi, par exemple, dans l’expression de la valeur relative de la toile, l’habit ne possède la forme équivalent, forme qui indique qu’il est immédiatement échangeable, que par rapport à une seule marchandise, la toile.
+
+[fr-ch01-s03-p0071] [French ed. p.24]
+Néanmoins la forme valeur simple passe d’elle-même à une forme plus complète. Elle n’exprime, il est vrai, la valeur d’une marchandise A que dans un seul autre genre de marchandise. Mais le genre de cette seconde marchandise peut être absolument tout ce qu’on voudra, habit, fer, froment, et ainsi de suite. Les expressions de la valeur d’une marchandise deviennent donc aussi variées que ses rapports de valeur avec d’autres marchandises. L’expression isolée de sa valeur se métamorphose ainsi en une série d’expressions simples que l’on peut prolonger à volonté.
+
+[fr-ch01-s03-p0072] [French ed. p.24]
+B. Forme valeur totale ou développée.
+
+[fr-ch01-s03-p0073] [French ed. p.24]
+z marchandise A = u marchandise B, ou = v marchandise C, ou = x marchandise E, ou = etc.
+
+[fr-ch01-s03-p0074] [French ed. p.24]
+20 mètres de toile = 1 habit, ou = 10 livres de thé, ou = 40 livres de café, ou = 2 onces d’or, ou = 1/2 tonne de fer, ou = etc.
+
+[fr-ch01-s03-p0075] [French ed. p.24]
+a. La forme développée de la valeur relative.
+
+[fr-ch01-s03-p0076] [French ed. p.25]
+La valeur d’une marchandise, de la toile, par exemple, est maintenant représentée dans d’autres éléments innombrables. Elle se reflète dans tout autre corps de marchandise comme en un miroir [ 22 ].
+
+[fr-ch01-s03-p0077] [French ed. p.25]
+Tout autre travail, quelle qu’en soit la forme naturelle, taille, ensemençage, extraction de fer ou d’or, etc., est maintenant affirmé égal au travail fixé dans la valeur de la toile qui manifeste ainsi son caractère de travail humain. La forme totale de la valeur relative met une marchandise en rapport social avec toutes. En même temps la série interminable de ses expressions démontre que la valeur des marchandises revêt indifféremment toute forme particulière de valeur d’usage.
+
+[fr-ch01-s03-p0078] [French ed. p.25]
+Dans la première forme: 20 mètres de toile = 1 habit, il peut sembler que ce soit par hasard que ces deux marchandises sont échangeables dans cette proportion déterminée.
+
+[fr-ch01-s03-p0079] [French ed. p.25]
+Dans la seconde forme, au contraire, on aperçoit immédiatement ce que cache cette apparence. La valeur de la toile reste la même, qu’on l’exprime en vêtements, en café, en fer, au moyen de marchandises sans nombre appartenant à des échangistes les plus divers. Il devient évident que ce n’est pas l’échange qui règle la quantité de valeur d’une marchandise, mais au contraire la quantité de valeur de la marchandise qui règle ses rapports d’échange.
+
+[fr-ch01-s03-p0080] [French ed. p.25]
+b) La forme équivalent particulière.
+
+[fr-ch01-s03-p0081] [French ed. p.25]
+Chaque marchandise, habit, froment, thé, fer, etc., sert d’équivalent dans l’expression de la valeur de la toile. La forme naturelle de chacune de ces marchandises est maintenant une forme équivalente particulière à côté de beaucoup d’autres. De même les genres variés de travaux utiles, contenus dans les divers corps de marchandises, représentent autant de formes particulières de réalisation ou de manifestation du travail humain pur et simple.
+
+[fr-ch01-s03-p0082] [French ed. p.25]
+c) Défauts de la forme valeur totale ou développée.
+
+[fr-ch01-s03-p0083] [French ed. p.25]
+D’abord l’expression relative de valeur est inachevée parce que la série de ses termes n’est jamais close. La chaîne dont chaque comparaison de valeur forme un des anneaux, peut s’allonger à volonté à mesure qu’une nouvelle espèce de marchandise fournit la matière d’une expression nouvelle. Si, de plus, comme cela doit se faire, on généralise cette forme en l’appliquant à tout genre de marchandise, on obtiendra, au bout du compte, autant de séries diverses et interminables d’ expressions de valeur qu’il y aura de marchandises. — Les défauts de la forme développée de la valeur relative se reflètent dans la forme équivalent qui lui correspond. Comme la forme naturelle de chaque espèce de marchandises fournit ici une forme équivalent particulière à côté d’autres en nombre infini, il n’existe en général que des formes équivalent fragmentaires, dont chacune exclut l’autre. De même le genre de travail utile, concret, contenu dans chaque équivalent, n’y présente qu’une forme particulière, c’est-à-dire une manifestation incomplète du travail humain. Ce travail possède bien, il est vrai, sa forme complète ou totale de manifestation dans l’ensemble de ses formes particulières. Mais l’unité de forme et d’expression fait défaut.
+
+[fr-ch01-s03-p0084] [French ed. p.25]
+La forme totale ou développée de la valeur relative ne consiste cependant qu’en une somme d’expressions relatives simples ou d’équations de la première forme telles que:
+
+[fr-ch01-s03-p0085] [French ed. p.25]
+20 mètres de toile = 1 habit,
+
+[fr-ch01-s03-p0086] [French ed. p.25]
+20 mètres de toile = 10 livres de thé, etc., dont chacune contient réciproquement l’équation identique:
+
+[fr-ch01-s03-p0087] [French ed. p.25]
+1 habit = 20 mètres de toile,
+
+[fr-ch01-s03-p0088] [French ed. p.25]
+10 livres de thé = 20 mètres de toile, etc.
+
+[fr-ch01-s03-p0089] [French ed. p.25]
+En fait: le possesseur de la toile l’échange-t-il contre beaucoup d’autres marchandises et exprime-t-il conséquemment sa valeur dans une série d’autant de termes, les possesseurs des autres marchandises doivent les échanger contre la toile et exprimer les valeurs de leurs marchandises diverses dans un seul et même terme, la toile. — Si donc nous retournons la série: 20 mètres de toile = 1 habit, ou = 10 livres de thé, ou = etc., c’est-à-dire si nous exprimons la réciproque qui y est déjà implicitement contenue, nous obtenons:
+
+[fr-ch01-s03-p0090] [French ed. p.25]
+a) Changement de caractère de la forme valeur.
+
+[fr-ch01-s03-p0091] [French ed. p.25]
+Les marchandises expriment maintenant leurs valeurs: 1 o d’une manière simple, parce qu’elles l’expriment dans une seule espèce de marchandise; 2 o avec ensemble, parce qu’elles l’expriment dans la même espèce de marchandises. Leur forme valeur est simple et commune, conséquemment générale.
+
+[fr-ch01-s03-p0092] [French ed. p.25]
+Les formes I et II ne parvenaient à exprimer la valeur d’une marchandise que comme quelque chose de distinct de sa propre valeur d’usage ou de sa propre matière. La première forme fournit des équations telles que celle-ci: 1 habit = 20 mètres de toile, 10 livres de thé = 1/2 tonne de fer, etc. La valeur de l’habit est exprimée comme quelque chose d’égal à la toile, la valeur du thé comme quelque chose d’égal au fer, etc.; mais ces expressions de la valeur de l’habit et du thé sont aussi différentes l’une de l’autre que la toile et le fer. Cette forme ne se présente évidemment dans la pratique qu’aux époques primitives où les produits du travail n’étaient transformés en marchandises que par des échanges accidentels et isolés.
+
+[fr-ch01-s03-p0093] [French ed. p.26]
+La seconde forme exprime plus complétement que la première la différence qui existe entre la valeur d’une marchandise, par exemple, d’un habit, et sa propre valeur d’usage. En effet, la valeur de l’habit y prend toutes les figures possibles vis-à-vis de sa forme naturelle; elle ressemble à la toile, au thé, au fer, à tout, excepté à l’habit. D’un autre côté, cette forme rend impossible toute expression commune de la valeur des marchandises, car, dans l’expression de valeur d’une marchandise quelconque, toutes les autres figurent comme ses équivalents, et sont par conséquent incapables d’exprimer leur propre valeur. Cette forme valeur développée se présente dans la réalité dès qu’un produit du travail, le bétail, par exemple, est échangé contre d’autres marchandises différentes, non plus par exception, mais déjà par habitude.
+
+[fr-ch01-s03-p0094] [French ed. p.26]
+Dans l’expression générale de la valeur relative, au contraire, chaque marchandise, telle qu’habit, café, fer, etc., possède une seule et même forme valeur, par exemple, la forme toile, différente de sa forme naturelle. En vertu de cette ressemblance avec la toile, la valeur de chaque marchandise est maintenant distincte non-seulement de sa propre valeur d’usage, mais encore de toutes les autres valeurs d’usage, et par cela même représentée comme le caractère commun et indistinct de toutes les marchandises. Cette forme est la première qui mette les marchandises en rapport entre elles comme valeurs, en les faisant apparaître l’une vis-à-vis de l’autre comme valeurs d’échange.
+
+[fr-ch01-s03-p0095] [French ed. p.26]
+Les deux premières formes expriment la valeur d’une marchandise quelconque, soit en une autre marchandise différente, soit en une série de beaucoup d’autres marchandises. Chaque fois c’est, pour ainsi dire, l’affaire particulière de chaque marchandise prise à part de se donner une forme valeur, et elle y parvient sans que les autres marchandises s’en mêlent. Celles-ci jouent vis-à-vis d’elle le rôle purement passif d’équivalent. La forme générale de la valeur relative ne se produit au contraire que comme l’œuvre commune des marchandises dans leur ensemble. Une marchandise n’acquiert son expression de valeur générale que parce que, en même temps, toutes les autres marchandises expriment leurs valeurs dans le même équivalent, et chaque espèce de marchandise nouvelle qui se présente doit faire de même. De plus, il devient évident que les marchandises qui, au point de vue de la valeur, sont des choses purement sociales, ne peuvent aussi exprimer cette existence sociale que par une série embrassant tous leurs rapports réciproques; que leur forme valeur doit, par conséquent, être une forme socialement validée.
+
+[fr-ch01-s03-p0096] [French ed. p.26]
+La forme naturelle de la marchandise qui devient l’équivalent commun, la toile, est maintenant la forme officielle des valeurs. C’est ainsi que les marchandises se montrent les unes aux autres non-seulement leur égalité qualitative, mais encore leurs différences quantitatives de valeur. Les quantités de valeur projetées comme sur un même miroir, la toile, se reflètent réciproquement.
+
+[fr-ch01-s03-p0097] [French ed. p.26]
+Exemple: 10 livres de thé = 20 mètres de toile, et 40 livres de café = 20 mètres de toile. Donc 10 livres de thé = 40 livres de café, ou bien il n’y a dans 1 livre de café que 1/4 du travail, contenu dans 1 livre de thé.
+
+[fr-ch01-s03-p0098] [French ed. p.26]
+La forme générale de la valeur relative embrassant le monde des marchandises imprime à la marchandise équivalent qui en est exclue le caractère d’équivalent général. La toile est maintenant immédiatement échangeable avec toutes les autres marchandises. Sa forme naturelle est donc en même temps sa forme sociale. Le tissage, le travail privé qui produit la toile, acquiert par cela même le caractère de travail social, la forme d’égalité avec tous les autres travaux. Les innombrables équations dont se compose la forme générale de la valeur identifient le travail réalisé dans la toile avec le travail contenu dans chaque marchandise qui lui est tour à tour comparée, et fait du tissage la forme générale dans laquelle se manifeste le travail humain. De cette manière le travail réalisé dans la valeur des marchandises n’est pas seulement représenté négativement, c’est-à-dire comme une abstraction où s’évanouissent les formes concrètes et les propriétés utiles du travail réel; sa nature positive s’affirme nettement. Elle est la réduction de tous les travaux réels à leur caractère commun de travail humain, de dépense de la même force humaine de travail.
+
+[fr-ch01-s03-p0099] [French ed. p.26]
+La forme générale de la valeur montre, par sa structure même, qu’elle est l’expression sociale du monde des marchandises. Elle révèle par conséquent que dans ce monde le caractère humain ou général du travail forme son caractère social spécifique.
+
+[fr-ch01-s03-p0100] [French ed. p.26]
+b) Rapport de développement de la forme valeur relative et de la forme équivalent.
+
+[fr-ch01-s03-p0101] [French ed. p.26]
+La forme équivalent se développe simultanément et graduellement avec la forme relative; mais, et c’est là ce qu’il faut bien remarquer, le développement de la première n’est que le résultat et l’expression du développement de la seconde. C’est de celle-ci que part l’initiative.
+
+[fr-ch01-s03-p0102] [French ed. p.26]
+La forme valeur relative simple ou isolée d’une marchandise suppose une autre marchandise quelconque comme équivalent accidentel. La forme développée de la valeur relative, cette expression de la valeur d’une marchandise dans toutes les autres, leur imprime à toutes la forme d’équivalents particuliers d’espèce différente. Enfin, une marchandise spécifique acquiert la forme d’équivalent général, parce que toutes les autres marchandises en font la matière de leur forme générale de valeur relative.
+
+[fr-ch01-s03-p0103] [French ed. p.26]
+À mesure cependant que la forme valeur en général se développe, se développe aussi l’opposition entre ses deux pôles, valeur relative et équivalent. De même la première forme valeur, 20 mètres de toile = 1 habit, contient cette opposition, mais ne la fixe pas. Dans cette équation, l’un des termes, la toile, se trouve sous la forme valeur relative, et le terme opposé, l’habit, sous forme équivalent. Si maintenant on lit à rebours cette équation, la toile et l’habit changent tout simplement de rôle, mais la forme de l’équation reste la même. Aussi est-il difficile de fixer ici l’opposition entre les deux termes.
+
+[fr-ch01-s03-p0104] [French ed. p.27]
+Sous la forme II, une espèce de marchandise peut développer complètement sa valeur relative, revêt la forme totale de la valeur relative, parce que, et en tant que toutes les autres marchandises se trouvent vis-à-vis d’elle sous la forme équivalent.
+
+[fr-ch01-s03-p0105] [French ed. p.27]
+Ici l’on ne peut déjà plus renverser les deux termes de l’équation sans changer complétement son caractère, et la faire passer de la forme valeur totale à la forme valeur générale.
+
+[fr-ch01-s03-p0106] [French ed. p.27]
+Enfin, la dernière forme, la forme III, donne à l’ensemble des marchandises une expression de valeur relative générale et uniforme, parce que et en tant qu’elle exclut de la forme équivalent toutes les marchandises, à l’exception d’une seule. Une marchandise, la toile, se trouve conséquemment sous forme d’échangeabilité immédiate avec toutes les autres marchandises, parce que et en tant que celles-ci ne s’y trouvent pas [ 23 ].
+
+[fr-ch01-s03-p0107] [French ed. p.27]
+Sous cette forme III, le monde des marchandises ne possède donc une forme valeur relative sociale et générale, que parce que toutes les marchandises qui en font partie sont exclues de la forme équivalent ou de la forme sous laquelle elles sont immédiatement échangeables. Par contre, la marchandise qui fonctionne comme équivalent général, la toile, par exemple, ne saurait prendre part à la forme générale de la valeur relative; il faudrait pour cela qu’elle pût se servir à elle-même d’équivalent. Nous obtenons alors: 20 mètres de toile = 20 mètres de toile, tautologie qui n’exprime ni valeur ni quantité de valeur. Pour exprimer la valeur relative de l’équivalent général, il nous faut lire à rebours la forme III. Il ne possède aucune forme relative commune avec les autres marchandises, mais sa valeur s’exprime relativement dans la série interminable de toutes les autres marchandises. La forme développée de la valeur relative, ou forme II, nous apparaît ainsi maintenant comme la forme spécifique dans laquelle l’équivalent général exprime sa propre valeur.
+
+[fr-ch01-s03-p0108] [French ed. p.27]
+c) Transition de la forme valeur générale à la forme argent.
+
+[fr-ch01-s03-p0109] [French ed. p.27]
+La forme équivalent général est une forme de la valeur en général. Elle peut donc appartenir à n’importe quelle marchandise. D’un autre côté, une marchandise ne peut se trouver sous cette forme (forme III), que parce qu’elle est exclue elle-même par toutes les autres marchandises comme équivalent. Ce n’est qu’à partir du moment où ce caractère exclusif vient s’attacher à un genre spécial de marchandise, que la forme valeur relative prend consistance, se fixe dans un objet unique, et acquiert une authenticité sociale.
+
+[fr-ch01-s03-p0110] [French ed. p.27]
+La marchandise spéciale avec la forme naturelle de laquelle la forme équivalent s’identifie peu à peu dans la société, devient marchandise monnaie ou fonctionne comme monnaie. Sa fonction sociale spécifique, et conséquemment son monopole social, est de jouer le rôle de l’équivalent universel dans le monde des marchandises. Parmi les marchandises qui, dans la forme II, figurent comme équivalents particuliers de la toile, et qui, sous la forme III, expriment ensemble dans la toile leur valeur relative, c’est l’or, qui a conquis historiquement ce privilège. Mettons donc dans la forme III la marchandise or à la place de la marchandise toile, et nous obtenons:
+
+[fr-ch01-s03-p0111] [French ed. p.27]
+Des changements essentiels ont lieu dans la transition de la forme I à la forme II, et de la forme II à la forme III. La forme IV, au contraire, ne diffère en rien de la forme III, si ce n’est que maintenant c’est l’or qui possède à la place de la toile la forme équivalent général. Le progrès consiste tout simplement en ce que la forme d’échangeabilité immédiate et universelle, ou la forme d’équivalent général, s’est incorporée définitivement dans la forme naturelle et spécifique de l’or.
+
+[fr-ch01-s03-p0112] [French ed. p.28]
+L’or ne joue le rôle de monnaie vis-à-vis des autres marchandises que parce qu’il jouait déjà auparavant vis-à-vis d’elles le rôle de marchandise. De même qu’elles toutes il fonctionnait aussi comme équivalent, soit accidentellement dans des échanges isolés, soit comme équivalent particulier à côté d’autres équivalents. Peu à peu il fonctionna dans des limites plus ou moins larges comme équivalent général. Dès qu’il a conquis le monopole de cette position dans l’expression de la valeur du monde marchand, il devient marchandise monnaie, et c’est seulement à partir du moment où il est déjà devenu marchandise monnaie, que la forme IV se distingue de la forme III, ou que la forme générale de valeur se métamorphose en forme monnaie ou argent.
+
+[fr-ch01-s03-p0113] [French ed. p.28]
+L’expression de valeur relative simple d’une marchandise, de la toile, par exemple, dans la marchandise qui fonctionne déjà comme monnaie, par exemple, l’or, est forme prix. La forme prix de la toile est donc:
+
+[fr-ch01-s03-p0114] [French ed. p.28]
+20 mètres de toile = 2 onces d’or, ou, si 2 liv. sterling sont le nom de monnaie de 2 onces d’or,
+
+[fr-ch01-s03-p0115] [French ed. p.28]
+20 mètres de toile = 2 liv. sterling.
+
+[fr-ch01-s03-p0116] [French ed. p.28]
+La difficulté dans le concept de la forme argent, c’est tout simplement de bien saisir la forme équivalent général, c’est-à-dire la forme valeur générale, la forme III. Celle-ci se résout dans la forme valeur développée, la forme II, et l’élément constituant de cette dernière est la forme I:
+
+[fr-ch01-s03-p0117] [French ed. p.28]
+20 mètres de toile = 1 habit, ou x marchandise A = y marchandise B.
+
+[fr-ch01-s03-p0118] [French ed. p.28]
+La forme simple de la marchandise est par conséquent le germe de la forme argent [ 25 ].

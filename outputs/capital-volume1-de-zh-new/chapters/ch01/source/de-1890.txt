@@ -1,0 +1,91 @@
+# 1) Die zwei Factoren der Waare: Gebrauchswerth und Werth (Werthsubstanz, Werthgröße).
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch01-s01-p0001] [MEGA p.37]
+Der Reichthum der Gesellschaften, in welchen kapitalistische Produktionsweise herrscht, erscheint als eine „ungeheure Waarensammlung“ 1), die einzelne Waare als seine Elementarform. Unsere Untersuchung beginnt daher mit der Analyse der Waare.
+
+[v1-ch01-s01-p0002] [MEGA p.37,38]
+Die Waare ist zunächst ein äußerer Gegenstand, ein Ding, das durch seine Eigenschaften menschliche Bedürfnisse irgend einer Art befriedigt. Die Natur dieser Bedürfnisse, ob sie z. B. dem Magen oder der Phantasie entspringen, ändert nichts an der Sache 2). Es handelt sich hier auch nicht darum, wie die Sache das menschliche Bedürfniß befriedigt, ob unmittelbar als Lebensmittel, d. h. als Gegenstand des Genusses, oder auf einem Umweg, als Produktionsmittel.
+
+[v1-ch01-s01-p0003] [MEGA p.38]
+Jedes nützliche Ding, wie Eisen, Papier u. s. w., ist unter doppeltem Gesichtspunkt zu betrachten, nach Qualität und Quantität. Jedes solches Ding ist ein Ganzes vieler Eigenschaften und kann daher nach verschiedenen Seiten nützlich sein. Diese verschiedenen Seiten und daher die mannigfachen Gebrauchsweisen der Dinge zu entdecken, ist geschichtliche That 3). So die Findung gesellschaftlicher Maße für die Quantität der nützlichen Dinge. Die Verschiedenheit der Waarenmaße entspringt theils aus der verschiedenen Natur der zu messenden Gegenstände, theils aus Konvention.
+
+[v1-ch01-s01-p0004] [MEGA p.38]
+Die Nützlichkeit eines Dings macht es zum Gebrauchswerth 4). Aber diese Nützlichkeit schwebt nicht in der Luft. Durch die Eigenschaften des Waarenkörpers bedingt, existirt sie nicht ohne denselben. Der Waarenkörper selbst, wie Eisen, Weizen, Diamant u. s. w. ist daher ein Gebrauchswerth oder Gut. Dieser sein Charakter hängt nicht davon ab, ob die Aneignung seiner Gebrauchseigenschaften dem Menschen viel oder wenig Arbeit kostet. Bei Betrachtung der Gebrauchswerthe wird stets ihre quantitative Bestimmtheit vorausgesetzt, wie Dutzend Uhren, Elle Leinwand, Tonne Eisen u. s. w. Die Gebrauchswerthe der Waaren liefern das Material einer eignen Disciplin, der Waarenkunde 5). Der Gebrauchswerth verwirklicht sich nur im Gebrauch oder der Konsumtion. Gebrauchswerthe bilden den stofflichen Inhalt des Reichthums, welches immer seine gesellschaftliche Form sei. In der von uns zu betrachtenden Gesellschaftsform bilden sie zugleich die stofflichen Träger des ‒ Tauschwerths.
+
+[v1-ch01-s01-p0005] [MEGA p.38,39]
+Der Tauschwerth erscheint zunächst als das quantitative Verhältniß, die Proportion, worin sich Gebrauchswerthe einer Art gegen Gebrauchswerthe anderer Art austauschen 6), ein Verhältniß, das beständig mit Zeit und Ort wechselt. Der Tauschwerth scheint daher etwas Zufälliges und rein Relatives, ein der Waare innerlicher, immanenter Tauschwerth (valeur intrinsèque) also eine contradictio in adjecto 7). Betrachten wir die Sache näher.
+
+[v1-ch01-s01-p0006] [MEGA p.39]
+Eine gewisse Waare, ein Quarter Weizen z. B. tauscht sich mit x Stiefelwichse, oder mit y Seide, oder mit z Gold u. s. w., kurz mit andern Waaren in den verschiedensten Proportionen. Mannigfache Tauschwerthe also hat der Weizen statt eines einzigen. Aber da x Stiefelwichse, ebenso y Seide, ebenso z Gold u. s. w. der Tauschwerth von einem Quarter Weizen ist, müssen x Stiefelwichse, y Seide, z Gold u. s. w. durcheinander ersetzbare oder einander gleich große Tauschwerthe sein. Es folgt daher erstens: Die gültigen Tauschwerthe derselben Waare drücken ein Gleiches aus. Zweitens aber: Der Tauschwerth kann überhaupt nur die Ausdrucksweise, die „Erscheinungsform“ eines von ihm unterscheidbaren Gehalts sein.
+
+[v1-ch01-s01-p0007] [MEGA p.39]
+Nehmen wir ferner zwei Waaren, z. B. Weizen und Eisen. Welches immer ihr Austauschverhältniß, es ist stets darstellbar in einer Gleichung, worin ein gegebenes Quantum Weizen irgend einem Quantum Eisen gleichgesetzt wird, z. B. 1 Quarter Weizen = a Ctr. Eisen. Was besagt diese Gleichung? Daß ein Gemeinsames von derselben Größe in zwei verschiednen Dingen existirt, in 1 Quarter Weizen und ebenfalls in a Ctr. Eisen. Beide sind also gleich einem Dritten, das an und für sich weder das eine, noch das andere ist. Jedes der beiden, soweit es Tauschwerth, muß also auf dieß Dritte reducirbar sein.
+
+[v1-ch01-s01-p0008] [MEGA p.39]
+Ein einfaches geometrisches Beispiel veranschauliche dieß. Um den Flächeninhalt aller gradlinigen Figuren zu bestimmen und zu vergleichen, löst man sie in Dreiecke auf. Das Dreieck selbst reducirt man auf einen von seiner sichtbaren Figur ganz verschiednen Ausdruck ‒ das halbe Produkt seiner Grundlinie mit seiner Höhe. Ebenso sind die Tauschwerthe der Waaren zu reduciren auf ein Gemeinsames, wovon sie ein Mehr oder Minder darstellen.
+
+[v1-ch01-s01-p0009] [MEGA p.39,40]
+Dieß Gemeinsame kann nicht eine geometrische, physikalische, chemische oder sonstige natürliche Eigenschaft der Waaren sein. Ihre körperlichen Eigenschaften kommen überhaupt nur in Betracht, soweit selbe sie nutzbar machen, also zu Gebrauchswerthen. Andererseits aber ist es grade die Abstraktion von ihren Gebrauchswerthen, was das Austauschverhältniß der Waaren augenscheinlich charakterisirt. Innerhalb desselben gilt ein Gebrauchswerth grade so viel wie jeder andre, wenn er nur in gehöriger Proportion vorhanden ist. Oder, wie der alte Barbon sagt: „Die eine Waarensorte ist so gut wie die andre, wenn ihr Tauschwerth gleich groß ist. Da existirt keine Verschiedenheit oder Unterscheidbarkeit zwischen Dingen von gleich großem Tauschwerth“ 8). Als Gebrauchswerthe sind die Waaren vor allem verschiedner Qualität, als Tauschwerthe können sie nur verschiedner Quantität sein, enthalten also kein Atom Gebrauchswerth.
+
+[v1-ch01-s01-p0010] [MEGA p.40]
+Sieht man nun vom Gebrauchswerth der Waarenkörper ab, so bleibt ihnen nur noch eine Eigenschaft, die von Arbeitsprodukten. Jedoch ist uns auch das Arbeitsprodukt bereits in der Hand verwandelt. Abstrahiren wir von seinem Gebrauchswerth, so abstrahiren wir auch von den körperlichen Bestandtheilen und Formen, die es zum Gebrauchswerth machen. Es ist nicht länger Tisch oder Haus oder Garn oder sonst ein nützlich Ding. Alle seine sinnlichen Beschaffenheiten sind ausgelöscht. Es ist auch nicht länger das Produkt der Tischlerarbeit oder der Bauarbeit oder der Spinnarbeit oder sonst einer bestimmten produktiven Arbeit. Mit dem nützlichen Charakter der Arbeitsprodukte verschwindet der nützliche Charakter der in ihnen dargestellten Arbeiten, es verschwinden also auch die veschiednen konkreten Formen dieser Arbeiten, sie unterscheiden sich nicht länger, sondern sind allzusammt reducirt auf gleiche menschliche Arbeit, abstrakt menschliche Arbeit.
+
+[v1-ch01-s01-p0011] [MEGA p.40]
+Betrachten wir nun das Residuum der Arbeitsprodukte. Es ist nichts von ihnen übrig geblieben als dieselbe gespenstige Gegenständlichkeit, eine bloße Gallerte unterschiedsloser menschlicher Arbeit, d. h. der Verausgabung menschlicher Arbeitskraft ohne Rücksicht auf die Form ihrer Verausgabung. Diese Dinge stellen nur noch dar, daß in ihrer Produktion menschliche Arbeitskraft verausgabt, menschliche Arbeit aufgehäuft ist. Als Krystalle dieser ihnen gemeinschaftlichen gesellschaftlichen Substanz sind sie Werthe ‒ Waarenwerthe.
+
+[v1-ch01-s01-p0012] [MEGA p.40]
+Im Austauschverhältniß der Waaren selbst erschien uns ihr Tauschwerth als etwas von ihren Gebrauchswerthen durchaus unabhängiges. Abstrahirt man nun wirklich vom Gebrauchswerth der Arbeitsprodukte, so erhält man ihren Werth wie er eben bestimmt ward. Das Gemeinsame, was sich im Austauschverhältniß oder Tauschwerth der Waare darstellt, ist also ihr Werth. Der Fortgang der Untersuchung wird uns zurückführen zum Tauschwerth als der nothwendigen Ausdrucksweise oder Erscheinungsform des Werths, welcher zunächst jedoch unabhängig von dieser Form zu betrachten ist.
+
+[v1-ch01-s01-p0013] [MEGA p.41]
+Ein Gebrauchswerth oder Gut hat also nur einen Werth, weil abstrakt menschliche Arbeit in ihm vergegenständlicht oder materialisirt ist. Wie nun die Größe seines Werths messen? Durch das Quantum der in ihm enthaltenen „wertbildenden Substanz“, der Arbeit. Die Quantität der Arbeit selbst mißt sich an ihrer Zeitdauer, und die Arbeitszeit besitzt wieder ihren Maßstab an bestimmten Zeittheilen, wie Stunde, Tag u. s. w.
+
+[v1-ch01-s01-p0014] [MEGA p.41]
+Es könnte scheinen, daß, wenn der Werth einer Waare durch das während ihrer Produktion verausgabte Arbeitsquantum bestimmt ist, je fauler oder ungeschickter ein Mann, desto werthvoller seine Waare, weil er desto mehr Zeit zu ihrer Verfertigung braucht. Die Arbeit jedoch, welche die Substanz der Werthe bildet, ist gleiche menschliche Arbeit, Verausgabung derselben menschlichen Arbeitskraft. Die gesamte Arbeitskraft der Gesellschaft, die sich in den Werthen der Waarenwelt darstellt, gilt hier als eine und dieselbe menschliche Arbeitskraft, obgleich sie aus zahllosen individuellen Arbeitskräften besteht. Jede dieser individuellen Arbeitskräfte ist dieselbe menschliche Arbeitskraft wie die andere, soweit sie den Charakter einer gesellschaftlichen Durchschnitts-Arbeitskraft besitzt und als solche gesellschaftliche Durchschnitts-Arbeitskraft wirkt, also in der Produktion einer Waare auch nur die im Durchschnitt nothwendige oder gesellschaftlich nothwendige Arbeitszeit braucht. Gesellschaftlich nothwendige Arbeitszeit ist Arbeitszeit, erheischt, um irgendeinen Gebrauchswerth mit den vorhandenen gesellschaftlich-normalen Produktionsbedingungen und dem gesellschaftlichen Durchschnittsgrad von Geschick und Intensität der Arbeit darzustellen. Nach der Einführung des Dampfwebstuhls in England z. B. genügte vielleicht halb so viel Arbeit als vorher, um ein gegebenes Quantum Garn in Gewebe zu verwandeln. Der englische Handweber brauchte zu dieser Verwandlung in der That nach wie vor dieselbe Arbeitszeit, aber das Produkt seiner individuellen Arbeitsstunde stellte jetzt nur noch eine halbe gesellschaftliche Arbeitsstunde dar und fiel daher auf die Hälfte seines frühern Werths. |
+
+[v1-ch01-s01-p0015] [MEGA p.41,42]
+Es ist also nur das Quantum gesellschaftlich nothwendiger Arbeit oder die zur Herstellung eines Gebrauchswerths gesellschaftlich nothwendige Arbeitszeit, welche seine Werthgröße bestimmt 9). Die einzelne Waare gilt hier überhaupt als Durchschnittsexemplar ihrer Art 10). Waaren, worin gleich große Arbeitsquanta enthalten sind, oder die in derselben Arbeitszeit hergestellt werden können, haben daher dieselbe Werthgröße. Der Werth einer Waare verhält sich zum Werth jeder andren Waare, wie die zur Produktion der einen nothwendige Arbeitszeit zu der für die Produktion der andren nothwendigen Arbeitszeit. „Als Werthe sind alle Waaren nur bestimmte Maße festgeronnener Arbeitszeit“ 11).
+
+[v1-ch01-s01-p0016] [MEGA p.42]
+Die Werthgröße einer Waare bliebe daher konstant, wäre die zu ihrer Produktion erheischte Arbeitszeit konstant. Letztere wechselt aber mit jedem Wechsel in der Produktivkraft der Arbeit. Die Produktivkraft der Arbeit ist durch mannigfache Umstände bestimmt, unter anderen durch den Durchschnittsgrad des Geschickes der Arbeiter, die Entwicklungsstufe der Wissenschaft und ihrer technologischen Anwendbarkeit, die gesellschaftliche Kombination des Produktionsprocesses, den Umfang und die Wirkungsfähigkeit der Produktionsmittel, und durch Naturverhältnisse. Dasselbe Quantum Arbeit stellt sich z. B. mit günstiger Jahreszeit in 8 Bushel Weizen dar, mit ungünstiger in nur 4. Dasselbe Quantum Arbeit liefert mehr Metalle in reichhaltigen, als in armen Minen u. s. w. Diamanten kommen selten in der Erdrinde vor und ihre Findung kostet daher im Durchschnitt viel Arbeitszeit. Folglich stellen sie in wenig Volumen viel Arbeit dar. Jacob bezweifelt, daß Gold jemals seinen vollen Werth bezahlt hat. Noch mehr gilt dies vom Diamant. Nach Eschwege hatte 1823 die achtzigjährige Gesammtausbeute der brasilischen Diamantgruben noch nicht den Preis des 1½jährigen Durchschnittsprodukts der brasilischen Zucker- oder Kaffeepflanzungen erreicht, obgleich sie viel mehr Arbeit darstellte, also mehr Werth. Mit reichhaltigeren Gruben würde dasselbe Arbeitsquantum sich in mehr Diamanten darstellen und ihr Werth sinken. Gelingt es mit wenig Arbeit Kohle in Diamant zu verwandeln, so kann sein Werth unter den von Ziegelsteinen fallen. Allgemein: Je größer die Produktivkraft der Arbeit, desto kleiner die zur Herstellung eines Artikels erheischte Arbeitszeit, desto kleiner die in ihm krystallisirte Arbeitsmasse, desto kleiner sein Werth. Umgekehrt, je kleiner die Produktivkraft der Arbeit, desto größer die zur Herstellung eines Artikels nothwendige Arbeitszeit, desto größer sein Werth. Die Werthgröße einer Waare wechselt also direkt wie das Quantum und umgekehrt wie die Produktivkraft der sich in ihr verwirklichenden Arbeit.
+
+[v1-ch01-s01-p0017] [MEGA p.42,43]
+Ein Ding kann Gebrauchswerth sein, ohne Werth zu sein. Es ist dieß der Fall, wenn sein Nutzen für den Menschen nicht durch Arbeit vermittelt ist. So Luft, jungfräulicher Boden, natürliche Wiesen, wildwachsendes Holz u. s. w. Ein Ding kann nützlich und Produkt menschlicher Arbeit sein, ohne Waare zu sein. Wer durch sein Produkt sein eigenes Bedürfniß befriedigt, schafft zwar Gebrauchswerth, aber nicht Waare. Um Waare zu produciren, muß er nicht nur Gebrauchswerth produciren, sondern Gebrauchswerth für andre, gesellschaftlichen Gebrauchswerth. ❲Und nicht nur für andre schlechthin. Der mittelalterliche Bauer producirte das Zinskorn für den Feudalherrn, das Zehntkorn für den Pfaffen. Aber weder Zinskorn noch Zehntkorn wurden dadurch Waare, daß sie für andre producirt waren. Um Waare zu werden, muß das Produkt dem andern, dem es als Gebrauchswerth dient, durch den Austausch übertragen werden.❳ 11a). Endlich kann kein Ding Werth sein, ohne Gebrauchsgegenstand zu sein. Ist es nutzlos, so ist auch die in ihm enthaltene Arbeit nutzlos, zählt nicht als Arbeit und bildet daher keinen Werth.
+
+## Footnotes
+
+[note-001] [MEGA p.37]
+1) Karl Marx: „Zur Kritik der Politischen Oekonomie. Berlin 1859“, pag. 3.
+
+[note-002] [MEGA p.37]
+2) “Desire implies want; it is the appetite of the mind, and as natural as hunger to the body... the greatest number (of things) have their value from supplying the wants of the mind.” Nicholas Barbon: „A Discourse on coining the new money lighter, in answer to Mr. Locke’s Considerations etc. London 1696“, p. 2, 3.
+
+[note-003] [MEGA p.38]
+3) “Things have an intrinsick vertue (dieß bei Barbon die specifische Bezeichnung für Gebrauchswerth), which in all places have the same vertue; as the loadstone to attract iron” (l. c. p. 6). Die Eigenschaft des Magnets, Eisen anzuziehn, wurde erst nützlich, sobald man vermittelst derselben die magnetische Polarität entdeckt hatte.
+
+[note-004] [MEGA p.38]
+4) “The natural worth of anything consists in its fitness to supply the necessities, or serve the conveniences of human life.” (John Locke: „Some Considerations of the Consequences of the Lowering of Interest. 1691“ in „Works edit. Lond. 1777“. V. II. p. 28.) Im 17. Jahrhundert finden wir noch häufig bei englischen Schriftstellern „Worth“ für Gebrauchswerth und „Value“ für Tauschwerth, ganz im Geist einer Sprache, die es liebt, die unmittelbare Sache germanisch und die reflektirte Sache romanisch auszudrücken.
+
+[note-005] [MEGA p.38]
+5) In der bürgerlichen Gesellschaft herrscht die fictio juris, daß jeder Mensch als Waarenkäufer eine encyklopädische Waarenkenntniß besitzt.
+
+[note-006] [MEGA p.38]
+6) «La valeur consiste dans le rapport d’échange qui se trouve entre telle chose et telle autre, entre telle mesure d’une production et telle mesure d’une autre.» (Le Trosne: „De l’Intérêt Social“. Physiocrates, éd. Daire. Paris 1846. p. 889.)
+
+[note-007] [MEGA p.39]
+7) “Nothing can have an intrinsick value” (N. Barbon l. c. p. 6), oder wie Butler sagt: “The value of a thing Is just as much as it will bring.”
+
+[note-008] [MEGA p.40]
+8) “One sort of wares are as good as another, if the value be equal. There is no difference or distinction in things of equal value... One hundred pounds worth of lead or iron, is of as great a value as one hundred pounds worth of silver and gold.” (N. Barbon l. c. p. 53 u. 7.)
+
+[note-009] [MEGA p.41]
+9) Note zur 2. Ausg. “The value of them (the necessaries of life) when they are exchagend the one for another, is regulated by the quantity of labour necessarily required, and commonly taken in producing them”. „Der Werth von Gebrauchsgegenständen, sobald sie gegen einander umgetauscht werden, ist bestimmt durch das Quantum der zu ihrer Produktion nothwendig erheischten und gewöhnlich angewandten Arbeit.“ („Some Thoughts on the Interest of Money in general, and particularly in the Public funds etc.“. London, p. 36, 37) Diese merkwürdige anonyme Schrift des vorigen Jahrhunderts trägt kein Datum. Es geht jedoch aus ihrem Inhalt hervor, daß sie unter Georg II., etwa 1739 oder 1740, erschienen ist.
+
+[note-010] [MEGA p.41]
+10) «Toutes les productions d’un même genre ne forment proprement qu’une masse, dont le prix se détermine en général et sans égard aux circonstances particulières.» (Le Trosne l. c. p. 893.)
+
+[note-011] [MEGA p.42]
+11) K. Marx l. c. p. 6.

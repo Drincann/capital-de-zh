@@ -1,0 +1,58 @@
+# 2. Darstellung des Produktenwerths in proportionellen Theilen des Produkts.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch07s02-p0001] [MEGA p.198]
+Kehren wir nun zum Beispiel zurück, das uns zeigte, wie der Kapitalist aus Geld Kapital macht. Die nothwendige Arbeit seines Spinners betrug 6 Stunden, die Mehrarbeit desgleichen, der Exploitationsgrad der Arbeitskraft daher 100 %.
+
+[v1-ch07s02-p0002] [MEGA p.198,199]
+Das Produkt des zwölfstündigen Arbeitstags sind 20 Pfd. Garn zum Werth von 30 sh. Nicht weniger als 8 10 dieses Garnwerths (24 sh.) sind gebildet durch den nur wieder erscheinenden Werth der verzehrten Produktionsmittel (20 Pfd. Baumwolle zu 20 sh., Spindel u. s. w. zu 4 sh.) oder bestehn aus konstantem Kapital. Die übrigen 2 10 sind der während des Spinnprocesses entstandne Neuwerth von 6 sh., wovon eine Hälfte den vorgeschoßnen Tageswerth der Arbeitskraft ersetzt oder das variable Kapital, und die andre Hälfte einen Mehrwerth von 3 sh. bildet. Der Gesammtwerth der 20 Pfd. Garn ist also folgendermaßen zusammengesetzt:
+
+[v1-ch07s02-p0003] [MEGA p.199]
+Garnwerth von 30 sh. = 24 ⏝ c sh. + 3 sh. ⏝ v + 3 sh. ⏝ m ⏜
+
+[v1-ch07s02-p0004] [MEGA p.199]
+Da dieser Gesammtwerth sich in dem Gesammtprodukt von 20 Pfd. Garn darstellt, müssen auch die verschiednen Werthelemente in proportionellen Theilen des Produkts darstellbar sein.
+
+[v1-ch07s02-p0005] [MEGA p.199]
+Existirt ein Garnwerth von 30 sh. in 20 Pfd. Garn, so 8 10 dieses Werths, oder sein konstanter Theil von 24 sh., in 8 10 des Produkts, oder in 16 Pfd. Garn. Davon stellen 13⅓ Pfd. den Werth des Rohmaterials dar, der versponnenen Baumwolle zu 20 sh., und 2⅔ Pfd. den Werth der verzehrten Hülfsstoffe und Arbeitsmittel, Spindel u. s. w. zu 4 sh.
+
+[v1-ch07s02-p0006] [MEGA p.199]
+13⅓ Pfund Garn stellen also alle im Gesammtprodukt von 20 Pfd. Garn versponnene Baumwolle vor, das Rohmaterial des Gesammtprodukts, aber auch weiter nichts. In ihnen stecken zwar nur 13⅓ Pfd. Baumwolle zum Werth von 13⅓ sh., aber ihr zusätzlicher Werth von 6⅔ sh. bildet ein Aequivalent für die in den andren 6⅔ Pfd. Garn versponnene Baumwolle. Es ist als ob letztren die Wolle ausgerupft und alle Wolle des Gesammtprodukts in 13⅓ Pfd. Garn zusammengestopft wäre. Sie enthalten dagegen jetzt kein Atom des Werths der verbrauchten Hülfsstoffe und Arbeitsmittel, noch des im Spinnproceß geschaffnen Neuwerths.
+
+[v1-ch07s02-p0007] [MEGA p.199]
+Ebenso stellen weitre 2⅔ Pfd. Garn, worin der Rest des konstanten Kapitals (= 4 sh.) steckt, nichts dar außer dem Werth der im Gesammtprodukt von 20 Pfd. Garn vernutzten Hülfsstoffe und Arbeitsmittel.
+
+[v1-ch07s02-p0008] [MEGA p.199]
+Acht Zehntel des Produkts, oder 16 Pfd. Garn, obgleich leiblich, als Gebrauchswerth betrachtet, als Garn, eben so sehr Gebilde der Spinnarbeit wie die restirenden Produkttheile, enthalten daher in diesem Zusammenhang keine Spinnarbeit, keine während des Spinnprocesses selbst eingesaugte Arbeit. Es ist als ob sie sich ohne Spinnen in Garn verwandelt hätten, und als wäre ihre Garngestalt reiner Lug und Trug. In der That, wenn der Kapitalist sie verkauft zu 24 sh. und damit seine Produktionsmittel zurückkauft, zeigt sich, daß 16 Pfd. Garn ‒ nur verkleidete Baumwolle, Spindel, Kohle u. s. w. sind.
+
+[v1-ch07s02-p0009] [MEGA p.199,200]
+Umgekehrt stellen die übrig bleibenden 2 10 des Produkts oder 4 Pfd. Garn jetzt nichts dar außer dem im zwölfstündigen Spinnproceß producirten Neuwerth von 6 sh. Was vom Werth der vernutzten Rohmaterialien und Arbeitsmittel in ihnen steckte, ward bereits ausgeweidet und den ersten 16 Pfd. Garn einverleibt. Die in 20 Pfd. Garn verkörperte Spinnarbeit ist koncentrirt auf 2 10 des Produkts. Es ist als ob der Spinner 4 Pfd. Garn in der Luft gewirkt oder in Baumwolle und mit Spindeln, die ohne Zuthat menschlicher Arbeit, von Natur vorhanden, dem Produkt keinen Werth zusetzen.
+
+[v1-ch07s02-p0010] [MEGA p.200]
+Von den 4 Pfd. Garn, worin so das ganze Werthprodukt des täglichen Spinnprocesses existirt, stellt die eine Hälfte nur den Ersatzwerth der vernutzten Arbeitskraft dar, also das variable Kapital von 3 sh., die andren 2 Pfd. Garn nur den Mehrwerth von 3 sh.
+
+[v1-ch07s02-p0011] [MEGA p.200]
+Da 12 Arbeitsstunden des Spinners sich in 6 sh. vergegenständlichen, sind im Garnwerth von 30 sh. 60 Arbeitsstunden vergegenständlicht. Sie existiren in 20 Pfd. Garn, wovon 8 10 oder 16 Pfd. die Materiatur von 48 vor dem Spinnproceß vergangnen Arbeitsstunden sind, nämlich der in den Produktionsmitteln des Garns vergegenständlichten Arbeit, 2 10 oder 4 Pfd. dagegen die Materiatur der im Spinnproceß selbst verausgabten 12 Arbeitsstunden.
+
+[v1-ch07s02-p0012] [MEGA p.200]
+Früher sahen wir, daß der Garnwerth gleich der Summe des in seiner Produktion erzeugten Neuwerths plus der bereits in seinen Produktionsmitteln präexistirenden Werthe ist. Jetzt hat sich gezeigt, wie die funktionell oder begrifflich verschiednen Bestandtheile des Produktenwerths in proportionellen Theilen des Produkts selbst darstellbar sind.
+
+[v1-ch07s02-p0013] [MEGA p.200]
+Diese Zerfällung des Produkts ‒ des Resultats des Produktionsprocesses ‒ in ein Quantum Produkt, das nur die in den Produktionsmitteln enthaltne Arbeit oder den konstanten Kapitaltheil, ein andres Quantum, das nur die im Produktionsproceß zugesetzte nothwendige Arbeit oder den variablen Kapitaltheil, und ein letztes Quantum Produkt, das nur die im selben Proceß zugesetzte Mehrarbeit oder den Mehrwerth darstellt, ist ebenso einfach als wichtig, wie ihre spätre Anwendung auf verwickelte und noch ungelöste Probleme zeigen wird.
+
+[v1-ch07s02-p0014] [MEGA p.200]
+Wir betrachteten eben das Gesammtprodukt als fertiges Resultat des zwölfstündigen Arbeitstags. Wir können es aber auch in seinem Entstehungsproceß begleiten, und dennoch die Theilprodukte als funktionell unterschiedne Produktentheile darstellen.
+
+[v1-ch07s02-p0015] [MEGA p.200,201]
+Der Spinner producirt in 12 Stunden 20 Pfd. Garn, daher in einer Stunde 1⅔ und in 8 Stunden 13⅓ Pfd., also ein Theilprodukt vom Gesammtwerth der Baumwolle, die während des ganzen Arbeitstags versponnen wird. In derselben Art und Weise ist das Theilprodukt der folgenden Stunde und 36 Minuten = 2⅔ Pfd. Garn und stellt daher den Werth der während der 12 Arbeitsstunden vernutzten Arbeitsmittel dar. Ebenso producirt der Spinner in der folgenden Stunde und 12 Minuten 2 Pfd. Garn = 3 sh., ein Produktenwerth gleich dem ganzen Werthprodukt, das er in 6 Stunden nothwendiger Arbeit schafft. Endlich producirt er in den letzten 6 5 Stunden ebenfalls 2 Pfd. Garn, deren Werth gleich dem durch seine halbtägige Mehrarbeit erzeugten Mehrwerth. Diese Art Berechnung dient dem englischen Fabrikanten zum Hausgebrauch, und er wird z. B. sagen, daß er in den ersten 8 Stunden oder ⅔ des Arbeitstags seine Baumwolle herausschlägt u. s. w. Man sieht, die Formel ist richtig, in der That nur die erste Formel, übersetzt aus dem Raum, wo die Theile des Produkts fertig neben einander liegen, in die Zeit, wo sie auf einander folgen. Die Formel kann aber auch von sehr barbarischen Vorstellungen begleitet sein, namentlich in Köpfen, die eben so praktisch im Verwerthungsproceß interessirt sind, als sie ein Interesse haben, ihn theoretisch mißzuverstehn. So kann sich eingebildet werden, daß unser Spinner z. B. in den ersten 8 Stunden seines Arbeitstags den Werth der Baumwolle, in der folgenden Stunde und 36 Minuten den Werth der verzehrten Arbeitsmittel, in der folgenden Stunde und 12 Minuten den Werth des Arbeitslohns producirt oder ersetzt, und nur die vielberühmte „letzte Stunde“ dem Fabrikherrn, der Produktion von Mehrwerth widmet. Dem Spinner wird so das doppelte Wunder aufgebürdet, Baumwolle, Spindel, Dampfmaschine, Kohle, Oel u. s. w. in demselben Augenblick zu produciren, wo er mit ihnen spinnt, und aus Einem Arbeitstag von gegebnem Intensitätsgrad fünf solcher Tage zu machen. In unsrem Fall nämlich erfordert die Produktion des Rohmaterials und der Arbeitsmittel 24 6 = 4 zwölfstündige Arbeitstage und ihre Verwandlung in Garn einen andren zwölfstündigen Arbeitstag. Daß die Raubgier solche Wunder glaubt und nie den doktrinären Sykophanten mißt, der sie beweist, zeige nun ein Beispiel von historischer Berühmtheit.
+
+## Footnotes
+
+[note-001] [MEGA p.198]
+mir von einem Manchester Fabrikanten geliefert. ‒ Es ist zu bemerken, daß in England die alte Pferdekraft nach dem Durchschnitt des Cylinders berechnet wurde, die neue nach der wirklichen Kraft zählt, die der Indikator anzeigt.
+
+[note-002] [MEGA p.198]
+31a) Die gegebnen Rechnungen gelten nur als Illustration. Es wird nämlich unterstellt, daß die Preise = den Werthen. Man wird in Buch III sehn, daß diese Gleichsetzung, selbst für die Durchschnittspreise, sich nicht in dieser einfachen Weise macht.

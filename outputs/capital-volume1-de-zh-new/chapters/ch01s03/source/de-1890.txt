@@ -1,0 +1,385 @@
+# 3) Die Werthform oder der Tauschwerth.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch01-s03-p0001] [MEGA p.49]
+Waaren kommen zur Welt in der Form von Gebrauchswerthen oder Waarenkörpern, als Eisen, Leinwand, Weizen u. s. w. Es ist dieß ihre hausbakkene Naturalform. Sie sind jedoch nur Waaren, weil Doppeltes, Gebrauchsgegenstände und zugleich Werthträger. Sie erscheinen daher nur als Waaren oder besitzen nur die Form von Waaren, sofern sie Doppelform besitzen, Naturalform und Werthform.
+
+[v1-ch01-s03-p0002] [MEGA p.49]
+Die Werthgegenständlichkeit der Waaren unterscheidet sich dadurch von der Wittib Hurtig, daß man nicht weiß, wo sie zu haben ist. Im graden Gegentheil zur sinnlich groben Gegenständlichkeit der Waarenkörper geht kein Atom Naturstoff in ihre Werthgegenständlichkeit ein. Man mag daher eine einzelne Waare drehen und wenden wie man will, sie bleibt unfaßbar als Werthding. Erinnern wir uns jedoch, daß die Waaren nur Werthgegenständlichkeit besitzen, sofern sie Ausdrücke derselben gesellschaftlichen Einheit, menschlicher Arbeit, sind, daß ihre Werthgegenständlichkeit also rein gesellschaftlich ist, so versteht sich auch von selbst, daß sie nur im gesellschaftlichen Verhältniß von Waare zu Waare erscheinen kann. Wir gingen in der That vom Tauschwerth oder Austauschverhältniß der Waaren aus, um ihrem darin versteckten Werth auf die Spur zu kommen. Wir müssen jetzt zu dieser Erscheinungsform des Werthes zurückkehren.
+
+[v1-ch01-s03-p0003] [MEGA p.49]
+Jedermann weiß, wenn er auch sonst nichts weiß, daß die Waaren eine mit den bunten Naturalformen ihrer Gebrauchswerthe höchst frappant kontrastirende, gemeinsame Werthform besitzen ‒ die Geldform. Hier gilt es jedoch zu leisten, was von der bürgerlichen Oekonomie nicht einmal versucht ward, nämlich die Genesis dieser Geldform nachzuweisen, also die Entwicklung des im Werthverhältniß der Waaren enthaltenen Werthausdrucks von seiner einfachsten unscheinbarsten Gestalt bis zur blendenden Geldform zu verfolgen. Damit verschwindet zugleich das Geldräthsel.
+
+[v1-ch01-s03-p0004] [MEGA p.49]
+Das einfachste Werthverhältniß ist offenbar das Werthverhältniß einer Waare zu einer einzigen verschiedenartigen Waare, gleichgültig welcher. Das Werthverhältniß zweier Waaren liefert daher den einfachsten Werthausdruck für eine Waare. |
+
+[v1-ch01-s03-p0005] [MEGA p.49] [heading]
+A. Einfache, einzelne oder zufällige Werthform.
+
+[v1-ch01-s03-p0006] [MEGA p.49]
+x Waare A = y Waare B oder: x Waare A ist y Waare B werth.
+
+[v1-ch01-s03-p0007] [MEGA p.49]
+(20 Ellen Leinwand = 1 Rock oder: 20 Ellen Leinwand sind 1 Rock werth.)
+
+[v1-ch01-s03-p0008] [MEGA p.50] [heading]
+1) Die beiden Pole des Werthausdrucks: Relative Werthform und Aequivalentform.
+
+[v1-ch01-s03-p0009] [MEGA p.50]
+Das Geheimniß aller Werthform steckt in dieser einfachen Werthform. Ihre Analyse bietet daher die eigentliche Schwierigkeit.
+
+[v1-ch01-s03-p0010] [MEGA p.50]
+Es spielen hier zwei verschiedenartige Waaren A und B, in unsrem Beispiel Leinwand und Rock, offenbar zwei verschiedene Rollen. Die Leinwand drückt ihren Werth aus im Rock, der Rock dient zum Material dieses Werthausdrucks. Die erste Waare spielt eine aktive, die zweite eine passive Rolle. Der Werth der ersten Waare ist als relativer Werth dargestellt oder sie befindet sich in relativer Werthform. Die zweite Waare funktionirt als Aequivalent oder befindet sich in Aequivalentform.
+
+[v1-ch01-s03-p0011] [MEGA p.50]
+Relative Werthform und Aequivalentform sind zu einander gehörige, sich wechselseitig bedingende, unzertrennliche Momente, aber zugleich einander ausschließende oder entgegengesetzte Extreme, d. h. Pole desselben Werthausdrucks; sie vertheilen sich stets auf die verschiedenen Waaren, die der Werthausdruck auf einander bezieht. Ich kann z. B. den Werth der Leinwand nicht in Leinwand ausdrücken. 20 Ellen Leinwand = 20 Ellen Leinwand ist kein Werthausdruck. Die Gleichung sagt vielmehr umgekehrt: 20 Ellen Leinwand sind nichts andres als 20 Ellen Leinwand, ein bestimmtes Quantum des Gebrauchsgegenstandes Leinwand. Der Werth der Leinwand kann also nur relativ ausgedrückt werden, d. h. in andrer Waare. Die relative Werthform der Leinwand unterstellt daher, daß irgend eine andre Waare sich ihr gegenüber in der Aequivalentform befindet. Andrerseits, diese andre Waare, die als Aequivalent figurirt, kann sich nicht gleichzeitig in relativer Werthform befinden. Nicht sie drückt ihren Werth aus. Sie liefert nur dem Werthausdruck andrer Waare das Material.
+
+[v1-ch01-s03-p0012] [MEGA p.50]
+Allerdings schließt der Ausdruck: 20 Ellen Leinwand = 1 Rock oder 20 Ellen Leinwand sind 1 Rock werth, auch die Rückbeziehungen ein: 1 Rock = 20 Ellen Leinwand oder 1 Rock ist 20 Ellen Leinwand werth. Aber so muß ich doch die Gleichung umkehren, um den Werth des Rocks relativ auszudrücken, und sobald ich das thue, wird die Leinwand Aequivalent statt des Rockes. Dieselbe Waare kann also in demselben Werthausdruck nicht gleichzeitig in beiden Formen auftreten. Diese schließen sich vielmehr polarisch aus.
+
+[v1-ch01-s03-p0013] [MEGA p.50]
+Ob eine Waare sich nun in relativer Werthform befindet oder in der entgegengesetzten Aequivalentform, hängt ausschließlich ab von ihrer jedesmaligen Stelle im Werthausdruck, d. h. davon, ob sie die Waare ist, deren Werth, oder aber die Waare, worin Werth ausgedrückt wird.
+
+[v1-ch01-s03-p0014] [MEGA p.51] [heading]
+2) Die relative Werthform.
+
+[v1-ch01-s03-p0015] [MEGA p.51] [heading]
+a) Gehalt der relativen Werthform.
+
+[v1-ch01-s03-p0016] [MEGA p.51]
+Um herauszufinden, wie der einfache Werthausdruck einer Waare im Werthverhältniß zweier Waaren steckt, muß man letzteres zunächst ganz unabhängig von seiner quantitativen Seite betrachten. Man verfährt meist grade umgekehrt und sieht im Werthverhältniß nur die Proportion, worin bestimmte Quanta zweier Waarensorten einander gleichgelten. Man übersieht, daß die Größen verschiedner Dinge erst quantitativ vergleichbar werden nach ihrer Reduktion auf dieselbe Einheit. Nur als Ausdrücke derselben Einheit sind sie gleichnamige, daher kommensurable Größen 17).
+
+[v1-ch01-s03-p0017] [MEGA p.51]
+Ob 20 Ellen Leinwand = 1 Rock oder = 20 oder = x Röcke, d. h., ob ein gegebenes Quantum Leinwand viele oder wenige Röcke werth ist, jede solche Proportion schließt stets ein, daß Leinwand und Röcke als Werthgrößen Ausdrücke derselben Einheit, Dinge von derselben Natur sind. Leinwand = Rock ist die Grundlage der Gleichung.
+
+[v1-ch01-s03-p0018] [MEGA p.51]
+Aber die zwei qualitativ gleichgesetzten Waaren spielen nicht dieselbe Rolle. Nur der Werth der Leinwand wird ausgedrückt. Und wie? Durch ihre Beziehung auf den Rock als ihr „Aequivalent“ oder mit ihr „Austauschbares“. In diesem Verhältniß gilt der Rock als Existenzform von Werth, als Werthding, denn nur als solches ist er dasselbe wie die Leinwand. Andrerseits kommt das eigne Werthsein der Leinwand zum Vorschein oder erhält einen selbstständigen Ausdruck, denn nur als Werth ist sie auf den Rock als Gleichwerthiges oder mit ihr Austauschbares bezüglich. So ist die Buttersäure ein vom Propylformat verschiedner Körper. Beide bestehn jedoch aus denselben chemischen Substanzen ‒ Kohlenstoff (C) Wasserstoff (H) und Sauerstoff (O) und zwar in gleicher procentiger Zusammensetzung, nämlich C4H8O2. Würde nun der Buttersäure das Propylformat gleichgesetzt, so gälte in diesem Verhältniß erstens das Propylformat bloß als Existenzform von C4H8O2 und zweitens wäre gesagt, daß auch die Buttersäure aus C4H8O2 besteht. Durch die Gleichsetzung des Propylformats mit der Buttersäure wäre also ihre chemische Substanz im Unterschied von ihrer Körperform ausgedrückt.
+
+[v1-ch01-s03-p0019] [MEGA p.51,52]
+Sagen wir: Als Werthe sind die Waaren bloße Gallerten menschlicher Arbeit, so reducirt unsre Analyse dieselben auf die Werthabstraktion, giebt ihnen aber keine von ihren Naturalformen verschiedne Werthform. Anders im Werthverhältniß einer Waare zur andern. Ihr Werthcharakter tritt hier hervor durch ihre eigne Beziehung zu der andern Waare.
+
+[v1-ch01-s03-p0020] [MEGA p.52]
+Indem z. B. der Rock als Werthding der Leinwand gleichgesetzt wird, wird die in ihm steckende Arbeit der in ihr steckenden Arbeit gleichgesetzt. Nun ist zwar die Schneiderei, die den Rock macht, eine von der Weberei, die die Leinwand macht, verschiedenartige konkrete Arbeit. Aber die Gleichsetzung mit der Weberei reducirt die Schneiderei thatsächlich auf das in beiden Arbeiten wirklich Gleiche, auf ihren gemeinsamen Charakter menschlicher Arbeit. Auf diesem Umweg ist dann gesagt, daß auch die Weberei, sofern sie Werth webt, keine Unterscheidungsmerkmale von der Schneiderei besitzt, also abstrakt menschliche Arbeit ist. Nur der Aequivalenzausdruck verschiedenartiger Waaren bringt den specifischen Charakter der werthbildenden Arbeit zum Vorschein, indem er die in den verschiedenartigen Waaren steckenden, verschiedenartigen Arbeiten thatsächlich auf ihr Gemeinsames reducirt, auf menschliche Arbeit überhaupt. 17a). |
+
+[v1-ch01-s03-p0021] [MEGA p.52]
+Es genügt indeß nicht, den specifischen Charakter der Arbeit auszudrücken, woraus der Werth der Leinwand besteht. Menschliche Arbeitskraft im flüssigen Zustand oder menschliche Arbeit bildet Werth, aber ist nicht Werth. Sie wird Werth in geronnenem Zustand, in gegenständlicher Form. Um den Leinwandwerth als Gallerte menschlicher Arbeit auszudrücken, muß er als eine „Gegenständlichkeit“ ausgedrückt werden, welche von der Leinwand selbst dinglich verschieden und ihr zugleich mit andrer Waare gemeinsam ist. Die Aufgabe ist bereits gelöst.
+
+[v1-ch01-s03-p0022] [MEGA p.52,53]
+Im Werthverhältniß der Leinwand gilt der Rock als ihr qualitativ Gleiches, als Ding von derselben Natur, weil er ein Werth ist. Er gilt hier daher als ein Ding, worin Werth erscheint, oder welches in seiner handgreiflichen Naturalform Werth darstellt. Nun ist zwar der Rock, der Körper der Rockwaare, ein bloßer Gebrauchswerth. Ein Rock drückt eben so wenig Werth aus als das erste beste Stück Leinwand. Dieß beweist nur, daß er innerhalb des Werthverhältnisses zur Leinwand mehr bedeutet als außerhalb desselben, wie so mancher Mensch innerhalb eines galonirten Rockes mehr bedeutet als außerhalb desselben.
+
+[v1-ch01-s03-p0023] [MEGA p.53]
+In der Produktion des Rockes ist thatsächlich, unter der Form der Schneiderei, menschliche Arbeitskraft verausgabt worden. Es ist also menschliche Arbeit in ihm aufgehäuft. Nach dieser Seite hin ist der Rock „Träger von Werth“, obgleich diese seine Eigenschaft selbst durch seine größte Fadenscheinigkeit nicht durchblickt. Und im Werthverhältniß der Leinwand gilt er nur nach dieser Seite, daher als verkörperter Werth, als Werthkörper. Trotz seiner zugeknöpften Erscheinung hat die Leinwand in ihm die stammverwandte schöne Werthseele erkannt. Der Rock kann ihr gegenüber jedoch nicht Werth darstellen, ohne daß für sie gleichzeitig der Werth die Form eines Rockes annimmt. So kann sich das Individuum A nicht zum Individuum B als einer Majestät verhalten, ohne daß für A die Majestät zugleich die Leibesgestalt von B annnimmt und daher Gesichtszüge, Haare und manches andre noch mit dem jedesmaligen Landesvater wechselt.
+
+[v1-ch01-s03-p0024] [MEGA p.53]
+Im Werthverhältniß, worin der Rock das Aequivalent der Leinwand bildet, gilt also die Rockform als Werthform. Der Werth der Waare Leinwand wird daher ausgedrückt im Körper der Waare Rock, der Werth einer Waare im Gebrauchswerth der andren. Als Gebrauchswerth ist die Leinwand ein vom Rock sinnlich verschiednes Ding, als Werth ist sie „Rockgleiches“ und sieht daher aus wie ein Rock. So erhält sie eine von ihrer Naturalform verschiedne Werthform. Ihr Werthsein erscheint in ihrer Gleichheit mit dem Rock, wie die Schafsnatur des Christen in seiner Gleichheit mit dem Lamm Gottes.
+
+[v1-ch01-s03-p0025] [MEGA p.53]
+Man sieht, alles was uns die Analyse des Waarenwerths vorher sagte, sagt die Leinwand selbst, sobald sie in Umgang mit andrer Waare, dem Rock, tritt. Nur verräth sie ihre Gedanken in der ihr allein geläufigen Sprache, der Waarensprache. Um zu sagen, daß die Arbeit in der abstrakten Eigenschaft menschlicher Arbeit ihren eignen Werth bildet, sagt sie, daß der Rock, so weit er ihr gleichgilt, also Werth ist, aus derselben Arbeit besteht wie die Leinwand. Um zu sagen, daß ihre sublime Werthgegenständlichkeit von ihrem steifleinenen Körper verschieden ist, sagt sie, daß Werth aussieht wie ein Rock und daher sie selbst als Werthding dem Rock gleicht wie ein Ei dem andern. Nebenbei bemerkt hat auch die Waarensprache, außer dem Hebräischen, noch viele andre mehr oder minder korrekte Mundarten. Das deutsche „Werthsein“ drückt z. B. minder schlagend aus als das romanische Zeitwort valere, valer, valoir, daß die Gleichsetzung der Waare B mit der Waare A, der eigne Werthausdruck der Waare A ist. Paris vaut bien une messe!
+
+[v1-ch01-s03-p0026] [MEGA p.53,54]
+Vermittelst des Werthverhältnisses wird also die Naturalform der Waare B zur Werthform der Waare A oder der Körper der Waare B zum Werthspiegel der Waare A 18). Indem sich die Waare A auf die Waare B als Werthkörper bezieht, als Materiatur menschlicher Arbeit, macht sie den Gebrauchswerth B zum Material ihres eignen Werthausdrucks. Der Werth der Waare A, so ausgedrückt im Gebrauchswerth der Waare B, besitzt die Form des relativen Werths.
+
+[v1-ch01-s03-p0027] [MEGA p.54] [heading]
+b) Quantitative Bestimmtheit der relativen Werthform.
+
+[v1-ch01-s03-p0028] [MEGA p.54]
+Jede Waare, deren Werth ausgedrückt werden soll, ist ein Gebrauchsgegenstand von gegebnem Quantum, 15 Scheffel Weizen, 100 Pfd. Kaffee u. s. w. Dieses gegebne Waarenquantum enthält ein bestimmtes Quantum menschlicher Arbeit. Die Werthform hat also nicht nur Werth überhaupt, sondern quantitativ bestimmten Werth oder Werthgröße auszudrükken. Im Werthverhältniß der Waare A zur Waare B, der Leinwand zum Rocke, wird daher die Waarenart Rock nicht nur als Werthkörper überhaupt der Leinwand qualitativ gleich gesetzt, sondern einem bestimmten Leinwandquantum, z. B. 20 Ellen Leinwand, ein bestimmtes Quantum des Werthkörpers oder Aequivalents, z. B. 1 Rock.
+
+[v1-ch01-s03-p0029] [MEGA p.54]
+Die Gleichung: „20 Ellen Leinwand = 1 Rock oder: 20 Ellen Leinwand sind 1 Rock werth“ setzt voraus, daß in 1 Rock gerade so viel Werthsubstanz steckt als in 20 Ellen Leinwand, daß beide Waarenquanta also gleich viel Arbeit kosten oder gleich große Arbeitszeit. Die zur Produktion von 20 Ellen Leinwand oder 1 Rock nothwendige Arbeitszeit wechselt aber mit jedem Wechsel in der Produktivkraft der Weberei oder der Schneiderei. Der Einfluß solcher Wechsel auf den relativen Ausdruck der Werthgröße soll nun näher untersucht werden.
+
+[v1-ch01-s03-p0030] [MEGA p.54,55]
+I. Der Werth der Leinwand wechsle 19), während der Rockwerth konstant bleibt. Verdoppelt sich die zur Produktion der Leinwand nothwendige Arbeitszeit, etwa in Folge zunehmender Unfruchtbarkeit des flachstragenden Bodens, so verdoppelt sich ihr Werth. Statt 20 Ellen Leinwand = 1 Rock, hätten wir 20 Ellen Leinwand = 2 Röcke, da 1 Rock jetzt nur halb so viel Arbeitszeit enthält als 20 Ellen Leinwand. Nimmt dagegen die zur Produktion der Leinwand nothwendige Arbeitszeit um die Hälfte ab, etwa in Folge verbesserter Webstühle, so sinkt der Leinwandwerth um die Hälfte. Demgemäß jetzt: 20 Ellen Leinwand = ½ Rock. Der relative Werth der Waare A, d. h. ihr Werth ausgedrückt in der Waare B, steigt und fällt also direkt wie der Werth der Waare A, bei gleichbleibendem Werth der Waare B.
+
+[v1-ch01-s03-p0031] [MEGA p.55]
+II. Der Werth der Leinwand bleibe konstant, während der Rockwerth wechsle. Verdoppelt sich unter diesen Umständen die zur Produktion des Rockes nothwendige Arbeitszeit, etwa in Folge ungünstiger Wollschur, so haben wir statt 20 Ellen Leinwand = 1 Rock jetzt: 20 Ellen Leinwand = ½ Rock. Fällt dagegen der Werth des Rockes um die Hälfte, so 20 Ellen Leinwand = 2 Röcke. Bei gleichbleibendem Werth der Waare A, fällt oder steigt daher ihr relativer, in der Waare B ausgedrückter Werth im umgekehrten Verhältnis zum Werthwechsel von B.
+
+[v1-ch01-s03-p0032] [MEGA p.55]
+Vergleicht man die verschiednen Fälle sub I und II, so ergiebt sich, daß derselbe Größenwechsel des relativen Werths aus ganz entgegengesetzten Ursachen entspringen kann. So wird aus: 20 Ellen Leinwand = 1 Rock: 1) die Gleichung 20 Ellen Leinwand = 2 Röcke, entweder, weil der Werth der Leinwand sich verdoppelt oder der Werth der Röcke um die Hälfte fällt, und 2) die Gleichung 20 Ellen Leinwand = ½ Rock, entweder weil der Werth der Leinwand um die Hälfte sinkt oder der Werth des Rockes auf das Doppelte steigt.
+
+[v1-ch01-s03-p0033] [MEGA p.55]
+III. Die zur Produktion von Leinwand und Rock nothwendigen Arbeitsquanta mögen gleichzeitig, in derselben Richtung und derselben Proportion wechseln. In diesem Falle nach wie vor 20 Ellen Leinwand = 1 Rock, wie immer ihre Werthe verändert seien. Man entdeckt ihren Werthwechsel sobald man sie mit einer dritten Waare vergleicht, deren Werth konstant blieb. Stiegen oder fielen die Werthe aller Waaren gleichzeitig und in derselben Proportion, so würden ihre relativen Werthe unverändert bleiben. Ihren wirklichen Werthwechsel ersähe man daraus, daß in derselben Arbeitszeit nun allgemein ein größeres oder kleineres Waarenquantum als vorher geliefert würde.
+
+[v1-ch01-s03-p0034] [MEGA p.55]
+IV. Die zur Produktion von Leinwand und Rock resp. nothwendigen Arbeitszeiten, und daher ihre Werthe, mögen gleichzeitig in derselben Richtung wechseln, aber in ungleichem Grad, oder in entgegengesetzter Richtung u. s. w. Der Einfluß aller möglichen derartigen Kombinationen auf den relativen Werth einer Waare ergiebt sich einfach durch Anwendung der Fälle I., II. und III.
+
+[v1-ch01-s03-p0035] [MEGA p.55,56]
+Wirkliche Wechsel der Werthgröße spiegeln sich also weder unzweideutig noch erschöpfend wieder in ihrem relativen Ausdruck oder in der Größe des relativen Werths. Der relative Werth einer Waare kann wechseln, obgleich ihr Werth konstant bleibt. Ihr relativer Werth kann konstant bleiben, obgleich ihr Werth wechselt, und endlich brauchen gleichzeitige Wechsel in ihrer Werthgröße und im relativen Ausdruck dieser Werthgröße sich keineswegs zu decken 20). |
+
+[v1-ch01-s03-p0036] [MEGA p.56] [heading]
+3) Die Aequivalentform.
+
+[v1-ch01-s03-p0037] [MEGA p.56]
+Man hat gesehn: Indem eine Waare A (die Leinwand) ihren Werth im Gebrauchswerth einer verschiedenartigen Waare B (dem Rock) ausdrückt, drückt sie letzterer selbst eine eigenthümliche Werthform auf, die des Aequivalents. Die Leinwandwaare bringt ihr eignes Werthsein dadurch zum Vorschein, daß ihr der Rock, ohne Annahme einer von seiner Körperform verschiednen Werthform, gleichgilt. Die Leinwand drückt also in der That ihr eignes Werthsein dadurch aus, daß der Rock unmittelbar mit ihr austauschbar ist. Die Aequivalentform einer Waare ist folglich die Form ihrer unmittelbaren Austauschbarkeit mit anderer Waare.
+
+[v1-ch01-s03-p0038] [MEGA p.56,57]
+Wenn eine Waarenart, wie Röcke, einer andren Waarenart, wie Leinwand, zum Aequivalent dient, Röcke daher die charakteristische Eigenschaft erhalten, sich in inmittelbar austauschbarer Form mit Leinwand zu befinden, so ist damit in keiner Weise die Proportion gegeben, worin Röcke und Leinwand austauschbar sind. Sie hängt, da die Werthgröße der Leinwand gegeben ist, von der Werthgröße der Röcke ab. Ob der Rock als Aequivalent und die Leinwand als relativer Werth, oder umgekehrt die Leinwand als Aequivalent und der Rock als relativer Werth ausgedrückt sei, seine Werthgröße bleibt nach wie vor durch die zu seiner Produktion nothwendige Arbeitszeit, also unabhängig von seiner Werthform bestimmt. Aber sobald die Waarenart Rock im Werthausdruck die Stelle des Aequivalents einnimmt, erhält ihre Werthgröße keinen Ausdruck als Werthgröße. Sie figurirt in der Werthgleichung vielmehr nur als bestimmtes Quantum einer Sache.
+
+[v1-ch01-s03-p0039] [MEGA p.57]
+Z. B.: 40 Ellen Leinwand sind „werth“ ‒ was? 2 Röcke. Weil die Waarenart Rock hier die Rolle des Aequivalents spielt, der Gebrauchswerth Rock der Leinwand gegenüber als Werthkörper gilt, genügt auch ein bestimmtes Quantum Röcke, um ein bestimmtes Werthquantum Leinwand auszudrücken. Zwei Röcke können daher die Werthgröße von 40 Ellen Leinwand, aber sie können nie ihre eigne Werthgröße, die Werthgröße von Rökken, ausdrücken. Die oberflächliche Auffassung dieser Thatsache, daß das Aequivalent in der Werthgleichung stets nur die Form eines einfachen Quantums einer Sache, eines Gebrauchswerthes, besitzt, hat Bailey, wie viele seiner Vorgänger und Nachfolger, verleitet, im Werthausdruck ein nur quantitatives Verhältniß zu sehn. Die Aequivalentform einer Waare enthält vielmehr keine quantitative Werthbestimmung.
+
+[v1-ch01-s03-p0040] [MEGA p.57]
+Die erste Eigenthümlichkeit, die bei Betrachtung der Aequivalentform auffällt, ist diese: Gebrauchswerth wird zur Erscheinungsform seines Gegentheils, des Werths.
+
+[v1-ch01-s03-p0041] [MEGA p.57]
+Die Naturalform der Waare wird zur Werthform. Aber, notabene, dieß quid pro quo ereignet sich für eine Waare B (Rock oder Weizen oder Eisen u. s. w.) nur innerhalb des Werthverhältnisses, worin eine beliebige andre Waare A (Leinwand etc.) zu ihr tritt, nur innerhalb dieser Beziehung. Da keine Waare sich auf sich selbst als Aequivalent beziehn, also auch nicht ihre eigne Naturalhaut zum Ausdruck ihres eignen Werths machen kann, muß sie sich auf andre Waare als Aequivalent beziehn oder die Naturalhaut einer andren Waare zu ihrer eignen Werthform machen.
+
+[v1-ch01-s03-p0042] [MEGA p.57,58]
+Dieß veranschauliche uns das Beispiel eines Maßes, welches den Waarenkörpern als Waarenkörpern zukommt, d. h. als Gebrauchswerthen. Ein Zuckerhut, weil Körper, ist schwer, und hat daher Gewicht, aber man kann keinem Zuckerhut sein Gewicht ansehn oder anfühlen. Wir nehmen nun verschiedne Stücke Eisen, deren Gewicht vorher bestimmt ist. Die Körperform des Eisens, für sich betrachtet, ist eben so wenig Erscheinungsform der Schwere als die des Zuckerhuts. Dennoch, um den Zuckerhut als Schwere auszudrücken, setzen wir ihn in ein Gewichtsverhältniß zum Eisen. In diesem Verhältniß gilt das Eisen als ein Körper, der nichts darstellt außer Schwere. Eisenquanta dienen daher zum Gewichtsmaß des Zuckers und repräsentiren dem Zuckerkörper gegenüber bloße Schwergestalt, Erscheinungsform von Schwere. Diese Rolle spielt das Eisen nur innerhalb dieses Verhältnisses, worin der Zucker, oder irgend ein anderer Körper, dessen Gewicht gefunden werden soll, zu ihm tritt. Wären beide Dinge nicht schwer, so könnten sie nicht in dieses Verhältniß treten und das Eine daher nicht zum Ausdruck der Schwere des Andren dienen. Werfen wir beide auf die Wagschale, so sehn wir in der That, daß sie als Schwere dasselbe, und daher in bestimmter Proportion auch von demselben Gewicht sind. Wie der Eisenkörper, als Gewichtsmaß dem Zuckerhut gegenüber nur Schwere, so vertritt in unsrem Werthausdruck der Rockkörper der Leinwand gegenüber nur Werth.
+
+[v1-ch01-s03-p0043] [MEGA p.58]
+Hier hört jedoch die Analogie auf. Das Eisen vertritt im Gewichtsausdruck des Zuckerhuts eine beiden Körpern gemeinsame Natureigenschaft, ihre Schwere ‒, während der Rock im Werthausdruck der Leinwand eine übernatürliche Eigenschaft beider Dinge vertritt: ihren Werth, etwas rein Gesellschaftliches.
+
+[v1-ch01-s03-p0044] [MEGA p.58]
+Indem die relative Werthform einer Waare, z. B. der Leinwand, ihr Werthsein als etwas von ihrem Körper und seinen Eigenschaften durchaus Unterschiedenes ausdrückt, z. B. als Rockgleiches, deutet dieser Ausdruck selbst an, daß er ein gesellschaftliches Verhältniß verbirgt. Umgekehrt mit der Aequivalentform. Sie besteht ja gerade darin, daß ein Waarenkörper, wie der Rock, dieß Ding wie es geht und steht, Werth ausdrückt, also von Natur Werthform besitzt. Zwar gilt dieß nur innerhalb des Werthverhältnisses, worin die Leinwandwaare auf die Rockwaare als Aequivalent bezogen ist 21). Da aber Eigenschaften eines Dings nicht aus seinem Verhältniß zu andern Dingen entspringen, sich vielmehr in solchem Verhältniß nur bethätigen, scheint auch der Rock seine Aequivalentform, seine Eigenschaft unmittelbarer Austauschbarkeit, ebenso sehr von Natur zu besitzen wie seine Eigenschaft schwer zu sein oder warm zu halten. Daher das Räthselhafte der Aequivalentform, das den bürgerlich rohen Blick des politischen Oekonomen erst schlägt, sobald diese Form ihm fertig gegenübertritt im Geld. Dann sucht er den mystischen Charakter von Gold und Silber wegzuklären, indem er ihnen minder blendende Waaren unterschiebt und mit stets erneutem Vergnügen den Katalog all des Waarenpöbels ableiert, der seiner Zeit die Rolle des Waarenaequivalents gespielt hat. Er ahnt nicht, daß schon der einfachste Werthausdruck, wie 20 Ellen Leinwand = 1 Rock, das Räthsel der Aequivalentform zu lösen giebt.
+
+[v1-ch01-s03-p0045] [MEGA p.58,59]
+Der Körper der Waare, die zum Aequivalent dient, gilt stets als Verkörperung abstrakt menschlicher Arbeit und ist stets das Produkt einer bestimmten nützlichen, konkreten Arbeit. Diese konkrete Arbeit wird also zum Ausdruck abstrakt menschlicher Arbeit. Gilt der Rock z. B. als bloße Verwirklichung, so die Schneiderei, die sich thatsächlich in ihm verwirklicht, als bloße Verwirklichungsform abstrakt menschlicher Arbeit. Im Werthausdruck der Leinwand besteht die Nützlichkeit der Schneiderei nicht darin, daß sie Kleider, also auch Leute, sondern daß sie einen Körper macht, dem man es ansieht, daß er Werth ist, also Gallerte von Arbeit, die sich durchaus nicht unterscheidet von der im Leinwandwerth vergegenständlichten Arbeit. Um solch einen Werthspiegel zu machen, muß die Schneiderei selbst nichts wiederspiegeln außer ihrer abstrakten Eigenschaft, menschliche Arbeit zu sein.
+
+[v1-ch01-s03-p0046] [MEGA p.59]
+In der Form der Schneiderei wie in der Form der Weberei wird menschliche Arbeitskraft verausgabt. Beide besitzen daher die allgemeine Eigenschaft menschlicher Arbeit und mögen daher in bestimmten Fällen, z. B. bei der Werthproduktion, nur unter diesem Gesichtspunkt in Betracht kommen. All das ist nicht mysteriös. Aber im Werthausdruck der Waare wird die Sache verdreht. Um z. B. auszudrücken, daß das Weben nicht in seiner konkreten Form als Weben, sondern in seiner allgemeinen Eigenschaft als menschliche Arbeit den Leinwandwerth bildet, wird ihm die Schneiderei, die konkrete Arbeit, die das Leinwand-Aequivalent producirt, gegenübergestellt als die handgreifliche Verwirklichungsform abstrakt menschlicher Arbeit.
+
+[v1-ch01-s03-p0047] [MEGA p.59]
+Es ist also eine zweite Eigenthümlichkeit der Aequivalentform, daß konkrete Arbeit zur Erscheinungsform ihres Gegentheils, abstrakt menschlicher Arbeit wird.
+
+[v1-ch01-s03-p0048] [MEGA p.59]
+Indem aber diese konkrete Arbeit, die Schneiderei, als bloßer Ausdruck unterschiedsloser menschlicher Arbeit gilt, besitzt sie die Form der Gleichheit mit andrer Arbeit, der in der Leinwand steckenden Arbeit, und ist daher, obgleich Privatarbeit, wie alle andre, Waaren producirende Arbeit, dennoch Arbeit in unmittelbar gesellschaftlicher Form. Eben deßhalb stellt sie sich dar in einem Produkt, das unmittelbar austauschbar mit andrer Waare ist. Es ist also eine dritte Eigenthümlichkeit der Aequivalentform, daß Privatarbeit zur Form ihres Gegentheils wird, zu Arbeit in unmittelbar gesellschaftlicher Form.
+
+[v1-ch01-s03-p0049] [MEGA p.59]
+Die beiden zuletzt entwickelten Eigenthümlichkeiten der Aequivalentform werden noch faßbarer, wenn wir zu dem großen Forscher zurückgehn, der die Werthform, wie so viele Denkformen, Gesellschaftsformen und Naturformen zuerst analysirt hat. Es ist dieß Aristoteles. |
+
+[v1-ch01-s03-p0050] [MEGA p.59]
+Zunächst spricht Aristoteles klar aus, daß die Geldform der Waare nur die weiter entwickelte Gestalt der einfachen Werthform ist, d. h. des Ausdrucks des Werths einer Waare in irgend einer beliebigen andren Waare, denn er sagt:
+
+[v1-ch01-s03-p0051] [MEGA p.59]
+„5 Polster = 1 Haus“ („Κλῖναι πέντε ἀντὶ οἰκίαζ“)
+
+[v1-ch01-s03-p0052] [MEGA p.59]
+„unterscheidet sich nicht“ von:
+
+[v1-ch01-s03-p0053] [MEGA p.60]
+„5 Polster = so und so viel Geld“ („Κλῖναι πέντε ἀντὶ... ὅσου αἱ πέντε κλῖναι“).
+
+[v1-ch01-s03-p0054] [MEGA p.60]
+Er sieht ferner ein, daß das Werthverhältniß, worin dieser Werthausdruck steckt, seinerseits bedingt, daß das Haus dem Polster qualitativ gleichgesetzt wird, und daß diese sinnlich verschiednen Dinge ohne solche Wesensgleichheit nicht als kommensurable Größen auf einander beziehbar wären. „Der Austausch“, sagt er, „kann nicht sein ohne die Gleichheit, die Gleichheit aber nicht ohne die Kommensurabilität“ („οὔτ᾽ ἰσότης μὴ οὔσης συμμετϱίας“). Hier aber stutzt er und giebt die weitere Analyse der Werthform auf. „Es ist aber in Wahrheit unmöglich („τῇ μὲν οὖν ἀλη- ϑείᾳ ἀδύνατον“), daß so verschiedenartige Dinge kommensurabel“, d. h. qualitativ gleich seien. Diese Gleichsetzung kann nur etwas der wahren Natur der Dinge Fremdes sein, also nur „Nothbehelf für das praktische Bedürfniß“.
+
+[v1-ch01-s03-p0055] [MEGA p.60]
+Aristoteles sagt uns also selbst, woran seine weitere Analyse scheitert, nämlich am Mangel des Werthbegriffs. Was ist das Gleiche, d. h. die gemeinschaftliche Substanz, die das Haus für den Polster im Werthausdruck des Polsters vorstellt? So etwas kann „in Wahrheit nicht existiren“, sagt Aristoteles. Warum? Das Haus stellt dem Polster gegenüber ein Gleiches vor, soweit es das in Beiden, dem Polster und dem Haus, wirklich Gleiche vorstellt. Und das ist ‒ menschliche Arbeit.
+
+[v1-ch01-s03-p0056] [MEGA p.60]
+Daß aber in der Form der Waarenwerthe alle Arbeiten als gleiche menschliche Arbeit und daher als gleichgeltend ausgedrückt sind, konnte Aristoteles nicht aus der Werthform selbst herauslesen, weil die griechische Gesellschaft auf der Sklavenarbeit beruhte, daher die Ungleichheit der Menschen und ihrer Arbeitskräfte zur Naturbasis hatte. Das Geheimniß des Werthausdrucks, die Gleicheit und gleiche Gültigkeit aller Arbeiten, weil und insofern sie menschliche Arbeit überhaupt sind, kann nur entziffert werden, sobald der Begriff der menschlichen Gleichheit bereits die Festigkeit eines Volksvorurtheils besitzt. Das ist aber erst möglich in einer Gesellschaft, worin die Waarenform die allgemeine Form des Arbeitsprodukts, also auch das Verhältniß der Menschen zu einander als | Waarenbesitzer das herrschende gesellschaftliche Verhältniß ist. Das Genie des Aristoteles glänzt grade darin, daß er im Werthausdruck der Waaren ein Gleichheitsverhältniß entdeckt. Nur die historische Schranke der Gesellschaft, worin er lebte, verhindert ihn herauszufinden, worin denn „in Wahrheit“ dies Gleichheitsverhältniß besteht.
+
+[v1-ch01-s03-p0057] [MEGA p.61] [heading]
+4. Das Ganze der einfachen Werthform.
+
+[v1-ch01-s03-p0058] [MEGA p.61]
+Die einfache Werthform einer Waare ist enthalten in ihrem Werthverhältniß zu einer verschiedenartigen Waare oder im Austauschverhältniß mit derselben. Der Werth der Waare A wird qualitativ ausgedrückt durch die unmittelbare Austauschbarkeit der Waare B mit der Waare A. Er wird quantitativ ausgedrückt durch die Austauschbarkeit eines bestimmten Quantums der Waare B mit dem gegebenen Quantum der Waare A. In andren Worten: Der Werth einer Waare ist selbständig ausgedrückt durch seine Darstellung als „Tauschwerth“. Wenn es im Eingang dieses Kapitels in der gäng und gäben Manier hieß: Die Waare ist Gebrauchswerth und Tauschwerth, so war dieß, genau gesprochen, falsch. Die Waare ist Gebrauchswerth oder Gebrauchsgegenstand und „Werth“. Sie stellt sich dar als dieß Doppelte was sie ist, sobald ihr Werth eine eigne, von ihrer Naturalform verschiedene Erscheinungsform besitzt, die des Tauschwerths, und sie besitzt diese Form niemals isolirt betrachtet, sondern stets nur im Werth- oder Austauschverhältniß zu einer zweiten, verschiedenartigen Waare. Weiß man das jedoch einmal, so thut jene Sprechweise keinen Harm, sondern dient zur Abkürzung.
+
+[v1-ch01-s03-p0059] [MEGA p.61]
+Unsere Analyse bewies, daß die Werthform oder der Werthausdruck der Waare aus der Natur des Waarenwerths entspringt, nicht umgekehrt Werth und Werthgröße aus ihrer Ausdrucksweise als Tauschwerth. Dieß ist jedoch der Wahn sowohl der Merkantilisten und ihrer modernen Aufwärmer wie Ferrier, Ganilh u. s. w. 22), als auch ihrer Antipoden, der modernen Freihandels-Commis-Voyageurs, wie Bastiat und Konsorten. Die Merkantilisten legen das Hauptgewicht auf die qualitative Seite des Werthausdrucks, daher auf die Aequivalentform der Waare, die im Geld ihre fertige Gestalt besitzt, ‒ die modernen Freihandelshausirer dagegen, die ihre Waare um jeden Preis losschlagen müssen, auf die quantitative Seite der relativen Werthform. Für sie existirt folglich weder Werth noch Werthgröße der Waare außer in dem Ausdruck durch das Austauschverhältniß, daher nur im Zettel des täglichen Preiskurants. Der Schotte MacLeod, in seiner Funktion die kreuzverwirrten Vorstellungen von Lombardstreet möglichst gelehrt heraus zu putzen, bildet die gelungene Synthese zwischen den abergläubigen Merkantilisten und den aufgeklärten Freihandelshausirern.
+
+[v1-ch01-s03-p0060] [MEGA p.61,62]
+Die nähere Betrachtung des im Werthverhältniß zur Waare B enthaltenen Werthausdrucks der Waare A hat gezeigt, daß innerhalb desselben die Naturalform der Waare A nur als Gestalt von Gebrauchswerth, die Naturalform der Waare B nur als Werthform oder Werthgestalt gilt. Der in der Waare eingehüllte innere Gegensatz von Gebrauchswerth und Werth wird also dargestellt durch einen äußeren Gegensatz, d. h. durch das Verhältniß zweier Waaren, worin die eine Waare, deren Werth ausgedrückt werden soll, unmittelbar nur als Gebrauchswerth, die andre Waare hingegen, worin Werth ausgedrückt wird, unmittelbar nur als Tauschwerth gilt. Die einfache Werthform einer Waare ist also die einfache Erscheinungsform des in ihr enthaltenen Gegensatzes von Gebrauchswerth und Werth.
+
+[v1-ch01-s03-p0061] [MEGA p.62]
+Das Arbeitsprodukt ist in allen gesellschaftlichen Zuständen Gebrauchsgegenstand, aber nur eine historisch bestimmte Entwicklungsepoche, welche die in der Produktion eines Gebrauchsdings verausgabte Arbeit als seine „gegenständliche“ Eigenschaft darstellt, d. h. als seinen Werth, verwandelt das Arbeitsprodukt in Waare. Es folgt daher, daß die einfache Werthform der Waare zugleich die einfache Waarenform des Arbeitsprodukts ist, daß also auch die Entwicklung der Waarenform mit der Entwicklung der Werthform zusammenfällt.
+
+[v1-ch01-s03-p0062] [MEGA p.62]
+Der erste Blick zeigt das Unzulängliche der einfachen Werthform, dieser Keimform, die erst durch eine Reihe von Metamorphosen zur Preisform heranreift.
+
+[v1-ch01-s03-p0063] [MEGA p.62]
+Der Ausdruck in irgend welcher Waare B unterscheidet den Werth der Waare A nur von ihrem eignen Gebrauchswerth und setzt sie daher auch nur in ein Austauschverhältniß zu irgend einer einzelnen von ihr selbst verschiednen Waarenart, statt ihre qualitative Gleichheit und quantitative Proportionalität mit allen andren Waaren darzustellen. Der einfachen relativen Werthform einer Waare entspricht die einzelne Aequivalentform einer andren Waare. So besitzt der Rock, im relativen Werthausdruck der | Leinwand, nur Aequivalentform oder Form unmittelbarer Austauschbarkeit mit Bezug auf diese einzelne Waarenart Leinwand.
+
+[v1-ch01-s03-p0064] [MEGA p.62]
+Indeß geht die einzelne Werthform von selbst in eine vollständigere Form über. Vermittelst derselben wird der Werth einer Waare A zwar in nur einer Waare von andrer Art ausgedrückt. Welcher Art aber diese zweite Waare, ob Rock, ob Eisen, ob Weizen u. s. w., ist durchaus gleichgültig. Je nachdem sie also zu dieser oder jener andren Waarenart in ein Werthverhältniß tritt, entstehn verschiedne einfache Werthausdrücke einer und derselben Waare 22a). Die Anzahl ihrer möglichen Werthausdrücke ist nur beschränkt durch die Anzahl von ihr verschiedner Waarenarten. Ihr vereinzelter Werthausdruck verwandelt sich daher in die stets verlängerbare Reihe ihrer verschiednen einfachen Werthausdrücke.
+
+[v1-ch01-s03-p0065] [MEGA p.63] [heading]
+B. Totale oder entfaltete Werthform.
+
+[v1-ch01-s03-p0066] [MEGA p.63]
+z Waare A = u Waare B oder = v Waare C oder = w Waare D oder = x Waare E oder = etc.
+
+[v1-ch01-s03-p0067] [MEGA p.63]
+(20 Ellen Leinwand = 1 Rock oder = 10 Pfd. Thee oder = 40 Pfd. Kaffee oder = 1 Quarter Weizen oder = 2 Unzen Gold oder = ½ Tonnen Eisen oder = etc.)
+
+[v1-ch01-s03-p0068] [MEGA p.63] [heading]
+1. Die entfaltete relative Werthform.
+
+[v1-ch01-s03-p0069] [MEGA p.63]
+Der Werth einer Waare, der Leinwand z. B., ist jetzt ausgedrückt in zahllosen andren Elementen der Waarenwelt. Jeder andre Waarenkörper wird zum Spiegel des Leinwandwerths 23). So erscheint dieser Werth selbst erst wahrhaft als Gallerte unterschiedsloser menschlicher Arbeit. Denn die ihn bildende Arbeit ist nun ausdrücklich als Arbeit dargestellt, der jede andre menschliche Arbeit gleichgilt, welche Naturalform sie immer besitze, und ob sie sich daher in Rock oder Weizen oder Eisen oder Gold u. s. w. vergegenständliche. Durch ihre Werthform steht die Leinwand daher jetzt auch in gesellschaftlichem Verhältniß nicht mehr zu nur einer einzelnen andren Waarenart, sondern zur Waarenwelt. Als Waare ist sie Bürger dieser Welt. Zugleich liegt in der endlosen Reihe seiner Ausdrücke, daß der Waarenwerth gleichgültig ist gegen die besondre Form des Gebrauchswerths, worin er erscheint.
+
+[v1-ch01-s03-p0070] [MEGA p.63,64]
+In der ersten Form: 20 Ellen Leinwand = 1 Rock kann es zufällige Thatsache sein, daß diese zwei Waaren in einem bestimmten quantitativen Verhältnisse austauschbar sind. In der zweiten Form leuchtet dagegen sofort ein von der zufälligen Erscheinung wesentlich unterschiedner und sie bestimmender Hintergrund durch. Der Werth der Leinwand bleibt gleich groß, ob in Rock oder Kaffee oder Eisen etc. dargestellt, in zahllos verschiednen Waaren, den verschiedensten Besitzern angehörig. Das zufällige Verhältniß zweier individueller Waarenbesitzer fällt fort. Es wird offenbar, daß nicht der Austausch die Werthgröße der Waare, sondern umgekehrt die Werthgröße der Waare ihre Austauschverhältnisse regulirt.
+
+[v1-ch01-s03-p0071] [MEGA p.64] [heading]
+2. Die besondre Aequivalentform.
+
+[v1-ch01-s03-p0072] [MEGA p.64]
+Jede Waare, Rock, Thee, Weizen, Eisen u. s. w. gilt im Werthausdruck der Leinwand als Aequivalent und daher als Werthkörper. Die bestimmte Naturalform jeder dieser Waaren ist jetzt eine besondre Aequivalentform neben vielen andren. Ebenso gelten die mannigfaltigen in den verschiedenen Waarenkörpern enthaltenen bestimmten, konkreten, nützlichen Arbeitsarten jetzt als eben so viele besondre Verwirklichungs- oder Erscheinungsformen menschlicher Arbeit schlechthin.
+
+[v1-ch01-s03-p0073] [MEGA p.64] [heading]
+3. Mängel der totalen oder entfalteten Werthform.
+
+[v1-ch01-s03-p0074] [MEGA p.64]
+Erstens ist der relative Werthausdruck der Waare unfertig, weil seine Darstellungsreihe nie abschließt. Die Kette, worin eine Werthgleichung sich zur andern fügt, bleibt fortwährend verlängerbar durch jede neu auftretende Waarenart, welche das Material eines neuen Werthausdrucks liefert. Zweitens bildet sie eine bunte Mosaik auseinanderfallender und verschiedenartiger Werthausdrücke. Wird endlich, wie dies geschehn muß, der relative Werth jeder Waare in dieser entfalteten Form ausgedrückt, so ist die relative Werthform jeder Waare eine von der relativen Werthform jeder | andren Waare verschiedne endlose Reihe von Werthausdrücken. ‒ Die Mängel der entfalteten relativen Werthform spiegeln sich wieder in der ihr entsprechenden Aequivalentform. Da die Naturalform jeder einzelnen Waarenart hier eine besondre Aequivalentform neben unzähligen andren besondren Aequivalentformen ist, existiren überhaupt nur beschränkte Aequivalentformen, von denen jede die andre ausschließt. Ebenso ist die in jedem besondren Waarenäquivalent enthaltene bestimmte, konkrete, nützliche Arbeitsart nur besondre, also nicht erschöpfende Erscheinungsform der menschlichen Arbeit. Diese besitzt ihre vollständige oder totale Erscheinungsform zwar in dem Gesammtumkreis jener besondren Erscheinungsformen. Aber so besitzt sie keine einheitliche Erscheinungsform.
+
+[v1-ch01-s03-p0075] [MEGA p.64]
+Die entfaltete relative Werthform besteht jedoch nur aus einer Summe einfacher relativer Werthausdrücke oder Gleichungen der ersten Form, wie:
+[table]
+20 Ellen Leinwand | = | 1 Rock
+20 Ellen Leinwand | = | 10 Pfd. Thee u. s. w.
+[/table]
+
+[v1-ch01-s03-p0076] [MEGA p.65]
+Jede dieser Gleichungen enthält aber rückbezüglich auch die identische Gleichung:
+[table]
+1 Rock | = | 20 Ellen Leinwand
+10 Pfd. Thee | = | 20 Ellen Leinwand u. s. w.
+[/table]
+
+[v1-ch01-s03-p0077] [MEGA p.65]
+In der That: Wenn ein Mann seine Leinwand mit vielen andren Waaren austauscht und daher ihren Werth in einer Reihe von andren Waaren ausdrückt, so müssen nothwendig auch die vielen andren Waarenbesitzer ihre Waaren mit Leinwand austauschen und daher die Werthe ihrer verschiednen Waaren in derselben dritten Waare ausdrücken, in Leinwand. ‒ Kehren wir also die Reihe: 20 Ellen Leinwand = 1 Rock oder = 10 Pfd. Thee oder = u. s. w. um, d. h. drücken wir die der Sache nach schon in der Reihe enthaltene Rückbeziehung aus, so erhalten wir:
+
+[v1-ch01-s03-p0078] [MEGA p.65] [heading]
+C. Allgemeine Werthform.
+[table]
+1 Rock | = |  | 
+10 Pfd. Thee | = |  | 
+40 Pfd. Kaffee | = |  | 
+1 Qrtr. Weizen | = | 20 Ellen Leinwand.| | 
+2 Unzen Gold | = |  | 
+½ Tonne Eisen | = |  | 
+x Waare A | = |  | 
+u. s. w. Waare | = |  | 
+[/table]
+
+[v1-ch01-s03-p0079] [MEGA p.65] [heading]
+1. Veränderter Charakter der Werthform.
+
+[v1-ch01-s03-p0080] [MEGA p.65]
+Die Waaren stellen ihre Werthe jetzt 1) einfach dar, weil in einer einzigen Waare und 2) einheitlich, weil in derselben Waare. Ihre Werthform ist einfach und gemeinschaftlich, daher allgemein.
+
+[v1-ch01-s03-p0081] [MEGA p.65]
+Die Formen I und II kamen beide nur dazu, den Werth einer Waare als etwas von ihrem eignen Gebrauchswerth oder ihrem Waarenkörper Unterschiedenes auszudrücken.
+
+[v1-ch01-s03-p0082] [MEGA p.65]
+Die erste Form ergab Werthgleichungen wie: 1 Rock = 20 Ellen Leinwand, 10 Pfd. Thee = ½ Tonne Eisen u. s. w. Der Rockwerth wird als Leinwandgleiches, der Theewerth als Eisengleiches u. s. w. ausgedrückt, aber Leinwandgleiches und Eisengleiches, diese Werthausdrücke von Rock und Thee, sind ebenso verschieden wie Leinwand und Eisen. Diese Form kommt offenbar praktisch nur vor in den ersten Anfängen, wo Arbeitsprodukte durch zufälligen und gelegentlichen Austausch in Waaren verwandelt werden.
+
+[v1-ch01-s03-p0083] [MEGA p.66]
+Die zweite Form unterscheidet vollständiger als die erste den Werth einer Waare von ihrem eignen Gebrauchswerth, denn der Werth des Rocks z. B. tritt jetzt seiner Naturalform in allen möglichen Formen gegenüber, als Leinwandgleiches, Eisengleiches, Theegleiches u. s. w., alles andre, nur nicht Rockgleiches. Andrerseits ist hier jeder gemeinsame Werthausdruck der Waaren direkt ausgeschlossen, denn im Werthausdruck je einer Waare erscheinen jetzt alle andren Waaren nur in der Form von Aequivalenten. Die entfaltete Werthform kommt zuerst thatsächlich vor, sobald ein Arbeitsprodukt, Vieh z. B., nicht mehr ausnahmsweise, sondern schon gewohnheitsmäßig mit verschiednen andren Waaren ausgetauscht wird.
+
+[v1-ch01-s03-p0084] [MEGA p.66]
+Die neu gewonnene Form drückt die Werthe der Waarenwelt in einer und derselben von ihr abgesonderten Waarenart aus, z. B. in Leinwand, und stellt so die Werthe aller Waaren dar durch ihre Gleichheit mit Leinwand. Als Leinwandgleiches ist der Werth jeder Waare jetzt nicht nur von ihrem eignen Gebrauchswerth unterschieden, sondern von allem Gebrauchswerth, und eben dadurch als das ihr mit allen Waaren Gemeinsame ausgedrückt. Erst diese Form bezieht daher wirklich die Waaren auf einander als Werthe oder läßt sie einander als Tauschwerthe erscheinen.
+
+[v1-ch01-s03-p0085] [MEGA p.66]
+Die beiden früheren Formen drücken den Werth je einer Waare, sei es in einer einzigen verschiedenartigen Waare, sei es in einer Reihe vieler von ihr verschiednen Waaren aus. Beidemal ist es so zu sagen das Privatgeschäft der einzelnen Waare sich eine Werthform zu geben, und sie vollbringt es ohne Zuthun der andren Waaren. Diese spielen ihr gegenüber die bloß passive Rolle des Aequivalents. Die allgemeine Werthform entsteht dagegen nur als gemeinsames Werk der Waarenwelt. Eine Waare gewinnt nur allgemeinen Werthausdruck, weil gleichzeitig alle andren Waaren ihren Werth in demselben Aequivalent ausdrücken und jede neu auftretende Waarenart muß das nachmachen. Es kommt damit zum Vorschein, daß die Werthgegenständlichkeit der Waaren, weil sie das bloß „gesellschaftliche Dasein“ dieser Dinge ist, auch nur durch ihre allseitige gesellschaftliche Beziehung ausgedrückt werden kann, ihre Werthform daher gesellschaftlich gültige Form sein muß.
+
+[v1-ch01-s03-p0086] [MEGA p.66]
+In der Form von Leinwandgleichen erscheinen jetzt alle Waaren nicht nur als qualitativ Gleiche, Werthe überhaupt, sondern zugleich als quantitativ vergleichbare Werthgrößen. Weil sie ihre Werthgrößen in einem und demselben Material, in Leinwand bespiegeln, spiegeln sich diese Werthgrößen wechselseitig wieder. Z. B. 10 Pfd. Thee = 20 Ellen Leinwand, und 40 Pfd. Kaffee = 20 Ellen Leinwand. Also 10 Pfd. Thee = 40 Pfd. Kaffee. Oder in 1 Pfd. Kaffee steckt nur ¼ so viel Werthsubstanz, Arbeit, als in 1 Pfd. Thee.
+
+[v1-ch01-s03-p0087] [MEGA p.66,67]
+Die allgemeine relative Werthform der Waarenwelt drückt der von ihr ausgeschlossenen Aequivalentwaare, der Leinwand, den Charakter des allgemeinen Aequivalents auf. Ihre eigne Naturalform ist die gemeinsame Werthgestalt dieser Welt, die Leinwand daher mit allen andren Waaren unmittelbar austauschbar. Ihre Körperform gilt als die sichtbare Inkarnation, die allgemeine gesellschaftliche Verpuppung aller menschlichen Arbeit. Die Weberei, die Privatarbeit, welche Leinwand producirt, befindet sich zugleich in allgemein gesellschaftlicher Form, der Form der Gleichheit mit allen andren Arbeiten. Die zahllosen Gleichungen, woraus die allgemeine Werthform besteht, setzen der Reihe nach die in der Leinwand verwirklichte Arbeit jeder in andrer Waare enthaltenen Arbeit gleich und machen dadurch die Weberei zur allgemeinen Erscheinungsform menschlicher Arbeit überhaupt. So ist die im Waarenwerth vergegenständlichte Arbeit nicht nur negativ dargestellt als Arbeit, worin von allen konkreten Formen und nützlichen Eigenschaften der wirklichen Arbeiten abstrahirt wird. Ihre eigne positive Natur tritt ausdrücklich hervor. Sie ist die Reduktion aller wirklichen Arbeiten auf den ihnen gemeinsamen Charakter menschlicher Arbeit, auf die Verausgabung menschlicher Arbeitskraft. |
+
+[v1-ch01-s03-p0088] [MEGA p.67]
+Die allgemeine Werthform, welche die Arbeitsprodukte als bloße Gallerten unterschiedsloser menschlicher Arbeit darstellt, zeigt durch ihr eignes Gerüste, daß sie der gesellschaftliche Ausdruck der Waarenwelt ist. So offenbart sie, daß innerhalb dieser Welt der allgemein menschliche Charakter der Arbeit ihren specifisch gesellschaftlichen Charakter bildet.
+
+[v1-ch01-s03-p0089] [MEGA p.67] [heading]
+2. Entwicklungsverhältniß von relativer Werthform und Aequivalentform.
+
+[v1-ch01-s03-p0090] [MEGA p.67]
+Dem Entwicklungsgrad der relativen Werthform entspricht der Entwicklungsgrad der Aequivalentform. Aber, und dieß ist wohl zu merken, die Entwicklung der Aequivalentform ist nur Ausdruck und Resultat der Entwicklung der relativen Werthform.
+
+[v1-ch01-s03-p0091] [MEGA p.67]
+Die einfache oder vereinzelte relative Werthform einer Waare macht eine andre Waare zum einzelnen Aequivalent. Die entfaltete Form des relativen Werths, dieser Ausdruck des Werths einer Waare in allen andren Waaren, prägt ihnen die Form verschiedenartiger besonderer Aequivalente auf. Endlich erhält eine besondre Waarenart die allgemeine Aequivalentform, weil alle andren Waaren sie zum Material ihrer einheitlichen, allgemeinen Werthform machen.
+
+[v1-ch01-s03-p0092] [MEGA p.67]
+In demselben Grad aber, worin sich die Werthform überhaupt entwikkelt, entwickelt sich auch der Gegensatz zwischen ihren beiden Polen, der relativen Werthform und Aequivalentform.
+
+[v1-ch01-s03-p0093] [MEGA p.67,68]
+Schon die erste Form ‒ 20 Ellen Leinwand = 1 Rock ‒ enthält diesen Gegensatz, fixirt ihn aber nicht. Je nachdem dieselbe Gleichung vorwärts oder rückwärts gelesen wird, befindet sich jedes der beiden Waarenextreme, wie Leinwand und Rock, gleichmäßig bald in der relativen Werthform, bald in der Aequivalentform. Es kostet hier noch Mühe, den polarischen Gegensatz festzuhalten.
+
+[v1-ch01-s03-p0094] [MEGA p.68]
+In der Form II kann immer nur je eine Waarenart ihren relativen Werth total entfalten oder besitzt sie selbst nur entfaltete relative Werthform, weil und sofern alle andren Waaren sich ihr gegenüber in der Aequivalentform befinden. Hier kann man nicht mehr die zwei Seiten der Werthgleichung ‒ wie 20 Ellen Leinwand = 1 Rock oder = 10 Pfd. Thee oder = 1 Qrtr. Weizen etc. ‒ umsetzen, ohne ihren Gesammtcharakter zu verändern und sie aus der totalen in die allgemeine Werthform zu verwandeln.
+
+[v1-ch01-s03-p0095] [MEGA p.68]
+Die letztere Form, Form III, endlich giebt der Waarenwelt allgemein-gesellschaftliche relative Werthform, weil und sofern, mit einer einzigen Ausnahme, alle ihr angehörigen Waaren von der allgemeinen Aequivalentform ausgeschlossen sind. Eine Waare, die Leinwand, befindet sich daher in der Form unmittelbarer Austauschbarkeit mit allen andren Waaren oder in unmittelbar gesellschaftlicher Form, weil und sofern alle andren Waaren sich nicht darin befinden. 24)
+
+[v1-ch01-s03-p0096] [MEGA p.68,69]
+Umgekehrt ist die Waare, die als allgemeines Aequivalent figurirt, von der einheitlichen und daher allgemeinen relativen Werthform der Waarenwelt ausgeschlossen. Sollte die Leinwand, d. h. irgend eine in allgemeiner Aequivalentform befindliche Waare, auch zugleich an der allgemeinen relativen Werthform theilnehmen, so müßte sie sich selbst zum Aequivalent dienen. Wir erhielten dann: 20 Ellen Leinwand = 20 Ellen Leinwand, eine Tautologie, worin weder Werth, noch Werthgröße ausgedrückt ist. Um den relativen Werth des allgemeinen Aequivalents auszudrücken, müssen wir vielmehr die Form III umkehren. Es besitzt keine mit den andren Waaren gemeinschaftliche relative Werthform, sondern sein Werth drückt sich relativ aus in der endlosen Reihe aller andren Waarenkörper. So erscheint jetzt die entfaltete relative Werthform oder Form II als die specifische relative Werthform der Aequivalentwaare.
+
+[v1-ch01-s03-p0097] [MEGA p.69] [heading]
+3. Uebergang aus der allgemeinen Werthform zur Geldform.
+
+[v1-ch01-s03-p0098] [MEGA p.69]
+Die allgemeine Aequivalentform ist eine Form des Werths überhaupt. Sie kann also jeder Waare zukommen. Andrerseits befindet sich eine Waare nur in allgemeiner Aequivalentform (Form III), weil und sofern sie durch alle andren Waaren als Aequivalent ausgeschlossen wird. Und erst vom Augenblick, wo diese Ausschließung sich endgültig auf eine specifische Waarenart beschränkt, hat die einheitliche relative Werthform der Waarenwelt objective Festigkeit und allgemein gesellschaftliche Gültigkeit gewonnen.
+
+[v1-ch01-s03-p0099] [MEGA p.69]
+Die specifische Waarenart nun, mit deren Naturalform die Aequivalentform gesellschaftlich verwächst, wird zur Geldwaare oder funktionirt als Geld. Es wird ihre specifisch gesellschaftliche Funktion, und daher ihr gesellschaftliches Monopol, innerhalb der Waarenwelt die Rolle des allgemeinen Aequivalents zu spielen. Diesen bevorzugten Platz hat unter den Waaren, welche in Form II als besondre Aequivalente der Leinwand figuriren, und in Form III ihren relativen Werth gemeinsam in Leinwand ausdrücken, eine bestimmte Waare historisch erobert, das Gold. Setzen wir daher in Form III die Waare Gold an die Stelle der Waare Leinwand, so erhalten wir:
+
+[v1-ch01-s03-p0100] [MEGA p.69] [heading]
+D. Geldform.
+[table]
+20 Ellen Leinwand | = |  | 
+1 Rock | = |  | 
+10 Pfd. Thee | = |  | 
+40 Pfd. Kaffee | = |  | 2 Unzen Gold.
+1 Qrtr. Weizen | = |  | 
+½ Tonne Eisen | = |  | 
+x Waare A | = |  | 
+[/table]
+
+[v1-ch01-s03-p0101] [MEGA p.69,70]
+Es finden wesentliche Veränderungen statt beim Uebergang von Form I zu Form II, von Form II zu Form III. Dagegen unterscheidet Form IV sich durch nichts von Form III, außer daß jetzt statt Leinwand Gold die allgemeine Aequivalentform besitzt. Gold bleibt in Form IV, was die Leinwand in Form III war ‒ allgemeines Aequivalent. Der Fortschritt besteht nur darin, daß die Form unmittelbarer allgemeiner Austauschbarkeit oder die allgemeine Aequivalentform jetzt durch gesellschaftliche Gewohnheit endgültig mit der specifischen Naturalform der Waare Gold verwachsen ist.
+
+[v1-ch01-s03-p0102] [MEGA p.70]
+Gold tritt den andren Waaren nur als Geld gegenüber, weil es ihnen bereits zuvor als Waare gegenüberstand. Gleich allen andren Waaren funktionirte es auch als Aequivalent, sei es als einzelnes Aequivalent in vereinzelten Austauschakten, sei es als besondres Aequivalent neben andren Waarenäquivalenten. Nach und nach funktionirte es in engeren oder weiteren Kreisen als allgemeines Aequivalent. Sobald es das Monopol dieser Stelle im Werthausdruck der Waarenwelt erobert hat, wird es Geldwaare, und erst von dem Augenblick, wo es bereits Geldwaare geworden ist, unterscheidet sich Form IV von Form III, oder ist die allgemeine Werthform verwandelt in die Geldform.
+
+[v1-ch01-s03-p0103] [MEGA p.70]
+Der einfache relative Werthausdruck einer Waare, z. B. der Leinwand, in der bereits als Geldwaare funktionirenden Waare, z. B. dem Gold, ist Preisform. Die „Preisform“ der Leinwand daher:
+
+[v1-ch01-s03-p0104] [MEGA p.70]
+20 Ellen Leinwand = 2 Unzen Gold,
+
+[v1-ch01-s03-p0105] [MEGA p.70]
+oder, wenn 2 Pfd. St. der Münzname von 2 Unzen Gold,
+
+[v1-ch01-s03-p0106] [MEGA p.70]
+20 Ellen Leinwand = 2 Pfd. St.
+
+[v1-ch01-s03-p0107] [MEGA p.70]
+Die Schwierigkeit im Begriff der Geldform beschränkt sich auf das Begreifen der allgemeinen Aequivalentform, also der allgemeinen Werthform überhaupt, der Form III. Form III löst sich rückbezüglich auf in Form II, die entfaltete Werthform, und ihr konstituirendes Element ist Form I: 20 Ellen Leinwand = 1 Rock oder x Waare A = y Waare B. Die einfache Waarenform ist daher der Keim der Geldform.
+
+## Footnotes
+
+[note-001] [MEGA p.51]
+17) Die wenigen Oekonomen, die sich, wie S. Bailey, mit der Analyse der Werthform beschäftigt haben, konnten zu keinem Resultat kommen, einmal, weil sie Werthform und Werth verwechseln, zweitens, weil sie, unter dem rohen Einfluß des praktischen Bürgers, von vorn herein ausschließlich die quantitative Bestimmtheit ins Auge fassen. “The command of quantity... constitutes value.” („Money and its Vicissitudes“. Lond. 1837, p. 11). Verfasser S. Bailey.
+
+[note-002] [MEGA p.52]
+17a) Note zur 2. Ausgabe. Einer der ersten Oekonomen, der nach William Petty die Natur des Werths durchschaut hat, der berühmte Franklin, sagt: „Da der Handel überhaupt nichts ist als der Austausch einer Arbeit gegen andre Arbeit, wird der Werth aller Dinge am richtigsten geschätzt in Arbeit.“ („The Works of B. Franklin etc., edited by Sparks“, Boston 1836, v. II, p. 267.) Franklin ist sich nicht bewußt, daß, indem er den Werth aller Dinge „in Arbeit“ schätzt, er von der Verschiedenheit der ausgetauschten Arbeiten abstrahirt ‒ und sie so auf gleiche menschliche Arbeit reducirt. Was er nicht weiß, sagt er jedoch. Er spricht erst von „der einen Arbeit“, dann „von der andren Arbeit“, schließlich von „Arbeit“ ohne weitere Bezeichnung als Substanz des Werths aller Dinge.
+
+[note-003] [MEGA p.54]
+18) In gewisser Art geht’s dem Menschen wie der Waare. Da er weder mit einem Spiegel auf die Welt kommt, noch als Fichtescher Philosoph: Ich bin ich, bespiegelt sich der Mensch zuerst in einem andren Menschen. Erst durch die Beziehung auf den Menschen Paul als seinesgleichen, bezieht sich der Mensch Peter auf sich selbst als Mensch. Damit gilt ihm aber auch der Paul mit Haut und Haaren, in seiner paulinischen Leiblichkeit, als Erscheinungsform des genus Mensch.
+
+[note-004] [MEGA p.54]
+19) Der Ausdruck „Werth“ wird hier, wie beiläufig schon früher stellenweis geschah, für quantitativ bestimmten Werth, also für Werthgröße gebraucht.
+
+[note-005] [MEGA p.56]
+20) Note zur 2. Ausg. Diese Inkongruenz zwischen der Werthgröße und ihrem relativen Ausdruck ist von der Vulgärökonomie mit gewohntem Scharfsinn ausgebeutet worden. Z. B.: „Gebt einmal zu, daß A fällt, weil B, womit es ausgetauscht wird, steigt, obgleich unterdessen nicht weniger Arbeit auf A verausgabt wird, und euer allgemeines Werthprincip fällt zu Boden.... Wenn zugegeben wird, daß, weil der Werth von A relativ zu B steigt, der Werth von B relativ zu A fällt, ist der Grund unter den Füßen weggeschnitten, worauf Ricardo seinen großen Satz aufstellt, daß der Werth einer Waare stets bestimmt ist durch das Quantum der ihr einverleibten Arbeit, denn wenn ein Wechsel in den Kosten von A nicht nur seinen eignen Werth im Verhältniß zu B, womit es ausgetauscht wird, verändert, sondern auch den Werth von B relativ zu dem von A, obgleich kein Wechsel stattgefunden hat in dem zur Produktion von B erheischten Arbeitsquantum, dann fällt nicht nur die Doktrin zu Boden, die versichert, daß die auf einen Artikel verausgabte Quantität Arbeit seinen Werth regulirt, sondern auch die Doktrin, daß die Produktionskosten eines Artikels seinen Werth reguliren.“ (J. Broadhurst: „Political Economy“, London 1842, p. 11, 14.) Herr Broadhurst konnte eben so gut sagen: man sehe sich einmal die Zahlenverhältnisse 10 20, 10 50, 10 100 u. s. w. an. Die Zahl 10 bleibt unverändert, und dennoch nimmt ihre proportionelle Größe, ihre Größe relativ zu den Nennern 20, 50, 100, beständig ab. Also fällt das große Princip zu Boden, daß die Größe einer ganzen Zahl wie 10 z. B. durch die Anzahl der in ihr enthaltenen Einer „regulirt“ ist.
+
+[note-006] [MEGA p.58]
+21) Es ist mit solchen Reflexionsbestimmungen überhaupt ein eigenes Ding. Dieser Mensch ist z. B. nur König, weil sich andre Menschen als Unterthanen zu ihm verhalten. Sie glauben umgekehrt Unterthanen zu sein, weil er König ist.
+
+[note-007] [MEGA p.61]
+22) Note zur 2. Ausg. F. L. A. Ferrier (sous-inspecteur des douanes): „Du Gouvernement considéré dans ses rapports avec le commerce. Paris 1805“ und Charles Ganilh: „Des Systèmes de l’Économie Politique. 2ème éd. Paris 1821“.
+
+[note-008] [MEGA p.62]
+22a) Note zur 2. Aufl. Z. B. bei Homer wird der Werth eines Dings in einer Reihe verschiedner Dinge ausgedrückt.
+
+[note-009] [MEGA p.63]
+23) Man spricht deßhalb vom Rockwerth der Leinwand, wenn man ihren Werth in Röcken, von ihrem Kornwerth, wenn man ihn in Korn darstellt etc. Jeder solche Ausdruck besagt, daß es ihr Werth ist, der in den Gebrauchswerthen Rock, Korn u. s. w. erscheint. “The value of any commodity denoting its relation in exchange, we may speak of it as... corn-value, cloth-value according to the commodity with which it is compared; and then there are a thousand different kinds of value, as many kinds of value as there are commodities in existence, and all are equally real and equally nominal.” („A Critical Dissertation on the Nature, Measures and Causes of Value: chiefly in reference to the writings of Mr. Ricardo and his followers. By the Author of Essays on the Formation etc. of Opinions. London 1825“, p. 39.) S. Bailey, der Verfasser dieser anonymen Schrift, die ihrer Zeit viel Lärm in England machte, wähnt durch diesen Hinweis auf die kunterbunten relativen Ausdrücke desselben Waaren-Werths alle Begriffsbestimmung des Werths vernichtet zu haben. Daß er übrigens, trotz eigner Bornirtheit, wunde Flecken der Ricardo’schen Theorie sondirt hatte, bewies die Gereiztheit, womit die Ricardo’sche Schule ihn angriff, z. B. in der Westminster Review.
+
+[note-010] [MEGA p.68]
+24) Man sieht es der Form allgemeiner unmittelbarer Austauschbarkeit in der That keineswegs an, daß sie eine gegensätzliche Waarenform ist, von der Form nicht unmittelbarer Austauschbarkeit ebenso unzertrennlich wie die Positivität eines Magnetpols von der Negativität des andren. Man mag sich daher einbilden, man könne allen Waaren zugleich den Stempel unmittelbarer Austauschbarkeit aufdrücken, wie man sich einbilden mag, man könne alle Katholiken zu Päbsten machen. Für den Kleinbürger, der in der Waarenproduktion das nec plus ultra menschlicher Freiheit und individueller Unabhängigkeit erblickt, wäre es natürlich sehr wünschenswerth, der mit dieser Form verbundnen Mißstände überhoben zu sein, namentlich auch der nicht unmittelbaren Austauschbarkeit der Waaren. Die Ausmalung dieser Philisterutopie bildet Proudhon’s Socialismus, der, wie ich anderswo gezeigt, nicht einmal das Verdienst der Originalität besitzt, vielmehr lange vor ihm von Gray, Bray und Andern, weit besser entwickelt wurde. Dieß verhindert solche Weisheit nicht, heutzutage, in gewissen Kreisen, unter dem Namen der „science“ zu grassiren. Nie hat eine Schule mehr als die Proudhon’sche mit dem Wort „science“ um sich geworfen, denn „wo Begriffe fehlen, Da stellt zur rechten Zeit ein Wort sich ein“.
