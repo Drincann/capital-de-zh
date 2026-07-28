@@ -35,6 +35,11 @@ test("interface stays focused on catalog, versions and reading", async () => {
   assert.match(html, /capital-progress-catalog-collapsed/);
   assert.match(html, /capital-progress-reading-position/);
   assert.match(html, /saveReadingPosition/);
+  assert.match(html, /class="chapter-sections"/);
+  assert.match(html, /class="catalog-section/);
+  assert.match(html, /function selectUnit/);
+  assert.doesNotMatch(html, /id="sectionList"/);
+  assert.doesNotMatch(html, /\.section-list\s*\{/);
   assert.match(html, /max-width: 900px/);
   assert.match(html, /scrollIntoView/);
   assert.match(html, /比较版本/);
@@ -46,6 +51,7 @@ test("interface stays focused on catalog, versions and reading", async () => {
   assert.match(html, /data-version-picker/);
   assert.match(html, /终审待复核/);
   assert.match(html, /version\.reviewStatus === "needs_review"/);
+  assert.match(html, /\.prose \.footnotes li:target/);
   assert.doesNotMatch(html, /<select\b/);
   assert.match(
     html,
@@ -87,7 +93,7 @@ test("reader renders the Markdown used by translation previews", async () => {
   const rendered = renderMarkdown([
     "### 小标题",
     "",
-    "正文有 **重点**、`代码`、[链接](https://example.com) 和脚注[^1]。",
+    "正文有 **重点**、`代码`、[链接](https://example.com) 和脚注[^38]，另有补充脚注[^205a]。",
     "",
     "- 第一项",
     "- 第二项",
@@ -98,7 +104,9 @@ test("reader renders the Markdown used by translation previews", async () => {
     "| --- | ---: |",
     "| 棉花 | 20 |",
     "",
-    "[^1]: 这是脚注。",
+    "[^38]: 这是脚注。",
+    "",
+    "[^205a]: 这是补充脚注。",
     "",
     "<script>alert(1)</script>",
     "[危险链接](javascript:alert(1))",
@@ -118,8 +126,11 @@ test("reader renders the Markdown used by translation previews", async () => {
   assert.match(rendered, /<ul><li>第一项<\/li><li>第二项<\/li><\/ul>/);
   assert.match(rendered, /<blockquote><p>一段引用<\/p><\/blockquote>/);
   assert.match(rendered, /<table>/);
-  assert.match(rendered, /id="fnref-1-1"/);
-  assert.match(rendered, /id="fn-1"/);
+  assert.match(rendered, /id="fnref-38-1"/);
+  assert.match(rendered, /id="fn-38"/);
+  assert.match(rendered, /class="footnote-number">38\.<\/span>/);
+  assert.match(rendered, /class="footnote-number">205a\.<\/span>/);
+  assert.match(rendered, /class="footnote-text">这是脚注。/);
   assert.match(rendered, /class="footnote-backref"/);
   assert.match(rendered, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
   assert.doesNotMatch(rendered, /href="javascript:/);
@@ -157,6 +168,10 @@ test("chapter and section state reflects current review tasks and saved versions
   const valorization = chapterFive.sections.find(
     (section) => section.unit_id === "ch05-s02"
   );
+  const chapterEight = chapters.find((chapter) => chapter.id === "ch08");
+  const terminalReviewSection = chapterEight.sections.find(
+    (section) => section.unit_id === "ch08-s03"
+  );
 
   assert.ok(["in_progress", "completed"].includes(chapterFive.status));
   assert.equal(
@@ -192,6 +207,13 @@ test("chapter and section state reflects current review tasks and saved versions
       (task) => task.status === "approved" && task.preview !== ""
     )
   );
+  assert.equal(terminalReviewSection.versionCount, 1);
+  assert.equal(terminalReviewSection.versions.length, 1);
+  assert.equal(terminalReviewSection.status, "needs_review");
+  assert.equal(terminalReviewSection.adoptedVersionId, "");
+  assert.equal(terminalReviewSection.versions[0].reviewStatus, "needs_review");
+  assert.match(terminalReviewSection.versions[0].reviewNote, /13岁/);
+  assert.notEqual(terminalReviewSection.preview, "");
 });
 
 test("adoption marker validates the unit and persists locally", async () => {

@@ -24,4 +24,4 @@ python skill-snapshot/reader-edition-v18/scripts/reader_project_controller.py va
 python skill-snapshot/reader-edition-v18/scripts/reader_project_controller.py context .
 ```
 
-当前阶段：读者版规范已锁定；已登记 26 章的来源。
+当前阶段：读者版规范已锁定；已登记 45 章的来源。

@@ -1,8 +1,10 @@
 /work/
 /tmp_*
+/tmp/
 /outputs/*
 !/outputs/capital-volume1-de-zh-new/
 !/outputs/capital-volume1-de-zh-new/**
+/outputs/capital-volume1-de-zh-new/temp-source-audit/
 **/node_modules/
 **/dist/
 **/build/

@@ -33,7 +33,44 @@ def repair_lineation(value: str) -> str:
     )
 
 
-def element_text(element: ET.Element) -> str:
+def looks_like_unmarked_continuation(previous: str, current: str) -> bool:
+    """Recover page-split prose whose continuation lacks cM/cE metadata."""
+    previous = previous.rstrip()
+    current = current.lstrip()
+    if not previous or not current:
+        return False
+    if re.search(r'[.!?…]["”»’)]*$', previous):
+        return False
+    return bool(re.match(r"[a-zäöüß]", current))
+
+
+TABLE_BLOCK_PATTERN = re.compile(r"\[table\]\n.*?\n\[/table\]", re.DOTALL)
+
+
+def repair_text_preserving_tables(value: str) -> str:
+    """Repair prose lineation without flattening row-delimited table blocks."""
+
+    tables: list[str] = []
+
+    def shield(match: re.Match[str]) -> str:
+        token = f"TABLEBLOCKTOKEN{len(tables)}"
+        tables.append(match.group(0))
+        return f" {token} "
+
+    text = repair_lineation(TABLE_BLOCK_PATTERN.sub(shield, value))
+    for index, table in enumerate(tables):
+        text = text.replace(
+            f"TABLEBLOCKTOKEN{index}",
+            f"\n{table}\n",
+        )
+    return re.sub(r"[ \t]*\n[ \t]*", "\n", text).strip()
+
+
+def element_text(
+    element: ET.Element,
+    *,
+    preserve_tables: bool = False,
+) -> str:
     chunks: list[str] = []
 
     def visit(node: ET.Element) -> None:
@@ -42,6 +79,13 @@ def element_text(element: ET.Element) -> str:
                 chunks.append(node.tail)
             return
         name = local_name(node.tag)
+        if preserve_tables and name == "table":
+            text = table_text(node)
+            if text:
+                chunks.append(f"\n{text}\n")
+            if node.tail:
+                chunks.append(node.tail)
+            return
         if name == "add" and node.get("type", "").startswith("mpb"):
             if node.tail:
                 chunks.append(node.tail.lstrip())
@@ -62,7 +106,10 @@ def element_text(element: ET.Element) -> str:
             chunks.append(node.tail)
 
     visit(element)
-    return repair_lineation("".join(chunks))
+    text = "".join(chunks)
+    if preserve_tables:
+        return repair_text_preserving_tables(text)
+    return repair_lineation(text)
 
 
 def table_text(element: ET.Element) -> str:
@@ -141,11 +188,11 @@ def referenced_footnotes(
         if name == "pb" and node.get("ed") != "manuscript":
             page = node.get("n", page)
         elif name == "note" and node.get("type") == "footnote":
-            text = element_text(node)
+            text = element_text(node, preserve_tables=True)
             label = footnote_label(node)
             target = footnote_target(node)
             if node.get("prev") and candidates and text:
-                candidates[-1]["text"] = repair_lineation(
+                candidates[-1]["text"] = repair_text_preserving_tables(
                     str(candidates[-1]["text"]) + " " + text
                 )
                 old_pages = str(candidates[-1]["pages"])
@@ -284,7 +331,20 @@ def main() -> int:
             text = element_text(node)
             if not text:
                 continue
-            if node.get("n") == "cE" and items and items[-1]["kind"] == "paragraph":
+            if (
+                (
+                    node.get("n") in {"cM", "cE"}
+                    or (
+                        not node.get("n")
+                        and looks_like_unmarked_continuation(
+                            items[-1]["text"] if items else "",
+                            text,
+                        )
+                    )
+                )
+                and items
+                and items[-1]["kind"] == "paragraph"
+            ):
                 items[-1]["text"] = repair_lineation(items[-1]["text"] + " " + text)
                 if page and page not in items[-1]["pages"].split(","):
                     items[-1]["pages"] += f",{page}"

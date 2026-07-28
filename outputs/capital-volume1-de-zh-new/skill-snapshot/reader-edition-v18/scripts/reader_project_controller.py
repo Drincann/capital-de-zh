@@ -360,6 +360,57 @@ def source_blocks_with_referenced_notes(
     )
 
 
+def source_from_task_package(path: Path) -> str:
+    """Recover the exact source slice embedded in an existing task package."""
+
+    text = path.read_text(encoding="utf-8")
+    match = re.search(
+        r"## Exact German source\s+```text\n(?P<source>.*?)\n```\s+"
+        r"## Acceptance gates",
+        text,
+        re.DOTALL,
+    )
+    if not match:
+        raise ValueError(f"cannot locate exact source in task package: {path}")
+    return match.group("source")
+
+
+def normalized_source_identity(text: str) -> str:
+    """Normalize extraction metadata without hiding source-content changes.
+
+    Stable paragraph IDs, printed note labels, and all German wording remain in
+    the identity. Internal note IDs, MEGA page locators, and typographic quote
+    variants may change when the XML extractor is repaired and must not force a
+    completed translation through another review cycle.
+    """
+
+    text = re.sub(
+        r"(?m)^(\[v1-[^\]]+\])\s+\[MEGA[^\]]*\]\s*$",
+        r"\1",
+        text,
+    )
+    text = re.sub(
+        r"(?m)^\[note-\d+\]\s+\[MEGA[^\]]*\]\s*$",
+        "[note]",
+        text,
+    )
+    text = text.translate(
+        str.maketrans(
+            {
+                "“": '"',
+                "”": '"',
+                "„": '"',
+                "‟": '"',
+                "«": '"',
+                "»": '"',
+                "’": "'",
+                "‘": "'",
+            }
+        )
+    )
+    return "\n".join(line.rstrip() for line in text.strip().splitlines())
+
+
 def review_field(text: str, name: str) -> str:
     match = re.search(
         rf"^{re.escape(name)}:\s*`?([^`\r\n]+?)`?\s*$",
@@ -426,6 +477,7 @@ def review_errors(
     row: dict[str, Any],
     review_path: Path,
     review_type: str,
+    allow_fail: bool = False,
 ) -> list[str]:
     errors: list[str] = []
     text = review_path.read_text(encoding="utf-8")
@@ -448,7 +500,8 @@ def review_errors(
         errors.append("Task-ID does not match")
     if review_field(text, "Draft-SHA256") != draft_hash:
         errors.append("Draft-SHA256 does not match the current draft")
-    if review_field(text, "Verdict") != "PASS":
+    verdict = review_field(text, "Verdict")
+    if verdict != "PASS" and not (allow_fail and verdict == "FAIL"):
         errors.append("Verdict must be PASS before advancing")
 
     if review_type == "meaning":
@@ -536,7 +589,7 @@ def review_errors(
                         )
 
     risks = review_section(text, "Second-read risks")
-    if not re.search(
+    if not allow_fail and not re.search(
         r"^-\s+(?:None in current draft\.|No unresolved T(?: findings)?\.)",
         risks,
         re.MULTILINE,
@@ -929,23 +982,12 @@ proposal in the meaning review. Do not silently turn it into a global default.
 7. Bind both reviews to the exact draft SHA-256 using the format in
    `references/review-protocol.md`.
 8. Save each review under `chapters/{chapter['chapter_id']}/reviews/`.
-9. Update durable task status only after the controller validates the evidence.
+9. After writing the assigned artifact, report its path and stop. Durable status
+   updates belong to the coordinating main agent and are intentionally omitted
+   from this delegated task package.
 10. A task may be returned for revision at most twice. Resolve task-level
     blocking defects before assembly; do not turn style suggestions into an
     endless optimization loop.
-
-## Completion commands
-
-Run from the project root and replace the review paths with the files actually
-created:
-
-```powershell
-python skill-snapshot/{STANDARD_VERSION}/scripts/reader_project_controller.py task-update . {row['task_id']} --status in_progress
-python skill-snapshot/{STANDARD_VERSION}/scripts/reader_project_controller.py task-update . {row['task_id']} --status drafted
-python skill-snapshot/{STANDARD_VERSION}/scripts/reader_project_controller.py task-update . {row['task_id']} --status meaning_reviewed --review-path chapters/{chapter['chapter_id']}/reviews/{row['task_id']}-meaning.md
-python skill-snapshot/{STANDARD_VERSION}/scripts/reader_project_controller.py task-update . {row['task_id']} --status readability_reviewed --review-path chapters/{chapter['chapter_id']}/reviews/{row['task_id']}-readability.md
-python skill-snapshot/{STANDARD_VERSION}/scripts/reader_project_controller.py task-update . {row['task_id']} --status approved
-```
 """
 
 
@@ -971,6 +1013,7 @@ def make_tasks(
     chapter_id: str,
     max_paragraphs: int,
     title: str | None = None,
+    replace_incomplete: bool = False,
 ) -> None:
     load_project(root)
     if max_paragraphs < 1 or max_paragraphs > 20:
@@ -999,11 +1042,30 @@ def make_tasks(
         if row.get("chapter_id") == chapter_id
         and row.get("status") != "superseded"
     ]
-    if active:
+    replaced: list[dict[str, Any]] = []
+    if active and not replace_incomplete:
         raise SystemExit(
             f"{chapter_id} already has {len(active)} active tasks; "
             "supersede or finish them before rechunking"
         )
+    if active:
+        blocked = [
+            str(row.get("task_id", ""))
+            for row in active
+            if row.get("status") not in ("pending", "in_progress", "drafted")
+            or row.get("meaning_review_path")
+            or row.get("readability_review_path")
+        ]
+        if blocked:
+            raise SystemExit(
+                "Only pending, in-progress, or unreviewed drafted tasks may be "
+                "replaced while rechunking: "
+                + ", ".join(blocked)
+            )
+        replaced = list(active)
+        for row in replaced:
+            row["status"] = "superseded"
+            row["last_updated"] = now()
 
     source_path = root / str(chapter["source_path"])
     paragraphs = parse_source(source_path)
@@ -1015,7 +1077,17 @@ def make_tasks(
         source_blocks = source_blocks_with_referenced_notes(source_path, group)
         first_num = paragraph_number(group[0]["id"])
         last_num = paragraph_number(group[-1]["id"])
-        task_id = f"{chapter_id}-p{first_num:04d}-p{last_num:04d}-r1"
+        previous_revisions = [
+            int(row.get("revision", 1))
+            for row in all_tasks
+            if row.get("chapter_id") == chapter_id
+            and row.get("start_paragraph") == group[0]["id"]
+            and row.get("end_paragraph") == group[-1]["id"]
+        ]
+        revision = max(previous_revisions, default=0) + 1
+        task_id = (
+            f"{chapter_id}-p{first_num:04d}-p{last_num:04d}-r{revision}"
+        )
         task_package = (
             root / "chapters" / chapter_id / "tasks" / f"{task_id}.md"
         )
@@ -1040,8 +1112,15 @@ def make_tasks(
             "readability_review_sha256": "",
             "meaning_review_artifact_sha256": "",
             "readability_review_artifact_sha256": "",
-            "dependencies": [],
-            "revision": 1,
+            "dependencies": [
+                str(row["task_id"])
+                for row in replaced
+                if (
+                    paragraph_number(str(row["start_paragraph"])) <= last_num
+                    and paragraph_number(str(row["end_paragraph"])) >= first_num
+                )
+            ],
+            "revision": revision,
             "last_updated": now(),
         }
         atomic_write_text(
@@ -1071,9 +1150,17 @@ def make_tasks(
     append_event(
         root,
         chapter=chapter_id,
-        stage="task-chunking",
+        stage=(
+            "task-rechunking"
+            if replace_incomplete and replaced
+            else "task-chunking"
+        ),
         artifact=f"chapters/{chapter_id}/tasks",
-        result=f"completed:{len(created)}",
+        result=(
+            f"completed:{len(created)};superseded:{len(replaced)}"
+            if replaced
+            else f"completed:{len(created)}"
+        ),
         next_stage="draft",
     )
     print(
@@ -1124,11 +1211,17 @@ def refresh_tasks(
     if not selected:
         raise SystemExit(f"{chapter_id} has no tasks to refresh")
     blocked = [
-        row["task_id"] for row in selected if row.get("status") != "pending"
+        row["task_id"]
+        for row in selected
+        if row.get("status") not in ("pending", "in_progress", "drafted")
+        or row.get("meaning_review_path")
+        or row.get("readability_review_path")
     ]
     if blocked:
         raise SystemExit(
-            "Only pending tasks can be refreshed in place: " + ", ".join(blocked)
+            "Only pending, in-progress, or drafted tasks without reviews can be "
+            "refreshed in place: "
+            + ", ".join(blocked)
         )
     paragraphs = parse_source(root / str(chapter["source_path"]))
     ids = [item["id"] for item in paragraphs]
@@ -1164,12 +1257,12 @@ def refresh_tasks(
     append_event(
         root,
         chapter=chapter_id,
-        stage="pending-task-refresh",
+        stage="active-task-refresh",
         artifact=f"chapters/{chapter_id}/tasks",
         result=f"completed:{len(selected)}",
         next_stage="draft",
     )
-    print(f"Refreshed {len(selected)} pending tasks for {chapter_id}")
+    print(f"Refreshed {len(selected)} active tasks for {chapter_id}")
 
 
 def revise_tasks(
@@ -1333,9 +1426,15 @@ def task_update(
     new_status: str,
     artifact_path: str | None,
     review_path: str | None,
+    allow_unresolved_final: bool = False,
+    review_note: str = "",
 ) -> None:
     if new_status not in TASK_STATES:
         raise SystemExit(f"Invalid task status: {new_status}")
+    if allow_unresolved_final and new_status != "readability_reviewed":
+        raise SystemExit(
+            "--allow-unresolved-final is only valid for readability_reviewed"
+        )
     path = root / "manifests" / "tasks.jsonl"
     rows = read_jsonl(path)
     row = next((item for item in rows if item.get("task_id") == task_id), None)
@@ -1386,7 +1485,39 @@ def task_update(
                 "Draft changed after meaning review; reopen the task and "
                 "repeat both reviews"
             )
-        failures = review_errors(root, row, review, "readability")
+        verdict = review_field(review.read_text(encoding="utf-8"), "Verdict")
+        issue_note = review_note.strip()
+        if allow_unresolved_final:
+            if verdict != "FAIL":
+                raise SystemExit(
+                    "--allow-unresolved-final is only valid for Verdict: FAIL"
+                )
+            if int(row.get("revision", 0)) < 3:
+                raise SystemExit(
+                    "An unresolved task can be finalized only on revision 3 or later"
+                )
+            if not re.search(
+                r"-r3-readability\.md$",
+                review_path.replace("\\", "/"),
+            ):
+                raise SystemExit(
+                    "An unresolved final task review must use an -r3-readability.md path"
+                )
+            if not issue_note:
+                raise SystemExit(
+                    "--review-note is required for an unresolved final task"
+                )
+        elif issue_note:
+            raise SystemExit(
+                "--review-note requires --allow-unresolved-final"
+            )
+        failures = review_errors(
+            root,
+            row,
+            review,
+            "readability",
+            allow_fail=allow_unresolved_final,
+        )
         if failures:
             raise SystemExit(
                 "Readability review failed validation:\n- "
@@ -1395,6 +1526,12 @@ def task_update(
         row["readability_review_path"] = review_path.replace("\\", "/")
         row["readability_review_sha256"] = sha256_file(review)
         row["readability_review_artifact_sha256"] = sha256_file(artifact)
+        row["review_status"] = (
+            "needs_review" if allow_unresolved_final else "passed"
+        )
+        if issue_note:
+            row["review_note"] = issue_note
+            row["review_attempt"] = 3
     if new_status == "approved":
         if not row.get("meaning_review_path") or not row.get(
             "readability_review_path"
@@ -1748,6 +1885,10 @@ def validate(root: Path, quiet: bool = False) -> list[str]:
             errors.append(f"{chapter_id}: missing source {source}")
         elif sha256_file(source) != row.get("source_sha256"):
             errors.append(f"{chapter_id}: base source hash changed")
+    chapter_by_id = {
+        str(row.get("chapter_id", "")): row for row in chapter_rows
+    }
+    parsed_source_by_chapter: dict[str, list[dict[str, str]]] = {}
     task_ids: set[str] = set()
     active_ranges: dict[str, list[tuple[int, int, str]]] = {}
     for row in task_rows:
@@ -1774,6 +1915,36 @@ def validate(root: Path, quiet: bool = False) -> list[str]:
         ):
             errors.append(f"{task_id}: task specification hash is stale")
         if row.get("status") != "superseded":
+            chapter = chapter_by_id.get(chapter_id)
+            if chapter is not None:
+                try:
+                    if chapter_id not in parsed_source_by_chapter:
+                        parsed_source_by_chapter[chapter_id] = parse_source(
+                            root / str(chapter["source_path"])
+                        )
+                    paragraphs = parsed_source_by_chapter[chapter_id]
+                    paragraph_ids = [item["id"] for item in paragraphs]
+                    start = paragraph_ids.index(str(row["start_paragraph"]))
+                    end = paragraph_ids.index(str(row["end_paragraph"]))
+                    current_source = source_blocks_with_referenced_notes(
+                        root / str(chapter["source_path"]),
+                        paragraphs[start : end + 1],
+                    )
+                    if sha256_text(current_source) != row.get("source_sha256"):
+                        package_source = source_from_task_package(
+                            root / str(row["task_package_path"])
+                        )
+                        if normalized_source_identity(
+                            current_source
+                        ) != normalized_source_identity(package_source):
+                            errors.append(
+                                f"{task_id}: task source is stale against current "
+                                "chapter source (including referenced notes)"
+                            )
+                except (KeyError, ValueError) as exc:
+                    errors.append(
+                        f"{task_id}: cannot verify current source slice: {exc}"
+                    )
             try:
                 active_ranges.setdefault(chapter_id, []).append(
                     (
@@ -1828,8 +1999,17 @@ def validate(root: Path, quiet: bool = False) -> list[str]:
                     errors.append(
                         f"{task_id}: readability review hash mismatch"
                     )
+                allow_fail = row.get("review_status") == "needs_review"
+                if allow_fail and not str(row.get("review_note", "")).strip():
+                    errors.append(
+                        f"{task_id}: unresolved final task lacks review_note"
+                    )
                 for failure in review_errors(
-                    root, row, readability_path, "readability"
+                    root,
+                    row,
+                    readability_path,
+                    "readability",
+                    allow_fail=allow_fail,
                 ):
                     errors.append(
                         f"{task_id}: readability review: {failure}"
@@ -1855,6 +2035,55 @@ def validate(root: Path, quiet: bool = False) -> list[str]:
                 errors.append(
                     f"{chapter_id}: overlapping tasks {previous[2]} and {current[2]}"
                 )
+        chapter = next(
+            (
+                item
+                for item in chapter_rows
+                if str(item.get("chapter_id", "")) == chapter_id
+            ),
+            None,
+        )
+        if chapter is None:
+            continue
+        source_path = root / str(chapter.get("source_path", ""))
+        if not source_path.is_file():
+            continue
+        try:
+            expected_numbers = [
+                paragraph_number(str(item["id"]))
+                for item in parse_source(source_path)
+            ]
+        except (KeyError, ValueError, OSError) as exc:
+            errors.append(
+                f"{chapter_id}: cannot verify task coverage: {exc}"
+            )
+            continue
+        covered_numbers: list[int] = []
+        for start, end, _task_id in ranges:
+            if start > end:
+                errors.append(
+                    f"{chapter_id}: task range starts after it ends"
+                )
+                continue
+            covered_numbers.extend(range(start, end + 1))
+        if covered_numbers != expected_numbers:
+            missing = sorted(set(expected_numbers) - set(covered_numbers))
+            extra = sorted(set(covered_numbers) - set(expected_numbers))
+            details: list[str] = []
+            if missing:
+                details.append(
+                    "missing " + ", ".join(f"p{number:04d}" for number in missing)
+                )
+            if extra:
+                details.append(
+                    "extra " + ", ".join(f"p{number:04d}" for number in extra)
+                )
+            if not details:
+                details.append("ranges are out of source order")
+            errors.append(
+                f"{chapter_id}: active tasks do not cover source paragraphs "
+                f"exactly once ({'; '.join(details)})"
+            )
     version_by_id = {
         str(row.get("version_id", "")): row for row in version_rows
     }
@@ -2396,6 +2625,14 @@ def build_parser() -> argparse.ArgumentParser:
     task_parser.add_argument("chapter")
     task_parser.add_argument("--max-paragraphs", type=int, default=5)
     task_parser.add_argument("--title")
+    task_parser.add_argument(
+        "--replace-incomplete",
+        action="store_true",
+        help=(
+            "supersede pending, in-progress, or unreviewed drafted tasks and "
+            "rechunk the current verified source"
+        ),
+    )
     refresh_parser = subparsers.add_parser("refresh-tasks")
     refresh_parser.add_argument("project_root", type=Path)
     refresh_parser.add_argument("chapter")
@@ -2403,7 +2640,10 @@ def build_parser() -> argparse.ArgumentParser:
         "--task-id",
         action="append",
         dest="task_ids",
-        help="refresh only this pending task; repeat for multiple tasks",
+        help=(
+            "refresh only this pending, in-progress, or unreviewed drafted task; "
+            "repeat for multiple tasks"
+        ),
     )
     revise_parser = subparsers.add_parser("revise-tasks")
     revise_parser.add_argument("project_root", type=Path)
@@ -2425,6 +2665,8 @@ def build_parser() -> argparse.ArgumentParser:
     update_parser.add_argument("--status", required=True)
     update_parser.add_argument("--artifact-path")
     update_parser.add_argument("--review-path")
+    update_parser.add_argument("--allow-unresolved-final", action="store_true")
+    update_parser.add_argument("--review-note", default="")
     reopen_parser = subparsers.add_parser("task-reopen")
     reopen_parser.add_argument("project_root", type=Path)
     reopen_parser.add_argument("task_id")
@@ -2466,7 +2708,13 @@ def main() -> int:
     elif args.command == "status":
         status(root)
     elif args.command == "make-tasks":
-        make_tasks(root, args.chapter, args.max_paragraphs, args.title)
+        make_tasks(
+            root,
+            args.chapter,
+            args.max_paragraphs,
+            args.title,
+            args.replace_incomplete,
+        )
     elif args.command == "refresh-tasks":
         refresh_tasks(root, args.chapter, args.task_ids)
     elif args.command == "revise-tasks":
@@ -2483,6 +2731,8 @@ def main() -> int:
             args.status,
             args.artifact_path,
             args.review_path,
+            args.allow_unresolved_final,
+            args.review_note,
         )
     elif args.command == "task-reopen":
         task_reopen(root, args.task_id)

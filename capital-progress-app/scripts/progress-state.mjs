@@ -31,6 +31,11 @@ async function optionalMtime(file) {
   }
 }
 
+function projectFile(root, file) {
+  if (!file) return "";
+  return path.isAbsolute(file) ? file : path.join(root, file);
+}
+
 function timeValue(value) {
   const parsed = Date.parse(value || "");
   return Number.isFinite(parsed) ? parsed : 0;
@@ -153,33 +158,44 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
   const activeUnits = await Promise.all(
     workUnits.map(async (definition) => {
       const controller = controllerById.get(definition.controller_chapter_id);
-      const status = unitState(controller?.status);
+      let status = unitState(controller?.status);
       const tasks = allTasks.filter(
         (task) =>
           task.chapter_id === definition.controller_chapter_id &&
           task.status !== "superseded"
       );
-      const taskVersions = tasks
-        .filter((task) => task.artifact_sha256 || task.status !== "pending")
-        .map((task) => Number(task.revision || 1));
-      const releaseVersions = releases
-        .filter(
-          (release) =>
-            release.chapter_id === definition.controller_chapter_id
-        )
-        .map((release) => Number(release.revision || release.version || 1));
-      const inferredVersions = [
-        ...new Set([...taskVersions, ...releaseVersions]),
-      ]
-        .filter((value) => Number.isFinite(value))
-        .sort((a, b) => b - a);
+      if (
+        ["source_locked", "chunked"].includes(controller?.status) &&
+        tasks.some((task) => !["pending", "superseded"].includes(task.status))
+      ) {
+        const taskProgress = tasks.map(
+          (task) => taskState(task.status).progress
+        );
+        status = {
+          id: "in_progress",
+          label: "进行中",
+          progress: Math.round(
+            taskProgress.reduce((sum, value) => sum + value, 0) /
+              taskProgress.length
+          ),
+        };
+      }
       const outputPath = controller?.output_path || definition.output_path;
       const fallbackPreview = outputPath
-        ? await optionalText(path.join(root, outputPath))
+        ? await optionalText(projectFile(root, outputPath))
         : "";
       const recordedVersions = unitVersions
         .filter((version) => version.unit_id === definition.unit_id)
         .sort((a, b) => Number(b.number) - Number(a.number));
+      const adoptedVersionId = adoptions[definition.unit_id] || "";
+      const hasNeedsReviewVersion = recordedVersions.some(
+        (version) => version.review_status === "needs_review"
+      );
+      if (controller?.status === "assembled" && !adoptedVersionId) {
+        status = hasNeedsReviewVersion
+          ? { id: "needs_review", label: "待复核", progress: 95 }
+          : { id: "in_progress", label: "审核中", progress: 94 };
+      }
       const versionPreviews = await Promise.all(
         recordedVersions.map(async (version) => ({
           id: version.version_id,
@@ -196,26 +212,11 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
           reviewStatus: version.review_status || "",
           reviewNote: version.review_note || "",
           preview: (
-            await optionalText(path.join(root, version.artifact_path))
+            await optionalText(projectFile(root, version.artifact_path))
           ).trim(),
         }))
       );
-      const versions = versionPreviews.length
-        ? versionPreviews
-        : inferredVersions.map((number) => ({
-            id: `${definition.unit_id}-v${number}`,
-            number,
-            label: `第 ${number} 版`,
-            status: status.id === "completed" ? "完成" : status.label,
-            adopted: false,
-            updatedAt: controller?.last_updated || "",
-            taskCount: 0,
-            summary: "",
-            reviewStatus: "",
-            reviewNote: "",
-            preview: fallbackPreview.trim(),
-          }));
-      const adoptedVersionId = adoptions[definition.unit_id] || "";
+      const versions = versionPreviews;
       const current =
         versions.find((version) => version.id === adoptedVersionId) ||
         versions[0];
@@ -229,7 +230,7 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
             progress: state.progress,
             revision: Number(task.revision || 1),
             preview: (
-              await optionalText(path.join(root, task.artifact_path))
+              await optionalText(projectFile(root, task.artifact_path))
             ).trim(),
           };
         })
@@ -303,7 +304,9 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
       ).length;
       const hasActiveWork = activeForChapter.some(
         (unit) =>
-          unit.status === "in_progress" || unit.status === "completed"
+          unit.status === "in_progress" ||
+          unit.status === "needs_review" ||
+          unit.status === "completed"
       );
       const hasPreparedSource = activeForChapter.some(
         (unit) => unit.status === "source_ready"
@@ -373,9 +376,9 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
     ...activeUnits
       .map((unit) => unit.output_path)
       .filter(Boolean)
-      .map((file) => path.join(root, file)),
+      .map((file) => projectFile(root, file)),
     ...unitVersions.map((version) =>
-      path.join(root, version.artifact_path)
+      projectFile(root, version.artifact_path)
     ),
   ];
   const mtimes = await Promise.all(trackedPaths.map(optionalMtime));

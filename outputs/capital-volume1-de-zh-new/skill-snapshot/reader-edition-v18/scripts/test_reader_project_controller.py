@@ -26,6 +26,7 @@ from reader_project_controller import (
     source_blocks_with_referenced_notes,
     task_update,
     validate,
+    write_jsonl,
 )
 
 
@@ -92,15 +93,15 @@ Ein Verweis 24a).
             """# 1) Arbeitsproceß.
 
 [v1-ch05-s01-p0001] [MEGA p.161]
-Der Gebrauch der Arbeitskraft ist die Arbeit selbst.
+Der Gebrauch der Arbeitskraft ist die Arbeit selbst 1).
 
 [v1-ch05-s01-p0002] [MEGA p.162]
 Die Arbeit ist zunächst ein Proceß zwischen Mensch und Natur.
 
 ## Footnotes
 
-[note-001]
-Test.
+[note-001] [MEGA p.161]
+1) Test.
 """,
             encoding="utf-8",
         )
@@ -150,16 +151,61 @@ Test.
         assert cold_start["next_actions"][0]["action"] == "make-tasks"
         assert cold_start["next_actions"][0]["chapter_id"] == "ch05"
         make_tasks(root, "ch05", 1)
+        original_source = source_path.read_text(encoding="utf-8")
+        source_path.write_text(
+            original_source.replace(
+                "[note-001] [MEGA p.161]",
+                "[note-999] [MEGA p.161,162]",
+            ),
+            encoding="utf-8",
+        )
+        migrate(root)
+        metadata_only_errors = validate(root, quiet=True)
+        assert not any(
+            "task source is stale against current chapter source" in error
+            for error in metadata_only_errors
+        ), metadata_only_errors
+        source_path.write_text(original_source, encoding="utf-8")
+        migrate(root)
+        source_path.write_text(
+            original_source.replace("1) Test.", "1) Changed note."),
+            encoding="utf-8",
+        )
+        migrate(root)
+        stale_source_errors = validate(root, quiet=True)
+        assert any(
+            "task source is stale against current chapter source"
+            in error
+            for error in stale_source_errors
+        ), stale_source_errors
+        source_path.write_text(original_source, encoding="utf-8")
+        migrate(root)
         refresh_tasks(root, "ch05")
         tasks = read_jsonl(root / "manifests" / "tasks.jsonl")
         assert len(tasks) == 2
+        write_jsonl(root / "manifests" / "tasks.jsonl", tasks[:-1])
+        coverage_errors = validate(root, quiet=True)
+        assert any(
+            "active tasks do not cover source paragraphs exactly once"
+            in error
+            and "p0002" in error
+            for error in coverage_errors
+        )
+        write_jsonl(root / "manifests" / "tasks.jsonl", tasks)
         first_package = root / tasks[0]["task_package_path"]
-        assert "## Completion commands" in first_package.read_text(encoding="utf-8")
+        package_text = first_package.read_text(encoding="utf-8")
+        assert "## Main-agent-only completion commands" not in package_text
+        assert "reader_project_controller.py task-update" not in package_text
+        assert "report its path and stop" in package_text
         for index, task in enumerate(tasks, 1):
             artifact = root / task["artifact_path"]
             artifact.write_text(f"这是第{index}段清楚直接的测试译文。\n", encoding="utf-8")
             task_update(root, task["task_id"], "in_progress", None, None)
+            if index == 1:
+                refresh_tasks(root, "ch05", [task["task_id"]])
             task_update(root, task["task_id"], "drafted", None, None)
+            if index == 1:
+                refresh_tasks(root, "ch05", [task["task_id"]])
             meaning = (
                 root
                 / "chapters"
@@ -356,6 +402,36 @@ T：测试段的关系仍不够明确。
         assert all(row["status"] == "pending" for row in revised[2:])
         assert all(row["revision"] == 2 for row in revised[2:])
         refresh_tasks(root, "ch05")
+        assert not validate(root)
+        source_path.write_text(
+            original_source.replace(
+                "## Footnotes",
+                """[v1-ch05-s01-p0003] [MEGA p.163]
+Ein neuer Absatz nach einer reparierten Quellengrenze.
+
+## Footnotes""",
+            ),
+            encoding="utf-8",
+        )
+        source_manifest = read_jsonl(
+            root / "sources" / "source-manifest.jsonl"
+        )
+        source_manifest[0]["sha256"] = sha256_file(source_path)
+        source_manifest[0]["bytes"] = source_path.stat().st_size
+        write_jsonl(
+            root / "sources" / "source-manifest.jsonl",
+            source_manifest,
+        )
+        migrate(root)
+        make_tasks(root, "ch05", 1, replace_incomplete=True)
+        rechunked = read_jsonl(root / "manifests" / "tasks.jsonl")
+        active_rechunked = [
+            row for row in rechunked if row["status"] != "superseded"
+        ]
+        assert len(active_rechunked) == 3
+        assert [row["revision"] for row in active_rechunked] == [3, 3, 1]
+        assert all(row["dependencies"] for row in active_rechunked[:2])
+        assert active_rechunked[2]["dependencies"] == []
         assert not validate(root)
     print("OK: reader project controller end-to-end")
     return 0

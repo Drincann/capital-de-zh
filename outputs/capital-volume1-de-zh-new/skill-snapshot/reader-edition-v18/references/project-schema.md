@@ -158,7 +158,12 @@ Every task Markdown file must include:
 5. the reader-facing rules needed to do the work;
 6. relevant terminology and prior decisions;
 7. exact German source text;
-8. required review and completion commands.
+8. required output and review artifact paths.
+
+Do not embed controller, status, validation, assembly, version, adoption,
+rebuild, app, or other shell commands in a delegated task package. Those
+commands belong to the coordinating main agent's project-operations workflow,
+not to the translator's or reviewer's artifact instructions.
 
 The translator writes only the reader-facing Chinese body to the draft artifact.
 No paragraph IDs or work notes go into that body.

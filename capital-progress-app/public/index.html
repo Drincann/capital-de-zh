@@ -52,6 +52,7 @@
         --diff-remove-ink: #83352d;
         --diff-add-bg: #dfece5;
         --diff-add-ink: #2f614b;
+        --footnote-highlight: rgba(207, 179, 102, 0.22);
         --shadow: rgba(43, 36, 29, 0.16);
         --serif: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
         --sans: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
@@ -84,6 +85,7 @@
         --diff-remove-ink: #f1aea4;
         --diff-add-bg: #243c31;
         --diff-add-ink: #a9d6bf;
+        --footnote-highlight: rgba(207, 179, 102, 0.18);
         --shadow: rgba(0, 0, 0, 0.42);
       }
 
@@ -262,6 +264,54 @@
       .dot.completed { background: var(--green); }
       .dot.in_progress { background: var(--accent); }
       .dot.source_ready { background: var(--blue); }
+      .chapter-sections {
+        display: grid;
+        gap: 2px;
+        margin: 3px 0 7px 30px;
+        padding-left: 9px;
+        border-left: 1px solid var(--line);
+      }
+      .catalog-section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 9px;
+        border: 0;
+        border-radius: 4px;
+        color: var(--muted);
+        background: transparent;
+        text-align: left;
+        cursor: pointer;
+      }
+      .catalog-section:hover {
+        color: var(--ink);
+        background: var(--hover);
+      }
+      .catalog-section.selected {
+        color: var(--ink);
+        background: var(--active-surface);
+      }
+      .catalog-section-copy {
+        min-width: 0;
+      }
+      .catalog-section strong {
+        display: block;
+        overflow: hidden;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.4;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .catalog-section small {
+        display: block;
+        margin-top: 2px;
+        color: var(--faint);
+        font-size: 10px;
+        line-height: 1.35;
+      }
 
       .content { min-width: 0; background: var(--surface); }
       .chapter-head {
@@ -305,43 +355,6 @@
       .status.completed { color: var(--green); background: var(--green-soft); }
       .status.in_progress { color: var(--accent); background: var(--accent-soft); }
       .status.source_ready { color: var(--blue); background: var(--blue-soft); }
-
-      .section-list {
-        display: flex;
-        gap: 8px;
-        padding: 16px 46px;
-        overflow-x: auto;
-        border-bottom: 1px solid var(--line);
-        scrollbar-width: none;
-      }
-      .section-list::-webkit-scrollbar { display: none; }
-      .section-button {
-        min-width: 180px;
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        align-items: center;
-        gap: 14px;
-        padding: 10px 12px;
-        border: 1px solid var(--line);
-        border-radius: 5px;
-        color: inherit;
-        background: transparent;
-        text-align: left;
-        cursor: pointer;
-      }
-      .section-button.selected {
-        border-color: var(--control-border-hover);
-        background: var(--active-surface);
-      }
-      .section-button strong {
-        display: block;
-        overflow: hidden;
-        font-size: 12px;
-        font-weight: 500;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-      }
-      .section-button span { display: block; margin-top: 3px; color: var(--faint); font-size: 10px; }
 
       .reader-nav {
         display: flex;
@@ -581,8 +594,31 @@
         color: var(--muted);
         font: 13px/1.75 var(--sans);
       }
-      .prose .footnotes ol { padding-left: 1.65em; }
-      .prose .footnotes li { scroll-margin-top: 20px; }
+      .prose .footnotes ol {
+        display: grid;
+        gap: 0.7em;
+        padding-left: 0;
+        list-style: none;
+      }
+      .prose .footnotes li {
+        display: grid;
+        grid-template-columns: minmax(2em, auto) minmax(0, 1fr);
+        gap: 0.55em;
+        scroll-margin-top: 20px;
+      }
+      .prose .footnote-number {
+        color: var(--ink);
+        font-variant-numeric: tabular-nums;
+        text-align: right;
+        white-space: nowrap;
+      }
+      .prose .footnote-body { min-width: 0; }
+      .prose .footnotes li:target .footnote-number { font-weight: 600; }
+      .prose .footnotes li:target .footnote-text {
+        background: var(--footnote-highlight);
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+      }
       .prose .footnote-backref {
         margin-left: 0.35em;
         text-decoration: none;
@@ -723,7 +759,7 @@
           border-bottom: 1px solid var(--line);
         }
         .chapter-head { padding: 28px 24px 22px; }
-        .section-list, .reader-nav { padding-left: 24px; padding-right: 24px; }
+        .reader-nav { padding-left: 24px; padding-right: 24px; }
         .reader { padding: 32px 24px 52px; }
         .diff-toolbar { align-items: stretch; flex-direction: column; }
         .diff-choice { width: 100%; }
@@ -801,8 +837,6 @@
               <span id="chapterVersions"></span>
             </div>
           </header>
-
-          <div class="section-list" id="sectionList"></div>
 
           <nav class="reader-nav" aria-label="内容视图">
             <button class="tab active" data-view="text">正文</button>
@@ -1183,7 +1217,7 @@
                 const backref = context.referenceCounts.has(id)
                   ? `<a class="footnote-backref" href="#fnref-${id}-1" aria-label="返回正文">↩</a>`
                   : "";
-                return `<li id="fn-${id}">${renderInlineMarkdown(body, context)}${backref}</li>`;
+                return `<li id="fn-${id}"><span class="footnote-number">${escapeHtml(label)}.</span><span class="footnote-body"><span class="footnote-text">${renderInlineMarkdown(body, context)}${backref}</span></span></li>`;
               }).join("")
             }</ol></section>`
           );
@@ -1523,6 +1557,29 @@
         model.compareTargetVersionId = null;
         saveReadingPosition();
         render();
+        if (
+          matchMedia("(max-width: 900px)").matches &&
+          (chapter.sections?.length || 0) <= 1
+        ) {
+          setCatalogCollapsed(true);
+          requestAnimationFrame(() => {
+            el("workspace").scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          });
+        }
+      }
+
+      function selectUnit(unitId) {
+        model.unitId = unitId;
+        model.selectedVersionId = null;
+        model.view = "text";
+        model.compareMode = false;
+        model.compareBaseVersionId = null;
+        model.compareTargetVersionId = null;
+        saveReadingPosition();
+        render();
         if (matchMedia("(max-width: 900px)").matches) {
           setCatalogCollapsed(true);
           requestAnimationFrame(() => {
@@ -1550,18 +1607,40 @@
             <section class="part">
               <p class="part-title">第${part.number}篇 · ${escapeHtml(part.title)}</p>
               ${part.chapters.map((chapter) => `
-                <button
-                  class="chapter ${chapter.id === model.chapterId ? "selected" : ""}"
-                  data-chapter="${chapter.id}"
-                  aria-current="${chapter.id === model.chapterId ? "true" : "false"}"
-                >
-                  <span class="chapter-no">${String(chapter.number).padStart(2, "0")}</span>
-                  <span class="chapter-title">${escapeHtml(chapter.title)}</span>
-                  <span class="chapter-meta">
-                    <span class="dot ${chapter.status}"></span>
-                    ${chapter.statusLabel}${chapter.versionCount ? ` · ${chapter.versionCount}版` : ""}
-                  </span>
-                </button>
+                <div class="chapter-group">
+                  <button
+                    class="chapter ${chapter.id === model.chapterId ? "selected" : ""}"
+                    data-chapter="${chapter.id}"
+                    aria-current="${chapter.id === model.chapterId ? "true" : "false"}"
+                    ${chapter.sections?.length > 1
+                      ? `aria-expanded="${chapter.id === model.chapterId ? "true" : "false"}"`
+                      : ""}
+                  >
+                    <span class="chapter-no">${String(chapter.number).padStart(2, "0")}</span>
+                    <span class="chapter-title">${escapeHtml(chapter.title)}</span>
+                    <span class="chapter-meta">
+                      <span class="dot ${chapter.status}"></span>
+                      ${chapter.statusLabel}${chapter.versionCount ? ` · ${chapter.versionCount}版` : ""}
+                    </span>
+                  </button>
+                  ${chapter.id === model.chapterId && chapter.sections?.length > 1 ? `
+                    <div class="chapter-sections" aria-label="${escapeHtml(chapter.title)}的小节">
+                      ${chapter.sections.map((unit) => `
+                        <button
+                          class="catalog-section ${unit.unit_id === model.unitId ? "selected" : ""}"
+                          data-unit="${unit.unit_id}"
+                          aria-current="${unit.unit_id === model.unitId ? "true" : "false"}"
+                        >
+                          <span class="catalog-section-copy">
+                            <strong>${unit.number ? `第${unit.number}节 · ` : ""}${escapeHtml(unit.title_zh)}</strong>
+                            <small>${unit.statusLabel}${unit.versionCount ? ` · ${unit.versionCount} 个版本` : ""}</small>
+                          </span>
+                          <span class="dot ${unit.status}"></span>
+                        </button>
+                      `).join("")}
+                    </div>
+                  ` : ""}
+                </div>
               `).join("")}
             </section>
           `).join("")}
@@ -1570,47 +1649,15 @@
         document.querySelectorAll("[data-chapter]").forEach((button) => {
           button.addEventListener("click", () => selectChapter(button.dataset.chapter));
         });
+        document.querySelectorAll("[data-unit]").forEach((button) => {
+          button.addEventListener("click", () => selectUnit(button.dataset.unit));
+        });
         el("catalogCollapse")?.addEventListener("click", () => {
           setCatalogCollapsed(true, true);
         });
         setCatalogCollapsed(
           el("workspace").classList.contains("catalog-collapsed")
         );
-      }
-
-      function renderSections(chapter) {
-        const sections = chapter.sections || [];
-        if (!sections.length) {
-          el("sectionList").style.display = "none";
-          el("sectionList").innerHTML = "";
-          return;
-        }
-        el("sectionList").style.display = "flex";
-        el("sectionList").innerHTML = sections.map((unit) => `
-          <button
-            class="section-button ${unit.unit_id === model.unitId ? "selected" : ""}"
-            data-unit="${unit.unit_id}"
-          >
-            <span>
-              <strong>${unit.number ? `第${unit.number}节 · ` : ""}${escapeHtml(unit.title_zh)}</strong>
-              <span>${unit.statusLabel}${unit.versionCount ? ` · ${unit.versionCount} 个版本` : ""}</span>
-            </span>
-            <span class="dot ${unit.status}"></span>
-          </button>
-        `).join("");
-
-        document.querySelectorAll("[data-unit]").forEach((button) => {
-          button.addEventListener("click", () => {
-            model.unitId = button.dataset.unit;
-            model.selectedVersionId = null;
-            model.view = "text";
-            model.compareMode = false;
-            model.compareBaseVersionId = null;
-            model.compareTargetVersionId = null;
-            saveReadingPosition();
-            render();
-          });
-        });
       }
 
       function renderText(unit) {
@@ -1929,7 +1976,6 @@
           chapter.versionCount > 0 ? `${chapter.versionCount} 个版本` : "";
 
         renderCatalog();
-        renderSections(chapter);
         document.querySelectorAll(".tab").forEach((tab) => {
           tab.classList.toggle("active", tab.dataset.view === model.view);
         });

@@ -4,6 +4,14 @@ Use this protocol for an existing multi-section translation project. The skill
 defines the method; the project directory stores the actual source, decisions,
 versions, status, and interface configuration.
 
+All controller and project-state commands in this document are main-agent-only
+operations. Delegated translators and reviewers may read their assigned inputs
+and write drafts or review artifacts, but must not run controller, status,
+validation, assembly, version, adoption, rebuild, or app commands. They report
+artifact paths to the main agent, which performs the state transition. When
+execution access is already sufficient, the main agent runs safe in-scope
+commands directly without asking the user for conversational approval.
+
 ## 1. Find and resume the project
 
 When the user says “开始翻译……” or “继续……” without giving a project path:
@@ -36,7 +44,22 @@ When the user says “开始翻译……” or “继续……” without giving
 The workspace must contain or expose the project directory. A skill cannot
 recover project files from another inaccessible workspace.
 
-## 2. Resolve what the user named
+## 2. Execution ownership and approvals
+
+- The coordinating main agent alone runs controller, status, validation,
+  assembly, version, adoption, rebuild, and local-app commands.
+- A delegated translator or reviewer receives only the inputs and output path
+  needed for its artifact. It writes the artifact, reports the path, and stops.
+- Do not place executable control-command blocks in delegated task packages or
+  prompts.
+- When the current task already has sufficient access, run safe commands within
+  the user's requested scope directly. Do not ask for another verbal approval
+  merely because a command performs a read-only check.
+- A genuine platform permission prompt may still be required when the active
+  task lacks access or an action crosses the user's authorized scope. Do not
+  simulate such a prompt in prose.
+
+## 3. Resolve what the user named
 
 Use `manifests/outline.json` for the book's part/chapter structure and
 `manifests/work-units.jsonl` for section-level work. A logical chapter such as
@@ -53,7 +76,7 @@ If the requested unit has verified source but no tasks, create tasks. If it has
 pending tasks, resume the first pending task. If every task is approved but no
 version exists, assemble and register a version. Do not redo approved work.
 
-## 3. Register and adopt reader versions
+## 4. Register and adopt reader versions
 
 After assembly, register an immutable version through the controller:
 
@@ -91,7 +114,7 @@ older registered version to represent a new wording; create a new task revision
 and version. Correcting non-textual display code does not create a translation
 version.
 
-## 4. Build the one-file-per-chapter reader edition
+## 5. Build the one-file-per-chapter reader edition
 
 After every section of a logical chapter has an adopted version, run:
 
@@ -103,7 +126,7 @@ The command reads adopted section versions in order, removes duplicate chapter
 headings, and writes one clean Markdown file to the chapter's reader-facing
 output path. Do not concatenate files by hand.
 
-## 5. Local progress interface
+## 6. Local progress interface
 
 If `project.json` contains `interfaces.progress_app`, treat that entry as the
 authoritative path and URL. A running app should read project manifests live, so
@@ -113,7 +136,7 @@ After changing the app itself, or before handing off a milestone, run every
 command listed in `interfaces.progress_app.verify_commands` from the configured
 app path. Do not hardcode a workspace-specific app path in the reusable skill.
 
-## 6. Stop and hand off
+## 7. Stop and hand off
 
 Before ending a work turn:
 

@@ -189,6 +189,14 @@ hash, output path, and acceptance checks. Save drafts and reviews to disk before
 updating task status. Approved work is never silently overwritten; create a new
 revision and append a decision or progress event.
 
+Keep executable control commands out of delegated translation and review
+packages. A delegated worker reads only the inputs needed for its artifact,
+writes that artifact, reports its path, and stops. The coordinating main agent
+alone runs controller, status, validation, assembly, version, adoption, rebuild,
+and local-app commands. When the current task already has sufficient access,
+run safe in-scope commands directly instead of asking the user for another
+verbal approval.
+
 Register and adopt reader versions, and rebuild the final one-file-per-chapter
 output, only through the controller commands documented in
 `references/project-operations.md`.
