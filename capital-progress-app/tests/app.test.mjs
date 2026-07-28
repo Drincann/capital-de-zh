@@ -16,7 +16,7 @@ test("interface stays focused on catalog, versions and reading", async () => {
     new URL("../public/index.html", import.meta.url),
     "utf8"
   );
-  assert.match(html, /翻译目录/);
+  assert.match(html, /<h1>目录<\/h1>/);
   assert.match(html, /全书目录/);
   assert.match(html, />正文</);
   assert.match(html, />版本</);
@@ -34,6 +34,10 @@ test("interface stays focused on catalog, versions and reading", async () => {
   assert.match(html, /catalog-collapsed/);
   assert.match(html, /capital-progress-catalog-collapsed/);
   assert.match(html, /capital-progress-reading-position/);
+  assert.match(html, /id="visitorCount"/);
+  assert.match(html, /id="pageViewCount"/);
+  assert.match(html, /\/api\/analytics\/track/);
+  assert.match(html, /记录 IP、设备、来源与访问页面/);
   assert.match(html, /saveReadingPosition/);
   assert.match(html, /max-width: 900px/);
   assert.match(html, /scrollIntoView/);

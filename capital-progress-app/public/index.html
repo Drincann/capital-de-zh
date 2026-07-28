@@ -7,7 +7,7 @@
       name="description"
       content="《资本论》第一卷通俗新译的本地目录、状态、版本与正文。"
     />
-    <title>《资本论》第一卷 · 翻译目录</title>
+    <title>《资本论》第一卷 · 目录</title>
     <script>
       (() => {
         try {
@@ -144,6 +144,12 @@
       .stat { min-width: 64px; }
       .stat strong { display: block; font: 600 24px/1 var(--serif); }
       .stat span { display: block; margin-top: 8px; color: var(--muted); font-size: 11px; }
+      .privacy-note {
+        margin: 14px 0 0;
+        color: var(--faint);
+        font-size: 10px;
+        text-align: right;
+      }
 
       .workspace {
         display: grid;
@@ -733,12 +739,14 @@
       </header>
 
       <section class="overview">
-        <h1>翻译目录</h1>
+        <h1>目录</h1>
         <div class="stats" aria-label="全书概况">
           <div class="stat"><strong id="partCount">7</strong><span>篇</span></div>
           <div class="stat"><strong id="chapterCount">25</strong><span>章</span></div>
           <div class="stat"><strong id="completedUnits">0</strong><span>节已完成</span></div>
           <div class="stat"><strong id="versionCount">0</strong><span>个版本</span></div>
+          <div class="stat"><strong id="visitorCount">—</strong><span>位访客</span></div>
+          <div class="stat"><strong id="pageViewCount">—</strong><span>次浏览</span></div>
         </div>
       </section>
 
@@ -776,6 +784,7 @@
           </div>
         </section>
       </main>
+      <p class="privacy-note">访问本站会记录 IP、设备、来源与访问页面等访问明细。</p>
     </div>
 
     <script>
@@ -1680,7 +1689,11 @@
             versionId,
           }),
         });
-        if (!response.ok) throw new Error("adoption failed");
+        if (!response.ok) {
+          const result = await response.json().catch(() => ({}));
+          alert(result.error || "无法采用这个版本");
+          return;
+        }
         model.selectedVersionId = versionId;
         saveReadingPosition();
         await refresh(true);
@@ -1897,6 +1910,38 @@
       });
       updateThemeToggle();
 
+      function renderAnalytics(metrics) {
+        el("visitorCount").textContent =
+          Number(metrics?.totalVisitors || 0).toLocaleString("zh-CN");
+        el("pageViewCount").textContent =
+          Number(metrics?.totalViews || 0).toLocaleString("zh-CN");
+      }
+
+      async function trackVisit() {
+        try {
+          const response = await fetch("/api/analytics/track", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            credentials: "same-origin",
+            keepalive: true,
+            body: JSON.stringify({
+              path: location.pathname,
+              queryString: location.search,
+              pageTitle: document.title,
+              referrer: document.referrer,
+              clientLanguage: navigator.language,
+              clientTimezone:
+                Intl.DateTimeFormat().resolvedOptions().timeZone || "",
+              screenWidth: screen.width,
+              screenHeight: screen.height,
+              viewportWidth: innerWidth,
+              viewportHeight: innerHeight,
+            }),
+          });
+          if (response.ok) renderAnalytics(await response.json());
+        } catch {}
+      }
+
       async function refresh(forceRender = false) {
         try {
           const response = await fetch("/api/state", { cache: "no-store" });
@@ -1945,6 +1990,7 @@
       }
 
       refresh();
+      trackVisit();
       setInterval(refresh, 5000);
     </script>
   </body>
