@@ -739,6 +739,8 @@
           <div class="stat"><strong id="chapterCount">25</strong><span>章</span></div>
           <div class="stat"><strong id="completedUnits">0</strong><span>节已完成</span></div>
           <div class="stat"><strong id="versionCount">0</strong><span>个版本</span></div>
+          <div class="stat"><strong id="visitorCount">—</strong><span>位访客</span></div>
+          <div class="stat"><strong id="pageViewCount">—</strong><span>次浏览</span></div>
         </div>
       </section>
 
@@ -1901,6 +1903,24 @@
       });
       updateThemeToggle();
 
+      function renderAnalytics(metrics) {
+        el("visitorCount").textContent =
+          Number(metrics?.totalVisitors || 0).toLocaleString("zh-CN");
+        el("pageViewCount").textContent =
+          Number(metrics?.totalViews || 0).toLocaleString("zh-CN");
+      }
+
+      async function trackVisit() {
+        try {
+          const response = await fetch("/api/analytics/track", {
+            method: "POST",
+            credentials: "same-origin",
+            keepalive: true,
+          });
+          if (response.ok) renderAnalytics(await response.json());
+        } catch {}
+      }
+
       async function refresh(forceRender = false) {
         try {
           const response = await fetch("/api/state", { cache: "no-store" });
@@ -1949,6 +1969,7 @@
       }
 
       refresh();
+      trackVisit();
       setInterval(refresh, 5000);
     </script>
   </body>

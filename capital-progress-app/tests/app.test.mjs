@@ -34,6 +34,9 @@ test("interface stays focused on catalog, versions and reading", async () => {
   assert.match(html, /catalog-collapsed/);
   assert.match(html, /capital-progress-catalog-collapsed/);
   assert.match(html, /capital-progress-reading-position/);
+  assert.match(html, /id="visitorCount"/);
+  assert.match(html, /id="pageViewCount"/);
+  assert.match(html, /\/api\/analytics\/track/);
   assert.match(html, /saveReadingPosition/);
   assert.match(html, /max-width: 900px/);
   assert.match(html, /scrollIntoView/);
