@@ -144,6 +144,12 @@
       .stat { min-width: 64px; }
       .stat strong { display: block; font: 600 24px/1 var(--serif); }
       .stat span { display: block; margin-top: 8px; color: var(--muted); font-size: 11px; }
+      .privacy-note {
+        margin: 14px 0 0;
+        color: var(--faint);
+        font-size: 10px;
+        text-align: right;
+      }
 
       .workspace {
         display: grid;
@@ -778,6 +784,7 @@
           </div>
         </section>
       </main>
+      <p class="privacy-note">访问本站会记录 IP、设备、来源与访问页面等访问明细。</p>
     </div>
 
     <script>
@@ -1914,8 +1921,22 @@
         try {
           const response = await fetch("/api/analytics/track", {
             method: "POST",
+            headers: { "content-type": "application/json" },
             credentials: "same-origin",
             keepalive: true,
+            body: JSON.stringify({
+              path: location.pathname,
+              queryString: location.search,
+              pageTitle: document.title,
+              referrer: document.referrer,
+              clientLanguage: navigator.language,
+              clientTimezone:
+                Intl.DateTimeFormat().resolvedOptions().timeZone || "",
+              screenWidth: screen.width,
+              screenHeight: screen.height,
+              viewportWidth: innerWidth,
+              viewportHeight: innerHeight,
+            }),
           });
           if (response.ok) renderAnalytics(await response.json());
         } catch {}
