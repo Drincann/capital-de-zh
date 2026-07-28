@@ -1680,7 +1680,11 @@
             versionId,
           }),
         });
-        if (!response.ok) throw new Error("adoption failed");
+        if (!response.ok) {
+          const result = await response.json().catch(() => ({}));
+          alert(result.error || "无法采用这个版本");
+          return;
+        }
         model.selectedVersionId = versionId;
         saveReadingPosition();
         await refresh(true);

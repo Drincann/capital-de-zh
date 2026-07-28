@@ -1,4 +1,4 @@
-import { cp, mkdir, rm } from "node:fs/promises";
+import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 
@@ -14,28 +14,72 @@ if (sync.status !== 0) {
 }
 
 await rm(path.join(root, "dist"), { recursive: true, force: true });
-await mkdir(path.join(root, "dist", "public"), { recursive: true });
-await mkdir(path.join(root, "dist", "scripts"), { recursive: true });
-await mkdir(path.join(root, "dist", "data"), { recursive: true });
+await mkdir(path.join(root, "dist", "server"), { recursive: true });
+await mkdir(path.join(root, "dist", "assets"), { recursive: true });
+await mkdir(path.join(root, "dist", ".openai"), { recursive: true });
 await cp(
   path.join(root, "public", "index.html"),
-  path.join(root, "dist", "public", "index.html")
+  path.join(root, "dist", "assets", "index.html")
 );
 await cp(
-  path.join(root, "scripts", "dev.mjs"),
-  path.join(root, "dist", "scripts", "dev.mjs")
-);
-await cp(
-  path.join(root, "scripts", "progress-state.mjs"),
-  path.join(root, "dist", "scripts", "progress-state.mjs")
-);
-await cp(
-  path.join(root, "scripts", "adoption-state.mjs"),
-  path.join(root, "dist", "scripts", "adoption-state.mjs")
-);
-await cp(
-  path.join(root, "data", "progress.json"),
-  path.join(root, "dist", "data", "progress.json")
+  path.join(root, ".openai", "hosting.json"),
+  path.join(root, "dist", ".openai", "hosting.json")
 );
 
-console.log("本地应用构建完成");
+const [html, progressText] = await Promise.all([
+  readFile(path.join(root, "public", "index.html"), "utf8"),
+  readFile(path.join(root, "data", "progress.json"), "utf8"),
+]);
+const workerSource = `
+const pageHtml = ${JSON.stringify(html)};
+const progressState = ${progressText.trim()};
+
+function json(value, status = 200) {
+  return new Response(JSON.stringify(value), {
+    status,
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store",
+      "x-content-type-options": "nosniff",
+    },
+  });
+}
+
+export default {
+  async fetch(request) {
+    const url = new URL(request.url);
+    if (url.pathname === "/api/state" && request.method === "GET") {
+      return json(progressState);
+    }
+    if (url.pathname === "/api/adopt" && request.method === "POST") {
+      return json({
+        error: "线上阅读版为只读。请在本地工作台中采用版本。",
+      }, 409);
+    }
+    if (url.pathname === "/health") {
+      return json({ ok: true, storage: "deployed-snapshot" });
+    }
+    if (url.pathname === "/" || url.pathname === "/index.html") {
+      return new Response(pageHtml, {
+        headers: {
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "no-cache",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer",
+        },
+      });
+    }
+    return new Response("Not found", {
+      status: 404,
+      headers: { "content-type": "text/plain; charset=utf-8" },
+    });
+  },
+};
+`;
+await writeFile(
+  path.join(root, "dist", "server", "index.js"),
+  workerSource,
+  "utf8"
+);
+
+console.log("线上只读阅读版构建完成");
