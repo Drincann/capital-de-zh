@@ -102,6 +102,14 @@ test("reader renders the Markdown used by translation previews", async () => {
     "",
     "<script>alert(1)</script>",
     "[危险链接](javascript:alert(1))",
+    "",
+    "Inline math \\(ab+bc\\), fraction \\(16\\frac{2}{3}\\%\\), and product \\(365\\times30\\).",
+    "",
+    "\\[",
+    "\\text{value }30=24c+3v+3m",
+    "\\]",
+    "",
+    "Code keeps math delimiters: `\\(raw\\)`.",
   ].join("\n"));
 
   assert.match(rendered, /<h3>小标题<\/h3>/);
@@ -115,6 +123,14 @@ test("reader renders the Markdown used by translation previews", async () => {
   assert.match(rendered, /class="footnote-backref"/);
   assert.match(rendered, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
   assert.doesNotMatch(rendered, /href="javascript:/);
+  assert.match(rendered, /class="math-inline"/);
+  assert.match(rendered, /class="math-frac"/);
+  assert.match(rendered, /365×30/);
+  assert.match(rendered, /class="math-display"/);
+  assert.match(rendered, /class="math-text">value /);
+  assert.match(rendered, /<code>\\\(raw\\\)<\/code>/);
+  assert.doesNotMatch(rendered, /\\\(ab\+bc\\\)/);
+  assert.doesNotMatch(rendered, /\\\[|\\\]/);
 });
 
 test("outline contains seven parts and twenty-five chapters", async () => {

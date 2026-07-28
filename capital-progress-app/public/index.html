@@ -477,6 +477,44 @@
         text-underline-offset: 0.18em;
       }
       .prose strong { font-weight: 650; }
+      .prose .math-inline,
+      .prose .math-display {
+        font-family: "Cambria Math", "STIX Two Math", "Times New Roman", serif;
+        font-style: italic;
+      }
+      .prose .math-inline {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.04em;
+        white-space: nowrap;
+      }
+      .prose .math-display {
+        margin: 1.35em 0;
+        overflow-x: auto;
+        text-align: center;
+        font-size: 1.08em;
+      }
+      .prose .math-text {
+        font-family: var(--serif);
+        font-style: normal;
+      }
+      .prose .math-frac {
+        display: inline-grid;
+        grid-template-rows: auto auto;
+        margin: 0 0.08em;
+        vertical-align: middle;
+        line-height: 1;
+        text-align: center;
+      }
+      .prose .math-frac > span {
+        padding: 0 0.12em;
+        font-size: 0.78em;
+      }
+      .prose .math-frac > span:first-child {
+        padding-bottom: 0.08em;
+        border-bottom: 1px solid currentColor;
+      }
+      .prose .math-frac > span:last-child { padding-top: 0.08em; }
       .prose ul,
       .prose ol { margin: 0 0 1.2em; padding-left: 1.7em; }
       .prose li { margin: 0.25em 0; padding-left: 0.15em; }
@@ -876,17 +914,41 @@
           : "";
       }
 
+      function renderMathContent(value = "") {
+        let output = escapeHtml(String(value).trim());
+        output = output
+          .replace(
+            /\\frac\{([^{}]+)\}\{([^{}]+)\}/g,
+            '<span class="math-frac"><span>$1</span><span>$2</span></span>'
+          )
+          .replace(/\\text\{([^{}]*)\}/g, '<span class="math-text">$1</span>')
+          .replace(/\\times/g, "×")
+          .replace(/\\cdot/g, "·")
+          .replace(/\\Delta/g, "Δ")
+          .replace(/\\%/g, "%")
+          .replace(/\\,/g, " ")
+          .replace(/\{,\}/g, ",")
+          .replace(/[{}]/g, "");
+        return output;
+      }
+
       function renderInlineMarkdown(value = "", context = {}) {
         const tokens = [];
         const stash = (html) => {
           tokens.push(html);
           return `\u0000${tokens.length - 1}\u0000`;
         };
-        let output = escapeHtml(value);
+        let output = String(value);
 
         output = output.replace(/`([^`\n]+)`/g, (_, code) =>
-          stash(`<code>${code}</code>`)
+          stash(`<code>${escapeHtml(code)}</code>`)
         );
+        output = output.replace(/\\\((.+?)\\\)/g, (_, expression) =>
+          stash(
+            `<span class="math-inline" role="math">${renderMathContent(expression)}</span>`
+          )
+        );
+        output = escapeHtml(output);
         output = output.replace(
           /!\[([^\]]*)\]\((\S+?)(?:\s+&quot;[^&]*&quot;)?\)/g,
           (_, alt, target) => {
@@ -1013,6 +1075,22 @@
           if (/^ {0,3}(?:[-*_]\s*){3,}$/.test(line)) {
             output.push("<hr>");
             index += 1;
+            continue;
+          }
+
+          if (line.trim() === "\\[") {
+            const formula = [];
+            index += 1;
+            while (index < lines.length && lines[index].trim() !== "\\]") {
+              formula.push(lines[index].trim());
+              index += 1;
+            }
+            if (index < lines.length) index += 1;
+            output.push(
+              `<div class="math-display" role="math">${renderMathContent(
+                formula.join(" ")
+              )}</div>`
+            );
             continue;
           }
 
