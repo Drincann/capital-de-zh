@@ -149,6 +149,7 @@ textarea:focus-visible {
 .reading-tools {
   justify-self: end;
   display: flex;
+  align-items: center;
   gap: 4px;
 }
 
@@ -172,8 +173,173 @@ textarea:focus-visible {
 }
 
 .github-link svg {
-  width: 23px;
-  height: 23px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  transform: translateY(-0.5px);
+}
+
+.github-link {
+  padding: 0;
+  line-height: 0;
+}
+
+.reading-settings {
+  position: relative;
+  display: inline-flex;
+}
+
+.reading-tools .reader-settings-toggle {
+  font: 600 0.78rem/1 ui-serif, Georgia, serif;
+  letter-spacing: -0.04em;
+}
+
+.reading-tools .reader-settings-toggle.active {
+  border-color: color-mix(in srgb, var(--accent) 32%, var(--line));
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+.reader-settings-panel {
+  position: absolute;
+  z-index: 120;
+  top: calc(100% + 10px);
+  right: -42px;
+  width: 258px;
+  padding: 15px 17px 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+  box-shadow: 0 16px 44px rgba(38, 30, 22, 0.16);
+  color: var(--ink);
+  font: 0.78rem/1.4 ui-sans-serif, system-ui, sans-serif;
+}
+
+.reader-settings-panel > strong {
+  display: block;
+  padding-bottom: 11px;
+  font-size: 0.84rem;
+}
+
+.reader-setting {
+  display: grid;
+  gap: 9px;
+  padding: 12px 0 13px;
+  border-top: 1px solid var(--line);
+}
+
+.reader-setting > span:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reader-setting output {
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.reader-range {
+  display: grid;
+  grid-template-columns: 1.4em minmax(0, 1fr) 1.4em;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+}
+
+.reader-range small {
+  font-size: 0.68rem;
+  text-align: center;
+}
+
+.reader-range input {
+  width: 100%;
+  height: 18px;
+  margin: 0;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.reader-range input::-webkit-slider-runnable-track {
+  height: 3px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 17%, transparent);
+}
+
+.reader-range input::-webkit-slider-thumb {
+  width: 14px;
+  height: 14px;
+  margin-top: -5.5px;
+  appearance: none;
+  border: 1px solid color-mix(in srgb, var(--ink) 28%, var(--line));
+  border-radius: 50%;
+  background: var(--paper);
+  box-shadow: 0 1px 5px rgba(38, 30, 22, 0.18);
+}
+
+.reader-range input::-moz-range-track {
+  height: 3px;
+  border: 0;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 17%, transparent);
+}
+
+.reader-range input::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border: 1px solid color-mix(in srgb, var(--ink) 28%, var(--line));
+  border-radius: 50%;
+  background: var(--paper);
+  box-shadow: 0 1px 5px rgba(38, 30, 22, 0.18);
+}
+
+.reading-tools .reader-theme-toggle {
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 38px;
+  justify-content: space-between;
+  padding: 11px 0 2px;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  color: var(--ink);
+}
+
+.reading-tools .reader-theme-toggle:hover {
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.reader-theme-toggle i {
+  position: relative;
+  width: 32px;
+  height: 18px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 14%, transparent);
+  transition: background-color 150ms ease;
+}
+
+.reader-theme-toggle i::after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--paper);
+  box-shadow: 0 1px 4px rgba(38, 30, 22, 0.22);
+  content: "";
+  transition: transform 150ms ease;
+}
+
+.reader-theme-toggle[aria-checked="true"] i {
+  background: var(--accent);
+}
+
+.reader-theme-toggle[aria-checked="true"] i::after {
+  transform: translateX(14px);
 }
 
 .reader-layout {
@@ -545,9 +711,11 @@ html::-webkit-scrollbar {
   position: fixed;
   top: 68px;
   bottom: 0;
-  left: calc(var(--catalog-width, 310px) - 5px);
+  left: calc(var(--catalog-width, 310px) - 6px);
   z-index: 35;
-  width: 10px;
+  width: 12px;
+  border: 0;
+  outline: none;
   cursor: col-resize;
   touch-action: none;
 }
@@ -556,17 +724,17 @@ html::-webkit-scrollbar {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 4px;
-  width: 1px;
+  left: 5px;
+  width: 2px;
   background: transparent;
   content: "";
-  transition: background 120ms ease;
+  transition: background-color 120ms ease;
 }
 
 .catalog-resizer:hover::after,
 .catalog-resizer:focus-visible::after,
 body.catalog-resizing .catalog-resizer::after {
-  background: color-mix(in srgb, var(--accent) 55%, var(--line));
+  background: color-mix(in srgb, var(--accent) 52%, var(--line));
 }
 
 body.catalog-resizing,
@@ -1737,8 +1905,16 @@ body.note-editor-resizing * {
     font-size: 0.75rem;
   }
 
-  .reading-width-control {
-    display: none !important;
+  .reader-settings-panel {
+    right: -38px;
+  }
+
+  .reader-width-setting {
+    display: none;
+  }
+
+  .github-link {
+    padding: 0;
   }
 
   .reading-pane {

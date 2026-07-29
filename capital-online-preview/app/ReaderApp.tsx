@@ -208,6 +208,7 @@ export function ReaderApp({
   const [catalogCollapsed, setCatalogCollapsed] = useState(false);
   const [catalogWidth, setCatalogWidth] = useState(defaultCatalogWidth);
   const [articleWidth, setArticleWidth] = useState(defaultArticleWidth);
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const [dark, setDark] = useState(false);
   const [fontScale, setFontScale] = useState(1);
   const [paragraphMarkers, setParagraphMarkers] = useState<ParagraphMarker[]>(
@@ -217,6 +218,7 @@ export function ReaderApp({
   const [restoredSectionId, setRestoredSectionId] = useState("");
   const trackedSection = useRef("");
   const readingPosition = useRef<HTMLElement>(null);
+  const settingsRef = useRef<HTMLDivElement>(null);
 
   const selectedIndex = flatSections.findIndex(
     (section) => section.id === selectedId,
@@ -291,6 +293,28 @@ export function ReaderApp({
       cancelled = true;
     };
   }, [flatSections]);
+
+  useEffect(() => {
+    if (!settingsOpen) return;
+
+    function closeOnOutsidePointer(event: PointerEvent) {
+      const target = event.target as Node | null;
+      if (target && !settingsRef.current?.contains(target)) {
+        setSettingsOpen(false);
+      }
+    }
+
+    function closeOnEscape(event: KeyboardEvent) {
+      if (event.key === "Escape") setSettingsOpen(false);
+    }
+
+    document.addEventListener("pointerdown", closeOnOutsidePointer);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsidePointer);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [settingsOpen]);
 
   useEffect(() => {
     if (!selected || !locationResolved) return;
@@ -491,16 +515,16 @@ export function ReaderApp({
     );
   }
 
-  function changeFont(delta: number) {
-    const nextValue = Math.min(1.2, Math.max(0.9, fontScale + delta));
+  function setReaderFontScale(value: number) {
+    const nextValue = Math.min(1.2, Math.max(0.9, value));
     setFontScale(Number(nextValue.toFixed(2)));
     localStorage.setItem("capital-reader-font-scale", String(nextValue));
   }
 
-  function changeArticleWidth(delta: number) {
+  function setReaderArticleWidth(value: number) {
     const nextValue = Math.min(
       maximumArticleWidth,
-      Math.max(minimumArticleWidth, articleWidth + delta),
+      Math.max(minimumArticleWidth, value),
     );
     setArticleWidth(nextValue);
     localStorage.setItem(articleWidthKey, String(nextValue));
@@ -528,7 +552,9 @@ export function ReaderApp({
   function startCatalogResize(event: React.PointerEvent<HTMLDivElement>) {
     event.preventDefault();
     const startX = event.clientX;
-    const startWidth = currentCatalogWidth();
+    const catalog = document.querySelector<HTMLElement>(".catalog");
+    const startWidth =
+      catalog?.getBoundingClientRect().width || currentCatalogWidth();
     document.body.classList.add("catalog-resizing");
 
     function onMove(moveEvent: PointerEvent) {
@@ -642,33 +668,85 @@ export function ReaderApp({
             viewer={viewer}
             contentReady={Boolean(content && !loading && !contentError)}
           />
-          <button
-            className="reading-width-control"
-            type="button"
-            title="缩窄正文"
-            aria-label="缩窄正文"
-            onClick={() => changeArticleWidth(-60)}
-          >
-            窄
-          </button>
-          <button
-            className="reading-width-control"
-            type="button"
-            title="加宽正文"
-            aria-label="加宽正文"
-            onClick={() => changeArticleWidth(60)}
-          >
-            宽
-          </button>
-          <button type="button" onClick={() => changeFont(-0.05)}>
-            小
-          </button>
-          <button type="button" onClick={() => changeFont(0.05)}>
-            大
-          </button>
-          <button type="button" onClick={toggleTheme}>
-            {dark ? "浅色" : "深色"}
-          </button>
+          <div className="reading-settings" ref={settingsRef}>
+            <button
+              className={
+                settingsOpen
+                  ? "reader-settings-toggle active"
+                  : "reader-settings-toggle"
+              }
+              type="button"
+              aria-label="阅读设置"
+              title="阅读设置"
+              aria-expanded={settingsOpen}
+              aria-controls="reader-settings-panel"
+              onClick={() => setSettingsOpen((value) => !value)}
+            >
+              <span aria-hidden="true">Aa</span>
+            </button>
+            {settingsOpen ? (
+              <div
+                id="reader-settings-panel"
+                className="reader-settings-panel"
+                role="dialog"
+                aria-label="阅读设置"
+              >
+                <strong>阅读设置</strong>
+                <label className="reader-setting">
+                  <span>
+                    字号
+                    <output>{Math.round(fontScale * 100)}%</output>
+                  </span>
+                  <span className="reader-range">
+                    <small>小</small>
+                    <input
+                      type="range"
+                      min="0.9"
+                      max="1.2"
+                      step="0.05"
+                      value={fontScale}
+                      aria-label="正文字号"
+                      onChange={(event) =>
+                        setReaderFontScale(Number(event.target.value))
+                      }
+                    />
+                    <small>大</small>
+                  </span>
+                </label>
+                <label className="reader-setting reader-width-setting">
+                  <span>
+                    版心
+                    <output>{articleWidthLabel(articleWidth)}</output>
+                  </span>
+                  <span className="reader-range">
+                    <small>窄</small>
+                    <input
+                      type="range"
+                      min={minimumArticleWidth}
+                      max={maximumArticleWidth}
+                      step="60"
+                      value={articleWidth}
+                      aria-label="正文宽度"
+                      onChange={(event) =>
+                        setReaderArticleWidth(Number(event.target.value))
+                      }
+                    />
+                    <small>宽</small>
+                  </span>
+                </label>
+                <button
+                  className="reader-theme-toggle"
+                  type="button"
+                  role="switch"
+                  aria-checked={dark}
+                  onClick={toggleTheme}
+                >
+                  <span>深色模式</span>
+                  <i aria-hidden="true" />
+                </button>
+              </div>
+            ) : null}
+          </div>
           <a
             className="github-link"
             href="https://github.com/Drincann/capital-de-zh"
@@ -947,6 +1025,12 @@ function currentCatalogWidth() {
     ),
   );
   return Number.isFinite(value) ? value : defaultCatalogWidth;
+}
+
+function articleWidthLabel(width: number) {
+  if (width < defaultArticleWidth) return "紧凑";
+  if (width > defaultArticleWidth + 60) return "宽";
+  return "标准";
 }
 
 async function trackReadingView() {
