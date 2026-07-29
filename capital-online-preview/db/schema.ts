@@ -1,5 +1,6 @@
 import { sql } from "drizzle-orm";
 import {
+  index,
   integer,
   primaryKey,
   sqliteTable,
@@ -45,4 +46,24 @@ export const analyticsRateLimits = sqliteTable(
     requestCount: integer("request_count").notNull().default(0),
   },
   (table) => [primaryKey({ columns: [table.bucket, table.limiterKey] })],
+);
+
+export const readerNotes = sqliteTable(
+  "reader_notes",
+  {
+    id: text("id").primaryKey(),
+    sectionId: text("section_id").notNull(),
+    versionId: text("version_id").notNull(),
+    ownerEmail: text("owner_email").notNull(),
+    quote: text("quote").notNull(),
+    prefix: text("prefix").notNull().default(""),
+    suffix: text("suffix").notNull().default(""),
+    startOffset: integer("start_offset").notNull(),
+    endOffset: integer("end_offset").notNull(),
+    body: text("body").notNull().default(""),
+    color: text("color").notNull().default("amber"),
+    createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+    updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+  },
+  (table) => [index("reader_notes_section_idx").on(table.sectionId)],
 );

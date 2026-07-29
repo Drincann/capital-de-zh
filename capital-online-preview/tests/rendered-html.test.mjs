@@ -29,6 +29,40 @@ test("公开页面只呈现阅读界面", async () => {
   );
 });
 
+test("划词笔记公开可读，只有指定 ChatGPT 账号可写", async () => {
+  const [page, readerNotes, notesRoute, notesAuth, schema, css] =
+    await Promise.all([
+      readFile(new URL("app/page.tsx", appRoot), "utf8"),
+      readFile(new URL("app/ReaderNotes.tsx", appRoot), "utf8"),
+      readFile(new URL("app/api/notes/route.ts", appRoot), "utf8"),
+      readFile(new URL("lib/notes-auth.ts", appRoot), "utf8"),
+      readFile(new URL("db/schema.ts", appRoot), "utf8"),
+      readFile(new URL("app/globals.css", appRoot), "utf8"),
+    ]);
+
+  assert.match(page, /getChatGPTUser/);
+  assert.match(page, /notesOwnerEmail/);
+  assert.match(notesAuth, /user\.email\.toLowerCase\(\) !== ownerEmail/);
+  assert.match(notesRoute, /export async function GET/);
+  assert.match(notesRoute, /export async function POST/);
+  assert.match(notesRoute, /export async function PATCH/);
+  assert.match(notesRoute, /export async function DELETE/);
+  assert.match(notesRoute, /getNotesEditor/);
+  assert.match(notesRoute, /owner_email = \?/);
+  assert.match(schema, /readerNotes/);
+  assert.match(schema, /reader_notes_section_idx/);
+  assert.match(readerNotes, /captureSelection/);
+  assert.match(readerNotes, /applyHighlights/);
+  assert.match(readerNotes, /saveQueue/);
+  assert.match(readerNotes, /使用 ChatGPT 登录/);
+  assert.match(css, /\.reader-note-highlight/);
+  assert.match(css, /\.notes-panel/);
+  assert.doesNotMatch(
+    `${page}\n${readerNotes}\n${notesRoute}`,
+    /["'][^"'\s]+@[^"'\s]+["']/i,
+  );
+});
+
 test("发布快照只包含正式采用的版本", async () => {
   const [manifest, adoptions, contentFiles] = await Promise.all([
     readFile(new URL("generated/release-manifest.json", appRoot), "utf8").then(

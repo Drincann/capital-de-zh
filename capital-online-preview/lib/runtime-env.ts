@@ -3,6 +3,7 @@ import { env } from "cloudflare:workers";
 type RuntimeEnvironment = {
   ANALYTICS_ID_SECRET?: string;
   ANALYTICS_OWNER_EMAIL?: string;
+  NOTES_OWNER_EMAIL?: string;
 };
 
 function runtimeEnvironment(): RuntimeEnvironment {
@@ -20,4 +21,11 @@ export function analyticsSecret(hostname = ""): string {
 
 export function analyticsOwnerEmail(): string {
   return runtimeEnvironment().ANALYTICS_OWNER_EMAIL?.trim().toLowerCase() || "";
+}
+
+export function notesOwnerEmail(): string {
+  return (
+    runtimeEnvironment().NOTES_OWNER_EMAIL?.trim().toLowerCase() ||
+    analyticsOwnerEmail()
+  );
 }

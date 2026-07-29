@@ -2,6 +2,7 @@
 
 import FingerprintJS from "@fingerprintjs/fingerprintjs";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { ReaderNotes, type ReaderViewer } from "@/app/ReaderNotes";
 
 type ReleaseSection = {
   id: string;
@@ -155,7 +156,13 @@ function restoreReadingPosition(sectionId: string) {
   );
 }
 
-export function ReaderApp({ release }: { release: ReleaseManifest }) {
+export function ReaderApp({
+  release,
+  viewer,
+}: {
+  release: ReleaseManifest;
+  viewer: ReaderViewer;
+}) {
   const flatSections = useMemo<ReleaseEntry[]>(
     () => [
       ...(release.preface
@@ -597,6 +604,13 @@ export function ReaderApp({ release }: { release: ReleaseManifest }) {
           <small>{release.editionTitle}</small>
         </a>
         <div className="reading-tools">
+          <ReaderNotes
+            key={selected.id}
+            sectionId={selected.id}
+            versionId={content?.versionId || selected.versionId}
+            viewer={viewer}
+            contentReady={Boolean(content && !loading && !contentError)}
+          />
           <button type="button" onClick={() => changeFont(-0.05)}>
             小
           </button>
