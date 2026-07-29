@@ -514,8 +514,9 @@ export function ReaderNotes({
       title="笔记"
     >
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <path d="M5 3.5h9.5L19 8v12.5H5v-17ZM14.5 3.5V8H19" />
-        <path className="note-pen" d="m8 8 2.8 1.1 7.3 7.3-1.7 1.7-7.3-7.3L8 8ZM15.4 15.4l1.7-1.7" />
+        <path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4" />
+        <path d="M2 6h4M2 10h4M2 14h4M2 18h4" />
+        <path d="M21.38 5.63a1 1 0 0 0-3.01-3.01l-5.01 5.01a2 2 0 0 0-.5.86l-.84 2.87a.5.5 0 0 0 .62.62l2.87-.84a2 2 0 0 0 .86-.5Z" />
       </svg>
       {notes.length ? <b>{notes.length > 99 ? "99+" : notes.length}</b> : null}
     </button>
