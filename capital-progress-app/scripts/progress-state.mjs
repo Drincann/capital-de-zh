@@ -15,6 +15,19 @@ function parseJsonl(text) {
     .map((line) => JSON.parse(line));
 }
 
+export function collapseIdenticalVersions(versions) {
+  const distinct = new Map();
+  versions.forEach((version) => {
+    const normalized = version.preview.replace(/\r\n/g, "\n").trim();
+    const key = normalized || `missing:${version.id}`;
+    const existing = distinct.get(key);
+    if (!existing || (!existing.adopted && version.adopted)) {
+      distinct.set(key, version);
+    }
+  });
+  return [...distinct.values()].sort((a, b) => b.number - a.number);
+}
+
 async function optionalText(file) {
   try {
     return await readFile(file, "utf8");
@@ -216,7 +229,7 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
           ).trim(),
         }))
       );
-      const versions = versionPreviews;
+      const versions = collapseIdenticalVersions(versionPreviews);
       const current =
         versions.find((version) => version.id === adoptedVersionId) ||
         versions[0];
@@ -265,6 +278,38 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
     })
   );
   const unitsById = new Map(activeUnits.map((unit) => [unit.unit_id, unit]));
+  const frontMatter = (outline.front_matter || []).map((definition) => {
+    const active = unitsById.get(definition.unit_id) || {
+      unit_id: definition.unit_id,
+      chapter_id: definition.unit_id,
+      number: definition.number,
+      title_zh: definition.title_zh,
+      status: "planned",
+      statusLabel: "未开始",
+      progress: 0,
+      versionCount: 0,
+      currentVersion: 0,
+      preview: "",
+      taskCount: 0,
+      approvedTaskCount: 0,
+      tasks: [],
+      versions: [],
+    };
+    return {
+      id: definition.unit_id,
+      number: definition.number,
+      title: definition.title_zh,
+      author: definition.author_zh || "",
+      frontMatter: true,
+      status: active.status,
+      statusLabel: active.statusLabel,
+      versionCount: active.versionCount,
+      completedSections: active.status === "completed" ? 1 : 0,
+      totalSections: 1,
+      progress: active.progress,
+      sections: [active],
+    };
+  });
 
   const parts = outline.parts.map((part) => ({
     id: part.part_id,
@@ -412,7 +457,9 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
       ).length,
       completedUnitCount: completedUnits,
       versionCount,
+      frontMatterCount: frontMatter.length,
     },
+    frontMatter,
     parts,
     recentEvents: events.slice(-12).reverse(),
   };

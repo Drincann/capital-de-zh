@@ -11,15 +11,15 @@
   ],
   "translation_standard": "translate-capital-de-zh",
   "created_at": "2026-07-27T12:21:24.695841+00:00",
-  "last_updated": "2026-07-28T21:52:30.090892+00:00",
+  "last_updated": "2026-07-29T19:58:40.468574+00:00",
   "project_type": "plain-language-reader-edition",
   "target_reader": "无经济学、哲学或马克思主义理论专业背景的普通大学生",
   "final_format": "markdown-one-file-per-chapter",
-  "translation_policy": "忠实于德文的核心命题、逻辑关系、必要概念区别和论证性证据，不追求词语、句法、局部顺序或段落相似；默认使用最短、最直接的自然中文，并可重组句段、显化原文蕴含的中间步骤和压缩无论证作用的重复；不得替原文补证明、提前展开后文或改变理论",
+  "translation_policy": "忠实于德文的核心命题、逻辑关系、必要概念区别和论证性证据，不追求词语、句法或局部顺序相似；默认使用最短、最直接的自然中文，并可重组句子、显化原文蕴含的中间步骤和压缩无论证作用的重复。段落默认沿用原文，只有句内改写仍不能排除首次阅读障碍时才拆分或合并；不得替原文补证明、提前展开后文或改变理论",
   "inline_note_syntax": "〔译者注：……〕",
   "standard_version": "reader-edition-v18",
   "skill_snapshot": "skill-snapshot/reader-edition-v18",
-  "spec_sha256": "d9b415119b3a876eca1f6f653d4cc1e7569459c015252067673e27e60a5ddb48",
+  "spec_sha256": "f8c22c64bfc4a917fd412f0043b19f455924da8c944b12bee0bb1660d1cf9a48",
   "legacy_translation_policy": "禁止读取或继承此前任何中文转写、样章、导读和术语方案",
   "interfaces": {
     "progress_app": {
@@ -36,7 +36,9 @@
   "execution_policy": {
     "storage": "local-only",
     "paid_external_api": false,
-    "translation_execution": "Codex task with durable local controller"
+    "translation_execution": "Codex task with durable local controller",
+    "desktop_python": "C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "desktop_python_policy": "Use the Codex workspace dependency runtime; do not fall back to AppData/Local/Programs/Python because it triggers redundant approval prompts."
   },
-  "final_review_policy": "独立终审最多打回两次；第三次仍有阻断问题时登记为needs_review并附版本问题摘要，不暂停批量翻译，不自动采用或发布"
+  "final_review_policy": "根据小节长度最多打回二至四次；达到该单元预算后仍有阻断问题时登记为needs_review并附版本问题摘要，不暂停批量翻译，不自动采用或发布"
 }

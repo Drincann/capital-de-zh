@@ -23,8 +23,10 @@ readability_reviewed -> approved`
 7. Before registering a candidate version, require a hash-bound review from an
    independent reader context that saw only the assembled Chinese. The reader
    tests translation clarity, not whether the source has proved its theory.
-   A candidate may be returned for revision at most twice. Style suggestions do
-   not fail it. A third blocking FAIL registers the exact final candidate as
-   `needs_review`, attaches a concise issue note, and does not pause the batch.
+   The return budget is based on the work unit's source length: two for a short
+   unit, three for a medium unit, and at most four for a long unit. Style
+   suggestions do not fail it. A blocking FAIL on the final permitted attempt
+   registers the exact candidate as `needs_review`, attaches a concise issue
+   note, and does not pause the batch.
 8. Never overwrite an approved release silently. Create a new task revision and
    append a progress event and decision.

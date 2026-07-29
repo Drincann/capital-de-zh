@@ -20,6 +20,7 @@ from reader_project_controller import (
     rebuild_chapter,
     refresh_tasks,
     register_version,
+    review_return_budget,
     revise_tasks,
     sha256_file,
     sha256_text,
@@ -31,6 +32,11 @@ from reader_project_controller import (
 
 
 def main() -> int:
+    assert review_return_budget(10, 20_000) == 2
+    assert review_return_budget(11, 20_000) == 3
+    assert review_return_budget(20, 30_000) == 3
+    assert review_return_budget(21, 10_000) == 4
+    assert review_return_budget(5, 30_001) == 4
     with tempfile.TemporaryDirectory() as temporary:
         root = Path(temporary)
         mismatch_source = root / "mismatched-note.txt"
@@ -343,6 +349,62 @@ Verdict: PASS
         assert versions[0]["review_status"] == "passed"
         rebuild_chapter(root, "ch05")
         assert output.read_text(encoding="utf-8").count("# 第五章") == 1
+        task_rows = read_jsonl(root / "manifests" / "tasks.jsonl")
+        task_rows[0]["review_status"] = "needs_review"
+        task_rows[0]["review_note"] = "任务终审仍有一处待人工判断。"
+        write_jsonl(root / "manifests" / "tasks.jsonl", task_rows)
+        upstream_review = (
+            root
+            / "chapters"
+            / "ch05"
+            / "reviews"
+            / "ch05-s01-upstream-task-review.md"
+        )
+        upstream_review.write_text(
+            f"""# 独立读者审校
+
+Review-Type: independent-reader
+Unit-ID: ch05-s01
+Artifact-SHA256: {sha256_text(version_text)}
+Reviewer-Context: smoke-test-reader-upstream
+Source-Access: NO
+Verdict: PASS
+
+## Overall assessment
+
+中文本身可以顺畅阅读。
+
+## Paragraph findings
+
+各段均可一次复述。
+
+## Failure probes
+
+未发现独立的中文理解障碍。
+""",
+            encoding="utf-8",
+        )
+        register_version(
+            root,
+            "ch05-s01",
+            "继承任务级待复核状态的测试版本",
+            None,
+            upstream_review.relative_to(root).as_posix(),
+            False,
+            False,
+            "",
+        )
+        versions = read_jsonl(root / "manifests" / "unit-versions.jsonl")
+        assert versions[1]["version_id"] == "ch05-s01-v2"
+        assert versions[1]["reader_review_verdict"] == "PASS"
+        assert versions[1]["review_status"] == "needs_review"
+        assert versions[1]["review_note"] == "任务终审仍有一处待人工判断。"
+        assert versions[1]["unresolved_task_ids"] == [
+            task_rows[0]["task_id"]
+        ]
+        task_rows[0]["review_status"] = "passed"
+        task_rows[0].pop("review_note", None)
+        write_jsonl(root / "manifests" / "tasks.jsonl", task_rows)
         unresolved = (
             root
             / "chapters"
@@ -385,11 +447,11 @@ T：测试段的关系仍不够明确。
             "测试段的因果关系仍可能被误解。",
         )
         versions = read_jsonl(root / "manifests" / "unit-versions.jsonl")
-        assert versions[1]["version_id"] == "ch05-s01-v2"
-        assert versions[1]["review_status"] == "needs_review"
-        assert versions[1]["review_note"] == "测试段的因果关系仍可能被误解。"
+        assert versions[2]["version_id"] == "ch05-s01-v3"
+        assert versions[2]["review_status"] == "needs_review"
+        assert versions[2]["review_note"] == "测试段的因果关系仍可能被误解。"
         try:
-            adopt_version(root, "ch05-s01", "ch05-s01-v2")
+            adopt_version(root, "ch05-s01", "ch05-s01-v3")
         except SystemExit as exc:
             assert "cannot be adopted" in str(exc)
         else:

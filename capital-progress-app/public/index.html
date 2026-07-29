@@ -613,6 +613,8 @@
         white-space: nowrap;
       }
       .prose .footnote-body { min-width: 0; }
+      .prose .footnote-text.is-block > :first-child { margin-top: 0; }
+      .prose .footnote-text.is-block > :last-child { margin-bottom: 0; }
       .prose .footnotes li:target .footnote-number { font-weight: 600; }
       .prose .footnotes li:target .footnote-text {
         background: var(--footnote-highlight);
@@ -1048,14 +1050,33 @@
             continue;
           }
           const body = [definition[2]];
-          while (
-            index + 1 < sourceLines.length &&
-            /^(?: {2,}|\t)\S/.test(sourceLines[index + 1])
-          ) {
-            index += 1;
-            body.push(sourceLines[index].trim());
+          while (index + 1 < sourceLines.length) {
+            const nextLine = sourceLines[index + 1];
+            if (/^(?: {2,}|\t)\S/.test(nextLine)) {
+              index += 1;
+              body.push(sourceLines[index].replace(/^(?: {2,}|\t)/, ""));
+              continue;
+            }
+            if (!nextLine.trim()) {
+              let lookahead = index + 2;
+              while (
+                lookahead < sourceLines.length &&
+                !sourceLines[lookahead].trim()
+              ) {
+                lookahead += 1;
+              }
+              if (
+                lookahead < sourceLines.length &&
+                /^(?: {2,}|\t)\S/.test(sourceLines[lookahead])
+              ) {
+                index += 1;
+                body.push("");
+                continue;
+              }
+            }
+            break;
           }
-          footnotes.set(definition[1], body.join(" "));
+          footnotes.set(definition[1], body.join("\n").trim());
           lines.push("");
         }
 
@@ -1217,7 +1238,17 @@
                 const backref = context.referenceCounts.has(id)
                   ? `<a class="footnote-backref" href="#fnref-${id}-1" aria-label="返回正文">↩</a>`
                   : "";
-                return `<li id="fn-${id}"><span class="footnote-number">${escapeHtml(label)}.</span><span class="footnote-body"><span class="footnote-text">${renderInlineMarkdown(body, context)}${backref}</span></span></li>`;
+                const isBlock = /\n\s*\n/.test(body) ||
+                  body.split("\n").some((line, index, all) =>
+                    line.includes("|") && isMarkdownTableDivider(all[index + 1] || "")
+                  );
+                const renderedBody = isBlock
+                  ? `<div class="footnote-text is-block">${renderMarkdown(body)}</div>`
+                  : `<span class="footnote-text">${renderInlineMarkdown(
+                      body.replace(/\n+/g, " "),
+                      context
+                    )}</span>`;
+                return `<li id="fn-${id}"><span class="footnote-number">${escapeHtml(label)}.</span><div class="footnote-body">${renderedBody}${backref}</div></li>`;
               }).join("")
             }</ol></section>`
           );
@@ -1510,14 +1541,22 @@
       }
 
       function allChapters() {
-        return model.state.parts.flatMap((part) =>
-          part.chapters.map((chapter) => ({
+        return [
+          ...(model.state.frontMatter || []).map((chapter) => ({
             ...chapter,
-            partId: part.id,
-            partNumber: part.number,
-            partTitle: part.title,
-          }))
-        );
+            partId: "front-matter",
+            partNumber: 0,
+            partTitle: "序言",
+          })),
+          ...model.state.parts.flatMap((part) =>
+            part.chapters.map((chapter) => ({
+              ...chapter,
+              partId: part.id,
+              partNumber: part.number,
+              partTitle: part.title,
+            }))
+          ),
+        ];
       }
 
       function currentChapter() {
@@ -1592,6 +1631,42 @@
       }
 
       function renderCatalog() {
+        const chapterMarkup = (chapter) => `
+          <div class="chapter-group">
+            <button
+              class="chapter ${chapter.id === model.chapterId ? "selected" : ""}"
+              data-chapter="${chapter.id}"
+              aria-current="${chapter.id === model.chapterId ? "true" : "false"}"
+              ${chapter.sections?.length > 1
+                ? `aria-expanded="${chapter.id === model.chapterId ? "true" : "false"}"`
+                : ""}
+            >
+              <span class="chapter-no">${String(chapter.number).padStart(2, "0")}</span>
+              <span class="chapter-title">${escapeHtml(chapter.title)}</span>
+              <span class="chapter-meta">
+                <span class="dot ${chapter.status}"></span>
+                ${chapter.statusLabel}${chapter.versionCount ? ` · ${chapter.versionCount}版` : ""}
+              </span>
+            </button>
+            ${chapter.id === model.chapterId && chapter.sections?.length > 1 ? `
+              <div class="chapter-sections" aria-label="${escapeHtml(chapter.title)}的小节">
+                ${chapter.sections.map((unit) => `
+                  <button
+                    class="catalog-section ${unit.unit_id === model.unitId ? "selected" : ""}"
+                    data-unit="${unit.unit_id}"
+                    aria-current="${unit.unit_id === model.unitId ? "true" : "false"}"
+                  >
+                    <span class="catalog-section-copy">
+                      <strong>${unit.number && !chapter.frontMatter ? `第${unit.number}节 · ` : ""}${escapeHtml(unit.title_zh)}</strong>
+                      <small>${unit.statusLabel}${unit.versionCount ? ` · ${unit.versionCount} 个版本` : ""}</small>
+                    </span>
+                    <span class="dot ${unit.status}"></span>
+                  </button>
+                `).join("")}
+              </div>
+            ` : ""}
+          </div>
+        `;
         el("catalog").innerHTML = `
           <div class="catalog-toolbar">
             <strong>全书目录</strong>
@@ -1603,45 +1678,16 @@
               aria-expanded="true"
             >收起</button>
           </div>
+          ${(model.state.frontMatter || []).length ? `
+            <section class="part">
+              <p class="part-title">序言与版本说明</p>
+              ${model.state.frontMatter.map(chapterMarkup).join("")}
+            </section>
+          ` : ""}
           ${model.state.parts.map((part) => `
             <section class="part">
               <p class="part-title">第${part.number}篇 · ${escapeHtml(part.title)}</p>
-              ${part.chapters.map((chapter) => `
-                <div class="chapter-group">
-                  <button
-                    class="chapter ${chapter.id === model.chapterId ? "selected" : ""}"
-                    data-chapter="${chapter.id}"
-                    aria-current="${chapter.id === model.chapterId ? "true" : "false"}"
-                    ${chapter.sections?.length > 1
-                      ? `aria-expanded="${chapter.id === model.chapterId ? "true" : "false"}"`
-                      : ""}
-                  >
-                    <span class="chapter-no">${String(chapter.number).padStart(2, "0")}</span>
-                    <span class="chapter-title">${escapeHtml(chapter.title)}</span>
-                    <span class="chapter-meta">
-                      <span class="dot ${chapter.status}"></span>
-                      ${chapter.statusLabel}${chapter.versionCount ? ` · ${chapter.versionCount}版` : ""}
-                    </span>
-                  </button>
-                  ${chapter.id === model.chapterId && chapter.sections?.length > 1 ? `
-                    <div class="chapter-sections" aria-label="${escapeHtml(chapter.title)}的小节">
-                      ${chapter.sections.map((unit) => `
-                        <button
-                          class="catalog-section ${unit.unit_id === model.unitId ? "selected" : ""}"
-                          data-unit="${unit.unit_id}"
-                          aria-current="${unit.unit_id === model.unitId ? "true" : "false"}"
-                        >
-                          <span class="catalog-section-copy">
-                            <strong>${unit.number ? `第${unit.number}节 · ` : ""}${escapeHtml(unit.title_zh)}</strong>
-                            <small>${unit.statusLabel}${unit.versionCount ? ` · ${unit.versionCount} 个版本` : ""}</small>
-                          </span>
-                          <span class="dot ${unit.status}"></span>
-                        </button>
-                      `).join("")}
-                    </div>
-                  ` : ""}
-                </div>
-              `).join("")}
+              ${part.chapters.map(chapterMarkup).join("")}
             </section>
           `).join("")}
         `;

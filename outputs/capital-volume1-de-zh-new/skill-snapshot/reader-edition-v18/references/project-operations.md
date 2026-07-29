@@ -31,6 +31,14 @@ When the user says “开始翻译……” or “继续……” without giving
 5. Read `project.json` and use its `skill_snapshot` controller, not an assumed
    version:
 
+   In Codex Desktop, first load the workspace dependencies and use the bundled
+   Python executable returned there. If `project.json` records
+   `execution_policy.desktop_python`, prefer that executable while it exists.
+   Do not fall back to a user-installed Python under
+   `AppData/Local/Programs`; it sits outside the workspace runtime and can
+   trigger redundant approval prompts even when project access is already
+   allowed.
+
    ```powershell
    python <project-root>/<skill_snapshot>/scripts/reader_project_controller.py validate <project-root>
    python <project-root>/<skill_snapshot>/scripts/reader_project_controller.py context <project-root> --chapter <logical-chapter-id>
@@ -61,8 +69,10 @@ recover project files from another inaccessible workspace.
 
 ## 3. Resolve what the user named
 
-Use `manifests/outline.json` for the book's part/chapter structure and
-`manifests/work-units.jsonl` for section-level work. A logical chapter such as
+Use `manifests/outline.json` for the book's front-matter and part/chapter
+structure, and `manifests/work-units.jsonl` for every translatable unit. Source
+edition prefaces and afterwords must be planned as `front-matter` work units;
+do not treat a translator's preface as their substitute. A logical chapter such as
 `ch01` may be implemented by several controller chapters such as `ch01`,
 `ch01s02`, `ch01s03`, and `ch01s04`. `context --chapter ch01` must return all of
 them.
@@ -92,16 +102,30 @@ the gate passes, it derives the version number, copies the assembled artifact to
 `reader-edition/versions/`, records active approved task revisions and review
 evidence, and appends a progress event.
 
-The gate is finite. It may return a candidate for revision at most twice. Use a
-fresh reader for the initial review and each recheck, and save all attempts. If
-the third review still finds a blocking translation defect, do not make a third
-repair and do not pause a batch run. Register the exact candidate with
+The gate is finite. The controller assigns two returns to a short unit, three to
+a medium unit, and at most four to a long unit. Use a fresh reader for the
+initial review and each recheck, and save all attempts. If the final permitted
+review still finds a blocking translation defect, do not make another repair
+and do not pause a batch run. Register the exact candidate with
 `--allow-unresolved-final` and a concise `--review-note`, then continue. The app
 shows that note only on the affected version. Style suggestions never consume a
 return and never block registration when the current wording is already clear.
 
+If an assembled review finds a new blocker inside a source task that has reached
+its controller-calculated final review-cycle attempt, the upstream task has no
+legal repair left. Do not invent another revision or submit unchanged prose to
+more readers merely to manufacture a final-attempt filename. Register the
+current failed review with
+`--allow-unresolved-final --upstream-budget-exhausted-task <task-id>` and a
+precise issue note. The controller verifies that the named task belongs to the
+unit and has exhausted its length-based budget.
+
 A `needs_review` version must not be auto-adopted or released. A passing version
-must not carry an issue note.
+must not carry an issue note unless it contains a task that reached the bounded
+third-round failure state. In that case version registration automatically
+copies the unresolved task IDs and their issue notes into the version and keeps
+the version itself at `needs_review`, even if the assembled Chinese-only review
+passes.
 
 Adopt a reviewed version through:
 
@@ -142,11 +166,22 @@ Before ending a work turn:
 
 1. save every draft and review before advancing status;
 2. if a review changes the draft, reopen the task and rerun both reviews; never
-   attach a stale meaning review to revised prose, and never exceed two returns
-   for revision;
+   attach a stale meaning review to revised prose, and never exceed the
+   controller-calculated return budget;
 3. append progress through controller commands;
 4. run project validation;
 5. confirm any registered/adopted version and reader-facing chapter file;
 6. confirm the progress interface can read the new state when configured;
 7. report exact artifacts and the next pending unit. In an unattended batch,
    record unresolved final-review findings on their versions instead of pausing.
+
+## 8. Optional chapter deployment checkpoint
+
+When an approved project decision requires a preview deployment after each
+logical chapter, treat the outline chapter rather than a controller subsection
+as the checkpoint. Deploy only after every work unit belonging to that logical
+chapter has an adopted version. Sync the preview data,
+run its production build, and use the existing Sites project configuration.
+Record the logical chapter, included translation version IDs, deployment time,
+and deployed URL in a project manifest. Do not deploy after every subsection,
+and do not create a second Sites project for later chapters.

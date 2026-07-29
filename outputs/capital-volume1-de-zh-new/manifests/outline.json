@@ -1,11 +1,45 @@
 {
   "schema_version": 1,
-  "outline_version": 1,
+  "outline_version": 2,
   "work_id": "capital-v1",
   "title_zh": "《资本论》第一卷",
   "base_edition": "de-1890",
-  "source": "MEGA II/10 Inhaltsverzeichnis",
-  "last_updated": "2026-07-28",
+  "source": "MEGA II/10 front matter and Inhaltsverzeichnis",
+  "last_updated": "2026-07-30",
+  "front_matter": [
+    {
+      "unit_id": "fm01",
+      "controller_chapter_id": "fm01",
+      "number": 1,
+      "title_zh": "第一版序言",
+      "title_de": "Vorwort zur ersten Auflage",
+      "author_zh": "卡尔·马克思"
+    },
+    {
+      "unit_id": "fm02",
+      "controller_chapter_id": "fm02",
+      "number": 2,
+      "title_zh": "第二版跋",
+      "title_de": "Zur zweiten Auflage",
+      "author_zh": "卡尔·马克思"
+    },
+    {
+      "unit_id": "fm03",
+      "controller_chapter_id": "fm03",
+      "number": 3,
+      "title_zh": "第三版序言",
+      "title_de": "Zur dritten Auflage",
+      "author_zh": "弗里德里希·恩格斯"
+    },
+    {
+      "unit_id": "fm04",
+      "controller_chapter_id": "fm04",
+      "number": 4,
+      "title_zh": "第四版序言",
+      "title_de": "Zur vierten Auflage",
+      "author_zh": "弗里德里希·恩格斯"
+    }
+  ],
   "parts": [
     {
       "part_id": "part01",

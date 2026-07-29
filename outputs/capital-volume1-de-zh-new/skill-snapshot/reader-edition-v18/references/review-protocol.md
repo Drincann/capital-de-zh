@@ -131,8 +131,10 @@ The following do not force failure when the Chinese makes their status clear:
   reviewer;
 - a sentence is not the reviewer's personal stylistic choice but can be
   understood correctly without backtracking;
-- Chinese paragraph boundaries differ from the source while coverage and logic
-  remain intact;
+- Chinese paragraph boundaries differ from the source, coverage and logic remain
+  intact, and the review names a concrete one-read failure that sentence-level
+  repair could not solve. An unrecorded or merely visual boundary change is a
+  blocking workflow defect even when no sentence is mistranslated;
 - the reader doubts a premise or wants a fuller proof;
 - the source chooses an analytical abstraction the reader does not accept;
 - a later section must explain a relation more fully;
@@ -142,11 +144,15 @@ The following do not force failure when the Chinese makes their status clear:
 Record non-blocking alternatives as `S`; they are editorial options, not orders
 to revise. The review is a safety gate, not an optimization contest.
 
-For each task, permit at most two returns for automatic revision: initial review,
-first revision and recheck, then second revision and final recheck. Save the
-three attempts with `-r1`, `-r2`, and `-r3` in their filenames. Task-level
-meaning and readability defects must be resolved before assembly. Do not turn
-style suggestions into an endless optimization loop.
+For each task, use the controller's source-length budget: two returns for a
+short unit, three for a medium unit, and four for a long unit. Including the
+initial review, the final attempt is therefore review-cycle attempt 3, 4, or 5.
+Keep artifact filenames tied to their actual revision number. If the final
+source-aware meaning review or source-blind readability review still finds a
+blocking defect, preserve that exact draft as `needs_review` and record the
+remaining findings in its task-level issue summary. A later review stage may
+still run, but a later `PASS` does not erase an earlier unresolved final
+finding. Do not turn style suggestions into an endless optimization loop.
 
 ## 5. Mandatory independent reader gate
 
@@ -183,14 +189,25 @@ be reported as `A` or `D`; optional wording improvements are `S`. None of these
 forces failure. Only unresolved `T` defects force `Verdict: FAIL`.
 
 The independent gate is also bounded. Run an initial blind review. If it fails,
-make one repair and run a fresh blind recheck. If that fails, make a second and
-final repair followed by one last fresh recheck. Save the attempts as
-`<unit>-independent-r1.md`, `-r2.md`, and `-r3.md`. A third blocking failure
-never triggers a third repair and does not pause batch translation. Register the
-exact final candidate as `needs_review`, attach a concise summary of the
-remaining T findings to that version, and continue to the next unit. Do not
-auto-adopt or release it. Register a passing version normally and do not create
-or display an issue summary for it.
+make repairs only within the unit's two-, three-, or four-return budget, using a
+fresh blind reader after every change. Save attempts as
+`<unit>-independent-r1.md` through the controller-calculated final attempt
+(`r3`, `r4`, or `r5`). A blocking failure on that final attempt never triggers
+another repair and does not pause batch translation. Register the exact final
+candidate as `needs_review`, attach a concise summary of the remaining T
+findings to that version, and continue to the next unit. Do not auto-adopt or
+release it. Register a passing version normally and do not create or display an
+issue summary for it, except when one of its source tasks already
+ended as `needs_review`. A passing assembled review does not erase that
+source-aware or task-level unresolved state; the version inherits the affected
+task IDs and issue notes.
+
+If this assembled review finds a new blocker that can only be repaired by
+creating another revision for a task whose length-based return budget is already
+exhausted, stop at the actual assembled-review attempt. Preserve its real
+filename and attempt number, name the exhausted upstream task during version
+registration, and mark the unit `needs_review`. Do not conduct fake repeat
+reviews of unchanged prose.
 
 The controller validates the fields, headings, artifact hash, review attempt,
 verdict, and required issue summary before version registration. It cannot prove

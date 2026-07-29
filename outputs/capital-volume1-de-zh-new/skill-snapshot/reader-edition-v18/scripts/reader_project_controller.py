@@ -59,11 +59,17 @@ CHAPTER_TITLES = {
     "ch08": "第八章 工作日",
     "ch09": "第九章 剩余价值率和剩余价值量",
 }
+FRONT_MATTER_TITLES = {
+    "fm01": "第一版序言",
+    "fm02": "第二版跋",
+    "fm03": "第三版序言",
+    "fm04": "第四版序言",
+}
 PARAGRAPH_HEADER = re.compile(
     r"^\[(?P<id>v1-[^\]]+-p\d+[a-z]?)\](?P<locator>[^\n]*)$", re.MULTILINE
 )
 INTERNAL_MARKERS = re.compile(
-    r"\bv1-ch\d+|task[_ -]?id|source_sha256|spec_sha256|"
+    r"\bv1-(?:ch\d+|fm\d+)|task[_ -]?id|source_sha256|spec_sha256|"
     r"meaning[_ -]?review|readability[_ -]?review",
     re.IGNORECASE,
 )
@@ -117,9 +123,11 @@ readability_reviewed -> approved`
 7. Before registering a candidate version, require a hash-bound review from an
    independent reader context that saw only the assembled Chinese. The reader
    tests translation clarity, not whether the source has proved its theory.
-   A candidate may be returned for revision at most twice. Style suggestions do
-   not fail it. A third blocking FAIL registers the exact final candidate as
-   `needs_review`, attaches a concise issue note, and does not pause the batch.
+   The return budget is based on the work unit's source length: two for a short
+   unit, three for a medium unit, and at most four for a long unit. Style
+   suggestions do not fail it. A blocking FAIL on the final permitted attempt
+   registers the exact candidate as `needs_review`, attaches a concise issue
+   note, and does not pause the batch.
 8. Never overwrite an approved release silently. Create a new task revision and
    append a progress event and decision.
 """
@@ -205,6 +213,51 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
     return rows
 
 
+def chinese_integer(value: int) -> str:
+    digits = ("零", "一", "二", "三", "四", "五", "六", "七", "八", "九")
+    if value < 10:
+        return digits[value]
+    if value < 20:
+        return "十" + (digits[value % 10] if value % 10 else "")
+    if value < 100:
+        return digits[value // 10] + "十" + (
+            digits[value % 10] if value % 10 else ""
+        )
+    return str(value)
+
+
+def outline_chapter_title(root: Path, chapter_id: str) -> str:
+    path = root / "manifests" / "outline.json"
+    if not path.is_file():
+        return ""
+    outline = read_json(path)
+    if not isinstance(outline, dict):
+        return ""
+    for item in outline.get("front_matter", []):
+        if not isinstance(item, dict):
+            continue
+        if chapter_id not in {
+            str(item.get("unit_id", "")),
+            str(item.get("controller_chapter_id", "")),
+        }:
+            continue
+        return str(item.get("title_zh", "")).strip()
+    for part in outline.get("parts", []):
+        if not isinstance(part, dict):
+            continue
+        for chapter in part.get("chapters", []):
+            if not isinstance(chapter, dict):
+                continue
+            if chapter.get("chapter_id") != chapter_id:
+                continue
+            title = str(chapter.get("title_zh", "")).strip()
+            number = chapter.get("number")
+            if title and isinstance(number, int):
+                return f"第{chinese_integer(number)}章 {title}"
+            return title
+    return ""
+
+
 def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
     text = "".join(
         json.dumps(row, ensure_ascii=False, sort_keys=False) + "\n" for row in rows
@@ -280,6 +333,60 @@ def parse_source(path: Path) -> list[dict[str, str]]:
             }
         )
     return paragraphs
+
+
+def review_return_budget(
+    source_paragraph_count: int,
+    source_character_count: int,
+) -> int:
+    """Return the permitted number of repairs for one work unit.
+
+    The budget follows source length, not how difficult a reviewer happens to
+    find the argument. A short unit gets two returns, a medium unit gets three,
+    and a long unit gets the user-authorized maximum of four.
+    """
+
+    if source_paragraph_count <= 10 and source_character_count <= 20_000:
+        return 2
+    if source_paragraph_count <= 20 and source_character_count <= 30_000:
+        return 3
+    return 4
+
+
+def chapter_review_return_budget(root: Path, chapter_id: str) -> int:
+    chapters = read_jsonl(root / "manifests" / "chapters.jsonl")
+    chapter = next(
+        (row for row in chapters if row.get("chapter_id") == chapter_id),
+        None,
+    )
+    if chapter is None:
+        raise SystemExit(f"Unknown chapter: {chapter_id}")
+    source = root / str(chapter.get("source_path", ""))
+    if not source.is_file():
+        raise SystemExit(f"Missing source for review budget: {source}")
+    text = source.read_text(encoding="utf-8")
+    return review_return_budget(len(parse_source(source)), len(text))
+
+
+def unit_review_return_budget(root: Path, unit_id: str) -> int:
+    units = read_jsonl(root / "manifests" / "work-units.jsonl")
+    unit = next((row for row in units if row.get("unit_id") == unit_id), None)
+    if unit is None:
+        raise SystemExit(f"Unknown work unit: {unit_id}")
+    return chapter_review_return_budget(
+        root,
+        str(unit.get("controller_chapter_id", "")),
+    )
+
+
+def task_review_cycle_attempt(root: Path, row: dict[str, Any]) -> int:
+    if row.get("review_cycle_attempt") is not None:
+        return max(1, int(row["review_cycle_attempt"]))
+    final_attempt = chapter_review_return_budget(
+        root,
+        str(row.get("chapter_id", "")),
+    ) + 1
+    return min(max(1, int(row.get("revision", 1))), final_attempt)
 
 
 def source_blocks_with_referenced_notes(
@@ -551,15 +658,15 @@ def review_errors(
             errors.append(f"missing reader question and answer: {label}")
         sentences = chinese_sentences(block)
         if len(sentences) > 1:
-            transition_line = re.search(
-                rf"^-\s+{label}:\s*(?P<body>.+)$",
+            transition_lines = re.findall(
+                rf"^-\s+{label}:\s*(.+)$",
                 transitions,
                 re.MULTILINE,
             )
-            if not transition_line:
+            if not transition_lines:
                 errors.append(f"missing transition evidence: {label}")
             else:
-                body = transition_line.group("body")
+                body = " ".join(transition_lines)
                 for sentence_index in range(1, len(sentences)):
                     marker = f"S{sentence_index}->S{sentence_index + 1}="
                     if marker not in body:
@@ -737,7 +844,11 @@ def add_or_refresh_chapter_rows(root: Path) -> list[dict[str, Any]]:
     existing = {
         row.get("chapter_id"): row for row in read_jsonl(manifest_path)
     }
-    for chapter_dir in sorted((root / "chapters").glob("ch*")):
+    chapter_dirs = {
+        *list((root / "chapters").glob("ch*")),
+        *list((root / "chapters").glob("fm*")),
+    }
+    for chapter_dir in sorted(chapter_dirs):
         if not chapter_dir.is_dir():
             continue
         chapter_id = chapter_dir.name
@@ -754,11 +865,19 @@ def add_or_refresh_chapter_rows(root: Path) -> list[dict[str, Any]]:
         logical_chapter_id = (
             section_match.group(1) if section_match else chapter_id
         )
-        title = CHAPTER_TITLES.get(logical_chapter_id, chapter_id)
+        title = (
+            CHAPTER_TITLES.get(logical_chapter_id)
+            or FRONT_MATTER_TITLES.get(chapter_id)
+            or chapter_id
+        )
         output_path = (
             f"chapters/{chapter_id}/assembled.md"
             if section_match
-            else f"reader-edition/{title}.md"
+            else (
+                f"reader-edition/front-matter/{title}.md"
+                if chapter_id in FRONT_MATTER_TITLES
+                else f"reader-edition/{title}.md"
+            )
         )
         row = existing.get(chapter_id, {})
         row.update(
@@ -824,9 +943,10 @@ def migrate(root: Path) -> None:
             "final_format": "markdown-one-file-per-chapter",
             "translation_policy": (
                 "忠实于德文的核心命题、逻辑关系、必要概念区别和论证性证据，"
-                "不追求词语、句法、局部顺序或段落相似；默认使用最短、最直接的"
-                "自然中文，并可重组句段、显化原文蕴含的中间步骤和压缩无论证作用的"
-                "重复；不得替原文补证明、提前展开后文或改变理论"
+                "不追求词语、句法或局部顺序相似；默认使用最短、最直接的"
+                "自然中文，并可重组句子、显化原文蕴含的中间步骤和压缩无论证作用的"
+                "重复。段落默认沿用原文，只有句内改写仍不能排除首次阅读障碍时才"
+                "拆分或合并；不得替原文补证明、提前展开后文或改变理论"
             ),
             "inline_note_syntax": "〔译者注：……〕",
             "standard_version": STANDARD_VERSION,
@@ -834,13 +954,21 @@ def migrate(root: Path) -> None:
             "spec_sha256": spec_hash(root),
             "status": "reader-edition-spec-locked",
             "final_review_policy": (
-                "独立终审最多打回两次；第三次仍有阻断问题时登记为"
-                "needs_review并附版本问题摘要，不暂停批量翻译，不自动采用或发布"
+                "根据小节长度最多打回二至四次；达到该单元预算后仍有阻断问题时"
+                "登记为needs_review并附版本问题摘要，不暂停批量翻译，"
+                "不自动采用或发布"
             ),
             "last_updated": now(),
         }
     )
     write_json(root / "project.json", project)
+    desktop_python = str(
+        project.get("execution_policy", {}).get(
+            "desktop_python",
+            "C:/Users/Administrator/.cache/codex-runtimes/"
+            "codex-primary-runtime/dependencies/python/python.exe",
+        )
+    )
     project_md = f"""# {project.get('title', '《资本论》现代汉语读者版')}
 
 本项目从可靠的德文文本出发，制作一套面向普通读者的现代汉语通俗新译。
@@ -850,22 +978,28 @@ def migrate(root: Path) -> None:
 核对、任务包、草稿、校对和决策记录全部留在后台，不进入读者正文。
 
 翻译忠实于德文的核心命题、逻辑关系、必要概念区别和论证性证据，不追
-求词语、句法、局部顺序或段落相似。默认写成最短、最直接的自然中文；
-词类转换、把抽象名词改成动作、重组句段、显化原文蕴含的中间步骤、压
-缩无论证作用的重复都属于正常翻译。不得替原文补证明、提前展开后文，
-或改变核心命题、关系、概念、事实、数字和引文。
+求词语、句法或局部顺序相似。默认写成最短、最直接的自然中文；词类转
+换、把抽象名词改成动作、重组句子、显化原文蕴含的中间步骤、压缩无论
+证作用的重复都属于正常翻译。段落默认沿用原文；只有句内改写仍不能排
+除首次阅读障碍时才拆分或合并。不得替原文补证明、提前展开后文，或改
+变核心命题、关系、概念、事实、数字和引文。
 
 审核只拦截会造成误解的实质性问题。较短、较顺或不同措辞只作为非阻断
-建议。一个任务或候选版本最多打回修改两次；终审仍有实质性问题时停止
-自动修改。若独立终审仍有实质性问题，则把最终候选登记为待复核版本，
-附上问题摘要并继续后续单元；通过终审的版本不显示问题摘要。
+建议。根据小节长度，一个任务或候选版本最多打回修改二至四次；达到预
+算后仍有实质性问题时停止自动修改。若独立终审仍有实质性问题，则把最
+终候选登记为待复核版本，附上问题摘要并继续后续单元；通过终审的版本
+不显示问题摘要。
 
 任何新任务或上下文压缩后，先运行：
 
 ```powershell
-python skill-snapshot/{STANDARD_VERSION}/scripts/reader_project_controller.py validate .
-python skill-snapshot/{STANDARD_VERSION}/scripts/reader_project_controller.py context .
+& '{desktop_python}' skill-snapshot/{STANDARD_VERSION}/scripts/reader_project_controller.py validate .
+& '{desktop_python}' skill-snapshot/{STANDARD_VERSION}/scripts/reader_project_controller.py context .
 ```
+
+在 Codex Desktop 中先读取工作区依赖，并使用其中返回的 Python。不要回退
+到 `AppData\\Local\\Programs\\Python`；后者位于工作区运行时之外，会重复触发
+命令批准，即使用户已经为项目选择完全访问。
 
 当前阶段：读者版规范已锁定；已登记 {len(chapters)} 章的来源。
 """
@@ -985,9 +1119,11 @@ proposal in the meaning review. Do not silently turn it into a global default.
 9. After writing the assigned artifact, report its path and stop. Durable status
    updates belong to the coordinating main agent and are intentionally omitted
    from this delegated task package.
-10. A task may be returned for revision at most twice. Resolve task-level
-    blocking defects before assembly; do not turn style suggestions into an
-    endless optimization loop.
+10. This work unit permits up to {row.get('review_return_budget', 2)} returns.
+    This task is on review-cycle attempt
+    {row.get('review_cycle_attempt', 1)}. Resolve task-level blocking defects
+    before assembly; do not turn style suggestions into an endless optimization
+    loop.
 """
 
 
@@ -1069,6 +1205,7 @@ def make_tasks(
 
     source_path = root / str(chapter["source_path"])
     paragraphs = parse_source(source_path)
+    return_budget = chapter_review_return_budget(root, chapter_id)
     current_spec_hash = spec_hash(root)
     decisions = active_decisions(root)
     created: list[dict[str, Any]] = []
@@ -1121,6 +1258,8 @@ def make_tasks(
                 )
             ],
             "revision": revision,
+            "review_cycle_attempt": 1,
+            "review_return_budget": return_budget,
             "last_updated": now(),
         }
         atomic_write_text(
@@ -1270,6 +1409,7 @@ def revise_tasks(
     chapter_id: str,
     allow_incomplete: bool = False,
     task_ids: list[str] | None = None,
+    reset_review_budget: bool = False,
 ) -> None:
     chapter_path = root / "manifests" / "chapters.jsonl"
     chapter_rows = read_jsonl(chapter_path)
@@ -1316,6 +1456,8 @@ def revise_tasks(
     ids = [item["id"] for item in paragraphs]
     current_spec_hash = spec_hash(root)
     decisions = active_decisions(root)
+    return_budget = chapter_review_return_budget(root, chapter_id)
+    final_attempt = return_budget + 1
     created: list[dict[str, Any]] = []
 
     for old in active:
@@ -1339,6 +1481,16 @@ def revise_tasks(
             and row.get("end_paragraph") == old.get("end_paragraph")
         ]
         revision = max(revisions, default=0) + 1
+        previous_attempt = task_review_cycle_attempt(root, old)
+        review_cycle_attempt = (
+            1 if reset_review_budget else previous_attempt + 1
+        )
+        if review_cycle_attempt > final_attempt:
+            raise SystemExit(
+                f"{old['task_id']}: review budget exhausted at "
+                f"{return_budget} returns; use --reset-review-budget only "
+                "for an explicit historical recall"
+            )
         first_num = paragraph_number(str(old["start_paragraph"]))
         last_num = paragraph_number(str(old["end_paragraph"]))
         task_id = (
@@ -1370,6 +1522,8 @@ def revise_tasks(
             "readability_review_artifact_sha256": "",
             "dependencies": [str(old["task_id"])],
             "revision": revision,
+            "review_cycle_attempt": review_cycle_attempt,
+            "review_return_budget": return_budget,
             "last_updated": now(),
         }
         atomic_write_text(
@@ -1431,15 +1585,27 @@ def task_update(
 ) -> None:
     if new_status not in TASK_STATES:
         raise SystemExit(f"Invalid task status: {new_status}")
-    if allow_unresolved_final and new_status != "readability_reviewed":
+    if allow_unresolved_final and new_status not in (
+        "meaning_reviewed",
+        "readability_reviewed",
+    ):
         raise SystemExit(
-            "--allow-unresolved-final is only valid for readability_reviewed"
+            "--allow-unresolved-final is only valid for meaning_reviewed "
+            "or readability_reviewed"
         )
     path = root / "manifests" / "tasks.jsonl"
     rows = read_jsonl(path)
     row = next((item for item in rows if item.get("task_id") == task_id), None)
     if row is None:
         raise SystemExit(f"Unknown task: {task_id}")
+    return_budget = chapter_review_return_budget(
+        root,
+        str(row.get("chapter_id", "")),
+    )
+    review_cycle_attempt = task_review_cycle_attempt(root, row)
+    row["review_return_budget"] = return_budget
+    row["review_cycle_attempt"] = review_cycle_attempt
+    final_attempt = return_budget + 1
     old_status = str(row["status"])
     if old_status == "superseded":
         raise SystemExit("A superseded task cannot be updated")
@@ -1465,7 +1631,41 @@ def task_update(
         review = root / review_path
         if not review.is_file():
             raise SystemExit(f"Meaning review does not exist: {review}")
-        failures = review_errors(root, row, review, "meaning")
+        verdict = review_field(review.read_text(encoding="utf-8"), "Verdict")
+        issue_note = review_note.strip()
+        if allow_unresolved_final:
+            if verdict != "FAIL":
+                raise SystemExit(
+                    "--allow-unresolved-final is only valid for Verdict: FAIL"
+                )
+            if review_cycle_attempt < final_attempt:
+                raise SystemExit(
+                    "An unresolved task can be finalized only on the final "
+                    f"permitted review-cycle attempt {final_attempt}"
+                )
+            if not re.search(
+                rf"-r{int(row.get('revision', 0))}-meaning\.md$",
+                review_path.replace("\\", "/"),
+            ):
+                raise SystemExit(
+                    "An unresolved final meaning review must use an "
+                    "artifact-revision-matched path"
+                )
+            if not issue_note:
+                raise SystemExit(
+                    "--review-note is required for an unresolved final task"
+                )
+        elif issue_note:
+            raise SystemExit(
+                "--review-note requires --allow-unresolved-final"
+            )
+        failures = review_errors(
+            root,
+            row,
+            review,
+            "meaning",
+            allow_fail=allow_unresolved_final,
+        )
         if failures:
             raise SystemExit(
                 "Meaning review failed validation:\n- "
@@ -1474,6 +1674,10 @@ def task_update(
         row["meaning_review_path"] = review_path.replace("\\", "/")
         row["meaning_review_sha256"] = sha256_file(review)
         row["meaning_review_artifact_sha256"] = sha256_file(artifact)
+        if allow_unresolved_final:
+            row["review_status"] = "needs_review"
+            row["review_note"] = issue_note
+            row["review_attempt"] = review_cycle_attempt
     if new_status == "readability_reviewed":
         if not review_path:
             raise SystemExit("--review-path is required for readability_reviewed")
@@ -1492,16 +1696,18 @@ def task_update(
                 raise SystemExit(
                     "--allow-unresolved-final is only valid for Verdict: FAIL"
                 )
-            if int(row.get("revision", 0)) < 3:
+            if review_cycle_attempt < final_attempt:
                 raise SystemExit(
-                    "An unresolved task can be finalized only on revision 3 or later"
+                    "An unresolved task can be finalized only on the final "
+                    f"permitted review-cycle attempt {final_attempt}"
                 )
             if not re.search(
-                r"-r3-readability\.md$",
+                rf"-r{int(row.get('revision', 0))}-readability\.md$",
                 review_path.replace("\\", "/"),
             ):
                 raise SystemExit(
-                    "An unresolved final task review must use an -r3-readability.md path"
+                    "An unresolved final task review must use an "
+                    "artifact-revision-matched path"
                 )
             if not issue_note:
                 raise SystemExit(
@@ -1526,12 +1732,17 @@ def task_update(
         row["readability_review_path"] = review_path.replace("\\", "/")
         row["readability_review_sha256"] = sha256_file(review)
         row["readability_review_artifact_sha256"] = sha256_file(artifact)
-        row["review_status"] = (
-            "needs_review" if allow_unresolved_final else "passed"
-        )
-        if issue_note:
-            row["review_note"] = issue_note
-            row["review_attempt"] = 3
+        if allow_unresolved_final:
+            row["review_status"] = "needs_review"
+            if row.get("review_note"):
+                row["review_note"] = (
+                    str(row["review_note"]).rstrip() + " " + issue_note
+                ).strip()
+            elif issue_note:
+                row["review_note"] = issue_note
+            row["review_attempt"] = review_cycle_attempt
+        elif row.get("review_status") != "needs_review":
+            row["review_status"] = "passed"
     if new_status == "approved":
         if not row.get("meaning_review_path") or not row.get(
             "readability_review_path"
@@ -1596,6 +1807,9 @@ def task_reopen(root: Path, task_id: str) -> None:
     row["readability_review_sha256"] = ""
     row["meaning_review_artifact_sha256"] = ""
     row["readability_review_artifact_sha256"] = ""
+    row.pop("review_status", None)
+    row.pop("review_note", None)
+    row.pop("review_attempt", None)
     row["last_updated"] = now()
     write_jsonl(path, rows)
     append_event(
@@ -1760,8 +1974,18 @@ def assemble(root: Path, chapter_id: str) -> None:
             number = int(unit.get("number", 0))
             number_label = numerals[number] if 0 < number < len(numerals) else str(number)
             section_heading = f"## {number_label}、{unit['title_zh']}\n\n"
+    display_title = str(chapter.get("title_zh", "")).strip()
+    if not display_title or display_title == chapter_id:
+        logical_chapter_id = (
+            str(unit.get("chapter_id", "")).strip() if unit else chapter_id
+        )
+        display_title = (
+            outline_chapter_title(root, logical_chapter_id) or display_title
+        )
+        if display_title:
+            chapter["title_zh"] = display_title
     assembled = (
-        f"# {chapter['title_zh']}\n\n"
+        f"# {display_title}\n\n"
         + section_heading
         + "\n\n".join(bodies)
         + "\n"
@@ -1979,8 +2203,17 @@ def validate(root: Path, quiet: bool = False) -> list[str]:
                     "meaning_review_sha256"
                 ):
                     errors.append(f"{task_id}: meaning review hash mismatch")
+                allow_fail = row.get("review_status") == "needs_review"
+                if allow_fail and not str(row.get("review_note", "")).strip():
+                    errors.append(
+                        f"{task_id}: unresolved final task lacks review_note"
+                    )
                 for failure in review_errors(
-                    root, row, meaning_path, "meaning"
+                    root,
+                    row,
+                    meaning_path,
+                    "meaning",
+                    allow_fail=allow_fail,
                 ):
                     errors.append(f"{task_id}: meaning review: {failure}")
         if row.get("status") != "superseded" and row.get("status") in (
@@ -2138,12 +2371,61 @@ def validate(root: Path, quiet: bool = False) -> list[str]:
                 errors.append(
                     f"{version_id}: stored reader verdict does not match review"
                 )
+            unresolved_task_ids = [
+                str(task_id)
+                for task_id in row.get("unresolved_task_ids", [])
+                if str(task_id)
+            ]
+            budget_exhausted_task_ids = [
+                str(task_id)
+                for task_id in row.get("budget_exhausted_task_ids", [])
+                if str(task_id)
+            ]
+            for task_id in budget_exhausted_task_ids:
+                if task_id not in row.get("source_task_revisions", []):
+                    errors.append(
+                        f"{version_id}: exhausted upstream task is not a "
+                        f"source task: {task_id}"
+                    )
+                    continue
+                task = next(
+                    (
+                        task_row
+                        for task_row in task_rows
+                        if task_row.get("task_id") == task_id
+                    ),
+                    None,
+                )
+                if task is None or int(task.get("revision", 0)) < 3:
+                    errors.append(
+                        f"{version_id}: upstream task has not exhausted two "
+                        f"repairs: {task_id}"
+                    )
             if verdict == "PASS":
-                if review_status != "passed":
+                if budget_exhausted_task_ids:
+                    errors.append(
+                        f"{version_id}: PASS version cannot claim an "
+                        "upstream budget exhaustion"
+                    )
+                if unresolved_task_ids:
+                    if review_status != "needs_review":
+                        errors.append(
+                            f"{version_id}: version with unresolved tasks "
+                            "must be needs_review"
+                        )
+                    if not str(row.get("review_note", "")).strip():
+                        errors.append(
+                            f"{version_id}: version with unresolved tasks "
+                            "lacks review_note"
+                        )
+                elif review_status != "passed":
                     errors.append(
                         f"{version_id}: PASS version must have review_status passed"
                     )
-                if str(row.get("review_note", "")).strip():
+                if (
+                    not unresolved_task_ids
+                    and str(row.get("review_note", "")).strip()
+                ):
                     errors.append(
                         f"{version_id}: PASS version must not have review_note"
                     )
@@ -2156,12 +2438,13 @@ def validate(root: Path, quiet: bool = False) -> list[str]:
                     errors.append(
                         f"{version_id}: needs_review version lacks review_note"
                     )
-                if not re.search(
-                    r"-independent(?:-reader)?-r3\.md$",
+                if not budget_exhausted_task_ids and not re.search(
+                    r"-independent(?:-reader)?-r[3-5]\.md$",
                     str(row.get("reader_review_path", "")),
                 ):
                     errors.append(
-                        f"{version_id}: unresolved review must be final attempt r3"
+                        f"{version_id}: unresolved review must be a bounded "
+                        "final attempt r3-r5"
                     )
     for row in release_rows:
         output = root / str(row.get("output_path", ""))
@@ -2399,6 +2682,7 @@ def register_version(
     adopt: bool,
     allow_unresolved_final: bool,
     review_note: str,
+    upstream_budget_exhausted_task_ids: list[str] | None = None,
 ) -> None:
     unit = find_work_unit(root, unit_id)
     controller_id = str(unit.get("controller_chapter_id", ""))
@@ -2424,6 +2708,40 @@ def register_version(
         raise SystemExit(
             "Version registration requires every active task to be approved"
         )
+    unresolved_tasks = [
+        row for row in tasks if row.get("review_status") == "needs_review"
+    ]
+    task_by_id = {str(row.get("task_id", "")): row for row in tasks}
+    budget_exhausted_tasks: list[dict[str, Any]] = []
+    final_task_attempt = chapter_review_return_budget(root, controller_id) + 1
+    for task_id in upstream_budget_exhausted_task_ids or []:
+        task = task_by_id.get(task_id)
+        if task is None:
+            raise SystemExit(
+                f"Unknown active upstream task for {unit_id}: {task_id}"
+            )
+        if task_review_cycle_attempt(root, task) < final_task_attempt:
+            raise SystemExit(
+                f"Upstream task has not exhausted its "
+                f"{final_task_attempt - 1}-return budget: {task_id}"
+            )
+        if task not in budget_exhausted_tasks:
+            budget_exhausted_tasks.append(task)
+    unresolved_tasks = list(
+        dict.fromkeys(
+            str(row.get("task_id", ""))
+            for row in unresolved_tasks + budget_exhausted_tasks
+        )
+    )
+    unresolved_task_ids = [
+        task_id for task_id in unresolved_tasks if task_id
+    ]
+    unresolved_task_notes = [
+        str(row.get("review_note", "")).strip()
+        for row in tasks
+        if str(row.get("task_id", "")) in unresolved_task_ids
+        if str(row.get("review_note", "")).strip()
+    ]
     source = root / str(source_path or controller.get("output_path", ""))
     if not source.is_file():
         raise SystemExit(f"Missing assembled version source: {source}")
@@ -2457,17 +2775,19 @@ def register_version(
             + "\n- ".join(failures)
         )
     issue_note = review_note.strip()
+    final_unit_attempt = unit_review_return_budget(root, unit_id) + 1
     if verdict == "FAIL":
         if not allow_unresolved_final:
             raise SystemExit(
                 "A final FAIL requires --allow-unresolved-final"
             )
-        if not re.search(
-            r"-independent(?:-reader)?-r3\.md$",
+        if not budget_exhausted_tasks and not re.search(
+            rf"-independent(?:-reader)?-r{final_unit_attempt}\.md$",
             reader_review_path.replace("\\", "/"),
         ):
             raise SystemExit(
-                "An unresolved final review must use an -independent-r3.md path"
+                "An unresolved final review must use the work unit's final "
+                f"attempt suffix -independent-r{final_unit_attempt}.md"
             )
         if not issue_note:
             raise SystemExit(
@@ -2479,15 +2799,36 @@ def register_version(
             )
         review_status = "needs_review"
     else:
-        if allow_unresolved_final:
+        if budget_exhausted_tasks:
             raise SystemExit(
-                "--allow-unresolved-final is only valid for Verdict: FAIL"
+                "--upstream-budget-exhausted-task is only valid for "
+                "Verdict: FAIL"
             )
-        if issue_note:
+        if allow_unresolved_final and not unresolved_tasks:
+            raise SystemExit(
+                "--allow-unresolved-final is only valid for Verdict: FAIL "
+                "or a version containing unresolved final tasks"
+            )
+        if unresolved_tasks:
+            if adopt:
+                raise SystemExit(
+                    "A version containing needs_review tasks cannot be "
+                    "auto-adopted"
+                )
+            if not issue_note:
+                issue_note = "；".join(dict.fromkeys(unresolved_task_notes))
+            if not issue_note:
+                raise SystemExit(
+                    "A version containing needs_review tasks requires an "
+                    "issue note"
+                )
+            review_status = "needs_review"
+        elif issue_note:
             raise SystemExit(
                 "A passing version must not include --review-note"
             )
-        review_status = "passed"
+        else:
+            review_status = "passed"
     versions_path = root / "manifests" / "unit-versions.jsonl"
     versions = read_jsonl(versions_path)
     existing = [row for row in versions if row.get("unit_id") == unit_id]
@@ -2513,6 +2854,12 @@ def register_version(
         "review_status": review_status,
         "summary": summary,
     }
+    if unresolved_task_ids:
+        row["unresolved_task_ids"] = unresolved_task_ids
+    if budget_exhausted_tasks:
+        row["budget_exhausted_task_ids"] = [
+            str(task.get("task_id", "")) for task in budget_exhausted_tasks
+        ]
     if issue_note:
         row["review_note"] = issue_note
     append_jsonl(versions_path, row)
@@ -2529,7 +2876,15 @@ def register_version(
             "reviewer_context": review_field(review_text, "Reviewer-Context"),
             "source_access": False,
             "verdict": verdict,
-            "review_attempt": 3 if verdict == "FAIL" else 1,
+            "review_attempt": int(
+                (
+                    re.search(
+                        r"-independent(?:-reader)?-r(\d+)\.md$",
+                        reader_review_path.replace("\\", "/"),
+                    )
+                    or [None, "1"]
+                )[1]
+            ),
             **({"review_note": issue_note} if issue_note else {}),
             "created_at": now(),
         },
@@ -2571,7 +2926,31 @@ def rebuild_chapter(root: Path, chapter_id: str) -> None:
         (row for row in chapters if row.get("chapter_id") == chapter_id), None
     )
     if chapter is None:
-        raise SystemExit(f"Missing primary chapter row: {chapter_id}")
+        controller_ids = {
+            str(unit.get("controller_chapter_id", ""))
+            for unit in units
+            if unit.get("controller_chapter_id")
+        }
+        representative = next(
+            (
+                row
+                for row in chapters
+                if str(row.get("chapter_id", "")) in controller_ids
+            ),
+            None,
+        )
+        if representative is None:
+            raise SystemExit(
+                f"Missing primary and representative chapter row: {chapter_id}"
+            )
+        title_zh = str(representative.get("title_zh", "")).strip()
+        if not title_zh:
+            raise SystemExit(f"Logical chapter has no Chinese title: {chapter_id}")
+        chapter = {
+            "chapter_id": chapter_id,
+            "title_zh": title_zh,
+            "output_path": f"reader-edition/{title_zh}.md",
+        }
     versions = {
         str(row.get("version_id")): row
         for row in read_jsonl(root / "manifests" / "unit-versions.jsonl")
@@ -2659,6 +3038,14 @@ def build_parser() -> argparse.ArgumentParser:
         dest="task_ids",
         help="revise only this active task; repeat for multiple tasks",
     )
+    revise_parser.add_argument(
+        "--reset-review-budget",
+        action="store_true",
+        help=(
+            "start a fresh bounded review cycle for an explicitly recalled "
+            "historical task"
+        ),
+    )
     update_parser = subparsers.add_parser("task-update")
     update_parser.add_argument("project_root", type=Path)
     update_parser.add_argument("task_id")
@@ -2685,6 +3072,16 @@ def build_parser() -> argparse.ArgumentParser:
     register_parser.add_argument("--reader-review-path")
     register_parser.add_argument("--allow-unresolved-final", action="store_true")
     register_parser.add_argument("--review-note", default="")
+    register_parser.add_argument(
+        "--upstream-budget-exhausted-task",
+        action="append",
+        dest="upstream_budget_exhausted_task_ids",
+        help=(
+            "identify an active task whose length-based repair budget is "
+            "exhausted and makes this assembled-review failure terminal; "
+            "repeat as needed"
+        ),
+    )
     register_parser.add_argument("--adopt", action="store_true")
     adopt_parser = subparsers.add_parser("adopt-version")
     adopt_parser.add_argument("project_root", type=Path)
@@ -2723,6 +3120,7 @@ def main() -> int:
             args.chapter,
             args.allow_incomplete,
             args.task_ids,
+            args.reset_review_budget,
         )
     elif args.command == "task-update":
         task_update(
@@ -2750,6 +3148,7 @@ def main() -> int:
             args.adopt,
             args.allow_unresolved_final,
             args.review_note,
+            args.upstream_budget_exhausted_task_ids,
         )
     elif args.command == "adopt-version":
         adopt_version(root, args.unit_id, args.version_id)

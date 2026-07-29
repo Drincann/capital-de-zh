@@ -75,6 +75,15 @@ silently reuse or overwrite it.
 
 ## 3. Chapter manifest and state machine
 
+Before the numbered parts, `manifests/outline.json` may contain a
+`front_matter` array for authorial prefaces, afterwords, and edition notices.
+Each item must have a stable `unit_id`, a `controller_chapter_id`, its printed
+order, Chinese and source-language titles, and author when known. Front matter
+uses the same source lock, task, review, version, and adoption pipeline as a
+chapter, but its work-unit `scope` is `front-matter` and its reader output lives
+under `reader-edition/front-matter/`. A translator's own preface is a separate
+editorial artifact and must not replace or hide source-edition front matter.
+
 Each `manifests/chapters.jsonl` row contains:
 
 ```json
@@ -185,12 +194,16 @@ Only blocking translation defects fail the draft; the review does not require
 the translation to prove, defend, or complete the source's theory. Any revision
 invalidates both reviews and returns the task to `drafted`.
 
-A task or assembled unit may be returned for automatic revision at most twice:
-initial review, first repair and recheck, second repair and final recheck. Save
-all attempts with `-r1`, `-r2`, and `-r3` suffixes. Task-level defects must be
-resolved before assembly. If the assembled unit's final independent recheck
-still has a blocking defect, register the final candidate as `needs_review`,
-attach the remaining findings, and continue without a third repair.
+A task or assembled unit receives a source-length return budget from the
+controller: two returns when the unit has at most 10 source paragraphs and
+20,000 source characters; three when it has at most 20 paragraphs and 30,000
+characters; otherwise four. The final review-cycle attempt is therefore 3, 4,
+or 5. Keep artifact filenames tied to actual revisions and store
+`review_cycle_attempt` separately. If the final meaning or readability review
+still has a blocking defect, keep that exact task as `needs_review`, attach the
+remaining findings, and continue. A later review stage must preserve that state
+even if it passes. Apply the same bounded rule to an assembled unit whose final
+independent recheck fails.
 
 Translator-note review checks necessity, brevity, placement, and attribution.
 
@@ -290,11 +303,21 @@ Every newly registered version must have a hash-bound independent-reader review.
 A `PASS` means the Chinese communicates the source's moves without a material
 translation-induced ambiguity; it does not mean no reviewer can suggest a
 shorter or smoother sentence, and it does not certify that the argument is true
-or fully proved. After two repairs, a third `FAIL` may also authorize
-registration when the version is marked `needs_review` and contains a non-empty
-issue summary. Such a version may be previewed but not auto-adopted or released.
+or fully proved. A version assembled from any task marked `needs_review`
+inherits the unresolved task IDs and issue notes and remains `needs_review`
+even when this independent review passes. A `FAIL` on the controller-calculated
+final attempt may also authorize registration when the version is marked
+`needs_review` and contains a non-empty issue summary. Such a version may be
+previewed but not auto-adopted or released.
 The review is recorded in `manifests/unit-version-reviews.jsonl` and copied into
 the version row.
+
+An assembled review may become terminal before its own final attempt when every
+required repair falls inside a named upstream task whose length-based return
+budget is already exhausted. Record the real review attempt, list the task in
+`budget_exhausted_task_ids`, and register with
+`--upstream-budget-exhausted-task`; never rename the review to a later attempt,
+repeat an unchanged review, or create another task revision.
 
 Use controller commands instead of editing these manifests by hand:
 
@@ -303,7 +326,7 @@ python <controller> register-version <project-root> <unit-id> \
   --reader-review-path <independent-review.md> --summary "..."
 
 python <controller> register-version <project-root> <unit-id> \
-  --reader-review-path <unit-independent-r3.md> \
+  --reader-review-path <unit-independent-rN.md> \
   --allow-unresolved-final --review-note "<concise unresolved findings>"
 python <controller> adopt-version <project-root> <unit-id> <version-id>
 python <controller> rebuild-chapter <project-root> <logical-chapter-id>

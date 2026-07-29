@@ -97,11 +97,15 @@ perform argumentative work merely to shorten the text. A genuinely redundant
 example, repeated formulation, or minor stylistic detail may be compressed; log
 the choice if a source-aware reader could reasonably consider it meaningful.
 
-The source paragraph is an alignment unit, not a compulsory reader-facing
-boundary. Preserve it when it already works in Chinese. Split or join it when
-that gives each Chinese paragraph one clear question and one continuous line of
-thought. Do not change boundaries merely for visual rhythm or uniformly short
-blocks. Record every boundary change and its reading function.
+The source paragraph is both an alignment unit and the default reader-facing
+boundary. Preserve it unless keeping it would create a concrete first-reading
+obstacle that sentence-level rewriting cannot solve. Split only when one source
+paragraph contains several independently developed argumentative units and the
+unsplit Chinese would force rereading; join only when separate source fragments
+cannot form intelligible Chinese units on their own. Do not change boundaries
+merely for visual rhythm, uniformly short blocks, or a general preference for
+lighter pages. Record every boundary change, the failed reading test that made
+it necessary, and the reading function of the new boundary.
 
 The translator may not:
 
@@ -230,15 +234,17 @@ Keep it when it makes the relation clearer than shorter alternatives.
 
 ### Paragraph architecture
 
-- Build Chinese paragraphs around reader-sized argumentative units: one question,
-  one stable subject, and one continuous line of reasoning.
-- Use source paragraphs to verify coverage, not to dictate layout.
-- Keep a source boundary when it already marks an argumentative unit.
-- Split when one source paragraph contains several independently developed
-  steps; join when two source fragments express one inseparable step.
+- Start from the source paragraphing and build each Chinese paragraph around one
+  question, one stable subject, and one continuous line of reasoning.
+- Keep a source boundary whenever natural Chinese sentence rewriting is enough
+  to make the paragraph readable.
+- Split only when the unsplit paragraph still fails a concrete one-read test
+  after sentence-level repair; join only when two source fragments express one
+  inseparable step and either fragment would be unclear alone.
 - In the readability review, list the source paragraphs whose boundaries
-  changed and the reading function of each change. If none changed, state that
-  source paragraphing was preserved.
+  changed, the failed reading test that justified each change, and the reading
+  function of the new boundary. If none changed, state that source paragraphing
+  was preserved.
 
 ## 6. Concepts and terminology
 
@@ -365,15 +371,17 @@ with material that appears later. Distinguish four kinds of finding:
   already settled.
 
 Only unresolved T findings require revision. S findings are not a mandate to
-optimize forever. A task may be returned for automatic revision at most twice.
+optimize forever. The controller assigns a source-length budget: at most two
+returns for a short unit, three for a medium unit, and four for a long unit.
 Task-level meaning and readability defects must be resolved before assembly.
 Any rewrite invalidates both review hashes and returns through meaning review.
 
-The assembled independent-reader gate is also limited to two repairs. If its
-third review still finds a T, do not start a third repair and do not pause a
-batch run. Preserve that final candidate as a version marked `needs_review`,
-attach a concise summary of the unresolved findings, and continue. Do not
-auto-adopt or release it. A passing version has no issue summary.
+The assembled independent-reader gate uses the same length-based budget. If its
+final permitted review still finds a T, do not start another repair and do not
+pause a batch run. Preserve that final candidate as a version marked
+`needs_review`, attach a concise summary of the unresolved findings, and
+continue. Do not auto-adopt or release it. A passing version has no issue
+summary.
 
 ## 10. Final Markdown
 

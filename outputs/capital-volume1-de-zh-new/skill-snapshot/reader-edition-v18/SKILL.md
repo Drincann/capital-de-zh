@@ -118,24 +118,39 @@ a non-base witness in the internal decision log.
    correctness defects are blocking; smoother or shorter alternatives are
    non-blocking suggestions when the current prose is already clear.
 7. Reconcile the source-aware argument map with the source-blind reconstruction.
-   If they materially differ, the reviewer may return the draft for revision at
-   most twice. Rerun both reviews after each change. Resolve task-level meaning
-   defects before assembly; non-blocking style suggestions are recorded and the
-   unit may advance.
+   If they materially differ, use the controller's source-length budget: two
+   returns for a short work unit, three for a medium unit, and at most four for a
+   long unit. Rerun both reviews after each change. If the final permitted
+   attempt (`r3`, `r4`, or `r5` within that review cycle) still finds a blocking
+   meaning or readability defect, preserve that exact draft as `needs_review`,
+   attach a concise issue summary, and continue the batch. Non-blocking style
+   suggestions are recorded and do not consume a return.
 8. Review translator notes for necessity, brevity, and clear attribution.
 9. Assemble only approved chunks into a clean section or chapter candidate.
 10. Before registering any candidate version, send only that assembled Chinese
     artifact to an independent reader context. Do not provide the source,
     intended argument map, prior reviews, user complaints, or expected fixes.
-    Permit at most two returns for revision: initial review, first repair and
-    recheck, second repair and final recheck. A third blocking `FAIL` does not
-    trigger a third repair and does not pause a batch run. Register the exact
-    final candidate as `needs_review`, attach a concise issue summary to that
-    version, and continue to the next unit. Do not auto-adopt or release a
-    `needs_review` version.
+    Use the same length-based budget of two, three, or at most four returns.
+    A blocking `FAIL` on the final permitted attempt does not trigger another
+    repair and does not pause a batch run. Register the exact final candidate as
+    `needs_review`, attach a concise issue summary to that version, and continue
+    to the next unit. Do not auto-adopt or release a `needs_review` version.
 11. Register a passing version normally. Register a bounded final failure only
-    with its third review and a non-empty issue summary. Passing versions carry
-    no issue summary.
+    on the controller-calculated final attempt and with a non-empty issue
+    summary. Passing versions carry
+    no issue summary unless one or more source tasks already ended as
+    `needs_review`; in that case the assembled version inherits those task IDs
+    and issue notes even when the independent Chinese-only review passes.
+    If the assembled review finds a new blocker inside a task that has already
+    exhausted its length-based repair budget, do not create another task
+    revision or rerun unchanged prose merely to manufacture a final-attempt
+    filename. Register the current unit as `needs_review`, explicitly naming the
+    exhausted upstream task.
+12. Historical `needs_review` work may be recalled. Continue the existing review
+    cycle when its new length-based budget has unused returns. When an older
+    artifact's revision numbering came from a superseded workflow, use the
+    controller's explicit historical-budget reset once, then run a fresh bounded
+    review cycle. Do not reopen authorial difficulties or style-only suggestions.
 
 ## Durable project work
 
