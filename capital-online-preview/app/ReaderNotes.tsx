@@ -605,11 +605,6 @@ export function ReaderNotes({
                             value={draftBody}
                             maxLength={6000}
                             readOnly={!viewer.isOwner}
-                            placeholder={
-                              viewer.isOwner
-                                ? "写下你的理解、疑问或修改意见…"
-                                : "这条笔记没有正文。"
-                            }
                             onChange={(event) => changeBody(event.target.value)}
                             onKeyDown={(event) => {
                               if (
