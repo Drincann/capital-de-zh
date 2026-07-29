@@ -792,6 +792,10 @@ body.catalog-resizing .reader-layout {
   letter-spacing: 0.025em;
 }
 
+.reading-preface > h1 {
+  margin-bottom: 48px;
+}
+
 .reading-article > h2 {
   margin: 14px 0 54px;
   color: var(--accent);

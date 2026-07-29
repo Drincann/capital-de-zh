@@ -904,7 +904,9 @@ export function ReaderApp({
 
         <main id="reading-content" className="reading-pane">
           <article
-            className="reading-article"
+            className={`reading-article${
+              selected.kind === "preface" ? " reading-preface" : ""
+            }`}
             style={
               {
                 "--reader-scale": fontScale,
