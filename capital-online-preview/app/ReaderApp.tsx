@@ -75,6 +75,14 @@ type SavedReadingPosition = {
 
 const readingPositionKey = "capital-reader-position";
 const readingAnchorY = 82;
+const catalogWidthKey = "capital-reader-catalog-width";
+const defaultCatalogWidth = 310;
+const minimumCatalogWidth = 240;
+const maximumCatalogWidth = 520;
+const articleWidthKey = "capital-reader-article-width";
+const defaultArticleWidth = 780;
+const minimumArticleWidth = 600;
+const maximumArticleWidth = 1020;
 
 const fingerprintPromise =
   typeof window === "undefined" ? null : FingerprintJS.load();
@@ -198,7 +206,8 @@ export function ReaderApp({
   const [query, setQuery] = useState("");
   const [catalogOpen, setCatalogOpen] = useState(false);
   const [catalogCollapsed, setCatalogCollapsed] = useState(false);
-  const [catalogWidth, setCatalogWidth] = useState(310);
+  const [catalogWidth, setCatalogWidth] = useState(defaultCatalogWidth);
+  const [articleWidth, setArticleWidth] = useState(defaultArticleWidth);
   const [dark, setDark] = useState(false);
   const [fontScale, setFontScale] = useState(1);
   const [paragraphMarkers, setParagraphMarkers] = useState<ParagraphMarker[]>(
@@ -256,10 +265,23 @@ export function ReaderApp({
       );
       if (savedScale >= 0.9 && savedScale <= 1.2) setFontScale(savedScale);
       const savedCatalogWidth = Number(
-        localStorage.getItem("capital-reader-catalog-width") || 310,
+        localStorage.getItem(catalogWidthKey) || defaultCatalogWidth,
       );
-      if (savedCatalogWidth >= 240 && savedCatalogWidth <= 520) {
+      if (
+        savedCatalogWidth >= minimumCatalogWidth &&
+        savedCatalogWidth <= maximumCatalogWidth
+      ) {
+        applyCatalogWidth(savedCatalogWidth);
         setCatalogWidth(savedCatalogWidth);
+      }
+      const savedArticleWidth = Number(
+        localStorage.getItem(articleWidthKey) || defaultArticleWidth,
+      );
+      if (
+        savedArticleWidth >= minimumArticleWidth &&
+        savedArticleWidth <= maximumArticleWidth
+      ) {
+        setArticleWidth(savedArticleWidth);
       }
       setCatalogCollapsed(
         localStorage.getItem("capital-reader-catalog-collapsed") === "true",
@@ -475,6 +497,15 @@ export function ReaderApp({
     localStorage.setItem("capital-reader-font-scale", String(nextValue));
   }
 
+  function changeArticleWidth(delta: number) {
+    const nextValue = Math.min(
+      maximumArticleWidth,
+      Math.max(minimumArticleWidth, articleWidth + delta),
+    );
+    setArticleWidth(nextValue);
+    localStorage.setItem(articleWidthKey, String(nextValue));
+  }
+
   function toggleCatalog() {
     if (matchMedia("(max-width: 900px)").matches) {
       setCatalogOpen((value) => !value);
@@ -489,34 +520,34 @@ export function ReaderApp({
   }
 
   function resizeCatalog(nextWidth: number) {
-    setCatalogWidth(Math.min(520, Math.max(240, nextWidth)));
+    const width = applyCatalogWidth(nextWidth);
+    setCatalogWidth(width);
+    localStorage.setItem(catalogWidthKey, String(width));
   }
 
   function startCatalogResize(event: React.PointerEvent<HTMLDivElement>) {
     event.preventDefault();
     const startX = event.clientX;
-    const startWidth = catalogWidth;
+    const startWidth = currentCatalogWidth();
+    document.body.classList.add("catalog-resizing");
 
     function onMove(moveEvent: PointerEvent) {
-      resizeCatalog(startWidth + moveEvent.clientX - startX);
+      applyCatalogWidth(startWidth + moveEvent.clientX - startX);
     }
 
-    function onEnd(endEvent: PointerEvent) {
-      const nextWidth = Math.min(
-        520,
-        Math.max(240, startWidth + endEvent.clientX - startX),
-      );
+    function onEnd() {
+      const nextWidth = currentCatalogWidth();
       setCatalogWidth(nextWidth);
-      localStorage.setItem(
-        "capital-reader-catalog-width",
-        String(nextWidth),
-      );
-      window.removeEventListener("pointermove", onMove);
-      window.removeEventListener("pointerup", onEnd);
+      localStorage.setItem(catalogWidthKey, String(nextWidth));
+      document.removeEventListener("pointermove", onMove);
+      document.removeEventListener("pointerup", onEnd);
+      document.removeEventListener("pointercancel", onEnd);
+      document.body.classList.remove("catalog-resizing");
     }
 
-    window.addEventListener("pointermove", onMove);
-    window.addEventListener("pointerup", onEnd);
+    document.addEventListener("pointermove", onMove);
+    document.addEventListener("pointerup", onEnd);
+    document.addEventListener("pointercancel", onEnd);
   }
 
   function navigateFootnote(event: React.MouseEvent<HTMLDivElement>) {
@@ -611,6 +642,24 @@ export function ReaderApp({
             viewer={viewer}
             contentReady={Boolean(content && !loading && !contentError)}
           />
+          <button
+            className="reading-width-control"
+            type="button"
+            title="缩窄正文"
+            aria-label="缩窄正文"
+            onClick={() => changeArticleWidth(-60)}
+          >
+            窄
+          </button>
+          <button
+            className="reading-width-control"
+            type="button"
+            title="加宽正文"
+            aria-label="加宽正文"
+            onClick={() => changeArticleWidth(60)}
+          >
+            宽
+          </button>
           <button type="button" onClick={() => changeFont(-0.05)}>
             小
           </button>
@@ -684,11 +733,6 @@ export function ReaderApp({
           catalogCollapsed
             ? "reader-layout catalog-collapsed"
             : "reader-layout"
-        }
-        style={
-          {
-            "--catalog-width": `${catalogWidth}px`,
-          } as React.CSSProperties
         }
       >
         <aside className={catalogOpen ? "catalog catalog-open" : "catalog"}>
@@ -787,23 +831,23 @@ export function ReaderApp({
           role="separator"
           aria-label="调整目录宽度"
           aria-orientation="vertical"
-          aria-valuemin={240}
-          aria-valuemax={520}
+          aria-valuemin={minimumCatalogWidth}
+          aria-valuemax={maximumCatalogWidth}
           aria-valuenow={catalogWidth}
           tabIndex={0}
           onPointerDown={startCatalogResize}
+          onDoubleClick={() => resizeCatalog(defaultCatalogWidth)}
           onKeyDown={(event) => {
-            if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") {
-              return;
+            if (event.key === "ArrowLeft") {
+              event.preventDefault();
+              resizeCatalog(currentCatalogWidth() - 16);
+            } else if (event.key === "ArrowRight") {
+              event.preventDefault();
+              resizeCatalog(currentCatalogWidth() + 16);
+            } else if (event.key === "Home") {
+              event.preventDefault();
+              resizeCatalog(defaultCatalogWidth);
             }
-            event.preventDefault();
-            const nextWidth =
-              catalogWidth + (event.key === "ArrowRight" ? 16 : -16);
-            resizeCatalog(nextWidth);
-            localStorage.setItem(
-              "capital-reader-catalog-width",
-              String(Math.min(520, Math.max(240, nextWidth))),
-            );
           }}
         />
 
@@ -819,7 +863,12 @@ export function ReaderApp({
         <main id="reading-content" className="reading-pane">
           <article
             className="reading-article"
-            style={{ "--reader-scale": fontScale } as React.CSSProperties}
+            style={
+              {
+                "--reader-scale": fontScale,
+                "--reader-width": `${articleWidth}px`,
+              } as React.CSSProperties
+            }
           >
             {selected.kind === "preface" ? (
               <>
@@ -877,6 +926,27 @@ export function ReaderApp({
       </div>
     </div>
   );
+}
+
+function applyCatalogWidth(value: number) {
+  const width = Math.min(
+    maximumCatalogWidth,
+    Math.max(minimumCatalogWidth, Math.round(value)),
+  );
+  document.documentElement.style.setProperty(
+    "--catalog-width",
+    `${width}px`,
+  );
+  return width;
+}
+
+function currentCatalogWidth() {
+  const value = Number.parseFloat(
+    getComputedStyle(document.documentElement).getPropertyValue(
+      "--catalog-width",
+    ),
+  );
+  return Number.isFinite(value) ? value : defaultCatalogWidth;
 }
 
 async function trackReadingView() {

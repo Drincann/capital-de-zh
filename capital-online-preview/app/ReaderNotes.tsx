@@ -192,6 +192,7 @@ export function ReaderNotes({
     const root = noteRoot();
     if (!root) return;
     let timer = 0;
+    let selectionStartedInRoot = false;
 
     function captureSoon() {
       window.clearTimeout(timer);
@@ -201,8 +202,9 @@ export function ReaderNotes({
       }, 40);
     }
 
-    function clearOnOutsidePointer(event: PointerEvent) {
+    function handlePointerDown(event: PointerEvent) {
       const target = event.target as HTMLElement | null;
+      selectionStartedInRoot = Boolean(target && root!.contains(target));
       if (
         target?.closest(
           ".selection-note-action, .notes-panel, [data-reader-note-id]",
@@ -213,14 +215,23 @@ export function ReaderNotes({
       if (!root!.contains(target)) setCandidate(null);
     }
 
-    root.addEventListener("mouseup", captureSoon);
-    root.addEventListener("touchend", captureSoon, { passive: true });
-    document.addEventListener("pointerdown", clearOnOutsidePointer);
+    function handlePointerUp() {
+      if (selectionStartedInRoot) captureSoon();
+      selectionStartedInRoot = false;
+    }
+
+    function handlePointerCancel() {
+      selectionStartedInRoot = false;
+    }
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    document.addEventListener("pointerup", handlePointerUp);
+    document.addEventListener("pointercancel", handlePointerCancel);
     return () => {
       window.clearTimeout(timer);
-      root.removeEventListener("mouseup", captureSoon);
-      root.removeEventListener("touchend", captureSoon);
-      document.removeEventListener("pointerdown", clearOnOutsidePointer);
+      document.removeEventListener("pointerdown", handlePointerDown);
+      document.removeEventListener("pointerup", handlePointerUp);
+      document.removeEventListener("pointercancel", handlePointerCancel);
     };
   }, [contentReady, notes, viewer.isOwner]);
 
@@ -809,12 +820,16 @@ function captureSelection(
   if (!selection || selection.isCollapsed || selection.rangeCount !== 1) {
     return null;
   }
-  const range = selection.getRangeAt(0);
-  if (
-    !root.contains(range.startContainer) ||
-    !root.contains(range.endContainer)
-  ) {
+  const selectedRange = selection.getRangeAt(0);
+  if (!selectedRange.intersectsNode(root)) {
     return null;
+  }
+  const range = selectedRange.cloneRange();
+  if (!root.contains(range.startContainer)) {
+    range.setStart(root, 0);
+  }
+  if (!root.contains(range.endContainer)) {
+    range.setEnd(root, root.childNodes.length);
   }
 
   const raw = range.toString();

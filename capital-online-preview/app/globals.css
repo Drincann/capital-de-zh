@@ -172,8 +172,8 @@ textarea:focus-visible {
 }
 
 .github-link svg {
-  width: 19px;
-  height: 19px;
+  width: 23px;
+  height: 23px;
 }
 
 .reader-layout {
@@ -564,8 +564,19 @@ html::-webkit-scrollbar {
 }
 
 .catalog-resizer:hover::after,
-.catalog-resizer:focus-visible::after {
+.catalog-resizer:focus-visible::after,
+body.catalog-resizing .catalog-resizer::after {
   background: color-mix(in srgb, var(--accent) 55%, var(--line));
+}
+
+body.catalog-resizing,
+body.catalog-resizing * {
+  cursor: col-resize !important;
+  user-select: none !important;
+}
+
+body.catalog-resizing .reader-layout {
+  transition: none;
 }
 
 .catalog-collapsed .catalog-resizer {
@@ -588,7 +599,7 @@ html::-webkit-scrollbar {
 }
 
 .reading-article {
-  width: min(100%, 780px);
+  width: min(100%, var(--reader-width, 780px));
   margin: 0 auto;
   font-size: calc(18px * var(--reader-scale, 1));
 }
@@ -1724,6 +1735,10 @@ body.note-editor-resizing * {
     height: 32px;
     padding: 6px;
     font-size: 0.75rem;
+  }
+
+  .reading-width-control {
+    display: none !important;
   }
 
   .reading-pane {
