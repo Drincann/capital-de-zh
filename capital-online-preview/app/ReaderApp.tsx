@@ -203,7 +203,6 @@ export function ReaderApp({
     value: PublishedContent | null;
     error: string;
   }>({ sectionId: "", value: null, error: "" });
-  const [query, setQuery] = useState("");
   const [catalogOpen, setCatalogOpen] = useState(false);
   const [catalogCollapsed, setCatalogCollapsed] = useState(false);
   const [catalogWidth, setCatalogWidth] = useState(defaultCatalogWidth);
@@ -467,34 +466,6 @@ export function ReaderApp({
       window.removeEventListener("pagehide", persist);
     };
   }, [content, restoredSectionId, selected]);
-
-  const filteredParts = useMemo(() => {
-    const normalized = query.trim().toLowerCase();
-    if (!normalized) return release.parts;
-    return release.parts
-      .map((part) => {
-        const partMatches = part.title.toLowerCase().includes(normalized);
-        return {
-          ...part,
-          chapters: part.chapters
-            .map((chapter) => ({
-              ...chapter,
-              sections: chapter.sections.filter((section) =>
-                `${part.title} ${chapter.title} ${section.title}`
-                  .toLowerCase()
-                  .includes(normalized),
-              ),
-            }))
-            .filter(
-              (chapter) =>
-                partMatches ||
-                chapter.sections.length > 0 ||
-                chapter.title.toLowerCase().includes(normalized),
-            ),
-        };
-      })
-      .filter((part) => part.chapters.length > 0);
-  }, [query, release.parts]);
 
   function choose(sectionId: string) {
     sessionStorage.removeItem(readingPositionKey);
@@ -816,19 +787,9 @@ export function ReaderApp({
         <aside className={catalogOpen ? "catalog catalog-open" : "catalog"}>
           <div className="catalog-head">
             <strong>目录</strong>
-            <span>{release.sectionCount} 节</span>
           </div>
-          <label className="catalog-search">
-            <span className="sr-only">搜索目录</span>
-            <input
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="搜索章节"
-            />
-          </label>
           <nav aria-label="全书目录">
-            {release.preface &&
-            (!query.trim() || release.preface.title.includes(query.trim())) ? (
+            {release.preface ? (
               <div className="catalog-preface catalog-sections">
                 <button
                   type="button"
@@ -843,7 +804,7 @@ export function ReaderApp({
                 </button>
               </div>
             ) : null}
-            {filteredParts.map((part) => (
+            {release.parts.map((part) => (
               <section className="catalog-part" key={part.id}>
                 <h2 title={`第${part.number}篇 ${part.title}`}>
                   第{part.number}篇 <span>{part.title}</span>
