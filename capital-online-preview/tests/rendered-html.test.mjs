@@ -55,8 +55,16 @@ test("划词笔记公开可读，只有指定 ChatGPT 账号可写", async () =>
   assert.match(readerNotes, /applyHighlights/);
   assert.match(readerNotes, /saveQueue/);
   assert.match(readerNotes, /使用 ChatGPT 登录/);
+  assert.match(readerNotes, /调整笔记栏宽度/);
+  assert.match(readerNotes, /调整笔记编辑框高度/);
+  assert.match(readerNotes, /capital-reader-notes-width/);
+  assert.match(readerNotes, /capital-reader-note-editor-height/);
   assert.match(css, /\.reader-note-highlight/);
   assert.match(css, /\.notes-panel/);
+  assert.match(css, /\.notes-panel-resizer/);
+  assert.match(css, /\.note-textarea-resizer/);
+  assert.match(css, /\.note-editor textarea\s*\{[^}]*resize:\s*none/s);
+  assert.match(css, /\.note-editor textarea\s*\{[^}]*appearance:\s*none/s);
   assert.doesNotMatch(
     `${page}\n${readerNotes}\n${notesRoute}`,
     /["'][^"'\s]+@[^"'\s]+["']/i,

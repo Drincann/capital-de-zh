@@ -11,6 +11,8 @@
   --accent: #8c3329;
   --accent-soft: #ead8d1;
   --shadow: 0 20px 60px rgba(66, 53, 36, 0.1);
+  --notes-panel-width: 400px;
+  --note-editor-height: 220px;
 }
 
 :root[data-reader-theme="dark"] {
@@ -142,11 +144,6 @@ textarea:focus-visible {
 
 .catalog-toggle {
   justify-self: start;
-  display: inline-block;
-  padding: 8px 10px;
-  border-color: var(--line);
-  border-radius: 999px;
-  font-size: 0.78rem;
 }
 
 .reading-tools {
@@ -155,6 +152,7 @@ textarea:focus-visible {
   gap: 4px;
 }
 
+.catalog-toggle,
 .reading-tools button,
 .github-link {
   display: inline-grid;
@@ -166,6 +164,7 @@ textarea:focus-visible {
   text-decoration: none;
 }
 
+.catalog-toggle:hover,
 .reading-tools button:hover,
 .github-link:hover {
   border-color: var(--line);
@@ -874,20 +873,55 @@ html::-webkit-scrollbar {
 }
 
 .notes-panel {
-  --note-panel-width: 400px;
   position: fixed;
   z-index: 90;
   top: 68px;
   right: 0;
   bottom: 0;
   display: grid;
-  width: min(var(--note-panel-width), 100vw);
+  width: min(var(--notes-panel-width), 100vw);
   grid-template-rows: auto minmax(0, 1fr) auto;
   border-left: 1px solid var(--line);
   background: color-mix(in srgb, var(--paper) 97%, transparent);
   box-shadow: -18px 0 50px rgba(40, 32, 23, 0.12);
   backdrop-filter: blur(20px);
   animation: notes-panel-enter 180ms ease-out;
+}
+
+.notes-panel-resizer {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: -6px;
+  width: 12px;
+  border: 0;
+  outline: none;
+  cursor: col-resize;
+  touch-action: none;
+}
+
+.notes-panel-resizer::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5px;
+  width: 2px;
+  background: transparent;
+  content: "";
+  transition: background-color 120ms ease;
+}
+
+.notes-panel-resizer:hover::after,
+.notes-panel-resizer:focus-visible::after,
+body.notes-resizing .notes-panel-resizer::after {
+  background: color-mix(in srgb, var(--accent) 52%, var(--line));
+}
+
+body.notes-resizing,
+body.notes-resizing * {
+  cursor: col-resize !important;
+  user-select: none !important;
 }
 
 @keyframes notes-panel-enter {
@@ -1094,25 +1128,85 @@ html::-webkit-scrollbar {
 
 .note-editor textarea {
   width: 100%;
-  min-height: 220px;
   padding: 13px 14px;
-  resize: vertical;
-  border: 1px solid var(--line);
-  border-radius: 11px;
-  background: color-mix(in srgb, var(--panel) 82%, transparent);
+  min-height: 0;
+  resize: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  background: transparent;
   color: var(--ink);
   font-size: 0.88rem;
   line-height: 1.75;
+}
+
+.note-editor textarea:focus,
+.note-editor textarea:focus-visible {
+  outline: 0;
+  box-shadow: none;
 }
 
 .note-editor textarea::placeholder {
   color: color-mix(in srgb, var(--muted) 72%, transparent);
 }
 
-.note-editor textarea[readonly] {
-  resize: none;
+.note-textarea-shell {
+  display: grid;
+  height: var(--note-editor-height);
+  min-height: 150px;
+  grid-template-rows: minmax(0, 1fr) 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: color-mix(in srgb, var(--panel) 82%, transparent);
+  transition: border-color 120ms ease, box-shadow 120ms ease;
+}
+
+.note-textarea-shell:focus-within {
+  border-color: color-mix(in srgb, var(--accent) 58%, var(--line));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.note-textarea-shell.readonly {
+  grid-template-rows: minmax(0, 1fr);
   border-color: transparent;
   background: var(--paper-deep);
+}
+
+.note-textarea-resizer {
+  position: relative;
+  border: 0;
+  outline: 0;
+  cursor: row-resize;
+  touch-action: none;
+}
+
+.note-textarea-resizer::after {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  width: 34px;
+  height: 3px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--muted) 34%, transparent);
+  content: "";
+  transition: width 120ms ease, background-color 120ms ease;
+}
+
+.note-textarea-resizer:hover::after,
+.note-textarea-resizer:focus-visible::after,
+body.note-editor-resizing .note-textarea-resizer::after {
+  width: 46px;
+  background: color-mix(in srgb, var(--accent) 58%, var(--muted));
+}
+
+body.note-editor-resizing,
+body.note-editor-resizing * {
+  cursor: row-resize !important;
+  user-select: none !important;
 }
 
 .note-editor-tools,
@@ -1210,7 +1304,7 @@ html::-webkit-scrollbar {
 
 @media (min-width: 901px) {
   body.notes-panel-open .reading-pane {
-    margin-right: 400px;
+    margin-right: var(--notes-panel-width);
   }
 
   .reading-pane {
@@ -1470,6 +1564,10 @@ html::-webkit-scrollbar {
     animation-name: notes-panel-enter-mobile;
   }
 
+  .notes-panel-resizer {
+    display: none;
+  }
+
   @keyframes notes-panel-enter-mobile {
     from {
       transform: translateY(22px);
@@ -1555,10 +1653,6 @@ html::-webkit-scrollbar {
     padding: 15px;
   }
 
-  .note-editor textarea {
-    min-height: 180px;
-  }
-
   .reading-tools .notes-toggle {
     padding-inline: 9px;
   }
@@ -1577,6 +1671,7 @@ html::-webkit-scrollbar {
     font-size: 0.9rem;
   }
 
+  .catalog-toggle,
   .reading-tools button,
   .github-link {
     min-width: 32px;

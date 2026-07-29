@@ -47,6 +47,10 @@ const colors: Array<{ value: NoteColor; label: string }> = [
   { value: "sage", label: "鼠尾草" },
   { value: "blue", label: "靛青" },
 ];
+const panelWidthKey = "capital-reader-notes-width";
+const editorHeightKey = "capital-reader-note-editor-height";
+const defaultPanelWidth = 400;
+const defaultEditorHeight = 220;
 
 export function ReaderNotes({
   sectionId,
@@ -133,6 +137,17 @@ export function ReaderNotes({
     document.body.classList.toggle("notes-panel-open", panelOpen);
     return () => document.body.classList.remove("notes-panel-open");
   }, [panelOpen]);
+
+  useEffect(() => {
+    const storedPanelWidth = Number(localStorage.getItem(panelWidthKey));
+    const storedEditorHeight = Number(localStorage.getItem(editorHeightKey));
+    if (Number.isFinite(storedPanelWidth) && storedPanelWidth > 0) {
+      applyPanelWidth(storedPanelWidth);
+    }
+    if (Number.isFinite(storedEditorHeight) && storedEditorHeight > 0) {
+      applyEditorHeight(storedEditorHeight);
+    }
+  }, []);
 
   useEffect(() => {
     if (!contentReady) return;
@@ -383,6 +398,97 @@ export function ReaderNotes({
     });
   }
 
+  function beginPanelResize(event: React.PointerEvent<HTMLElement>) {
+    if (matchMedia("(max-width: 900px)").matches) return;
+    event.preventDefault();
+    const panel = event.currentTarget.closest<HTMLElement>(".notes-panel");
+    if (!panel) return;
+    const startX = event.clientX;
+    const startWidth = panel.getBoundingClientRect().width;
+    document.body.classList.add("notes-resizing");
+
+    function move(moveEvent: PointerEvent) {
+      applyPanelWidth(startWidth + startX - moveEvent.clientX);
+    }
+
+    function finish() {
+      document.removeEventListener("pointermove", move);
+      document.removeEventListener("pointerup", finish);
+      document.removeEventListener("pointercancel", finish);
+      document.body.classList.remove("notes-resizing");
+      localStorage.setItem(
+        panelWidthKey,
+        String(currentCssPixels("--notes-panel-width", defaultPanelWidth)),
+      );
+    }
+
+    document.addEventListener("pointermove", move);
+    document.addEventListener("pointerup", finish);
+    document.addEventListener("pointercancel", finish);
+  }
+
+  function changePanelWidthBy(delta: number) {
+    applyPanelWidth(
+      currentCssPixels("--notes-panel-width", defaultPanelWidth) + delta,
+    );
+    localStorage.setItem(
+      panelWidthKey,
+      String(currentCssPixels("--notes-panel-width", defaultPanelWidth)),
+    );
+  }
+
+  function resetPanelWidth() {
+    applyPanelWidth(defaultPanelWidth);
+    localStorage.setItem(panelWidthKey, String(defaultPanelWidth));
+  }
+
+  function beginEditorResize(event: React.PointerEvent<HTMLElement>) {
+    event.preventDefault();
+    const shell = event.currentTarget.closest<HTMLElement>(
+      ".note-textarea-shell",
+    );
+    if (!shell) return;
+    const startY = event.clientY;
+    const startHeight = shell.getBoundingClientRect().height;
+    document.body.classList.add("note-editor-resizing");
+
+    function move(moveEvent: PointerEvent) {
+      applyEditorHeight(startHeight + moveEvent.clientY - startY);
+    }
+
+    function finish() {
+      document.removeEventListener("pointermove", move);
+      document.removeEventListener("pointerup", finish);
+      document.removeEventListener("pointercancel", finish);
+      document.body.classList.remove("note-editor-resizing");
+      localStorage.setItem(
+        editorHeightKey,
+        String(
+          currentCssPixels("--note-editor-height", defaultEditorHeight),
+        ),
+      );
+    }
+
+    document.addEventListener("pointermove", move);
+    document.addEventListener("pointerup", finish);
+    document.addEventListener("pointercancel", finish);
+  }
+
+  function changeEditorHeightBy(delta: number) {
+    applyEditorHeight(
+      currentCssPixels("--note-editor-height", defaultEditorHeight) + delta,
+    );
+    localStorage.setItem(
+      editorHeightKey,
+      String(currentCssPixels("--note-editor-height", defaultEditorHeight)),
+    );
+  }
+
+  function resetEditorHeight() {
+    applyEditorHeight(defaultEditorHeight);
+    localStorage.setItem(editorHeightKey, String(defaultEditorHeight));
+  }
+
   const editorOpen = Boolean(candidate || activeNote);
   const quote = activeNote?.quote || candidate?.quote || "";
 
@@ -433,6 +539,27 @@ export function ReaderNotes({
                 className="notes-panel"
                 aria-label="划词笔记"
               >
+                <div
+                  className="notes-panel-resizer"
+                  role="separator"
+                  tabIndex={0}
+                  aria-label="调整笔记栏宽度"
+                  aria-orientation="vertical"
+                  onPointerDown={beginPanelResize}
+                  onDoubleClick={resetPanelWidth}
+                  onKeyDown={(event) => {
+                    if (event.key === "ArrowLeft") {
+                      event.preventDefault();
+                      changePanelWidthBy(16);
+                    } else if (event.key === "ArrowRight") {
+                      event.preventDefault();
+                      changePanelWidthBy(-16);
+                    } else if (event.key === "Home") {
+                      event.preventDefault();
+                      resetPanelWidth();
+                    }
+                  }}
+                />
                 <header className="notes-panel-head">
                   <div>
                     <strong>笔记</strong>
@@ -466,29 +593,60 @@ export function ReaderNotes({
                       ) : null}
                       <label>
                         <span>笔记内容</span>
-                        <textarea
-                          autoFocus
-                          value={draftBody}
-                          maxLength={6000}
-                          readOnly={!viewer.isOwner}
-                          placeholder={
+                        <div
+                          className={
                             viewer.isOwner
-                              ? "写下你的理解、疑问或修改意见…"
-                              : "这条笔记没有正文。"
+                              ? "note-textarea-shell"
+                              : "note-textarea-shell readonly"
                           }
-                          onChange={(event) => changeBody(event.target.value)}
-                          onKeyDown={(event) => {
-                            if (
-                              viewer.isOwner &&
-                              (event.metaKey || event.ctrlKey) &&
-                              event.key === "Enter"
-                            ) {
-                              event.preventDefault();
-                              if (activeNote) void saveExisting();
-                              else void createNote();
+                        >
+                          <textarea
+                            autoFocus
+                            value={draftBody}
+                            maxLength={6000}
+                            readOnly={!viewer.isOwner}
+                            placeholder={
+                              viewer.isOwner
+                                ? "写下你的理解、疑问或修改意见…"
+                                : "这条笔记没有正文。"
                             }
-                          }}
-                        />
+                            onChange={(event) => changeBody(event.target.value)}
+                            onKeyDown={(event) => {
+                              if (
+                                viewer.isOwner &&
+                                (event.metaKey || event.ctrlKey) &&
+                                event.key === "Enter"
+                              ) {
+                                event.preventDefault();
+                                if (activeNote) void saveExisting();
+                                else void createNote();
+                              }
+                            }}
+                          />
+                          {viewer.isOwner ? (
+                            <div
+                              className="note-textarea-resizer"
+                              role="separator"
+                              tabIndex={0}
+                              aria-label="调整笔记编辑框高度"
+                              aria-orientation="horizontal"
+                              onPointerDown={beginEditorResize}
+                              onDoubleClick={resetEditorHeight}
+                              onKeyDown={(event) => {
+                                if (event.key === "ArrowUp") {
+                                  event.preventDefault();
+                                  changeEditorHeightBy(-16);
+                                } else if (event.key === "ArrowDown") {
+                                  event.preventDefault();
+                                  changeEditorHeightBy(16);
+                                } else if (event.key === "Home") {
+                                  event.preventDefault();
+                                  resetEditorHeight();
+                                }
+                              }}
+                            />
+                          ) : null}
+                        </div>
                       </label>
                       {viewer.isOwner ? (
                         <div className="note-editor-tools">
@@ -611,6 +769,37 @@ export function ReaderNotes({
         : null}
     </>
   );
+}
+
+function applyPanelWidth(value: number) {
+  const max = Math.max(
+    320,
+    Math.min(640, Math.round(window.innerWidth * 0.62)),
+  );
+  const width = Math.min(max, Math.max(320, Math.round(value)));
+  document.documentElement.style.setProperty(
+    "--notes-panel-width",
+    `${width}px`,
+  );
+}
+
+function applyEditorHeight(value: number) {
+  const max = Math.max(
+    defaultEditorHeight,
+    Math.min(600, window.innerHeight - 190),
+  );
+  const height = Math.min(max, Math.max(150, Math.round(value)));
+  document.documentElement.style.setProperty(
+    "--note-editor-height",
+    `${height}px`,
+  );
+}
+
+function currentCssPixels(name: string, fallback: number) {
+  const value = Number.parseFloat(
+    getComputedStyle(document.documentElement).getPropertyValue(name),
+  );
+  return Number.isFinite(value) ? value : fallback;
 }
 
 function noteRoot() {
