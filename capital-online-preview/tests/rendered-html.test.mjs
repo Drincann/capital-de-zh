@@ -15,7 +15,7 @@ test("公开页面只呈现阅读界面", async () => {
     readFile(new URL("worker/index.ts", appRoot), "utf8"),
   ]);
   assert.match(layout, /《资本论》第一卷/);
-  assert.match(reader, /release\.editionTitle/);
+  assert.match(reader, /ChatGPT 译/);
   assert.match(reader, /目录/);
   assert.match(reader, /cache:\s*"no-store"/);
   assert.doesNotMatch(reader, /cache:\s*"force-cache"/);
@@ -104,6 +104,9 @@ test("发布快照只包含正式采用的版本", async () => {
   );
   assert.equal(preface.unitId, manifest.preface.id);
   assert.match(preface.html, /答案有时走在问题前面/);
+  assert.match(preface.html, /class="translator-signature"/);
+  assert.match(preface.html, /<strong>ChatGPT<\/strong>/);
+  assert.match(preface.html, /datetime="2026-07">2026年7月/);
 
   for (const section of sections) {
     assert.equal(section.versionId, adoptions[section.id]);

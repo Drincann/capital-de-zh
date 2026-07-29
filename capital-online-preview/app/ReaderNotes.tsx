@@ -510,10 +510,14 @@ export function ReaderNotes({
       onClick={() => setPanelOpen((value) => !value)}
       aria-expanded={panelOpen}
       aria-controls="reader-notes-panel"
-      title="查看笔记"
+      aria-label="笔记"
+      title="笔记"
     >
-      <span>笔记</span>
-      {notes.length ? <b>{notes.length}</b> : null}
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M5 3.5h9.5L19 8v12.5H5v-17ZM14.5 3.5V8H19" />
+        <path className="note-pen" d="m8 8 2.8 1.1 7.3 7.3-1.7 1.7-7.3-7.3L8 8ZM15.4 15.4l1.7-1.7" />
+      </svg>
+      {notes.length ? <b>{notes.length > 99 ? "99+" : notes.length}</b> : null}
     </button>
   );
 
@@ -592,8 +596,16 @@ export function ReaderNotes({
                         className="note-editor-back"
                         type="button"
                         onClick={closeEditor}
+                        aria-label="返回全部笔记"
+                        title="返回全部笔记"
                       >
-                        ← 全部笔记
+                        <svg
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                          focusable="false"
+                        >
+                          <path d="M19 12H5M11 6l-6 6 6 6" />
+                        </svg>
                       </button>
                       <blockquote>{quote}</blockquote>
                       {activeNote &&
@@ -603,7 +615,6 @@ export function ReaderNotes({
                         </p>
                       ) : null}
                       <label>
-                        <span>笔记内容</span>
                         <div
                           className={
                             viewer.isOwner
@@ -613,6 +624,7 @@ export function ReaderNotes({
                         >
                           <textarea
                             autoFocus
+                            aria-label="笔记内容"
                             value={draftBody}
                             maxLength={6000}
                             readOnly={!viewer.isOwner}

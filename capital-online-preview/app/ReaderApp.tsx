@@ -616,8 +616,11 @@ export function ReaderApp({
           type="button"
           onClick={toggleCatalog}
           aria-label="显示或收起目录"
+          title="目录"
         >
-          目录
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M4 6.5h2M9 6.5h11M4 12h2M9 12h11M4 17.5h2M9 17.5h11" />
+          </svg>
         </button>
         <a
           className="brand"
@@ -629,7 +632,7 @@ export function ReaderApp({
           }}
         >
           <span>{release.title}</span>
-          <small>{release.editionTitle}</small>
+          <small>ChatGPT 译</small>
         </a>
         <div className="reading-tools">
           <ReaderNotes

@@ -103,6 +103,12 @@ await mkdir(generatedRoot, { recursive: true });
 const prefaceMarkdown = stripLeadingDocumentHeadings(
   await readFile(prefaceSourcePath, "utf8"),
 );
+const prefaceHtml = md
+  .render(prefaceMarkdown)
+  .replace(
+    /<p>ChatGPT<\/p>\s*$/,
+    '<footer class="translator-signature"><strong>ChatGPT</strong><time datetime="2026-07">2026年7月</time></footer>',
+  );
 const preface = {
   id: "translator-preface",
   number: 0,
@@ -118,7 +124,7 @@ await writeFile(
       chapterId: "front-matter",
       versionId: preface.versionId,
       title: preface.title,
-      html: md.render(prefaceMarkdown),
+      html: prefaceHtml,
     },
     null,
     2,
@@ -199,7 +205,7 @@ for (const part of outline.parts || []) {
 
 const manifest = {
   title: outline.title_zh || "《资本论》第一卷",
-  editionTitle: "ChatGPT 5.6 Sol 译",
+  editionTitle: "ChatGPT 译",
   generatedAt: new Date().toISOString(),
   partCount: parts.length,
   chapterCount: parts.reduce((total, part) => total + part.chapters.length, 0),
