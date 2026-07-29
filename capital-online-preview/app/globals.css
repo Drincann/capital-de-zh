@@ -647,6 +647,52 @@ html::-webkit-scrollbar {
   color: var(--muted);
 }
 
+.prose table {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 1.7em 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+  color: var(--ink);
+  font: 0.88em/1.6 ui-sans-serif, system-ui, sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted) 45%, transparent)
+    transparent;
+}
+
+.prose thead {
+  background: color-mix(in srgb, var(--ink) 5%, transparent);
+}
+
+.prose th,
+.prose td {
+  min-width: 7.5rem;
+  padding: 0.7em 0.85em;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose th {
+  color: var(--ink);
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.prose tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--ink) 2.5%, transparent);
+}
+
+.prose table::-webkit-scrollbar {
+  height: 7px;
+}
+
+.prose table::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--muted) 42%, transparent);
+}
+
 .prose em {
   text-emphasis: dot;
   text-emphasis-position: under;
