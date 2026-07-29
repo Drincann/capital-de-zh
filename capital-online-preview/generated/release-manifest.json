@@ -1,11 +1,11 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 5.6 Sol 译",
-  "generatedAt": "2026-07-28T22:15:14.057Z",
+  "generatedAt": "2026-07-29T09:59:49.108Z",
   "partCount": 7,
   "chapterCount": 25,
-  "publishedChapterCount": 12,
-  "sectionCount": 31,
+  "publishedChapterCount": 13,
+  "sectionCount": 34,
   "preface": {
     "id": "translator-preface",
     "number": 0,
@@ -29,7 +29,7 @@
               "id": "ch01-s01",
               "number": 1,
               "title": "商品的两个因素：使用价值和价值",
-              "versionId": "ch01-s01-v6",
+              "versionId": "ch01-s01-v7",
               "contentPath": "/content/ch01-s01.json"
             },
             {
@@ -236,6 +236,20 @@
               "contentPath": "/content/ch08-s02.json"
             },
             {
+              "id": "ch08-s03",
+              "number": 3,
+              "title": "没有法定剥削限制的英国工业部门",
+              "versionId": "ch08-s03-v2",
+              "contentPath": "/content/ch08-s03.json"
+            },
+            {
+              "id": "ch08-s04",
+              "number": 4,
+              "title": "日夜劳动：轮班制度",
+              "versionId": "ch08-s04-v2",
+              "contentPath": "/content/ch08-s04.json"
+            },
+            {
               "id": "ch08-s05",
               "number": 5,
               "title": "争取正常工作日：从十四世纪中叶到十七世纪末强制延长工作日的法律",
@@ -357,8 +371,16 @@
           "id": "ch13",
           "number": 13,
           "title": "机器和大工业",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch13-s07",
+              "number": 7,
+              "title": "机器生产发展中的工人排斥和吸收：棉纺织业的危机",
+              "versionId": "ch13-s07-v1",
+              "contentPath": "/content/ch13-s07.json"
+            }
+          ]
         }
       ]
     },
