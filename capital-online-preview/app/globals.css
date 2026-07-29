@@ -181,7 +181,7 @@ textarea:focus-visible {
 .reading-tools button:hover,
 .github-link:hover {
   border-color: transparent;
-  background: color-mix(in srgb, var(--ink) 5%, transparent);
+  background: transparent;
   color: var(--ink);
 }
 
@@ -210,13 +210,13 @@ textarea:focus-visible {
 }
 
 .reading-tools .reader-settings-toggle {
-  font: 600 0.78rem/1 ui-serif, Georgia, serif;
+  font: 600 1rem/1 ui-serif, Georgia, serif;
   letter-spacing: -0.04em;
 }
 
 .reading-tools .reader-settings-toggle.active {
   border-color: transparent;
-  background: var(--accent-soft);
+  background: transparent;
   color: var(--ink);
 }
 
@@ -1050,7 +1050,7 @@ body.catalog-resizing .reader-layout {
 
 .reading-tools .notes-toggle.active {
   border-color: transparent;
-  background: var(--accent-soft);
+  background: transparent;
   color: var(--ink);
 }
 
