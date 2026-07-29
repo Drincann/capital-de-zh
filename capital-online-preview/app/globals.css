@@ -995,12 +995,49 @@ body.catalog-resizing .reader-layout {
   }
 }
 
-.reading-loading,
 .reading-error,
 .empty-state {
   padding: 80px 20px;
   color: var(--muted);
   text-align: center;
+}
+
+.reading-loading {
+  padding: 2px 0 24px;
+}
+
+.reading-skeleton {
+  display: grid;
+  gap: 1.35em;
+}
+
+.reading-skeleton-paragraph {
+  display: grid;
+}
+
+.reading-skeleton-line {
+  height: 0.68em;
+  margin: 0.635em 0;
+  border-radius: 3px;
+  background:
+    linear-gradient(
+      100deg,
+      transparent 34%,
+      color-mix(in srgb, var(--ink) 9%, transparent) 48%,
+      transparent 62%
+    ),
+    color-mix(in srgb, var(--ink) 7%, transparent);
+  background-size: 220% 100%, 100% 100%;
+  animation: reading-skeleton-shimmer 1.7s ease-in-out infinite;
+}
+
+@keyframes reading-skeleton-shimmer {
+  from {
+    background-position: 120% 0, 0 0;
+  }
+  to {
+    background-position: -120% 0, 0 0;
+  }
 }
 
 .reading-error {
@@ -2046,5 +2083,9 @@ body.note-editor-resizing * {
   *::after {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .reading-skeleton-line {
+    animation: none;
   }
 }

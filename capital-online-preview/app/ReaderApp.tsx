@@ -83,6 +83,11 @@ const articleWidthKey = "capital-reader-article-width";
 const defaultArticleWidth = 780;
 const minimumArticleWidth = 600;
 const maximumArticleWidth = 1020;
+const readingSkeletonParagraphs = [
+  [100, 96, 88, 72],
+  [98, 100, 92, 78],
+  [100, 95, 84],
+] as const;
 
 const fingerprintPromise =
   typeof window === "undefined" ? null : FingerprintJS.load();
@@ -934,8 +939,28 @@ export function ReaderApp({
             )}
 
             {loading ? (
-              <div className="reading-loading" role="status">
-                正在载入正文…
+              <div
+                className="reading-loading"
+                role="status"
+                aria-live="polite"
+              >
+                <span className="sr-only">正在载入正文…</span>
+                <div className="reading-skeleton" aria-hidden="true">
+                  {readingSkeletonParagraphs.map((paragraph, paragraphIndex) => (
+                    <div
+                      className="reading-skeleton-paragraph"
+                      key={paragraphIndex}
+                    >
+                      {paragraph.map((width, lineIndex) => (
+                        <span
+                          className="reading-skeleton-line"
+                          key={lineIndex}
+                          style={{ width: `${width}%` }}
+                        />
+                      ))}
+                    </div>
+                  ))}
+                </div>
               </div>
             ) : contentError ? (
               <div className="reading-error">{contentError}</div>
