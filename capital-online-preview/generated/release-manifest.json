@@ -1,11 +1,11 @@
 {
   "title": "《资本论》第一卷",
-  "editionTitle": "ChatGPT 5.6 Sol 译",
-  "generatedAt": "2026-07-29T09:59:49.108Z",
+  "editionTitle": "ChatGPT 译",
+  "generatedAt": "2026-07-29T19:29:05.364Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 13,
-  "sectionCount": 34,
+  "sectionCount": 43,
   "preface": {
     "id": "translator-preface",
     "number": 0,
@@ -374,11 +374,74 @@
           "available": true,
           "sections": [
             {
+              "id": "ch13-s01",
+              "number": 1,
+              "title": "机器的发展",
+              "versionId": "ch13-s01-v2",
+              "contentPath": "/content/ch13-s01.json"
+            },
+            {
+              "id": "ch13-s02",
+              "number": 2,
+              "title": "机器向产品转移的价值",
+              "versionId": "ch13-s02-v2",
+              "contentPath": "/content/ch13-s02.json"
+            },
+            {
+              "id": "ch13-s03",
+              "number": 3,
+              "title": "机器生产对工人的直接影响",
+              "versionId": "ch13-s03-v2",
+              "contentPath": "/content/ch13-s03.json"
+            },
+            {
+              "id": "ch13-s04",
+              "number": 4,
+              "title": "工厂",
+              "versionId": "ch13-s04-v1",
+              "contentPath": "/content/ch13-s04.json"
+            },
+            {
+              "id": "ch13-s05",
+              "number": 5,
+              "title": "工人与机器的斗争",
+              "versionId": "ch13-s05-v2",
+              "contentPath": "/content/ch13-s05.json"
+            },
+            {
+              "id": "ch13-s06",
+              "number": 6,
+              "title": "关于被机器排挤的工人的“补偿理论”",
+              "versionId": "ch13-s06-v2",
+              "contentPath": "/content/ch13-s06.json"
+            },
+            {
               "id": "ch13-s07",
               "number": 7,
               "title": "机器生产发展中的工人排斥和吸收：棉纺织业的危机",
               "versionId": "ch13-s07-v1",
               "contentPath": "/content/ch13-s07.json"
+            },
+            {
+              "id": "ch13-s08",
+              "number": 8,
+              "title": "大工业对工场手工业、手工业和家庭劳动的改造",
+              "versionId": "ch13-s08-v1",
+              "contentPath": "/content/ch13-s08.json"
+            },
+            {
+              "id": "ch13-s09",
+              "number": 9,
+              "title": "工厂立法（卫生和教育条款）及其在英国的普遍推行",
+              "versionId": "ch13-s09-v2",
+              "contentPath": "/content/ch13-s09.json"
+            },
+            {
+              "id": "ch13-s10",
+              "number": 10,
+              "title": "大工业和农业",
+              "versionId": "ch13-s10-v1",
+              "contentPath": "/content/ch13-s10.json"
             }
           ]
         }
