@@ -1,0 +1,19 @@
+# II. Konstanter Arbeitstag, konstante Produktivkraft der Arbeit, Intensität der Arbeit variabel.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch15-s02-p0001] [MEGA p.470,471]
+Wachsende Intensität der Arbeit unterstellt vermehrte Ausgabe von Arbeit in demselben Zeitraum. Der intensivere Arbeitstag verkörpert sich daher in mehr Produkten als der minder intensive von gleicher Stundenzahl. Mit erhöhter Produktivkraft liefert zwar auch derselbe Arbeitstag mehr Produkte. Aber im letztern Fall sinkt der Werth des einzelnen Produkts, weil es weniger Arbeit als vorher kostet, im erstern Fall bleibt er unverändert, weil das Produkt nach wie vor gleich viel Arbeit kostet. Die Anzahl der Produkte steigt hier ohne Fall ihres Preises. Mit ihrer Anzahl wächst ihre Preissumme, während dort dieselbe Werthsumme sich nur in vergrößerter Produktenmasse darstellt. Bei gleichbleibender Stundenzahl verkörpert sich also der intensivere Arbeitstag in höherem Werthprodukt, also, bei gleichbleibendem Werth des Geldes, in mehr Geld. Sein Werthprodukt variirt mit den Abweichungen seiner Intensität von dem gesellschaftlichen Normalgrad. Derselbe Arbeitstag stellt sich also nicht wie vorher in einem konstanten, sondern in einem variablen Werthprodukt dar, der intensivere, zwölfstündige Arbeitstag z. B. in 7 sh., 8 sh. u. s. w. statt in 6 sh. wie der zwölfstündige Arbeitstag von gewöhnlicher Intensität. Es ist klar: Variirt das Werthprodukt des Arbeitstags, etwa von 6 auf 8 sh., so können beide Theile dieses Werthprodukts, Preis der Arbeitskraft und Mehrwerth, gleichzeitig wachsen, sei es in gleichem oder ungleichem Grad. Preis der Arbeitskraft und Mehrwerth können beide zur selben Zeit von 3 sh. auf 4 wachsen, wenn das Werthprodukt von 6 auf 8 [sh.] steigt. Preiserhöhung der Arbeitskraft schließt hier nicht nothwendig Steigerung ihres Preises über ihren Werth ein. Sie kann umgekehrt von einem Fall ihres Werths begleitet sein. Dieß findet stets statt, wenn die Preiserhöhung der Arbeitskraft ihren beschleunigten Verschleiß nicht kompensirt.
+
+[v1-ch15-s02-p0002] [MEGA p.471]
+Man weiß, daß mit vorübergehenden Ausnahmen ein Wechsel in der Produktivität der Arbeit nur dann einen Wechsel in der Werthgröße der Arbeitskraft und daher in der Größe des Mehrwerths bewirkt, wenn die Produkte der betroffenen Industriezweige in den gewohnheitsmäßigen Konsum des Arbeiters eingehn. Diese Schranke fällt hier fort. Ob die Größe der Arbeit extensiv oder intensiv wechsle, ihrem Größenwechsel entspricht ein Wechsel in der Größe ihres Werthprodukts, unabhängig von der Natur des Artikels, worin sich dieser Werth darstellt.
+
+[v1-ch15-s02-p0003] [MEGA p.471]
+Steigerte sich die Intensität der Arbeit in allen Industriezweigen gleichzeitig und gleichmäßig, so würde der neue höhere Intensitätsgrad zum gewöhnlichen gesellschaftlichen Normalgrad und hörte damit auf, als extensive Größe zu zählen. Indeß blieben selbst dann die durchschnittlichen Intensitätsgrade der Arbeit bei verschiednen Nationen verschieden und modificirten daher die Anwendung des Werthgesetzes auf unterschiedne Nationalarbeitstage. Der intensivere Arbeitstag der einen Nation stellt sich in höherem Geldausdruck dar als der minder intensive der andren 12). |
+
+## Footnotes
+
+[note-001] [MEGA p.471]
+12) “All things being equal, the English manufacturer can turn out a considerably larger amount of work in a given time than a foreign manufacturer, so much as to counterbalance the difference of the working days, between 60 hours a week here and 72 or 80 elsewhere.” („Reports of Insp. of Fact. for 31st Oct. 1855“, p. 65.) Größere gesetzliche Verkürzung des Arbeitstags in den kontinentalen Fabriken wäre das unfehlbarste Mittel zur Verminderung dieser Differenz zwischen der kontinentalen und der englischen Arbeitsstunde.

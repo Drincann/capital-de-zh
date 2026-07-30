@@ -1,0 +1,31 @@
+# III. Produktivkraft und Intensität der Arbeit konstant, Arbeitstag variabel.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch15-s03-p0001] [MEGA p.471]
+Der Arbeitstag kann nach zwei Richtungen variiren. Er kann verkürzt oder verlängert werden.
+
+[v1-ch15-s03-p0002] [MEGA p.471]
+1) Verkürzung des Arbeitstags unter den gegebenen Bedingungen, d. h. gleichbleibender Produktivkraft und Intensität der Arbeit, läßt den Werth der Arbeitskraft und daher die nothwendige Arbeitszeit unverändert. Sie verkürzt die Mehrarbeit und den Mehrwerth. Mit der absoluten Größe des letztren fällt auch seine relative Größe, d. h. seine Größe im Verhältniß zur gleichbleibenden Werthgröße der Arbeitskraft. Nur durch Herabdrückung ihres Preises unter ihren Werth könnte der Kapitalist sich schadlos halten.
+
+[v1-ch15-s03-p0003] [MEGA p.471,472]
+Alle hergebrachten Redensarten wider die Verkürzung des Arbeitstags unterstellen, daß das Phänomen sich unter den hier vorausgesetzten Umständen ereignet, während in der Wirklichkeit umgekehrt Wechsel in der Produktivität und Intensität der Arbeit entweder der Verkürzung des Arbeitstags vorhergehn oder ihr unmittelbar nachfolgen 13).
+
+[v1-ch15-s03-p0004] [MEGA p.472]
+2) Verlängerung des Arbeitstags: Die nothwendige Arbeitszeit sei 6 Stunden oder der Werth der Arbeitskraft 3 sh., ebenso Mehrarbeit 6 Stunden und Mehrwerth 3 sh. Der Gesammtarbeitstag beträgt dann 12 Stunden und stellt sich in einem Werthprodukt von 6 sh. dar. Wird der Arbeitstag um 2 Stunden verlängert und bleibt der Preis der Arbeitskraft unverändert, so wächst mit der absoluten die relative Größe des Mehrwerths. Obgleich die Werthgröße der Arbeitskraft absolut unverändert bleibt, fällt sie relativ. Unter den Bedingungen von I) konnte die relative Werthgröße der Arbeitskraft nicht wechseln ohne einen Wechsel ihrer absoluten Größe. Hier, im Gegentheil, ist der relative Größenwechsel im Werth der Arbeitskraft das Resultat eines absoluten Größenwechsels des Mehrwerths.
+
+[v1-ch15-s03-p0005] [MEGA p.472]
+Da das Werthprodukt, worin sich der Arbeitstag darstellt, mit seiner eignen Verlängerung wächst, können Preis der Arbeitskraft und Mehrwerth gleichzeitig wachsen, sei es um gleiches oder ungleiches Inkrement. Dieß gleichzeitige Wachsthum ist also in zwei Fällen möglich, bei absoluter Verlängerung des Arbeitstags, und bei wachsender Intensität der Arbeit ohne solche Verlängerung.
+
+[v1-ch15-s03-p0006] [MEGA p.472]
+Mit verlängertem Arbeitstag kann der Preis der Arbeitskraft unter ihren Werth fallen, obgleich er nominell unverändert bleibt oder selbst steigt. Der Tageswerth der Arbeitskraft ist nämlich, wie man sich erinnern wird, geschätzt auf ihre normale Durchschnittsdauer oder die normale Lebensperiode des Arbeiters, und auf entsprechenden, normalen, der Menschennatur angemessenen Umsatz von Lebenssubstanz in Bewegung 14). Bis zu einem gewissen Punkt kann der von Verlängerung des Arbeitstags untrennbare größere Verschleiß der Arbeitskraft durch größeren Ersatz kompensirt werden. Ueber diesen Punkt hinaus wächst der Verschleiß in geometrischer Progression und werden zugleich alle normalen Reproduktions- und Bethätigungsbedingungen der Arbeitskraft zerstört. Der Preis der Arbeitskraft und ihr Exploitationsgrad hören auf mit einander kommensurable Größen zu sein.
+
+## Footnotes
+
+[note-001] [MEGA p.472]
+13) “There are compensating circumstances... which the working of the Ten Hours’ Act has brought to light.” („Reports of Insp. of Fact. for 1st December 1848“, p. 7.)
+
+[note-002] [MEGA p.472]
+14) “The amount of labour which a man had undergone in the course of 24 hours might be approximatively arrived at by an examination of the chymical changes which had taken place in his body, changed forms in matter indicating the anterior exercise of dynamic force.” (Grove: „On the Correlation of Physical Forces“, [p. 308, 309.])

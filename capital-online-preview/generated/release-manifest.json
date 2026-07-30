@@ -1,11 +1,11 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-07-29T20:00:05.467Z",
+  "generatedAt": "2026-07-29T23:02:52.184Z",
   "partCount": 7,
   "chapterCount": 25,
-  "publishedChapterCount": 13,
-  "sectionCount": 43,
+  "publishedChapterCount": 16,
+  "sectionCount": 49,
   "preface": {
     "id": "translator-preface",
     "number": 0,
@@ -29,7 +29,7 @@
               "id": "ch01-s01",
               "number": 1,
               "title": "商品的两个因素：使用价值和价值",
-              "versionId": "ch01-s01-v7",
+              "versionId": "ch01-s01-v9",
               "contentPath": "/content/ch01-s01.json"
             },
             {
@@ -456,22 +456,67 @@
           "id": "ch14",
           "number": 14,
           "title": "绝对剩余价值和相对剩余价值",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch14-s01",
+              "number": 1,
+              "title": "绝对剩余价值和相对剩余价值",
+              "versionId": "ch14-s01-v1",
+              "contentPath": "/content/ch14-s01.json"
+            }
+          ]
         },
         {
           "id": "ch15",
           "number": 15,
           "title": "劳动力价格和剩余价值怎样变化",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch15-s01",
+              "number": 1,
+              "title": "工作日的长度和劳动强度不变，劳动生产力可变",
+              "versionId": "ch15-s01-v1",
+              "contentPath": "/content/ch15-s01.json"
+            },
+            {
+              "id": "ch15-s02",
+              "number": 2,
+              "title": "工作日和劳动生产力不变，劳动强度可变",
+              "versionId": "ch15-s02-v1",
+              "contentPath": "/content/ch15-s02.json"
+            },
+            {
+              "id": "ch15-s03",
+              "number": 3,
+              "title": "劳动生产力和劳动强度不变，工作日可变",
+              "versionId": "ch15-s03-v1",
+              "contentPath": "/content/ch15-s03.json"
+            },
+            {
+              "id": "ch15-s04",
+              "number": 4,
+              "title": "劳动时间、劳动生产力和劳动强度同时变化",
+              "versionId": "ch15-s04-v1",
+              "contentPath": "/content/ch15-s04.json"
+            }
+          ]
         },
         {
           "id": "ch16",
           "number": 16,
           "title": "剩余价值率的各种公式",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch16-s01",
+              "number": 1,
+              "title": "剩余价值率的各种公式",
+              "versionId": "ch16-s01-v1",
+              "contentPath": "/content/ch16-s01.json"
+            }
+          ]
         }
       ]
     },
