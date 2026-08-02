@@ -87,6 +87,7 @@ function decorateArticle(
     (paragraph) => !paragraph.closest(".footnotes"),
   );
   const created: HTMLElement[] = [];
+  const companions: HTMLElement[] = [];
 
   paragraphs.forEach((paragraph, paragraphIndex) => {
     const expected = sentences.filter(
@@ -157,10 +158,35 @@ function decorateArticle(
       }
       textNode.replaceWith(fragment);
     });
+
+    const decorated = Array.from(
+      paragraph.querySelectorAll<HTMLElement>(
+        "[data-narration-sentence], .katex",
+      ),
+    );
+    decorated.forEach((element, index) => {
+      if (!element.classList.contains("katex")) return;
+      const previous = decorated
+        .slice(0, index)
+        .reverse()
+        .find((candidate) => candidate.dataset.narrationSentence);
+      const next = decorated
+        .slice(index + 1)
+        .find((candidate) => candidate.dataset.narrationSentence);
+      const previousId = previous?.dataset.narrationSentence;
+      const nextId = next?.dataset.narrationSentence;
+      if (!previousId || previousId !== nextId) return;
+      element.dataset.narrationCompanion = previousId;
+      companions.push(element);
+    });
   });
 
   return () => {
     prose.classList.remove("narration-ready");
+    companions.forEach((element) => {
+      delete element.dataset.narrationCompanion;
+      element.classList.remove("narration-current");
+    });
     created.forEach((span) => span.replaceWith(span.textContent || ""));
     prose.normalize();
   };
@@ -276,13 +302,18 @@ export function AudioReader({
 
   useEffect(() => {
     document
-      .querySelectorAll("[data-narration-sentence]")
-      .forEach((element) =>
+      .querySelectorAll(
+        "[data-narration-sentence], [data-narration-companion]",
+      )
+      .forEach((element) => {
+        const sentenceId =
+          element.getAttribute("data-narration-sentence") ||
+          element.getAttribute("data-narration-companion");
         element.classList.toggle(
           "narration-current",
-          element.getAttribute("data-narration-sentence") === activeSentenceId,
-        ),
-      );
+          sentenceId === activeSentenceId,
+        );
+      });
     if (!activeSentenceId) return;
     const primary = document.querySelector<HTMLElement>(
       `[data-narration-sentence="${activeSentenceId}"]`,

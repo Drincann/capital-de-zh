@@ -185,11 +185,13 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(audioReader, /mediaSession/);
   assert.match(audioReader, /playbackRate/);
   assert.match(audioReader, /narration-play-icon/);
+  assert.match(audioReader, /narrationCompanion/);
+  assert.match(audioReader, /\[data-narration-sentence\], \.katex/);
   assert.doesNotMatch(audioReader, /Ⅱ/);
   assert.match(css, /\.narration-current/);
   assert.match(
     css,
-    /\.narration-current\s*\{[^}]*background:\s*transparent[^}]*box-shadow:\s*0 0 0 2px/s,
+    /\[data-narration-companion\]\.narration-current\s*\{[^}]*background:\s*transparent[^}]*box-shadow:\s*0 0 0 2px/s,
   );
   assert.match(css, /\.narration-play-icon\.is-pause span/);
   assert.match(css, /env\(safe-area-inset-bottom\)/);

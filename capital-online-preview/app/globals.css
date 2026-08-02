@@ -618,7 +618,8 @@ html::-webkit-scrollbar {
   outline-offset: 2px;
 }
 
-.prose [data-narration-sentence].narration-current {
+.prose [data-narration-sentence].narration-current,
+.prose [data-narration-companion].narration-current {
   background: transparent;
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 78%, var(--ink));
 }
