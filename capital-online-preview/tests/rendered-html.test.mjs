@@ -65,6 +65,8 @@ test("划词笔记公开可读，只有指定 ChatGPT 账号可写", async () =>
   assert.match(css, /\.note-textarea-resizer/);
   assert.match(css, /\.note-editor textarea\s*\{[^}]*resize:\s*none/s);
   assert.match(css, /\.note-editor textarea\s*\{[^}]*appearance:\s*none/s);
+  assert.doesNotMatch(css, /\.note-card(?:(?:\[[^\]]+\])?)::before/);
+  assert.doesNotMatch(css, /\.note-card\s*\{[^}]*border-left\s*:/s);
   assert.doesNotMatch(
     `${page}\n${readerNotes}\n${notesRoute}`,
     /["'][^"'\s]+@[^"'\s]+["']/i,

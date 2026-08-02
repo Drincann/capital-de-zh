@@ -1497,12 +1497,10 @@ body.notes-resizing * {
 }
 
 .note-card {
-  position: relative;
   display: grid;
   gap: 7px;
   width: 100%;
-  padding: 14px 15px 13px 18px;
-  overflow: hidden;
+  padding: 14px 15px 13px;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: color-mix(in srgb, var(--panel) 78%, transparent);
@@ -1510,26 +1508,6 @@ body.notes-resizing * {
   cursor: pointer;
   text-align: left;
   transition: border-color 120ms ease, transform 120ms ease;
-}
-
-.note-card::before {
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 4px;
-  background: #d3a331;
-  content: "";
-}
-
-.note-card[data-color="rose"]::before {
-  background: #b86975;
-}
-
-.note-card[data-color="sage"]::before {
-  background: #6f9c7a;
-}
-
-.note-card[data-color="blue"]::before {
-  background: #5d88b4;
 }
 
 .note-card:hover {
