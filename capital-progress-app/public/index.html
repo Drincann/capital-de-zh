@@ -729,6 +729,39 @@
       .version-row p { margin: 0; color: var(--muted); font-size: 12px; }
       .version-row time { color: var(--faint); font-size: 11px; }
       .version-actions { display: flex; align-items: center; gap: 7px; }
+      .audio-status {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: var(--muted);
+        font-size: 11px;
+        white-space: nowrap;
+      }
+      .audio-status::before {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--faint);
+        content: "";
+      }
+      .audio-status.ready { color: var(--green); }
+      .audio-status.ready::before { background: var(--green); }
+      .audio-status.generating { color: var(--blue); }
+      .audio-status.generating::before {
+        background: var(--blue);
+        animation: audio-pulse 1.2s ease-in-out infinite;
+      }
+      .audio-status.failed { color: var(--accent); }
+      .audio-status.failed::before { background: var(--accent); }
+      @keyframes audio-pulse {
+        50% { opacity: 0.28; transform: scale(0.72); }
+      }
+      .audio-error {
+        grid-column: 2 / -1;
+        margin: -7px 0 1px;
+        color: var(--accent);
+        font-size: 11px;
+      }
       .review-notice {
         margin: 0 0 24px;
         padding: 12px 14px;
@@ -1646,6 +1679,7 @@
               <span class="chapter-meta">
                 <span class="dot ${chapter.status}"></span>
                 ${chapter.statusLabel}${chapter.versionCount ? ` · ${chapter.versionCount}版` : ""}
+                ${chapter.sections?.some((unit) => unit.audio?.status === "ready") ? " · 有语音" : ""}
               </span>
             </button>
             ${chapter.id === model.chapterId && chapter.sections?.length > 1 ? `
@@ -1658,7 +1692,7 @@
                   >
                     <span class="catalog-section-copy">
                       <strong>${unit.number && !chapter.frontMatter ? `第${unit.number}节 · ` : ""}${escapeHtml(unit.title_zh)}</strong>
-                      <small>${unit.statusLabel}${unit.versionCount ? ` · ${unit.versionCount} 个版本` : ""}</small>
+                      <small>${unit.statusLabel}${unit.versionCount ? ` · ${unit.versionCount} 个版本` : ""}${unit.audio?.status === "ready" ? " · 有语音" : unit.audio?.status === "generating" ? " · 语音生成中" : ""}</small>
                     </span>
                     <span class="dot ${unit.status}"></span>
                   </button>
@@ -1735,6 +1769,12 @@
                 : version
                   ? '<button class="small-action" id="adoptButton">采用此版本</button>'
                   : ""}
+              ${version?.audio
+                ? `<span class="audio-status ${escapeHtml(version.audio.status)}">${escapeHtml(version.audio.label)}${version.audio.status === "generating" && version.audio.chunkCount ? ` ${version.audio.completedChunks}/${version.audio.chunkCount}` : ""}</span>`
+                : ""}
+              ${version?.audio?.canGenerate
+                ? '<button class="small-action" id="generateAudioButton">生成语音</button>'
+                : ""}
             </div>
           </div>
           ${version?.reviewStatus === "needs_review" && version?.reviewNote
@@ -1830,7 +1870,10 @@
                     : version.reviewStatus === "needs_review"
                       ? '<span class="version-tag">待复核</span>'
                     : `<button class="small-action" data-adopt-version="${version.id}">采用</button>`}
+                  ${version.audio ? `<span class="audio-status ${escapeHtml(version.audio.status)}">${escapeHtml(version.audio.label)}${version.audio.status === "generating" && version.audio.chunkCount ? ` ${version.audio.completedChunks}/${version.audio.chunkCount}` : ""}</span>` : ""}
+                  ${version.audio?.canGenerate ? `<button class="small-action" data-generate-audio="${version.id}">生成语音</button>` : ""}
                 </div>
+                ${version.audio?.error ? `<div class="audio-error">${escapeHtml(version.audio.error)}</div>` : ""}
                 ${version.reviewStatus === "needs_review" && version.reviewNote
                   ? `<div class="review-notice"><strong>终审待复核：</strong>${escapeHtml(version.reviewNote)}</div>`
                   : ""}
@@ -1854,6 +1897,19 @@
         if (!response.ok) throw new Error("adoption failed");
         model.selectedVersionId = versionId;
         saveReadingPosition();
+        await refresh(true);
+      }
+
+      async function generateAudio() {
+        const unit = currentUnit();
+        if (!unit?.unit_id) return;
+        const response = await fetch("/api/audio/generate", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ unitId: unit.unit_id }),
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(result.error || "语音任务未能启动");
         await refresh(true);
       }
 
@@ -1968,6 +2024,20 @@
             }
           });
         }
+        const generateAudioButton = el("generateAudioButton");
+        if (generateAudioButton) {
+          generateAudioButton.addEventListener("click", async () => {
+            generateAudioButton.disabled = true;
+            generateAudioButton.textContent = "正在启动";
+            try {
+              await generateAudio();
+            } catch (error) {
+              generateAudioButton.disabled = false;
+              generateAudioButton.textContent =
+                error instanceof Error ? error.message : "未能启动";
+            }
+          });
+        }
         document.querySelectorAll("[data-preview-version]").forEach((button) => {
           button.addEventListener("click", () => {
             model.selectedVersionId = button.dataset.previewVersion;
@@ -1983,6 +2053,19 @@
               await adoptVersion(button.dataset.adoptVersion);
             } catch {
               button.textContent = "未能采用";
+            }
+          });
+        });
+        document.querySelectorAll("[data-generate-audio]").forEach((button) => {
+          button.addEventListener("click", async () => {
+            button.disabled = true;
+            button.textContent = "正在启动";
+            try {
+              await generateAudio();
+            } catch (error) {
+              button.disabled = false;
+              button.textContent =
+                error instanceof Error ? error.message : "未能启动";
             }
           });
         });

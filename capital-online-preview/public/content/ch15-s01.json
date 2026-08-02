@@ -2,6 +2,501 @@
   "unitId": "ch15-s01",
   "chapterId": "ch15",
   "versionId": "ch15-s01-v1",
+  "translationSha256": "5292ee9e565344cb65ae48e82daab438d71ade259c90fd9b1a036b743ee7ae56",
   "title": "工作日的长度和劳动强度不变，劳动生产力可变",
-  "html": "<p>劳动力的价值，取决于一个普通工人维持正常生活通常需要的各种生活必需品值多少钱。在一个社会的一定时期内，这些生活必需品的具体形式虽然可能变化，但总量是既定的，因此这里把它看作不变量。会变化的是这批生活必需品的价值。除此以外，还有两个因素会影响劳动力的价值。一是培养劳动力所需的费用，它会随着生产方式变化。二是劳动力本身的自然差别，例如男性和女性、成年人与未成年人之间的差别。生产方式也决定社会怎样使用这些不同的劳动力，而这会大大改变工人家庭维持和延续自身所需的费用，也会影响成年男性劳动力的价值。不过，下面的分析暂不考虑这两个因素。<sup class=\"footnote-ref\"><a href=\"#fn1\" id=\"fnref1\">[1]</a></sup></p>\n<p>我们还作两个假设：第一，商品都按价值出售。第二，劳动力的价格有时可以高于它的价值，但绝不会低于它的价值。</p>\n<p>在这些假设下，劳动力的价格和剩余价值各有多大，取决于三个因素。第一，工作日有多长，也就是劳动持续的时间。第二，劳动的正常强度，也就是人在一定时间内付出多少劳动。第三，劳动生产力，也就是同样多的劳动在同样长的时间里能生产多少产品。这三个因素可以形成很多组合：一个不变、两个变化，两个不变、一个变化，或者三个同时变化。几个因素同时变化时，变化的幅度和方向还可能不同。下面只分析其中的主要组合。</p>\n<p>在本节的条件下，劳动力价值和剩余价值受三个规律支配。</p>\n<p>第一，工作日的长度既定时，无论劳动生产力怎样变化，这一天创造的价值总额始终不变。生产力的变化只会改变产品的数量，进而改变每件商品的价格。</p>\n<p>例如，一个十二小时工作日创造的价值总额是6先令。劳动生产力提高或降低，会使这一天生产的有用物品增多或减少，但价值总额仍是6先令，只是分摊到更多或更少的商品上。</p>\n<p>第二，劳动力价值和剩余价值朝相反方向变化。劳动生产力提高，会降低劳动力价值并增加剩余价值。劳动生产力下降，则会产生相反的结果。</p>\n<p>一个十二小时工作日创造的价值总额始终是同一个数，例如6先令。它由两部分组成：一部分是剩余价值，另一部分是劳动力价值，由工人创造的等额价值补回。既然总额不变，其中一部分增加，另一部分就必然减少。劳动力价值不可能从3先令升到4先令，而剩余价值不从3先令降到2先令。反过来也一样，剩余价值从3先令升到4先令时，劳动力价值必然从3先令降到2先令。因此，在这种条件下，无论劳动力价值还是剩余价值，只要绝对数额发生变化，它们在总额中所占的比例就会同时变化。两者不可能同时上升或同时下降。</p>\n<p>劳动力价值要下降、剩余价值要上升，劳动生产力就必须提高。例如，要让劳动力价值从3先令降到2先令，生产原来那批生活必需品所需的时间就必须从6小时缩短到4小时。反过来，要让劳动力价值从3先令升到4先令，劳动生产力就必须下降，使原来6小时能生产的生活必需品需要8小时才能生产。可见，劳动生产力提高会降低劳动力价值，从而增加剩余价值。劳动生产力下降则会提高劳动力价值，从而减少剩余价值。</p>\n<p>李嘉图在表述这条规律时忽略了一点：剩余价值或剩余劳动发生变化时，劳动力价值或必要劳动会朝相反方向变化，但双方变化的比例并不相同。它们增加和减少的是同一个绝对数额，各自变化的百分比却取决于变化以前工作日怎样分割。假定劳动力价值原来是4先令，必要劳动是8小时，剩余价值是2先令，剩余劳动是4小时。劳动生产力提高以后，劳动力价值降到3先令，必要劳动降到6小时，剩余价值便升到3先令，剩余劳动升到6小时。一边减少、另一边增加的，都是2小时或1先令。但劳动力价值从4先令降到3先令，下降了四分之一，也就是25%。与此同时，剩余价值从2先令升到3先令，增加了一半，也就是50%。所以，劳动生产力发生同样的变化时，工作日中原来属于剩余劳动的部分越小，剩余价值变化的百分比就越大。这个部分原来越大，变化的百分比就越小。</p>\n<p>第三，剩余价值的增减，永远是劳动力价值朝相反方向变化的结果，而不是这种变化的原因。<sup class=\"footnote-ref\"><a href=\"#fn2\" id=\"fnref2\">[2]</a></sup></p>\n<p>这是因为，在这里的条件下，工作日长度不变，创造的价值总额也不变。剩余价值一变，劳动力价值就必须朝相反方向变化，而劳动力价值只有在劳动生产力变化时才会变化。因此，剩余价值的任何变化，都来自劳动力价值朝相反方向的变化。前面已经看到，劳动力价值和剩余价值的绝对数额要发生变化，它们各自在总额中所占的比例也必然变化。现在还可以进一步得出：只要两者的相对比例发生变化，劳动力价值的绝对数额就一定发生了变化。</p>\n<p>按照第三条规律，剩余价值要发生变化，必须先由劳动生产力的变化引起劳动力价值变化。剩余价值最多能变到什么程度，取决于劳动力的新价值。不过，即使具备了让这条规律发挥作用的条件，实际价格也可能停在中间。比如，劳动生产力提高，使劳动力价值从4先令降到3先令，必要劳动从8小时降到6小时，劳动力的价格却可能只降到3先令8便士、3先令6便士或3先令2便士等。这样，剩余价值就只升到2先令4便士、2先令6便士或2先令10便士等。劳动力价格最低可以降到3先令，但实际降到什么程度，取决于资本施加的压力和工人抵抗的力量哪一边更强。</p>\n<p>劳动力的价值由一定数量的生活必需品的价值决定。劳动生产力变化时，变化的是这些生活必需品的价值，不是它们的数量。生产力提高以后，工人和资本家得到的有用物品可以按同一比例增加，而劳动力价格和剩余价值之间的数量关系不必改变。假定劳动力价值原来是3先令，必要劳动是6小时，剩余价值也是3先令，剩余劳动也是6小时。如果劳动生产力提高一倍，而工作日仍按原来的比例分割，劳动力价格和剩余价值都会保持不变，只是两者各自对应的有用物品增加一倍，而每件物品的价值相应减半。劳动力的价格虽然不变，却已经高于它的新价值。它的新价值是1先令6便士。如果劳动力价格有所下降，却没有降到这个最低值，而只降到2先令10便士或2先令6便士等，这个降低了的价格仍然可以买到越来越多的生活必需品。这样，随着劳动生产力提高，劳动力价格可以不断下降，而工人得到的生活必需品仍可不断增加。但同剩余价值相比，劳动力价值所占的比例会不断下降，工人和资本家的生活状况也会越拉越开。<sup class=\"footnote-ref\"><a href=\"#fn3\" id=\"fnref3\">[3]</a></sup></p>\n<p>最早严密表述以上三条规律的是李嘉图。不过，他的论述有两个缺陷。第一，他把这些规律成立所需的特殊条件，当成资本主义生产中理所当然、普遍而且唯一的条件。他没有考虑工作日长度和劳动强度会发生变化，于是劳动生产力自然成了唯一的变量。第二个缺陷对他的分析影响更大。他和其他经济学家一样，从未把剩余价值本身作为独立对象来研究，而总是直接研究利润、地租等具体形式。因此，他把剩余价值率的规律同利润率的规律混在了一起。前面说过，利润率是剩余价值同预付总资本的比率，剩余价值率则是剩余价值同资本中可变部分的比率。假定预付总资本为500英镑，记作 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0715em;\">C</span></span></span></span>。其中原料、劳动工具等共400英镑，记作 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi></mrow><annotation encoding=\"application/x-tex\">c</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">c</span></span></span></span>，工资100英镑，记作 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi></mrow><annotation encoding=\"application/x-tex\">v</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0359em;\">v</span></span></span></span>，剩余价值也是100英镑，记作 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi></mrow><annotation encoding=\"application/x-tex\">m</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">m</span></span></span></span>。那么，剩余价值率是 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mi mathvariant=\"normal\">/</mi><mi>v</mi><mo>=</mo><mn>100</mn><mi mathvariant=\"normal\">/</mi><mn>100</mn><mo>=</mo><mn>100</mn><mi mathvariant=\"normal\">%</mi></mrow><annotation encoding=\"application/x-tex\">m/v=100/100=100\\%</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">m</span><span class=\"mord\">/</span><span class=\"mord mathnormal\" style=\"margin-right:0.0359em;\">v</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">100/100</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.8056em;vertical-align:-0.0556em;\"></span><span class=\"mord\">100%</span></span></span></span>，利润率则是 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mi mathvariant=\"normal\">/</mi><mi>C</mi><mo>=</mo><mn>100</mn><mi mathvariant=\"normal\">/</mi><mn>500</mn><mo>=</mo><mn>20</mn><mi mathvariant=\"normal\">%</mi></mrow><annotation encoding=\"application/x-tex\">m/C=100/500=20\\%</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">m</span><span class=\"mord\">/</span><span class=\"mord mathnormal\" style=\"margin-right:0.0715em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">100/500</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.8056em;vertical-align:-0.0556em;\"></span><span class=\"mord\">20%</span></span></span></span>。而且，利润率还可能受一些完全不影响剩余价值率的因素影响。本书第三卷会证明：同一个剩余价值率可以表现为各种不同的利润率。在一定条件下，不同的剩余价值率也可以表现为同一个利润率。</p>\n<hr class=\"footnotes-sep\">\n<section class=\"footnotes\">\n<ol class=\"footnotes-list\">\n<li id=\"fn1\" class=\"footnote-item\"><p>这里当然也不包括第281页讨论的情况。（德文第三版注） <a href=\"#fnref1\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n<li id=\"fn2\" class=\"footnote-item\"><p>麦克库洛赫等人为这第三条规律加上了一个荒唐的补充：如果取消资本家原来要缴纳的税，劳动力价值不必下降，剩余价值也可以增加。取消这类税，丝毫不会改变产业资本家直接从工人身上榨取的剩余价值总量。它改变的只是资本家把多少剩余价值装进自己口袋，又要拿出多少同别人分享。因此，它完全不改变劳动力价值和剩余价值之间的关系。麦克库洛赫提出的这个“例外”，只能证明他没有理解这条规律。在把李嘉图庸俗化时，他像萨伊把亚当·斯密庸俗化时一样，经常遭遇这种不幸。 <a href=\"#fnref2\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n<li id=\"fn3\" class=\"footnote-item\"><p>“工业生产力发生变化时，同样多的劳动和资本会生产更多或更少的产品。工资所占的比例显然可以变化，而这个比例代表的实际数量保持不变。实际数量也可以变化，而比例保持不变。”（《政治经济学纲要》等，第67页） <a href=\"#fnref3\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n</ol>\n</section>\n"
+  "html": "<p>劳动力的价值，取决于一个普通工人维持正常生活通常需要的各种生活必需品值多少钱。在一个社会的一定时期内，这些生活必需品的具体形式虽然可能变化，但总量是既定的，因此这里把它看作不变量。会变化的是这批生活必需品的价值。除此以外，还有两个因素会影响劳动力的价值。一是培养劳动力所需的费用，它会随着生产方式变化。二是劳动力本身的自然差别，例如男性和女性、成年人与未成年人之间的差别。生产方式也决定社会怎样使用这些不同的劳动力，而这会大大改变工人家庭维持和延续自身所需的费用，也会影响成年男性劳动力的价值。不过，下面的分析暂不考虑这两个因素。<sup class=\"footnote-ref\"><a href=\"#fn1\" id=\"fnref1\">[1]</a></sup></p>\n<p>我们还作两个假设：第一，商品都按价值出售。第二，劳动力的价格有时可以高于它的价值，但绝不会低于它的价值。</p>\n<p>在这些假设下，劳动力的价格和剩余价值各有多大，取决于三个因素。第一，工作日有多长，也就是劳动持续的时间。第二，劳动的正常强度，也就是人在一定时间内付出多少劳动。第三，劳动生产力，也就是同样多的劳动在同样长的时间里能生产多少产品。这三个因素可以形成很多组合：一个不变、两个变化，两个不变、一个变化，或者三个同时变化。几个因素同时变化时，变化的幅度和方向还可能不同。下面只分析其中的主要组合。</p>\n<p>在本节的条件下，劳动力价值和剩余价值受三个规律支配。</p>\n<p>第一，工作日的长度既定时，无论劳动生产力怎样变化，这一天创造的价值总额始终不变。生产力的变化只会改变产品的数量，进而改变每件商品的价格。</p>\n<p>例如，一个十二小时工作日创造的价值总额是6先令。劳动生产力提高或降低，会使这一天生产的有用物品增多或减少，但价值总额仍是6先令，只是分摊到更多或更少的商品上。</p>\n<p>第二，劳动力价值和剩余价值朝相反方向变化。劳动生产力提高，会降低劳动力价值并增加剩余价值。劳动生产力下降，则会产生相反的结果。</p>\n<p>一个十二小时工作日创造的价值总额始终是同一个数，例如6先令。它由两部分组成：一部分是剩余价值，另一部分是劳动力价值，由工人创造的等额价值补回。既然总额不变，其中一部分增加，另一部分就必然减少。劳动力价值不可能从3先令升到4先令，而剩余价值不从3先令降到2先令。反过来也一样，剩余价值从3先令升到4先令时，劳动力价值必然从3先令降到2先令。因此，在这种条件下，无论劳动力价值还是剩余价值，只要绝对数额发生变化，它们在总额中所占的比例就会同时变化。两者不可能同时上升或同时下降。</p>\n<p>劳动力价值要下降、剩余价值要上升，劳动生产力就必须提高。例如，要让劳动力价值从3先令降到2先令，生产原来那批生活必需品所需的时间就必须从6小时缩短到4小时。反过来，要让劳动力价值从3先令升到4先令，劳动生产力就必须下降，使原来6小时能生产的生活必需品需要8小时才能生产。可见，劳动生产力提高会降低劳动力价值，从而增加剩余价值。劳动生产力下降则会提高劳动力价值，从而减少剩余价值。</p>\n<p>李嘉图在表述这条规律时忽略了一点：剩余价值或剩余劳动发生变化时，劳动力价值或必要劳动会朝相反方向变化，但双方变化的比例并不相同。它们增加和减少的是同一个绝对数额，各自变化的百分比却取决于变化以前工作日怎样分割。假定劳动力价值原来是4先令，必要劳动是8小时，剩余价值是2先令，剩余劳动是4小时。劳动生产力提高以后，劳动力价值降到3先令，必要劳动降到6小时，剩余价值便升到3先令，剩余劳动升到6小时。一边减少、另一边增加的，都是2小时或1先令。但劳动力价值从4先令降到3先令，下降了四分之一，也就是25%。与此同时，剩余价值从2先令升到3先令，增加了一半，也就是50%。所以，劳动生产力发生同样的变化时，工作日中原来属于剩余劳动的部分越小，剩余价值变化的百分比就越大。这个部分原来越大，变化的百分比就越小。</p>\n<p>第三，剩余价值的增减，永远是劳动力价值朝相反方向变化的结果，而不是这种变化的原因。<sup class=\"footnote-ref\"><a href=\"#fn2\" id=\"fnref2\">[2]</a></sup></p>\n<p>这是因为，在这里的条件下，工作日长度不变，创造的价值总额也不变。剩余价值一变，劳动力价值就必须朝相反方向变化，而劳动力价值只有在劳动生产力变化时才会变化。因此，剩余价值的任何变化，都来自劳动力价值朝相反方向的变化。前面已经看到，劳动力价值和剩余价值的绝对数额要发生变化，它们各自在总额中所占的比例也必然变化。现在还可以进一步得出：只要两者的相对比例发生变化，劳动力价值的绝对数额就一定发生了变化。</p>\n<p>按照第三条规律，剩余价值要发生变化，必须先由劳动生产力的变化引起劳动力价值变化。剩余价值最多能变到什么程度，取决于劳动力的新价值。不过，即使具备了让这条规律发挥作用的条件，实际价格也可能停在中间。比如，劳动生产力提高，使劳动力价值从4先令降到3先令，必要劳动从8小时降到6小时，劳动力的价格却可能只降到3先令8便士、3先令6便士或3先令2便士等。这样，剩余价值就只升到2先令4便士、2先令6便士或2先令10便士等。劳动力价格最低可以降到3先令，但实际降到什么程度，取决于资本施加的压力和工人抵抗的力量哪一边更强。</p>\n<p>劳动力的价值由一定数量的生活必需品的价值决定。劳动生产力变化时，变化的是这些生活必需品的价值，不是它们的数量。生产力提高以后，工人和资本家得到的有用物品可以按同一比例增加，而劳动力价格和剩余价值之间的数量关系不必改变。假定劳动力价值原来是3先令，必要劳动是6小时，剩余价值也是3先令，剩余劳动也是6小时。如果劳动生产力提高一倍，而工作日仍按原来的比例分割，劳动力价格和剩余价值都会保持不变，只是两者各自对应的有用物品增加一倍，而每件物品的价值相应减半。劳动力的价格虽然不变，却已经高于它的新价值。它的新价值是1先令6便士。如果劳动力价格有所下降，却没有降到这个最低值，而只降到2先令10便士或2先令6便士等，这个降低了的价格仍然可以买到越来越多的生活必需品。这样，随着劳动生产力提高，劳动力价格可以不断下降，而工人得到的生活必需品仍可不断增加。但同剩余价值相比，劳动力价值所占的比例会不断下降，工人和资本家的生活状况也会越拉越开。<sup class=\"footnote-ref\"><a href=\"#fn3\" id=\"fnref3\">[3]</a></sup></p>\n<p>最早严密表述以上三条规律的是李嘉图。不过，他的论述有两个缺陷。第一，他把这些规律成立所需的特殊条件，当成资本主义生产中理所当然、普遍而且唯一的条件。他没有考虑工作日长度和劳动强度会发生变化，于是劳动生产力自然成了唯一的变量。第二个缺陷对他的分析影响更大。他和其他经济学家一样，从未把剩余价值本身作为独立对象来研究，而总是直接研究利润、地租等具体形式。因此，他把剩余价值率的规律同利润率的规律混在了一起。前面说过，利润率是剩余价值同预付总资本的比率，剩余价值率则是剩余价值同资本中可变部分的比率。假定预付总资本为500英镑，记作 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0715em;\">C</span></span></span></span>。其中原料、劳动工具等共400英镑，记作 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi></mrow><annotation encoding=\"application/x-tex\">c</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">c</span></span></span></span>，工资100英镑，记作 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi></mrow><annotation encoding=\"application/x-tex\">v</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0359em;\">v</span></span></span></span>，剩余价值也是100英镑，记作 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi></mrow><annotation encoding=\"application/x-tex\">m</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">m</span></span></span></span>。那么，剩余价值率是 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mi mathvariant=\"normal\">/</mi><mi>v</mi><mo>=</mo><mn>100</mn><mi mathvariant=\"normal\">/</mi><mn>100</mn><mo>=</mo><mn>100</mn><mi mathvariant=\"normal\">%</mi></mrow><annotation encoding=\"application/x-tex\">m/v=100/100=100\\%</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">m</span><span class=\"mord\">/</span><span class=\"mord mathnormal\" style=\"margin-right:0.0359em;\">v</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">100/100</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.8056em;vertical-align:-0.0556em;\"></span><span class=\"mord\">100%</span></span></span></span>，利润率则是 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mi mathvariant=\"normal\">/</mi><mi>C</mi><mo>=</mo><mn>100</mn><mi mathvariant=\"normal\">/</mi><mn>500</mn><mo>=</mo><mn>20</mn><mi mathvariant=\"normal\">%</mi></mrow><annotation encoding=\"application/x-tex\">m/C=100/500=20\\%</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">m</span><span class=\"mord\">/</span><span class=\"mord mathnormal\" style=\"margin-right:0.0715em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">100/500</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.8056em;vertical-align:-0.0556em;\"></span><span class=\"mord\">20%</span></span></span></span>。而且，利润率还可能受一些完全不影响剩余价值率的因素影响。本书第三卷会证明：同一个剩余价值率可以表现为各种不同的利润率。在一定条件下，不同的剩余价值率也可以表现为同一个利润率。</p>\n<hr class=\"footnotes-sep\">\n<section class=\"footnotes\">\n<ol class=\"footnotes-list\">\n<li id=\"fn1\" class=\"footnote-item\"><p>这里当然也不包括第281页讨论的情况。（德文第三版注） <a href=\"#fnref1\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n<li id=\"fn2\" class=\"footnote-item\"><p>麦克库洛赫等人为这第三条规律加上了一个荒唐的补充：如果取消资本家原来要缴纳的税，劳动力价值不必下降，剩余价值也可以增加。取消这类税，丝毫不会改变产业资本家直接从工人身上榨取的剩余价值总量。它改变的只是资本家把多少剩余价值装进自己口袋，又要拿出多少同别人分享。因此，它完全不改变劳动力价值和剩余价值之间的关系。麦克库洛赫提出的这个“例外”，只能证明他没有理解这条规律。在把李嘉图庸俗化时，他像萨伊把亚当·斯密庸俗化时一样，经常遭遇这种不幸。 <a href=\"#fnref2\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n<li id=\"fn3\" class=\"footnote-item\"><p>“工业生产力发生变化时，同样多的劳动和资本会生产更多或更少的产品。工资所占的比例显然可以变化，而这个比例代表的实际数量保持不变。实际数量也可以变化，而比例保持不变。”（《政治经济学纲要》等，第67页） <a href=\"#fnref3\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n</ol>\n</section>\n",
+  "sentences": [
+    {
+      "id": "ch15-s01-n0001",
+      "index": 0,
+      "paragraphIndex": 0,
+      "text": "劳动力的价值，取决于一个普通工人维持正常生活通常需要的各种生活必需品值多少钱。"
+    },
+    {
+      "id": "ch15-s01-n0002",
+      "index": 1,
+      "paragraphIndex": 0,
+      "text": "在一个社会的一定时期内，这些生活必需品的具体形式虽然可能变化，但总量是既定的，因此这里把它看作不变量。"
+    },
+    {
+      "id": "ch15-s01-n0003",
+      "index": 2,
+      "paragraphIndex": 0,
+      "text": "会变化的是这批生活必需品的价值。"
+    },
+    {
+      "id": "ch15-s01-n0004",
+      "index": 3,
+      "paragraphIndex": 0,
+      "text": "除此以外，还有两个因素会影响劳动力的价值。"
+    },
+    {
+      "id": "ch15-s01-n0005",
+      "index": 4,
+      "paragraphIndex": 0,
+      "text": "一是培养劳动力所需的费用，它会随着生产方式变化。"
+    },
+    {
+      "id": "ch15-s01-n0006",
+      "index": 5,
+      "paragraphIndex": 0,
+      "text": "二是劳动力本身的自然差别，例如男性和女性、成年人与未成年人之间的差别。"
+    },
+    {
+      "id": "ch15-s01-n0007",
+      "index": 6,
+      "paragraphIndex": 0,
+      "text": "生产方式也决定社会怎样使用这些不同的劳动力，而这会大大改变工人家庭维持和延续自身所需的费用，也会影响成年男性劳动力的价值。"
+    },
+    {
+      "id": "ch15-s01-n0008",
+      "index": 7,
+      "paragraphIndex": 0,
+      "text": "不过，下面的分析暂不考虑这两个因素。"
+    },
+    {
+      "id": "ch15-s01-n0009",
+      "index": 8,
+      "paragraphIndex": 1,
+      "text": "我们还作两个假设：第一，商品都按价值出售。"
+    },
+    {
+      "id": "ch15-s01-n0010",
+      "index": 9,
+      "paragraphIndex": 1,
+      "text": "第二，劳动力的价格有时可以高于它的价值，但绝不会低于它的价值。"
+    },
+    {
+      "id": "ch15-s01-n0011",
+      "index": 10,
+      "paragraphIndex": 2,
+      "text": "在这些假设下，劳动力的价格和剩余价值各有多大，取决于三个因素。"
+    },
+    {
+      "id": "ch15-s01-n0012",
+      "index": 11,
+      "paragraphIndex": 2,
+      "text": "第一，工作日有多长，也就是劳动持续的时间。"
+    },
+    {
+      "id": "ch15-s01-n0013",
+      "index": 12,
+      "paragraphIndex": 2,
+      "text": "第二，劳动的正常强度，也就是人在一定时间内付出多少劳动。"
+    },
+    {
+      "id": "ch15-s01-n0014",
+      "index": 13,
+      "paragraphIndex": 2,
+      "text": "第三，劳动生产力，也就是同样多的劳动在同样长的时间里能生产多少产品。"
+    },
+    {
+      "id": "ch15-s01-n0015",
+      "index": 14,
+      "paragraphIndex": 2,
+      "text": "这三个因素可以形成很多组合：一个不变、两个变化，两个不变、一个变化，或者三个同时变化。"
+    },
+    {
+      "id": "ch15-s01-n0016",
+      "index": 15,
+      "paragraphIndex": 2,
+      "text": "几个因素同时变化时，变化的幅度和方向还可能不同。"
+    },
+    {
+      "id": "ch15-s01-n0017",
+      "index": 16,
+      "paragraphIndex": 2,
+      "text": "下面只分析其中的主要组合。"
+    },
+    {
+      "id": "ch15-s01-n0018",
+      "index": 17,
+      "paragraphIndex": 3,
+      "text": "在本节的条件下，劳动力价值和剩余价值受三个规律支配。"
+    },
+    {
+      "id": "ch15-s01-n0019",
+      "index": 18,
+      "paragraphIndex": 4,
+      "text": "第一，工作日的长度既定时，无论劳动生产力怎样变化，这一天创造的价值总额始终不变。"
+    },
+    {
+      "id": "ch15-s01-n0020",
+      "index": 19,
+      "paragraphIndex": 4,
+      "text": "生产力的变化只会改变产品的数量，进而改变每件商品的价格。"
+    },
+    {
+      "id": "ch15-s01-n0021",
+      "index": 20,
+      "paragraphIndex": 5,
+      "text": "例如，一个十二小时工作日创造的价值总额是6先令。"
+    },
+    {
+      "id": "ch15-s01-n0022",
+      "index": 21,
+      "paragraphIndex": 5,
+      "text": "劳动生产力提高或降低，会使这一天生产的有用物品增多或减少，但价值总额仍是6先令，只是分摊到更多或更少的商品上。"
+    },
+    {
+      "id": "ch15-s01-n0023",
+      "index": 22,
+      "paragraphIndex": 6,
+      "text": "第二，劳动力价值和剩余价值朝相反方向变化。"
+    },
+    {
+      "id": "ch15-s01-n0024",
+      "index": 23,
+      "paragraphIndex": 6,
+      "text": "劳动生产力提高，会降低劳动力价值并增加剩余价值。"
+    },
+    {
+      "id": "ch15-s01-n0025",
+      "index": 24,
+      "paragraphIndex": 6,
+      "text": "劳动生产力下降，则会产生相反的结果。"
+    },
+    {
+      "id": "ch15-s01-n0026",
+      "index": 25,
+      "paragraphIndex": 7,
+      "text": "一个十二小时工作日创造的价值总额始终是同一个数，例如6先令。"
+    },
+    {
+      "id": "ch15-s01-n0027",
+      "index": 26,
+      "paragraphIndex": 7,
+      "text": "它由两部分组成：一部分是剩余价值，另一部分是劳动力价值，由工人创造的等额价值补回。"
+    },
+    {
+      "id": "ch15-s01-n0028",
+      "index": 27,
+      "paragraphIndex": 7,
+      "text": "既然总额不变，其中一部分增加，另一部分就必然减少。"
+    },
+    {
+      "id": "ch15-s01-n0029",
+      "index": 28,
+      "paragraphIndex": 7,
+      "text": "劳动力价值不可能从3先令升到4先令，而剩余价值不从3先令降到2先令。"
+    },
+    {
+      "id": "ch15-s01-n0030",
+      "index": 29,
+      "paragraphIndex": 7,
+      "text": "反过来也一样，剩余价值从3先令升到4先令时，劳动力价值必然从3先令降到2先令。"
+    },
+    {
+      "id": "ch15-s01-n0031",
+      "index": 30,
+      "paragraphIndex": 7,
+      "text": "因此，在这种条件下，无论劳动力价值还是剩余价值，只要绝对数额发生变化，它们在总额中所占的比例就会同时变化。"
+    },
+    {
+      "id": "ch15-s01-n0032",
+      "index": 31,
+      "paragraphIndex": 7,
+      "text": "两者不可能同时上升或同时下降。"
+    },
+    {
+      "id": "ch15-s01-n0033",
+      "index": 32,
+      "paragraphIndex": 8,
+      "text": "劳动力价值要下降、剩余价值要上升，劳动生产力就必须提高。"
+    },
+    {
+      "id": "ch15-s01-n0034",
+      "index": 33,
+      "paragraphIndex": 8,
+      "text": "例如，要让劳动力价值从3先令降到2先令，生产原来那批生活必需品所需的时间就必须从6小时缩短到4小时。"
+    },
+    {
+      "id": "ch15-s01-n0035",
+      "index": 34,
+      "paragraphIndex": 8,
+      "text": "反过来，要让劳动力价值从3先令升到4先令，劳动生产力就必须下降，使原来6小时能生产的生活必需品需要8小时才能生产。"
+    },
+    {
+      "id": "ch15-s01-n0036",
+      "index": 35,
+      "paragraphIndex": 8,
+      "text": "可见，劳动生产力提高会降低劳动力价值，从而增加剩余价值。"
+    },
+    {
+      "id": "ch15-s01-n0037",
+      "index": 36,
+      "paragraphIndex": 8,
+      "text": "劳动生产力下降则会提高劳动力价值，从而减少剩余价值。"
+    },
+    {
+      "id": "ch15-s01-n0038",
+      "index": 37,
+      "paragraphIndex": 9,
+      "text": "李嘉图在表述这条规律时忽略了一点：剩余价值或剩余劳动发生变化时，劳动力价值或必要劳动会朝相反方向变化，但双方变化的比例并不相同。"
+    },
+    {
+      "id": "ch15-s01-n0039",
+      "index": 38,
+      "paragraphIndex": 9,
+      "text": "它们增加和减少的是同一个绝对数额，各自变化的百分比却取决于变化以前工作日怎样分割。"
+    },
+    {
+      "id": "ch15-s01-n0040",
+      "index": 39,
+      "paragraphIndex": 9,
+      "text": "假定劳动力价值原来是4先令，必要劳动是8小时，剩余价值是2先令，剩余劳动是4小时。"
+    },
+    {
+      "id": "ch15-s01-n0041",
+      "index": 40,
+      "paragraphIndex": 9,
+      "text": "劳动生产力提高以后，劳动力价值降到3先令，必要劳动降到6小时，剩余价值便升到3先令，剩余劳动升到6小时。"
+    },
+    {
+      "id": "ch15-s01-n0042",
+      "index": 41,
+      "paragraphIndex": 9,
+      "text": "一边减少、另一边增加的，都是2小时或1先令。"
+    },
+    {
+      "id": "ch15-s01-n0043",
+      "index": 42,
+      "paragraphIndex": 9,
+      "text": "但劳动力价值从4先令降到3先令，下降了四分之一，也就是25%。"
+    },
+    {
+      "id": "ch15-s01-n0044",
+      "index": 43,
+      "paragraphIndex": 9,
+      "text": "与此同时，剩余价值从2先令升到3先令，增加了一半，也就是50%。"
+    },
+    {
+      "id": "ch15-s01-n0045",
+      "index": 44,
+      "paragraphIndex": 9,
+      "text": "所以，劳动生产力发生同样的变化时，工作日中原来属于剩余劳动的部分越小，剩余价值变化的百分比就越大。"
+    },
+    {
+      "id": "ch15-s01-n0046",
+      "index": 45,
+      "paragraphIndex": 9,
+      "text": "这个部分原来越大，变化的百分比就越小。"
+    },
+    {
+      "id": "ch15-s01-n0047",
+      "index": 46,
+      "paragraphIndex": 10,
+      "text": "第三，剩余价值的增减，永远是劳动力价值朝相反方向变化的结果，而不是这种变化的原因。"
+    },
+    {
+      "id": "ch15-s01-n0048",
+      "index": 47,
+      "paragraphIndex": 11,
+      "text": "这是因为，在这里的条件下，工作日长度不变，创造的价值总额也不变。"
+    },
+    {
+      "id": "ch15-s01-n0049",
+      "index": 48,
+      "paragraphIndex": 11,
+      "text": "剩余价值一变，劳动力价值就必须朝相反方向变化，而劳动力价值只有在劳动生产力变化时才会变化。"
+    },
+    {
+      "id": "ch15-s01-n0050",
+      "index": 49,
+      "paragraphIndex": 11,
+      "text": "因此，剩余价值的任何变化，都来自劳动力价值朝相反方向的变化。"
+    },
+    {
+      "id": "ch15-s01-n0051",
+      "index": 50,
+      "paragraphIndex": 11,
+      "text": "前面已经看到，劳动力价值和剩余价值的绝对数额要发生变化，它们各自在总额中所占的比例也必然变化。"
+    },
+    {
+      "id": "ch15-s01-n0052",
+      "index": 51,
+      "paragraphIndex": 11,
+      "text": "现在还可以进一步得出：只要两者的相对比例发生变化，劳动力价值的绝对数额就一定发生了变化。"
+    },
+    {
+      "id": "ch15-s01-n0053",
+      "index": 52,
+      "paragraphIndex": 12,
+      "text": "按照第三条规律，剩余价值要发生变化，必须先由劳动生产力的变化引起劳动力价值变化。"
+    },
+    {
+      "id": "ch15-s01-n0054",
+      "index": 53,
+      "paragraphIndex": 12,
+      "text": "剩余价值最多能变到什么程度，取决于劳动力的新价值。"
+    },
+    {
+      "id": "ch15-s01-n0055",
+      "index": 54,
+      "paragraphIndex": 12,
+      "text": "不过，即使具备了让这条规律发挥作用的条件，实际价格也可能停在中间。"
+    },
+    {
+      "id": "ch15-s01-n0056",
+      "index": 55,
+      "paragraphIndex": 12,
+      "text": "比如，劳动生产力提高，使劳动力价值从4先令降到3先令，必要劳动从8小时降到6小时，劳动力的价格却可能只降到3先令8便士、3先令6便士或3先令2便士等。"
+    },
+    {
+      "id": "ch15-s01-n0057",
+      "index": 56,
+      "paragraphIndex": 12,
+      "text": "这样，剩余价值就只升到2先令4便士、2先令6便士或2先令10便士等。"
+    },
+    {
+      "id": "ch15-s01-n0058",
+      "index": 57,
+      "paragraphIndex": 12,
+      "text": "劳动力价格最低可以降到3先令，但实际降到什么程度，取决于资本施加的压力和工人抵抗的力量哪一边更强。"
+    },
+    {
+      "id": "ch15-s01-n0059",
+      "index": 58,
+      "paragraphIndex": 13,
+      "text": "劳动力的价值由一定数量的生活必需品的价值决定。"
+    },
+    {
+      "id": "ch15-s01-n0060",
+      "index": 59,
+      "paragraphIndex": 13,
+      "text": "劳动生产力变化时，变化的是这些生活必需品的价值，不是它们的数量。"
+    },
+    {
+      "id": "ch15-s01-n0061",
+      "index": 60,
+      "paragraphIndex": 13,
+      "text": "生产力提高以后，工人和资本家得到的有用物品可以按同一比例增加，而劳动力价格和剩余价值之间的数量关系不必改变。"
+    },
+    {
+      "id": "ch15-s01-n0062",
+      "index": 61,
+      "paragraphIndex": 13,
+      "text": "假定劳动力价值原来是3先令，必要劳动是6小时，剩余价值也是3先令，剩余劳动也是6小时。"
+    },
+    {
+      "id": "ch15-s01-n0063",
+      "index": 62,
+      "paragraphIndex": 13,
+      "text": "如果劳动生产力提高一倍，而工作日仍按原来的比例分割，劳动力价格和剩余价值都会保持不变，只是两者各自对应的有用物品增加一倍，而每件物品的价值相应减半。"
+    },
+    {
+      "id": "ch15-s01-n0064",
+      "index": 63,
+      "paragraphIndex": 13,
+      "text": "劳动力的价格虽然不变，却已经高于它的新价值。"
+    },
+    {
+      "id": "ch15-s01-n0065",
+      "index": 64,
+      "paragraphIndex": 13,
+      "text": "它的新价值是1先令6便士。"
+    },
+    {
+      "id": "ch15-s01-n0066",
+      "index": 65,
+      "paragraphIndex": 13,
+      "text": "如果劳动力价格有所下降，却没有降到这个最低值，而只降到2先令10便士或2先令6便士等，这个降低了的价格仍然可以买到越来越多的生活必需品。"
+    },
+    {
+      "id": "ch15-s01-n0067",
+      "index": 66,
+      "paragraphIndex": 13,
+      "text": "这样，随着劳动生产力提高，劳动力价格可以不断下降，而工人得到的生活必需品仍可不断增加。"
+    },
+    {
+      "id": "ch15-s01-n0068",
+      "index": 67,
+      "paragraphIndex": 13,
+      "text": "但同剩余价值相比，劳动力价值所占的比例会不断下降，工人和资本家的生活状况也会越拉越开。"
+    },
+    {
+      "id": "ch15-s01-n0069",
+      "index": 68,
+      "paragraphIndex": 14,
+      "text": "最早严密表述以上三条规律的是李嘉图。"
+    },
+    {
+      "id": "ch15-s01-n0070",
+      "index": 69,
+      "paragraphIndex": 14,
+      "text": "不过，他的论述有两个缺陷。"
+    },
+    {
+      "id": "ch15-s01-n0071",
+      "index": 70,
+      "paragraphIndex": 14,
+      "text": "第一，他把这些规律成立所需的特殊条件，当成资本主义生产中理所当然、普遍而且唯一的条件。"
+    },
+    {
+      "id": "ch15-s01-n0072",
+      "index": 71,
+      "paragraphIndex": 14,
+      "text": "他没有考虑工作日长度和劳动强度会发生变化，于是劳动生产力自然成了唯一的变量。"
+    },
+    {
+      "id": "ch15-s01-n0073",
+      "index": 72,
+      "paragraphIndex": 14,
+      "text": "第二个缺陷对他的分析影响更大。"
+    },
+    {
+      "id": "ch15-s01-n0074",
+      "index": 73,
+      "paragraphIndex": 14,
+      "text": "他和其他经济学家一样，从未把剩余价值本身作为独立对象来研究，而总是直接研究利润、地租等具体形式。"
+    },
+    {
+      "id": "ch15-s01-n0075",
+      "index": 74,
+      "paragraphIndex": 14,
+      "text": "因此，他把剩余价值率的规律同利润率的规律混在了一起。"
+    },
+    {
+      "id": "ch15-s01-n0076",
+      "index": 75,
+      "paragraphIndex": 14,
+      "text": "前面说过，利润率是剩余价值同预付总资本的比率，剩余价值率则是剩余价值同资本中可变部分的比率。"
+    },
+    {
+      "id": "ch15-s01-n0077",
+      "index": 76,
+      "paragraphIndex": 14,
+      "text": "假定预付总资本为500英镑，记作 C。"
+    },
+    {
+      "id": "ch15-s01-n0078",
+      "index": 77,
+      "paragraphIndex": 14,
+      "text": "其中原料、劳动工具等共400英镑，记作 c，工资100英镑，记作 v，剩余价值也是100英镑，记作 m。"
+    },
+    {
+      "id": "ch15-s01-n0079",
+      "index": 78,
+      "paragraphIndex": 14,
+      "text": "那么，剩余价值率是 m/v=100分之100=100百分号，利润率则是 m/C=500分之100=20百分号。"
+    },
+    {
+      "id": "ch15-s01-n0080",
+      "index": 79,
+      "paragraphIndex": 14,
+      "text": "而且，利润率还可能受一些完全不影响剩余价值率的因素影响。"
+    },
+    {
+      "id": "ch15-s01-n0081",
+      "index": 80,
+      "paragraphIndex": 14,
+      "text": "本书第三卷会证明：同一个剩余价值率可以表现为各种不同的利润率。"
+    },
+    {
+      "id": "ch15-s01-n0082",
+      "index": 81,
+      "paragraphIndex": 14,
+      "text": "在一定条件下，不同的剩余价值率也可以表现为同一个利润率。"
+    }
+  ]
 }

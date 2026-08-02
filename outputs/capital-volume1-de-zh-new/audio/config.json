@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "provider": "volcengine",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "model": "seed-audio-1.0",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "audio_config": {
+    "format": "mp3",
+    "sample_rate": 48000,
+    "pitch_rate": 0,
+    "speech_rate": 0,
+    "loudness_rate": 0,
+    "enable_subtitle": true
+  },
+  "chunking": {
+    "maximum_characters": 340,
+    "maximum_sentences": 6
+  },
+  "generation_concurrency": 3,
+  "prompt": "请以沉稳、克制、清晰的中文有声书旁白朗读下面的正文。语气理性，不夸张；概念之间自然停顿；不要添加、删减或改写文字。"
+}

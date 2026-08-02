@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0001",
+  "audio_file": "c0001.mp3",
+  "text_sha256": "d8267248298a9991812d17f0f440153d1ba00d8827d87c594cd84f5b3eebcce6",
+  "request_id": "2fc2c823-b073-4e90-9df2-573569ac6533",
+  "log_id": "202608022104413FE8535304ACD45F354E",
+  "duration_seconds": 44,
+  "bytes": 704684,
+  "audio_sha256": "c30b31f4a6aaebe9150d46d6cb8ae513c6d20d21a76edd20759ce8375261bee1",
+  "sentences": [
+    {
+      "id": "ch07-s04-n0001",
+      "text": "在第二节的例子中，20 磅纱里有 2 磅，也就是产品的 10分之1，代表剩余价值。",
+      "start_ms": 0,
+      "end_ms": 8568,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch07-s04-n0002",
+      "text": "我们把这部分产品称为“剩余产品”。",
+      "start_ms": 8568,
+      "end_ms": 12505,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch07-s04-n0003",
+      "text": "剩余价值率不是用剩余价值同全部资本相比，而是用它同可变资本相比。",
+      "start_ms": 12505,
+      "end_ms": 19916,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch07-s04-n0004",
+      "text": "同样，衡量剩余产品，也不是拿它同产品的其余部分相比，而是拿它同代表必要劳动的那部分产品相比。",
+      "start_ms": 19916,
+      "end_ms": 30568,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch07-s04-n0005",
+      "text": "资本主义生产的决定性目的，是生产剩余价值。",
+      "start_ms": 30568,
+      "end_ms": 35432,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch07-s04-n0006",
+      "text": "因此，衡量财富程度的不是产品的绝对数量，而是剩余产品相对于必要产品有多大。",
+      "start_ms": 35432,
+      "end_ms": 44000,
+      "timing_source": "duration_interpolation"
+    }
+  ]
+}

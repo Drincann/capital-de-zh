@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
 
@@ -13,6 +14,52 @@ function parseJsonl(text) {
     .split(/\r?\n/)
     .filter((line) => line.trim())
     .map((line) => JSON.parse(line));
+}
+
+function sha256(value) {
+  return createHash("sha256").update(value).digest("hex");
+}
+
+function audioStateFor(version, unitId, adoptedVersionId, audioVersions) {
+  const exact = audioVersions
+    .filter(
+      (audio) =>
+        audio.unit_id === unitId &&
+        audio.translation_version_id === version.id &&
+        audio.translation_sha256 === version.translationSha256
+    )
+    .sort((left, right) =>
+      String(right.updated_at || "").localeCompare(
+        String(left.updated_at || "")
+      )
+    )[0];
+  const hasOlderAudio = audioVersions.some(
+    (audio) => audio.unit_id === unitId && audio.status === "ready"
+  );
+  const status = exact?.status || (hasOlderAudio ? "stale" : "missing");
+  const labels = {
+    ready: "语音已完成",
+    generating: "语音生成中",
+    failed: "语音生成失败",
+    stale: "译文已更新",
+    missing: "暂无语音",
+  };
+  return {
+    status,
+    label: labels[status] || status,
+    exact: Boolean(exact),
+    adopted: version.id === adoptedVersionId,
+    canGenerate:
+      version.id === adoptedVersionId &&
+      !["ready", "generating"].includes(status),
+    audioVersionId: exact?.audio_version_id || "",
+    completedChunks: Number(exact?.completed_chunks || 0),
+    chunkCount: Number(exact?.chunk_count || 0),
+    sentenceCount: Number(exact?.sentence_count || 0),
+    durationMs: Number(exact?.duration_ms || 0),
+    updatedAt: exact?.updated_at || "",
+    error: exact?.error || "",
+  };
 }
 
 export function collapseIdenticalVersions(versions) {
@@ -132,6 +179,7 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
   const adoptionsPath = path.join(root, "manifests", "adoptions.json");
   const releasesPath = path.join(root, "manifests", "releases.jsonl");
   const eventsPath = path.join(root, "progress", "events.jsonl");
+  const audioIndexPath = path.join(root, "audio", "index.json");
 
   const [
     projectText,
@@ -143,6 +191,7 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
     adoptionsText,
     releasesText,
     eventsText,
+    audioIndexText,
   ] = await Promise.all([
     readFile(projectPath, "utf8"),
     readFile(outlinePath, "utf8"),
@@ -153,6 +202,7 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
     optionalText(adoptionsPath),
     optionalText(releasesPath),
     readFile(eventsPath, "utf8"),
+    optionalText(audioIndexPath),
   ]);
 
   const project = JSON.parse(projectText);
@@ -164,6 +214,10 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
   const adoptions = adoptionsText.trim() ? JSON.parse(adoptionsText) : {};
   const releases = parseJsonl(releasesText);
   const events = parseJsonl(eventsText);
+  const audioIndex = audioIndexText.trim()
+    ? JSON.parse(audioIndexText)
+    : { audio_versions: [], jobs: [] };
+  const audioVersions = audioIndex.audio_versions || [];
   const controllerById = new Map(
     controllerChapters.map((chapter) => [chapter.chapter_id, chapter])
   );
@@ -210,24 +264,37 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
           : { id: "in_progress", label: "审核中", progress: 94 };
       }
       const versionPreviews = await Promise.all(
-        recordedVersions.map(async (version) => ({
-          id: version.version_id,
-          number: Number(version.number),
-          label: `第 ${Number(version.number)} 版`,
-          status:
-            adoptions[definition.unit_id] === version.version_id
-              ? "已采用"
-              : "可选",
-          adopted: adoptions[definition.unit_id] === version.version_id,
-          updatedAt: version.created_at || "",
-          taskCount: (version.source_task_revisions || []).length,
-          summary: version.summary || "",
-          reviewStatus: version.review_status || "",
-          reviewNote: version.review_note || "",
-          preview: (
-            await optionalText(projectFile(root, version.artifact_path))
-          ).trim(),
-        }))
+        recordedVersions.map(async (version) => {
+          const artifact = await optionalText(
+            projectFile(root, version.artifact_path)
+          );
+          const base = {
+            id: version.version_id,
+            number: Number(version.number),
+            label: `第 ${Number(version.number)} 版`,
+            status:
+              adoptions[definition.unit_id] === version.version_id
+                ? "已采用"
+                : "可选",
+            adopted: adoptions[definition.unit_id] === version.version_id,
+            updatedAt: version.created_at || "",
+            taskCount: (version.source_task_revisions || []).length,
+            summary: version.summary || "",
+            reviewStatus: version.review_status || "",
+            reviewNote: version.review_note || "",
+            preview: artifact.trim(),
+            translationSha256: artifact ? sha256(artifact) : "",
+          };
+          return {
+            ...base,
+            audio: audioStateFor(
+              base,
+              definition.unit_id,
+              adoptedVersionId,
+              audioVersions
+            ),
+          };
+        })
       );
       const versions = collapseIdenticalVersions(versionPreviews);
       const current =
@@ -274,6 +341,13 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
               (task) => task.revision === version.number
             ).length,
         })),
+        audio: current?.audio || {
+          status: "missing",
+          label: "暂无语音",
+          exact: false,
+          adopted: false,
+          canGenerate: false,
+        },
       };
     })
   );
@@ -418,6 +492,7 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
     unitVersionsPath,
     adoptionsPath,
     eventsPath,
+    audioIndexPath,
     ...activeUnits
       .map((unit) => unit.output_path)
       .filter(Boolean)
@@ -457,6 +532,11 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
       ).length,
       completedUnitCount: completedUnits,
       versionCount,
+      readyAudioCount: audioVersions.filter((item) => item.status === "ready")
+        .length,
+      generatingAudioCount: audioVersions.filter(
+        (item) => item.status === "generating"
+      ).length,
       frontMatterCount: frontMatter.length,
     },
     frontMatter,

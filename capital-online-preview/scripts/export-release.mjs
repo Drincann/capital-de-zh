@@ -1,9 +1,19 @@
-import { access, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import {
+  access,
+  copyFile,
+  mkdir,
+  readFile,
+  readdir,
+  rm,
+  writeFile,
+} from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import katex from "katex";
 import MarkdownIt from "markdown-it";
 import footnote from "markdown-it-footnote";
+import { extractNarrationSentences } from "./narration-export.mjs";
 
 const appRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const projectRoot = path.resolve(
@@ -12,6 +22,7 @@ const projectRoot = path.resolve(
 );
 const generatedRoot = path.join(appRoot, "generated");
 const contentRoot = path.join(appRoot, "public", "content");
+const publicAudioRoot = path.join(appRoot, "public", "audio");
 const manifestPath = path.join(generatedRoot, "release-manifest.json");
 const prefaceSourcePath = path.join(
   appRoot,
@@ -42,6 +53,18 @@ function parseJsonLines(value) {
     .map((line) => line.trim())
     .filter(Boolean)
     .map((line) => JSON.parse(line));
+}
+
+function sha256(value) {
+  return createHash("sha256").update(value).digest("hex");
+}
+
+async function optionalJson(file) {
+  try {
+    return JSON.parse(await readFile(file, "utf8"));
+  } catch {
+    return null;
+  }
 }
 
 function stripLeadingDocumentHeadings(value) {
@@ -154,6 +177,10 @@ const versionById = new Map(
   versions.map((version) => [version.version_id, version]),
 );
 const unitsByChapter = new Map();
+const audioIndex =
+  (await optionalJson(path.join(projectRoot, "audio", "index.json"))) || {
+    audio_versions: [],
+  };
 
 for (const unit of units) {
   const list = unitsByChapter.get(unit.chapter_id) || [];
@@ -165,7 +192,9 @@ for (const list of unitsByChapter.values()) {
 }
 
 await rm(contentRoot, { recursive: true, force: true });
+await rm(publicAudioRoot, { recursive: true, force: true });
 await mkdir(contentRoot, { recursive: true });
+await mkdir(publicAudioRoot, { recursive: true });
 await mkdir(generatedRoot, { recursive: true });
 
 const prefaceMarkdown = stripLeadingDocumentHeadings(
@@ -177,6 +206,12 @@ const prefaceHtml = md
     /<p>ChatGPT<\/p>\s*$/,
     '<footer class="translator-signature"><strong>ChatGPT</strong><time datetime="2026-07">2026年7月</time></footer>',
   );
+const prefaceSentences = extractNarrationSentences(
+  prefaceMarkdown,
+  md,
+  "translator-preface",
+);
+const prefaceSha256 = sha256(await readFile(prefaceSourcePath));
 const preface = {
   id: "translator-preface",
   number: 0,
@@ -191,8 +226,10 @@ await writeFile(
       unitId: preface.id,
       chapterId: "front-matter",
       versionId: preface.versionId,
+      translationSha256: prefaceSha256,
       title: preface.title,
       html: prefaceHtml,
+      sentences: prefaceSentences,
     },
     null,
     2,
@@ -220,8 +257,54 @@ for (const part of outline.parts || []) {
       const markdown = stripLeadingDocumentHeadings(
         await readFile(artifactPath, "utf8"),
       );
+      const translationSha256 = sha256(await readFile(artifactPath));
       const html = md.render(markdown);
+      const sentences = extractNarrationSentences(markdown, md, unit.unit_id);
       const contentFile = safeFileName(unit.unit_id);
+      const audioRecord = (audioIndex.audio_versions || [])
+        .filter(
+          (record) =>
+            record.status === "ready" &&
+            record.unit_id === unit.unit_id &&
+            record.translation_version_id === versionId &&
+            record.translation_sha256 === translationSha256,
+        )
+        .sort((left, right) =>
+          String(right.created_at || "").localeCompare(
+            String(left.created_at || ""),
+          ),
+        )[0];
+      let audioManifestPath;
+
+      if (audioRecord?.manifest_path) {
+        const sourceManifestPath = path.join(
+          projectRoot,
+          audioRecord.manifest_path,
+        );
+        const audioManifest = await optionalJson(sourceManifestPath);
+        if (
+          audioManifest?.status === "ready" &&
+          audioManifest.translation_version_id === versionId &&
+          audioManifest.translation_sha256 === translationSha256
+        ) {
+          const destination = path.join(
+            publicAudioRoot,
+            audioRecord.audio_version_id,
+          );
+          await mkdir(destination, { recursive: true });
+          for (const chunk of audioManifest.chunks || []) {
+            await copyFile(
+              path.join(path.dirname(sourceManifestPath), chunk.audio_file),
+              path.join(destination, path.basename(chunk.audio_file)),
+            );
+          }
+          await copyFile(
+            sourceManifestPath,
+            path.join(destination, "manifest.json"),
+          );
+          audioManifestPath = `/audio/${audioRecord.audio_version_id}/manifest.json`;
+        }
+      }
 
       await writeFile(
         path.join(contentRoot, contentFile),
@@ -230,8 +313,11 @@ for (const part of outline.parts || []) {
             unitId: unit.unit_id,
             chapterId: chapter.chapter_id,
             versionId,
+            translationSha256,
             title: unit.title_zh,
             html,
+            sentences,
+            audioManifestPath,
           },
           null,
           2,
@@ -245,6 +331,7 @@ for (const part of outline.parts || []) {
         title: unit.title_zh,
         versionId,
         contentPath: `/content/${contentFile}`,
+        audioManifestPath,
       });
       publishedSectionCount += 1;
     }

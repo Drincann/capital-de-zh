@@ -1,7 +1,7 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-02T11:20:00.931Z",
+  "generatedAt": "2026-08-02T14:10:11.423Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 16,
@@ -211,7 +211,8 @@
               "number": 4,
               "title": "剩余产品",
               "versionId": "ch07-s04-v1",
-              "contentPath": "/content/ch07-s04.json"
+              "contentPath": "/content/ch07-s04.json",
+              "audioManifestPath": "/audio/ch07-s04-v1-audio-0edb73e87b93/manifest.json"
             }
           ]
         },

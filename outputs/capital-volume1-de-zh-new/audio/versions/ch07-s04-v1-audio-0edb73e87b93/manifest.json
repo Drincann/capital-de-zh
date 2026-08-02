@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch07-s04-v1-audio-0edb73e87b93",
+  "unit_id": "ch07-s04",
+  "translation_version_id": "ch07-s04-v1",
+  "translation_sha256": "20d6c9e50c4a49eb9c2e49e0cb38e08f7f8f2b05060cae98794ba19d3993ccdc",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T13:04:40.809Z",
+  "completed_at": "2026-08-02T13:05:22.616Z",
+  "duration_ms": 61285,
+  "sentence_count": 8,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 44000,
+      "bytes": 704684,
+      "sha256": "c30b31f4a6aaebe9150d46d6cb8ae513c6d20d21a76edd20759ce8375261bee1",
+      "sentence_ids": [
+        "ch07-s04-n0001",
+        "ch07-s04-n0002",
+        "ch07-s04-n0003",
+        "ch07-s04-n0004",
+        "ch07-s04-n0005",
+        "ch07-s04-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 17285,
+      "bytes": 277292,
+      "sha256": "ea4dfd207112d0a8edbd531b0b7bc59ca9196646a20748d396ab1b9f32ba5e02",
+      "sentence_ids": [
+        "ch07-s04-n0007",
+        "ch07-s04-n0008"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch07-s04-n0001",
+      "text": "在第二节的例子中，20 磅纱里有 2 磅，也就是产品的 10分之1，代表剩余价值。",
+      "start_ms": 0,
+      "end_ms": 8568,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s04-n0002",
+      "text": "我们把这部分产品称为“剩余产品”。",
+      "start_ms": 8568,
+      "end_ms": 12505,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s04-n0003",
+      "text": "剩余价值率不是用剩余价值同全部资本相比，而是用它同可变资本相比。",
+      "start_ms": 12505,
+      "end_ms": 19916,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s04-n0004",
+      "text": "同样，衡量剩余产品，也不是拿它同产品的其余部分相比，而是拿它同代表必要劳动的那部分产品相比。",
+      "start_ms": 19916,
+      "end_ms": 30568,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s04-n0005",
+      "text": "资本主义生产的决定性目的，是生产剩余价值。",
+      "start_ms": 30568,
+      "end_ms": 35432,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s04-n0006",
+      "text": "因此，衡量财富程度的不是产品的绝对数量，而是剩余产品相对于必要产品有多大。",
+      "start_ms": 35432,
+      "end_ms": 44000,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s04-n0007",
+      "text": "必要劳动和剩余劳动加在一起，就是工人的全部劳动时间，也就是一个工作日。",
+      "start_ms": 0,
+      "end_ms": 6875,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s04-n0008",
+      "text": "换句话说，在工作日的一部分时间里，工人生产出补回自身劳动力价值的等价物；在另一部分时间里，他生产剩余价值。",
+      "start_ms": 6875,
+      "end_ms": 17285,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    }
+  ]
+}

@@ -25,6 +25,9 @@ test("interface stays focused on catalog, versions and reading", async () => {
   assert.match(html, />版本</);
   assert.match(html, /\/api\/state/);
   assert.match(html, /\/api\/adopt/);
+  assert.match(html, /\/api\/audio\/generate/);
+  assert.match(html, /生成语音/);
+  assert.match(html, /audio-status/);
   assert.match(html, /采用此版本/);
   assert.match(html, /stripLeadingDocumentHeadings/);
   assert.match(html, /data-theme="dark"/);
@@ -300,6 +303,14 @@ test("chapter and section state reflects current review tasks and saved versions
     assert.match(terminalReviewSection.versions.at(-1).reviewNote, /13岁/);
   }
   assert.notEqual(terminalReviewSection.preview, "");
+  const voiced = chapters
+    .flatMap((chapter) => chapter.sections)
+    .find((section) => section.unit_id === "ch07-s04");
+  assert.equal(voiced.adoptedVersionId, "ch07-s04-v1");
+  assert.equal(voiced.audio.status, "ready");
+  assert.equal(voiced.audio.exact, true);
+  assert.equal(voiced.audio.canGenerate, false);
+  assert.equal(voiced.audio.chunkCount, 2);
 });
 
 test("adoption marker validates the unit and persists locally", async () => {

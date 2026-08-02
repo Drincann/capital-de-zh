@@ -129,6 +129,64 @@ test("发布快照只包含正式采用的版本", async () => {
   );
 });
 
+test("语音只随完全匹配的采用版本发布", async () => {
+  const [manifest, audioIndex] = await Promise.all([
+    readFile(new URL("generated/release-manifest.json", appRoot), "utf8").then(
+      JSON.parse,
+    ),
+    readFile(new URL("audio/index.json", projectRoot), "utf8").then(JSON.parse),
+  ]);
+  const sections = manifest.parts.flatMap((part) =>
+    part.chapters.flatMap((chapter) => chapter.sections),
+  );
+  const voiced = sections.filter((section) => section.audioManifestPath);
+  assert.ok(voiced.length > 0);
+
+  for (const section of voiced) {
+    const content = JSON.parse(
+      await readFile(
+        new URL(section.contentPath.replace(/^\//, "public/"), appRoot),
+        "utf8",
+      ),
+    );
+    const audio = JSON.parse(
+      await readFile(
+        new URL(section.audioManifestPath.replace(/^\//, "public/"), appRoot),
+        "utf8",
+      ),
+    );
+    const record = audioIndex.audio_versions.find(
+      (item) => item.audio_version_id === audio.audio_version_id,
+    );
+    assert.equal(audio.status, "ready");
+    assert.equal(audio.unit_id, section.id);
+    assert.equal(audio.translation_version_id, section.versionId);
+    assert.equal(audio.translation_sha256, content.translationSha256);
+    assert.equal(record.status, "ready");
+    assert.equal(content.audioManifestPath, section.audioManifestPath);
+    assert.ok(content.sentences.length > 0);
+    assert.equal(audio.sentences.length, content.sentences.length);
+  }
+});
+
+test("语音阅读支持逐句定位、按需加载和移动端控制", async () => {
+  const [reader, audioReader, css] = await Promise.all([
+    readFile(new URL("app/ReaderApp.tsx", appRoot), "utf8"),
+    readFile(new URL("app/AudioReader.tsx", appRoot), "utf8"),
+    readFile(new URL("app/globals.css", appRoot), "utf8"),
+  ]);
+  assert.match(reader, /<AudioReader/);
+  assert.match(audioReader, /data-narration-sentence/);
+  assert.match(audioReader, /preload="metadata"/);
+  assert.match(audioReader, /rel = "prefetch"/);
+  assert.match(audioReader, /translation_sha256 !== translationSha256/);
+  assert.match(audioReader, /mediaSession/);
+  assert.match(audioReader, /playbackRate/);
+  assert.match(css, /\.narration-current/);
+  assert.match(css, /env\(safe-area-inset-bottom\)/);
+  assert.match(css, /\.reading-pane:has\(\.narration-player\)/);
+});
+
 test("统计数据库不保存访问明细和原始环境信息", async () => {
   const [schema, analytics] = await Promise.all([
     readFile(new URL("db/schema.ts", appRoot), "utf8"),

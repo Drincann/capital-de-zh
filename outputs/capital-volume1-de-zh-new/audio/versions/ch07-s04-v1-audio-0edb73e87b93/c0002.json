@@ -1,0 +1,26 @@
+{
+  "chunk_id": "c0002",
+  "audio_file": "c0002.mp3",
+  "text_sha256": "011ab2464df57bad6ace5f0ca73138d0dd9b635aaf7518b3f4a4bdcfbc9abd37",
+  "request_id": "1955d488-7013-4b22-9bad-db998df4ca9f",
+  "log_id": "2026080221044117AEF2CBC7D56B934B6D",
+  "duration_seconds": 17.285225,
+  "bytes": 277292,
+  "audio_sha256": "ea4dfd207112d0a8edbd531b0b7bc59ca9196646a20748d396ab1b9f32ba5e02",
+  "sentences": [
+    {
+      "id": "ch07-s04-n0007",
+      "text": "必要劳动和剩余劳动加在一起，就是工人的全部劳动时间，也就是一个工作日。",
+      "start_ms": 0,
+      "end_ms": 6875,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch07-s04-n0008",
+      "text": "换句话说，在工作日的一部分时间里，工人生产出补回自身劳动力价值的等价物；在另一部分时间里，他生产剩余价值。",
+      "start_ms": 6875,
+      "end_ms": 17285,
+      "timing_source": "duration_interpolation"
+    }
+  ]
+}

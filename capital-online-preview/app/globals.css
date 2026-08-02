@@ -567,6 +567,204 @@ html::-webkit-scrollbar {
   }
 }
 
+/* Sentence-aligned audio reading */
+.narration-availability {
+  min-height: 30px;
+  margin: -34px 0 34px;
+  color: var(--muted);
+  font: 0.72rem/1.4 ui-sans-serif, system-ui, sans-serif;
+}
+
+.narration-availability button {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--panel) 78%, transparent);
+  cursor: pointer;
+}
+
+.narration-availability button:hover {
+  border-color: color-mix(in srgb, var(--accent) 44%, var(--line));
+  background: color-mix(in srgb, var(--accent) 7%, var(--panel));
+}
+
+.narration-availability.missing,
+.narration-availability.error {
+  color: color-mix(in srgb, var(--muted) 76%, transparent);
+}
+
+.prose.narration-ready [data-narration-sentence] {
+  border-radius: 0.22em;
+  box-decoration-break: clone;
+  cursor: pointer;
+  transition:
+    color 130ms ease,
+    background-color 130ms ease,
+    box-shadow 130ms ease;
+  -webkit-box-decoration-break: clone;
+}
+
+.prose.narration-ready [data-narration-sentence]:hover {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+.prose.narration-ready [data-narration-primary]:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 60%, transparent);
+  outline-offset: 2px;
+}
+
+.prose [data-narration-sentence].narration-current {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  box-shadow: 0 0 0 0.12em color-mix(in srgb, var(--accent) 7%, transparent);
+}
+
+.narration-player {
+  position: fixed;
+  right: 20px;
+  bottom: max(18px, env(safe-area-inset-bottom));
+  left: calc(var(--catalog-width, 310px) + 20px);
+  z-index: 62;
+  width: min(760px, calc(100vw - var(--catalog-width, 310px) - 40px));
+  margin: 0 auto;
+  padding: 11px 16px 13px;
+  border: 1px solid color-mix(in srgb, var(--line) 84%, transparent);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--panel) 94%, transparent);
+  box-shadow: 0 12px 38px rgba(31, 24, 18, 0.18);
+  backdrop-filter: blur(18px);
+}
+
+.catalog-collapsed .narration-player {
+  left: 20px;
+  width: min(760px, calc(100vw - 40px));
+}
+
+.narration-progress-row {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) 34px;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font: 0.66rem/1 ui-sans-serif, system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.narration-progress-row span:last-child {
+  text-align: right;
+}
+
+.narration-progress-row input {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.narration-controls {
+  display: grid;
+  grid-template-columns: 32px 38px 32px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 7px;
+  margin-top: 7px;
+}
+
+.narration-controls button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  color: var(--ink);
+  background: transparent;
+  cursor: pointer;
+  font: 1.3rem/1 ui-sans-serif, system-ui, sans-serif;
+}
+
+.narration-controls button:hover {
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+}
+
+.narration-controls .narration-play {
+  width: 38px;
+  height: 38px;
+  color: var(--paper);
+  background: var(--ink);
+  font-size: 0.85rem;
+}
+
+.narration-controls .narration-play:hover {
+  background: color-mix(in srgb, var(--ink) 88%, var(--accent));
+}
+
+.narration-controls p {
+  min-width: 0;
+  margin: 0 8px;
+  overflow: hidden;
+  color: var(--muted);
+  font: 0.78rem/1.45 ui-sans-serif, system-ui, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.narration-controls select {
+  min-height: 30px;
+  padding: 0 7px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: var(--paper);
+  font: 0.72rem/1 ui-sans-serif, system-ui, sans-serif;
+}
+
+@media (max-width: 900px) {
+  .narration-player,
+  .catalog-collapsed .narration-player {
+    right: 12px;
+    bottom: max(10px, env(safe-area-inset-bottom));
+    left: 12px;
+    width: auto;
+  }
+
+  .reading-pane:has(.narration-player) {
+    padding-bottom: 176px;
+  }
+}
+
+@media (max-width: 580px) {
+  .narration-availability {
+    margin: -24px 0 28px;
+  }
+
+  .narration-player,
+  .catalog-collapsed .narration-player {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 9px 12px calc(10px + env(safe-area-inset-bottom));
+    border-width: 1px 0 0;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .narration-controls {
+    grid-template-columns: 34px 40px 34px minmax(0, 1fr) auto;
+    gap: 4px;
+  }
+
+  .narration-controls p {
+    margin: 0 4px;
+    font-size: 0.72rem;
+  }
+
+  .narration-controls select {
+    max-width: 58px;
+    padding-inline: 4px;
+  }
+}
+
 .catalog-head {
   display: flex;
   align-items: baseline;

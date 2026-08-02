@@ -2,6 +2,7 @@
 
 import FingerprintJS from "@fingerprintjs/fingerprintjs";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { AudioReader, type NarrationSentence } from "@/app/AudioReader";
 import { ReaderNotes, type ReaderViewer } from "@/app/ReaderNotes";
 
 type ReleaseSection = {
@@ -10,6 +11,7 @@ type ReleaseSection = {
   title: string;
   versionId: string;
   contentPath: string;
+  audioManifestPath?: string;
 };
 
 type ReleaseChapter = {
@@ -56,6 +58,9 @@ type PublishedContent = {
   versionId: string;
   title: string;
   html: string;
+  translationSha256: string;
+  sentences: NarrationSentence[];
+  audioManifestPath?: string;
 };
 
 type ParagraphMarker = {
@@ -937,6 +942,20 @@ export function ReaderApp({
                 <h2>{selected.title}</h2>
               </>
             )}
+
+            {!loading && !contentError && content ? (
+              <AudioReader
+                key={`${selected.id}:${content.versionId}`}
+                sectionId={selected.id}
+                versionId={content.versionId}
+                translationSha256={content.translationSha256}
+                title={selected.title}
+                audioManifestPath={
+                  content.audioManifestPath || selected.audioManifestPath
+                }
+                sentences={content.sentences || []}
+              />
+            ) : null}
 
             {loading ? (
               <div

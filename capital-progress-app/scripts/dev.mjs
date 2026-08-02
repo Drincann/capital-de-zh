@@ -59,6 +59,63 @@ const server = http.createServer(async (request, response) => {
       response.end(JSON.stringify({ ok: true, ...result }));
       return;
     }
+    if (url.pathname === "/api/audio/generate" && request.method === "POST") {
+      const body = await readJsonBody(request);
+      if (typeof body.unitId !== "string" || !body.unitId.trim()) {
+        response.writeHead(400, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "缺少翻译单元" }));
+        return;
+      }
+      const state = await createProgressState(projectRoot);
+      const unit = [...(state.frontMatter || []), ...state.parts]
+        .flatMap((item) =>
+          item.chapters
+            ? item.chapters.flatMap((chapter) => chapter.sections || [])
+            : item.sections || []
+        )
+        .find((item) => item.unit_id === body.unitId);
+      if (!unit?.adoptedVersionId) {
+        response.writeHead(409, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "这一节还没有采用版本" }));
+        return;
+      }
+      if (unit.audio?.status === "generating") {
+        response.writeHead(409, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "这一节的语音正在生成" }));
+        return;
+      }
+      const controller = path.join(
+        projectRoot,
+        "audio",
+        "scripts",
+        "audio-controller.mjs"
+      );
+      const child = spawn(
+        process.execPath,
+        [controller, "generate", "--unit", body.unitId],
+        {
+          cwd: root,
+          detached: true,
+          stdio: "ignore",
+          windowsHide: true,
+        }
+      );
+      child.unref();
+      response.writeHead(202, {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store",
+      });
+      response.end(
+        JSON.stringify({ ok: true, unitId: body.unitId, pid: child.pid })
+      );
+      return;
+    }
     if (url.pathname === "/health") {
       response.writeHead(200, {
         "content-type": "application/json; charset=utf-8",

@@ -1,0 +1,4 @@
+{"at":"2026-08-02T13:04:40.811Z","job_id":"audio-job-1785675880809-04bd05ad","unit_id":"ch07-s04","status":"started"}
+{"at":"2026-08-02T13:05:14.982Z","job_id":"audio-job-1785675880809-04bd05ad","unit_id":"ch07-s04","status":"chunk_ready","chunk_id":"c0002","completed_chunks":1,"chunk_count":2}
+{"at":"2026-08-02T13:05:22.615Z","job_id":"audio-job-1785675880809-04bd05ad","unit_id":"ch07-s04","status":"chunk_ready","chunk_id":"c0001","completed_chunks":2,"chunk_count":2}
+{"at":"2026-08-02T13:05:22.619Z","job_id":"audio-job-1785675880809-04bd05ad","unit_id":"ch07-s04","status":"ready"}

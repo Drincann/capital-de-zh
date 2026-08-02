@@ -2,6 +2,58 @@
   "unitId": "ch07-s04",
   "chapterId": "ch07",
   "versionId": "ch07-s04-v1",
+  "translationSha256": "20d6c9e50c4a49eb9c2e49e0cb38e08f7f8f2b05060cae98794ba19d3993ccdc",
   "title": "剩余产品",
-  "html": "<p>在第二节的例子中，20 磅纱里有 2 磅，也就是产品的 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mi mathvariant=\"normal\">/</mi><mn>10</mn></mrow><annotation encoding=\"application/x-tex\">1/10</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">1/10</span></span></span></span>，代表剩余价值。我们把这部分产品称为“剩余产品”。剩余价值率不是用剩余价值同全部资本相比，而是用它同可变资本相比。同样，衡量剩余产品，也不是拿它同产品的其余部分相比，而是拿它同代表必要劳动的那部分产品相比。资本主义生产的决定性目的，是生产剩余价值。因此，衡量财富程度的不是产品的绝对数量，而是剩余产品相对于必要产品有多大。<sup class=\"footnote-ref\"><a href=\"#fn1\" id=\"fnref1\">[1]</a></sup></p>\n<p>必要劳动和剩余劳动加在一起，就是工人的全部劳动时间，也就是一个工作日。换句话说，在工作日的一部分时间里，工人生产出补回自身劳动力价值的等价物；在另一部分时间里，他生产剩余价值。</p>\n<hr class=\"footnotes-sep\">\n<section class=\"footnotes\">\n<ol class=\"footnotes-list\">\n<li id=\"fn1\" class=\"footnote-item\"><p>李嘉图写道：“假设一个人拥有 20,000 英镑资本，每年获得 2,000 英镑利润。只要利润始终不少于 2,000 英镑，他的资本雇用 100 人还是 1,000 人，生产的商品卖 10,000 英镑还是 20,000 英镑，对他都完全没有区别。一个国家的真实利益不也是这样吗？只要它的实际净收入，也就是地租和利润，保持不变，这个国家有 1,000 万还是 1,200 万人口，根本无关紧要。”——李嘉图，前引书，第 416 页。早在李嘉图以前，极力推崇剩余产品的阿瑟·杨就说过：“在一个现代王国里，如果有整整一个省，土地像古罗马时代那样由独立小农耕种，即使耕种得再好，又有什么用呢？除了生育人口以外没有别的用处，而生育人口本身毫无用处。”杨是一个啰唆而缺乏批判力的作者，他的名声和他的实际贡献恰好成反比。——阿瑟·杨，《政治算术》，伦敦，1774 年，第 47 页。后来，托马斯·霍普金斯又指出一种奇怪的倾向：人们总想把净财富说成对劳动阶级有利，尽管这种好处显然并不来自它是“净”财富。——托马斯·霍普金斯，《论地租》，伦敦，1828 年，第 126 页。 <a href=\"#fnref1\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n</ol>\n</section>\n"
+  "html": "<p>在第二节的例子中，20 磅纱里有 2 磅，也就是产品的 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mi mathvariant=\"normal\">/</mi><mn>10</mn></mrow><annotation encoding=\"application/x-tex\">1/10</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">1/10</span></span></span></span>，代表剩余价值。我们把这部分产品称为“剩余产品”。剩余价值率不是用剩余价值同全部资本相比，而是用它同可变资本相比。同样，衡量剩余产品，也不是拿它同产品的其余部分相比，而是拿它同代表必要劳动的那部分产品相比。资本主义生产的决定性目的，是生产剩余价值。因此，衡量财富程度的不是产品的绝对数量，而是剩余产品相对于必要产品有多大。<sup class=\"footnote-ref\"><a href=\"#fn1\" id=\"fnref1\">[1]</a></sup></p>\n<p>必要劳动和剩余劳动加在一起，就是工人的全部劳动时间，也就是一个工作日。换句话说，在工作日的一部分时间里，工人生产出补回自身劳动力价值的等价物；在另一部分时间里，他生产剩余价值。</p>\n<hr class=\"footnotes-sep\">\n<section class=\"footnotes\">\n<ol class=\"footnotes-list\">\n<li id=\"fn1\" class=\"footnote-item\"><p>李嘉图写道：“假设一个人拥有 20,000 英镑资本，每年获得 2,000 英镑利润。只要利润始终不少于 2,000 英镑，他的资本雇用 100 人还是 1,000 人，生产的商品卖 10,000 英镑还是 20,000 英镑，对他都完全没有区别。一个国家的真实利益不也是这样吗？只要它的实际净收入，也就是地租和利润，保持不变，这个国家有 1,000 万还是 1,200 万人口，根本无关紧要。”——李嘉图，前引书，第 416 页。早在李嘉图以前，极力推崇剩余产品的阿瑟·杨就说过：“在一个现代王国里，如果有整整一个省，土地像古罗马时代那样由独立小农耕种，即使耕种得再好，又有什么用呢？除了生育人口以外没有别的用处，而生育人口本身毫无用处。”杨是一个啰唆而缺乏批判力的作者，他的名声和他的实际贡献恰好成反比。——阿瑟·杨，《政治算术》，伦敦，1774 年，第 47 页。后来，托马斯·霍普金斯又指出一种奇怪的倾向：人们总想把净财富说成对劳动阶级有利，尽管这种好处显然并不来自它是“净”财富。——托马斯·霍普金斯，《论地租》，伦敦，1828 年，第 126 页。 <a href=\"#fnref1\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n</ol>\n</section>\n",
+  "sentences": [
+    {
+      "id": "ch07-s04-n0001",
+      "index": 0,
+      "paragraphIndex": 0,
+      "text": "在第二节的例子中，20 磅纱里有 2 磅，也就是产品的 10分之1，代表剩余价值。"
+    },
+    {
+      "id": "ch07-s04-n0002",
+      "index": 1,
+      "paragraphIndex": 0,
+      "text": "我们把这部分产品称为“剩余产品”。"
+    },
+    {
+      "id": "ch07-s04-n0003",
+      "index": 2,
+      "paragraphIndex": 0,
+      "text": "剩余价值率不是用剩余价值同全部资本相比，而是用它同可变资本相比。"
+    },
+    {
+      "id": "ch07-s04-n0004",
+      "index": 3,
+      "paragraphIndex": 0,
+      "text": "同样，衡量剩余产品，也不是拿它同产品的其余部分相比，而是拿它同代表必要劳动的那部分产品相比。"
+    },
+    {
+      "id": "ch07-s04-n0005",
+      "index": 4,
+      "paragraphIndex": 0,
+      "text": "资本主义生产的决定性目的，是生产剩余价值。"
+    },
+    {
+      "id": "ch07-s04-n0006",
+      "index": 5,
+      "paragraphIndex": 0,
+      "text": "因此，衡量财富程度的不是产品的绝对数量，而是剩余产品相对于必要产品有多大。"
+    },
+    {
+      "id": "ch07-s04-n0007",
+      "index": 6,
+      "paragraphIndex": 1,
+      "text": "必要劳动和剩余劳动加在一起，就是工人的全部劳动时间，也就是一个工作日。"
+    },
+    {
+      "id": "ch07-s04-n0008",
+      "index": 7,
+      "paragraphIndex": 1,
+      "text": "换句话说，在工作日的一部分时间里，工人生产出补回自身劳动力价值的等价物；在另一部分时间里，他生产剩余价值。"
+    }
+  ],
+  "audioManifestPath": "/audio/ch07-s04-v1-audio-0edb73e87b93/manifest.json"
 }

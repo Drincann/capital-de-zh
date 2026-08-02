@@ -16,3 +16,5 @@
 *.log
 .env
 .env.*
+/keys/
+/outputs/capital-volume1-de-zh-new/audio/voice-tests/
