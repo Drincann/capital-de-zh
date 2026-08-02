@@ -58,6 +58,22 @@ CHAPTER_TITLES = {
     "ch07": "第七章 剩余价值率",
     "ch08": "第八章 工作日",
     "ch09": "第九章 剩余价值率和剩余价值量",
+    "ch10": "第十章 相对剩余价值的概念",
+    "ch11": "第十一章 协作",
+    "ch12": "第十二章 分工和工场手工业",
+    "ch13": "第十三章 机器和大工业",
+    "ch14": "第十四章 绝对剩余价值和相对剩余价值",
+    "ch15": "第十五章 劳动力价格和剩余价值怎样变化",
+    "ch16": "第十六章 剩余价值率的各种公式",
+    "ch17": "第十七章 劳动力的价值或价格怎样转化为工资",
+    "ch18": "第十八章 计时工资",
+    "ch19": "第十九章 计件工资",
+    "ch20": "第二十章 不同国家的工资差异",
+    "ch21": "第二十一章 简单再生产",
+    "ch22": "第二十二章 剩余价值转化为资本",
+    "ch23": "第二十三章 资本主义积累的一般规律",
+    "ch24": "第二十四章 所谓原始积累",
+    "ch25": "第二十五章 现代殖民理论",
 }
 FRONT_MATTER_TITLES = {
     "fm01": "第一版序言",
@@ -1169,7 +1185,11 @@ def make_tasks(
         )
     if title:
         chapter["title_zh"] = title
-        chapter["output_path"] = f"reader-edition/{title}.md"
+        chapter["output_path"] = (
+            f"reader-edition/front-matter/{title}.md"
+            if chapter_id in FRONT_MATTER_TITLES
+            else f"reader-edition/{title}.md"
+        )
 
     all_tasks = read_jsonl(root / "manifests" / "tasks.jsonl")
     active = [

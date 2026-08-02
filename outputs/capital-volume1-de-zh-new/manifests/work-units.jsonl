@@ -51,3 +51,7 @@
 {"unit_id":"fm02","chapter_id":"fm02","controller_chapter_id":"fm02","number":2,"title_zh":"第二版跋","scope":"front-matter","source_path":"chapters/fm02/source/de-1890.txt","output_path":"reader-edition/front-matter/第二版跋.md"}
 {"unit_id":"fm03","chapter_id":"fm03","controller_chapter_id":"fm03","number":3,"title_zh":"第三版序言","scope":"front-matter","source_path":"chapters/fm03/source/de-1890.txt","output_path":"reader-edition/front-matter/第三版序言.md"}
 {"unit_id":"fm04","chapter_id":"fm04","controller_chapter_id":"fm04","number":4,"title_zh":"第四版序言","scope":"front-matter","source_path":"chapters/fm04/source/de-1890.txt","output_path":"reader-edition/front-matter/第四版序言.md"}
+{"unit_id":"ch17-s01","chapter_id":"ch17","controller_chapter_id":"ch17","number":1,"title_zh":"劳动力的价值或价格怎样转化为工资","scope":"section","source_path":"chapters/ch17/source/de-1890.txt","output_path":"reader-edition/第十七章 劳动力的价值或价格怎样转化为工资.md"}
+{"unit_id":"ch18-s01","chapter_id":"ch18","controller_chapter_id":"ch18","number":1,"title_zh":"计时工资","scope":"section","source_path":"chapters/ch18/source/de-1890.txt","output_path":"reader-edition/第十八章 计时工资.md"}
+{"unit_id":"ch19-s01","chapter_id":"ch19","controller_chapter_id":"ch19","number":1,"title_zh":"计件工资","scope":"section","source_path":"chapters/ch19/source/de-1890.txt","output_path":"reader-edition/第十九章 计件工资.md"}
+{"unit_id":"ch20-s01","chapter_id":"ch20","controller_chapter_id":"ch20","number":1,"title_zh":"不同国家的工资差异","scope":"section","source_path":"chapters/ch20/source/de-1890.txt","output_path":"reader-edition/第二十章 不同国家的工资差异.md"}

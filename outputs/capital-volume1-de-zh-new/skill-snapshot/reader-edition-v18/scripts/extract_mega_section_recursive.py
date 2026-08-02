@@ -259,11 +259,18 @@ def referenced_footnotes(
 def find_container(root: ET.Element, heading: str) -> ET.Element:
     wanted = normalize_space(heading).casefold()
     parent = {child: node for node in root.iter() for child in node}
+    heads = list(root.findall(".//tei:head", NS))
     matches = [
         head
-        for head in root.findall(".//tei:head", NS)
-        if wanted in element_text(head).casefold()
+        for head in heads
+        if wanted == element_text(head).casefold()
     ]
+    if not matches:
+        matches = [
+            head
+            for head in heads
+            if wanted in element_text(head).casefold()
+        ]
     if len(matches) != 1:
         raise SystemExit(f"Expected one heading; found {len(matches)}")
     node = matches[0]

@@ -1,0 +1,77 @@
+# ZWANZIGSTES KAPITEL.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch20-p0001] [MEGA p.500] [heading]
+Nationale Verschiedenheit der Arbeitslöhne.
+
+[v1-ch20-p0002] [MEGA p.500,501]
+Im fünfzehnten Kapitel beschäftigten uns die mannigfachen Kombinationen, welche einen Wechsel in der absoluten oder relativen (d. h. mit dem Mehrwerth verglichenen) Werthgröße der Arbeitskraft hervorbringen kann, während andrerseits wieder das Quantum von Lebensmitteln, worin der Preis der Arbeitskraft realisirt wird, von dem Wechsel dieses Preises unabhängige 64) oder verschiedne Bewegungen durchlaufen konnte. Wie bereits bemerkt, verwandeln sich durch einfache Uebersetzung des Werths, resp. Preises der Arbeitskraft in die exoterische Form des Arbeitslohns alle jene Gesetze in Gesetze der Bewegung des Arbeitslohns. Was innerhalb dieser Bewegung als wechselnde Kombination, kann für verschiedne Länder als gleichzeitige Verschiedenheit nationaler Arbeitslöhne erscheinen. Beim Vergleich nationaler Arbeitslöhne sind also alle den Wechsel in der Werthgröße der Arbeitskraft bestimmende Momente zu erwägen, Preis und Umfang der natürlichen und historisch entwickelten ersten Lebensbedürfnisse, Erziehungskosten des Arbeiters, Rolle der Weiber- und Kinderarbeit, Produktivität der Arbeit, ihre extensive und intensive Größe. Selbst die oberflächlichste Vergleichung erheischt, zunächst den Durchschnitts- Taglohn für dieselben Gewerbe in verschiednen Ländern auf gleich große Arbeitstage zu reduciren. Nach solcher Ausgleichung der Taglöhne, muß der Zeitlohn wieder in Stücklohn übersetzt werden, da nur der letztere ein Gradmesser sowohl für die Produktivität als die intensive Größe der Arbeit.
+
+[v1-ch20-p0003] [MEGA p.501]
+In jedem Lande gilt eine gewisse mittlere Intensität der Arbeit, unter welcher die Arbeit bei Produktion einer Waare mehr als die gesellschaftlich nothwendige Zeit verbraucht, und daher nicht als Arbeit von normaler Qualität zählt. Nur ein über den nationalen Durchschnitt sich erhebender Intensitätsgrad ändert, in einem gegebnen Lande, das Maß des Werths durch die bloße Dauer der Arbeitszeit. Anders auf dem Weltmarkt, dessen integrirende Theile die einzelnen Länder sind. Die mittlere Intensität der Arbeit wechselt von Land zu Land; sie ist hier größer, dort kleiner. Diese nationalen Durchschnitte bilden also eine Stufenleiter, deren Maßeinheit die Durchschnittseinheit der universellen Arbeit ist. Verglichen mit der weniger intensiven, producirt also die intensivere nationale Arbeit in gleicher Zeit mehr Werth, der sich in mehr Geld ausdrückt.
+
+[v1-ch20-p0004] [MEGA p.501]
+Noch mehr aber wird das Werthgesetz in seiner internationalen Anwendung dadurch modificirt, daß auf dem Weltmarkt die produktivere nationale Arbeit ebenfalls als intensivere zählt, so oft die produktivere Nation nicht durch die Konkurrenz gezwungen wird, den Verkaufspreis ihrer Waare auf ihren Werth zu senken.
+
+[v1-ch20-p0005] [MEGA p.501]
+Im Maß, wie in einem Lande die kapitalistische Produktion entwickelt ist, im selben Maß erheben sich dort auch die nationale Intensität und Produktivität der Arbeit über das internationale Niveau 64a). Die verschiedenen Waarenquanta derselben Art, die in verschiedenen Ländern in gleicher Arbeitszeit producirt werden, haben also ungleiche internationale Werthe, die sich in verschiedenen Preisen ausdrücken, d. h. in je nach den internationalen Werthen verschiednen Geldsummen. Der relative Werth des Geldes wird also kleiner sein bei der Nation mit entwickelterer kapitalistischer Produktionsweise als bei der mit wenig entwickelter. Folgt also, daß der nominelle Arbeitslohn, das Aequivalent der Arbeitskraft ausgedrückt in Geld, ebenfalls höher sein wird bei der ersten Nation als bei der zweiten; was keineswegs besagt, daß dieß auch für den wirklichen Lohn gilt, d. h. für die dem Arbeiter zur Verfügung gestellten Lebensmittel.
+
+[v1-ch20-p0006] [MEGA p.501,502]
+Aber auch abgesehn von dieser relativen Verschiedenheit des Geldwerths in verschiedenen Ländern, wird man häufig finden, daß der Tages-, Wochen-, etc. Lohn bei der ersteren Nation höher ist als bei der zweiten, während der relative Arbeitspreis, d. h. der Arbeitspreis im Verhältniß sowohl zum Mehrwerth wie zum Werth des Produkts bei der zweiten Nation höher steht als bei der ersteren 65).
+
+[v1-ch20-p0007] [MEGA p.502,503]
+J. W. Cowell, Mitglied der Fabrikkommission von 1833, kam nach sorgfältiger Untersuchung der Spinnerei zum Ergebniß, daß „in England die Löhne der Sache nach niedriger für den Fabrikanten sind als auf dem Kontinent, obwohl sie für den Arbeiter höher sein mögen“ (Ure, p. 314). Der englische Fabrikinspektor Alexander Redgrave weist im Fabrikbericht vom 31. Oktober 1866, durch vergleichende Statistik mit den Kontinentalstaaten nach, daß trotz niedrigerem Lohn und viel längerer Arbeitszeit die kontinentale Arbeit, verhältnißmäßig zum Produkt, theurer ist als die englische. Ein englischer Direktor (manager) in einer Baumwollfabrik in Oldenburg erklärt, daß dort die Arbeitszeit von 5.30 Uhr Morgens bis 8 Uhr Abends währt, Samstags eingeschlossen, und daß die dortigen Arbeiter, wenn unter englischen Arbeitsaufsehern, während dieser Zeit nicht ganz so viel Produkt liefern als Engländer in 10 Stunden, unter deutschen Arbeitsaufsehern aber noch viel weniger. Der Lohn stehe viel tiefer als in England, in vielen Fällen um 50 %, aber die Zahl der Hände im Verhältniß zur Maschinerie sei viel größer, in verschiedenen Departements im Verhältniß von 5:3. Herr Redgrave gibt sehr genaue Details über die russischen Baumwollfabriken. Die Data sind ihm geliefert durch einen dort noch kürzlich beschäftigten englischen manager. Auf diesem russischen Boden, an allen Infamien so fruchtbar, stehn auch die alten Greuel aus der Kindheitsperiode der englischen factories in vollster Blüthe. Die Dirigenten sind natürlich Engländer, da der eingeborene russische Kapitalist nicht für das Fabrikgeschäft taugt. Trotz aller Ueberarbeit, fortlaufender Tag- und Nachtarbeit und schmählichster Unterzahlung der Arbeiter, vegetirt das russische Fabrikat nur durch Prohibition des ausländischen. ‒ Ich gebe schließlich noch eine vergleichende Uebersicht des Herrn Redgrave über die Durchschnitts-Spindelzahl per Fabrik und per Spinner in verschiednen Ländern Europas. Herr Redgrave bemerkt selbst, daß er diese Zahlen vor einigen Jahren gesammelt hat, und daß seit der Zeit die Größe der Fabriken und die Spindelzahl per Arbeiter in England gewachsen seien. Er unterstellt aber verhältnißmäßig gleich großen Fortschritt in den aufgezählten Kontinentalländern, so daß die Zahlenangaben ihren komparativen Werth behalten hätten.
+
+[v1-ch20-p0008] [MEGA p.503]
+Durchschnittsanzahl von Spindeln per Fabrik.
+[table]
+In England | Durchschnittszahl | von | Spindeln | auf | je | eine | Fabrik | 12 600
+In der Schweiz | ” | ” | ” | ” | ” | ” | ” | 8 000
+In Oestreich | ” | ” | ” | ” | ” | ” | ” | 7 000
+In Sachsen | ” | ” | ” | ” | ” | ” | ” | 4 500
+In Belgien | ” | ” | ” | ” | ” | ” | ” | 4 000
+In Frankreich | ” | ” | ” | ” | ” | ” | ” | 1 500
+In Preußen | ” | ” | ” | ” | ” | ” | ” | 1 500 |
+[/table]
+
+[v1-ch20-p0009] [MEGA p.503]
+Durchschnittsanzahl von Spindeln per Kopf.
+[table]
+In Frankreich | eine | Person | auf | 14 | Spindeln
+In Rußland | ” | ” | ” | 28 | ”
+In Preußen | ” | ” | ” | 37 | ”
+In Baiern | ” | ” | ” | 46 | ”
+In Oestreich | ” | ” | ” | 49 | ”
+In Belgien | ” | ” | ” | 50 | ”
+In Sachsen | ” | ” | ” | 50 | ”
+In den kleinern
+deutschen Staaten | ” | ” | ” | 55 | ”
+In der Schweiz | ” | ” | ” | 55 | ”
+In Großbritannien | ” | ” | ” | 74 | ”
+[/table]
+
+[v1-ch20-p0010] [MEGA p.503]
+„Diese Vergleichung“, sagt Herr Redgrave, „ist, außer andren Gründen, besonders auch deßwegen für Großbritannien ungünstig, weil dort eine sehr große Zahl Fabriken existirt, worin die Maschinenweberei mit der Spinnerei verbunden ist, während die Rechnung keinen Kopf für die Webstühle abzieht. Die auswärtigen Fabriken sind dagegen meist bloße Spinnereien. Könnten wir genau Gleiches mit Gleichem vergleichen, so könnte ich viele Baumwollspinnereien in meinem Distrikt aufzählen, worin Mules mit 2200 Spindeln von einem einzigen Mann (minder) und zwei Handlangerinnen überwacht und täglich 220 Pfund Garn, 400 (englische) Meilen in Länge, fabricirt werden.“ („Reports of Insp. of Fact. 31st Oct. 1866“, p. 31‒37 passim.)
+
+[v1-ch20-p0011] [MEGA p.503,504]
+Man weiß, daß in Osteuropa sowohl wie in Asien englische Compagnien Eisenbahnen in Bau übernommen haben und dabei neben einheimischen auch eine gewisse Zahl englischer Arbeiter verwenden. Durch praktische Nothwendigkeit gezwungen, so den nationalen Unterschieden in der Intensität der Arbeit Rechnung zu tragen, hat ihnen das keinen Schaden gebracht. Ihre Erfahrung lehrt, daß wenn auch die Höhe des Lohnes mehr oder weniger der mittleren Arbeitsintensität entspricht, der relative Arbeitspreis ❲im Verhältniß zum Produkt❳ sich im Allgemeinen im entgegengesetzten Sinn bewegt.
+
+[v1-ch20-p0012] [MEGA p.504,505]
+In „Versuch über die Rate des Arbeitslohns“ 66), einer seiner frühsten ökonomischen Schriften, sucht H. Carey nachzuweisen, daß die verschiednen nationalen Arbeitslöhne sich direkt verhalten wie die Produktivitätsgrade der nationalen Arbeitstage, um aus diesem internationalen Verhältniß den Schluß zu ziehen, daß der Arbeitslohn überhaupt steigt und fällt wie die Produktivität der Arbeit. Unsre ganze Analyse der Produktion des Mehrwerths beweist die Abgeschmacktheit dieser Schlußfolgerung, hätte Carey selbst seine Prämisse bewiesen, statt seiner Gewohnheit gemäß unkritisch und oberflächlich zusammengerafftes statistisches Material kunterbunt durcheinander zu würfeln. Das Beste ist, daß er nicht behauptet, die Sache verhalte sich wirklich so, wie sie sich der Theorie nach verhalten sollte. Die Staatseinmischung hat nämlich das naturgemäße ökonomische Verhältniß verfälscht. Man muß daher die nationalen Arbeitslöhne so berechnen, als ob der Theil derselben, der dem Staat in der Form von Steuern zufällt, dem Arbeiter selbst zufiele. Sollte Herr Carey nicht weiter darüber nachdenken, ob diese „Staatskosten“ nicht auch „naturgemäße Früchte“ der kapitalistischen Entwicklung sind? Das Raisonnement ist ganz des Mannes würdig, der die kapitalistischen Produktionsverhältnisse erst für ewige Natur- und Vernunftsgesetze erklärte, deren frei harmonisches Spiel nur durch die Staatseinmischung gestört werde, um hinterher zu entdecken, daß Englands diabolischer Einfluß auf den Weltmarkt, ein Einfluß, der, wie es scheint, nicht den Naturgesetzen der kapitalistischen Produktion entspringt, die Staatseinmischung nöthig macht, nämlich den Schutz jener Natur- und Vernunftsgesetze durch den Staat, alias das Protektionssystem. Er entdeckte ferner, daß die Theoreme Ricardo’s u. s. w., worin existirende gesellschaftliche Gegensätze und Widersprüche formulirt sind, nicht das ideale Produkt der wirklichen ökonomischen Bewegung, sondern daß umgekehrt die wirklichen Gegensätze der kapitalistischen Produktion in England und anderswo das Resultat der Ricardo’schen u. s. w. Theorie sind! Er entdeckte schließlich, daß es in letzter Instanz der Handel ist, der die eingebornen Schönheiten und Harmonien der kapitalistischen Produktionsweise vernichtet. Noch einen Schritt weiter, und er entdeckt vielleicht, daß der einzige Mißstand an der kapitalistischen Produktion das Kapital selbst ist. Nur ein Mann von so entsetzlicher Kritiklosigkeit und solcher Gelehrsamkeit de faux aloi verdiente, trotz seiner protektionistischen Ketzerei, die Geheimquelle der harmonischen Weisheit eines Bastiat und aller andern freihändlerischen Optimisten der Gegenwart zu werden. |
+
+## Footnotes
+
+[note-001] [MEGA p.500]
+64) “It is not accurate to say that wages (handelt sich hier von ihrem Preise) are increased, because they purchase more of a cheaper article.” (David Buchanan in seiner Ausgabe von A. Smith’s, „Wealth etc.“ 1814, v. I, p. 417 Note.)
+
+[note-002] [MEGA p.501]
+64a) An andrer Stelle werden wir untersuchen, welche Umstände, in Beziehung auf die Produktivität, dieß Gesetz für einzelne Produktionszweige modificiren können.
+
+[note-003] [MEGA p.502]
+65) James Anderson bemerkt in Polemik gegen A. Smith: “It deserves likewise to be remarked, that although the apparent price of labour is usually lower in poor countries, where the produce of the soil, and grain in general, is cheap; yet it is in fact for the most part really higher than in other countries. For it is not the wages that is given to the labourer per day that constitutes the real price of labour, although it is its apparent price. The real price is that which a certain quantity of work performed actually costs the employer; and considered in this light, labour is in almost all cases cheaper in rich countries than in those that are poorer, although the price of grain, and other provisions, is usually much lower in the last than in the first... Labour estimated by the day, is much lower in Scotland than in England... Labour by the piece is generally cheaper in England.” (James Anderson: „Observations on the means of exciting a spirit of National Industry etc. Edinb. 1777“, p. 350, 351.) ‒ Umgekehrt producirt ihrerseits die Niedrigkeit des Arbeitslohns Vertheurung der Arbeit. “Labour being dearer in Ireland than it is in England... because the wages are so much lower.” (N. 2074 in Royal Commission on Railways, Minutes. 1867.)
+
+[note-004] [MEGA p.504]
+66) „Essay on the Rate of Wages: with an Examination of the Causes of the Differences in the Conditions of the Labouring Population throughout the World. Philadelphia 1835.“

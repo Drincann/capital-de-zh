@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch08-s01-v1-audio-6d26ed106ba1",
+  "unit_id": "ch08-s01",
+  "translation_version_id": "ch08-s01-v1",
+  "translation_sha256": "974ca9622fb06613e82bbd486dae1649297a4ff931a6373bbeb5441c594d951f",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T19:58:36.518Z",
+  "completed_at": "2026-08-02T20:02:05.363Z",
+  "duration_ms": 533077,
+  "sentence_count": 75,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 39265,
+      "bytes": 629036,
+      "sha256": "58bf0554f96bc224f9f68a07842574e8536a7d29b4407dc898f7449f24431b8f",
+      "sentence_ids": [
+        "ch08-s01-n0001",
+        "ch08-s01-n0002",
+        "ch08-s01-n0003",
+        "ch08-s01-n0004",
+        "ch08-s01-n0005",
+        "ch08-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 37773,
+      "bytes": 604844,
+      "sha256": "bca44d41b3973b3b581b6d30f9e4835e4b5d0ce0db70d6dff8b59062b9df814d",
+      "sentence_ids": [
+        "ch08-s01-n0007",
+        "ch08-s01-n0008",
+        "ch08-s01-n0009",
+        "ch08-s01-n0010",
+        "ch08-s01-n0011",
+        "ch08-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 52900,
+      "bytes": 847148,
+      "sha256": "fca851bb4e930892bc518831f533aa108632d0d5c505295f084c165a0cf905d9",
+      "sentence_ids": [
+        "ch08-s01-n0013",
+        "ch08-s01-n0014",
+        "ch08-s01-n0015",
+        "ch08-s01-n0016",
+        "ch08-s01-n0017",
+        "ch08-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 40363,
+      "bytes": 646316,
+      "sha256": "6b24f5d96416d1be37bdca08834062cdb319f74af9e3aa062c39e48cc9a2f2fc",
+      "sentence_ids": [
+        "ch08-s01-n0019",
+        "ch08-s01-n0020",
+        "ch08-s01-n0021",
+        "ch08-s01-n0022",
+        "ch08-s01-n0023",
+        "ch08-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 41400,
+      "bytes": 662828,
+      "sha256": "4730b5288e707eaffc0a56b1e63180235889832eb711085f5ae23e9cd1aa1b5a",
+      "sentence_ids": [
+        "ch08-s01-n0025",
+        "ch08-s01-n0026",
+        "ch08-s01-n0027",
+        "ch08-s01-n0028",
+        "ch08-s01-n0029",
+        "ch08-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 32243,
+      "bytes": 516524,
+      "sha256": "9cdd2642b9c85d613c4ed016792cf6a977602bd5b9282053e788e4415d32bf19",
+      "sentence_ids": [
+        "ch08-s01-n0031",
+        "ch08-s01-n0032",
+        "ch08-s01-n0033",
+        "ch08-s01-n0034",
+        "ch08-s01-n0035",
+        "ch08-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 46000,
+      "bytes": 736556,
+      "sha256": "947ca18e93f3270e5314b3220ea6afd2182e0a236a7a34a768cea6d0b72405dd",
+      "sentence_ids": [
+        "ch08-s01-n0037",
+        "ch08-s01-n0038",
+        "ch08-s01-n0039",
+        "ch08-s01-n0040",
+        "ch08-s01-n0041",
+        "ch08-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 27037,
+      "bytes": 433196,
+      "sha256": "338d71012b3cba9ceccbf664dfd2a45726ce6534fa5ebc8339c5d34e5816adc9",
+      "sentence_ids": [
+        "ch08-s01-n0043",
+        "ch08-s01-n0044",
+        "ch08-s01-n0045",
+        "ch08-s01-n0046",
+        "ch08-s01-n0047",
+        "ch08-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 36624,
+      "bytes": 586412,
+      "sha256": "06d91a7645444fd8b7dcfd94d2c3ae8a42b4dee6f49ccb1fd8ec653713f62b37",
+      "sentence_ids": [
+        "ch08-s01-n0049",
+        "ch08-s01-n0050",
+        "ch08-s01-n0051",
+        "ch08-s01-n0052",
+        "ch08-s01-n0053",
+        "ch08-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 78777,
+      "bytes": 1261100,
+      "sha256": "484d43b0dfcc95b597e79b969f6fda043ebf196e4f37723724941e38f813c95d",
+      "sentence_ids": [
+        "ch08-s01-n0055",
+        "ch08-s01-n0056",
+        "ch08-s01-n0057",
+        "ch08-s01-n0058",
+        "ch08-s01-n0059",
+        "ch08-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 31350,
+      "bytes": 502316,
+      "sha256": "0c0fba59caabc7e7575904b18369cfbfa94e24d2a7ae91172ebfa073e35455f6",
+      "sentence_ids": [
+        "ch08-s01-n0061",
+        "ch08-s01-n0062",
+        "ch08-s01-n0063",
+        "ch08-s01-n0064",
+        "ch08-s01-n0065",
+        "ch08-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 53070,
+      "bytes": 849836,
+      "sha256": "fabd07bf45a50c6423bcc87d43c8da6891e9b671cf82794f0467a5f0a7a155d1",
+      "sentence_ids": [
+        "ch08-s01-n0067",
+        "ch08-s01-n0068",
+        "ch08-s01-n0069",
+        "ch08-s01-n0070",
+        "ch08-s01-n0071",
+        "ch08-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 16275,
+      "bytes": 261164,
+      "sha256": "071934186638f6f221f62f911fe3430bad2d03d9e98ef476f05e47297f11528d",
+      "sentence_ids": [
+        "ch08-s01-n0073",
+        "ch08-s01-n0074",
+        "ch08-s01-n0075"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch08-s01-n0001",
+      "text": "我们一直假定，劳动力是按照它的价值买卖的。",
+      "start_ms": 0,
+      "end_ms": 3680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s01-n0002",
+      "text": "劳动力和其他商品一样，它的价值取决于生产它所需要的劳动时间。",
+      "start_ms": 4080,
+      "end_ms": 9360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s01-n0003",
+      "text": "假设工人每天维持生活所需的生活资料，平均要用 6 小时劳动来生产，那么他每天也必须平均劳动 6 小时，才能重新生产出自己的劳动力价值，也就是补回出售劳动力所得的价值。",
+      "start_ms": 9760,
+      "end_ms": 24680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s01-n0004",
+      "text": "在其他条件不变时，工作日中的必要劳动部分因此固定为 6 小时。",
+      "start_ms": 25120,
+      "end_ms": 30040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s01-n0005",
+      "text": "不过，这仍然没有告诉我们整个工作日有多长。",
+      "start_ms": 30800,
+      "end_ms": 34800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s01-n0006",
+      "text": "假设线段 ab 代表必要劳动时间，也就是 6 小时。",
+      "start_ms": 35200,
+      "end_ms": 38840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s01-n0007",
+      "text": "在这 6 小时之外，劳动再延长 1 小时、3 小时或 6 小时，就会得到三个长度不同的工作日：",
+      "start_ms": 0,
+      "end_ms": 8348,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s01-n0008",
+      "text": "这三个工作日分别是 7 小时、9 小时和 12 小时。",
+      "start_ms": 8348,
+      "end_ms": 12939,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s01-n0009",
+      "text": "延长出来的 bc 代表剩余劳动时间。",
+      "start_ms": 12939,
+      "end_ms": 16278,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s01-n0010",
+      "text": "整个工作日等于 ab+bc，也就是 ac，所以工作日的长度会随着剩余劳动时间 bc 的变化而变化。",
+      "start_ms": 16278,
+      "end_ms": 25669,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s01-n0011",
+      "text": "必要劳动 ab 已经确定，因此总能算出剩余劳动 bc 同它的比例。",
+      "start_ms": 25669,
+      "end_ms": 31721,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s01-n0012",
+      "text": "在三个例子中，这个比例依次是 6分之1、6分之3 和 6分之6。",
+      "start_ms": 31721,
+      "end_ms": 37773,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s01-n0013",
+      "text": "剩余价值率就是剩余劳动时间与必要劳动时间之比，所以三个工作日的剩余价值率分别是 163分之2百分号、50% 和 100%。",
+      "start_ms": 360,
+      "end_ms": 15720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s01-n0014",
+      "text": "反过来，只知道剩余价值率，还不能知道工作日究竟有多长。",
+      "start_ms": 15720,
+      "end_ms": 21160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s01-n0015",
+      "text": "例如，剩余价值率为 100%，只说明必要劳动和剩余劳动一样长。",
+      "start_ms": 21840,
+      "end_ms": 28480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s01-n0016",
+      "text": "整个工作日可能是 8 小时、10 小时或 12 小时，两个部分就分别是 4 小时、5 小时或 6 小时。",
+      "start_ms": 29240,
+      "end_ms": 38640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s01-n0017",
+      "text": "所以，工作日不是一个固定量，而是一个可变量。",
+      "start_ms": 39640,
+      "end_ms": 44200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s01-n0018",
+      "text": "其中，维持工人自身不断再生产所需要的劳动时间，决定了必要劳动部分的长度。",
+      "start_ms": 45120,
+      "end_ms": 52720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s01-n0019",
+      "text": "整个工作日有多长，则取决于剩余劳动会延续多久。",
+      "start_ms": 120,
+      "end_ms": 4680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s01-n0020",
+      "text": "因此，工作日的长度可以受到规定，但仅凭工作日本身，还无法确定它究竟应当有多长。",
+      "start_ms": 5440,
+      "end_ms": 13560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s01-n0021",
+      "text": "工作日虽然没有固定长度，却只能在一定范围内变化。",
+      "start_ms": 14160,
+      "end_ms": 18520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s01-n0022",
+      "text": "它的最低限度无法确定。",
+      "start_ms": 19120,
+      "end_ms": 21120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s01-n0023",
+      "text": "如果把剩余劳动 bc 降为零，理论上就会得到一个最低限度，也就是工人为维持自身生活而必须劳动的时间。",
+      "start_ms": 21960,
+      "end_ms": 32120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s01-n0024",
+      "text": "可是在资本主义生产中，必要劳动只能占工作日的一部分，工作日不可能真的缩短到这个限度。",
+      "start_ms": 32800,
+      "end_ms": 40080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s01-n0025",
+      "text": "工作日也有最高限度，不能无限延长。",
+      "start_ms": 120,
+      "end_ms": 3280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s01-n0026",
+      "text": "这个限度首先来自劳动力的身体条件。",
+      "start_ms": 3960,
+      "end_ms": 7600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s01-n0027",
+      "text": "一天只有 24 小时，人能消耗的生命力有限，就像一匹马每天只能工作 8 小时。",
+      "start_ms": 8480,
+      "end_ms": 16560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s01-n0028",
+      "text": "人必须拿出一部分时间休息和睡眠，也必须用时间吃饭、清洁身体、穿衣和满足其他生理需要。",
+      "start_ms": 17120,
+      "end_ms": 27240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s01-n0029",
+      "text": "除此以外，工作日还受社会生活的限制。",
+      "start_ms": 27920,
+      "end_ms": 32120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s01-n0030",
+      "text": "工人需要时间满足精神和社会需要，而这些需要的多少和范围取决于社会的一般文明程度。",
+      "start_ms": 33080,
+      "end_ms": 41280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s01-n0031",
+      "text": "不过，身体和社会生活这两种界限都有很大的弹性，所以现实中会出现 8、10、12、14、16 甚至 18 小时的工作日。",
+      "start_ms": 0,
+      "end_ms": 9744,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s01-n0032",
+      "text": "资本家按照劳动力一天的价值买下了它，因此有权在一个工作日内使用它，让工人为自己劳动。",
+      "start_ms": 9744,
+      "end_ms": 17184,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s01-n0033",
+      "text": "可是，一个工作日究竟有多长？",
+      "start_ms": 17184,
+      "end_ms": 19665,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s01-n0034",
+      "text": "它当然短于人的整个 24 小时生活日，但究竟短多少？",
+      "start_ms": 19665,
+      "end_ms": 23917,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s01-n0035",
+      "text": "资本家对这条不可逾越的界限有自己的看法。",
+      "start_ms": 23917,
+      "end_ms": 27460,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s01-n0036",
+      "text": "作为资本家，他只是资本的人格化，想的也是资本所想的事。",
+      "start_ms": 27460,
+      "end_ms": 32243,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s01-n0037",
+      "text": "资本只有一种冲动：不断增殖，创造剩余价值，并利用生产资料尽可能吸收更多剩余劳动。",
+      "start_ms": 40,
+      "end_ms": 10000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s01-n0038",
+      "text": "资本是死去的劳动，只有像吸血鬼一样吸取活劳动才能获得生命，而且吸得越多，生命就越旺盛。",
+      "start_ms": 10760,
+      "end_ms": 20400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s01-n0039",
+      "text": "工人劳动的时间，就是资本家消费自己所购劳动力的时间。",
+      "start_ms": 21400,
+      "end_ms": 27000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s01-n0040",
+      "text": "如果工人把本来可以劳动的时间留给自己，在资本家看来，他就是在偷窃资本家的东西。",
+      "start_ms": 27920,
+      "end_ms": 35680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s01-n0041",
+      "text": "因此，资本家援引商品交换的规律。",
+      "start_ms": 36600,
+      "end_ms": 39720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s01-n0042",
+      "text": "他和任何买方一样，都想从自己买到的商品中取得尽可能大的用途。",
+      "start_ms": 40480,
+      "end_ms": 45960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s01-n0043",
+      "text": "可就在生产过程的喧嚣中，原本被压下去的工人声音突然响了起来：",
+      "start_ms": 0,
+      "end_ms": 5964,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s01-n0044",
+      "text": "我卖给你的商品不同于普通商品。",
+      "start_ms": 5964,
+      "end_ms": 8946,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s01-n0045",
+      "text": "使用它会创造价值，而且创造的价值比它本身值的更多。",
+      "start_ms": 8946,
+      "end_ms": 13916,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s01-n0046",
+      "text": "你买它，正是为了这一点。",
+      "start_ms": 13916,
+      "end_ms": 16302,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s01-n0047",
+      "text": "在你看来，这是资本增殖；在我看来，却是劳动力的额外消耗。",
+      "start_ms": 16302,
+      "end_ms": 21868,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s01-n0048",
+      "text": "我们在市场上都只承认一条规律，那就是商品交换的规律。",
+      "start_ms": 21868,
+      "end_ms": 27037,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s01-n0049",
+      "text": "商品一旦卖出，怎样使用便属于买方，而不再属于卖方。",
+      "start_ms": 0,
+      "end_ms": 4976,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s01-n0050",
+      "text": "因此，我一天劳动力的使用权归你。",
+      "start_ms": 4976,
+      "end_ms": 8161,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s01-n0051",
+      "text": "可是，你每天支付的价格必须让我每天都能恢复劳动力，第二天再把它卖给你。",
+      "start_ms": 8161,
+      "end_ms": 15127,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s01-n0052",
+      "text": "即使不考虑衰老造成的自然损耗，我明天也必须能像今天一样，以正常的体力、健康和精神状态工作。",
+      "start_ms": 15127,
+      "end_ms": 24084,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s01-n0053",
+      "text": "你总向我宣讲“节俭”和“克制”。",
+      "start_ms": 24084,
+      "end_ms": 27269,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s01-n0054",
+      "text": "那好，我也要像一个理性而节俭的管理者那样，爱惜自己唯一的财产，也就是劳动力，不让它被疯狂浪费。",
+      "start_ms": 27269,
+      "end_ms": 36624,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s01-n0055",
+      "text": "我每天只愿意付出符合劳动力正常寿命和健康发展的那一部分。",
+      "start_ms": 40,
+      "end_ms": 7600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s01-n0056",
+      "text": "如果你无限延长工作日，一天就能耗掉我三天也恢复不了的劳动力。",
+      "start_ms": 8440,
+      "end_ms": 16120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s01-n0057",
+      "text": "你得到的是更多劳动，我失去的却是劳动能力本身。",
+      "start_ms": 16920,
+      "end_ms": 23000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s01-n0058",
+      "text": "使用我的劳动力和掠夺我的劳动力，不是同一回事。",
+      "start_ms": 24400,
+      "end_ms": 30280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s01-n0059",
+      "text": "假设一个普通工人在劳动强度合理时，平均可以工作 30 年，那么你每天支付的劳动力价值，是它总价值的 1/(365乘以30)，也就是 10分之1,950。",
+      "start_ms": 31120,
+      "end_ms": 51120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s01-n0060",
+      "text": "如果你用 10 年就把它耗尽，每天却仍只支付总价值的 10分之1,950，而不是 3分之1,650，你付的就只有劳动力每日价值的三分之一，每天都偷走了我的商品价值的三分之二。",
+      "start_ms": 52360,
+      "end_ms": 78400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s01-n0061",
+      "text": "你只付了一天劳动力的钱，却耗掉了三天的劳动力。",
+      "start_ms": 0,
+      "end_ms": 4920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s01-n0062",
+      "text": "这违反了我们的契约，也违反了商品交换的规律。",
+      "start_ms": 5480,
+      "end_ms": 9280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s01-n0063",
+      "text": "所以，我要求一个长度正常的工作日。",
+      "start_ms": 10040,
+      "end_ms": 13200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s01-n0064",
+      "text": "我不是在乞求你的同情，因为谈到金钱，温情就结束了。",
+      "start_ms": 13800,
+      "end_ms": 19080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s01-n0065",
+      "text": "作为个人，你或许是模范公民，或许加入了反虐待动物协会，甚至以虔诚闻名。",
+      "start_ms": 19400,
+      "end_ms": 26520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s01-n0066",
+      "text": "可你在我面前所代表的资本，胸膛里没有心。",
+      "start_ms": 27440,
+      "end_ms": 31040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s01-n0067",
+      "text": "里面听起来像心跳的声音，其实是我自己的心跳。",
+      "start_ms": 0,
+      "end_ms": 4520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s01-n0068",
+      "text": "我要求正常工作日，只因为我像任何卖方一样，要求得到自己商品的全部价值。",
+      "start_ms": 5320,
+      "end_ms": 12280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s01-n0069",
+      "text": "由此可见，撇开那些很有弹性的身体和社会界限，仅从商品交换本身，推不出工作日的具体界限，也推不出剩余劳动的界限。",
+      "start_ms": 13200,
+      "end_ms": 25760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s01-n0070",
+      "text": "资本家以买方身份主张自己的权利，要求工作日尽可能长，最好把一个工作日变成两个。",
+      "start_ms": 26680,
+      "end_ms": 36440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s01-n0071",
+      "text": "工人则以卖方身份主张自己的权利，要求劳动力的使用不能破坏它的正常再生产，因此要把工作日限制在一个正常长度内。",
+      "start_ms": 37120,
+      "end_ms": 48400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s01-n0072",
+      "text": "双方的权利都得到商品交换规律的承认。",
+      "start_ms": 49080,
+      "end_ms": 52800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s01-n0073",
+      "text": "权利对权利，最后只能由力量决定。",
+      "start_ms": 0,
+      "end_ms": 2770,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s01-n0074",
+      "text": "因此，资本主义生产史上对工作日的规定，表现为一场围绕工作日界限展开的斗争。",
+      "start_ms": 2770,
+      "end_ms": 9176,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s01-n0075",
+      "text": "一方是作为整体的资本家，也就是资本家阶级；另一方是作为整体的工人，也就是工人阶级。",
+      "start_ms": 9176,
+      "end_ms": 16275,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    }
+  ]
+}

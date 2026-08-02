@@ -1,11 +1,11 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-02T19:59:04.046Z",
+  "generatedAt": "2026-08-02T22:37:53.800Z",
   "partCount": 7,
   "chapterCount": 25,
-  "publishedChapterCount": 16,
-  "sectionCount": 49,
+  "publishedChapterCount": 20,
+  "sectionCount": 53,
   "preface": {
     "id": "translator-preface",
     "number": 0,
@@ -46,16 +46,14 @@
               "number": 3,
               "title": "价值形式或交换价值",
               "versionId": "ch01-s03-v1",
-              "contentPath": "/content/ch01-s03.json",
-              "audioManifestPath": "/audio/ch01-s03-v1-audio-7000d28886ce/manifest.json"
+              "contentPath": "/content/ch01-s03.json"
             },
             {
               "id": "ch01-s04",
               "number": 4,
               "title": "商品的拜物教性质及其秘密",
               "versionId": "ch01-s04-v1",
-              "contentPath": "/content/ch01-s04.json",
-              "audioManifestPath": "/audio/ch01-s04-v1-audio-74d1b370e525/manifest.json"
+              "contentPath": "/content/ch01-s04.json"
             }
           ]
         },
@@ -94,16 +92,14 @@
               "number": 2,
               "title": "流通手段",
               "versionId": "ch03-s02-v1",
-              "contentPath": "/content/ch03-s02.json",
-              "audioManifestPath": "/audio/ch03-s02-v1-audio-111b4c509652/manifest.json"
+              "contentPath": "/content/ch03-s02.json"
             },
             {
               "id": "ch03-s03",
               "number": 3,
               "title": "货币",
               "versionId": "ch03-s03-v1",
-              "contentPath": "/content/ch03-s03.json",
-              "audioManifestPath": "/audio/ch03-s03-v1-audio-e406bf5e16e0/manifest.json"
+              "contentPath": "/content/ch03-s03.json"
             }
           ]
         }
@@ -188,8 +184,7 @@
               "number": 1,
               "title": "不变资本和可变资本",
               "versionId": "ch06-s01-v1",
-              "contentPath": "/content/ch06-s01.json",
-              "audioManifestPath": "/audio/ch06-s01-v1-audio-7df6e5cb2b68/manifest.json"
+              "contentPath": "/content/ch06-s01.json"
             }
           ]
         },
@@ -244,14 +239,16 @@
               "number": 1,
               "title": "工作日的界限",
               "versionId": "ch08-s01-v1",
-              "contentPath": "/content/ch08-s01.json"
+              "contentPath": "/content/ch08-s01.json",
+              "audioManifestPath": "/audio/ch08-s01-v1-audio-6d26ed106ba1/manifest.json"
             },
             {
               "id": "ch08-s02",
               "number": 2,
               "title": "对剩余劳动的贪欲：工厂主和领主",
               "versionId": "ch08-s02-v1",
-              "contentPath": "/content/ch08-s02.json"
+              "contentPath": "/content/ch08-s02.json",
+              "audioManifestPath": "/audio/ch08-s02-v1-audio-5142baf48b88/manifest.json"
             },
             {
               "id": "ch08-s03",
@@ -265,7 +262,8 @@
               "number": 4,
               "title": "日夜劳动：轮班制度",
               "versionId": "ch08-s04-v2",
-              "contentPath": "/content/ch08-s04.json"
+              "contentPath": "/content/ch08-s04.json",
+              "audioManifestPath": "/audio/ch08-s04-v2-audio-72490626f176/manifest.json"
             },
             {
               "id": "ch08-s05",
@@ -481,8 +479,7 @@
               "number": 1,
               "title": "绝对剩余价值和相对剩余价值",
               "versionId": "ch14-s01-v1",
-              "contentPath": "/content/ch14-s01.json",
-              "audioManifestPath": "/audio/ch14-s01-v1-audio-4d9e21e4f818/manifest.json"
+              "contentPath": "/content/ch14-s01.json"
             }
           ]
         },
@@ -548,29 +545,61 @@
           "id": "ch17",
           "number": 17,
           "title": "劳动力的价值或价格怎样转化为工资",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch17-s01",
+              "number": 1,
+              "title": "劳动力的价值或价格怎样转化为工资",
+              "versionId": "ch17-s01-v1",
+              "contentPath": "/content/ch17-s01.json"
+            }
+          ]
         },
         {
           "id": "ch18",
           "number": 18,
           "title": "计时工资",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch18-s01",
+              "number": 1,
+              "title": "计时工资",
+              "versionId": "ch18-s01-v1",
+              "contentPath": "/content/ch18-s01.json"
+            }
+          ]
         },
         {
           "id": "ch19",
           "number": 19,
           "title": "计件工资",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch19-s01",
+              "number": 1,
+              "title": "计件工资",
+              "versionId": "ch19-s01-v1",
+              "contentPath": "/content/ch19-s01.json"
+            }
+          ]
         },
         {
           "id": "ch20",
           "number": 20,
           "title": "不同国家的工资差异",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch20-s01",
+              "number": 1,
+              "title": "不同国家的工资差异",
+              "versionId": "ch20-s01-v1",
+              "contentPath": "/content/ch20-s01.json"
+            }
+          ]
         }
       ]
     },

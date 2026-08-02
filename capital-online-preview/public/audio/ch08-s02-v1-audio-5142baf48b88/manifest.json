@@ -1,0 +1,1135 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch08-s02-v1-audio-5142baf48b88",
+  "unit_id": "ch08-s02",
+  "translation_version_id": "ch08-s02-v1",
+  "translation_sha256": "3949bd0356394bd707ce6c66099b081fe0f21ba3069b6ae794049a219d49e6a8",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T20:02:05.446Z",
+  "completed_at": "2026-08-02T20:06:44.035Z",
+  "duration_ms": 860292,
+  "sentence_count": 106,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 50580,
+      "bytes": 809900,
+      "sha256": "7a319b74399461df679fb124c365858d53567b2a635a30da82eaa8790e1e4c4d",
+      "sentence_ids": [
+        "ch08-s02-n0001",
+        "ch08-s02-n0002",
+        "ch08-s02-n0003",
+        "ch08-s02-n0004",
+        "ch08-s02-n0005",
+        "ch08-s02-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 37441,
+      "bytes": 599852,
+      "sha256": "f27876e8eb2b4035bbcaa18942c3f6eb79f6986ce87ad6fc55d695914ba6aded",
+      "sentence_ids": [
+        "ch08-s02-n0007",
+        "ch08-s02-n0008",
+        "ch08-s02-n0009",
+        "ch08-s02-n0010",
+        "ch08-s02-n0011",
+        "ch08-s02-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 46900,
+      "bytes": 751148,
+      "sha256": "2f4fbc6eaee7aed779d92640eb21511a1cca040330ec0f2dde3bb2c608e852ab",
+      "sentence_ids": [
+        "ch08-s02-n0013",
+        "ch08-s02-n0014",
+        "ch08-s02-n0015",
+        "ch08-s02-n0016",
+        "ch08-s02-n0017",
+        "ch08-s02-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 47580,
+      "bytes": 761900,
+      "sha256": "ad24de4b8b6a3992c6987093250c326329d14cfc35f1840a0e5b15234a7a303f",
+      "sentence_ids": [
+        "ch08-s02-n0019",
+        "ch08-s02-n0020",
+        "ch08-s02-n0021",
+        "ch08-s02-n0022",
+        "ch08-s02-n0023",
+        "ch08-s02-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 52580,
+      "bytes": 841772,
+      "sha256": "c994a925ed4779dadc736b7c2c382ad88fa979c4d1fc60d83fabd641fff2af36",
+      "sentence_ids": [
+        "ch08-s02-n0025",
+        "ch08-s02-n0026",
+        "ch08-s02-n0027",
+        "ch08-s02-n0028",
+        "ch08-s02-n0029",
+        "ch08-s02-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 33008,
+      "bytes": 528812,
+      "sha256": "d6291881796d3a7a78b34e2870c97cb9fcc177cca97cc0d7c53f5b3f72d95ca5",
+      "sentence_ids": [
+        "ch08-s02-n0031",
+        "ch08-s02-n0032",
+        "ch08-s02-n0033",
+        "ch08-s02-n0034",
+        "ch08-s02-n0035",
+        "ch08-s02-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 40680,
+      "bytes": 651692,
+      "sha256": "778b2721989e13c4f4d28040207aca4bf03aafc546eed787c12458bad0a2f92b",
+      "sentence_ids": [
+        "ch08-s02-n0037",
+        "ch08-s02-n0038",
+        "ch08-s02-n0039",
+        "ch08-s02-n0040",
+        "ch08-s02-n0041",
+        "ch08-s02-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 44900,
+      "bytes": 718892,
+      "sha256": "9a87a972a3f9c857d136bc9fe5d36ef83df96bdd1bf71f5bcd2780ba43cfce49",
+      "sentence_ids": [
+        "ch08-s02-n0043",
+        "ch08-s02-n0044",
+        "ch08-s02-n0045",
+        "ch08-s02-n0046",
+        "ch08-s02-n0047",
+        "ch08-s02-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 40164,
+      "bytes": 643244,
+      "sha256": "ea0dfd03ba639466ebc615a1357bbf6ef91b3cdc6a1e03d5da2b3c96f2a0a874",
+      "sentence_ids": [
+        "ch08-s02-n0049",
+        "ch08-s02-n0050",
+        "ch08-s02-n0051",
+        "ch08-s02-n0052",
+        "ch08-s02-n0053",
+        "ch08-s02-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 48393,
+      "bytes": 774956,
+      "sha256": "c98bf86765f541ad0e193472e71e039b45b617c37d15d72d7adacab99dd145be",
+      "sentence_ids": [
+        "ch08-s02-n0055",
+        "ch08-s02-n0056",
+        "ch08-s02-n0057",
+        "ch08-s02-n0058",
+        "ch08-s02-n0059",
+        "ch08-s02-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 54847,
+      "bytes": 878252,
+      "sha256": "fc3b7291ad1ed9da61e4795158dc73619efb7a4a08a476990544855dd777b1ca",
+      "sentence_ids": [
+        "ch08-s02-n0061",
+        "ch08-s02-n0062",
+        "ch08-s02-n0063",
+        "ch08-s02-n0064",
+        "ch08-s02-n0065",
+        "ch08-s02-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 60680,
+      "bytes": 971564,
+      "sha256": "ae130cc5ad67737ad0ec3b6dfaccab23ca2f141b6312d68919e565099b56f7a9",
+      "sentence_ids": [
+        "ch08-s02-n0067",
+        "ch08-s02-n0068",
+        "ch08-s02-n0069",
+        "ch08-s02-n0070",
+        "ch08-s02-n0071",
+        "ch08-s02-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 41580,
+      "bytes": 665900,
+      "sha256": "fd158a6b4495f72ccc8308e54fafc13b7bbc6f11cf8ad6aa4f3b28acb2d259ba",
+      "sentence_ids": [
+        "ch08-s02-n0073",
+        "ch08-s02-n0074",
+        "ch08-s02-n0075",
+        "ch08-s02-n0076",
+        "ch08-s02-n0077",
+        "ch08-s02-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 38065,
+      "bytes": 609836,
+      "sha256": "d7a1349f7efaae66b9d1c0a05b1fa9389c3bbb84c0a41ef64cf355ad77b574c0",
+      "sentence_ids": [
+        "ch08-s02-n0079",
+        "ch08-s02-n0080",
+        "ch08-s02-n0081",
+        "ch08-s02-n0082",
+        "ch08-s02-n0083",
+        "ch08-s02-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 75767,
+      "bytes": 1212716,
+      "sha256": "e1ba8a521f76daced60c0ff53e0e69edd16ffdd817c942043cc01e8af9c66404",
+      "sentence_ids": [
+        "ch08-s02-n0085",
+        "ch08-s02-n0086",
+        "ch08-s02-n0087",
+        "ch08-s02-n0088",
+        "ch08-s02-n0089",
+        "ch08-s02-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 60787,
+      "bytes": 973100,
+      "sha256": "18284c86ffd13c4f2cb9c2093ca2c03c5953241a4175b2ba75308f288f561d14",
+      "sentence_ids": [
+        "ch08-s02-n0091",
+        "ch08-s02-n0092",
+        "ch08-s02-n0093",
+        "ch08-s02-n0094",
+        "ch08-s02-n0095",
+        "ch08-s02-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 65640,
+      "bytes": 1050668,
+      "sha256": "9a72da0d0dad9f89febefb38e8d0d96bc7c5e649dbf2df805fcd75ed88dec2c6",
+      "sentence_ids": [
+        "ch08-s02-n0097",
+        "ch08-s02-n0098",
+        "ch08-s02-n0099",
+        "ch08-s02-n0100",
+        "ch08-s02-n0101",
+        "ch08-s02-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 20700,
+      "bytes": 331820,
+      "sha256": "a3f9ec2effaa346006f19408cffd3207df1b7dee2b6432fc4a3d07edc0fd4b63",
+      "sentence_ids": [
+        "ch08-s02-n0103",
+        "ch08-s02-n0104",
+        "ch08-s02-n0105",
+        "ch08-s02-n0106"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch08-s02-n0001",
+      "text": "剩余劳动并不是资本发明的。",
+      "start_ms": 80,
+      "end_ms": 2160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s02-n0002",
+      "text": "只要生产资料被社会中的一部分人垄断，劳动者无论自由还是不自由，都必须在维持自己生活所需的劳动之外继续劳动，为生产资料的所有者生产生活资料。",
+      "start_ms": 2680,
+      "end_ms": 15080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s02-n0003",
+      "text": "这个所有者可以是雅典贵族、伊特鲁里亚的神权统治者、罗马公民、诺曼贵族、美国奴隶主、瓦拉几亚领主，也可以是现代地主或资本家。",
+      "start_ms": 16000,
+      "end_ms": 27600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s02-n0004",
+      "text": "不过，在一种以产品的使用价值为主，而不以交换价值为主的社会里，剩余劳动只受需要范围的限制，而这个范围可大可小。",
+      "start_ms": 28400,
+      "end_ms": 38880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s02-n0005",
+      "text": "生产方式本身不会产生无限索取剩余劳动的冲动。",
+      "start_ms": 39360,
+      "end_ms": 43520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s02-n0006",
+      "text": "古代也有可怕的过度劳动，但主要出现在直接生产金银、追求货币形式的交换价值时。",
+      "start_ms": 44120,
+      "end_ms": 50520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s02-n0007",
+      "text": "在古代金银矿里，把人强迫劳动至死，甚至是过度劳动的正式做法。",
+      "start_ms": 0,
+      "end_ms": 6418,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s02-n0008",
+      "text": "读一读西西里的狄奥多罗斯就知道了。",
+      "start_ms": 6418,
+      "end_ms": 10056,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s02-n0009",
+      "text": "但这在古代世界仍是例外。",
+      "start_ms": 10056,
+      "end_ms": 12623,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s02-n0010",
+      "text": "情况到了资本主义世界市场中便发生变化。",
+      "start_ms": 12623,
+      "end_ms": 16688,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s02-n0011",
+      "text": "一个民族原本还处在奴隶劳动、徭役劳动等较低的生产形式中，一旦被卷入资本主义支配的世界市场，出口产品成了首要利益，旧式奴役的野蛮残酷上就会再加上“文明的”过度劳动。",
+      "start_ms": 16688,
+      "end_ms": 34018,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s02-n0012",
+      "text": "美国南部各州的黑人劳动就是这样。",
+      "start_ms": 34018,
+      "end_ms": 37441,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s02-n0013",
+      "text": "生产主要为了直接满足本地需要时，黑人奴隶的处境还带有一种相对温和的家长制色彩。",
+      "start_ms": 0,
+      "end_ms": 8628,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s02-n0014",
+      "text": "棉花出口越成为这些州生死攸关的利益，过度消耗黑人劳动力就越变成一套精打细算的制度，有些地方甚至在 7 个劳动年内就耗尽一个奴隶的生命。",
+      "start_ms": 8628,
+      "end_ms": 23008,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s02-n0015",
+      "text": "目标不再只是从他身上取得一定数量的有用产品，而是直接生产剩余价值。",
+      "start_ms": 23008,
+      "end_ms": 30308,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s02-n0016",
+      "text": "多瑙河各公国的徭役劳动也经历了类似变化。",
+      "start_ms": 30308,
+      "end_ms": 34733,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s02-n0017",
+      "text": "把多瑙河各公国对剩余劳动的贪欲同英国工厂作比较，尤其有意义。",
+      "start_ms": 34733,
+      "end_ms": 41369,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s02-n0018",
+      "text": "因为在徭役制度下，剩余劳动单独存在，肉眼就能看见。",
+      "start_ms": 41369,
+      "end_ms": 46900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s02-n0019",
+      "text": "假设一个工作日由 6 小时必要劳动和 6 小时剩余劳动组成。",
+      "start_ms": 0,
+      "end_ms": 6280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s02-n0020",
+      "text": "自由雇佣工人每周劳动 6 天，就给资本家提供 6乘以6=36 小时剩余劳动。",
+      "start_ms": 7120,
+      "end_ms": 19200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s02-n0021",
+      "text": "这等于他每周为自己劳动 3 天，再无偿替资本家劳动 3 天。",
+      "start_ms": 19880,
+      "end_ms": 28200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s02-n0022",
+      "text": "可在工厂里，必要劳动和剩余劳动混在同一个工作日中，看不出明确界线。",
+      "start_ms": 29120,
+      "end_ms": 36640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s02-n0023",
+      "text": "也可以说，他每分钟有 30 秒为自己劳动，另外 30 秒为资本家劳动。",
+      "start_ms": 37360,
+      "end_ms": 45240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s02-n0024",
+      "text": "徭役劳动则不同。",
+      "start_ms": 46080,
+      "end_ms": 47480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s02-n0025",
+      "text": "瓦拉几亚农民在自己的田地上从事维持生活的必要劳动，又到领主庄园从事剩余劳动。",
+      "start_ms": 0,
+      "end_ms": 9123,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s02-n0026",
+      "text": "两种劳动发生在不同地方，因此清楚地并列存在。",
+      "start_ms": 9123,
+      "end_ms": 14405,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s02-n0027",
+      "text": "表现形式虽然不同，数量关系却没有变化。",
+      "start_ms": 14405,
+      "end_ms": 18967,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s02-n0028",
+      "text": "一周 3 天剩余劳动，始终是 3 天没有给劳动者本人带来等价物的劳动，无论它叫徭役劳动还是雇佣劳动。",
+      "start_ms": 18967,
+      "end_ms": 30011,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s02-n0029",
+      "text": "资本家对剩余劳动的贪欲，表现为无限延长工作日；领主的贪欲，则更直接地表现为追逐更多徭役日。",
+      "start_ms": 30011,
+      "end_ms": 40816,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s02-n0030",
+      "text": "在多瑙河各公国，徭役劳动同实物地租以及其他农奴义务结合在一起，但它是农民向统治阶级缴纳的主要贡赋。",
+      "start_ms": 40816,
+      "end_ms": 52580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s02-n0031",
+      "text": "在这种地方，徭役劳动很少是农奴制的结果。",
+      "start_ms": 400,
+      "end_ms": 3520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s02-n0032",
+      "text": "实际情况通常相反，农奴制是从徭役劳动中发展出来的。",
+      "start_ms": 4120,
+      "end_ms": 8760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s02-n0033",
+      "text": "罗马尼亚各省就是如此。",
+      "start_ms": 8960,
+      "end_ms": 10680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s02-n0034",
+      "text": "那里原来的生产方式以村社公有地为基础，但不同于斯拉夫式或印度式公有制。",
+      "start_ms": 11160,
+      "end_ms": 17480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s02-n0035",
+      "text": "村社成员把一部分土地作为自由的私有地各自耕种，另一部分公共土地则由全体共同耕种。",
+      "start_ms": 18080,
+      "end_ms": 24560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s02-n0036",
+      "text": "共同劳动的产品，一部分用来应对歉收和其他意外，一部分作为公共资金，支付战争、宗教和其他村社开支。",
+      "start_ms": 24800,
+      "end_ms": 32680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s02-n0037",
+      "text": "后来，军事和教会权贵侵占了公有地，也侵占了农民为公有地承担的劳动。",
+      "start_ms": 0,
+      "end_ms": 7256,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s02-n0038",
+      "text": "自由农民在村社土地上的劳动，便变成了替这些土地窃贼服徭役。",
+      "start_ms": 7256,
+      "end_ms": 13633,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s02-n0039",
+      "text": "农奴关系也随之形成，起初只是事实而不是法律。",
+      "start_ms": 13633,
+      "end_ms": 18471,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s02-n0040",
+      "text": "后来，号称“解放世界”的俄国借口废除农奴制，反而用法律确认了它。",
+      "start_ms": 18471,
+      "end_ms": 25507,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s02-n0041",
+      "text": "俄国将军基谢廖夫在 1831 年颁布的徭役法典，实际上由领主们亲自口授。",
+      "start_ms": 25507,
+      "end_ms": 32984,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s02-n0042",
+      "text": "俄国由此一举赢得了多瑙河各公国的权贵，也赢得了全欧洲自由派蠢人的喝彩。",
+      "start_ms": 32984,
+      "end_ms": 40680,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s02-n0043",
+      "text": "这部徭役法典名叫《组织条例》。",
+      "start_ms": 0,
+      "end_ms": 2854,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s02-n0044",
+      "text": "按照条例，每个瓦拉几亚农民除了缴纳许多实物贡赋，还欠所谓土地所有者 12 个普通劳动日、1 个田间劳动日和 1 个运木日，名义上每年总共 14 天。",
+      "start_ms": 2854,
+      "end_ms": 15601,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s02-n0045",
+      "text": "可是，条例所谓的“一个劳动日”，不是通常的一天，而是完成某种规定的日均工作量所需的时间。",
+      "start_ms": 15601,
+      "end_ms": 23972,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s02-n0046",
+      "text": "这份工作量又经过巧妙设计，即使独眼巨人也不可能在 24 小时内完成。",
+      "start_ms": 23972,
+      "end_ms": 30060,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s02-n0047",
+      "text": "条例用冷冰冰的文字表现出真正的俄式讽刺。",
+      "start_ms": 30060,
+      "end_ms": 33865,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s02-n0048",
+      "text": "它规定，12 个普通劳动日实际要完成 36 天的手工劳动，1 个田间劳动日等于 3 天，1 个运木日也等于 3 天，合计 42 个徭役日。",
+      "start_ms": 33865,
+      "end_ms": 44900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s02-n0049",
+      "text": "此外还有所谓“约巴吉”，也就是领主有特殊生产需要时可以征用的额外劳役。",
+      "start_ms": 0,
+      "end_ms": 7767,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s02-n0050",
+      "text": "每个村庄按照人口提供一定数量的人手，平均到每个农民又是 14 天。",
+      "start_ms": 7767,
+      "end_ms": 14645,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s02-n0051",
+      "text": "这样，法定徭役总共达到每年 56 天。",
+      "start_ms": 14645,
+      "end_ms": 18418,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s02-n0052",
+      "text": "瓦拉几亚气候恶劣，一个农业年只有 210 天。",
+      "start_ms": 18418,
+      "end_ms": 23078,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s02-n0053",
+      "text": "其中要扣掉 40 个星期日和节日，平均还要因坏天气损失 30 天，实际只剩 140 个劳动日。",
+      "start_ms": 23078,
+      "end_ms": 32176,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s02-n0054",
+      "text": "56 天徭役同 84 天必要劳动之比是 84分之56，也就是 663分之2百分号。",
+      "start_ms": 32176,
+      "end_ms": 40164,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s02-n0055",
+      "text": "这个剩余价值率还远低于英国农业工人或工厂工人的水平，但这只是法律明文规定的徭役。",
+      "start_ms": 0,
+      "end_ms": 8527,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s02-n0056",
+      "text": "《组织条例》在“自由”地为规避自身规定提供方便这一点上，比英国工厂法走得更远。",
+      "start_ms": 8527,
+      "end_ms": 16842,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s02-n0057",
+      "text": "它先把 12 天变成 54 天〔译者注：德文原文此处为 54 天，与上文 42 天和 56 天的计算都不一致。",
+      "start_ms": 16842,
+      "end_ms": 26435,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s02-n0058",
+      "text": "〕，又把每个徭役日的标准工作量定得过高，迫使农民把工作延续到后面的日子。",
+      "start_ms": 26435,
+      "end_ms": 34110,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s02-n0059",
+      "text": "例如，条例可以规定一天锄完一块地，但这项工作，特别是在玉米地里，实际需要两天。",
+      "start_ms": 34110,
+      "end_ms": 42424,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s02-n0060",
+      "text": "有些农活的法定“一天”甚至可以从五月开始，到十月才结束。",
+      "start_ms": 42424,
+      "end_ms": 48393,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s02-n0061",
+      "text": "摩尔多瓦的规定更加苛刻。",
+      "start_ms": 0,
+      "end_ms": 3119,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s02-n0062",
+      "text": "难怪一位得意扬扬的领主高喊：“《组织条例》规定的 12 个徭役日，合起来就是一年 365 天！”",
+      "start_ms": 3119,
+      "end_ms": 14557,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s02-n0063",
+      "text": "多瑙河各公国的《组织条例》公开体现了对剩余劳动的贪欲，每一条规定都在把这种贪欲变成合法权利。",
+      "start_ms": 14557,
+      "end_ms": 26514,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s02-n0064",
+      "text": "英国工厂法则从反面体现了同一种贪欲。",
+      "start_ms": 26514,
+      "end_ms": 31193,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s02-n0065",
+      "text": "它由国家强制限制工作日，遏制资本无限榨取劳动力的冲动，而这个国家本身仍由资本家和地主支配。",
+      "start_ms": 31193,
+      "end_ms": 42890,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s02-n0066",
+      "text": "即使暂且不谈日益壮大的工人运动，英国也不得不限制工厂劳动，原因同它不得不给土地施鸟粪肥一样。",
+      "start_ms": 42890,
+      "end_ms": 54847,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s02-n0067",
+      "text": "资本对利润的盲目贪求，一方面耗尽了土地，另一方面从根部损害了整个民族的生命力。",
+      "start_ms": 0,
+      "end_ms": 10425,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s02-n0068",
+      "text": "周期性流行病已经清楚地说明了这一点，德国和法国征兵身高标准不断下降也说明了同一件事。",
+      "start_ms": 10425,
+      "end_ms": 21652,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s02-n0069",
+      "text": "1867 年仍然有效的 1850 年工厂法，把平均每个工作日限制在 10 小时。",
+      "start_ms": 21652,
+      "end_ms": 31008,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s02-n0070",
+      "text": "具体说，星期一到星期五每天从早上 6 点到傍晚 6 点，共 12 小时，其中依法扣除半小时早餐和 1 小时午餐，实际劳动 102分之1 小时。",
+      "start_ms": 31008,
+      "end_ms": 47314,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s02-n0071",
+      "text": "星期六从早上 6 点到下午 2 点，共 8 小时，扣除半小时早餐，实际劳动 72分之1 小时。",
+      "start_ms": 47314,
+      "end_ms": 57740,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s02-n0072",
+      "text": "每周合计劳动 60 小时。",
+      "start_ms": 57740,
+      "end_ms": 60680,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s02-n0073",
+      "text": "法律还设置了专门的监督者，也就是直属内政部的工厂视察员。",
+      "start_ms": 0,
+      "end_ms": 5544,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s02-n0074",
+      "text": "议会每半年公布一次他们的报告。",
+      "start_ms": 5544,
+      "end_ms": 8514,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s02-n0075",
+      "text": "因此，我们得到了一套连续而正式的统计资料，记录资本家怎样贪求更多剩余劳动。",
+      "start_ms": 8514,
+      "end_ms": 15840,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s02-n0076",
+      "text": "先听听工厂视察员怎么说。",
+      "start_ms": 15840,
+      "end_ms": 18216,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s02-n0077",
+      "text": "“弄虚作假的工厂主，会让工人早上 6 点前提前 15 分钟开工，有时多一点，有时少一点；傍晚 6 点后再延长 15 分钟，同样有时多一点，有时少一点。",
+      "start_ms": 18216,
+      "end_ms": 31482,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s02-n0078",
+      "text": "他从名义上的半小时早餐时间里，开头和结尾各偷走 5 分钟；又从 1 小时午餐时间里，开头和结尾各偷走 10 分钟。",
+      "start_ms": 31482,
+      "end_ms": 41580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s02-n0079",
+      "text": "星期六下午 2 点以后，他还要延长 15 分钟，有时更多，有时更少。",
+      "start_ms": 0,
+      "end_ms": 6140,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s02-n0080",
+      "text": "这样算下来，他得到：",
+      "start_ms": 6140,
+      "end_ms": 8186,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s02-n0081",
+      "text": "“这样，每周总共多得 340 分钟，也就是 5 小时 40 分钟。",
+      "start_ms": 8186,
+      "end_ms": 13712,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s02-n0082",
+      "text": "一年扣除 2 周节日或偶尔停工的时间后，按剩下的 50 个工作周计算，这相当于白白多得 27 个工作日。”",
+      "start_ms": 13712,
+      "end_ms": 23330,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s02-n0083",
+      "text": "“如果每天把工作日延长 5 分钟，一年就会多出两个半生产日。”",
+      "start_ms": 23330,
+      "end_ms": 29265,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s02-n0084",
+      "text": "“如果每天东偷一点时间，西抢一点时间，凑出额外 1 小时，一年 12 个月就会变成 13 个月。”",
+      "start_ms": 29265,
+      "end_ms": 38065,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s02-n0085",
+      "text": "即使危机使生产中断，工厂每周只开工几天，资本延长工作日的冲动也不会改变。",
+      "start_ms": 0,
+      "end_ms": 10613,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s02-n0086",
+      "text": "生意越少，资本家越想从每笔生意中赚得更多；能够开工的时间越短，他越想在这段时间里塞进更多剩余劳动。",
+      "start_ms": 10613,
+      "end_ms": 25059,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s02-n0087",
+      "text": "工厂视察员在谈到 1857—1858 年危机时，就记录了这种现象：",
+      "start_ms": 25059,
+      "end_ms": 34198,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s02-n0088",
+      "text": "“有人或许觉得，生意如此萧条时竟然还会有人要求加班，实在自相矛盾。",
+      "start_ms": 34198,
+      "end_ms": 43927,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s02-n0089",
+      "text": "可是，贸易状况越差，越会刺激那些肆无忌惮的人违法，因为他们可以借此获得额外利润。”",
+      "start_ms": 43927,
+      "end_ms": 56015,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s02-n0090",
+      "text": "伦纳德·霍纳说：“在我的辖区里，122 家工厂已经完全停办，143 家停工，其余工厂全都缩短了开工时间，可是超过法定时限的劳动仍在继续。”",
+      "start_ms": 56015,
+      "end_ms": 75767,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s02-n0091",
+      "text": "豪厄尔也说：“尽管生意萧条使大多数工厂只开半工，我收到的投诉数量却同以前一样多。",
+      "start_ms": 0,
+      "end_ms": 8874,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s02-n0092",
+      "text": "工厂每天从法律保障给工人的吃饭和休息时间里，抢走半小时或四十五分钟。”",
+      "start_ms": 8874,
+      "end_ms": 16639,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s02-n0093",
+      "text": "在 1861—1865 年那场严重的棉业危机中，同样的现象又以较小规模出现。",
+      "start_ms": 16639,
+      "end_ms": 24625,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s02-n0094",
+      "text": "“我们在吃饭时间或其他违法时段发现工人仍在劳动时，工厂主有时辩称，是工人自己不肯离开工厂，必须强迫他们才肯停下清理机器之类的工作，星期六下午尤其如此。",
+      "start_ms": 24625,
+      "end_ms": 41264,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s02-n0095",
+      "text": "可是，机器停下以后，工人如果还留在工厂，只是因为从早上 6 点到傍晚 6 点的法定劳动时间里，工厂根本没有给他们时间做这些事。”",
+      "start_ms": 41264,
+      "end_ms": 54575,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s02-n0096",
+      "text": "“许多工厂主似乎无法抵挡通过违法加班取得额外利润的诱惑。",
+      "start_ms": 54575,
+      "end_ms": 60787,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s02-n0097",
+      "text": "他们赌自己不会被发现，而且算准即使被发现，微不足道的罚款和诉讼费也不会吃掉利润。”",
+      "start_ms": 0,
+      "end_ms": 10985,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s02-n0098",
+      "text": "“如果额外劳动时间是靠一天之中无数次‘小偷小摸’积攒起来的，视察员几乎无法取得足够证据。”",
+      "start_ms": 10985,
+      "end_ms": 23041,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s02-n0099",
+      "text": "工厂视察员把资本从工人吃饭和休息时间里偷走的这些零碎时间，称为“对分钟的小偷小摸”和“抢走几分钟”。",
+      "start_ms": 23041,
+      "end_ms": 36437,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s02-n0100",
+      "text": "工人则把这种惯用手法叫作“在吃饭时间东啃一口、西抠一点”。",
+      "start_ms": 36437,
+      "end_ms": 44207,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s02-n0101",
+      "text": "在这种环境里，剩余劳动怎样形成剩余价值，已经不是什么秘密。",
+      "start_ms": 44207,
+      "end_ms": 51976,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s02-n0102",
+      "text": "一位很体面的工厂主对我说：“只要允许我每天多开工 10 分钟，你每年就等于往我口袋里放进 1,000 英镑。”",
+      "start_ms": 51976,
+      "end_ms": 65640,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s02-n0103",
+      "text": "“利润就是由一个个时间片刻组成的。”",
+      "start_ms": 0,
+      "end_ms": 3054,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s02-n0104",
+      "text": "最能说明问题的，是人们把工作全天的工人叫作“全时工”，把依法每天只能工作 6 小时的 13 岁以下儿童叫作“半时工”。",
+      "start_ms": 3054,
+      "end_ms": 12386,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s02-n0105",
+      "text": "在这里，工人不过是劳动时间的人格化。",
+      "start_ms": 12386,
+      "end_ms": 15440,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s02-n0106",
+      "text": "人与人之间的一切差别，都被抹成了“全时工”和“半时工”的差别。",
+      "start_ms": 15440,
+      "end_ms": 20700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    }
+  ]
+}

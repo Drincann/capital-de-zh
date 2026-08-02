@@ -1,0 +1,1216 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch08-s04-v2-audio-72490626f176",
+  "unit_id": "ch08-s04",
+  "translation_version_id": "ch08-s04-v2",
+  "translation_sha256": "49cd6a5a86c04a8c8179786b2575f09361bbbec117d2ab127c50e61370e179de",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T20:15:30.627Z",
+  "completed_at": "2026-08-02T20:21:18.835Z",
+  "duration_ms": 869765,
+  "sentence_count": 114,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 59400,
+      "bytes": 950828,
+      "sha256": "ff62a58a6036c5e2b3b134adb08238f5ff5232debf35f47602e20c6e6854ace3",
+      "sentence_ids": [
+        "ch08-s04-n0001",
+        "ch08-s04-n0002",
+        "ch08-s04-n0003",
+        "ch08-s04-n0004",
+        "ch08-s04-n0005",
+        "ch08-s04-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 55725,
+      "bytes": 892076,
+      "sha256": "3e62ab40e1a3c84ec41b3ad7bcfcc0a7563c52a7569f61b8e4467c6c095c0faf",
+      "sentence_ids": [
+        "ch08-s04-n0007",
+        "ch08-s04-n0008",
+        "ch08-s04-n0009",
+        "ch08-s04-n0010",
+        "ch08-s04-n0011",
+        "ch08-s04-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 44729,
+      "bytes": 716204,
+      "sha256": "fbd6c64580ea206e175ed356e714ef6bac74c4b833e470b29d9b8c22ec3ec939",
+      "sentence_ids": [
+        "ch08-s04-n0013",
+        "ch08-s04-n0014",
+        "ch08-s04-n0015",
+        "ch08-s04-n0016",
+        "ch08-s04-n0017",
+        "ch08-s04-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 31884,
+      "bytes": 510764,
+      "sha256": "1bfe4c93150eb15ec203025b3c334e26cca1bd87fc295c0a077a9c3eb1e4fad7",
+      "sentence_ids": [
+        "ch08-s04-n0019",
+        "ch08-s04-n0020",
+        "ch08-s04-n0021",
+        "ch08-s04-n0022",
+        "ch08-s04-n0023",
+        "ch08-s04-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 34599,
+      "bytes": 554156,
+      "sha256": "1107d0aadf7407ebce55bce3861c88a179212b55cf2b7d4e5ddebad46d7717a7",
+      "sentence_ids": [
+        "ch08-s04-n0025",
+        "ch08-s04-n0026",
+        "ch08-s04-n0027",
+        "ch08-s04-n0028",
+        "ch08-s04-n0029",
+        "ch08-s04-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 37700,
+      "bytes": 603692,
+      "sha256": "0fae4cd203e83e422baea6b524d195d17bc934153e27e3fdbec56862be1cbcf7",
+      "sentence_ids": [
+        "ch08-s04-n0031",
+        "ch08-s04-n0032",
+        "ch08-s04-n0033",
+        "ch08-s04-n0034",
+        "ch08-s04-n0035",
+        "ch08-s04-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 19780,
+      "bytes": 317228,
+      "sha256": "5626695760a8615bc544a1a288890115c8c5054cf835b50dd3f13d0209a6bbe2",
+      "sentence_ids": [
+        "ch08-s04-n0037",
+        "ch08-s04-n0038",
+        "ch08-s04-n0039",
+        "ch08-s04-n0040",
+        "ch08-s04-n0041",
+        "ch08-s04-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 53700,
+      "bytes": 859820,
+      "sha256": "b2dca3889babf6e0e602041bf62f3c9bfd543089a69e8327126c52c190314db5",
+      "sentence_ids": [
+        "ch08-s04-n0043",
+        "ch08-s04-n0044",
+        "ch08-s04-n0045",
+        "ch08-s04-n0046",
+        "ch08-s04-n0047",
+        "ch08-s04-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 53905,
+      "bytes": 863276,
+      "sha256": "e176940afa7b7a6bd27d45c690d3b83ab183b6b8e73897937637907d1f47723b",
+      "sentence_ids": [
+        "ch08-s04-n0049",
+        "ch08-s04-n0050",
+        "ch08-s04-n0051",
+        "ch08-s04-n0052",
+        "ch08-s04-n0053",
+        "ch08-s04-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 74800,
+      "bytes": 1197356,
+      "sha256": "16f2afd4c5cdc50abf7b3604ba29284dd93e3ddb90fc5af595db4a6d4a1062e4",
+      "sentence_ids": [
+        "ch08-s04-n0055",
+        "ch08-s04-n0056",
+        "ch08-s04-n0057",
+        "ch08-s04-n0058",
+        "ch08-s04-n0059",
+        "ch08-s04-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 61390,
+      "bytes": 982700,
+      "sha256": "ae2b921e3478fdff66e213b77fbb9f023e8412c7018f19cc10027d6abd84d6d5",
+      "sentence_ids": [
+        "ch08-s04-n0061",
+        "ch08-s04-n0062",
+        "ch08-s04-n0063",
+        "ch08-s04-n0064",
+        "ch08-s04-n0065",
+        "ch08-s04-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 37862,
+      "bytes": 606380,
+      "sha256": "1a4a2865e7d60bf1c1fd1cb325911bf6698f36365d6de788e7642ad04353963a",
+      "sentence_ids": [
+        "ch08-s04-n0067",
+        "ch08-s04-n0068",
+        "ch08-s04-n0069",
+        "ch08-s04-n0070",
+        "ch08-s04-n0071",
+        "ch08-s04-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 48080,
+      "bytes": 769964,
+      "sha256": "51252fb86db9a575d0efbbd07df4766e363a7960a08561ea85c54bce6055b036",
+      "sentence_ids": [
+        "ch08-s04-n0073",
+        "ch08-s04-n0074",
+        "ch08-s04-n0075",
+        "ch08-s04-n0076",
+        "ch08-s04-n0077",
+        "ch08-s04-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 54495,
+      "bytes": 872492,
+      "sha256": "e3706044b4f92190f84e0af9133d833bb3c8ca867436673495eec0afe9f59e56",
+      "sentence_ids": [
+        "ch08-s04-n0079",
+        "ch08-s04-n0080",
+        "ch08-s04-n0081",
+        "ch08-s04-n0082",
+        "ch08-s04-n0083",
+        "ch08-s04-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 38201,
+      "bytes": 611756,
+      "sha256": "1e0821c22dab875bf1ca8df28888633703198f820863dccf40faaaac8a40dfd0",
+      "sentence_ids": [
+        "ch08-s04-n0085",
+        "ch08-s04-n0086",
+        "ch08-s04-n0087",
+        "ch08-s04-n0088",
+        "ch08-s04-n0089",
+        "ch08-s04-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 38658,
+      "bytes": 619052,
+      "sha256": "ebd258fefa56f27bb6029e16b6fc501338d4b7b4fa035c2aa32fdbad4fd7a0ed",
+      "sentence_ids": [
+        "ch08-s04-n0091",
+        "ch08-s04-n0092",
+        "ch08-s04-n0093",
+        "ch08-s04-n0094",
+        "ch08-s04-n0095",
+        "ch08-s04-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 55677,
+      "bytes": 891308,
+      "sha256": "a8fd753b267a356fdde2f58e29eb508271e192884d19e6d84a42a63e84380f78",
+      "sentence_ids": [
+        "ch08-s04-n0097",
+        "ch08-s04-n0098",
+        "ch08-s04-n0099",
+        "ch08-s04-n0100",
+        "ch08-s04-n0101",
+        "ch08-s04-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 40400,
+      "bytes": 647084,
+      "sha256": "5bbd798c576b0237b6b69a40cab9207f180e8a2764ff7fb3c3c990601ce7c40f",
+      "sentence_ids": [
+        "ch08-s04-n0103",
+        "ch08-s04-n0104",
+        "ch08-s04-n0105",
+        "ch08-s04-n0106",
+        "ch08-s04-n0107",
+        "ch08-s04-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 28780,
+      "bytes": 461228,
+      "sha256": "01e95776233740f741da9d4a3a96e1c6aef066d69328a41d0dafc9629367b801",
+      "sentence_ids": [
+        "ch08-s04-n0109",
+        "ch08-s04-n0110",
+        "ch08-s04-n0111",
+        "ch08-s04-n0112",
+        "ch08-s04-n0113",
+        "ch08-s04-n0114"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch08-s04-n0001",
+      "text": "从价值增殖的角度看，作为不变资本的生产资料只有一个用途：吸收劳动，并随着每一份劳动吸收相应数量的剩余劳动。",
+      "start_ms": 0,
+      "end_ms": 12360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s04-n0002",
+      "text": "只要机器、厂房等没有这样发挥作用，它们的存在就会给资本家造成损失，因为闲置期间垫付在它们上面的资本毫无用处。",
+      "start_ms": 13160,
+      "end_ms": 26000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s04-n0003",
+      "text": "如果停工后还要花钱才能重新开工，原本只是资本闲置的损失便成了实际支出。",
+      "start_ms": 26840,
+      "end_ms": 35200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s04-n0004",
+      "text": "把工作日越过白天的自然界限，一直延长到夜间，也只能暂时缓解资本对活劳动的渴求。",
+      "start_ms": 36080,
+      "end_ms": 46120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s04-n0005",
+      "text": "资本主义生产本身追求的，是占有一天 24 小时里的全部劳动。",
+      "start_ms": 47120,
+      "end_ms": 53560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s04-n0006",
+      "text": "可是，同一批工人不可能昼夜不停地被使用。",
+      "start_ms": 54280,
+      "end_ms": 59160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s04-n0007",
+      "text": "为了越过这道身体极限，资本便让不同的工人轮班，白班和夜班可以有多种安排，例如一批工人这星期上白班，下星期改上夜班。",
+      "start_ms": 0,
+      "end_ms": 12359,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s04-n0008",
+      "text": "英国棉纺织业蓬勃发展的早期，这种轮班制曾占主导地位，今天在莫斯科省的棉纺厂等地仍很盛行。",
+      "start_ms": 12359,
+      "end_ms": 21900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s04-n0009",
+      "text": "在英国，许多仍不受工厂法约束的所谓“自由”行业也还在实行这种 24 小时生产制，例如英格兰、威尔士和苏格兰的高炉、锻造厂、轧钢厂和其他金属工场。",
+      "start_ms": 21900,
+      "end_ms": 37078,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s04-n0010",
+      "text": "这些地方不仅在一周六个工作日里昼夜不停，往往连星期日的 24 小时也包括在内。",
+      "start_ms": 37078,
+      "end_ms": 45100,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s04-n0011",
+      "text": "工人有男有女，有成人，也有男女儿童。",
+      "start_ms": 45100,
+      "end_ms": 49003,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s04-n0012",
+      "text": "儿童和未成年人的年龄从 8 岁——有时甚至从 6 岁——一直到 18 岁。",
+      "start_ms": 49003,
+      "end_ms": 55725,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s04-n0013",
+      "text": "有些行业的女孩和成年女人也同男人一起上夜班。",
+      "start_ms": 0,
+      "end_ms": 4187,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s04-n0014",
+      "text": "暂且不谈夜班对健康的一般危害， 生产过程昼夜不停，还给资本家提供了一个极好的机会，让工人的实际劳动时间超过名义上的工作日。",
+      "start_ms": 4187,
+      "end_ms": 15608,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s04-n0015",
+      "text": "在刚才提到的重体力行业中，每个工人名义上的工作日通常是 12 小时，不论白班还是夜班。",
+      "start_ms": 15608,
+      "end_ms": 23411,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s04-n0016",
+      "text": "可是超过 12 小时的加班，在很多情况下用英国官方报告的话说，实在“骇人听闻”。",
+      "start_ms": 23411,
+      "end_ms": 30644,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s04-n0017",
+      "text": "报告写道：“证词显示，9 至 12 岁的男孩承担了如此繁重的劳动。",
+      "start_ms": 30644,
+      "end_ms": 36354,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s04-n0018",
+      "text": "任何人只要认真想一想，都会不得不得出结论：父母和雇主滥用权力的做法再也不能容许下去了。”",
+      "start_ms": 36354,
+      "end_ms": 44729,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s04-n0019",
+      "text": "“让男孩轮流上白班和夜班，无论在生意繁忙时还是平时，都会把工作日延长到可耻的程度。",
+      "start_ms": 0,
+      "end_ms": 8600,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s04-n0020",
+      "text": "很多时候，这种延长不仅残酷，甚至令人难以置信。",
+      "start_ms": 8600,
+      "end_ms": 13425,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s04-n0021",
+      "text": "替班的男孩总会有人因为这样或那样的原因缺勤。",
+      "start_ms": 13425,
+      "end_ms": 18040,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s04-n0022",
+      "text": "于是，已经干完自己班次的一个或几个男孩，就必须留下来顶替。",
+      "start_ms": 18040,
+      "end_ms": 24123,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s04-n0023",
+      "text": "人人都知道这个制度怎样运转。",
+      "start_ms": 24123,
+      "end_ms": 27059,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s04-n0024",
+      "text": "我问一家轧钢厂的经理，替班男孩缺勤时由谁补位。",
+      "start_ms": 27059,
+      "end_ms": 31884,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s04-n0025",
+      "text": "他回答：‘你和我一样清楚。’",
+      "start_ms": 0,
+      "end_ms": 2936,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s04-n0026",
+      "text": "他毫不犹豫地承认了事实。”",
+      "start_ms": 2936,
+      "end_ms": 5662,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s04-n0027",
+      "text": "“在一家名义工作日从早晨 6 点到下午 5 点半的轧钢厂里，一名男孩每周有四次通宵后还要接着干，至少要到第二天晚上 8 点半才收工。",
+      "start_ms": 5662,
+      "end_ms": 18243,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s04-n0028",
+      "text": "这种安排持续了六个月。”",
+      "start_ms": 18243,
+      "end_ms": 20759,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s04-n0029",
+      "text": "〔译者注：原书所引证词没有说明这几次连续劳动从几点开始。",
+      "start_ms": 20759,
+      "end_ms": 26631,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s04-n0030",
+      "text": "〕“另一个男孩 9 岁时有时连续干三个 12 小时班，10 岁时曾连续工作两天两夜。”",
+      "start_ms": 26631,
+      "end_ms": 34599,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s04-n0031",
+      "text": "“第三个男孩现在 10 岁。",
+      "start_ms": 0,
+      "end_ms": 2175,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s04-n0032",
+      "text": "他连续三个晚上从早晨 6 点干到半夜 12 点，另外几个晚上则干到晚上 9 点。”",
+      "start_ms": 2175,
+      "end_ms": 8519,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s04-n0033",
+      "text": "“第四个男孩现在 13 岁，整整一周都是从下午 6 点干到第二天中午 12 点，有时还连续干三个班，例如从星期一早晨一直干到星期二夜里。”",
+      "start_ms": 8519,
+      "end_ms": 19938,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s04-n0034",
+      "text": "“第五个男孩现在 12 岁，在斯泰夫利一家铸铁厂连续 14 天从早晨 6 点干到午夜 12 点，后来实在撑不下去了。”",
+      "start_ms": 19938,
+      "end_ms": 29181,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s04-n0035",
+      "text": "9 岁的乔治·阿林斯沃思说：“我是上星期五来这里的。",
+      "start_ms": 29181,
+      "end_ms": 33713,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s04-n0036",
+      "text": "第二天凌晨 3 点就要开工，所以我整夜留在这里。",
+      "start_ms": 33713,
+      "end_ms": 37700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s04-n0037",
+      "text": "我家离这里 5 英里。",
+      "start_ms": 0,
+      "end_ms": 1835,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s04-n0038",
+      "text": "我睡在地板上，身下垫一张皮围裙，身上盖一件小夹克。",
+      "start_ms": 1835,
+      "end_ms": 6933,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s04-n0039",
+      "text": "后面两天，我早晨 6 点到这里。",
+      "start_ms": 6933,
+      "end_ms": 9788,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s04-n0040",
+      "text": "这里真热！",
+      "start_ms": 9788,
+      "end_ms": 10808,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s04-n0041",
+      "text": "来这里以前，我也在一座高炉干过整整一年。",
+      "start_ms": 10808,
+      "end_ms": 14886,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s04-n0042",
+      "text": "那是乡下一家很大的工厂，星期六也是凌晨 3 点开工。",
+      "start_ms": 14886,
+      "end_ms": 19780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s04-n0043",
+      "text": "不过那里离家近，我至少还能回家睡觉。",
+      "start_ms": 0,
+      "end_ms": 5225,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s04-n0044",
+      "text": "其他日子都是早晨 6 点开工，下午 6 点或 7 点收工。”",
+      "start_ms": 5225,
+      "end_ms": 12191,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s04-n0045",
+      "text": "现在再听听资本自己怎样看待这种 24 小时生产制。",
+      "start_ms": 12191,
+      "end_ms": 18868,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s04-n0046",
+      "text": "当然，它绝口不提这个制度怎样被用来把工作日延长到“残酷而令人难以置信”的程度，只谈这种制度的“正常”形式。",
+      "start_ms": 18868,
+      "end_ms": 34252,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s04-n0047",
+      "text": "“钢铁厂主内勒和维克斯共雇用 600 至 700 人，其中只有 10% 未满 18 岁，夜班里又只有 20 名男孩。",
+      "start_ms": 34252,
+      "end_ms": 48185,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s04-n0048",
+      "text": "他们说：‘男孩完全不会因为高温而受害。",
+      "start_ms": 48185,
+      "end_ms": 53700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s04-n0049",
+      "text": "温度大约是 86 至 90 华氏度，也就是约 30 至 32 摄氏度……锻造厂和轧钢厂的工人昼夜轮班，但其他工序都只在白天进行，从早晨 6 点到下午 6 点。",
+      "start_ms": 0,
+      "end_ms": 15111,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s04-n0050",
+      "text": "锻造厂实行 12 小时轮班，白班和夜班都在 12 点交接。",
+      "start_ms": 15111,
+      "end_ms": 20750,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s04-n0051",
+      "text": "有些工人长期只上夜班，并不在白班和夜班之间轮换……我们没有发现白班或夜班对健康——是指内勒和维克斯两位先生的健康吗？",
+      "start_ms": 20750,
+      "end_ms": 33832,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s04-n0052",
+      "text": "——有什么不同。",
+      "start_ms": 33832,
+      "end_ms": 35636,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s04-n0053",
+      "text": "固定在同一时段休息，可能还比来回变换睡得更好……夜班大约有 20 名未满 18 岁的男孩……没有这些男孩上夜班，我们很难把生产办好。",
+      "start_ms": 35636,
+      "end_ms": 49620,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s04-n0054",
+      "text": "我们反对限制的理由，是生产成本会增加。",
+      "start_ms": 49620,
+      "end_ms": 53905,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s04-n0055",
+      "text": "熟练工和部门负责人不好找，男孩却想要多少就有多少……当然，我们使用的男孩比例很低，所以限制夜班对我们并没有多大重要性，也不值得我们关心。’”",
+      "start_ms": 0,
+      "end_ms": 18567,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s04-n0056",
+      "text": "约翰·布朗公司经营钢铁厂，雇有 3,000 名男人和男孩，部分重型钢铁生产“昼夜轮班”。",
+      "start_ms": 18567,
+      "end_ms": 29708,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s04-n0057",
+      "text": "该公司的 J. 埃利斯说，重型钢铁厂通常每两个男人配一两个男孩。",
+      "start_ms": 29708,
+      "end_ms": 37665,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s04-n0058",
+      "text": "全公司有 500 名不满 18 岁的男孩，其中大约三分之一，也就是 170 人，还不满 13 岁。",
+      "start_ms": 37665,
+      "end_ms": 48540,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s04-n0059",
+      "text": "谈到拟议中的修法，埃利斯说：“规定不满 18 岁的人每 24 小时不得工作超过 12 小时，我不认为会有多么糟糕。",
+      "start_ms": 48540,
+      "end_ms": 62068,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s04-n0060",
+      "text": "但在 12 岁以上的男孩中，我看不出能按年龄划一条线，说男孩到了某个年龄就不再是夜班不可缺少的人手。",
+      "start_ms": 62068,
+      "end_ms": 74800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s04-n0061",
+      "text": "与其禁止我们让已经雇来的男孩上夜班，我们宁愿接受一项法律，索性不准雇用 13 岁以下、甚至 15 岁以下的男孩。",
+      "start_ms": 0,
+      "end_ms": 13413,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s04-n0062",
+      "text": "白班里的男孩也必须轮流上夜班，因为男人不能一直上夜班，那会毁掉他们的健康。",
+      "start_ms": 13413,
+      "end_ms": 22957,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s04-n0063",
+      "text": "不过，我们认为只要每周轮换，夜班就没有害处。”",
+      "start_ms": 22957,
+      "end_ms": 28889,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s04-n0064",
+      "text": "内勒和维克斯为了各自企业的利益，却提出了正好相反的说法：持续上夜班没有问题，周期性地更换白班和夜班反而可能有害。",
+      "start_ms": 28889,
+      "end_ms": 43334,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s04-n0065",
+      "text": "埃利斯接着说：“我们发现，轮流上夜班的人同只上白班的人一样健康……我们反对禁止 18 岁以下男孩上夜班，只是因为费用会增加。",
+      "start_ms": 43334,
+      "end_ms": 58811,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s04-n0066",
+      "text": "这也是唯一的理由。”",
+      "start_ms": 58811,
+      "end_ms": 61390,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s04-n0067",
+      "text": "说得真是天真而坦率！",
+      "start_ms": 0,
+      "end_ms": 1932,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s04-n0068",
+      "text": "“我们认为，增加的费用会超过这个行业在维持正常经营的前提下所能合理承担的限度。",
+      "start_ms": 1932,
+      "end_ms": 9466,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s04-n0069",
+      "text": "这里劳动力稀缺，实行这种规定后可能不够用。”",
+      "start_ms": 9466,
+      "end_ms": 13715,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s04-n0070",
+      "text": "换句话说，埃利斯和布朗公司可能会陷入一种“可怕”的处境：不得不把劳动力的价值足额付给工人。",
+      "start_ms": 13715,
+      "end_ms": 22408,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s04-n0071",
+      "text": "卡梅尔公司的“独眼巨人钢铁厂”，规模同约翰·布朗公司的工厂一样大。",
+      "start_ms": 22408,
+      "end_ms": 28783,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s04-n0072",
+      "text": "公司总经理曾把书面证词交给政府调查委员怀特，后来稿子退回给他修改，他却认为最好干脆把它藏起来。",
+      "start_ms": 28783,
+      "end_ms": 37862,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s04-n0073",
+      "text": "不过怀特记得很清楚。",
+      "start_ms": 0,
+      "end_ms": 2627,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s04-n0074",
+      "text": "这些“独眼巨人”先生声称，禁止儿童和未成年人上夜班“绝对不可能，等于让工厂停产”。",
+      "start_ms": 2627,
+      "end_ms": 13399,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s04-n0075",
+      "text": "然而，他们的工人中不满 18 岁的男孩只略多于 6%，不满 13 岁的更只有 1%。",
+      "start_ms": 13399,
+      "end_ms": 22858,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s04-n0076",
+      "text": "阿特克利夫的桑德森兄弟公司经营钢材轧制和锻造厂。",
+      "start_ms": 22858,
+      "end_ms": 29163,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s04-n0077",
+      "text": "谈到同一问题，该公司的 E. F. 桑德森说：“禁止 18 岁以下的男孩上夜班，会造成很大困难。",
+      "start_ms": 29163,
+      "end_ms": 40461,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s04-n0078",
+      "text": "最大的困难是成本上升，因为用成年男人代替男孩必然要多花钱。",
+      "start_ms": 40461,
+      "end_ms": 48080,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s04-n0079",
+      "text": "我说不出具体会增加多少。",
+      "start_ms": 0,
+      "end_ms": 3129,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s04-n0080",
+      "text": "不过，增加的数额大概还不至于让厂主提高钢价，所以损失只能由厂主承担，因为男人——多么固执的一群人！",
+      "start_ms": 3129,
+      "end_ms": 15905,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s04-n0081",
+      "text": "——当然不肯替他承担。”",
+      "start_ms": 15905,
+      "end_ms": 19034,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s04-n0082",
+      "text": "桑德森先生不知道自己付给儿童多少工资，只说“每人每周大概 4 至 5 先令……男孩做的活，一般来说——当然未必每次都如此——恰好只需要男孩的力气。",
+      "start_ms": 19034,
+      "end_ms": 37025,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s04-n0083",
+      "text": "换成力气更大的成年男人并不会多创造足以弥补成本的收益，除非偶尔遇到特别重的金属。",
+      "start_ms": 37025,
+      "end_ms": 47455,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s04-n0084",
+      "text": "成年工人也不愿意手下没有男孩，因为成年男人不那么听话。",
+      "start_ms": 47455,
+      "end_ms": 54495,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s04-n0085",
+      "text": "此外，男孩必须从小入行，才能学会这门手艺。",
+      "start_ms": 0,
+      "end_ms": 4775,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s04-n0086",
+      "text": "只准男孩上白班，便达不到这个目的。”",
+      "start_ms": 4775,
+      "end_ms": 8868,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s04-n0087",
+      "text": "为什么男孩不能只在白天学手艺？",
+      "start_ms": 8868,
+      "end_ms": 12279,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s04-n0088",
+      "text": "桑德森给出的理由是：“成年工人每周轮换白班和夜班。",
+      "start_ms": 12279,
+      "end_ms": 17964,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s04-n0089",
+      "text": "如果男孩只上白班，他们就会有一半时间同自己班里的男孩分开，也就少掉从男孩身上得到的一半收益。",
+      "start_ms": 17964,
+      "end_ms": 28423,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s04-n0090",
+      "text": "成年工人对男孩的指导被算作男孩工资的一部分，所以成年工人能以更低的代价使用男孩的劳动。",
+      "start_ms": 28423,
+      "end_ms": 38201,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s04-n0091",
+      "text": "男孩若不能跟着上夜班，每个成年工人都会少掉一半收益。”",
+      "start_ms": 0,
+      "end_ms": 5612,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s04-n0092",
+      "text": "换句话说，桑德森公司原本借助男孩的夜班来支付成年工人的一部分工资。",
+      "start_ms": 5612,
+      "end_ms": 12470,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s04-n0093",
+      "text": "男孩若只上白班，这笔钱就要由公司自己支付，桑德森公司的利润便会稍稍减少。",
+      "start_ms": 12470,
+      "end_ms": 19953,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s04-n0094",
+      "text": "这就是桑德森认为男孩不能只在白天学手艺的充分理由。",
+      "start_ms": 19953,
+      "end_ms": 25148,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s04-n0095",
+      "text": "桑德森还说，如果男孩不上夜班，原本由男孩接替的夜班就会固定压到成年男人身上，他们承受不了。",
+      "start_ms": 25148,
+      "end_ms": 34501,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s04-n0096",
+      "text": "总之，困难会大到很可能迫使夜班彻底取消。",
+      "start_ms": 34501,
+      "end_ms": 38658,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s04-n0097",
+      "text": "不过，“就钢铁生产本身来说”，E. F. 桑德森承认，“这不会造成丝毫影响，但是——”问题正在这个“但是”。",
+      "start_ms": 0,
+      "end_ms": 12063,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s04-n0098",
+      "text": "桑德森先生们要做的不只是生产钢铁。",
+      "start_ms": 12063,
+      "end_ms": 16007,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s04-n0099",
+      "text": "炼钢只是赚取剩余价值的手段。",
+      "start_ms": 16007,
+      "end_ms": 19255,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s04-n0100",
+      "text": "熔炉、轧机、厂房、机器、铁和煤等全部生产条件，不只是用来生产钢铁，还要用来吸收剩余劳动，而它们在 24 小时里当然比在 12 小时里吸收得更多。",
+      "start_ms": 19255,
+      "end_ms": 35030,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s04-n0101",
+      "text": "在桑德森先生看来，这些生产资料仿佛天经地义地赋予他们一项权利，可以每天 24 小时占用一定数量工人的劳动。",
+      "start_ms": 35030,
+      "end_ms": 46861,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s04-n0102",
+      "text": "一旦不能吸收劳动，这些东西就失去资本的作用，在桑德森眼里也就成了纯粹的损失。",
+      "start_ms": 46861,
+      "end_ms": 55677,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s04-n0103",
+      "text": "桑德森接着说：“那么，多么昂贵的机器就要有一半时间闲置。",
+      "start_ms": 0,
+      "end_ms": 6115,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s04-n0104",
+      "text": "要生产现行制度下这么多的产品，我们还得把厂房和机器增加一倍，费用也会增加一倍。”",
+      "start_ms": 6115,
+      "end_ms": 14850,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s04-n0105",
+      "text": "可为什么唯独桑德森公司有权享受例外？",
+      "start_ms": 14850,
+      "end_ms": 18781,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s04-n0106",
+      "text": "其他资本家只能让工人在白天劳动，他们的厂房、机器和原料夜里也都“闲置”。",
+      "start_ms": 18781,
+      "end_ms": 26642,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s04-n0107",
+      "text": "E. F. 桑德森代表所有桑德森回答说：“的确，凡是只在白天生产的工场，都会蒙受机器闲置的损失。",
+      "start_ms": 26642,
+      "end_ms": 36688,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s04-n0108",
+      "text": "但我们使用熔炉，还会多出一项损失。",
+      "start_ms": 36688,
+      "end_ms": 40400,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s04-n0109",
+      "text": "让熔炉继续燃烧，会浪费燃料。”",
+      "start_ms": 0,
+      "end_ms": 3628,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s04-n0110",
+      "text": "现在被浪费的却是工人的生命。",
+      "start_ms": 3628,
+      "end_ms": 7014,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s04-n0111",
+      "text": "“如果熄火，重新点火并把温度升到需要的程度又会浪费时间。”",
+      "start_ms": 7014,
+      "end_ms": 14027,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s04-n0112",
+      "text": "哪怕 8 岁儿童少睡一些，也能替桑德森家族增加劳动时间。",
+      "start_ms": 14027,
+      "end_ms": 20315,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s04-n0113",
+      "text": "“而且熔炉会因温度变化而受损。”",
+      "start_ms": 20315,
+      "end_ms": 24185,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s04-n0114",
+      "text": "同一座熔炉倒不会因工人昼夜轮换而受损。",
+      "start_ms": 24185,
+      "end_ms": 28780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    }
+  ]
+}
