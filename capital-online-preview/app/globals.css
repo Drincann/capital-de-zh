@@ -1,3 +1,4 @@
+@import url("/assets/katex.min.css");
 @import "tailwindcss";
 
 :root {
@@ -806,6 +807,17 @@ body.catalog-resizing .reader-layout {
 .prose {
   line-height: 1.95;
   letter-spacing: 0.012em;
+}
+
+.prose .katex {
+  font-size: 1.02em;
+}
+
+.prose .katex-display {
+  margin: 1.8em 0;
+  padding: 0.2em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .prose p {

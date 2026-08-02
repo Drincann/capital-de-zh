@@ -1,6 +1,7 @@
 import { access, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import katex from "katex";
 import MarkdownIt from "markdown-it";
 import footnote from "markdown-it-footnote";
 
@@ -62,12 +63,79 @@ function safeFileName(value) {
   return `${value}.json`;
 }
 
+function renderMath(value, displayMode) {
+  return katex.renderToString(value, {
+    displayMode,
+    output: "htmlAndMathml",
+    strict: "ignore",
+    throwOnError: false,
+  });
+}
+
+function mathPlugin(markdown) {
+  markdown.inline.ruler.before(
+    "escape",
+    "math_inline",
+    (state, silent) => {
+      if (state.src.slice(state.pos, state.pos + 2) !== "\\(") return false;
+
+      const closingPosition = state.src.indexOf("\\)", state.pos + 2);
+      if (closingPosition === -1) return false;
+
+      if (!silent) {
+        const token = state.push("math_inline", "math", 0);
+        token.content = state.src.slice(state.pos + 2, closingPosition);
+      }
+      state.pos = closingPosition + 2;
+      return true;
+    },
+  );
+
+  markdown.block.ruler.before(
+    "lheading",
+    "math_block",
+    (state, startLine, endLine, silent) => {
+      const start = state.bMarks[startLine] + state.tShift[startLine];
+      const firstLine = state.src.slice(start, state.eMarks[startLine]).trim();
+      if (firstLine !== "\\[") return false;
+
+      const lines = [];
+      let nextLine = startLine + 1;
+      while (nextLine < endLine) {
+        const lineStart = state.bMarks[nextLine] + state.tShift[nextLine];
+        const line = state.src.slice(lineStart, state.eMarks[nextLine]);
+        if (line.trim() === "\\]") {
+          if (silent) return true;
+
+          const token = state.push("math_block", "math", 0);
+          token.block = true;
+          token.content = lines.join("\n");
+          token.map = [startLine, nextLine + 1];
+          state.line = nextLine + 1;
+          return true;
+        }
+        lines.push(line);
+        nextLine += 1;
+      }
+      return false;
+    },
+    { alt: ["paragraph", "reference", "blockquote", "list"] },
+  );
+
+  markdown.renderer.rules.math_inline = (tokens, index) =>
+    renderMath(tokens[index].content, false);
+  markdown.renderer.rules.math_block = (tokens, index) =>
+    `${renderMath(tokens[index].content, true)}\n`;
+}
+
 const md = new MarkdownIt({
   html: false,
   linkify: true,
   breaks: false,
   typographer: false,
-}).use(footnote);
+})
+  .use(mathPlugin)
+  .use(footnote);
 
 const [outline, adoptions, unitsText, versionsText] = await Promise.all([
   readFile(path.join(projectRoot, "manifests", "outline.json"), "utf8").then(

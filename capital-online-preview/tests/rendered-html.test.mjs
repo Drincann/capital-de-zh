@@ -210,3 +210,32 @@ test("dark theme is applied before first paint and footnote feedback waits for s
   assert.match(css, /\.paragraph-tooltip/);
   assert.doesNotMatch(css, /inset\s+3px\s+0\s+0\s+var\(--accent\)/);
 });
+
+test("inline and display formulas are rendered instead of exposed as TeX", async () => {
+  const [surplusRate, workingDay, relativeSurplusValue, mathCss, mainFont] =
+    await Promise.all([
+      readFile(new URL("public/content/ch07-s02.json", appRoot), "utf8").then(
+        JSON.parse,
+      ),
+      readFile(new URL("public/content/ch07-s01.json", appRoot), "utf8").then(
+        JSON.parse,
+      ),
+      readFile(new URL("public/content/ch16-s01.json", appRoot), "utf8").then(
+        JSON.parse,
+      ),
+      readFile(new URL("public/assets/katex.min.css", appRoot), "utf8"),
+      readFile(
+        new URL("public/assets/fonts/KaTeX_Main-Regular.woff2", appRoot),
+      ),
+    ]);
+
+  assert.match(surplusRate.html, /class="katex-display"/);
+  assert.match(surplusRate.html, /24c\+3v\+3m/);
+  assert.doesNotMatch(surplusRate.html, /<p>\[\s*\\text/);
+  assert.match(workingDay.html, /class="katex"/);
+  assert.doesNotMatch(workingDay.html, /\\\(|\\\)/);
+  assert.match(relativeSurplusValue.html, /class="mfrac"/);
+  assert.doesNotMatch(relativeSurplusValue.html, /<h1>\[/);
+  assert.match(mathCss, /url\(\/assets\/fonts\/KaTeX_Main-Regular\.woff2\)/);
+  assert.ok(mainFont.length > 0);
+});
