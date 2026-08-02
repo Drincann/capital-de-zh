@@ -184,7 +184,10 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(audioReader, /translation_sha256 !== translationSha256/);
   assert.match(audioReader, /mediaSession/);
   assert.match(audioReader, /playbackRate/);
+  assert.match(audioReader, /narration-play-icon/);
+  assert.doesNotMatch(audioReader, /Ⅱ/);
   assert.match(css, /\.narration-current/);
+  assert.match(css, /\.narration-play-icon\.is-pause span/);
   assert.match(css, /env\(safe-area-inset-bottom\)/);
   assert.match(css, /\.reading-pane:has\(\.narration-player\)/);
 });

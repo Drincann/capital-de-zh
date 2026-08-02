@@ -516,7 +516,13 @@ export function AudioReader({
               onClick={playing ? pause : () => void resume()}
               aria-label={playing ? "暂停" : "继续播放"}
             >
-              {playing ? "Ⅱ" : "▶"}
+              <span
+                className={`narration-play-icon ${playing ? "is-pause" : "is-play"}`}
+                aria-hidden="true"
+              >
+                <span />
+                {playing ? <span /> : null}
+              </span>
             </button>
             <button type="button" onClick={nextSentence} aria-label="下一句">›</button>
             <p title={activeText}>{activeText}</p>
