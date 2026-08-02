@@ -2235,11 +2235,9 @@ body.note-editor-resizing * {
     width: min(340px, 88vw);
     height: 100vh;
     transform: translateX(-105%);
-    border-right-color: color-mix(in srgb, var(--line) 82%, transparent);
-    background: color-mix(in srgb, var(--paper-deep) 88%, var(--paper));
+    border-right-color: var(--line);
+    background: var(--paper-deep);
     box-shadow: 18px 0 54px rgba(24, 20, 16, 0.22);
-    -webkit-backdrop-filter: blur(24px);
-    backdrop-filter: blur(24px);
     transition: transform 180ms ease;
   }
 
@@ -2253,9 +2251,9 @@ body.note-editor-resizing * {
     z-index: 70;
     display: block;
     border: 0;
-    background: rgba(25, 21, 17, 0.48);
-    -webkit-backdrop-filter: blur(3px);
-    backdrop-filter: blur(3px);
+    background: rgba(25, 21, 17, 0.54);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
   }
 
   .reading-pane {

@@ -200,7 +200,11 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(css, /env\(safe-area-inset-bottom\)/);
   assert.match(css, /\.reading-pane:has\(\.narration-player\)/);
   assert.match(css, /\.catalog\.catalog-open/);
-  assert.match(css, /backdrop-filter: blur\(24px\)/);
+  assert.match(
+    css,
+    /\.catalog\s*\{[^}]*background:\s*var\(--paper-deep\)/s,
+  );
+  assert.match(css, /\.catalog-backdrop\s*\{[^}]*backdrop-filter: blur\(5px\)/s);
 });
 
 test("统计数据库不保存访问明细和原始环境信息", async () => {

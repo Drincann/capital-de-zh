@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch07-s02-v1-audio-d3e3002012e4",
+  "unit_id": "ch07-s02",
+  "translation_version_id": "ch07-s02-v1",
+  "translation_sha256": "121e66f9687d6801039d4a02d87a062abd76853ecabcf3ddc17d7feed1b000fb",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T19:52:29.925Z",
+  "completed_at": "2026-08-02T19:55:18.103Z",
+  "duration_ms": 490495,
+  "sentence_count": 55,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 49200,
+      "bytes": 787628,
+      "sha256": "ec797ecfc422a28adfbf8db1b0fc9468b6da45b9bd6bbe2bf862165a734390c0",
+      "sentence_ids": [
+        "ch07-s02-n0001",
+        "ch07-s02-n0002",
+        "ch07-s02-n0003",
+        "ch07-s02-n0004",
+        "ch07-s02-n0005",
+        "ch07-s02-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 55280,
+      "bytes": 885164,
+      "sha256": "ea4148a0f17f5f5a0c549c09b2fe2a82db749f17a2ec7512dece5cfd8e75ddbc",
+      "sentence_ids": [
+        "ch07-s02-n0007",
+        "ch07-s02-n0008",
+        "ch07-s02-n0009",
+        "ch07-s02-n0010",
+        "ch07-s02-n0011",
+        "ch07-s02-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 42700,
+      "bytes": 683948,
+      "sha256": "3d6690c8f0faf44a50777cf0fb3f21681ff4c4f75b6b04d01d0bddd4e35b8805",
+      "sentence_ids": [
+        "ch07-s02-n0013",
+        "ch07-s02-n0014",
+        "ch07-s02-n0015",
+        "ch07-s02-n0016",
+        "ch07-s02-n0017",
+        "ch07-s02-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 51900,
+      "bytes": 831020,
+      "sha256": "05476e32faecd7cea5967ba7efc5e44ab4fb8455bfda5b1f117969bef0aa06f5",
+      "sentence_ids": [
+        "ch07-s02-n0019",
+        "ch07-s02-n0020",
+        "ch07-s02-n0021",
+        "ch07-s02-n0022",
+        "ch07-s02-n0023",
+        "ch07-s02-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 50200,
+      "bytes": 803756,
+      "sha256": "990385e5025d88d96e147101063a1277a1b955fa7f377e2a390384cadb7619c1",
+      "sentence_ids": [
+        "ch07-s02-n0025",
+        "ch07-s02-n0026",
+        "ch07-s02-n0027",
+        "ch07-s02-n0028",
+        "ch07-s02-n0029",
+        "ch07-s02-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 76817,
+      "bytes": 1229612,
+      "sha256": "1055f29affe81c48de2379ea51d7e0573de8aed14de71cb698b6223eb1e78f3c",
+      "sentence_ids": [
+        "ch07-s02-n0031",
+        "ch07-s02-n0032",
+        "ch07-s02-n0033",
+        "ch07-s02-n0034",
+        "ch07-s02-n0035",
+        "ch07-s02-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 45842,
+      "bytes": 734252,
+      "sha256": "7035d78072ddd5617e6c210097ae0fc8c687c2175b2a0caf170fe5bc9fcf50e5",
+      "sentence_ids": [
+        "ch07-s02-n0037",
+        "ch07-s02-n0038",
+        "ch07-s02-n0039",
+        "ch07-s02-n0040",
+        "ch07-s02-n0041",
+        "ch07-s02-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 44146,
+      "bytes": 706988,
+      "sha256": "025b7eff8bc177b8b2bb1bab2419cb8d78bd2ea92a430c7dd266297f89e7a39b",
+      "sentence_ids": [
+        "ch07-s02-n0043",
+        "ch07-s02-n0044",
+        "ch07-s02-n0045",
+        "ch07-s02-n0046",
+        "ch07-s02-n0047",
+        "ch07-s02-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 65080,
+      "bytes": 1041836,
+      "sha256": "659c55f0de0e8755c3638b5d44aca684b49712d20a83ac0c4739fc558c1c731b",
+      "sentence_ids": [
+        "ch07-s02-n0049",
+        "ch07-s02-n0050",
+        "ch07-s02-n0051",
+        "ch07-s02-n0052",
+        "ch07-s02-n0053",
+        "ch07-s02-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 9330,
+      "bytes": 149804,
+      "sha256": "fd244eea4d46b186427bfcd4667b10ebd995f9543559f11a05fd33dbab54edab",
+      "sentence_ids": [
+        "ch07-s02-n0055"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch07-s02-n0001",
+      "text": "现在回到资本家怎样把货币变成资本的例子。",
+      "start_ms": 0,
+      "end_ms": 3560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s02-n0002",
+      "text": "纺纱工人的必要劳动是 6 小时，剩余劳动也是 6 小时，所以劳动力的剥削程度为 100%。",
+      "start_ms": 4120,
+      "end_ms": 12960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s02-n0003",
+      "text": "12 小时工作日生产出 20 磅纱，价值 30 先令。",
+      "start_ms": 14080,
+      "end_ms": 19920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s02-n0004",
+      "text": "其中 10分之8，即 24 先令，只是被消耗的生产资料价值重新出现在纱中：20 磅棉花值 20 先令，纺锭等生产资料的损耗值 4 先令。",
+      "start_ms": 20920,
+      "end_ms": 38840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s02-n0005",
+      "text": "这部分是不变资本。",
+      "start_ms": 39800,
+      "end_ms": 41440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s02-n0006",
+      "text": "其余 10分之2，即 6 先令，是纺纱过程中创造的新价值。",
+      "start_ms": 42080,
+      "end_ms": 49040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s02-n0007",
+      "text": "其中一半补回预付的劳动力日价值，也就是 3 先令可变资本，另一半则是 3 先令剩余价值。",
+      "start_ms": 0,
+      "end_ms": 9490,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s02-n0008",
+      "text": "因此，20 磅纱的总价值由下面三部分组成：",
+      "start_ms": 9490,
+      "end_ms": 14235,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s02-n0009",
+      "text": "这 30 先令总价值体现在全部 20 磅纱中。",
+      "start_ms": 14235,
+      "end_ms": 18743,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s02-n0010",
+      "text": "因此，构成总价值的三个部分，也都可以用相应数量的纱来表示。",
+      "start_ms": 18743,
+      "end_ms": 25623,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s02-n0011",
+      "text": "既然 30 先令体现在 20 磅纱中，那么总价值的 10分之8，即 24 先令不变资本，就体现在产品的 10分之8，也就是 16 磅纱中。",
+      "start_ms": 25623,
+      "end_ms": 39621,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s02-n0012",
+      "text": "这 16 磅又可分为两部分：其中 133分之1 磅代表棉花的 20 先令价值，另外 23分之2 磅代表所消耗的辅助材料和纺锭等劳动工具的 4 先令价值。",
+      "start_ms": 39621,
+      "end_ms": 55280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s02-n0013",
+      "text": "133分之1 磅纱可以代表生产 20 磅纱所用的全部棉花价值，而且只代表棉花价值。",
+      "start_ms": 200,
+      "end_ms": 5880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s02-n0014",
+      "text": "这些纱实际只含有 133分之1 磅棉花，棉花本身值 133分之1 先令。",
+      "start_ms": 6400,
+      "end_ms": 11680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s02-n0015",
+      "text": "但它们的总价值还多出 63分之2 先令，这正好补上其余 63分之2 磅纱中所含棉花的价值。",
+      "start_ms": 12320,
+      "end_ms": 18960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s02-n0016",
+      "text": "计算时，就好像把后面那些纱里的棉花全部抽出来，塞进了前面的 133分之1 磅纱。",
+      "start_ms": 19720,
+      "end_ms": 25520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s02-n0017",
+      "text": "这样一来，这部分纱就不再代表辅助材料和劳动工具的价值，也不代表纺纱过程中创造的新价值。",
+      "start_ms": 26080,
+      "end_ms": 32120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s02-n0018",
+      "text": "同样，另外 23分之2 磅纱所含的 4 先令价值，可以代表其余不变资本，而且只代表生产全部 20 磅纱时消耗的辅助材料和劳动工具的价值。",
+      "start_ms": 32840,
+      "end_ms": 42520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s02-n0019",
+      "text": "这样，产品的 10分之8，即 16 磅纱，就代表了全部不变资本。",
+      "start_ms": 0,
+      "end_ms": 6351,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s02-n0020",
+      "text": "从实物和用途上看，这 16 磅纱当然同剩下的纱一样，都是纺纱劳动生产出来的。",
+      "start_ms": 6351,
+      "end_ms": 14234,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s02-n0021",
+      "text": "但在这里的价值分解中，它们不代表本次纺纱劳动新创造的任何价值。",
+      "start_ms": 14234,
+      "end_ms": 21023,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s02-n0022",
+      "text": "仿佛它们没有经过纺纱就自己变成了纱，纱的外表只是一层伪装。",
+      "start_ms": 21023,
+      "end_ms": 27373,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s02-n0023",
+      "text": "资本家把这 16 磅纱卖掉，得到 24 先令，再用这笔钱买回生产资料时，这层关系就很清楚了：这 16 磅纱不过是披着纱的外衣的棉花、纺锭、煤等生产资料。",
+      "start_ms": 27373,
+      "end_ms": 42703,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s02-n0024",
+      "text": "反过来，剩下的 10分之2，即 4 磅纱，现在只代表 12 小时纺纱过程中创造的 6 先令新价值。",
+      "start_ms": 42703,
+      "end_ms": 51900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s02-n0025",
+      "text": "这 4 磅纱原本包含的原料和劳动工具价值，已经从计算中抽出来，全部归入前面的 16 磅纱。",
+      "start_ms": 0,
+      "end_ms": 7960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s02-n0026",
+      "text": "凝结在全部 20 磅纱中的新纺纱劳动，现在集中体现在这 4 磅纱上。",
+      "start_ms": 9000,
+      "end_ms": 15560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s02-n0027",
+      "text": "仿佛工人是在空气中纺出了它们，或者使用了天然存在、不需要人类劳动生产，因而也不向产品转移任何价值的棉花和纺锭。",
+      "start_ms": 16240,
+      "end_ms": 28680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s02-n0028",
+      "text": "这 4 磅纱代表当天纺纱过程创造的全部新价值。",
+      "start_ms": 29600,
+      "end_ms": 34040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s02-n0029",
+      "text": "其中一半，即 2 磅纱，只代表补回已消耗劳动力的 3 先令价值，也就是可变资本。",
+      "start_ms": 34960,
+      "end_ms": 44040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s02-n0030",
+      "text": "另一半，即另外 2 磅纱，只代表 3 先令剩余价值。",
+      "start_ms": 44800,
+      "end_ms": 50120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s02-n0031",
+      "text": "纺纱工的 12 小时劳动创造了 6 先令新价值，所以，价值 30 先令的 20 磅纱总共体现了 60 小时劳动。",
+      "start_ms": 0,
+      "end_ms": 12399,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s02-n0032",
+      "text": "其中，16 磅纱代表生产资料中已有的 48 小时过去劳动；另外 4 磅纱代表纺纱过程中付出的 12 小时新劳动。",
+      "start_ms": 12399,
+      "end_ms": 25606,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s02-n0033",
+      "text": "前面已经讲过，棉纱的价值由两部分相加而成：一部分是纺纱过程创造的新价值，另一部分是生产资料原有的价值。",
+      "start_ms": 25606,
+      "end_ms": 39352,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s02-n0034",
+      "text": "现在我们又看到，这些作用不同的价值成分，还可以分别用产品中相应数量的棉纱来表示。",
+      "start_ms": 39352,
+      "end_ms": 50133,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s02-n0035",
+      "text": "这样，全部产品就可以分成三部分。",
+      "start_ms": 50133,
+      "end_ms": 54446,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s02-n0036",
+      "text": "第一部分只代表生产资料中已有的劳动，也就是不变资本；第二部分只代表生产过程中增加的必要劳动，也就是可变资本；最后一部分只代表同一过程中增加的剩余劳动，也就是剩余价值。",
+      "start_ms": 54446,
+      "end_ms": 76817,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s02-n0037",
+      "text": "这种分法既简单又重要，后面把它用来分析更复杂、尚未解决的问题时，我们会看得更清楚。",
+      "start_ms": 440,
+      "end_ms": 8080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s02-n0038",
+      "text": "刚才，我们把全部产品看成 12 小时工作日结束后的成品。",
+      "start_ms": 8720,
+      "end_ms": 13320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s02-n0039",
+      "text": "我们也可以顺着它的生产过程来考察，看看这几部分产品怎样先后形成，同时仍用它们分别表示作用不同的价值成分。",
+      "start_ms": 14000,
+      "end_ms": 24400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s02-n0040",
+      "text": "纺纱工 12 小时生产 20 磅纱，平均每小时生产 13分之2 磅。",
+      "start_ms": 25000,
+      "end_ms": 30040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s02-n0041",
+      "text": "因此，前 8 小时生产的 133分之1 磅纱，价值正好等于全天所用棉花的总价值。",
+      "start_ms": 30640,
+      "end_ms": 38160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s02-n0042",
+      "text": "随后 1 小时 36 分钟生产的 23分之2 磅纱，代表 12 小时内耗费的其他劳动工具的价值。",
+      "start_ms": 38760,
+      "end_ms": 45520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s02-n0043",
+      "text": "再用 1 小时 12 分钟生产 2 磅纱，价值 3 先令，正好等于 6 小时必要劳动创造的新价值。",
+      "start_ms": 0,
+      "end_ms": 8875,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s02-n0044",
+      "text": "最后 1 小时 12 分钟也生产 2 磅纱，它的价值等于工人半天的剩余劳动创造的剩余价值。",
+      "start_ms": 8875,
+      "end_ms": 17749,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s02-n0045",
+      "text": "英国工厂主平时就这样计算，例如会说，工作日的前 8 小时，也就是三分之二的时间，是在“挣回棉花”。",
+      "start_ms": 17749,
+      "end_ms": 28445,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s02-n0046",
+      "text": "这种算法本身没有错。",
+      "start_ms": 28445,
+      "end_ms": 30720,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s02-n0047",
+      "text": "它只是把成品中并列存在的各个部分，改写成了生产过程中前后相继的时间段。",
+      "start_ms": 30720,
+      "end_ms": 38685,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s02-n0048",
+      "text": "可是，这种算法很容易让人产生一种极其荒谬的理解。",
+      "start_ms": 38685,
+      "end_ms": 44146,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s02-n0049",
+      "text": "那些既从价值增殖中获得实际利益，又有意在理论上误解它的人，尤其容易这样想。",
+      "start_ms": 0,
+      "end_ms": 7947,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s02-n0050",
+      "text": "他们会以为，纺纱工在前 8 小时创造或补回棉花的价值，在随后 1 小时 36 分钟创造或补回其他劳动工具的价值，再用 1 小时 12 分钟补回工资，只有那著名的“最后一小时”才替工厂主生产剩余价值。",
+      "start_ms": 7947,
+      "end_ms": 27063,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s02-n0051",
+      "text": "这样一来，纺纱工就要同时完成两个奇迹。",
+      "start_ms": 27063,
+      "end_ms": 31144,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s02-n0052",
+      "text": "第一，他一边用棉花、纺锭、蒸汽机、煤和油来纺纱，一边又把这些东西生产出来。",
+      "start_ms": 31144,
+      "end_ms": 39091,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s02-n0053",
+      "text": "第二，他把一个工作日变成了五个同样长、同样强度的工作日。",
+      "start_ms": 39091,
+      "end_ms": 45105,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s02-n0054",
+      "text": "在这个例子中，生产原料和其他劳动工具所需的劳动，相当于四个 12 小时工作日，因为它们的价值是 24 先令，而每个 12 小时工作日只创造 6 先令新价值；把这些东西变成棉纱，又需要一个 12 小时工作日。",
+      "start_ms": 45105,
+      "end_ms": 65080,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s02-n0055",
+      "text": "接下来这个著名的历史实例会说明，贪欲怎样相信这种奇迹，迎合它的理论家又怎样替它作证。",
+      "start_ms": 320,
+      "end_ms": 9240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    }
+  ]
+}

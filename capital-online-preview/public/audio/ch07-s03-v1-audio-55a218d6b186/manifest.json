@@ -1,0 +1,739 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch07-s03-v1-audio-55a218d6b186",
+  "unit_id": "ch07-s03",
+  "translation_version_id": "ch07-s03-v1",
+  "translation_sha256": "371c5783dac290778a4776be39e8c7ecd0f5ab6f55c42b0f2a13d1865b793bdc",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T19:55:18.191Z",
+  "completed_at": "2026-08-02T19:58:36.443Z",
+  "duration_ms": 566972,
+  "sentence_count": 68,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 52174,
+      "bytes": 835244,
+      "sha256": "3a030e893e5dafd8fb4d305063310214173a5b8d4cf44f4b5e0b5ec749d289b8",
+      "sentence_ids": [
+        "ch07-s03-n0001",
+        "ch07-s03-n0002",
+        "ch07-s03-n0003",
+        "ch07-s03-n0004",
+        "ch07-s03-n0005",
+        "ch07-s03-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 24528,
+      "bytes": 392876,
+      "sha256": "08526ac3fb8ab9dcb90a9eac95bfd7dc1f9c8fd420ee2ee3d127dcc5d9d34a48",
+      "sentence_ids": [
+        "ch07-s03-n0007",
+        "ch07-s03-n0008",
+        "ch07-s03-n0009",
+        "ch07-s03-n0010",
+        "ch07-s03-n0011",
+        "ch07-s03-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 67321,
+      "bytes": 1077932,
+      "sha256": "d971dddd365ec0c7162632ce392c4d5d994ca9338b00650d5364ffdf298dc51a",
+      "sentence_ids": [
+        "ch07-s03-n0013",
+        "ch07-s03-n0014",
+        "ch07-s03-n0015",
+        "ch07-s03-n0016",
+        "ch07-s03-n0017",
+        "ch07-s03-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 37200,
+      "bytes": 595628,
+      "sha256": "05dd1603bc7903c88b8e670fdf6e5a7a4eedb5f3d3c1f7cacd1c35d2e6b732b6",
+      "sentence_ids": [
+        "ch07-s03-n0019",
+        "ch07-s03-n0020",
+        "ch07-s03-n0021",
+        "ch07-s03-n0022",
+        "ch07-s03-n0023",
+        "ch07-s03-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 68864,
+      "bytes": 1102508,
+      "sha256": "aff472139391f039425454546d7e689c25692a2030be6ad7f51be006f854c78f",
+      "sentence_ids": [
+        "ch07-s03-n0025",
+        "ch07-s03-n0026",
+        "ch07-s03-n0027",
+        "ch07-s03-n0028",
+        "ch07-s03-n0029",
+        "ch07-s03-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 52900,
+      "bytes": 847148,
+      "sha256": "52ae39786a5535b9571a62e429507de25abcd4c69619621d36eaefb7106fe500",
+      "sentence_ids": [
+        "ch07-s03-n0031",
+        "ch07-s03-n0032",
+        "ch07-s03-n0033",
+        "ch07-s03-n0034",
+        "ch07-s03-n0035",
+        "ch07-s03-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 31700,
+      "bytes": 507692,
+      "sha256": "9fcee836f6c4afa26123e7b3ff45b7c7fb484763095e3972bbd4f83e1571518a",
+      "sentence_ids": [
+        "ch07-s03-n0037",
+        "ch07-s03-n0038",
+        "ch07-s03-n0039",
+        "ch07-s03-n0040",
+        "ch07-s03-n0041",
+        "ch07-s03-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 48293,
+      "bytes": 773420,
+      "sha256": "717f29a7a9eb0dc3318484dcb66893eef970f25dd6aba6b37ba7343dfca99b53",
+      "sentence_ids": [
+        "ch07-s03-n0043",
+        "ch07-s03-n0044",
+        "ch07-s03-n0045",
+        "ch07-s03-n0046",
+        "ch07-s03-n0047",
+        "ch07-s03-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 64729,
+      "bytes": 1036460,
+      "sha256": "e1e4f80f94edecf5cbe0633f0dc6024c807b96cc152442e253e943da6d9b9719",
+      "sentence_ids": [
+        "ch07-s03-n0049",
+        "ch07-s03-n0050",
+        "ch07-s03-n0051",
+        "ch07-s03-n0052",
+        "ch07-s03-n0053",
+        "ch07-s03-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 56700,
+      "bytes": 907820,
+      "sha256": "69dccf9655c635c19bbd71290c13c20a9b73f6bd457d25da24f7cb7e75b4b4d2",
+      "sentence_ids": [
+        "ch07-s03-n0055",
+        "ch07-s03-n0056",
+        "ch07-s03-n0057",
+        "ch07-s03-n0058",
+        "ch07-s03-n0059",
+        "ch07-s03-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 46580,
+      "bytes": 745772,
+      "sha256": "4c0f1b202c196035d0a024384c93d706929ddc1b0071b7d6b3bd70569275da35",
+      "sentence_ids": [
+        "ch07-s03-n0061",
+        "ch07-s03-n0062",
+        "ch07-s03-n0063",
+        "ch07-s03-n0064",
+        "ch07-s03-n0065",
+        "ch07-s03-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 15983,
+      "bytes": 256172,
+      "sha256": "ccb5f3c95b7c78a996cc6a6e374e38028ebafa763281847bd91f9a7412969689",
+      "sentence_ids": [
+        "ch07-s03-n0067",
+        "ch07-s03-n0068"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch07-s03-n0001",
+      "text": "1836年的一个晴朗早晨，拿骚·W·西尼尔从牛津被召到曼彻斯特。",
+      "start_ms": 0,
+      "end_ms": 7555,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s03-n0002",
+      "text": "这位教授以经济学问和优美文风闻名，堪称英国经济学家中的“克劳伦”。",
+      "start_ms": 7555,
+      "end_ms": 15345,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s03-n0003",
+      "text": "这一次，他不是来教授政治经济学，而是来学习它。",
+      "start_ms": 15345,
+      "end_ms": 20775,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s03-n0004",
+      "text": "工厂主选中他充当辩护士，反对刚颁布的工厂法，也反对要求进一步实行十小时工作日的运动。",
+      "start_ms": 20775,
+      "end_ms": 30691,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s03-n0005",
+      "text": "他们凭惯有的实际眼光看出，这位教授“还很需要加工一番”，于是把他请到曼彻斯特。",
+      "start_ms": 30691,
+      "end_ms": 39898,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s03-n0006",
+      "text": "西尼尔后来把工厂主给他上的课写进一本小册子，题为《关于工厂法对棉纺业影响的书信》，1837年在伦敦出版。",
+      "start_ms": 39898,
+      "end_ms": 52174,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s03-n0007",
+      "text": "其中有这样一段发人深省的话：",
+      "start_ms": 0,
+      "end_ms": 2336,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s03-n0008",
+      "text": "“按现行法律，任何雇用18岁以下人员的工厂，每天都不能工作超过11½小时。",
+      "start_ms": 2336,
+      "end_ms": 8510,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s03-n0009",
+      "text": "也就是说，一周头5天每天工作12小时，星期六工作9小时。",
+      "start_ms": 8510,
+      "end_ms": 13182,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s03-n0010",
+      "text": "下面的分析（！）",
+      "start_ms": 13182,
+      "end_ms": 14517,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s03-n0011",
+      "text": "将说明，在这样的工厂里，全部净利润都来自最后一小时。",
+      "start_ms": 14517,
+      "end_ms": 18855,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s03-n0012",
+      "text": "某工厂主投入10万英镑，其中8万用于厂房和机器，2万用于原料和工资。",
+      "start_ms": 18855,
+      "end_ms": 24528,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s03-n0013",
+      "text": "假定资本每年周转一次，毛利润率为15%，工厂每年就必须生产价值11.5万英镑的商品……每天有23个半小时，每个半小时都生产这11.5万英镑的 23分之1，也就是5000英镑。",
+      "start_ms": 0,
+      "end_ms": 23345,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s03-n0014",
+      "text": "总额的 23分之20，即10万英镑，只补回资本。",
+      "start_ms": 23345,
+      "end_ms": 29589,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s03-n0015",
+      "text": "在1.5万英镑毛利润（！）",
+      "start_ms": 29589,
+      "end_ms": 33118,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s03-n0016",
+      "text": "中，还有 23分之1，即5000英镑，用来补偿厂房和机器的磨损。",
+      "start_ms": 33118,
+      "end_ms": 41533,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s03-n0017",
+      "text": "剩下的 23分之2，也就是每天最后两个半小时，生产出10%的净利润。",
+      "start_ms": 41533,
+      "end_ms": 50491,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s03-n0018",
+      "text": "因此，在价格不变时，如果工厂每天能工作13小时而不是11½小时，只需给流动资本增加大约2600英镑，净利润就会增加一倍以上。",
+      "start_ms": 50491,
+      "end_ms": 67321,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s03-n0019",
+      "text": "反过来，如果每天少工作1小时，净利润就会消失。",
+      "start_ms": 0,
+      "end_ms": 4946,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s03-n0020",
+      "text": "少工作1½小时，连毛利润也会消失。”",
+      "start_ms": 4946,
+      "end_ms": 8816,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s03-n0021",
+      "text": "教授先生竟把这叫作“分析”！",
+      "start_ms": 8816,
+      "end_ms": 11827,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s03-n0022",
+      "text": "如果他相信工厂主的哀叹，认为工人把一天中最宝贵的时间都浪费在补回厂房、机器、棉花、煤等的价值上，那就根本不用分析。",
+      "start_ms": 11827,
+      "end_ms": 24083,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s03-n0023",
+      "text": "他只要这样回答：“先生们！",
+      "start_ms": 24083,
+      "end_ms": 26879,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s03-n0024",
+      "text": "如果每天工作10小时而不是11½小时，其他条件不变，你们每天消耗的棉花、机器等也会减少1½小时。",
+      "start_ms": 26879,
+      "end_ms": 37200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s03-n0025",
+      "text": "你们得到的补偿正好抵消损失。",
+      "start_ms": 0,
+      "end_ms": 3919,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s03-n0026",
+      "text": "工人今后不过是少花1½小时替你们补回预付资本价值。”",
+      "start_ms": 3919,
+      "end_ms": 11197,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s03-n0027",
+      "text": "如果他不肯照单全收，认为自己作为专家确实需要分析，那么这个问题只涉及净利润同工作日长度的关系，他首先就该要求工厂主不要把厂房和机器、原料、劳动混在一起。",
+      "start_ms": 11197,
+      "end_ms": 32472,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s03-n0028",
+      "text": "他们应当把厂房、机器、原料等包含的不变资本列在一边，把预付工资的资本列在另一边。",
+      "start_ms": 32472,
+      "end_ms": 43670,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s03-n0029",
+      "text": "如果按工厂主的账，工人在两个半小时，也就是一小时内补回工资，分析就应当这样继续：",
+      "start_ms": 43670,
+      "end_ms": 54867,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s03-n0030",
+      "text": "“照你们的说法，工人在倒数第二小时生产出自己的工资，在最后一小时生产出你们的剩余价值，也就是净利润。",
+      "start_ms": 54867,
+      "end_ms": 68864,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s03-n0031",
+      "text": "相同时间内生产的价值相同，所以倒数第二小时的产品价值必然等于最后一小时。",
+      "start_ms": 0,
+      "end_ms": 7600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s03-n0032",
+      "text": "工人只有付出劳动才创造价值，劳动量则用劳动时间来衡量。",
+      "start_ms": 8440,
+      "end_ms": 14920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s03-n0033",
+      "text": "据你们说，他每天劳动11½小时。",
+      "start_ms": 15880,
+      "end_ms": 19640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s03-n0034",
+      "text": "其中一部分用来生产或补回工资，另一部分用来生产你们的净利润，此外什么也没有做。",
+      "start_ms": 20520,
+      "end_ms": 30320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s03-n0035",
+      "text": "既然他的工资同他提供的剩余价值相等，他显然用5¾小时生产工资，再用5¾小时生产你们的净利润。",
+      "start_ms": 30960,
+      "end_ms": 43440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s03-n0036",
+      "text": "两小时纱产品的价值既然等于工资与净利润之和，就必须包含11½小时劳动。",
+      "start_ms": 44320,
+      "end_ms": 52760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s03-n0037",
+      "text": "因此，倒数第二小时的产品包含5¾小时劳动，最后一小时的产品也一样。",
+      "start_ms": 80,
+      "end_ms": 6880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s03-n0038",
+      "text": "现在到了关键处，请注意！",
+      "start_ms": 7520,
+      "end_ms": 9680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s03-n0039",
+      "text": "倒数第二小时不过是普通的一小时，同第一小时不多不少。",
+      "start_ms": 10320,
+      "end_ms": 15960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s03-n0040",
+      "text": "那么，工人怎样能在一小时内生产出包含5¾小时劳动的纱呢？",
+      "start_ms": 16720,
+      "end_ms": 23000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s03-n0041",
+      "text": "他当然没有创造这种奇迹。",
+      "start_ms": 23640,
+      "end_ms": 25560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s03-n0042",
+      "text": "一小时内，他生产的使用价值只是一宗确定数量的纱。",
+      "start_ms": 26480,
+      "end_ms": 31560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s03-n0043",
+      "text": "这些纱的价值包含5¾小时劳动，其中4¾小时早已包含在这一小时所消耗的棉花、机器等生产资料中，工人自己只新增加1小时。",
+      "start_ms": 0,
+      "end_ms": 12617,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s03-n0044",
+      "text": "工资价值由工人用5¾小时创造，而一小时纱产品的总价值也包含5¾小时劳动。",
+      "start_ms": 12617,
+      "end_ms": 20448,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s03-n0045",
+      "text": "因此，他在5¾小时内新创造的价值，等于一小时纱产品的总价值，并没有任何魔法。",
+      "start_ms": 20448,
+      "end_ms": 28715,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s03-n0046",
+      "text": "“如果你们以为，工人在工作日中哪怕花了一丁点时间去再生产或‘补回’棉花、机器等的价值，那就完全错了。",
+      "start_ms": 28715,
+      "end_ms": 39592,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s03-n0047",
+      "text": "他的劳动把棉花和纺锭变成纱。",
+      "start_ms": 39592,
+      "end_ms": 42637,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s03-n0048",
+      "text": "正因为他在纺纱，棉花和纺锭原有的价值自然转移到纱上。",
+      "start_ms": 42637,
+      "end_ms": 48293,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s03-n0049",
+      "text": "这取决于他的劳动是什么性质，不取决于他付出了多少劳动。",
+      "start_ms": 240,
+      "end_ms": 5320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s03-n0050",
+      "text": "他一小时转移到纱上的棉花等价值，当然比半小时更多，但这只是因为一小时加工的棉花比半小时更多。",
+      "start_ms": 5920,
+      "end_ms": 14560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s03-n0051",
+      "text": "所以，你们所谓工人在倒数第二小时生产工资、在最后一小时生产净利润，意思不过是：无论取工作日开头还是末尾的两小时，这两小时生产的纱都包含11½小时劳动，恰好等于整个工作日的时数。",
+      "start_ms": 15240,
+      "end_ms": 36200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s03-n0052",
+      "text": "你们所谓工人在头5¾小时生产工资、后5¾小时生产净利润，也只表示：你们支付了前5¾小时，却没有支付后5¾小时。",
+      "start_ms": 36440,
+      "end_ms": 47320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s03-n0053",
+      "text": "我这里为了沿用你们的行话，说的是‘为劳动付钱’，而不是‘为劳动力付钱’。",
+      "start_ms": 48160,
+      "end_ms": 54760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s03-n0054",
+      "text": "先生们，只要比较你们支付的劳动时间和没有支付的劳动时间，就会发现两者是半天对半天，比例为100%。",
+      "start_ms": 55600,
+      "end_ms": 64520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s03-n0055",
+      "text": "这当然也是个相当可观的百分比。",
+      "start_ms": 0,
+      "end_ms": 3500,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s03-n0056",
+      "text": "“毫无疑问，如果你们把那些‘人手’每天从11½小时压榨到13小时，并且把多出的1½小时全部变成剩余劳动——这倒很符合你们的作风——剩余劳动就会从5¾小时增至7¼小时，剩余价值率也会从100%升至 12623分之2百分号。",
+      "start_ms": 3500,
+      "end_ms": 28933,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s03-n0057",
+      "text": "但你们若指望增加1½小时就能让它从100%升到200%，甚至‘增加一倍以上’，未免乐观得发狂。",
+      "start_ms": 28933,
+      "end_ms": 39900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s03-n0058",
+      "text": "反过来，人心真是奇怪，尤其当人的心长在钱袋里时。",
+      "start_ms": 39900,
+      "end_ms": 45500,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s03-n0059",
+      "text": "你们若害怕把工作日从11½小时缩短到10½小时会使全部净利润化为乌有，又未免悲观得发狂。",
+      "start_ms": 45500,
+      "end_ms": 55767,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s03-n0060",
+      "text": "绝不会。",
+      "start_ms": 55767,
+      "end_ms": 56700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s03-n0061",
+      "text": "其他条件不变，剩余劳动会从5¾小时降到4¾小时，剩余价值率仍有 8223分之14百分号，依然十分可观。",
+      "start_ms": 0,
+      "end_ms": 11763,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s03-n0062",
+      "text": "至于那‘决定命运的最后一小时’，你们为它编的故事比千年王国论者预言世界末日还多，其实‘全是胡扯’。",
+      "start_ms": 11763,
+      "end_ms": 23290,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s03-n0063",
+      "text": "失去这一小时，既不会让你们失去‘净利润’，也不会让你们雇用的男童女童失去‘灵魂的纯洁’。”",
+      "start_ms": 23290,
+      "end_ms": 33876,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s03-n0064",
+      "text": "“等你们的‘最后时刻’真的到来时，别忘了那位牛津教授。",
+      "start_ms": 33876,
+      "end_ms": 40228,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s03-n0065",
+      "text": "至于现在，愿我们在一个更美好的世界里再多相处。",
+      "start_ms": 40228,
+      "end_ms": 45639,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s03-n0066",
+      "text": "再见！”",
+      "start_ms": 45639,
+      "end_ms": 46580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s03-n0067",
+      "text": "西尼尔在 1836 年提出的“最后一小时”论，后来又在 1848 年 4 月 15 日被詹姆斯·威尔逊重新吹响，用来反对十小时法案。",
+      "start_ms": 0,
+      "end_ms": 9968,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch07-s03-n0068",
+      "text": "威尔逊是当时经济学界的一位显要人物，这篇文章刊登在《伦敦经济学家》上。",
+      "start_ms": 9968,
+      "end_ms": 15983,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    }
+  ]
+}

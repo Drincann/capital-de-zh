@@ -1,0 +1,1864 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch06-s01-v1-audio-7df6e5cb2b68",
+  "unit_id": "ch06-s01",
+  "translation_version_id": "ch06-s01-v1",
+  "translation_sha256": "e2ee570cf22552706c1b2c3393693e4800a7ce6f0b96f7c824230656d461907d",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T19:38:44.192Z",
+  "completed_at": "2026-08-02T19:47:18.465Z",
+  "duration_ms": 1522375,
+  "sentence_count": 175,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 28880,
+      "bytes": 462764,
+      "sha256": "aa624b0e239918a9206864c94d805345e86aa22b56b9c975b419ed6a080280f0",
+      "sentence_ids": [
+        "ch06-s01-n0001",
+        "ch06-s01-n0002",
+        "ch06-s01-n0003",
+        "ch06-s01-n0004",
+        "ch06-s01-n0005",
+        "ch06-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 49623,
+      "bytes": 794540,
+      "sha256": "ad3f5d394cf7af38131100b7118fd6ed3582d5ea26629c7f941e8d491525d9fe",
+      "sentence_ids": [
+        "ch06-s01-n0007",
+        "ch06-s01-n0008",
+        "ch06-s01-n0009",
+        "ch06-s01-n0010",
+        "ch06-s01-n0011",
+        "ch06-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 50948,
+      "bytes": 815660,
+      "sha256": "e36e2f5d67a124cce0f1542f4820a0db432ded53260eb1f01860dfe22d2bc7df",
+      "sentence_ids": [
+        "ch06-s01-n0013",
+        "ch06-s01-n0014",
+        "ch06-s01-n0015",
+        "ch06-s01-n0016",
+        "ch06-s01-n0017",
+        "ch06-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 60963,
+      "bytes": 976172,
+      "sha256": "3cdf7decbc5a5172df912b5e5cbcfc7aabcb5dfa794d82da64c59b004752680b",
+      "sentence_ids": [
+        "ch06-s01-n0019",
+        "ch06-s01-n0020",
+        "ch06-s01-n0021",
+        "ch06-s01-n0022",
+        "ch06-s01-n0023",
+        "ch06-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 37580,
+      "bytes": 601772,
+      "sha256": "8649c09a7b4cbf9de2384ec1a46a0b47a3e58d802a8f71306c4142a85fe33fc8",
+      "sentence_ids": [
+        "ch06-s01-n0025",
+        "ch06-s01-n0026",
+        "ch06-s01-n0027",
+        "ch06-s01-n0028",
+        "ch06-s01-n0029",
+        "ch06-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 46400,
+      "bytes": 743084,
+      "sha256": "9dbcd6e02d1e8b63f0a50686d62717c3b4346cf6a688bba8a305c5a7c3f8c796",
+      "sentence_ids": [
+        "ch06-s01-n0031",
+        "ch06-s01-n0032",
+        "ch06-s01-n0033",
+        "ch06-s01-n0034",
+        "ch06-s01-n0035",
+        "ch06-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 38280,
+      "bytes": 612908,
+      "sha256": "1d71084350da33126fae0a01557444f0ab38bab39748c6d32227b3e321135d73",
+      "sentence_ids": [
+        "ch06-s01-n0037",
+        "ch06-s01-n0038",
+        "ch06-s01-n0039",
+        "ch06-s01-n0040",
+        "ch06-s01-n0041",
+        "ch06-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 69580,
+      "bytes": 1114028,
+      "sha256": "97176aca7f0574cd4b37e206d582b993ac01db420cafadc2f99578bffea214e1",
+      "sentence_ids": [
+        "ch06-s01-n0043",
+        "ch06-s01-n0044",
+        "ch06-s01-n0045",
+        "ch06-s01-n0046",
+        "ch06-s01-n0047",
+        "ch06-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 52700,
+      "bytes": 843692,
+      "sha256": "8a29ede391ef30ef0f8350d7b63e8bbcb3e2437d96241a8aaa634594115fbf8b",
+      "sentence_ids": [
+        "ch06-s01-n0049",
+        "ch06-s01-n0050",
+        "ch06-s01-n0051",
+        "ch06-s01-n0052",
+        "ch06-s01-n0053",
+        "ch06-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 67580,
+      "bytes": 1081772,
+      "sha256": "52a1929085c8f304f9a35a0c5d0c16671f19617016f19a128ea263276d1e4801",
+      "sentence_ids": [
+        "ch06-s01-n0055",
+        "ch06-s01-n0056",
+        "ch06-s01-n0057",
+        "ch06-s01-n0058",
+        "ch06-s01-n0059",
+        "ch06-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 47700,
+      "bytes": 763820,
+      "sha256": "88ed6deba9f37d7a71ea9edb11a4925c58f7421d0c6e9878db50d5323fc9feba",
+      "sentence_ids": [
+        "ch06-s01-n0061",
+        "ch06-s01-n0062",
+        "ch06-s01-n0063",
+        "ch06-s01-n0064",
+        "ch06-s01-n0065",
+        "ch06-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 42067,
+      "bytes": 673580,
+      "sha256": "0dc72ae15b767bb735f6f417a28c4ee5f91e596c499efd6310e4efa1f633c938",
+      "sentence_ids": [
+        "ch06-s01-n0067",
+        "ch06-s01-n0068",
+        "ch06-s01-n0069",
+        "ch06-s01-n0070",
+        "ch06-s01-n0071",
+        "ch06-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 63688,
+      "bytes": 1019564,
+      "sha256": "bf1cab227542969e1792741f59b6bdbeaba16bff281334365bf4df3b3215a967",
+      "sentence_ids": [
+        "ch06-s01-n0073",
+        "ch06-s01-n0074",
+        "ch06-s01-n0075",
+        "ch06-s01-n0076",
+        "ch06-s01-n0077",
+        "ch06-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 50080,
+      "bytes": 801836,
+      "sha256": "bdfebb393500cf5ffb1e2dce93297f8e96ca39703f7ebffb65091eaa1f66b819",
+      "sentence_ids": [
+        "ch06-s01-n0079",
+        "ch06-s01-n0080",
+        "ch06-s01-n0081",
+        "ch06-s01-n0082",
+        "ch06-s01-n0083",
+        "ch06-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 55200,
+      "bytes": 883628,
+      "sha256": "6b2c114c91c7756e2b0e787074a71833532f539c347a215dad37ed656311c73d",
+      "sentence_ids": [
+        "ch06-s01-n0085",
+        "ch06-s01-n0086",
+        "ch06-s01-n0087",
+        "ch06-s01-n0088",
+        "ch06-s01-n0089",
+        "ch06-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 68500,
+      "bytes": 1096748,
+      "sha256": "c3c9eb172569d3f4a6cd6f7f387ac1b67fed7c219178e9a0810b22b5fd385fc5",
+      "sentence_ids": [
+        "ch06-s01-n0091",
+        "ch06-s01-n0092",
+        "ch06-s01-n0093",
+        "ch06-s01-n0094",
+        "ch06-s01-n0095",
+        "ch06-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 50543,
+      "bytes": 809132,
+      "sha256": "ed2a511bedbb50efe028656488f5081973adda65d421dd1fd94045ccbe4c6344",
+      "sentence_ids": [
+        "ch06-s01-n0097",
+        "ch06-s01-n0098",
+        "ch06-s01-n0099",
+        "ch06-s01-n0100",
+        "ch06-s01-n0101",
+        "ch06-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 62280,
+      "bytes": 996908,
+      "sha256": "d3041fbdcb178bb89deaa56a436daf8b517ec716c64e39d6844524ebb721ba72",
+      "sentence_ids": [
+        "ch06-s01-n0103",
+        "ch06-s01-n0104",
+        "ch06-s01-n0105",
+        "ch06-s01-n0106",
+        "ch06-s01-n0107",
+        "ch06-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 71792,
+      "bytes": 1149356,
+      "sha256": "b520cebfd036456dcf798aa9860a901debe1a6d842eac906c9874f1ecfee11ff",
+      "sentence_ids": [
+        "ch06-s01-n0109",
+        "ch06-s01-n0110",
+        "ch06-s01-n0111",
+        "ch06-s01-n0112",
+        "ch06-s01-n0113",
+        "ch06-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 50579,
+      "bytes": 809900,
+      "sha256": "c7f62db4cb82484fa2f69581ce88aea7bba187417890b27ce1d7bacba7126118",
+      "sentence_ids": [
+        "ch06-s01-n0115",
+        "ch06-s01-n0116",
+        "ch06-s01-n0117",
+        "ch06-s01-n0118",
+        "ch06-s01-n0119",
+        "ch06-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 45728,
+      "bytes": 732332,
+      "sha256": "7d02d571f2b4b7b058b88ed1b5f629f6b2bc36d1a97d10c64bc4bf047a9b05e8",
+      "sentence_ids": [
+        "ch06-s01-n0121",
+        "ch06-s01-n0122",
+        "ch06-s01-n0123",
+        "ch06-s01-n0124",
+        "ch06-s01-n0125",
+        "ch06-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 44057,
+      "bytes": 705452,
+      "sha256": "9bd03eec09fe4b286c1de8c04fdfe10672ff6d20b72c01a6f55e36f8084ec640",
+      "sentence_ids": [
+        "ch06-s01-n0127",
+        "ch06-s01-n0128",
+        "ch06-s01-n0129",
+        "ch06-s01-n0130",
+        "ch06-s01-n0131",
+        "ch06-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 55400,
+      "bytes": 887084,
+      "sha256": "6299852a22a21699a706058e9f37324b9aa2fdba28f652f477c4b5e2a85613db",
+      "sentence_ids": [
+        "ch06-s01-n0133",
+        "ch06-s01-n0134",
+        "ch06-s01-n0135",
+        "ch06-s01-n0136",
+        "ch06-s01-n0137",
+        "ch06-s01-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 36917,
+      "bytes": 591404,
+      "sha256": "7cfedc92ccc74a6b5295d28bcc78e061117874adc9949650c0bfc074e3fd9650",
+      "sentence_ids": [
+        "ch06-s01-n0139",
+        "ch06-s01-n0140",
+        "ch06-s01-n0141",
+        "ch06-s01-n0142",
+        "ch06-s01-n0143",
+        "ch06-s01-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 40975,
+      "bytes": 656300,
+      "sha256": "cbdaebb3105a1d7a8e81a1bb0e071dee99f6fedce9e2851bcd7234cfde433e7c",
+      "sentence_ids": [
+        "ch06-s01-n0145",
+        "ch06-s01-n0146",
+        "ch06-s01-n0147",
+        "ch06-s01-n0148",
+        "ch06-s01-n0149",
+        "ch06-s01-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 69994,
+      "bytes": 1120556,
+      "sha256": "575888b8c926925c3ea154327f687d2550d424d8b0e45508360d5531ac27351a",
+      "sentence_ids": [
+        "ch06-s01-n0151",
+        "ch06-s01-n0152",
+        "ch06-s01-n0153",
+        "ch06-s01-n0154",
+        "ch06-s01-n0155",
+        "ch06-s01-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 55780,
+      "bytes": 893228,
+      "sha256": "5af20093d13eda8e2ad2c005760aea2d1dcf430eb9f752a501d681189aab45f0",
+      "sentence_ids": [
+        "ch06-s01-n0157",
+        "ch06-s01-n0158",
+        "ch06-s01-n0159",
+        "ch06-s01-n0160",
+        "ch06-s01-n0161",
+        "ch06-s01-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 55569,
+      "bytes": 889772,
+      "sha256": "a4866e8bb229aa1e4eaeab419b720a055c31157ae7bff940c6c33115799634da",
+      "sentence_ids": [
+        "ch06-s01-n0163",
+        "ch06-s01-n0164",
+        "ch06-s01-n0165",
+        "ch06-s01-n0166",
+        "ch06-s01-n0167",
+        "ch06-s01-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 43952,
+      "bytes": 703916,
+      "sha256": "c281a4e223e692c87597d54c62fd279fa12a8cd74c081daf55ea9858a50f2a48",
+      "sentence_ids": [
+        "ch06-s01-n0169",
+        "ch06-s01-n0170",
+        "ch06-s01-n0171",
+        "ch06-s01-n0172",
+        "ch06-s01-n0173",
+        "ch06-s01-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 9040,
+      "bytes": 145196,
+      "sha256": "7f1fe5bba02461e2848b43dce362b44370c22fa28a9d559f979800aeca4e6e63",
+      "sentence_ids": [
+        "ch06-s01-n0175"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch06-s01-n0001",
+      "text": "劳动过程中的不同要素，对产品价值的形成起着不同作用。",
+      "start_ms": 40,
+      "end_ms": 4240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch06-s01-n0002",
+      "text": "工人付出一定量的劳动，从而给劳动对象增加新价值。",
+      "start_ms": 4880,
+      "end_ms": 9000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch06-s01-n0003",
+      "text": "这里暂时不考虑劳动的具体内容、目的和技术特点。",
+      "start_ms": 9360,
+      "end_ms": 13280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch06-s01-n0004",
+      "text": "另一方面，被消耗的生产资料原有的价值，也会成为产品价值的一部分。",
+      "start_ms": 13920,
+      "end_ms": 19440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch06-s01-n0005",
+      "text": "比如，棉花和纺锭的价值会出现在纱的价值中。",
+      "start_ms": 20160,
+      "end_ms": 24280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch06-s01-n0006",
+      "text": "生产资料的价值并没有消失，而是转移到了产品上。",
+      "start_ms": 24800,
+      "end_ms": 28800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch06-s01-n0007",
+      "text": "这种转移发生在生产资料变成产品的劳动过程中，并且要通过工人的劳动才能完成。",
+      "start_ms": 240,
+      "end_ms": 8480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch06-s01-n0008",
+      "text": "问题是，它究竟怎样完成？",
+      "start_ms": 9240,
+      "end_ms": 12000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch06-s01-n0009",
+      "text": "工人并不是在同一时间做了两次劳动，一次给棉花增加新价值，另一次保存棉花原有的价值，或者把棉花和纺锭的价值转移到纱中。",
+      "start_ms": 12880,
+      "end_ms": 28200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch06-s01-n0010",
+      "text": "他只进行一次劳动，就在增加新价值的同时保存了旧价值。",
+      "start_ms": 28680,
+      "end_ms": 33800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch06-s01-n0011",
+      "text": "不过，增加新价值和保存旧价值毕竟是两个不同的结果。",
+      "start_ms": 34560,
+      "end_ms": 39960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch06-s01-n0012",
+      "text": "工人既然只劳动一次，却同时产生这两个结果，原因就只能在于他的劳动本身具有两个方面。",
+      "start_ms": 40760,
+      "end_ms": 49320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch06-s01-n0013",
+      "text": "同一时间里，劳动从一个方面看会创造价值，从另一个方面看又会保存或转移价值。",
+      "start_ms": 0,
+      "end_ms": 7440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch06-s01-n0014",
+      "text": "任何工人都只能通过具体的生产活动来付出劳动时间，从而增加价值。",
+      "start_ms": 8080,
+      "end_ms": 14200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch06-s01-n0015",
+      "text": "纺纱工通过纺纱，织布工通过织布，铁匠通过打铁。",
+      "start_ms": 15120,
+      "end_ms": 20000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch06-s01-n0016",
+      "text": "正是在这些具有明确目的的具体劳动中，棉花和纺锭、纱线和织布机、铁和铁砧才会成为新产品的组成要素，形成新的使用价值。",
+      "start_ms": 20600,
+      "end_ms": 31440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch06-s01-n0017",
+      "text": "生产资料原有的使用形态会消失，但会进入新的使用价值中。",
+      "start_ms": 32360,
+      "end_ms": 38160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch06-s01-n0018",
+      "text": "前面分析价值形成过程时已经看到，只要一种使用价值被合理地消耗，用来生产新的使用价值，生产它所需的劳动时间就会成为生产新产品所需劳动时间的一部分。",
+      "start_ms": 38200,
+      "end_ms": 50640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch06-s01-n0019",
+      "text": "也就是说，生产资料原有的价值转移到了新产品中。",
+      "start_ms": 0,
+      "end_ms": 4520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch06-s01-n0020",
+      "text": "因此，工人保存并转移生产资料的价值，靠的不是他付出了一般意义上的劳动，而是这项劳动具有特殊而有用的生产形式。",
+      "start_ms": 5000,
+      "end_ms": 16440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch06-s01-n0021",
+      "text": "纺纱、织布或打铁这些有目的的具体活动一接触生产资料，就让它们从死物变成劳动过程中的活跃要素，并同劳动结合成新的产品。",
+      "start_ms": 17560,
+      "end_ms": 31280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch06-s01-n0022",
+      "text": "如果工人的具体劳动不是纺纱，他就不能把棉花变成纱，也不能把棉花和纺锭的价值转移到纱中。",
+      "start_ms": 32200,
+      "end_ms": 41040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch06-s01-n0023",
+      "text": "但同一个工人如果改行做木工，劳动一天仍然会给木料增加价值。",
+      "start_ms": 41600,
+      "end_ms": 47680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch06-s01-n0024",
+      "text": "他之所以能够增加价值，不是因为劳动采取了纺纱或木工的具体形式，而是因为它作为一般人类劳动，耗费了社会劳动时间。",
+      "start_ms": 48680,
+      "end_ms": 60600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch06-s01-n0025",
+      "text": "他增加多少价值，也不取决于劳动的具体用途，而取决于劳动持续了多久。",
+      "start_ms": 0,
+      "end_ms": 5880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch06-s01-n0026",
+      "text": "因此，纺纱工的劳动作为一般人类劳动力的耗费，会给棉花和纺锭的旧价值增加新价值。",
+      "start_ms": 6560,
+      "end_ms": 13520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch06-s01-n0027",
+      "text": "与此同时，它作为具体有用的纺纱劳动，又把棉花和纺锭的价值转移到纱中，使这些旧价值在产品中保存下来。",
+      "start_ms": 14000,
+      "end_ms": 23120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch06-s01-n0028",
+      "text": "这就是同一段劳动为什么能在同一时间产生两种结果。",
+      "start_ms": 23760,
+      "end_ms": 27480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch06-s01-n0029",
+      "text": "劳动增加了多少新价值，取决于增加了多少劳动。",
+      "start_ms": 28200,
+      "end_ms": 31520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch06-s01-n0030",
+      "text": "生产资料的旧价值能否保存在产品中，则取决于这项劳动采取了什么具体形式。",
+      "start_ms": 31960,
+      "end_ms": 37480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch06-s01-n0031",
+      "text": "同一段劳动因为具有这两个方面，才会同时产生这两种作用。",
+      "start_ms": 80,
+      "end_ms": 4800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch06-s01-n0032",
+      "text": "下面几个例子可以清楚说明这一点。",
+      "start_ms": 5520,
+      "end_ms": 8120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch06-s01-n0033",
+      "text": "假定一项发明让纺纱工在6小时内纺完的棉花，等于过去36小时的产量。",
+      "start_ms": 8800,
+      "end_ms": 15640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch06-s01-n0034",
+      "text": "作为具体有用的生产活动，这项劳动的生产能力提高了六倍，产量也增加到原来的六倍，从6磅纱变成36磅纱。",
+      "start_ms": 16560,
+      "end_ms": 27600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch06-s01-n0035",
+      "text": "可是，36磅棉花现在吸收的劳动时间，只相当于过去6磅棉花吸收的时间。",
+      "start_ms": 28560,
+      "end_ms": 35720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch06-s01-n0036",
+      "text": "用新方法加工同样36磅棉花，新增劳动只有旧方法的六分之一，新增价值也只有原来的六分之一。",
+      "start_ms": 36440,
+      "end_ms": 46200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch06-s01-n0037",
+      "text": "另一方面，36磅纱中保存了36磅棉花的价值，是过去6磅纱中棉花价值的六倍。",
+      "start_ms": 0,
+      "end_ms": 7840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch06-s01-n0038",
+      "text": "也就是说，同样是6小时纺纱，现在保存并转移了六倍的原料价值，却只给同量原料增加了旧方法六分之一的新价值。",
+      "start_ms": 8320,
+      "end_ms": 18320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch06-s01-n0039",
+      "text": "这清楚表明，劳动保存价值的作用和创造价值的作用来自两种不同的性质。",
+      "start_ms": 18880,
+      "end_ms": 24960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch06-s01-n0040",
+      "text": "纺同样多的棉花所需的劳动时间越长，给它增加的新价值就越多。",
+      "start_ms": 25680,
+      "end_ms": 30280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch06-s01-n0041",
+      "text": "反过来，同样时间内纺掉的棉花越多，产品中保存的旧价值就越多。",
+      "start_ms": 31000,
+      "end_ms": 36320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch06-s01-n0042",
+      "text": "现在作相反的假定。",
+      "start_ms": 37000,
+      "end_ms": 38240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch06-s01-n0043",
+      "text": "纺纱劳动的生产率不变，把1磅棉花纺成纱所需的时间仍同过去一样，但棉花本身的价值发生变化，上涨到原来的六倍，或者降到原来的六分之一。",
+      "start_ms": 240,
+      "end_ms": 15080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch06-s01-n0044",
+      "text": "无论是哪种情况，纺纱工都给同量棉花加入同样多的劳动时间，也就是同样多的新价值，在相同时间内生产的纱也同样多。",
+      "start_ms": 15880,
+      "end_ms": 28480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch06-s01-n0045",
+      "text": "可是，他从棉花转移到纱中的价值，会随着棉花本身的价值变化，变成原来的六倍或六分之一。",
+      "start_ms": 29160,
+      "end_ms": 38920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch06-s01-n0046",
+      "text": "劳动工具变贵或变便宜、但在劳动过程中发挥的作用不变时，也是如此。",
+      "start_ms": 39720,
+      "end_ms": 47000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch06-s01-n0047",
+      "text": "如果纺纱的技术条件不变，生产资料的价值也不变，纺纱工在相同时间内就会消耗同样数量、价值相同的原料和机器。",
+      "start_ms": 47920,
+      "end_ms": 60120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch06-s01-n0048",
+      "text": "在这种情况下，他在产品中保存多少旧价值，同他增加多少新价值，会按同一比例增长。",
+      "start_ms": 61040,
+      "end_ms": 69440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch06-s01-n0049",
+      "text": "劳动两周比劳动一周多付出一倍的劳动，因此增加一倍的新价值。",
+      "start_ms": 200,
+      "end_ms": 6440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch06-s01-n0050",
+      "text": "同时，他也消耗价值多一倍的材料，磨损价值多一倍的机器，因此在两周的产品中保存的旧价值也是一周的两倍。",
+      "start_ms": 7080,
+      "end_ms": 17480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch06-s01-n0051",
+      "text": "在生产条件不变时，工人增加的新价值越多，保存的旧价值通常也越多。",
+      "start_ms": 18040,
+      "end_ms": 24720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch06-s01-n0052",
+      "text": "但他并不是因为增加了更多新价值，才保存了更多旧价值。",
+      "start_ms": 25480,
+      "end_ms": 31200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch06-s01-n0053",
+      "text": "真正的原因是，他在不由自己劳动决定、而又保持不变的生产条件下工作了更长时间，因而消耗了更多生产资料。",
+      "start_ms": 32040,
+      "end_ms": 42080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch06-s01-n0054",
+      "text": "因此，从相对比例来看，也可以说，工人保存旧价值的多少总是同他增加新价值的多少成比例。",
+      "start_ms": 42720,
+      "end_ms": 52520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch06-s01-n0055",
+      "text": "棉花的价格无论从每磅1先令涨到2先令，还是降到6便士，一小时产品中保存的棉花价值，始终只有两小时产品中的一半。",
+      "start_ms": 120,
+      "end_ms": 16680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch06-s01-n0056",
+      "text": "再假定工人自身的生产率发生变化。",
+      "start_ms": 17240,
+      "end_ms": 21280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch06-s01-n0057",
+      "text": "无论生产率上升还是下降，他一小时纺掉的棉花都会比过去更多或更少，一小时产品中保存的棉花价值也会相应增减。",
+      "start_ms": 22040,
+      "end_ms": 37760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch06-s01-n0058",
+      "text": "但无论如何，两小时产品中保存的价值仍然是一小时产品的两倍。",
+      "start_ms": 38680,
+      "end_ms": 46760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch06-s01-n0059",
+      "text": "价值除了可以用货币符号来表示，在现实中只能存在于某种有用的东西中。",
+      "start_ms": 47760,
+      "end_ms": 56280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch06-s01-n0060",
+      "text": "人如果仅仅被看作劳动力的载体，也是一个自然物，是一个有生命、有意识的自然物。",
+      "start_ms": 57120,
+      "end_ms": 67360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch06-s01-n0061",
+      "text": "劳动则是这种能力以物质形式表现出来的活动。",
+      "start_ms": 120,
+      "end_ms": 4040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch06-s01-n0062",
+      "text": "因此，一件东西如果失去使用价值，其中的价值也会一同失去。",
+      "start_ms": 4840,
+      "end_ms": 10240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch06-s01-n0063",
+      "text": "生产资料在劳动过程中失去原来的使用价值时，价值却没有消失，因为它们只是放弃原来的形态，转而成为另一种使用价值，也就是产品。",
+      "start_ms": 11080,
+      "end_ms": 23160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch06-s01-n0064",
+      "text": "商品的变化已经说明，价值必须存在于某种使用价值中，但具体存在于哪一种使用价值中并不重要。",
+      "start_ms": 24160,
+      "end_ms": 33040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch06-s01-n0065",
+      "text": "由此可见，生产资料只有在失去自身独立使用价值的同时，才会把价值转移给产品。",
+      "start_ms": 33840,
+      "end_ms": 42280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch06-s01-n0066",
+      "text": "它作为生产资料失去多少价值，就向产品转移多少价值。",
+      "start_ms": 43040,
+      "end_ms": 47480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch06-s01-n0067",
+      "text": "不过，劳动过程中的各种物质要素，转移价值的方式并不相同。",
+      "start_ms": 280,
+      "end_ms": 6160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch06-s01-n0068",
+      "text": "烧机器的煤会完全消失，给轮轴润滑的油也是如此。",
+      "start_ms": 6960,
+      "end_ms": 11760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch06-s01-n0069",
+      "text": "颜料和其他辅助材料也会失去原来的形态，但它们的作用会表现为产品的某种性质。",
+      "start_ms": 12440,
+      "end_ms": 19720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch06-s01-n0070",
+      "text": "原料则成为产品的物质内容，只是改变了形态。",
+      "start_ms": 20880,
+      "end_ms": 25280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch06-s01-n0071",
+      "text": "因此，原料和辅助材料进入劳动过程时都具有独立的使用形态，离开时这种独立形态已经消失。",
+      "start_ms": 28040,
+      "end_ms": 37560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch06-s01-n0072",
+      "text": "真正的劳动工具却不同。",
+      "start_ms": 39600,
+      "end_ms": 41800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch06-s01-n0073",
+      "text": "工具、机器、厂房和容器等，只有保持原来的形态，今天用完以后明天还能以同样形态重新使用，才能继续发挥作用。",
+      "start_ms": 160,
+      "end_ms": 13880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch06-s01-n0074",
+      "text": "它们在服役期间始终同产品分开，报废以后留下的残骸也仍然同它们帮助生产的产品分开。",
+      "start_ms": 14720,
+      "end_ms": 24320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch06-s01-n0075",
+      "text": "不过，如果考察一种劳动工具从进入工场到被扔进废料间的全部使用期，就会发现它的使用价值最终还是被劳动完全消耗了，它的全部价值也随之转移到了这段时期生产的产品中。",
+      "start_ms": 25040,
+      "end_ms": 42840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch06-s01-n0076",
+      "text": "比如，一台纺纱机如果可以使用10年，那么经过10年的生产，它的全部价值就已经进入这10年的产品。",
+      "start_ms": 43760,
+      "end_ms": 54160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch06-s01-n0077",
+      "text": "劳动工具的一生包含许多次反复进行的劳动过程。",
+      "start_ms": 55160,
+      "end_ms": 60400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch06-s01-n0078",
+      "text": "这一点很像人的生命。",
+      "start_ms": 61320,
+      "end_ms": 63400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch06-s01-n0079",
+      "text": "每个人的寿命每天都会减少一天，但从外表上无法准确看出他已经消耗了多少天。",
+      "start_ms": 200,
+      "end_ms": 8520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch06-s01-n0080",
+      "text": "人寿保险公司仍然可以根据平均寿命，得出相当可靠而且很赚钱的结论。",
+      "start_ms": 8920,
+      "end_ms": 16120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch06-s01-n0081",
+      "text": "劳动工具也是如此。",
+      "start_ms": 16880,
+      "end_ms": 18640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch06-s01-n0082",
+      "text": "经验可以告诉我们，某种机器平均能使用多久。",
+      "start_ms": 19280,
+      "end_ms": 23840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch06-s01-n0083",
+      "text": "假定一件工具只能用6天，那么它平均每天损失六分之一的使用价值，也把六分之一的价值转移到当天的产品。",
+      "start_ms": 24680,
+      "end_ms": 36840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch06-s01-n0084",
+      "text": "所有劳动工具的损耗都是这样计算的，也就是先估算它每天失去多少使用价值，再计算相应有多少价值转移到产品。",
+      "start_ms": 37800,
+      "end_ms": 49880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch06-s01-n0085",
+      "text": "由此可以清楚看到，生产资料向产品转移的价值，绝不会超过它在劳动过程中因自身使用价值被消耗而失去的价值。",
+      "start_ms": 40,
+      "end_ms": 11440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch06-s01-n0086",
+      "text": "如果一种生产资料本来没有价值可失，也就是说，它本身不是人类劳动的产品，那么它就不会向产品转移任何价值。",
+      "start_ms": 12360,
+      "end_ms": 22840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch06-s01-n0087",
+      "text": "它可以帮助形成使用价值，却不会成为交换价值的来源。",
+      "start_ms": 23800,
+      "end_ms": 29480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch06-s01-n0088",
+      "text": "自然界未经人类劳动就已经存在的生产资料都是如此，比如土地、风、水、矿脉中的铁和原始森林中的木材。",
+      "start_ms": 30040,
+      "end_ms": 40720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch06-s01-n0089",
+      "text": "这里还有一种值得注意的情况。",
+      "start_ms": 41280,
+      "end_ms": 43400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch06-s01-n0090",
+      "text": "假定一台机器价值1000英镑，可以使用1000天，那么它每天只把自身价值的千分之一转移到当天的产品中。",
+      "start_ms": 44320,
+      "end_ms": 54520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch06-s01-n0091",
+      "text": "但是，即使机器的寿命在逐渐减少，每天参加劳动的仍是整台机器。",
+      "start_ms": 0,
+      "end_ms": 6850,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch06-s01-n0092",
+      "text": "这说明，同一种生产资料可以完整地进入劳动过程，却只按一部分价值进入价值增殖过程。",
+      "start_ms": 6850,
+      "end_ms": 15983,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch06-s01-n0093",
+      "text": "劳动过程和价值增殖过程的区别，由此表现在生产资料本身：作为劳动过程的要素，整台机器都在起作用；作为价值形成的要素，当天只计算它的一小部分价值。",
+      "start_ms": 15983,
+      "end_ms": 32195,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch06-s01-n0094",
+      "text": "反过来，一种生产资料也可能全部进入价值增殖过程，却只有一部分实际成为产品。",
+      "start_ms": 32195,
+      "end_ms": 40643,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch06-s01-n0095",
+      "text": "假定每天纺115磅棉花时，有15磅变成废绒，不能成为纱，只能形成所谓“魔鬼尘”。",
+      "start_ms": 40643,
+      "end_ms": 49777,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch06-s01-n0096",
+      "text": "如果这15%的损耗属于正常现象，在棉花的平均加工条件下无法避免，那么这15磅棉花的价值虽然没有成为纱的物质内容，也会像其余100磅棉花的价值一样，全部计入纱的价值。",
+      "start_ms": 49777,
+      "end_ms": 68500,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch06-s01-n0097",
+      "text": "要生产100磅纱，就必须牺牲15磅棉花的使用价值。",
+      "start_ms": 360,
+      "end_ms": 5320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch06-s01-n0098",
+      "text": "这种损耗既然是生产纱的必要条件，被损耗棉花的价值也会转移到纱中。",
+      "start_ms": 5840,
+      "end_ms": 11560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch06-s01-n0099",
+      "text": "劳动过程中产生的其他废料也遵循同一原则，至少在这些废料没有被重新制成生产资料、形成新的独立使用价值时是如此。",
+      "start_ms": 11680,
+      "end_ms": 20880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch06-s01-n0100",
+      "text": "在曼彻斯特的大型机器厂中，人们可以看到巨型机器像刨木屑一样削下成堆铁屑。",
+      "start_ms": 20920,
+      "end_ms": 27720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch06-s01-n0101",
+      "text": "傍晚，这些铁屑由大车运到铸铁厂，第二天又变成整块铁，从铸铁厂运回机器厂。",
+      "start_ms": 32320,
+      "end_ms": 39920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch06-s01-n0102",
+      "text": "生产资料只有在劳动过程中随着原有使用价值的消耗而失去价值，才会把这部分价值转移到产品的新形态中。",
+      "start_ms": 40120,
+      "end_ms": 50240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch06-s01-n0103",
+      "text": "它在劳动过程中最多能损失多少价值，显然受它进入这一过程时原有价值量的限制，也就是受生产它自身所需劳动时间的限制。",
+      "start_ms": 120,
+      "end_ms": 11960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch06-s01-n0104",
+      "text": "因此，生产资料转给产品的价值，绝不会超过它在进入所服务的劳动过程以前已经具有的价值。",
+      "start_ms": 12760,
+      "end_ms": 24600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch06-s01-n0105",
+      "text": "无论劳动材料、机器或其他生产资料多么有用，如果它值150英镑，也就是500个工作日，那么它给全部产品增加的价值最多也只有150英镑。",
+      "start_ms": 25200,
+      "end_ms": 39720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch06-s01-n0106",
+      "text": "它的价值不是由它作为生产资料参与的劳动过程决定，而是由生产它自身的劳动过程决定。",
+      "start_ms": 40880,
+      "end_ms": 49040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch06-s01-n0107",
+      "text": "在当前劳动过程中，它只作为具有有用性质的东西发挥作用。",
+      "start_ms": 49880,
+      "end_ms": 55200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch06-s01-n0108",
+      "text": "如果它在进入这个过程以前没有价值，也就不会把任何价值转移给产品。",
+      "start_ms": 56040,
+      "end_ms": 62160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch06-s01-n0109",
+      "text": "当生产性劳动把生产资料变成新产品的构成要素时，这些生产资料的价值仿佛经历了一次“灵魂迁移”，从被消耗的旧身体转入新形成的身体。",
+      "start_ms": 0,
+      "end_ms": 17263,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch06-s01-n0110",
+      "text": "不过，这场迁移仿佛是在实际劳动背后悄悄发生的。",
+      "start_ms": 17263,
+      "end_ms": 23565,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch06-s01-n0111",
+      "text": "劳动者如果不保存旧价值，就无法增加新劳动、创造新价值。",
+      "start_ms": 23565,
+      "end_ms": 30964,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch06-s01-n0112",
+      "text": "因为他总要以某种具体有用的形式劳动，而要这样劳动，就必须把已有产品变成新产品的生产资料，从而把它们的价值转移到新产品中。",
+      "start_ms": 30964,
+      "end_ms": 47405,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch06-s01-n0113",
+      "text": "因此，正在发挥作用的劳动力，也就是活劳动，有一种天然能力：它在增加价值的同时保存价值。",
+      "start_ms": 47405,
+      "end_ms": 59187,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch06-s01-n0114",
+      "text": "劳动者不必为这种能力额外付出什么，资本家却由此得到很大好处，因为已有的资本价值被保存下来了。",
+      "start_ms": 59187,
+      "end_ms": 71792,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch06-s01-n0115",
+      "text": "生意顺利时，资本家忙着追逐更多价值，往往看不见劳动这份免费的天赋。",
+      "start_ms": 40,
+      "end_ms": 6520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch06-s01-n0116",
+      "text": "劳动过程被危机强行打断时，他才会痛切地意识到它。",
+      "start_ms": 7360,
+      "end_ms": 12280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch06-s01-n0117",
+      "text": "生产资料在生产中真正被消耗的是使用价值，劳动正是通过消耗这种使用价值来形成产品。",
+      "start_ms": 13200,
+      "end_ms": 22120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch06-s01-n0118",
+      "text": "生产资料的价值实际上并没有被消费掉， 因此也谈不上把它重新生产出来。",
+      "start_ms": 22760,
+      "end_ms": 29880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch06-s01-n0119",
+      "text": "这个价值被保存下来，并不是因为劳动过程直接对价值本身进行了什么操作，而是因为原来承载价值的使用价值虽然消失了，却只是转入了另一种使用价值。",
+      "start_ms": 30640,
+      "end_ms": 45680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch06-s01-n0120",
+      "text": "于是，生产资料的价值重新出现在产品价值中。",
+      "start_ms": 46560,
+      "end_ms": 50440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch06-s01-n0121",
+      "text": "不过严格来说，它并没有被重新生产。",
+      "start_ms": 0,
+      "end_ms": 5560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch06-s01-n0122",
+      "text": "真正生产出来的是新的使用价值，原有的交换价值就在这个新的使用价值中重新出现。",
+      "start_ms": 6320,
+      "end_ms": 13960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch06-s01-n0123",
+      "text": "劳动过程的主观要素，也就是正在发挥作用的劳动力，情况却不同。",
+      "start_ms": 14960,
+      "end_ms": 21680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch06-s01-n0124",
+      "text": "劳动以具体有用的形式进行时，会把生产资料的价值转移给产品并保存下来。",
+      "start_ms": 22360,
+      "end_ms": 30000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch06-s01-n0125",
+      "text": "与此同时，劳动的每一个活动瞬间都在增加价值，形成新价值。",
+      "start_ms": 30800,
+      "end_ms": 36440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch06-s01-n0126",
+      "text": "假定生产过程在劳动者刚好生产出自己劳动力价值的等价物时停止。",
+      "start_ms": 37320,
+      "end_ms": 45280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch06-s01-n0127",
+      "text": "例如，他劳动6小时，增加了3先令价值。",
+      "start_ms": 0,
+      "end_ms": 3560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch06-s01-n0128",
+      "text": "这3先令就是产品价值超过生产资料转移价值的那部分余额。",
+      "start_ms": 4440,
+      "end_ms": 10800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch06-s01-n0129",
+      "text": "它是这一过程中唯一新产生的价值，也是产品价值中唯一由生产过程本身创造出来的部分。",
+      "start_ms": 11480,
+      "end_ms": 19640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch06-s01-n0130",
+      "text": "当然，这3先令只是补回资本家购买劳动力时预付、随后由劳动者花在生活资料上的钱。",
+      "start_ms": 20560,
+      "end_ms": 30560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch06-s01-n0131",
+      "text": "相对于预付的3先令，新形成的3先令看起来只是把原价值再生产出来。",
+      "start_ms": 31440,
+      "end_ms": 37520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch06-s01-n0132",
+      "text": "但这里的价值确实得到了再生产，不像生产资料的价值那样只是重新出现。",
+      "start_ms": 37920,
+      "end_ms": 43760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch06-s01-n0133",
+      "text": "因为在这里，一个价值由另一个价值来补回，而这个替换是通过创造新价值实现的。",
+      "start_ms": 0,
+      "end_ms": 8840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch06-s01-n0134",
+      "text": "不过我们已经知道，劳动过程不会在刚好再生产出劳动力价值的等价物、并把它加入劳动对象时停止。",
+      "start_ms": 9360,
+      "end_ms": 19040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch06-s01-n0135",
+      "text": "完成这一步只需要6小时，劳动过程却可以持续12小时。",
+      "start_ms": 19640,
+      "end_ms": 26040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch06-s01-n0136",
+      "text": "这样，劳动力的使用不仅再生产了自身价值，还生产出一个超过自身价值的价值。",
+      "start_ms": 26960,
+      "end_ms": 35160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch06-s01-n0137",
+      "text": "这个剩余价值，就是产品价值超过被消耗的产品形成要素价值的部分，也就是超过生产资料和劳动力价值总和的部分。",
+      "start_ms": 35800,
+      "end_ms": 47800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch06-s01-n0138",
+      "text": "我们已经说明，劳动过程的不同要素在形成产品价值时各起什么作用。",
+      "start_ms": 48720,
+      "end_ms": 55160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch06-s01-n0139",
+      "text": "这样一来，我们也就说明了资本的不同部分在自身价值增殖中各起什么作用。",
+      "start_ms": 360,
+      "end_ms": 4240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch06-s01-n0140",
+      "text": "产品总价值超过各项形成要素价值总和的部分，正是资本增殖后的价值超过原先预付资本价值的部分。",
+      "start_ms": 4800,
+      "end_ms": 13120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch06-s01-n0141",
+      "text": "生产资料和劳动力只是原先资本价值采取的两种形式。",
+      "start_ms": 13560,
+      "end_ms": 16920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch06-s01-n0142",
+      "text": "资本脱去货币形式、转化为劳动过程的要素时，一部分成为生产资料，另一部分成为劳动力。",
+      "start_ms": 17680,
+      "end_ms": 24680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch06-s01-n0143",
+      "text": "资本中转化为生产资料，也就是原料、辅助材料和劳动手段的那部分，在生产过程中不改变自身的价值量。",
+      "start_ms": 25080,
+      "end_ms": 32440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch06-s01-n0144",
+      "text": "因此，我把它叫作不变资本部分，简称不变资本。",
+      "start_ms": 33000,
+      "end_ms": 36640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch06-s01-n0145",
+      "text": "相反，资本中转化为劳动力的那部分，在生产过程中会改变自己的价值。",
+      "start_ms": 160,
+      "end_ms": 6080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch06-s01-n0146",
+      "text": "它会再生产出一份同自身价值相等的价值，并在此之上生产出一个余额，也就是剩余价值。",
+      "start_ms": 6800,
+      "end_ms": 15920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch06-s01-n0147",
+      "text": "剩余价值本身可以多，也可以少。",
+      "start_ms": 16600,
+      "end_ms": 19400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch06-s01-n0148",
+      "text": "这部分资本原先是一个确定的价值量，在生产过程中却不断变成可变的价值量。",
+      "start_ms": 20040,
+      "end_ms": 26480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch06-s01-n0149",
+      "text": "因此，我把它叫作可变资本部分，简称可变资本。",
+      "start_ms": 27120,
+      "end_ms": 31440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch06-s01-n0150",
+      "text": "从劳动过程来看，资本的这两个部分分别是客观要素和人的要素，也就是生产资料和劳动力。",
+      "start_ms": 32840,
+      "end_ms": 40640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch06-s01-n0151",
+      "text": "从价值增殖过程来看，它们则分别是不变资本和可变资本。",
+      "start_ms": 280,
+      "end_ms": 4840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch06-s01-n0152",
+      "text": "不变资本这个概念，绝不意味着组成它的生产资料自身不能发生价值变化。",
+      "start_ms": 5280,
+      "end_ms": 10960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch06-s01-n0153",
+      "text": "假定1磅棉花今天值6便士，明天因棉花歉收涨到1先令。",
+      "start_ms": 11640,
+      "end_ms": 17200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch06-s01-n0154",
+      "text": "库存中的旧棉花虽然按6便士买来，但只要继续投入加工，现在就会把1先令的价值转给产品。",
+      "start_ms": 17680,
+      "end_ms": 24760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch06-s01-n0155",
+      "text": "那些已经纺成纱、甚至已经作为纱在市场上流通的棉花，其计入产品的价值也会变成原来的两倍。",
+      "start_ms": 55360,
+      "end_ms": 63680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch06-s01-n0156",
+      "text": "不过，这种价值变化并不是棉花在纺纱过程中实现价值增殖的结果。",
+      "start_ms": 64560,
+      "end_ms": 69800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch06-s01-n0157",
+      "text": "即使旧棉花还完全没有进入劳动过程，现在也能按1先令而不是6便士卖掉。",
+      "start_ms": 0,
+      "end_ms": 7560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch06-s01-n0158",
+      "text": "反过来说，棉花经历的加工过程越少，这种涨价就越有把握。",
+      "start_ms": 8160,
+      "end_ms": 14000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch06-s01-n0159",
+      "text": "因此，当原料发生这种价值变化时，投机的一条规律就是选择加工最少的形式：纱比布更合适，棉花本身又比纱更合适。",
+      "start_ms": 15160,
+      "end_ms": 27720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch06-s01-n0160",
+      "text": "这里的价值变化产生于生产棉花的过程，而不是产生于棉花作为生产资料、也就是不变资本发挥作用的过程。",
+      "start_ms": 28680,
+      "end_ms": 39720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch06-s01-n0161",
+      "text": "商品的价值固然由其中包含的劳动量决定，但这个劳动量是由社会决定的。",
+      "start_ms": 40600,
+      "end_ms": 47840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch06-s01-n0162",
+      "text": "如果生产这种商品所需的社会劳动时间发生变化，旧商品的价值也会随之改变。",
+      "start_ms": 48480,
+      "end_ms": 55640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch06-s01-n0163",
+      "text": "例如，收成不好时，同量棉花代表的劳动量就比丰收时更多。",
+      "start_ms": 0,
+      "end_ms": 5240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch06-s01-n0164",
+      "text": "因为一件旧商品始终只是同类商品中的一个个别样品，它的价值总要按当前社会条件下的社会必要劳动来衡量。",
+      "start_ms": 5760,
+      "end_ms": 15560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch06-s01-n0165",
+      "text": "原料的价值会变化，已经在生产过程中使用的劳动手段，如机器等，其价值也会变化，它们转给产品的价值也会随之变化。",
+      "start_ms": 16480,
+      "end_ms": 27640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch06-s01-n0166",
+      "text": "比如，一项新发明使同类机器可以用较少劳动生产出来，旧机器就会程度不等地贬值，因而转给产品的价值也会相应减少。",
+      "start_ms": 28280,
+      "end_ms": 40040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch06-s01-n0167",
+      "text": "但这里的价值变化同样发生在机器作为生产资料发挥作用的生产过程之外。",
+      "start_ms": 40680,
+      "end_ms": 46880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch06-s01-n0168",
+      "text": "在这个生产过程中，机器转给产品的价值，绝不会超过它在这一过程之外已经具有的价值。",
+      "start_ms": 47640,
+      "end_ms": 55240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch06-s01-n0169",
+      "text": "生产资料投入生产以后，它们的价值即使又发生变化，这种变化也不会改变它们作为不变资本的性质。",
+      "start_ms": 360,
+      "end_ms": 9320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch06-s01-n0170",
+      "text": "同样，不变资本和可变资本在总资本中所占的比例无论怎样变化，也不影响二者在生产中的不同作用。",
+      "start_ms": 10160,
+      "end_ms": 20000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch06-s01-n0171",
+      "text": "比如，劳动过程的技术条件可能发生很大变化。",
+      "start_ms": 20920,
+      "end_ms": 24360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch06-s01-n0172",
+      "text": "过去需要十名工人使用十件不值钱的工具，只能加工少量原料。",
+      "start_ms": 24800,
+      "end_ms": 30040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch06-s01-n0173",
+      "text": "现在一名工人操作一台昂贵机器，就能加工一百倍的原料。",
+      "start_ms": 30640,
+      "end_ms": 36280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch06-s01-n0174",
+      "text": "这时，投入生产资料的不变资本大幅增加，投入劳动力的可变资本大幅减少。",
+      "start_ms": 37080,
+      "end_ms": 43600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch06-s01-n0175",
+      "text": "但改变的只是二者的数量比例，也就是总资本在不变资本和可变资本之间的分配比例，二者的功能区别并没有改变。",
+      "start_ms": 0,
+      "end_ms": 8680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0030"
+    }
+  ]
+}

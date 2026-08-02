@@ -1,7 +1,7 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-02T19:22:41.860Z",
+  "generatedAt": "2026-08-02T19:59:04.046Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 16,
@@ -125,21 +125,24 @@
               "number": 1,
               "title": "资本的一般公式",
               "versionId": "ch04-s01-v1",
-              "contentPath": "/content/ch04-s01.json"
+              "contentPath": "/content/ch04-s01.json",
+              "audioManifestPath": "/audio/ch04-s01-v1-audio-7955003151ae/manifest.json"
             },
             {
               "id": "ch04-s02",
               "number": 2,
               "title": "一般公式的矛盾",
               "versionId": "ch04-s02-v1",
-              "contentPath": "/content/ch04-s02.json"
+              "contentPath": "/content/ch04-s02.json",
+              "audioManifestPath": "/audio/ch04-s02-v1-audio-8c0ef98dabd2/manifest.json"
             },
             {
               "id": "ch04-s03",
               "number": 3,
               "title": "劳动力的买和卖",
               "versionId": "ch04-s03-v1",
-              "contentPath": "/content/ch04-s03.json"
+              "contentPath": "/content/ch04-s03.json",
+              "audioManifestPath": "/audio/ch04-s03-v1-audio-f1eacc1eeb97/manifest.json"
             }
           ]
         }
@@ -185,7 +188,8 @@
               "number": 1,
               "title": "不变资本和可变资本",
               "versionId": "ch06-s01-v1",
-              "contentPath": "/content/ch06-s01.json"
+              "contentPath": "/content/ch06-s01.json",
+              "audioManifestPath": "/audio/ch06-s01-v1-audio-7df6e5cb2b68/manifest.json"
             }
           ]
         },
@@ -200,21 +204,24 @@
               "number": 1,
               "title": "劳动力的剥削程度",
               "versionId": "ch07-s01-v1",
-              "contentPath": "/content/ch07-s01.json"
+              "contentPath": "/content/ch07-s01.json",
+              "audioManifestPath": "/audio/ch07-s01-v1-audio-7540a576f0a1/manifest.json"
             },
             {
               "id": "ch07-s02",
               "number": 2,
               "title": "产品价值怎样分布在产品的各个部分中",
               "versionId": "ch07-s02-v1",
-              "contentPath": "/content/ch07-s02.json"
+              "contentPath": "/content/ch07-s02.json",
+              "audioManifestPath": "/audio/ch07-s02-v1-audio-d3e3002012e4/manifest.json"
             },
             {
               "id": "ch07-s03",
               "number": 3,
               "title": "西尼尔的“最后一小时”",
               "versionId": "ch07-s03-v1",
-              "contentPath": "/content/ch07-s03.json"
+              "contentPath": "/content/ch07-s03.json",
+              "audioManifestPath": "/audio/ch07-s03-v1-audio-55a218d6b186/manifest.json"
             },
             {
               "id": "ch07-s04",
