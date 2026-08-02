@@ -1,0 +1,4330 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch01-s03-v1-audio-7000d28886ce",
+  "unit_id": "ch01-s03",
+  "translation_version_id": "ch01-s03-v1",
+  "translation_sha256": "5b46e00c108bcb31f46777b901cbd0093fa44e65ced5640a07abe9ae1819d749",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T18:09:39.821Z",
+  "completed_at": "2026-08-02T18:28:29.754Z",
+  "duration_ms": 3465628,
+  "sentence_count": 410,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 32664,
+      "bytes": 523436,
+      "sha256": "6e7932000147ee763d1b3debca88335c72362bcd79fdf71b99380c6b75e0a634",
+      "sentence_ids": [
+        "ch01-s03-n0001",
+        "ch01-s03-n0002",
+        "ch01-s03-n0003",
+        "ch01-s03-n0004",
+        "ch01-s03-n0005",
+        "ch01-s03-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 45592,
+      "bytes": 730028,
+      "sha256": "c1f282603bf7fd769c8f4b541dc7d7203f9f98df4ef715700738bca88c3a3dd2",
+      "sentence_ids": [
+        "ch01-s03-n0007",
+        "ch01-s03-n0008",
+        "ch01-s03-n0009",
+        "ch01-s03-n0010",
+        "ch01-s03-n0011",
+        "ch01-s03-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 45580,
+      "bytes": 730028,
+      "sha256": "dd03c0d8c6ba04af3efdb097ed0e3ca5a140b44c7c452c29560f659eeb9008ff",
+      "sentence_ids": [
+        "ch01-s03-n0013",
+        "ch01-s03-n0014",
+        "ch01-s03-n0015",
+        "ch01-s03-n0016",
+        "ch01-s03-n0017",
+        "ch01-s03-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 32700,
+      "bytes": 523820,
+      "sha256": "537a4de0a6f3d8fd3fd076cc6e2f5c525c6e80f1f6acb2735a4d121b83e232dc",
+      "sentence_ids": [
+        "ch01-s03-n0019",
+        "ch01-s03-n0020",
+        "ch01-s03-n0021",
+        "ch01-s03-n0022",
+        "ch01-s03-n0023",
+        "ch01-s03-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 39695,
+      "bytes": 635564,
+      "sha256": "5cc8cacbc7ece3239b29b784dd862047e226832ced2ce1790a6c4cf4dfb27e2e",
+      "sentence_ids": [
+        "ch01-s03-n0025",
+        "ch01-s03-n0026",
+        "ch01-s03-n0027",
+        "ch01-s03-n0028",
+        "ch01-s03-n0029",
+        "ch01-s03-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 39504,
+      "bytes": 632876,
+      "sha256": "deb11248488ee0916453791c86d848c6297aac95e2ef2cc5aacee190c3570972",
+      "sentence_ids": [
+        "ch01-s03-n0031",
+        "ch01-s03-n0032",
+        "ch01-s03-n0033",
+        "ch01-s03-n0034",
+        "ch01-s03-n0035",
+        "ch01-s03-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 60616,
+      "bytes": 970412,
+      "sha256": "8b0c9c1d6a8a15dc3ef47a81a4571495090e66ec9d081bda7de1fd1c3d43158b",
+      "sentence_ids": [
+        "ch01-s03-n0037",
+        "ch01-s03-n0038",
+        "ch01-s03-n0039",
+        "ch01-s03-n0040",
+        "ch01-s03-n0041",
+        "ch01-s03-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 40580,
+      "bytes": 649772,
+      "sha256": "564a58b44ee2598babc54283a66dc58f951c7685dbebe9f5d07624df29aab66d",
+      "sentence_ids": [
+        "ch01-s03-n0043",
+        "ch01-s03-n0044",
+        "ch01-s03-n0045",
+        "ch01-s03-n0046",
+        "ch01-s03-n0047",
+        "ch01-s03-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 78163,
+      "bytes": 1251116,
+      "sha256": "37e3388e2078482db050fee93e6f7f8c272505b29d8317119cec92912ba4ffb3",
+      "sentence_ids": [
+        "ch01-s03-n0049",
+        "ch01-s03-n0050",
+        "ch01-s03-n0051",
+        "ch01-s03-n0052",
+        "ch01-s03-n0053",
+        "ch01-s03-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 65800,
+      "bytes": 1053356,
+      "sha256": "fb882ac7ca426db660a7dcb2ab0daefa33d2b40e2f964df0c1fdf8a2d29524df",
+      "sentence_ids": [
+        "ch01-s03-n0055",
+        "ch01-s03-n0056",
+        "ch01-s03-n0057",
+        "ch01-s03-n0058",
+        "ch01-s03-n0059",
+        "ch01-s03-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 62900,
+      "bytes": 1006892,
+      "sha256": "0eb6d2cd131433daaa4ebd2e71d2f21c3baf1956c9003399c66aa0dbd7fb05f8",
+      "sentence_ids": [
+        "ch01-s03-n0061",
+        "ch01-s03-n0062",
+        "ch01-s03-n0063",
+        "ch01-s03-n0064",
+        "ch01-s03-n0065",
+        "ch01-s03-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 43841,
+      "bytes": 701996,
+      "sha256": "0ecc277be0613a9579ca7821875c34ecf3daa85a93712ffff7cc9e6042e8a215",
+      "sentence_ids": [
+        "ch01-s03-n0067",
+        "ch01-s03-n0068",
+        "ch01-s03-n0069",
+        "ch01-s03-n0070",
+        "ch01-s03-n0071",
+        "ch01-s03-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 42701,
+      "bytes": 683948,
+      "sha256": "602888453f76738f9526bf55eca58221197659f2776764e6ba92b8e258c46a98",
+      "sentence_ids": [
+        "ch01-s03-n0073",
+        "ch01-s03-n0074",
+        "ch01-s03-n0075",
+        "ch01-s03-n0076",
+        "ch01-s03-n0077",
+        "ch01-s03-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 48232,
+      "bytes": 772268,
+      "sha256": "24699c828c82bd0e5d370eb57a84d73cf2f1cefbd54a2f2f266fd8532893ee5a",
+      "sentence_ids": [
+        "ch01-s03-n0079",
+        "ch01-s03-n0080",
+        "ch01-s03-n0081",
+        "ch01-s03-n0082",
+        "ch01-s03-n0083",
+        "ch01-s03-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 30523,
+      "bytes": 488876,
+      "sha256": "9505f09196e6f59a17c231dd81ab22ae2a740bc1758bec2ba60d7c283c8e1982",
+      "sentence_ids": [
+        "ch01-s03-n0085",
+        "ch01-s03-n0086",
+        "ch01-s03-n0087",
+        "ch01-s03-n0088",
+        "ch01-s03-n0089",
+        "ch01-s03-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 46751,
+      "bytes": 748460,
+      "sha256": "5d6d07fec9aadc598a9ec06fec4d533d86453440663415622647eac1aa4d82d5",
+      "sentence_ids": [
+        "ch01-s03-n0091",
+        "ch01-s03-n0092",
+        "ch01-s03-n0093",
+        "ch01-s03-n0094",
+        "ch01-s03-n0095",
+        "ch01-s03-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 50700,
+      "bytes": 811820,
+      "sha256": "1bf8fb73f1c8bddfed1c34a1db75107f8f8b98981a974e37ef46092d44a51275",
+      "sentence_ids": [
+        "ch01-s03-n0097",
+        "ch01-s03-n0098",
+        "ch01-s03-n0099",
+        "ch01-s03-n0100",
+        "ch01-s03-n0101",
+        "ch01-s03-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 39283,
+      "bytes": 629036,
+      "sha256": "a8394ecfd89aac515ff983f939fcbb3c9e23f3cb3c20a60d207bf41f514ffeda",
+      "sentence_ids": [
+        "ch01-s03-n0103",
+        "ch01-s03-n0104",
+        "ch01-s03-n0105",
+        "ch01-s03-n0106",
+        "ch01-s03-n0107",
+        "ch01-s03-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 38445,
+      "bytes": 615596,
+      "sha256": "fe2ef16dce021cf9f18ca426dd916b1db4bb2fb1c3672bb8a1ba3f1e82db8c49",
+      "sentence_ids": [
+        "ch01-s03-n0109",
+        "ch01-s03-n0110",
+        "ch01-s03-n0111",
+        "ch01-s03-n0112",
+        "ch01-s03-n0113",
+        "ch01-s03-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 59900,
+      "bytes": 958892,
+      "sha256": "da5b7c1fe05341200fea9feddd6116a82e53df3698cbb897a55de6316e7d25ba",
+      "sentence_ids": [
+        "ch01-s03-n0115",
+        "ch01-s03-n0116",
+        "ch01-s03-n0117",
+        "ch01-s03-n0118",
+        "ch01-s03-n0119",
+        "ch01-s03-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 67507,
+      "bytes": 1080620,
+      "sha256": "543b4c68c9f69ea539908701a5b67e3aa0c13569199de547857449a2128161cb",
+      "sentence_ids": [
+        "ch01-s03-n0121",
+        "ch01-s03-n0122",
+        "ch01-s03-n0123",
+        "ch01-s03-n0124",
+        "ch01-s03-n0125",
+        "ch01-s03-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 49780,
+      "bytes": 797228,
+      "sha256": "0f492e185595a4319102381fc862c40358cb3c4a4b08943525018fa6c18f7560",
+      "sentence_ids": [
+        "ch01-s03-n0127",
+        "ch01-s03-n0128",
+        "ch01-s03-n0129",
+        "ch01-s03-n0130",
+        "ch01-s03-n0131",
+        "ch01-s03-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 48400,
+      "bytes": 774956,
+      "sha256": "97888920170f67e4bbaab640d9349b80626d5b236c45aaa3c852753933791135",
+      "sentence_ids": [
+        "ch01-s03-n0133",
+        "ch01-s03-n0134",
+        "ch01-s03-n0135",
+        "ch01-s03-n0136",
+        "ch01-s03-n0137",
+        "ch01-s03-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 64300,
+      "bytes": 1029548,
+      "sha256": "2eb24211145bcf52f65680281ee68f91d38aadc74d258aa82cd127fe55c18483",
+      "sentence_ids": [
+        "ch01-s03-n0139",
+        "ch01-s03-n0140",
+        "ch01-s03-n0141",
+        "ch01-s03-n0142",
+        "ch01-s03-n0143",
+        "ch01-s03-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 33034,
+      "bytes": 529196,
+      "sha256": "1deb63d41b58947aa0736b3a4d157bf35ca263851bc1e136b26c8c298a4cef09",
+      "sentence_ids": [
+        "ch01-s03-n0145",
+        "ch01-s03-n0146",
+        "ch01-s03-n0147",
+        "ch01-s03-n0148",
+        "ch01-s03-n0149",
+        "ch01-s03-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 46394,
+      "bytes": 743084,
+      "sha256": "2556560d9dcf2bf58e7a95e00f5b7dc6bf5bfb3e3ceecfea74f37830b581c3f2",
+      "sentence_ids": [
+        "ch01-s03-n0151",
+        "ch01-s03-n0152",
+        "ch01-s03-n0153",
+        "ch01-s03-n0154",
+        "ch01-s03-n0155",
+        "ch01-s03-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 33978,
+      "bytes": 544172,
+      "sha256": "03a634db5de2cf8cd4cb8aac2dd550164452e84f3e3885b0c7d8d8230ef418db",
+      "sentence_ids": [
+        "ch01-s03-n0157",
+        "ch01-s03-n0158",
+        "ch01-s03-n0159",
+        "ch01-s03-n0160",
+        "ch01-s03-n0161",
+        "ch01-s03-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 48581,
+      "bytes": 778028,
+      "sha256": "d8ad3be72be305819e8107a65c7fc135417cc9e2de4ac614166c377259cb0e31",
+      "sentence_ids": [
+        "ch01-s03-n0163",
+        "ch01-s03-n0164",
+        "ch01-s03-n0165",
+        "ch01-s03-n0166",
+        "ch01-s03-n0167",
+        "ch01-s03-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 41500,
+      "bytes": 664748,
+      "sha256": "82c0cf3d554850ea4a5c13a12a76f602bc2967944659a7b748d835017974f558",
+      "sentence_ids": [
+        "ch01-s03-n0169",
+        "ch01-s03-n0170",
+        "ch01-s03-n0171",
+        "ch01-s03-n0172",
+        "ch01-s03-n0173",
+        "ch01-s03-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 41165,
+      "bytes": 659372,
+      "sha256": "d85ec21479f944e801f8804a0cc6dddb23965083ec8ba4c21b836b93f798beff",
+      "sentence_ids": [
+        "ch01-s03-n0175",
+        "ch01-s03-n0176",
+        "ch01-s03-n0177",
+        "ch01-s03-n0178",
+        "ch01-s03-n0179",
+        "ch01-s03-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 81680,
+      "bytes": 1307564,
+      "sha256": "258c187992b74b9878c4b5d13e25dde4aec86f51b2f9473ade8a6bb1e6963433",
+      "sentence_ids": [
+        "ch01-s03-n0181",
+        "ch01-s03-n0182",
+        "ch01-s03-n0183",
+        "ch01-s03-n0184",
+        "ch01-s03-n0185",
+        "ch01-s03-n0186"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 40546,
+      "bytes": 649388,
+      "sha256": "855486afef0988d9a77732abe9ca6a070b5f0729b894cfc964fd1e5d3c7c25e5",
+      "sentence_ids": [
+        "ch01-s03-n0187",
+        "ch01-s03-n0188",
+        "ch01-s03-n0189",
+        "ch01-s03-n0190",
+        "ch01-s03-n0191",
+        "ch01-s03-n0192"
+      ]
+    },
+    {
+      "id": "c0033",
+      "audio_file": "c0033.mp3",
+      "duration_ms": 83680,
+      "bytes": 1339436,
+      "sha256": "aef9550f07f777ae876f50ef874192a9a7f9396bc9399f8167ef9dab79c4d414",
+      "sentence_ids": [
+        "ch01-s03-n0193",
+        "ch01-s03-n0194",
+        "ch01-s03-n0195",
+        "ch01-s03-n0196",
+        "ch01-s03-n0197",
+        "ch01-s03-n0198"
+      ]
+    },
+    {
+      "id": "c0034",
+      "audio_file": "c0034.mp3",
+      "duration_ms": 31532,
+      "bytes": 505004,
+      "sha256": "8b016a867e7a3482d4cf38c4f02b5a96bd2179a8d98538d53683bf287739f519",
+      "sentence_ids": [
+        "ch01-s03-n0199",
+        "ch01-s03-n0200",
+        "ch01-s03-n0201",
+        "ch01-s03-n0202",
+        "ch01-s03-n0203",
+        "ch01-s03-n0204"
+      ]
+    },
+    {
+      "id": "c0035",
+      "audio_file": "c0035.mp3",
+      "duration_ms": 42269,
+      "bytes": 677036,
+      "sha256": "73993c13757c16c82075307395a97f1dcc41cb3af4f88287f63bffd8393624ee",
+      "sentence_ids": [
+        "ch01-s03-n0205",
+        "ch01-s03-n0206",
+        "ch01-s03-n0207",
+        "ch01-s03-n0208",
+        "ch01-s03-n0209",
+        "ch01-s03-n0210"
+      ]
+    },
+    {
+      "id": "c0036",
+      "audio_file": "c0036.mp3",
+      "duration_ms": 33200,
+      "bytes": 531884,
+      "sha256": "707190ccfc4d6149eb797b60f6f1ac79d60bd575266ce43563235ff6c6cba0f4",
+      "sentence_ids": [
+        "ch01-s03-n0211",
+        "ch01-s03-n0212",
+        "ch01-s03-n0213",
+        "ch01-s03-n0214",
+        "ch01-s03-n0215",
+        "ch01-s03-n0216"
+      ]
+    },
+    {
+      "id": "c0037",
+      "audio_file": "c0037.mp3",
+      "duration_ms": 40780,
+      "bytes": 653228,
+      "sha256": "423153330a3e9d997bfae2ff5fde1ad8a51c6837ccfd75de7d2807754c82b0c5",
+      "sentence_ids": [
+        "ch01-s03-n0217",
+        "ch01-s03-n0218",
+        "ch01-s03-n0219",
+        "ch01-s03-n0220",
+        "ch01-s03-n0221",
+        "ch01-s03-n0222"
+      ]
+    },
+    {
+      "id": "c0038",
+      "audio_file": "c0038.mp3",
+      "duration_ms": 89865,
+      "bytes": 1438508,
+      "sha256": "ab5d866c624f62d6b2faf77786c33c9755b473f1a97b40015094709629398747",
+      "sentence_ids": [
+        "ch01-s03-n0223",
+        "ch01-s03-n0224",
+        "ch01-s03-n0225",
+        "ch01-s03-n0226",
+        "ch01-s03-n0227",
+        "ch01-s03-n0228"
+      ]
+    },
+    {
+      "id": "c0039",
+      "audio_file": "c0039.mp3",
+      "duration_ms": 30813,
+      "bytes": 493484,
+      "sha256": "6a5bdcd34d633b898bd5e345270f9603501ecc011ec8f92447b6189aec1fd7f9",
+      "sentence_ids": [
+        "ch01-s03-n0229",
+        "ch01-s03-n0230",
+        "ch01-s03-n0231",
+        "ch01-s03-n0232",
+        "ch01-s03-n0233",
+        "ch01-s03-n0234"
+      ]
+    },
+    {
+      "id": "c0040",
+      "audio_file": "c0040.mp3",
+      "duration_ms": 56780,
+      "bytes": 908972,
+      "sha256": "aaa54977be89e56e754555f6094328ac3df013f1c408183088d30a56a27c28be",
+      "sentence_ids": [
+        "ch01-s03-n0235",
+        "ch01-s03-n0236",
+        "ch01-s03-n0237",
+        "ch01-s03-n0238",
+        "ch01-s03-n0239",
+        "ch01-s03-n0240"
+      ]
+    },
+    {
+      "id": "c0041",
+      "audio_file": "c0041.mp3",
+      "duration_ms": 84680,
+      "bytes": 1355564,
+      "sha256": "2cfe3306eec567d7bb7f1ece9ce3077ed8e48ab13c5df90daefa39f895d93002",
+      "sentence_ids": [
+        "ch01-s03-n0241",
+        "ch01-s03-n0242",
+        "ch01-s03-n0243",
+        "ch01-s03-n0244",
+        "ch01-s03-n0245",
+        "ch01-s03-n0246"
+      ]
+    },
+    {
+      "id": "c0042",
+      "audio_file": "c0042.mp3",
+      "duration_ms": 52900,
+      "bytes": 847148,
+      "sha256": "f646cb61ee30d8a3a2d18bfdbc467407a9001b462f721845deee73cb6e85658a",
+      "sentence_ids": [
+        "ch01-s03-n0247",
+        "ch01-s03-n0248",
+        "ch01-s03-n0249",
+        "ch01-s03-n0250",
+        "ch01-s03-n0251",
+        "ch01-s03-n0252"
+      ]
+    },
+    {
+      "id": "c0043",
+      "audio_file": "c0043.mp3",
+      "duration_ms": 39580,
+      "bytes": 634028,
+      "sha256": "908bb0a31f8f79be120b940c254c3821e3b3839750c50fef49a5b27386a7c21a",
+      "sentence_ids": [
+        "ch01-s03-n0253",
+        "ch01-s03-n0254",
+        "ch01-s03-n0255",
+        "ch01-s03-n0256",
+        "ch01-s03-n0257",
+        "ch01-s03-n0258"
+      ]
+    },
+    {
+      "id": "c0044",
+      "audio_file": "c0044.mp3",
+      "duration_ms": 58217,
+      "bytes": 932012,
+      "sha256": "5e663c1eca0ba07c1d94d0b405bb9ac57f8a9b257699a59425ed996151555f7b",
+      "sentence_ids": [
+        "ch01-s03-n0259",
+        "ch01-s03-n0260",
+        "ch01-s03-n0261",
+        "ch01-s03-n0262",
+        "ch01-s03-n0263",
+        "ch01-s03-n0264"
+      ]
+    },
+    {
+      "id": "c0045",
+      "audio_file": "c0045.mp3",
+      "duration_ms": 53180,
+      "bytes": 851372,
+      "sha256": "c889a75aee42d43e927680785afd4f39291944efe9ff69626d383f2f617a8f19",
+      "sentence_ids": [
+        "ch01-s03-n0265",
+        "ch01-s03-n0266",
+        "ch01-s03-n0267",
+        "ch01-s03-n0268",
+        "ch01-s03-n0269",
+        "ch01-s03-n0270"
+      ]
+    },
+    {
+      "id": "c0046",
+      "audio_file": "c0046.mp3",
+      "duration_ms": 43342,
+      "bytes": 693932,
+      "sha256": "0889c3c8b96b18bfb7a8e5047706ac4b9afeffbf41aa6451f18c5ea8ed0c25e0",
+      "sentence_ids": [
+        "ch01-s03-n0271",
+        "ch01-s03-n0272",
+        "ch01-s03-n0273",
+        "ch01-s03-n0274",
+        "ch01-s03-n0275",
+        "ch01-s03-n0276"
+      ]
+    },
+    {
+      "id": "c0047",
+      "audio_file": "c0047.mp3",
+      "duration_ms": 54097,
+      "bytes": 866348,
+      "sha256": "5038dfe5a6249e3bcbe2b6228bd38fc854a60ee1db13ff5e8b2bae58dfc5676b",
+      "sentence_ids": [
+        "ch01-s03-n0277",
+        "ch01-s03-n0278",
+        "ch01-s03-n0279",
+        "ch01-s03-n0280",
+        "ch01-s03-n0281",
+        "ch01-s03-n0282"
+      ]
+    },
+    {
+      "id": "c0048",
+      "audio_file": "c0048.mp3",
+      "duration_ms": 45728,
+      "bytes": 732332,
+      "sha256": "52c81fc88f6995a8f6e69161b2a548682867f0664965b1cefa00019b6eb151d3",
+      "sentence_ids": [
+        "ch01-s03-n0283",
+        "ch01-s03-n0284",
+        "ch01-s03-n0285",
+        "ch01-s03-n0286",
+        "ch01-s03-n0287",
+        "ch01-s03-n0288"
+      ]
+    },
+    {
+      "id": "c0049",
+      "audio_file": "c0049.mp3",
+      "duration_ms": 54780,
+      "bytes": 877100,
+      "sha256": "c849c3f33c1ee3e494445ec47532e0dc4f69cc21272dd9d1574fcec269fc0dc5",
+      "sentence_ids": [
+        "ch01-s03-n0289",
+        "ch01-s03-n0290",
+        "ch01-s03-n0291",
+        "ch01-s03-n0292",
+        "ch01-s03-n0293",
+        "ch01-s03-n0294"
+      ]
+    },
+    {
+      "id": "c0050",
+      "audio_file": "c0050.mp3",
+      "duration_ms": 48500,
+      "bytes": 776492,
+      "sha256": "35f845b4a4a94209a3ee6a7200ea1433d7559aed3f37eaee8c5ce53d2958b57a",
+      "sentence_ids": [
+        "ch01-s03-n0295",
+        "ch01-s03-n0296",
+        "ch01-s03-n0297",
+        "ch01-s03-n0298",
+        "ch01-s03-n0299",
+        "ch01-s03-n0300"
+      ]
+    },
+    {
+      "id": "c0051",
+      "audio_file": "c0051.mp3",
+      "duration_ms": 28100,
+      "bytes": 450092,
+      "sha256": "cad26eded3648cbe936e1e48b6b7b6dda12f7080119ef46b9408b2b55a21d0b1",
+      "sentence_ids": [
+        "ch01-s03-n0301",
+        "ch01-s03-n0302",
+        "ch01-s03-n0303",
+        "ch01-s03-n0304",
+        "ch01-s03-n0305",
+        "ch01-s03-n0306"
+      ]
+    },
+    {
+      "id": "c0052",
+      "audio_file": "c0052.mp3",
+      "duration_ms": 75575,
+      "bytes": 1209644,
+      "sha256": "83d66c81155a2ad97b27fe9aa92cf538ae05552a978e511a7aa26987c1ba5abb",
+      "sentence_ids": [
+        "ch01-s03-n0307",
+        "ch01-s03-n0308",
+        "ch01-s03-n0309",
+        "ch01-s03-n0310",
+        "ch01-s03-n0311",
+        "ch01-s03-n0312"
+      ]
+    },
+    {
+      "id": "c0053",
+      "audio_file": "c0053.mp3",
+      "duration_ms": 40400,
+      "bytes": 647084,
+      "sha256": "9b2b4a883f1a6a70ff114de6c45c77503fd849394bdfd447a58d518f7c48d8a7",
+      "sentence_ids": [
+        "ch01-s03-n0313",
+        "ch01-s03-n0314",
+        "ch01-s03-n0315",
+        "ch01-s03-n0316",
+        "ch01-s03-n0317",
+        "ch01-s03-n0318"
+      ]
+    },
+    {
+      "id": "c0054",
+      "audio_file": "c0054.mp3",
+      "duration_ms": 58900,
+      "bytes": 943148,
+      "sha256": "1d03a51f1ad3e003d1bdde7630fa1ba7f36bbc020511fab4ea765d3ca308f6c8",
+      "sentence_ids": [
+        "ch01-s03-n0319",
+        "ch01-s03-n0320",
+        "ch01-s03-n0321",
+        "ch01-s03-n0322",
+        "ch01-s03-n0323",
+        "ch01-s03-n0324"
+      ]
+    },
+    {
+      "id": "c0055",
+      "audio_file": "c0055.mp3",
+      "duration_ms": 78680,
+      "bytes": 1259564,
+      "sha256": "e5f4999002f33ed2fe5f77d6803504366a66fc3da6a6e90125d832909a2e8730",
+      "sentence_ids": [
+        "ch01-s03-n0325",
+        "ch01-s03-n0326",
+        "ch01-s03-n0327",
+        "ch01-s03-n0328",
+        "ch01-s03-n0329",
+        "ch01-s03-n0330"
+      ]
+    },
+    {
+      "id": "c0056",
+      "audio_file": "c0056.mp3",
+      "duration_ms": 48700,
+      "bytes": 779948,
+      "sha256": "f0efb351d177bbeb7988f9c541cbd25f12ae9a50e1564f48843a5e1662f1e7de",
+      "sentence_ids": [
+        "ch01-s03-n0331",
+        "ch01-s03-n0332",
+        "ch01-s03-n0333",
+        "ch01-s03-n0334",
+        "ch01-s03-n0335",
+        "ch01-s03-n0336"
+      ]
+    },
+    {
+      "id": "c0057",
+      "audio_file": "c0057.mp3",
+      "duration_ms": 55146,
+      "bytes": 882860,
+      "sha256": "532be4e7cb73c5ca433d08ee63f22f132f70005645b5d329d11dd784228f5ec1",
+      "sentence_ids": [
+        "ch01-s03-n0337",
+        "ch01-s03-n0338",
+        "ch01-s03-n0339",
+        "ch01-s03-n0340",
+        "ch01-s03-n0341",
+        "ch01-s03-n0342"
+      ]
+    },
+    {
+      "id": "c0058",
+      "audio_file": "c0058.mp3",
+      "duration_ms": 60104,
+      "bytes": 962348,
+      "sha256": "451631471cc5c4a06b20f74e249dceb05f6fe59c532d326f50293dae38597a8c",
+      "sentence_ids": [
+        "ch01-s03-n0343",
+        "ch01-s03-n0344",
+        "ch01-s03-n0345",
+        "ch01-s03-n0346",
+        "ch01-s03-n0347",
+        "ch01-s03-n0348"
+      ]
+    },
+    {
+      "id": "c0059",
+      "audio_file": "c0059.mp3",
+      "duration_ms": 45947,
+      "bytes": 735788,
+      "sha256": "372b3d06be193405344f365032430d00bd8d9fd6f0d5fdd91122216aee786e41",
+      "sentence_ids": [
+        "ch01-s03-n0349",
+        "ch01-s03-n0350",
+        "ch01-s03-n0351",
+        "ch01-s03-n0352",
+        "ch01-s03-n0353",
+        "ch01-s03-n0354"
+      ]
+    },
+    {
+      "id": "c0060",
+      "audio_file": "c0060.mp3",
+      "duration_ms": 53400,
+      "bytes": 854828,
+      "sha256": "422898988852e97079e034b0d31d2b91295c6dda209a5e64f7090d741b18d217",
+      "sentence_ids": [
+        "ch01-s03-n0355",
+        "ch01-s03-n0356",
+        "ch01-s03-n0357",
+        "ch01-s03-n0358",
+        "ch01-s03-n0359",
+        "ch01-s03-n0360"
+      ]
+    },
+    {
+      "id": "c0061",
+      "audio_file": "c0061.mp3",
+      "duration_ms": 44970,
+      "bytes": 720044,
+      "sha256": "d65afa23ad93c4322e41db80bf2d25267f62ed79d389b609866f62761cc08a22",
+      "sentence_ids": [
+        "ch01-s03-n0361",
+        "ch01-s03-n0362",
+        "ch01-s03-n0363",
+        "ch01-s03-n0364",
+        "ch01-s03-n0365",
+        "ch01-s03-n0366"
+      ]
+    },
+    {
+      "id": "c0062",
+      "audio_file": "c0062.mp3",
+      "duration_ms": 50780,
+      "bytes": 812972,
+      "sha256": "75c686fbc444e16957ace5647bfbcac410367a862941320d6f2632c083046eed",
+      "sentence_ids": [
+        "ch01-s03-n0367",
+        "ch01-s03-n0368",
+        "ch01-s03-n0369",
+        "ch01-s03-n0370",
+        "ch01-s03-n0371",
+        "ch01-s03-n0372"
+      ]
+    },
+    {
+      "id": "c0063",
+      "audio_file": "c0063.mp3",
+      "duration_ms": 55931,
+      "bytes": 895532,
+      "sha256": "4740bcfbe50b11f027beb57dc50b3ca08f1965dfb6439ac4206ca35901ae6d7c",
+      "sentence_ids": [
+        "ch01-s03-n0373",
+        "ch01-s03-n0374",
+        "ch01-s03-n0375",
+        "ch01-s03-n0376",
+        "ch01-s03-n0377",
+        "ch01-s03-n0378"
+      ]
+    },
+    {
+      "id": "c0064",
+      "audio_file": "c0064.mp3",
+      "duration_ms": 62188,
+      "bytes": 995756,
+      "sha256": "75df59323201944a8a9ce892543642af61830c74cdbce55a9e0c384d95d9728b",
+      "sentence_ids": [
+        "ch01-s03-n0379",
+        "ch01-s03-n0380",
+        "ch01-s03-n0381",
+        "ch01-s03-n0382",
+        "ch01-s03-n0383",
+        "ch01-s03-n0384"
+      ]
+    },
+    {
+      "id": "c0065",
+      "audio_file": "c0065.mp3",
+      "duration_ms": 48080,
+      "bytes": 769964,
+      "sha256": "eb818e1febf6acba6f7533833215f7e4fe9907faf02ea3e7aca14d8882d4d2b5",
+      "sentence_ids": [
+        "ch01-s03-n0385",
+        "ch01-s03-n0386",
+        "ch01-s03-n0387",
+        "ch01-s03-n0388",
+        "ch01-s03-n0389",
+        "ch01-s03-n0390"
+      ]
+    },
+    {
+      "id": "c0066",
+      "audio_file": "c0066.mp3",
+      "duration_ms": 75881,
+      "bytes": 1214636,
+      "sha256": "146e6a702060c9bedacf325fcec32e402b22045e8c5b20e37a7ac6d978b48741",
+      "sentence_ids": [
+        "ch01-s03-n0391",
+        "ch01-s03-n0392",
+        "ch01-s03-n0393",
+        "ch01-s03-n0394",
+        "ch01-s03-n0395",
+        "ch01-s03-n0396"
+      ]
+    },
+    {
+      "id": "c0067",
+      "audio_file": "c0067.mp3",
+      "duration_ms": 44328,
+      "bytes": 710060,
+      "sha256": "60dd1bd74c42e6fe38f70f404709ee097f3f78fd774632c9636891919a3bb54a",
+      "sentence_ids": [
+        "ch01-s03-n0397",
+        "ch01-s03-n0398",
+        "ch01-s03-n0399",
+        "ch01-s03-n0400",
+        "ch01-s03-n0401",
+        "ch01-s03-n0402"
+      ]
+    },
+    {
+      "id": "c0068",
+      "audio_file": "c0068.mp3",
+      "duration_ms": 33280,
+      "bytes": 533036,
+      "sha256": "060a11b0a31a7756eda958318e95c42fd272c0eb939f9d77ba844e82e83b59cf",
+      "sentence_ids": [
+        "ch01-s03-n0403",
+        "ch01-s03-n0404",
+        "ch01-s03-n0405",
+        "ch01-s03-n0406",
+        "ch01-s03-n0407",
+        "ch01-s03-n0408"
+      ]
+    },
+    {
+      "id": "c0069",
+      "audio_file": "c0069.mp3",
+      "duration_ms": 20280,
+      "bytes": 324908,
+      "sha256": "e2505009a612ce49038e0687e558be239e00715f1d0129f0c65f5dfcfc8098d7",
+      "sentence_ids": [
+        "ch01-s03-n0409",
+        "ch01-s03-n0410"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch01-s03-n0001",
+      "text": "商品出现在市场上时，首先都有看得见的自然形态，比如铁、麻布和小麦。",
+      "start_ms": 0,
+      "end_ms": 6779,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s03-n0002",
+      "text": "凭借这种形态，它们成为有用物品。",
+      "start_ms": 6779,
+      "end_ms": 10066,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s03-n0003",
+      "text": "但一件东西只有既是有用物品，又承载着价值，才是商品。",
+      "start_ms": 10066,
+      "end_ms": 15408,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s03-n0004",
+      "text": "因此，商品有两种形式：它本来的自然形式和它的价值形式。",
+      "start_ms": 15408,
+      "end_ms": 20954,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s03-n0005",
+      "text": "商品的用处存在于看得见、摸得着的物体中，价值却完全不同。",
+      "start_ms": 20954,
+      "end_ms": 26706,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s03-n0006",
+      "text": "无论怎样翻看一件商品，都找不到一个叫作“价值”的自然成分。",
+      "start_ms": 26706,
+      "end_ms": 32664,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s03-n0007",
+      "text": "原因是，商品只有作为同一种社会劳动的表现，才具有价值，所以价值只会在一种商品同另一种商品的社会关系中表现出来。",
+      "start_ms": 40,
+      "end_ms": 11480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s03-n0008",
+      "text": "前面我们从商品的交换比例入手，找到了隐藏在其中的价值。",
+      "start_ms": 12040,
+      "end_ms": 16560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s03-n0009",
+      "text": "现在要回过头来，研究价值怎样在交换关系中表现出来。",
+      "start_ms": 17040,
+      "end_ms": 21840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s03-n0010",
+      "text": "每个人都知道，各种商品虽然自然形态不同，却都有一种共同的价值形式，也就是货币形式。",
+      "start_ms": 22120,
+      "end_ms": 30120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s03-n0011",
+      "text": "不过，资产阶级经济学甚至没有尝试说明这种形式是怎样产生的。",
+      "start_ms": 31080,
+      "end_ms": 36920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s03-n0012",
+      "text": "我们要从最简单、最不起眼的价值表现开始，一步步说明它怎样发展为醒目的货币形式。",
+      "start_ms": 37520,
+      "end_ms": 45280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s03-n0013",
+      "text": "这样，货币为什么能够表现价值，也就不再神秘。",
+      "start_ms": 0,
+      "end_ms": 7540,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s03-n0014",
+      "text": "最简单的价值关系，是一种商品同另一种不同商品之间的关系。",
+      "start_ms": 7540,
+      "end_ms": 17135,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s03-n0015",
+      "text": "因此，两种商品之间的关系，就是一种商品最简单的价值表现。",
+      "start_ms": 17135,
+      "end_ms": 26731,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s03-n0016",
+      "text": "x 量商品 A = y 量商品 B 或者说：x 量商品 A 值 y 量商品 B。",
+      "start_ms": 26731,
+      "end_ms": 35984,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s03-n0017",
+      "text": "例如：",
+      "start_ms": 35984,
+      "end_ms": 37012,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s03-n0018",
+      "text": "20 码麻布 = 1 件上衣 或者说：20 码麻布值 1 件上衣。",
+      "start_ms": 37012,
+      "end_ms": 45580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s03-n0019",
+      "text": "一切价值形式的秘密，都包含在这个最简单的形式中。",
+      "start_ms": 0,
+      "end_ms": 4560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s03-n0020",
+      "text": "因此，真正困难的是把它分析清楚。",
+      "start_ms": 5280,
+      "end_ms": 8240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s03-n0021",
+      "text": "这里有两种不同的商品 A 和 B。",
+      "start_ms": 9000,
+      "end_ms": 11680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s03-n0022",
+      "text": "在我们的例子中，就是麻布和上衣。",
+      "start_ms": 12040,
+      "end_ms": 14920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s03-n0023",
+      "text": "两者在价值表现中承担不同的作用：麻布借上衣表现自己的价值，上衣则充当表现麻布价值的对象。",
+      "start_ms": 15640,
+      "end_ms": 24560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s03-n0024",
+      "text": "麻布处在主动位置，它的价值表现为相对价值，所以它处在相对价值形式中。",
+      "start_ms": 25320,
+      "end_ms": 32640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s03-n0025",
+      "text": "上衣处在被动位置，充当麻布的等价物，所以它处在等价形式中。",
+      "start_ms": 0,
+      "end_ms": 6812,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s03-n0026",
+      "text": "相对价值形式和等价形式，是同一个价值表现中相互依存的两极。",
+      "start_ms": 6812,
+      "end_ms": 13623,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s03-n0027",
+      "text": "两者缺一不可，却又互相排斥，总是分别由两种不同的商品承担。",
+      "start_ms": 13623,
+      "end_ms": 20435,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s03-n0028",
+      "text": "比如，麻布的价值不能用麻布本身来表现。",
+      "start_ms": 20435,
+      "end_ms": 24897,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s03-n0029",
+      "text": "“20 码麻布 = 20 码麻布”不是价值表现。",
+      "start_ms": 24897,
+      "end_ms": 29595,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s03-n0030",
+      "text": "它只说明 20 码麻布就是 20 码麻布，只说明麻布这种有用物品有多少，并没有表现麻布的价值。",
+      "start_ms": 29595,
+      "end_ms": 39695,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s03-n0031",
+      "text": "因此，麻布只能借另一种商品相对地表现自己的价值。",
+      "start_ms": 0,
+      "end_ms": 4602,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s03-n0032",
+      "text": "麻布要处在相对价值形式中，就必须有另一种商品与它相对，处在等价形式中。",
+      "start_ms": 4602,
+      "end_ms": 11314,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s03-n0033",
+      "text": "反过来，充当等价物的商品不能同时处在相对价值形式中。",
+      "start_ms": 11314,
+      "end_ms": 16300,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s03-n0034",
+      "text": "它不表现自己的价值，本身只用来表现另一种商品的价值。",
+      "start_ms": 16300,
+      "end_ms": 21286,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s03-n0035",
+      "text": "当然，“20 码麻布 = 1 件上衣”，或者“20 码麻布值 1 件上衣”，也包含着反过来的关系：“1 件上衣 = 20 码麻布”，或者“1 件上衣值 20 码麻布”。",
+      "start_ms": 21286,
+      "end_ms": 34710,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s03-n0036",
+      "text": "但是，要相对地表现上衣的价值，就必须把等式倒过来。",
+      "start_ms": 34710,
+      "end_ms": 39504,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s03-n0037",
+      "text": "一旦倒过来，麻布就取代上衣，处在等价形式中。",
+      "start_ms": 0,
+      "end_ms": 6000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s03-n0038",
+      "text": "因此，同一种商品在同一个价值表现中不能同时处在两种形式中。",
+      "start_ms": 6600,
+      "end_ms": 13080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s03-n0039",
+      "text": "相对价值形式和等价形式互相排斥。",
+      "start_ms": 13600,
+      "end_ms": 17200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s03-n0040",
+      "text": "一种商品处在相对价值形式还是等价形式，只取决于它在价值表现中的位置：它是要表现自身价值的商品，还是用来表现另一种商品价值的商品。",
+      "start_ms": 17960,
+      "end_ms": 32800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s03-n0041",
+      "text": "要弄清一种商品的简单价值表现怎样包含在两种商品的价值关系中，首先要暂时撇开这个关系的数量方面。",
+      "start_ms": 33320,
+      "end_ms": 42280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s03-n0042",
+      "text": "人们通常恰恰相反，只注意一定数量的两种商品按什么比例彼此等值，却忽略了一点：不同东西的量，只有先归结为同一个单位，才能在数量上比较。",
+      "start_ms": 43040,
+      "end_ms": 60280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s03-n0043",
+      "text": "它们只有都表示这个共同单位，才是同类、可以相互计量的量。",
+      "start_ms": 0,
+      "end_ms": 6312,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s03-n0044",
+      "text": "无论20码麻布等于1件、20件还是x件上衣，也就是说，无论一定数量的麻布值上衣多还是少，任何这样的比例都包含同一个前提：作为价值量，麻布和上衣都是同一个单位的表现，是性质相同的东西。",
+      "start_ms": 6312,
+      "end_ms": 26828,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s03-n0045",
+      "text": "“麻布＝上衣”是整个等式的基础。",
+      "start_ms": 26828,
+      "end_ms": 30435,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s03-n0046",
+      "text": "但是，这两种在性质上被等同的商品，作用并不相同。",
+      "start_ms": 30435,
+      "end_ms": 35846,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s03-n0047",
+      "text": "这里只有麻布的价值得到表现。",
+      "start_ms": 35846,
+      "end_ms": 39002,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s03-n0048",
+      "text": "它怎样表现呢？",
+      "start_ms": 39002,
+      "end_ms": 40580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s03-n0049",
+      "text": "麻布把上衣当作自己的“等价物”，也就是能同自己交换的东西。",
+      "start_ms": 0,
+      "end_ms": 8652,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s03-n0050",
+      "text": "在这个关系中，上衣成了价值的存在形式，成了代表价值的物品，因为上衣只有作为价值才同麻布相同。",
+      "start_ms": 8652,
+      "end_ms": 22375,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s03-n0051",
+      "text": "反过来，麻布本身具有价值这一点也由此显现出来，得到独立的表现，因为麻布也只有作为价值，才能同上衣等值并相互交换。",
+      "start_ms": 22375,
+      "end_ms": 39082,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s03-n0052",
+      "text": "化学上可以找到类似情形。",
+      "start_ms": 39082,
+      "end_ms": 42661,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s03-n0053",
+      "text": "丁酸和甲酸丙酯是两种不同的物质，但它们都由碳（C）、氢（H）和氧（O）构成，组成比例也相同，都是C₄H₈O₂。",
+      "start_ms": 42661,
+      "end_ms": 59070,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s03-n0054",
+      "text": "如果写成“丁酸＝甲酸丙酯”，那么在这个关系中，甲酸丙酯首先只是C₄H₈O₂的存在形式，同时这个等式也表明丁酸由C₄H₈O₂构成。",
+      "start_ms": 59070,
+      "end_ms": 78163,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s03-n0055",
+      "text": "这样一来，丁酸的化学成分就同它的具体物质形态区分开来，得到表现。",
+      "start_ms": 0,
+      "end_ms": 9358,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s03-n0056",
+      "text": "当我们说“商品作为价值，只是人类劳动的凝结物”时，这项分析只是把商品归结为抽象的价值，却没有给它们一种不同于自身自然形态的价值形式。",
+      "start_ms": 9358,
+      "end_ms": 28660,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s03-n0057",
+      "text": "商品同另一种商品发生价值关系时，情况就不同。",
+      "start_ms": 28660,
+      "end_ms": 35093,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s03-n0058",
+      "text": "商品通过同另一种商品的关系，把自己的价值性质表现出来。",
+      "start_ms": 35093,
+      "end_ms": 42989,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s03-n0059",
+      "text": "例如，把上衣作为代表价值的物品同麻布相等，也就是把上衣中包含的劳动同麻布中包含的劳动相等。",
+      "start_ms": 42989,
+      "end_ms": 56149,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s03-n0060",
+      "text": "生产上衣的裁缝劳动和生产麻布的织布劳动，本来是两种不同的具体劳动。",
+      "start_ms": 56149,
+      "end_ms": 65800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s03-n0061",
+      "text": "但是，上衣同麻布相等，也就在实际上把裁缝劳动归结为它同织布劳动真正共有的东西，也就是一般人类劳动。",
+      "start_ms": 40,
+      "end_ms": 9840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s03-n0062",
+      "text": "这样绕一步也就表明，织布劳动在形成价值时，同裁缝劳动没有区别，因此也是抽象的人类劳动。",
+      "start_ms": 10800,
+      "end_ms": 19640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s03-n0063",
+      "text": "只有用一种商品作为另一种商品的等价物，才能显出形成价值的劳动的特殊性质，因为这种表达把不同商品中包含的不同劳动归结为它们的共同点，也就是一般人类劳动。",
+      "start_ms": 22040,
+      "end_ms": 37160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s03-n0064",
+      "text": "不过，只说明构成麻布价值的劳动是不分具体形式的人类劳动，还不够。",
+      "start_ms": 38120,
+      "end_ms": 44960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s03-n0065",
+      "text": "人在实际劳动时，正在消耗的人类劳动力会形成价值，但这种活动本身还不是价值。",
+      "start_ms": 45920,
+      "end_ms": 54000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s03-n0066",
+      "text": "只有劳动凝结在一个物品中，以物的形式存在，它才成为价值。",
+      "start_ms": 57040,
+      "end_ms": 62800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s03-n0067",
+      "text": "要把麻布的价值表现为凝结的人类劳动，就必须让这种价值以另一种物品的形式出现。",
+      "start_ms": 200,
+      "end_ms": 7560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s03-n0068",
+      "text": "这种物品在实物上不同于麻布，却同麻布一样具有价值。",
+      "start_ms": 8040,
+      "end_ms": 13720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s03-n0069",
+      "text": "前面麻布与上衣的价值关系已经完成了这个任务。",
+      "start_ms": 14280,
+      "end_ms": 18280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s03-n0070",
+      "text": "在麻布与上衣的价值关系中，上衣被当作和麻布性质相同的东西，因为二者同样具有价值。",
+      "start_ms": 19080,
+      "end_ms": 28680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s03-n0071",
+      "text": "因此，上衣在这里成了价值显现出来的物品，用自己看得见、摸得着的实物形态来表现价值。",
+      "start_ms": 29480,
+      "end_ms": 38880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s03-n0072",
+      "text": "不过，上衣的实物本身只是一种使用价值。",
+      "start_ms": 39760,
+      "end_ms": 43640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s03-n0073",
+      "text": "单独一件上衣，并不比随便一块麻布更能表现价值。",
+      "start_ms": 160,
+      "end_ms": 4400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s03-n0074",
+      "text": "这恰好说明，上衣只有进入同麻布的价值关系，才具有它在这种关系之外没有的意义。",
+      "start_ms": 4880,
+      "end_ms": 11960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s03-n0075",
+      "text": "正如有些人穿上镶金边的官服，显得比脱下官服时更有分量。",
+      "start_ms": 19440,
+      "end_ms": 25400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s03-n0076",
+      "text": "生产上衣时，人确实通过裁缝劳动消耗了自己的劳动力，因此上衣中积累着人类劳动。",
+      "start_ms": 26320,
+      "end_ms": 33880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s03-n0077",
+      "text": "从这一点看，上衣是价值的载体。",
+      "start_ms": 34640,
+      "end_ms": 37960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s03-n0078",
+      "text": "可即使它破得露了线，这个属性也不会显露出来。",
+      "start_ms": 38440,
+      "end_ms": 42640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s03-n0079",
+      "text": "在麻布同上衣的价值关系中，上衣只以这一面出现：它被当作价值的化身，也就是一个“价值体”。",
+      "start_ms": 0,
+      "end_ms": 9603,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s03-n0080",
+      "text": "上衣虽然扣得严严实实，麻布还是从它身上认出了与自己同源的美丽“价值灵魂”。",
+      "start_ms": 9603,
+      "end_ms": 17678,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s03-n0081",
+      "text": "然而，上衣要为麻布表现价值，价值就必须同时在麻布眼中采取上衣的形态。",
+      "start_ms": 17678,
+      "end_ms": 25098,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s03-n0082",
+      "text": "这就像甲把乙当作君主时，“君主”这个身份在甲眼里便采取了乙的身体形态。",
+      "start_ms": 25098,
+      "end_ms": 32737,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s03-n0083",
+      "text": "每换一位君主，“君主”这个身份就会呈现不同的面孔、头发和其他外貌。",
+      "start_ms": 32737,
+      "end_ms": 39939,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s03-n0084",
+      "text": "在这种价值关系中，上衣充当麻布的等价物，也就是用自己的实物来表现麻布的价值。",
+      "start_ms": 39939,
+      "end_ms": 48232,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s03-n0085",
+      "text": "因此，上衣的形态成了麻布的价值形式。",
+      "start_ms": 280,
+      "end_ms": 3440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s03-n0086",
+      "text": "麻布的价值表现在上衣的实物上。",
+      "start_ms": 4200,
+      "end_ms": 7440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s03-n0087",
+      "text": "也就是说，一种商品的价值，是通过另一种商品的使用价值表现出来的。",
+      "start_ms": 7880,
+      "end_ms": 13600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s03-n0088",
+      "text": "作为使用价值，麻布和上衣是两种完全不同的东西。",
+      "start_ms": 14200,
+      "end_ms": 18320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s03-n0089",
+      "text": "作为价值，麻布却和上衣相等，因此看起来也像一件上衣。",
+      "start_ms": 19000,
+      "end_ms": 24400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s03-n0090",
+      "text": "这样，麻布就获得了一种不同于自身实物形态的价值形式。",
+      "start_ms": 25440,
+      "end_ms": 30400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s03-n0091",
+      "text": "麻布通过同上衣相等，显出自己具有价值，就像基督徒通过同“上帝的羔羊”相等，显出自己的羊性。",
+      "start_ms": 0,
+      "end_ms": 9971,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s03-n0092",
+      "text": "〔译者注：“上帝的羔羊”是基督教对耶稣的称呼。",
+      "start_ms": 9971,
+      "end_ms": 15067,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s03-n0093",
+      "text": "〕",
+      "start_ms": 15067,
+      "end_ms": 15288,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s03-n0094",
+      "text": "这样一来，只要麻布同另一种商品——上衣——发生关系，它自己就会说出前面对商品价值的分析已经得出的结论。",
+      "start_ms": 15288,
+      "end_ms": 26588,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s03-n0095",
+      "text": "不过，麻布只能说它唯一会说的语言，也就是商品语言。",
+      "start_ms": 26588,
+      "end_ms": 32127,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s03-n0096",
+      "text": "麻布要说明，构成自身价值的是不分具体形式的人类劳动，就会这样说：上衣既然同我相等，也就是价值，那么它同我一样，都由这种人类劳动构成。",
+      "start_ms": 32127,
+      "end_ms": 46751,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s03-n0097",
+      "text": "麻布还要说明，自己作为价值出现时，并不是那副硬挺的麻布模样。",
+      "start_ms": 0,
+      "end_ms": 6364,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s03-n0098",
+      "text": "它就这样说：价值看起来像上衣，所以我作为价值出现时，也同上衣像两个鸡蛋一样相像。",
+      "start_ms": 6364,
+      "end_ms": 14849,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s03-n0099",
+      "text": "顺带一提，商品语言除了希伯来语，还有许多说得或多或少准确的“方言”。",
+      "start_ms": 14849,
+      "end_ms": 22062,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s03-n0100",
+      "text": "例如，德语的 Werthsein（具有价值），就不如意大利语、西班牙语和法语的 valere、valer、valoir 那么鲜明。",
+      "start_ms": 22062,
+      "end_ms": 35214,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s03-n0101",
+      "text": "这些动词都含有“值……”的意思，因此更清楚地表明：让商品B同商品A相等，正是商品A表达自身价值的方式。",
+      "start_ms": 35214,
+      "end_ms": 46033,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s03-n0102",
+      "text": "Paris vaut bien une messe!",
+      "start_ms": 46033,
+      "end_ms": 50700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s03-n0103",
+      "text": "——“巴黎值得一场弥撒！”",
+      "start_ms": 0,
+      "end_ms": 2688,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s03-n0104",
+      "text": "通过这种价值关系，商品 B 的自然形态成了商品 A 的价值形式。",
+      "start_ms": 2688,
+      "end_ms": 8477,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s03-n0105",
+      "text": "换句话说，商品 B 的实体成了商品 A 照出自身价值的一面镜子。",
+      "start_ms": 8477,
+      "end_ms": 14266,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s03-n0106",
+      "text": "商品 A 把 B 看作承载价值的东西，也就是人类劳动的物质体现，于是用 B 这种有用物品来表现自己的价值。",
+      "start_ms": 14266,
+      "end_ms": 23983,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s03-n0107",
+      "text": "商品 A 以这种方式在商品 B 的使用价值中表现出来的价值，就是它的相对价值。",
+      "start_ms": 23983,
+      "end_ms": 31220,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s03-n0108",
+      "text": "凡是要表现价值的商品，总是一定数量的有用物品，比如十五蒲式耳小麦或一百磅咖啡。",
+      "start_ms": 31220,
+      "end_ms": 39283,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s03-n0109",
+      "text": "这一数量的商品包含着一定量的人类劳动。",
+      "start_ms": 0,
+      "end_ms": 4174,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s03-n0110",
+      "text": "因此，价值形式不仅要说明商品有价值，还要说明价值有多大。",
+      "start_ms": 4174,
+      "end_ms": 10325,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s03-n0111",
+      "text": "在麻布与上衣的关系中，上衣不仅作为价值的承载物，在性质上同麻布相等。",
+      "start_ms": 10325,
+      "end_ms": 17795,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s03-n0112",
+      "text": "二十码麻布还必须同一定数量的上衣相等，比如一件。",
+      "start_ms": 17795,
+      "end_ms": 23067,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s03-n0113",
+      "text": "“二十码麻布 = 一件上衣”，以两者含有等量的形成价值的劳动为前提。",
+      "start_ms": 23067,
+      "end_ms": 30097,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s03-n0114",
+      "text": "也就是说，生产二十码麻布和生产一件上衣，需要同样多的劳动或同样长的劳动时间。",
+      "start_ms": 30097,
+      "end_ms": 38445,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s03-n0115",
+      "text": "不过，织布或缝制上衣的生产力一旦变化，生产这两种商品所需的劳动时间也会变化。",
+      "start_ms": 0,
+      "end_ms": 9524,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s03-n0116",
+      "text": "下面就来考察这些变化怎样影响相对价值的大小。",
+      "start_ms": 9524,
+      "end_ms": 15038,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s03-n0117",
+      "text": "第一种情况：麻布的价值变化，上衣的价值不变。",
+      "start_ms": 15038,
+      "end_ms": 20551,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s03-n0118",
+      "text": "假如种亚麻的土地越来越贫瘠，生产麻布所需的劳动时间增加一倍，麻布的价值也会增加一倍。",
+      "start_ms": 20551,
+      "end_ms": 31078,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s03-n0119",
+      "text": "原来的“二十码麻布 = 一件上衣”，就会变成“二十码麻布 = 两件上衣”，因为此时一件上衣只包含二十码麻布一半的劳动时间。",
+      "start_ms": 31078,
+      "end_ms": 45364,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s03-n0120",
+      "text": "反过来，假如改进织布机使生产麻布所需的劳动时间减少一半，麻布的价值也会减少一半，等式便变成“二十码麻布 = 半件上衣”。",
+      "start_ms": 45364,
+      "end_ms": 59900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s03-n0121",
+      "text": "因此，在上衣价值不变时，麻布的相对价值会随着麻布自身的价值按同一比例上升或下降。",
+      "start_ms": 0,
+      "end_ms": 11540,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s03-n0122",
+      "text": "第二种情况：麻布的价值不变，上衣的价值变化。",
+      "start_ms": 11540,
+      "end_ms": 17886,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s03-n0123",
+      "text": "假如羊毛收成不好，生产一件上衣所需的劳动时间增加一倍，原来的“二十码麻布 = 一件上衣”就会变成“二十码麻布 = 半件上衣”。",
+      "start_ms": 17886,
+      "end_ms": 34907,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s03-n0124",
+      "text": "反过来，假如上衣的价值减少一半，等式便变成“二十码麻布 = 两件上衣”。",
+      "start_ms": 34907,
+      "end_ms": 44716,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s03-n0125",
+      "text": "因此，在麻布自身的价值不变时，它用上衣表现的相对价值，会随着上衣价值的变化按相反方向升降。",
+      "start_ms": 44716,
+      "end_ms": 57698,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s03-n0126",
+      "text": "比较前两种情况就会发现，相对价值出现同样的变化，原因却可能正好相反。",
+      "start_ms": 57698,
+      "end_ms": 67507,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s03-n0127",
+      "text": "“二十码麻布 = 一件上衣”变成“二十码麻布 = 两件上衣”，既可能是麻布的价值增加了一倍，也可能是上衣的价值减少了一半。",
+      "start_ms": 0,
+      "end_ms": 11677,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s03-n0128",
+      "text": "它变成“二十码麻布 = 半件上衣”，既可能是麻布的价值减少了一半，也可能是上衣的价值增加了一倍。",
+      "start_ms": 11677,
+      "end_ms": 21100,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s03-n0129",
+      "text": "第三种情况：生产麻布和上衣所需的劳动量，同时按相同方向和相同比例变化。",
+      "start_ms": 21100,
+      "end_ms": 28270,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s03-n0130",
+      "text": "无论两者的价值怎样变化，等式仍然是“二十码麻布 = 一件上衣”。",
+      "start_ms": 28270,
+      "end_ms": 34416,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s03-n0131",
+      "text": "要看出它们的价值确实变了，就必须拿它们同价值没有变化的第三种商品比较。",
+      "start_ms": 34416,
+      "end_ms": 41586,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s03-n0132",
+      "text": "假如所有商品的价值都同时按同一比例上升或下降，它们彼此之间的相对价值就不会改变。",
+      "start_ms": 41586,
+      "end_ms": 49780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s03-n0133",
+      "text": "不过，这时在同样长的劳动时间里，生产出的商品总量会比以前更少或更多，由此仍能看出它们的价值发生了变化。",
+      "start_ms": 0,
+      "end_ms": 10520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s03-n0134",
+      "text": "第四种情况：生产麻布和上衣所需的劳动时间都发生变化，但变化的幅度不同，也可能一个增加、一个减少，或者出现其他组合。",
+      "start_ms": 11280,
+      "end_ms": 22640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s03-n0135",
+      "text": "这些组合怎样影响一种商品的相对价值，都可以用前面三种情况推导出来。",
+      "start_ms": 23400,
+      "end_ms": 30280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s03-n0136",
+      "text": "可见，一种商品自身的价值发生变化，并不会清楚、完整地反映在它的相对价值上。",
+      "start_ms": 30840,
+      "end_ms": 38560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s03-n0137",
+      "text": "商品自身的价值不变，相对价值也可能变化。",
+      "start_ms": 39240,
+      "end_ms": 43160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s03-n0138",
+      "text": "商品自身的价值发生变化，相对价值也可能不变。",
+      "start_ms": 44000,
+      "end_ms": 48120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s03-n0139",
+      "text": "自身价值与相对价值即使同时变化，变化的方向和幅度也不一定相同。",
+      "start_ms": 40,
+      "end_ms": 9200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s03-n0140",
+      "text": "前面已经看到，麻布把自己的价值表现在上衣这种不同商品的使用价值中，也就让上衣取得了一种特殊的价值形式——等价形式。",
+      "start_ms": 10120,
+      "end_ms": 25360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s03-n0141",
+      "text": "上衣不需要改变自己的实物形态，就能同麻布直接交换。",
+      "start_ms": 26280,
+      "end_ms": 32080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s03-n0142",
+      "text": "麻布正是借此表现自己有价值。",
+      "start_ms": 33080,
+      "end_ms": 36760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s03-n0143",
+      "text": "因此，一种商品处于等价形式，意思就是它能够同另一种商品直接交换。",
+      "start_ms": 37720,
+      "end_ms": 47200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s03-n0144",
+      "text": "假如上衣充当麻布的等价物，上衣就取得了可以同麻布直接交换的形式，但这并没有说明多少麻布应该换多少上衣。",
+      "start_ms": 48200,
+      "end_ms": 64080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s03-n0145",
+      "text": "麻布的价值已经确定时，交换比例还取决于上衣自身的价值。",
+      "start_ms": 40,
+      "end_ms": 4400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s03-n0146",
+      "text": "无论上衣充当等价物，还是反过来由麻布充当等价物，上衣自身的价值都由生产它所需的劳动时间决定，不受它在等式中所处位置的影响。",
+      "start_ms": 4760,
+      "end_ms": 14800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s03-n0147",
+      "text": "可是，上衣一旦处在等价物的位置，它自身的价值大小就不再得到表现，只在等式中作为一定数量的物品出现。",
+      "start_ms": 15160,
+      "end_ms": 23360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s03-n0148",
+      "text": "例如，四十码麻布值什么？",
+      "start_ms": 24040,
+      "end_ms": 26040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s03-n0149",
+      "text": "值两件上衣。",
+      "start_ms": 26200,
+      "end_ms": 27200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s03-n0150",
+      "text": "上衣在这里充当等价物，所以两件上衣足以表现四十码麻布的价值。",
+      "start_ms": 27640,
+      "end_ms": 32640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s03-n0151",
+      "text": "但是，这两件上衣只能表现麻布的价值有多大，不能表现上衣自身的价值有多大。",
+      "start_ms": 360,
+      "end_ms": 6920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s03-n0152",
+      "text": "贝利和他前后的许多经济学家只看到，等价物在价值等式中总是表现为一定数量的有用物品，于是误以为价值表现只是两种商品之间的数量关系。",
+      "start_ms": 7400,
+      "end_ms": 20040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s03-n0153",
+      "text": "实际上，等价形式本身并不表示处在这一形式中的商品有多大价值。",
+      "start_ms": 20800,
+      "end_ms": 26840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s03-n0154",
+      "text": "考察等价形式时，首先会发现一个特点：使用价值成了它的对立面——价值——的表现形式。",
+      "start_ms": 27320,
+      "end_ms": 34680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s03-n0155",
+      "text": "商品的自然形态由此成了价值形式。",
+      "start_ms": 35320,
+      "end_ms": 38520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s03-n0156",
+      "text": "但要注意，这种转换只发生在商品 B 同另一种商品 A 形成的价值关系中。",
+      "start_ms": 39520,
+      "end_ms": 46120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s03-n0157",
+      "text": "任何商品都不能把自己当作自己的等价物，也不能用自己的自然形态表现自己的价值。",
+      "start_ms": 40,
+      "end_ms": 6120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s03-n0158",
+      "text": "因此，它必须把另一种商品当作等价物，用后者的自然形态表现自己的价值。",
+      "start_ms": 6680,
+      "end_ms": 12720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s03-n0159",
+      "text": "可以用重量这个物体本身具有的自然属性来说明。",
+      "start_ms": 13600,
+      "end_ms": 18080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s03-n0160",
+      "text": "一块糖作为物体必然有重量，但只看或只摸这块糖，并不知道它有多重。",
+      "start_ms": 18680,
+      "end_ms": 25560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s03-n0161",
+      "text": "于是，我们拿来一些重量已经测定的铁块。",
+      "start_ms": 26360,
+      "end_ms": 30160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s03-n0162",
+      "text": "单看铁块的形态，也同样看不出重量。",
+      "start_ms": 31000,
+      "end_ms": 33760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s03-n0163",
+      "text": "可是，为了表示糖块有多重，我们把糖块和铁块放上天平进行比较。",
+      "start_ms": 120,
+      "end_ms": 7480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s03-n0164",
+      "text": "在这个关系中，铁块只代表重量。",
+      "start_ms": 8480,
+      "end_ms": 12160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s03-n0165",
+      "text": "一定数量的铁块因此可以充当糖块的重量尺度。",
+      "start_ms": 12680,
+      "end_ms": 17920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s03-n0166",
+      "text": "铁块只在这种关系中承担这个作用，也只有同样具有重量的物体才能进入这种关系。",
+      "start_ms": 18640,
+      "end_ms": 26160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s03-n0167",
+      "text": "把两者放上天平，我们就能看到，它们作为有重量的物体性质相同，并在一定比例下具有相同的重量。",
+      "start_ms": 26760,
+      "end_ms": 40040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s03-n0168",
+      "text": "正如铁块面对糖块时只代表重量，上衣面对麻布时也只代表价值。",
+      "start_ms": 40960,
+      "end_ms": 48240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s03-n0169",
+      "text": "不过，类比到这里就结束了。",
+      "start_ms": 120,
+      "end_ms": 3480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s03-n0170",
+      "text": "铁块表现的是铁和糖块共同具有的自然属性——重量。",
+      "start_ms": 4000,
+      "end_ms": 10640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s03-n0171",
+      "text": "上衣为麻布表现的价值却不是自然属性，而是两种商品共有的一种纯粹社会属性。",
+      "start_ms": 11480,
+      "end_ms": 20440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s03-n0172",
+      "text": "麻布的相对价值形式，把麻布的价值表现为一种同麻布自身及其属性完全不同的东西，也就是表现为像上衣一样的东西。",
+      "start_ms": 21360,
+      "end_ms": 33240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s03-n0173",
+      "text": "这已经提示我们，其中隐藏着一种社会关系。",
+      "start_ms": 33960,
+      "end_ms": 37800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s03-n0174",
+      "text": "等价形式却给人相反的印象。",
+      "start_ms": 38520,
+      "end_ms": 41400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s03-n0175",
+      "text": "作为商品实体的上衣，不作任何改变就能表现价值，仿佛天生就是价值形式。",
+      "start_ms": 40,
+      "end_ms": 7400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s03-n0176",
+      "text": "实际上，这只在麻布把上衣当作等价物的价值关系中成立。",
+      "start_ms": 8400,
+      "end_ms": 13640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s03-n0177",
+      "text": "可是，一件东西的属性通常不是由它同其他东西的关系产生，只是在关系中表现出来。",
+      "start_ms": 14280,
+      "end_ms": 21640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s03-n0178",
+      "text": "因此，人们会误以为上衣能够直接交换也是它天生的属性，就像它有重量、能够保暖一样。",
+      "start_ms": 22320,
+      "end_ms": 29760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s03-n0179",
+      "text": "等价形式的神秘之处正在这里。",
+      "start_ms": 30280,
+      "end_ms": 32720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s03-n0180",
+      "text": "经济学家往往要等到这种形式以货币的成品形态出现在面前，才会感到困惑。",
+      "start_ms": 33280,
+      "end_ms": 40360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s03-n0181",
+      "text": "为了消除金银的神秘性，他们便指出过去也有许多不起眼的商品充当过等价物，并乐此不疲地一一列举。",
+      "start_ms": 0,
+      "end_ms": 13419,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch01-s03-n0182",
+      "text": "可是他们没有意识到，最简单的价值表现，如“二十码麻布 = 一件上衣”，已经给出了解开这个谜的线索。",
+      "start_ms": 13419,
+      "end_ms": 27129,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch01-s03-n0183",
+      "text": "充当等价物的商品，总被看作抽象人类劳动的化身，但它本身又是一种具体有用劳动的产品。",
+      "start_ms": 27129,
+      "end_ms": 39090,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch01-s03-n0184",
+      "text": "这样一来，这种具体劳动便成了抽象人类劳动的表现形式。",
+      "start_ms": 39090,
+      "end_ms": 46674,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch01-s03-n0185",
+      "text": "以上衣为例，上衣被当作人类劳动的物质体现，生产上衣的裁缝劳动也就被当作抽象人类劳动的实现方式。",
+      "start_ms": 46674,
+      "end_ms": 60385,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch01-s03-n0186",
+      "text": "在麻布的价值表现中，裁缝劳动的作用不是做出可穿的衣服，而是做出一种能充当价值体的东西，也就是一种由劳动凝结而成、同麻布价值中的劳动没有区别的物品。",
+      "start_ms": 60385,
+      "end_ms": 81680,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch01-s03-n0187",
+      "text": "要成为这样的价值镜，裁缝劳动必须只表现自己作为人类劳动的共同性质，而不表现自己的具体特点。",
+      "start_ms": 40,
+      "end_ms": 9080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch01-s03-n0188",
+      "text": "裁缝劳动和织布劳动消耗的都是人的劳动力，所以都有一个共同点：它们都是人类劳动。",
+      "start_ms": 9760,
+      "end_ms": 16760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch01-s03-n0189",
+      "text": "在某些情况下，比如研究劳动怎样形成价值时，只需要抓住这个共同点。",
+      "start_ms": 17520,
+      "end_ms": 23400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch01-s03-n0190",
+      "text": "这并不神秘。",
+      "start_ms": 23880,
+      "end_ms": 25040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch01-s03-n0191",
+      "text": "但在商品的价值表现中，事情却被颠倒了。",
+      "start_ms": 25480,
+      "end_ms": 29600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch01-s03-n0192",
+      "text": "织布劳动形成麻布的价值，不是因为它是织布这种具体劳动，而是因为它具有一般人类劳动的性质。",
+      "start_ms": 30280,
+      "end_ms": 40160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch01-s03-n0193",
+      "text": "为了表现这一点，价值等式却把生产等价物上衣的裁缝劳动放在织布劳动的对面，让这种具体劳动成为抽象人类劳动看得见、摸得着的体现。",
+      "start_ms": 0,
+      "end_ms": 18440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch01-s03-n0194",
+      "text": "因此，等价形式的第二个特点是：具体劳动本来同抽象人类劳动相对，这里却成了抽象人类劳动的表现形式。",
+      "start_ms": 19440,
+      "end_ms": 33600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch01-s03-n0195",
+      "text": "在这里，裁缝劳动只代表没有具体差别的人类劳动，因而同包含在麻布中的织布劳动被视为相同。",
+      "start_ms": 34600,
+      "end_ms": 47720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch01-s03-n0196",
+      "text": "虽然裁缝劳动同一切生产商品的劳动一样，本来是生产者各自进行的私人劳动，但在这个关系中，它却直接表现为社会劳动。",
+      "start_ms": 48680,
+      "end_ms": 63920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch01-s03-n0197",
+      "text": "也正因为如此，它的产品上衣可以直接同麻布交换。",
+      "start_ms": 64640,
+      "end_ms": 71040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch01-s03-n0198",
+      "text": "因此，等价形式的第三个特点是：私人劳动成了它的对立面，也就是直接以社会劳动的形式出现。",
+      "start_ms": 71920,
+      "end_ms": 83520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch01-s03-n0199",
+      "text": "要更清楚地理解等价形式的后两个特点，可以看看一位伟大研究者的分析。",
+      "start_ms": 120,
+      "end_ms": 6280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch01-s03-n0200",
+      "text": "他不仅最早分析了价值形式，也最早分析了许多思维形式、社会形式和自然形式。",
+      "start_ms": 7160,
+      "end_ms": 13920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch01-s03-n0201",
+      "text": "他就是亚里士多德。",
+      "start_ms": 14800,
+      "end_ms": 16320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch01-s03-n0202",
+      "text": "首先，亚里士多德清楚地指出，商品的货币形式只是简单价值形式的进一步发展。",
+      "start_ms": 17040,
+      "end_ms": 24280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch01-s03-n0203",
+      "text": "所谓简单价值形式，就是用任意一种其他商品来表现某种商品的价值。",
+      "start_ms": 25000,
+      "end_ms": 30200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch01-s03-n0204",
+      "text": "他写道：",
+      "start_ms": 30720,
+      "end_ms": 31320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch01-s03-n0205",
+      "text": "“5张床＝1所房屋”，同“5张床＝若干货币”没有区别。",
+      "start_ms": 0,
+      "end_ms": 6522,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch01-s03-n0206",
+      "text": "亚里士多德还看出，这个价值表现包含着一种价值关系，而这个关系要求房屋同床在性质上相等。",
+      "start_ms": 6522,
+      "end_ms": 16908,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch01-s03-n0207",
+      "text": "房屋和床在感官上完全不同。",
+      "start_ms": 16908,
+      "end_ms": 20048,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch01-s03-n0208",
+      "text": "如果二者在本质上没有某种相同之处，它们就不能作为可以相互计量的量发生关系。",
+      "start_ms": 20048,
+      "end_ms": 28984,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch01-s03-n0209",
+      "text": "他说：“交换离不开相等，而相等又离不开共同的计量尺度。”",
+      "start_ms": 28984,
+      "end_ms": 35747,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch01-s03-n0210",
+      "text": "可是到了这里，亚里士多德停住了，不再继续分析价值形式。",
+      "start_ms": 35747,
+      "end_ms": 42269,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch01-s03-n0211",
+      "text": "他说：“实际上，这么不同的东西不可能用共同尺度衡量。”",
+      "start_ms": 0,
+      "end_ms": 5400,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch01-s03-n0212",
+      "text": "也就是说，它们不可能在性质上相同。",
+      "start_ms": 5400,
+      "end_ms": 8800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch01-s03-n0213",
+      "text": "因此，这种等同在他看来不可能来自事物的真实本性，只能是“为了实际需要而采取的权宜办法”。",
+      "start_ms": 8800,
+      "end_ms": 17600,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch01-s03-n0214",
+      "text": "亚里士多德自己的话已经说明，他为什么无法继续分析：他缺少价值这个概念。",
+      "start_ms": 17600,
+      "end_ms": 24600,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch01-s03-n0215",
+      "text": "在床的价值表现中，房屋代表着同床相等的东西。",
+      "start_ms": 24600,
+      "end_ms": 29000,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch01-s03-n0216",
+      "text": "那么，使房屋和床相等的共同实质究竟是什么？",
+      "start_ms": 29000,
+      "end_ms": 33200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch01-s03-n0217",
+      "text": "亚里士多德说，这样的东西“实际上不可能存在”。",
+      "start_ms": 0,
+      "end_ms": 5583,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch01-s03-n0218",
+      "text": "可房屋为什么能对床代表某种相等的东西？",
+      "start_ms": 5583,
+      "end_ms": 10195,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch01-s03-n0219",
+      "text": "因为它代表了房屋和床中真正相同的东西。",
+      "start_ms": 10195,
+      "end_ms": 14807,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch01-s03-n0220",
+      "text": "这个共同点就是人类劳动。",
+      "start_ms": 14807,
+      "end_ms": 17720,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch01-s03-n0221",
+      "text": "亚里士多德无法从商品的价值形式中看出，一切劳动在这种形式中都表现为相同的人类劳动，因而可以彼此等同。",
+      "start_ms": 17720,
+      "end_ms": 29857,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch01-s03-n0222",
+      "text": "原因是，古希腊社会建立在奴隶劳动之上，把人与人的不平等以及他们劳动力的不平等看作自然基础。",
+      "start_ms": 29857,
+      "end_ms": 40780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch01-s03-n0223",
+      "text": "价值表现的秘密在于，不同劳动只要都是人类劳动，就可以被当作相等。",
+      "start_ms": 0,
+      "end_ms": 11189,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch01-s03-n0224",
+      "text": "只有当“人人平等”已经成为一种根深蒂固、近乎不言自明的社会观念时，人们才可能解开这个秘密。",
+      "start_ms": 11189,
+      "end_ms": 26925,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch01-s03-n0225",
+      "text": "但只有在一种特定社会里，这种观念才可能形成：商品已经成为劳动产品的普遍形式，人与人之间占主导地位的社会关系，也成了商品所有者之间的关系。",
+      "start_ms": 26925,
+      "end_ms": 50702,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch01-s03-n0226",
+      "text": "亚里士多德的天才恰恰在于，他已经从商品的价值表现中发现了一种平等关系。",
+      "start_ms": 50702,
+      "end_ms": 62940,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch01-s03-n0227",
+      "text": "只是他所处社会的历史限制，使他无法发现这种平等关系“实际上”建立在什么基础上。",
+      "start_ms": 62940,
+      "end_ms": 76578,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch01-s03-n0228",
+      "text": "一种商品最简单的价值形式，就存在于它同另一种不同商品的价值关系或交换关系中。",
+      "start_ms": 76578,
+      "end_ms": 89865,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch01-s03-n0229",
+      "text": "商品 B 能够同商品 A 直接交换，这在性质上表现了 A 的价值。",
+      "start_ms": 0,
+      "end_ms": 5266,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch01-s03-n0230",
+      "text": "一定数量的 B 能够同给定数量的 A 交换，这又在数量上表现了 A 有多少价值。",
+      "start_ms": 5266,
+      "end_ms": 11896,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch01-s03-n0231",
+      "text": "换句话说，一种商品把自己的价值表现为“交换价值”时，价值才取得独立的表现形式。",
+      "start_ms": 11896,
+      "end_ms": 19502,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch01-s03-n0232",
+      "text": "本章开头曾沿用一种常见说法，说商品是使用价值和交换价值。",
+      "start_ms": 19502,
+      "end_ms": 24962,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch01-s03-n0233",
+      "text": "严格说来，这并不准确。",
+      "start_ms": 24962,
+      "end_ms": 27108,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch01-s03-n0234",
+      "text": "商品本身是一件有用物品，同时也有价值。",
+      "start_ms": 27108,
+      "end_ms": 30813,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch01-s03-n0235",
+      "text": "只有当商品的价值取得一种不同于自身自然形态的独立表现形式，也就是交换价值形式时，商品才会把这两个方面同时表现出来。",
+      "start_ms": 0,
+      "end_ms": 13485,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch01-s03-n0236",
+      "text": "孤立地看一件商品，它没有交换价值形式。",
+      "start_ms": 13485,
+      "end_ms": 17980,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch01-s03-n0237",
+      "text": "只有当它同另一种不同商品形成价值关系或交换关系时，才具有这种形式。",
+      "start_ms": 17980,
+      "end_ms": 25788,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch01-s03-n0238",
+      "text": "明白这一点以后，继续用“商品是使用价值和交换价值”这种简称，也不会造成问题。",
+      "start_ms": 25788,
+      "end_ms": 34778,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch01-s03-n0239",
+      "text": "前面的分析已经证明，商品的价值形式或价值表现来自商品价值本身的性质，并不是先有交换价值这种表现方式，才由它产生价值和价值量。",
+      "start_ms": 34778,
+      "end_ms": 49446,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch01-s03-n0240",
+      "text": "重商主义者及其现代翻版，如费里埃、加尼尔等人，抱有后一种看法。",
+      "start_ms": 49446,
+      "end_ms": 56780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch01-s03-n0241",
+      "text": "他们的对手，那些巴斯夏之流的现代自由贸易推销员，也持同样看法。",
+      "start_ms": 0,
+      "end_ms": 8607,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch01-s03-n0242",
+      "text": "重商主义者主要关注价值在性质上怎样表现，因此特别重视商品的等价形式，而这种形式在货币中得到了完整发展。",
+      "start_ms": 8607,
+      "end_ms": 22766,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch01-s03-n0243",
+      "text": "那些急着以任何价格卖掉商品的自由贸易叫卖者，则主要关注相对价值形式在数量上怎样表现。",
+      "start_ms": 22766,
+      "end_ms": 34427,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch01-s03-n0244",
+      "text": "在这两派看来，商品的价值和价值量只存在于交换关系的表现中，最终只存在于每日价目表上的价格标签中。",
+      "start_ms": 34427,
+      "end_ms": 47754,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch01-s03-n0245",
+      "text": "苏格兰人麦克劳德专门把伦敦伦巴德街金融界混乱不堪的观念包装得学术气十足，恰好成了迷信的重商主义者和“开明”的自由贸易叫卖者之间的完美结合。",
+      "start_ms": 47754,
+      "end_ms": 66911,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch01-s03-n0246",
+      "text": "进一步考察商品 A 同商品 B 的价值关系，可以看到：在这个关系中，A 的自然形态只代表它是有用物品，B 的自然形态则只作为价值的表现形式。",
+      "start_ms": 66911,
+      "end_ms": 84680,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch01-s03-n0247",
+      "text": "这样，商品内部使用价值和价值的对立，就通过两种商品之间的外部对立表现出来。",
+      "start_ms": 80,
+      "end_ms": 8480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch01-s03-n0248",
+      "text": "需要表现价值的商品 A，直接只作为使用价值出现。",
+      "start_ms": 9280,
+      "end_ms": 14520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch01-s03-n0249",
+      "text": "用来表现 A 的价值的商品 B，则直接只作为交换价值出现。",
+      "start_ms": 15080,
+      "end_ms": 21080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch01-s03-n0250",
+      "text": "因此，一种商品的简单价值形式，正是它内部使用价值和价值这组对立最简单的外在表现。",
+      "start_ms": 21760,
+      "end_ms": 31800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch01-s03-n0251",
+      "text": "在任何社会里，劳动产品都是供人使用的东西。",
+      "start_ms": 32480,
+      "end_ms": 37480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch01-s03-n0252",
+      "text": "不过，只有到了一个特定的历史发展阶段，生产有用物品所耗费的劳动才会表现为物品本身的一种客观属性，也就是它的价值。",
+      "start_ms": 38320,
+      "end_ms": 52680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch01-s03-n0253",
+      "text": "劳动产品正是在这个阶段才变成商品。",
+      "start_ms": 80,
+      "end_ms": 3440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch01-s03-n0254",
+      "text": "因此，商品最简单的价值形式，同时也是劳动产品成为商品的最简单形式。",
+      "start_ms": 4160,
+      "end_ms": 12440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch01-s03-n0255",
+      "text": "商品形式的发展和价值形式的发展，是同一个过程。",
+      "start_ms": 13400,
+      "end_ms": 17680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch01-s03-n0256",
+      "text": "只要看一眼，就能发现这种简单价值形式有明显的局限。",
+      "start_ms": 18440,
+      "end_ms": 23360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch01-s03-n0257",
+      "text": "它还只是一种胚芽形式，必须经过一连串变化，才能成熟为价格形式。",
+      "start_ms": 24200,
+      "end_ms": 30640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch01-s03-n0258",
+      "text": "用任意一种商品B来表现商品A的价值，只能把A的价值同它自身的使用价值区别开来。",
+      "start_ms": 31320,
+      "end_ms": 39520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch01-s03-n0259",
+      "text": "因此，这种形式也只能让A同某一种不同于自己的商品发生交换关系。",
+      "start_ms": 80,
+      "end_ms": 6280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch01-s03-n0260",
+      "text": "它不能表明A和其他一切商品作为价值是同类的，也不能表明A分别按什么数量比例同它们交换。",
+      "start_ms": 6920,
+      "end_ms": 17480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch01-s03-n0261",
+      "text": "一件商品采用简单的相对价值形式时，另一件商品相应地只取得个别的等价形式。",
+      "start_ms": 18240,
+      "end_ms": 24520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch01-s03-n0262",
+      "text": "例如，在麻布的相对价值表现中，上衣只对麻布这一种商品充当等价物，也就是只具有可以直接同麻布交换的形式。",
+      "start_ms": 25360,
+      "end_ms": 37720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch01-s03-n0263",
+      "text": "不过，这种个别价值形式会自然而然地过渡到一种更完整的形式。",
+      "start_ms": 39000,
+      "end_ms": 44520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch01-s03-n0264",
+      "text": "在每一个简单价值表现中，商品A的价值虽然只用一种不同的商品来表现，但这种商品究竟是上衣、铁、小麦还是别的什么，并不重要。",
+      "start_ms": 45400,
+      "end_ms": 57960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch01-s03-n0265",
+      "text": "商品A每同一种别的商品发生价值关系，就会产生一种新的简单价值表现。",
+      "start_ms": 0,
+      "end_ms": 7800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch01-s03-n0266",
+      "text": "商品A能有多少种价值表现，只取决于有多少种不同于它的商品。",
+      "start_ms": 7800,
+      "end_ms": 14654,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch01-s03-n0267",
+      "text": "因此，原先孤立的一种价值表现，会变成一串可以不断延长的不同价值表现。",
+      "start_ms": 14654,
+      "end_ms": 22690,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch01-s03-n0268",
+      "text": "z量商品A＝u量商品B，或＝v量商品C，或＝w量商品D，或＝x量商品E，等等。",
+      "start_ms": 22690,
+      "end_ms": 31908,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch01-s03-n0269",
+      "text": "（20码麻布＝1件上衣，或＝10磅茶叶，或＝40磅咖啡，或＝1夸特小麦，或＝2盎司黄金，或＝半吨铁，等等。）",
+      "start_ms": 31908,
+      "end_ms": 44671,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch01-s03-n0270",
+      "text": "现在，一种商品的价值，比如麻布的价值，用商品世界中无数其他商品表现出来。",
+      "start_ms": 44671,
+      "end_ms": 53180,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch01-s03-n0271",
+      "text": "每一种其他商品的实物，都成了照出麻布价值的镜子。",
+      "start_ms": 0,
+      "end_ms": 4480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch01-s03-n0272",
+      "text": "这样，麻布的价值才真正表现为没有差别的人类劳动的凝结物。",
+      "start_ms": 5480,
+      "end_ms": 11840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch01-s03-n0273",
+      "text": "因为，形成麻布价值的劳动，现在明确表现为同其他任何人类劳动都等同的劳动。",
+      "start_ms": 12720,
+      "end_ms": 20360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch01-s03-n0274",
+      "text": "其他劳动无论采取什么具体形式，无论体现在上衣、小麦、铁还是黄金中，在这里都同它没有差别。",
+      "start_ms": 21200,
+      "end_ms": 30360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch01-s03-n0275",
+      "text": "通过这种价值形式，麻布现在不再只同某一种商品发生社会关系，而是同整个商品世界发生关系。",
+      "start_ms": 31280,
+      "end_ms": 39560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch01-s03-n0276",
+      "text": "作为商品，麻布是这个世界的一员。",
+      "start_ms": 40400,
+      "end_ms": 43000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch01-s03-n0277",
+      "text": "同时，这一无尽的表现系列也说明，商品价值通过哪一种具体使用价值表现，并不重要。",
+      "start_ms": 0,
+      "end_ms": 9377,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch01-s03-n0278",
+      "text": "在第一种形式“20码麻布＝1件上衣”中，两种商品恰好能按某个数量比例交换，可能只是偶然事实。",
+      "start_ms": 9377,
+      "end_ms": 20437,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch01-s03-n0279",
+      "text": "第二种形式却立刻显出，偶然的交换现象背后还有一个性质完全不同、并决定这种现象的根据。",
+      "start_ms": 20437,
+      "end_ms": 30535,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch01-s03-n0280",
+      "text": "麻布的价值量保持不变，无论用上衣、咖啡、铁还是其他无数商品来表现，也无论这些商品分别属于哪些不同的所有者。",
+      "start_ms": 30535,
+      "end_ms": 43278,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch01-s03-n0281",
+      "text": "这样一来，两个个别商品所有者之间的偶然关系消失了。",
+      "start_ms": 43278,
+      "end_ms": 49288,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch01-s03-n0282",
+      "text": "现在可以看出，不是交换决定商品的价值量。",
+      "start_ms": 49288,
+      "end_ms": 54097,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch01-s03-n0283",
+      "text": "恰恰相反，是商品的价值量调节它的交换比例。",
+      "start_ms": 200,
+      "end_ms": 4600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch01-s03-n0284",
+      "text": "在麻布的价值表现中，上衣、茶叶、小麦、铁等每一种商品都充当麻布的等价物，也就是代表价值的物品。",
+      "start_ms": 5320,
+      "end_ms": 17120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch01-s03-n0285",
+      "text": "这些商品各自的具体物品形态，现在都成了众多特殊等价形式中的一种。",
+      "start_ms": 18200,
+      "end_ms": 24520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch01-s03-n0286",
+      "text": "同样，包含在不同商品中的各种具体、有用的劳动，也都成了一般人类劳动的特殊实现形式或表现形式。",
+      "start_ms": 25240,
+      "end_ms": 33600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch01-s03-n0287",
+      "text": "展开的相对价值形式有几个缺陷。",
+      "start_ms": 35040,
+      "end_ms": 38040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch01-s03-n0288",
+      "text": "第一，商品的相对价值表现始终没有完成，因为表现它的系列永远不会结束。",
+      "start_ms": 39160,
+      "end_ms": 45400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch01-s03-n0289",
+      "text": "每出现一种新商品，就能产生一个新的价值表现，使一条条价值等式组成的链条继续延长。",
+      "start_ms": 0,
+      "end_ms": 10600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch01-s03-n0290",
+      "text": "第二，这个系列只是由彼此分散、各不相同的价值表现拼成的杂乱图案。",
+      "start_ms": 11600,
+      "end_ms": 20480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch01-s03-n0291",
+      "text": "最后，实际又必须让每一种商品都用这种展开形式表现自己的相对价值。",
+      "start_ms": 21200,
+      "end_ms": 29040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch01-s03-n0292",
+      "text": "结果，每一种商品都会有一套不同于其他商品、永远列不完的价值表现系列。",
+      "start_ms": 29960,
+      "end_ms": 37680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch01-s03-n0293",
+      "text": "展开的相对价值形式有这些缺陷，同它对应的等价形式也有相应缺陷。",
+      "start_ms": 38280,
+      "end_ms": 46280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch01-s03-n0294",
+      "text": "在这里，每一种商品的具体形态只是无数特殊等价形式中的一种。",
+      "start_ms": 46800,
+      "end_ms": 54480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch01-s03-n0295",
+      "text": "因此，每一种等价形式都局限在自己的具体形态中，并同其他等价形式彼此排斥。",
+      "start_ms": 0,
+      "end_ms": 9040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch01-s03-n0296",
+      "text": "同样，每种充当特殊等价物的商品中，都包含一种具体、有用的劳动。",
+      "start_ms": 9840,
+      "end_ms": 17280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch01-s03-n0297",
+      "text": "这种劳动只能成为一般人类劳动的一种特殊表现，不能完整表现一般人类劳动。",
+      "start_ms": 18160,
+      "end_ms": 25400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch01-s03-n0298",
+      "text": "所有这些特殊表现合在一起，固然构成一般人类劳动的完整表现，却仍没有形成一个统一的表现形式。",
+      "start_ms": 26240,
+      "end_ms": 35360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch01-s03-n0299",
+      "text": "但是，展开的相对价值形式其实只是许多简单相对价值表现的总和，也就是把第一种形式的等式加在一起。",
+      "start_ms": 36360,
+      "end_ms": 47200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch01-s03-n0300",
+      "text": "例如：",
+      "start_ms": 48120,
+      "end_ms": 48440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch01-s03-n0301",
+      "text": "20码麻布＝1件上衣",
+      "start_ms": 0,
+      "end_ms": 2443,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch01-s03-n0302",
+      "text": "20码麻布＝10磅茶叶，等等。",
+      "start_ms": 2443,
+      "end_ms": 6109,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch01-s03-n0303",
+      "text": "但这些等式反过来也都包含着同样成立的等式：",
+      "start_ms": 6109,
+      "end_ms": 11240,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch01-s03-n0304",
+      "text": "1 件上衣 = 20 码麻布 10 磅茶叶 = 20 码麻布 等等。",
+      "start_ms": 11240,
+      "end_ms": 17104,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch01-s03-n0305",
+      "text": "事实的确如此。",
+      "start_ms": 17104,
+      "end_ms": 18815,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch01-s03-n0306",
+      "text": "一个人用自己的麻布同许多其他商品交换，也就是用一系列其他商品表现麻布的价值。",
+      "start_ms": 18815,
+      "end_ms": 28100,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch01-s03-n0307",
+      "text": "那么，那些商品的所有者也必然会用各自的商品同麻布交换，也就是都借助同一种商品——麻布——来表现各自商品的价值。",
+      "start_ms": 0,
+      "end_ms": 14483,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch01-s03-n0308",
+      "text": "因此，只要把“20 码麻布 = 1 件上衣，或 = 10 磅茶叶，等等”这一系列等式倒过来，把其中已经包含的反向关系写出来，就得到下面的形式：",
+      "start_ms": 14483,
+      "end_ms": 31336,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch01-s03-n0309",
+      "text": "1 件上衣 = 20 码麻布 10 磅茶叶 = 20 码麻布 40 磅咖啡 = 20 码麻布 1 夸特小麦 = 20 码麻布 2 盎司黄金 = 20 码麻布 半吨铁 = 20 码麻布 x 量商品 A = 20 码麻布 等等。",
+      "start_ms": 31336,
+      "end_ms": 51612,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch01-s03-n0310",
+      "text": "现在，各种商品都只用一种商品来表现自己的价值，所以这种表现很简单。",
+      "start_ms": 51612,
+      "end_ms": 60302,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch01-s03-n0311",
+      "text": "同时，它们用的都是同一种商品，所以这种表现又是统一的。",
+      "start_ms": 60302,
+      "end_ms": 67412,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch01-s03-n0312",
+      "text": "这个价值形式既简单，又为一切商品所共有，因此成为一般价值形式。",
+      "start_ms": 67412,
+      "end_ms": 75575,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch01-s03-n0313",
+      "text": "形式I和形式II都只走到这一步：它们把一种商品的价值表现为不同于这种商品自身使用价值或实物形态的东西。",
+      "start_ms": 0,
+      "end_ms": 9906,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch01-s03-n0314",
+      "text": "形式I会产生这样的价值等式：1件上衣 = 20厄尔麻布，10磅茶叶 = 半吨铁，等等。",
+      "start_ms": 9906,
+      "end_ms": 17481,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch01-s03-n0315",
+      "text": "〔译者注：“厄尔”是欧洲旧时的长度单位，各地标准并不完全相同。",
+      "start_ms": 17481,
+      "end_ms": 23502,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch01-s03-n0316",
+      "text": "〕上衣的价值表现为同麻布相等，茶叶的价值表现为同铁相等。",
+      "start_ms": 23502,
+      "end_ms": 28940,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch01-s03-n0317",
+      "text": "可是，这两个价值表达彼此完全不同，正如麻布和铁本身不同一样。",
+      "start_ms": 28940,
+      "end_ms": 34767,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch01-s03-n0318",
+      "text": "从实际情况看，这种形式显然只出现在商品交换刚刚开始的阶段。",
+      "start_ms": 34767,
+      "end_ms": 40400,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch01-s03-n0319",
+      "text": "当时，劳动产品只通过偶然、零星的交换才变成商品。",
+      "start_ms": 120,
+      "end_ms": 6440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch01-s03-n0320",
+      "text": "形式II比形式I更彻底地把一种商品的价值同它自身的使用价值区别开来。",
+      "start_ms": 7240,
+      "end_ms": 16160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch01-s03-n0321",
+      "text": "以上衣为例，它的价值现在以各种可能的形态同上衣自身的实物形态相对：它可以表现为同麻布相等、同铁相等、同茶叶相等，等等。",
+      "start_ms": 16600,
+      "end_ms": 32760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch01-s03-n0322",
+      "text": "总之，上衣的价值可以表现得像任何别的商品，唯独不像上衣。",
+      "start_ms": 33520,
+      "end_ms": 40400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch01-s03-n0323",
+      "text": "另一方面，这种形式又直接排除了所有商品共同采用同一种价值表达。",
+      "start_ms": 41280,
+      "end_ms": 48600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch01-s03-n0324",
+      "text": "因为每次都是一种商品单独表现自己的价值，其他一切商品在这个表达中只充当等价物。",
+      "start_ms": 49560,
+      "end_ms": 58800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch01-s03-n0325",
+      "text": "这种形式在实际交换中第一次出现，是在一种劳动产品——例如牲畜——不再只是偶尔同别的商品交换，而是已经经常同多种商品交换的时候。",
+      "start_ms": 80,
+      "end_ms": 18320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch01-s03-n0326",
+      "text": "新得到的形式把商品世界中各种商品的价值都用同一种商品来表现，例如都用从商品世界中单独分出来的麻布来表现。",
+      "start_ms": 19080,
+      "end_ms": 35200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch01-s03-n0327",
+      "text": "这样，所有商品都通过同麻布相等来表现自己的价值。",
+      "start_ms": 35840,
+      "end_ms": 41840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch01-s03-n0328",
+      "text": "每种商品的价值一旦表现为同麻布相等，就不仅同这件商品自身的使用价值区别开来，而且同一切使用价值区别开来。",
+      "start_ms": 42840,
+      "end_ms": 57760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch01-s03-n0329",
+      "text": "正因为排除了所有使用价值，价值才被表现为所有商品共同具有的东西。",
+      "start_ms": 58440,
+      "end_ms": 67200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch01-s03-n0330",
+      "text": "只有这种形式，才真正把各种商品作为价值彼此联系起来，使它们互相表现为交换价值。",
+      "start_ms": 68160,
+      "end_ms": 78480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch01-s03-n0331",
+      "text": "前两种形式都只表现某一种商品的价值：形式I用一种不同的商品来表现，形式II用一系列不同的商品来表现。",
+      "start_ms": 0,
+      "end_ms": 12360,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch01-s03-n0332",
+      "text": "在这两种情况下，每件商品取得价值形式，仿佛都是它自己的“私事”。",
+      "start_ms": 12360,
+      "end_ms": 20271,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch01-s03-n0333",
+      "text": "它不需要其他商品主动参与，其他商品只被动地充当等价物。",
+      "start_ms": 20271,
+      "end_ms": 26946,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch01-s03-n0334",
+      "text": "一般价值形式则相反，只能由整个商品世界共同形成。",
+      "start_ms": 26946,
+      "end_ms": 32879,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch01-s03-n0335",
+      "text": "一种商品只有在其他一切商品同时用同一个等价物表现自己的价值时，才能获得一般的价值表现。",
+      "start_ms": 32879,
+      "end_ms": 43509,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch01-s03-n0336",
+      "text": "以后每出现一种新的商品，也必须照着这样做。",
+      "start_ms": 43509,
+      "end_ms": 48700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch01-s03-n0337",
+      "text": "这时可以看出，商品的价值作为一种客观存在，其实只是这些东西的一种“社会存在”。",
+      "start_ms": 0,
+      "end_ms": 9113,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch01-s03-n0338",
+      "text": "正因为如此，价值只能通过各种商品之间全面的社会关系表现出来，价值形式也必须是一种在社会中普遍有效的形式。",
+      "start_ms": 9113,
+      "end_ms": 21264,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch01-s03-n0339",
+      "text": "现在，一切商品都用“等于若干麻布”的形式表现自己。",
+      "start_ms": 21264,
+      "end_ms": 27106,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch01-s03-n0340",
+      "text": "这样，它们不仅在性质上彼此相同，都是价值，而且也成为可以在数量上比较的价值量。",
+      "start_ms": 27106,
+      "end_ms": 36219,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch01-s03-n0341",
+      "text": "因为它们都用同一种材料，也就是麻布，反映自己的价值量，这些价值量也就能相互比较。",
+      "start_ms": 36219,
+      "end_ms": 45566,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch01-s03-n0342",
+      "text": "例如，10磅茶叶＝20码麻布，40磅咖啡＝20码麻布，所以10磅茶叶＝40磅咖啡。",
+      "start_ms": 45566,
+      "end_ms": 55146,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch01-s03-n0343",
+      "text": "换句话说，1磅咖啡中包含的劳动，只有1磅茶叶中所含劳动的四分之一。",
+      "start_ms": 0,
+      "end_ms": 8369,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch01-s03-n0344",
+      "text": "这里说的劳动，就是价值的实质。",
+      "start_ms": 8369,
+      "end_ms": 12173,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch01-s03-n0345",
+      "text": "商品世界的普遍相对价值形式，使被排除在外、单独充当等价物的商品——麻布——取得了“一般等价物”的地位。",
+      "start_ms": 12173,
+      "end_ms": 25107,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch01-s03-n0346",
+      "text": "麻布自身的自然形态成了整个商品世界共同的价值形态，因此麻布可以同所有其他商品直接交换。",
+      "start_ms": 25107,
+      "end_ms": 36012,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch01-s03-n0347",
+      "text": "麻布看得见摸得着的物体形态，被当作一切人类劳动的可见化身，也就是人类劳动在社会中共同采取的外形。",
+      "start_ms": 36012,
+      "end_ms": 48185,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch01-s03-n0348",
+      "text": "织布本来是生产麻布的私人劳动，现在却同时取得了普遍的社会形式，也就是同其他一切劳动相等的形式。",
+      "start_ms": 48185,
+      "end_ms": 60104,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch01-s03-n0349",
+      "text": "构成普遍价值形式的无数等式，把麻布中的织布劳动依次同其他每一种商品中的劳动相等。",
+      "start_ms": 40,
+      "end_ms": 8200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch01-s03-n0350",
+      "text": "正因如此，织布劳动成了一般人类劳动的普遍表现形式。",
+      "start_ms": 8720,
+      "end_ms": 13360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch01-s03-n0351",
+      "text": "因此，商品价值中所体现的劳动，不再只通过排除具体差别来说明，也就是不再只是撇开各种实际劳动的具体形式和有用性质。",
+      "start_ms": 14120,
+      "end_ms": 25240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch01-s03-n0352",
+      "text": "它的正面性质也明确显现出来：一切实际劳动都被归结为它们共有的人类劳动，也就是人的劳动力的耗费。",
+      "start_ms": 25480,
+      "end_ms": 35080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch01-s03-n0353",
+      "text": "普遍价值形式把劳动产品表现为没有差别的人类劳动的凝结物。",
+      "start_ms": 35560,
+      "end_ms": 40680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch01-s03-n0354",
+      "text": "它自身的结构同时表明，它是商品世界的一种社会表现。",
+      "start_ms": 41200,
+      "end_ms": 45560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch01-s03-n0355",
+      "text": "因此它揭示出，在商品世界中，各种劳动共同作为人类劳动这一点，正是劳动所具有的特殊社会性质。",
+      "start_ms": 0,
+      "end_ms": 10360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch01-s03-n0356",
+      "text": "相对价值形式发展到什么程度，等价形式也相应发展到什么程度。",
+      "start_ms": 11240,
+      "end_ms": 16600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch01-s03-n0357",
+      "text": "不过必须注意，等价形式的发展，只是相对价值形式发展的表现和结果。",
+      "start_ms": 17200,
+      "end_ms": 23360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch01-s03-n0358",
+      "text": "一种商品采用简单的、孤立的相对价值形式时，会把另一种商品变成个别等价物。",
+      "start_ms": 24320,
+      "end_ms": 31840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch01-s03-n0359",
+      "text": "相对价值的展开形式把一种商品的价值表现为其他一切商品，因此使这些商品分别成为各不相同的特殊等价物。",
+      "start_ms": 32880,
+      "end_ms": 43800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch01-s03-n0360",
+      "text": "最后，某一种特殊商品取得了一般等价形式，因为其他一切商品都用它来统一表现自己的价值。",
+      "start_ms": 44800,
+      "end_ms": 53200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch01-s03-n0361",
+      "text": "不过，随着价值形式逐步发展，它的两极——相对价值形式和等价形式——之间的对立也随之发展。",
+      "start_ms": 200,
+      "end_ms": 8320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch01-s03-n0362",
+      "text": "最初的形式——20厄尔麻布 = 1件上衣——已经包含这种对立，但还没有把两极固定下来。",
+      "start_ms": 8920,
+      "end_ms": 16160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch01-s03-n0363",
+      "text": "同一个等式正着读和反着读，麻布与上衣就各自既可以处在相对价值形式，也可以处在等价形式。",
+      "start_ms": 16440,
+      "end_ms": 26280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch01-s03-n0364",
+      "text": "此时，要始终分清这种两极对立，还得费一番力气。",
+      "start_ms": 27080,
+      "end_ms": 31560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch01-s03-n0365",
+      "text": "在形式II中，每次只能有一种商品把自己的相对价值完整展开。",
+      "start_ms": 31800,
+      "end_ms": 36920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch01-s03-n0366",
+      "text": "它之所以能取得展开的相对价值形式，正是因为其他一切商品都对它采取等价形式。",
+      "start_ms": 37640,
+      "end_ms": 44600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch01-s03-n0367",
+      "text": "这里不能再把价值等式的两边对调。",
+      "start_ms": 0,
+      "end_ms": 4368,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch01-s03-n0368",
+      "text": "例如，20厄尔麻布 = 1件上衣，或者等于10磅茶叶，或者等于1夸特小麦，等等。",
+      "start_ms": 4368,
+      "end_ms": 14743,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch01-s03-n0369",
+      "text": "〔译者注：“夸特”是英国旧时计量谷物的单位。",
+      "start_ms": 14743,
+      "end_ms": 20749,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch01-s03-n0370",
+      "text": "〕如果把这些等式的两边对调，整个形式的性质就会改变，原来的总体价值形式会变成一般价值形式。",
+      "start_ms": 20749,
+      "end_ms": 33034,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch01-s03-n0371",
+      "text": "最后，形式III给整个商品世界提供了一种社会普遍通用的相对价值形式。",
+      "start_ms": 33034,
+      "end_ms": 42317,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch01-s03-n0372",
+      "text": "原因是，除了一种商品，其他所有商品都被排除在一般等价形式之外。",
+      "start_ms": 42317,
+      "end_ms": 50780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch01-s03-n0373",
+      "text": "只有麻布处在可以同其他一切商品直接交换的形式中，也就是处在可以直接在整个社会通用的形式中。",
+      "start_ms": 0,
+      "end_ms": 10531,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch01-s03-n0374",
+      "text": "麻布之所以能这样，正因为其他一切商品都不处在这种形式中。",
+      "start_ms": 10531,
+      "end_ms": 17084,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch01-s03-n0375",
+      "text": "反过来，充当一般等价物的商品，被排除在商品世界统一的一般相对价值形式之外。",
+      "start_ms": 17084,
+      "end_ms": 25742,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch01-s03-n0376",
+      "text": "假如麻布——也就是处在一般等价形式中的商品——也要加入这种一般相对价值形式，它就必须拿自己作自己的等价物。",
+      "start_ms": 25742,
+      "end_ms": 38145,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch01-s03-n0377",
+      "text": "这样只能得到“20 码麻布 = 20 码麻布”这种只是重复自身的等式，既没有表现价值，也没有表现价值量。",
+      "start_ms": 38145,
+      "end_ms": 49378,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch01-s03-n0378",
+      "text": "要表现一般等价物自身的相对价值，必须把形式 III 倒过来。",
+      "start_ms": 49378,
+      "end_ms": 55931,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch01-s03-n0379",
+      "text": "一般等价物不能同其他商品共用一种相对价值形式，它的价值只能用其他一切商品依次表现出来，形成一条无尽的系列。",
+      "start_ms": 0,
+      "end_ms": 11280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch01-s03-n0380",
+      "text": "因此，展开的相对价值形式，也就是形式 II，成了一般等价物特有的相对价值形式。",
+      "start_ms": 11600,
+      "end_ms": 17880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch01-s03-n0381",
+      "text": "一般等价形式只是价值的一种形式，所以任何商品都可能取得这种形式。",
+      "start_ms": 18520,
+      "end_ms": 25480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch01-s03-n0382",
+      "text": "但一种商品只有在其他一切商品都用它作等价物时，才处在一般等价形式中。",
+      "start_ms": 26080,
+      "end_ms": 33560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch01-s03-n0383",
+      "text": "只有当所有商品最终固定地只用某一种特定商品作等价物时，商品世界统一的相对价值形式才具有客观的稳定性，并在整个社会通用。",
+      "start_ms": 34120,
+      "end_ms": 47360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch01-s03-n0384",
+      "text": "当等价形式在社会实践中固定地同某种商品的自然形态结合起来时，这种商品就成了货币商品，开始发挥货币的作用。",
+      "start_ms": 47880,
+      "end_ms": 61880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch01-s03-n0385",
+      "text": "在商品世界中，充当一般等价物成了它特有的社会职能，也成了它独占的位置。",
+      "start_ms": 0,
+      "end_ms": 7938,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch01-s03-n0386",
+      "text": "在形式 II 中，许多商品都曾分别充当麻布的特殊等价物。",
+      "start_ms": 7938,
+      "end_ms": 13834,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch01-s03-n0387",
+      "text": "在形式 III 中，它们又共同用麻布表现自己的相对价值。",
+      "start_ms": 13834,
+      "end_ms": 19731,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch01-s03-n0388",
+      "text": "后来，黄金在历史进程中从这些商品里夺得了这个特殊位置。",
+      "start_ms": 19731,
+      "end_ms": 25854,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch01-s03-n0389",
+      "text": "因此，只要在形式 III 中用黄金代替麻布，就得到：",
+      "start_ms": 25854,
+      "end_ms": 31297,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch01-s03-n0390",
+      "text": "20 码麻布 = 2 盎司黄金 1 件上衣 = 2 盎司黄金 10 磅茶叶 = 2 盎司黄金 40 磅咖啡 = 2 盎司黄金 1 夸特小麦 = 2 盎司黄金 半吨铁 = 2 盎司黄金 x 量商品 A = 2 盎司黄金",
+      "start_ms": 31297,
+      "end_ms": 48080,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch01-s03-n0391",
+      "text": "从形式Ⅰ到形式Ⅱ，再从形式Ⅱ到形式Ⅲ，都发生了实质变化。",
+      "start_ms": 160,
+      "end_ms": 9520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch01-s03-n0392",
+      "text": "形式Ⅳ却同形式Ⅲ没有任何区别，唯一不同的是，取得一般等价形式的不再是麻布，而是黄金。",
+      "start_ms": 10400,
+      "end_ms": 23360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch01-s03-n0393",
+      "text": "在形式Ⅳ中，黄金仍然扮演麻布在形式Ⅲ中的角色，也就是一般等价物。",
+      "start_ms": 24520,
+      "end_ms": 35720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch01-s03-n0394",
+      "text": "这里的进展只在于，社会习惯最终把可以同一切商品直接交换的形式，也就是一般等价形式，固定在黄金这种商品的具体自然形态上。",
+      "start_ms": 36440,
+      "end_ms": 55800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch01-s03-n0395",
+      "text": "黄金之所以能以货币身份同其他商品相对，是因为它早已先以普通商品的身份同它们相对。",
+      "start_ms": 56680,
+      "end_ms": 69360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch01-s03-n0396",
+      "text": "与其他商品一样，黄金也曾充当等价物。",
+      "start_ms": 70160,
+      "end_ms": 75600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch01-s03-n0397",
+      "text": "在个别交换中，它曾是单个等价物。",
+      "start_ms": 80,
+      "end_ms": 3520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch01-s03-n0398",
+      "text": "在其他许多商品等价物旁边，它也曾是一个特殊等价物。",
+      "start_ms": 4200,
+      "end_ms": 8840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch01-s03-n0399",
+      "text": "后来，黄金逐渐在较小或较大的范围内充当一般等价物。",
+      "start_ms": 9640,
+      "end_ms": 14920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch01-s03-n0400",
+      "text": "只有当它在整个商品世界的价值表现中独占这个位置时，它才成为货币商品。",
+      "start_ms": 15760,
+      "end_ms": 22560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch01-s03-n0401",
+      "text": "也只有从黄金已经成为货币商品的那一刻起，形式Ⅳ才同形式Ⅲ有所不同，也就是说，普遍价值形式才转变成货币形式。",
+      "start_ms": 23080,
+      "end_ms": 33760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch01-s03-n0402",
+      "text": "如果一种商品，比如麻布，用一种已经充当货币商品的商品，比如黄金，简单地表现自己的相对价值，这就是价格形式。",
+      "start_ms": 34440,
+      "end_ms": 44080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch01-s03-n0403",
+      "text": "因此，麻布的“价格形式”是：",
+      "start_ms": 0,
+      "end_ms": 3757,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch01-s03-n0404",
+      "text": "20码麻布＝2盎司黄金",
+      "start_ms": 3757,
+      "end_ms": 6710,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch01-s03-n0405",
+      "text": "或者，如果“2英镑”是2盎司黄金的货币名称，那么还可以写成：",
+      "start_ms": 6710,
+      "end_ms": 14761,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch01-s03-n0406",
+      "text": "20码麻布＝2英镑。",
+      "start_ms": 14761,
+      "end_ms": 17445,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch01-s03-n0407",
+      "text": "理解货币形式，难点其实只在于理解一般等价形式，也就是一般价值形式，即形式Ⅲ。",
+      "start_ms": 17445,
+      "end_ms": 27644,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch01-s03-n0408",
+      "text": "形式Ⅲ倒过来就是展开的价值形式，即形式Ⅱ。",
+      "start_ms": 27644,
+      "end_ms": 33280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch01-s03-n0409",
+      "text": "形式Ⅱ又由形式Ⅰ这样的简单等式组成：“20码麻布＝1件上衣”，或者一般地说，“x量商品A＝y量商品B”。",
+      "start_ms": 0,
+      "end_ms": 14853,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch01-s03-n0410",
+      "text": "因此，简单商品形式就是货币形式的萌芽。",
+      "start_ms": 14853,
+      "end_ms": 20280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0069"
+    }
+  ]
+}

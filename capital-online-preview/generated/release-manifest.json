@@ -1,7 +1,7 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-02T17:45:56.104Z",
+  "generatedAt": "2026-08-02T19:22:41.860Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 16,
@@ -30,28 +30,32 @@
               "number": 1,
               "title": "商品的两个因素：使用价值和价值",
               "versionId": "ch01-s01-v9",
-              "contentPath": "/content/ch01-s01.json"
+              "contentPath": "/content/ch01-s01.json",
+              "audioManifestPath": "/audio/ch01-s01-v9-audio-f0d1ec297b30/manifest.json"
             },
             {
               "id": "ch01-s02",
               "number": 2,
               "title": "商品中所包含的劳动的双重性质",
               "versionId": "ch01-s02-v4",
-              "contentPath": "/content/ch01-s02.json"
+              "contentPath": "/content/ch01-s02.json",
+              "audioManifestPath": "/audio/ch01-s02-v4-audio-cd2e0eddb84d/manifest.json"
             },
             {
               "id": "ch01-s03",
               "number": 3,
               "title": "价值形式或交换价值",
               "versionId": "ch01-s03-v1",
-              "contentPath": "/content/ch01-s03.json"
+              "contentPath": "/content/ch01-s03.json",
+              "audioManifestPath": "/audio/ch01-s03-v1-audio-7000d28886ce/manifest.json"
             },
             {
               "id": "ch01-s04",
               "number": 4,
               "title": "商品的拜物教性质及其秘密",
               "versionId": "ch01-s04-v1",
-              "contentPath": "/content/ch01-s04.json"
+              "contentPath": "/content/ch01-s04.json",
+              "audioManifestPath": "/audio/ch01-s04-v1-audio-74d1b370e525/manifest.json"
             }
           ]
         },
@@ -66,7 +70,8 @@
               "number": 1,
               "title": "交换过程",
               "versionId": "ch02-s01-v1",
-              "contentPath": "/content/ch02-s01.json"
+              "contentPath": "/content/ch02-s01.json",
+              "audioManifestPath": "/audio/ch02-s01-v1-audio-57c4718e47d9/manifest.json"
             }
           ]
         },
@@ -81,21 +86,24 @@
               "number": 1,
               "title": "价值尺度",
               "versionId": "ch03-s01-v1",
-              "contentPath": "/content/ch03-s01.json"
+              "contentPath": "/content/ch03-s01.json",
+              "audioManifestPath": "/audio/ch03-s01-v1-audio-5c697a4ad3ac/manifest.json"
             },
             {
               "id": "ch03-s02",
               "number": 2,
               "title": "流通手段",
               "versionId": "ch03-s02-v1",
-              "contentPath": "/content/ch03-s02.json"
+              "contentPath": "/content/ch03-s02.json",
+              "audioManifestPath": "/audio/ch03-s02-v1-audio-111b4c509652/manifest.json"
             },
             {
               "id": "ch03-s03",
               "number": 3,
               "title": "货币",
               "versionId": "ch03-s03-v1",
-              "contentPath": "/content/ch03-s03.json"
+              "contentPath": "/content/ch03-s03.json",
+              "audioManifestPath": "/audio/ch03-s03-v1-audio-e406bf5e16e0/manifest.json"
             }
           ]
         }
@@ -466,7 +474,8 @@
               "number": 1,
               "title": "绝对剩余价值和相对剩余价值",
               "versionId": "ch14-s01-v1",
-              "contentPath": "/content/ch14-s01.json"
+              "contentPath": "/content/ch14-s01.json",
+              "audioManifestPath": "/audio/ch14-s01-v1-audio-4d9e21e4f818/manifest.json"
             }
           ]
         },

@@ -1,0 +1,4681 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch03-s02-v1-audio-111b4c509652",
+  "unit_id": "ch03-s02",
+  "translation_version_id": "ch03-s02-v1",
+  "translation_sha256": "b5d57c8695ed283ac9cf8bbc49daccad69319c48cba934dc26d9eb04e324483b",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T18:49:50.762Z",
+  "completed_at": "2026-08-02T19:09:15.209Z",
+  "duration_ms": 3501623,
+  "sentence_count": 444,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 38739,
+      "bytes": 620588,
+      "sha256": "212e719443324951fa5dae73907051b545f7238e9f8e6256a7b99d775174e628",
+      "sentence_ids": [
+        "ch03-s02-n0001",
+        "ch03-s02-n0002",
+        "ch03-s02-n0003",
+        "ch03-s02-n0004",
+        "ch03-s02-n0005",
+        "ch03-s02-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 38950,
+      "bytes": 623660,
+      "sha256": "cb6764b77ade22f8d3ee3b3abb921f842858f64c3af1d14b033ba033ac81a3de",
+      "sentence_ids": [
+        "ch03-s02-n0007",
+        "ch03-s02-n0008",
+        "ch03-s02-n0009",
+        "ch03-s02-n0010",
+        "ch03-s02-n0011",
+        "ch03-s02-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 56700,
+      "bytes": 907820,
+      "sha256": "9c3e002ed71e43c6f0dc84819e6b5bfc68b0d9e77d219613fd19ae476d56c3b9",
+      "sentence_ids": [
+        "ch03-s02-n0013",
+        "ch03-s02-n0014",
+        "ch03-s02-n0015",
+        "ch03-s02-n0016",
+        "ch03-s02-n0017",
+        "ch03-s02-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 37006,
+      "bytes": 592556,
+      "sha256": "918512edfb76ddfcd6af40910338cd0e49379b6dc7387449ee8a1aa8215f10b3",
+      "sentence_ids": [
+        "ch03-s02-n0019",
+        "ch03-s02-n0020",
+        "ch03-s02-n0021",
+        "ch03-s02-n0022",
+        "ch03-s02-n0023",
+        "ch03-s02-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 40859,
+      "bytes": 654380,
+      "sha256": "e41f733bc5ab342a72bad1c6380495263676d44b55fcd4b310decfec490027ff",
+      "sentence_ids": [
+        "ch03-s02-n0025",
+        "ch03-s02-n0026",
+        "ch03-s02-n0027",
+        "ch03-s02-n0028",
+        "ch03-s02-n0029",
+        "ch03-s02-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 64000,
+      "bytes": 1024556,
+      "sha256": "df2bb365c78026864e39090ef658d8dd138a2181d9d37ff14bac0b429d84faef",
+      "sentence_ids": [
+        "ch03-s02-n0031",
+        "ch03-s02-n0032",
+        "ch03-s02-n0033",
+        "ch03-s02-n0034",
+        "ch03-s02-n0035",
+        "ch03-s02-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 27800,
+      "bytes": 445484,
+      "sha256": "cecaa3391d3f59101d5a24d1f9ba857f21c1a6597a12f0e8d58025139ea04fd3",
+      "sentence_ids": [
+        "ch03-s02-n0037",
+        "ch03-s02-n0038",
+        "ch03-s02-n0039",
+        "ch03-s02-n0040",
+        "ch03-s02-n0041",
+        "ch03-s02-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 35200,
+      "bytes": 563756,
+      "sha256": "4f7f78dddf247041b3fd109545f617d645bb42ca0452e11b42364cc0a3d5cd2f",
+      "sentence_ids": [
+        "ch03-s02-n0043",
+        "ch03-s02-n0044",
+        "ch03-s02-n0045",
+        "ch03-s02-n0046",
+        "ch03-s02-n0047",
+        "ch03-s02-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 43480,
+      "bytes": 696236,
+      "sha256": "d7c06e9828ab7930f148694e56afb2f9667d9a00a829b756cc2cf781fbf7e70e",
+      "sentence_ids": [
+        "ch03-s02-n0049",
+        "ch03-s02-n0050",
+        "ch03-s02-n0051",
+        "ch03-s02-n0052",
+        "ch03-s02-n0053",
+        "ch03-s02-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 31883,
+      "bytes": 510764,
+      "sha256": "96c2293b2314099ae63be84d8050636477190c7cd347071106827031118ace3f",
+      "sentence_ids": [
+        "ch03-s02-n0055",
+        "ch03-s02-n0056",
+        "ch03-s02-n0057",
+        "ch03-s02-n0058",
+        "ch03-s02-n0059",
+        "ch03-s02-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 55580,
+      "bytes": 889772,
+      "sha256": "1599dddc0914e325e24beaf28e20cb5636391d5ca6bf8199a1d494d6845cd189",
+      "sentence_ids": [
+        "ch03-s02-n0061",
+        "ch03-s02-n0062",
+        "ch03-s02-n0063",
+        "ch03-s02-n0064",
+        "ch03-s02-n0065",
+        "ch03-s02-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 34224,
+      "bytes": 548396,
+      "sha256": "c9674eeefde38baed01e37b7ade4de2ca482f871d62699d0478b62a83bbd5012",
+      "sentence_ids": [
+        "ch03-s02-n0067",
+        "ch03-s02-n0068",
+        "ch03-s02-n0069",
+        "ch03-s02-n0070",
+        "ch03-s02-n0071",
+        "ch03-s02-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 44700,
+      "bytes": 715820,
+      "sha256": "16c6750177917db94cd724a30e95d5fecfd1938bf8e715cf899c2c7270f8aa72",
+      "sentence_ids": [
+        "ch03-s02-n0073",
+        "ch03-s02-n0074",
+        "ch03-s02-n0075",
+        "ch03-s02-n0076",
+        "ch03-s02-n0077",
+        "ch03-s02-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 40613,
+      "bytes": 650540,
+      "sha256": "3238f2c267da289ec72282187f6b6e9d06caf967fd4af2ab4b0c60662a327f71",
+      "sentence_ids": [
+        "ch03-s02-n0079",
+        "ch03-s02-n0080",
+        "ch03-s02-n0081",
+        "ch03-s02-n0082",
+        "ch03-s02-n0083",
+        "ch03-s02-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 63290,
+      "bytes": 1013420,
+      "sha256": "b7249d0601c7b0d3dc56ad3a0d3403c70d68c42ff7db76ee3b3f251162cc7c4c",
+      "sentence_ids": [
+        "ch03-s02-n0085",
+        "ch03-s02-n0086",
+        "ch03-s02-n0087",
+        "ch03-s02-n0088",
+        "ch03-s02-n0089",
+        "ch03-s02-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 42700,
+      "bytes": 683948,
+      "sha256": "10f0eece6b254fc1f032e9e275e538100859d246f02237a6f5cc716ea923ccd8",
+      "sentence_ids": [
+        "ch03-s02-n0091",
+        "ch03-s02-n0092",
+        "ch03-s02-n0093",
+        "ch03-s02-n0094",
+        "ch03-s02-n0095",
+        "ch03-s02-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 34150,
+      "bytes": 546860,
+      "sha256": "f4ad068b7d715ee4986fbacca67648af502d6a3f027be091b3550d4126281054",
+      "sentence_ids": [
+        "ch03-s02-n0097",
+        "ch03-s02-n0098",
+        "ch03-s02-n0099",
+        "ch03-s02-n0100",
+        "ch03-s02-n0101",
+        "ch03-s02-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 47177,
+      "bytes": 755372,
+      "sha256": "ff21790fe7ab25b2de6355d56881d89b4f839dce41d08b2b4c6dceceaa79c6d4",
+      "sentence_ids": [
+        "ch03-s02-n0103",
+        "ch03-s02-n0104",
+        "ch03-s02-n0105",
+        "ch03-s02-n0106",
+        "ch03-s02-n0107",
+        "ch03-s02-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 47080,
+      "bytes": 753836,
+      "sha256": "762dbf38c8e572efd886249666dff44dd122c778f5cd3147f639d45a5889b529",
+      "sentence_ids": [
+        "ch03-s02-n0109",
+        "ch03-s02-n0110",
+        "ch03-s02-n0111",
+        "ch03-s02-n0112",
+        "ch03-s02-n0113",
+        "ch03-s02-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 40652,
+      "bytes": 650924,
+      "sha256": "8e6657e20b94284402e6406c73f771905e65e79efce84ceb77dcbb44c3fb2885",
+      "sentence_ids": [
+        "ch03-s02-n0115",
+        "ch03-s02-n0116",
+        "ch03-s02-n0117",
+        "ch03-s02-n0118",
+        "ch03-s02-n0119",
+        "ch03-s02-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 67924,
+      "bytes": 1087532,
+      "sha256": "e42ee38f596c15cf8df1630e1a29144f111d7c3ad456a20e96c97f7bc832fff0",
+      "sentence_ids": [
+        "ch03-s02-n0121",
+        "ch03-s02-n0122",
+        "ch03-s02-n0123",
+        "ch03-s02-n0124",
+        "ch03-s02-n0125",
+        "ch03-s02-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 45749,
+      "bytes": 732716,
+      "sha256": "e6cdcb4f2258634b817cf6faccb742b5efc1329581e2ed5e0d15945d294026ac",
+      "sentence_ids": [
+        "ch03-s02-n0127",
+        "ch03-s02-n0128",
+        "ch03-s02-n0129",
+        "ch03-s02-n0130",
+        "ch03-s02-n0131",
+        "ch03-s02-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 46190,
+      "bytes": 739628,
+      "sha256": "458ee654d30d8ad0772250471704704aab3f275a700c33a74a244bba2b3a5800",
+      "sentence_ids": [
+        "ch03-s02-n0133",
+        "ch03-s02-n0134",
+        "ch03-s02-n0135",
+        "ch03-s02-n0136",
+        "ch03-s02-n0137",
+        "ch03-s02-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 42391,
+      "bytes": 678956,
+      "sha256": "03cf9bff324771a47e48dd3a4a43924dd0d903058ea4cfcc632e60c03a3fa2cb",
+      "sentence_ids": [
+        "ch03-s02-n0139",
+        "ch03-s02-n0140",
+        "ch03-s02-n0141",
+        "ch03-s02-n0142",
+        "ch03-s02-n0143",
+        "ch03-s02-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 65680,
+      "bytes": 1051436,
+      "sha256": "cb0ac464d9f32e48d08e1d9b30432ab0bfb48e0773bec37eaeb1a15441724e22",
+      "sentence_ids": [
+        "ch03-s02-n0145",
+        "ch03-s02-n0146",
+        "ch03-s02-n0147",
+        "ch03-s02-n0148",
+        "ch03-s02-n0149",
+        "ch03-s02-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 41700,
+      "bytes": 667820,
+      "sha256": "82baf7cad86103c3aaccc6b050624d36c2eb8327e29e7140bf16479bfe399950",
+      "sentence_ids": [
+        "ch03-s02-n0151",
+        "ch03-s02-n0152",
+        "ch03-s02-n0153",
+        "ch03-s02-n0154",
+        "ch03-s02-n0155",
+        "ch03-s02-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 32658,
+      "bytes": 523052,
+      "sha256": "9eb8ab798421e534585f588933f60b64c60a76ed91aa5c371a2a7fbdf5ccacba",
+      "sentence_ids": [
+        "ch03-s02-n0157",
+        "ch03-s02-n0158",
+        "ch03-s02-n0159",
+        "ch03-s02-n0160",
+        "ch03-s02-n0161",
+        "ch03-s02-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 42712,
+      "bytes": 683948,
+      "sha256": "9d8cbc2dc3861f1466e8b721e603fb2c3a8aef534bb8c08cd1584e9821630157",
+      "sentence_ids": [
+        "ch03-s02-n0163",
+        "ch03-s02-n0164",
+        "ch03-s02-n0165",
+        "ch03-s02-n0166",
+        "ch03-s02-n0167",
+        "ch03-s02-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 60080,
+      "bytes": 961964,
+      "sha256": "60d56d03479ef090231efb35bb8aa7f5473a510f8c4e79eed906feb23153627f",
+      "sentence_ids": [
+        "ch03-s02-n0169",
+        "ch03-s02-n0170",
+        "ch03-s02-n0171",
+        "ch03-s02-n0172",
+        "ch03-s02-n0173",
+        "ch03-s02-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 43544,
+      "bytes": 697388,
+      "sha256": "574ad1a41547caffd1e69486863244b9fca82ad59ae5212a23977d79a6c8aead",
+      "sentence_ids": [
+        "ch03-s02-n0175",
+        "ch03-s02-n0176",
+        "ch03-s02-n0177",
+        "ch03-s02-n0178",
+        "ch03-s02-n0179",
+        "ch03-s02-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 35667,
+      "bytes": 571436,
+      "sha256": "d2f89bb779fc19e9d756828a56867e3f62cd902c97d471ca71875b6bccdf956a",
+      "sentence_ids": [
+        "ch03-s02-n0181",
+        "ch03-s02-n0182",
+        "ch03-s02-n0183",
+        "ch03-s02-n0184",
+        "ch03-s02-n0185",
+        "ch03-s02-n0186"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 38697,
+      "bytes": 619820,
+      "sha256": "b04257495f14c5e1f6fb18fcf4f13a668558bc5f43da45d6f37e678e04c8fb44",
+      "sentence_ids": [
+        "ch03-s02-n0187",
+        "ch03-s02-n0188",
+        "ch03-s02-n0189",
+        "ch03-s02-n0190",
+        "ch03-s02-n0191",
+        "ch03-s02-n0192"
+      ]
+    },
+    {
+      "id": "c0033",
+      "audio_file": "c0033.mp3",
+      "duration_ms": 46900,
+      "bytes": 751148,
+      "sha256": "7c83009c69f516716ba89175d14f9730ee7c78ed56a30a3122988e3912c8ef40",
+      "sentence_ids": [
+        "ch03-s02-n0193",
+        "ch03-s02-n0194",
+        "ch03-s02-n0195",
+        "ch03-s02-n0196",
+        "ch03-s02-n0197",
+        "ch03-s02-n0198"
+      ]
+    },
+    {
+      "id": "c0034",
+      "audio_file": "c0034.mp3",
+      "duration_ms": 78800,
+      "bytes": 1261484,
+      "sha256": "d7442f33e4b090d0ba988b536c0d8a22dbead6d6d60bfe4f51acf770a52766d1",
+      "sentence_ids": [
+        "ch03-s02-n0199",
+        "ch03-s02-n0200",
+        "ch03-s02-n0201",
+        "ch03-s02-n0202",
+        "ch03-s02-n0203",
+        "ch03-s02-n0204"
+      ]
+    },
+    {
+      "id": "c0035",
+      "audio_file": "c0035.mp3",
+      "duration_ms": 37103,
+      "bytes": 594092,
+      "sha256": "5f68f70ceabe1f0f59a71f84bc5fd5b7aaa08e8beb66888d6e559a980d9483ac",
+      "sentence_ids": [
+        "ch03-s02-n0205",
+        "ch03-s02-n0206",
+        "ch03-s02-n0207",
+        "ch03-s02-n0208",
+        "ch03-s02-n0209",
+        "ch03-s02-n0210"
+      ]
+    },
+    {
+      "id": "c0036",
+      "audio_file": "c0036.mp3",
+      "duration_ms": 43116,
+      "bytes": 690476,
+      "sha256": "3628dc131aca80622e89365aa08bbb9b6a3ee2b0d87b5dbe46651e31d61c39e9",
+      "sentence_ids": [
+        "ch03-s02-n0211",
+        "ch03-s02-n0212",
+        "ch03-s02-n0213",
+        "ch03-s02-n0214",
+        "ch03-s02-n0215",
+        "ch03-s02-n0216"
+      ]
+    },
+    {
+      "id": "c0037",
+      "audio_file": "c0037.mp3",
+      "duration_ms": 48780,
+      "bytes": 781100,
+      "sha256": "bd7f112492e692a44747016a187a2e9f0325455f0e5955a4b01b354dd3022854",
+      "sentence_ids": [
+        "ch03-s02-n0217",
+        "ch03-s02-n0218",
+        "ch03-s02-n0219",
+        "ch03-s02-n0220",
+        "ch03-s02-n0221",
+        "ch03-s02-n0222"
+      ]
+    },
+    {
+      "id": "c0038",
+      "audio_file": "c0038.mp3",
+      "duration_ms": 31200,
+      "bytes": 499628,
+      "sha256": "1043e1bbb04db33691fb228e0d1e7ce3235b1a2eb1b32ee17ff733762afc3a4d",
+      "sentence_ids": [
+        "ch03-s02-n0223",
+        "ch03-s02-n0224",
+        "ch03-s02-n0225",
+        "ch03-s02-n0226",
+        "ch03-s02-n0227",
+        "ch03-s02-n0228"
+      ]
+    },
+    {
+      "id": "c0039",
+      "audio_file": "c0039.mp3",
+      "duration_ms": 49744,
+      "bytes": 796460,
+      "sha256": "d06abf9aa2a0eb129d1449472cf885e04629b2bd3431056a105f93826cd410e2",
+      "sentence_ids": [
+        "ch03-s02-n0229",
+        "ch03-s02-n0230",
+        "ch03-s02-n0231",
+        "ch03-s02-n0232",
+        "ch03-s02-n0233",
+        "ch03-s02-n0234"
+      ]
+    },
+    {
+      "id": "c0040",
+      "audio_file": "c0040.mp3",
+      "duration_ms": 34900,
+      "bytes": 559148,
+      "sha256": "c49465b2173c932432cde6af032c4d36ca5058811529cb2b1cf0b4f639fb57cd",
+      "sentence_ids": [
+        "ch03-s02-n0235",
+        "ch03-s02-n0236",
+        "ch03-s02-n0237",
+        "ch03-s02-n0238",
+        "ch03-s02-n0239",
+        "ch03-s02-n0240"
+      ]
+    },
+    {
+      "id": "c0041",
+      "audio_file": "c0041.mp3",
+      "duration_ms": 47280,
+      "bytes": 756908,
+      "sha256": "dd05d419a0c74652829c2c667c3a26f824674f8c44637cbada2457c0a7f8b72b",
+      "sentence_ids": [
+        "ch03-s02-n0241",
+        "ch03-s02-n0242",
+        "ch03-s02-n0243",
+        "ch03-s02-n0244",
+        "ch03-s02-n0245",
+        "ch03-s02-n0246"
+      ]
+    },
+    {
+      "id": "c0042",
+      "audio_file": "c0042.mp3",
+      "duration_ms": 55813,
+      "bytes": 893612,
+      "sha256": "f58144c187cb6a0151e4c70948d86a91f85c533be87b8de95f5855324772d654",
+      "sentence_ids": [
+        "ch03-s02-n0247",
+        "ch03-s02-n0248",
+        "ch03-s02-n0249",
+        "ch03-s02-n0250",
+        "ch03-s02-n0251",
+        "ch03-s02-n0252"
+      ]
+    },
+    {
+      "id": "c0043",
+      "audio_file": "c0043.mp3",
+      "duration_ms": 43947,
+      "bytes": 703916,
+      "sha256": "ec33d7e971b62f7e3ae57ea18ff7f3952a68ac866f5599c6cc6dd403b5a3c926",
+      "sentence_ids": [
+        "ch03-s02-n0253",
+        "ch03-s02-n0254",
+        "ch03-s02-n0255",
+        "ch03-s02-n0256",
+        "ch03-s02-n0257",
+        "ch03-s02-n0258"
+      ]
+    },
+    {
+      "id": "c0044",
+      "audio_file": "c0044.mp3",
+      "duration_ms": 47291,
+      "bytes": 757292,
+      "sha256": "5178968fa401f16bb60439779e86bdd7749c3bd77f033eea4de3e97a20e3e180",
+      "sentence_ids": [
+        "ch03-s02-n0259",
+        "ch03-s02-n0260",
+        "ch03-s02-n0261",
+        "ch03-s02-n0262",
+        "ch03-s02-n0263",
+        "ch03-s02-n0264"
+      ]
+    },
+    {
+      "id": "c0045",
+      "audio_file": "c0045.mp3",
+      "duration_ms": 56200,
+      "bytes": 899756,
+      "sha256": "89fe0284ed9ffc47c614f221c10744fda32b91ecc2ca408da8cada851949df1d",
+      "sentence_ids": [
+        "ch03-s02-n0265",
+        "ch03-s02-n0266",
+        "ch03-s02-n0267",
+        "ch03-s02-n0268",
+        "ch03-s02-n0269",
+        "ch03-s02-n0270"
+      ]
+    },
+    {
+      "id": "c0046",
+      "audio_file": "c0046.mp3",
+      "duration_ms": 38000,
+      "bytes": 608684,
+      "sha256": "1a15ded20a859d12dcdc24fc820a3bd4375bd7a431fc287e5ed7f0509a6be2de",
+      "sentence_ids": [
+        "ch03-s02-n0271",
+        "ch03-s02-n0272",
+        "ch03-s02-n0273",
+        "ch03-s02-n0274",
+        "ch03-s02-n0275",
+        "ch03-s02-n0276"
+      ]
+    },
+    {
+      "id": "c0047",
+      "audio_file": "c0047.mp3",
+      "duration_ms": 40363,
+      "bytes": 646316,
+      "sha256": "759939edfd89b414d8d7ca96e825708751c7ca454379380b03641dc50d6ea851",
+      "sentence_ids": [
+        "ch03-s02-n0277",
+        "ch03-s02-n0278",
+        "ch03-s02-n0279",
+        "ch03-s02-n0280",
+        "ch03-s02-n0281",
+        "ch03-s02-n0282"
+      ]
+    },
+    {
+      "id": "c0048",
+      "audio_file": "c0048.mp3",
+      "duration_ms": 38594,
+      "bytes": 618284,
+      "sha256": "ebda7393f09df831b1a947cf0a09d22ed01912a6d726ebe456db10797c822ecb",
+      "sentence_ids": [
+        "ch03-s02-n0283",
+        "ch03-s02-n0284",
+        "ch03-s02-n0285",
+        "ch03-s02-n0286",
+        "ch03-s02-n0287",
+        "ch03-s02-n0288"
+      ]
+    },
+    {
+      "id": "c0049",
+      "audio_file": "c0049.mp3",
+      "duration_ms": 50825,
+      "bytes": 813740,
+      "sha256": "176f20b54ba8bf624ca1cfc68b58d459fffadba78700fdf5406e4615566aa57a",
+      "sentence_ids": [
+        "ch03-s02-n0289",
+        "ch03-s02-n0290",
+        "ch03-s02-n0291",
+        "ch03-s02-n0292",
+        "ch03-s02-n0293",
+        "ch03-s02-n0294"
+      ]
+    },
+    {
+      "id": "c0050",
+      "audio_file": "c0050.mp3",
+      "duration_ms": 66180,
+      "bytes": 1059500,
+      "sha256": "431f5a455f41205d0c6c4e9612a615eb6c246307ffca59469722f357bd285d29",
+      "sentence_ids": [
+        "ch03-s02-n0295",
+        "ch03-s02-n0296",
+        "ch03-s02-n0297",
+        "ch03-s02-n0298",
+        "ch03-s02-n0299",
+        "ch03-s02-n0300"
+      ]
+    },
+    {
+      "id": "c0051",
+      "audio_file": "c0051.mp3",
+      "duration_ms": 36236,
+      "bytes": 580268,
+      "sha256": "24dfa4593449a1ab8ab193e02acaf9aad740e750ed4f83a4c7ed815b6a9c83f5",
+      "sentence_ids": [
+        "ch03-s02-n0301",
+        "ch03-s02-n0302",
+        "ch03-s02-n0303",
+        "ch03-s02-n0304",
+        "ch03-s02-n0305",
+        "ch03-s02-n0306"
+      ]
+    },
+    {
+      "id": "c0052",
+      "audio_file": "c0052.mp3",
+      "duration_ms": 65900,
+      "bytes": 1054892,
+      "sha256": "3961609bcc9718192762c176c807e8084e0da72af79f878d730358b425bb3316",
+      "sentence_ids": [
+        "ch03-s02-n0307",
+        "ch03-s02-n0308",
+        "ch03-s02-n0309",
+        "ch03-s02-n0310",
+        "ch03-s02-n0311",
+        "ch03-s02-n0312"
+      ]
+    },
+    {
+      "id": "c0053",
+      "audio_file": "c0053.mp3",
+      "duration_ms": 65300,
+      "bytes": 1045292,
+      "sha256": "ebbda4a2711b9762ec05c357b639430d7a29e07aa8fab3632ea120fe69367c34",
+      "sentence_ids": [
+        "ch03-s02-n0313",
+        "ch03-s02-n0314",
+        "ch03-s02-n0315",
+        "ch03-s02-n0316",
+        "ch03-s02-n0317",
+        "ch03-s02-n0318"
+      ]
+    },
+    {
+      "id": "c0054",
+      "audio_file": "c0054.mp3",
+      "duration_ms": 35599,
+      "bytes": 570284,
+      "sha256": "41aeb66aa8bb759cc09c2668965785eb767310c788a8d68fec0b8f8f5131dcc5",
+      "sentence_ids": [
+        "ch03-s02-n0319",
+        "ch03-s02-n0320",
+        "ch03-s02-n0321",
+        "ch03-s02-n0322",
+        "ch03-s02-n0323",
+        "ch03-s02-n0324"
+      ]
+    },
+    {
+      "id": "c0055",
+      "audio_file": "c0055.mp3",
+      "duration_ms": 64900,
+      "bytes": 1039148,
+      "sha256": "4648689d9f23c9e9e2c9c756b502e7d737a078cb5df5800d3014e16906eee759",
+      "sentence_ids": [
+        "ch03-s02-n0325",
+        "ch03-s02-n0326",
+        "ch03-s02-n0327",
+        "ch03-s02-n0328",
+        "ch03-s02-n0329",
+        "ch03-s02-n0330"
+      ]
+    },
+    {
+      "id": "c0056",
+      "audio_file": "c0056.mp3",
+      "duration_ms": 33026,
+      "bytes": 529196,
+      "sha256": "6da91d1358ada5fcb3ecb2e87d99846985a997960872dae9a5e056034ea94287",
+      "sentence_ids": [
+        "ch03-s02-n0331",
+        "ch03-s02-n0332",
+        "ch03-s02-n0333",
+        "ch03-s02-n0334",
+        "ch03-s02-n0335",
+        "ch03-s02-n0336"
+      ]
+    },
+    {
+      "id": "c0057",
+      "audio_file": "c0057.mp3",
+      "duration_ms": 77580,
+      "bytes": 1241900,
+      "sha256": "88a4002a6c1699bba181176ca26ebb6c2ccab1e6d873ec023a0334944c723402",
+      "sentence_ids": [
+        "ch03-s02-n0337",
+        "ch03-s02-n0338",
+        "ch03-s02-n0339",
+        "ch03-s02-n0340",
+        "ch03-s02-n0341",
+        "ch03-s02-n0342"
+      ]
+    },
+    {
+      "id": "c0058",
+      "audio_file": "c0058.mp3",
+      "duration_ms": 40575,
+      "bytes": 649772,
+      "sha256": "0be1b5feeff1fe090a412bcd52415f5e808fea6c0a6f3a6165ba668e9217254a",
+      "sentence_ids": [
+        "ch03-s02-n0343",
+        "ch03-s02-n0344",
+        "ch03-s02-n0345",
+        "ch03-s02-n0346",
+        "ch03-s02-n0347",
+        "ch03-s02-n0348"
+      ]
+    },
+    {
+      "id": "c0059",
+      "audio_file": "c0059.mp3",
+      "duration_ms": 45395,
+      "bytes": 726956,
+      "sha256": "9b52ade8540d88cc3ac44787b6f4e5b384ffd2f560f22a735d9c631702ed95c4",
+      "sentence_ids": [
+        "ch03-s02-n0349",
+        "ch03-s02-n0350",
+        "ch03-s02-n0351",
+        "ch03-s02-n0352",
+        "ch03-s02-n0353",
+        "ch03-s02-n0354"
+      ]
+    },
+    {
+      "id": "c0060",
+      "audio_file": "c0060.mp3",
+      "duration_ms": 59400,
+      "bytes": 950828,
+      "sha256": "4e73c920898160f6c2afecbead44af2e72ecc9eaada6fce0f8e9ec2678fc6386",
+      "sentence_ids": [
+        "ch03-s02-n0355",
+        "ch03-s02-n0356",
+        "ch03-s02-n0357",
+        "ch03-s02-n0358",
+        "ch03-s02-n0359",
+        "ch03-s02-n0360"
+      ]
+    },
+    {
+      "id": "c0061",
+      "audio_file": "c0061.mp3",
+      "duration_ms": 59123,
+      "bytes": 946604,
+      "sha256": "f4fef7538e950187faca0aef96af0eb6c0e1c69a97c600c7de352a14b7b79eab",
+      "sentence_ids": [
+        "ch03-s02-n0361",
+        "ch03-s02-n0362",
+        "ch03-s02-n0363",
+        "ch03-s02-n0364",
+        "ch03-s02-n0365",
+        "ch03-s02-n0366"
+      ]
+    },
+    {
+      "id": "c0062",
+      "audio_file": "c0062.mp3",
+      "duration_ms": 61400,
+      "bytes": 983084,
+      "sha256": "c664bdc4996bcba93ae26b0f0dfb99e050c72d511f5f9858c58ce8fd9cb722d0",
+      "sentence_ids": [
+        "ch03-s02-n0367",
+        "ch03-s02-n0368",
+        "ch03-s02-n0369",
+        "ch03-s02-n0370",
+        "ch03-s02-n0371",
+        "ch03-s02-n0372"
+      ]
+    },
+    {
+      "id": "c0063",
+      "audio_file": "c0063.mp3",
+      "duration_ms": 29888,
+      "bytes": 478892,
+      "sha256": "46f5adc20f146a5a835266abce460bae83d1e23aaa4142671a478038e2905397",
+      "sentence_ids": [
+        "ch03-s02-n0373",
+        "ch03-s02-n0374",
+        "ch03-s02-n0375",
+        "ch03-s02-n0376",
+        "ch03-s02-n0377",
+        "ch03-s02-n0378"
+      ]
+    },
+    {
+      "id": "c0064",
+      "audio_file": "c0064.mp3",
+      "duration_ms": 40502,
+      "bytes": 648620,
+      "sha256": "ba5f9845ab96a7815f698ed54d0adcdbf21b4efcd22e0ee3e7343b3444cf5a49",
+      "sentence_ids": [
+        "ch03-s02-n0379",
+        "ch03-s02-n0380",
+        "ch03-s02-n0381",
+        "ch03-s02-n0382",
+        "ch03-s02-n0383",
+        "ch03-s02-n0384"
+      ]
+    },
+    {
+      "id": "c0065",
+      "audio_file": "c0065.mp3",
+      "duration_ms": 48373,
+      "bytes": 774572,
+      "sha256": "2584d99fc4cc39f4e1c70ecc39aa629096b5bf4506d6a0ec43e563067b3f5b6a",
+      "sentence_ids": [
+        "ch03-s02-n0385",
+        "ch03-s02-n0386",
+        "ch03-s02-n0387",
+        "ch03-s02-n0388",
+        "ch03-s02-n0389",
+        "ch03-s02-n0390"
+      ]
+    },
+    {
+      "id": "c0066",
+      "audio_file": "c0066.mp3",
+      "duration_ms": 39478,
+      "bytes": 632108,
+      "sha256": "c084a7031026948af8fbe4228d764780c6ba59bcafd6bb1d176ff196fb5d5800",
+      "sentence_ids": [
+        "ch03-s02-n0391",
+        "ch03-s02-n0392",
+        "ch03-s02-n0393",
+        "ch03-s02-n0394",
+        "ch03-s02-n0395",
+        "ch03-s02-n0396"
+      ]
+    },
+    {
+      "id": "c0067",
+      "audio_file": "c0067.mp3",
+      "duration_ms": 36615,
+      "bytes": 586412,
+      "sha256": "9bb379efb466c18786c15029936982ae10b7f762542bed7bf239cb1d38c9c564",
+      "sentence_ids": [
+        "ch03-s02-n0397",
+        "ch03-s02-n0398",
+        "ch03-s02-n0399",
+        "ch03-s02-n0400",
+        "ch03-s02-n0401",
+        "ch03-s02-n0402"
+      ]
+    },
+    {
+      "id": "c0068",
+      "audio_file": "c0068.mp3",
+      "duration_ms": 30529,
+      "bytes": 489260,
+      "sha256": "fad44d047ba8fd5a9b4676b33088a4d151ae6566df2dcd686ffe2c58a7d70738",
+      "sentence_ids": [
+        "ch03-s02-n0403",
+        "ch03-s02-n0404",
+        "ch03-s02-n0405",
+        "ch03-s02-n0406",
+        "ch03-s02-n0407",
+        "ch03-s02-n0408"
+      ]
+    },
+    {
+      "id": "c0069",
+      "audio_file": "c0069.mp3",
+      "duration_ms": 48535,
+      "bytes": 777260,
+      "sha256": "d8857fe24a00db0fd9b90904424d6423c16fb658e0b79d03b56bd0259a2daeb1",
+      "sentence_ids": [
+        "ch03-s02-n0409",
+        "ch03-s02-n0410",
+        "ch03-s02-n0411",
+        "ch03-s02-n0412",
+        "ch03-s02-n0413",
+        "ch03-s02-n0414"
+      ]
+    },
+    {
+      "id": "c0070",
+      "audio_file": "c0070.mp3",
+      "duration_ms": 50488,
+      "bytes": 808364,
+      "sha256": "adca1bd7fe95a1f8803b7cfcb2e0ac31780e83551f61d9f4b8a8e1549352f9d3",
+      "sentence_ids": [
+        "ch03-s02-n0415",
+        "ch03-s02-n0416",
+        "ch03-s02-n0417",
+        "ch03-s02-n0418",
+        "ch03-s02-n0419",
+        "ch03-s02-n0420"
+      ]
+    },
+    {
+      "id": "c0071",
+      "audio_file": "c0071.mp3",
+      "duration_ms": 67300,
+      "bytes": 1077548,
+      "sha256": "dd466917b53419467db6ab93064ac413b3f8b95857ae034a5d742c1c8c18bba7",
+      "sentence_ids": [
+        "ch03-s02-n0421",
+        "ch03-s02-n0422",
+        "ch03-s02-n0423",
+        "ch03-s02-n0424",
+        "ch03-s02-n0425",
+        "ch03-s02-n0426"
+      ]
+    },
+    {
+      "id": "c0072",
+      "audio_file": "c0072.mp3",
+      "duration_ms": 60986,
+      "bytes": 976556,
+      "sha256": "4565d806af6ad0bfac65baedfad4405f38b18b5e80299ff03e6a1d56c4cc4138",
+      "sentence_ids": [
+        "ch03-s02-n0427",
+        "ch03-s02-n0428",
+        "ch03-s02-n0429",
+        "ch03-s02-n0430",
+        "ch03-s02-n0431",
+        "ch03-s02-n0432"
+      ]
+    },
+    {
+      "id": "c0073",
+      "audio_file": "c0073.mp3",
+      "duration_ms": 76996,
+      "bytes": 1232684,
+      "sha256": "c7f8a95366f0e478c116de0d58bd5f805c51af022b172bc872536b4c55502ddf",
+      "sentence_ids": [
+        "ch03-s02-n0433",
+        "ch03-s02-n0434",
+        "ch03-s02-n0435",
+        "ch03-s02-n0436",
+        "ch03-s02-n0437",
+        "ch03-s02-n0438"
+      ]
+    },
+    {
+      "id": "c0074",
+      "audio_file": "c0074.mp3",
+      "duration_ms": 44688,
+      "bytes": 715436,
+      "sha256": "c57a56aefc77b24187d776ab7ee42d687b441397576a14e76f94321e933a7195",
+      "sentence_ids": [
+        "ch03-s02-n0439",
+        "ch03-s02-n0440",
+        "ch03-s02-n0441",
+        "ch03-s02-n0442",
+        "ch03-s02-n0443",
+        "ch03-s02-n0444"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch03-s02-n0001",
+      "text": "前面已经看到，商品交换包含一些彼此矛盾、互相排斥的关系。",
+      "start_ms": 40,
+      "end_ms": 5720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s02-n0002",
+      "text": "商品的发展不会消除这些矛盾，而是创造一种形式，让对立的两方面能够在其中运动。",
+      "start_ms": 6320,
+      "end_ms": 13360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s02-n0003",
+      "text": "现实中的矛盾通常正是这样得到解决的。",
+      "start_ms": 13880,
+      "end_ms": 17160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s02-n0004",
+      "text": "比如，一个物体不断落向另一个物体，同时又不断离开它，这本身就是一个矛盾。",
+      "start_ms": 17720,
+      "end_ms": 23960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s02-n0005",
+      "text": "椭圆轨道提供了一种运动形式，让这两种相反趋势同时实现，矛盾也就在运动中得到解决。",
+      "start_ms": 24880,
+      "end_ms": 32440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s02-n0006",
+      "text": "商品对原来的所有者没有使用价值，对新的所有者却有使用价值。",
+      "start_ms": 33280,
+      "end_ms": 38440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s02-n0007",
+      "text": "交换把商品从前者手中转到后者手中，这个过程就是社会中的物质交换。",
+      "start_ms": 280,
+      "end_ms": 6160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s02-n0008",
+      "text": "一种有用劳动的产品，取代了另一种有用劳动的产品。",
+      "start_ms": 6960,
+      "end_ms": 11360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s02-n0009",
+      "text": "当商品到达能够发挥使用价值的地方，就离开商品交换领域，进入消费领域。",
+      "start_ms": 11920,
+      "end_ms": 18120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s02-n0010",
+      "text": "这里我们只讨论商品交换，不讨论随后的消费。",
+      "start_ms": 18840,
+      "end_ms": 22440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s02-n0011",
+      "text": "因此，下面只从形式上考察整个过程，也就是考察商品的形式怎样变化，以及这种变化怎样促成社会中的物质交换。",
+      "start_ms": 23080,
+      "end_ms": 33040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s02-n0012",
+      "text": "人们常常无法正确理解这种形式变化。",
+      "start_ms": 33960,
+      "end_ms": 36920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s02-n0013",
+      "text": "除了价值概念本身不清楚，还有一个原因：每次商品改变形式，表面上都只是两种商品在交换，一边是普通商品，另一边是货币商品。",
+      "start_ms": 0,
+      "end_ms": 13040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s02-n0014",
+      "text": "要是只看到商品同黄金交换这一物质过程，就恰好看不到真正要考察的东西：商品的形式发生了什么变化。",
+      "start_ms": 13600,
+      "end_ms": 24400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s02-n0015",
+      "text": "这样也会忽略，黄金仅仅作为一种普通商品时还不是货币，而其他商品已经通过自己的价格，把黄金当作自身的货币形态。",
+      "start_ms": 25440,
+      "end_ms": 37480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s02-n0016",
+      "text": "商品进入交换过程时，既没有镀金，也没有裹上糖衣，而是保持原来的样子。",
+      "start_ms": 38400,
+      "end_ms": 45160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s02-n0017",
+      "text": "交换过程把商品分成普通商品和货币两极。",
+      "start_ms": 45880,
+      "end_ms": 49640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s02-n0018",
+      "text": "这个外在的对立，把商品内部使用价值与价值的对立表现出来。",
+      "start_ms": 50440,
+      "end_ms": 56560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s02-n0019",
+      "text": "在这两极中，普通商品作为使用价值同货币相对，货币则作为交换价值同普通商品相对。",
+      "start_ms": 0,
+      "end_ms": 8600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s02-n0020",
+      "text": "但两边其实都是商品，所以都同时具有使用价值和价值。",
+      "start_ms": 9160,
+      "end_ms": 14240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s02-n0021",
+      "text": "只不过，这种统一在两极上的表现恰好相反，也正因为如此，两极才互相联系。",
+      "start_ms": 14880,
+      "end_ms": 22080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s02-n0022",
+      "text": "普通商品在现实中是使用价值。",
+      "start_ms": 22800,
+      "end_ms": 25360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s02-n0023",
+      "text": "它的价值只在价格中以观念形式出现。",
+      "start_ms": 25960,
+      "end_ms": 29280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s02-n0024",
+      "text": "价格把普通商品同对面的黄金联系起来，把黄金作为它现实的价值形态。",
+      "start_ms": 29800,
+      "end_ms": 36640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s02-n0025",
+      "text": "反过来，黄金材料在这里仅仅被看作价值的物质承担者，也就是货币。",
+      "start_ms": 0,
+      "end_ms": 5800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s02-n0026",
+      "text": "因此，黄金在这里现实地充当交换价值。",
+      "start_ms": 6400,
+      "end_ms": 10120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s02-n0027",
+      "text": "黄金的使用价值只在观念中出现。",
+      "start_ms": 10720,
+      "end_ms": 13680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s02-n0028",
+      "text": "货币的一整套相对价值表现，把黄金同对面的各种商品联系起来，而这些商品就是黄金在现实中可以取得的各种使用形式。",
+      "start_ms": 14280,
+      "end_ms": 24840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s02-n0029",
+      "text": "普通商品和货币这两种相反形态，正是商品交换过程实际借以运动的形式。",
+      "start_ms": 25960,
+      "end_ms": 32920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s02-n0030",
+      "text": "现在陪一位商品所有者到商品交换的现场——市场去看看，就拿我们熟悉的麻布织工来说。",
+      "start_ms": 33800,
+      "end_ms": 40760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s02-n0031",
+      "text": "他的商品是 20 码麻布，已经定好价格，卖 2 英镑。",
+      "start_ms": 40,
+      "end_ms": 6040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s02-n0032",
+      "text": "他先用麻布换来 2 英镑，又像一个老派人那样，用这 2 英镑买了一本价格相同的家庭《圣经》。",
+      "start_ms": 6440,
+      "end_ms": 13800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s02-n0033",
+      "text": "对织工来说，麻布只是商品，是价值的承担者。",
+      "start_ms": 14960,
+      "end_ms": 20480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s02-n0034",
+      "text": "他先把麻布换成黄金，也就是麻布的价值形态，再把这份黄金换成另一种商品——《圣经》。",
+      "start_ms": 21240,
+      "end_ms": 29720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s02-n0035",
+      "text": "《圣经》作为有用物品进入织工家里，用来满足一家人的虔敬需要。",
+      "start_ms": 29720,
+      "end_ms": 38280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s02-n0036",
+      "text": "因此，商品交换过程包含两次方向相反、彼此补充的形态变化：商品先变成货币，再由货币变回商品。",
+      "start_ms": 39400,
+      "end_ms": 63720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s02-n0037",
+      "text": "商品形态变化的两个环节，同时也是商品所有者的两次行动。",
+      "start_ms": 0,
+      "end_ms": 5040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s02-n0038",
+      "text": "第一次是出售，用商品换货币。",
+      "start_ms": 5880,
+      "end_ms": 9040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s02-n0039",
+      "text": "第二次是购买，用货币换商品。",
+      "start_ms": 9680,
+      "end_ms": 13040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s02-n0040",
+      "text": "两次行动合在一起，就是为买而卖。",
+      "start_ms": 13840,
+      "end_ms": 17080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s02-n0041",
+      "text": "交易结束后，织工手里不再是麻布，而是《圣经》。",
+      "start_ms": 17840,
+      "end_ms": 21960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s02-n0042",
+      "text": "他用原来的商品换来了价值相同、用处不同的另一种商品。",
+      "start_ms": 22680,
+      "end_ms": 27480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s02-n0043",
+      "text": "他取得其他生活资料和生产资料的方式也是这样。",
+      "start_ms": 0,
+      "end_ms": 6619,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s02-n0044",
+      "text": "在他看来，整个过程只是完成了自己的劳动产品同别人劳动产品的交换。",
+      "start_ms": 6619,
+      "end_ms": 16246,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s02-n0045",
+      "text": "所以，商品的交换过程要经过下面的形式变化：",
+      "start_ms": 16246,
+      "end_ms": 22564,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s02-n0046",
+      "text": "商品—货币—商品。",
+      "start_ms": 22564,
+      "end_ms": 25272,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s02-n0047",
+      "text": "W—G—W。",
+      "start_ms": 25272,
+      "end_ms": 27077,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s02-n0048",
+      "text": "从物质内容看，这一运动是 W—W，也就是商品同商品交换。",
+      "start_ms": 27077,
+      "end_ms": 35200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s02-n0049",
+      "text": "这是社会劳动的物质变换。",
+      "start_ms": 0,
+      "end_ms": 3865,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s02-n0050",
+      "text": "交换一完成，整个过程也就结束。",
+      "start_ms": 3865,
+      "end_ms": 8696,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s02-n0051",
+      "text": "W—G，是商品的第一次形态变化，也就是出售。",
+      "start_ms": 8696,
+      "end_ms": 15782,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s02-n0052",
+      "text": "商品价值从商品身体跳到黄金身体，是商品的“生死一跳”，我在别处这样称呼它。",
+      "start_ms": 15782,
+      "end_ms": 27698,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s02-n0053",
+      "text": "跳不过去，吃亏的不是商品，而是商品所有者。",
+      "start_ms": 27698,
+      "end_ms": 34462,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s02-n0054",
+      "text": "社会分工使商品所有者的劳动十分单一，他的需要却多种多样。",
+      "start_ms": 34462,
+      "end_ms": 43480,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s02-n0055",
+      "text": "正因如此，他自己的产品对他只有交换价值。",
+      "start_ms": 40,
+      "end_ms": 3840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s02-n0056",
+      "text": "产品只有变成货币，才能取得社会公认的一般等价形式，而货币装在别人袋里。",
+      "start_ms": 4360,
+      "end_ms": 11080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s02-n0057",
+      "text": "要把钱吸引出来，商品首先必须对货币所有者有用。",
+      "start_ms": 11760,
+      "end_ms": 16320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s02-n0058",
+      "text": "也就是说，生产它的劳动必须对社会有用，证明自己是社会分工的一部分。",
+      "start_ms": 17040,
+      "end_ms": 23320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s02-n0059",
+      "text": "可是，社会分工是一个自发形成的生产体系。",
+      "start_ms": 24080,
+      "end_ms": 27440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s02-n0060",
+      "text": "它的网络在商品生产者背后织成，并且不断变化。",
+      "start_ms": 27960,
+      "end_ms": 31600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s02-n0061",
+      "text": "一种商品也许来自新的劳动方式，声称要满足刚出现的需要，甚至想凭一己之力创造一种需要。",
+      "start_ms": 0,
+      "end_ms": 8040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s02-n0062",
+      "text": "某项具体劳动昨天还只是同一个商品生产者诸多工作中的一项，今天也许会脱离原有联系，成为独立行业，并把原先的局部产品作为独立商品送进市场。",
+      "start_ms": 9120,
+      "end_ms": 23160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s02-n0063",
+      "text": "这个分离过程的条件可能已经成熟，也可能尚未成熟。",
+      "start_ms": 23920,
+      "end_ms": 28560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s02-n0064",
+      "text": "某种产品今天能满足社会需要，明天也许会被同类产品部分或全部挤走。",
+      "start_ms": 29680,
+      "end_ms": 37000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s02-n0065",
+      "text": "即使某种劳动像这位麻布织工的劳动一样，是社会分工中公认的一部分，也不能保证偏偏他的 20 码麻布有使用价值。",
+      "start_ms": 38080,
+      "end_ms": 48960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s02-n0066",
+      "text": "社会对麻布的需要同其他需要一样，都有一定限度。",
+      "start_ms": 51360,
+      "end_ms": 55440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s02-n0067",
+      "text": "如果其他织工的麻布已经满足这种需要，我们这位朋友的产品就成了多余、无用的东西。",
+      "start_ms": 0,
+      "end_ms": 7760,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s02-n0068",
+      "text": "人们说“白送的马，不看牙口”，可他到市场不是去送礼。",
+      "start_ms": 7760,
+      "end_ms": 12933,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s02-n0069",
+      "text": "现在假定他的产品经受住了使用价值的检验，把货币吸引过来了。",
+      "start_ms": 12933,
+      "end_ms": 18704,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s02-n0070",
+      "text": "接着的问题是，它能换来多少钱？",
+      "start_ms": 18704,
+      "end_ms": 21688,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s02-n0071",
+      "text": "答案其实已经由商品的价格提前给出，因为价格是商品价值量的货币表现。",
+      "start_ms": 21688,
+      "end_ms": 28255,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s02-n0072",
+      "text": "先不考虑商品所有者主观上的计算错误，市场会立刻作出客观纠正。",
+      "start_ms": 28255,
+      "end_ms": 34224,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s02-n0073",
+      "text": "再假定他生产麻布只用了社会必要的平均劳动时间。",
+      "start_ms": 0,
+      "end_ms": 3880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s02-n0074",
+      "text": "这样，麻布的价格就只是其中凝结的社会劳动量的货币名称。",
+      "start_ms": 4560,
+      "end_ms": 9440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s02-n0075",
+      "text": "可是，麻布生产原本稳定可靠的条件，不经织工同意，就在他背后发生了变化。",
+      "start_ms": 10240,
+      "end_ms": 17320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s02-n0076",
+      "text": "昨天生产一码麻布无疑需要的社会必要劳动时间，今天可能已经不再需要那么多。",
+      "start_ms": 17960,
+      "end_ms": 24880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s02-n0077",
+      "text": "货币所有者会拿我们这位朋友的各个竞争者报出的价格，热心地证明这一点。",
+      "start_ms": 25560,
+      "end_ms": 31520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s02-n0078",
+      "text": "可惜世上有许多织工。",
+      "start_ms": 42840,
+      "end_ms": 44560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s02-n0079",
+      "text": "最后再假定，市场上每一块麻布都只包含社会必要劳动时间。",
+      "start_ms": 0,
+      "end_ms": 6025,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s02-n0080",
+      "text": "即便如此，所有麻布加起来，仍可能包含过多耗费的劳动时间。",
+      "start_ms": 6025,
+      "end_ms": 12273,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s02-n0081",
+      "text": "如果市场这只胃无法按每码 2 先令的正常价格吞下全部麻布，就证明社会总劳动时间中用来织麻布的份额过大。",
+      "start_ms": 12273,
+      "end_ms": 23207,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s02-n0082",
+      "text": "结果等同于每个织工都在自己的产品上花了超过社会必要量的劳动时间。",
+      "start_ms": 23207,
+      "end_ms": 30348,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s02-n0083",
+      "text": "这就叫“一起被抓，一起被绞死”。",
+      "start_ms": 30348,
+      "end_ms": 33919,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s02-n0084",
+      "text": "市场上的全部麻布只算作一种商品，每一块只是这个整体的一部分。",
+      "start_ms": 33919,
+      "end_ms": 40613,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s02-n0085",
+      "text": "事实上，每一码麻布的价值，都是一定量同质人类劳动的体现，而这个劳动量由社会决定。",
+      "start_ms": 0,
+      "end_ms": 12113,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s02-n0086",
+      "text": "商品当然爱货币，但“真爱的道路从来不平坦”。",
+      "start_ms": 12113,
+      "end_ms": 18775,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s02-n0087",
+      "text": "社会生产这个整体通过分工被拆成许多分散的部分。",
+      "start_ms": 18775,
+      "end_ms": 25740,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s02-n0088",
+      "text": "各部分生产什么、生产多少，都是自发形成的，带有偶然性。",
+      "start_ms": 25740,
+      "end_ms": 33916,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s02-n0089",
+      "text": "商品所有者因此发现，同一种分工一方面使他们成为彼此独立的私人生产者，另一方面又使整个社会生产过程以及他们在其中形成的关系脱离每个人的控制。",
+      "start_ms": 33916,
+      "end_ms": 54811,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s02-n0090",
+      "text": "人与人彼此独立的背后，是他们通过物品形成的全面相互依赖。",
+      "start_ms": 54811,
+      "end_ms": 63290,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s02-n0091",
+      "text": "分工把劳动产品变成商品，也使商品必须变成货币。",
+      "start_ms": 80,
+      "end_ms": 5600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s02-n0092",
+      "text": "可这种转变能否成功，带有偶然性。",
+      "start_ms": 6120,
+      "end_ms": 9600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s02-n0093",
+      "text": "不过，这里只考察这种形式变化本身，所以先假定它按正常情况完成。",
+      "start_ms": 10480,
+      "end_ms": 18120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s02-n0094",
+      "text": "只要商品确实卖出，不是卖不出去，它就一定完成形式变化。",
+      "start_ms": 18800,
+      "end_ms": 24120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s02-n0095",
+      "text": "即使这次变化并不正常，商品在出售中实现的价值量可能比自身价值少一些或多一些，它仍然完成了从商品到货币的形式变化。",
+      "start_ms": 24680,
+      "end_ms": 37240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s02-n0096",
+      "text": "对一个商品所有者来说，黄金取代了他的商品。",
+      "start_ms": 38040,
+      "end_ms": 42520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s02-n0097",
+      "text": "对另一个商品所有者来说，商品取代了他的黄金。",
+      "start_ms": 120,
+      "end_ms": 6080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s02-n0098",
+      "text": "表面上发生的，只是商品与黄金换手或换位置，也就是 20 码麻布同 2 英镑相交换。",
+      "start_ms": 7200,
+      "end_ms": 18240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s02-n0099",
+      "text": "但从形式上看，麻布换到了什么？",
+      "start_ms": 19040,
+      "end_ms": 22520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s02-n0100",
+      "text": "它换到了自己的一般价值形态。",
+      "start_ms": 23360,
+      "end_ms": 26400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s02-n0101",
+      "text": "黄金又换到了什么？",
+      "start_ms": 27480,
+      "end_ms": 29320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s02-n0102",
+      "text": "它换到了一种具体的使用价值形态。",
+      "start_ms": 30320,
+      "end_ms": 33960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s02-n0103",
+      "text": "黄金为什么以货币身份同麻布相对？",
+      "start_ms": 160,
+      "end_ms": 3840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s02-n0104",
+      "text": "因为麻布的价格是 2 英镑，这个货币名称已经把麻布同作为货币的黄金联系起来。",
+      "start_ms": 4520,
+      "end_ms": 12360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s02-n0105",
+      "text": "麻布一旦卖出，就抛弃了原来的商品形态。",
+      "start_ms": 13360,
+      "end_ms": 17280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s02-n0106",
+      "text": "当麻布的使用价值真正吸引到原先只在价格中设想的黄金时，这种形式变化就完成了。",
+      "start_ms": 18160,
+      "end_ms": 27560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s02-n0107",
+      "text": "商品的价格从观念变成现实，同时，货币原先只存在于观念中的使用价值也变成现实，因为货币真的换到了商品。",
+      "start_ms": 28360,
+      "end_ms": 40680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s02-n0108",
+      "text": "因此，商品变成货币的同时，货币也变成了商品。",
+      "start_ms": 41640,
+      "end_ms": 46960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s02-n0109",
+      "text": "同一个过程有两个方面：从商品所有者这边看是出售，从货币所有者那边看是购买。",
+      "start_ms": 80,
+      "end_ms": 9600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s02-n0110",
+      "text": "换句话说，出售同时就是购买，W—G 同时就是 G—W。",
+      "start_ms": 10480,
+      "end_ms": 18440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s02-n0111",
+      "text": "到目前为止，我们只讨论商品所有者之间的经济关系。",
+      "start_ms": 18440,
+      "end_ms": 23480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s02-n0112",
+      "text": "在这种关系中，一个人只有交出自己的劳动产品，才能取得别人的劳动产品。",
+      "start_ms": 24360,
+      "end_ms": 31760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s02-n0113",
+      "text": "因此，另一个商品所有者要以货币所有者的身份出现，只有两种可能。",
+      "start_ms": 32640,
+      "end_ms": 39520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s02-n0114",
+      "text": "一种是他的劳动产品天然具有货币形态，也就是金银等货币材料。",
+      "start_ms": 40240,
+      "end_ms": 46960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s02-n0115",
+      "text": "另一种是他自己的商品已经卖出，脱去了原来的使用形态。",
+      "start_ms": 320,
+      "end_ms": 4440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s02-n0116",
+      "text": "黄金要充当货币，自然必须从某一点进入商品市场。",
+      "start_ms": 5160,
+      "end_ms": 9880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s02-n0117",
+      "text": "这个点就是黄金的产地。",
+      "start_ms": 10400,
+      "end_ms": 12200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s02-n0118",
+      "text": "在那里，黄金作为直接的劳动产品，同价值相等的其他劳动产品交换。",
+      "start_ms": 13040,
+      "end_ms": 18840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s02-n0119",
+      "text": "从这时起，黄金便不断代表已经实现的商品价格。",
+      "start_ms": 19240,
+      "end_ms": 23480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s02-n0120",
+      "text": "除了黄金在产地同其他商品直接交换这种情况，任何商品所有者手中的黄金，都是他已经卖出商品的转化形态，是出售的结果，也就是商品第一次形态变化 W—G 的结果。",
+      "start_ms": 24320,
+      "end_ms": 40400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s02-n0121",
+      "text": "黄金之所以能在观念中充当货币，也就是充当价值尺度，是因为所有商品都用黄金衡量自己的价值，从而把黄金看作同自身使用形态相对的价值形态。",
+      "start_ms": 520,
+      "end_ms": 17800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s02-n0122",
+      "text": "黄金之所以能成为现实货币，是因为所有商品都可以通过出售实际换成黄金。",
+      "start_ms": 18760,
+      "end_ms": 27800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s02-n0123",
+      "text": "黄金由此成为商品脱去原来使用形态之后真正取得的新形态，也就是商品现实的价值形态。",
+      "start_ms": 29040,
+      "end_ms": 39880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s02-n0124",
+      "text": "商品一旦变成货币，就看不出它原来有什么用，也看不出生产它的是哪一种具体劳动。",
+      "start_ms": 40720,
+      "end_ms": 54560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s02-n0125",
+      "text": "它只剩下一种统一的社会物质形态，体现没有差别的人类劳动。",
+      "start_ms": 55160,
+      "end_ms": 62120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s02-n0126",
+      "text": "因此，从钱本身看不出它是由哪一种商品变来的。",
+      "start_ms": 63040,
+      "end_ms": 67800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s02-n0127",
+      "text": "钱可以来路肮脏，肮脏的东西却不等于钱。",
+      "start_ms": 360,
+      "end_ms": 3920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s02-n0128",
+      "text": "假定织麻布的人卖布得到的两枚一英镑金币，是一夸特小麦先前卖出后变成的形态。",
+      "start_ms": 4480,
+      "end_ms": 11680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s02-n0129",
+      "text": "麻布的出售 W—G，同时就是麻布的购买 G—W。",
+      "start_ms": 11960,
+      "end_ms": 15520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s02-n0130",
+      "text": "从麻布出售这一面看，这个过程开启了一段运动，最后以相反的行动结束，也就是购买《圣经》。",
+      "start_ms": 16440,
+      "end_ms": 25680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s02-n0131",
+      "text": "从麻布购买这一面看，它结束了一段由相反行动开始的运动，也就是小麦的出售。",
+      "start_ms": 26600,
+      "end_ms": 33400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s02-n0132",
+      "text": "W—G（麻布—货币）是 W—G—W（麻布—货币—《圣经》）的第一阶段，同时又是 G—W（货币—麻布），即另一段 W—G—W（小麦—货币—麻布）的最后阶段。",
+      "start_ms": 34440,
+      "end_ms": 45480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s02-n0133",
+      "text": "一种商品的第一次形态变化，也就是从商品变成货币，总是同时构成另一种商品方向相反的第二次形态变化，也就是从货币重新变成商品。",
+      "start_ms": 0,
+      "end_ms": 11360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s02-n0134",
+      "text": "G—W，是商品的第二次、也是最后一次形态变化：购买。",
+      "start_ms": 11560,
+      "end_ms": 17360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s02-n0135",
+      "text": "货币是其他一切商品卖出后的形态，是商品普遍出售的结果，所以它是可以直接转让、能换取任何商品的商品。",
+      "start_ms": 18080,
+      "end_ms": 26880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s02-n0136",
+      "text": "货币把所有价格倒过来读，于是在每一种商品身上都看到自己可以变成的形态。",
+      "start_ms": 27680,
+      "end_ms": 33960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s02-n0137",
+      "text": "商品的价格就像向货币投来的目光，既在招呼货币，也显示了货币能变成多少商品的界限。",
+      "start_ms": 34840,
+      "end_ms": 42800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s02-n0138",
+      "text": "这个界限就是货币自身的数量。",
+      "start_ms": 43720,
+      "end_ms": 46120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s02-n0139",
+      "text": "商品一变成货币，原来的形态就消失了，因此从钱本身看不出它怎样来到所有者手中，也看不出原来是什么变成了这笔钱。",
+      "start_ms": 320,
+      "end_ms": 10880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s02-n0140",
+      "text": "不管来源如何，钱都没有气味。",
+      "start_ms": 11560,
+      "end_ms": 14480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s02-n0141",
+      "text": "它一方面代表已经卖出的商品，另一方面也代表可以买到的商品。",
+      "start_ms": 15040,
+      "end_ms": 19600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s02-n0142",
+      "text": "G—W，即购买，同时也是 W—G，即出售。",
+      "start_ms": 20040,
+      "end_ms": 23680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s02-n0143",
+      "text": "因此，一种商品的最后一次形态变化，同时是另一种商品的第一次形态变化。",
+      "start_ms": 24280,
+      "end_ms": 30640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s02-n0144",
+      "text": "对麻布织工来说，他的商品走到《圣经》这里就结束了自己的历程，因为他把卖麻布所得的 2 英镑重新换成了《圣经》。",
+      "start_ms": 31560,
+      "end_ms": 41960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s02-n0145",
+      "text": "可是，卖《圣经》的人又把从织工那里得到的 2 英镑换成谷物烧酒。",
+      "start_ms": 40,
+      "end_ms": 8360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch03-s02-n0146",
+      "text": "所以，G—W 是 W—G—W（麻布—货币—《圣经》）的最后阶段，同时又是 W—G，是 W—G—W（《圣经》—货币—谷物烧酒）的第一阶段。",
+      "start_ms": 9400,
+      "end_ms": 29960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch03-s02-n0147",
+      "text": "商品生产者只生产一种单一的产品，往往一次卖出很大一批。",
+      "start_ms": 30640,
+      "end_ms": 37640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch03-s02-n0148",
+      "text": "他的需要却多种多样，迫使他把卖货所得的价格，也就是得到的货币，不断分散到许多次购买中。",
+      "start_ms": 38600,
+      "end_ms": 50040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch03-s02-n0149",
+      "text": "于是，一次出售会转入对许多不同商品的购买。",
+      "start_ms": 50800,
+      "end_ms": 56720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch03-s02-n0150",
+      "text": "一种商品的最后一次形态变化，也就构成其他许多商品第一次形态变化的总和。",
+      "start_ms": 57560,
+      "end_ms": 65480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch03-s02-n0151",
+      "text": "现在考察一种商品的完整形态变化，比如麻布的形态变化。",
+      "start_ms": 40,
+      "end_ms": 5520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch03-s02-n0152",
+      "text": "首先可以看到，这个过程由方向相反而又彼此补充的两个运动组成：W—G 和 G—W。",
+      "start_ms": 6320,
+      "end_ms": 16360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch03-s02-n0153",
+      "text": "商品这两次相反的变化，要通过商品所有者两种相反的社会行动来完成，也使他具有两种相反的经济身份。",
+      "start_ms": 16360,
+      "end_ms": 27400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch03-s02-n0154",
+      "text": "出售时，他是卖者。",
+      "start_ms": 28200,
+      "end_ms": 30120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch03-s02-n0155",
+      "text": "购买时，他是买者。",
+      "start_ms": 30880,
+      "end_ms": 33080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch03-s02-n0156",
+      "text": "商品每次发生变化时，商品形式和货币形式都同时存在，只是分别处在相反的两端。",
+      "start_ms": 33680,
+      "end_ms": 41560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch03-s02-n0157",
+      "text": "同样，一个商品所有者作为卖者时，面对的是另一个买者。",
+      "start_ms": 40,
+      "end_ms": 5440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch03-s02-n0158",
+      "text": "等他成为买者时，面对的又是另一个卖者。",
+      "start_ms": 5800,
+      "end_ms": 8680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch03-s02-n0159",
+      "text": "同一件商品先后经历两次方向相反的变化，从商品变成货币，再从货币变成商品。",
+      "start_ms": 9240,
+      "end_ms": 15440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch03-s02-n0160",
+      "text": "同一个商品所有者也随之在卖者和买者之间转换。",
+      "start_ms": 15840,
+      "end_ms": 19800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch03-s02-n0161",
+      "text": "因此，卖者和买者都不是固定身份，而是在商品流通中不断换人承担的身份。",
+      "start_ms": 20640,
+      "end_ms": 26720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch03-s02-n0162",
+      "text": "一种商品最简单的完整形态变化，包含四个交易项和三个登场的交易者。",
+      "start_ms": 27040,
+      "end_ms": 32480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch03-s02-n0163",
+      "text": "起初，货币作为商品的价值形态同商品相对而立。",
+      "start_ms": 400,
+      "end_ms": 4840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch03-s02-n0164",
+      "text": "它在对面，在别人的钱袋里，是硬邦邦的现实。",
+      "start_ms": 5720,
+      "end_ms": 10280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch03-s02-n0165",
+      "text": "因此，商品所有者面对的是货币所有者。",
+      "start_ms": 10840,
+      "end_ms": 15120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch03-s02-n0166",
+      "text": "商品一旦变成货币，货币就成了它即将消失的等价形式，因为这份货币接下来要换取的使用价值，存在于另外一些商品中。",
+      "start_ms": 16520,
+      "end_ms": 28120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch03-s02-n0167",
+      "text": "货币既是商品第一次变化的终点，也是第二次变化的起点。",
+      "start_ms": 28720,
+      "end_ms": 33280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch03-s02-n0168",
+      "text": "这样，第一次行动中的卖者，到第二次行动中就成了买者，面对第三个商品所有者这个卖者。",
+      "start_ms": 33920,
+      "end_ms": 42440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch03-s02-n0169",
+      "text": "商品形态变化中方向相反的两个阶段，组成一个循环：先是商品形式，接着脱去商品形式，最后回到商品形式。",
+      "start_ms": 160,
+      "end_ms": 11520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch03-s02-n0170",
+      "text": "不过，同一商品在循环两端对它的所有者有相反的意义。",
+      "start_ms": 12400,
+      "end_ms": 18960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch03-s02-n0171",
+      "text": "它在起点对所有者没有使用价值，在终点却对所有者有使用价值。",
+      "start_ms": 19600,
+      "end_ms": 26200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch03-s02-n0172",
+      "text": "因此，货币起初表现为商品变成的一块坚固的价值结晶，后来又消散为商品单纯的等价形式。",
+      "start_ms": 26840,
+      "end_ms": 37840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch03-s02-n0173",
+      "text": "构成一种商品循环的两次形态变化，同时又是另外两种商品方向相反的局部形态变化。",
+      "start_ms": 38440,
+      "end_ms": 48240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch03-s02-n0174",
+      "text": "同一件商品——麻布——开启了自身的形态变化系列，同时结束了另一种商品——小麦——的完整形态变化。",
+      "start_ms": 49000,
+      "end_ms": 59840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch03-s02-n0175",
+      "text": "在麻布的第一次变化，也就是出售中，它本身就同时扮演这两个角色。",
+      "start_ms": 0,
+      "end_ms": 8181,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch03-s02-n0176",
+      "text": "等麻布变成黄金这只“蛹”，原来的麻布形态便在其中消亡。",
+      "start_ms": 8181,
+      "end_ms": 15306,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch03-s02-n0177",
+      "text": "与此同时，这份黄金又结束了第三种商品的第一次形态变化。",
+      "start_ms": 15306,
+      "end_ms": 22432,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch03-s02-n0178",
+      "text": "因此，每种商品的形态变化所画出的循环，都会同其他商品的循环不可分地缠绕在一起。",
+      "start_ms": 22432,
+      "end_ms": 32724,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch03-s02-n0179",
+      "text": "这个总过程就是商品流通。",
+      "start_ms": 32724,
+      "end_ms": 35891,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch03-s02-n0180",
+      "text": "商品流通不仅在形式上不同于直接的产品交换，在本质上也不同。",
+      "start_ms": 35891,
+      "end_ms": 43544,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch03-s02-n0181",
+      "text": "回头看看刚才的过程就清楚了。",
+      "start_ms": 40,
+      "end_ms": 2440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch03-s02-n0182",
+      "text": "麻布织工确实用麻布换到了《圣经》，也就是用自己的商品换到别人的商品。",
+      "start_ms": 3080,
+      "end_ms": 8960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch03-s02-n0183",
+      "text": "但这只对织工本人来说才是事实。",
+      "start_ms": 9640,
+      "end_ms": 12680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch03-s02-n0184",
+      "text": "那位宁爱烈酒、不爱清水的《圣经》商人从没想过拿《圣经》换麻布，正如织工并不知道有人用小麦换到了他的麻布，其他情况也是如此。",
+      "start_ms": 13360,
+      "end_ms": 23800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch03-s02-n0185",
+      "text": "B 的商品取代了 A 的商品，但 A 和 B 并没有彼此交换各自的商品。",
+      "start_ms": 24720,
+      "end_ms": 29600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch03-s02-n0186",
+      "text": "A 和 B 当然也可能碰巧互相购买，但这种特殊关系绝不是商品流通的一般条件造成的。",
+      "start_ms": 30040,
+      "end_ms": 35480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch03-s02-n0187",
+      "text": "由此，一方面可以看到，商品交换怎样突破直接产品交换在个人和地点上的限制，推动人类劳动产品的物质变换。",
+      "start_ms": 0,
+      "end_ms": 10459,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch03-s02-n0188",
+      "text": "另一方面，整个过程又形成了一套参与交易的人无法控制、像自然联系一样起作用的社会关系。",
+      "start_ms": 10459,
+      "end_ms": 19244,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch03-s02-n0189",
+      "text": "织工之所以能卖出麻布，是因为农民卖出了小麦。",
+      "start_ms": 19244,
+      "end_ms": 23846,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch03-s02-n0190",
+      "text": "《圣经》商人之所以能卖出《圣经》，是因为织工卖出了麻布。",
+      "start_ms": 23846,
+      "end_ms": 29703,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch03-s02-n0191",
+      "text": "烧酒商之所以能卖出烧出来的水，是因为另一个人已经卖掉了“永生之水”。",
+      "start_ms": 29703,
+      "end_ms": 36814,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch03-s02-n0192",
+      "text": "其他环节也是这样。",
+      "start_ms": 36814,
+      "end_ms": 38697,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch03-s02-n0193",
+      "text": "因此，流通过程不会像直接产品交换那样，在使用价值换了位置、转了手以后便结束。",
+      "start_ms": 0,
+      "end_ms": 9480,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch03-s02-n0194",
+      "text": "即使货币最后退出某件商品的形态变化系列，它也不会消失，而会落到商品腾出的另一个流通位置上。",
+      "start_ms": 9480,
+      "end_ms": 20706,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch03-s02-n0195",
+      "text": "例如，在麻布的完整形态变化“麻布—货币—《圣经》”中，先是麻布退出流通，货币取代它的位置。",
+      "start_ms": 20706,
+      "end_ms": 31932,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch03-s02-n0196",
+      "text": "接着，《圣经》退出流通，货币又取代它的位置。",
+      "start_ms": 31932,
+      "end_ms": 37420,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch03-s02-n0197",
+      "text": "商品取代商品的同时，货币商品便留在第三个人手里。",
+      "start_ms": 37420,
+      "end_ms": 43407,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch03-s02-n0198",
+      "text": "商品流通就这样不断渗出货币。",
+      "start_ms": 43407,
+      "end_ms": 46900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch03-s02-n0199",
+      "text": "没有什么说法比下面这条教条更荒唐：因为每次出售同时都是购买，反过来也一样，所以商品流通必然使买卖保持平衡。",
+      "start_ms": 0,
+      "end_ms": 16680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch03-s02-n0200",
+      "text": "如果它的意思只是已经完成的出售次数必然等于购买次数，这不过是同义反复。",
+      "start_ms": 17840,
+      "end_ms": 27280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch03-s02-n0201",
+      "text": "可是，这条教条想证明的却是，每个卖者都会把自己的买者带到市场。",
+      "start_ms": 28120,
+      "end_ms": 35520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch03-s02-n0202",
+      "text": "从商品所有者和货币所有者这两个处在相反位置的人之间的关系看，出售和购买是同一个行为。",
+      "start_ms": 36520,
+      "end_ms": 48480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch03-s02-n0203",
+      "text": "可是，从同一个人的行动看，它们是方向相反的两个行为。",
+      "start_ms": 49320,
+      "end_ms": 56520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch03-s02-n0204",
+      "text": "买卖的这种同一性首先意味着，商品投入流通这只炼金炉以后，如果不能变成货币出来，也就是没有被商品所有者卖出、没有被货币所有者买下，它就变得毫无用处。",
+      "start_ms": 57120,
+      "end_ms": 78760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch03-s02-n0205",
+      "text": "这种同一性还意味着，一旦这一步成功，商品便到达一个停顿点，进入一段可长可短的生命阶段。",
+      "start_ms": 0,
+      "end_ms": 8160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch03-s02-n0206",
+      "text": "商品的第一次形态变化既是出售也是购买，所以这一步本身也是一个可以独立完成的过程。",
+      "start_ms": 8560,
+      "end_ms": 17320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch03-s02-n0207",
+      "text": "交易完成后，买者拿到商品，卖者拿到货币。",
+      "start_ms": 17920,
+      "end_ms": 22200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch03-s02-n0208",
+      "text": "货币也是一种商品，而且无论早晚再次出现在市场，它都保留着可以流通的形式。",
+      "start_ms": 22760,
+      "end_ms": 29280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch03-s02-n0209",
+      "text": "没有别人购买，谁也不能出售。",
+      "start_ms": 29920,
+      "end_ms": 32240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch03-s02-n0210",
+      "text": "但谁也不必因为刚刚卖出，就立刻购买。",
+      "start_ms": 33080,
+      "end_ms": 36720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch03-s02-n0211",
+      "text": "在直接产品交换中，交出自己的劳动产品和取得别人的劳动产品是同一件事。",
+      "start_ms": 0,
+      "end_ms": 6560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch03-s02-n0212",
+      "text": "商品流通把这个同一过程拆成出售和购买两个相对立的行为，正因如此，它打破了产品交换在时间、地点和个人上的限制。",
+      "start_ms": 7000,
+      "end_ms": 17200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch03-s02-n0213",
+      "text": "出售和购买虽然在外部彼此独立、相互对立，内在却彼此依赖，是同一个整体。",
+      "start_ms": 18040,
+      "end_ms": 25880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch03-s02-n0214",
+      "text": "所谓内在统一，正是说这种统一要通过外部的对立来运动。",
+      "start_ms": 26480,
+      "end_ms": 31240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch03-s02-n0215",
+      "text": "这两个过程本来互相依赖、互为补充，却可以在外部不断走向独立。",
+      "start_ms": 31640,
+      "end_ms": 36960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch03-s02-n0216",
+      "text": "一旦这种独立超过一定限度，内在统一就会通过危机强行恢复。",
+      "start_ms": 37840,
+      "end_ms": 42920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch03-s02-n0217",
+      "text": "商品本身已经包含几组矛盾：它既是使用价值又是价值，私人劳动又必须表现为直接的社会劳动，特殊的具体劳动又必须只算作抽象的一般劳动，物仿佛成了人，人反而被当作物。",
+      "start_ms": 160,
+      "end_ms": 17680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch03-s02-n0218",
+      "text": "这些内在矛盾，在商品形态变化的各种对立中取得了展开的运动形式。",
+      "start_ms": 18560,
+      "end_ms": 24960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch03-s02-n0219",
+      "text": "因此，这些形式包含危机的可能性，但也仅仅是可能性。",
+      "start_ms": 25840,
+      "end_ms": 30640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch03-s02-n0220",
+      "text": "要使这种可能性变成现实，还需要一整套从简单商品流通的角度看根本不存在的条件。",
+      "start_ms": 31240,
+      "end_ms": 38480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch03-s02-n0221",
+      "text": "作为商品流通的中介，货币取得了流通手段的职能。",
+      "start_ms": 39480,
+      "end_ms": 43280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch03-s02-n0222",
+      "text": "劳动产品通过 W—G—W 改变形式，从而完成社会中的物质交换。",
+      "start_ms": 43800,
+      "end_ms": 48720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch03-s02-n0223",
+      "text": "在这个过程中，同一份价值以商品形态开始，最后又回到商品形态。",
+      "start_ms": 0,
+      "end_ms": 5962,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch03-s02-n0224",
+      "text": "因此，商品的运动形成一个循环。",
+      "start_ms": 5962,
+      "end_ms": 8943,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch03-s02-n0225",
+      "text": "但同一种形式并不会让货币也形成循环。",
+      "start_ms": 8943,
+      "end_ms": 12520,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch03-s02-n0226",
+      "text": "货币运动的结果，是不断离开起点，而不是回到起点。",
+      "start_ms": 12520,
+      "end_ms": 17289,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch03-s02-n0227",
+      "text": "只要卖者还拿着商品转化成的货币，商品就还停留在第一次形态变化，只走完了流通的前一半。",
+      "start_ms": 17289,
+      "end_ms": 25636,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch03-s02-n0228",
+      "text": "当“为买而卖”的全过程完成，货币也就再次离开了原持有者。",
+      "start_ms": 25636,
+      "end_ms": 31200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch03-s02-n0229",
+      "text": "织麻布的人买完《圣经》以后，如果又卖出新的麻布，货币当然可能再次回到他手中。",
+      "start_ms": 40,
+      "end_ms": 8320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch03-s02-n0230",
+      "text": "但这不是最初 20 码麻布的流通让货币返回。",
+      "start_ms": 9240,
+      "end_ms": 13600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch03-s02-n0231",
+      "text": "恰恰相反，那次流通已经把货币从织布者手中送到《圣经》卖者手中。",
+      "start_ms": 14200,
+      "end_ms": 20920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch03-s02-n0232",
+      "text": "货币重新回来，只是因为新的商品再次开始了同样的流通过程。",
+      "start_ms": 21800,
+      "end_ms": 28480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch03-s02-n0233",
+      "text": "无论这种过程更新或重复多少次，结果都一样：货币不断离开原来的起点。",
+      "start_ms": 28960,
+      "end_ms": 36760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch03-s02-n0234",
+      "text": "因此，商品流通直接赋予货币的运动形式，就是货币不断从一个商品所有者手中转到另一个商品所有者手中，也就是货币的流通。",
+      "start_ms": 37560,
+      "end_ms": 49440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch03-s02-n0235",
+      "text": "货币流通不断重复同一个单调的过程。",
+      "start_ms": 80,
+      "end_ms": 3320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch03-s02-n0236",
+      "text": "商品总在卖者一边，货币总在买者一边，作为购买手段发挥作用。",
+      "start_ms": 4160,
+      "end_ms": 10080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch03-s02-n0237",
+      "text": "货币实现商品的价格，把商品从卖者手中转到买者手中。",
+      "start_ms": 10800,
+      "end_ms": 16280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch03-s02-n0238",
+      "text": "同时，货币自己从买者手中转到卖者手中，再同另一种商品重复这个过程。",
+      "start_ms": 17000,
+      "end_ms": 23400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch03-s02-n0239",
+      "text": "货币这种单向运动，其实来自商品形式变化的双向过程，但这一点被遮住了。",
+      "start_ms": 24160,
+      "end_ms": 30480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch03-s02-n0240",
+      "text": "商品流通本身反而造成一种相反的表象。",
+      "start_ms": 31040,
+      "end_ms": 34560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch03-s02-n0241",
+      "text": "商品第一次改变形态时，我们既能看到货币在运动，也能看到商品自身在运动。",
+      "start_ms": 240,
+      "end_ms": 8280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch03-s02-n0242",
+      "text": "商品在流通的前一半同货币交换位置，它的使用形态随即离开流通，进入消费。",
+      "start_ms": 9000,
+      "end_ms": 18160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch03-s02-n0243",
+      "text": "接替它留在流通中的，是它的价值形态，也就是货币外壳。",
+      "start_ms": 18880,
+      "end_ms": 25360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch03-s02-n0244",
+      "text": "此后，商品不再穿着原来的实物外衣走完后一半流通，而是穿着黄金外衣继续运动。",
+      "start_ms": 26480,
+      "end_ms": 34840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch03-s02-n0245",
+      "text": "因此，整个运动的连续性都落到货币一边。",
+      "start_ms": 35640,
+      "end_ms": 40120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch03-s02-n0246",
+      "text": "从商品来看，这段运动包含出售和购买两个相反过程。",
+      "start_ms": 40960,
+      "end_ms": 47120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch03-s02-n0247",
+      "text": "从货币来看，它却始终只做同一件事：不断同另一种商品交换位置。",
+      "start_ms": 160,
+      "end_ms": 7320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch03-s02-n0248",
+      "text": "商品流通的结果，是一种商品被另一种商品取代。",
+      "start_ms": 8000,
+      "end_ms": 12280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch03-s02-n0249",
+      "text": "可是表面看来，这个结果不是由商品自身的形式变化带来的，而是由货币充当流通手段带来的。",
+      "start_ms": 12880,
+      "end_ms": 21560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch03-s02-n0250",
+      "text": "仿佛原本不能自己移动的商品，全靠货币推动，才从对它没有需要的人手中转到需要它的人手中，并且运动方向始终同货币相反。",
+      "start_ms": 22120,
+      "end_ms": 34560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch03-s02-n0251",
+      "text": "货币不断接替商品在流通中的位置，把商品送出流通领域，自己则不断远离起点。",
+      "start_ms": 35440,
+      "end_ms": 44480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch03-s02-n0252",
+      "text": "所以，货币运动本来只是商品流通的表现，表面上却反过来像是商品流通由货币运动造成的。",
+      "start_ms": 45560,
+      "end_ms": 55640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch03-s02-n0253",
+      "text": "另一方面，货币只有成为商品价值的独立形态，才能充当流通手段。",
+      "start_ms": 0,
+      "end_ms": 6760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch03-s02-n0254",
+      "text": "因此，货币作为流通手段的运动，其实只是商品自身形式变化的外在表现。",
+      "start_ms": 7600,
+      "end_ms": 15040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch03-s02-n0255",
+      "text": "这种形式变化也必然直观地反映在货币流通中。",
+      "start_ms": 16160,
+      "end_ms": 20240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch03-s02-n0256",
+      "text": "例如，麻布先从商品形态变成货币形态。",
+      "start_ms": 20800,
+      "end_ms": 24040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch03-s02-n0257",
+      "text": "第一次形态变化 W—G 的终点，也就是货币形态，随后成为最后一次形态变化 G—W 的起点，麻布由此转化为《圣经》。",
+      "start_ms": 24720,
+      "end_ms": 35680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch03-s02-n0258",
+      "text": "这两次形式变化，每一次都通过商品与货币的交换，也就是二者互换位置来完成。",
+      "start_ms": 36600,
+      "end_ms": 43600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch03-s02-n0259",
+      "text": "同一批货币作为商品已经卖出的形态来到卖者手中，又作为可以随时换取任何商品的形态离开卖者手中。",
+      "start_ms": 200,
+      "end_ms": 9440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch03-s02-n0260",
+      "text": "它们先后换了两次位置。",
+      "start_ms": 10000,
+      "end_ms": 11960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch03-s02-n0261",
+      "text": "麻布的第一次形态变化把钱送进织布者的口袋，第二次形态变化又把钱从口袋里取走。",
+      "start_ms": 12600,
+      "end_ms": 20800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch03-s02-n0262",
+      "text": "同一种商品两次方向相反的形式变化，就这样反映为货币两次方向相反的位置变化。",
+      "start_ms": 21240,
+      "end_ms": 28480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch03-s02-n0263",
+      "text": "如果只发生单向的商品形态变化，也就是只卖不买，或者只买不卖，同一笔货币就只换一次位置。",
+      "start_ms": 28960,
+      "end_ms": 37360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch03-s02-n0264",
+      "text": "货币第二次换位置，始终表示商品完成第二次形态变化，也就是从货币重新变回商品。",
+      "start_ms": 37800,
+      "end_ms": 46920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch03-s02-n0265",
+      "text": "同一批货币频繁地换手，不仅反映一种商品连续经历的形态变化，也反映商品世界中无数形态变化怎样交织在一起。",
+      "start_ms": 480,
+      "end_ms": 13720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch03-s02-n0266",
+      "text": "不过，这一切只适用于我们这里考察的简单商品流通。",
+      "start_ms": 14640,
+      "end_ms": 20080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch03-s02-n0267",
+      "text": "每一种商品第一次进入流通、完成第一次形态变化时，就会退出流通，同时不断有新的商品进入。",
+      "start_ms": 21080,
+      "end_ms": 32680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch03-s02-n0268",
+      "text": "货币作为流通手段却始终留在流通领域，不断在其中转手。",
+      "start_ms": 33440,
+      "end_ms": 39960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch03-s02-n0269",
+      "text": "因此，接下来的问题是：流通领域需要持续容纳多少货币？",
+      "start_ms": 40800,
+      "end_ms": 48520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch03-s02-n0270",
+      "text": "在一个国家里，每天都有许多买卖在不同地点同时发生。",
+      "start_ms": 49200,
+      "end_ms": 56040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch03-s02-n0271",
+      "text": "对交易中的个人来说，这些买卖只是商品变化的一半：一边只卖，另一边只买。",
+      "start_ms": 0,
+      "end_ms": 5680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch03-s02-n0272",
+      "text": "商品一旦有了价格，就已经在观念中等于一定数量的货币。",
+      "start_ms": 6040,
+      "end_ms": 10440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch03-s02-n0273",
+      "text": "实际买卖时，商品和货币才真正相遇，商品在卖方一边，货币在买方一边。",
+      "start_ms": 11040,
+      "end_ms": 16640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch03-s02-n0274",
+      "text": "因此，流通中需要多少货币，首先由全部待售商品的价格总额决定。",
+      "start_ms": 17360,
+      "end_ms": 23440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch03-s02-n0275",
+      "text": "价格总额已经在观念中表示出一笔黄金，货币只是在现实中拿出这笔黄金，所以两者当然相等。",
+      "start_ms": 24240,
+      "end_ms": 32040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch03-s02-n0276",
+      "text": "不过，商品价值不变时，它们的价格会随着黄金本身的价值反向变化。",
+      "start_ms": 32920,
+      "end_ms": 37960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch03-s02-n0277",
+      "text": "黄金贬值，商品价格就按比例上涨。",
+      "start_ms": 240,
+      "end_ms": 3080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch03-s02-n0278",
+      "text": "黄金升值，商品价格就按比例下跌。",
+      "start_ms": 3560,
+      "end_ms": 6320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch03-s02-n0279",
+      "text": "商品价格总额若因此上升或下降，流通中的货币量也会随之上升或下降。",
+      "start_ms": 6840,
+      "end_ms": 13360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch03-s02-n0280",
+      "text": "这里，货币量的变化确实来自货币本身，但原因不在于货币充当流通手段，而在于它充当价值尺度。",
+      "start_ms": 14040,
+      "end_ms": 22840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch03-s02-n0281",
+      "text": "整个过程是：货币价值先引起商品价格的反向变化，商品价格再引起流通货币量的同向变化。",
+      "start_ms": 23400,
+      "end_ms": 32680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch03-s02-n0282",
+      "text": "即使黄金本身没有贬值，只是改用白银作价值尺度，结果也一样。",
+      "start_ms": 33600,
+      "end_ms": 40080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch03-s02-n0283",
+      "text": "反过来，如果不是白银升值，而是黄金取代白银成为价值尺度，结果仍然一样。",
+      "start_ms": 80,
+      "end_ms": 9320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch03-s02-n0284",
+      "text": "第一种情况下，流通中的白银必须多于原先的黄金。",
+      "start_ms": 10120,
+      "end_ms": 14440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch03-s02-n0285",
+      "text": "第二种情况下，流通中的黄金必须少于原先的白银。",
+      "start_ms": 15200,
+      "end_ms": 19640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch03-s02-n0286",
+      "text": "两种情况的共同点是，用作价值尺度的货币材料，其价值都不同于原来。",
+      "start_ms": 20640,
+      "end_ms": 28280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch03-s02-n0287",
+      "text": "商品价值的价格表达会随之改变，实现这些价格所需的货币量也会改变。",
+      "start_ms": 28760,
+      "end_ms": 35640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch03-s02-n0288",
+      "text": "商品流通并不是封闭的。",
+      "start_ms": 36120,
+      "end_ms": 38440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch03-s02-n0289",
+      "text": "黄金、白银等货币材料会从贵金属产地进入流通，而且进入时本身就是具有一定价值的商品。",
+      "start_ms": 0,
+      "end_ms": 8280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch03-s02-n0290",
+      "text": "货币给商品定价，正是以这个价值已经确定为前提。",
+      "start_ms": 8760,
+      "end_ms": 13040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch03-s02-n0291",
+      "text": "假如价值尺度本身贬值，最先改价的是贵金属产地附近那些直接用商品交换贵金属的商品。",
+      "start_ms": 13520,
+      "end_ms": 23040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch03-s02-n0292",
+      "text": "在资产阶级社会还不发达时，其他许多商品会在很长一段时间里继续沿用旧价格，好像货币材料的价值没有变化。",
+      "start_ms": 23520,
+      "end_ms": 32920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch03-s02-n0293",
+      "text": "不过，所有商品都用同一种货币表示价值，一种商品的价格变化会逐渐传到另一种商品。",
+      "start_ms": 33640,
+      "end_ms": 40240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch03-s02-n0294",
+      "text": "各种商品的金价或银价会慢慢调整到由各自价值决定的比例，最后全部按照货币金属的新价值定价。",
+      "start_ms": 41000,
+      "end_ms": 50520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch03-s02-n0295",
+      "text": "这个调整过程伴随着贵金属不断流入，因为贵金属会被用来交换那些直接同它交易的商品。",
+      "start_ms": 0,
+      "end_ms": 7960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch03-s02-n0296",
+      "text": "在这段时间里，货币金属的价值还会继续下降一阵。",
+      "start_ms": 8560,
+      "end_ms": 13200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch03-s02-n0297",
+      "text": "越来越多商品改按新的较低价值定价时，实现上涨后的价格所需的额外货币，也已经随着贵金属流入而出现。",
+      "start_ms": 13840,
+      "end_ms": 24840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch03-s02-n0298",
+      "text": "十七世纪，尤其是十八世纪，人们只看到新金银产地被发现以后，贵金属增多和商品涨价同时发生，便错误地断定：商品涨价是因为充当流通手段的金银增多了。",
+      "start_ms": 25760,
+      "end_ms": 44480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch03-s02-n0299",
+      "text": "下面的分析把黄金价值看作已经确定的量，因为在商品定价的那一刻，黄金价值本来就是既定的。",
+      "start_ms": 45080,
+      "end_ms": 56080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch03-s02-n0300",
+      "text": "在黄金价值既定的条件下，流通中需要多少货币，由待实现的商品价格总额决定。",
+      "start_ms": 56880,
+      "end_ms": 66080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch03-s02-n0301",
+      "text": "再假定每类商品的单价不变，价格总额显然就取决于进入流通的商品有多少。",
+      "start_ms": 240,
+      "end_ms": 6840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch03-s02-n0302",
+      "text": "1夸特小麦值2英镑，100夸特就值200英镑，200夸特就值400英镑，依此类推。",
+      "start_ms": 7320,
+      "end_ms": 13960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch03-s02-n0303",
+      "text": "小麦越多，出售这些小麦时需要同它交换位置的货币也越多。",
+      "start_ms": 14440,
+      "end_ms": 19400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch03-s02-n0304",
+      "text": "如果商品总量不变，流通中的货币量就会随着商品价格涨落。",
+      "start_ms": 20280,
+      "end_ms": 24960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch03-s02-n0305",
+      "text": "原因很简单：价格变化会提高或降低全部商品的价格总额。",
+      "start_ms": 25480,
+      "end_ms": 31080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch03-s02-n0306",
+      "text": "这里并不需要所有商品同时涨价或降价。",
+      "start_ms": 32000,
+      "end_ms": 35840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch03-s02-n0307",
+      "text": "只要一批主要商品涨价或降价，就足以改变全部流通商品的价格总额，从而使更多或更少的货币进入流通。",
+      "start_ms": 0,
+      "end_ms": 12959,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch03-s02-n0308",
+      "text": "至于价格变化来自商品价值本身的变化，还是只来自市场价格的波动，对流通货币量的影响都一样。",
+      "start_ms": 12959,
+      "end_ms": 25092,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch03-s02-n0309",
+      "text": "先假定几笔互不关联的销售在不同地点同时发生，卖出的分别是1夸特小麦、20码麻布、1本《圣经》和4加仑谷物烧酒。",
+      "start_ms": 25092,
+      "end_ms": 40257,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch03-s02-n0310",
+      "text": "每种商品都值2英镑，价格总额就是8英镑，所以流通中需要8英镑。",
+      "start_ms": 40257,
+      "end_ms": 48805,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch03-s02-n0311",
+      "text": "现在再假定这些商品组成一条连续的交易链：",
+      "start_ms": 48805,
+      "end_ms": 54319,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch03-s02-n0312",
+      "text": "1夸特小麦 → 2英镑 → 20码麻布 → 2英镑 → 1本《圣经》 → 2英镑 → 4加仑谷物烧酒 → 2英镑",
+      "start_ms": 54319,
+      "end_ms": 65900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch03-s02-n0313",
+      "text": "这时，只要2英镑就能让这些商品依次流通。",
+      "start_ms": 160,
+      "end_ms": 3920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch03-s02-n0314",
+      "text": "它先后实现每种商品的价格，也就实现了8英镑的价格总额，最后停在烧酒制造者手里。",
+      "start_ms": 4360,
+      "end_ms": 12600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch03-s02-n0315",
+      "text": "这样，同一笔钱一共流通了四次。",
+      "start_ms": 13200,
+      "end_ms": 16320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch03-s02-n0316",
+      "text": "同一批货币反复换手，表现了商品的两次变化：商品先变成货币，货币再变成另一种商品。",
+      "start_ms": 23600,
+      "end_ms": 33480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch03-s02-n0317",
+      "text": "同一笔钱也因此把不同商品的变化连接在一起。",
+      "start_ms": 34440,
+      "end_ms": 38760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch03-s02-n0318",
+      "text": "这两个方向相反、又互相补充的阶段，不是同时发生在不同地点，而是同一过程在时间上先后完成的两步。",
+      "start_ms": 55480,
+      "end_ms": 65200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch03-s02-n0319",
+      "text": "所以，只能用经过的时间衡量这个过程持续多久。",
+      "start_ms": 0,
+      "end_ms": 4775,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch03-s02-n0320",
+      "text": "给定一段时间，再看同一批货币流通了多少次，就能衡量货币的流通速度。",
+      "start_ms": 4775,
+      "end_ms": 11939,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch03-s02-n0321",
+      "text": "假如上述四种商品的流通用了一天，那么需要实现的价格总额是8英镑，同一笔货币一天流通4次，流通中的货币量就是2英镑。",
+      "start_ms": 11939,
+      "end_ms": 24312,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch03-s02-n0322",
+      "text": "也就是说，在一定时间内：",
+      "start_ms": 24312,
+      "end_ms": 26916,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch03-s02-n0323",
+      "text": "商品价格总额 ÷ 同种货币的流通次数 = 作为流通手段的货币量",
+      "start_ms": 26916,
+      "end_ms": 32777,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch03-s02-n0324",
+      "text": "这个规律对整个国家也成立。",
+      "start_ms": 32777,
+      "end_ms": 35599,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch03-s02-n0325",
+      "text": "在一定时间内，全国既有大量同时发生、彼此分散的买卖，同一枚钱只换手一次，也有许多彼此并行或交错的交易链，同一枚钱会换手多次。",
+      "start_ms": 0,
+      "end_ms": 16640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch03-s02-n0326",
+      "text": "把所有同种货币的换手次数合计起来，就能算出每枚货币平均换手多少次，也就是货币的平均流通速度。",
+      "start_ms": 17560,
+      "end_ms": 29880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch03-s02-n0327",
+      "text": "每天开始流通时需要投入多少货币，当然由同时进入流通的商品价格总额决定。",
+      "start_ms": 30880,
+      "end_ms": 39280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch03-s02-n0328",
+      "text": "但流通过程一旦开始，不同的钱币就会彼此替代。",
+      "start_ms": 40000,
+      "end_ms": 44800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch03-s02-n0329",
+      "text": "一枚钱流通得更快，另一枚钱就会流通得更慢，甚至退出流通。",
+      "start_ms": 45640,
+      "end_ms": 52440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch03-s02-n0330",
+      "text": "因为流通能够容纳的黄金总量，乘以每枚货币的平均流通次数，必须等于需要实现的商品价格总额。",
+      "start_ms": 53360,
+      "end_ms": 64600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch03-s02-n0331",
+      "text": "因此，货币流通得越快，流通中需要的货币越少。",
+      "start_ms": 40,
+      "end_ms": 4560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch03-s02-n0332",
+      "text": "货币流通得越慢，需要的货币就越多。",
+      "start_ms": 5280,
+      "end_ms": 8480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch03-s02-n0333",
+      "text": "平均流通速度既定时，所需货币量也就确定了。",
+      "start_ms": 9080,
+      "end_ms": 13640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch03-s02-n0334",
+      "text": "正因如此，只要向流通中投入一定数量的一英镑纸币，就能挤出同样数量的英镑金币。",
+      "start_ms": 14200,
+      "end_ms": 21400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch03-s02-n0335",
+      "text": "这是银行都熟悉的做法。",
+      "start_ms": 22040,
+      "end_ms": 24040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch03-s02-n0336",
+      "text": "货币流通本身表现的，只是商品的流通过程，也就是商品通过方向相反的形态变化形成的循环。",
+      "start_ms": 24520,
+      "end_ms": 32760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch03-s02-n0337",
+      "text": "相应地，货币流通速度表现的是商品改变形态的速度：各条形态变化的链条不断衔接，商品之间的物质变换迅速进行，商品很快离开流通领域，又很快被新商品取代。",
+      "start_ms": 200,
+      "end_ms": 21040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch03-s02-n0338",
+      "text": "因此，货币流通得快，表明两个方向相反而又彼此补充的阶段顺畅地连在一起。",
+      "start_ms": 21960,
+      "end_ms": 30400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch03-s02-n0339",
+      "text": "商品先从使用形态变成价值形态，再从价值形态变回使用形态，也就是先出售，再购买。",
+      "start_ms": 31240,
+      "end_ms": 41200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch03-s02-n0340",
+      "text": "反过来，货币流通慢下来，表明这两个过程彼此分离，发展成相互对立的独立过程。",
+      "start_ms": 50320,
+      "end_ms": 61200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch03-s02-n0341",
+      "text": "商品形态变化由此停滞，商品之间的物质变换也随之停滞。",
+      "start_ms": 61920,
+      "end_ms": 69000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch03-s02-n0342",
+      "text": "至于停滞究竟从何而来，当然无法从流通本身看出来。",
+      "start_ms": 69840,
+      "end_ms": 76320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch03-s02-n0343",
+      "text": "流通只把停滞这个现象表现出来。",
+      "start_ms": 160,
+      "end_ms": 2480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch03-s02-n0344",
+      "text": "普通人看到货币流通变慢，货币在流通各处出现和消失得不那么频繁，就很容易把这种现象解释为流通手段数量不足。",
+      "start_ms": 2760,
+      "end_ms": 12160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch03-s02-n0345",
+      "text": "因此，每一段时间内充当流通手段的货币总量，取决于两个方面。",
+      "start_ms": 12560,
+      "end_ms": 17720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch03-s02-n0346",
+      "text": "一方面，是流通中全部商品的价格总额。",
+      "start_ms": 18280,
+      "end_ms": 22040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch03-s02-n0347",
+      "text": "另一方面，是商品出售和购买这两个相反过程进行得快还是慢，因为流通速度决定同一批货币能够实现价格总额中的多大部分。",
+      "start_ms": 22720,
+      "end_ms": 35120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch03-s02-n0348",
+      "text": "商品的价格总额又取决于每类商品的数量和价格。",
+      "start_ms": 36040,
+      "end_ms": 40320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch03-s02-n0349",
+      "text": "商品价格的变动、流通中的商品数量和货币流通速度这三个因素，可以按不同方向、不同幅度变化。",
+      "start_ms": 120,
+      "end_ms": 7600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch03-s02-n0350",
+      "text": "这样，需要实现的价格总额，以及由它决定的流通手段数量，就会出现许多种组合。",
+      "start_ms": 8240,
+      "end_ms": 16240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch03-s02-n0351",
+      "text": "下面只列出商品价格史上最重要的几种。",
+      "start_ms": 17080,
+      "end_ms": 20160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch03-s02-n0352",
+      "text": "商品价格不变时，流通手段的数量可能增加，因为流通中的商品增加了，或者货币流通速度下降了，也可能是两者共同作用。",
+      "start_ms": 20720,
+      "end_ms": 32000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch03-s02-n0353",
+      "text": "反过来，如果流通中的商品减少，或者货币流通速度上升，流通手段的数量就可能减少。",
+      "start_ms": 32600,
+      "end_ms": 40160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch03-s02-n0354",
+      "text": "商品价格普遍上涨时，流通手段的数量仍可能不变。",
+      "start_ms": 41040,
+      "end_ms": 45200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch03-s02-n0355",
+      "text": "一种情况是，商品数量减少到刚好抵消涨价，也就是价格和数量按倒数比例变化。",
+      "start_ms": 40,
+      "end_ms": 9120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch03-s02-n0356",
+      "text": "例如，价格涨到原来的两倍，商品数量就减到原来的一半。",
+      "start_ms": 9640,
+      "end_ms": 15360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch03-s02-n0357",
+      "text": "另一种情况是，在商品数量不变时，货币流通速度同价格按相同比例提高。",
+      "start_ms": 15960,
+      "end_ms": 24320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch03-s02-n0358",
+      "text": "如果商品数量的减少超过了刚好抵消涨价所需的幅度，或者货币流通速度提高得比价格更快，流通手段的数量还会下降。",
+      "start_ms": 25240,
+      "end_ms": 40200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch03-s02-n0359",
+      "text": "商品价格普遍下跌时，流通手段的数量也可能不变。",
+      "start_ms": 41120,
+      "end_ms": 47320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch03-s02-n0360",
+      "text": "一种情况是，商品数量增加到刚好抵消降价，也就是价格和数量按倒数比例变化。",
+      "start_ms": 48160,
+      "end_ms": 59040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch03-s02-n0361",
+      "text": "例如，价格降到原来的一半，商品数量就增加到原来的两倍。",
+      "start_ms": 40,
+      "end_ms": 6960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch03-s02-n0362",
+      "text": "另一种情况是，货币流通速度同价格按相同比例降低。",
+      "start_ms": 7760,
+      "end_ms": 13240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch03-s02-n0363",
+      "text": "如果商品数量的增加超过了刚好抵消降价所需的幅度，或者货币流通速度降低得比价格更快，流通手段的数量就会增加。",
+      "start_ms": 13840,
+      "end_ms": 26160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch03-s02-n0364",
+      "text": "各个因素的变化可以互相抵消。",
+      "start_ms": 26280,
+      "end_ms": 29040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch03-s02-n0365",
+      "text": "这样，尽管它们一直波动，需要实现的商品价格总额仍可能保持不变，流通中的货币量也会随之不变。",
+      "start_ms": 29880,
+      "end_ms": 40640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch03-s02-n0366",
+      "text": "因此，观察一段较长时期就会发现，每个国家流通中的货币量有一个相当稳定的平均水平，实际货币量同这个平均水平的偏差也比表面看来小得多。",
+      "start_ms": 41320,
+      "end_ms": 58880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch03-s02-n0367",
+      "text": "只有生产危机和商业危机周期性造成严重震荡时，偏差才会明显增大。",
+      "start_ms": 120,
+      "end_ms": 8120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch03-s02-n0368",
+      "text": "货币自身价值发生变化，较少造成这种震荡。",
+      "start_ms": 8880,
+      "end_ms": 12760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch03-s02-n0369",
+      "text": "流通手段的数量由流通商品的价格总额和货币的平均流通速度决定。",
+      "start_ms": 13680,
+      "end_ms": 20400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch03-s02-n0370",
+      "text": "这条规律也可以换一种说法：如果商品价值总额已经确定，商品形态变化的平均速度也已经确定，那么流通中的货币或货币材料需要多少，就取决于货币自身的价值。",
+      "start_ms": 21200,
+      "end_ms": 39160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch03-s02-n0371",
+      "text": "相反，有一种错觉认为，商品价格由流通手段的数量决定，而流通手段的数量又由一个国家拥有的货币材料总量决定。",
+      "start_ms": 40000,
+      "end_ms": 50960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch03-s02-n0372",
+      "text": "这种错觉最早的代表者提出了一个荒唐假设：商品没有价格，货币也没有价值，两者就这样进入流通。",
+      "start_ms": 51360,
+      "end_ms": 61200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch03-s02-n0373",
+      "text": "接着，商品粥的一定份额同金属山的一定份额互相交换。",
+      "start_ms": 0,
+      "end_ms": 4840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch03-s02-n0374",
+      "text": "货币因为充当流通手段，才取得铸币的形态。",
+      "start_ms": 5200,
+      "end_ms": 8480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch03-s02-n0375",
+      "text": "商品价格以一定重量的黄金来表示。",
+      "start_ms": 9040,
+      "end_ms": 12120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch03-s02-n0376",
+      "text": "到了实际流通中，这个黄金量必须由相应的金币，也就是铸币，来同商品交换。",
+      "start_ms": 12680,
+      "end_ms": 19560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch03-s02-n0377",
+      "text": "规定价格标准由国家负责，铸造货币也由国家负责。",
+      "start_ms": 20760,
+      "end_ms": 24640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch03-s02-n0378",
+      "text": "黄金和白银成为铸币时，会穿上各国不同的制服。",
+      "start_ms": 25200,
+      "end_ms": 29560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch03-s02-n0379",
+      "text": "到了世界市场，它们又脱掉这些制服。",
+      "start_ms": 200,
+      "end_ms": 3560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch03-s02-n0380",
+      "text": "这种变化表明，商品流通的国内或一国范围，同它在世界市场上的普遍范围彼此分开。",
+      "start_ms": 4240,
+      "end_ms": 12360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch03-s02-n0381",
+      "text": "金币和金条起初只有形状不同，黄金可以随时从一种形态变成另一种形态。",
+      "start_ms": 13160,
+      "end_ms": 20640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch03-s02-n0382",
+      "text": "可是，金币从铸币厂出来走上流通道路，也就开始走向熔炉。",
+      "start_ms": 21440,
+      "end_ms": 28280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch03-s02-n0383",
+      "text": "金币在流通中不断磨损，只是有的磨损多，有的磨损少。",
+      "start_ms": 28880,
+      "end_ms": 33760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch03-s02-n0384",
+      "text": "金币名义上的含金量，开始同它实际含有的黄金分离。",
+      "start_ms": 34640,
+      "end_ms": 40320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch03-s02-n0385",
+      "text": "名称相同的金币因为重量不同，价值也变得不同。",
+      "start_ms": 0,
+      "end_ms": 3720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch03-s02-n0386",
+      "text": "作为流通手段的黄金由此偏离了作为价格标准的黄金，也就不再是它所实现价格的那些商品的真正等价物。",
+      "start_ms": 4160,
+      "end_ms": 12360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch03-s02-n0387",
+      "text": "中世纪和近代直到 18 世纪的铸币史，就是这些混乱的历史。",
+      "start_ms": 13120,
+      "end_ms": 18000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch03-s02-n0388",
+      "text": "流通过程有一种自发趋势，会把铸币中真实的黄金变成黄金的表象，把铸币变成它依法应有含金量的符号。",
+      "start_ms": 18560,
+      "end_ms": 27480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch03-s02-n0389",
+      "text": "现代法律也承认这种趋势，因为法律会规定金币最多可以损失多少金属，超过限度便不能继续流通，也就失去货币资格。",
+      "start_ms": 28360,
+      "end_ms": 37920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch03-s02-n0390",
+      "text": "货币流通本身会使铸币的实际金属含量同它的名义含量分离，也会使铸币作为金属的存在同它执行职能的存在分离。",
+      "start_ms": 38320,
+      "end_ms": 48000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch03-s02-n0391",
+      "text": "因此，流通中已经潜藏着一种可能：用其他材料制成的标记或符号，代替金属货币执行铸币职能。",
+      "start_ms": 120,
+      "end_ms": 8560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch03-s02-n0392",
+      "text": "金银的极小重量在铸造时有技术困难。",
+      "start_ms": 9080,
+      "end_ms": 12840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch03-s02-n0393",
+      "text": "再加上从历史上看，较不贵重的金属起初曾充当价值尺度，后来才被贵金属取代。",
+      "start_ms": 13440,
+      "end_ms": 20680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch03-s02-n0394",
+      "text": "这两种情况说明，银制和铜制辅币为什么能够代替金币。",
+      "start_ms": 21080,
+      "end_ms": 25400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch03-s02-n0395",
+      "text": "它们在铸币流通最快的领域，也就是小额买卖中代替黄金。",
+      "start_ms": 26000,
+      "end_ms": 30320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch03-s02-n0396",
+      "text": "为了不让这些附属铸币反过来占据黄金的位置，法律规定它们代替黄金支付时只能使用到很低的限额。",
+      "start_ms": 31240,
+      "end_ms": 39160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch03-s02-n0397",
+      "text": "不同种类铸币各自流通的特殊范围当然会彼此交错。",
+      "start_ms": 0,
+      "end_ms": 5680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch03-s02-n0398",
+      "text": "辅币同黄金一起支付不足最小金币的零头。",
+      "start_ms": 6440,
+      "end_ms": 10480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch03-s02-n0399",
+      "text": "黄金不断进入零售流通，又因同辅币交替使用而不断被排出去。",
+      "start_ms": 10960,
+      "end_ms": 17080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch03-s02-n0400",
+      "text": "银币或铜币这些标记实际含多少金属，由法律任意规定。",
+      "start_ms": 17880,
+      "end_ms": 23360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch03-s02-n0401",
+      "text": "它们在流通中磨损得比金币更快。",
+      "start_ms": 23760,
+      "end_ms": 26840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch03-s02-n0402",
+      "text": "因此，它们执行铸币职能，实际上已经同自身的重量完全无关，也就是同一切价值无关。",
+      "start_ms": 27640,
+      "end_ms": 36240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch03-s02-n0403",
+      "text": "黄金作为铸币的存在同它的价值实体彻底分离了。",
+      "start_ms": 200,
+      "end_ms": 3920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch03-s02-n0404",
+      "text": "这样一来，相对没有价值的东西，例如纸片，也就能够代替黄金执行铸币职能。",
+      "start_ms": 4360,
+      "end_ms": 10720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch03-s02-n0405",
+      "text": "以金属制成的货币标记还多少掩盖着它的纯符号性质，纸币却把这种性质明明白白地显露出来。",
+      "start_ms": 11280,
+      "end_ms": 19120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch03-s02-n0406",
+      "text": "人们由此看出，困难的只是迈出第一步。",
+      "start_ms": 19680,
+      "end_ms": 22920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch03-s02-n0407",
+      "text": "这里只讨论国家发行并具有强制流通效力的纸币。",
+      "start_ms": 23160,
+      "end_ms": 27160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch03-s02-n0408",
+      "text": "它是从金属货币流通中直接产生的。",
+      "start_ms": 27760,
+      "end_ms": 30280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch03-s02-n0409",
+      "text": "信用货币却以另一些关系为前提，这些关系在简单商品流通的范围内还完全不为人所知。",
+      "start_ms": 360,
+      "end_ms": 7440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch03-s02-n0410",
+      "text": "这里只顺便指出，真正的纸币产生于货币作为流通手段的职能，信用货币则天然地以货币作为支付手段的职能为根基。",
+      "start_ms": 7960,
+      "end_ms": 17760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch03-s02-n0411",
+      "text": "国家把印有1英镑、5英镑等货币名称的纸片从外部投入流通过程。",
+      "start_ms": 18560,
+      "end_ms": 25000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch03-s02-n0412",
+      "text": "如果这些纸片确实代替了同名的金币数量，它们的运动就只能反映货币流通本身的规律。",
+      "start_ms": 25720,
+      "end_ms": 33200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch03-s02-n0413",
+      "text": "纸币流通的特殊规律，只能从纸币代表黄金的关系中产生。",
+      "start_ms": 34160,
+      "end_ms": 39200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch03-s02-n0414",
+      "text": "简单说来，这条规律就是，纸币的发行量必须限制在没有纸币时实际需要流通的黄金数量之内。",
+      "start_ms": 39680,
+      "end_ms": 48280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch03-s02-n0415",
+      "text": "需要由流通领域吸收的黄金量固然会不断在某个平均水平上下波动，但一国流通手段的总量从来不会低于某个凭经验可以确定的最低限度。",
+      "start_ms": 160,
+      "end_ms": 12640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch03-s02-n0416",
+      "text": "这个最低总量的各个组成部分会不断更换，也就是说，其中的金币会不断被别的金币替代。",
+      "start_ms": 13520,
+      "end_ms": 20720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch03-s02-n0417",
+      "text": "然而，它的总量不变，并且不断留在流通领域。",
+      "start_ms": 21800,
+      "end_ms": 26560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch03-s02-n0418",
+      "text": "因此，这部分黄金可以用纸币符号来代替。",
+      "start_ms": 27280,
+      "end_ms": 31320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch03-s02-n0419",
+      "text": "假如今天把所有流通渠道都用纸币塞满，达到它们所能吸收货币的最大限度，那么明天商品流通一发生波动，纸币就可能泛滥。",
+      "start_ms": 32320,
+      "end_ms": 44840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch03-s02-n0420",
+      "text": "发行量一旦超过这个限度，一切尺度也就不复存在。",
+      "start_ms": 45800,
+      "end_ms": 50440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch03-s02-n0421",
+      "text": "假定纸币超过了本来能够流通的同名金币数量，暂且撇开它可能普遍丧失信用的危险不谈，它在商品世界中仍然只代表由这个世界的内在规律所决定、因而也只能由纸币代表的黄金量。",
+      "start_ms": 40,
+      "end_ms": 21040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch03-s02-n0422",
+      "text": "例如，发行的纸币总面额是它所代表黄金量的两倍，每张纸币实际代表的黄金就只剩原来的一半。",
+      "start_ms": 22120,
+      "end_ms": 35400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch03-s02-n0423",
+      "text": "这样，1英镑就不再是1/4盎司黄金的货币名称，而变成1/8盎司黄金的货币名称。",
+      "start_ms": 36160,
+      "end_ms": 46320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch03-s02-n0424",
+      "text": "结果同黄金作为价格尺度的职能发生变化完全一样。",
+      "start_ms": 47120,
+      "end_ms": 52560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch03-s02-n0425",
+      "text": "原先以1英镑为价格表现出来的同一价值，现在以2英镑为价格表现出来。",
+      "start_ms": 53280,
+      "end_ms": 61800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch03-s02-n0426",
+      "text": "纸币是黄金的标记，也就是货币的标记。",
+      "start_ms": 62720,
+      "end_ms": 67160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch03-s02-n0427",
+      "text": "它同商品价值的关系只在于，这些价值在观念上表现为一定量的黄金，而纸币则以肉眼可见、可以感知的方式代表这些黄金量。",
+      "start_ms": 120,
+      "end_ms": 12960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0072"
+    },
+    {
+      "id": "ch03-s02-n0428",
+      "text": "纸币只有在代表黄金量时才是价值的标记，因为这些黄金量同其他一切商品量一样，本身也是价值量。",
+      "start_ms": 13840,
+      "end_ms": 26480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0072"
+    },
+    {
+      "id": "ch03-s02-n0429",
+      "text": "最后还有一个问题：为什么黄金能够由本身没有价值的标记来代替？",
+      "start_ms": 27640,
+      "end_ms": 34520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0072"
+    },
+    {
+      "id": "ch03-s02-n0430",
+      "text": "前面已经看到，只有当黄金作为铸币或流通手段的职能独立出来时，它才能被这种标记代替。",
+      "start_ms": 35320,
+      "end_ms": 44320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0072"
+    },
+    {
+      "id": "ch03-s02-n0431",
+      "text": "这种职能虽然在磨损的金币继续流通时表现出来，却没有在每一枚金币上真正独立下来。",
+      "start_ms": 45200,
+      "end_ms": 53680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0072"
+    },
+    {
+      "id": "ch03-s02-n0432",
+      "text": "因为一枚金币只有实际处在流通中时，才只是铸币或流通手段。",
+      "start_ms": 54400,
+      "end_ms": 60680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0072"
+    },
+    {
+      "id": "ch03-s02-n0433",
+      "text": "不过，对单枚金币不成立的情况，对能够由纸币代替的最低黄金总量却成立。",
+      "start_ms": 40,
+      "end_ms": 7920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0073"
+    },
+    {
+      "id": "ch03-s02-n0434",
+      "text": "这部分黄金始终待在流通领域里，不断执行流通手段的职能，因而只作为这种职能的承担者而存在。",
+      "start_ms": 8840,
+      "end_ms": 20160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0073"
+    },
+    {
+      "id": "ch03-s02-n0435",
+      "text": "它的运动只是商品形态变化中两个相反过程不断接续的运动，也就是商品—货币—商品（W—G—W）。",
+      "start_ms": 32400,
+      "end_ms": 46360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0073"
+    },
+    {
+      "id": "ch03-s02-n0436",
+      "text": "在这个过程中，商品只是短暂地面对自己的价值形态，这种价值形态随即又消失。",
+      "start_ms": 46360,
+      "end_ms": 55240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0073"
+    },
+    {
+      "id": "ch03-s02-n0437",
+      "text": "商品交换价值的独立表现，在这里不过是一个转瞬即逝的环节，马上又由另一种商品取代。",
+      "start_ms": 55960,
+      "end_ms": 65560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0073"
+    },
+    {
+      "id": "ch03-s02-n0438",
+      "text": "因此，在一个不断使货币从一只手转到另一只手的过程中，货币只要以符号形式存在就够了。",
+      "start_ms": 66640,
+      "end_ms": 76800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0073"
+    },
+    {
+      "id": "ch03-s02-n0439",
+      "text": "可以说，它执行职能的存在方式吞没了它的物质存在。",
+      "start_ms": 0,
+      "end_ms": 4760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0074"
+    },
+    {
+      "id": "ch03-s02-n0440",
+      "text": "货币只是商品价格转瞬即逝的客观映像，只作为自己的标记发挥作用，所以也能够由标记代替。",
+      "start_ms": 5560,
+      "end_ms": 13800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0074"
+    },
+    {
+      "id": "ch03-s02-n0441",
+      "text": "不过，货币标记必须取得自身的、客观的社会效力。",
+      "start_ms": 14720,
+      "end_ms": 18640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0074"
+    },
+    {
+      "id": "ch03-s02-n0442",
+      "text": "国家强制人们接受纸币，正是由此赋予纸币这种效力。",
+      "start_ms": 19280,
+      "end_ms": 24080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0074"
+    },
+    {
+      "id": "ch03-s02-n0443",
+      "text": "国家的强制只在一个社会共同体的边界以内，也就是国内流通领域中有效。",
+      "start_ms": 24880,
+      "end_ms": 30680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0074"
+    },
+    {
+      "id": "ch03-s02-n0444",
+      "text": "也只有在这里，货币才完全融入它作为流通手段或铸币的职能之中，因而能够以纸币的形式，获得一种在外表上同金属实体分离、只保留职能的存在方式。",
+      "start_ms": 31280,
+      "end_ms": 44320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0074"
+    }
+  ]
+}

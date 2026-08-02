@@ -1,0 +1,1567 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch03-s01-v1-audio-5c697a4ad3ac",
+  "unit_id": "ch03-s01",
+  "translation_version_id": "ch03-s01-v1",
+  "translation_sha256": "5494fc70b7dbe1db435562151b218cf0cf955678e9e99e11da3e7bd98e588e94",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T18:43:24.977Z",
+  "completed_at": "2026-08-02T18:49:50.694Z",
+  "duration_ms": 1268718,
+  "sentence_count": 147,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 34583,
+      "bytes": 553772,
+      "sha256": "b20642cdb9eecaf043360e94b0ce0c65b83316d488fa7657c963a07b0e933436",
+      "sentence_ids": [
+        "ch03-s01-n0001",
+        "ch03-s01-n0002",
+        "ch03-s01-n0003",
+        "ch03-s01-n0004",
+        "ch03-s01-n0005",
+        "ch03-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 86180,
+      "bytes": 1379372,
+      "sha256": "53e32328af26e804bb8e771b019adcf97ae2b77209cf68f3846820d9aaa98a78",
+      "sentence_ids": [
+        "ch03-s01-n0007",
+        "ch03-s01-n0008",
+        "ch03-s01-n0009",
+        "ch03-s01-n0010",
+        "ch03-s01-n0011",
+        "ch03-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 47180,
+      "bytes": 755372,
+      "sha256": "a2f7339fa9bda4d122b6ac861c3d6613cfffe122af52fb0e98ce7aec36d9ae59",
+      "sentence_ids": [
+        "ch03-s01-n0013",
+        "ch03-s01-n0014",
+        "ch03-s01-n0015",
+        "ch03-s01-n0016",
+        "ch03-s01-n0017",
+        "ch03-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 47400,
+      "bytes": 758828,
+      "sha256": "e7313b4520f731fdd24bab6dd0b5ba585dcd51e8497e4622996a859eaa8eb690",
+      "sentence_ids": [
+        "ch03-s01-n0019",
+        "ch03-s01-n0020",
+        "ch03-s01-n0021",
+        "ch03-s01-n0022",
+        "ch03-s01-n0023",
+        "ch03-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 40953,
+      "bytes": 655916,
+      "sha256": "9074126c8bcdf6a08eba55091299c9dbb44e86e4b57c153bf0577c068130305d",
+      "sentence_ids": [
+        "ch03-s01-n0025",
+        "ch03-s01-n0026",
+        "ch03-s01-n0027",
+        "ch03-s01-n0028",
+        "ch03-s01-n0029",
+        "ch03-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 80291,
+      "bytes": 1285292,
+      "sha256": "3f96c2e82abe505885b6efda20415efb19047689a4490b5fcfab4103bdf29d49",
+      "sentence_ids": [
+        "ch03-s01-n0031",
+        "ch03-s01-n0032",
+        "ch03-s01-n0033",
+        "ch03-s01-n0034",
+        "ch03-s01-n0035",
+        "ch03-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 62812,
+      "bytes": 1005740,
+      "sha256": "bd6045d8399c8222732b7641985dcf75341fdb45e1703927074b2a955153c977",
+      "sentence_ids": [
+        "ch03-s01-n0037",
+        "ch03-s01-n0038",
+        "ch03-s01-n0039",
+        "ch03-s01-n0040",
+        "ch03-s01-n0041",
+        "ch03-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 46995,
+      "bytes": 752684,
+      "sha256": "dd0ba16b438b4f65394966f87f9a6bef871627dbb45165a7f2c9add03129e7fb",
+      "sentence_ids": [
+        "ch03-s01-n0043",
+        "ch03-s01-n0044",
+        "ch03-s01-n0045",
+        "ch03-s01-n0046",
+        "ch03-s01-n0047",
+        "ch03-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 52200,
+      "bytes": 835628,
+      "sha256": "7f338449cbf00c55315dbdc5adefb1433251642a977e7c3b39e2498e769d8a8e",
+      "sentence_ids": [
+        "ch03-s01-n0049",
+        "ch03-s01-n0050",
+        "ch03-s01-n0051",
+        "ch03-s01-n0052",
+        "ch03-s01-n0053",
+        "ch03-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 43580,
+      "bytes": 697772,
+      "sha256": "3e173c47ed791aed5b7c3dea07e6fd353d219b0bd74d5be3c62ec449fb16a0bf",
+      "sentence_ids": [
+        "ch03-s01-n0055",
+        "ch03-s01-n0056",
+        "ch03-s01-n0057",
+        "ch03-s01-n0058",
+        "ch03-s01-n0059",
+        "ch03-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 52000,
+      "bytes": 832556,
+      "sha256": "0b07994f5cfde8a4ce99bae44d2e16d8b0accc7aa42ebdcce7dc64ef80701e50",
+      "sentence_ids": [
+        "ch03-s01-n0061",
+        "ch03-s01-n0062",
+        "ch03-s01-n0063",
+        "ch03-s01-n0064",
+        "ch03-s01-n0065",
+        "ch03-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 48565,
+      "bytes": 777644,
+      "sha256": "d7fca2531245857000963e8b7aacbbafc65ee9cd405f54bcada042e85fb3c927",
+      "sentence_ids": [
+        "ch03-s01-n0067",
+        "ch03-s01-n0068",
+        "ch03-s01-n0069",
+        "ch03-s01-n0070",
+        "ch03-s01-n0071",
+        "ch03-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 47580,
+      "bytes": 761900,
+      "sha256": "b3ac752449285c4f706787a82cd5b6d3aab087415406d6d75e8e1c375e19ab29",
+      "sentence_ids": [
+        "ch03-s01-n0073",
+        "ch03-s01-n0074",
+        "ch03-s01-n0075",
+        "ch03-s01-n0076",
+        "ch03-s01-n0077",
+        "ch03-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 38629,
+      "bytes": 618668,
+      "sha256": "f6004d20c2736e4b8260fcfe3a2446549b018e251bcb991b69bfa9fb635fa933",
+      "sentence_ids": [
+        "ch03-s01-n0079",
+        "ch03-s01-n0080",
+        "ch03-s01-n0081",
+        "ch03-s01-n0082",
+        "ch03-s01-n0083",
+        "ch03-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 68983,
+      "bytes": 1104428,
+      "sha256": "8e1318d1708f705181c9c0e9acc95e5f713812a0e9931ff89c3f27fe763c0f07",
+      "sentence_ids": [
+        "ch03-s01-n0085",
+        "ch03-s01-n0086",
+        "ch03-s01-n0087",
+        "ch03-s01-n0088",
+        "ch03-s01-n0089",
+        "ch03-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 54643,
+      "bytes": 874796,
+      "sha256": "b4dff11dcdc3aaf578e4a21270472ba31842b9527911f26fe3eb192834198749",
+      "sentence_ids": [
+        "ch03-s01-n0091",
+        "ch03-s01-n0092",
+        "ch03-s01-n0093",
+        "ch03-s01-n0094",
+        "ch03-s01-n0095",
+        "ch03-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 64800,
+      "bytes": 1037228,
+      "sha256": "e15b2b7f8543b04cb450b2ca5b414302a698e9c692001581a33ab616f052cef5",
+      "sentence_ids": [
+        "ch03-s01-n0097",
+        "ch03-s01-n0098",
+        "ch03-s01-n0099",
+        "ch03-s01-n0100",
+        "ch03-s01-n0101",
+        "ch03-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 46608,
+      "bytes": 746540,
+      "sha256": "8e7c50fe2f006eb7ad4d7171ed42756f73d474b124aebaf28b609f92f06bf233",
+      "sentence_ids": [
+        "ch03-s01-n0103",
+        "ch03-s01-n0104",
+        "ch03-s01-n0105",
+        "ch03-s01-n0106",
+        "ch03-s01-n0107",
+        "ch03-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 41172,
+      "bytes": 659372,
+      "sha256": "d2cb4e1d847910f0bfbdaa6478d4738b3a7d2f007e6bfc9c91f7d72002443a5f",
+      "sentence_ids": [
+        "ch03-s01-n0109",
+        "ch03-s01-n0110",
+        "ch03-s01-n0111",
+        "ch03-s01-n0112",
+        "ch03-s01-n0113",
+        "ch03-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 40981,
+      "bytes": 656300,
+      "sha256": "dc0ba6af63dbc0b089917c1e3cf9803bd8c448f59ce8820ad385492a9b3449ec",
+      "sentence_ids": [
+        "ch03-s01-n0115",
+        "ch03-s01-n0116",
+        "ch03-s01-n0117",
+        "ch03-s01-n0118",
+        "ch03-s01-n0119",
+        "ch03-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 43280,
+      "bytes": 693164,
+      "sha256": "e170ec14f4c8a39ce900a90e38f01079b3bca6d04449e4f321832614c8462a3e",
+      "sentence_ids": [
+        "ch03-s01-n0121",
+        "ch03-s01-n0122",
+        "ch03-s01-n0123",
+        "ch03-s01-n0124",
+        "ch03-s01-n0125",
+        "ch03-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 51560,
+      "bytes": 825644,
+      "sha256": "5a8602e6b3367946b8ecb5f7ba1d08a3ce61044f9a5c902a8c3c466c8877a351",
+      "sentence_ids": [
+        "ch03-s01-n0127",
+        "ch03-s01-n0128",
+        "ch03-s01-n0129",
+        "ch03-s01-n0130",
+        "ch03-s01-n0131",
+        "ch03-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 53580,
+      "bytes": 857900,
+      "sha256": "cf1e1913daed45f319b345c82a1d9985ca17d6d7214124fd44d5331acb7e8eeb",
+      "sentence_ids": [
+        "ch03-s01-n0133",
+        "ch03-s01-n0134",
+        "ch03-s01-n0135",
+        "ch03-s01-n0136",
+        "ch03-s01-n0137",
+        "ch03-s01-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 52900,
+      "bytes": 847148,
+      "sha256": "b29ec3f6e4dd8ab15ff47adf63076b217093c1caaf6cfb52ae55f3d570a8f237",
+      "sentence_ids": [
+        "ch03-s01-n0139",
+        "ch03-s01-n0140",
+        "ch03-s01-n0141",
+        "ch03-s01-n0142",
+        "ch03-s01-n0143",
+        "ch03-s01-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 21263,
+      "bytes": 340652,
+      "sha256": "451ca33f90775dfc9d3ce28eaf115d38b474ce1291103ef4c6134d3906aed9e5",
+      "sentence_ids": [
+        "ch03-s01-n0145",
+        "ch03-s01-n0146",
+        "ch03-s01-n0147"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch03-s01-n0001",
+      "text": "为了简化叙述，本书一律假定黄金是货币商品。",
+      "start_ms": 240,
+      "end_ms": 4960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s01-n0002",
+      "text": "黄金的第一种职能，是给商品世界提供表现价值的材料，也就是把各种商品的价值表现成用同一种单位表示的量。",
+      "start_ms": 5840,
+      "end_ms": 15640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s01-n0003",
+      "text": "这样，它们在性质上相同，在数量上也可以比较。",
+      "start_ms": 16400,
+      "end_ms": 20520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s01-n0004",
+      "text": "黄金由此成为普遍的价值尺度。",
+      "start_ms": 21520,
+      "end_ms": 24520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s01-n0005",
+      "text": "黄金这种特殊的等价商品，首先正是通过这一职能成为货币。",
+      "start_ms": 25160,
+      "end_ms": 30080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s01-n0006",
+      "text": "商品并不是因为有了货币才可以相互衡量。",
+      "start_ms": 31000,
+      "end_ms": 34160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch03-s01-n0007",
+      "text": "恰恰相反，各种商品作为价值，都是凝结在物品中的人类劳动，本来就可以相互衡量。",
+      "start_ms": 40,
+      "end_ms": 9720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s01-n0008",
+      "text": "正因为如此，它们才能共同用同一种特殊商品衡量各自的价值，并由此把这种商品变成共同的价值尺度，也就是货币。",
+      "start_ms": 10520,
+      "end_ms": 25680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s01-n0009",
+      "text": "货币作为价值尺度，是商品内在的价值尺度——劳动时间——必然采取的表现形式。",
+      "start_ms": 26200,
+      "end_ms": 36280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s01-n0010",
+      "text": "商品用黄金表现自己的价值——x 单位商品 A = y 单位货币商品——这就是商品的货币形式，也就是价格。",
+      "start_ms": 37400,
+      "end_ms": 54160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s01-n0011",
+      "text": "如今，只用一个等式，比如 1 吨铁 = 2 盎司黄金，已经足以用社会通行的形式表现铁的价值。",
+      "start_ms": 55480,
+      "end_ms": 72920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s01-n0012",
+      "text": "这个等式不用再同其他商品的价值等式一起列队，因为作为等价物的黄金已经具有货币的性质。",
+      "start_ms": 74040,
+      "end_ms": 86040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch03-s01-n0013",
+      "text": "因此，各种商品的一般相对价值形式，现在又回到它最初的简单形式或单一形式。",
+      "start_ms": 80,
+      "end_ms": 7720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s01-n0014",
+      "text": "另一方面，展开的相对价值表现，也就是无穷无尽的相对价值表现系列，现在成了货币商品特有的相对价值形式。",
+      "start_ms": 8480,
+      "end_ms": 19520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s01-n0015",
+      "text": "这个系列已经通过各种商品的价格在社会中现成地给出。",
+      "start_ms": 20360,
+      "end_ms": 25040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s01-n0016",
+      "text": "把价目表上的报价倒过来读，就会发现，货币的价值量通过各种各样的商品表现出来。",
+      "start_ms": 25400,
+      "end_ms": 33440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s01-n0017",
+      "text": "相反，货币本身没有价格。",
+      "start_ms": 34240,
+      "end_ms": 36880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s01-n0018",
+      "text": "要像其他商品一样采用这种统一的相对价值形式，货币就得把自己同自己相比，把自己当作自己的等价物。",
+      "start_ms": 37720,
+      "end_ms": 46920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch03-s01-n0019",
+      "text": "商品的价格或货币形式，同商品的一般价值形式一样，不同于商品可以触摸的现实形体。",
+      "start_ms": 200,
+      "end_ms": 9160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s01-n0020",
+      "text": "它只是一种观念中的、用来表示价值的形式。",
+      "start_ms": 9920,
+      "end_ms": 14200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s01-n0021",
+      "text": "铁、麻布、小麦等商品的价值虽然看不见，却存在于这些物品本身之中。",
+      "start_ms": 15120,
+      "end_ms": 23600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s01-n0022",
+      "text": "商品同黄金相等，价值就由此表现出来。",
+      "start_ms": 24360,
+      "end_ms": 29240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s01-n0023",
+      "text": "可以说，商品同黄金的这种关系只在商品的脑袋里作祟。",
+      "start_ms": 29800,
+      "end_ms": 35320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s01-n0024",
+      "text": "因此，商品所有者必须把舌头伸进商品的脑袋，或者给商品挂上纸标签，才能把价格告诉外界。",
+      "start_ms": 36080,
+      "end_ms": 47320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch03-s01-n0025",
+      "text": "商品价值用黄金表示，只是观念上的表示，所以这里需要的也只是观念中的黄金。",
+      "start_ms": 80,
+      "end_ms": 7000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s01-n0026",
+      "text": "每个商品所有者都知道，给商品的价值规定一种价格形式，也就是一种观念中的黄金形式，绝不等于真给商品镀了金。",
+      "start_ms": 8000,
+      "end_ms": 18040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s01-n0027",
+      "text": "要用黄金估量千百万商品的价值，也不需要一丁点真正的黄金。",
+      "start_ms": 18760,
+      "end_ms": 23920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s01-n0028",
+      "text": "因此，货币执行价值尺度职能时，只是观念中的货币。",
+      "start_ms": 24760,
+      "end_ms": 29400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s01-n0029",
+      "text": "这个事实引出了种种极其荒唐的理论。",
+      "start_ms": 30200,
+      "end_ms": 33280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s01-n0030",
+      "text": "尽管执行价值尺度职能的只是观念中的货币，价格却完全取决于现实的货币材料。",
+      "start_ms": 33680,
+      "end_ms": 40640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch03-s01-n0031",
+      "text": "比如，一吨铁所包含的价值，也就是其中包含的人类劳动量，要用一个观念中的货币商品量来表示，而这份货币商品包含着同样多的劳动。",
+      "start_ms": 40,
+      "end_ms": 14920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s01-n0032",
+      "text": "因此，采用黄金、白银还是铜作价值尺度，同一吨铁的价值就会得到完全不同的价格表现，也就是用完全不同数量的金、银或铜表示出来。",
+      "start_ms": 15600,
+      "end_ms": 32880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s01-n0033",
+      "text": "如果金银两种不同商品同时充当价值尺度，每种商品就会有两种价格：一种用黄金表示，一种用白银表示。",
+      "start_ms": 33840,
+      "end_ms": 48960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s01-n0034",
+      "text": "只要白银同黄金的价值比保持不变，例如始终是 1∶15，这两套价格就可以平行使用，彼此不冲突。",
+      "start_ms": 49880,
+      "end_ms": 62720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s01-n0035",
+      "text": "但两种金属的价值比一变，商品的金价与银价之间的关系就会被打乱。",
+      "start_ms": 63480,
+      "end_ms": 71240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s01-n0036",
+      "text": "这从实际结果说明，同时使用两种价值尺度同价值尺度的职能本身相冲突。",
+      "start_ms": 72000,
+      "end_ms": 80160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch03-s01-n0037",
+      "text": "所有已经定价的商品，都可以写成下面的形式： a 量商品 A = x 量黄金 b 量商品 B = z 量黄金 c 量商品 C = y 量黄金 …… 其中，a、b、c 代表 A、B、C 三种商品各自的数量，x、z、y 代表不同的黄金量。",
+      "start_ms": 120,
+      "end_ms": 27360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s01-n0038",
+      "text": "这样，各种商品的价值都换算成了观念中的黄金量，只是大小不同。",
+      "start_ms": 28480,
+      "end_ms": 34920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s01-n0039",
+      "text": "商品本身虽然千差万别，换算后的量却有了同一个名称：都是黄金量。",
+      "start_ms": 35960,
+      "end_ms": 43840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s01-n0040",
+      "text": "既然都是黄金量，它们就能互相比较和衡量。",
+      "start_ms": 45040,
+      "end_ms": 49360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s01-n0041",
+      "text": "实际操作于是需要选定一份固定的黄金量作为计量单位。",
+      "start_ms": 50480,
+      "end_ms": 56280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s01-n0042",
+      "text": "再把这个单位按比例分成更小的部分，就形成了完整的价格标准。",
+      "start_ms": 57000,
+      "end_ms": 62640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch03-s01-n0043",
+      "text": "在成为货币以前，金、银、铜已经按重量使用这种计量体系。",
+      "start_ms": 0,
+      "end_ms": 5640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s01-n0044",
+      "text": "例如，以一磅为单位，向下可以分成盎司等较小单位，向上可以合成英担等较大单位。",
+      "start_ms": 6320,
+      "end_ms": 16120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s01-n0045",
+      "text": "因此，只要使用金属货币，原有重量单位的名称也自然成为最早的货币单位名称，也就是价格标准的名称。",
+      "start_ms": 16920,
+      "end_ms": 27920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s01-n0046",
+      "text": "货币作为价值尺度和价格标准，执行的是两种完全不同的职能。",
+      "start_ms": 28800,
+      "end_ms": 34920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s01-n0047",
+      "text": "作为价值尺度，货币是人类劳动在社会中公认的体现。",
+      "start_ms": 35680,
+      "end_ms": 41280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s01-n0048",
+      "text": "作为价格标准，货币只是一份规定好的金属重量。",
+      "start_ms": 42160,
+      "end_ms": 46840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch03-s01-n0049",
+      "text": "货币充当价值尺度，是为了把各种不同商品的价值换算成价格，也就是观念中的黄金量。",
+      "start_ms": 160,
+      "end_ms": 9880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s01-n0050",
+      "text": "货币充当价格标准，则是为了计量这些黄金量。",
+      "start_ms": 10880,
+      "end_ms": 15560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s01-n0051",
+      "text": "商品作为价值，是用价值尺度来衡量的。",
+      "start_ms": 16280,
+      "end_ms": 21120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s01-n0052",
+      "text": "价格标准所做的，是用一份固定的黄金量去计量其他黄金量，而不是用一种黄金重量去衡量另一种黄金重量的价值。",
+      "start_ms": 21840,
+      "end_ms": 35440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s01-n0053",
+      "text": "要建立价格标准，必须把一份确定的黄金重量规定为计量单位。",
+      "start_ms": 36280,
+      "end_ms": 43240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s01-n0054",
+      "text": "衡量同一类量时，单位与其他各量之间的比例越稳定，计量就越可靠。",
+      "start_ms": 44120,
+      "end_ms": 52120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch03-s01-n0055",
+      "text": "因此，同一份黄金量越能始终不变地充当计量单位，价格标准就越能发挥作用。",
+      "start_ms": 40,
+      "end_ms": 8440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s01-n0056",
+      "text": "相反，黄金能够充当价值尺度，恰恰因为它本身是劳动产品，价值可以发生变化。",
+      "start_ms": 9200,
+      "end_ms": 17480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s01-n0057",
+      "text": "黄金价值发生变化，丝毫不会影响它充当价格标准。",
+      "start_ms": 18200,
+      "end_ms": 23240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s01-n0058",
+      "text": "无论黄金价值怎样变化，不同黄金量之间的比例总是不变。",
+      "start_ms": 24000,
+      "end_ms": 29840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s01-n0059",
+      "text": "即使黄金价值下降 1000%，十二盎司黄金仍然是一盎司黄金价值的十二倍。",
+      "start_ms": 30480,
+      "end_ms": 38440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s01-n0060",
+      "text": "价格所涉及的，正是不同黄金量之间的比例。",
+      "start_ms": 39240,
+      "end_ms": 43400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch03-s01-n0061",
+      "text": "〔译者注：原文如此。",
+      "start_ms": 800,
+      "end_ms": 18520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s01-n0062",
+      "text": "按今天通常的百分比算法，价值不可能下降超过 100%。",
+      "start_ms": 18920,
+      "end_ms": 23920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s01-n0063",
+      "text": "这里的论点是，无论黄金价值怎样变化，各种黄金重量之间的比例仍然不变。",
+      "start_ms": 24280,
+      "end_ms": 30920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s01-n0064",
+      "text": "〕另一方面，一盎司黄金的价值无论升降，它的重量都不会改变，各个等分部分的重量也不会改变。",
+      "start_ms": 30920,
+      "end_ms": 38920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s01-n0065",
+      "text": "因此，无论黄金自身的价值怎样变化，它作为固定的价格标准都能发挥同样的作用。",
+      "start_ms": 39560,
+      "end_ms": 47520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s01-n0066",
+      "text": "黄金价值发生变化，也不会妨碍它充当价值尺度。",
+      "start_ms": 48320,
+      "end_ms": 51960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch03-s01-n0067",
+      "text": "因为这种变化同时影响所有商品。",
+      "start_ms": 0,
+      "end_ms": 3000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s01-n0068",
+      "text": "在其他条件不变时，商品之间的相对价值不会改变，只是它们现在都用比以前更高或更低的黄金价格来表示。",
+      "start_ms": 3800,
+      "end_ms": 14720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s01-n0069",
+      "text": "同把一种商品的价值表现在另一种商品的使用价值中一样，用黄金估量商品时，只需假定在一定时期，生产一定量黄金需要耗费一定量劳动。",
+      "start_ms": 15600,
+      "end_ms": 28960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s01-n0070",
+      "text": "至于商品价格总体怎样变动，前面关于简单相对价值表现所说明的规律同样适用。",
+      "start_ms": 29600,
+      "end_ms": 36440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s01-n0071",
+      "text": "先分别看商品价值和货币价值单独变化的情况。",
+      "start_ms": 37160,
+      "end_ms": 41120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s01-n0072",
+      "text": "如果货币价值不变，商品价格只有在商品价值上涨时才会普遍上涨。",
+      "start_ms": 41840,
+      "end_ms": 48480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch03-s01-n0073",
+      "text": "如果商品价值不变，商品价格只有在货币价值下降时才会普遍上涨。",
+      "start_ms": 160,
+      "end_ms": 7640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s01-n0074",
+      "text": "反过来，如果货币价值不变，商品价格只有在商品价值下降时才会普遍下跌。",
+      "start_ms": 8400,
+      "end_ms": 16600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s01-n0075",
+      "text": "如果商品价值不变，商品价格只有在货币价值上涨时才会普遍下跌。",
+      "start_ms": 17680,
+      "end_ms": 24560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s01-n0076",
+      "text": "因此，货币价值上涨，不一定会使商品价格按相同比例下降。",
+      "start_ms": 25400,
+      "end_ms": 31560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s01-n0077",
+      "text": "货币价值下降，也不一定会使商品价格按相同比例上涨。",
+      "start_ms": 32640,
+      "end_ms": 38440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s01-n0078",
+      "text": "只有商品本身的价值保持不变时，商品价格才会同货币价值按相反方向、相同比例变动。",
+      "start_ms": 39360,
+      "end_ms": 47480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch03-s01-n0079",
+      "text": "例如，如果商品价值同货币价值在同一时间按同一幅度上涨，商品价格就保持不变。",
+      "start_ms": 40,
+      "end_ms": 6880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s01-n0080",
+      "text": "如果商品价值涨得比货币价值慢或快，商品价格是下跌还是上涨，就取决于商品价值的变动与货币价值的变动相差多少。",
+      "start_ms": 7880,
+      "end_ms": 20120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s01-n0081",
+      "text": "其余情况也可照此推算。",
+      "start_ms": 20880,
+      "end_ms": 23160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s01-n0082",
+      "text": "现在回到价格形式本身。",
+      "start_ms": 23840,
+      "end_ms": 25720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s01-n0083",
+      "text": "金属重量的货币名称逐渐脱离原来的重量名称，原因很多，其中三点在历史上尤其重要。",
+      "start_ms": 26440,
+      "end_ms": 34080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s01-n0084",
+      "text": "第一，发展程度较低的民族会引入外国货币。",
+      "start_ms": 34680,
+      "end_ms": 38280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch03-s01-n0085",
+      "text": "例如，在古罗马，银币和金币最初是作为外来商品流通的。",
+      "start_ms": 0,
+      "end_ms": 8381,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s01-n0086",
+      "text": "这些外国货币的名称不同于当地的重量名称。",
+      "start_ms": 8381,
+      "end_ms": 14828,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s01-n0087",
+      "text": "第二，随着财富发展，价值尺度会从较不贵重的金属转向更贵重的金属，先从铜转向银，再从银转向金，尽管这个顺序同诗歌中的时代顺序完全相反。",
+      "start_ms": 14828,
+      "end_ms": 36103,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s01-n0088",
+      "text": "比如，“磅”原本是整整一磅白银的货币名称。",
+      "start_ms": 36103,
+      "end_ms": 42873,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s01-n0089",
+      "text": "黄金取代白银成为价值尺度以后，根据金银价值的比例，同一个名称可能改指 1/15 磅黄金或其他相应重量。",
+      "start_ms": 42873,
+      "end_ms": 58668,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s01-n0090",
+      "text": "于是，“磅”作为货币名称，同它作为黄金普通重量名称的含义分开了。",
+      "start_ms": 58668,
+      "end_ms": 68983,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch03-s01-n0091",
+      "text": "第三，历代君主长达数百年地给铸币掺假、减重，最后使铸币原来的重量只剩下一个名称。",
+      "start_ms": 600,
+      "end_ms": 10640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s01-n0092",
+      "text": "这些历史过程使金属重量的货币名称脱离普通重量名称，逐渐成为社会习惯。",
+      "start_ms": 11360,
+      "end_ms": 19600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s01-n0093",
+      "text": "货币的计量标准一方面纯属约定，另一方面又必须普遍通用，所以最终由法律规定。",
+      "start_ms": 20440,
+      "end_ms": 28720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s01-n0094",
+      "text": "一定重量的贵金属，比如一盎司黄金，由官方按比例划成若干份，法律给这些份额取名为磅、塔勒等。",
+      "start_ms": 29240,
+      "end_ms": 39720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s01-n0095",
+      "text": "其中一份被定为货币的基本计量单位，再分成更小的份额，并依法命名为先令、便士等。",
+      "start_ms": 40320,
+      "end_ms": 48880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s01-n0096",
+      "text": "金属货币仍同以前一样，以一定重量的金属为尺度。",
+      "start_ms": 49600,
+      "end_ms": 54360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch03-s01-n0097",
+      "text": "改变的只是划分方式和名称。",
+      "start_ms": 120,
+      "end_ms": 2760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s01-n0098",
+      "text": "商品的价值先在观念中换算成一定的黄金量，也就是价格。",
+      "start_ms": 3520,
+      "end_ms": 9880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s01-n0099",
+      "text": "现在，这些黄金量又要用黄金计量标准中法定的货币名称，也就是法定的记账名称来表示。",
+      "start_ms": 10840,
+      "end_ms": 20680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s01-n0100",
+      "text": "例如，英国人不会说一夸特小麦等于一盎司黄金，而会说它等于 3 英镑 17 先令 10½ 便士。",
+      "start_ms": 21480,
+      "end_ms": 32000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s01-n0101",
+      "text": "商品就这样用货币名称说出自己值多少。",
+      "start_ms": 32960,
+      "end_ms": 36760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s01-n0102",
+      "text": "只要需要把某物的价值确定下来，也就是用货币形式把它记下来，货币就作为记账货币发挥作用。",
+      "start_ms": 37440,
+      "end_ms": 64640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch03-s01-n0103",
+      "text": "事物的名称同它本身的性质毫无关系。",
+      "start_ms": 280,
+      "end_ms": 3440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s01-n0104",
+      "text": "知道一个人叫雅各布，并不会让我了解这个人。",
+      "start_ms": 4160,
+      "end_ms": 7280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s01-n0105",
+      "text": "同样，英镑、塔勒、法郎、杜卡特等货币名称，也看不出其中包含怎样的价值关系。",
+      "start_ms": 7600,
+      "end_ms": 14960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s01-n0106",
+      "text": "这些货币名称像难解的暗号，更容易引起混乱，因为同一个名称既表示商品的价值，又表示作为价格标准的某种金属重量的一定部分。",
+      "start_ms": 15720,
+      "end_ms": 26440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s01-n0107",
+      "text": "可是，价值本来就不同于商品各式各样的具体形体，所以它必须发展成这样一种形式：从名称本身看不出任何内在含义，却客观存在并由社会共同使用。",
+      "start_ms": 27320,
+      "end_ms": 41120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s01-n0108",
+      "text": "价格，就是商品中所包含的劳动取得的货币名称。",
+      "start_ms": 41880,
+      "end_ms": 46320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch03-s01-n0109",
+      "text": "因此，说某种商品等于以其价格命名的那一份货币，本身只是同义反复。",
+      "start_ms": 240,
+      "end_ms": 6320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s01-n0110",
+      "text": "因为商品的相对价值表现，本来就是在说两种商品彼此等值。",
+      "start_ms": 6800,
+      "end_ms": 12200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s01-n0111",
+      "text": "不过，商品的价格表示它同货币按什么比例交换。",
+      "start_ms": 13240,
+      "end_ms": 18280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s01-n0112",
+      "text": "如果价格准确表现商品的价值量，这个交换比例当然也表现它的价值量。",
+      "start_ms": 19160,
+      "end_ms": 25640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s01-n0113",
+      "text": "但反过来，商品同货币的实际交换比例，并不一定准确表现商品的价值量。",
+      "start_ms": 26280,
+      "end_ms": 33080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s01-n0114",
+      "text": "假定一夸特小麦和 2 英镑，也就是大约半盎司黄金，都包含同样多的社会必要劳动。",
+      "start_ms": 33400,
+      "end_ms": 39760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch03-s01-n0115",
+      "text": "2 英镑就是这一夸特小麦价值量的货币表现，也就是它的价格。",
+      "start_ms": 280,
+      "end_ms": 5320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s01-n0116",
+      "text": "可是，实际情况可能让它标价 3 英镑，也可能迫使它只能标价 1 英镑。",
+      "start_ms": 6040,
+      "end_ms": 12080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s01-n0117",
+      "text": "1 英镑和 3 英镑要么低于、要么高于小麦的价值量，因而不能准确表现价值量，但它们仍然都是小麦的价格。",
+      "start_ms": 12800,
+      "end_ms": 22000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s01-n0118",
+      "text": "第一，它们都用货币形式表现小麦。",
+      "start_ms": 22760,
+      "end_ms": 25800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s01-n0119",
+      "text": "第二，它们都表示小麦同货币的实际交换比例。",
+      "start_ms": 26520,
+      "end_ms": 30840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s01-n0120",
+      "text": "如果生产条件和劳动生产率不变，再生产一夸特小麦仍然必须花费同样多的社会劳动时间。",
+      "start_ms": 31800,
+      "end_ms": 40640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch03-s01-n0121",
+      "text": "这不取决于小麦生产者的意愿，也不取决于其他商品所有者的意愿。",
+      "start_ms": 80,
+      "end_ms": 5960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s01-n0122",
+      "text": "所以，商品的价值量反映的是生产它必然需要多少社会劳动时间。",
+      "start_ms": 6920,
+      "end_ms": 12880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s01-n0123",
+      "text": "一旦价值量表现为价格，这种内在的必然关系就表现为商品同外在货币商品的交换比例。",
+      "start_ms": 13560,
+      "end_ms": 21200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s01-n0124",
+      "text": "这个比例既可以准确表现商品的价值量，也可以表现商品在特定情况下能比自身价值卖高多少或卖低多少。",
+      "start_ms": 22000,
+      "end_ms": 30920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s01-n0125",
+      "text": "因此，价格与价值量在数量上不一致，也就是价格偏离价值量的可能性，已经包含在价格形式本身之中。",
+      "start_ms": 31720,
+      "end_ms": 40680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s01-n0126",
+      "text": "这不是价格形式的缺陷。",
+      "start_ms": 41440,
+      "end_ms": 43200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch03-s01-n0127",
+      "text": "恰恰相反，在这种生产方式中，规律只能作为各种无规则波动的平均结果，盲目地发生作用。",
+      "start_ms": 40,
+      "end_ms": 8880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s01-n0128",
+      "text": "价格形式正适合这种生产方式。",
+      "start_ms": 9560,
+      "end_ms": 12440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s01-n0129",
+      "text": "价格形式不仅允许价格在数量上偏离价值量，还能包含性质上的矛盾：某种东西虽然有价格，价格却根本不再表现价值，尽管货币本来只是商品价值的形式。",
+      "start_ms": 13320,
+      "end_ms": 28840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s01-n0130",
+      "text": "良心、荣誉等东西本身不是商品，但它们的所有者可以拿它们换钱，于是价格给它们披上了商品形式。",
+      "start_ms": 29680,
+      "end_ms": 39320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s01-n0131",
+      "text": "因此，一件东西可以形式上有价格，实际上却没有价值。",
+      "start_ms": 40360,
+      "end_ms": 45640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s01-n0132",
+      "text": "这种价格像数学中的某些虚数一样，只存在于想象中。",
+      "start_ms": 46600,
+      "end_ms": 51480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch03-s01-n0133",
+      "text": "反过来，想象的价格形式也可能隐藏着一种真实的价值关系，或由价值关系派生出来的关系。",
+      "start_ms": 0,
+      "end_ms": 8106,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s01-n0134",
+      "text": "例如，未开垦的土地没有价值，因为其中没有凝结人类劳动，却仍然可以有价格。",
+      "start_ms": 8106,
+      "end_ms": 15224,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s01-n0135",
+      "text": "同一般的相对价值形式一样，价格通过下面的关系表现商品价值：一定数量的等价物，例如一盎司黄金，可以直接换到一吨铁。",
+      "start_ms": 15224,
+      "end_ms": 26296,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s01-n0136",
+      "text": "但这绝不意味着反过来一吨铁也能直接换到一盎司黄金。",
+      "start_ms": 26296,
+      "end_ms": 31239,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s01-n0137",
+      "text": "因此，商品要在现实中发挥交换价值的作用，就必须脱掉自身的实物形态，把价格中只存在于观念里的黄金变成真正的黄金。",
+      "start_ms": 31239,
+      "end_ms": 42113,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s01-n0138",
+      "text": "这种转变对商品来说可能很艰难，甚至比黑格尔的“概念”从必然进入自由、龙虾挣脱外壳，或教父哲罗姆脱去“旧人”还要艰难。",
+      "start_ms": 42113,
+      "end_ms": 53580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch03-s01-n0139",
+      "text": "商品可以在保持铁等现实形态的同时，通过价格拥有观念中的价值形态，也就是想象中的黄金形态，但它不能同时既是真正的铁，又是真正的黄金。",
+      "start_ms": 0,
+      "end_ms": 15081,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s01-n0140",
+      "text": "给商品定价时，只要在观念中把它等同于一定的黄金就够了。",
+      "start_ms": 15081,
+      "end_ms": 21346,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s01-n0141",
+      "text": "可要让它替所有者充当一般等价物，就必须真的换成黄金。",
+      "start_ms": 21346,
+      "end_ms": 27378,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s01-n0142",
+      "text": "假如铁的所有者想用铁去换某种供人享受的商品，却只向对方指出铁有价格，已经具有货币形式，对方就会像天堂里的圣彼得回答背诵信条的但丁那样回答他：",
+      "start_ms": 27378,
+      "end_ms": 43619,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s01-n0143",
+      "text": "“这种钱币的成色和重量，已经查验得很清楚了。",
+      "start_ms": 43619,
+      "end_ms": 48724,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s01-n0144",
+      "text": "可告诉我，你的钱袋里有这种钱币吗？”",
+      "start_ms": 48724,
+      "end_ms": 52900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch03-s01-n0145",
+      "text": "价格形式包含着这样一层意思：商品能够换成货币，而且必须换成货币。",
+      "start_ms": 0,
+      "end_ms": 6200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch03-s01-n0146",
+      "text": "另一方面，黄金在这里只作为观念中的价值尺度发挥作用，是因为它已经作为货币商品在交换过程中流通。",
+      "start_ms": 6800,
+      "end_ms": 15600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch03-s01-n0147",
+      "text": "因此，在观念中的价值尺度里，潜伏着实实在在的货币。",
+      "start_ms": 16200,
+      "end_ms": 20960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    }
+  ]
+}

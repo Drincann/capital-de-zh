@@ -1,0 +1,1612 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch14-s01-v1-audio-4d9e21e4f818",
+  "unit_id": "ch14-s01",
+  "translation_version_id": "ch14-s01-v1",
+  "translation_sha256": "2872d144afcc036b62e5d74b4ac7562e1f7cb25b45e18d9cd07064ca5388b77e",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T17:58:39.568Z",
+  "completed_at": "2026-08-02T18:01:54.110Z",
+  "duration_ms": 1420340,
+  "sentence_count": 151,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 51264,
+      "bytes": 820652,
+      "sha256": "fa6a1bd48529dbdf424803bd86a9d9fd1fc1fd628ca2b9f002914cda3db5172f",
+      "sentence_ids": [
+        "ch14-s01-n0001",
+        "ch14-s01-n0002",
+        "ch14-s01-n0003",
+        "ch14-s01-n0004",
+        "ch14-s01-n0005",
+        "ch14-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 41959,
+      "bytes": 672044,
+      "sha256": "b50c7ce027d2740b825c247012178bcfaac2892b4b60bed1811b5b7e1700d9cf",
+      "sentence_ids": [
+        "ch14-s01-n0007",
+        "ch14-s01-n0008",
+        "ch14-s01-n0009",
+        "ch14-s01-n0010",
+        "ch14-s01-n0011",
+        "ch14-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 47900,
+      "bytes": 766892,
+      "sha256": "e7514ffdbfabb72711a650f4642eb310885dec70670ea2c94674d3ac59c5e0e1",
+      "sentence_ids": [
+        "ch14-s01-n0013",
+        "ch14-s01-n0014",
+        "ch14-s01-n0015",
+        "ch14-s01-n0016",
+        "ch14-s01-n0017",
+        "ch14-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 52339,
+      "bytes": 837932,
+      "sha256": "2e978256c5f783e26e89652a1f23db2049560c1f395237a18c7524c90ef8e477",
+      "sentence_ids": [
+        "ch14-s01-n0019",
+        "ch14-s01-n0020",
+        "ch14-s01-n0021",
+        "ch14-s01-n0022",
+        "ch14-s01-n0023",
+        "ch14-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 65300,
+      "bytes": 1045292,
+      "sha256": "02e328cd1ea3bda7b08c857ed2a0ae0d8559e4406c8e80f0589e272c8b85f6ee",
+      "sentence_ids": [
+        "ch14-s01-n0025",
+        "ch14-s01-n0026",
+        "ch14-s01-n0027",
+        "ch14-s01-n0028",
+        "ch14-s01-n0029",
+        "ch14-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 43747,
+      "bytes": 700460,
+      "sha256": "51ea301aa39bd63564d83edf87de6a4c2169854744ea8e4ab55a5e6ed149186e",
+      "sentence_ids": [
+        "ch14-s01-n0031",
+        "ch14-s01-n0032",
+        "ch14-s01-n0033",
+        "ch14-s01-n0034",
+        "ch14-s01-n0035",
+        "ch14-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 65514,
+      "bytes": 1048748,
+      "sha256": "73b94023b7c75faac3efdd80c30dd8442e4f899ca84069303d4d3990ffc63ed4",
+      "sentence_ids": [
+        "ch14-s01-n0037",
+        "ch14-s01-n0038",
+        "ch14-s01-n0039",
+        "ch14-s01-n0040",
+        "ch14-s01-n0041",
+        "ch14-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 58805,
+      "bytes": 941612,
+      "sha256": "0d1c4ee0f647f014c4cb1f6e40c3c5a25860d1798b5795157697d18e82e8b930",
+      "sentence_ids": [
+        "ch14-s01-n0043",
+        "ch14-s01-n0044",
+        "ch14-s01-n0045",
+        "ch14-s01-n0046",
+        "ch14-s01-n0047",
+        "ch14-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 73300,
+      "bytes": 1173548,
+      "sha256": "3dce003567859421e5a1bbe4b718d833bb61b156a6fec6bc840e5f8968537efa",
+      "sentence_ids": [
+        "ch14-s01-n0049",
+        "ch14-s01-n0050",
+        "ch14-s01-n0051",
+        "ch14-s01-n0052",
+        "ch14-s01-n0053",
+        "ch14-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 86175,
+      "bytes": 1379372,
+      "sha256": "981e6e28dbc712477ba70425e0c9caa062943b87da4cf42d5b6d1cde61ca04b5",
+      "sentence_ids": [
+        "ch14-s01-n0055",
+        "ch14-s01-n0056",
+        "ch14-s01-n0057",
+        "ch14-s01-n0058",
+        "ch14-s01-n0059",
+        "ch14-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 42351,
+      "bytes": 678188,
+      "sha256": "5e94f329dee9cfbcf99cb1b4e9147207077c1cf287e25104a7ba11a46cb7b8aa",
+      "sentence_ids": [
+        "ch14-s01-n0061",
+        "ch14-s01-n0062",
+        "ch14-s01-n0063",
+        "ch14-s01-n0064",
+        "ch14-s01-n0065",
+        "ch14-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 47684,
+      "bytes": 763436,
+      "sha256": "ebd9a802b3728011b3478074079df8ad81d7462a292da9d85c8de62ddee4ab71",
+      "sentence_ids": [
+        "ch14-s01-n0067",
+        "ch14-s01-n0068",
+        "ch14-s01-n0069",
+        "ch14-s01-n0070",
+        "ch14-s01-n0071",
+        "ch14-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 51565,
+      "bytes": 825644,
+      "sha256": "dba63f0b9f1377218f6c6e6253d8578707a99cbf2bcf7c2166e1a08fe1f53325",
+      "sentence_ids": [
+        "ch14-s01-n0073",
+        "ch14-s01-n0074",
+        "ch14-s01-n0075",
+        "ch14-s01-n0076",
+        "ch14-s01-n0077",
+        "ch14-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 48580,
+      "bytes": 778028,
+      "sha256": "f461c75c8b30320e653a043bf404ce3e15bbc9135a08f0944cf33cb525094bc9",
+      "sentence_ids": [
+        "ch14-s01-n0079",
+        "ch14-s01-n0080",
+        "ch14-s01-n0081",
+        "ch14-s01-n0082",
+        "ch14-s01-n0083",
+        "ch14-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 52695,
+      "bytes": 843692,
+      "sha256": "067ec8c066e9a59b24501fcfbf476785bd290ca4a2ca22cd95288637f8306569",
+      "sentence_ids": [
+        "ch14-s01-n0085",
+        "ch14-s01-n0086",
+        "ch14-s01-n0087",
+        "ch14-s01-n0088",
+        "ch14-s01-n0089",
+        "ch14-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 58565,
+      "bytes": 937772,
+      "sha256": "ba42f4730cb0b7cd9bfcd9e5436eeb6c058d5c5b7ed7b81b26e869f8d08eb58d",
+      "sentence_ids": [
+        "ch14-s01-n0091",
+        "ch14-s01-n0092",
+        "ch14-s01-n0093",
+        "ch14-s01-n0094",
+        "ch14-s01-n0095",
+        "ch14-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 55255,
+      "bytes": 884780,
+      "sha256": "70d9f766bc5b28c7180811ef48c512406b2b292599a47b812421484dd5b4c0d9",
+      "sentence_ids": [
+        "ch14-s01-n0097",
+        "ch14-s01-n0098",
+        "ch14-s01-n0099",
+        "ch14-s01-n0100",
+        "ch14-s01-n0101",
+        "ch14-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 52293,
+      "bytes": 837164,
+      "sha256": "bf6a1857b71e96c629624f0fd13416521f773b1231067c0a43c8309d494d255f",
+      "sentence_ids": [
+        "ch14-s01-n0103",
+        "ch14-s01-n0104",
+        "ch14-s01-n0105",
+        "ch14-s01-n0106",
+        "ch14-s01-n0107",
+        "ch14-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 40438,
+      "bytes": 647468,
+      "sha256": "de0bc22ca51f6748df6dd60b6852b80942479c5b83314aad250253d0333a2073",
+      "sentence_ids": [
+        "ch14-s01-n0109",
+        "ch14-s01-n0110",
+        "ch14-s01-n0111",
+        "ch14-s01-n0112",
+        "ch14-s01-n0113",
+        "ch14-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 70680,
+      "bytes": 1131308,
+      "sha256": "c816550e80f81e82795f3585c91a4ebd0d74e207b43234f82df4474222710640",
+      "sentence_ids": [
+        "ch14-s01-n0115",
+        "ch14-s01-n0116",
+        "ch14-s01-n0117",
+        "ch14-s01-n0118",
+        "ch14-s01-n0119",
+        "ch14-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 69300,
+      "bytes": 1109420,
+      "sha256": "20bf4fc95a3adb37cc919d7137bae531af80ac74595dc776d57bba3248d81cb9",
+      "sentence_ids": [
+        "ch14-s01-n0121",
+        "ch14-s01-n0122",
+        "ch14-s01-n0123",
+        "ch14-s01-n0124",
+        "ch14-s01-n0125",
+        "ch14-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 45700,
+      "bytes": 731948,
+      "sha256": "081bc45ae0d044927f01c082c7b8a18f16a3a91f83e18d632973e1fd338120d4",
+      "sentence_ids": [
+        "ch14-s01-n0127",
+        "ch14-s01-n0128",
+        "ch14-s01-n0129",
+        "ch14-s01-n0130",
+        "ch14-s01-n0131",
+        "ch14-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 82180,
+      "bytes": 1315628,
+      "sha256": "c82ee4ffee2bf7a6526c5c95b58317dfc60137cc072272a421026f94a52b79db",
+      "sentence_ids": [
+        "ch14-s01-n0133",
+        "ch14-s01-n0134",
+        "ch14-s01-n0135",
+        "ch14-s01-n0136",
+        "ch14-s01-n0137",
+        "ch14-s01-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 78800,
+      "bytes": 1261484,
+      "sha256": "d2a7e8476dbd58c8762446b7909d11a2fa6a4ab414d11ecd41863477bd6ad725",
+      "sentence_ids": [
+        "ch14-s01-n0139",
+        "ch14-s01-n0140",
+        "ch14-s01-n0141",
+        "ch14-s01-n0142",
+        "ch14-s01-n0143",
+        "ch14-s01-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 29771,
+      "bytes": 476972,
+      "sha256": "9cd24ad24c51a0e69e3f3c90bd7d92b6a6a43885d6e36598a256271afbdefc6c",
+      "sentence_ids": [
+        "ch14-s01-n0145",
+        "ch14-s01-n0146",
+        "ch14-s01-n0147",
+        "ch14-s01-n0148",
+        "ch14-s01-n0149",
+        "ch14-s01-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 8180,
+      "bytes": 131372,
+      "sha256": "415b28edbf8262fec9b8a4598bc6d668077d7a64f8ea882c313c825a17207a61",
+      "sentence_ids": [
+        "ch14-s01-n0151"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch14-s01-n0001",
+      "text": "第五章考察劳动过程时，先撇开它的各种历史形式，只把它看作人与自然之间的过程。",
+      "start_ms": 0,
+      "end_ms": 9276,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch14-s01-n0002",
+      "text": "当时说：“如果从劳动过程的结果来看，劳动手段和劳动对象都是生产资料，劳动本身则是生产劳动。”",
+      "start_ms": 9276,
+      "end_ms": 20506,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch14-s01-n0003",
+      "text": "脚注7又补充说：“这个关于生产劳动的定义，是从简单劳动过程得出的，对资本主义生产过程远远不够。”",
+      "start_ms": 20506,
+      "end_ms": 32223,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch14-s01-n0004",
+      "text": "现在要进一步说明这一点。",
+      "start_ms": 32223,
+      "end_ms": 35152,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch14-s01-n0005",
+      "text": "在个人独自劳动的情况下，同一个人承担后来会彼此分开的各种职能。",
+      "start_ms": 35152,
+      "end_ms": 42720,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch14-s01-n0006",
+      "text": "他为了满足生活需要而取得自然物时，自己支配自己；后来，他会受别人支配。",
+      "start_ms": 42720,
+      "end_ms": 51264,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch14-s01-n0007",
+      "text": "一个人必须在头脑控制下运用自己的肌肉，才能作用于自然。",
+      "start_ms": 0,
+      "end_ms": 5870,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch14-s01-n0008",
+      "text": "正如头和手在人体中本来连在一起，劳动过程最初也把脑力劳动和体力劳动结合在一起。",
+      "start_ms": 5870,
+      "end_ms": 14349,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch14-s01-n0009",
+      "text": "后来，两者逐渐分离，甚至互相对立。",
+      "start_ms": 14349,
+      "end_ms": 18045,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch14-s01-n0010",
+      "text": "产品也不再是个人生产者直接完成的，而成为社会产品，也就是一个集体劳动者的共同产品。",
+      "start_ms": 18045,
+      "end_ms": 26958,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch14-s01-n0011",
+      "text": "这个集体劳动者由许多人组成，有些人直接处理劳动对象，有些人离得较远。",
+      "start_ms": 26958,
+      "end_ms": 34350,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch14-s01-n0012",
+      "text": "劳动过程变成共同劳动以后，“生产劳动”和“生产工人”的范围也随之扩大。",
+      "start_ms": 34350,
+      "end_ms": 41959,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch14-s01-n0013",
+      "text": "一个人不必亲自动手，只要属于这个集体劳动者，承担其中一项职能，他的劳动就是生产劳动。",
+      "start_ms": 80,
+      "end_ms": 9080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch14-s01-n0014",
+      "text": "前面从物质生产本身得出的定义，对作为整体的集体劳动者仍然成立，却不再适用于其中每一个单独成员。",
+      "start_ms": 9560,
+      "end_ms": 20440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch14-s01-n0015",
+      "text": "但从另一方面看，资本主义又缩小了生产劳动的范围。",
+      "start_ms": 21000,
+      "end_ms": 25400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch14-s01-n0016",
+      "text": "资本主义生产不只是生产商品，根本目的还是生产剩余价值。",
+      "start_ms": 25920,
+      "end_ms": 31560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch14-s01-n0017",
+      "text": "工人不是为自己生产，而是为资本生产。",
+      "start_ms": 32520,
+      "end_ms": 36000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch14-s01-n0018",
+      "text": "因此，他仅仅生产东西还不够，还必须为资本家生产剩余价值，或者直接帮助资本增殖，才算生产工人。",
+      "start_ms": 36760,
+      "end_ms": 47840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch14-s01-n0019",
+      "text": "举一个物质生产以外的例子：一个教师如果不仅教育孩子，还为了使办学者发财而把自己累垮，他就是生产工人。",
+      "start_ms": 0,
+      "end_ms": 12004,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch14-s01-n0020",
+      "text": "资本家把钱投进“教育工厂”而不是香肠工厂，并不改变这种关系。",
+      "start_ms": 12004,
+      "end_ms": 19207,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch14-s01-n0021",
+      "text": "可见，“生产工人”不只表示劳动与实际用处、工人与产品之间的关系，还表示一种在历史中形成的特殊社会关系。",
+      "start_ms": 19207,
+      "end_ms": 31451,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch14-s01-n0022",
+      "text": "正是这种关系使工人成为资本直接增殖的手段。",
+      "start_ms": 31451,
+      "end_ms": 36493,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch14-s01-n0023",
+      "text": "所以，成为生产工人不是幸运，而是不幸。",
+      "start_ms": 36493,
+      "end_ms": 41055,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch14-s01-n0024",
+      "text": "本书第四卷讨论理论史时会进一步说明：古典政治经济学一向把生产剩余价值看作生产工人的决定性特征。",
+      "start_ms": 41055,
+      "end_ms": 52339,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch14-s01-n0025",
+      "text": "它怎样理解剩余价值，也就怎样定义生产工人。",
+      "start_ms": 120,
+      "end_ms": 6080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch14-s01-n0026",
+      "text": "例如，重农学派认为只有农业劳动才是生产劳动，因为在他们看来，只有农业才产生剩余价值，而剩余价值只能表现为地租。",
+      "start_ms": 6880,
+      "end_ms": 23880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch14-s01-n0027",
+      "text": "工人本来只需用一部分工作日，创造出与自己劳动力价值相等的价值。",
+      "start_ms": 25000,
+      "end_ms": 33160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch14-s01-n0028",
+      "text": "如果资本把工作日延长到这个界限之外，并占有延长部分的劳动，就产生了绝对剩余价值。",
+      "start_ms": 34240,
+      "end_ms": 45240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch14-s01-n0029",
+      "text": "它是整个资本主义制度的一般基础，也是生产相对剩余价值的起点。",
+      "start_ms": 46280,
+      "end_ms": 54920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch14-s01-n0030",
+      "text": "生产相对剩余价值时，工作日一开始就分为必要劳动和剩余劳动两部分。",
+      "start_ms": 55920,
+      "end_ms": 65120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch14-s01-n0031",
+      "text": "资本通过各种方法，让工人在更短时间内生产出相当于工资的价值，从而缩短必要劳动，延长剩余劳动。",
+      "start_ms": 0,
+      "end_ms": 9189,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch14-s01-n0032",
+      "text": "绝对剩余价值的生产只围绕工作日的长度展开；相对剩余价值的生产则彻底改变劳动的技术过程和社会组织。",
+      "start_ms": 9189,
+      "end_ms": 18777,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch14-s01-n0033",
+      "text": "因此，相对剩余价值的生产以资本主义特有的生产方式为前提。",
+      "start_ms": 18777,
+      "end_ms": 24370,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch14-s01-n0034",
+      "text": "起初，资本只是在形式上把原有劳动过程置于自己的支配之下。",
+      "start_ms": 24370,
+      "end_ms": 29964,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch14-s01-n0035",
+      "text": "在这个基础上，新的生产方法、手段和条件逐渐产生并发展起来，劳动也从形式上服从资本，转变为在实际生产方式上服从资本。",
+      "start_ms": 29964,
+      "end_ms": 41350,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch14-s01-n0036",
+      "text": "这里还存在一些过渡形式。",
+      "start_ms": 41350,
+      "end_ms": 43747,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch14-s01-n0037",
+      "text": "生产者的剩余劳动既不是靠直接强迫榨取的，他也还没有在形式上从属于资本，资本尚未直接控制劳动过程。",
+      "start_ms": 0,
+      "end_ms": 11561,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch14-s01-n0038",
+      "text": "独立的手工业者和农民仍按世代相传的方式生产，放债者或商人则来到他们身边，以高利贷资本或商业资本寄生般地榨取他们。",
+      "start_ms": 11561,
+      "end_ms": 25049,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch14-s01-n0039",
+      "text": "一个社会如果由这种剥削形式占主导，就还不存在资本主义生产方式；但在中世纪晚期，它也可能成为通向资本主义的过渡。",
+      "start_ms": 25049,
+      "end_ms": 38297,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch14-s01-n0040",
+      "text": "现代家庭劳动则表明，大工业也会在某些地方重新产生这类过渡形式，只是面貌已经完全不同。",
+      "start_ms": 38297,
+      "end_ms": 48413,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch14-s01-n0041",
+      "text": "生产绝对剩余价值，只需资本在形式上支配劳动过程。",
+      "start_ms": 48413,
+      "end_ms": 54194,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch14-s01-n0042",
+      "text": "例如，以前独立劳动或给行会师傅当帮工的手工业者，如今成为雇佣工人，直接受资本家控制，这就够了。",
+      "start_ms": 54194,
+      "end_ms": 65514,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch14-s01-n0043",
+      "text": "另一方面，前文已经看到，生产相对剩余价值的各种方法也会同时生产绝对剩余价值。",
+      "start_ms": 0,
+      "end_ms": 7786,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch14-s01-n0044",
+      "text": "大工业甚至把无限延长工作日变成了自己最典型的产物。",
+      "start_ms": 7786,
+      "end_ms": 12908,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch14-s01-n0045",
+      "text": "一旦资本主义特有的生产方式控制了整个生产部门，尤其是控制了所有主要生产部门，它就不再只是生产相对剩余价值的手段，而成为整个社会占统治地位的生产形式。",
+      "start_ms": 12908,
+      "end_ms": 28071,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch14-s01-n0046",
+      "text": "此后，只有在两种情况下，它才继续作为一种专门生产相对剩余价值的方法发挥作用：一是它继续向原先只在形式上受资本支配的行业扩张；二是它不断改变已经受它支配的行业的生产方法。",
+      "start_ms": 28071,
+      "end_ms": 45282,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch14-s01-n0047",
+      "text": "从某个角度看，绝对剩余价值和相对剩余价值似乎没有区别。",
+      "start_ms": 45282,
+      "end_ms": 50814,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch14-s01-n0048",
+      "text": "相对剩余价值也是“绝对的”，因为工作日必须超过工人维持自身生活所需的劳动时间。",
+      "start_ms": 50814,
+      "end_ms": 58805,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch14-s01-n0049",
+      "text": "绝对剩余价值也是“相对的”，因为劳动生产力必须发展到一定程度，必要劳动时间才能只占工作日的一部分。",
+      "start_ms": 0,
+      "end_ms": 13108,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch14-s01-n0050",
+      "text": "但从剩余价值怎样增加来看，两者的区别就显现出来了。",
+      "start_ms": 13108,
+      "end_ms": 19796,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch14-s01-n0051",
+      "text": "资本主义生产方式一旦确立并成为普遍的生产方式，要继续提高剩余价值率，就会面临两种不同的办法。",
+      "start_ms": 19796,
+      "end_ms": 32102,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch14-s01-n0052",
+      "text": "假定劳动力按其价值获得报酬：如果劳动生产力和通常的劳动强度不变，只能直接延长工作日；如果工作日的界限不变，就只能改变必要劳动和剩余劳动在工作日中的比例。",
+      "start_ms": 32102,
+      "end_ms": 52434,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch14-s01-n0053",
+      "text": "只要工资不降到劳动力价值以下，后一种办法就要求改变劳动生产力或劳动强度。",
+      "start_ms": 52434,
+      "end_ms": 62064,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch14-s01-n0054",
+      "text": "如果工人必须用全部时间生产维持自己和后代生活所需的东西，他就没有时间无偿为别人劳动。",
+      "start_ms": 62064,
+      "end_ms": 73300,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch14-s01-n0055",
+      "text": "只有劳动生产力达到一定水平，工人才会有这种可以腾出来的时间。",
+      "start_ms": 240,
+      "end_ms": 6880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch14-s01-n0056",
+      "text": "有了这段多余时间，才可能出现剩余劳动，也才可能出现资本家、奴隶主、封建领主，概括地说，才可能出现大财产所有者阶级。",
+      "start_ms": 7640,
+      "end_ms": 22280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch14-s01-n0057",
+      "text": "因此，可以说剩余价值有一种自然基础，但只能作最一般的理解：自然并没有设置一道绝对障碍，使一个人无法把维持自己生活所需的劳动推给另一个人，正如自然也没有绝对阻止一些人把另一些人的肉当作食物。",
+      "start_ms": 23200,
+      "end_ms": 49360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch14-s01-n0058",
+      "text": "不能把劳动的这种自然生产力说成什么神秘力量。",
+      "start_ms": 50160,
+      "end_ms": 54920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch14-s01-n0059",
+      "text": "人类只有摆脱最初的动物状态，劳动也已经在一定程度上成为社会劳动之后，才会形成这样的关系：一个人的剩余劳动成了另一个人的生存条件。",
+      "start_ms": 55720,
+      "end_ms": 73240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch14-s01-n0060",
+      "text": "文明刚开始时，劳动生产力很低，但人们的需要也很少，而这些需要本来就随着满足需要的手段一起发展。",
+      "start_ms": 74360,
+      "end_ms": 86000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch14-s01-n0061",
+      "text": "当时，依靠别人劳动生活的人在社会中所占的比例，同直接生产者相比也微不足道。",
+      "start_ms": 0,
+      "end_ms": 7914,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch14-s01-n0062",
+      "text": "随着社会劳动生产力发展，这个比例无论按人数还是按占比都会提高。",
+      "start_ms": 7914,
+      "end_ms": 14545,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch14-s01-n0063",
+      "text": "不过，资本关系产生在一种经过漫长发展才形成的经济基础上。",
+      "start_ms": 14545,
+      "end_ms": 20534,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch14-s01-n0064",
+      "text": "它所依据的劳动生产力不是自然的恩赐，而是数十万年历史发展的结果。",
+      "start_ms": 20534,
+      "end_ms": 27378,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch14-s01-n0065",
+      "text": "无论社会生产发展到什么程度，劳动生产力都受自然条件制约。",
+      "start_ms": 27378,
+      "end_ms": 33367,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch14-s01-n0066",
+      "text": "这些条件可以归为两类：一类来自人本身的自然条件，如种族等；另一类来自周围的自然环境。",
+      "start_ms": 33367,
+      "end_ms": 42351,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch14-s01-n0067",
+      "text": "从经济上看，外部自然条件又分成两大类。",
+      "start_ms": 0,
+      "end_ms": 4045,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch14-s01-n0068",
+      "text": "第一类是天然丰富的生活资料，如肥沃的土地、鱼类丰富的水域等。",
+      "start_ms": 4045,
+      "end_ms": 10431,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch14-s01-n0069",
+      "text": "第二类是天然丰富的劳动手段，如天然落差形成的水力、通航河流、木材、金属、煤等。",
+      "start_ms": 10431,
+      "end_ms": 18733,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch14-s01-n0070",
+      "text": "文明发展初期，第一类自然财富更重要；发展到较高阶段后，第二类更重要。",
+      "start_ms": 18733,
+      "end_ms": 25971,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch14-s01-n0071",
+      "text": "可以把英国同印度相比，也可以把古代的雅典和科林斯同黑海沿岸各地相比。",
+      "start_ms": 25971,
+      "end_ms": 33209,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch14-s01-n0072",
+      "text": "人们必须满足的基本自然需要越少，土地越肥沃，气候越有利，生产者维持自己并养育后代所需的劳动时间就越少，他能为别人提供的剩余劳动也就越多。",
+      "start_ms": 33209,
+      "end_ms": 47684,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch14-s01-n0073",
+      "text": "狄奥多罗斯谈到古埃及时就说：“他们养育孩子所花的精力和费用之少，简直令人难以置信。",
+      "start_ms": 0,
+      "end_ms": 9314,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch14-s01-n0074",
+      "text": "他们给孩子做最简单、最容易取得的食物，还让孩子吃纸莎草可以在火上烤熟的下部，以及沼泽植物的根和茎，有的生吃，有的煮熟或烤熟。",
+      "start_ms": 9314,
+      "end_ms": 23397,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch14-s01-n0075",
+      "text": "由于气候温和，多数孩子不穿鞋，也不穿衣服。",
+      "start_ms": 23397,
+      "end_ms": 28168,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch14-s01-n0076",
+      "text": "因此，一个孩子从出生到成人，父母总共花费不超过二十德拉克马。",
+      "start_ms": 28168,
+      "end_ms": 34982,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch14-s01-n0077",
+      "text": "埃及人口如此众多，因而能够兴建那么多大型工程，主要就是这个原因。”",
+      "start_ms": 34982,
+      "end_ms": 42479,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch14-s01-n0078",
+      "text": "不过，古埃及的大型工程与其说来自人口众多，不如说来自可以抽调出来的人口比例很高。",
+      "start_ms": 42479,
+      "end_ms": 51565,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch14-s01-n0079",
+      "text": "单个工人的必要劳动时间越少，能提供的剩余劳动就越多。",
+      "start_ms": 0,
+      "end_ms": 5930,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch14-s01-n0080",
+      "text": "同样，生产必需生活资料所需的劳动人口越少，能抽去从事其他工程的人就越多。",
+      "start_ms": 5930,
+      "end_ms": 14141,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch14-s01-n0081",
+      "text": "假定资本主义生产已经存在，在其他条件相同、工作日长度既定时，剩余劳动的多少会随劳动的自然条件而变化，尤其会随土地肥力而变化。",
+      "start_ms": 14141,
+      "end_ms": 28281,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch14-s01-n0082",
+      "text": "但这绝不等于土地越肥沃，就越适合资本主义生产方式发展。",
+      "start_ms": 28281,
+      "end_ms": 34439,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch14-s01-n0083",
+      "text": "资本主义生产以人能够支配自然为前提。",
+      "start_ms": 34439,
+      "end_ms": 38545,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch14-s01-n0084",
+      "text": "自然如果过于慷慨，就会“像牵着孩子学步那样牵着人走”，使人没有非发展自己不可的自然压力。",
+      "start_ms": 38545,
+      "end_ms": 48580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch14-s01-n0085",
+      "text": "因此，资本的发源地不是植物疯长的热带，而是温带。",
+      "start_ms": 120,
+      "end_ms": 5880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch14-s01-n0086",
+      "text": "社会分工的自然基础也不是土地本身有多肥沃，而是各地条件不同、天然产品多种多样。",
+      "start_ms": 7160,
+      "end_ms": 16040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch14-s01-n0087",
+      "text": "人生活在不断变化的自然条件中，因而发展出更多的需要、能力、劳动手段和劳动方式。",
+      "start_ms": 16720,
+      "end_ms": 24920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch14-s01-n0088",
+      "text": "工业史上尤其重要的一件事，是人们必须以社会力量控制某种自然力，合理利用它，并通过大规模工程把它掌握或驯服。",
+      "start_ms": 25720,
+      "end_ms": 37640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch14-s01-n0089",
+      "text": "例如埃及、伦巴第、荷兰等地的水利调节， 以及印度、波斯等地的人工灌溉。",
+      "start_ms": 38560,
+      "end_ms": 45720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch14-s01-n0090",
+      "text": "那里的渠道不仅带来不可缺少的水，也把山上的矿物肥料随泥沙带到土地上。",
+      "start_ms": 46320,
+      "end_ms": 52640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch14-s01-n0091",
+      "text": "西班牙和西西里在阿拉伯人统治时期工业繁荣，秘密也在于灌溉渠道。",
+      "start_ms": 0,
+      "end_ms": 7280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch14-s01-n0092",
+      "text": "有利的自然条件只能使剩余劳动、剩余价值或剩余产品成为可能，不能自动把它们变成现实。",
+      "start_ms": 8200,
+      "end_ms": 18280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch14-s01-n0093",
+      "text": "不同地方的自然条件不同，同量劳动能够满足的需要也不同， 所以在其他条件相近时，必要劳动时间也不同。",
+      "start_ms": 19240,
+      "end_ms": 31120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch14-s01-n0094",
+      "text": "自然条件对剩余劳动的影响，只在于划定一个起点：工人为自己劳动到什么时候结束，又从什么时候开始为别人劳动。",
+      "start_ms": 32000,
+      "end_ms": 44400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch14-s01-n0095",
+      "text": "工业越发展，这道自然界限的作用就越小。",
+      "start_ms": 45240,
+      "end_ms": 49200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch14-s01-n0096",
+      "text": "在西欧社会中，工人必须先为别人提供剩余劳动，才获得为自己生存而劳动的许可。",
+      "start_ms": 50200,
+      "end_ms": 58480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch14-s01-n0097",
+      "text": "生活在这种社会里的人很容易误以为，劳动天生就会产生剩余产品。",
+      "start_ms": 0,
+      "end_ms": 7239,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch14-s01-n0098",
+      "text": "但看看亚洲群岛东部的居民就知道并非如此，那里的西米树在森林中自然生长：“居民在树上钻孔，确认树心已经成熟以后，便砍倒树干，截成几段，刮出树心，和水混合后过滤，就得到可以直接使用的西米粉。",
+      "start_ms": 7239,
+      "end_ms": 29678,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch14-s01-n0099",
+      "text": "一棵树通常能产三百磅，多时能产五六百磅。",
+      "start_ms": 29678,
+      "end_ms": 34504,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch14-s01-n0100",
+      "text": "那里的人走进森林砍取面包，就像我们走进森林砍柴一样。”",
+      "start_ms": 34504,
+      "end_ms": 41019,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch14-s01-n0101",
+      "text": "假定这样一位东亚“面包砍伐者”每周只需劳动十二小时，就能满足自己的全部需要。",
+      "start_ms": 41019,
+      "end_ms": 50188,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch14-s01-n0102",
+      "text": "优越的自然条件直接给他的，是大量闲暇时间。",
+      "start_ms": 50188,
+      "end_ms": 55255,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch14-s01-n0103",
+      "text": "要让他把这段时间用于自己的生产活动，需要一系列历史条件；要让他把这段时间用于替别人提供剩余劳动，则需要外来强制。",
+      "start_ms": 0,
+      "end_ms": 11051,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch14-s01-n0104",
+      "text": "如果在那里实行资本主义生产，这位老实人也许每周必须劳动六天，自己才能得到一天劳动的产品。",
+      "start_ms": 11051,
+      "end_ms": 19733,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch14-s01-n0105",
+      "text": "自然条件优越，只能解释为什么他的必要劳动时间每周只有一天，不能解释为什么他现在每周劳动六天，也不能解释为什么其中五天是剩余劳动。",
+      "start_ms": 19733,
+      "end_ms": 32362,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch14-s01-n0106",
+      "text": "他的剩余产品绝不是由人类劳动中某种天生而神秘的力量产生的。",
+      "start_ms": 32362,
+      "end_ms": 38085,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch14-s01-n0107",
+      "text": "劳动中那些由社会历史发展出来的生产力，以及那些来自自然条件的生产力，一旦被资本吸收，都会表现成资本自身的生产力。",
+      "start_ms": 38085,
+      "end_ms": 49136,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch14-s01-n0108",
+      "text": "李嘉图从不追问剩余价值从哪里来。",
+      "start_ms": 49136,
+      "end_ms": 52293,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch14-s01-n0109",
+      "text": "他把剩余价值看成资本主义生产方式本来就有的东西，因为在他眼中，资本主义就是社会生产的自然形式。",
+      "start_ms": 160,
+      "end_ms": 8280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch14-s01-n0110",
+      "text": "他谈劳动生产力时，不是用它解释剩余价值为什么存在，只用它解释剩余价值的多少。",
+      "start_ms": 9080,
+      "end_ms": 15960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch14-s01-n0111",
+      "text": "李嘉图的学派却公开宣称，劳动生产力是利润——准确说是剩余价值——产生的原因。",
+      "start_ms": 16640,
+      "end_ms": 24200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch14-s01-n0112",
+      "text": "与重商主义者相比，这毕竟是一个进步。",
+      "start_ms": 24600,
+      "end_ms": 27920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch14-s01-n0113",
+      "text": "重商主义者认为，产品售价超过生产成本的部分来自交换，也就是产品卖得高于自身价值。",
+      "start_ms": 28800,
+      "end_ms": 35720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch14-s01-n0114",
+      "text": "不过，李嘉图学派只是绕开问题，并没有解决问题。",
+      "start_ms": 36600,
+      "end_ms": 40000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch14-s01-n0115",
+      "text": "这些资产阶级经济学家其实很有本能，知道深入追问剩余价值的来源十分危险。",
+      "start_ms": 0,
+      "end_ms": 9935,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch14-s01-n0116",
+      "text": "但李嘉图之后半个世纪，约翰·斯图亚特·密尔却郑重宣布自己胜过重商主义者，同时拙劣地重复李嘉图学派第一批庸俗化者的蹩脚托词，这又该怎么说呢？",
+      "start_ms": 9935,
+      "end_ms": 29521,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch14-s01-n0117",
+      "text": "密尔说：“利润产生的原因是，劳动生产的东西超过了维持劳动者生活所需的东西。”",
+      "start_ms": 29521,
+      "end_ms": 40307,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch14-s01-n0118",
+      "text": "到这里，还只是重复老调。",
+      "start_ms": 40307,
+      "end_ms": 43714,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch14-s01-n0119",
+      "text": "但密尔还想加点自己的东西：“换一种说法，资本之所以产生利润，是因为食物、衣服、原料和劳动手段能够存在的时间，比生产它们所需的时间更长。”",
+      "start_ms": 43714,
+      "end_ms": 63016,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch14-s01-n0120",
+      "text": "密尔在这里把劳动时间的长短同产品能够存在多久混为一谈。",
+      "start_ms": 63016,
+      "end_ms": 70680,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch14-s01-n0121",
+      "text": "照这种说法，面包师的产品只能保存一天，他从雇佣工人身上取得的利润就永远不可能和机器制造商一样，因为机器能使用二十年甚至更久。",
+      "start_ms": 0,
+      "end_ms": 17325,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch14-s01-n0122",
+      "text": "诚然，如果鸟巢存在的时间不比筑巢所需的时间更长，鸟儿就只好没有巢了。",
+      "start_ms": 17325,
+      "end_ms": 26826,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch14-s01-n0123",
+      "text": "确立了这条“基本真理”以后，密尔便开始证明自己胜过重商主义者：“由此可见，利润并不是由交换这个偶然事件产生的，而是来自劳动生产力。",
+      "start_ms": 26826,
+      "end_ms": 44989,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch14-s01-n0124",
+      "text": "一个国家的总利润总由劳动生产力决定，不论有没有交换。",
+      "start_ms": 44989,
+      "end_ms": 52254,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch14-s01-n0125",
+      "text": "如果没有职业分工，就不会有买卖，但利润仍然会存在。”",
+      "start_ms": 52254,
+      "end_ms": 59520,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch14-s01-n0126",
+      "text": "这样一来，交换和买卖这些资本主义生产的一般条件，都成了纯粹的偶然事件。",
+      "start_ms": 59520,
+      "end_ms": 69300,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch14-s01-n0127",
+      "text": "甚至不必买卖劳动力，利润也照样存在！",
+      "start_ms": 0,
+      "end_ms": 3862,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch14-s01-n0128",
+      "text": "密尔接着说：“如果一个国家全体工人生产的东西比他们的工资总额多20%，那么无论商品价格怎样，利润都会是20%。”",
+      "start_ms": 3862,
+      "end_ms": 15877,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch14-s01-n0129",
+      "text": "一方面，这是一句极其成功的同义反复。",
+      "start_ms": 15877,
+      "end_ms": 19739,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch14-s01-n0130",
+      "text": "如果工人为资本家生产的剩余价值相当于工资总额的20%，利润与工资总额之比当然就是20∶100。",
+      "start_ms": 19739,
+      "end_ms": 29823,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch14-s01-n0131",
+      "text": "另一方面，说利润率会是20%又完全错误，因为利润率是按全部预付资本计算的。",
+      "start_ms": 29823,
+      "end_ms": 37762,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch14-s01-n0132",
+      "text": "假定资本家预付500英镑，其中400英镑用于生产资料，100英镑用于工资。",
+      "start_ms": 37762,
+      "end_ms": 45700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch14-s01-n0133",
+      "text": "剩余价值率按密尔的假定为20%，剩余价值就是20英镑，利润率则是20∶500，也就是4%，而不是20%。",
+      "start_ms": 0,
+      "end_ms": 16436,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch14-s01-n0134",
+      "text": "接下来，密尔精彩地展示了自己怎样对待社会生产的不同历史形式：“我在所有地方都假定采用目前的制度。",
+      "start_ms": 16436,
+      "end_ms": 31608,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch14-s01-n0135",
+      "text": "这种制度除少数例外以外到处占统治地位，也就是由资本家预付全部费用，包括工人的工资。”",
+      "start_ms": 31608,
+      "end_ms": 44883,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch14-s01-n0136",
+      "text": "真是奇特的视觉错觉：一种至今在地球上只在少数地方占统治地位的制度，在他眼里却无处不在。",
+      "start_ms": 44883,
+      "end_ms": 58474,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch14-s01-n0137",
+      "text": "密尔接着宽宏大量地承认：“事情并非绝对必须如此。”",
+      "start_ms": 58474,
+      "end_ms": 66376,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch14-s01-n0138",
+      "text": "恰恰相反，“如果工人拥有在此期间维持生活所需的资料，他甚至可以等到全部工作完成以后，再领取全部工资。",
+      "start_ms": 66376,
+      "end_ms": 82180,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch14-s01-n0139",
+      "text": "不过，在这种情况下，他在一定程度上也是资本家，因为他把资本投入经营，提供了维持经营所需资金的一部分。”",
+      "start_ms": 0,
+      "end_ms": 15577,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch14-s01-n0140",
+      "text": "照这个逻辑，同样可以说，如果工人不仅为自己预付生活资料，还为自己预付劳动手段，他实际上就是自己的雇佣工人。",
+      "start_ms": 15577,
+      "end_ms": 31764,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch14-s01-n0141",
+      "text": "也可以说，美国农民是自己的奴隶，只不过不是替别人服苦役，而是替自己服苦役。",
+      "start_ms": 31764,
+      "end_ms": 43065,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch14-s01-n0142",
+      "text": "密尔已经如此清楚地向我们证明：资本主义生产即使不存在，也仍然会一直存在。",
+      "start_ms": 43065,
+      "end_ms": 54060,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch14-s01-n0143",
+      "text": "接着，他又十分一贯地证明：资本主义生产即使存在，也并不存在。",
+      "start_ms": 54060,
+      "end_ms": 63223,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch14-s01-n0144",
+      "text": "他说：“即使在前一种情况下〔即资本家向雇佣工人预付全部生活资料〕，也可以从同一个角度把工人看作资本家。",
+      "start_ms": 63223,
+      "end_ms": 78800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch14-s01-n0145",
+      "text": "因为工人以低于市场价格的价格（！）",
+      "start_ms": 0,
+      "end_ms": 3749,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch14-s01-n0146",
+      "text": "交出自己的劳动，所以可以认为，他把其中的差额（？）",
+      "start_ms": 3749,
+      "end_ms": 9262,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch14-s01-n0147",
+      "text": "预付给了雇主，等等。”",
+      "start_ms": 9262,
+      "end_ms": 11688,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch14-s01-n0148",
+      "text": "现实情况是，工人先无偿把一周的劳动预付给资本家，等到周末才拿到这份劳动的市场价格。",
+      "start_ms": 11688,
+      "end_ms": 20729,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch14-s01-n0149",
+      "text": "照密尔的说法，这竟然使工人成了资本家！",
+      "start_ms": 20729,
+      "end_ms": 24919,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch14-s01-n0150",
+      "text": "在一片完全平坦的土地上，土堆看起来也像小山。",
+      "start_ms": 24919,
+      "end_ms": 29771,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch14-s01-n0151",
+      "text": "看看当今资产阶级这些“大思想家”的分量，就知道这个阶级的思想已经平庸到什么程度。",
+      "start_ms": 0,
+      "end_ms": 8180,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    }
+  ]
+}

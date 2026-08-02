@@ -1,0 +1,1531 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch02-s01-v1-audio-57c4718e47d9",
+  "unit_id": "ch02-s01",
+  "translation_version_id": "ch02-s01-v1",
+  "translation_sha256": "0a690257b6a4b60a75c9a1b8b12b5754dd1484349624b5f920fc7ffd49a9aafe",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T18:36:45.802Z",
+  "completed_at": "2026-08-02T18:43:24.909Z",
+  "duration_ms": 1030959,
+  "sentence_count": 144,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 35360,
+      "bytes": 566444,
+      "sha256": "6f78c9f9681bd50c73dc5205f23a0d3ecc611c0cc757a4728f8cc26a8a48a73d",
+      "sentence_ids": [
+        "ch02-s01-n0001",
+        "ch02-s01-n0002",
+        "ch02-s01-n0003",
+        "ch02-s01-n0004",
+        "ch02-s01-n0005",
+        "ch02-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 35355,
+      "bytes": 566444,
+      "sha256": "c5c4a848807964d5f691dba629cc540ca3fc1452d3ef18e66094fbfab78c8bfe",
+      "sentence_ids": [
+        "ch02-s01-n0007",
+        "ch02-s01-n0008",
+        "ch02-s01-n0009",
+        "ch02-s01-n0010",
+        "ch02-s01-n0011",
+        "ch02-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 41706,
+      "bytes": 667820,
+      "sha256": "43d042c80b707091db86a5e435874b1a78f7f05a8b32e091d58e103d255bc578",
+      "sentence_ids": [
+        "ch02-s01-n0013",
+        "ch02-s01-n0014",
+        "ch02-s01-n0015",
+        "ch02-s01-n0016",
+        "ch02-s01-n0017",
+        "ch02-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 36849,
+      "bytes": 590252,
+      "sha256": "3812ac620f47dd0d175c006e2071e087cf0ad27142fe814c11fc5c4c6c463c4a",
+      "sentence_ids": [
+        "ch02-s01-n0019",
+        "ch02-s01-n0020",
+        "ch02-s01-n0021",
+        "ch02-s01-n0022",
+        "ch02-s01-n0023",
+        "ch02-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 40700,
+      "bytes": 651692,
+      "sha256": "2bcea61c0c769bb59bedc8143889608d0606c534a8c94c5ff2efad2a41143e2a",
+      "sentence_ids": [
+        "ch02-s01-n0025",
+        "ch02-s01-n0026",
+        "ch02-s01-n0027",
+        "ch02-s01-n0028",
+        "ch02-s01-n0029",
+        "ch02-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 46200,
+      "bytes": 739628,
+      "sha256": "a4254b0a18613cf911efdca3b0e16ad48ed3dff963b9d3eedd2d54e1a8e03e6f",
+      "sentence_ids": [
+        "ch02-s01-n0031",
+        "ch02-s01-n0032",
+        "ch02-s01-n0033",
+        "ch02-s01-n0034",
+        "ch02-s01-n0035",
+        "ch02-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 49200,
+      "bytes": 787628,
+      "sha256": "121489efd53eaa84355c5869d29cba598395fb4a6a6fc46294b42a53c9aa1078",
+      "sentence_ids": [
+        "ch02-s01-n0037",
+        "ch02-s01-n0038",
+        "ch02-s01-n0039",
+        "ch02-s01-n0040",
+        "ch02-s01-n0041",
+        "ch02-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 40182,
+      "bytes": 643628,
+      "sha256": "dccc1c6f1d87ab6d2089eaed6d1ec96a964eb2123b65cab133291afb2c87dfe6",
+      "sentence_ids": [
+        "ch02-s01-n0043",
+        "ch02-s01-n0044",
+        "ch02-s01-n0045",
+        "ch02-s01-n0046",
+        "ch02-s01-n0047",
+        "ch02-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 20361,
+      "bytes": 326444,
+      "sha256": "4c5300ea952eca9ba418ae134f79e95a31519132b037ed6452148bc12666abe1",
+      "sentence_ids": [
+        "ch02-s01-n0049",
+        "ch02-s01-n0050",
+        "ch02-s01-n0051",
+        "ch02-s01-n0052",
+        "ch02-s01-n0053",
+        "ch02-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 43419,
+      "bytes": 695468,
+      "sha256": "06eac6bf066b1e071efeb21dffa07691e6eaa7764d33a164f6cb499015e22281",
+      "sentence_ids": [
+        "ch02-s01-n0055",
+        "ch02-s01-n0056",
+        "ch02-s01-n0057",
+        "ch02-s01-n0058",
+        "ch02-s01-n0059",
+        "ch02-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 41200,
+      "bytes": 659756,
+      "sha256": "60cfd24f659e16b8f4479b38e9e51e6ce126efb0cd7334e84a1ad3a20796f145",
+      "sentence_ids": [
+        "ch02-s01-n0061",
+        "ch02-s01-n0062",
+        "ch02-s01-n0063",
+        "ch02-s01-n0064",
+        "ch02-s01-n0065",
+        "ch02-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 41118,
+      "bytes": 658604,
+      "sha256": "47d5bd76d1ae22e99f187152504835fc409d98176d1806e8d2691f8c4944791c",
+      "sentence_ids": [
+        "ch02-s01-n0067",
+        "ch02-s01-n0068",
+        "ch02-s01-n0069",
+        "ch02-s01-n0070",
+        "ch02-s01-n0071",
+        "ch02-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 38200,
+      "bytes": 611756,
+      "sha256": "f6a0b40dc2523f1db70b3da494cd116d54482af86f50a1b2def17e65c95695b4",
+      "sentence_ids": [
+        "ch02-s01-n0073",
+        "ch02-s01-n0074",
+        "ch02-s01-n0075",
+        "ch02-s01-n0076",
+        "ch02-s01-n0077",
+        "ch02-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 47348,
+      "bytes": 758060,
+      "sha256": "58f4d500b2447fe085d69fe7d7fb826fae91d973fbd30e0e5711470c45f7f778",
+      "sentence_ids": [
+        "ch02-s01-n0079",
+        "ch02-s01-n0080",
+        "ch02-s01-n0081",
+        "ch02-s01-n0082",
+        "ch02-s01-n0083",
+        "ch02-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 58780,
+      "bytes": 941228,
+      "sha256": "8911ac865a3ffe8219d4237b4ec32cdcf20b9cded8cd1946dd683fcaf7940093",
+      "sentence_ids": [
+        "ch02-s01-n0085",
+        "ch02-s01-n0086",
+        "ch02-s01-n0087",
+        "ch02-s01-n0088",
+        "ch02-s01-n0089",
+        "ch02-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 50484,
+      "bytes": 808364,
+      "sha256": "60748acff033ec385b442aa69a0b706f5d3aa029c92ff04838d52ebd3b51afb3",
+      "sentence_ids": [
+        "ch02-s01-n0091",
+        "ch02-s01-n0092",
+        "ch02-s01-n0093",
+        "ch02-s01-n0094",
+        "ch02-s01-n0095",
+        "ch02-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 44900,
+      "bytes": 718892,
+      "sha256": "0286e634b64fddd13ea5c935ed6a17391f92044b464ee3ca7a8d2a985273c100",
+      "sentence_ids": [
+        "ch02-s01-n0097",
+        "ch02-s01-n0098",
+        "ch02-s01-n0099",
+        "ch02-s01-n0100",
+        "ch02-s01-n0101",
+        "ch02-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 36100,
+      "bytes": 578348,
+      "sha256": "b6e622025a654e8a5b622b08e1cbb3769813e4cd7c5450fe36ca374784485146",
+      "sentence_ids": [
+        "ch02-s01-n0103",
+        "ch02-s01-n0104",
+        "ch02-s01-n0105",
+        "ch02-s01-n0106",
+        "ch02-s01-n0107",
+        "ch02-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 42860,
+      "bytes": 686252,
+      "sha256": "025a056ab7f73c35a7b8e1c05ffd9bb32447a33168172a8692d1a87d23c531be",
+      "sentence_ids": [
+        "ch02-s01-n0109",
+        "ch02-s01-n0110",
+        "ch02-s01-n0111",
+        "ch02-s01-n0112",
+        "ch02-s01-n0113",
+        "ch02-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 56492,
+      "bytes": 904364,
+      "sha256": "88732b18cc9c383b812b232b9a5da3b9336408dc527cd3d1b679373c0b3d217e",
+      "sentence_ids": [
+        "ch02-s01-n0115",
+        "ch02-s01-n0116",
+        "ch02-s01-n0117",
+        "ch02-s01-n0118",
+        "ch02-s01-n0119",
+        "ch02-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 47517,
+      "bytes": 760748,
+      "sha256": "cd9b4ad5c4b238b61f6571b4f3be97d704595a3c78f487c675d7d0d24c70174b",
+      "sentence_ids": [
+        "ch02-s01-n0121",
+        "ch02-s01-n0122",
+        "ch02-s01-n0123",
+        "ch02-s01-n0124",
+        "ch02-s01-n0125",
+        "ch02-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 41333,
+      "bytes": 662060,
+      "sha256": "b92a99f75e6d61ee99819c588f55fd88af63530dbda5e826d7444bc6c69dd48e",
+      "sentence_ids": [
+        "ch02-s01-n0127",
+        "ch02-s01-n0128",
+        "ch02-s01-n0129",
+        "ch02-s01-n0130",
+        "ch02-s01-n0131",
+        "ch02-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 50895,
+      "bytes": 814892,
+      "sha256": "b70da478e295eb813c4c587a524a28c304b858c69f2845c86abe037606533a38",
+      "sentence_ids": [
+        "ch02-s01-n0133",
+        "ch02-s01-n0134",
+        "ch02-s01-n0135",
+        "ch02-s01-n0136",
+        "ch02-s01-n0137",
+        "ch02-s01-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 44400,
+      "bytes": 710828,
+      "sha256": "8b4f4afcdb0b13b8f89f3bf88e71b858003a54e85da0a473ca914a56170c961a",
+      "sentence_ids": [
+        "ch02-s01-n0139",
+        "ch02-s01-n0140",
+        "ch02-s01-n0141",
+        "ch02-s01-n0142",
+        "ch02-s01-n0143",
+        "ch02-s01-n0144"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch02-s01-n0001",
+      "text": "商品不能自己走进市场，也不能自己交换。",
+      "start_ms": 320,
+      "end_ms": 3800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch02-s01-n0002",
+      "text": "因此，我们得去找商品的监护人，也就是商品所有者。",
+      "start_ms": 4400,
+      "end_ms": 11440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch02-s01-n0003",
+      "text": "商品只是物，不会反抗人。",
+      "start_ms": 12600,
+      "end_ms": 15680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch02-s01-n0004",
+      "text": "如果商品不肯听话，人可以动用暴力，换句话说，直接把它拿走。",
+      "start_ms": 16720,
+      "end_ms": 23080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch02-s01-n0005",
+      "text": "可是，要让这些物品作为商品彼此交换，商品所有者就必须把对方当作有意志的人。",
+      "start_ms": 23840,
+      "end_ms": 31760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch02-s01-n0006",
+      "text": "他们的意志体现在各自的商品中。",
+      "start_ms": 32280,
+      "end_ms": 35040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch02-s01-n0007",
+      "text": "每个人只有得到对方同意，才能通过双方共同的意志行为，交出自己的商品，取得对方的商品。",
+      "start_ms": 120,
+      "end_ms": 7760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch02-s01-n0008",
+      "text": "因此，他们必须互相承认对方是私有者。",
+      "start_ms": 8320,
+      "end_ms": 11840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch02-s01-n0009",
+      "text": "这种法律关系以合同为形式，不管合同是否具有完备的法律形式。",
+      "start_ms": 12520,
+      "end_ms": 18080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch02-s01-n0010",
+      "text": "它是一种意志关系，其中反映着经济关系。",
+      "start_ms": 18640,
+      "end_ms": 22560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch02-s01-n0011",
+      "text": "至于这种法律或意志关系包含什么，则由经济关系本身决定。",
+      "start_ms": 23160,
+      "end_ms": 28680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch02-s01-n0012",
+      "text": "在这里，人们彼此面对时，只是商品的代表，因而只是商品所有者。",
+      "start_ms": 29560,
+      "end_ms": 35160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch02-s01-n0013",
+      "text": "随着分析展开，我们还会看到，人们扮演的各种经济角色，不过是经济关系的人格化。",
+      "start_ms": 160,
+      "end_ms": 6240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch02-s01-n0014",
+      "text": "他们正是作为这些关系的承担者彼此相对。",
+      "start_ms": 6720,
+      "end_ms": 9880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch02-s01-n0015",
+      "text": "商品所有者同商品有一点格外不同：对商品来说，任何别的商品都只是它自身价值的一种表现形式。",
+      "start_ms": 10720,
+      "end_ms": 19800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch02-s01-n0016",
+      "text": "因此，商品天生一视同仁，也毫不挑剔。",
+      "start_ms": 20760,
+      "end_ms": 24320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch02-s01-n0017",
+      "text": "它随时准备同任何别的商品交换灵魂和肉体，哪怕对方比《堂吉诃德》中那个丑陋的女仆马里托尔内还令人嫌恶。",
+      "start_ms": 24800,
+      "end_ms": 32600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch02-s01-n0018",
+      "text": "商品自己不在乎别的商品具体有什么用，商品所有者却用自己的五种甚至更多感官，替它补上这种判断。",
+      "start_ms": 33440,
+      "end_ms": 41440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch02-s01-n0019",
+      "text": "他自己的商品对他没有直接用处，否则他就不会把它带到市场。",
+      "start_ms": 240,
+      "end_ms": 5600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch02-s01-n0020",
+      "text": "他的商品对别人有用。",
+      "start_ms": 6160,
+      "end_ms": 7760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch02-s01-n0021",
+      "text": "对他本人来说，这件商品眼下唯一的用处，就是承载交换价值，充当交换手段。",
+      "start_ms": 8200,
+      "end_ms": 16240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch02-s01-n0022",
+      "text": "因此，他要用它换取对自己有用的另一种商品。",
+      "start_ms": 17080,
+      "end_ms": 22040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch02-s01-n0023",
+      "text": "一切商品对自己的所有者都没有用处，对不是它们所有者的人却有用。",
+      "start_ms": 22880,
+      "end_ms": 29960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch02-s01-n0024",
+      "text": "因此，商品必须从各自所有者手中转到别人手中。",
+      "start_ms": 30760,
+      "end_ms": 36560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch02-s01-n0025",
+      "text": "这个转手过程就是交换。",
+      "start_ms": 0,
+      "end_ms": 1760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch02-s01-n0026",
+      "text": "交换使商品作为价值彼此发生关系，并让它们的价值得到实现。",
+      "start_ms": 2560,
+      "end_ms": 8680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch02-s01-n0027",
+      "text": "所以，商品必须先实现为价值，才能实现为使用价值。",
+      "start_ms": 9480,
+      "end_ms": 14760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch02-s01-n0028",
+      "text": "反过来，商品必须先证明自己有使用价值，才能实现为价值。",
+      "start_ms": 15240,
+      "end_ms": 21040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch02-s01-n0029",
+      "text": "因为，耗费在商品上的人类劳动，只有采取对别人有用的形式，才算数。",
+      "start_ms": 21880,
+      "end_ms": 29360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch02-s01-n0030",
+      "text": "至于这种劳动是否对别人有用，也就是劳动产品能否满足别人的需要，只有通过交换才能证明。",
+      "start_ms": 30240,
+      "end_ms": 40520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch02-s01-n0031",
+      "text": "每个商品所有者都只想用自己的商品换取能满足自身需要的另一种商品。",
+      "start_ms": 80,
+      "end_ms": 5640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch02-s01-n0032",
+      "text": "从这一点看，交换对他只是个人过程。",
+      "start_ms": 6400,
+      "end_ms": 9560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch02-s01-n0033",
+      "text": "另一方面，他又想把自己的商品实现为价值，也就是换成任何一种价值相同的商品，不管自己的商品对对方有没有用。",
+      "start_ms": 10200,
+      "end_ms": 20040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch02-s01-n0034",
+      "text": "从这一点看，交换对他又是普遍的社会过程。",
+      "start_ms": 20680,
+      "end_ms": 24680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch02-s01-n0035",
+      "text": "可是，对所有商品所有者来说，同一个过程不可能同时只是个人过程，又只是普遍的社会过程。",
+      "start_ms": 25560,
+      "end_ms": 33640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch02-s01-n0036",
+      "text": "仔细看就会发现，每个商品所有者都把每一种别人的商品看作自己商品的特殊等价物，因此又把自己的商品看作其他一切商品的一般等价物。",
+      "start_ms": 34480,
+      "end_ms": 46120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch02-s01-n0037",
+      "text": "可是，所有商品所有者都这样做，结果就没有任何一种商品能够成为一般等价物。",
+      "start_ms": 0,
+      "end_ms": 9732,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch02-s01-n0038",
+      "text": "这样一来，商品也就没有一种共同的相对价值形式，无法作为价值彼此等同，也无法作为价值量相互比较。",
+      "start_ms": 9732,
+      "end_ms": 22437,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch02-s01-n0039",
+      "text": "因此，它们还不能作为商品彼此相对，只能作为普通产品或有用物品彼此相对。",
+      "start_ms": 22437,
+      "end_ms": 31899,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch02-s01-n0040",
+      "text": "货主们面对这个难题时，像浮士德一样相信：“起初是行动。”",
+      "start_ms": 31899,
+      "end_ms": 39468,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch02-s01-n0041",
+      "text": "所以，他们先行动，后思考。",
+      "start_ms": 39468,
+      "end_ms": 42982,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch02-s01-n0042",
+      "text": "商品本身的规律，就通过货主的本能行动发生作用。",
+      "start_ms": 42982,
+      "end_ms": 49200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch02-s01-n0043",
+      "text": "货主们只有让所有商品都用另一种商品表现自己的价值，并把后者当作一般等价物，才能把不同商品作为价值相互比较，因而也才能让它们真正作为商品发生关系。",
+      "start_ms": 280,
+      "end_ms": 12720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch02-s01-n0044",
+      "text": "前面对商品的分析已经说明了这一点。",
+      "start_ms": 13400,
+      "end_ms": 15880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch02-s01-n0045",
+      "text": "但某一种商品究竟怎样成为一般等价物，只能由社会的共同行动决定。",
+      "start_ms": 16360,
+      "end_ms": 22360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch02-s01-n0046",
+      "text": "其他所有商品都用同一种商品表现自己的价值，这就把这种商品从其余商品中单独挑了出来。",
+      "start_ms": 23000,
+      "end_ms": 30120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch02-s01-n0047",
+      "text": "于是，它自身的形态成为社会公认的等价形式。",
+      "start_ms": 30920,
+      "end_ms": 34680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch02-s01-n0048",
+      "text": "充当一般等价物，也就成了这种商品特有的社会职能。",
+      "start_ms": 35320,
+      "end_ms": 39520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch02-s01-n0049",
+      "text": "它就这样成为货币。",
+      "start_ms": 0,
+      "end_ms": 1681,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch02-s01-n0050",
+      "text": "“他们同心合意，把自己的能力和权柄交给那兽。",
+      "start_ms": 1681,
+      "end_ms": 5791,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch02-s01-n0051",
+      "text": "除了带有兽印、兽名或兽名数目的人，谁也不能买卖。”",
+      "start_ms": 5791,
+      "end_ms": 10461,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch02-s01-n0052",
+      "text": "（《启示录》）",
+      "start_ms": 10461,
+      "end_ms": 11768,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch02-s01-n0053",
+      "text": "货币是交换过程的必然产物。",
+      "start_ms": 11768,
+      "end_ms": 14197,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch02-s01-n0054",
+      "text": "不同的劳动产品在交换中被实际等同，也正是在这个过程中真正变成商品。",
+      "start_ms": 14197,
+      "end_ms": 20361,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch02-s01-n0055",
+      "text": "随着交换在历史上不断扩大和深入，商品内部原已存在的使用价值与价值的对立也越来越明显。",
+      "start_ms": 6360,
+      "end_ms": 14040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch02-s01-n0056",
+      "text": "交换要继续进行，就必须让这种对立取得一种看得见的外在形式。",
+      "start_ms": 14640,
+      "end_ms": 19520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch02-s01-n0057",
+      "text": "于是，商品价值逐渐取得独立的形式。",
+      "start_ms": 20120,
+      "end_ms": 22800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch02-s01-n0058",
+      "text": "这个过程不会停下来，直到商品世界分化成普通商品和货币，独立的价值形式才最终形成。",
+      "start_ms": 23360,
+      "end_ms": 30160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch02-s01-n0059",
+      "text": "因此，劳动产品越充分地变成商品，商品转化为货币的过程也就越充分。",
+      "start_ms": 30800,
+      "end_ms": 36760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch02-s01-n0060",
+      "text": "直接产品交换已经具有简单价值表现的外形，但严格说来还不是这种价值形式。",
+      "start_ms": 37480,
+      "end_ms": 43080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch02-s01-n0061",
+      "text": "简单价值表现写作：x 量商品 A = y 量商品 B。",
+      "start_ms": 40,
+      "end_ms": 4840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch02-s01-n0062",
+      "text": "直接产品交换则写作：x 量有用物品 A = y 量有用物品 B。",
+      "start_ms": 5680,
+      "end_ms": 11600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch02-s01-n0063",
+      "text": "区别在于，A 和 B 在交换以前还不是商品，只是在交换中才成为商品。",
+      "start_ms": 11600,
+      "end_ms": 17560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch02-s01-n0064",
+      "text": "一件有用物品最初只有在一种情况下才可能拿来交换：它的数量超过了所有者的直接需要，多出来的部分对所有者本人已经没有用。",
+      "start_ms": 18360,
+      "end_ms": 29240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch02-s01-n0065",
+      "text": "物品存在于人身之外，所以可以转让。",
+      "start_ms": 29960,
+      "end_ms": 32920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch02-s01-n0066",
+      "text": "要让双方互相转让这些物品，他们只须默认彼此都是这些物品的私有者，因而是互相独立的人。",
+      "start_ms": 33640,
+      "end_ms": 41040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch02-s01-n0067",
+      "text": "不过，在天然形成的共同体内部，成员之间并没有这种彼此独立、互相疏远的关系，不论这个共同体是家长制家庭、古印度公社还是印加国。",
+      "start_ms": 320,
+      "end_ms": 12520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch02-s01-n0068",
+      "text": "因此，商品交换最初不是发生在共同体内部，而是从共同体的边界开始，发生在它同其他共同体或其成员接触的地方。",
+      "start_ms": 13120,
+      "end_ms": 22160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch02-s01-n0069",
+      "text": "物品一旦在对外交换中成为商品，也会反过来在共同体内部变成商品。",
+      "start_ms": 22400,
+      "end_ms": 27520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch02-s01-n0070",
+      "text": "起初，物品按什么数量比例交换完全是偶然的。",
+      "start_ms": 28320,
+      "end_ms": 32200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch02-s01-n0071",
+      "text": "它们之所以能够交换，只因为双方所有者愿意互相转让。",
+      "start_ms": 32880,
+      "end_ms": 37200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch02-s01-n0072",
+      "text": "不过，人们对外来物品的需要会逐渐稳定下来。",
+      "start_ms": 37880,
+      "end_ms": 40800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch02-s01-n0073",
+      "text": "交换不断重复，最终成为经常性的社会过程。",
+      "start_ms": 200,
+      "end_ms": 4440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch02-s01-n0074",
+      "text": "久而久之，至少一部分劳动产品必须专门为交换而生产。",
+      "start_ms": 5000,
+      "end_ms": 10560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch02-s01-n0075",
+      "text": "从这一刻起，物品满足生产者直接需要的用处，同它拿来交换的用处分开了。",
+      "start_ms": 11400,
+      "end_ms": 20640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch02-s01-n0076",
+      "text": "也就是说，它的使用价值同交换价值分开了。",
+      "start_ms": 21280,
+      "end_ms": 25640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch02-s01-n0077",
+      "text": "同时，物品按什么数量比例交换，也开始取决于它们怎样生产出来。",
+      "start_ms": 26440,
+      "end_ms": 32880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch02-s01-n0078",
+      "text": "反复形成的习惯，最终把它们固定成一定的价值量。",
+      "start_ms": 33640,
+      "end_ms": 38120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch02-s01-n0079",
+      "text": "在直接产品交换中，一件商品对它的所有者来说，是可以直接拿来换别的东西的交换手段。",
+      "start_ms": 200,
+      "end_ms": 6720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch02-s01-n0080",
+      "text": "对另一方来说，它直接充当等价物，但前提是对方需要它，它对对方有使用价值。",
+      "start_ms": 6960,
+      "end_ms": 13560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch02-s01-n0081",
+      "text": "所以，这种交换物还没有取得独立的价值形式，它怎样表现价值，仍取决于自身的用处和交换双方的具体需要。",
+      "start_ms": 14240,
+      "end_ms": 23400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch02-s01-n0082",
+      "text": "随着进入交换的商品越来越多，种类也越来越丰富，一种独立价值形式就越来越有必要。",
+      "start_ms": 23640,
+      "end_ms": 30320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch02-s01-n0083",
+      "text": "问题出现时，解决问题的条件也同时出现。",
+      "start_ms": 30760,
+      "end_ms": 33920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch02-s01-n0084",
+      "text": "只要许多货主分别拿自己的商品去交换和比较各种其他商品，他们就必然会把不同商品同一种第三种商品交换，再通过这种第三种商品比较各自的价值。",
+      "start_ms": 34440,
+      "end_ms": 47040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch02-s01-n0085",
+      "text": "这种第三种商品一旦成为多种商品的等价物，就会在一定范围内取得一般等价形式，也就是社会公认的等价形式。",
+      "start_ms": 280,
+      "end_ms": 12440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch02-s01-n0086",
+      "text": "但这种形式最初只随着当时的社会接触产生和消失，一会儿落在这种商品上，一会儿又落在另一种商品上。",
+      "start_ms": 13200,
+      "end_ms": 23120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch02-s01-n0087",
+      "text": "随着商品交换发展，它才专门固定在某些特殊商品上，逐渐结晶为货币形式。",
+      "start_ms": 23720,
+      "end_ms": 31480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch02-s01-n0088",
+      "text": "货币形式最初固定在哪种商品上带有偶然性，但总体上由两种情况决定。",
+      "start_ms": 32200,
+      "end_ms": 39840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch02-s01-n0089",
+      "text": "它可能落在最重要的外来商品上，因为本地产品的交换价值最早正是通过这些外来商品表现出来。",
+      "start_ms": 40680,
+      "end_ms": 51800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch02-s01-n0090",
+      "text": "它也可能落在本地可转让财富的主要部分上，例如牲畜。",
+      "start_ms": 52680,
+      "end_ms": 58640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch02-s01-n0091",
+      "text": "游牧民族最早发展出货币形式，因为他们的全部财产都能移动，因而可以随时转让。",
+      "start_ms": 0,
+      "end_ms": 7040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch02-s01-n0092",
+      "text": "他们的生活方式又使他们经常接触其他共同体，不断推动产品交换。",
+      "start_ms": 7800,
+      "end_ms": 14560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch02-s01-n0093",
+      "text": "人们常常把作为奴隶的人本身当作最早的货币材料，却从不把土地当作货币材料。",
+      "start_ms": 15200,
+      "end_ms": 22200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch02-s01-n0094",
+      "text": "把土地当作货币的设想，只可能出现在已经成熟的资产阶级社会。",
+      "start_ms": 22960,
+      "end_ms": 29800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch02-s01-n0095",
+      "text": "这个设想始于 17 世纪的后三分之一，直到一个世纪后的法国资产阶级革命，才第一次有人试图在全国范围内实行。",
+      "start_ms": 30800,
+      "end_ms": 40760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch02-s01-n0096",
+      "text": "商品交换越是突破地方限制，商品价值就越充分地通过实物代表一般人类劳动。",
+      "start_ms": 41560,
+      "end_ms": 50320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch02-s01-n0097",
+      "text": "货币形式也因此转到那些天然适合承担一般等价物这一社会职能的商品上，也就是贵金属。",
+      "start_ms": 0,
+      "end_ms": 9403,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch02-s01-n0098",
+      "text": "“金银天然不是货币，但货币天然是金银。”",
+      "start_ms": 9403,
+      "end_ms": 14105,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch02-s01-n0099",
+      "text": "金银的自然属性恰好符合货币的职能，这就说明了为什么会这样。",
+      "start_ms": 14105,
+      "end_ms": 20922,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch02-s01-n0100",
+      "text": "到目前为止，我们只知道货币的一项职能：表现商品的价值，充当一种材料，让各种商品的价值量得到社会公认的表达。",
+      "start_ms": 20922,
+      "end_ms": 33381,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch02-s01-n0101",
+      "text": "价值代表抽象的、没有差别的人类劳动。",
+      "start_ms": 33381,
+      "end_ms": 37613,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch02-s01-n0102",
+      "text": "因此，要恰当地表现价值，这种材料的每一份都必须具有相同的质地。",
+      "start_ms": 37613,
+      "end_ms": 44900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch02-s01-n0103",
+      "text": "另一方面，各种商品的价值量只有多少之分，所以货币商品本身也必须能只在数量上发生变化，也就是可以任意分割，分开后还能重新合在一起。",
+      "start_ms": 0,
+      "end_ms": 12280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch02-s01-n0104",
+      "text": "金银天然具有这些性质。",
+      "start_ms": 13320,
+      "end_ms": 15480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch02-s01-n0105",
+      "text": "成为货币的商品因此有了两种使用价值。",
+      "start_ms": 16080,
+      "end_ms": 19440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch02-s01-n0106",
+      "text": "它仍有作为普通商品的具体用处，例如黄金可以填补蛀空的牙齿，也可以作为奢侈品的原料。",
+      "start_ms": 20040,
+      "end_ms": 27800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch02-s01-n0107",
+      "text": "除此以外，它还获得一种形式上的使用价值。",
+      "start_ms": 28600,
+      "end_ms": 32240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch02-s01-n0108",
+      "text": "这第二种用处来自它特有的社会职能。",
+      "start_ms": 32760,
+      "end_ms": 35800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch02-s01-n0109",
+      "text": "其他商品都只是货币的特殊等价物，货币却是它们共同的一般等价物。",
+      "start_ms": 0,
+      "end_ms": 6481,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch02-s01-n0110",
+      "text": "因此，各种特殊商品都同货币这种一般商品相对。",
+      "start_ms": 6481,
+      "end_ms": 11081,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch02-s01-n0111",
+      "text": "前面已经看到，货币形式只是其他一切商品之间的关系固定反映在某一种商品上。",
+      "start_ms": 11081,
+      "end_ms": 18608,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch02-s01-n0112",
+      "text": "因此，只有从货币已经形成的样子出发，再倒过来分析它的人，才会把“货币本身也是商品”当作新发现。",
+      "start_ms": 18608,
+      "end_ms": 28434,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch02-s01-n0113",
+      "text": "交换过程并没有赋予那种变成货币的商品以价值，只是赋予它一种特殊的价值形式。",
+      "start_ms": 28434,
+      "end_ms": 36170,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch02-s01-n0114",
+      "text": "把价值和价值形式混为一谈，才会有人认为金银的价值只是想象出来的。",
+      "start_ms": 36170,
+      "end_ms": 42860,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch02-s01-n0115",
+      "text": "另一方面，货币在某些职能中可以由代表它的符号代替，于是又产生另一种错误：认为货币只是一种符号。",
+      "start_ms": 0,
+      "end_ms": 8840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch02-s01-n0116",
+      "text": "不过，这个错误也隐约意识到一点：物品的货币形式并非来自物品自身，而只是隐藏在物品背后的人与人关系的外在表现。",
+      "start_ms": 9600,
+      "end_ms": 21800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch02-s01-n0117",
+      "text": "照这个意义说，每一种商品都是一种符号，因为商品作为价值，只是耗费在它身上的人类劳动的物质外壳。",
+      "start_ms": 22400,
+      "end_ms": 31520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch02-s01-n0118",
+      "text": "可是在特定的生产方式下，物品确实会取得某种社会性质，劳动的社会规定也确实会表现为物的性质。",
+      "start_ms": 32520,
+      "end_ms": 41960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch02-s01-n0119",
+      "text": "如果把这些性质都说成纯粹的符号，也就等于说，它们只是人们随意想出来的东西。",
+      "start_ms": 42880,
+      "end_ms": 51120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch02-s01-n0120",
+      "text": "十八世纪的启蒙思想家很喜欢这种解释方法。",
+      "start_ms": 52320,
+      "end_ms": 56200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch02-s01-n0121",
+      "text": "当时，人们还无法看清这些神秘的人际关系形式是怎样产生的，便先把它们说成人为的符号，好让它们看起来不再那么陌生。",
+      "start_ms": 320,
+      "end_ms": 11720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch02-s01-n0122",
+      "text": "前面说过，一种商品充当等价物，并不会直接告诉我们它本身的价值量是多少。",
+      "start_ms": 12120,
+      "end_ms": 20640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch02-s01-n0123",
+      "text": "知道黄金是货币，能同所有其他商品直接交换，并不等于知道十磅黄金值多少。",
+      "start_ms": 21240,
+      "end_ms": 28080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch02-s01-n0124",
+      "text": "同其他商品一样，货币只能通过其他商品相对表现自己的价值量。",
+      "start_ms": 28720,
+      "end_ms": 33920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch02-s01-n0125",
+      "text": "货币自身的价值由生产它所需的劳动时间决定。",
+      "start_ms": 34480,
+      "end_ms": 38680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch02-s01-n0126",
+      "text": "如果生产一定数量的另一种商品也需要同样多的劳动时间，这个数量就表现了货币自身的价值。",
+      "start_ms": 39520,
+      "end_ms": 47320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch02-s01-n0127",
+      "text": "货币的这种相对价值量，早在产地的直接物物交换中就已经确定。",
+      "start_ms": 0,
+      "end_ms": 5424,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch02-s01-n0128",
+      "text": "一旦作为货币进入流通，它的价值已经确定。",
+      "start_ms": 5424,
+      "end_ms": 9164,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch02-s01-n0129",
+      "text": "早在十七世纪最后几十年，人们就已经远远越过货币分析的起点，知道货币也是商品。",
+      "start_ms": 9164,
+      "end_ms": 16271,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch02-s01-n0130",
+      "text": "但这毕竟只是起点。",
+      "start_ms": 16271,
+      "end_ms": 17955,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch02-s01-n0131",
+      "text": "真正的困难不在于理解货币是商品，而在于商品怎样、为什么、通过什么过程成为货币。",
+      "start_ms": 17955,
+      "end_ms": 25249,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch02-s01-n0132",
+      "text": "前面已经看到，即使在最简单的价值表达“x量商品A＝y量商品B”中，用来表现另一件物品价值量的那件物品，也会给人一种错觉：它似乎不依赖这种关系，天生就有充当等价物的社会属性。",
+      "start_ms": 25249,
+      "end_ms": 41333,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch02-s01-n0133",
+      "text": "我们还看到，这种假象怎样一步步固定下来。",
+      "start_ms": 40,
+      "end_ms": 4720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch02-s01-n0134",
+      "text": "当一般等价形式同某一种商品的自然形态融为一体，结晶成货币形式时，假象就完整了。",
+      "start_ms": 5320,
+      "end_ms": 15080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch02-s01-n0135",
+      "text": "看起来，一种商品并不是因为其他商品都用它表现自己的价值，才成为货币。",
+      "start_ms": 15760,
+      "end_ms": 23840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch02-s01-n0136",
+      "text": "事情反倒像是，其他商品都用它表现价值，只因为它已经是货币。",
+      "start_ms": 24520,
+      "end_ms": 31640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch02-s01-n0137",
+      "text": "形成货币的中间过程消失在自己的结果中，没有留下任何痕迹。",
+      "start_ms": 32280,
+      "end_ms": 38080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch02-s01-n0138",
+      "text": "商品自己什么也不用做，就发现自己的价值形态已经现成地摆在面前，成为一种在它们之外、同它们并列存在的商品。",
+      "start_ms": 38880,
+      "end_ms": 50760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch02-s01-n0139",
+      "text": "金银仿佛刚从地底出来，就已经是一切人类劳动的直接化身。",
+      "start_ms": 0,
+      "end_ms": 7280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch02-s01-n0140",
+      "text": "这就是货币的魔力。",
+      "start_ms": 8320,
+      "end_ms": 10160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch02-s01-n0141",
+      "text": "在社会生产过程中，人们只是像彼此孤立的原子那样行动。",
+      "start_ms": 11000,
+      "end_ms": 17040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch02-s01-n0142",
+      "text": "因此，他们自己的生产关系便取得物的形式，不受他们控制，也不由他们有意识的个人行动决定。",
+      "start_ms": 17760,
+      "end_ms": 27600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch02-s01-n0143",
+      "text": "这一点首先表现为，他们的劳动产品普遍采取商品形式。",
+      "start_ms": 28240,
+      "end_ms": 34240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch02-s01-n0144",
+      "text": "所以，货币拜物教的谜，不过是商品拜物教的谜变得清晰可见，甚至显眼得刺眼。",
+      "start_ms": 35320,
+      "end_ms": 44200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    }
+  ]
+}
