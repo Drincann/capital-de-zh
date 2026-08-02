@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 
 export type NarrationSentence = {
   id: string;
@@ -195,6 +195,111 @@ function decorateArticle(
 function formatTime(milliseconds: number) {
   const seconds = Math.max(0, Math.floor(milliseconds / 1000));
   return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
+}
+
+const playbackRates = [0.75, 1, 1.25, 1.5, 2];
+
+function PlaybackRatePicker({
+  value,
+  onChange,
+}: {
+  value: number;
+  onChange: (value: number) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const rootRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const optionRefs = useRef<Array<HTMLButtonElement | null>>([]);
+  const menuId = useId();
+  const selectedIndex = Math.max(0, playbackRates.indexOf(value));
+
+  useEffect(() => {
+    if (!open) return;
+    const frame = requestAnimationFrame(() => {
+      optionRefs.current[selectedIndex]?.focus();
+    });
+    const closeFromOutside = (event: PointerEvent) => {
+      if (!rootRef.current?.contains(event.target as Node)) setOpen(false);
+    };
+    document.addEventListener("pointerdown", closeFromOutside);
+    return () => {
+      cancelAnimationFrame(frame);
+      document.removeEventListener("pointerdown", closeFromOutside);
+    };
+  }, [open, selectedIndex]);
+
+  function choose(next: number) {
+    onChange(next);
+    setOpen(false);
+    triggerRef.current?.focus();
+  }
+
+  return (
+    <div className="narration-rate-picker" ref={rootRef}>
+      <button
+        className="narration-rate-trigger"
+        ref={triggerRef}
+        type="button"
+        aria-label={`播放速率，当前 ${value} 倍`}
+        aria-haspopup="listbox"
+        aria-controls={menuId}
+        aria-expanded={open}
+        onClick={() => setOpen((current) => !current)}
+        onKeyDown={(event) => {
+          if (["ArrowDown", "ArrowUp"].includes(event.key)) {
+            event.preventDefault();
+            setOpen(true);
+          }
+        }}
+      >
+        <span>{value}×</span>
+        <i aria-hidden="true" />
+      </button>
+      <div
+        className="narration-rate-menu"
+        id={menuId}
+        role="listbox"
+        aria-label="选择播放速率"
+        hidden={!open}
+        onKeyDown={(event) => {
+          const currentIndex = optionRefs.current.indexOf(
+            document.activeElement as HTMLButtonElement,
+          );
+          let nextIndex = currentIndex;
+          if (event.key === "ArrowDown") nextIndex = currentIndex + 1;
+          else if (event.key === "ArrowUp") nextIndex = currentIndex - 1;
+          else if (event.key === "Home") nextIndex = 0;
+          else if (event.key === "End") nextIndex = playbackRates.length - 1;
+          else if (event.key === "Escape") {
+            event.preventDefault();
+            setOpen(false);
+            triggerRef.current?.focus();
+            return;
+          } else return;
+          event.preventDefault();
+          const wrapped =
+            (nextIndex + playbackRates.length) % playbackRates.length;
+          optionRefs.current[wrapped]?.focus();
+        }}
+      >
+        {playbackRates.map((rate) => (
+          <button
+            className="narration-rate-option"
+            ref={(element) => {
+              optionRefs.current[playbackRates.indexOf(rate)] = element;
+            }}
+            key={rate}
+            type="button"
+            role="option"
+            aria-selected={rate === value}
+            onClick={() => choose(rate)}
+          >
+            <span>{rate}×</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export function AudioReader({
@@ -557,21 +662,13 @@ export function AudioReader({
             </button>
             <button type="button" onClick={nextSentence} aria-label="下一句">›</button>
             <p title={activeText}>{activeText}</p>
-            <label>
-              <span className="sr-only">播放速度</span>
-              <select
-                value={rate}
-                onChange={(event) => {
-                  const next = Number(event.target.value);
-                  setRate(next);
-                  if (audioRef.current) audioRef.current.playbackRate = next;
-                }}
-              >
-                {[0.75, 1, 1.25, 1.5, 2].map((value) => (
-                  <option key={value} value={value}>{value}×</option>
-                ))}
-              </select>
-            </label>
+            <PlaybackRatePicker
+              value={rate}
+              onChange={(next) => {
+                setRate(next);
+                if (audioRef.current) audioRef.current.playbackRate = next;
+              }}
+            />
           </div>
         </section>
       ) : null}

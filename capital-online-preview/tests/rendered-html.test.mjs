@@ -184,6 +184,9 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(audioReader, /translation_sha256 !== translationSha256/);
   assert.match(audioReader, /mediaSession/);
   assert.match(audioReader, /playbackRate/);
+  assert.match(audioReader, /narration-rate-menu/);
+  assert.match(audioReader, /aria-haspopup="listbox"/);
+  assert.doesNotMatch(audioReader, /<select\b/);
   assert.match(audioReader, /narration-play-icon/);
   assert.match(audioReader, /narrationCompanion/);
   assert.match(audioReader, /\[data-narration-sentence\], \.katex/);
@@ -196,6 +199,8 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(css, /\.narration-play-icon\.is-pause span/);
   assert.match(css, /env\(safe-area-inset-bottom\)/);
   assert.match(css, /\.reading-pane:has\(\.narration-player\)/);
+  assert.match(css, /\.catalog\.catalog-open/);
+  assert.match(css, /backdrop-filter: blur\(24px\)/);
 });
 
 test("统计数据库不保存访问明细和原始环境信息", async () => {
