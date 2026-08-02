@@ -37,6 +37,7 @@ type AudioManifest = {
 
 const sentencePattern = /[^。！？!?]+(?:[。！？!?]+[”’」』》）)]*)|[^。！？!?]+$/g;
 const maximumSentenceCharacters = 220;
+const sentenceClickLeadInMs = 240;
 
 function normalize(value: string) {
   return value.replace(/\s+/g, " ").trim();
@@ -326,6 +327,7 @@ export function AudioReader({
   const [activeSentenceId, setActiveSentenceId] = useState("");
   const [activeChunkId, setActiveChunkId] = useState("");
   const [elapsedMs, setElapsedMs] = useState(0);
+  const [scrubMs, setScrubMs] = useState<number | null>(null);
   const [rate, setRate] = useState(1);
   const audioRef = useRef<HTMLAudioElement>(null);
   const pendingStart = useRef<{ chunkId: string; time: number; autoplay: boolean } | null>(null);
@@ -480,7 +482,8 @@ export function AudioReader({
     const sentence = manifest?.sentences.find((item) => item.id === sentenceId);
     if (!sentence) return;
     setActiveSentenceId(sentence.id);
-    loadChunk(sentence.chunk_id, sentence.start_ms / 1000, true);
+    const startMs = Math.max(0, sentence.start_ms - sentenceClickLeadInMs);
+    loadChunk(sentence.chunk_id, startMs / 1000, true);
   }
 
   playSentenceRef.current = (sentenceId) => {
@@ -586,6 +589,12 @@ export function AudioReader({
     }
   }
 
+  function commitScrub(milliseconds: number) {
+    setElapsedMs(milliseconds);
+    setScrubMs(null);
+    seekGlobal(milliseconds);
+  }
+
   const activeText =
     manifest?.sentences.find((sentence) => sentence.id === activeSentenceId)?.text ||
     "点正文中的任一句开始朗读";
@@ -633,13 +642,16 @@ export function AudioReader({
       {status === "ready" && started ? (
         <section className="narration-player" aria-label="语音阅读控制">
           <div className="narration-progress-row">
-            <span>{formatTime(elapsedMs)}</span>
+            <span>{formatTime(scrubMs ?? elapsedMs)}</span>
             <input
               type="range"
               min="0"
               max={manifest?.duration_ms || 1}
-              value={Math.min(elapsedMs, manifest?.duration_ms || 1)}
-              onChange={(event) => seekGlobal(Number(event.target.value))}
+              value={Math.min(scrubMs ?? elapsedMs, manifest?.duration_ms || 1)}
+              onChange={(event) => setScrubMs(Number(event.target.value))}
+              onPointerUp={(event) => commitScrub(Number(event.currentTarget.value))}
+              onPointerCancel={() => setScrubMs(null)}
+              onKeyUp={(event) => commitScrub(Number(event.currentTarget.value))}
               aria-label="朗读进度"
             />
             <span>{formatTime(manifest?.duration_ms || 0)}</span>

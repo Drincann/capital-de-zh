@@ -184,6 +184,9 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(audioReader, /translation_sha256 !== translationSha256/);
   assert.match(audioReader, /mediaSession/);
   assert.match(audioReader, /playbackRate/);
+  assert.match(audioReader, /sentence\.start_ms - sentenceClickLeadInMs/);
+  assert.match(audioReader, /setScrubMs\(Number\(event\.target\.value\)\)/);
+  assert.match(audioReader, /onPointerUp=.*commitScrub/);
   assert.match(audioReader, /narration-rate-menu/);
   assert.match(audioReader, /aria-haspopup="listbox"/);
   assert.doesNotMatch(audioReader, /<select\b/);
