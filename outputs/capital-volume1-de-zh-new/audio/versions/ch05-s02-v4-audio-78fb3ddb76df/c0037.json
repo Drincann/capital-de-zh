@@ -1,0 +1,19 @@
+{
+  "chunk_id": "c0037",
+  "audio_file": "c0037.mp3",
+  "text_sha256": "dc5efa902796265f7a9cdbdae0a5a7f81d45d6bb96b5106c2bc296be1d80b03c",
+  "request_id": "9b494485-16a4-4426-8629-36b069e6bfaf",
+  "log_id": "202608030130157E7F11A8C669D30632D6",
+  "duration_seconds": 8.4713,
+  "bytes": 135980,
+  "audio_sha256": "af63bb4bee190caa78e4613f4db965282f8d8f8cab507ebc88cc7c88d1203f08",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0217",
+      "text": "因此，假定资本雇用的工人从事的是简单的社会平均劳动，只是省去一道不必要的换算，让分析更加简单。",
+      "start_ms": 120,
+      "end_ms": 8080,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

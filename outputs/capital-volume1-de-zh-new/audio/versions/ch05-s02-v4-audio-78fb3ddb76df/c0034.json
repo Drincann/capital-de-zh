@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0034",
+  "audio_file": "c0034.mp3",
+  "text_sha256": "6a8cded14864531667f0c7bb06c6313c821b159342e2fb04d7b07a51bcc6111b",
+  "request_id": "8a1030f8-a43b-47ca-864a-b3ee3179a147",
+  "log_id": "20260803012927A515F8475E809B26D0CA",
+  "duration_seconds": 35.921975,
+  "bytes": 575276,
+  "audio_sha256": "ba96b5980e5212ed8fbe585c1511b4eebebaf9ddc6ca1d14f9fbc485434d9bb4",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0199",
+      "text": "他购买了工人在一定时间内的劳动力，便要充分得到自己买下的东西，不肯让人占一点便宜。",
+      "start_ms": 40,
+      "end_ms": 9240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0200",
+      "text": "最后，原料和工具也不能被不当浪费。",
+      "start_ms": 10280,
+      "end_ms": 14480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0201",
+      "text": "资本家对此自有一套惩罚办法。",
+      "start_ms": 15120,
+      "end_ms": 18240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0202",
+      "text": "浪费的原料或工具代表白白耗费的过去劳动，因此不能计入产品的价值。",
+      "start_ms": 18800,
+      "end_ms": 25280,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0203",
+      "text": "可见，我们分析商品时已经发现了同一种劳动的两个方面。",
+      "start_ms": 25480,
+      "end_ms": 29800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0204",
+      "text": "具体劳动生产使用价值，一般人类劳动形成价值。",
+      "start_ms": 30520,
+      "end_ms": 35600,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

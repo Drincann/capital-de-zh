@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0035",
+  "audio_file": "c0035.mp3",
+  "text_sha256": "95f31c018aa1e556e5735026f7d7ea7183302c54bd88cceae624f0bea70162de",
+  "request_id": "468dcb90-17b4-40d3-b7ef-6dfc294458b2",
+  "log_id": "2026080301295320A735CE97697FFC3CDD",
+  "duration_seconds": 35.107725,
+  "bytes": 562220,
+  "audio_sha256": "b62b5b3a7b75052e79ed146cd821d49026e0f9ba5702df9127f43e462c99cd05",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0205",
+      "text": "现在，这一区别进一步表现为生产过程的两个方面：劳动过程和价值形成过程。",
+      "start_ms": 120,
+      "end_ms": 5760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0206",
+      "text": "劳动过程和价值形成过程结合在一起，就是商品的生产过程。",
+      "start_ms": 6240,
+      "end_ms": 10360,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0207",
+      "text": "劳动过程和价值增殖过程结合在一起，就是资本主义生产过程，也就是商品生产的资本主义形式。",
+      "start_ms": 11000,
+      "end_ms": 17680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0208",
+      "text": "前面已经提到，对价值增殖来说，资本家使用的是简单的社会平均劳动，还是水平更高的复杂劳动，并不重要。",
+      "start_ms": 18360,
+      "end_ms": 26800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0209",
+      "text": "复杂劳动来自培养成本较高的劳动力。",
+      "start_ms": 27360,
+      "end_ms": 30120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0210",
+      "text": "培养这种劳动力需要更多劳动时间，所以它的价值高于简单劳动力。",
+      "start_ms": 30480,
+      "end_ms": 34840,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

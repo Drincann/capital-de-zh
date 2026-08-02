@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0002",
+  "audio_file": "c0002.mp3",
+  "text_sha256": "e8649fe51550bbd48f0665ea34669e377657e1e616efca3ed902396ec50414fa",
+  "request_id": "b81d1c46-e2b3-4089-b3e0-9fbe13a98c1d",
+  "log_id": "2026080301200676C2218D2AE54E0480D1",
+  "duration_seconds": 33.38115,
+  "bytes": 534572,
+  "audio_sha256": "7dcb842ab52444029a33e79f245b83f27c14c4ae014ca3f9d6dcf94535275e9c",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0007",
+      "text": "第二，他要生产一种价值更高的商品，超过生产资料和劳动力的价值总和。",
+      "start_ms": 80,
+      "end_ms": 5760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0008",
+      "text": "他已经在市场上预付货币，买下了这两项投入。",
+      "start_ms": 6560,
+      "end_ms": 10320,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0009",
+      "text": "他不只要生产使用价值，而要生产商品。",
+      "start_ms": 10880,
+      "end_ms": 14480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0010",
+      "text": "他不只要形成价值，还要形成剩余价值。",
+      "start_ms": 15280,
+      "end_ms": 18680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0011",
+      "text": "既然这里讨论的是商品生产，那么我们此前显然只考察了生产过程的一面。",
+      "start_ms": 19400,
+      "end_ms": 25280,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0012",
+      "text": "商品同时具有使用价值和价值，因此商品的生产过程也必须同时是劳动过程和价值形成过程。",
+      "start_ms": 25800,
+      "end_ms": 33160,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

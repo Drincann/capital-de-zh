@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0016",
+  "audio_file": "c0016.mp3",
+  "text_sha256": "70a5653dc4ee1ab881403f6ece670d7dd45861828b20bf45b1881e9fa823bd62",
+  "request_id": "71d16697-e5dc-4e60-8df9-63adf6a6dbde",
+  "log_id": "20260803011002E5402AA5B9F6481EA81F",
+  "duration_seconds": 38.7,
+  "bytes": 619820,
+  "audio_sha256": "811f49ebf3a394b2d513be97aafd7b524b05e4a687c39c6d14d27307fe10812e",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0091",
+      "text": "比如，谷物可以成为磨坊、淀粉厂、酿酒业和养殖业的原料。",
+      "start_ms": 80,
+      "end_ms": 5080,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0092",
+      "text": "谷物作为种子时，甚至会成为生产谷物本身的原料。",
+      "start_ms": 5640,
+      "end_ms": 9640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0093",
+      "text": "煤则从采矿业中作为产品出来，又作为生产资料重新进入采矿业。",
+      "start_ms": 10600,
+      "end_ms": 16280,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0094",
+      "text": "同一种产品在同一个劳动过程中，也可以同时充当劳动手段和原料。",
+      "start_ms": 16960,
+      "end_ms": 22480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0095",
+      "text": "比如在养肥牲畜时，牲畜一方面是正在被加工的原料，另一方面又是生产肥料的手段。",
+      "start_ms": 23280,
+      "end_ms": 30200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0096",
+      "text": "一件已经可以直接消费的产品，也能重新成为另一种产品的原料，比如葡萄可以成为酿酒的原料。",
+      "start_ms": 31040,
+      "end_ms": 38600,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

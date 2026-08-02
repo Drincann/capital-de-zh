@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0020",
+  "audio_file": "c0020.mp3",
+  "text_sha256": "ef73967e7f20a2e5794a59472e55646f34763421a2f59aea1712564593ff301c",
+  "request_id": "1cffd065-f6d5-4682-afb5-1e700a939ecb",
+  "log_id": "2026080301254903E734B39111397C9922",
+  "duration_seconds": 27.967275,
+  "bytes": 448172,
+  "audio_sha256": "65759475ec99ff4940d9d8de191cba700a9d2140f7267e411168ee5bc82fe065",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0115",
+      "text": "但他还不罢休，说纱对自己没有用，因为生产纱是为了出售。",
+      "start_ms": 0,
+      "end_ms": 4760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0116",
+      "text": "那就把纱卖掉好了。",
+      "start_ms": 5240,
+      "end_ms": 6800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0117",
+      "text": "或者更简单，以后只生产自己需要的东西。",
+      "start_ms": 7400,
+      "end_ms": 10400,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0118",
+      "text": "这正是他的私人医生麦克库洛克为治疗生产过剩这种流行病开出的良方。",
+      "start_ms": 11120,
+      "end_ms": 16920,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0119",
+      "text": "资本家又强硬起来：难道工人能赤手空拳地凭空生产商品吗？",
+      "start_ms": 17440,
+      "end_ms": 23200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0120",
+      "text": "不是他提供了材料，让工人的劳动能够体现在其中吗？",
+      "start_ms": 23680,
+      "end_ms": 27760,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

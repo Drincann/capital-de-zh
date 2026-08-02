@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0011",
+  "audio_file": "c0011.mp3",
+  "text_sha256": "9d9ccc10bca644e062c54b14476df3fce5b3a01cd7b8c3a883c7ddeba1a95fd1",
+  "request_id": "ff6c6dcc-209e-44bf-92b8-3c0bfcddcb5f",
+  "log_id": "20260803012248493C0AE79982C086DADA",
+  "duration_seconds": 49.06945,
+  "bytes": 785708,
+  "audio_sha256": "f5607725d0d0349733fd71596e919826797dbde795773f085234f8ce501abf3a",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0061",
+      "text": "在这一点上，它同钻炮膛的劳动没有区别，同生产棉花和纺锭的劳动也没有区别。",
+      "start_ms": 80,
+      "end_ms": 7880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0062",
+      "text": "正因为这些劳动在形成价值时具有同一性质，种棉花、制造纺锭和纺纱的劳动才都能成为纱的总价值中可以相加的部分，它们之间只有数量上的差别。",
+      "start_ms": 8480,
+      "end_ms": 22440,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0063",
+      "text": "这里不再考察劳动的具体性质和内容，只考察劳动的数量，而劳动量可以直接按时间计算。",
+      "start_ms": 23200,
+      "end_ms": 31320,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0064",
+      "text": "我们暂且假定，纺纱劳动是简单劳动，也就是社会平均水平的劳动。",
+      "start_ms": 31960,
+      "end_ms": 38280,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0065",
+      "text": "后面会看到，即使不是这样，结论也不会改变。",
+      "start_ms": 38920,
+      "end_ms": 42360,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0066",
+      "text": "劳动进行时，人的活动不断转化为产品中已经存在的结果。",
+      "start_ms": 43160,
+      "end_ms": 48720,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

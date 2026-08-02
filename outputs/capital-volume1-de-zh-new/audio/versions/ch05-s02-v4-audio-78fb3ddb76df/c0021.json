@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0021",
+  "audio_file": "c0021.mp3",
+  "text_sha256": "3e05dc99a15931e77d1cf8a3fb80431ffe2e2fe33e8f42839d49405d4162e2b2",
+  "request_id": "57e1bddd-06b3-468e-8ce2-4bdfc31644f4",
+  "log_id": "2026080301255599F96FEBE0D597B59EBF",
+  "duration_seconds": 38.113625,
+  "bytes": 610604,
+  "audio_sha256": "a1438fbc5dcb5d678c61e26a499fbfcaafd6c56aa4eb06f1e8a194346443027f",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0121",
+      "text": "社会上大多数人都一无所有，他向社会提供棉花和纺锭这些生产资料，还给工人提供生活资料，难道不是作出了巨大贡献？",
+      "start_ms": 80,
+      "end_ms": 10560,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0122",
+      "text": "难道这种服务不该计价吗？",
+      "start_ms": 11560,
+      "end_ms": 14600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0123",
+      "text": "可是，工人把棉花和纺锭变成纱，不也向他提供了服务吗？",
+      "start_ms": 15560,
+      "end_ms": 22680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0124",
+      "text": "何况这里讨论的根本不是服务。",
+      "start_ms": 23840,
+      "end_ms": 26960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0125",
+      "text": "所谓服务，只是商品或劳动这种使用价值产生的有用效果。",
+      "start_ms": 27840,
+      "end_ms": 33720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0126",
+      "text": "我们现在考察的却是交换价值。",
+      "start_ms": 34840,
+      "end_ms": 37840,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

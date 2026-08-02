@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0017",
+  "audio_file": "c0017.mp3",
+  "text_sha256": "9aba028cd4482c5b3b235eb1a9d91a06b47f2299ee84f5d5f01619a223ff8bf1",
+  "request_id": "54a02f69-fdec-4b10-afa3-061d3f3a2368",
+  "log_id": "202608030110083EBE591F6128B130A47C",
+  "duration_seconds": 50.2286,
+  "bytes": 804140,
+  "audio_sha256": "00dea3c09ffd9a017c913fe259104010e05855edb92d5d17430e28263ff700ba",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0097",
+      "text": "有些劳动过程生产出来的东西，本来就只能继续作为原料使用。",
+      "start_ms": 80,
+      "end_ms": 4600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0098",
+      "text": "这种产品通常叫半成品，更准确地说，可以叫阶段性产品，比如棉花、纱线和织线等。",
+      "start_ms": 5120,
+      "end_ms": 12600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0099",
+      "text": "最初的原料虽然已经是产品，仍可能依次经过许多不同的加工过程。",
+      "start_ms": 13000,
+      "end_ms": 18240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0100",
+      "text": "在每个阶段，它的形态都会变化，却又一次次成为下一阶段的原料，直到最后一个劳动过程把它变成可以直接使用的生活资料或劳动手段。",
+      "start_ms": 18600,
+      "end_ms": 30320,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0101",
+      "text": "由此可见，一种有用之物究竟是原料、劳动手段还是产品，不取决于它本身固定不变的身份，而完全取决于它在具体劳动过程中发挥什么作用、处在什么位置。",
+      "start_ms": 31080,
+      "end_ms": 46560,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0102",
+      "text": "位置一变，它的身份也会随之改变。",
+      "start_ms": 47200,
+      "end_ms": 49960,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

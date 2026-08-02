@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0003",
+  "audio_file": "c0003.mp3",
+  "text_sha256": "76df08f2feaf17dd4523dec558ad7ebc10ed05cc17e354aa7c71ea2c93b70a4e",
+  "request_id": "5b97ea4e-f224-4292-8244-828a178a37c0",
+  "log_id": "202608030017443B9AC34E08A160030775",
+  "duration_seconds": 34.7445,
+  "bytes": 556460,
+  "audio_sha256": "1ad47203e72de6fa8ad7894b7bb0427ac48b6b2f7fd20d5bec05f14e73e7d322",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0013",
+      "text": "人在改变外部自然的同时，也在改变自己。",
+      "start_ms": 40,
+      "end_ms": 3640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0014",
+      "text": "他使自身原本潜藏的能力得到发展，并逐渐学会支配这些能力。",
+      "start_ms": 4360,
+      "end_ms": 9720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0015",
+      "text": "这里说的，不是人类早期那种近似动物本能的活动。",
+      "start_ms": 10600,
+      "end_ms": 14640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0016",
+      "text": "到了工人能够在市场上出售劳动力的时代，那种尚未摆脱本能的早期劳动，早已退到遥远的史前背景。",
+      "start_ms": 15280,
+      "end_ms": 24040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0017",
+      "text": "这里，我们只讨论已经具有明确目的、真正属于人类的劳动。",
+      "start_ms": 24640,
+      "end_ms": 28560,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0018",
+      "text": "蜘蛛的动作很像织工，蜜蜂筑出的蜂房甚至会让不少建筑师汗颜。",
+      "start_ms": 28840,
+      "end_ms": 34440,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

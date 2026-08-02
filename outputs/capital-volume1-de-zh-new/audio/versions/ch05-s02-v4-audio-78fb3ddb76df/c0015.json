@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0015",
+  "audio_file": "c0015.mp3",
+  "text_sha256": "1bb9615125e92a5a31a81f73c0e5ffaec211844595fd61670f64c181223ba4c0",
+  "request_id": "bc0fdc1a-2a1e-4cf2-a7bf-4224c48b9075",
+  "log_id": "202608030124155E3416A9CA308924A8A7",
+  "duration_seconds": 33.5699,
+  "bytes": 537644,
+  "audio_sha256": "1bea4fbd7e34fdb31982159554ad46ff515c3cc4b7a94802667b066a5fcf08e7",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0085",
+      "text": "这3先令代表6小时劳动，因为生产工人每天平均所需的生活资料需要6小时劳动。",
+      "start_ms": 440,
+      "end_ms": 7200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0086",
+      "text": "现在假定纺纱工一小时把1⅔磅棉花纺成1⅔磅纱，那么6小时就能把10磅棉花纺成10磅纱。",
+      "start_ms": 7800,
+      "end_ms": 17960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0087",
+      "text": "在纺纱过程中，棉花由此吸收了6小时劳动。",
+      "start_ms": 18600,
+      "end_ms": 22320,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0088",
+      "text": "这段劳动时间也表现为价值3先令的黄金。",
+      "start_ms": 22920,
+      "end_ms": 26600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0089",
+      "text": "因此，纺纱劳动本身给棉花增加了3先令的价值。",
+      "start_ms": 27280,
+      "end_ms": 30760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0090",
+      "text": "现在来看10磅纱的总价值。",
+      "start_ms": 31160,
+      "end_ms": 33280,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

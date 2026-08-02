@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0030",
+  "audio_file": "c0030.mp3",
+  "text_sha256": "217ff5c40ec5cc65f51d1c262ff66279aebd540275aac740dbab726f0909a318",
+  "request_id": "285c29b7-1391-4347-b88d-e37f556b162e",
+  "log_id": "2026080301283212ED16B8B679F10026C2",
+  "duration_seconds": 48.28,
+  "bytes": 773036,
+  "audio_sha256": "c063a9e270ed119e09617c87a596683354ff6a3a90d9d3330fca7411d5dbd7a5",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0175",
+      "text": "说它不发生在流通领域，是因为流通只开启了价值增殖，真正的增殖发生在生产领域。",
+      "start_ms": 0,
+      "end_ms": 8012,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0176",
+      "text": "于是，“一切都在这个最美好的世界里安排得尽善尽美”。",
+      "start_ms": 8012,
+      "end_ms": 13493,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0177",
+      "text": "资本家先把货币变成商品，让这些商品充当新产品的材料和劳动过程的要素，再把活的劳动力加入这些死的物质中。",
+      "start_ms": 13493,
+      "end_ms": 24245,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0178",
+      "text": "这样，他就把价值——已经物化的过去劳动——变成了资本，变成了能够自行增殖的价值，仿佛一头突然有了生命的怪物，开始自己“劳动”起来。",
+      "start_ms": 24245,
+      "end_ms": 37949,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0179",
+      "text": "现在比较价值形成过程和价值增殖过程。",
+      "start_ms": 37949,
+      "end_ms": 41744,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0180",
+      "text": "价值增殖过程，其实只是超过某个界限以后继续进行的价值形成过程。",
+      "start_ms": 41744,
+      "end_ms": 48280,
+      "timing_source": "duration_interpolation"
+    }
+  ]
+}

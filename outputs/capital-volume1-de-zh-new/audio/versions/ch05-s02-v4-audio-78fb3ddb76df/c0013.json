@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0013",
+  "audio_file": "c0013.mp3",
+  "text_sha256": "953a13cb64cc4cc66f3e157e2702247fdb04b0b19b8f03aa965aaf7686c16970",
+  "request_id": "457adb61-213f-403c-ac5a-734feb1e23fe",
+  "log_id": "20260803012330EEF7DB4A2146B57FE52B",
+  "duration_seconds": 44.141,
+  "bytes": 706988,
+  "audio_sha256": "957b5158173a1704e98877fee64d9eb1651cfd8ad7683ecc804027cc74ef5eb9",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0073",
+      "text": "现在，原料和产品也要像劳动一样，从另一个角度来看。",
+      "start_ms": 360,
+      "end_ms": 6000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0074",
+      "text": "在劳动过程本身中，棉花是要被加工的对象，纱是加工的结果。",
+      "start_ms": 6840,
+      "end_ms": 14120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0075",
+      "text": "现在考察价值时，棉花只被看作吸收一定数量劳动的材料。",
+      "start_ms": 14840,
+      "end_ms": 20600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0076",
+      "text": "它吸收了以纺纱形式耗费的劳动力，所以确实变成了纱。",
+      "start_ms": 21240,
+      "end_ms": 26840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0077",
+      "text": "但这时，纱的作用只是显示棉花吸收了多少劳动。",
+      "start_ms": 27800,
+      "end_ms": 32960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0078",
+      "text": "假定一小时可以把1⅔磅棉花纺成1⅔磅纱，那么10磅纱就表示其中吸收了6小时劳动。",
+      "start_ms": 33760,
+      "end_ms": 43960,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

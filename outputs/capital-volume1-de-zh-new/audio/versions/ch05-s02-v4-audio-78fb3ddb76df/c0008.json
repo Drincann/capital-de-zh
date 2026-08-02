@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0008",
+  "audio_file": "c0008.mp3",
+  "text_sha256": "e528a4817a804e5cf6877b1729548548f6d6864f4e92bb654dec327efa9a3379",
+  "request_id": "79c3f8e4-2fca-4fe7-8a6d-b827d6de17df",
+  "log_id": "20260803012205F025FD1E89DE0BA4DD30",
+  "duration_seconds": 36.070475,
+  "bytes": 577580,
+  "audio_sha256": "471217931103ef23b548fe087ee0e34187191821ee8e585333b50a9320cce48f",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0043",
+      "text": "所以，棉花和纺锭这两种生产资料的价值，也就是12先令，成为纱的价值的一部分。",
+      "start_ms": 120,
+      "end_ms": 7880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0044",
+      "text": "不过，要把生产资料的价值算进纱的价值，必须满足两个条件。",
+      "start_ms": 8600,
+      "end_ms": 12880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0045",
+      "text": "第一，棉花和纺锭必须确实用来生产某种使用价值。",
+      "start_ms": 13480,
+      "end_ms": 19120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0046",
+      "text": "在这个例子中，必须真正用它们生产出纱。",
+      "start_ms": 19680,
+      "end_ms": 23000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0047",
+      "text": "价值由哪一种使用价值来承载并不重要，但它必须由某种使用价值来承载。",
+      "start_ms": 23880,
+      "end_ms": 29840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0048",
+      "text": "第二，生产时只能耗费当时社会生产条件下所必需的劳动和材料。",
+      "start_ms": 30680,
+      "end_ms": 35840,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

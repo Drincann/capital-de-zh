@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0025",
+  "audio_file": "c0025.mp3",
+  "text_sha256": "c5649866ced297f5a0d23776c1fbe81ca1854d42cda12e99638fb26cc995a9fb",
+  "request_id": "4034cefe-2ac8-47a1-a030-ecc9f0b6cb4d",
+  "log_id": "2026080301270537BA01F38ACB7285B8EA",
+  "duration_seconds": 47,
+  "bytes": 752684,
+  "audio_sha256": "99163a626a55344f09e7f64327f861c0820b7bcfbc95bf9f6586a011fee3d00c",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0145",
+      "text": "但真正决定资本家购买它的，是这种商品特有的用途：劳动力不仅能创造价值，还能创造比自身价值更多的价值。",
+      "start_ms": 40,
+      "end_ms": 11200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0146",
+      "text": "这才是资本家期待它提供的特殊服务，而且整个交易仍然符合商品交换的规律。",
+      "start_ms": 11880,
+      "end_ms": 19600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0147",
+      "text": "劳动力的出售者同其他商品出售者一样，得到商品的交换价值，同时让出商品的使用价值。",
+      "start_ms": 20360,
+      "end_ms": 29720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0148",
+      "text": "他不可能既得到前者，又保留后者。",
+      "start_ms": 30840,
+      "end_ms": 34040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0149",
+      "text": "卖油的人卖出油以后，不再拥有油的用途。",
+      "start_ms": 34720,
+      "end_ms": 38640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0150",
+      "text": "同样，工人卖出劳动力以后，也不再拥有这段时间内劳动力的用途，也就是劳动。",
+      "start_ms": 39400,
+      "end_ms": 46800,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

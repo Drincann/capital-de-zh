@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0021",
+  "audio_file": "c0021.mp3",
+  "text_sha256": "a3757c1d5fae54f3ad84b322c130c274b1e069da1c1ae6baeaa098a126cbb539",
+  "request_id": "4125aecb-d9d9-4408-b56b-8bb3ad29113f",
+  "log_id": "202608030111329811371D89CF0022F4C8",
+  "duration_seconds": 45.46075,
+  "bytes": 728108,
+  "audio_sha256": "208aeb5df6a35b52b5326fc6514d7919e4b00826bec929738e9bdb7d3531888b",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0121",
+      "text": "不过，这种生产中的消费不同于个人消费。",
+      "start_ms": 80,
+      "end_ms": 4120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0122",
+      "text": "个人消费把产品当作维持个人生活的资料，生产中的消费则把产品当作劳动活动得以进行的资料。",
+      "start_ms": 4760,
+      "end_ms": 15400,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0123",
+      "text": "个人消费的结果，是消费者自身的生存和维持。",
+      "start_ms": 16080,
+      "end_ms": 20360,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0124",
+      "text": "生产中消费的结果，则是一个同劳动者本人不同的新产品。",
+      "start_ms": 21440,
+      "end_ms": 26520,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0125",
+      "text": "只要劳动对象和劳动手段本身已经是产品，劳动就是在消费产品的同时创造新产品，也就是把已有产品当作生产新产品的生产资料。",
+      "start_ms": 27320,
+      "end_ms": 38520,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0126",
+      "text": "不过，劳动过程最初只是发生在人和未经人类加工的自然之间。",
+      "start_ms": 39360,
+      "end_ms": 45200,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

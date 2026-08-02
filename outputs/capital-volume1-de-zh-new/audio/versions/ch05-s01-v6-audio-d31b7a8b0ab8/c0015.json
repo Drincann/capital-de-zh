@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0015",
+  "audio_file": "c0015.mp3",
+  "text_sha256": "6f21793aef11bd200166ea58fc060df9a43d9fd285b71bc3fc8b288b76041096",
+  "request_id": "aa5019e5-34c5-473d-893d-5ba5f6387f4f",
+  "log_id": "202608030110012861A9B55430E9FA5E0B",
+  "duration_seconds": 44.78505,
+  "bytes": 717356,
+  "audio_sha256": "8a70dfd74b421271b6adcac408c85ae5c965591861594b6120a5bb2e748d74c5",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0085",
+      "text": "第一种是被劳动手段消耗，比如蒸汽机烧煤、车轮用油、役畜吃草料。",
+      "start_ms": 400,
+      "end_ms": 7320,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0086",
+      "text": "第二种是加入主要原料，使它发生物质变化，比如用氯漂白麻布、炼铁时加入煤、给羊毛染色。",
+      "start_ms": 7880,
+      "end_ms": 16640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0087",
+      "text": "第三种是帮助劳动本身进行，比如用燃料给工作场所照明和取暖。",
+      "start_ms": 17160,
+      "end_ms": 22880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0088",
+      "text": "在真正的化工生产中，主要材料和辅助材料的区别会变得模糊，因为投入的各种原料往往都不再以原来的物质形态出现在产品中。",
+      "start_ms": 23600,
+      "end_ms": 34400,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0089",
+      "text": "同一种东西有多种性质，也就可以有多种用途。",
+      "start_ms": 35040,
+      "end_ms": 38800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0090",
+      "text": "因此，同一种产品能够成为许多不同劳动过程的原料。",
+      "start_ms": 39880,
+      "end_ms": 44480,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

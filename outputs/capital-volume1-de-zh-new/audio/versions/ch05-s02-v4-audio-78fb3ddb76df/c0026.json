@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0026",
+  "audio_file": "c0026.mp3",
+  "text_sha256": "3106d5f1790e5d2564cdda32d3ff2c25837d846116f4fc85c111fab07cfc1e13",
+  "request_id": "439fa8c3-3aec-4b28-a3f6-b743e9ae01b2",
+  "log_id": "202608030127144F340C4000BF45F78B86",
+  "duration_seconds": 40.2686,
+  "bytes": 644780,
+  "audio_sha256": "86f1740e6b5de2dabe99dceb0e90d56c673ac13bf0dcdd410be17263c27127d6",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0151",
+      "text": "资本家已经支付了劳动力一天的价值，所以这一天里劳动力的使用，也就是一整天的劳动，归他支配。",
+      "start_ms": 0,
+      "end_ms": 7840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0152",
+      "text": "劳动力每天只需半个工作日就能维持，却能够劳动一整天，因此它一天创造的价值可以是自身价值的两倍。",
+      "start_ms": 8320,
+      "end_ms": 17760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0153",
+      "text": "这对买主来说是特别的幸运，却没有侵犯卖主的交换权利。",
+      "start_ms": 18160,
+      "end_ms": 22960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0154",
+      "text": "资本家早已预料到这个令他喜笑颜开的情况。",
+      "start_ms": 23280,
+      "end_ms": 26480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0155",
+      "text": "因此，工人在工场中找到的生产资料，不是只够劳动6小时，而是足够劳动12小时。",
+      "start_ms": 27280,
+      "end_ms": 35160,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0156",
+      "text": "10磅棉花吸收6小时劳动，变成10磅纱。",
+      "start_ms": 36160,
+      "end_ms": 39920,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

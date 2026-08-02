@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0025",
+  "audio_file": "c0025.mp3",
+  "text_sha256": "92b5fdd63667ea395887ec0329e573a59f4e91423285aa4ec026bdcbbad7f81f",
+  "request_id": "ac214bd7-7797-43f8-95f8-1d1dbacc7bf2",
+  "log_id": "2026080301122813B95551A00AE81C775E",
+  "duration_seconds": 41.58,
+  "bytes": 665900,
+  "audio_sha256": "710517353656279d3714943090e2bffff71271d1eff47143361561070916ab0a",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0145",
+      "text": "第一，工人在资本家的控制下劳动，他的劳动归资本家支配。",
+      "start_ms": 120,
+      "end_ms": 5760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0146",
+      "text": "资本家会监督劳动是否正常进行，生产资料是否得到恰当使用。",
+      "start_ms": 6200,
+      "end_ms": 12240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0147",
+      "text": "他要防止原料浪费，也要避免工具受到不必要的损坏，只允许劳动造成使用工具时无法避免的损耗。",
+      "start_ms": 12640,
+      "end_ms": 20920,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0148",
+      "text": "第二，产品归资本家所有，而不归直接生产它的工人所有。",
+      "start_ms": 21960,
+      "end_ms": 27520,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0149",
+      "text": "资本家支付一天劳动力的价钱，便可以在这一天里使用这种劳动力，就像租用一匹马一天，便可以使用它一天。",
+      "start_ms": 28240,
+      "end_ms": 38000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0150",
+      "text": "商品的买主可以使用买来的商品。",
+      "start_ms": 38840,
+      "end_ms": 41440,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

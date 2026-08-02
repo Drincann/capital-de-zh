@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0027",
+  "audio_file": "c0027.mp3",
+  "text_sha256": "7fcfaeaf860556ca9a99a6006f6ac11eea605b59d55cce7f753bc022c1284e41",
+  "request_id": "03a7f98e-d13b-40eb-bc4e-18b29b90ebdb",
+  "log_id": "202608030127455AF5A793211E6D9EC92F",
+  "duration_seconds": 44.4,
+  "bytes": 710828,
+  "audio_sha256": "67871b18ab1e0053dbc9e5c70a686f0c93e101ce81db51d295ada4c81d3d66a9",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0157",
+      "text": "那么20磅棉花就会吸收12小时劳动，变成20磅纱。",
+      "start_ms": 40,
+      "end_ms": 4960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0158",
+      "text": "现在来看这个延长了的劳动过程所生产的产品。",
+      "start_ms": 6000,
+      "end_ms": 10880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0159",
+      "text": "20磅纱中一共包含5个工作日的劳动：消耗的棉花和纺锭包含4个工作日，纺纱又增加了1个工作日。",
+      "start_ms": 11600,
+      "end_ms": 22840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0160",
+      "text": "5个工作日的劳动表现为30先令，也就是1英镑10先令。",
+      "start_ms": 23440,
+      "end_ms": 28480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0161",
+      "text": "因此，20磅纱值30先令，每磅仍然值1先令6便士。",
+      "start_ms": 29200,
+      "end_ms": 35760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0162",
+      "text": "但是，投入生产过程的各种商品总共只值27先令，产出的纱却值30先令。",
+      "start_ms": 36800,
+      "end_ms": 44280,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

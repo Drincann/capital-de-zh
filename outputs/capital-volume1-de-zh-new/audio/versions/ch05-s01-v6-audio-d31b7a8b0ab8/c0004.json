@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0004",
+  "audio_file": "c0004.mp3",
+  "text_sha256": "6e8750acee5bb085fba4c29905768fc450423c48bf8eaa903cf5e639ca89e07d",
+  "request_id": "7342d999-1ada-4885-bc3c-24c3435312cb",
+  "log_id": "20260803001824F1E3E6A3393D7320759E",
+  "duration_seconds": 41.732675,
+  "bytes": 668204,
+  "audio_sha256": "56de80a0f3c25d7e5697a556a243b7fec71604ea3284422c6f417f9abbdd7677",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0019",
+      "text": "可是，再差的建筑师也有一点胜过最出色的蜜蜂：动手以前，他已经在头脑中构想好了自己要造的东西。",
+      "start_ms": 560,
+      "end_ms": 9800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0020",
+      "text": "劳动结束时出现的结果，在劳动开始以前，就已经以设想的形式存在于劳动者的头脑中。",
+      "start_ms": 10520,
+      "end_ms": 19200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0021",
+      "text": "因此，劳动者不只是改变自然物的形态，还要在自然物上实现自己预先设定的目的。",
+      "start_ms": 19760,
+      "end_ms": 26000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0022",
+      "text": "这个目的决定了他应该怎样行动，也成为他在劳动过程中必须遵守的准则。",
+      "start_ms": 26920,
+      "end_ms": 32600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0023",
+      "text": "为了实现这个目的，他必须约束自己的意志。",
+      "start_ms": 33200,
+      "end_ms": 36240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0024",
+      "text": "而且，这种自我约束必须贯穿劳动的全过程。",
+      "start_ms": 36960,
+      "end_ms": 41320,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

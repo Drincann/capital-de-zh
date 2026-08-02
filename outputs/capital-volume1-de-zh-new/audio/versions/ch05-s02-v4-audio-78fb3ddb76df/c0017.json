@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0017",
+  "audio_file": "c0017.mp3",
+  "text_sha256": "573045df71c2efcb020bb3fe6f4787fc953b56d932c632063f4bbfd39fe55294",
+  "request_id": "a2483ae0-dc7f-457d-a3f2-2535ee718b2b",
+  "log_id": "2026080301250227AC382D4122DE3FFEF6",
+  "duration_seconds": 51.16755,
+  "bytes": 819116,
+  "audio_sha256": "0561554965da4900bf08853beb81da0456b0b475d0f3902e1278984616d4e006",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0097",
+      "text": "纱的价值看起来增加了，却没有任何用处，因为这15先令只是原先分散在棉花、纺锭和劳动力中的价值总和。",
+      "start_ms": 240,
+      "end_ms": 12080,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0098",
+      "text": "把已有的价值简单相加，永远不可能产生剩余价值。",
+      "start_ms": 12760,
+      "end_ms": 18080,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0099",
+      "text": "这些价值现在集中在纱这一件东西上，但在资本家用货币购买三种商品以前，它们也同样集中在15先令货币中。",
+      "start_ms": 19040,
+      "end_ms": 29440,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0100",
+      "text": "这个结果本身并不奇怪。",
+      "start_ms": 30000,
+      "end_ms": 31760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0101",
+      "text": "每磅纱值1先令6便士，资本家要在市场上购买10磅纱，本来就要支付15先令。",
+      "start_ms": 32440,
+      "end_ms": 40600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0102",
+      "text": "一座私人住宅，无论是直接从市场上买来，还是请人建造，都不会让买房或建房所花的钱自行增加。",
+      "start_ms": 41120,
+      "end_ms": 50800,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0026",
+  "audio_file": "c0026.mp3",
+  "text_sha256": "9bc6d8dd87bbc870fc99610572ce98739b8b6106d5bbf304e7ee9a2fc737b577",
+  "request_id": "727f1095-f694-45b2-b461-446972bb4e44",
+  "log_id": "202608030112513FF5B43D72ACBC27D519",
+  "duration_seconds": 46.446475,
+  "bytes": 743852,
+  "audio_sha256": "f6656a73d008243557d8e9885ef10d62b17d43fb3017acdee76946d070e1917d",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0151",
+      "text": "劳动力的所有者把自己的劳动交给资本家，提供的正是劳动力的这种用途。",
+      "start_ms": 0,
+      "end_ms": 5080,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0152",
+      "text": "从工人进入资本家工场的那一刻起，他的劳动力怎样使用，也就是他的劳动，便归资本家支配。",
+      "start_ms": 5480,
+      "end_ms": 13800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0153",
+      "text": "资本家买下劳动力，等于把活劳动这种能使生产发生的力量，加入同样属于自己的各种生产资料中。",
+      "start_ms": 14760,
+      "end_ms": 22800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0154",
+      "text": "在资本家看来，劳动过程只是他消费劳动力这种商品的过程。",
+      "start_ms": 23320,
+      "end_ms": 28040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0155",
+      "text": "不过，劳动力只有同生产资料结合起来，才能被实际使用。",
+      "start_ms": 28680,
+      "end_ms": 33040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0156",
+      "text": "因此，整个劳动过程是在资本家买来的各种要素之间进行的，产品自然也属于他，就像酒窖里的原料经过发酵，产出的酒仍然属于酒窖的主人一样。",
+      "start_ms": 33720,
+      "end_ms": 46240,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

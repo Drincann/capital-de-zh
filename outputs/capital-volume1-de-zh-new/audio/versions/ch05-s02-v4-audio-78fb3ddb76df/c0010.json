@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0010",
+  "audio_file": "c0010.mp3",
+  "text_sha256": "bf7479cb42c5a675cdcec4a13e0d76ce0ef4207ce309ab48dc75de40dfdd0475",
+  "request_id": "087d267e-7bd9-43c9-a39e-bda3ddfc3d00",
+  "log_id": "20260803012229DFF310A6C4E73B20ECE9",
+  "duration_seconds": 41.44675,
+  "bytes": 663596,
+  "audio_sha256": "466f2b8d540f66830237fc946266e384ac21e80565627c1113eedd4de77e1911",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0055",
+      "text": "前面关注的是怎样有目的地把棉花变成纱。",
+      "start_ms": 240,
+      "end_ms": 3680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0056",
+      "text": "在其他条件相同的情况下，劳动越合乎目的，纱的质量就越好。",
+      "start_ms": 16320,
+      "end_ms": 22040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0057",
+      "text": "纺纱劳动同其他生产劳动各有特点。",
+      "start_ms": 22320,
+      "end_ms": 25360,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0058",
+      "text": "这种特殊性体现在纺纱的目的、操作方式、生产资料和产品用途上。",
+      "start_ms": 25560,
+      "end_ms": 30800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0059",
+      "text": "棉花和纺锭可以用来纺纱，却不能用来制造线膛炮。",
+      "start_ms": 31240,
+      "end_ms": 34920,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0060",
+      "text": "但现在，我们只把纺纱劳动看作形成价值的劳动，看作价值的来源。",
+      "start_ms": 35440,
+      "end_ms": 41240,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

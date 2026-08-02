@@ -1,0 +1,2305 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch05-s02-v4-audio-78fb3ddb76df",
+  "unit_id": "ch05-s02",
+  "translation_version_id": "ch05-s02-v4",
+  "translation_sha256": "c2a4314e3ac5b370fdfb2cb246abdea502a18952bb9cd41037bf258da84617ba",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T17:20:06.093Z",
+  "completed_at": "2026-08-02T17:30:58.612Z",
+  "duration_ms": 1574433,
+  "sentence_count": 217,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 34656,
+      "bytes": 554924,
+      "sha256": "35d6be18e3e54b78e8d421682a787fb30af4eea48fe8c9e1697ea6cacab5319e",
+      "sentence_ids": [
+        "ch05-s02-n0001",
+        "ch05-s02-n0002",
+        "ch05-s02-n0003",
+        "ch05-s02-n0004",
+        "ch05-s02-n0005",
+        "ch05-s02-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 33381,
+      "bytes": 534572,
+      "sha256": "7dcb842ab52444029a33e79f245b83f27c14c4ae014ca3f9d6dcf94535275e9c",
+      "sentence_ids": [
+        "ch05-s02-n0007",
+        "ch05-s02-n0008",
+        "ch05-s02-n0009",
+        "ch05-s02-n0010",
+        "ch05-s02-n0011",
+        "ch05-s02-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 29124,
+      "bytes": 466604,
+      "sha256": "5f13f66e6f8e7e5b08918be860464fd669724caf5d8621cbdc7cf6e536db68bf",
+      "sentence_ids": [
+        "ch05-s02-n0013",
+        "ch05-s02-n0014",
+        "ch05-s02-n0015",
+        "ch05-s02-n0016",
+        "ch05-s02-n0017",
+        "ch05-s02-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 29421,
+      "bytes": 471212,
+      "sha256": "99f303f3e52e3556a9813943fe29f0d3ceed81e3b8c73de737cd0d189c7fcbd4",
+      "sentence_ids": [
+        "ch05-s02-n0019",
+        "ch05-s02-n0020",
+        "ch05-s02-n0021",
+        "ch05-s02-n0022",
+        "ch05-s02-n0023",
+        "ch05-s02-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 54961,
+      "bytes": 880172,
+      "sha256": "dfe1139afadecfba5865a9ca16c621243874a5b8ac76540abbfec96bda1437f1",
+      "sentence_ids": [
+        "ch05-s02-n0025",
+        "ch05-s02-n0026",
+        "ch05-s02-n0027",
+        "ch05-s02-n0028",
+        "ch05-s02-n0029",
+        "ch05-s02-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 83080,
+      "bytes": 1329836,
+      "sha256": "e46014418513459796c5d82f963339281e7ee1a87d7ef89405c73367bf404d82",
+      "sentence_ids": [
+        "ch05-s02-n0031",
+        "ch05-s02-n0032",
+        "ch05-s02-n0033",
+        "ch05-s02-n0034",
+        "ch05-s02-n0035",
+        "ch05-s02-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 48395,
+      "bytes": 774956,
+      "sha256": "2bf7c149399d494c8b7179e01b5b349dda66dea610717d9d8b037025ac62b456",
+      "sentence_ids": [
+        "ch05-s02-n0037",
+        "ch05-s02-n0038",
+        "ch05-s02-n0039",
+        "ch05-s02-n0040",
+        "ch05-s02-n0041",
+        "ch05-s02-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 36070,
+      "bytes": 577580,
+      "sha256": "471217931103ef23b548fe087ee0e34187191821ee8e585333b50a9320cce48f",
+      "sentence_ids": [
+        "ch05-s02-n0043",
+        "ch05-s02-n0044",
+        "ch05-s02-n0045",
+        "ch05-s02-n0046",
+        "ch05-s02-n0047",
+        "ch05-s02-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 53709,
+      "bytes": 859820,
+      "sha256": "d7fc3cbf02fadc87bf0b06c95d33e4a221cbd81d3b58af5b8044927348a450f5",
+      "sentence_ids": [
+        "ch05-s02-n0049",
+        "ch05-s02-n0050",
+        "ch05-s02-n0051",
+        "ch05-s02-n0052",
+        "ch05-s02-n0053",
+        "ch05-s02-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 41447,
+      "bytes": 663596,
+      "sha256": "466f2b8d540f66830237fc946266e384ac21e80565627c1113eedd4de77e1911",
+      "sentence_ids": [
+        "ch05-s02-n0055",
+        "ch05-s02-n0056",
+        "ch05-s02-n0057",
+        "ch05-s02-n0058",
+        "ch05-s02-n0059",
+        "ch05-s02-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 49069,
+      "bytes": 785708,
+      "sha256": "f5607725d0d0349733fd71596e919826797dbde795773f085234f8ce501abf3a",
+      "sentence_ids": [
+        "ch05-s02-n0061",
+        "ch05-s02-n0062",
+        "ch05-s02-n0063",
+        "ch05-s02-n0064",
+        "ch05-s02-n0065",
+        "ch05-s02-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 62700,
+      "bytes": 1003820,
+      "sha256": "80333a3082acbb9593b658ffb45e5c6d37a7844dbfc0581343856e9c2a78e712",
+      "sentence_ids": [
+        "ch05-s02-n0067",
+        "ch05-s02-n0068",
+        "ch05-s02-n0069",
+        "ch05-s02-n0070",
+        "ch05-s02-n0071",
+        "ch05-s02-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 44141,
+      "bytes": 706988,
+      "sha256": "957b5158173a1704e98877fee64d9eb1651cfd8ad7683ecc804027cc74ef5eb9",
+      "sentence_ids": [
+        "ch05-s02-n0073",
+        "ch05-s02-n0074",
+        "ch05-s02-n0075",
+        "ch05-s02-n0076",
+        "ch05-s02-n0077",
+        "ch05-s02-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 41098,
+      "bytes": 658220,
+      "sha256": "da2cd1b1eb46bc87d2773716f17a47cdd44c29d4b19a2ef1a64693bfc4f8f958",
+      "sentence_ids": [
+        "ch05-s02-n0079",
+        "ch05-s02-n0080",
+        "ch05-s02-n0081",
+        "ch05-s02-n0082",
+        "ch05-s02-n0083",
+        "ch05-s02-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 33570,
+      "bytes": 537644,
+      "sha256": "1bea4fbd7e34fdb31982159554ad46ff515c3cc4b7a94802667b066a5fcf08e7",
+      "sentence_ids": [
+        "ch05-s02-n0085",
+        "ch05-s02-n0086",
+        "ch05-s02-n0087",
+        "ch05-s02-n0088",
+        "ch05-s02-n0089",
+        "ch05-s02-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 74080,
+      "bytes": 1185836,
+      "sha256": "04e5cb6baf990eafdf3980b63f6e14ed6172cb2423336a6c6242bfd35d3057ee",
+      "sentence_ids": [
+        "ch05-s02-n0091",
+        "ch05-s02-n0092",
+        "ch05-s02-n0093",
+        "ch05-s02-n0094",
+        "ch05-s02-n0095",
+        "ch05-s02-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 51168,
+      "bytes": 819116,
+      "sha256": "0561554965da4900bf08853beb81da0456b0b475d0f3902e1278984616d4e006",
+      "sentence_ids": [
+        "ch05-s02-n0097",
+        "ch05-s02-n0098",
+        "ch05-s02-n0099",
+        "ch05-s02-n0100",
+        "ch05-s02-n0101",
+        "ch05-s02-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 29283,
+      "bytes": 469292,
+      "sha256": "27d1cec95fdcad91d755c8f6bdc9fd5d549faa043a4e9b96bf1465c4539dd5cf",
+      "sentence_ids": [
+        "ch05-s02-n0103",
+        "ch05-s02-n0104",
+        "ch05-s02-n0105",
+        "ch05-s02-n0106",
+        "ch05-s02-n0107",
+        "ch05-s02-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 36720,
+      "bytes": 588332,
+      "sha256": "f368bb8dfb3e0e4d8a54146436867b377698c2d449d67cc24987c79887321fbb",
+      "sentence_ids": [
+        "ch05-s02-n0109",
+        "ch05-s02-n0110",
+        "ch05-s02-n0111",
+        "ch05-s02-n0112",
+        "ch05-s02-n0113",
+        "ch05-s02-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 27967,
+      "bytes": 448172,
+      "sha256": "65759475ec99ff4940d9d8de191cba700a9d2140f7267e411168ee5bc82fe065",
+      "sentence_ids": [
+        "ch05-s02-n0115",
+        "ch05-s02-n0116",
+        "ch05-s02-n0117",
+        "ch05-s02-n0118",
+        "ch05-s02-n0119",
+        "ch05-s02-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 38114,
+      "bytes": 610604,
+      "sha256": "a1438fbc5dcb5d678c61e26a499fbfcaafd6c56aa4eb06f1e8a194346443027f",
+      "sentence_ids": [
+        "ch05-s02-n0121",
+        "ch05-s02-n0122",
+        "ch05-s02-n0123",
+        "ch05-s02-n0124",
+        "ch05-s02-n0125",
+        "ch05-s02-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 35700,
+      "bytes": 571820,
+      "sha256": "ed9884dc387c503f09eeec7bd71508be54feffa172bc6c8240525ff603e49578",
+      "sentence_ids": [
+        "ch05-s02-n0127",
+        "ch05-s02-n0128",
+        "ch05-s02-n0129",
+        "ch05-s02-n0130",
+        "ch05-s02-n0131",
+        "ch05-s02-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 30604,
+      "bytes": 490412,
+      "sha256": "ba520a048ed7ae2a44da4a572a155833689bbffdc97050c1babeaaf7af9fd255",
+      "sentence_ids": [
+        "ch05-s02-n0133",
+        "ch05-s02-n0134",
+        "ch05-s02-n0135",
+        "ch05-s02-n0136",
+        "ch05-s02-n0137",
+        "ch05-s02-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 40082,
+      "bytes": 642092,
+      "sha256": "3bde40b1034410ec588e8b665704fdabbd8c3f76309d0bc5c45b38ab65b08d15",
+      "sentence_ids": [
+        "ch05-s02-n0139",
+        "ch05-s02-n0140",
+        "ch05-s02-n0141",
+        "ch05-s02-n0142",
+        "ch05-s02-n0143",
+        "ch05-s02-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 47000,
+      "bytes": 752684,
+      "sha256": "99163a626a55344f09e7f64327f861c0820b7bcfbc95bf9f6586a011fee3d00c",
+      "sentence_ids": [
+        "ch05-s02-n0145",
+        "ch05-s02-n0146",
+        "ch05-s02-n0147",
+        "ch05-s02-n0148",
+        "ch05-s02-n0149",
+        "ch05-s02-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 40269,
+      "bytes": 644780,
+      "sha256": "86f1740e6b5de2dabe99dceb0e90d56c673ac13bf0dcdd410be17263c27127d6",
+      "sentence_ids": [
+        "ch05-s02-n0151",
+        "ch05-s02-n0152",
+        "ch05-s02-n0153",
+        "ch05-s02-n0154",
+        "ch05-s02-n0155",
+        "ch05-s02-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 44400,
+      "bytes": 710828,
+      "sha256": "67871b18ab1e0053dbc9e5c70a686f0c93e101ce81db51d295ada4c81d3d66a9",
+      "sentence_ids": [
+        "ch05-s02-n0157",
+        "ch05-s02-n0158",
+        "ch05-s02-n0159",
+        "ch05-s02-n0160",
+        "ch05-s02-n0161",
+        "ch05-s02-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 37500,
+      "bytes": 600620,
+      "sha256": "4add2e71bca5934189b55eeb1f37150de741b4eeb1c28cff40bdc914a38a0568",
+      "sentence_ids": [
+        "ch05-s02-n0163",
+        "ch05-s02-n0164",
+        "ch05-s02-n0165",
+        "ch05-s02-n0166",
+        "ch05-s02-n0167",
+        "ch05-s02-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 35422,
+      "bytes": 567212,
+      "sha256": "f48f66df37d9c3d47de120cbeccd214cc7a201d1b1f9cfdc66fd5e70b7bd0227",
+      "sentence_ids": [
+        "ch05-s02-n0169",
+        "ch05-s02-n0170",
+        "ch05-s02-n0171",
+        "ch05-s02-n0172",
+        "ch05-s02-n0173",
+        "ch05-s02-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 48280,
+      "bytes": 773036,
+      "sha256": "c063a9e270ed119e09617c87a596683354ff6a3a90d9d3330fca7411d5dbd7a5",
+      "sentence_ids": [
+        "ch05-s02-n0175",
+        "ch05-s02-n0176",
+        "ch05-s02-n0177",
+        "ch05-s02-n0178",
+        "ch05-s02-n0179",
+        "ch05-s02-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 62900,
+      "bytes": 1006892,
+      "sha256": "c1cc45544854bf34b11a607d7effdda23044c67638d39fe49d530be606c86f0d",
+      "sentence_ids": [
+        "ch05-s02-n0181",
+        "ch05-s02-n0182",
+        "ch05-s02-n0183",
+        "ch05-s02-n0184",
+        "ch05-s02-n0185",
+        "ch05-s02-n0186"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 47700,
+      "bytes": 763820,
+      "sha256": "99991c2f0b406f5d15616d0c1208f7f5be7fafd6bd401f9e995f191628c1d716",
+      "sentence_ids": [
+        "ch05-s02-n0187",
+        "ch05-s02-n0188",
+        "ch05-s02-n0189",
+        "ch05-s02-n0190",
+        "ch05-s02-n0191",
+        "ch05-s02-n0192"
+      ]
+    },
+    {
+      "id": "c0033",
+      "audio_file": "c0033.mp3",
+      "duration_ms": 42619,
+      "bytes": 682412,
+      "sha256": "7b3d731b7a7e4760184a8a200b4b49132559d14dd8e62f6ea82720b3a035012e",
+      "sentence_ids": [
+        "ch05-s02-n0193",
+        "ch05-s02-n0194",
+        "ch05-s02-n0195",
+        "ch05-s02-n0196",
+        "ch05-s02-n0197",
+        "ch05-s02-n0198"
+      ]
+    },
+    {
+      "id": "c0034",
+      "audio_file": "c0034.mp3",
+      "duration_ms": 35922,
+      "bytes": 575276,
+      "sha256": "ba96b5980e5212ed8fbe585c1511b4eebebaf9ddc6ca1d14f9fbc485434d9bb4",
+      "sentence_ids": [
+        "ch05-s02-n0199",
+        "ch05-s02-n0200",
+        "ch05-s02-n0201",
+        "ch05-s02-n0202",
+        "ch05-s02-n0203",
+        "ch05-s02-n0204"
+      ]
+    },
+    {
+      "id": "c0035",
+      "audio_file": "c0035.mp3",
+      "duration_ms": 35108,
+      "bytes": 562220,
+      "sha256": "b62b5b3a7b75052e79ed146cd821d49026e0f9ba5702df9127f43e462c99cd05",
+      "sentence_ids": [
+        "ch05-s02-n0205",
+        "ch05-s02-n0206",
+        "ch05-s02-n0207",
+        "ch05-s02-n0208",
+        "ch05-s02-n0209",
+        "ch05-s02-n0210"
+      ]
+    },
+    {
+      "id": "c0036",
+      "audio_file": "c0036.mp3",
+      "duration_ms": 50302,
+      "bytes": 805292,
+      "sha256": "710e54d402381014921549626ae1ce13633c0edc7608e82dcf056e089b898573",
+      "sentence_ids": [
+        "ch05-s02-n0211",
+        "ch05-s02-n0212",
+        "ch05-s02-n0213",
+        "ch05-s02-n0214",
+        "ch05-s02-n0215",
+        "ch05-s02-n0216"
+      ]
+    },
+    {
+      "id": "c0037",
+      "audio_file": "c0037.mp3",
+      "duration_ms": 8471,
+      "bytes": 135980,
+      "sha256": "af63bb4bee190caa78e4613f4db965282f8d8f8cab507ebc88cc7c88d1203f08",
+      "sentence_ids": [
+        "ch05-s02-n0217"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch05-s02-n0001",
+      "text": "劳动过程生产出来的产品属于资本家。",
+      "start_ms": 160,
+      "end_ms": 3200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s02-n0002",
+      "text": "它是一种使用价值，比如纱或靴子。",
+      "start_ms": 4040,
+      "end_ms": 7840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s02-n0003",
+      "text": "靴子在某种意义上固然是社会进步的基础，我们的资本家也无疑是进步的热心支持者，但他生产靴子并不是因为喜爱靴子本身。",
+      "start_ms": 8240,
+      "end_ms": 18200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s02-n0004",
+      "text": "在商品生产中，人们只在使用价值能够充当交换价值的物质载体时，才会生产它。",
+      "start_ms": 18560,
+      "end_ms": 24720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s02-n0005",
+      "text": "资本家的目标有两个。",
+      "start_ms": 25160,
+      "end_ms": 26600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s02-n0006",
+      "text": "第一，他要生产一种具有交换价值的使用价值，也就是一种用来出售的商品。",
+      "start_ms": 27280,
+      "end_ms": 34400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s02-n0007",
+      "text": "第二，他要生产一种价值更高的商品，超过生产资料和劳动力的价值总和。",
+      "start_ms": 80,
+      "end_ms": 5760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s02-n0008",
+      "text": "他已经在市场上预付货币，买下了这两项投入。",
+      "start_ms": 6560,
+      "end_ms": 10320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s02-n0009",
+      "text": "他不只要生产使用价值，而要生产商品。",
+      "start_ms": 10880,
+      "end_ms": 14480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s02-n0010",
+      "text": "他不只要形成价值，还要形成剩余价值。",
+      "start_ms": 15280,
+      "end_ms": 18680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s02-n0011",
+      "text": "既然这里讨论的是商品生产，那么我们此前显然只考察了生产过程的一面。",
+      "start_ms": 19400,
+      "end_ms": 25280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s02-n0012",
+      "text": "商品同时具有使用价值和价值，因此商品的生产过程也必须同时是劳动过程和价值形成过程。",
+      "start_ms": 25800,
+      "end_ms": 33160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s02-n0013",
+      "text": "现在，我们再从价值怎样形成的角度考察生产过程。",
+      "start_ms": 200,
+      "end_ms": 4720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s02-n0014",
+      "text": "我们已经知道，商品的价值取决于其中包含多少劳动，也就是生产它所需的社会必要劳动时间。",
+      "start_ms": 5440,
+      "end_ms": 13840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s02-n0015",
+      "text": "资本家生产出来的产品也遵循这个原则。",
+      "start_ms": 14560,
+      "end_ms": 18240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s02-n0016",
+      "text": "因此，我们首先要计算其中包含了多少劳动。",
+      "start_ms": 19720,
+      "end_ms": 23720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s02-n0017",
+      "text": "就以纱为例。",
+      "start_ms": 24520,
+      "end_ms": 25760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s02-n0018",
+      "text": "生产纱，首先需要原料。",
+      "start_ms": 26440,
+      "end_ms": 28760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s02-n0019",
+      "text": "假定原料是10磅棉花。",
+      "start_ms": 200,
+      "end_ms": 2360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s02-n0020",
+      "text": "这里不用重新计算棉花的价值，因为资本家已经在市场上按价值购买了它，价格是10先令。",
+      "start_ms": 3200,
+      "end_ms": 10160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s02-n0021",
+      "text": "生产棉花所需的劳动，已经通过这个价格表现为一般社会劳动。",
+      "start_ms": 10800,
+      "end_ms": 15680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s02-n0022",
+      "text": "我们再假定，纺纱时磨损掉的那部分纺锭价值2先令。",
+      "start_ms": 16160,
+      "end_ms": 21560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s02-n0023",
+      "text": "这里用纺锭代表其他一切劳动手段。",
+      "start_ms": 22280,
+      "end_ms": 25480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s02-n0024",
+      "text": "棉花和纺锭的价值合计12先令。",
+      "start_ms": 26160,
+      "end_ms": 29000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s02-n0025",
+      "text": "如果价值12先令的黄金需要24小时，也就是两个工作日才能生产出来，那么首先可以确定，纱中已经包含两个工作日的劳动。",
+      "start_ms": 80,
+      "end_ms": 13000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s02-n0026",
+      "text": "棉花变成了纱，纺锭被磨损的部分也消失不见，但这不会改变上述计算。",
+      "start_ms": 13720,
+      "end_ms": 21200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s02-n0027",
+      "text": "按照一般的价值规律，假定40磅纱的价值等于40磅棉花加一根完整纺锭的价值，那么10磅纱的价值就等于10磅棉花加四分之一根纺锭的价值。",
+      "start_ms": 21560,
+      "end_ms": 35240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s02-n0028",
+      "text": "等式两边之所以价值相等，是因为生产它们需要同样多的劳动时间。",
+      "start_ms": 35720,
+      "end_ms": 41480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s02-n0029",
+      "text": "同一段劳动时间，可以体现在纱这种使用价值中，也可以体现在棉花和纺锭这两种使用价值中。",
+      "start_ms": 41960,
+      "end_ms": 49840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s02-n0030",
+      "text": "对价值来说，它是表现为纱、纺锭还是棉花都没有区别。",
+      "start_ms": 50440,
+      "end_ms": 54640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s02-n0031",
+      "text": "纺锭和棉花没有静静放在一起，而是在纺纱中结合起来，改变了原来的用途和形态，最后变成纱，这也不会改变它们的价值。",
+      "start_ms": 240,
+      "end_ms": 17440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s02-n0032",
+      "text": "就价值而言，这个过程同直接拿棉花和纺锭换取等值的纱没有区别。",
+      "start_ms": 18600,
+      "end_ms": 28720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s02-n0033",
+      "text": "生产棉花所需的劳动时间，也是生产纱所需劳动时间的一部分，因为棉花是纱的原料。",
+      "start_ms": 29520,
+      "end_ms": 41240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s02-n0034",
+      "text": "因此，这部分劳动时间也包含在纱中。",
+      "start_ms": 42000,
+      "end_ms": 47040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s02-n0035",
+      "text": "生产纺锭所需的劳动时间也是如此，因为不磨损或消耗纺锭，就无法把棉花纺成纱。",
+      "start_ms": 47560,
+      "end_ms": 58880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s02-n0036",
+      "text": "因此，只要我们考察的是纱的价值，也就是生产纱所需的劳动时间，那么几个在不同时间、不同地点进行的具体劳动过程，就可以看成同一个劳动过程先后相接的几个阶段。",
+      "start_ms": 59680,
+      "end_ms": 82960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s02-n0037",
+      "text": "这些过程先生产棉花和纺锭，再用它们纺成纱。",
+      "start_ms": 0,
+      "end_ms": 5320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s02-n0038",
+      "text": "纱中的一切劳动，在纱完成时都已经成为过去的劳动。",
+      "start_ms": 6320,
+      "end_ms": 11680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s02-n0039",
+      "text": "生产棉花和纺锭的劳动发生得更早，纺纱的劳动离现在更近，这种时间差别并不重要。",
+      "start_ms": 12400,
+      "end_ms": 20360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s02-n0040",
+      "text": "比如，建一所房子需要30个工作日。",
+      "start_ms": 21080,
+      "end_ms": 24760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s02-n0041",
+      "text": "第30个工作日比第1个晚29天投入生产，并不会改变房屋中包含的劳动总量。",
+      "start_ms": 25360,
+      "end_ms": 34520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s02-n0042",
+      "text": "同样，我们可以把棉花和纺锭中包含的劳动时间，看成在纺纱过程的早期阶段耗费的劳动，随后才加上最后的纺纱劳动。",
+      "start_ms": 35560,
+      "end_ms": 48200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s02-n0043",
+      "text": "所以，棉花和纺锭这两种生产资料的价值，也就是12先令，成为纱的价值的一部分。",
+      "start_ms": 120,
+      "end_ms": 7880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s02-n0044",
+      "text": "不过，要把生产资料的价值算进纱的价值，必须满足两个条件。",
+      "start_ms": 8600,
+      "end_ms": 12880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s02-n0045",
+      "text": "第一，棉花和纺锭必须确实用来生产某种使用价值。",
+      "start_ms": 13480,
+      "end_ms": 19120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s02-n0046",
+      "text": "在这个例子中，必须真正用它们生产出纱。",
+      "start_ms": 19680,
+      "end_ms": 23000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s02-n0047",
+      "text": "价值由哪一种使用价值来承载并不重要，但它必须由某种使用价值来承载。",
+      "start_ms": 23880,
+      "end_ms": 29840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s02-n0048",
+      "text": "第二，生产时只能耗费当时社会生产条件下所必需的劳动和材料。",
+      "start_ms": 30680,
+      "end_ms": 35840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s02-n0049",
+      "text": "如果1磅棉花足以纺成1磅纱，那么生产1磅纱就只能耗费1磅棉花。",
+      "start_ms": 120,
+      "end_ms": 7640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s02-n0050",
+      "text": "纺锭也是如此。",
+      "start_ms": 8560,
+      "end_ms": 9880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s02-n0051",
+      "text": "假如资本家异想天开，偏要使用金纺锭而不用铁纺锭，纱的价值中仍然只能算入社会正常需要的劳动，也就是制造铁纺锭所需的劳动时间。",
+      "start_ms": 10280,
+      "end_ms": 25440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s02-n0052",
+      "text": "现在我们已经知道，棉花和纺锭这两种生产资料给纱带来了多少价值：共计12先令，相当于两个工作日的劳动。",
+      "start_ms": 26400,
+      "end_ms": 39720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s02-n0053",
+      "text": "接下来要考察的是，纺纱工自己的劳动又给棉花增加了多少价值。",
+      "start_ms": 40640,
+      "end_ms": 47200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s02-n0054",
+      "text": "现在考察这种劳动的角度，与考察劳动过程时完全不同。",
+      "start_ms": 48160,
+      "end_ms": 53400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s02-n0055",
+      "text": "前面关注的是怎样有目的地把棉花变成纱。",
+      "start_ms": 240,
+      "end_ms": 3680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s02-n0056",
+      "text": "在其他条件相同的情况下，劳动越合乎目的，纱的质量就越好。",
+      "start_ms": 16320,
+      "end_ms": 22040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s02-n0057",
+      "text": "纺纱劳动同其他生产劳动各有特点。",
+      "start_ms": 22320,
+      "end_ms": 25360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s02-n0058",
+      "text": "这种特殊性体现在纺纱的目的、操作方式、生产资料和产品用途上。",
+      "start_ms": 25560,
+      "end_ms": 30800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s02-n0059",
+      "text": "棉花和纺锭可以用来纺纱，却不能用来制造线膛炮。",
+      "start_ms": 31240,
+      "end_ms": 34920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s02-n0060",
+      "text": "但现在，我们只把纺纱劳动看作形成价值的劳动，看作价值的来源。",
+      "start_ms": 35440,
+      "end_ms": 41240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s02-n0061",
+      "text": "在这一点上，它同钻炮膛的劳动没有区别，同生产棉花和纺锭的劳动也没有区别。",
+      "start_ms": 80,
+      "end_ms": 7880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s02-n0062",
+      "text": "正因为这些劳动在形成价值时具有同一性质，种棉花、制造纺锭和纺纱的劳动才都能成为纱的总价值中可以相加的部分，它们之间只有数量上的差别。",
+      "start_ms": 8480,
+      "end_ms": 22440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s02-n0063",
+      "text": "这里不再考察劳动的具体性质和内容，只考察劳动的数量，而劳动量可以直接按时间计算。",
+      "start_ms": 23200,
+      "end_ms": 31320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s02-n0064",
+      "text": "我们暂且假定，纺纱劳动是简单劳动，也就是社会平均水平的劳动。",
+      "start_ms": 31960,
+      "end_ms": 38280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s02-n0065",
+      "text": "后面会看到，即使不是这样，结论也不会改变。",
+      "start_ms": 38920,
+      "end_ms": 42360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s02-n0066",
+      "text": "劳动进行时，人的活动不断转化为产品中已经存在的结果。",
+      "start_ms": 43160,
+      "end_ms": 48720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s02-n0067",
+      "text": "纺纱进行一小时后，一定数量的棉花变成了纱，一小时的劳动也就体现在这些纱中。",
+      "start_ms": 120,
+      "end_ms": 8800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s02-n0068",
+      "text": "这里所说的一小时劳动，是纺纱工在一小时内耗费的劳动力。",
+      "start_ms": 9280,
+      "end_ms": 15240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s02-n0069",
+      "text": "我们只把它看作一般劳动力的耗费，而不考察它作为纺纱这种具体劳动的特点。",
+      "start_ms": 16040,
+      "end_ms": 22880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s02-n0070",
+      "text": "这里有一个决定性的条件：把棉花变成纱的整个过程中，耗费的只能是社会必要劳动时间。",
+      "start_ms": 24000,
+      "end_ms": 33560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s02-n0071",
+      "text": "假定在社会正常的平均生产条件下，一小时应当把 a 磅棉花纺成 b 磅纱，那么要让一个12小时工作日全部算作形成价值的劳动，工人就必须在12小时内把 12 × a 磅棉花纺成 12 × b 磅纱。",
+      "start_ms": 34440,
+      "end_ms": 57760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s02-n0072",
+      "text": "因为只有社会必要劳动时间才能形成价值。",
+      "start_ms": 58800,
+      "end_ms": 62480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s02-n0073",
+      "text": "现在，原料和产品也要像劳动一样，从另一个角度来看。",
+      "start_ms": 360,
+      "end_ms": 6000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s02-n0074",
+      "text": "在劳动过程本身中，棉花是要被加工的对象，纱是加工的结果。",
+      "start_ms": 6840,
+      "end_ms": 14120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s02-n0075",
+      "text": "现在考察价值时，棉花只被看作吸收一定数量劳动的材料。",
+      "start_ms": 14840,
+      "end_ms": 20600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s02-n0076",
+      "text": "它吸收了以纺纱形式耗费的劳动力，所以确实变成了纱。",
+      "start_ms": 21240,
+      "end_ms": 26840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s02-n0077",
+      "text": "但这时，纱的作用只是显示棉花吸收了多少劳动。",
+      "start_ms": 27800,
+      "end_ms": 32960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s02-n0078",
+      "text": "假定一小时可以把1⅔磅棉花纺成1⅔磅纱，那么10磅纱就表示其中吸收了6小时劳动。",
+      "start_ms": 33760,
+      "end_ms": 43960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s02-n0079",
+      "text": "按照经验确定的产品数量，现在只代表一定数量的劳动，也就是凝结起来的一小时、两小时或一天的社会劳动。",
+      "start_ms": 320,
+      "end_ms": 9120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s02-n0080",
+      "text": "至于这种劳动是不是纺纱，材料是不是棉花，产品是不是纱，在这里都不重要。",
+      "start_ms": 9480,
+      "end_ms": 16200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s02-n0081",
+      "text": "劳动对象是不是已经加工过的原料，也同样不重要。",
+      "start_ms": 16720,
+      "end_ms": 20720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s02-n0082",
+      "text": "假如工人不在纺纱厂，而在煤矿中劳动，煤这种劳动对象就是自然界直接提供的。",
+      "start_ms": 21360,
+      "end_ms": 28360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s02-n0083",
+      "text": "但从煤层中采出的一定数量的煤，比如一公担，仍然代表它吸收了一定数量的劳动。",
+      "start_ms": 28520,
+      "end_ms": 35440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s02-n0084",
+      "text": "我们在买卖劳动力时假定，劳动力一天的价值是3先令。",
+      "start_ms": 36120,
+      "end_ms": 40840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s02-n0085",
+      "text": "这3先令代表6小时劳动，因为生产工人每天平均所需的生活资料需要6小时劳动。",
+      "start_ms": 440,
+      "end_ms": 7200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s02-n0086",
+      "text": "现在假定纺纱工一小时把1⅔磅棉花纺成1⅔磅纱，那么6小时就能把10磅棉花纺成10磅纱。",
+      "start_ms": 7800,
+      "end_ms": 17960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s02-n0087",
+      "text": "在纺纱过程中，棉花由此吸收了6小时劳动。",
+      "start_ms": 18600,
+      "end_ms": 22320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s02-n0088",
+      "text": "这段劳动时间也表现为价值3先令的黄金。",
+      "start_ms": 22920,
+      "end_ms": 26600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s02-n0089",
+      "text": "因此，纺纱劳动本身给棉花增加了3先令的价值。",
+      "start_ms": 27280,
+      "end_ms": 30760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s02-n0090",
+      "text": "现在来看10磅纱的总价值。",
+      "start_ms": 31160,
+      "end_ms": 33280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s02-n0091",
+      "text": "其中包含两个半工作日的劳动：棉花和磨损的纺锭中包含两个工作日，纺纱过程又增加了半个工作日。",
+      "start_ms": 0,
+      "end_ms": 13560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s02-n0092",
+      "text": "两个半工作日所代表的黄金价值是15先令。",
+      "start_ms": 14520,
+      "end_ms": 20600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s02-n0093",
+      "text": "因此，与10磅纱的价值相应的价格是15先令，每磅纱的价格是1先令6便士。",
+      "start_ms": 21760,
+      "end_ms": 34120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s02-n0094",
+      "text": "资本家愣住了。",
+      "start_ms": 35080,
+      "end_ms": 36960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s02-n0095",
+      "text": "产品的价值正好等于他预付的资本，原有价值并没有增殖，没有产生剩余价值，货币也就没有变成资本。",
+      "start_ms": 37760,
+      "end_ms": 51960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s02-n0096",
+      "text": "10磅纱值15先令，而资本家购买生产这些纱所需的各种要素也正好花了15先令：棉花10先令，磨损的纺锭2先令，劳动力3先令。",
+      "start_ms": 53080,
+      "end_ms": 73840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s02-n0097",
+      "text": "纱的价值看起来增加了，却没有任何用处，因为这15先令只是原先分散在棉花、纺锭和劳动力中的价值总和。",
+      "start_ms": 240,
+      "end_ms": 12080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s02-n0098",
+      "text": "把已有的价值简单相加，永远不可能产生剩余价值。",
+      "start_ms": 12760,
+      "end_ms": 18080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s02-n0099",
+      "text": "这些价值现在集中在纱这一件东西上，但在资本家用货币购买三种商品以前，它们也同样集中在15先令货币中。",
+      "start_ms": 19040,
+      "end_ms": 29440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s02-n0100",
+      "text": "这个结果本身并不奇怪。",
+      "start_ms": 30000,
+      "end_ms": 31760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s02-n0101",
+      "text": "每磅纱值1先令6便士，资本家要在市场上购买10磅纱，本来就要支付15先令。",
+      "start_ms": 32440,
+      "end_ms": 40600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s02-n0102",
+      "text": "一座私人住宅，无论是直接从市场上买来，还是请人建造，都不会让买房或建房所花的钱自行增加。",
+      "start_ms": 41120,
+      "end_ms": 50800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s02-n0103",
+      "text": "懂得庸俗经济学的资本家也许会说，他预付货币，本来就是为了赚到更多货币。",
+      "start_ms": 40,
+      "end_ms": 5640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s02-n0104",
+      "text": "但通往地狱的路也铺满了良好愿望。",
+      "start_ms": 5840,
+      "end_ms": 8840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s02-n0105",
+      "text": "即使不从事生产，他也完全可以抱着赚钱的愿望。",
+      "start_ms": 9440,
+      "end_ms": 13120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s02-n0106",
+      "text": "他威胁说，再也不会上这种当了，以后不再自己生产，而到市场上购买成品。",
+      "start_ms": 13640,
+      "end_ms": 20040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s02-n0107",
+      "text": "可是，如果其他资本家都这样做，市场上的商品又从哪里来？",
+      "start_ms": 20920,
+      "end_ms": 26400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s02-n0108",
+      "text": "何况货币不能当饭吃。",
+      "start_ms": 26880,
+      "end_ms": 28920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s02-n0109",
+      "text": "接着，他搬出自己的“节制”为自己辩护。",
+      "start_ms": 0,
+      "end_ms": 3833,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s02-n0110",
+      "text": "他本可以挥霍掉15先令，却克制住欲望，把它们用于生产，变成了纱。",
+      "start_ms": 3833,
+      "end_ms": 10290,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s02-n0111",
+      "text": "但他已经用纱得到了回报，总好过挥霍以后只剩内疚。",
+      "start_ms": 10290,
+      "end_ms": 15132,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s02-n0112",
+      "text": "他当然也不该退回守财奴的角色，因为我们已经看过这种苦行能得到什么结果。",
+      "start_ms": 15132,
+      "end_ms": 22193,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s02-n0113",
+      "text": "无论他的克制有多大功劳，产品的价值仍然只等于投入生产的各种商品的价值总和，没有多出来的东西可以专门奖赏他。",
+      "start_ms": 22193,
+      "end_ms": 32887,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s02-n0114",
+      "text": "他只好接受“美德本身就是美德的报酬”。",
+      "start_ms": 32887,
+      "end_ms": 36720,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s02-n0115",
+      "text": "但他还不罢休，说纱对自己没有用，因为生产纱是为了出售。",
+      "start_ms": 0,
+      "end_ms": 4760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s02-n0116",
+      "text": "那就把纱卖掉好了。",
+      "start_ms": 5240,
+      "end_ms": 6800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s02-n0117",
+      "text": "或者更简单，以后只生产自己需要的东西。",
+      "start_ms": 7400,
+      "end_ms": 10400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s02-n0118",
+      "text": "这正是他的私人医生麦克库洛克为治疗生产过剩这种流行病开出的良方。",
+      "start_ms": 11120,
+      "end_ms": 16920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s02-n0119",
+      "text": "资本家又强硬起来：难道工人能赤手空拳地凭空生产商品吗？",
+      "start_ms": 17440,
+      "end_ms": 23200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s02-n0120",
+      "text": "不是他提供了材料，让工人的劳动能够体现在其中吗？",
+      "start_ms": 23680,
+      "end_ms": 27760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s02-n0121",
+      "text": "社会上大多数人都一无所有，他向社会提供棉花和纺锭这些生产资料，还给工人提供生活资料，难道不是作出了巨大贡献？",
+      "start_ms": 80,
+      "end_ms": 10560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s02-n0122",
+      "text": "难道这种服务不该计价吗？",
+      "start_ms": 11560,
+      "end_ms": 14600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s02-n0123",
+      "text": "可是，工人把棉花和纺锭变成纱，不也向他提供了服务吗？",
+      "start_ms": 15560,
+      "end_ms": 22680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s02-n0124",
+      "text": "何况这里讨论的根本不是服务。",
+      "start_ms": 23840,
+      "end_ms": 26960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s02-n0125",
+      "text": "所谓服务，只是商品或劳动这种使用价值产生的有用效果。",
+      "start_ms": 27840,
+      "end_ms": 33720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s02-n0126",
+      "text": "我们现在考察的却是交换价值。",
+      "start_ms": 34840,
+      "end_ms": 37840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s02-n0127",
+      "text": "资本家向工人支付了价值3先令的工资，工人也给棉花增加了3先令的价值，双方交换的是相等的价值。",
+      "start_ms": 0,
+      "end_ms": 9400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s02-n0128",
+      "text": "刚才还傲气十足的资本家，这时忽然摆出自家工人那种谦逊的姿态：难道他本人没有劳动，没有监督和管理纺纱工吗？",
+      "start_ms": 10320,
+      "end_ms": 22120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s02-n0129",
+      "text": "难道这种劳动不形成价值吗？",
+      "start_ms": 22440,
+      "end_ms": 24680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s02-n0130",
+      "text": "他的监工和经理只是耸耸肩。",
+      "start_ms": 25360,
+      "end_ms": 27960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s02-n0131",
+      "text": "不过，资本家很快又恢复了原来的笑容。",
+      "start_ms": 28760,
+      "end_ms": 31760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s02-n0132",
+      "text": "他刚才那一长串话不过是在逗我们。",
+      "start_ms": 32520,
+      "end_ms": 35640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s02-n0133",
+      "text": "这类拙劣借口和空洞说辞，就留给那些专门领取报酬的政治经济学教授吧。",
+      "start_ms": 240,
+      "end_ms": 6080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s02-n0134",
+      "text": "他本人是个实干家。",
+      "start_ms": 6560,
+      "end_ms": 8040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s02-n0135",
+      "text": "离开生意时说些什么，他未必总会深思，但做生意时该做什么，他一向十分清楚。",
+      "start_ms": 8640,
+      "end_ms": 14680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s02-n0136",
+      "text": "现在仔细看看其中的关键。",
+      "start_ms": 15560,
+      "end_ms": 17360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s02-n0137",
+      "text": "劳动力一天的价值是3先令，因为其中包含半个工作日的劳动。",
+      "start_ms": 18040,
+      "end_ms": 23760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s02-n0138",
+      "text": "换句话说，生产工人每天维持生活所需的生活资料，需要耗费半个工作日。",
+      "start_ms": 24160,
+      "end_ms": 30160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s02-n0139",
+      "text": "但生产劳动力所需的过去劳动，同劳动力一天能够付出的活劳动，是两个不同的量。",
+      "start_ms": 160,
+      "end_ms": 6960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s02-n0140",
+      "text": "前者决定劳动力的交换价值，后者构成劳动力的使用价值。",
+      "start_ms": 7480,
+      "end_ms": 12160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s02-n0141",
+      "text": "维持工人24小时只需要半个工作日的劳动，并不妨碍他实际劳动一整天。",
+      "start_ms": 12760,
+      "end_ms": 19000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s02-n0142",
+      "text": "因此，劳动力本身的价值，同它在劳动过程中能够创造的价值，是两个不同的量。",
+      "start_ms": 19800,
+      "end_ms": 25640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s02-n0143",
+      "text": "资本家购买劳动力时，看中的正是这个差额。",
+      "start_ms": 26720,
+      "end_ms": 30880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s02-n0144",
+      "text": "劳动力能够生产纱或靴子，当然是必要条件，因为劳动必须以有用的形式耗费，才能形成价值。",
+      "start_ms": 31560,
+      "end_ms": 39680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s02-n0145",
+      "text": "但真正决定资本家购买它的，是这种商品特有的用途：劳动力不仅能创造价值，还能创造比自身价值更多的价值。",
+      "start_ms": 40,
+      "end_ms": 11200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s02-n0146",
+      "text": "这才是资本家期待它提供的特殊服务，而且整个交易仍然符合商品交换的规律。",
+      "start_ms": 11880,
+      "end_ms": 19600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s02-n0147",
+      "text": "劳动力的出售者同其他商品出售者一样，得到商品的交换价值，同时让出商品的使用价值。",
+      "start_ms": 20360,
+      "end_ms": 29720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s02-n0148",
+      "text": "他不可能既得到前者，又保留后者。",
+      "start_ms": 30840,
+      "end_ms": 34040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s02-n0149",
+      "text": "卖油的人卖出油以后，不再拥有油的用途。",
+      "start_ms": 34720,
+      "end_ms": 38640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s02-n0150",
+      "text": "同样，工人卖出劳动力以后，也不再拥有这段时间内劳动力的用途，也就是劳动。",
+      "start_ms": 39400,
+      "end_ms": 46800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s02-n0151",
+      "text": "资本家已经支付了劳动力一天的价值，所以这一天里劳动力的使用，也就是一整天的劳动，归他支配。",
+      "start_ms": 0,
+      "end_ms": 7840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s02-n0152",
+      "text": "劳动力每天只需半个工作日就能维持，却能够劳动一整天，因此它一天创造的价值可以是自身价值的两倍。",
+      "start_ms": 8320,
+      "end_ms": 17760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s02-n0153",
+      "text": "这对买主来说是特别的幸运，却没有侵犯卖主的交换权利。",
+      "start_ms": 18160,
+      "end_ms": 22960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s02-n0154",
+      "text": "资本家早已预料到这个令他喜笑颜开的情况。",
+      "start_ms": 23280,
+      "end_ms": 26480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s02-n0155",
+      "text": "因此，工人在工场中找到的生产资料，不是只够劳动6小时，而是足够劳动12小时。",
+      "start_ms": 27280,
+      "end_ms": 35160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s02-n0156",
+      "text": "10磅棉花吸收6小时劳动，变成10磅纱。",
+      "start_ms": 36160,
+      "end_ms": 39920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s02-n0157",
+      "text": "那么20磅棉花就会吸收12小时劳动，变成20磅纱。",
+      "start_ms": 40,
+      "end_ms": 4960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch05-s02-n0158",
+      "text": "现在来看这个延长了的劳动过程所生产的产品。",
+      "start_ms": 6000,
+      "end_ms": 10880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch05-s02-n0159",
+      "text": "20磅纱中一共包含5个工作日的劳动：消耗的棉花和纺锭包含4个工作日，纺纱又增加了1个工作日。",
+      "start_ms": 11600,
+      "end_ms": 22840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch05-s02-n0160",
+      "text": "5个工作日的劳动表现为30先令，也就是1英镑10先令。",
+      "start_ms": 23440,
+      "end_ms": 28480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch05-s02-n0161",
+      "text": "因此，20磅纱值30先令，每磅仍然值1先令6便士。",
+      "start_ms": 29200,
+      "end_ms": 35760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch05-s02-n0162",
+      "text": "但是，投入生产过程的各种商品总共只值27先令，产出的纱却值30先令。",
+      "start_ms": 36800,
+      "end_ms": 44280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch05-s02-n0163",
+      "text": "产品的价值比预付价值增加了九分之一。",
+      "start_ms": 0,
+      "end_ms": 3480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch05-s02-n0164",
+      "text": "27先令变成了30先令，产生了3先令的剩余价值。",
+      "start_ms": 3960,
+      "end_ms": 9520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch05-s02-n0165",
+      "text": "这个戏法终于成功了：货币变成了资本。",
+      "start_ms": 10240,
+      "end_ms": 15280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch05-s02-n0166",
+      "text": "问题的所有条件都得到了解决，商品交换的规律也丝毫没有遭到破坏。",
+      "start_ms": 16120,
+      "end_ms": 22200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch05-s02-n0167",
+      "text": "资本家用等价物交换等价物，购买棉花、纺锭和劳动力时，都按各自的价值付款。",
+      "start_ms": 23000,
+      "end_ms": 31480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch05-s02-n0168",
+      "text": "接下来，他像任何商品买主一样，使用这些商品的使用价值。",
+      "start_ms": 32240,
+      "end_ms": 37320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch05-s02-n0169",
+      "text": "他消费劳动力的过程，同时也是生产商品的过程，结果得到20磅价值30先令的纱。",
+      "start_ms": 120,
+      "end_ms": 6840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch05-s02-n0170",
+      "text": "资本家买完商品，又回到市场出售商品。",
+      "start_ms": 7360,
+      "end_ms": 10480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch05-s02-n0171",
+      "text": "每磅纱仍按1先令6便士出售，既不高于也不低于它的价值。",
+      "start_ms": 10720,
+      "end_ms": 15920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch05-s02-n0172",
+      "text": "可是，他从流通中取出的货币，仍然比最初投入的多3先令。",
+      "start_ms": 16520,
+      "end_ms": 21880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch05-s02-n0173",
+      "text": "货币变成资本的整个过程，既发生在流通领域，又不发生在流通领域。",
+      "start_ms": 22400,
+      "end_ms": 28160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch05-s02-n0174",
+      "text": "说它发生在流通领域，是因为资本家必须先在商品市场上买到劳动力，整个过程才能开始。",
+      "start_ms": 28680,
+      "end_ms": 35040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch05-s02-n0175",
+      "text": "说它不发生在流通领域，是因为流通只开启了价值增殖，真正的增殖发生在生产领域。",
+      "start_ms": 0,
+      "end_ms": 8012,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch05-s02-n0176",
+      "text": "于是，“一切都在这个最美好的世界里安排得尽善尽美”。",
+      "start_ms": 8012,
+      "end_ms": 13493,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch05-s02-n0177",
+      "text": "资本家先把货币变成商品，让这些商品充当新产品的材料和劳动过程的要素，再把活的劳动力加入这些死的物质中。",
+      "start_ms": 13493,
+      "end_ms": 24245,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch05-s02-n0178",
+      "text": "这样，他就把价值——已经物化的过去劳动——变成了资本，变成了能够自行增殖的价值，仿佛一头突然有了生命的怪物，开始自己“劳动”起来。",
+      "start_ms": 24245,
+      "end_ms": 37949,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch05-s02-n0179",
+      "text": "现在比较价值形成过程和价值增殖过程。",
+      "start_ms": 37949,
+      "end_ms": 41744,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch05-s02-n0180",
+      "text": "价值增殖过程，其实只是超过某个界限以后继续进行的价值形成过程。",
+      "start_ms": 41744,
+      "end_ms": 48280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch05-s02-n0181",
+      "text": "如果价值形成只持续到新创造的价值补回资本家为劳动力支付的价值，它就只是单纯的价值形成过程。",
+      "start_ms": 80,
+      "end_ms": 10320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch05-s02-n0182",
+      "text": "如果劳动继续超过这个界限，价值形成过程就变成了价值增殖过程。",
+      "start_ms": 17480,
+      "end_ms": 24040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch05-s02-n0183",
+      "text": "再把价值形成过程同劳动过程比较。",
+      "start_ms": 24720,
+      "end_ms": 28120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch05-s02-n0184",
+      "text": "劳动过程考察的是生产使用价值的具体劳动，关注劳动的目的、内容和具体做法，也就是劳动在性质上的差别。",
+      "start_ms": 28760,
+      "end_ms": 38880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch05-s02-n0185",
+      "text": "同一个劳动过程如果作为价值形成过程来考察，就只看数量。",
+      "start_ms": 49480,
+      "end_ms": 54800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch05-s02-n0186",
+      "text": "这里关注的只是劳动持续了多长时间，也就是劳动力以有用形式耗费了多久。",
+      "start_ms": 55280,
+      "end_ms": 62680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch05-s02-n0187",
+      "text": "进入劳动过程的各种商品，也不再被看作各有具体作用的物质要素，只被看作一定数量的过去劳动。",
+      "start_ms": 280,
+      "end_ms": 12000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch05-s02-n0188",
+      "text": "无论劳动原来包含在生产资料中，还是后来由劳动力加入，都只按时间计算，比如多少小时、多少天。",
+      "start_ms": 12840,
+      "end_ms": 22320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch05-s02-n0189",
+      "text": "不过，只有生产使用价值所耗费的时间是社会必要劳动时间，它才能计入价值。",
+      "start_ms": 23120,
+      "end_ms": 30880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch05-s02-n0190",
+      "text": "这个条件包含几方面。",
+      "start_ms": 31600,
+      "end_ms": 33560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch05-s02-n0191",
+      "text": "第一，生产资料必须符合社会正常水平。",
+      "start_ms": 34320,
+      "end_ms": 38480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch05-s02-n0192",
+      "text": "既然纺纱机已经是社会上通行的纺纱工具，就不能只给工人一架手摇纺车。",
+      "start_ms": 39280,
+      "end_ms": 47640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch05-s02-n0193",
+      "text": "原料也必须合格，不能把不断断裂的劣质棉花交给他。",
+      "start_ms": 40,
+      "end_ms": 5120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch05-s02-n0194",
+      "text": "否则，工人生产一磅纱就会耗费超过社会正常需要的时间，多出的时间却不会形成价值或货币。",
+      "start_ms": 5960,
+      "end_ms": 14720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch05-s02-n0195",
+      "text": "生产资料是否正常，不由工人决定，而由资本家负责。",
+      "start_ms": 15200,
+      "end_ms": 20120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch05-s02-n0196",
+      "text": "第二，劳动力本身必须达到行业通行的平均熟练程度和速度。",
+      "start_ms": 20920,
+      "end_ms": 26880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch05-s02-n0197",
+      "text": "这里的资本家已经在劳动力市场上买到了正常水平的劳动力，还必须让它按照社会通常的强度工作。",
+      "start_ms": 27520,
+      "end_ms": 35760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch05-s02-n0198",
+      "text": "他会严密监督工人的用力程度，也会防止任何时间在没有劳动的情况下白白过去。",
+      "start_ms": 36440,
+      "end_ms": 42480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch05-s02-n0199",
+      "text": "他购买了工人在一定时间内的劳动力，便要充分得到自己买下的东西，不肯让人占一点便宜。",
+      "start_ms": 40,
+      "end_ms": 9240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch05-s02-n0200",
+      "text": "最后，原料和工具也不能被不当浪费。",
+      "start_ms": 10280,
+      "end_ms": 14480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch05-s02-n0201",
+      "text": "资本家对此自有一套惩罚办法。",
+      "start_ms": 15120,
+      "end_ms": 18240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch05-s02-n0202",
+      "text": "浪费的原料或工具代表白白耗费的过去劳动，因此不能计入产品的价值。",
+      "start_ms": 18800,
+      "end_ms": 25280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch05-s02-n0203",
+      "text": "可见，我们分析商品时已经发现了同一种劳动的两个方面。",
+      "start_ms": 25480,
+      "end_ms": 29800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch05-s02-n0204",
+      "text": "具体劳动生产使用价值，一般人类劳动形成价值。",
+      "start_ms": 30520,
+      "end_ms": 35600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch05-s02-n0205",
+      "text": "现在，这一区别进一步表现为生产过程的两个方面：劳动过程和价值形成过程。",
+      "start_ms": 120,
+      "end_ms": 5760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch05-s02-n0206",
+      "text": "劳动过程和价值形成过程结合在一起，就是商品的生产过程。",
+      "start_ms": 6240,
+      "end_ms": 10360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch05-s02-n0207",
+      "text": "劳动过程和价值增殖过程结合在一起，就是资本主义生产过程，也就是商品生产的资本主义形式。",
+      "start_ms": 11000,
+      "end_ms": 17680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch05-s02-n0208",
+      "text": "前面已经提到，对价值增殖来说，资本家使用的是简单的社会平均劳动，还是水平更高的复杂劳动，并不重要。",
+      "start_ms": 18360,
+      "end_ms": 26800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch05-s02-n0209",
+      "text": "复杂劳动来自培养成本较高的劳动力。",
+      "start_ms": 27360,
+      "end_ms": 30120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch05-s02-n0210",
+      "text": "培养这种劳动力需要更多劳动时间，所以它的价值高于简单劳动力。",
+      "start_ms": 30480,
+      "end_ms": 34840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch05-s02-n0211",
+      "text": "劳动力的价值较高，它所进行的劳动也就被看作较高级的劳动，能在同样时间内形成更多价值。",
+      "start_ms": 0,
+      "end_ms": 8730,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch05-s02-n0212",
+      "text": "不过，无论纺纱劳动和珠宝加工劳动相差多大，珠宝工人用来补回自身劳动力价值的那部分劳动，同他用来创造剩余价值的额外劳动，在性质上都没有区别。",
+      "start_ms": 8730,
+      "end_ms": 23072,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch05-s02-n0213",
+      "text": "剩余价值仍然只来自劳动量超过了补回劳动力价值所需的部分，也就是同一个劳动过程延长了。",
+      "start_ms": 23072,
+      "end_ms": 31803,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch05-s02-n0214",
+      "text": "对纺纱工来说，这个过程生产纱；对珠宝工人来说，这个过程生产珠宝。",
+      "start_ms": 31803,
+      "end_ms": 38454,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch05-s02-n0215",
+      "text": "另一方面，在任何价值形成过程中，复杂劳动都必须换算成社会平均的简单劳动。",
+      "start_ms": 38454,
+      "end_ms": 45937,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch05-s02-n0216",
+      "text": "比如，一天复杂劳动可以换算成 x 天简单劳动。",
+      "start_ms": 45937,
+      "end_ms": 50302,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch05-s02-n0217",
+      "text": "因此，假定资本雇用的工人从事的是简单的社会平均劳动，只是省去一道不必要的换算，让分析更加简单。",
+      "start_ms": 120,
+      "end_ms": 8080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0037"
+    }
+  ]
+}

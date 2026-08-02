@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0003",
+  "audio_file": "c0003.mp3",
+  "text_sha256": "0cdb0329d77ad4b844634e449b9898592d86420aa808f86ae786c77bf4235876",
+  "request_id": "4086862b-24f4-41a5-8519-e77ca7c5c73f",
+  "log_id": "202608030120065111A66F11A6BC90E9C5",
+  "duration_seconds": 29.1244,
+  "bytes": 466604,
+  "audio_sha256": "5f13f66e6f8e7e5b08918be860464fd669724caf5d8621cbdc7cf6e536db68bf",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0013",
+      "text": "现在，我们再从价值怎样形成的角度考察生产过程。",
+      "start_ms": 200,
+      "end_ms": 4720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0014",
+      "text": "我们已经知道，商品的价值取决于其中包含多少劳动，也就是生产它所需的社会必要劳动时间。",
+      "start_ms": 5440,
+      "end_ms": 13840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0015",
+      "text": "资本家生产出来的产品也遵循这个原则。",
+      "start_ms": 14560,
+      "end_ms": 18240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0016",
+      "text": "因此，我们首先要计算其中包含了多少劳动。",
+      "start_ms": 19720,
+      "end_ms": 23720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0017",
+      "text": "就以纱为例。",
+      "start_ms": 24520,
+      "end_ms": 25760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0018",
+      "text": "生产纱，首先需要原料。",
+      "start_ms": 26440,
+      "end_ms": 28760,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

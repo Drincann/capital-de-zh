@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0018",
+  "audio_file": "c0018.mp3",
+  "text_sha256": "6ac60d1101e39dc144a37f4471a8c1e455a7da1ff0225b1d10417275445a669d",
+  "request_id": "17d8fb90-22b5-4e67-b668-2e1d2aee7419",
+  "log_id": "20260803011045E817500FB3D4AE797E7F",
+  "duration_seconds": 46.9054,
+  "bytes": 751148,
+  "audio_sha256": "4f315feefdf593fa9b510638d561bcf52c47469e6f2cfb0ec8818a3ad4a9d40b",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0103",
+      "text": "产品一旦作为生产资料进入新的劳动过程，就不再以产品的身份出现，只作为活劳动所使用的物质条件发挥作用。",
+      "start_ms": 40,
+      "end_ms": 9200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0104",
+      "text": "纺纱工只把纺锭看作纺纱的手段，把亚麻看作被纺的对象。",
+      "start_ms": 9760,
+      "end_ms": 15520,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0105",
+      "text": "没有纺锭和纺纱材料，当然无法开始纺纱，所以这些产品必须事先已经存在。",
+      "start_ms": 16120,
+      "end_ms": 22520,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0106",
+      "text": "但在纺纱过程中，亚麻和纺锭是不是过去劳动的产品并不重要，就像人吃面包时，并不关心它曾经过农民、磨坊工人和面包师的劳动。",
+      "start_ms": 22880,
+      "end_ms": 34400,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0107",
+      "text": "只有当生产资料出现缺陷时，它们才会让人注意到其中的过去劳动。",
+      "start_ms": 35280,
+      "end_ms": 41040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0108",
+      "text": "刀不锋利，线总是断，人们才会想起制刀匠或纺线工。",
+      "start_ms": 41560,
+      "end_ms": 46600,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

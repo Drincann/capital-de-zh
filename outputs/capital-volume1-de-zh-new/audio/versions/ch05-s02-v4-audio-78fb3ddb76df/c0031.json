@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0031",
+  "audio_file": "c0031.mp3",
+  "text_sha256": "a4b89094303e4286fd081e68093ccc0ab36c7e264d79efb4363bc65ba47b06da",
+  "request_id": "32044a39-3aee-4426-8c10-e6bb1ae9746d",
+  "log_id": "20260803012839BD4B79C11F9A45193235",
+  "duration_seconds": 62.9,
+  "bytes": 1006892,
+  "audio_sha256": "c1cc45544854bf34b11a607d7effdda23044c67638d39fe49d530be606c86f0d",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0181",
+      "text": "如果价值形成只持续到新创造的价值补回资本家为劳动力支付的价值，它就只是单纯的价值形成过程。",
+      "start_ms": 80,
+      "end_ms": 10320,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0182",
+      "text": "如果劳动继续超过这个界限，价值形成过程就变成了价值增殖过程。",
+      "start_ms": 17480,
+      "end_ms": 24040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0183",
+      "text": "再把价值形成过程同劳动过程比较。",
+      "start_ms": 24720,
+      "end_ms": 28120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0184",
+      "text": "劳动过程考察的是生产使用价值的具体劳动，关注劳动的目的、内容和具体做法，也就是劳动在性质上的差别。",
+      "start_ms": 28760,
+      "end_ms": 38880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0185",
+      "text": "同一个劳动过程如果作为价值形成过程来考察，就只看数量。",
+      "start_ms": 49480,
+      "end_ms": 54800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0186",
+      "text": "这里关注的只是劳动持续了多长时间，也就是劳动力以有用形式耗费了多久。",
+      "start_ms": 55280,
+      "end_ms": 62680,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

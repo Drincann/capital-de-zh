@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0012",
+  "audio_file": "c0012.mp3",
+  "text_sha256": "04e691d698af8e67e0a77d46512408c829e6bf930e89a14494ebfdd89e4cc0a6",
+  "request_id": "fda6ffc9-c0bf-4813-9019-81963c3b60c7",
+  "log_id": "202608030020020A13713A7B5782760989",
+  "duration_seconds": 29.3487,
+  "bytes": 470060,
+  "audio_sha256": "1713a62248875e9cf39c90af36a0852686f54e9c496cb7a7934aa44d235c6449",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0067",
+      "text": "劳动已经同对象结合在一起。",
+      "start_ms": 240,
+      "end_ms": 2560,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0068",
+      "text": "劳动凝结在对象中，对象也受到了加工。",
+      "start_ms": 3480,
+      "end_ms": 6480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0069",
+      "text": "劳动进行时，它表现为劳动者持续不断的活动。",
+      "start_ms": 6920,
+      "end_ms": 10840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0070",
+      "text": "劳动完成后，这种活动则表现为产品已经具有的一种稳定性质。",
+      "start_ms": 11400,
+      "end_ms": 16560,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0071",
+      "text": "比如，工人不断纺纱，最后留下的是纱。",
+      "start_ms": 17040,
+      "end_ms": 19680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0072",
+      "text": "如果从劳动过程的结果，也就是产品出发来看，劳动对象和劳动手段都是生产所需的物质条件，合称生产资料。",
+      "start_ms": 20440,
+      "end_ms": 29080,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-02T13:05:22.617Z",
+  "updated_at": "2026-08-02T17:30:58.612Z",
   "audio_versions": [
     {
       "audio_version_id": "ch07-s04-v1-audio-0edb73e87b93",
@@ -17,6 +17,38 @@
       "completed_at": "2026-08-02T13:05:22.616Z",
       "sentence_count": 8,
       "duration_ms": 61285
+    },
+    {
+      "audio_version_id": "ch05-s01-v6-audio-d31b7a8b0ab8",
+      "unit_id": "ch05-s01",
+      "translation_version_id": "ch05-s01-v6",
+      "translation_sha256": "591960dc864c1fdceb0b60c953183514229b3afd8786e12236ff62d073389b92",
+      "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+      "status": "ready",
+      "manifest_path": "audio/versions/ch05-s01-v6-audio-d31b7a8b0ab8/manifest.json",
+      "created_at": "2026-08-02T17:08:58.699Z",
+      "updated_at": "2026-08-02T17:13:41.181Z",
+      "completed_chunks": 26,
+      "chunk_count": 26,
+      "completed_at": "2026-08-02T17:13:41.181Z",
+      "sentence_count": 156,
+      "duration_ms": 1177129
+    },
+    {
+      "audio_version_id": "ch05-s02-v4-audio-78fb3ddb76df",
+      "unit_id": "ch05-s02",
+      "translation_version_id": "ch05-s02-v4",
+      "translation_sha256": "c2a4314e3ac5b370fdfb2cb246abdea502a18952bb9cd41037bf258da84617ba",
+      "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+      "status": "ready",
+      "manifest_path": "audio/versions/ch05-s02-v4-audio-78fb3ddb76df/manifest.json",
+      "created_at": "2026-08-02T17:20:06.093Z",
+      "updated_at": "2026-08-02T17:30:58.612Z",
+      "completed_chunks": 37,
+      "chunk_count": 37,
+      "completed_at": "2026-08-02T17:30:58.612Z",
+      "sentence_count": 217,
+      "duration_ms": 1574433
     }
   ],
   "jobs": [
@@ -29,6 +61,26 @@
       "created_at": "2026-08-02T13:04:40.809Z",
       "updated_at": "2026-08-02T13:05:22.616Z",
       "completed_at": "2026-08-02T13:05:22.616Z"
+    },
+    {
+      "job_id": "audio-job-1785690538699-12904a14",
+      "unit_id": "ch05-s01",
+      "translation_version_id": "ch05-s01-v6",
+      "audio_version_id": "ch05-s01-v6-audio-d31b7a8b0ab8",
+      "status": "ready",
+      "created_at": "2026-08-02T17:08:58.699Z",
+      "updated_at": "2026-08-02T17:13:41.181Z",
+      "completed_at": "2026-08-02T17:13:41.181Z"
+    },
+    {
+      "job_id": "audio-job-1785691206093-02797a8d",
+      "unit_id": "ch05-s02",
+      "translation_version_id": "ch05-s02-v4",
+      "audio_version_id": "ch05-s02-v4-audio-78fb3ddb76df",
+      "status": "ready",
+      "created_at": "2026-08-02T17:20:06.093Z",
+      "updated_at": "2026-08-02T17:30:58.612Z",
+      "completed_at": "2026-08-02T17:30:58.612Z"
     }
   ]
 }

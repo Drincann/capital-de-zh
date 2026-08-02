@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0033",
+  "audio_file": "c0033.mp3",
+  "text_sha256": "6f5c7ac2adc513f632c3b54c6638858c767f94134ac0e804647ac577948dd9e5",
+  "request_id": "09e81472-5af0-43dd-9301-962b8e868836",
+  "log_id": "2026080301291311BBEDEDB824A27DA201",
+  "duration_seconds": 42.61865,
+  "bytes": 682412,
+  "audio_sha256": "7b3d731b7a7e4760184a8a200b4b49132559d14dd8e62f6ea82720b3a035012e",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0193",
+      "text": "原料也必须合格，不能把不断断裂的劣质棉花交给他。",
+      "start_ms": 40,
+      "end_ms": 5120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0194",
+      "text": "否则，工人生产一磅纱就会耗费超过社会正常需要的时间，多出的时间却不会形成价值或货币。",
+      "start_ms": 5960,
+      "end_ms": 14720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0195",
+      "text": "生产资料是否正常，不由工人决定，而由资本家负责。",
+      "start_ms": 15200,
+      "end_ms": 20120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0196",
+      "text": "第二，劳动力本身必须达到行业通行的平均熟练程度和速度。",
+      "start_ms": 20920,
+      "end_ms": 26880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0197",
+      "text": "这里的资本家已经在劳动力市场上买到了正常水平的劳动力，还必须让它按照社会通常的强度工作。",
+      "start_ms": 27520,
+      "end_ms": 35760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0198",
+      "text": "他会严密监督工人的用力程度，也会防止任何时间在没有劳动的情况下白白过去。",
+      "start_ms": 36440,
+      "end_ms": 42480,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

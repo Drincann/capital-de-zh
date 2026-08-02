@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0032",
+  "audio_file": "c0032.mp3",
+  "text_sha256": "541bad10caed125720e1059f89b507b2e9084d97b007b4acc595a847a009ce24",
+  "request_id": "f0eb929f-d00e-4558-be0b-10681d1cc517",
+  "log_id": "202608030129061009DC8A6ACD4930C3B9",
+  "duration_seconds": 47.7,
+  "bytes": 763820,
+  "audio_sha256": "99991c2f0b406f5d15616d0c1208f7f5be7fafd6bd401f9e995f191628c1d716",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0187",
+      "text": "进入劳动过程的各种商品，也不再被看作各有具体作用的物质要素，只被看作一定数量的过去劳动。",
+      "start_ms": 280,
+      "end_ms": 12000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0188",
+      "text": "无论劳动原来包含在生产资料中，还是后来由劳动力加入，都只按时间计算，比如多少小时、多少天。",
+      "start_ms": 12840,
+      "end_ms": 22320,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0189",
+      "text": "不过，只有生产使用价值所耗费的时间是社会必要劳动时间，它才能计入价值。",
+      "start_ms": 23120,
+      "end_ms": 30880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0190",
+      "text": "这个条件包含几方面。",
+      "start_ms": 31600,
+      "end_ms": 33560,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0191",
+      "text": "第一，生产资料必须符合社会正常水平。",
+      "start_ms": 34320,
+      "end_ms": 38480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0192",
+      "text": "既然纺纱机已经是社会上通行的纺纱工具，就不能只给工人一架手摇纺车。",
+      "start_ms": 39280,
+      "end_ms": 47640,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0024",
+  "audio_file": "c0024.mp3",
+  "text_sha256": "257b38c2459783b0f09d0903e2119411eaef9a564c327a83946e1d50f9e93cd3",
+  "request_id": "8573b737-d1e3-4c3c-bc07-239fa5a841e9",
+  "log_id": "202608030112168BF45E05D1066F2030D0",
+  "duration_seconds": 47.78,
+  "bytes": 764972,
+  "audio_sha256": "fdab3d89cf5cd083da59d1164ec8de954eddb2957b62cca4e2deff8a4a7700d2",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0139",
+      "text": "接下来，他开始消费买来的劳动力，也就是让工人使用生产资料进行劳动。",
+      "start_ms": 0,
+      "end_ms": 6400,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0140",
+      "text": "工人现在虽然为资本家而不是为自己劳动，劳动过程的基本性质却没有改变。",
+      "start_ms": 7280,
+      "end_ms": 13960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0141",
+      "text": "资本家刚刚介入时，制靴或纺纱的具体方法也不会立刻改变。",
+      "start_ms": 14760,
+      "end_ms": 20200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0142",
+      "text": "他只能先使用市场上已有的劳动力，也只能采用此前形成的劳动方式，而这些劳动方式早在资本家出现以前就已经存在。",
+      "start_ms": 20920,
+      "end_ms": 31160,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0143",
+      "text": "等到劳动受资本支配以后，资本还会进一步改变生产方式，但那是后面才要讨论的问题。",
+      "start_ms": 31880,
+      "end_ms": 39680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0144",
+      "text": "不过，一旦劳动过程成为资本家消费劳动力的过程，就会出现两个特殊之处。",
+      "start_ms": 40600,
+      "end_ms": 47720,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

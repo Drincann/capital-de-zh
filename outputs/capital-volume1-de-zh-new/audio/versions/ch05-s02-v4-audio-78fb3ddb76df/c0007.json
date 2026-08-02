@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0007",
+  "audio_file": "c0007.mp3",
+  "text_sha256": "c23a75b951b544dcf15f12f01df2498ae1b071f2570b4d858f9ea4a2b9d01b9a",
+  "request_id": "bc75fa29-a35c-4df1-bbed-531beb8db50a",
+  "log_id": "20260803012126DE1931F897E9B228F3DE",
+  "duration_seconds": 48.395,
+  "bytes": 774956,
+  "audio_sha256": "2bf7c149399d494c8b7179e01b5b349dda66dea610717d9d8b037025ac62b456",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0037",
+      "text": "这些过程先生产棉花和纺锭，再用它们纺成纱。",
+      "start_ms": 0,
+      "end_ms": 5320,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0038",
+      "text": "纱中的一切劳动，在纱完成时都已经成为过去的劳动。",
+      "start_ms": 6320,
+      "end_ms": 11680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0039",
+      "text": "生产棉花和纺锭的劳动发生得更早，纺纱的劳动离现在更近，这种时间差别并不重要。",
+      "start_ms": 12400,
+      "end_ms": 20360,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0040",
+      "text": "比如，建一所房子需要30个工作日。",
+      "start_ms": 21080,
+      "end_ms": 24760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0041",
+      "text": "第30个工作日比第1个晚29天投入生产，并不会改变房屋中包含的劳动总量。",
+      "start_ms": 25360,
+      "end_ms": 34520,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0042",
+      "text": "同样，我们可以把棉花和纺锭中包含的劳动时间，看成在纺纱过程的早期阶段耗费的劳动，随后才加上最后的纺纱劳动。",
+      "start_ms": 35560,
+      "end_ms": 48200,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

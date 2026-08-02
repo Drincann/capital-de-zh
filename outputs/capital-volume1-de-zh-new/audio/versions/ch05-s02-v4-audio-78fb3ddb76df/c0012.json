@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0012",
+  "audio_file": "c0012.mp3",
+  "text_sha256": "89f1d22a2f0f8e0d1f03cd0c92a5c75743d8badc87ef1188a6fdcd90bdba5985",
+  "request_id": "404c2d61-c0af-4921-a4a2-0184a6f44868",
+  "log_id": "20260803012329826B83FE45CBC11E484C",
+  "duration_seconds": 62.7,
+  "bytes": 1003820,
+  "audio_sha256": "80333a3082acbb9593b658ffb45e5c6d37a7844dbfc0581343856e9c2a78e712",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0067",
+      "text": "纺纱进行一小时后，一定数量的棉花变成了纱，一小时的劳动也就体现在这些纱中。",
+      "start_ms": 120,
+      "end_ms": 8800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0068",
+      "text": "这里所说的一小时劳动，是纺纱工在一小时内耗费的劳动力。",
+      "start_ms": 9280,
+      "end_ms": 15240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0069",
+      "text": "我们只把它看作一般劳动力的耗费，而不考察它作为纺纱这种具体劳动的特点。",
+      "start_ms": 16040,
+      "end_ms": 22880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0070",
+      "text": "这里有一个决定性的条件：把棉花变成纱的整个过程中，耗费的只能是社会必要劳动时间。",
+      "start_ms": 24000,
+      "end_ms": 33560,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0071",
+      "text": "假定在社会正常的平均生产条件下，一小时应当把 a 磅棉花纺成 b 磅纱，那么要让一个12小时工作日全部算作形成价值的劳动，工人就必须在12小时内把 12 × a 磅棉花纺成 12 × b 磅纱。",
+      "start_ms": 34440,
+      "end_ms": 57760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0072",
+      "text": "因为只有社会必要劳动时间才能形成价值。",
+      "start_ms": 58800,
+      "end_ms": 62480,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

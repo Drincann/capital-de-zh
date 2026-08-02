@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0005",
+  "audio_file": "c0005.mp3",
+  "text_sha256": "c205985d5682e941c74068f3b520efe50f8a0ae1f549cec4629d5c8d4220ccba",
+  "request_id": "499c8a65-a58f-43ab-ba96-fbf6eacb4028",
+  "log_id": "20260803001830FEBF6B7D267F1599E7C7",
+  "duration_seconds": 40.7,
+  "bytes": 651692,
+  "audio_sha256": "d42cf541e31771d68f54554923ca407a24c02f64bb674ad2ff7ae15ccf160b1e",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0025",
+      "text": "劳动不仅需要身体持续用力，也要求劳动者始终围绕既定目的保持专注。",
+      "start_ms": 120,
+      "end_ms": 6000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0026",
+      "text": "劳动越枯燥，劳动者越难从中感到自己是在自由运用体力和智力，也就越需要靠意志强迫自己专心。",
+      "start_ms": 6440,
+      "end_ms": 15800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0027",
+      "text": "劳动过程包含三个基本部分。",
+      "start_ms": 16600,
+      "end_ms": 18880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0028",
+      "text": "第一是有目的的活动，也就是劳动本身。",
+      "start_ms": 19720,
+      "end_ms": 22840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0029",
+      "text": "第二是劳动所作用的对象。",
+      "start_ms": 23120,
+      "end_ms": 24880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0030",
+      "text": "第三是劳动时使用的工具和其他手段。",
+      "start_ms": 25240,
+      "end_ms": 28120,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

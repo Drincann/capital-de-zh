@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0024",
+  "audio_file": "c0024.mp3",
+  "text_sha256": "f0634b56c9a40ebff30bf3b956522a40f0f841a41051e48621c006f1ff9e19f9",
+  "request_id": "14a4e40b-ce85-44e4-b9ed-4b85d23b299c",
+  "log_id": "2026080301270568FB7573D05A17AD352D",
+  "duration_seconds": 40.0824,
+  "bytes": 642092,
+  "audio_sha256": "3bde40b1034410ec588e8b665704fdabbd8c3f76309d0bc5c45b38ab65b08d15",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0139",
+      "text": "但生产劳动力所需的过去劳动，同劳动力一天能够付出的活劳动，是两个不同的量。",
+      "start_ms": 160,
+      "end_ms": 6960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0140",
+      "text": "前者决定劳动力的交换价值，后者构成劳动力的使用价值。",
+      "start_ms": 7480,
+      "end_ms": 12160,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0141",
+      "text": "维持工人24小时只需要半个工作日的劳动，并不妨碍他实际劳动一整天。",
+      "start_ms": 12760,
+      "end_ms": 19000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0142",
+      "text": "因此，劳动力本身的价值，同它在劳动过程中能够创造的价值，是两个不同的量。",
+      "start_ms": 19800,
+      "end_ms": 25640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0143",
+      "text": "资本家购买劳动力时，看中的正是这个差额。",
+      "start_ms": 26720,
+      "end_ms": 30880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0144",
+      "text": "劳动力能够生产纱或靴子，当然是必要条件，因为劳动必须以有用的形式耗费，才能形成价值。",
+      "start_ms": 31560,
+      "end_ms": 39680,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

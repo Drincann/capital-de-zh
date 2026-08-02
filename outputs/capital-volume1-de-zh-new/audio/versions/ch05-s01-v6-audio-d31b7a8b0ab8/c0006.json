@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0006",
+  "audio_file": "c0006.mp3",
+  "text_sha256": "8668e55678b5de0819214c23d0a928e7379ba3c74c6583012c3b085504f90ac8",
+  "request_id": "d9da6418-8e82-47f0-8bbb-ee42d6d606b4",
+  "log_id": "2026080300183620A735CE97697FF7A55A",
+  "duration_seconds": 36.564975,
+  "bytes": 585644,
+  "audio_sha256": "fbbec45bbe60586061c2952385d7f194b472f84ab151424bfd60f09821af2311",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0031",
+      "text": "后面两项分别称为劳动对象和劳动手段。",
+      "start_ms": 280,
+      "end_ms": 4280,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0032",
+      "text": "土地在经济学意义上也包括水。",
+      "start_ms": 4800,
+      "end_ms": 7440,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0033",
+      "text": "最初，它不需要人类加工，就能提供现成的食物，也是人类劳动最普遍的对象。",
+      "start_ms": 8200,
+      "end_ms": 14960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0034",
+      "text": "有些劳动只是把某种东西从原来的自然环境中取出来。",
+      "start_ms": 15400,
+      "end_ms": 19360,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0035",
+      "text": "这些东西在劳动开始前已经由自然提供，是未经加工的劳动对象。",
+      "start_ms": 20200,
+      "end_ms": 26080,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0036",
+      "text": "比如，捕鱼是把鱼从它生活的水中捕获，伐木是把树木从原始森林中砍下，采矿是把矿石从矿脉中开采出来。",
+      "start_ms": 26640,
+      "end_ms": 36280,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

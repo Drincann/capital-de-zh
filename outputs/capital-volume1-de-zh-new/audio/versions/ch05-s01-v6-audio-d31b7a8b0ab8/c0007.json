@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0007",
+  "audio_file": "c0007.mp3",
+  "text_sha256": "a98febf83ad96998183846e3a17dd24133f8126a2434422e705268a4f1d2db9d",
+  "request_id": "645ee122-c205-4eaf-829e-a3e923345b70",
+  "log_id": "20260803001905903A7529E6488223C1BE",
+  "duration_seconds": 42.2,
+  "bytes": 675884,
+  "audio_sha256": "5475833abbbed347c4e79beb33babca58949fe1cb7f102fa0eebef6e87491ee2",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0037",
+      "text": "如果劳动对象以前已经经过人的加工，就叫作原料。",
+      "start_ms": 80,
+      "end_ms": 4800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0038",
+      "text": "比如，矿石已经开采出来，现在又要清洗，这时它就是原料。",
+      "start_ms": 5800,
+      "end_ms": 11600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0039",
+      "text": "所以，所有原料都是劳动对象，但不是所有劳动对象都是原料。",
+      "start_ms": 12360,
+      "end_ms": 18000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0040",
+      "text": "劳动对象只有经过先前的劳动改变以后，才成为原料。",
+      "start_ms": 18960,
+      "end_ms": 24080,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0041",
+      "text": "劳动手段，是劳动者放在自己和劳动对象之间，用来把自己的行动传递到劳动对象上的东西，或一整套东西。",
+      "start_ms": 24880,
+      "end_ms": 34640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0042",
+      "text": "劳动者利用这些东西的力学、物理或化学性质，让它们按照自己的目的作用于其他东西。",
+      "start_ms": 35480,
+      "end_ms": 42000,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

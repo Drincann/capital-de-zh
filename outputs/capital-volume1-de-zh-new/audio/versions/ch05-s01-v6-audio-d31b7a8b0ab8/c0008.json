@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0008",
+  "audio_file": "c0008.mp3",
+  "text_sha256": "c66d6227de0884dc83fd0f7c6592b0558e93a3bc0b60a4268510f4b13ae856eb",
+  "request_id": "93c2d52c-1625-4d94-9ba1-8c6ee39f533b",
+  "log_id": "202608030019115111A66F11A6BC8BBDDE",
+  "duration_seconds": 36.7,
+  "bytes": 587948,
+  "audio_sha256": "e670f001c51140f6a8c6f6f794ba087b6293b65a783a8d308025dd1ce5041ab9",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0043",
+      "text": "除了直接摘取果实这类只靠身体器官完成的活动，劳动者通常直接拿在手里的不是劳动对象，而是劳动手段。",
+      "start_ms": 120,
+      "end_ms": 8720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0044",
+      "text": "自然物由此成了他身体之外的器官，延长了他的身体。",
+      "start_ms": 9360,
+      "end_ms": 13800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0045",
+      "text": "土地最初既是人类的食物仓库，也是劳动手段的仓库。",
+      "start_ms": 14600,
+      "end_ms": 19160,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0046",
+      "text": "它提供石头，让人投掷、摩擦、压碎和切割东西。",
+      "start_ms": 19600,
+      "end_ms": 23520,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0047",
+      "text": "土地本身也可以成为劳动手段，比如农业中的耕地。",
+      "start_ms": 23920,
+      "end_ms": 27960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0048",
+      "text": "不过，要把土地当作农业劳动的手段，人们已经需要一整套其他工具，也需要相当发展的劳动能力。",
+      "start_ms": 28960,
+      "end_ms": 36560,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

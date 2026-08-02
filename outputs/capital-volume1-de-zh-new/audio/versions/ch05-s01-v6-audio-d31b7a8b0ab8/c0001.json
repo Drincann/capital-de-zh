@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0001",
+  "audio_file": "c0001.mp3",
+  "text_sha256": "855430e204dcfd31a846e0a6e21c2a9b5963c909693069e9347876900fd35b58",
+  "request_id": "b260104f-eeff-44e0-b2c8-383bcb9b886f",
+  "log_id": "2026080300174498FFD6BDC3082A025AB6",
+  "duration_seconds": 34.559975,
+  "bytes": 553388,
+  "audio_sha256": "53052ee78c017ce895c2456948bcae87a0205d79718d3f79e3df22e51045b24e",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0001",
+      "text": "劳动力的实际使用，就是劳动。",
+      "start_ms": 200,
+      "end_ms": 2200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0002",
+      "text": "资本家购买劳动力以后，便让劳动力的出售者为自己工作，从而把买来的劳动力实际使用起来。",
+      "start_ms": 2680,
+      "end_ms": 9520,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0003",
+      "text": "工人的劳动要体现在商品中，首先必须生产出某种有用的东西，也就是能够满足某种需要的具体产品。",
+      "start_ms": 9920,
+      "end_ms": 17880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0004",
+      "text": "这样的产品具有使用价值。",
+      "start_ms": 18520,
+      "end_ms": 20640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0005",
+      "text": "因此，资本家总会让工人生产某种特定的产品。",
+      "start_ms": 21480,
+      "end_ms": 24960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0006",
+      "text": "不过，即使生产是为资本家进行的，整个过程也受资本家控制，劳动者仍然要通过实际劳动生产出有用的东西。",
+      "start_ms": 25720,
+      "end_ms": 34200,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

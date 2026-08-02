@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0020",
+  "audio_file": "c0020.mp3",
+  "text_sha256": "9d13680fd2924069bc2a2a986877d21e80109f8ba68c3a0a8040e802bce84ff9",
+  "request_id": "d064aca6-bb52-4ef8-9936-22769787bc02",
+  "log_id": "202608030111048EF9FA2425B1B52042FD",
+  "duration_seconds": 44.934825,
+  "bytes": 719660,
+  "audio_sha256": "d7bee6f54f271275ff100c57ebcd91e890ab2ed7d23d67a7853f8ecc037fd81c",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0115",
+      "text": "它们也会在这个过程中被消耗，但这种消耗有明确目的：它们会成为新产品的构成部分。",
+      "start_ms": 0,
+      "end_ms": 7480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0116",
+      "text": "新产品随后既可以作为生活资料供个人消费，也可以作为生产资料进入新的劳动过程。",
+      "start_ms": 8200,
+      "end_ms": 16000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0117",
+      "text": "所以，已有产品一方面是过去劳动的结果，另一方面也是当前劳动过程能够存在的条件。",
+      "start_ms": 16680,
+      "end_ms": 24040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0118",
+      "text": "而要保存并真正实现这些旧产品的用途，唯一办法就是把它们投入新的劳动过程，让它们同活劳动接触。",
+      "start_ms": 24920,
+      "end_ms": 35040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0119",
+      "text": "劳动会消耗它的物质要素，也就是劳动对象和劳动手段。",
+      "start_ms": 35960,
+      "end_ms": 40640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0120",
+      "text": "因此，劳动过程同时也是一种消费过程。",
+      "start_ms": 41400,
+      "end_ms": 44640,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

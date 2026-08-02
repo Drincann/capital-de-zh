@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0002",
+  "audio_file": "c0002.mp3",
+  "text_sha256": "1a2ae51d877c0f910cefdc4bb0b066416b7b3478c0605f0b186f5bfa8550093c",
+  "request_id": "c1bb65ba-fad2-4251-81a4-0e756efa04b6",
+  "log_id": "2026080300174400E4D9FF31BC0EF5AE3C",
+  "duration_seconds": 36.360825,
+  "bytes": 582572,
+  "audio_sha256": "6a96a79cca6e704d5a9a8708100a8d72e81592b2a902aabebe79c6ca5c76b108",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0007",
+      "text": "劳动过程本身并不会因此变成另一回事。",
+      "start_ms": 280,
+      "end_ms": 3760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0008",
+      "text": "因此，我们暂时撇开劳动所处的具体社会关系，只考察劳动过程本身。",
+      "start_ms": 4360,
+      "end_ms": 10480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0009",
+      "text": "劳动首先是人与自然之间的一个过程。",
+      "start_ms": 10960,
+      "end_ms": 13720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0010",
+      "text": "人在这个过程中，通过自己的行动，推动、调节并控制自己与自然之间的物质交换。",
+      "start_ms": 14120,
+      "end_ms": 20600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0011",
+      "text": "人本身也是自然的一部分，也是一种自然力量。",
+      "start_ms": 21200,
+      "end_ms": 24920,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0012",
+      "text": "他调动自己的手、脚、头脑和身体的其他力量，作用于外界的自然物，把它们改造成适合自己使用的形态。",
+      "start_ms": 25640,
+      "end_ms": 36000,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

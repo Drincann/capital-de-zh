@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0036",
+  "audio_file": "c0036.mp3",
+  "text_sha256": "440472f5ffb2dff4a46d23eb0cca67c20345fbbb2e87df4716d44a1f440c7616",
+  "request_id": "aa596bce-455a-4e89-9ede-7bd8c6c1a1c9",
+  "log_id": "20260803013013C9AB8F97BA38E42EBA9A",
+  "duration_seconds": 50.302325,
+  "bytes": 805292,
+  "audio_sha256": "710e54d402381014921549626ae1ce13633c0edc7608e82dcf056e089b898573",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0211",
+      "text": "劳动力的价值较高，它所进行的劳动也就被看作较高级的劳动，能在同样时间内形成更多价值。",
+      "start_ms": 0,
+      "end_ms": 8730,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0212",
+      "text": "不过，无论纺纱劳动和珠宝加工劳动相差多大，珠宝工人用来补回自身劳动力价值的那部分劳动，同他用来创造剩余价值的额外劳动，在性质上都没有区别。",
+      "start_ms": 8730,
+      "end_ms": 23072,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0213",
+      "text": "剩余价值仍然只来自劳动量超过了补回劳动力价值所需的部分，也就是同一个劳动过程延长了。",
+      "start_ms": 23072,
+      "end_ms": 31803,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0214",
+      "text": "对纺纱工来说，这个过程生产纱；对珠宝工人来说，这个过程生产珠宝。",
+      "start_ms": 31803,
+      "end_ms": 38454,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0215",
+      "text": "另一方面，在任何价值形成过程中，复杂劳动都必须换算成社会平均的简单劳动。",
+      "start_ms": 38454,
+      "end_ms": 45937,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0216",
+      "text": "比如，一天复杂劳动可以换算成 x 天简单劳动。",
+      "start_ms": 45937,
+      "end_ms": 50302,
+      "timing_source": "duration_interpolation"
+    }
+  ]
+}

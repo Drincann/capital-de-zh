@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0014",
+  "audio_file": "c0014.mp3",
+  "text_sha256": "12dcbbb508f46444bc8f5605a21e2aa8af25958ff6ff11659ecfb142e9fd042d",
+  "request_id": "d05670f4-4ac3-4ba1-93fc-ff9cbd389bf2",
+  "log_id": "20260803012336EC27BF24611AE72631DF",
+  "duration_seconds": 41.09835,
+  "bytes": 658220,
+  "audio_sha256": "da2cd1b1eb46bc87d2773716f17a47cdd44c29d4b19a2ef1a64693bfc4f8f958",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0079",
+      "text": "按照经验确定的产品数量，现在只代表一定数量的劳动，也就是凝结起来的一小时、两小时或一天的社会劳动。",
+      "start_ms": 320,
+      "end_ms": 9120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0080",
+      "text": "至于这种劳动是不是纺纱，材料是不是棉花，产品是不是纱，在这里都不重要。",
+      "start_ms": 9480,
+      "end_ms": 16200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0081",
+      "text": "劳动对象是不是已经加工过的原料，也同样不重要。",
+      "start_ms": 16720,
+      "end_ms": 20720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0082",
+      "text": "假如工人不在纺纱厂，而在煤矿中劳动，煤这种劳动对象就是自然界直接提供的。",
+      "start_ms": 21360,
+      "end_ms": 28360,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0083",
+      "text": "但从煤层中采出的一定数量的煤，比如一公担，仍然代表它吸收了一定数量的劳动。",
+      "start_ms": 28520,
+      "end_ms": 35440,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0084",
+      "text": "我们在买卖劳动力时假定，劳动力一天的价值是3先令。",
+      "start_ms": 36120,
+      "end_ms": 40840,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

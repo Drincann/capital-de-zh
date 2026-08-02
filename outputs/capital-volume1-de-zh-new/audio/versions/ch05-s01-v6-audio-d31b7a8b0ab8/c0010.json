@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0010",
+  "audio_file": "c0010.mp3",
+  "text_sha256": "81014716f2ddaa328da2e58fa25cadb6a9ed9a48848a16aae6db3afa29cf9b88",
+  "request_id": "02b2dbc5-0c6c-476d-81ce-b87404cf2c92",
+  "log_id": "202608030108596BC19C191628BE21508B",
+  "duration_seconds": 81.4122,
+  "bytes": 1303340,
+  "audio_sha256": "70e987df0deaf3f4f2e7859dd79212f0b71a37961e455ded937456cc4c0ff9f5",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0055",
+      "text": "古生物学家从骨骼遗存判断已经灭绝的动物怎样生活，研究社会历史也可以从遗留下来的劳动手段判断已经消失的经济和社会形态。",
+      "start_ms": 0,
+      "end_ms": 15381,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0056",
+      "text": "区分不同经济时代的关键，不只是生产了什么，更是怎样生产、使用什么劳动手段生产。",
+      "start_ms": 15381,
+      "end_ms": 25723,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0057",
+      "text": "劳动手段不仅显示人类生产能力发展到什么程度，也显示劳动是在什么社会关系中进行的。",
+      "start_ms": 25723,
+      "end_ms": 36330,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0058",
+      "text": "其中，工具、机器等机械性劳动手段，可以看作生产的“骨骼和肌肉系统”，最能显示一个生产时代的特征。",
+      "start_ms": 36330,
+      "end_ms": 49059,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0059",
+      "text": "管道、木桶、篮子、陶罐等只用来容纳劳动对象的手段，可以看作生产的“血管系统”，通常没有同样强的时代特征，只是在化工生产中才格外重要。",
+      "start_ms": 49059,
+      "end_ms": 66562,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0060",
+      "text": "从更广的意义上说，劳动手段不只包括直接把人的行动传递给劳动对象的工具，还包括劳动过程能够进行所需的一切物质条件。",
+      "start_ms": 66562,
+      "end_ms": 81412,
+      "timing_source": "duration_interpolation"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0023",
+  "audio_file": "c0023.mp3",
+  "text_sha256": "0ff485c96f366f7e42d87708b82a9993d18d52211ec4e0c30f10262d01e1da3f",
+  "request_id": "5596d932-e514-4437-b75a-f0df8cb55e85",
+  "log_id": "202608030126383D396F9CEAA631FA3F9C",
+  "duration_seconds": 30.6035,
+  "bytes": 490412,
+  "audio_sha256": "ba520a048ed7ae2a44da4a572a155833689bbffdc97050c1babeaaf7af9fd255",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0133",
+      "text": "这类拙劣借口和空洞说辞，就留给那些专门领取报酬的政治经济学教授吧。",
+      "start_ms": 240,
+      "end_ms": 6080,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0134",
+      "text": "他本人是个实干家。",
+      "start_ms": 6560,
+      "end_ms": 8040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0135",
+      "text": "离开生意时说些什么，他未必总会深思，但做生意时该做什么，他一向十分清楚。",
+      "start_ms": 8640,
+      "end_ms": 14680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0136",
+      "text": "现在仔细看看其中的关键。",
+      "start_ms": 15560,
+      "end_ms": 17360,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0137",
+      "text": "劳动力一天的价值是3先令，因为其中包含半个工作日的劳动。",
+      "start_ms": 18040,
+      "end_ms": 23760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0138",
+      "text": "换句话说，生产工人每天维持生活所需的生活资料，需要耗费半个工作日。",
+      "start_ms": 24160,
+      "end_ms": 30160,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

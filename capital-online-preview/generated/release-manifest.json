@@ -1,7 +1,7 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-02T14:10:11.423Z",
+  "generatedAt": "2026-08-02T17:45:56.104Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 16,
@@ -153,14 +153,16 @@
               "number": 1,
               "title": "劳动过程",
               "versionId": "ch05-s01-v6",
-              "contentPath": "/content/ch05-s01.json"
+              "contentPath": "/content/ch05-s01.json",
+              "audioManifestPath": "/audio/ch05-s01-v6-audio-d31b7a8b0ab8/manifest.json"
             },
             {
               "id": "ch05-s02",
               "number": 2,
               "title": "价值增殖过程",
               "versionId": "ch05-s02-v4",
-              "contentPath": "/content/ch05-s02.json"
+              "contentPath": "/content/ch05-s02.json",
+              "audioManifestPath": "/audio/ch05-s02-v4-audio-78fb3ddb76df/manifest.json"
             }
           ]
         },

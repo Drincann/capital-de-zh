@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0019",
+  "audio_file": "c0019.mp3",
+  "text_sha256": "ae7c0304e0cf0b43b182e0c1760193e7f1c8bb35749f35304c26f4eb040f6446",
+  "request_id": "80ba4c7f-ddb8-44ec-8cb3-c15766426801",
+  "log_id": "2026080301254550A6E4DFC143A128A118",
+  "duration_seconds": 36.72005,
+  "bytes": 588332,
+  "audio_sha256": "f368bb8dfb3e0e4d8a54146436867b377698c2d449d67cc24987c79887321fbb",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0109",
+      "text": "接着，他搬出自己的“节制”为自己辩护。",
+      "start_ms": 0,
+      "end_ms": 3833,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0110",
+      "text": "他本可以挥霍掉15先令，却克制住欲望，把它们用于生产，变成了纱。",
+      "start_ms": 3833,
+      "end_ms": 10290,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0111",
+      "text": "但他已经用纱得到了回报，总好过挥霍以后只剩内疚。",
+      "start_ms": 10290,
+      "end_ms": 15132,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0112",
+      "text": "他当然也不该退回守财奴的角色，因为我们已经看过这种苦行能得到什么结果。",
+      "start_ms": 15132,
+      "end_ms": 22193,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0113",
+      "text": "无论他的克制有多大功劳，产品的价值仍然只等于投入生产的各种商品的价值总和，没有多出来的东西可以专门奖赏他。",
+      "start_ms": 22193,
+      "end_ms": 32887,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s02-n0114",
+      "text": "他只好接受“美德本身就是美德的报酬”。",
+      "start_ms": 32887,
+      "end_ms": 36720,
+      "timing_source": "duration_interpolation"
+    }
+  ]
+}

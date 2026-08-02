@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0022",
+  "audio_file": "c0022.mp3",
+  "text_sha256": "113dd7f86a5fea281b931ccd3f5447b74d37ae344564ffb6decee3205c327a63",
+  "request_id": "2b27f1e4-c2cb-465a-9c19-add9f3f12b5c",
+  "log_id": "202608030126306D3BB2712DE9872CC29B",
+  "duration_seconds": 35.7,
+  "bytes": 571820,
+  "audio_sha256": "ed9884dc387c503f09eeec7bd71508be54feffa172bc6c8240525ff603e49578",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0127",
+      "text": "资本家向工人支付了价值3先令的工资，工人也给棉花增加了3先令的价值，双方交换的是相等的价值。",
+      "start_ms": 0,
+      "end_ms": 9400,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0128",
+      "text": "刚才还傲气十足的资本家，这时忽然摆出自家工人那种谦逊的姿态：难道他本人没有劳动，没有监督和管理纺纱工吗？",
+      "start_ms": 10320,
+      "end_ms": 22120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0129",
+      "text": "难道这种劳动不形成价值吗？",
+      "start_ms": 22440,
+      "end_ms": 24680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0130",
+      "text": "他的监工和经理只是耸耸肩。",
+      "start_ms": 25360,
+      "end_ms": 27960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0131",
+      "text": "不过，资本家很快又恢复了原来的笑容。",
+      "start_ms": 28760,
+      "end_ms": 31760,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0132",
+      "text": "他刚才那一长串话不过是在逗我们。",
+      "start_ms": 32520,
+      "end_ms": 35640,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

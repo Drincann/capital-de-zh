@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0014",
+  "audio_file": "c0014.mp3",
+  "text_sha256": "aabb74a481ecc7cee43cbb65471857556973437a2f2f62d5cd0a487f6c22b76a",
+  "request_id": "e955d662-63bb-4e44-85c4-4bfcead74523",
+  "log_id": "20260803010859F4DEBB3306DFF4FBA72A",
+  "duration_seconds": 43.578375,
+  "bytes": 697772,
+  "audio_sha256": "e263c9964d28b453d47636049ac7088ce604fb9d0b2bb99110a119e8927a9c7e",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0079",
+      "text": "除此之外，各生产部门加工的对象都是原料，也就是已经受过劳动作用、本身就是劳动产品的对象。",
+      "start_ms": 0,
+      "end_ms": 9080,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0080",
+      "text": "农业中的种子就是一个例子。",
+      "start_ms": 9880,
+      "end_ms": 12200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0081",
+      "text": "动物和植物通常被看作自然的产物，但它们现在的形态不只是上一年劳动的结果，也是人类经过许多代的控制、劳动和选择，持续改造出来的结果。",
+      "start_ms": 12640,
+      "end_ms": 26240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0082",
+      "text": "至于劳动手段，其中绝大多数只要看上一眼，就能发现过去劳动留下的痕迹。",
+      "start_ms": 27000,
+      "end_ms": 34000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0083",
+      "text": "原料可以构成产品的主要材料，也可以只作为辅助材料参与生产。",
+      "start_ms": 34720,
+      "end_ms": 40000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0084",
+      "text": "辅助材料有三种常见用法。",
+      "start_ms": 40560,
+      "end_ms": 43320,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

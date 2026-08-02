@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0009",
+  "audio_file": "c0009.mp3",
+  "text_sha256": "d3f957261a89d0541b5a73a7f58fde77d9af828d1498f7d951a2c921170768ef",
+  "request_id": "84e3a942-1b3a-47f9-bf82-01be19beebb8",
+  "log_id": "2026080301222719E7675EA9E22A59E5B5",
+  "duration_seconds": 53.709225,
+  "bytes": 859820,
+  "audio_sha256": "d7fc3cbf02fadc87bf0b06c95d33e4a221cbd81d3b58af5b8044927348a450f5",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0049",
+      "text": "如果1磅棉花足以纺成1磅纱，那么生产1磅纱就只能耗费1磅棉花。",
+      "start_ms": 120,
+      "end_ms": 7640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0050",
+      "text": "纺锭也是如此。",
+      "start_ms": 8560,
+      "end_ms": 9880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0051",
+      "text": "假如资本家异想天开，偏要使用金纺锭而不用铁纺锭，纱的价值中仍然只能算入社会正常需要的劳动，也就是制造铁纺锭所需的劳动时间。",
+      "start_ms": 10280,
+      "end_ms": 25440,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0052",
+      "text": "现在我们已经知道，棉花和纺锭这两种生产资料给纱带来了多少价值：共计12先令，相当于两个工作日的劳动。",
+      "start_ms": 26400,
+      "end_ms": 39720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0053",
+      "text": "接下来要考察的是，纺纱工自己的劳动又给棉花增加了多少价值。",
+      "start_ms": 40640,
+      "end_ms": 47200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0054",
+      "text": "现在考察这种劳动的角度，与考察劳动过程时完全不同。",
+      "start_ms": 48160,
+      "end_ms": 53400,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

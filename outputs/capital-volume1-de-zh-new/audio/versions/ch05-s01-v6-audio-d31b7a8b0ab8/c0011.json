@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0011",
+  "audio_file": "c0011.mp3",
+  "text_sha256": "d4eac1642c3038c1ce58f68ed485a048742f2b7df542a61d79e3fa64cc08dfae",
+  "request_id": "b0e9e716-1504-476b-b7d9-5c6888c216cf",
+  "log_id": "20260803001949D67606B80245A5F1394F",
+  "duration_seconds": 68.9,
+  "bytes": 1102892,
+  "audio_sha256": "d08994f76d56c864dcce969c91ee954670c346e6b58084531fd76a5d3ba2893e",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0061",
+      "text": "这些条件虽然不直接参与加工，但没有它们，劳动就无法进行，或者只能很不顺利地进行。",
+      "start_ms": 160,
+      "end_ms": 8240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0062",
+      "text": "土地仍是这类条件中最普遍的一种，因为它给劳动者提供立足之处，也给劳动过程提供活动空间。",
+      "start_ms": 8920,
+      "end_ms": 19200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0063",
+      "text": "经过劳动建成的厂房、运河和道路等，也属于这类劳动手段。",
+      "start_ms": 20000,
+      "end_ms": 46400,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0064",
+      "text": "在劳动过程中，人通过劳动手段，有目的地改变劳动对象。",
+      "start_ms": 49280,
+      "end_ms": 54640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0065",
+      "text": "产品一旦完成，劳动过程也就结束了。",
+      "start_ms": 55120,
+      "end_ms": 58840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0066",
+      "text": "这个产品是一种使用价值，是经过形态改变、已经适合满足人类需要的自然材料。",
+      "start_ms": 59680,
+      "end_ms": 68720,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

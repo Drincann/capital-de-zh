@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0005",
+  "audio_file": "c0005.mp3",
+  "text_sha256": "02bf6f7704f0370f02613615506705189d363f02c8e5a69d46d1c2d7a74383aa",
+  "request_id": "c19d34d0-beb5-46c5-a717-feac4d6ddbad",
+  "log_id": "202608030121023068FC819B99851C0471",
+  "duration_seconds": 54.960975,
+  "bytes": 880172,
+  "audio_sha256": "dfe1139afadecfba5865a9ca16c621243874a5b8ac76540abbfec96bda1437f1",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0025",
+      "text": "如果价值12先令的黄金需要24小时，也就是两个工作日才能生产出来，那么首先可以确定，纱中已经包含两个工作日的劳动。",
+      "start_ms": 80,
+      "end_ms": 13000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0026",
+      "text": "棉花变成了纱，纺锭被磨损的部分也消失不见，但这不会改变上述计算。",
+      "start_ms": 13720,
+      "end_ms": 21200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0027",
+      "text": "按照一般的价值规律，假定40磅纱的价值等于40磅棉花加一根完整纺锭的价值，那么10磅纱的价值就等于10磅棉花加四分之一根纺锭的价值。",
+      "start_ms": 21560,
+      "end_ms": 35240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0028",
+      "text": "等式两边之所以价值相等，是因为生产它们需要同样多的劳动时间。",
+      "start_ms": 35720,
+      "end_ms": 41480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0029",
+      "text": "同一段劳动时间，可以体现在纱这种使用价值中，也可以体现在棉花和纺锭这两种使用价值中。",
+      "start_ms": 41960,
+      "end_ms": 49840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0030",
+      "text": "对价值来说，它是表现为纱、纺锭还是棉花都没有区别。",
+      "start_ms": 50440,
+      "end_ms": 54640,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

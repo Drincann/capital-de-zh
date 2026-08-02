@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0001",
+  "audio_file": "c0001.mp3",
+  "text_sha256": "bac3a57afc32fb314acaf27cfe9608ab2b9f0052a0ae3c7ac5313056a2300702",
+  "request_id": "a90d0e77-25e8-461a-8771-c4ee0ba3dbe4",
+  "log_id": "202608030120066E9D60C0C5C437F7F3BE",
+  "duration_seconds": 34.6556,
+  "bytes": 554924,
+  "audio_sha256": "35d6be18e3e54b78e8d421682a787fb30af4eea48fe8c9e1697ea6cacab5319e",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0001",
+      "text": "劳动过程生产出来的产品属于资本家。",
+      "start_ms": 160,
+      "end_ms": 3200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0002",
+      "text": "它是一种使用价值，比如纱或靴子。",
+      "start_ms": 4040,
+      "end_ms": 7840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0003",
+      "text": "靴子在某种意义上固然是社会进步的基础，我们的资本家也无疑是进步的热心支持者，但他生产靴子并不是因为喜爱靴子本身。",
+      "start_ms": 8240,
+      "end_ms": 18200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0004",
+      "text": "在商品生产中，人们只在使用价值能够充当交换价值的物质载体时，才会生产它。",
+      "start_ms": 18560,
+      "end_ms": 24720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0005",
+      "text": "资本家的目标有两个。",
+      "start_ms": 25160,
+      "end_ms": 26600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0006",
+      "text": "第一，他要生产一种具有交换价值的使用价值，也就是一种用来出售的商品。",
+      "start_ms": 27280,
+      "end_ms": 34400,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

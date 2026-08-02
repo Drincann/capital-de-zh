@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0004",
+  "audio_file": "c0004.mp3",
+  "text_sha256": "4824dbd4c1d9ac463a6fd503b81d3569a74725529aca902ea9e0186e368c9dde",
+  "request_id": "fae418ba-89af-4822-a35f-45c0dbfcf995",
+  "log_id": "2026080301205158EE7D913DCF9E7C5281",
+  "duration_seconds": 29.420725,
+  "bytes": 471212,
+  "audio_sha256": "99f303f3e52e3556a9813943fe29f0d3ceed81e3b8c73de737cd0d189c7fcbd4",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0019",
+      "text": "假定原料是10磅棉花。",
+      "start_ms": 200,
+      "end_ms": 2360,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0020",
+      "text": "这里不用重新计算棉花的价值，因为资本家已经在市场上按价值购买了它，价格是10先令。",
+      "start_ms": 3200,
+      "end_ms": 10160,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0021",
+      "text": "生产棉花所需的劳动，已经通过这个价格表现为一般社会劳动。",
+      "start_ms": 10800,
+      "end_ms": 15680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0022",
+      "text": "我们再假定，纺纱时磨损掉的那部分纺锭价值2先令。",
+      "start_ms": 16160,
+      "end_ms": 21560,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0023",
+      "text": "这里用纺锭代表其他一切劳动手段。",
+      "start_ms": 22280,
+      "end_ms": 25480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0024",
+      "text": "棉花和纺锭的价值合计12先令。",
+      "start_ms": 26160,
+      "end_ms": 29000,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

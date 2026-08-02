@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0018",
+  "audio_file": "c0018.mp3",
+  "text_sha256": "6d01ecb62dbac05e7aae598337622689cb505f57a56b25766b24f98616829063",
+  "request_id": "97dd123d-46c3-4b36-a88b-7324e01fa23f",
+  "log_id": "20260803012515B202AE3EA32413FB22A9",
+  "duration_seconds": 29.282975,
+  "bytes": 469292,
+  "audio_sha256": "27d1cec95fdcad91d755c8f6bdc9fd5d549faa043a4e9b96bf1465c4539dd5cf",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0103",
+      "text": "懂得庸俗经济学的资本家也许会说，他预付货币，本来就是为了赚到更多货币。",
+      "start_ms": 40,
+      "end_ms": 5640,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0104",
+      "text": "但通往地狱的路也铺满了良好愿望。",
+      "start_ms": 5840,
+      "end_ms": 8840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0105",
+      "text": "即使不从事生产，他也完全可以抱着赚钱的愿望。",
+      "start_ms": 9440,
+      "end_ms": 13120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0106",
+      "text": "他威胁说，再也不会上这种当了，以后不再自己生产，而到市场上购买成品。",
+      "start_ms": 13640,
+      "end_ms": 20040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0107",
+      "text": "可是，如果其他资本家都这样做，市场上的商品又从哪里来？",
+      "start_ms": 20920,
+      "end_ms": 26400,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0108",
+      "text": "何况货币不能当饭吃。",
+      "start_ms": 26880,
+      "end_ms": 28920,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

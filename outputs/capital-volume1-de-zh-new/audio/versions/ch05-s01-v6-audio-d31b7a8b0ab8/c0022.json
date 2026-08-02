@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0022",
+  "audio_file": "c0022.mp3",
+  "text_sha256": "a031f4bd414fb2a8f80ed2b070d6a973a0365487adf93c19c36c0c24fbba5f62",
+  "request_id": "46deb8a7-2ae9-43ce-80b0-cfc772e4dd72",
+  "log_id": "20260803011150D83247DBBB9C607C7391",
+  "duration_seconds": 35.35715,
+  "bytes": 566444,
+  "audio_sha256": "5bf5145affaea978a0fe1170af2b279ca6d7f6434d7164492474de186f23624e",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0127",
+      "text": "即使到了后来，生产中仍然会使用一些自然直接提供的条件。",
+      "start_ms": 0,
+      "end_ms": 5400,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0128",
+      "text": "这些生产资料只是自然物，并不包含人类过去的劳动。",
+      "start_ms": 6120,
+      "end_ms": 10680,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0129",
+      "text": "我们以上分析的，只是劳动过程最简单、最抽象的部分。",
+      "start_ms": 11320,
+      "end_ms": 16200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0130",
+      "text": "归结起来，劳动就是一种有目的的活动。",
+      "start_ms": 16840,
+      "end_ms": 20240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0131",
+      "text": "人通过劳动取得并改造自然物，生产使用价值，满足自己的需要。",
+      "start_ms": 20760,
+      "end_ms": 26880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0132",
+      "text": "劳动是人与自然进行物质交换的普遍条件，是人类生活永远离不开的自然条件。",
+      "start_ms": 27760,
+      "end_ms": 35000,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

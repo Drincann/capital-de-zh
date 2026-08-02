@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0019",
+  "audio_file": "c0019.mp3",
+  "text_sha256": "4d1ad45564123ae4345eba6436735f81a9f05a3349e8babdc8eef461f6366d01",
+  "request_id": "e81ce2f3-b310-4d64-8bbb-0a73b6129bde",
+  "log_id": "2026080301105188C956A2C3A3CA79A0E2",
+  "duration_seconds": 38.8757,
+  "bytes": 622508,
+  "audio_sha256": "5a140348abda2b296a3b3f0e279599a7f331bc26a5ed2b06d1ba31025dae87ae",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0109",
+      "text": "产品如果好用，过去劳动怎样使它获得这些用途，反而不会被人注意。",
+      "start_ms": 80,
+      "end_ms": 5800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0110",
+      "text": "机器如果不进入劳动过程，就毫无用处，还会在自然作用下不断损坏。",
+      "start_ms": 6440,
+      "end_ms": 12120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0111",
+      "text": "铁会生锈，木头会腐烂。",
+      "start_ms": 12680,
+      "end_ms": 14920,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0112",
+      "text": "纱线如果不拿去织布或编织，就只是已经变坏的棉花。",
+      "start_ms": 15600,
+      "end_ms": 20600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0113",
+      "text": "活劳动必须抓住这些东西，把它们从死物中唤醒，使它们从可能有用的东西变成真正发挥作用的使用价值。",
+      "start_ms": 21040,
+      "end_ms": 30240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0114",
+      "text": "它们被劳动的火焰卷入，成为劳动活动的一部分，按照各自在生产中的用途发挥作用。",
+      "start_ms": 30960,
+      "end_ms": 38520,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

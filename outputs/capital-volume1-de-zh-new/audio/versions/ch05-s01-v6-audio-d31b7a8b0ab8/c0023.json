@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0023",
+  "audio_file": "c0023.mp3",
+  "text_sha256": "b38c8c40f878f9923a35add109a37ac1126d25f1db3a4383cb60d327f1740f65",
+  "request_id": "b562d8d0-0701-4774-a74b-dea5811b0c46",
+  "log_id": "20260803011153C5A80760A55C563CF5B6",
+  "duration_seconds": 82,
+  "bytes": 1312556,
+  "audio_sha256": "aa6e8ba4782f3cd1b18eea516e0c458be1b1dd7772401b5df5c344c6e650fcfc",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0133",
+      "text": "因此，它不属于任何一种特定的社会形式，而为一切社会共有。",
+      "start_ms": 0,
+      "end_ms": 7653,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0134",
+      "text": "正因为如此，前面的分析只需要考察人怎样劳动、怎样对待自然，不必讨论他同其他劳动者的关系。",
+      "start_ms": 7653,
+      "end_ms": 19680,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0135",
+      "text": "就像尝一粒麦子无法知道是谁种的一样，单看劳动过程本身，也看不出它是在什么社会条件下进行的：劳动者可能在奴隶监工的鞭子下劳动，也可能在资本家的严密监视下劳动；可能是古罗马的辛辛纳图斯耕种自己的几亩地，也可能是原始猎人用石头击杀野兽。",
+      "start_ms": 19680,
+      "end_ms": 51113,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0136",
+      "text": "现在回到那位准备成为资本家的买主身上。",
+      "start_ms": 51113,
+      "end_ms": 56307,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0137",
+      "text": "前面说到，他已经在商品市场上买齐了劳动过程所需的各种要素：物质要素是生产资料，人的要素是劳动力。",
+      "start_ms": 56307,
+      "end_ms": 69427,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0138",
+      "text": "他以精明内行的眼光，挑选了适合自己所办企业的生产资料和劳动力，比如纺纱厂或制靴厂所需的一切。",
+      "start_ms": 69427,
+      "end_ms": 82000,
+      "timing_source": "duration_interpolation"
+    }
+  ]
+}

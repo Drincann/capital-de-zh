@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0029",
+  "audio_file": "c0029.mp3",
+  "text_sha256": "6b5f5bc201d1608e007c1bac6f6eb627a2bb5cfa99d6bcd0bb1533579106af98",
+  "request_id": "4d40a40b-ea8d-4593-8f1d-d8190b72e37b",
+  "log_id": "2026080301282060893DBF9B1DC5FD9698",
+  "duration_seconds": 35.42155,
+  "bytes": 567212,
+  "audio_sha256": "f48f66df37d9c3d47de120cbeccd214cc7a201d1b1f9cfdc66fd5e70b7bd0227",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0169",
+      "text": "他消费劳动力的过程，同时也是生产商品的过程，结果得到20磅价值30先令的纱。",
+      "start_ms": 120,
+      "end_ms": 6840,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0170",
+      "text": "资本家买完商品，又回到市场出售商品。",
+      "start_ms": 7360,
+      "end_ms": 10480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0171",
+      "text": "每磅纱仍按1先令6便士出售，既不高于也不低于它的价值。",
+      "start_ms": 10720,
+      "end_ms": 15920,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0172",
+      "text": "可是，他从流通中取出的货币，仍然比最初投入的多3先令。",
+      "start_ms": 16520,
+      "end_ms": 21880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0173",
+      "text": "货币变成资本的整个过程，既发生在流通领域，又不发生在流通领域。",
+      "start_ms": 22400,
+      "end_ms": 28160,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0174",
+      "text": "说它发生在流通领域，是因为资本家必须先在商品市场上买到劳动力，整个过程才能开始。",
+      "start_ms": 28680,
+      "end_ms": 35040,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

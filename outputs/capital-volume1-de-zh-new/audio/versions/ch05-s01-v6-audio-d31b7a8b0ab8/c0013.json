@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0013",
+  "audio_file": "c0013.mp3",
+  "text_sha256": "73e7285af5646b20260bde5279ba297c5ccb227b83b7d3b0aa7c80ce77edf66f",
+  "request_id": "dab1a3a5-a844-40fa-9f10-2e829af2550c",
+  "log_id": "20260803010859181C36466830041EF48F",
+  "duration_seconds": 51.497,
+  "bytes": 824492,
+  "audio_sha256": "84e19abf992c5aa0dfa8dbaca4572dc4f4dd88e6f0cd0ab19ea9f43858cef0db",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0073",
+      "text": "劳动本身则表现为生产产品的劳动，也就是生产劳动。",
+      "start_ms": 120,
+      "end_ms": 4800,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0074",
+      "text": "一种有用之物从某个劳动过程中作为产品出现时，另一些有用之物则会作为生产资料进入这个过程，而后者也是以往劳动过程的产品。",
+      "start_ms": 5760,
+      "end_ms": 21000,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0075",
+      "text": "同一种东西，可以是这一次劳动的产品，也可以成为下一次劳动的生产资料。",
+      "start_ms": 21760,
+      "end_ms": 29080,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0076",
+      "text": "因此，产品不只是劳动过程的结果，也是劳动过程得以进行的条件。",
+      "start_ms": 29800,
+      "end_ms": 37040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0077",
+      "text": "采矿、狩猎和捕鱼等采掘性行业，直接从自然界取得劳动对象。",
+      "start_ms": 38200,
+      "end_ms": 46120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s01-n0078",
+      "text": "农业在最初开垦从未耕种的土地时也是如此。",
+      "start_ms": 47000,
+      "end_ms": 51320,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

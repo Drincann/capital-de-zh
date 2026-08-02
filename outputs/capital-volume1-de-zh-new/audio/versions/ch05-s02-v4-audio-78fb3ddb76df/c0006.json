@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0006",
+  "audio_file": "c0006.mp3",
+  "text_sha256": "be77ceee33bf0b1bdfdf85b2e2588f88c3beebb28ed58f9e6bce556be3df87f3",
+  "request_id": "3502bba4-6c3d-438c-938c-d6c0eeab7f2d",
+  "log_id": "20260803012104240201E3110F2215A7FF",
+  "duration_seconds": 83.08,
+  "bytes": 1329836,
+  "audio_sha256": "e46014418513459796c5d82f963339281e7ee1a87d7ef89405c73367bf404d82",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0031",
+      "text": "纺锭和棉花没有静静放在一起，而是在纺纱中结合起来，改变了原来的用途和形态，最后变成纱，这也不会改变它们的价值。",
+      "start_ms": 240,
+      "end_ms": 17440,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0032",
+      "text": "就价值而言，这个过程同直接拿棉花和纺锭换取等值的纱没有区别。",
+      "start_ms": 18600,
+      "end_ms": 28720,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0033",
+      "text": "生产棉花所需的劳动时间，也是生产纱所需劳动时间的一部分，因为棉花是纱的原料。",
+      "start_ms": 29520,
+      "end_ms": 41240,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0034",
+      "text": "因此，这部分劳动时间也包含在纱中。",
+      "start_ms": 42000,
+      "end_ms": 47040,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0035",
+      "text": "生产纺锭所需的劳动时间也是如此，因为不磨损或消耗纺锭，就无法把棉花纺成纱。",
+      "start_ms": 47560,
+      "end_ms": 58880,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0036",
+      "text": "因此，只要我们考察的是纱的价值，也就是生产纱所需的劳动时间，那么几个在不同时间、不同地点进行的具体劳动过程，就可以看成同一个劳动过程先后相接的几个阶段。",
+      "start_ms": 59680,
+      "end_ms": 82960,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

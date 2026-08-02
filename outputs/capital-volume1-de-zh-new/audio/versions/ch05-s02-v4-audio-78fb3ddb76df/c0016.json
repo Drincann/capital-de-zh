@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0016",
+  "audio_file": "c0016.mp3",
+  "text_sha256": "de88d73e2f49de197d0d257f98daf0b0b427d2602e45d5fbe6f4281d0fe8fcad",
+  "request_id": "a2e9720b-c36e-4d56-aead-0459647e1efc",
+  "log_id": "20260803012453466F4404DC5F8F263EC4",
+  "duration_seconds": 74.08,
+  "bytes": 1185836,
+  "audio_sha256": "04e5cb6baf990eafdf3980b63f6e14ed6172cb2423336a6c6242bfd35d3057ee",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0091",
+      "text": "其中包含两个半工作日的劳动：棉花和磨损的纺锭中包含两个工作日，纺纱过程又增加了半个工作日。",
+      "start_ms": 0,
+      "end_ms": 13560,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0092",
+      "text": "两个半工作日所代表的黄金价值是15先令。",
+      "start_ms": 14520,
+      "end_ms": 20600,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0093",
+      "text": "因此，与10磅纱的价值相应的价格是15先令，每磅纱的价格是1先令6便士。",
+      "start_ms": 21760,
+      "end_ms": 34120,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0094",
+      "text": "资本家愣住了。",
+      "start_ms": 35080,
+      "end_ms": 36960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0095",
+      "text": "产品的价值正好等于他预付的资本，原有价值并没有增殖，没有产生剩余价值，货币也就没有变成资本。",
+      "start_ms": 37760,
+      "end_ms": 51960,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0096",
+      "text": "10磅纱值15先令，而资本家购买生产这些纱所需的各种要素也正好花了15先令：棉花10先令，磨损的纺锭2先令，劳动力3先令。",
+      "start_ms": 53080,
+      "end_ms": 73840,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}

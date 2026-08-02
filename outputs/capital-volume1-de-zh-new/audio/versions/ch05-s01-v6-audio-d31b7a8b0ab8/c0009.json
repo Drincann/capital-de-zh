@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0009",
+  "audio_file": "c0009.mp3",
+  "text_sha256": "1111571c3343f53edb2263d28679c13482a461e40f3173d7fcebec353f11e21c",
+  "request_id": "b02508d9-86ec-45a9-8932-d0a5f0873dda",
+  "log_id": "202608030019244FDF1FD4CDFBF41CEE88",
+  "duration_seconds": 35.775075,
+  "bytes": 572972,
+  "audio_sha256": "c37b7e2c9f9fdaaa1048ae10c48ee13ba0307540574d3d0883929b28864b28fd",
+  "sentences": [
+    {
+      "id": "ch05-s01-n0049",
+      "text": "劳动过程只要发展到一定程度，就会使用加工过的劳动手段。",
+      "start_ms": 0,
+      "end_ms": 5396,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0050",
+      "text": "最古老的人类洞穴中已经发现了石制工具和武器。",
+      "start_ms": 5396,
+      "end_ms": 9793,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0051",
+      "text": "人类早期除了使用加工过的石头、木头、骨头和贝壳，驯养的动物也在劳动手段中居于主要地位。",
+      "start_ms": 9793,
+      "end_ms": 18387,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0052",
+      "text": "这些动物本身已经经过人的劳动改造和培育。",
+      "start_ms": 18387,
+      "end_ms": 22384,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0053",
+      "text": "少数动物也会在很初步的意义上使用甚至制造工具，但使用和制造劳动手段仍是人类劳动的典型特征。",
+      "start_ms": 22384,
+      "end_ms": 31378,
+      "timing_source": "duration_interpolation"
+    },
+    {
+      "id": "ch05-s01-n0054",
+      "text": "因此，富兰克林把人定义为“制造工具的动物”。",
+      "start_ms": 31378,
+      "end_ms": 35775,
+      "timing_source": "duration_interpolation"
+    }
+  ]
+}

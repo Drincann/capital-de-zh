@@ -1,0 +1,54 @@
+{
+  "chunk_id": "c0028",
+  "audio_file": "c0028.mp3",
+  "text_sha256": "fa84ff75a94fcfa559174d6e28679cc1061aa80870df2946dc4e565db16bf23a",
+  "request_id": "6ef5ec29-0b3a-414e-813b-47add854bddf",
+  "log_id": "2026080301275003F840D341455122B264",
+  "duration_seconds": 37.5,
+  "bytes": 600620,
+  "audio_sha256": "4add2e71bca5934189b55eeb1f37150de741b4eeb1c28cff40bdc914a38a0568",
+  "sentences": [
+    {
+      "id": "ch05-s02-n0163",
+      "text": "产品的价值比预付价值增加了九分之一。",
+      "start_ms": 0,
+      "end_ms": 3480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0164",
+      "text": "27先令变成了30先令，产生了3先令的剩余价值。",
+      "start_ms": 3960,
+      "end_ms": 9520,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0165",
+      "text": "这个戏法终于成功了：货币变成了资本。",
+      "start_ms": 10240,
+      "end_ms": 15280,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0166",
+      "text": "问题的所有条件都得到了解决，商品交换的规律也丝毫没有遭到破坏。",
+      "start_ms": 16120,
+      "end_ms": 22200,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0167",
+      "text": "资本家用等价物交换等价物，购买棉花、纺锭和劳动力时，都按各自的价值付款。",
+      "start_ms": 23000,
+      "end_ms": 31480,
+      "timing_source": "provider_subtitle"
+    },
+    {
+      "id": "ch05-s02-n0168",
+      "text": "接下来，他像任何商品买主一样，使用这些商品的使用价值。",
+      "start_ms": 32240,
+      "end_ms": 37320,
+      "timing_source": "provider_subtitle"
+    }
+  ]
+}
