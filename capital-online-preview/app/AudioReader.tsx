@@ -38,6 +38,7 @@ type AudioManifest = {
 const sentencePattern = /[^。！？!?]+(?:[。！？!?]+[”’」』》）)]*)|[^。！？!?]+$/g;
 const maximumSentenceCharacters = 220;
 const sentenceClickLeadInMs = 240;
+const viewportFollowStorageKey = "capital-reader-audio-viewport-follow";
 
 function normalize(value: string) {
   return value.replace(/\s+/g, " ").trim();
@@ -329,6 +330,7 @@ export function AudioReader({
   const [elapsedMs, setElapsedMs] = useState(0);
   const [scrubMs, setScrubMs] = useState<number | null>(null);
   const [rate, setRate] = useState(1);
+  const [followViewport, setFollowViewport] = useState(true);
   const audioRef = useRef<HTMLAudioElement>(null);
   const pendingStart = useRef<{ chunkId: string; time: number; autoplay: boolean } | null>(null);
   const playSentenceRef = useRef<(sentenceId: string) => void>(() => {});
@@ -349,6 +351,11 @@ export function AudioReader({
     }
     return result;
   }, [manifest]);
+
+  useEffect(() => {
+    const stored = window.localStorage.getItem(viewportFollowStorageKey);
+    if (stored === "off") setFollowViewport(false);
+  }, []);
 
   useEffect(() => {
     return () => {
@@ -421,7 +428,7 @@ export function AudioReader({
           sentenceId === activeSentenceId,
         );
       });
-    if (!activeSentenceId) return;
+    if (!activeSentenceId || !followViewport) return;
     const primary = document.querySelector<HTMLElement>(
       `[data-narration-sentence="${activeSentenceId}"]`,
     );
@@ -434,7 +441,7 @@ export function AudioReader({
         block: "center",
       });
     }
-  }, [activeSentenceId]);
+  }, [activeSentenceId, followViewport]);
 
   useEffect(() => {
     if (!("mediaSession" in navigator)) return;
@@ -460,6 +467,19 @@ export function AudioReader({
     return new URL(chunk.audio_file, manifestUrl).href;
   }
 
+  function startLoadedAudio(
+    audio: HTMLAudioElement,
+    time: number,
+    autoplay: boolean,
+  ) {
+    const maximumTime = Number.isFinite(audio.duration)
+      ? Math.max(0, audio.duration - 0.05)
+      : time;
+    audio.currentTime = Math.min(time, maximumTime);
+    pendingStart.current = null;
+    if (autoplay) void audio.play();
+  }
+
   function loadChunk(chunkId: string, time: number, autoplay: boolean) {
     const audio = audioRef.current;
     const chunk = manifest?.chunks.find((item) => item.id === chunkId);
@@ -471,10 +491,8 @@ export function AudioReader({
     if (audio.src !== source) {
       audio.src = source;
       audio.load();
-    } else {
-      audio.currentTime = time;
-      pendingStart.current = null;
-      if (autoplay) void audio.play();
+    } else if (audio.readyState >= HTMLMediaElement.HAVE_METADATA) {
+      startLoadedAudio(audio, time, autoplay);
     }
   }
 
@@ -531,6 +549,14 @@ export function AudioReader({
 
   function nextSentence() {
     sentenceStep(1);
+  }
+
+  function toggleViewportFollow() {
+    setFollowViewport((current) => {
+      const next = !current;
+      window.localStorage.setItem(viewportFollowStorageKey, next ? "on" : "off");
+      return next;
+    });
   }
 
   function updatePlayback() {
@@ -629,9 +655,7 @@ export function AudioReader({
           ) {
             return;
           }
-          audio.currentTime = Math.min(pending.time, Math.max(0, audio.duration - 0.05));
-          pendingStart.current = null;
-          if (pending.autoplay) void audio.play();
+          startLoadedAudio(audio, pending.time, pending.autoplay);
         }}
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
@@ -674,6 +698,17 @@ export function AudioReader({
             </button>
             <button type="button" onClick={nextSentence} aria-label="下一句">›</button>
             <p title={activeText}>{activeText}</p>
+            <button
+              className="narration-follow"
+              type="button"
+              aria-pressed={followViewport}
+              aria-label={`视口跟随${followViewport ? "已开启" : "已关闭"}`}
+              title={`视口跟随${followViewport ? "已开启" : "已关闭"}`}
+              onClick={toggleViewportFollow}
+            >
+              <span className="narration-follow-icon" aria-hidden="true"><i /></span>
+              <span className="narration-follow-label">跟随</span>
+            </button>
             <PlaybackRatePicker
               value={rate}
               onChange={(next) => {

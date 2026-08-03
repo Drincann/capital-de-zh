@@ -193,6 +193,10 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(audioReader, /narration-play-icon/);
   assert.match(audioReader, /narrationCompanion/);
   assert.match(audioReader, /\[data-narration-sentence\], \.katex/);
+  assert.match(audioReader, /aria-pressed=\{followViewport\}/);
+  assert.match(audioReader, /!activeSentenceId \|\| !followViewport/);
+  assert.match(audioReader, /readyState >= HTMLMediaElement\.HAVE_METADATA/);
+  assert.match(audioReader, /startLoadedAudio\(audio, pending\.time, pending\.autoplay\)/);
   assert.doesNotMatch(audioReader, /Ⅱ/);
   assert.match(css, /\.narration-current/);
   assert.match(
