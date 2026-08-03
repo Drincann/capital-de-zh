@@ -4,8 +4,10 @@
 
 ## 状态文件
 
-- `config.json`：正式音色、模型、音频格式和分块参数。
+- `models.json`：可选语音模型及各自的音色、格式和分块参数。
+- `config.json`：旧版单模型配置，保留用于向后兼容。
 - `index.json`：所有语音版本与最近生成任务的摘要。
+- `adoptions.json`：每个译文版本当前采用的语音版本。
 - `versions/<audio-version-id>/manifest.json`：不可变的语音清单，记录逐句时间和音频块。
 - `jobs.jsonl`：生成过程的追加式事件日志。
 
@@ -14,9 +16,11 @@
 在仓库根目录运行：
 
 ```powershell
-node outputs/capital-volume1-de-zh-new/audio/scripts/audio-controller.mjs generate --unit ch07-s04
+node outputs/capital-volume1-de-zh-new/audio/scripts/audio-controller.mjs generate --unit ch07-s04 --model seed-tts-2.0
 ```
 
-控制器只为当前采用版本生成语音。它会先核对译文哈希，再按短音频块生成；重复执行会复用已经成功的音频块。API 密钥从环境变量 `VOLCENGINE_API_KEY_FILE` 指向的文件读取；未设置时使用仓库本地的 `keys/volcengine-api-key.txt`。密钥不写入任何项目文件。
+控制器只为当前采用的译文生成语音。同一译文可以分别生成 `seed-audio-1.0` 和 `seed-tts-2.0`，各自形成独立语音版本，互不覆盖。新版本生成完成后不会自动替换当前语音，需在本地工作台试听并采用。
+
+控制器会先核对译文哈希，再按短音频块生成；重复执行会复用已经成功的音频块。API 密钥从环境变量 `VOLCENGINE_API_KEY_FILE` 指向的文件读取；未设置时使用仓库本地的 `keys/volcengine-api-key.txt`。密钥不写入任何项目文件。
 
 `status` 查看状态，`validate` 检查所有 ready 语音是否仍能通过版本、哈希、文件和逐句映射校验。

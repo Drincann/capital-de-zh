@@ -5,6 +5,7 @@ import {
   mkdir,
   readFile,
   rename,
+  rm,
   stat,
   writeFile,
 } from "node:fs/promises";
@@ -17,6 +18,7 @@ const projectRoot = path.resolve(scriptRoot, "..", "..");
 const repoRoot = path.resolve(projectRoot, "..", "..");
 const audioRoot = path.join(projectRoot, "audio");
 const configPath = path.join(audioRoot, "config.json");
+const modelsPath = path.join(audioRoot, "models.json");
 const indexPath = path.join(audioRoot, "index.json");
 const jobsPath = path.join(audioRoot, "jobs.jsonl");
 const previewRoot = path.join(repoRoot, "capital-online-preview");
@@ -37,11 +39,193 @@ async function readJson(file) {
   return JSON.parse(await readFile(file, "utf8"));
 }
 
-async function writeJsonAtomic(file, value) {
+async function loadModelProfile(modelId = "") {
+  if (!(await exists(modelsPath))) {
+    const legacy = await readJson(configPath);
+    return {
+      ...legacy,
+      id: legacy.model || "seed-audio-1.0",
+      label: "现有模型 1.0",
+      transport: "audio-create-http",
+    };
+  }
+  const catalog = await readJson(modelsPath);
+  const selectedId = modelId || catalog.default_model_id;
+  const profile = (catalog.models || []).find((item) => item.id === selectedId);
+  if (!profile) throw new Error(`未知语音模型：${selectedId}`);
+  return profile;
+}
+
+const atomicWriteQueues = new Map();
+
+async function writeJsonAtomicOnce(file, value) {
   await mkdir(path.dirname(file), { recursive: true });
-  const temporary = `${file}.${process.pid}.tmp`;
-  await writeFile(temporary, `${JSON.stringify(value, null, 2)}\n`, "utf8");
-  await rename(temporary, file);
+  const temporary = `${file}.${process.pid}.${randomUUID()}.tmp`;
+  try {
+    await writeFile(temporary, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+    await rename(temporary, file);
+  } finally {
+    await rm(temporary, { force: true }).catch(() => {});
+  }
+}
+
+async function writeJsonAtomic(file, value) {
+  const previous = atomicWriteQueues.get(file) || Promise.resolve();
+  const operation = previous
+    .catch(() => {})
+    .then(() => writeJsonAtomicOnce(file, value));
+  atomicWriteQueues.set(file, operation);
+  try {
+    await operation;
+  } finally {
+    if (atomicWriteQueues.get(file) === operation) atomicWriteQueues.delete(file);
+  }
+}
+
+const delay = (milliseconds) =>
+  new Promise((resolve) => setTimeout(resolve, milliseconds));
+
+function isRetryableGenerationError(error) {
+  const status = Number(error?.status || 0);
+  if (status === 408 || status === 409 || status === 425 || status === 429) {
+    return true;
+  }
+  if (status >= 500 && status <= 599) return true;
+  if (error?.name === "AbortError" || error?.name === "TimeoutError") return true;
+  return /fetch failed|network|socket|ECONNRESET|ETIMEDOUT|EAI_AGAIN|closed the stream/i.test(
+    error instanceof Error ? error.message : String(error),
+  );
+}
+
+async function retryTransient(
+  operation,
+  {
+    maxAttempts = 8,
+    baseDelayMs = 3_000,
+    maximumDelayMs = 60_000,
+    onRetry = async () => {},
+    sleep = delay,
+  } = {},
+) {
+  let attempt = 1;
+  while (true) {
+    try {
+      return await operation(attempt);
+    } catch (error) {
+      if (attempt >= maxAttempts || !isRetryableGenerationError(error)) {
+        throw error;
+      }
+      const backoffDelayMs = Math.min(
+        maximumDelayMs,
+        Math.round(baseDelayMs * 2 ** (attempt - 1) * (0.85 + Math.random() * 0.3)),
+      );
+      const delayMs = Math.max(
+        backoffDelayMs,
+        Math.min(maximumDelayMs, Number(error?.retryAfterMs || 0)),
+      );
+      await onRetry({ attempt, nextAttempt: attempt + 1, delayMs, error });
+      await sleep(delayMs);
+      attempt += 1;
+    }
+  }
+}
+
+async function processIsRunning(pid) {
+  if (!Number.isInteger(pid) || pid <= 0) return false;
+  try {
+    process.kill(pid, 0);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function acquireDirectoryLock(
+  lockDirectory,
+  {
+    pollIntervalMs = 1_000,
+    ownerlessStaleMs = 30_000,
+    maximumWaitMs = 12 * 60 * 60 * 1_000,
+    sleep = delay,
+  } = {},
+) {
+  const ownerPath = path.join(lockDirectory, "owner.json");
+  const waitStartedAt = Date.now();
+  while (true) {
+    try {
+      await mkdir(lockDirectory);
+      await writeFile(
+        ownerPath,
+        `${JSON.stringify({ pid: process.pid, acquired_at: new Date().toISOString() }, null, 2)}\n`,
+        "utf8",
+      );
+      let released = false;
+      return async () => {
+        if (released) return;
+        released = true;
+        await rm(lockDirectory, { recursive: true, force: true });
+      };
+    } catch (error) {
+      if (error?.code !== "EEXIST") throw error;
+    }
+
+    let stale = false;
+    try {
+      const owner = await readJson(ownerPath);
+      stale = !(await processIsRunning(Number(owner.pid)));
+    } catch {
+      try {
+        const details = await stat(lockDirectory);
+        stale = Date.now() - details.mtimeMs >= ownerlessStaleMs;
+      } catch {
+        continue;
+      }
+    }
+    if (stale) {
+      await rm(lockDirectory, { recursive: true, force: true }).catch(() => {});
+      continue;
+    }
+    if (Date.now() - waitStartedAt >= maximumWaitMs) {
+      throw new Error("等待其他语音生成任务完成超时。");
+    }
+    await sleep(pollIntervalMs);
+  }
+}
+
+function createSerializedJsonUpdater(file) {
+  let queue = Promise.resolve();
+  return (mutator) => {
+    const update = queue.then(async () => {
+      const value = await readJson(file);
+      mutator(value);
+      value.updated_at = new Date().toISOString();
+      await writeJsonAtomic(file, value);
+      return value;
+    });
+    queue = update.catch(() => {});
+    return update;
+  };
+}
+
+async function runWorkerQueue(itemCount, concurrency, worker) {
+  let cursor = 0;
+  let firstError = null;
+  const workers = Array.from(
+    { length: Math.max(1, Math.min(concurrency, itemCount || 1)) },
+    async () => {
+      while (cursor < itemCount && !firstError) {
+        const current = cursor;
+        cursor += 1;
+        try {
+          await worker(current);
+        } catch (error) {
+          firstError ||= error;
+        }
+      }
+    },
+  );
+  await Promise.all(workers);
+  if (firstError) throw firstError;
 }
 
 async function appendJobEvent(event) {
@@ -175,6 +359,47 @@ function normalized(value) {
   return String(value || "").replace(/\s+/g, "").trim();
 }
 
+function parseJsonStream(value) {
+  const source = String(value || "").replace(/^\uFEFF/, "");
+  const results = [];
+  let start = -1;
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+  for (let index = 0; index < source.length; index += 1) {
+    const character = source[index];
+    if (start < 0) {
+      if (/\s/.test(character)) continue;
+      if (character !== "{") {
+        throw new Error(`语音接口返回了无法识别的数据：${source.slice(index, index + 80)}`);
+      }
+      start = index;
+      depth = 1;
+      continue;
+    }
+    if (inString) {
+      if (escaped) escaped = false;
+      else if (character === "\\") escaped = true;
+      else if (character === '"') inString = false;
+      continue;
+    }
+    if (character === '"') inString = true;
+    else if (character === "{") depth += 1;
+    else if (character === "}") {
+      depth -= 1;
+      if (depth === 0) {
+        results.push(JSON.parse(source.slice(start, index + 1)));
+        start = -1;
+      }
+    }
+  }
+  if (start >= 0 || inString || depth !== 0) {
+    throw new Error("语音接口返回了不完整的 JSON 数据。");
+  }
+  if (!results.length) throw new Error("语音接口没有返回任何数据。");
+  return results;
+}
+
 function sentenceTimings(sourceSentences, subtitle, durationSeconds) {
   const generated = Array.isArray(subtitle?.sentences)
     ? subtitle.sentences
@@ -214,7 +439,64 @@ function sentenceTimings(sourceSentences, subtitle, durationSeconds) {
   });
 }
 
-async function generateChunk(apiKey, config, directory, chunk) {
+function sentenceTimingsFromWords(
+  sourceSentences,
+  providerSentences,
+  durationSeconds,
+) {
+  const words = (providerSentences || [])
+    .flatMap((sentence) => sentence?.words || [])
+    .filter(
+      (word) =>
+        normalized(word?.word) &&
+        Number.isFinite(Number(word?.startTime)) &&
+        Number.isFinite(Number(word?.endTime)),
+    );
+  const sourceText = normalized(
+    sourceSentences.map((sentence) => sentence.text).join(""),
+  );
+  const generatedText = normalized(words.map((word) => word.word).join(""));
+  if (!words.length || generatedText !== sourceText) {
+    return sentenceTimings(sourceSentences, null, durationSeconds);
+  }
+
+  let sourceOffset = 0;
+  let wordIndex = 0;
+  let generatedOffset = 0;
+  return sourceSentences.map((sentence) => {
+    const sentenceLength = [...normalized(sentence.text)].length;
+    const sentenceStart = sourceOffset;
+    const sentenceEnd = sourceOffset + sentenceLength;
+    while (
+      wordIndex < words.length &&
+      generatedOffset + [...normalized(words[wordIndex].word)].length <= sentenceStart
+    ) {
+      generatedOffset += [...normalized(words[wordIndex].word)].length;
+      wordIndex += 1;
+    }
+    const firstWord = words[Math.min(wordIndex, words.length - 1)];
+    let lastWord = firstWord;
+    let cursor = wordIndex;
+    let cursorOffset = generatedOffset;
+    while (cursor < words.length && cursorOffset < sentenceEnd) {
+      lastWord = words[cursor];
+      cursorOffset += [...normalized(words[cursor].word)].length;
+      cursor += 1;
+    }
+    sourceOffset = sentenceEnd;
+    wordIndex = cursor;
+    generatedOffset = cursorOffset;
+    return {
+      id: sentence.id,
+      text: sentence.text,
+      start_ms: Math.round(Number(firstWord.startTime) * 1000),
+      end_ms: Math.round(Number(lastWord.endTime) * 1000),
+      timing_source: "provider_word_timestamps",
+    };
+  });
+}
+
+async function generateAudioCreateChunkRequest(apiKey, config, directory, chunk) {
   const audioFile = `${chunk.id}.mp3`;
   const metadataFile = `${chunk.id}.json`;
   const audioPath = path.join(directory, audioFile);
@@ -244,9 +526,21 @@ async function generateChunk(apiKey, config, directory, chunk) {
   const logId = response.headers.get("x-tt-logid") || "";
   const payload = await response.json().catch(() => ({}));
   if (!response.ok || (!payload.audio && !payload.url)) {
-    throw new Error(
+    const error = new Error(
       `${chunk.id} 生成失败：HTTP ${response.status} ${payload.message || payload.code || "缺少音频"} logid=${logId}`,
     );
+    error.status = response.status;
+    const retryAfter = response.headers.get("retry-after");
+    if (retryAfter) {
+      const seconds = Number(retryAfter);
+      const retryAt = Date.parse(retryAfter);
+      error.retryAfterMs = Number.isFinite(seconds)
+        ? seconds * 1_000
+        : Number.isFinite(retryAt)
+          ? Math.max(0, retryAt - Date.now())
+          : 0;
+    }
+    throw error;
   }
 
   let audioBytes;
@@ -257,7 +551,11 @@ async function generateChunk(apiKey, config, directory, chunk) {
       signal: AbortSignal.timeout(120_000),
     });
     if (!audioResponse.ok) {
-      throw new Error(`${chunk.id} 音频下载失败：HTTP ${audioResponse.status}`);
+      const error = new Error(
+        `${chunk.id} 音频下载失败：HTTP ${audioResponse.status}`,
+      );
+      error.status = audioResponse.status;
+      throw error;
     }
     audioBytes = Buffer.from(await audioResponse.arrayBuffer());
   }
@@ -281,18 +579,161 @@ async function generateChunk(apiKey, config, directory, chunk) {
   return metadata;
 }
 
-async function updateIndex(mutator) {
-  const index = await readJson(indexPath);
-  mutator(index);
-  index.updated_at = new Date().toISOString();
-  await writeJsonAtomic(indexPath, index);
-  return index;
+async function generateTtsHttpChunkRequest(
+  apiKey,
+  config,
+  directory,
+  chunk,
+  sectionId,
+) {
+  const audioFile = `${chunk.id}.mp3`;
+  const metadataFile = `${chunk.id}.json`;
+  const audioPath = path.join(directory, audioFile);
+  const metadataPath = path.join(directory, metadataFile);
+  if ((await exists(audioPath)) && (await exists(metadataPath))) {
+    const cached = await readJson(metadataPath);
+    if (cached.text_sha256 === sha256(chunk.text)) return cached;
+  }
+
+  const requestId = randomUUID();
+  const requestParams = {
+    text: chunk.text,
+    model: config.model,
+    speaker: config.speaker,
+    audio_params: config.audio_config,
+    additions: JSON.stringify({
+      disable_markdown_filter: true,
+      disable_emoji_filter: true,
+      explicit_language: "zh-cn",
+    }),
+    section_id: sectionId,
+  };
+  if (config.prompt) requestParams.context_texts = [config.prompt];
+
+  const response = await fetch(config.endpoint, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Connection: "keep-alive",
+      "X-Api-Key": apiKey,
+      "X-Api-Resource-Id": config.resource_id,
+      "X-Api-Request-Id": requestId,
+      "X-Control-Require-Usage-Tokens-Return": "*",
+    },
+    body: JSON.stringify({ req_params: requestParams }),
+    signal: AbortSignal.timeout(300_000),
+  });
+  const logId = response.headers.get("x-tt-logid") || "";
+  const body = await response.text();
+  if (!response.ok) {
+    const error = new Error(
+      `${chunk.id} 生成失败：HTTP ${response.status} ${body.slice(0, 300)} logid=${logId}`,
+    );
+    error.status = response.status;
+    const retryAfter = response.headers.get("retry-after");
+    if (retryAfter) {
+      const seconds = Number(retryAfter);
+      const retryAt = Date.parse(retryAfter);
+      error.retryAfterMs = Number.isFinite(seconds)
+        ? seconds * 1_000
+        : Number.isFinite(retryAt)
+          ? Math.max(0, retryAt - Date.now())
+          : 0;
+    }
+    throw error;
+  }
+
+  const responses = parseJsonStream(body);
+  const audioParts = [];
+  const providerSentences = [];
+  const usage = {};
+  for (const item of responses) {
+    const code = Number(item.code || 0);
+    if (code !== 0 && code !== 20_000_000) {
+      throw new Error(
+        `${chunk.id} 生成失败：${code} ${item.message || "语音接口返回错误"}`,
+      );
+    }
+    if (item.data) audioParts.push(Buffer.from(item.data, "base64"));
+    if (item.sentence && typeof item.sentence === "object") {
+      providerSentences.push(item.sentence);
+    }
+    if (item.usage && typeof item.usage === "object") {
+      Object.assign(usage, item.usage);
+    }
+  }
+  if (!audioParts.length) {
+    throw new Error(`${chunk.id} 生成失败：语音接口没有返回音频。`);
+  }
+
+  const audioBytes = Buffer.concat(audioParts);
+  const providerWords = providerSentences.flatMap(
+    (sentence) => sentence.words || [],
+  );
+  const lastWordEnd = Math.max(
+    0,
+    ...providerWords.map((word) => Number(word.endTime || 0)),
+  );
+  if (!lastWordEnd) {
+    throw new Error(`${chunk.id} 生成失败：语音接口没有返回可用的字级时间戳。`);
+  }
+  const durationSeconds = lastWordEnd + 0.15;
+  await writeFile(audioPath, audioBytes);
+  const metadata = {
+    chunk_id: chunk.id,
+    audio_file: audioFile,
+    text_sha256: sha256(chunk.text),
+    request_id: requestId,
+    log_id: logId,
+    duration_seconds: durationSeconds,
+    bytes: audioBytes.length,
+    audio_sha256: sha256(audioBytes),
+    provider_response_count: responses.length,
+    usage,
+    sentences: sentenceTimingsFromWords(
+      chunk.sentences,
+      providerSentences,
+      durationSeconds,
+    ),
+  };
+  await writeJsonAtomic(metadataPath, metadata);
+  return metadata;
 }
 
-async function generate(unitId) {
+async function generateChunk(
+  apiKey,
+  config,
+  directory,
+  chunk,
+  sectionId,
+  onRetry,
+) {
+  const audioPath = path.join(directory, `${chunk.id}.mp3`);
+  const metadataPath = path.join(directory, `${chunk.id}.json`);
+  if ((await exists(audioPath)) && (await exists(metadataPath))) {
+    const cached = await readJson(metadataPath);
+    if (cached.text_sha256 === sha256(chunk.text)) return cached;
+  }
+  const request =
+    config.transport === "tts-unidirectional-http"
+      ? () =>
+          generateTtsHttpChunkRequest(
+            apiKey,
+            config,
+            directory,
+            chunk,
+            sectionId,
+          )
+      : () => generateAudioCreateChunkRequest(apiKey, config, directory, chunk);
+  return retryTransient(request, { onRetry });
+}
+
+const updateIndex = createSerializedJsonUpdater(indexPath);
+
+async function generateUnlocked(unitId, modelId = "") {
   if (!unitId) throw new Error("缺少 --unit。");
   const [config, source] = await Promise.all([
-    readJson(configPath),
+    loadModelProfile(modelId),
     adoptedVersion(unitId),
   ]);
   const content = await narrationContent(source);
@@ -315,6 +756,9 @@ async function generate(unitId) {
       translation_version_id: source.versionId,
       translation_sha256: source.translationSha256,
       config_sha256: configSha256,
+      model_id: config.id,
+      model_label: config.label,
+      transport: config.transport,
       status: "generating",
       manifest_path: relativeManifestPath,
       created_at: startedAt,
@@ -328,6 +772,8 @@ async function generate(unitId) {
         unit_id: unitId,
         translation_version_id: source.versionId,
         audio_version_id: audioVersionId,
+        model_id: config.id,
+        model_label: config.label,
         status: "generating",
         created_at: startedAt,
         updated_at: startedAt,
@@ -347,51 +793,73 @@ async function generate(unitId) {
     if (!apiKey) throw new Error("语音 API 密钥文件为空。");
 
     const results = new Array(planned.length);
-    let cursor = 0;
     let completed = 0;
-    const workers = Array.from(
-      {
-        length: Math.max(
-          1,
-          Math.min(Number(config.generation_concurrency || 1), planned.length),
-        ),
-      },
-      async () => {
-        while (cursor < planned.length) {
-          const current = cursor;
-          cursor += 1;
-          results[current] = await generateChunk(
-            apiKey,
-            config,
-            versionRoot,
-            planned[current],
+    await runWorkerQueue(
+      planned.length,
+      Number(config.generation_concurrency || 1),
+      async (current) => {
+        const chunk = planned[current];
+        results[current] = await generateChunk(
+          apiKey,
+          config,
+          versionRoot,
+          chunk,
+          audioVersionId,
+          async ({ nextAttempt, delayMs, error }) => {
+            const message = error instanceof Error ? error.message : String(error);
+            const retriedAt = new Date().toISOString();
+            await updateIndex((index) => {
+              const record = index.audio_versions.find(
+                (item) => item.audio_version_id === audioVersionId,
+              );
+              if (record) {
+                record.updated_at = retriedAt;
+                record.retrying_chunk = chunk.id;
+                record.retry_attempt = nextAttempt;
+                record.last_retry_error = message;
+              }
+              const job = index.jobs.find((item) => item.job_id === jobId);
+              if (job) job.updated_at = retriedAt;
+            });
+            await appendJobEvent({
+              job_id: jobId,
+              unit_id: unitId,
+              status: "chunk_retry",
+              chunk_id: chunk.id,
+              next_attempt: nextAttempt,
+              delay_ms: delayMs,
+              error: message,
+            });
+          },
+        );
+        completed += 1;
+        const completedChunks = completed;
+        await updateIndex((index) => {
+          const record = index.audio_versions.find(
+            (item) => item.audio_version_id === audioVersionId,
           );
-          completed += 1;
-          await updateIndex((index) => {
-            const record = index.audio_versions.find(
-              (item) => item.audio_version_id === audioVersionId,
-            );
-            if (record) {
-              record.completed_chunks = completed;
-              record.chunk_count = planned.length;
-              record.updated_at = new Date().toISOString();
-            }
-          });
-          await appendJobEvent({
-            job_id: jobId,
-            unit_id: unitId,
-            status: "chunk_ready",
-            chunk_id: planned[current].id,
-            completed_chunks: completed,
-            chunk_count: planned.length,
-          });
-          process.stdout.write(
-            `语音块 ${completed}/${planned.length} ${planned[current].id}\n`,
-          );
-        }
+          if (record) {
+            record.completed_chunks = completedChunks;
+            record.chunk_count = planned.length;
+            record.updated_at = new Date().toISOString();
+            delete record.retrying_chunk;
+            delete record.retry_attempt;
+            delete record.last_retry_error;
+          }
+        });
+        await appendJobEvent({
+          job_id: jobId,
+          unit_id: unitId,
+          status: "chunk_ready",
+          chunk_id: chunk.id,
+          completed_chunks: completedChunks,
+          chunk_count: planned.length,
+        });
+        process.stdout.write(
+          `语音块 ${completedChunks}/${planned.length} ${chunk.id}\n`,
+        );
       },
     );
-    await Promise.all(workers);
 
     const chunks = results.map((result) => ({
       id: result.chunk_id,
@@ -416,6 +884,9 @@ async function generate(unitId) {
       translation_version_id: source.versionId,
       translation_sha256: source.translationSha256,
       config_sha256: configSha256,
+      model_id: config.id,
+      model_label: config.label,
+      transport: config.transport,
       speaker: config.speaker,
       model: config.model,
       created_at: startedAt,
@@ -477,6 +948,18 @@ async function generate(unitId) {
   }
 }
 
+async function generate(unitId, modelId = "") {
+  if (!unitId) throw new Error("缺少 --unit。");
+  const releaseLock = await acquireDirectoryLock(
+    path.join(audioRoot, ".generation.lock"),
+  );
+  try {
+    return await generateUnlocked(unitId, modelId);
+  } finally {
+    await releaseLock();
+  }
+}
+
 async function validate() {
   const index = await readJson(indexPath);
   const problems = [];
@@ -518,8 +1001,25 @@ async function status(unitId) {
   console.log(JSON.stringify({ updated_at: index.updated_at, audio_versions: versions }, null, 2));
 }
 
-const command = process.argv[2] || "status";
-if (command === "generate") await generate(option("--unit"));
-else if (command === "validate") await validate();
-else if (command === "status") await status(option("--unit"));
-else throw new Error(`未知命令：${command}`);
+const isMain =
+  process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (isMain) {
+  const command = process.argv[2] || "status";
+  if (command === "generate") {
+    await generate(option("--unit"), option("--model"));
+  }
+  else if (command === "validate") await validate();
+  else if (command === "status") await status(option("--unit"));
+  else throw new Error(`未知命令：${command}`);
+}
+
+export {
+  acquireDirectoryLock,
+  createSerializedJsonUpdater,
+  isRetryableGenerationError,
+  parseJsonStream,
+  retryTransient,
+  runWorkerQueue,
+  sentenceTimingsFromWords,
+  writeJsonAtomic,
+};

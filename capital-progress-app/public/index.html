@@ -472,6 +472,41 @@
       .version-option[aria-selected="true"] { background: var(--active-surface); }
       .version-option small { color: var(--green); font-size: 10px; }
       .adopted-mark { color: var(--green); font-size: 11px; white-space: nowrap; }
+      .audio-manager {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        margin: -14px 0 28px;
+        padding: 12px 0;
+        border-top: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+      }
+      .audio-manager-main,
+      .audio-manager-actions {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .audio-manager-main { min-width: 0; }
+      .audio-manager-actions { justify-content: flex-end; }
+      .audio-manager .version-picker { min-width: 142px; }
+      .audio-manager .audio-model-picker { min-width: 152px; }
+      .audio-manager-label {
+        color: var(--muted);
+        font: 11px/1.4 var(--sans);
+        white-space: nowrap;
+      }
+      .audio-publish-state {
+        color: var(--muted);
+        font: 11px/1.4 var(--sans);
+        white-space: nowrap;
+      }
+      .audio-publish-state[data-status="published"] { color: var(--green); }
+      .audio-publish-state[data-status="uploading"],
+      .audio-publish-state[data-status="queued"] { color: var(--blue); }
+      .audio-publish-state[data-status="failed"] { color: var(--accent); }
       .prose { font: 400 17px/1.95 var(--serif); }
       .prose h1 { margin: 0 0 32px; font-size: 25px; line-height: 1.35; }
       .prose h2 { margin: 38px 0 20px; font-size: 21px; line-height: 1.4; }
@@ -746,13 +781,19 @@
       }
       .audio-status.ready { color: var(--green); }
       .audio-status.ready::before { background: var(--green); }
+      .audio-status.unadopted { color: var(--blue); }
+      .audio-status.unadopted::before { background: var(--blue); }
       .audio-status.generating { color: var(--blue); }
       .audio-status.generating::before {
         background: var(--blue);
         animation: audio-pulse 1.2s ease-in-out infinite;
       }
+      .audio-status.queued { color: var(--blue); }
+      .audio-status.queued::before { background: var(--blue); }
       .audio-status.failed { color: var(--accent); }
       .audio-status.failed::before { background: var(--accent); }
+      .audio-status.interrupted { color: var(--accent); }
+      .audio-status.interrupted::before { background: var(--accent); }
       @keyframes audio-pulse {
         50% { opacity: 0.28; transform: scale(0.72); }
       }
@@ -762,6 +803,134 @@
         color: var(--accent);
         font-size: 11px;
       }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .prose.narration-ready [data-narration-sentence] {
+        border-radius: 0.2em;
+        box-decoration-break: clone;
+        cursor: pointer;
+        transition: background-color 130ms ease, box-shadow 130ms ease;
+        -webkit-box-decoration-break: clone;
+      }
+      .prose.narration-ready [data-narration-sentence]:hover {
+        background: color-mix(in srgb, var(--accent) 8%, transparent);
+      }
+      .prose.narration-ready [data-narration-primary]:focus-visible {
+        outline: 2px solid color-mix(in srgb, var(--accent) 60%, transparent);
+        outline-offset: 2px;
+      }
+      .prose [data-narration-sentence].narration-current {
+        background: color-mix(in srgb, var(--accent) 8%, transparent);
+        box-shadow: 0 0 0 1.5px color-mix(in srgb, var(--accent) 72%, var(--ink));
+      }
+      .narration-player {
+        position: fixed;
+        right: 20px;
+        bottom: max(18px, env(safe-area-inset-bottom));
+        left: 20px;
+        z-index: 62;
+        width: min(760px, calc(100vw - 40px));
+        margin: 0 auto;
+        padding: 11px 16px 13px;
+        border: 1px solid color-mix(in srgb, var(--line) 84%, transparent);
+        border-radius: 16px;
+        background: color-mix(in srgb, var(--surface) 94%, transparent);
+        box-shadow: 0 12px 38px var(--shadow);
+        backdrop-filter: blur(18px);
+      }
+      .narration-player[hidden] { display: none; }
+      .narration-progress-row {
+        display: grid;
+        grid-template-columns: 38px minmax(0, 1fr) 38px;
+        align-items: center;
+        gap: 8px;
+        color: var(--muted);
+        font: 10px/1 var(--sans);
+        font-variant-numeric: tabular-nums;
+      }
+      .narration-progress-row span:last-child { text-align: right; }
+      .narration-progress-row input { width: 100%; accent-color: var(--accent); }
+      .narration-controls {
+        display: grid;
+        grid-template-columns: 32px 38px 32px minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 7px;
+        margin-top: 7px;
+      }
+      .narration-controls button {
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        border: 0;
+        border-radius: 50%;
+        color: var(--ink);
+        background: transparent;
+        cursor: pointer;
+        font: 21px/1 var(--sans);
+      }
+      .narration-controls button:hover { background: var(--hover); }
+      .narration-controls .narration-play {
+        width: 38px;
+        height: 38px;
+        display: inline-grid;
+        place-items: center;
+        color: var(--paper);
+        background: var(--ink);
+      }
+      .narration-controls .narration-play:hover {
+        background: color-mix(in srgb, var(--ink) 88%, var(--accent));
+      }
+      .narration-play-icon {
+        display: inline-flex;
+        width: 14px;
+        height: 16px;
+        align-items: center;
+        justify-content: center;
+      }
+      .narration-play-icon.is-pause { gap: 4px; }
+      .narration-play-icon.is-pause span {
+        width: 4px;
+        height: 15px;
+        border-radius: 1px;
+        background: currentColor;
+      }
+      .narration-play-icon.is-play span {
+        width: 0;
+        height: 0;
+        margin-left: 2px;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 12px solid currentColor;
+      }
+      .narration-controls p {
+        min-width: 0;
+        margin: 0 8px;
+        overflow: hidden;
+        color: var(--muted);
+        font: 12px/1.45 var(--sans);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .narration-controls .narration-rate {
+        width: auto;
+        min-width: 44px;
+        min-height: 30px;
+        padding: 0 7px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        color: var(--ink);
+        background: var(--paper);
+        font: 11px/1 var(--sans);
+      }
+      body.narration-open .shell { padding-bottom: 170px; }
       .review-notice {
         margin: 0 0 24px;
         padding: 12px 14px;
@@ -801,6 +970,17 @@
         .diff-arrow { display: none; }
         .diff-mode,
         .diff-filter { margin-left: 0; }
+        .audio-manager {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+        .audio-manager-actions { justify-content: flex-start; }
+        .narration-player {
+          right: 12px;
+          bottom: max(10px, env(safe-area-inset-bottom));
+          left: 12px;
+          width: auto;
+        }
       }
 
       @media (max-width: 520px) {
@@ -825,7 +1005,31 @@
         .version-tools .version-picker {
           min-width: 132px;
         }
+        .audio-manager-main,
+        .audio-manager-actions { width: 100%; }
+        .audio-manager .version-picker {
+          min-width: min(100%, 156px);
+          flex: 1 1 142px;
+        }
         .prose { font-size: 16px; line-height: 1.9; }
+        .narration-player {
+          right: 0;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          padding: 9px 12px calc(10px + env(safe-area-inset-bottom));
+          border-width: 1px 0 0;
+          border-radius: 16px 16px 0 0;
+        }
+        .narration-controls {
+          grid-template-columns: 34px 40px 34px minmax(0, 1fr) auto;
+          gap: 4px;
+        }
+        .narration-controls p { margin: 0 4px; font-size: 11px; }
+        .narration-controls .narration-rate {
+          min-width: 42px;
+          padding-inline: 4px;
+        }
       }
     </style>
   </head>
@@ -885,6 +1089,51 @@
       </main>
     </div>
 
+    <audio id="narrationAudio" preload="metadata"></audio>
+    <section
+      class="narration-player"
+      id="narrationPlayer"
+      aria-label="语音阅读控制"
+      hidden
+    >
+      <div class="narration-progress-row">
+        <span id="narrationElapsed">0:00</span>
+        <input
+          id="narrationProgress"
+          type="range"
+          min="0"
+          max="1"
+          value="0"
+          aria-label="朗读进度"
+        />
+        <span id="narrationDuration">0:00</span>
+      </div>
+      <div class="narration-controls">
+        <button id="narrationPrevious" type="button" aria-label="上一句">‹</button>
+        <button
+          class="narration-play"
+          id="narrationToggle"
+          type="button"
+          aria-label="继续播放"
+        >
+          <span
+            class="narration-play-icon is-play"
+            id="narrationPlayIcon"
+            aria-hidden="true"
+          ><span></span></span>
+        </button>
+        <button id="narrationNext" type="button" aria-label="下一句">›</button>
+        <p id="narrationText" title="">点正文中的任一句开始朗读</p>
+        <button
+          class="narration-rate"
+          id="narrationRate"
+          type="button"
+          data-rate="1"
+          aria-label="播放速度，当前一倍速"
+        >1×</button>
+      </div>
+    </section>
+
     <script>
       const model = {
         state: null,
@@ -897,12 +1146,31 @@
         compareTargetVersionId: null,
         diffOnly: false,
         diffMode: "inline",
+        audioModelSelections: {},
+        audioVersionSelections: {},
       };
       const el = (id) => document.getElementById(id);
       const themeQuery = matchMedia("(prefers-color-scheme: dark)");
       const catalogPreferenceKey = "capital-progress-catalog-collapsed";
       const readingPositionKey = "capital-progress-reading-position";
       let readingPositionRestored = false;
+      const narration = {
+        manifest: null,
+        key: "",
+        loadingKey: "",
+        loadingPromise: null,
+        loadToken: 0,
+        activeSentenceId: "",
+        activeChunkId: "",
+        elapsedMs: 0,
+        started: false,
+        playing: false,
+        pendingStart: null,
+        decorated: [],
+        prefetched: new Set(),
+      };
+      const narrationSentencePattern = /[^。！？!?]+(?:[。！？!?]+[”’」』》）)]*)|[^。！？!?]+$/g;
+      const narrationMaximumCharacters = 220;
 
       function readReadingPosition() {
         try {
@@ -1614,6 +1882,494 @@
         );
       }
 
+      function audioSelectionKey(unit, version) {
+        return `${unit?.unit_id || ""}:${version?.id || ""}`;
+      }
+
+      function selectedAudioModel(unit, version) {
+        const models = version?.audio?.models || [];
+        const key = audioSelectionKey(unit, version);
+        const selectedId = model.audioModelSelections[key];
+        const selected = models.find((item) => item.id === selectedId);
+        if (selected) return selected;
+        return models.find((item) => item.canGenerate) || models[0] || null;
+      }
+
+      function selectedAudioVersion(unit, version) {
+        const versions = (version?.audio?.versions || []).filter(
+          (item) => item.status === "ready"
+        );
+        const key = audioSelectionKey(unit, version);
+        const selectedId = model.audioVersionSelections[key];
+        return (
+          versions.find((item) => item.id === selectedId) ||
+          versions.find((item) => item.adopted) ||
+          versions[0] ||
+          null
+        );
+      }
+
+      function normalizeNarrationText(value = "") {
+        return String(value).replace(/\s+/g, " ").trim();
+      }
+
+      function rawNarrationSentenceRanges(value) {
+        const ranges = [];
+        for (const match of value.matchAll(narrationSentencePattern)) {
+          let start = match.index || 0;
+          const end = start + match[0].length;
+          while (end - start > narrationMaximumCharacters) {
+            const windowEnd = Math.min(
+              end,
+              start + narrationMaximumCharacters + 1
+            );
+            const windowText = value.slice(start, windowEnd);
+            let cut = -1;
+            ["；", ";", "：", ":", "，", ","].forEach((punctuation) => {
+              cut = Math.max(cut, windowText.lastIndexOf(punctuation));
+            });
+            cut =
+              cut < Math.floor(narrationMaximumCharacters * 0.55)
+                ? narrationMaximumCharacters
+                : cut + 1;
+            ranges.push({
+              start,
+              end: start + cut,
+              text: normalizeNarrationText(value.slice(start, start + cut)),
+            });
+            start += cut;
+            while (/\s/.test(value[start] || "")) start += 1;
+          }
+          if (normalizeNarrationText(value.slice(start, end))) {
+            ranges.push({
+              start,
+              end,
+              text: normalizeNarrationText(value.slice(start, end)),
+            });
+          }
+        }
+        return ranges;
+      }
+
+      function clearNarrationDecoration() {
+        narration.decorated.forEach((span) => {
+          if (span.isConnected) span.replaceWith(span.textContent || "");
+        });
+        narration.decorated = [];
+        document.querySelector(".prose.narration-ready")?.classList.remove(
+          "narration-ready"
+        );
+      }
+
+      function decorateNarration() {
+        clearNarrationDecoration();
+        const prose = el("reader")?.querySelector(".prose");
+        if (!prose || !narration.manifest) return;
+        prose.classList.add("narration-ready");
+        const paragraphs = Array.from(prose.querySelectorAll("p")).filter(
+          (paragraph) => !paragraph.closest(".footnotes")
+        );
+        paragraphs.forEach((paragraph, paragraphIndex) => {
+          const expected = narration.manifest.sentences.filter(
+            (sentence) => Number(sentence.paragraph_index) === paragraphIndex
+          );
+          if (!expected.length) return;
+          const walker = document.createTreeWalker(
+            paragraph,
+            NodeFilter.SHOW_TEXT
+          );
+          const nodes = [];
+          let node = walker.nextNode();
+          while (node) {
+            const parent = node.parentElement;
+            if (!parent?.closest(".footnote-ref, .math-inline, .math-display")) {
+              nodes.push(node);
+            }
+            node = walker.nextNode();
+          }
+          const offsets = [];
+          let total = 0;
+          nodes.forEach((textNode) => {
+            offsets.push({
+              node: textNode,
+              start: total,
+              end: total + textNode.data.length,
+            });
+            total += textNode.data.length;
+          });
+          const raw = nodes.map((textNode) => textNode.data).join("");
+          const ranges = rawNarrationSentenceRanges(raw);
+          const usable = Math.min(ranges.length, expected.length);
+          offsets.forEach(({ node: textNode, start: nodeStart, end: nodeEnd }) => {
+            const fragment = document.createDocumentFragment();
+            let cursor = nodeStart;
+            for (let index = 0; index < usable; index += 1) {
+              const range = ranges[index];
+              const start = Math.max(nodeStart, range.start);
+              const end = Math.min(nodeEnd, range.end);
+              if (end <= start) continue;
+              if (start > cursor) {
+                fragment.append(
+                  textNode.data.slice(cursor - nodeStart, start - nodeStart)
+                );
+              }
+              const span = document.createElement("span");
+              span.dataset.narrationSentence = expected[index].id;
+              span.textContent = textNode.data.slice(
+                start - nodeStart,
+                end - nodeStart
+              );
+              const primary = !paragraph.querySelector(
+                `[data-narration-sentence="${expected[index].id}"]`
+              );
+              if (primary) {
+                span.dataset.narrationPrimary = "true";
+                span.tabIndex = 0;
+                span.setAttribute("role", "button");
+                span.setAttribute(
+                  "aria-label",
+                  `从这里朗读：${expected[index].text}`
+                );
+                const activate = (event) => {
+                  if (
+                    event instanceof KeyboardEvent &&
+                    !["Enter", " "].includes(event.key)
+                  ) {
+                    return;
+                  }
+                  event.preventDefault();
+                  playNarrationSentence(expected[index].id);
+                };
+                span.addEventListener("click", activate);
+                span.addEventListener("keydown", activate);
+              }
+              narration.decorated.push(span);
+              fragment.append(span);
+              cursor = end;
+            }
+            if (cursor < nodeEnd) {
+              fragment.append(textNode.data.slice(cursor - nodeStart));
+            }
+            textNode.replaceWith(fragment);
+          });
+        });
+        setActiveNarrationSentence(narration.activeSentenceId, false);
+      }
+
+      function formatNarrationTime(milliseconds) {
+        const seconds = Math.max(0, Math.floor(milliseconds / 1000));
+        return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
+      }
+
+      function narrationChunkOffset(chunkId) {
+        let elapsed = 0;
+        for (const chunk of narration.manifest?.chunks || []) {
+          if (chunk.id === chunkId) return elapsed;
+          elapsed += Number(chunk.duration_ms || 0);
+        }
+        return 0;
+      }
+
+      function activeNarrationSentence() {
+        return narration.manifest?.sentences.find(
+          (sentence) => sentence.id === narration.activeSentenceId
+        );
+      }
+
+      function updateNarrationView() {
+        const player = el("narrationPlayer");
+        player.hidden = !narration.started;
+        document.body.classList.toggle("narration-open", narration.started);
+        const duration = Number(narration.manifest?.duration_ms || 0);
+        el("narrationElapsed").textContent = formatNarrationTime(
+          narration.elapsedMs
+        );
+        el("narrationDuration").textContent = formatNarrationTime(duration);
+        el("narrationProgress").max = String(Math.max(1, duration));
+        el("narrationProgress").value = String(
+          Math.min(narration.elapsedMs, duration || 1)
+        );
+        const text =
+          activeNarrationSentence()?.text || "点正文中的任一句开始朗读";
+        el("narrationText").textContent = text;
+        el("narrationText").title = text;
+        el("narrationToggle").setAttribute(
+          "aria-label",
+          narration.playing ? "暂停" : "继续播放"
+        );
+        const icon = el("narrationPlayIcon");
+        icon.className = `narration-play-icon ${narration.playing ? "is-pause" : "is-play"}`;
+        icon.innerHTML = narration.playing
+          ? "<span></span><span></span>"
+          : "<span></span>";
+      }
+
+      function setActiveNarrationSentence(sentenceId, scroll = true) {
+        if (sentenceId === narration.activeSentenceId && !scroll) return;
+        narration.activeSentenceId = sentenceId || "";
+        document
+          .querySelectorAll("[data-narration-sentence]")
+          .forEach((element) =>
+            element.classList.toggle(
+              "narration-current",
+              element.dataset.narrationSentence === narration.activeSentenceId
+            )
+          );
+        const current = document.querySelector(
+          `[data-narration-sentence="${narration.activeSentenceId}"]`
+        );
+        if (scroll && current) {
+          const bounds = current.getBoundingClientRect();
+          if (bounds.top < 64 || bounds.bottom > innerHeight - 120) {
+            current.scrollIntoView({
+              behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+                ? "auto"
+                : "smooth",
+              block: "center",
+            });
+          }
+        }
+        updateNarrationView();
+      }
+
+      function resetNarration() {
+        narration.loadToken += 1;
+        const audio = el("narrationAudio");
+        audio.pause();
+        audio.removeAttribute("src");
+        audio.removeAttribute("data-chunk-id");
+        audio.load();
+        clearNarrationDecoration();
+        Object.assign(narration, {
+          manifest: null,
+          key: "",
+          loadingKey: "",
+          loadingPromise: null,
+          activeSentenceId: "",
+          activeChunkId: "",
+          elapsedMs: 0,
+          started: false,
+          playing: false,
+          pendingStart: null,
+          prefetched: new Set(),
+        });
+        updateNarrationView();
+      }
+
+      async function prepareNarration(unit, version) {
+        const audioState = version?.audio;
+        if (audioState?.status !== "ready" || !audioState.audioVersionId) {
+          return null;
+        }
+        const key = `${unit.unit_id}:${version.id}:${audioState.audioVersionId}`;
+        if (narration.key === key && narration.manifest) {
+          decorateNarration();
+          return narration.manifest;
+        }
+        if (narration.loadingKey === key && narration.loadingPromise) {
+          return narration.loadingPromise;
+        }
+        if (narration.key && narration.key !== key) resetNarration();
+        const token = ++narration.loadToken;
+        narration.loadingKey = key;
+        narration.loadingPromise = fetch(
+          `/api/audio/manifest/${encodeURIComponent(audioState.audioVersionId)}`,
+          { cache: "no-store" }
+        )
+          .then((response) => {
+            if (!response.ok) throw new Error("语音清单不可用");
+            return response.json();
+          })
+          .then((manifest) => {
+            if (token !== narration.loadToken) return null;
+            if (
+              manifest.status !== "ready" ||
+              manifest.unit_id !== unit.unit_id ||
+              manifest.translation_version_id !== version.id ||
+              manifest.translation_sha256 !== version.translationSha256
+            ) {
+              throw new Error("语音与当前译文版本不一致");
+            }
+            narration.manifest = manifest;
+            narration.key = key;
+            narration.prefetched = new Set();
+            decorateNarration();
+            if ("mediaSession" in navigator) {
+              navigator.mediaSession.metadata = new MediaMetadata({
+                title: unit.title_zh,
+                artist: "《资本论》第一卷",
+                album: "语音阅读",
+              });
+            }
+            updateNarrationView();
+            return manifest;
+          })
+          .catch((error) => {
+            if (token === narration.loadToken) {
+              const button = el("narrationStartButton");
+              if (button) button.textContent = "语音不可用";
+            }
+            throw error;
+          })
+          .finally(() => {
+            if (token === narration.loadToken) {
+              narration.loadingKey = "";
+              narration.loadingPromise = null;
+            }
+          });
+        return narration.loadingPromise;
+      }
+
+      function syncNarrationForReader(unit) {
+        if (model.view !== "text" || model.compareMode) {
+          clearNarrationDecoration();
+          return;
+        }
+        const version = displayedVersion(unit);
+        const audioState = version?.audio;
+        if (audioState?.status !== "ready" || !audioState.audioVersionId) {
+          if (narration.key) resetNarration();
+          return;
+        }
+        const key = `${unit.unit_id}:${version.id}:${audioState.audioVersionId}`;
+        if (narration.key && narration.key !== key) resetNarration();
+        void prepareNarration(unit, version).catch(() => {});
+      }
+
+      function loadNarrationChunk(chunkId, seconds, autoplay) {
+        const chunk = narration.manifest?.chunks.find(
+          (item) => item.id === chunkId
+        );
+        if (!chunk) return;
+        const audio = el("narrationAudio");
+        const source = new URL(chunk.audio_file, location.origin).href;
+        narration.started = true;
+        narration.activeChunkId = chunkId;
+        narration.pendingStart = { chunkId, seconds, autoplay };
+        if (audio.src !== source) {
+          audio.src = source;
+          audio.dataset.chunkId = chunkId;
+          audio.load();
+        } else {
+          audio.currentTime = seconds;
+          narration.pendingStart = null;
+          if (autoplay) void audio.play().catch(() => {});
+        }
+        updateNarrationView();
+      }
+
+      function playNarrationSentence(sentenceId) {
+        const sentence = narration.manifest?.sentences.find(
+          (item) => item.id === sentenceId
+        );
+        if (!sentence) return;
+        setActiveNarrationSentence(sentence.id);
+        loadNarrationChunk(sentence.chunk_id, sentence.start_ms / 1000, true);
+      }
+
+      function firstVisibleNarrationSentence() {
+        const elements = Array.from(
+          document.querySelectorAll("[data-narration-primary]")
+        );
+        return (
+          elements.find((element) => {
+            const bounds = element.getBoundingClientRect();
+            return bounds.bottom > 64 && bounds.top < innerHeight * 0.72;
+          })?.dataset.narrationSentence ||
+          narration.manifest?.sentences[0]?.id ||
+          ""
+        );
+      }
+
+      async function resumeNarration() {
+        const audio = el("narrationAudio");
+        if (narration.started && audio.src) {
+          await audio.play().catch(() => {});
+          return;
+        }
+        playNarrationSentence(firstVisibleNarrationSentence());
+      }
+
+      function stepNarration(direction) {
+        const sentences = narration.manifest?.sentences || [];
+        const current = Math.max(
+          0,
+          sentences.findIndex(
+            (sentence) => sentence.id === narration.activeSentenceId
+          )
+        );
+        const next = sentences[
+          Math.min(sentences.length - 1, Math.max(0, current + direction))
+        ];
+        if (next) playNarrationSentence(next.id);
+      }
+
+      function updateNarrationPlayback() {
+        const audio = el("narrationAudio");
+        if (!narration.manifest || !narration.activeChunkId) return;
+        const localMs = audio.currentTime * 1000;
+        narration.elapsedMs =
+          narrationChunkOffset(narration.activeChunkId) + localMs;
+        const active = narration.manifest.sentences.find(
+          (sentence) =>
+            sentence.chunk_id === narration.activeChunkId &&
+            localMs >= sentence.start_ms - 80 &&
+            localMs < sentence.end_ms + 180
+        );
+        if (active && active.id !== narration.activeSentenceId) {
+          setActiveNarrationSentence(active.id);
+        } else {
+          updateNarrationView();
+        }
+        if (audio.currentTime > 2) {
+          const index = narration.manifest.chunks.findIndex(
+            (chunk) => chunk.id === narration.activeChunkId
+          );
+          const next = narration.manifest.chunks[index + 1];
+          if (next && !narration.prefetched.has(next.id)) {
+            narration.prefetched.add(next.id);
+            const link = document.createElement("link");
+            link.rel = "prefetch";
+            link.as = "audio";
+            link.href = next.audio_file;
+            document.head.append(link);
+          }
+        }
+      }
+
+      function continueNarration() {
+        const chunks = narration.manifest?.chunks || [];
+        const index = chunks.findIndex(
+          (chunk) => chunk.id === narration.activeChunkId
+        );
+        const next = chunks[index + 1];
+        if (!next) {
+          narration.playing = false;
+          updateNarrationView();
+          return;
+        }
+        const firstSentence = narration.manifest.sentences.find(
+          (sentence) => sentence.chunk_id === next.id
+        );
+        if (firstSentence) setActiveNarrationSentence(firstSentence.id);
+        loadNarrationChunk(next.id, 0, true);
+      }
+
+      function seekNarration(milliseconds) {
+        let offset = 0;
+        for (const chunk of narration.manifest?.chunks || []) {
+          if (milliseconds <= offset + chunk.duration_ms) {
+            loadNarrationChunk(
+              chunk.id,
+              Math.max(0, milliseconds - offset) / 1000,
+              narration.playing
+            );
+            return;
+          }
+          offset += chunk.duration_ms;
+        }
+      }
+
       function selectChapter(chapterId) {
         model.chapterId = chapterId;
         const chapter = currentChapter();
@@ -1679,7 +2435,7 @@
               <span class="chapter-meta">
                 <span class="dot ${chapter.status}"></span>
                 ${chapter.statusLabel}${chapter.versionCount ? ` · ${chapter.versionCount}版` : ""}
-                ${chapter.sections?.some((unit) => unit.audio?.status === "ready") ? " · 有语音" : ""}
+                ${chapter.sections?.some((unit) => unit.audio?.publication?.status === "published") ? " · 语音已上线" : chapter.sections?.some((unit) => unit.audio?.status === "ready") ? " · 有语音" : ""}
               </span>
             </button>
             ${chapter.id === model.chapterId && chapter.sections?.length > 1 ? `
@@ -1692,7 +2448,7 @@
                   >
                     <span class="catalog-section-copy">
                       <strong>${unit.number && !chapter.frontMatter ? `第${unit.number}节 · ` : ""}${escapeHtml(unit.title_zh)}</strong>
-                      <small>${unit.statusLabel}${unit.versionCount ? ` · ${unit.versionCount} 个版本` : ""}${unit.audio?.status === "ready" ? " · 有语音" : unit.audio?.status === "generating" ? " · 语音生成中" : ""}</small>
+                      <small>${unit.statusLabel}${unit.versionCount ? ` · ${unit.versionCount} 个版本` : ""}${unit.audio?.publication?.status === "published" ? " · 语音已上线" : unit.audio?.status === "ready" ? " · 语音待上传" : unit.audio?.status === "generating" ? " · 语音生成中" : ""}</small>
                     </span>
                     <span class="dot ${unit.status}"></span>
                   </button>
@@ -1740,6 +2496,95 @@
         );
       }
 
+      function renderAudioManager(unit, version) {
+        const audio = version?.audio;
+        if (!audio) return "";
+        const readyVersions = (audio.versions || []).filter(
+          (item) => item.status === "ready"
+        );
+        const selectedVersion = selectedAudioVersion(unit, version);
+        const selectedModel = selectedAudioModel(unit, version);
+        const publication = selectedVersion?.publication;
+        const publishing = ["uploading", "queued"].includes(
+          publication?.status
+        );
+        const modelStatusLabels = {
+          ready: "已有语音",
+          generating: "生成中",
+          queued: "排队中",
+          failed: "可重试",
+          interrupted: "可继续",
+          missing: "未生成",
+        };
+        const modelOptions = (audio.models || []).map((item) => ({
+          id: item.id,
+          label: `${item.label} · ${modelStatusLabels[item.status] || item.status}`,
+        }));
+        const duplicateModels = readyVersions.reduce((counts, item) => {
+          counts[item.modelId] = (counts[item.modelId] || 0) + 1;
+          return counts;
+        }, {});
+        const audioOptions = readyVersions.map((item) => ({
+          id: item.id,
+          label:
+            duplicateModels[item.modelId] > 1
+              ? `${item.modelLabel} · ${dateText(item.updatedAt)}`
+              : item.modelLabel,
+          adopted: item.adopted,
+        }));
+        const generation = selectedModel && ["generating", "queued"].includes(
+          selectedModel.status
+        )
+          ? `${selectedModel.label}${selectedModel.status === "queued" ? "排队中" : "生成中"}${selectedModel.chunkCount ? ` ${selectedModel.completedChunks}/${selectedModel.chunkCount}` : ""}`
+          : "";
+
+        return `
+          <section class="audio-manager" aria-label="语音版本">
+            <div class="audio-manager-main">
+              <span class="audio-status ${escapeHtml(audio.status)}">${escapeHtml(audio.label)}</span>
+              ${audioOptions.length
+                ? renderVersionPicker({
+                    id: `audio-version-${version.id}`,
+                    versions: audioOptions,
+                    selectedId: selectedVersion?.id,
+                    action: "audio-version",
+                    label: "选择语音版本",
+                  })
+                : ""}
+              ${selectedVersion
+                ? '<button class="small-action" id="previewAudioButton">试听</button>'
+                : ""}
+              ${selectedVersion && !selectedVersion.adopted && version.adopted
+                ? '<button class="small-action" id="adoptAudioButton">采用此语音</button>'
+                : ""}
+              ${publication
+                ? `<span class="audio-publish-state" data-status="${escapeHtml(publication.status)}">${escapeHtml(publication.label)}</span>`
+                : ""}
+              ${selectedVersion?.adopted && version.adopted && publication?.canPublish && !publishing && model.state.audioPublishing?.configured
+                ? `<button class="small-action" id="publishAudioButton">${publication.status === "failed" ? "重新上传" : "上传到预览站"}</button>`
+                : ""}
+            </div>
+            ${version.adopted && modelOptions.length
+              ? `<div class="audio-manager-actions">
+                  <span class="audio-manager-label">生成</span>
+                  ${renderVersionPicker({
+                    id: `audio-model-${version.id}`,
+                    versions: modelOptions,
+                    selectedId: selectedModel?.id,
+                    action: "audio-model",
+                    label: "选择语音模型",
+                  })}
+                  ${selectedModel?.canGenerate
+                    ? `<button class="small-action" id="generateAudioButton" aria-label="生成语音，使用 ${escapeHtml(selectedModel.label)}">生成 ${escapeHtml(selectedModel.label)}</button>`
+                    : generation
+                      ? `<span class="audio-manager-label">${escapeHtml(generation)}</span>`
+                      : ""}
+                </div>`
+              : ""}
+          </section>
+        `;
+      }
+
       function renderText(unit) {
         const version = displayedVersion(unit);
         const preview = version?.preview || unit?.preview || "";
@@ -1769,14 +2614,12 @@
                 : version
                   ? '<button class="small-action" id="adoptButton">采用此版本</button>'
                   : ""}
-              ${version?.audio
-                ? `<span class="audio-status ${escapeHtml(version.audio.status)}">${escapeHtml(version.audio.label)}${version.audio.status === "generating" && version.audio.chunkCount ? ` ${version.audio.completedChunks}/${version.audio.chunkCount}` : ""}</span>`
-                : ""}
-              ${version?.audio?.canGenerate
-                ? '<button class="small-action" id="generateAudioButton">生成语音</button>'
+              ${version?.audio?.status === "ready"
+                ? '<button class="small-action" id="narrationStartButton">▶ 朗读本节</button>'
                 : ""}
             </div>
           </div>
+          ${renderAudioManager(unit, version)}
           ${version?.reviewStatus === "needs_review" && version?.reviewNote
             ? `<div class="review-notice"><strong>终审待复核：</strong>${escapeHtml(version.reviewNote)}</div>`
             : ""}
@@ -1870,8 +2713,7 @@
                     : version.reviewStatus === "needs_review"
                       ? '<span class="version-tag">待复核</span>'
                     : `<button class="small-action" data-adopt-version="${version.id}">采用</button>`}
-                  ${version.audio ? `<span class="audio-status ${escapeHtml(version.audio.status)}">${escapeHtml(version.audio.label)}${version.audio.status === "generating" && version.audio.chunkCount ? ` ${version.audio.completedChunks}/${version.audio.chunkCount}` : ""}</span>` : ""}
-                  ${version.audio?.canGenerate ? `<button class="small-action" data-generate-audio="${version.id}">生成语音</button>` : ""}
+                  ${version.audio ? `<span class="audio-status ${escapeHtml(version.audio.status)}">${escapeHtml(version.audio.label)}${(version.audio.versions || []).filter((audio) => audio.status === "ready").length > 1 ? ` · ${(version.audio.versions || []).filter((audio) => audio.status === "ready").length} 个版本` : ""}</span>` : ""}
                 </div>
                 ${version.audio?.error ? `<div class="audio-error">${escapeHtml(version.audio.error)}</div>` : ""}
                 ${version.reviewStatus === "needs_review" && version.reviewNote
@@ -1900,17 +2742,68 @@
         await refresh(true);
       }
 
-      async function generateAudio() {
+      async function generateAudio(modelId) {
         const unit = currentUnit();
-        if (!unit?.unit_id) return;
+        if (!unit?.unit_id || !modelId) return;
         const response = await fetch("/api/audio/generate", {
           method: "POST",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ unitId: unit.unit_id }),
+          body: JSON.stringify({ unitId: unit.unit_id, modelId }),
         });
         const result = await response.json().catch(() => ({}));
         if (!response.ok) throw new Error(result.error || "语音任务未能启动");
         await refresh(true);
+      }
+
+      async function adoptAudioVersion(audioVersionId) {
+        const unit = currentUnit();
+        const version = displayedVersion(unit);
+        if (!unit || !version?.id || !audioVersionId) return;
+        const response = await fetch("/api/audio/adopt", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            unitId: unit.unit_id,
+            translationVersionId: version.id,
+            audioVersionId,
+          }),
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(result.error || "语音版本未能采用");
+        await refresh(true);
+      }
+
+      async function publishAudioVersion(audioVersionId) {
+        const unit = currentUnit();
+        const version = displayedVersion(unit);
+        if (!unit || !version?.id || !audioVersionId) return;
+        const response = await fetch("/api/audio/publish", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            unitId: unit.unit_id,
+            translationVersionId: version.id,
+            audioVersionId,
+          }),
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(result.error || "语音上传未能启动");
+        await refresh(true);
+      }
+
+      async function previewAudioVersion(audioVersionId) {
+        const unit = currentUnit();
+        const version = displayedVersion(unit);
+        if (!unit || !version || !audioVersionId) return;
+        await prepareNarration(unit, {
+          ...version,
+          audio: {
+            ...version.audio,
+            status: "ready",
+            audioVersionId,
+          },
+        });
+        await resumeNarration();
       }
 
       function closeVersionPickers() {
@@ -1965,6 +2858,14 @@
                       (version) => version.id !== value
                     )?.id || null;
                 }
+              } else if (action === "audio-model") {
+                const unit = currentUnit();
+                const version = displayedVersion(unit);
+                model.audioModelSelections[audioSelectionKey(unit, version)] = value;
+              } else if (action === "audio-version") {
+                const unit = currentUnit();
+                const version = displayedVersion(unit);
+                model.audioVersionSelections[audioSelectionKey(unit, version)] = value;
               }
               renderReader();
             });
@@ -2024,17 +2925,97 @@
             }
           });
         }
+        const narrationStartButton = el("narrationStartButton");
+        if (narrationStartButton) {
+          narrationStartButton.addEventListener("click", async () => {
+            narrationStartButton.disabled = true;
+            const original = narrationStartButton.textContent;
+            narrationStartButton.textContent = "正在准备";
+            try {
+              const unit = currentUnit();
+              const version = displayedVersion(unit);
+              await prepareNarration(unit, version);
+              await resumeNarration();
+              narrationStartButton.textContent = "继续朗读";
+            } catch {
+              narrationStartButton.textContent = "语音不可用";
+            } finally {
+              narrationStartButton.disabled = false;
+              if (!narration.manifest) {
+                narrationStartButton.textContent = original;
+              }
+            }
+          });
+        }
         const generateAudioButton = el("generateAudioButton");
         if (generateAudioButton) {
           generateAudioButton.addEventListener("click", async () => {
+            const unit = currentUnit();
+            const version = displayedVersion(unit);
+            const audioModel = selectedAudioModel(unit, version);
+            if (audioModel) {
+              model.audioModelSelections[audioSelectionKey(unit, version)] =
+                audioModel.id;
+            }
             generateAudioButton.disabled = true;
             generateAudioButton.textContent = "正在启动";
             try {
-              await generateAudio();
+              await generateAudio(audioModel?.id);
             } catch (error) {
               generateAudioButton.disabled = false;
               generateAudioButton.textContent =
                 error instanceof Error ? error.message : "未能启动";
+            }
+          });
+        }
+        const previewAudioButton = el("previewAudioButton");
+        if (previewAudioButton) {
+          previewAudioButton.addEventListener("click", async () => {
+            const unit = currentUnit();
+            const version = displayedVersion(unit);
+            const audioVersion = selectedAudioVersion(unit, version);
+            previewAudioButton.disabled = true;
+            previewAudioButton.textContent = "正在准备";
+            try {
+              await previewAudioVersion(audioVersion?.id);
+              previewAudioButton.textContent = "正在试听";
+            } catch {
+              previewAudioButton.textContent = "语音不可用";
+            } finally {
+              previewAudioButton.disabled = false;
+            }
+          });
+        }
+        const adoptAudioButton = el("adoptAudioButton");
+        if (adoptAudioButton) {
+          adoptAudioButton.addEventListener("click", async () => {
+            const unit = currentUnit();
+            const version = displayedVersion(unit);
+            const audioVersion = selectedAudioVersion(unit, version);
+            adoptAudioButton.disabled = true;
+            try {
+              await adoptAudioVersion(audioVersion?.id);
+            } catch (error) {
+              adoptAudioButton.disabled = false;
+              adoptAudioButton.textContent =
+                error instanceof Error ? error.message : "未能采用";
+            }
+          });
+        }
+        const publishAudioButton = el("publishAudioButton");
+        if (publishAudioButton) {
+          publishAudioButton.addEventListener("click", async () => {
+            const unit = currentUnit();
+            const version = displayedVersion(unit);
+            const audioVersion = selectedAudioVersion(unit, version);
+            publishAudioButton.disabled = true;
+            publishAudioButton.textContent = "正在准备";
+            try {
+              await publishAudioVersion(audioVersion?.id);
+            } catch (error) {
+              publishAudioButton.disabled = false;
+              publishAudioButton.textContent =
+                error instanceof Error ? error.message : "未能上传";
             }
           });
         }
@@ -2056,19 +3037,6 @@
             }
           });
         });
-        document.querySelectorAll("[data-generate-audio]").forEach((button) => {
-          button.addEventListener("click", async () => {
-            button.disabled = true;
-            button.textContent = "正在启动";
-            try {
-              await generateAudio();
-            } catch (error) {
-              button.disabled = false;
-              button.textContent =
-                error instanceof Error ? error.message : "未能启动";
-            }
-          });
-        });
       }
 
       function renderReader() {
@@ -2080,6 +3048,7 @@
               ? renderComparison(unit)
               : renderText(unit);
         bindReaderActions();
+        syncNarrationForReader(unit);
       }
 
       function render() {
@@ -2149,6 +3118,71 @@
         } catch {}
       });
       updateThemeToggle();
+
+      const narrationAudio = el("narrationAudio");
+      narrationAudio.addEventListener("loadedmetadata", () => {
+        const pending = narration.pendingStart;
+        if (
+          !pending ||
+          narrationAudio.dataset.chunkId !== pending.chunkId
+        ) {
+          return;
+        }
+        narrationAudio.currentTime = Math.min(
+          pending.seconds,
+          Math.max(0, narrationAudio.duration - 0.05)
+        );
+        narrationAudio.playbackRate = Number(
+          el("narrationRate").dataset.rate || 1
+        );
+        narration.pendingStart = null;
+        if (pending.autoplay) void narrationAudio.play().catch(() => {});
+      });
+      narrationAudio.addEventListener("play", () => {
+        narration.playing = true;
+        updateNarrationView();
+      });
+      narrationAudio.addEventListener("pause", () => {
+        narration.playing = false;
+        updateNarrationView();
+      });
+      narrationAudio.addEventListener("timeupdate", updateNarrationPlayback);
+      narrationAudio.addEventListener("ended", continueNarration);
+      narrationAudio.addEventListener("error", () => {
+        narration.playing = false;
+        updateNarrationView();
+      });
+      el("narrationToggle").addEventListener("click", () => {
+        if (narration.playing) narrationAudio.pause();
+        else void resumeNarration();
+      });
+      el("narrationPrevious").addEventListener("click", () => stepNarration(-1));
+      el("narrationNext").addEventListener("click", () => stepNarration(1));
+      el("narrationProgress").addEventListener("input", (event) => {
+        seekNarration(Number(event.target.value));
+      });
+      el("narrationRate").addEventListener("click", (event) => {
+        const rates = [0.75, 1, 1.25, 1.5, 2];
+        const current = Number(event.currentTarget.dataset.rate || 1);
+        const next = rates[(rates.indexOf(current) + 1) % rates.length];
+        event.currentTarget.dataset.rate = String(next);
+        event.currentTarget.textContent = `${next}×`;
+        event.currentTarget.setAttribute(
+          "aria-label",
+          `播放速度，当前 ${next} 倍速`
+        );
+        narrationAudio.playbackRate = next;
+      });
+      if ("mediaSession" in navigator) {
+        navigator.mediaSession.setActionHandler("play", () => void resumeNarration());
+        navigator.mediaSession.setActionHandler("pause", () => narrationAudio.pause());
+        navigator.mediaSession.setActionHandler("previoustrack", () =>
+          stepNarration(-1)
+        );
+        navigator.mediaSession.setActionHandler("nexttrack", () =>
+          stepNarration(1)
+        );
+      }
 
       async function refresh(forceRender = false) {
         try {

@@ -16,5 +16,8 @@
 *.log
 .env
 .env.*
+/capital-progress-app/.audio-publish.local.json
 /keys/
 /outputs/capital-volume1-de-zh-new/audio/voice-tests/
+/outputs/capital-volume1-de-zh-new/audio/versions/
+/outputs/capital-volume1-de-zh-new/audio/*.tmp

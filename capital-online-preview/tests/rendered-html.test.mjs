@@ -132,11 +132,13 @@ test("发布快照只包含正式采用的版本", async () => {
 });
 
 test("语音只随完全匹配的采用版本发布", async () => {
-  const [manifest, audioIndex] = await Promise.all([
+  const [manifest, audioIndex, worker, audioReader] = await Promise.all([
     readFile(new URL("generated/release-manifest.json", appRoot), "utf8").then(
       JSON.parse,
     ),
     readFile(new URL("audio/index.json", projectRoot), "utf8").then(JSON.parse),
+    readFile(new URL("worker/index.ts", appRoot), "utf8"),
+    readFile(new URL("app/AudioReader.tsx", appRoot), "utf8"),
   ]);
   const sections = manifest.parts.flatMap((part) =>
     part.chapters.flatMap((chapter) => chapter.sections),
@@ -168,6 +170,20 @@ test("语音只随完全匹配的采用版本发布", async () => {
     assert.equal(content.audioManifestPath, section.audioManifestPath);
     assert.ok(content.sentences.length > 0);
     assert.equal(audio.sentences.length, content.sentences.length);
+  }
+  assert.match(worker, /AUDIO:\s*R2Bucket/);
+  assert.match(worker, /AUDIO_UPLOAD_TOKEN/);
+  assert.match(worker, /Content-Range/);
+  assert.match(worker, /Accept-Ranges/);
+  assert.match(audioReader, /fetch\("\/audio\/adoptions\.json"/);
+  assert.match(audioReader, /adopted\.translation_sha256 === translationSha256/);
+
+  const audioDirectories = await readdir(new URL("public/audio/", appRoot), {
+    withFileTypes: true,
+  });
+  for (const directory of audioDirectories.filter((entry) => entry.isDirectory())) {
+    const files = await readdir(new URL(`public/audio/${directory.name}/`, appRoot));
+    assert.deepEqual(files, ["manifest.json"]);
   }
 });
 

@@ -33,6 +33,18 @@ await cp(
   path.join(root, "scripts", "adoption-state.mjs"),
   path.join(root, "dist", "scripts", "adoption-state.mjs")
 );
+for (const file of [
+  "audio-adoption-state.mjs",
+  "audio-files.mjs",
+  "audio-generation-queue.mjs",
+  "audio-publish.mjs",
+  "publish-adopted-audio.mjs",
+]) {
+  await cp(
+    path.join(root, "scripts", file),
+    path.join(root, "dist", "scripts", file)
+  );
+}
 await cp(
   path.join(root, "data", "progress.json"),
   path.join(root, "dist", "data", "progress.json")

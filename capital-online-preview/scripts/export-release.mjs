@@ -23,6 +23,8 @@ const projectRoot = path.resolve(
 const generatedRoot = path.join(appRoot, "generated");
 const contentRoot = path.join(appRoot, "public", "content");
 const publicAudioRoot = path.join(appRoot, "public", "audio");
+const includeStaticAudioBytes =
+  process.env.CAPITAL_AUDIO_EXPORT_MODE === "static";
 const manifestPath = path.join(generatedRoot, "release-manifest.json");
 const prefaceSourcePath = path.join(
   appRoot,
@@ -181,6 +183,8 @@ const audioIndex =
   (await optionalJson(path.join(projectRoot, "audio", "index.json"))) || {
     audio_versions: [],
   };
+const audioAdoptions =
+  (await optionalJson(path.join(projectRoot, "audio", "adoptions.json"))) || {};
 
 for (const unit of units) {
   const list = unitsByChapter.get(unit.chapter_id) || [];
@@ -261,19 +265,15 @@ for (const part of outline.parts || []) {
       const html = md.render(markdown);
       const sentences = extractNarrationSentences(markdown, md, unit.unit_id);
       const contentFile = safeFileName(unit.unit_id);
-      const audioRecord = (audioIndex.audio_versions || [])
-        .filter(
-          (record) =>
-            record.status === "ready" &&
-            record.unit_id === unit.unit_id &&
-            record.translation_version_id === versionId &&
-            record.translation_sha256 === translationSha256,
-        )
-        .sort((left, right) =>
-          String(right.created_at || "").localeCompare(
-            String(left.created_at || ""),
-          ),
-        )[0];
+      const adoptedAudioVersionId = audioAdoptions[versionId] || "";
+      const audioRecord = (audioIndex.audio_versions || []).find(
+        (record) =>
+          record.audio_version_id === adoptedAudioVersionId &&
+          record.status === "ready" &&
+          record.unit_id === unit.unit_id &&
+          record.translation_version_id === versionId &&
+          record.translation_sha256 === translationSha256,
+      );
       let audioManifestPath;
 
       if (audioRecord?.manifest_path) {
@@ -292,11 +292,13 @@ for (const part of outline.parts || []) {
             audioRecord.audio_version_id,
           );
           await mkdir(destination, { recursive: true });
-          for (const chunk of audioManifest.chunks || []) {
-            await copyFile(
-              path.join(path.dirname(sourceManifestPath), chunk.audio_file),
-              path.join(destination, path.basename(chunk.audio_file)),
-            );
+          if (includeStaticAudioBytes) {
+            for (const chunk of audioManifest.chunks || []) {
+              await copyFile(
+                path.join(path.dirname(sourceManifestPath), chunk.audio_file),
+                path.join(destination, path.basename(chunk.audio_file)),
+              );
+            }
           }
           await copyFile(
             sourceManifestPath,

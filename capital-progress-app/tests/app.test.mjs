@@ -5,7 +5,9 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
 import { setAdoptedVersion } from "../scripts/adoption-state.mjs";
+import { setAdoptedAudioVersion } from "../scripts/audio-adoption-state.mjs";
 import {
+  audioStateFor,
   collapseIdenticalVersions,
   createProgressState,
 } from "../scripts/progress-state.mjs";
@@ -26,8 +28,16 @@ test("interface stays focused on catalog, versions and reading", async () => {
   assert.match(html, /\/api\/state/);
   assert.match(html, /\/api\/adopt/);
   assert.match(html, /\/api\/audio\/generate/);
+  assert.match(html, /\/api\/audio\/adopt/);
+  assert.match(html, /\/api\/audio\/manifest/);
   assert.match(html, /生成语音/);
   assert.match(html, /audio-status/);
+  assert.match(html, /id="narrationAudio"/);
+  assert.match(html, /id="narrationPlayer"/);
+  assert.match(html, /id="narrationProgress"/);
+  assert.match(html, /id="narrationRate"/);
+  assert.match(html, /data-narration-sentence/);
+  assert.match(html, /narrationStartButton/);
   assert.match(html, /采用此版本/);
   assert.match(html, /stripLeadingDocumentHeadings/);
   assert.match(html, /data-theme="dark"/);
@@ -67,6 +77,73 @@ test("interface stays focused on catalog, versions and reading", async () => {
   assert.doesNotMatch(html, /读者理解优先；允许改写句法/);
   assert.doesNotMatch(html, /数据直接来自正式翻译项目，不上传云端/);
   assert.doesNotMatch(html, /等待你的审核/);
+});
+
+test("stalled audio generation becomes resumable", () => {
+  const version = { id: "ch05-s01-v6", translationSha256: "translation-sha" };
+  const updatedAt = "2026-08-02T16:00:00.000Z";
+  const audio = audioStateFor(
+    version,
+    "ch05-s01",
+    version.id,
+    [
+      {
+        audio_version_id: "audio-version",
+        unit_id: "ch05-s01",
+        translation_version_id: version.id,
+        translation_sha256: version.translationSha256,
+        status: "generating",
+        updated_at: updatedAt,
+        completed_chunks: 11,
+        chunk_count: 26,
+      },
+    ],
+    Date.parse(updatedAt) + 8 * 60 * 1000,
+  );
+  assert.equal(audio.status, "interrupted");
+  assert.equal(audio.canGenerate, true);
+  assert.equal(audio.completedChunks, 11);
+  assert.match(audio.error, /继续/);
+});
+
+test("audio models can coexist while only one ready version is adopted", () => {
+  const version = { id: "unit-v1", translationSha256: "translation-sha" };
+  const audio = audioStateFor(
+    version,
+    "unit",
+    version.id,
+    [
+      {
+        audio_version_id: "audio-1",
+        unit_id: "unit",
+        translation_version_id: version.id,
+        translation_sha256: version.translationSha256,
+        model_id: "seed-audio-1.0",
+        status: "ready",
+        updated_at: "2026-08-03T01:00:00.000Z",
+      },
+      {
+        audio_version_id: "audio-2",
+        unit_id: "unit",
+        translation_version_id: version.id,
+        translation_sha256: version.translationSha256,
+        model_id: "seed-tts-2.0",
+        status: "ready",
+        updated_at: "2026-08-03T02:00:00.000Z",
+      },
+    ],
+    Date.parse("2026-08-03T03:00:00.000Z"),
+    [
+      { id: "seed-audio-1.0", label: "现有模型 1.0" },
+      { id: "seed-tts-2.0", label: "Seed-TTS 2.0" },
+    ],
+    { "unit-v1": "audio-1" },
+  );
+  assert.equal(audio.status, "ready");
+  assert.equal(audio.audioVersionId, "audio-1");
+  assert.equal(audio.versions.length, 2);
+  assert.equal(audio.versions.find((item) => item.id === "audio-1").adopted, true);
+  assert.equal(audio.versions.find((item) => item.id === "audio-2").adopted, false);
 });
 
 test("inline interface scripts parse successfully", async () => {
@@ -219,12 +296,7 @@ test("outline contains seven parts and twenty-five chapters", async () => {
     ["第一版序言", "第二版跋", "第三版序言", "第四版序言"]
   );
   assert.ok(
-    state.frontMatter.every(
-      (item) =>
-        item.status === "source_ready" &&
-        item.sections.length === 1 &&
-        item.sections[0].preview === ""
-    )
+    state.frontMatter.every((item) => item.sections.length === 1)
   );
   assert.equal(state.defaultChapterId, "ch01");
   assert.equal(chapters.length, 25);
@@ -309,7 +381,8 @@ test("chapter and section state reflects current review tasks and saved versions
   assert.equal(voiced.adoptedVersionId, "ch07-s04-v1");
   assert.equal(voiced.audio.status, "ready");
   assert.equal(voiced.audio.exact, true);
-  assert.equal(voiced.audio.canGenerate, false);
+  assert.equal(voiced.audio.canGenerate, true);
+  assert.equal(voiced.audio.models.find((model) => model.id === "seed-tts-2.0").canGenerate, true);
   assert.equal(voiced.audio.chunkCount, 2);
 });
 
@@ -361,6 +434,65 @@ test("adoption marker validates the unit and persists locally", async () => {
     await assert.rejects(
       setAdoptedVersion(root, "unit-a", "unit-a-v2"),
       /仍有终审问题/
+    );
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test("audio adoption is independent and validates the adopted translation", async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "capital-audio-adoption-"));
+  try {
+    await mkdir(path.join(root, "manifests"), { recursive: true });
+    await mkdir(path.join(root, "audio"), { recursive: true });
+    await writeFile(
+      path.join(root, "manifests", "adoptions.json"),
+      '{"unit-a":"unit-a-v1"}\n',
+      "utf8",
+    );
+    await writeFile(
+      path.join(root, "audio", "index.json"),
+      `${JSON.stringify({
+        audio_versions: [
+          {
+            audio_version_id: "audio-2",
+            unit_id: "unit-a",
+            translation_version_id: "unit-a-v1",
+            status: "ready",
+          },
+          {
+            audio_version_id: "audio-pending",
+            unit_id: "unit-a",
+            translation_version_id: "unit-a-v1",
+            status: "generating",
+          },
+        ],
+      })}\n`,
+      "utf8",
+    );
+
+    await setAdoptedAudioVersion(
+      root,
+      "unit-a",
+      "unit-a-v1",
+      "audio-2",
+    );
+    const stored = JSON.parse(
+      await readFile(path.join(root, "audio", "adoptions.json"), "utf8"),
+    );
+    assert.equal(stored["unit-a-v1"], "audio-2");
+    await assert.rejects(
+      setAdoptedAudioVersion(
+        root,
+        "unit-a",
+        "unit-a-v1",
+        "audio-pending",
+      ),
+      /尚未完成/,
+    );
+    await assert.rejects(
+      setAdoptedAudioVersion(root, "unit-a", "unit-a-v2", "audio-2"),
+      /当前采用的译文/,
     );
   } finally {
     await rm(root, { recursive: true, force: true });

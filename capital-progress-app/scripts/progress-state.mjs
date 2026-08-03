@@ -20,8 +20,19 @@ function sha256(value) {
   return createHash("sha256").update(value).digest("hex");
 }
 
-function audioStateFor(version, unitId, adoptedVersionId, audioVersions) {
-  const exact = audioVersions
+const GENERATION_STALE_AFTER_MS = 7 * 60 * 1000;
+
+export function audioStateFor(
+  version,
+  unitId,
+  adoptedVersionId,
+  audioVersions,
+  now = Date.now(),
+  audioModels = [],
+  audioAdoptions = null,
+  audioPublications = {}
+) {
+  const matching = audioVersions
     .filter(
       (audio) =>
         audio.unit_id === unitId &&
@@ -32,14 +43,129 @@ function audioStateFor(version, unitId, adoptedVersionId, audioVersions) {
       String(right.updated_at || "").localeCompare(
         String(left.updated_at || "")
       )
-    )[0];
+    );
   const hasOlderAudio = audioVersions.some(
     (audio) => audio.unit_id === unitId && audio.status === "ready"
   );
-  const status = exact?.status || (hasOlderAudio ? "stale" : "missing");
+
+  const modelIdFor = (audio) =>
+    audio.model_id || audio.model || "seed-audio-1.0";
+  const catalog = audioModels.length
+    ? audioModels
+    : [...new Set(matching.map(modelIdFor))].map((id) => ({
+        id,
+        label: id === "seed-audio-1.0" ? "现有模型 1.0" : id,
+      }));
+  if (!catalog.length) {
+    catalog.push({ id: "seed-audio-1.0", label: "现有模型 1.0" });
+  }
+  const modelById = new Map(catalog.map((model) => [model.id, model]));
+  const publicationLabels = {
+    published: "已上线",
+    uploaded: "已上传",
+    uploading: "上传中",
+    queued: "等待上传",
+    failed: "上传失败",
+    pending: "待上传",
+  };
+  const normalizedRecord = (audio) => {
+    const lastUpdate = Date.parse(audio?.updated_at || "");
+    const interrupted =
+      audio?.status === "generating" &&
+      Number.isFinite(lastUpdate) &&
+      now - lastUpdate > GENERATION_STALE_AFTER_MS;
+    const modelId = modelIdFor(audio);
+    const storedPublication =
+      audioPublications.audio_versions?.[audio.audio_version_id] || {};
+    const remoteActive =
+      audioPublications.adoptions?.[version.id] === audio.audio_version_id;
+    const publicationStatus = remoteActive
+      ? "published"
+      : ["published", "uploaded"].includes(storedPublication.status)
+        ? "uploaded"
+        : storedPublication.status || "pending";
+    return {
+      id: audio.audio_version_id,
+      audioVersionId: audio.audio_version_id,
+      modelId,
+      modelLabel:
+        audio.model_label || modelById.get(modelId)?.label || modelId,
+      status: interrupted ? "interrupted" : audio.status,
+      adopted: false,
+      completedChunks: Number(audio.completed_chunks || 0),
+      chunkCount: Number(audio.chunk_count || 0),
+      sentenceCount: Number(audio.sentence_count || 0),
+      durationMs: Number(audio.duration_ms || 0),
+      updatedAt: audio.updated_at || "",
+      error:
+        audio.error ||
+        (interrupted
+          ? "生成任务长时间没有进展，可以从已有分块继续。"
+          : ""),
+      publication: {
+        status: publicationStatus,
+        label: publicationLabels[publicationStatus] || publicationStatus,
+        remoteActive,
+        canPublish: false,
+        completedFiles: Number(storedPublication.completed_files || 0),
+        totalFiles: Number(storedPublication.file_count || 0),
+        error: storedPublication.error || "",
+        publishedAt: storedPublication.published_at || "",
+      },
+    };
+  };
+  const versions = matching.map(normalizedRecord);
+  const fallbackAdoption = versions.find((audio) => audio.status === "ready")?.id;
+  const adoptedAudioVersionId =
+    (audioAdoptions ? audioAdoptions[version.id] : fallbackAdoption) || "";
+  for (const audio of versions) {
+    audio.adopted = audio.id === adoptedAudioVersionId;
+    audio.publication.canPublish =
+      audio.adopted &&
+      audio.status === "ready" &&
+      !audio.publication.remoteActive;
+  }
+  const adoptedAudio = versions.find(
+    (audio) => audio.adopted && audio.status === "ready"
+  );
+
+  const models = catalog.map((model) => {
+    const modelVersions = versions.filter(
+      (audio) => audio.modelId === model.id
+    );
+    const latest = modelVersions[0];
+    const ready = modelVersions.find((audio) => audio.status === "ready");
+    const current = latest?.status === "generating" ? latest : ready || latest;
+    const status = current?.status || "missing";
+    return {
+      id: model.id,
+      label: model.label || model.id,
+      description: model.description || "",
+      status,
+      audioVersionId: current?.id || "",
+      canGenerate:
+        version.id === adoptedVersionId &&
+        !modelVersions.some((audio) =>
+          ["ready", "generating"].includes(audio.status)
+        ),
+      completedChunks: current?.completedChunks || 0,
+      chunkCount: current?.chunkCount || 0,
+      error: current?.error || "",
+    };
+  });
+
+  const latest = versions[0];
+  const readyCount = versions.filter((audio) => audio.status === "ready").length;
+  const status = adoptedAudio
+    ? "ready"
+    : readyCount
+      ? "unadopted"
+      : latest?.status || (hasOlderAudio ? "stale" : "missing");
   const labels = {
     ready: "语音已完成",
+    unadopted: readyCount > 1 ? `${readyCount} 个语音版本待选择` : "语音待选择",
     generating: "语音生成中",
+    interrupted: "语音生成已中断",
     failed: "语音生成失败",
     stale: "译文已更新",
     missing: "暂无语音",
@@ -47,18 +173,26 @@ function audioStateFor(version, unitId, adoptedVersionId, audioVersions) {
   return {
     status,
     label: labels[status] || status,
-    exact: Boolean(exact),
+    exact: Boolean(matching.length),
     adopted: version.id === adoptedVersionId,
-    canGenerate:
-      version.id === adoptedVersionId &&
-      !["ready", "generating"].includes(status),
-    audioVersionId: exact?.audio_version_id || "",
-    completedChunks: Number(exact?.completed_chunks || 0),
-    chunkCount: Number(exact?.chunk_count || 0),
-    sentenceCount: Number(exact?.sentence_count || 0),
-    durationMs: Number(exact?.duration_ms || 0),
-    updatedAt: exact?.updated_at || "",
-    error: exact?.error || "",
+    canGenerate: models.some((model) => model.canGenerate),
+    audioVersionId: adoptedAudio?.id || "",
+    adoptedAudioVersionId: adoptedAudio?.id || "",
+    completedChunks: adoptedAudio?.completedChunks || latest?.completedChunks || 0,
+    chunkCount: adoptedAudio?.chunkCount || latest?.chunkCount || 0,
+    sentenceCount: adoptedAudio?.sentenceCount || 0,
+    durationMs: adoptedAudio?.durationMs || 0,
+    updatedAt: adoptedAudio?.updatedAt || latest?.updatedAt || "",
+    error: latest?.error || "",
+    versions,
+    models,
+    publication: adoptedAudio?.publication || {
+      status: "unavailable",
+      label: "暂无可上传语音",
+      canPublish: false,
+      remoteActive: false,
+      error: "",
+    },
   };
 }
 
@@ -180,6 +314,9 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
   const releasesPath = path.join(root, "manifests", "releases.jsonl");
   const eventsPath = path.join(root, "progress", "events.jsonl");
   const audioIndexPath = path.join(root, "audio", "index.json");
+  const audioModelsPath = path.join(root, "audio", "models.json");
+  const audioAdoptionsPath = path.join(root, "audio", "adoptions.json");
+  const audioPublicationsPath = path.join(root, "audio", "publications.json");
 
   const [
     projectText,
@@ -192,6 +329,9 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
     releasesText,
     eventsText,
     audioIndexText,
+    audioModelsText,
+    audioAdoptionsText,
+    audioPublicationsText,
   ] = await Promise.all([
     readFile(projectPath, "utf8"),
     readFile(outlinePath, "utf8"),
@@ -203,6 +343,9 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
     optionalText(releasesPath),
     readFile(eventsPath, "utf8"),
     optionalText(audioIndexPath),
+    optionalText(audioModelsPath),
+    optionalText(audioAdoptionsPath),
+    optionalText(audioPublicationsPath),
   ]);
 
   const project = JSON.parse(projectText);
@@ -218,6 +361,16 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
     ? JSON.parse(audioIndexText)
     : { audio_versions: [], jobs: [] };
   const audioVersions = audioIndex.audio_versions || [];
+  const audioModelsCatalog = audioModelsText.trim()
+    ? JSON.parse(audioModelsText)
+    : { models: [] };
+  const audioModels = audioModelsCatalog.models || [];
+  const audioAdoptions = audioAdoptionsText.trim()
+    ? JSON.parse(audioAdoptionsText)
+    : {};
+  const audioPublications = audioPublicationsText.trim()
+    ? JSON.parse(audioPublicationsText)
+    : { audio_versions: {}, adoptions: {} };
   const controllerById = new Map(
     controllerChapters.map((chapter) => [chapter.chapter_id, chapter])
   );
@@ -291,7 +444,11 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
               base,
               definition.unit_id,
               adoptedVersionId,
-              audioVersions
+              audioVersions,
+              Date.now(),
+              audioModels,
+              audioAdoptions,
+              audioPublications
             ),
           };
         })
@@ -493,6 +650,9 @@ export async function createProgressState(projectRoot = DEFAULT_PROJECT_ROOT) {
     adoptionsPath,
     eventsPath,
     audioIndexPath,
+    audioModelsPath,
+    audioAdoptionsPath,
+    audioPublicationsPath,
     ...activeUnits
       .map((unit) => unit.output_path)
       .filter(Boolean)

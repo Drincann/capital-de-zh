@@ -7,6 +7,17 @@ import {
   DEFAULT_PROJECT_ROOT,
 } from "./progress-state.mjs";
 import { setAdoptedVersion } from "./adoption-state.mjs";
+import { setAdoptedAudioVersion } from "./audio-adoption-state.mjs";
+import { handleAudioRequest } from "./audio-files.mjs";
+import {
+  applyAudioQueueState,
+  createAudioGenerationQueue,
+} from "./audio-generation-queue.mjs";
+import {
+  applyAudioPublishQueueState,
+  createAudioPublishQueue,
+  loadAudioPublishConfig,
+} from "./audio-publish.mjs";
 
 const root = process.cwd();
 const port = Number(process.env.PORT || 4173);
@@ -14,6 +25,32 @@ const htmlPath = path.join(root, "public", "index.html");
 const projectRoot = path.resolve(
   process.env.CAPITAL_PROJECT_ROOT || process.argv[2] || DEFAULT_PROJECT_ROOT
 );
+const repoRoot = path.resolve(root, "..");
+const audioController = path.join(
+  projectRoot,
+  "audio",
+  "scripts",
+  "audio-controller.mjs"
+);
+const audioQueue = createAudioGenerationQueue({
+  controller: audioController,
+  cwd: root,
+});
+const audioPublishConfig = await loadAudioPublishConfig(root);
+const audioPublishQueue = createAudioPublishQueue({
+  projectRoot,
+  config: audioPublishConfig,
+});
+
+async function progressState() {
+  return applyAudioPublishQueueState(
+    applyAudioQueueState(
+      await createProgressState(projectRoot),
+      audioQueue.snapshot()
+    ),
+    audioPublishQueue.snapshot()
+  );
+}
 
 async function readJsonBody(request) {
   let body = "";
@@ -32,7 +69,15 @@ const server = http.createServer(async (request, response) => {
         "content-type": "application/json; charset=utf-8",
         "cache-control": "no-store",
       });
-      response.end(JSON.stringify(await createProgressState(projectRoot)));
+      response.end(JSON.stringify(await progressState()));
+      return;
+    }
+    if (
+      await handleAudioRequest(request, response, url, {
+        projectRoot,
+        repoRoot,
+      })
+    ) {
       return;
     }
     if (url.pathname === "/api/adopt" && request.method === "POST") {
@@ -61,14 +106,19 @@ const server = http.createServer(async (request, response) => {
     }
     if (url.pathname === "/api/audio/generate" && request.method === "POST") {
       const body = await readJsonBody(request);
-      if (typeof body.unitId !== "string" || !body.unitId.trim()) {
+      if (
+        typeof body.unitId !== "string" ||
+        !body.unitId.trim() ||
+        typeof body.modelId !== "string" ||
+        !body.modelId.trim()
+      ) {
         response.writeHead(400, {
           "content-type": "application/json; charset=utf-8",
         });
-        response.end(JSON.stringify({ error: "缺少翻译单元" }));
+        response.end(JSON.stringify({ error: "缺少翻译单元或语音模型" }));
         return;
       }
-      const state = await createProgressState(projectRoot);
+      const state = await progressState();
       const unit = [...(state.frontMatter || []), ...state.parts]
         .flatMap((item) =>
           item.chapters
@@ -83,37 +133,146 @@ const server = http.createServer(async (request, response) => {
         response.end(JSON.stringify({ error: "这一节还没有采用版本" }));
         return;
       }
-      if (unit.audio?.status === "generating") {
+      const model = unit.audio?.models?.find(
+        (item) => item.id === body.modelId
+      );
+      if (!model) {
+        response.writeHead(400, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "未知语音模型" }));
+        return;
+      }
+      if (["generating", "queued"].includes(model.status)) {
         response.writeHead(409, {
           "content-type": "application/json; charset=utf-8",
         });
-        response.end(JSON.stringify({ error: "这一节的语音正在生成" }));
+        response.end(JSON.stringify({ error: "这个模型已经在语音队列中" }));
         return;
       }
-      const controller = path.join(
-        projectRoot,
-        "audio",
-        "scripts",
-        "audio-controller.mjs"
-      );
-      const child = spawn(
-        process.execPath,
-        [controller, "generate", "--unit", body.unitId],
-        {
-          cwd: root,
-          detached: true,
-          stdio: "ignore",
-          windowsHide: true,
-        }
-      );
-      child.unref();
+      if (!model.canGenerate) {
+        response.writeHead(409, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "这个模型已有可用语音" }));
+        return;
+      }
+      const queued = audioQueue.enqueue(body.unitId, body.modelId);
       response.writeHead(202, {
         "content-type": "application/json; charset=utf-8",
         "cache-control": "no-store",
       });
       response.end(
-        JSON.stringify({ ok: true, unitId: body.unitId, pid: child.pid })
+        JSON.stringify({
+          ok: true,
+          unitId: body.unitId,
+          modelId: body.modelId,
+          ...queued,
+        })
       );
+      return;
+    }
+    if (url.pathname === "/api/audio/adopt" && request.method === "POST") {
+      const body = await readJsonBody(request);
+      if (
+        typeof body.unitId !== "string" ||
+        typeof body.translationVersionId !== "string" ||
+        typeof body.audioVersionId !== "string"
+      ) {
+        response.writeHead(400, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "缺少语音版本信息" }));
+        return;
+      }
+      let result;
+      try {
+        result = await setAdoptedAudioVersion(
+          projectRoot,
+          body.unitId,
+          body.translationVersionId,
+          body.audioVersionId
+        );
+      } catch (error) {
+        response.writeHead(409, {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "no-store",
+        });
+        response.end(
+          JSON.stringify({
+            error: error instanceof Error ? error.message : "语音版本未能采用",
+          })
+        );
+        return;
+      }
+      response.writeHead(200, {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store",
+      });
+      response.end(JSON.stringify({ ok: true, ...result }));
+      return;
+    }
+    if (url.pathname === "/api/audio/publish" && request.method === "POST") {
+      const body = await readJsonBody(request);
+      if (
+        typeof body.unitId !== "string" ||
+        typeof body.translationVersionId !== "string" ||
+        typeof body.audioVersionId !== "string"
+      ) {
+        response.writeHead(400, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "缺少语音发布信息" }));
+        return;
+      }
+      const state = await progressState();
+      const unit = [...(state.frontMatter || []), ...state.parts]
+        .flatMap((item) =>
+          item.chapters
+            ? item.chapters.flatMap((chapter) => chapter.sections || [])
+            : item.sections || []
+        )
+        .find((item) => item.unit_id === body.unitId);
+      const version = unit?.versions?.find(
+        (item) => item.id === body.translationVersionId && item.adopted
+      );
+      const audioVersion = version?.audio?.versions?.find(
+        (item) => item.id === body.audioVersionId && item.adopted
+      );
+      if (!audioVersion || audioVersion.status !== "ready") {
+        response.writeHead(409, {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "no-store",
+        });
+        response.end(
+          JSON.stringify({ error: "只能上传当前采用且已经生成完成的语音" })
+        );
+        return;
+      }
+      let queued;
+      try {
+        queued = audioPublishQueue.enqueue({
+          unitId: body.unitId,
+          translationVersionId: body.translationVersionId,
+          audioVersionId: body.audioVersionId,
+        });
+      } catch (error) {
+        response.writeHead(503, {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "no-store",
+        });
+        response.end(
+          JSON.stringify({
+            error: error instanceof Error ? error.message : "语音上传未能启动",
+          })
+        );
+        return;
+      }
+      response.writeHead(202, {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store",
+      });
+      response.end(JSON.stringify({ ok: true, ...queued }));
       return;
     }
     if (url.pathname === "/health") {
@@ -126,6 +285,7 @@ const server = http.createServer(async (request, response) => {
           ok: true,
           storage: "local-files",
           projectRoot,
+          audioPublishing: Boolean(audioPublishConfig),
         })
       );
       return;

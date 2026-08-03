@@ -8,6 +8,7 @@
     "start": "node scripts/dev.mjs --open",
     "build": "node scripts/build.mjs",
     "sync": "node scripts/sync-progress.mjs",
-    "test": "node --test tests/app.test.mjs"
+    "publish:audio": "node scripts/publish-adopted-audio.mjs",
+    "test": "node --test tests/app.test.mjs tests/audio.test.mjs tests/audio-generation-queue.test.mjs tests/audio-publish.test.mjs"
   }
 }

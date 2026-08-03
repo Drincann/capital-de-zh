@@ -35,6 +35,18 @@ type AudioManifest = {
   sentences: AudioSentence[];
 };
 
+type AudioAdoptionRegistry = {
+  adoptions?: Record<
+    string,
+    {
+      unit_id: string;
+      translation_version_id: string;
+      translation_sha256: string;
+      manifest_path: string;
+    }
+  >;
+};
+
 const sentencePattern = /[^。！？!?]+(?:[。！？!?]+[”’」』》）)]*)|[^。！？!?]+$/g;
 const maximumSentenceCharacters = 220;
 const sentenceClickLeadInMs = 240;
@@ -320,9 +332,9 @@ export function AudioReader({
   sentences: NarrationSentence[];
 }) {
   const [manifest, setManifest] = useState<AudioManifest | null>(null);
-  const [status, setStatus] = useState<"loading" | "ready" | "missing" | "error">(
-    audioManifestPath ? "loading" : "missing",
-  );
+  const [status, setStatus] = useState<"loading" | "ready" | "missing" | "error">("loading");
+  const [registryResolved, setRegistryResolved] = useState(false);
+  const [resolvedAudioManifestPath, setResolvedAudioManifestPath] = useState("");
   const [started, setStarted] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [activeSentenceId, setActiveSentenceId] = useState("");
@@ -336,10 +348,10 @@ export function AudioReader({
   const playSentenceRef = useRef<(sentenceId: string) => void>(() => {});
   const manifestUrl = useMemo(
     () =>
-      audioManifestPath && typeof window !== "undefined"
-        ? new URL(audioManifestPath, window.location.origin).href
+      resolvedAudioManifestPath && typeof window !== "undefined"
+        ? new URL(resolvedAudioManifestPath, window.location.origin).href
         : "",
-    [audioManifestPath],
+    [resolvedAudioManifestPath],
   );
 
   const chunkOffsets = useMemo(() => {
@@ -368,19 +380,56 @@ export function AudioReader({
   }, []);
 
   useEffect(() => {
+    let cancelled = false;
+    setRegistryResolved(false);
+    setResolvedAudioManifestPath("");
+    fetch("/audio/adoptions.json", { cache: "no-store" })
+      .then((response) => {
+        if (!response.ok) throw new Error("No remote audio registry");
+        return response.json() as Promise<AudioAdoptionRegistry>;
+      })
+      .then((registry) => {
+        if (cancelled) return;
+        const adopted = registry.adoptions?.[versionId];
+        const exact =
+          adopted?.unit_id === sectionId &&
+          adopted.translation_version_id === versionId &&
+          adopted.translation_sha256 === translationSha256;
+        setResolvedAudioManifestPath(
+          exact ? adopted.manifest_path : audioManifestPath || "",
+        );
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setResolvedAudioManifestPath(audioManifestPath || "");
+        }
+      })
+      .finally(() => {
+        if (!cancelled) setRegistryResolved(true);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [audioManifestPath, sectionId, translationSha256, versionId]);
+
+  useEffect(() => {
     setManifest(null);
     setStarted(false);
     setPlaying(false);
     setActiveSentenceId("");
     setActiveChunkId("");
     setElapsedMs(0);
-    if (!audioManifestPath) {
+    if (!registryResolved) {
+      setStatus("loading");
+      return;
+    }
+    if (!resolvedAudioManifestPath) {
       setStatus("missing");
       return;
     }
     let cancelled = false;
     setStatus("loading");
-    fetch(audioManifestPath, { cache: "no-store" })
+    fetch(resolvedAudioManifestPath, { cache: "no-store" })
       .then((response) => {
         if (!response.ok) throw new Error("语音清单不可用");
         return response.json() as Promise<AudioManifest>;
@@ -404,7 +453,7 @@ export function AudioReader({
     return () => {
       cancelled = true;
     };
-  }, [audioManifestPath, sectionId, translationSha256, versionId]);
+  }, [registryResolved, resolvedAudioManifestPath, sectionId, translationSha256, versionId]);
 
   useEffect(
     () =>

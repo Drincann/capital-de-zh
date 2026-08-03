@@ -37,6 +37,8 @@ npm run export:release
 - `generated/release-manifest.json`：公开目录
 - `public/content/*.json`：各小节的已采用正文
 
+音频 MP3 不再进入站点部署包。构建只保留很小的语音清单，实际音频由 Sites 的 R2 绑定 `AUDIO` 保存，并通过同域名 `/audio/*` 按需读取。`/audio/adoptions.json` 是可更新的采用清单，因此新语音上传完成后不需要为了音频再次构建整站；阅读器仍会校验译文版本和哈希，避免播放旧译文的语音。
+
 线上构建环境找不到本地翻译工程时，会使用仓库中已经提交的发布快照。
 
 ## 匿名统计
