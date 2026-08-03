@@ -1,0 +1,1396 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch09-s01-v1-audio-a7cc47d68445",
+  "unit_id": "ch09-s01",
+  "translation_version_id": "ch09-s01-v1",
+  "translation_sha256": "0576d12ea4c0e05a9f5ed5a40394aedeb038c0d25517b6567834113767221073",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T20:43:33.664Z",
+  "completed_at": "2026-08-02T20:50:27.655Z",
+  "duration_ms": 1314645,
+  "sentence_count": 131,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 57362,
+      "bytes": 918572,
+      "sha256": "eecffcb9776e8f5ff092a7b069b290d0039dfa5c12ed216e94f334d24e487953",
+      "sentence_ids": [
+        "ch09-s01-n0001",
+        "ch09-s01-n0002",
+        "ch09-s01-n0003",
+        "ch09-s01-n0004",
+        "ch09-s01-n0005",
+        "ch09-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 37854,
+      "bytes": 606380,
+      "sha256": "ef88fdab4f8c36c919666165ee94e44ecaeedeac3e8bd6eb4a7b6dba7ac72133",
+      "sentence_ids": [
+        "ch09-s01-n0007",
+        "ch09-s01-n0008",
+        "ch09-s01-n0009",
+        "ch09-s01-n0010",
+        "ch09-s01-n0011",
+        "ch09-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 49075,
+      "bytes": 785708,
+      "sha256": "2d8b284f92caefae0859437329ee582a592adefdd30ce0917beee4c2a88b6b29",
+      "sentence_ids": [
+        "ch09-s01-n0013",
+        "ch09-s01-n0014",
+        "ch09-s01-n0015",
+        "ch09-s01-n0016",
+        "ch09-s01-n0017",
+        "ch09-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 68800,
+      "bytes": 1101356,
+      "sha256": "d6fd2afcfad80acf423bb49cc5e4ce315445ec39b7653dfc723fc0a3e953ba4b",
+      "sentence_ids": [
+        "ch09-s01-n0019",
+        "ch09-s01-n0020",
+        "ch09-s01-n0021",
+        "ch09-s01-n0022",
+        "ch09-s01-n0023",
+        "ch09-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 78833,
+      "bytes": 1261868,
+      "sha256": "6ed10ef46fc0c212a446a1282dbd690ae2d91912d35803c4e2f1b21a80e72160",
+      "sentence_ids": [
+        "ch09-s01-n0025",
+        "ch09-s01-n0026",
+        "ch09-s01-n0027",
+        "ch09-s01-n0028",
+        "ch09-s01-n0029",
+        "ch09-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 56835,
+      "bytes": 910124,
+      "sha256": "12972fbf61d2a14ce8ed2a7f07c26ccfc9bf67f26c6921c7806f4de3303932e5",
+      "sentence_ids": [
+        "ch09-s01-n0031",
+        "ch09-s01-n0032",
+        "ch09-s01-n0033",
+        "ch09-s01-n0034",
+        "ch09-s01-n0035",
+        "ch09-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 95300,
+      "bytes": 1525292,
+      "sha256": "a96a3c38a8331747cb869412d413abf61ca4c6dd5aedde00444d6db46cf87477",
+      "sentence_ids": [
+        "ch09-s01-n0037",
+        "ch09-s01-n0038",
+        "ch09-s01-n0039",
+        "ch09-s01-n0040",
+        "ch09-s01-n0041",
+        "ch09-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 67000,
+      "bytes": 1072556,
+      "sha256": "ca6a05edc666c7d5621131acc52ac547ecefe1f3dae623ee2e7b9b5f7b8ba97b",
+      "sentence_ids": [
+        "ch09-s01-n0043",
+        "ch09-s01-n0044",
+        "ch09-s01-n0045",
+        "ch09-s01-n0046",
+        "ch09-s01-n0047",
+        "ch09-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 72300,
+      "bytes": 1157420,
+      "sha256": "f01b30a28f0714e66998cab47cbacabacce043aeef51b3376c35a2f9018b712a",
+      "sentence_ids": [
+        "ch09-s01-n0049",
+        "ch09-s01-n0050",
+        "ch09-s01-n0051",
+        "ch09-s01-n0052",
+        "ch09-s01-n0053",
+        "ch09-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 36177,
+      "bytes": 579500,
+      "sha256": "ed8a3c3b46c9ddba01c2ce58daf83c08472a33087616cb64123f26b98368a7e7",
+      "sentence_ids": [
+        "ch09-s01-n0055",
+        "ch09-s01-n0056",
+        "ch09-s01-n0057",
+        "ch09-s01-n0058",
+        "ch09-s01-n0059",
+        "ch09-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 71000,
+      "bytes": 1136684,
+      "sha256": "e39402d03bffb930f74680746bf2671fb30ac500af078f96c99ee73d340de0f9",
+      "sentence_ids": [
+        "ch09-s01-n0061",
+        "ch09-s01-n0062",
+        "ch09-s01-n0063",
+        "ch09-s01-n0064",
+        "ch09-s01-n0065",
+        "ch09-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 43525,
+      "bytes": 697004,
+      "sha256": "1ff24ce07088a926bff97b340f42b69543afdfbdd7ffa6f750007d77c626dee5",
+      "sentence_ids": [
+        "ch09-s01-n0067",
+        "ch09-s01-n0068",
+        "ch09-s01-n0069",
+        "ch09-s01-n0070",
+        "ch09-s01-n0071",
+        "ch09-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 54557,
+      "bytes": 873644,
+      "sha256": "5099f49a345ed9291e685214c834188fb62a872d4da64f08d8348c931ef879ef",
+      "sentence_ids": [
+        "ch09-s01-n0073",
+        "ch09-s01-n0074",
+        "ch09-s01-n0075",
+        "ch09-s01-n0076",
+        "ch09-s01-n0077",
+        "ch09-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 52700,
+      "bytes": 843692,
+      "sha256": "943182a382d7dfd48abe008253d01ee5586aa9f1cd9eade0594689c00827793f",
+      "sentence_ids": [
+        "ch09-s01-n0079",
+        "ch09-s01-n0080",
+        "ch09-s01-n0081",
+        "ch09-s01-n0082",
+        "ch09-s01-n0083",
+        "ch09-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 62500,
+      "bytes": 1000748,
+      "sha256": "57fb3fe070316e78770e12e473f70319dd658affecf3b78dcf7eccdc3d7bd4be",
+      "sentence_ids": [
+        "ch09-s01-n0085",
+        "ch09-s01-n0086",
+        "ch09-s01-n0087",
+        "ch09-s01-n0088",
+        "ch09-s01-n0089",
+        "ch09-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 46895,
+      "bytes": 750764,
+      "sha256": "b503d9664ae6a274d1c53d47e5e3a16757b367f5737d6ef24642d5443ce4aff3",
+      "sentence_ids": [
+        "ch09-s01-n0091",
+        "ch09-s01-n0092",
+        "ch09-s01-n0093",
+        "ch09-s01-n0094",
+        "ch09-s01-n0095",
+        "ch09-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 80575,
+      "bytes": 1289900,
+      "sha256": "81d62ee8bf84a0d03315403d69131ac8246605a66c6399814b633bb65f52706f",
+      "sentence_ids": [
+        "ch09-s01-n0097",
+        "ch09-s01-n0098",
+        "ch09-s01-n0099",
+        "ch09-s01-n0100",
+        "ch09-s01-n0101",
+        "ch09-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 59359,
+      "bytes": 950444,
+      "sha256": "9126758e911a3ea6abdb608d1b51481627fa40f849a1856b0e944e44bd7024d9",
+      "sentence_ids": [
+        "ch09-s01-n0103",
+        "ch09-s01-n0104",
+        "ch09-s01-n0105",
+        "ch09-s01-n0106",
+        "ch09-s01-n0107",
+        "ch09-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 34047,
+      "bytes": 545324,
+      "sha256": "615904b731082c0a18088c0231c0b521d8c17948b2af56eb11badaa7e4ef7085",
+      "sentence_ids": [
+        "ch09-s01-n0109",
+        "ch09-s01-n0110",
+        "ch09-s01-n0111",
+        "ch09-s01-n0112",
+        "ch09-s01-n0113",
+        "ch09-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 55280,
+      "bytes": 885164,
+      "sha256": "75dbed904aecdc458bf02dc35ef4f3cba911db2a0f083d002f391191c195abee",
+      "sentence_ids": [
+        "ch09-s01-n0115",
+        "ch09-s01-n0116",
+        "ch09-s01-n0117",
+        "ch09-s01-n0118",
+        "ch09-s01-n0119",
+        "ch09-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 79800,
+      "bytes": 1277228,
+      "sha256": "f853dd97ce8741de886ed7e886d4b56251fab3c3ca6f0b5690964d434987d310",
+      "sentence_ids": [
+        "ch09-s01-n0121",
+        "ch09-s01-n0122",
+        "ch09-s01-n0123",
+        "ch09-s01-n0124",
+        "ch09-s01-n0125",
+        "ch09-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 54871,
+      "bytes": 878636,
+      "sha256": "f5083034534d3dbebc78356fbc3367fc0ea796657c987a7492913bc6af6a3a1f",
+      "sentence_ids": [
+        "ch09-s01-n0127",
+        "ch09-s01-n0128",
+        "ch09-s01-n0129",
+        "ch09-s01-n0130",
+        "ch09-s01-n0131"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch09-s01-n0001",
+      "text": "本章继续采用前面的假定：劳动力的价值保持不变。",
+      "start_ms": 0,
+      "end_ms": 5120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch09-s01-n0002",
+      "text": "也就是说，工人每天维持和再生产自己劳动力所需的劳动时间，是一个已经给定的固定量。",
+      "start_ms": 6000,
+      "end_ms": 15440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch09-s01-n0003",
+      "text": "在这个前提下，只要知道剩余价值率，就能知道一名工人在一定时期内给资本家生产多少剩余价值。",
+      "start_ms": 16200,
+      "end_ms": 25920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch09-s01-n0004",
+      "text": "例如，假定工人每天为补偿自身劳动力价值而劳动 6 小时，这 6 小时体现在 3 先令黄金中，等于 1 塔勒。",
+      "start_ms": 26640,
+      "end_ms": 38640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch09-s01-n0005",
+      "text": "那么，1 塔勒就是一份劳动力的日价值，也是资本家每天购买这份劳动力所预付的资本。",
+      "start_ms": 39480,
+      "end_ms": 48800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch09-s01-n0006",
+      "text": "如果剩余价值率是 100%，这 1 塔勒可变资本每天就会产生 1 塔勒剩余价值。",
+      "start_ms": 49520,
+      "end_ms": 57040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch09-s01-n0007",
+      "text": "换成劳动时间来说，就是工人完成 6 小时必要劳动以后，再提供 6 小时剩余劳动。",
+      "start_ms": 80,
+      "end_ms": 6600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch09-s01-n0008",
+      "text": "不过，资本家通常会同时雇用许多工人。",
+      "start_ms": 7320,
+      "end_ms": 10840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch09-s01-n0009",
+      "text": "可变资本就是他购买全部这些劳动力所支付的价值总额，因此等于一份劳动力的平均价值乘以工人人数。",
+      "start_ms": 11280,
+      "end_ms": 20040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch09-s01-n0010",
+      "text": "在劳动力价值不变时，可变资本会随着同时雇用的工人人数按同一比例变化。",
+      "start_ms": 20640,
+      "end_ms": 26720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch09-s01-n0011",
+      "text": "假如一份劳动力每天价值 1 塔勒，那么每天雇用 100 人就要预付 100 塔勒，雇用 n 人就要预付 n 塔勒。",
+      "start_ms": 27240,
+      "end_ms": 35080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch09-s01-n0012",
+      "text": "道理同样适用于剩余价值。",
+      "start_ms": 35720,
+      "end_ms": 37600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch09-s01-n0013",
+      "text": "如果 1 塔勒可变资本每天产生 1 塔勒剩余价值，那么 100 塔勒每天产生 100 塔勒，n 塔勒每天产生 n 塔勒。",
+      "start_ms": 0,
+      "end_ms": 7600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch09-s01-n0014",
+      "text": "一名工人每天生产的剩余价值乘以工人人数，就是资本家每天得到的剩余价值总量。",
+      "start_ms": 8360,
+      "end_ms": 15200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch09-s01-n0015",
+      "text": "前面又已经说明，在劳动力价值不变时，一名工人生产多少剩余价值取决于剩余价值率。",
+      "start_ms": 15880,
+      "end_ms": 23240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch09-s01-n0016",
+      "text": "因此可以得到第一条规律：剩余价值总量等于预付的可变资本乘以剩余价值率。",
+      "start_ms": 24200,
+      "end_ms": 31320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch09-s01-n0017",
+      "text": "换一种说法，它同时取决于两个因素：同一个资本家雇用了多少工人，以及每一份劳动力受到多大程度的榨取。",
+      "start_ms": 31960,
+      "end_ms": 40960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch09-s01-n0018",
+      "text": "为了把这条规律写成公式，先统一计算期间：以下各量都按同一段时间计算，本例按一天计算。",
+      "start_ms": 41720,
+      "end_ms": 49040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch09-s01-n0019",
+      "text": "然后约定几个符号：M 表示这段时间内的剩余价值总量，m 表示一名工人平均每天生产的剩余价值，v 表示每天购买一份劳动力所预付的可变资本，V 表示这一天预付的可变资本总额，k 表示一份平均劳动力每天的价值，a′ 表示同一工作日内的剩余劳动时间，a 表示同一工作日内的必要劳动时间，n 表示雇用的工人人数。",
+      "start_ms": 0,
+      "end_ms": 42044,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch09-s01-n0020",
+      "text": "在这里，v 和 k 指的是同一笔价值，V 则等于 k 乘以 n。",
+      "start_ms": 42044,
+      "end_ms": 49395,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch09-s01-n0021",
+      "text": "一名工人的剩余价值率，既可以写成 m ÷ v，也可以写成 a′ ÷ a。",
+      "start_ms": 49395,
+      "end_ms": 58215,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch09-s01-n0022",
+      "text": "所以，剩余价值总量有两种算法：",
+      "start_ms": 58215,
+      "end_ms": 62626,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch09-s01-n0023",
+      "text": "M = (m ÷ v) × V",
+      "start_ms": 62626,
+      "end_ms": 65272,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch09-s01-n0024",
+      "text": "M = k × (a′ ÷ a) × n",
+      "start_ms": 65272,
+      "end_ms": 68800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch09-s01-n0025",
+      "text": "这里始终假定，一份平均劳动力的价值保持不变，资本家雇用的不同工人也都可以按平均工人来计算。",
+      "start_ms": 40,
+      "end_ms": 12800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch09-s01-n0026",
+      "text": "有些例外情况下，剩余价值总量不会同工人人数按同一比例增长，但这时劳动力价值也不再是固定的。",
+      "start_ms": 13520,
+      "end_ms": 26280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch09-s01-n0027",
+      "text": "由此可见，要生产一定总量的剩余价值，一个因素减少，可以由另一个因素增加来补偿。",
+      "start_ms": 27160,
+      "end_ms": 37480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch09-s01-n0028",
+      "text": "假如可变资本减少，而剩余价值率相应提高到足以补回这部分减少，剩余价值总量就不变。",
+      "start_ms": 38560,
+      "end_ms": 49120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch09-s01-n0029",
+      "text": "仍用前面的假定来计算：资本家要想每天雇用 100 名工人，必须预付 100 塔勒。",
+      "start_ms": 50080,
+      "end_ms": 60040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch09-s01-n0030",
+      "text": "剩余价值率如果是 50%，这 100 塔勒可变资本每天产生 50 塔勒剩余价值，也就是 100 名工人各提供 3 小时剩余劳动。",
+      "start_ms": 61120,
+      "end_ms": 78720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch09-s01-n0031",
+      "text": "现在把剩余价值率提高一倍，也就是把工作日从 6 小时必要劳动加 3 小时剩余劳动，延长为 6 小时必要劳动加 6 小时剩余劳动。",
+      "start_ms": 360,
+      "end_ms": 12080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch09-s01-n0032",
+      "text": "即使可变资本减半到 50 塔勒，只雇用 50 名工人，每天仍会产生 50 塔勒剩余价值，也就是 50 名工人各提供 6 小时剩余劳动。",
+      "start_ms": 12520,
+      "end_ms": 32640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch09-s01-n0033",
+      "text": "因此，可变资本减少，可以由提高劳动力受榨取的程度来补偿。",
+      "start_ms": 33480,
+      "end_ms": 38440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch09-s01-n0034",
+      "text": "比如可变资本减半，就要把剩余价值率提高一倍。",
+      "start_ms": 39000,
+      "end_ms": 42920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch09-s01-n0035",
+      "text": "换成工人人数来说，少雇一些人，可以用延长工作日、增加每人提供的剩余劳动来补偿。",
+      "start_ms": 43280,
+      "end_ms": 50120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch09-s01-n0036",
+      "text": "在一定范围内，资本能够榨取多少劳动，并不取决于市场上有多少工人可供雇用。",
+      "start_ms": 50720,
+      "end_ms": 56800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch09-s01-n0037",
+      "text": "反过来，如果剩余价值率下降，只要相应增加可变资本或工人人数，补足少掉的部分，剩余价值总量也可以保持不变。",
+      "start_ms": 0,
+      "end_ms": 14440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch09-s01-n0038",
+      "text": "不过，用提高剩余价值率或延长工作日来弥补工人人数和可变资本的减少，有一道不可能跨越的界限。",
+      "start_ms": 15280,
+      "end_ms": 29440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch09-s01-n0039",
+      "text": "无论劳动力价值是多少，无论工人每天维持自身需要劳动 2 小时还是 10 小时，一个人一天能创造的价值都必然少于 24 小时劳动所创造的价值。",
+      "start_ms": 30440,
+      "end_ms": 48240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch09-s01-n0040",
+      "text": "假定 24 小时劳动表现为 12 先令，也就是 4 塔勒，那么一名工人每天创造的价值一定少于 4 塔勒。",
+      "start_ms": 49320,
+      "end_ms": 63400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch09-s01-n0041",
+      "text": "仍假定工人每天需要劳动 6 小时来补偿劳动力价值。",
+      "start_ms": 64280,
+      "end_ms": 71200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch09-s01-n0042",
+      "text": "500 塔勒可变资本雇用 500 名工人，实行 12 小时工作日，剩余价值率为 100%，每天就产生 500 塔勒剩余价值，也就是 500 人各提供 6 小时剩余劳动。",
+      "start_ms": 71200,
+      "end_ms": 95120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch09-s01-n0043",
+      "text": "如果把可变资本降到 100 塔勒，只雇用 100 名工人，同时把工作日延长到 18 小时，使剩余价值率提高到 200%，每天也只能产生 200 塔勒剩余价值，也就是 100 人各提供 12 小时剩余劳动。",
+      "start_ms": 120,
+      "end_ms": 18880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch09-s01-n0044",
+      "text": "这 100 人还在必要劳动时间中新创造了 100 塔勒，用来补回预付的可变资本。",
+      "start_ms": 19600,
+      "end_ms": 26680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch09-s01-n0045",
+      "text": "加上这部分价值，他们当天新创造的价值总额是 300 塔勒，而且永远不可能达到 400 塔勒，也就是 100 人每人劳动满 24 小时所创造的价值。",
+      "start_ms": 27440,
+      "end_ms": 40600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch09-s01-n0046",
+      "text": "平均工作日受人的身体条件限制，必然短于 24 小时。",
+      "start_ms": 41480,
+      "end_ms": 46720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch09-s01-n0047",
+      "text": "这便给可变资本的减少能够由剩余价值率提高补偿到什么程度，规定了绝对上限，也给工人人数的减少能够由榨取程度提高补偿到什么程度，规定了绝对上限。",
+      "start_ms": 48040,
+      "end_ms": 64280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch09-s01-n0048",
+      "text": "这是第二条规律。",
+      "start_ms": 65400,
+      "end_ms": 66920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch09-s01-n0049",
+      "text": "它能解释后面将要分析的一种矛盾：资本总想尽量少雇工人、尽量减少转化为劳动力的可变资本，同时又想生产尽可能多的剩余价值。",
+      "start_ms": 0,
+      "end_ms": 14600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch09-s01-n0050",
+      "text": "反过来，如果工人人数或可变资本虽然增加，却仍不足以抵消剩余价值率的下降，剩余价值总量就会减少。",
+      "start_ms": 15560,
+      "end_ms": 26200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch09-s01-n0051",
+      "text": "剩余价值总量由剩余价值率和预付可变资本共同决定，由此可以得出第三条规律。",
+      "start_ms": 27080,
+      "end_ms": 35840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch09-s01-n0052",
+      "text": "假定剩余价值率、劳动力价值和必要劳动时间都不变，可变资本越多，生产出的新价值和剩余价值就越多。",
+      "start_ms": 36760,
+      "end_ms": 48240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch09-s01-n0053",
+      "text": "工作日及其中的必要劳动时间既然已经给定，一个资本家能生产多少新价值和剩余价值，就只取决于他推动了多少劳动。",
+      "start_ms": 49040,
+      "end_ms": 61360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch09-s01-n0054",
+      "text": "按照这些假定，劳动总量取决于他雇用了多少工人，而工人人数又取决于他预付了多少可变资本。",
+      "start_ms": 62360,
+      "end_ms": 72160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch09-s01-n0055",
+      "text": "因此，在剩余价值率和劳动力价值不变时，剩余价值总量同预付可变资本成正比。",
+      "start_ms": 80,
+      "end_ms": 8040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch09-s01-n0056",
+      "text": "我们知道，资本家把资本分成两部分。",
+      "start_ms": 8720,
+      "end_ms": 12080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch09-s01-n0057",
+      "text": "一部分用于购买生产资料，是不变资本。",
+      "start_ms": 12920,
+      "end_ms": 16800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch09-s01-n0058",
+      "text": "另一部分用于购买活劳动力，是可变资本。",
+      "start_ms": 18280,
+      "end_ms": 22600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch09-s01-n0059",
+      "text": "采用同一种生产方式时，不同行业的不变资本和可变资本比例不同。",
+      "start_ms": 23600,
+      "end_ms": 29800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch09-s01-n0060",
+      "text": "同一行业的技术基础和生产组织发生变化，这个比例也会改变。",
+      "start_ms": 30640,
+      "end_ms": 35960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch09-s01-n0061",
+      "text": "但无论一笔资本怎样分成这两部分，无论可变资本与不变资本之比是 1∶2、1∶10 还是 1∶x，都不会改变刚才的规律。",
+      "start_ms": 0,
+      "end_ms": 13946,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch09-s01-n0062",
+      "text": "原因是，不变资本的价值虽然会重新出现在产品价值中，却不会进入生产过程中新增的价值。",
+      "start_ms": 13946,
+      "end_ms": 24343,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch09-s01-n0063",
+      "text": "使用 1,000 名纺纱工，当然比使用 100 名需要更多原料、纺锭和其他生产资料。",
+      "start_ms": 24343,
+      "end_ms": 33979,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch09-s01-n0064",
+      "text": "不过，这些新增生产资料的价值无论高低、增减或保持不变，都不影响使用它们的劳动力怎样创造新价值。",
+      "start_ms": 33979,
+      "end_ms": 45896,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch09-s01-n0065",
+      "text": "因此，第三条规律可以写成：在劳动力价值和受榨取程度相同时，不同资本生产的新价值和剩余价值总量，同各自的可变资本成正比，也就是同它们转化为活劳动力的资本部分成正比。",
+      "start_ms": 45896,
+      "end_ms": 66436,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch09-s01-n0066",
+      "text": "这条规律显然同日常看到的现象相矛盾。",
+      "start_ms": 66436,
+      "end_ms": 71000,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch09-s01-n0067",
+      "text": "人人都知道，按总资本的比例计算，棉纺厂使用的不变资本很多、可变资本很少，可它得到的利润或剩余价值并不比使用较多可变资本、较少不变资本的面包房低。",
+      "start_ms": 40,
+      "end_ms": 12880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch09-s01-n0068",
+      "text": "要解释这个表面矛盾，还需要补上许多中间环节。",
+      "start_ms": 13440,
+      "end_ms": 17320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch09-s01-n0069",
+      "text": "初等代数也要经过若干步骤，才能说明 0 ÷ 0 可以表示一个实际的量。",
+      "start_ms": 17920,
+      "end_ms": 23600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch09-s01-n0070",
+      "text": "古典经济学虽然从未明确写出这条规律，却本能地坚持它，因为它是价值规律的必然结果。",
+      "start_ms": 24160,
+      "end_ms": 31560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch09-s01-n0071",
+      "text": "古典经济学用强行抽象的办法，试图使这条规律避开表面现象中的矛盾。",
+      "start_ms": 32120,
+      "end_ms": 38000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch09-s01-n0072",
+      "text": "以后会看到，李嘉图学派怎样在这块绊脚石上跌倒。",
+      "start_ms": 38760,
+      "end_ms": 43360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch09-s01-n0073",
+      "text": "庸俗经济学“确实什么也没有学到”，却在这里和其他地方一样，拿表面现象反对支配现象的规律。",
+      "start_ms": 0,
+      "end_ms": 9268,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch09-s01-n0074",
+      "text": "它不赞成斯宾诺莎，反而相信“无知就是充分的理由”。",
+      "start_ms": 9268,
+      "end_ms": 14534,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch09-s01-n0075",
+      "text": "一个社会的总资本每天推动的全部劳动，可以看成一个总工作日。",
+      "start_ms": 14534,
+      "end_ms": 20643,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch09-s01-n0076",
+      "text": "例如，社会有 100 万名工人，每人平均每天劳动 10 小时，那么社会总工作日就是 1,000 万小时。",
+      "start_ms": 20643,
+      "end_ms": 30333,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch09-s01-n0077",
+      "text": "如果平均工作日的长度已经给定，无论这道界限来自身体条件还是社会规定，增加剩余价值总量的唯一办法就是增加工人人数，也就是扩大工人人口。",
+      "start_ms": 30333,
+      "end_ms": 44235,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch09-s01-n0078",
+      "text": "在这个条件下，可供资本使用的工人人口能增加到多少，就给社会总资本能够生产的剩余价值规定了数学上限。",
+      "start_ms": 44235,
+      "end_ms": 54557,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch09-s01-n0079",
+      "text": "反过来，如果工人人口规模已经给定，剩余价值的上限就取决于工作日最多能够延长到什么程度。",
+      "start_ms": 40,
+      "end_ms": 8520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch09-s01-n0080",
+      "text": "下一章会看到，这条规律只适用于我们到目前为止所分析的这种剩余价值生产方式。",
+      "start_ms": 9080,
+      "end_ms": 15720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch09-s01-n0081",
+      "text": "前面的分析还说明，不是任何一笔钱或价值都能变成资本。",
+      "start_ms": 16480,
+      "end_ms": 21720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch09-s01-n0082",
+      "text": "要完成这种转变，个人手中至少要有一定数量的钱或交换价值。",
+      "start_ms": 22200,
+      "end_ms": 28000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch09-s01-n0083",
+      "text": "可变资本的最低限度，是购买一份劳动力的费用，这份劳动力全年每天都被用来生产剩余价值。",
+      "start_ms": 28760,
+      "end_ms": 36840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch09-s01-n0084",
+      "text": "假如工人拥有自己的生产资料，并且只求维持普通工人的生活，那么他每天只要劳动足以再生产生活资料的时间，例如 8 小时，也只需要供 8 小时劳动使用的生产资料。",
+      "start_ms": 37560,
+      "end_ms": 52560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch09-s01-n0085",
+      "text": "资本家却要让工人在这 8 小时以外再劳动 4 小时，因此还要购买供这 4 小时使用的生产资料。",
+      "start_ms": 0,
+      "end_ms": 9185,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch09-s01-n0086",
+      "text": "按照这个例子，每名工人每天提供 4 小时剩余劳动。",
+      "start_ms": 9185,
+      "end_ms": 14337,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch09-s01-n0087",
+      "text": "资本家必须至少雇用两名工人，才能仅靠每天占有的剩余劳动维持一名普通工人的生活。",
+      "start_ms": 14337,
+      "end_ms": 23073,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch09-s01-n0088",
+      "text": "如果他想过得比普通工人好一倍，同时还把得到的剩余价值拿出一半重新转化为资本，那就得雇用 8 名工人，并把预付资本提高到最初购买一份劳动力所需最低资本的 8 倍。",
+      "start_ms": 23073,
+      "end_ms": 40099,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch09-s01-n0089",
+      "text": "资本家当然也可以像工人一样亲自参加生产，但那时他只是介于资本家和工人之间的“小业主”。",
+      "start_ms": 40099,
+      "end_ms": 49731,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch09-s01-n0090",
+      "text": "资本主义生产发展到一定程度以后，资本家必须能够把自己的全部时间用于占有和监督他人的劳动，并出售这些劳动生产的产品。",
+      "start_ms": 49731,
+      "end_ms": 62500,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch09-s01-n0091",
+      "text": "只有这样，他才真正作为资本的人格化身发挥作用。",
+      "start_ms": 0,
+      "end_ms": 3960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch09-s01-n0092",
+      "text": "中世纪的行会制度严格限制一名师傅最多可以雇用多少工人，正是要阻止手工业师傅变成资本家。",
+      "start_ms": 4520,
+      "end_ms": 12440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch09-s01-n0093",
+      "text": "只有生产所需的最低预付资本远远超过中世纪行会允许的规模，货币或商品所有者才真正变成资本家。",
+      "start_ms": 13160,
+      "end_ms": 22800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch09-s01-n0094",
+      "text": "在这里，黑格尔在《逻辑学》中提出的规律也得到证明：单纯的数量变化达到一定程度，就会转化为性质上的差别。",
+      "start_ms": 23520,
+      "end_ms": 32600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch09-s01-n0095",
+      "text": "个人要真正成为资本家，必须掌握的最低价值量并不是固定的。",
+      "start_ms": 33280,
+      "end_ms": 38560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch09-s01-n0096",
+      "text": "它会随着资本主义生产的发展阶段而变化，在同一发展阶段，也会因各行业的技术条件不同而不同。",
+      "start_ms": 39360,
+      "end_ms": 46760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch09-s01-n0097",
+      "text": "有些行业在资本主义发展初期就需要很大一笔最低资本，超过任何个人当时能够掌握的数量。",
+      "start_ms": 80,
+      "end_ms": 7720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch09-s01-n0098",
+      "text": "于是，一方面，国家会向私人提供补贴，例如柯尔贝尔时代的法国，以及直到我们这个时代的一些德国国家。",
+      "start_ms": 8080,
+      "end_ms": 17280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch09-s01-n0099",
+      "text": "另一方面，会出现获得法定垄断权、经营某些工业和商业部门的公司，它们就是现代股份公司的先驱。",
+      "start_ms": 17760,
+      "end_ms": 26480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch09-s01-n0100",
+      "text": "生产过程中，资本家和雇佣工人的关系发生了许多变化，资本本身的含义也进一步发展。",
+      "start_ms": 27160,
+      "end_ms": 34000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch09-s01-n0101",
+      "text": "这里不再逐项讨论，只强调几个要点。",
+      "start_ms": 34280,
+      "end_ms": 37080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch09-s01-n0102",
+      "text": "在生产过程中，资本首先发展成对劳动的指挥权，也就是对正在发挥作用的劳动力、对工人本人的指挥权。",
+      "start_ms": 37640,
+      "end_ms": 80400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch09-s01-n0103",
+      "text": "资本的人格化身——资本家——负责监督工人，确保他正确地工作，并保持应有的劳动强度。",
+      "start_ms": 360,
+      "end_ms": 10720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch09-s01-n0104",
+      "text": "资本还发展成一种强制关系，迫使工人阶级提供的劳动超过维持自身生活所需要的范围。",
+      "start_ms": 11320,
+      "end_ms": 20840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch09-s01-n0105",
+      "text": "资本制造并占有他人的辛劳，榨取剩余劳动，消耗劳动力。",
+      "start_ms": 21960,
+      "end_ms": 27800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch09-s01-n0106",
+      "text": "在这方面，它表现出的强度、无限欲望和效率，超过了以直接强迫劳动为基础的所有旧生产制度。",
+      "start_ms": 28720,
+      "end_ms": 38040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch09-s01-n0107",
+      "text": "资本起初只是在历史上已经存在的技术条件下支配劳动，并不会立刻改变生产方式。",
+      "start_ms": 38880,
+      "end_ms": 48120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch09-s01-n0108",
+      "text": "因此，我们到目前为止所分析的剩余价值生产，只靠延长工作日就能实现，并不依赖生产方式本身发生变化。",
+      "start_ms": 49080,
+      "end_ms": 59040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch09-s01-n0109",
+      "text": "无论在老式面包房，还是在现代棉纺厂，它都同样有效。",
+      "start_ms": 0,
+      "end_ms": 4240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch09-s01-n0110",
+      "text": "如果只把生产看成劳动过程，工人面对的生产资料并不是资本，只是他进行有目的的生产活动所使用的材料和工具。",
+      "start_ms": 4840,
+      "end_ms": 13640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch09-s01-n0111",
+      "text": "例如，在制革厂里，工人处理的只是作为劳动对象的兽皮，他硝的并不是资本家的皮。",
+      "start_ms": 14280,
+      "end_ms": 20360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch09-s01-n0112",
+      "text": "可是，一旦从价值增殖过程来看生产，情况就完全不同了。",
+      "start_ms": 21200,
+      "end_ms": 25600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch09-s01-n0113",
+      "text": "生产资料立刻变成吸收他人劳动的工具。",
+      "start_ms": 26080,
+      "end_ms": 29000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch09-s01-n0114",
+      "text": "不再是工人使用生产资料，而是生产资料使用工人。",
+      "start_ms": 29640,
+      "end_ms": 33760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch09-s01-n0115",
+      "text": "它们不再作为工人生产活动的物质要素被他消耗，反而把工人作为维持自身生命的酵母加以消耗。",
+      "start_ms": 0,
+      "end_ms": 10030,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch09-s01-n0116",
+      "text": "资本的“生命”，正是价值通过不断增殖而运动。",
+      "start_ms": 10030,
+      "end_ms": 15161,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch09-s01-n0117",
+      "text": "对资本家来说，熔炉和厂房如果在夜间休息，不能吸收活劳动，就是“纯粹损失”。",
+      "start_ms": 15161,
+      "end_ms": 23791,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch09-s01-n0118",
+      "text": "于是，熔炉和厂房仿佛取得了要求劳动力上夜班的权利。",
+      "start_ms": 23791,
+      "end_ms": 29623,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch09-s01-n0119",
+      "text": "货币只要转化成生产过程中的物质条件，也就是生产资料，这些生产资料便同时变成要求他人劳动和剩余劳动的权利凭证和强制凭证。",
+      "start_ms": 29623,
+      "end_ms": 43384,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch09-s01-n0120",
+      "text": "死劳动和活劳动、已有价值和创造价值的力量之间的关系，就这样发生了资本主义特有的颠倒，甚至变得近乎疯狂。",
+      "start_ms": 43384,
+      "end_ms": 55280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch09-s01-n0121",
+      "text": "最后来看一个例子，看看这种颠倒怎样反映在资本家的头脑中。",
+      "start_ms": 0,
+      "end_ms": 7498,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch09-s01-n0122",
+      "text": "1848—1850 年英国厂主反叛期间，西苏格兰一家历史最久、声望最高的企业——佩斯利的卡莱尔父子公司——主管给 1849 年 4 月 25 日的《格拉斯哥每日邮报》写了一封信。",
+      "start_ms": 7498,
+      "end_ms": 29456,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch09-s01-n0123",
+      "text": "这家公司成立于 1752 年，世代由同一家族经营。",
+      "start_ms": 29456,
+      "end_ms": 35615,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch09-s01-n0124",
+      "text": "这位极其聪明的先生把信题为《接力制》，其中有一段天真得荒唐的话：“现在让我们看看，把工作日从 12 小时缩短到 10 小时会造成哪些损害……它会极其严重地损害厂主的前景和财产。",
+      "start_ms": 35615,
+      "end_ms": 58109,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch09-s01-n0125",
+      "text": "假如他——也就是他的‘人手’——原来劳动 12 小时，现在被限制为 10 小时，那么他的工厂每 12 台机器或纺锭就会缩成 10 台。",
+      "start_ms": 58109,
+      "end_ms": 73909,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch09-s01-n0126",
+      "text": "以后出售工厂时，每 12 台也只能按 10 台估价。",
+      "start_ms": 73909,
+      "end_ms": 79800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch09-s01-n0127",
+      "text": "这样一来，全国每家工厂的价值都会减少六分之一。”",
+      "start_ms": 0,
+      "end_ms": 5332,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch09-s01-n0128",
+      "text": "这位西苏格兰世袭资本家的头脑，已经把纺锭等生产资料本身的价值，同它们作为资本每天吸收一定数量无偿劳动的能力混为一谈。",
+      "start_ms": 5332,
+      "end_ms": 18216,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch09-s01-n0129",
+      "text": "卡莱尔公司的主管竟然以为，出售工厂时，买方支付的不只是纺锭本身的价值，还要支付这些纺锭将来继续增殖的能力。",
+      "start_ms": 18216,
+      "end_ms": 29990,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch09-s01-n0130",
+      "text": "换句话说，售价不仅包括制造同类纺锭所需的、已经凝结在其中的劳动，还包括这些纺锭每天帮助他从佩斯利那些老实的苏格兰工人身上榨取的剩余劳动。",
+      "start_ms": 29990,
+      "end_ms": 45096,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch09-s01-n0131",
+      "text": "正因为如此，他才会认为，工作日缩短 2 小时以后，每 12 台纺纱机的售价也会缩成 10 台的售价。",
+      "start_ms": 45096,
+      "end_ms": 54871,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    }
+  ]
+}

@@ -1,0 +1,2251 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch08-s03-v2-audio-921e75c18cbe",
+  "unit_id": "ch08-s03",
+  "translation_version_id": "ch08-s03-v2",
+  "translation_sha256": "d2380ebbc1adb03aafca0510cdd9080563398d0e50892cd2c660dc0dc4a92d29",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T20:06:44.106Z",
+  "completed_at": "2026-08-02T20:15:30.556Z",
+  "duration_ms": 1661144,
+  "sentence_count": 212,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 34547,
+      "bytes": 553388,
+      "sha256": "65f34097e1aab2cc78fed2cafd72c4f89e17bbee5ffbce23b92b036d3bb469e6",
+      "sentence_ids": [
+        "ch08-s03-n0001",
+        "ch08-s03-n0002",
+        "ch08-s03-n0003",
+        "ch08-s03-n0004",
+        "ch08-s03-n0005",
+        "ch08-s03-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 53280,
+      "bytes": 852908,
+      "sha256": "6703cd9a02e18ed438026364ba13ca32b4e60bab2a96b4514dcab49be954db8e",
+      "sentence_ids": [
+        "ch08-s03-n0007",
+        "ch08-s03-n0008",
+        "ch08-s03-n0009",
+        "ch08-s03-n0010",
+        "ch08-s03-n0011",
+        "ch08-s03-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 50448,
+      "bytes": 807980,
+      "sha256": "a5e13fe6f5cd73f6c69133130302fce281123d6cda73563d5f0ade9abf51f7a9",
+      "sentence_ids": [
+        "ch08-s03-n0013",
+        "ch08-s03-n0014",
+        "ch08-s03-n0015",
+        "ch08-s03-n0016",
+        "ch08-s03-n0017",
+        "ch08-s03-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 44200,
+      "bytes": 707756,
+      "sha256": "5e1b8fe21d0f7b9ab8f88b35af957ad2f32b348696d8e37746ea5c756c47475d",
+      "sentence_ids": [
+        "ch08-s03-n0019",
+        "ch08-s03-n0020",
+        "ch08-s03-n0021",
+        "ch08-s03-n0022",
+        "ch08-s03-n0023",
+        "ch08-s03-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 29926,
+      "bytes": 479276,
+      "sha256": "24715d218d47d071f60a7c54766ff84738a561fe55f3b10a2c9b78cdba3857bf",
+      "sentence_ids": [
+        "ch08-s03-n0025",
+        "ch08-s03-n0026",
+        "ch08-s03-n0027",
+        "ch08-s03-n0028",
+        "ch08-s03-n0029",
+        "ch08-s03-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 22471,
+      "bytes": 360236,
+      "sha256": "2d550fe2408aef1c7a8d82ce62779417a2ffe0b87cb6e9aad6ec985010b3c15d",
+      "sentence_ids": [
+        "ch08-s03-n0031",
+        "ch08-s03-n0032",
+        "ch08-s03-n0033",
+        "ch08-s03-n0034",
+        "ch08-s03-n0035",
+        "ch08-s03-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 48580,
+      "bytes": 778028,
+      "sha256": "27bc37a0be870f6a39c07a78368e2204448f4e1c7119b24f97ac3162d6ae051f",
+      "sentence_ids": [
+        "ch08-s03-n0037",
+        "ch08-s03-n0038",
+        "ch08-s03-n0039",
+        "ch08-s03-n0040",
+        "ch08-s03-n0041",
+        "ch08-s03-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 45700,
+      "bytes": 731948,
+      "sha256": "a8ed832486020edfb21172eff23cd1039a2b3fe0d7ed94394bac7641bb0a99aa",
+      "sentence_ids": [
+        "ch08-s03-n0043",
+        "ch08-s03-n0044",
+        "ch08-s03-n0045",
+        "ch08-s03-n0046",
+        "ch08-s03-n0047",
+        "ch08-s03-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 61831,
+      "bytes": 989996,
+      "sha256": "ededd6546b34727d1044ea9352c4bea00062259cf55a3feb690a5dd41253f834",
+      "sentence_ids": [
+        "ch08-s03-n0049",
+        "ch08-s03-n0050",
+        "ch08-s03-n0051",
+        "ch08-s03-n0052",
+        "ch08-s03-n0053",
+        "ch08-s03-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 54680,
+      "bytes": 875564,
+      "sha256": "583cbd19f8541799d93f6bb75381486140a19cfdd5f48de6b464cef30660eee0",
+      "sentence_ids": [
+        "ch08-s03-n0055",
+        "ch08-s03-n0056",
+        "ch08-s03-n0057",
+        "ch08-s03-n0058",
+        "ch08-s03-n0059",
+        "ch08-s03-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 55580,
+      "bytes": 889772,
+      "sha256": "5feee0cbdc8d4cbf992e3a7a3ced65299fab0189b47a2a20f9677390620f79c2",
+      "sentence_ids": [
+        "ch08-s03-n0061",
+        "ch08-s03-n0062",
+        "ch08-s03-n0063",
+        "ch08-s03-n0064",
+        "ch08-s03-n0065",
+        "ch08-s03-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 38950,
+      "bytes": 623660,
+      "sha256": "dc080a786d6f927c1a33ffac5ea499be3737582765e350762537cb421a35ba36",
+      "sentence_ids": [
+        "ch08-s03-n0067",
+        "ch08-s03-n0068",
+        "ch08-s03-n0069",
+        "ch08-s03-n0070",
+        "ch08-s03-n0071",
+        "ch08-s03-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 36469,
+      "bytes": 584108,
+      "sha256": "ebb62754745548a333c9ebfd16d0d5dc1e5f107b431f7bce4391100f30ab3ea5",
+      "sentence_ids": [
+        "ch08-s03-n0073",
+        "ch08-s03-n0074",
+        "ch08-s03-n0075",
+        "ch08-s03-n0076",
+        "ch08-s03-n0077",
+        "ch08-s03-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 40973,
+      "bytes": 656300,
+      "sha256": "dfda7a3b3ebcfee2353fee423569da933e0ef3f3fbe18bc4149c66dca9d65ca8",
+      "sentence_ids": [
+        "ch08-s03-n0079",
+        "ch08-s03-n0080",
+        "ch08-s03-n0081",
+        "ch08-s03-n0082",
+        "ch08-s03-n0083",
+        "ch08-s03-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 35403,
+      "bytes": 567212,
+      "sha256": "42f4e44c2bac6b84244898c90da6f09ad99a76485733acc936af827d7214320f",
+      "sentence_ids": [
+        "ch08-s03-n0085",
+        "ch08-s03-n0086",
+        "ch08-s03-n0087",
+        "ch08-s03-n0088",
+        "ch08-s03-n0089",
+        "ch08-s03-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 70400,
+      "bytes": 1127084,
+      "sha256": "7b516c411642078fe5d8491f2bc8d561b59049d3b529a4fd32b75faaa57ef496",
+      "sentence_ids": [
+        "ch08-s03-n0091",
+        "ch08-s03-n0092",
+        "ch08-s03-n0093",
+        "ch08-s03-n0094",
+        "ch08-s03-n0095",
+        "ch08-s03-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 50580,
+      "bytes": 809900,
+      "sha256": "81b50370982f0b5e691ec836cac24a7629017f66c018528e0032bf562e13307c",
+      "sentence_ids": [
+        "ch08-s03-n0097",
+        "ch08-s03-n0098",
+        "ch08-s03-n0099",
+        "ch08-s03-n0100",
+        "ch08-s03-n0101",
+        "ch08-s03-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 52468,
+      "bytes": 840236,
+      "sha256": "50d9fff292f1045f618af236005200271ec141da4c16e911d4ba338d765fdb4a",
+      "sentence_ids": [
+        "ch08-s03-n0103",
+        "ch08-s03-n0104",
+        "ch08-s03-n0105",
+        "ch08-s03-n0106",
+        "ch08-s03-n0107",
+        "ch08-s03-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 49780,
+      "bytes": 797228,
+      "sha256": "7b7cf29f4e99f50dbe50fd1ce71aef87f7f3c9ff800bc0717974c622f1468c95",
+      "sentence_ids": [
+        "ch08-s03-n0109",
+        "ch08-s03-n0110",
+        "ch08-s03-n0111",
+        "ch08-s03-n0112",
+        "ch08-s03-n0113",
+        "ch08-s03-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 63400,
+      "bytes": 1014956,
+      "sha256": "a92c0a2f1cef4f6f7e1cb7cd2e2cbaffaaa1573db075fdc064efb1e8122ea2c5",
+      "sentence_ids": [
+        "ch08-s03-n0115",
+        "ch08-s03-n0116",
+        "ch08-s03-n0117",
+        "ch08-s03-n0118",
+        "ch08-s03-n0119",
+        "ch08-s03-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 40074,
+      "bytes": 641708,
+      "sha256": "ccc9c98144895045ce4225b07c3b13df3e7e6e77dd7cb700be6f94f1db93219a",
+      "sentence_ids": [
+        "ch08-s03-n0121",
+        "ch08-s03-n0122",
+        "ch08-s03-n0123",
+        "ch08-s03-n0124",
+        "ch08-s03-n0125",
+        "ch08-s03-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 44900,
+      "bytes": 718892,
+      "sha256": "5b95350caf34c794e16b24e7fdd8cf576a4bf19f26bc1187fbf5806ff887f3c8",
+      "sentence_ids": [
+        "ch08-s03-n0127",
+        "ch08-s03-n0128",
+        "ch08-s03-n0129",
+        "ch08-s03-n0130",
+        "ch08-s03-n0131",
+        "ch08-s03-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 43061,
+      "bytes": 689708,
+      "sha256": "75d0217d809d91ae75c221051276fe7d7c2c3eb4091475ea5ccc5170670058df",
+      "sentence_ids": [
+        "ch08-s03-n0133",
+        "ch08-s03-n0134",
+        "ch08-s03-n0135",
+        "ch08-s03-n0136",
+        "ch08-s03-n0137",
+        "ch08-s03-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 51400,
+      "bytes": 822956,
+      "sha256": "a72bb5bf1d365f2d76c359dae8087e9dc0894ef08bd7d7b40cc2a4daff62342a",
+      "sentence_ids": [
+        "ch08-s03-n0139",
+        "ch08-s03-n0140",
+        "ch08-s03-n0141",
+        "ch08-s03-n0142",
+        "ch08-s03-n0143",
+        "ch08-s03-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 44070,
+      "bytes": 705836,
+      "sha256": "45ad98484da1286e03e2baf73bb0e2a9aa3ff28d7937416c1dcea8dde70872f8",
+      "sentence_ids": [
+        "ch08-s03-n0145",
+        "ch08-s03-n0146",
+        "ch08-s03-n0147",
+        "ch08-s03-n0148",
+        "ch08-s03-n0149",
+        "ch08-s03-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 39379,
+      "bytes": 630572,
+      "sha256": "d7f3cd8482b045a2a71f43b6c2fb8224553d14a27f1137aff058f556c1192bb6",
+      "sentence_ids": [
+        "ch08-s03-n0151",
+        "ch08-s03-n0152",
+        "ch08-s03-n0153",
+        "ch08-s03-n0154",
+        "ch08-s03-n0155",
+        "ch08-s03-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 25863,
+      "bytes": 414380,
+      "sha256": "285e0f34ba093164b621d9384ca9240864f98c3ab84b6a483cd9c04e8e2385ab",
+      "sentence_ids": [
+        "ch08-s03-n0157",
+        "ch08-s03-n0158",
+        "ch08-s03-n0159",
+        "ch08-s03-n0160",
+        "ch08-s03-n0161",
+        "ch08-s03-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 91800,
+      "bytes": 1469228,
+      "sha256": "8f8a9276ab36495e7be6909cdf9d86976ac14a9e6e704eff6dfe1f75dc9ce798",
+      "sentence_ids": [
+        "ch08-s03-n0163",
+        "ch08-s03-n0164",
+        "ch08-s03-n0165",
+        "ch08-s03-n0166",
+        "ch08-s03-n0167",
+        "ch08-s03-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 41500,
+      "bytes": 664748,
+      "sha256": "6e1c0e7aedefaca0db281710238c82e42b5c96400e5d0938ad0e7522f2db79f3",
+      "sentence_ids": [
+        "ch08-s03-n0169",
+        "ch08-s03-n0170",
+        "ch08-s03-n0171",
+        "ch08-s03-n0172",
+        "ch08-s03-n0173",
+        "ch08-s03-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 59280,
+      "bytes": 948908,
+      "sha256": "acbe67b13410afc610c9927d38bbe8156e41e39e14ff41ea0d716358ec7fdb85",
+      "sentence_ids": [
+        "ch08-s03-n0175",
+        "ch08-s03-n0176",
+        "ch08-s03-n0177",
+        "ch08-s03-n0178",
+        "ch08-s03-n0179",
+        "ch08-s03-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 48720,
+      "bytes": 780332,
+      "sha256": "52686fafb3603fb085b0b75ad326d3f4f9989fadb3c43519cca15b6aab0ba0a2",
+      "sentence_ids": [
+        "ch08-s03-n0181",
+        "ch08-s03-n0182",
+        "ch08-s03-n0183",
+        "ch08-s03-n0184",
+        "ch08-s03-n0185",
+        "ch08-s03-n0186"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 47400,
+      "bytes": 758828,
+      "sha256": "80caf90ac2cfee0dab91bddce740e2ac82d34012cb9d5739c053bf1d19893f8a",
+      "sentence_ids": [
+        "ch08-s03-n0187",
+        "ch08-s03-n0188",
+        "ch08-s03-n0189",
+        "ch08-s03-n0190",
+        "ch08-s03-n0191",
+        "ch08-s03-n0192"
+      ]
+    },
+    {
+      "id": "c0033",
+      "audio_file": "c0033.mp3",
+      "duration_ms": 29340,
+      "bytes": 470060,
+      "sha256": "53c7ab3066053abd0a78f794ffb3f7e084e686447041e5076865e62b912b5a92",
+      "sentence_ids": [
+        "ch08-s03-n0193",
+        "ch08-s03-n0194",
+        "ch08-s03-n0195",
+        "ch08-s03-n0196",
+        "ch08-s03-n0197",
+        "ch08-s03-n0198"
+      ]
+    },
+    {
+      "id": "c0034",
+      "audio_file": "c0034.mp3",
+      "duration_ms": 46278,
+      "bytes": 741164,
+      "sha256": "4d5f34376fd972c366db7b3e7744671350ca37a8ebc3122a100eb7696b61a18e",
+      "sentence_ids": [
+        "ch08-s03-n0199",
+        "ch08-s03-n0200",
+        "ch08-s03-n0201",
+        "ch08-s03-n0202",
+        "ch08-s03-n0203",
+        "ch08-s03-n0204"
+      ]
+    },
+    {
+      "id": "c0035",
+      "audio_file": "c0035.mp3",
+      "duration_ms": 52290,
+      "bytes": 837164,
+      "sha256": "66443fecd7ec8e999153eb385733a90705c6a200aa3007b0759033b50e1a17e6",
+      "sentence_ids": [
+        "ch08-s03-n0205",
+        "ch08-s03-n0206",
+        "ch08-s03-n0207",
+        "ch08-s03-n0208",
+        "ch08-s03-n0209",
+        "ch08-s03-n0210"
+      ]
+    },
+    {
+      "id": "c0036",
+      "audio_file": "c0036.mp3",
+      "duration_ms": 16123,
+      "bytes": 258476,
+      "sha256": "428060a8389d46581c81e118b599805fc660f12e38407cd21c00072556080ee9",
+      "sentence_ids": [
+        "ch08-s03-n0211",
+        "ch08-s03-n0212"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch08-s03-n0001",
+      "text": "到目前为止，我们考察的行业已经受到工厂法限制。",
+      "start_ms": 0,
+      "end_ms": 4240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s03-n0002",
+      "text": "资本在那里像饿狼一样追逐剩余劳动，造成了骇人的暴行。",
+      "start_ms": 4760,
+      "end_ms": 9840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s03-n0003",
+      "text": "用一位英国资产阶级经济学家的话说，这种暴行即使没有超过西班牙人征服美洲时为黄金屠杀原住民，也不相上下。",
+      "start_ms": 10560,
+      "end_ms": 20200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s03-n0004",
+      "text": "正因如此，资本最终被套上了法律的锁链。",
+      "start_ms": 20560,
+      "end_ms": 24360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s03-n0005",
+      "text": "现在，我们再看看另一些行业。",
+      "start_ms": 25200,
+      "end_ms": 27640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s03-n0006",
+      "text": "直到今天，或者就在不久以前，这些行业还可以毫无约束地榨取劳动力。",
+      "start_ms": 28480,
+      "end_ms": 34480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s03-n0007",
+      "text": "“1860 年 1 月 14 日，布劳顿先生以郡治安法官身份主持诺丁汉市政厅的一场会议。",
+      "start_ms": 0,
+      "end_ms": 9665,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s03-n0008",
+      "text": "他说，城里从事花边生产的人承受着文明世界其他地方闻所未闻的痛苦和匮乏。",
+      "start_ms": 9665,
+      "end_ms": 18338,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s03-n0009",
+      "text": "凌晨 2 点、3 点、4 点，九、十岁的孩子就被人从肮脏的床上拽起来。",
+      "start_ms": 18338,
+      "end_ms": 26020,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s03-n0010",
+      "text": "为了勉强活下去，他们被迫一直工作到晚上 10 点、11 点、12 点。",
+      "start_ms": 26020,
+      "end_ms": 33703,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s03-n0011",
+      "text": "四肢逐渐萎缩，身体变得矮小，面部表情迟钝，整个人像石头一样麻木僵硬，只看一眼都令人战栗。",
+      "start_ms": 33703,
+      "end_ms": 44607,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s03-n0012",
+      "text": "马利特先生和其他工厂主站出来，反对人们讨论这种状况，我们一点也不惊讶。",
+      "start_ms": 44607,
+      "end_ms": 53280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s03-n0013",
+      "text": "按照蒙塔古·瓦尔皮牧师的说法，这是一套不受限制的奴隶制度，在社会、身体、道德和智力各方面都是奴役。",
+      "start_ms": 0,
+      "end_ms": 12000,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s03-n0014",
+      "text": "一个城市竟要召开公众会议，请愿把成年男子的劳动限制在每天 18 小时，我们该怎样看待它？",
+      "start_ms": 12000,
+      "end_ms": 22285,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s03-n0015",
+      "text": "我们痛斥弗吉尼亚和南北卡罗来纳的种植园主。",
+      "start_ms": 22285,
+      "end_ms": 27428,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s03-n0016",
+      "text": "可他们的黑人市场充满鞭打和买卖人肉的恐怖，难道就比这里缓慢屠杀人的制度更可憎吗？",
+      "start_ms": 27428,
+      "end_ms": 37224,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s03-n0017",
+      "text": "这里的人被慢慢杀死，只是为了替资本家生产面纱和衣领。”",
+      "start_ms": 37224,
+      "end_ms": 43836,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s03-n0018",
+      "text": "过去 22 年里，斯塔福德郡陶瓷业先后接受了三次议会调查。",
+      "start_ms": 43836,
+      "end_ms": 50448,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s03-n0019",
+      "text": "调查结果分别见于斯克里文 1841 年提交给童工调查委员会的报告、格林豪医生 1860 年根据枢密院医疗官命令公布的报告，以及隆格 1863 年收入童工调查委员会第一次报告的材料。",
+      "start_ms": 0,
+      "end_ms": 15470,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s03-n0020",
+      "text": "这里不必罗列全部调查，只需引用 1860—1863 年报告中一些受剥削儿童的亲口证词。",
+      "start_ms": 15470,
+      "end_ms": 23021,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s03-n0021",
+      "text": "孩子的处境足以让人推知成年人的处境，尤其是女孩和妇女。",
+      "start_ms": 23021,
+      "end_ms": 27993,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s03-n0022",
+      "text": "和陶瓷业相比，棉纺等行业简直显得舒适又健康。",
+      "start_ms": 27993,
+      "end_ms": 32045,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s03-n0023",
+      "text": "九岁的威廉·伍德说，他“开始工作时只有 7 岁 10 个月”。",
+      "start_ms": 32045,
+      "end_ms": 37018,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s03-n0024",
+      "text": "从第一天起，他就负责“跑模”，也就是把成形的陶器送进烘干室，再把空模具拿回来。",
+      "start_ms": 37018,
+      "end_ms": 44200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s03-n0025",
+      "text": "他每周每天早上 6 点到工厂，晚上大约 9 点结束。",
+      "start_ms": 0,
+      "end_ms": 5775,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s03-n0026",
+      "text": "“一周每天都干到晚上 9 点。",
+      "start_ms": 5775,
+      "end_ms": 9188,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s03-n0027",
+      "text": "过去七八个星期就是这样。”",
+      "start_ms": 9188,
+      "end_ms": 12600,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s03-n0028",
+      "text": "也就是说，他还不到 8 岁就开始工作。",
+      "start_ms": 12600,
+      "end_ms": 17063,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s03-n0029",
+      "text": "如今 9 岁，过去七八个星期里，他每天仍要劳动 15 小时。",
+      "start_ms": 17063,
+      "end_ms": 23888,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s03-n0030",
+      "text": "12 岁的 J. 默里作证说：“我负责跑模和转陶轮。",
+      "start_ms": 23888,
+      "end_ms": 29926,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s03-n0031",
+      "text": "我早上 6 点到，有时凌晨 4 点就到。",
+      "start_ms": 0,
+      "end_ms": 3669,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s03-n0032",
+      "text": "我从昨晚一直干到今天早上 6 点，整夜没有上床。",
+      "start_ms": 3669,
+      "end_ms": 8713,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s03-n0033",
+      "text": "昨晚还有八九个男孩和我一起通宵。",
+      "start_ms": 8713,
+      "end_ms": 12382,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s03-n0034",
+      "text": "除了一人，其他人今天早上又都来上工。",
+      "start_ms": 12382,
+      "end_ms": 16509,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s03-n0035",
+      "text": "我每周拿 3 先令 6 便士。",
+      "start_ms": 16509,
+      "end_ms": 19032,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s03-n0036",
+      "text": "就算整夜工作，工资也不会增加。",
+      "start_ms": 19032,
+      "end_ms": 22471,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s03-n0037",
+      "text": "上星期我通宵干了两个晚上。”",
+      "start_ms": 0,
+      "end_ms": 3524,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s03-n0038",
+      "text": "10 岁的弗尼霍说：“我吃午饭并不总有整整一小时，往往只有半小时。",
+      "start_ms": 3524,
+      "end_ms": 11579,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s03-n0039",
+      "text": "每逢星期四、星期五和星期六都是这样。”",
+      "start_ms": 11579,
+      "end_ms": 16361,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s03-n0040",
+      "text": "格林豪医生指出，特伦特河畔斯托克和沃尔斯坦顿两个陶瓷产区的居民寿命短得惊人。",
+      "start_ms": 16361,
+      "end_ms": 25926,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s03-n0041",
+      "text": "在斯托克，20 岁以上男性中只有 36.6% 从事陶瓷业；在沃尔斯坦顿，这个比例只有 30.4%。",
+      "start_ms": 25926,
+      "end_ms": 37253,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s03-n0042",
+      "text": "然而，这一年龄组男性死于胸部疾病的人中，陶工在斯托克占一半以上，在沃尔斯坦顿约占五分之二。",
+      "start_ms": 37253,
+      "end_ms": 48580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s03-n0043",
+      "text": "哈利的执业医生布思罗伊德说：“每一代陶工都比上一代更矮小、更虚弱。”",
+      "start_ms": 0,
+      "end_ms": 7968,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s03-n0044",
+      "text": "另一位医生麦克比恩也说：“我 25 年前开始给陶工看病，此后这个群体一直明显退化，身高和体重不断下降。”",
+      "start_ms": 7968,
+      "end_ms": 19686,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s03-n0045",
+      "text": "这些证词都取自格林豪医生 1860 年的报告。",
+      "start_ms": 19686,
+      "end_ms": 24608,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s03-n0046",
+      "text": "1863 年委员会报告还记载了以下材料。",
+      "start_ms": 24608,
+      "end_ms": 29061,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s03-n0047",
+      "text": "北斯塔福德郡医院主任医师 J. T. 阿利奇说：“陶工这个群体，无论男女，在身体和道德上都已经退化。",
+      "start_ms": 29061,
+      "end_ms": 40075,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s03-n0048",
+      "text": "他们通常身材矮小、体格畸形，胸部也常常发育不良。",
+      "start_ms": 40075,
+      "end_ms": 45700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s03-n0049",
+      "text": "他们早衰、短命，身体迟钝而贫血，经常发生顽固的消化不良、肝肾疾病和风湿病，这些都暴露出他们体质虚弱。",
+      "start_ms": 0,
+      "end_ms": 12124,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s03-n0050",
+      "text": "他们尤其容易患肺炎、肺结核、支气管炎和哮喘等胸部疾病。",
+      "start_ms": 12124,
+      "end_ms": 18671,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s03-n0051",
+      "text": "其中一种哮喘是陶工特有的，人们称它为‘陶工哮喘’或‘陶工肺痨’。",
+      "start_ms": 18671,
+      "end_ms": 26430,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s03-n0052",
+      "text": "超过三分之二的陶工患有瘰疬，扁桃体、骨骼或身体其他部位都会受到侵害。",
+      "start_ms": 26430,
+      "end_ms": 34674,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s03-n0053",
+      "text": "这个地区的居民之所以没有退化得更加严重，完全是因为不断有周围乡村人口迁入，并同较健康的人通婚。”",
+      "start_ms": 34674,
+      "end_ms": 46313,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s03-n0054",
+      "text": "不久前还在同一家医院担任住院外科医生的查尔斯·帕森斯，在给调查委员隆格的信中写道：“我只能根据亲眼观察，而不能根据统计数字发言。",
+      "start_ms": 46313,
+      "end_ms": 61831,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s03-n0055",
+      "text": "但是我可以肯定，每当看到这些可怜的孩子为了满足父母和雇主的贪欲而牺牲健康，我都会一再感到愤怒。”",
+      "start_ms": 0,
+      "end_ms": 11665,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s03-n0056",
+      "text": "他列举了陶工疾病的各种原因，最后把“劳动时间过长”列为最严重的一项。",
+      "start_ms": 11665,
+      "end_ms": 19928,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s03-n0057",
+      "text": "委员会报告希望：“这个在世界上地位如此显赫的制造业，不会继续背负这样的污点。",
+      "start_ms": 19928,
+      "end_ms": 29163,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s03-n0058",
+      "text": "它的巨大成就，不应再伴随着工人身体退化、疾病缠身和过早死亡，因为这些成就正是靠工人的劳动和技能取得的。”",
+      "start_ms": 29163,
+      "end_ms": 41800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s03-n0059",
+      "text": "英格兰陶瓷业的状况，同样适用于苏格兰。",
+      "start_ms": 41800,
+      "end_ms": 46417,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s03-n0060",
+      "text": "火柴制造业始于 1833 年，当时人们发明了把磷直接涂在火柴梗上的方法。",
+      "start_ms": 46417,
+      "end_ms": 54680,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s03-n0061",
+      "text": "1845 年以后，这个行业在英国迅速发展，从伦敦人口稠密的地区扩散到曼彻斯特、伯明翰、利物浦、布里斯托尔、诺里奇、纽卡斯尔和格拉斯哥。",
+      "start_ms": 0,
+      "end_ms": 14163,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s03-n0062",
+      "text": "随它一起扩散的，还有一位维也纳医生早在 1845 年就发现的火柴工人特有疾病——牙关紧闭症。",
+      "start_ms": 14163,
+      "end_ms": 23605,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s03-n0063",
+      "text": "火柴工人中，不满 13 岁的儿童和年满 13 岁、不满 18 岁的青少年合计占一半。",
+      "start_ms": 23605,
+      "end_ms": 31331,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s03-n0064",
+      "text": "这个行业既有害健康又令人厌恶，名声极坏，所以只有工人阶级中处境最悲惨的人，例如半饥饿的寡妇，才会把孩子送来。",
+      "start_ms": 31331,
+      "end_ms": 42919,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s03-n0065",
+      "text": "这里的孩子“衣衫褴褛、食不果腹，完全无人照管，也没有受过教育”。",
+      "start_ms": 42919,
+      "end_ms": 49786,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s03-n0066",
+      "text": "1863 年，怀特委员询问的证人中，270 人不满 18 岁。",
+      "start_ms": 49786,
+      "end_ms": 55580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s03-n0067",
+      "text": "其中，40 人还不满 10 岁；这 40 人中，10 人只有 8 岁，另有 5 人只有 6 岁。",
+      "start_ms": 0,
+      "end_ms": 8297,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s03-n0068",
+      "text": "工作日时而 12 小时，时而 14 或 15 小时，还要上夜班。",
+      "start_ms": 8297,
+      "end_ms": 14289,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s03-n0069",
+      "text": "吃饭时间毫无规律，而且通常就在充满磷毒气的工作间里进食。",
+      "start_ms": 14289,
+      "end_ms": 20743,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s03-n0070",
+      "text": "但丁来到这种工场，也会发现自己笔下最残酷的地狱想象已经被现实超过。",
+      "start_ms": 20743,
+      "end_ms": 28348,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s03-n0071",
+      "text": "壁纸厂用机器印刷粗糙品种，用手工木版印刷精细品种。",
+      "start_ms": 28348,
+      "end_ms": 34110,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s03-n0072",
+      "text": "每年十月初到次年四月底是生意最繁忙的时期。",
+      "start_ms": 34110,
+      "end_ms": 38950,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s03-n0073",
+      "text": "在这几个月里，劳动经常从早上 6 点持续到晚上 10 点，中间几乎不停，有时还要一直干到深夜。",
+      "start_ms": 0,
+      "end_ms": 8297,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s03-n0074",
+      "text": "J. 利奇作证说：“去年冬天，也就是 1862 年，19 个女孩中有 6 个因过度劳动患病，不能来上工。",
+      "start_ms": 8297,
+      "end_ms": 17173,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s03-n0075",
+      "text": "为了让她们保持清醒，我不得不对她们大喊。”",
+      "start_ms": 17173,
+      "end_ms": 21225,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s03-n0076",
+      "text": "W. 达菲说：“孩子们常常累得睁不开眼。",
+      "start_ms": 21225,
+      "end_ms": 24892,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s03-n0077",
+      "text": "事实上，就连我们自己也常常几乎睁不开眼。”",
+      "start_ms": 24892,
+      "end_ms": 28944,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s03-n0078",
+      "text": "13 岁的 J. 莱特伯恩说：“去年冬天我们干到晚上 9 点，前一年冬天干到晚上 10 点。",
+      "start_ms": 28944,
+      "end_ms": 36469,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s03-n0079",
+      "text": "去年冬天，我几乎每天晚上都因为双脚疼痛而哭喊。”",
+      "start_ms": 0,
+      "end_ms": 4553,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s03-n0080",
+      "text": "G. 阿斯普登说：“我的儿子 7 岁时，每天工作 16 小时。",
+      "start_ms": 4553,
+      "end_ms": 9484,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s03-n0081",
+      "text": "我常常背着他在雪地里来回走。",
+      "start_ms": 9484,
+      "end_ms": 12140,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s03-n0082",
+      "text": "他站在机器旁，不能离开，也不准停机，我只好跪下来喂他吃东西。”",
+      "start_ms": 12140,
+      "end_ms": 18021,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s03-n0083",
+      "text": "曼彻斯特一家工厂的管理合伙人史密斯说：“我们——他指的是替‘我们’劳动的工人——吃饭也不停工，所以每天 102分之1 小时的正常劳动到下午 4 点半结束，之后全都算加班。”",
+      "start_ms": 18021,
+      "end_ms": 33575,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s03-n0084",
+      "text": "这里所谓“加班”，只是超过厂主规定的正常工作日，并不是我们前面定义的剩余劳动。",
+      "start_ms": 33575,
+      "end_ms": 40973,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s03-n0085",
+      "text": "那 102分之1 小时本身已经包含剩余劳动。",
+      "start_ms": 0,
+      "end_ms": 4046,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s03-n0086",
+      "text": "史密斯先生自己是否也会连续 102分之1 小时不吃饭呢？",
+      "start_ms": 4046,
+      "end_ms": 9306,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s03-n0087",
+      "text": "他接着说：“我们很少在傍晚 6 点以前停下。”",
+      "start_ms": 9306,
+      "end_ms": 13554,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s03-n0088",
+      "text": "这里的“我们”，仍然是指他在消费“我们的”人形劳动力机器。",
+      "start_ms": 13554,
+      "end_ms": 19421,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s03-n0089",
+      "text": "因此，“我们实际上全年都在加班。",
+      "start_ms": 19421,
+      "end_ms": 22658,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s03-n0090",
+      "text": "过去 18 个月里，儿童和成年人——包括 152 名不满 18 岁的儿童和青少年，以及 140 名成年人——平均每周至少劳动 782分之1 小时。",
+      "start_ms": 22658,
+      "end_ms": 35403,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s03-n0091",
+      "text": "按 102分之1 小时为一个正常工作日折算，相当于 7 个工作日再加 5 小时。",
+      "start_ms": 0,
+      "end_ms": 10831,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s03-n0092",
+      "text": "截至今年 1863 年 5 月 2 日的 6 个星期，平均时间更长，达到每周 84 小时，相当于 8 个正常工作日！”",
+      "start_ms": 10831,
+      "end_ms": 25803,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s03-n0093",
+      "text": "这位酷爱使用尊贵复数“我们”的史密斯先生，又笑眯眯地补充道：“机器劳动很轻松。”",
+      "start_ms": 25803,
+      "end_ms": 38545,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s03-n0094",
+      "text": "手工木版印刷业主则说：“手工劳动比机器劳动更健康。”",
+      "start_ms": 38545,
+      "end_ms": 46827,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s03-n0095",
+      "text": "总的说来，工厂主们愤怒反对“至少在吃饭时停下机器”的提议。",
+      "start_ms": 46827,
+      "end_ms": 56065,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s03-n0096",
+      "text": "伦敦博罗一家壁纸厂的经理奥特利说：“如果法律允许从早上 6 点工作到晚上 9 点，我们会非常满意。",
+      "start_ms": 56065,
+      "end_ms": 70400,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s03-n0097",
+      "text": "可工厂法规定早上 6 点到傍晚 6 点，这不适合我们。",
+      "start_ms": 0,
+      "end_ms": 5513,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s03-n0098",
+      "text": "我们的机器在午餐时间会停下来。”",
+      "start_ms": 5513,
+      "end_ms": 9349,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s03-n0099",
+      "text": "——多么宽宏大量！",
+      "start_ms": 9349,
+      "end_ms": 11506,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s03-n0100",
+      "text": "他又充满同情地补充说：“停机并不会造成多少纸张和颜料损失。",
+      "start_ms": 11506,
+      "end_ms": 18458,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s03-n0101",
+      "text": "不过，我也能理解，人们为什么不喜欢由此造成的损失。”",
+      "start_ms": 18458,
+      "end_ms": 24691,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s03-n0102",
+      "text": "委员会报告却天真地认为，一些“主要企业”害怕损失时间，也就是失去占有他人劳动的时间，因而害怕“损失利润”，这并不是充分理由，不能因此让不满 13 岁的儿童和年满 13 岁、不满 18 岁的青少年连续劳动 12 到 16 小时而失去午饭。",
+      "start_ms": 24691,
+      "end_ms": 50580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s03-n0103",
+      "text": "也不能像在生产过程中给蒸汽机添煤和水、给羊毛加肥皂、给车轮上油那样，把食物直接塞给他们，让他们一边劳动一边把饭当作劳动工具的辅助材料吞下去。",
+      "start_ms": 0,
+      "end_ms": 14920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s03-n0104",
+      "text": "除了刚开始推广的机器制面包，英国没有哪个行业像烘焙业这样，把古老得近乎基督教以前的生产方式一直保留到今天。",
+      "start_ms": 15640,
+      "end_ms": 25920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s03-n0105",
+      "text": "罗马帝国时代的诗人已经描写过类似情形。",
+      "start_ms": 26760,
+      "end_ms": 30200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s03-n0106",
+      "text": "不过，前面已经说过，资本最初并不关心自己控制的劳动过程在技术上是什么样子。",
+      "start_ms": 30960,
+      "end_ms": 37360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s03-n0107",
+      "text": "它只会接管现成的生产方式。",
+      "start_ms": 38040,
+      "end_ms": 40320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s03-n0108",
+      "text": "1855—1856 年，英国下院食品掺假委员会和哈索尔医生的《掺假揭秘》，第一次揭露了令人难以置信的面包掺假，伦敦尤其严重。",
+      "start_ms": 41040,
+      "end_ms": 52280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s03-n0109",
+      "text": "这些揭露促成了 1860 年 8 月 6 日的《防止食品和饮料掺假法》。",
+      "start_ms": 0,
+      "end_ms": 6637,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s03-n0110",
+      "text": "这部法律毫无作用，因为它对每一个想靠买卖掺假商品“诚实赚一便士”的自由贸易商，都保持了最体贴的态度。",
+      "start_ms": 6637,
+      "end_ms": 17700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s03-n0111",
+      "text": "委员会自己也多少有些天真地表示，自由贸易的实质似乎就是买卖掺假商品。",
+      "start_ms": 17700,
+      "end_ms": 25222,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s03-n0112",
+      "text": "英国人还把掺假说成给商品“做高深处理”。",
+      "start_ms": 25222,
+      "end_ms": 29647,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s03-n0113",
+      "text": "这种“高深学问”比普罗泰戈拉更会把黑说成白、把白说成黑，也比爱利亚学派更能让人亲眼看到，一切真实的东西不过是假象。",
+      "start_ms": 29647,
+      "end_ms": 42258,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s03-n0114",
+      "text": "无论如何，委员会让公众开始注意自己的“每日面包”，也开始注意烘焙业。",
+      "start_ms": 42258,
+      "end_ms": 49780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s03-n0115",
+      "text": "与此同时，伦敦面包工人的呼声在公众会议和递交议会的请愿书中不断响起，他们控诉过度劳动和其他苦难。",
+      "start_ms": 0,
+      "end_ms": 12421,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s03-n0116",
+      "text": "抗议越来越强烈，王室只好任命 H. S. 特里门希尔为调查委员。",
+      "start_ms": 12421,
+      "end_ms": 19926,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s03-n0117",
+      "text": "他的报告和证词真正触动的不是公众的心，而是公众的胃。",
+      "start_ms": 19926,
+      "end_ms": 26654,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s03-n0118",
+      "text": "熟悉《圣经》的英国人知道，人若不是凭上帝恩典成了资本家、地主或领干薪者，就得汗流满面才有饭吃。",
+      "start_ms": 26654,
+      "end_ms": 38816,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s03-n0119",
+      "text": "可他以前并不知道，自己每天吃下的面包里，还混有一定数量的人汗、脓疮渗出物、蜘蛛网、蟑螂尸体和腐烂的德国酵母，更不用说明矾、砂石和其他可口的矿物配料。",
+      "start_ms": 38816,
+      "end_ms": 57966,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s03-n0120",
+      "text": "于是，议会终于不再顾及神圣的“自由贸易”。",
+      "start_ms": 57966,
+      "end_ms": 63400,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s03-n0121",
+      "text": "1863 年议会会期结束时，原本“自由”的烘焙业被置于国家视察员监管之下。",
+      "start_ms": 0,
+      "end_ms": 7971,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s03-n0122",
+      "text": "同一部法律还禁止 18 岁以下面包工从晚上 9 点工作到早上 5 点。",
+      "start_ms": 7971,
+      "end_ms": 14391,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s03-n0123",
+      "text": "这一条本身就足以说明，这个看起来如此古朴亲切的行业，过度劳动到了什么程度。",
+      "start_ms": 14391,
+      "end_ms": 22583,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s03-n0124",
+      "text": "“伦敦面包工通常在晚上 11 点开始劳动。",
+      "start_ms": 22583,
+      "end_ms": 26790,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s03-n0125",
+      "text": "首先要和面，这是一项非常吃力的工作，视面包数量和精细程度不同，要持续半小时到四十五分钟。",
+      "start_ms": 26790,
+      "end_ms": 36532,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s03-n0126",
+      "text": "随后，他躺在和面板上睡几个小时。",
+      "start_ms": 36532,
+      "end_ms": 40074,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s03-n0127",
+      "text": "和面板同时也是面槽的盖子，他拿一袋面粉当枕头，另一袋盖在身上。",
+      "start_ms": 0,
+      "end_ms": 7030,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s03-n0128",
+      "text": "接下来是连续 5 小时快速而不停的劳动：搬运、称重、成形、把面团送进烤炉、再从炉中取出。",
+      "start_ms": 7030,
+      "end_ms": 16554,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s03-n0129",
+      "text": "烤房的温度在华氏 75 到 90 度之间，小烤房通常更热。”",
+      "start_ms": 16554,
+      "end_ms": 22450,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s03-n0130",
+      "text": "“面包和小面包烤好后，就要开始送货。",
+      "start_ms": 22450,
+      "end_ms": 26532,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s03-n0131",
+      "text": "相当一部分日工做完前面所说的繁重夜工，白天还要把面包装进篮子，或用手推车挨家挨户送去，中间有时还要回烤房工作。",
+      "start_ms": 26532,
+      "end_ms": 39004,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s03-n0132",
+      "text": "根据季节和生意多少，他们会在下午 1 点到 6 点之间结束。",
+      "start_ms": 39004,
+      "end_ms": 44900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s03-n0133",
+      "text": "另一部分工人则要留在烤房一直干到傍晚。”",
+      "start_ms": 0,
+      "end_ms": 4082,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s03-n0134",
+      "text": "“伦敦旺季期间，西区那些按‘足价’卖面包的烤房，工人通常晚上 11 点开工。",
+      "start_ms": 4082,
+      "end_ms": 11429,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s03-n0135",
+      "text": "除了中间一两次往往很短的休息，他们会一直烤到次日早上 8 点。",
+      "start_ms": 11429,
+      "end_ms": 17347,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s03-n0136",
+      "text": "随后又要送面包到下午 4、5、6 点，甚至 7 点，有时还得留在烤房做饼干。",
+      "start_ms": 17347,
+      "end_ms": 24286,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s03-n0137",
+      "text": "工作结束后，他们能睡 6 小时，往往只有 5 小时或 4 小时。",
+      "start_ms": 24286,
+      "end_ms": 29592,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s03-n0138",
+      "text": "每到星期五，劳动总会提前到晚上 10 点开始，接着不停和面、烤制或送货，至少持续到星期六晚上 8 点，通常还会一直延续到星期日凌晨 4、5 点。",
+      "start_ms": 29592,
+      "end_ms": 43061,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s03-n0139",
+      "text": "即使是卖‘足价’面包的高级烤房，星期日也要再做 4 到 5 小时准备工作，为第二天开工。”",
+      "start_ms": 0,
+      "end_ms": 8781,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s03-n0140",
+      "text": "“那些低价销售的烤房占伦敦烤房四分之三以上，工人的劳动时间更长。",
+      "start_ms": 8781,
+      "end_ms": 15634,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s03-n0141",
+      "text": "不过，他们的工作几乎都集中在烤房里，因为老板除了给小杂货店供货，只在自己的店铺出售。",
+      "start_ms": 15634,
+      "end_ms": 24629,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s03-n0142",
+      "text": "接近周末，也就是星期四，他们晚上 10 点开工，只有很短的间歇，一直干到星期日深夜。”",
+      "start_ms": 24629,
+      "end_ms": 33410,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s03-n0143",
+      "text": "即使从资产阶级的立场看，人们也明白这些低价烤房“竞争的基础，是面包工人的无偿劳动”。",
+      "start_ms": 33410,
+      "end_ms": 42405,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s03-n0144",
+      "text": "卖足价面包的老板在调查委员会面前控告低价竞争者，称他们既欺骗公众，又盗窃别人的劳动。",
+      "start_ms": 42405,
+      "end_ms": 51400,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s03-n0145",
+      "text": "“他们之所以能成功，只因为他们欺骗公众，还从工人身上挤出 18 小时劳动，却只付 12 小时工资。”",
+      "start_ms": 0,
+      "end_ms": 9746,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s03-n0146",
+      "text": "英国的面包掺假和低价烤房，都从 18 世纪初开始发展。",
+      "start_ms": 9746,
+      "end_ms": 15043,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s03-n0147",
+      "text": "当时，烘焙业的行会性质逐渐瓦解，磨坊主或面粉代理商以资本家身份站到了名义上的面包师老板背后。",
+      "start_ms": 15043,
+      "end_ms": 24789,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s03-n0148",
+      "text": "资本主义生产由此获得了基础，工作日开始被无限延长，夜工也随之发展。",
+      "start_ms": 24789,
+      "end_ms": 31781,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s03-n0149",
+      "text": "不过，即使在伦敦，夜工直到 1824 年才真正普遍起来。",
+      "start_ms": 31781,
+      "end_ms": 37290,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s03-n0150",
+      "text": "看过前面的材料，就不难理解为什么委员会报告把面包工列为短命工人。",
+      "start_ms": 37290,
+      "end_ms": 44070,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s03-n0151",
+      "text": "他们即使幸运躲过工人阶级各部分都很常见的儿童大量死亡，也很少活过 42 岁。",
+      "start_ms": 0,
+      "end_ms": 7053,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s03-n0152",
+      "text": "尽管如此，烘焙业从来不缺求职者。",
+      "start_ms": 7053,
+      "end_ms": 10188,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s03-n0153",
+      "text": "伦敦所需的这些“劳动力”，主要来自苏格兰、英格兰西部农业区和德国。",
+      "start_ms": 10188,
+      "end_ms": 16653,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s03-n0154",
+      "text": "1858—1860 年，爱尔兰面包工自费组织了多次大型集会，反对夜工和星期日劳动。",
+      "start_ms": 16653,
+      "end_ms": 24489,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s03-n0155",
+      "text": "公众热烈支持他们，例如 1860 年都柏林五月集会就表现出了爱尔兰式的热情。",
+      "start_ms": 24489,
+      "end_ms": 31542,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s03-n0156",
+      "text": "这场运动确实在韦克斯福德、基尔肯尼、克朗梅尔和沃特福德等地成功争得只在白天劳动。",
+      "start_ms": 31542,
+      "end_ms": 39379,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s03-n0157",
+      "text": "“在利默里克，雇佣工人遭受的痛苦出了名地严重。",
+      "start_ms": 0,
+      "end_ms": 4160,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s03-n0158",
+      "text": "运动却因面包店老板，特别是兼营磨坊的老板反对而失败。",
+      "start_ms": 4160,
+      "end_ms": 8862,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s03-n0159",
+      "text": "利默里克的失败又使恩尼斯和蒂珀雷里倒退。",
+      "start_ms": 8862,
+      "end_ms": 12479,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s03-n0160",
+      "text": "科克公众的愤怒最强烈，老板却利用解雇权挫败了运动。",
+      "start_ms": 12479,
+      "end_ms": 17001,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s03-n0161",
+      "text": "在都柏林，老板的抵抗最坚决。",
+      "start_ms": 17001,
+      "end_ms": 19533,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s03-n0162",
+      "text": "他们迫害领导运动的工人，迫使其余工人让步，重新接受夜工和星期日劳动。”",
+      "start_ms": 19533,
+      "end_ms": 25863,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s03-n0163",
+      "text": "英国政府在爱尔兰全副武装，它的调查委员会却只能悲痛地劝告都柏林、利默里克和科克那些毫不让步的面包店老板：“委员会认为，劳动时间受自然规律限制，违反这种规律一定要付出代价。",
+      "start_ms": 0,
+      "end_ms": 24308,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s03-n0164",
+      "text": "老板用解雇威胁工人，逼他们违反宗教信念、不服从本国法律并蔑视公众意见”——这里说的都是星期日劳动——“这会在资本和劳动之间制造敌意，也会给宗教、道德和公共秩序树立危险的先例。”",
+      "start_ms": 24308,
+      "end_ms": 49475,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s03-n0165",
+      "text": "委员会接着说：“把工作日延长到 12 小时以上，是对工人家庭生活和私人生活的强行侵犯，会造成严重的道德后果。",
+      "start_ms": 49475,
+      "end_ms": 64346,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s03-n0166",
+      "text": "它干涉一个人的家庭生活，使他无法履行作为儿子、兄弟、丈夫和父亲的责任。",
+      "start_ms": 64346,
+      "end_ms": 74355,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s03-n0167",
+      "text": "超过 12 小时的劳动会损害工人健康，导致早衰和早死，也会给工人家庭带来不幸。",
+      "start_ms": 74355,
+      "end_ms": 84936,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s03-n0168",
+      "text": "家庭最需要一家之主照顾和支撑时，他却被夺走了。”",
+      "start_ms": 84936,
+      "end_ms": 91800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s03-n0169",
+      "text": "刚才说的是爱尔兰。",
+      "start_ms": 40,
+      "end_ms": 1280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s03-n0170",
+      "text": "海峡另一边的苏格兰，一名农业工人在严酷气候中每天劳动 13 到 14 小时，星期日还要再劳动 4 小时。",
+      "start_ms": 1960,
+      "end_ms": 11640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s03-n0171",
+      "text": "他在这个以严守安息日著称的国家公开控诉这种处境。",
+      "start_ms": 12440,
+      "end_ms": 16960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s03-n0172",
+      "text": "与此同时，伦敦大陪审团面前站着三名铁路工人：一名客运列车员、一名火车司机和一名信号员。",
+      "start_ms": 17960,
+      "end_ms": 27360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s03-n0173",
+      "text": "一场严重铁路事故已经夺走数百名乘客的生命，事故被归咎于他们疏忽。",
+      "start_ms": 28160,
+      "end_ms": 34480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s03-n0174",
+      "text": "三人一致向陪审团说明，10 到 12 年前，他们每天只工作 8 小时。",
+      "start_ms": 35160,
+      "end_ms": 41200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s03-n0175",
+      "text": "过去五六年，劳动时间却提高到 14、18 甚至 20 小时。",
+      "start_ms": 0,
+      "end_ms": 5773,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s03-n0176",
+      "text": "遇到旅游旺季、加开游览列车时，他们往往要连续工作 40 到 50 小时。",
+      "start_ms": 5773,
+      "end_ms": 12877,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s03-n0177",
+      "text": "他们只是普通人，不是独眼巨人。",
+      "start_ms": 12877,
+      "end_ms": 16208,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s03-n0178",
+      "text": "到了某个临界点，劳动力必然失效，人会陷入麻木，头脑停止思考，眼睛也看不清东西。",
+      "start_ms": 16208,
+      "end_ms": 24867,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s03-n0179",
+      "text": "然而，十分“体面”的英国陪审团仍以“过失杀人罪”把他们移交巡回法庭审判，只在判决附言里温和表示，希望铁路资本巨头今后能在购买足够数量的“劳动力”方面慷慨一点，在榨取已经付钱买来的劳动力时，则“克制”“节欲”或者“节俭”一点。",
+      "start_ms": 24867,
+      "end_ms": 49733,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s03-n0180",
+      "text": "各行各业、各个年龄和性别的工人拥挤到我们面前，比奥德修斯面前那些被杀者的灵魂还要急迫。",
+      "start_ms": 49733,
+      "end_ms": 59280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s03-n0181",
+      "text": "即使他们腋下没有夹着英国议会的蓝皮书，人们一眼也能看出他们受着过度劳动的折磨。",
+      "start_ms": 0,
+      "end_ms": 9269,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s03-n0182",
+      "text": "现在再从这群人中选出两个形象。",
+      "start_ms": 9269,
+      "end_ms": 12834,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s03-n0183",
+      "text": "他们之间强烈的反差恰好说明，在资本面前人人平等：一位女帽工和一位铁匠。",
+      "start_ms": 12834,
+      "end_ms": 21152,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s03-n0184",
+      "text": "1863 年 6 月的最后几周，伦敦各家日报都登出一则新闻，标题十分耸动：“纯粹因过度劳动而死”。",
+      "start_ms": 21152,
+      "end_ms": 32084,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s03-n0185",
+      "text": "死者名叫玛丽·安妮·沃克利，20 岁，是一家颇有声望的宫廷女帽店的工人。",
+      "start_ms": 32084,
+      "end_ms": 40402,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s03-n0186",
+      "text": "她的雇主是一位名字听来很亲切的女士——伊莉斯，而这位女士一直在剥削她。",
+      "start_ms": 40402,
+      "end_ms": 48720,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s03-n0187",
+      "text": "人们仿佛这时才重新发现了一个早已屡见不鲜的事实：这些姑娘平时平均每天工作 16 个半小时，旺季里甚至经常连续工作 30 小时。",
+      "start_ms": 0,
+      "end_ms": 13240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s03-n0188",
+      "text": "体力撑不住时，店里偶尔给她们喝一点雪利酒、波特酒或咖啡，让她们继续干下去。",
+      "start_ms": 13960,
+      "end_ms": 20280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s03-n0189",
+      "text": "当时正值旺季，她们必须迅速赶制贵妇们参加舞会的华服，好向刚从国外迎来的威尔士王妃致敬。",
+      "start_ms": 20840,
+      "end_ms": 29760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s03-n0190",
+      "text": "沃克利和另外 60 名姑娘一起连续工作了 26 个半小时。",
+      "start_ms": 30520,
+      "end_ms": 35240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s03-n0191",
+      "text": "每 30 人挤在一个房间里，空气还不到所需标准的三分之一。",
+      "start_ms": 36280,
+      "end_ms": 41280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s03-n0192",
+      "text": "晚上，两个人合睡一张床，卧室不过是用木板隔出来的闷热小间。",
+      "start_ms": 42080,
+      "end_ms": 47320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s03-n0193",
+      "text": "这还算伦敦条件较好的女帽店之一。",
+      "start_ms": 0,
+      "end_ms": 3584,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s03-n0194",
+      "text": "沃克利星期五病倒，星期日便死了。",
+      "start_ms": 3584,
+      "end_ms": 7167,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s03-n0195",
+      "text": "令伊莉斯太太惊讶的是，她临死前竟没能做完手上最后一件活。",
+      "start_ms": 7167,
+      "end_ms": 13438,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s03-n0196",
+      "text": "医生基斯赶到时已经太迟。",
+      "start_ms": 13438,
+      "end_ms": 16126,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s03-n0197",
+      "text": "他向验尸陪审团直截了当地作证说：“玛丽·安妮·沃克利死于长期工作。",
+      "start_ms": 16126,
+      "end_ms": 23517,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s03-n0198",
+      "text": "她干活的房间拥挤不堪，睡觉的地方又狭小、通风不良。”",
+      "start_ms": 23517,
+      "end_ms": 29340,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s03-n0199",
+      "text": "陪审团却仿佛要教医生怎样把话说得体面一些，最后裁定：“死者死于中风，但有理由担心，她在拥挤工场中过度劳动等情况加速了她的死亡。”",
+      "start_ms": 0,
+      "end_ms": 15034,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s03-n0200",
+      "text": "代表自由贸易派领袖科布登和布莱特的《晨星报》则写道：“我们的白奴被活活累进坟墓，在无人过问中衰败、死去。”",
+      "start_ms": 15034,
+      "end_ms": 27485,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s03-n0201",
+      "text": "“把人累死，已经成了常态。",
+      "start_ms": 27485,
+      "end_ms": 30539,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s03-n0202",
+      "text": "女帽店如此，成千上万个地方也如此，只要生意兴旺，情况都一样。",
+      "start_ms": 30539,
+      "end_ms": 37586,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s03-n0203",
+      "text": "就拿铁匠来说吧。",
+      "start_ms": 37586,
+      "end_ms": 39466,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s03-n0204",
+      "text": "如果相信诗人的描写，世上再没有比铁匠更健壮、更快活的人了。",
+      "start_ms": 39466,
+      "end_ms": 46278,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s03-n0205",
+      "text": "他早早起床，在太阳升起前便敲出火花，吃得下、喝得下，也睡得香。",
+      "start_ms": 200,
+      "end_ms": 6400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s03-n0206",
+      "text": "从身体条件来看，只要劳动适度，铁匠确实处在最有利于健康的职业之一。",
+      "start_ms": 7040,
+      "end_ms": 14240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s03-n0207",
+      "text": "可是到城市里看看，看看压在这些壮汉身上的劳动，再看看他们在我国死亡统计中的位置。",
+      "start_ms": 14760,
+      "end_ms": 22400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s03-n0208",
+      "text": "在伦敦最大的城区之一马里勒本，铁匠每年的死亡率是千分之三十一，比英国成年男子的平均死亡率高出千分之十一。",
+      "start_ms": 22920,
+      "end_ms": 31800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s03-n0209",
+      "text": "铁匠这门手艺近乎人类与生俱来的本领，本身并没有什么危害，毁掉人的只是过量劳动。",
+      "start_ms": 32120,
+      "end_ms": 39920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s03-n0210",
+      "text": "一个人每天能够挥多少锤、走多少步、呼吸多少次、完成多少活，同时平均活到 50 岁，本来都有一定限度。",
+      "start_ms": 40720,
+      "end_ms": 51920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s03-n0211",
+      "text": "现在却强迫他挥更多次锤、走更多的路、呼吸得更急，使他每天消耗的生命增加四分之一。",
+      "start_ms": 0,
+      "end_ms": 7770,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch08-s03-n0212",
+      "text": "结果是，他在一段时间内确实多干了四分之一的活，却不是活到 50 岁，而是在 37 岁便死去。”",
+      "start_ms": 7770,
+      "end_ms": 16123,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    }
+  ]
+}

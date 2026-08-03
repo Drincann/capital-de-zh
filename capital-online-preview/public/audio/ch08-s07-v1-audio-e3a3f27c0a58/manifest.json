@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch08-s07-v1-audio-e3a3f27c0a58",
+  "unit_id": "ch08-s07",
+  "translation_version_id": "ch08-s07-v1",
+  "translation_sha256": "a0cd372ba9fb0623d2e0bd4d8d9c95b04f625ab6a152e69223b7983b031b0c18",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T20:40:05.414Z",
+  "completed_at": "2026-08-02T20:43:33.573Z",
+  "duration_ms": 505910,
+  "sentence_count": 55,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 66800,
+      "bytes": 1069484,
+      "sha256": "449a03f411c67c82c3f24617c29d87dd9f94b306342e81ca49d51e2fd788dd16",
+      "sentence_ids": [
+        "ch08-s07-n0001",
+        "ch08-s07-n0002",
+        "ch08-s07-n0003",
+        "ch08-s07-n0004",
+        "ch08-s07-n0005",
+        "ch08-s07-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 83180,
+      "bytes": 1331372,
+      "sha256": "03f4fd5cb2e5504a2423f5550febdf8311ec23cdea4bb18ceffea3ad4ba250b7",
+      "sentence_ids": [
+        "ch08-s07-n0007",
+        "ch08-s07-n0008",
+        "ch08-s07-n0009",
+        "ch08-s07-n0010",
+        "ch08-s07-n0011",
+        "ch08-s07-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 67180,
+      "bytes": 1075628,
+      "sha256": "1ae9cfce380aaee647a963988badd837fddf96e4102cbefeaea458c10826a2a2",
+      "sentence_ids": [
+        "ch08-s07-n0013",
+        "ch08-s07-n0014",
+        "ch08-s07-n0015",
+        "ch08-s07-n0016",
+        "ch08-s07-n0017",
+        "ch08-s07-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 45080,
+      "bytes": 721964,
+      "sha256": "e3c1eb2a59f59a834982821e4481cbeb5962d3c68c4b050b533a925e3a860446",
+      "sentence_ids": [
+        "ch08-s07-n0019",
+        "ch08-s07-n0020",
+        "ch08-s07-n0021",
+        "ch08-s07-n0022",
+        "ch08-s07-n0023",
+        "ch08-s07-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 32400,
+      "bytes": 518828,
+      "sha256": "83cfc9269ae5d349e9d594315f7d8b156a2ffe2dc36352774227c0e0d8df7ed7",
+      "sentence_ids": [
+        "ch08-s07-n0025",
+        "ch08-s07-n0026",
+        "ch08-s07-n0027",
+        "ch08-s07-n0028",
+        "ch08-s07-n0029",
+        "ch08-s07-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 51846,
+      "bytes": 830252,
+      "sha256": "00db1c3e701b8605081aac5979476cabcd7baae7f8ad18849cffda931162c66f",
+      "sentence_ids": [
+        "ch08-s07-n0031",
+        "ch08-s07-n0032",
+        "ch08-s07-n0033",
+        "ch08-s07-n0034",
+        "ch08-s07-n0035",
+        "ch08-s07-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 58985,
+      "bytes": 944300,
+      "sha256": "6c679df67a9fcbb974a3eb3095bb0599a05b457af1a39f2fa2494269f183c0d6",
+      "sentence_ids": [
+        "ch08-s07-n0037",
+        "ch08-s07-n0038",
+        "ch08-s07-n0039",
+        "ch08-s07-n0040",
+        "ch08-s07-n0041",
+        "ch08-s07-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 45959,
+      "bytes": 735788,
+      "sha256": "3ce48bb509c1d225191b936ae282a615ac36817969645e32f0d384ca44dc2c5a",
+      "sentence_ids": [
+        "ch08-s07-n0043",
+        "ch08-s07-n0044",
+        "ch08-s07-n0045",
+        "ch08-s07-n0046",
+        "ch08-s07-n0047",
+        "ch08-s07-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 49680,
+      "bytes": 795692,
+      "sha256": "118ebeb10b9fd40e2921db27d5943b465dc73952c1f7d227e13b5e1fc7318690",
+      "sentence_ids": [
+        "ch08-s07-n0049",
+        "ch08-s07-n0050",
+        "ch08-s07-n0051",
+        "ch08-s07-n0052",
+        "ch08-s07-n0053",
+        "ch08-s07-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 4800,
+      "bytes": 77228,
+      "sha256": "78c72168f94bc85a9f4175a5dd0e4d391997cb398f601df9c05a79212ec8112f",
+      "sentence_ids": [
+        "ch08-s07-n0055"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch08-s07-n0001",
+      "text": "读者应该还记得，资本主义生产特有的内容和目的，就是生产剩余价值，也就是从工人身上取得剩余劳动。",
+      "start_ms": 120,
+      "end_ms": 11440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s07-n0002",
+      "text": "这里先不考虑劳动受资本支配以后，生产方式本身还会发生哪些变化。",
+      "start_ms": 12120,
+      "end_ms": 19200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s07-n0003",
+      "text": "按照我们目前的分析，只有能够独立订立合同、在法律上具有完全行为能力的工人，才会作为商品卖方同资本家交易。",
+      "start_ms": 19840,
+      "end_ms": 31720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s07-n0004",
+      "text": "因此，前面的历史叙述虽然主要谈现代工业，也大量谈到身体和法律上都未成年的劳动者，但现代工业只是一个特殊领域，未成年劳动者则是工人受榨取的一个格外鲜明的例子。",
+      "start_ms": 32480,
+      "end_ms": 50600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s07-n0005",
+      "text": "未成年劳动者虽然不能独立订约，却把资本榨取工人的方式暴露得格外清楚。",
+      "start_ms": 51160,
+      "end_ms": 58680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s07-n0006",
+      "text": "接下来的结论也不是单由这个例子推出，而是来自前面这些历史事实的整体联系。",
+      "start_ms": 59560,
+      "end_ms": 66680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s07-n0007",
+      "text": "我们无须提前讨论后面的理论，就可以得出以下结论：",
+      "start_ms": 0,
+      "end_ms": 7708,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s07-n0008",
+      "text": "第一，在最早被水力、蒸汽和机器彻底改变的行业中，也就是现代生产方式最初创造的棉、毛、麻、丝纺织业中，资本第一次充分实现了无限延长工作日、不顾一切后果的冲动。",
+      "start_ms": 7708,
+      "end_ms": 32758,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s07-n0009",
+      "text": "生产方式的物质条件发生变化，生产者之间的社会关系也随之改变。",
+      "start_ms": 32758,
+      "end_ms": 42393,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s07-n0010",
+      "text": "这些变化先造成工作日无限延长，随后又引起社会干预，用法律限制工作日及其休息时间，并作出统一规定。",
+      "start_ms": 42393,
+      "end_ms": 57808,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s07-n0011",
+      "text": "因此，在 19 世纪上半叶，这种社会干预还只是针对少数行业的例外性立法。",
+      "start_ms": 57808,
+      "end_ms": 68728,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s07-n0012",
+      "text": "可等法律控制住现代生产方式最早出现的领域时，人们发现，许多其他行业已经进入真正的工厂制度。",
+      "start_ms": 68728,
+      "end_ms": 83180,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s07-n0013",
+      "text": "与此同时，制陶、玻璃等生产方式相对陈旧的手工工场，面包业等传统手艺，甚至制钉业等分散的所谓家庭工业，也早已像工厂一样受到资本主义榨取。",
+      "start_ms": 0,
+      "end_ms": 17791,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s07-n0014",
+      "text": "法律只好逐渐放弃“例外”的性质。",
+      "start_ms": 17791,
+      "end_ms": 22039,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s07-n0015",
+      "text": "在英国，立法机关还采取了另一种办法：只要需要，就可以把任何有人劳动的房屋依法列为“工厂”。",
+      "start_ms": 22039,
+      "end_ms": 33988,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s07-n0016",
+      "text": "第二，有些行业已经通过法律限制工作日，另一些行业还在为此斗争。",
+      "start_ms": 33988,
+      "end_ms": 42220,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s07-n0017",
+      "text": "这段历史清楚证明，当资本主义生产发展到一定程度时，孤立的工人即使是劳动力的“自由”卖方，也无力抵抗资本。",
+      "start_ms": 42220,
+      "end_ms": 56028,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s07-n0018",
+      "text": "因此，标准工作日不是自由买卖自然产生的结果，而是资本家阶级和工人阶级长期斗争的产物。",
+      "start_ms": 56028,
+      "end_ms": 67180,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s07-n0019",
+      "text": "这场斗争有时公开，有时隐蔽，像一场漫长的内战。",
+      "start_ms": 0,
+      "end_ms": 5545,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s07-n0020",
+      "text": "斗争从现代工业领域开始，所以最早发生在现代工业的故乡英国。",
+      "start_ms": 5545,
+      "end_ms": 12536,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s07-n0021",
+      "text": "英国工厂工人不仅是英国工人阶级的先锋，也是整个现代工人阶级的先锋。",
+      "start_ms": 12536,
+      "end_ms": 20491,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s07-n0022",
+      "text": "英国工人的理论家也最早向资本理论公开挑战。",
+      "start_ms": 20491,
+      "end_ms": 25553,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s07-n0023",
+      "text": "因此，工厂制度的哲学家尤尔愤怒地控诉英国工人阶级，说他们把“工厂法的奴役”写在自己的旗帜上，留下了无法洗去的耻辱。",
+      "start_ms": 25553,
+      "end_ms": 39294,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s07-n0024",
+      "text": "与之相反，资本却在勇敢地捍卫“劳动的完全自由”。",
+      "start_ms": 39294,
+      "end_ms": 45080,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s07-n0025",
+      "text": "法国缓慢地跟在英国后面，直到 1848 年二月革命才产生十二小时法。",
+      "start_ms": 0,
+      "end_ms": 6120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s07-n0026",
+      "text": "这部法律远不如英国的原版完善。",
+      "start_ms": 6720,
+      "end_ms": 9600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s07-n0027",
+      "text": "它只规定每个工人每天最多劳动 12 小时，却没有规定这 12 小时必须落在什么固定时段内。",
+      "start_ms": 10360,
+      "end_ms": 17200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s07-n0028",
+      "text": "因此，工厂可以使用两班工人，昼夜不停地开工。",
+      "start_ms": 17920,
+      "end_ms": 22200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s07-n0029",
+      "text": "不过，法国式的革命办法也有独特优势。",
+      "start_ms": 23120,
+      "end_ms": 26120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s07-n0030",
+      "text": "它一下子给所有工场和工厂规定了同样的工作日上限，不作行业区分。",
+      "start_ms": 26760,
+      "end_ms": 32320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s07-n0031",
+      "text": "英国立法却是在现实压力下极不情愿地一点点退让，今天补这里，明天补那里，正在制造一团新的法律乱麻。",
+      "start_ms": 40,
+      "end_ms": 11680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s07-n0032",
+      "text": "更重要的是，法国法律在原则上把限制工作日宣布为普遍权利。",
+      "start_ms": 12440,
+      "end_ms": 18200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s07-n0033",
+      "text": "在英国，这项权利最初只以保护儿童、未成年人和女工的名义争得，直到 19 世纪 60 年代才开始被明确主张为所有工人的普遍权利。",
+      "start_ms": 19160,
+      "end_ms": 31280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s07-n0034",
+      "text": "在美国，只要奴隶制还在共和国的一部分地区存在，独立的工人运动就始终无法发展。",
+      "start_ms": 32240,
+      "end_ms": 40200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s07-n0035",
+      "text": "在黑人劳动被烙上奴隶印记的地方，白人劳动也不可能获得解放。",
+      "start_ms": 40760,
+      "end_ms": 46280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s07-n0036",
+      "text": "可是，奴隶制一死，工人运动立刻重新焕发生命。",
+      "start_ms": 47240,
+      "end_ms": 51640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s07-n0037",
+      "text": "南北战争结出的第一个果实，就是八小时工作日运动。",
+      "start_ms": 0,
+      "end_ms": 5573,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s07-n0038",
+      "text": "它像穿上铁路的七里靴，从大西洋一直跨到太平洋，从新英格兰一直推进到加利福尼亚。",
+      "start_ms": 5573,
+      "end_ms": 14630,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s07-n0039",
+      "text": "1866 年 8 月，巴尔的摩全国劳工大会宣布：“当前首要而重大的要求，是制定一项法律，把 8 小时规定为美国所有州的标准工作日，使这个国家的劳动摆脱资本主义奴役。",
+      "start_ms": 14630,
+      "end_ms": 32511,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s07-n0040",
+      "text": "我们决心竭尽全力，直到实现这个光荣目标。”",
+      "start_ms": 32511,
+      "end_ms": 37388,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s07-n0041",
+      "text": "同年 9 月初，日内瓦国际工人代表大会也根据伦敦总委员会的提议作出决议：“我们宣布，限制工作日是一个先决条件。",
+      "start_ms": 37388,
+      "end_ms": 49696,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s07-n0042",
+      "text": "没有它，其他一切解放努力都必然失败……我们建议把 8 小时规定为工作日的法定上限。”",
+      "start_ms": 49696,
+      "end_ms": 58985,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s07-n0043",
+      "text": "大西洋两岸的工人运动都从各自的生产关系中自发产生，却得出了同样的要求。",
+      "start_ms": 0,
+      "end_ms": 6963,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s07-n0044",
+      "text": "这证实了英国工厂视察员 R. J. 桑德斯的话：“如果不先限制工作日，并严格执行法定上限，社会改革就不可能有任何成功的希望。”",
+      "start_ms": 6963,
+      "end_ms": 18901,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s07-n0045",
+      "text": "现在必须承认，工人走出生产过程时，已经不再是进入生产过程时的样子。",
+      "start_ms": 18901,
+      "end_ms": 25466,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s07-n0046",
+      "text": "在市场上，他是“劳动力”这种商品的所有者，面对资本家这个商品所有者，双方地位平等。",
+      "start_ms": 25466,
+      "end_ms": 33624,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s07-n0047",
+      "text": "他把劳动力卖给资本家的合同白纸黑字地表明，他可以自由支配自己。",
+      "start_ms": 33624,
+      "end_ms": 39791,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s07-n0048",
+      "text": "可交易完成后，人们才发现，他根本不是一个“能够自由决定的人”。",
+      "start_ms": 39791,
+      "end_ms": 45959,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s07-n0049",
+      "text": "他有“自由”出售劳动力的那段时间，也正是他不得不出售劳动力的时间。",
+      "start_ms": 0,
+      "end_ms": 7097,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s07-n0050",
+      "text": "只要他身上还有“一块肌肉、一根筋、一滴血可以榨取”，吸血者就不会松口。",
+      "start_ms": 7097,
+      "end_ms": 14624,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s07-n0051",
+      "text": "为了保护自己，不再受这种痛苦无休止地折磨，工人必须联合起来，作为一个阶级迫使国家制定法律。",
+      "start_ms": 14624,
+      "end_ms": 24302,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s07-n0052",
+      "text": "这道强有力的社会屏障，会阻止工人通过同资本订立所谓自愿合同，把自己和后代卖入死亡和奴役。",
+      "start_ms": 24302,
+      "end_ms": 33765,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s07-n0053",
+      "text": "那份华丽的“不可剥夺的人权”清单，最终让位于一份朴素得多的法定工作日大宪章。",
+      "start_ms": 33765,
+      "end_ms": 41938,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s07-n0054",
+      "text": "它“终于清楚划定：工人出售的时间何时结束，真正属于自己的时间何时开始”。",
+      "start_ms": 41938,
+      "end_ms": 49680,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s07-n0055",
+      "text": "和刚走进生产过程时相比，他已经完全变了样！",
+      "start_ms": 80,
+      "end_ms": 3800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    }
+  ]
+}

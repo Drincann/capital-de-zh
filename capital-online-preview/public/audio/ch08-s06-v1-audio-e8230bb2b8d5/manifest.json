@@ -1,0 +1,2962 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch08-s06-v1-audio-e8230bb2b8d5",
+  "unit_id": "ch08-s06",
+  "translation_version_id": "ch08-s06-v1",
+  "translation_sha256": "d741c95feb525a543c350fd2c5a3cc50c376735f5c351931eea610bdc172bbdc",
+  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-02T20:26:38.105Z",
+  "completed_at": "2026-08-02T20:40:05.279Z",
+  "duration_ms": 2491311,
+  "sentence_count": 280,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 51400,
+      "bytes": 822956,
+      "sha256": "e7d4818efbd7f924af86cda1d484a4ef39c8a4cee28a9ebc929bb1c3df8f3b10",
+      "sentence_ids": [
+        "ch08-s06-n0001",
+        "ch08-s06-n0002",
+        "ch08-s06-n0003",
+        "ch08-s06-n0004",
+        "ch08-s06-n0005",
+        "ch08-s06-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 39639,
+      "bytes": 634796,
+      "sha256": "e8bf9b3dc004df5f6982befe36bbd9f49e6ce611974c97e5c1509182d5712236",
+      "sentence_ids": [
+        "ch08-s06-n0007",
+        "ch08-s06-n0008",
+        "ch08-s06-n0009",
+        "ch08-s06-n0010",
+        "ch08-s06-n0011",
+        "ch08-s06-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 50158,
+      "bytes": 802988,
+      "sha256": "7d5bca06574ca9f45fa9dc310b13bd1e3ff4e8d0cfc7b9668ebdb0a0e7718787",
+      "sentence_ids": [
+        "ch08-s06-n0013",
+        "ch08-s06-n0014",
+        "ch08-s06-n0015",
+        "ch08-s06-n0016",
+        "ch08-s06-n0017",
+        "ch08-s06-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 38579,
+      "bytes": 617900,
+      "sha256": "aa0022558de931c45a0061cc50ffd761c8e84c0f9b149ef5d1b12e4df6052547",
+      "sentence_ids": [
+        "ch08-s06-n0019",
+        "ch08-s06-n0020",
+        "ch08-s06-n0021",
+        "ch08-s06-n0022",
+        "ch08-s06-n0023",
+        "ch08-s06-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 42091,
+      "bytes": 673964,
+      "sha256": "73bc2c49fe4057f7155f78900e3360e96f4533010ea85bf041be3880740db4ba",
+      "sentence_ids": [
+        "ch08-s06-n0025",
+        "ch08-s06-n0026",
+        "ch08-s06-n0027",
+        "ch08-s06-n0028",
+        "ch08-s06-n0029",
+        "ch08-s06-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 63561,
+      "bytes": 1017644,
+      "sha256": "a80fec7774cca1e72eb593414f514d12f83fc98daec1a56ae2993c18c7d6af79",
+      "sentence_ids": [
+        "ch08-s06-n0031",
+        "ch08-s06-n0032",
+        "ch08-s06-n0033",
+        "ch08-s06-n0034",
+        "ch08-s06-n0035",
+        "ch08-s06-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 59000,
+      "bytes": 944684,
+      "sha256": "c3f41127151f26c0ee579ef26bea0a0bf7ad48f954dad0eb6606e6090095814c",
+      "sentence_ids": [
+        "ch08-s06-n0037",
+        "ch08-s06-n0038",
+        "ch08-s06-n0039",
+        "ch08-s06-n0040",
+        "ch08-s06-n0041",
+        "ch08-s06-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 52200,
+      "bytes": 835628,
+      "sha256": "c4772d1a1a43d3a84cf25273915511e963316f483072a91e1428b1f316ecf983",
+      "sentence_ids": [
+        "ch08-s06-n0043",
+        "ch08-s06-n0044",
+        "ch08-s06-n0045",
+        "ch08-s06-n0046",
+        "ch08-s06-n0047",
+        "ch08-s06-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 38166,
+      "bytes": 611372,
+      "sha256": "d9c54b010f11b879ad6ec54d9923ca39bdd23f011d309ac700ff7f1e68c7b904",
+      "sentence_ids": [
+        "ch08-s06-n0049",
+        "ch08-s06-n0050",
+        "ch08-s06-n0051",
+        "ch08-s06-n0052",
+        "ch08-s06-n0053",
+        "ch08-s06-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 51080,
+      "bytes": 817964,
+      "sha256": "163335e3a1ca8ec847d4f720eddc782d8a85a4fb6ecbc6d94b0397c196dd04d0",
+      "sentence_ids": [
+        "ch08-s06-n0055",
+        "ch08-s06-n0056",
+        "ch08-s06-n0057",
+        "ch08-s06-n0058",
+        "ch08-s06-n0059",
+        "ch08-s06-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 55200,
+      "bytes": 883628,
+      "sha256": "0cd29e593285a9c0bf6beaadc2aba7e8011440d4e92f89cc0a1aec37becb136b",
+      "sentence_ids": [
+        "ch08-s06-n0061",
+        "ch08-s06-n0062",
+        "ch08-s06-n0063",
+        "ch08-s06-n0064",
+        "ch08-s06-n0065",
+        "ch08-s06-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 52700,
+      "bytes": 843692,
+      "sha256": "d52a40277219894934481b1cf08199ada5cbaa96d31a0ec2dd0bf00e1aa4b20e",
+      "sentence_ids": [
+        "ch08-s06-n0067",
+        "ch08-s06-n0068",
+        "ch08-s06-n0069",
+        "ch08-s06-n0070",
+        "ch08-s06-n0071",
+        "ch08-s06-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 48064,
+      "bytes": 769580,
+      "sha256": "383f2723a1d11582038f037849c97c6adffac38bd2bd280f72a6d04b242d6f62",
+      "sentence_ids": [
+        "ch08-s06-n0073",
+        "ch08-s06-n0074",
+        "ch08-s06-n0075",
+        "ch08-s06-n0076",
+        "ch08-s06-n0077",
+        "ch08-s06-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 64180,
+      "bytes": 1027628,
+      "sha256": "641955fd52e20372d3e10088e1e6121d1312ab0ba20d7e7b23beee7accebcacc",
+      "sentence_ids": [
+        "ch08-s06-n0079",
+        "ch08-s06-n0080",
+        "ch08-s06-n0081",
+        "ch08-s06-n0082",
+        "ch08-s06-n0083",
+        "ch08-s06-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 41087,
+      "bytes": 657836,
+      "sha256": "e8feac1ce7b2eadb0154e00d1c77a6e36fe978f1d5ff4028d381fd810dd89865",
+      "sentence_ids": [
+        "ch08-s06-n0085",
+        "ch08-s06-n0086",
+        "ch08-s06-n0087",
+        "ch08-s06-n0088",
+        "ch08-s06-n0089",
+        "ch08-s06-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 79300,
+      "bytes": 1269548,
+      "sha256": "5637035a4711b5d2a16996276d1c7202502753b4c3dc6f27ec8c62a9a7da21a6",
+      "sentence_ids": [
+        "ch08-s06-n0091",
+        "ch08-s06-n0092",
+        "ch08-s06-n0093",
+        "ch08-s06-n0094",
+        "ch08-s06-n0095",
+        "ch08-s06-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 42001,
+      "bytes": 672812,
+      "sha256": "89ce131f10538694cb074aa88fd3218ce0d5ef91f49b62bff74888d9c51cdd6f",
+      "sentence_ids": [
+        "ch08-s06-n0097",
+        "ch08-s06-n0098",
+        "ch08-s06-n0099",
+        "ch08-s06-n0100",
+        "ch08-s06-n0101",
+        "ch08-s06-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 50801,
+      "bytes": 813356,
+      "sha256": "08a349820f488b9e66b2c5534cc2d00312ac85e58ca438dbd038ef3625bd8b1f",
+      "sentence_ids": [
+        "ch08-s06-n0103",
+        "ch08-s06-n0104",
+        "ch08-s06-n0105",
+        "ch08-s06-n0106",
+        "ch08-s06-n0107",
+        "ch08-s06-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 48108,
+      "bytes": 770348,
+      "sha256": "39744e003e4bc4e1f30774eb26380659980b6667d80ace019caaf2dee6d11d48",
+      "sentence_ids": [
+        "ch08-s06-n0109",
+        "ch08-s06-n0110",
+        "ch08-s06-n0111",
+        "ch08-s06-n0112",
+        "ch08-s06-n0113",
+        "ch08-s06-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 47729,
+      "bytes": 764204,
+      "sha256": "d175524aee9c7f1e795d5cab5a2d2b766525661a83a49754ad525a02d119bc3a",
+      "sentence_ids": [
+        "ch08-s06-n0115",
+        "ch08-s06-n0116",
+        "ch08-s06-n0117",
+        "ch08-s06-n0118",
+        "ch08-s06-n0119",
+        "ch08-s06-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 48580,
+      "bytes": 778028,
+      "sha256": "fdd7cd5e8725dbb174872f72865c238e39fa12bf4cd6c66e2844f82a420b7350",
+      "sentence_ids": [
+        "ch08-s06-n0121",
+        "ch08-s06-n0122",
+        "ch08-s06-n0123",
+        "ch08-s06-n0124",
+        "ch08-s06-n0125",
+        "ch08-s06-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 50390,
+      "bytes": 806828,
+      "sha256": "7bb6b1ab633489150bf66ed806dae9814db7630ae539afe3976c0fbf7a61552f",
+      "sentence_ids": [
+        "ch08-s06-n0127",
+        "ch08-s06-n0128",
+        "ch08-s06-n0129",
+        "ch08-s06-n0130",
+        "ch08-s06-n0131",
+        "ch08-s06-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 100800,
+      "bytes": 1613228,
+      "sha256": "794e5e4018543f590c65c384d9bb44c4c937b351cd46c6ce7ae85c5ca14b6063",
+      "sentence_ids": [
+        "ch08-s06-n0133",
+        "ch08-s06-n0134",
+        "ch08-s06-n0135",
+        "ch08-s06-n0136",
+        "ch08-s06-n0137",
+        "ch08-s06-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 66575,
+      "bytes": 1065644,
+      "sha256": "9563f70998bf96172fdbd6bccc42b8cceb631a9488f2a1fe448bbb989c40c687",
+      "sentence_ids": [
+        "ch08-s06-n0139",
+        "ch08-s06-n0140",
+        "ch08-s06-n0141",
+        "ch08-s06-n0142",
+        "ch08-s06-n0143",
+        "ch08-s06-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 76500,
+      "bytes": 1224620,
+      "sha256": "b77524e2188fdb47cc06f5f14addc1a8f47cd2ecbf7542f511b3e494bd0c369d",
+      "sentence_ids": [
+        "ch08-s06-n0145",
+        "ch08-s06-n0146",
+        "ch08-s06-n0147",
+        "ch08-s06-n0148",
+        "ch08-s06-n0149"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 32108,
+      "bytes": 514220,
+      "sha256": "268b51c5d4062ff42831fcd9f58c81b20402e0a6cc8528b7e69f037bf4d77d73",
+      "sentence_ids": [
+        "ch08-s06-n0150",
+        "ch08-s06-n0151",
+        "ch08-s06-n0152",
+        "ch08-s06-n0153",
+        "ch08-s06-n0154",
+        "ch08-s06-n0155"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 53265,
+      "bytes": 852908,
+      "sha256": "dc6945939df4379a6f443f227c1fe93010b0f17e42510a32c892c149a5f1207d",
+      "sentence_ids": [
+        "ch08-s06-n0156",
+        "ch08-s06-n0157",
+        "ch08-s06-n0158",
+        "ch08-s06-n0159",
+        "ch08-s06-n0160",
+        "ch08-s06-n0161"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 43612,
+      "bytes": 698540,
+      "sha256": "e044bb03ccc93c4a0a5b7ef5f869201b1b792995b04e7bf8d5292455307fffc7",
+      "sentence_ids": [
+        "ch08-s06-n0162",
+        "ch08-s06-n0163",
+        "ch08-s06-n0164",
+        "ch08-s06-n0165",
+        "ch08-s06-n0166",
+        "ch08-s06-n0167"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 40835,
+      "bytes": 653996,
+      "sha256": "8506ef8377e8f27f5a963714785b98e614bc72cec77a9161399cb9c983dc24db",
+      "sentence_ids": [
+        "ch08-s06-n0168",
+        "ch08-s06-n0169",
+        "ch08-s06-n0170",
+        "ch08-s06-n0171",
+        "ch08-s06-n0172",
+        "ch08-s06-n0173"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 59580,
+      "bytes": 953900,
+      "sha256": "c1739070b8b5c7e32cfa3441e5a8a31a90c5f386194d845314ec39e7596e2729",
+      "sentence_ids": [
+        "ch08-s06-n0174",
+        "ch08-s06-n0175",
+        "ch08-s06-n0176",
+        "ch08-s06-n0177",
+        "ch08-s06-n0178",
+        "ch08-s06-n0179"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 31918,
+      "bytes": 511148,
+      "sha256": "f3acaaee45503f0f5d47c80d1a56b04b222d69e89f4e57147d0e71eb54e55376",
+      "sentence_ids": [
+        "ch08-s06-n0180",
+        "ch08-s06-n0181",
+        "ch08-s06-n0182",
+        "ch08-s06-n0183",
+        "ch08-s06-n0184",
+        "ch08-s06-n0185"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 55780,
+      "bytes": 893228,
+      "sha256": "fa8931a37872769dbae8bbabec179a8730c5610222547b89ccf9a92e60a6f3d0",
+      "sentence_ids": [
+        "ch08-s06-n0186",
+        "ch08-s06-n0187",
+        "ch08-s06-n0188",
+        "ch08-s06-n0189",
+        "ch08-s06-n0190",
+        "ch08-s06-n0191"
+      ]
+    },
+    {
+      "id": "c0033",
+      "audio_file": "c0033.mp3",
+      "duration_ms": 96080,
+      "bytes": 1537964,
+      "sha256": "fce12ccc8dfa7ef13f5c024608852e4938d4f82e7b07460a101762a321a77631",
+      "sentence_ids": [
+        "ch08-s06-n0192",
+        "ch08-s06-n0193",
+        "ch08-s06-n0194",
+        "ch08-s06-n0195",
+        "ch08-s06-n0196",
+        "ch08-s06-n0197"
+      ]
+    },
+    {
+      "id": "c0034",
+      "audio_file": "c0034.mp3",
+      "duration_ms": 68285,
+      "bytes": 1093292,
+      "sha256": "23e59d73f2f2b2288fce5daa87ba765ca6445a51728585edc6d9620d2a6634f8",
+      "sentence_ids": [
+        "ch08-s06-n0198",
+        "ch08-s06-n0199",
+        "ch08-s06-n0200",
+        "ch08-s06-n0201",
+        "ch08-s06-n0202",
+        "ch08-s06-n0203"
+      ]
+    },
+    {
+      "id": "c0035",
+      "audio_file": "c0035.mp3",
+      "duration_ms": 54694,
+      "bytes": 875564,
+      "sha256": "9b0e75cc34f7e69a4204c9fd7da94049dd66f3b37ea9cee0f2dbabb1a1129669",
+      "sentence_ids": [
+        "ch08-s06-n0204",
+        "ch08-s06-n0205",
+        "ch08-s06-n0206",
+        "ch08-s06-n0207",
+        "ch08-s06-n0208",
+        "ch08-s06-n0209"
+      ]
+    },
+    {
+      "id": "c0036",
+      "audio_file": "c0036.mp3",
+      "duration_ms": 71400,
+      "bytes": 1142828,
+      "sha256": "092e2ac6cb9074c993a21fc7f198cada4ff07078d8c76bd7768a2986e3f09c44",
+      "sentence_ids": [
+        "ch08-s06-n0210",
+        "ch08-s06-n0211",
+        "ch08-s06-n0212",
+        "ch08-s06-n0213",
+        "ch08-s06-n0214",
+        "ch08-s06-n0215"
+      ]
+    },
+    {
+      "id": "c0037",
+      "audio_file": "c0037.mp3",
+      "duration_ms": 56400,
+      "bytes": 902828,
+      "sha256": "7bdf8246f8129fb28cc22733d0ecfb46c873e8c7bf303dff6775472d3cde4b9e",
+      "sentence_ids": [
+        "ch08-s06-n0216",
+        "ch08-s06-n0217",
+        "ch08-s06-n0218",
+        "ch08-s06-n0219",
+        "ch08-s06-n0220",
+        "ch08-s06-n0221"
+      ]
+    },
+    {
+      "id": "c0038",
+      "audio_file": "c0038.mp3",
+      "duration_ms": 40056,
+      "bytes": 641324,
+      "sha256": "35a233a8a5b5b382ba62f425f706499c54483558b1ac6354ae35f92d57c18d5e",
+      "sentence_ids": [
+        "ch08-s06-n0222",
+        "ch08-s06-n0223",
+        "ch08-s06-n0224",
+        "ch08-s06-n0225",
+        "ch08-s06-n0226",
+        "ch08-s06-n0227"
+      ]
+    },
+    {
+      "id": "c0039",
+      "audio_file": "c0039.mp3",
+      "duration_ms": 51245,
+      "bytes": 820652,
+      "sha256": "e6d0cc023c2603b8699540f0559c2a1a1d78e4c1f328e490ebcf69ae10bfca29",
+      "sentence_ids": [
+        "ch08-s06-n0228",
+        "ch08-s06-n0229",
+        "ch08-s06-n0230",
+        "ch08-s06-n0231",
+        "ch08-s06-n0232",
+        "ch08-s06-n0233"
+      ]
+    },
+    {
+      "id": "c0040",
+      "audio_file": "c0040.mp3",
+      "duration_ms": 34801,
+      "bytes": 557612,
+      "sha256": "1f3dc8f82eb956498f8ad370c06119a7a185ed93d055af50577f293f7e82614b",
+      "sentence_ids": [
+        "ch08-s06-n0234",
+        "ch08-s06-n0235",
+        "ch08-s06-n0236",
+        "ch08-s06-n0237",
+        "ch08-s06-n0238",
+        "ch08-s06-n0239"
+      ]
+    },
+    {
+      "id": "c0041",
+      "audio_file": "c0041.mp3",
+      "duration_ms": 49780,
+      "bytes": 797228,
+      "sha256": "fe9bad1cfbcd46ff6c109186091d0d9cbed888a5f25e0b785887cf388c780888",
+      "sentence_ids": [
+        "ch08-s06-n0240",
+        "ch08-s06-n0241",
+        "ch08-s06-n0242",
+        "ch08-s06-n0243",
+        "ch08-s06-n0244",
+        "ch08-s06-n0245"
+      ]
+    },
+    {
+      "id": "c0042",
+      "audio_file": "c0042.mp3",
+      "duration_ms": 48375,
+      "bytes": 774572,
+      "sha256": "2beabd9696ab4366fa8d360968598f2c42d1de24cc1c2d40aef2d4e2fd043a28",
+      "sentence_ids": [
+        "ch08-s06-n0246",
+        "ch08-s06-n0247",
+        "ch08-s06-n0248",
+        "ch08-s06-n0249",
+        "ch08-s06-n0250",
+        "ch08-s06-n0251"
+      ]
+    },
+    {
+      "id": "c0043",
+      "audio_file": "c0043.mp3",
+      "duration_ms": 52700,
+      "bytes": 843692,
+      "sha256": "8cbde6a643853dffbb8d00c9e86ac700365eca709a3823ac9fef4d093fc1f30a",
+      "sentence_ids": [
+        "ch08-s06-n0252",
+        "ch08-s06-n0253",
+        "ch08-s06-n0254",
+        "ch08-s06-n0255",
+        "ch08-s06-n0256",
+        "ch08-s06-n0257"
+      ]
+    },
+    {
+      "id": "c0044",
+      "audio_file": "c0044.mp3",
+      "duration_ms": 51900,
+      "bytes": 831020,
+      "sha256": "17ffb9a1fb3284f55ad3b8345c2eb9f9b1185818817b426c74f5faf3089335d5",
+      "sentence_ids": [
+        "ch08-s06-n0258",
+        "ch08-s06-n0259",
+        "ch08-s06-n0260",
+        "ch08-s06-n0261",
+        "ch08-s06-n0262",
+        "ch08-s06-n0263"
+      ]
+    },
+    {
+      "id": "c0045",
+      "audio_file": "c0045.mp3",
+      "duration_ms": 40628,
+      "bytes": 650540,
+      "sha256": "5b639f999669614117fcf41ad94cd9ac76f0d4ca931566d7d3298c8071ae553c",
+      "sentence_ids": [
+        "ch08-s06-n0264",
+        "ch08-s06-n0265",
+        "ch08-s06-n0266",
+        "ch08-s06-n0267",
+        "ch08-s06-n0268",
+        "ch08-s06-n0269"
+      ]
+    },
+    {
+      "id": "c0046",
+      "audio_file": "c0046.mp3",
+      "duration_ms": 60700,
+      "bytes": 971948,
+      "sha256": "30610f8fdc77f275a2f4f2c8ac339339882c4203e2ff2901855a02c1e15b5e25",
+      "sentence_ids": [
+        "ch08-s06-n0270",
+        "ch08-s06-n0271",
+        "ch08-s06-n0272",
+        "ch08-s06-n0273",
+        "ch08-s06-n0274",
+        "ch08-s06-n0275"
+      ]
+    },
+    {
+      "id": "c0047",
+      "audio_file": "c0047.mp3",
+      "duration_ms": 39280,
+      "bytes": 629036,
+      "sha256": "adf5b778f401b63e27db74bc3014c372267feeb73c142dd500f11690f403fe87",
+      "sentence_ids": [
+        "ch08-s06-n0276",
+        "ch08-s06-n0277",
+        "ch08-s06-n0278",
+        "ch08-s06-n0279",
+        "ch08-s06-n0280"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch08-s06-n0001",
+      "text": "资本用了几个世纪，才把工作日延长到当时的正常上限，又越过这个上限，达到自然白昼的 12 小时。",
+      "start_ms": 40,
+      "end_ms": 9840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s06-n0002",
+      "text": "可从 18 世纪最后三分之一时期大工业诞生起，工作日的延长突然像雪崩一样猛烈，失去了任何限度。",
+      "start_ms": 10560,
+      "end_ms": 19960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s06-n0003",
+      "text": "习俗和自然的界限、年龄和性别的区别、白天和夜晚的分别，统统被打碎。",
+      "start_ms": 20840,
+      "end_ms": 27560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s06-n0004",
+      "text": "旧法令中的白天和夜晚，本来像农民生活一样简单明白。",
+      "start_ms": 28520,
+      "end_ms": 33520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s06-n0005",
+      "text": "到 1860 年，这两个概念却已经混乱到一种程度，一名英国法官不得不拿出解释《塔木德》般的精巧推理，才能煞有介事地裁定什么叫白天、什么叫夜晚。",
+      "start_ms": 34320,
+      "end_ms": 48520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s06-n0006",
+      "text": "资本开始纵情狂欢。",
+      "start_ms": 49360,
+      "end_ms": 51280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s06-n0007",
+      "text": "生产的轰鸣最初使工人阶级措手不及。",
+      "start_ms": 0,
+      "end_ms": 3604,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s06-n0008",
+      "text": "等它稍稍清醒过来，反抗便开始了，最早发生在大工业的诞生地英国。",
+      "start_ms": 3604,
+      "end_ms": 10175,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s06-n0009",
+      "text": "可是，工人在前三十年争得的让步都只是纸面上的。",
+      "start_ms": 10175,
+      "end_ms": 15050,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s06-n0010",
+      "text": "1802 至 1833 年，议会先后通过五部劳动法，却十分“聪明”地没有拨出一分钱，用来雇用执法人员、强制执行法律等。",
+      "start_ms": 15050,
+      "end_ms": 26921,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s06-n0011",
+      "text": "这些法律因此成了一纸空文。",
+      "start_ms": 26921,
+      "end_ms": 29676,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s06-n0012",
+      "text": "“事实是，在 1833 年法律以前，儿童和未成年人可以被迫整夜劳动、整天劳动，或者随意昼夜连干。”",
+      "start_ms": 29676,
+      "end_ms": 39639,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s06-n0013",
+      "text": "现代工业真正有了正常工作日，是从 1833 年工厂法开始的。",
+      "start_ms": 0,
+      "end_ms": 6133,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s06-n0014",
+      "text": "该法适用于棉、毛、亚麻和丝织工厂。",
+      "start_ms": 6133,
+      "end_ms": 9856,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s06-n0015",
+      "text": "再没有什么比 1833 至 1864 年英国工厂立法的历史，更能表现资本的精神。",
+      "start_ms": 9856,
+      "end_ms": 17741,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s06-n0016",
+      "text": "1833 年法律规定，通常的工厂工作日从早晨 5 点半开始，到晚上 8 点半结束。",
+      "start_ms": 17741,
+      "end_ms": 25627,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s06-n0017",
+      "text": "在这 15 小时范围内，工厂可以在一天中的任何时段雇用“未成年人”，也就是 13 至 18 岁的人，但除法律特别规定的情况外，同一个未成年人一天不得工作超过 12 小时。",
+      "start_ms": 25627,
+      "end_ms": 42492,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s06-n0018",
+      "text": "该法第六条还规定，每天必须给这些劳动时间受限制的人至少 1 个半小时吃饭。",
+      "start_ms": 42492,
+      "end_ms": 50158,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s06-n0019",
+      "text": "除后面将要谈到的例外，工厂不得雇用 9 岁以下儿童。",
+      "start_ms": 0,
+      "end_ms": 5787,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s06-n0020",
+      "text": "9 至 13 岁儿童每天最多工作 8 小时。",
+      "start_ms": 5787,
+      "end_ms": 9886,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s06-n0021",
+      "text": "所有 9 至 18 岁的人都不得上夜班。",
+      "start_ms": 9886,
+      "end_ms": 13744,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s06-n0022",
+      "text": "这里的夜班，按这部法律的定义，是晚上 8 点半到次日早晨 5 点半之间的劳动。",
+      "start_ms": 13744,
+      "end_ms": 22183,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s06-n0023",
+      "text": "立法者根本不想妨碍资本自由使用成年人的劳动力，也就是他们所谓的“劳动自由”。",
+      "start_ms": 22183,
+      "end_ms": 31345,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s06-n0024",
+      "text": "为了避免工厂法产生这种可怕的后果，他们还专门设计出一套制度。",
+      "start_ms": 31345,
+      "end_ms": 38579,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s06-n0025",
+      "text": "1833 年 6 月 28 日，调查委员会中央委员会在第一份报告中说：“目前工厂制度最大的弊病，是它不得不让儿童劳动同成年人的工作日一样长。",
+      "start_ms": 0,
+      "end_ms": 12269,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s06-n0026",
+      "text": "如果不限制成年人的劳动——那会造成比当前弊病更大的祸害——唯一的补救办法看来是使用两班儿童。”",
+      "start_ms": 12269,
+      "end_ms": 21140,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s06-n0027",
+      "text": "这项“计划”后来以“接力制”的名义实行。",
+      "start_ms": 21140,
+      "end_ms": 24915,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s06-n0028",
+      "text": "“接力”在英语和法语中都指驿站更换马匹。",
+      "start_ms": 24915,
+      "end_ms": 28690,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s06-n0029",
+      "text": "例如，早晨 5 点半到下午 1 点半，套上一班 9 至 13 岁的儿童；下午 1 点半到晚上 8 点半，再换另一班。",
+      "start_ms": 28690,
+      "end_ms": 37372,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s06-n0030",
+      "text": "过去 22 年里，厂主们厚颜无耻地无视所有儿童劳动法。",
+      "start_ms": 37372,
+      "end_ms": 42091,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s06-n0031",
+      "text": "现在，议会却还要给这颗苦药裹上一层糖衣，作为对他们的奖赏。",
+      "start_ms": 0,
+      "end_ms": 6165,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s06-n0032",
+      "text": "法律规定，1834 年 3 月 1 日以后，11 岁以下儿童不得在工厂工作超过 8 小时；1835 年 3 月 1 日以后，这个年龄提高到 12 岁；1836 年 3 月 1 日以后，再提高到 13 岁！",
+      "start_ms": 6165,
+      "end_ms": 23171,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s06-n0033",
+      "text": "资本得到如此体贴的“自由主义”照顾，尤其值得称赞，因为伦敦最有声望的医生和外科医生——法尔、卡莱尔、布罗迪、贝尔、格思里等人——都向下院作证说：再拖延就会有生命危险。",
+      "start_ms": 23171,
+      "end_ms": 40815,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s06-n0034",
+      "text": "法尔医生说得更直白：“为了防止任何形式的过早死亡，都必须立法。",
+      "start_ms": 40815,
+      "end_ms": 47405,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s06-n0035",
+      "text": "工厂制度无疑应被视为造成这种死亡最残酷的方式之一。”",
+      "start_ms": 47405,
+      "end_ms": 52932,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s06-n0036",
+      "text": "这届经过“改革”的议会为了体恤厂主，仍让不满 13 岁的儿童在以后几年里每周被钉在 72 小时的工厂地狱中。",
+      "start_ms": 52932,
+      "end_ms": 63561,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s06-n0037",
+      "text": "可同一个议会通过《奴隶解放法》时——这部法律同样把自由一滴一滴地交出来——却从一开始就禁止种植园主让任何黑人奴隶每周劳动超过 45 小时！",
+      "start_ms": 0,
+      "end_ms": 15749,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s06-n0038",
+      "text": "资本并没有因此收敛，反而发起了一场持续多年、声势浩大的运动。",
+      "start_ms": 15749,
+      "end_ms": 22801,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s06-n0039",
+      "text": "争论的中心，是哪些年龄的人应当被称为“儿童”，每天只能劳动 8 小时并必须接受一定教育。",
+      "start_ms": 22801,
+      "end_ms": 32673,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s06-n0040",
+      "text": "按照资本主义的人类学，一个人 10 岁、最多 11 岁就不再是儿童。",
+      "start_ms": 32673,
+      "end_ms": 39725,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s06-n0041",
+      "text": "1833 年工厂法全面生效的期限——那个灾难性的 1836 年——越近，厂主群体就越疯狂。",
+      "start_ms": 39725,
+      "end_ms": 49598,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s06-n0042",
+      "text": "他们确实吓住了政府，以至政府在 1835 年提议把儿童年龄的上限从 13 岁降到 12 岁。",
+      "start_ms": 49598,
+      "end_ms": 59000,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s06-n0043",
+      "text": "然而，来自社会外部的压力越来越强，下院失去了继续退让的勇气。",
+      "start_ms": 0,
+      "end_ms": 6580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s06-n0044",
+      "text": "它拒绝把 13 岁儿童每天 8 小时以上地扔到资本的巨轮下。",
+      "start_ms": 6580,
+      "end_ms": 12282,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s06-n0045",
+      "text": "1833 年法于是全面生效，并一直原封不动地维持到 1844 年 6 月。",
+      "start_ms": 12282,
+      "end_ms": 19301,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s06-n0046",
+      "text": "这部法律先是部分、后来全面规定工厂劳动的十年间，工厂视察员的官方报告充满了抱怨：法律根本无法执行。",
+      "start_ms": 19301,
+      "end_ms": 30048,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s06-n0047",
+      "text": "1833 年法允许资本家在早晨 5 点半到晚上 8 点半这 15 小时内，让每名未成年人或儿童在任何时间开始、中断或结束各自的 12 小时或 8 小时劳动，也可以给不同的人安排不同的吃饭时间。",
+      "start_ms": 30048,
+      "end_ms": 48691,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s06-n0048",
+      "text": "厂主很快便发明了新的“接力制”。",
+      "start_ms": 48691,
+      "end_ms": 52200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s06-n0049",
+      "text": "劳动这匹马不再在固定驿站更换，而是不断在变动的驿站被重新套上。",
+      "start_ms": 0,
+      "end_ms": 5661,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s06-n0050",
+      "text": "我们暂且不细说这套制度的“美妙”，后面还会回到它。",
+      "start_ms": 5661,
+      "end_ms": 10226,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s06-n0051",
+      "text": "但有一点一眼就能看出：它从法律文字到法律精神，把整部工厂法全部架空。",
+      "start_ms": 10226,
+      "end_ms": 16435,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s06-n0052",
+      "text": "每个儿童和未成年人都有一套复杂而不同的时间表，工厂视察员怎么可能核实每个人是否只工作了法定时数，是否得到法定吃饭时间？",
+      "start_ms": 16435,
+      "end_ms": 27209,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s06-n0053",
+      "text": "大量工厂很快又肆无忌惮地恢复了旧有的残酷做法。",
+      "start_ms": 27209,
+      "end_ms": 31409,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s06-n0054",
+      "text": "1844 年，工厂视察员同内政大臣开会，证明这种新接力制使任何监督都不可能。",
+      "start_ms": 31409,
+      "end_ms": 38166,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s06-n0055",
+      "text": "与此同时，形势已经大为改变。",
+      "start_ms": 0,
+      "end_ms": 3280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s06-n0056",
+      "text": "特别是从 1838 年起，工厂工人把十小时法案当作经济斗争的口号，把《人民宪章》当作政治斗争的口号。",
+      "start_ms": 3280,
+      "end_ms": 14527,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s06-n0057",
+      "text": "一部分厂主已经按照 1833 年法整顿了生产。",
+      "start_ms": 14527,
+      "end_ms": 19448,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s06-n0058",
+      "text": "他们不断向议会递交请愿，谴责那些“假兄弟”的“不道德竞争”，因为后者凭着更加无耻或更有利的地方条件违法经营。",
+      "start_ms": 19448,
+      "end_ms": 32101,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s06-n0059",
+      "text": "更重要的是，无论每个厂主本人多想放纵旧有的掠夺欲，厂主阶级的发言人和政治领袖都必须改变对工人的态度和说话方式。",
+      "start_ms": 32101,
+      "end_ms": 44988,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s06-n0060",
+      "text": "他们正要发动废除谷物法的运动，需要工人帮助才能取胜！",
+      "start_ms": 44988,
+      "end_ms": 51080,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s06-n0061",
+      "text": "因此，他们许诺，自由贸易的千年盛世一到，不仅面包会增加一倍，还会通过十小时法案。",
+      "start_ms": 0,
+      "end_ms": 10128,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s06-n0062",
+      "text": "他们更不能反对一项只是要让 1833 年法律真正得到执行的措施。",
+      "start_ms": 10128,
+      "end_ms": 17725,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s06-n0063",
+      "text": "最后，保守党人的地租这一最神圣的利益也受到威胁，于是他们满怀愤怒和“人道精神”，猛烈抨击对手的“卑劣做法”。",
+      "start_ms": 17725,
+      "end_ms": 31398,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s06-n0064",
+      "text": "这就促成了 1844 年 6 月 7 日的补充工厂法，并于同年 10 月 1 日生效。",
+      "start_ms": 31398,
+      "end_ms": 39754,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s06-n0065",
+      "text": "法律把一个新群体列入保护范围：18 岁以上的成年女人。",
+      "start_ms": 39754,
+      "end_ms": 46338,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s06-n0066",
+      "text": "她们在各方面都同未成年人一样对待，工作日限制为 12 小时，不得上夜班等。",
+      "start_ms": 46338,
+      "end_ms": 55200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s06-n0067",
+      "text": "立法第一次不得不直接、公开地管理成年人的劳动。",
+      "start_ms": 0,
+      "end_ms": 5225,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s06-n0068",
+      "text": "1844—1845 年的工厂报告讽刺地说：“据我们所知，没有一个成年女人抱怨自己的权利受到这种侵犯。”",
+      "start_ms": 5225,
+      "end_ms": 16582,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s06-n0069",
+      "text": "13 岁以下儿童每天的劳动时间则降到 6 个半小时，在一定条件下可延长到 7 小时。",
+      "start_ms": 16582,
+      "end_ms": 24987,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s06-n0070",
+      "text": "为了消除假“接力制”的弊病，1844 年法律制定了几项重要的细则。",
+      "start_ms": 24987,
+      "end_ms": 32256,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s06-n0071",
+      "text": "法律规定：“只要早晨有任何一名儿童或未成年人开始在工厂工作，所有儿童和未成年人的工作日便从那一刻算起。”",
+      "start_ms": 32256,
+      "end_ms": 44068,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s06-n0072",
+      "text": "例如，A 早晨 8 点开工，B 到 10 点才开工，B 的工作日仍必须同 A 在同一时间结束。",
+      "start_ms": 44068,
+      "end_ms": 52700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s06-n0073",
+      "text": "工作日的起点要依据公共时钟，例如附近火车站的时钟，工厂钟也必须以它为准。",
+      "start_ms": 160,
+      "end_ms": 8320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s06-n0074",
+      "text": "厂主必须在厂内张贴大字告示，写明工作日开始、结束和休息的时间。",
+      "start_ms": 9000,
+      "end_ms": 16320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s06-n0075",
+      "text": "上午 12 点以前已经开始工作的儿童，下午 1 点以后不得再次使用。",
+      "start_ms": 17000,
+      "end_ms": 22440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s06-n0076",
+      "text": "因此，下午班必须换一批儿童，不能仍用上午班。",
+      "start_ms": 22920,
+      "end_ms": 27400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s06-n0077",
+      "text": "受保护的所有工人都必须在每天相同的时段得到 1 个半小时的吃饭时间，其中至少 1 小时要安排在下午 3 点以前。",
+      "start_ms": 28360,
+      "end_ms": 38360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s06-n0078",
+      "text": "儿童或未成年人在下午 1 点以前不得连续工作超过 5 小时，除非中间至少休息半小时吃饭。",
+      "start_ms": 39200,
+      "end_ms": 47760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s06-n0079",
+      "text": "吃饭期间，只要厂房内还有任何生产工序在进行，儿童、未成年人和成年女人都不得留在里面，等等。",
+      "start_ms": 40,
+      "end_ms": 9000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s06-n0080",
+      "text": "这些细致规定像军队一样，依照钟声统一安排劳动时段、上下班界限和休息时间。",
+      "start_ms": 9800,
+      "end_ms": 18040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s06-n0081",
+      "text": "可我们已经看到，它们绝不是议员凭空想出来的条文，而是从现代生产方式的实际关系中逐步产生的，像这种生产方式自身的自然规律。",
+      "start_ms": 18480,
+      "end_ms": 30920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s06-n0082",
+      "text": "它们被写成法律、得到官方承认并由国家公布，是长期阶级斗争的结果。",
+      "start_ms": 31680,
+      "end_ms": 40640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s06-n0083",
+      "text": "这些规定很快又在实践中把成年男工的工作日限制在同一范围，因为大多数生产过程都离不开儿童、未成年人和成年女人的协作。",
+      "start_ms": 41320,
+      "end_ms": 52400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s06-n0084",
+      "text": "因此，从 1844 到 1847 年，所有受工厂法管辖的行业总体上都普遍、统一地实行十二小时工作日。",
+      "start_ms": 53200,
+      "end_ms": 64080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s06-n0085",
+      "text": "不过，厂主绝不会容许这种“进步”而不换回一个“倒退”。",
+      "start_ms": 0,
+      "end_ms": 5519,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s06-n0086",
+      "text": "在他们推动下，下院把儿童进厂的最低年龄从 9 岁降到 8 岁，以保证资本得到那份上帝和法律都欠它的“额外工厂儿童供给”。",
+      "start_ms": 5519,
+      "end_ms": 16966,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s06-n0087",
+      "text": "1846—1847 年是英国经济史上的转折点。",
+      "start_ms": 16966,
+      "end_ms": 21463,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s06-n0088",
+      "text": "谷物法被废除，棉花和其他原料的进口税取消，自由贸易被宣布为立法的指路明灯。",
+      "start_ms": 21463,
+      "end_ms": 29027,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s06-n0089",
+      "text": "简而言之，千年盛世降临了。",
+      "start_ms": 29027,
+      "end_ms": 31684,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s06-n0090",
+      "text": "另一方面，宪章运动和争取十小时工作日的运动也在这两年达到高潮，并得到渴望报复的保守党人支持。",
+      "start_ms": 31684,
+      "end_ms": 41087,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s06-n0091",
+      "text": "以布莱特和科布登为首的自由贸易大军背弃承诺，狂热反对十小时法案。",
+      "start_ms": 0,
+      "end_ms": 10070,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s06-n0092",
+      "text": "尽管如此，工人争取已久的法案仍在议会通过。",
+      "start_ms": 10070,
+      "end_ms": 16678,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s06-n0093",
+      "text": "1847 年 6 月 8 日的新工厂法规定，从 1847 年 7 月 1 日起，“未成年人”——即 13 至 18 岁的人——和所有女工的工作日先缩短为 11 小时；从 1848 年 5 月 1 日起，正式限制为 10 小时。",
+      "start_ms": 16678,
+      "end_ms": 44370,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s06-n0094",
+      "text": "除此以外，这部法律只是对 1833 年和 1844 年法律的修正补充。",
+      "start_ms": 44370,
+      "end_ms": 54125,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s06-n0095",
+      "text": "资本家先发动了一场试探性攻势，企图阻止十小时法在 1848 年 5 月 1 日全面实施。",
+      "start_ms": 54125,
+      "end_ms": 66083,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s06-n0096",
+      "text": "他们要让工人相信，工人已经从实际经验中看出这部法律有害，因而应当亲手毁掉自己的成果。",
+      "start_ms": 66083,
+      "end_ms": 79300,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s06-n0097",
+      "text": "这个时机选得很巧。",
+      "start_ms": 200,
+      "end_ms": 1560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s06-n0098",
+      "text": "1846—1847 年的严重危机使工厂工人普遍陷入困境。",
+      "start_ms": 2000,
+      "end_ms": 6640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s06-n0099",
+      "text": "许多工厂只开工了很短时间，另一些完全停产，大批工人生活窘迫、负债累累。",
+      "start_ms": 7120,
+      "end_ms": 13080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s06-n0100",
+      "text": "因此，工人很可能愿意延长劳动时间，以弥补过去的损失、偿还债务、从当铺赎回家具、添补已经变卖的家当，或者给自己和家人添置衣物。",
+      "start_ms": 13640,
+      "end_ms": 25480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s06-n0101",
+      "text": "厂主又利用这种处境，普遍把工资降低 10%，仿佛是在为新的自由贸易时代举行开幕典礼。",
+      "start_ms": 26480,
+      "end_ms": 33880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s06-n0102",
+      "text": "工作日从 12 小时缩短到 11 小时时，他们又以工时缩短为由，按原工资扣去 83分之1百分号。",
+      "start_ms": 34640,
+      "end_ms": 41800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s06-n0103",
+      "text": "工作日最终缩短到 10 小时时，这项扣减提高到约 163分之2百分号，也就是原来的两倍。",
+      "start_ms": 0,
+      "end_ms": 10062,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s06-n0104",
+      "text": "这里不是在 83分之1百分号 以外再扣 163分之2百分号，而是把因工时缩短造成的总扣减提高了一倍。",
+      "start_ms": 10062,
+      "end_ms": 21597,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s06-n0105",
+      "text": "再加上最初那次 10% 的普遍降薪，只要条件允许，工资总降幅便至少达到 25%。",
+      "start_ms": 21597,
+      "end_ms": 30677,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s06-n0106",
+      "text": "做好这些准备后，厂主便在工人中鼓动废除 1847 年的法律。",
+      "start_ms": 30677,
+      "end_ms": 37549,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s06-n0107",
+      "text": "他们欺骗、利诱、威胁，无所不用，但仍没有成功。",
+      "start_ms": 37549,
+      "end_ms": 43193,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s06-n0108",
+      "text": "厂主只弄到六份请愿书，要求工人在里面控诉自己“受工厂法压迫”。",
+      "start_ms": 43193,
+      "end_ms": 50801,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s06-n0109",
+      "text": "可一经当面询问，签名者便承认，他们是在胁迫下签字的：“他们确实受了压迫，只不过压迫他们的不是工厂法。”",
+      "start_ms": 0,
+      "end_ms": 11573,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s06-n0110",
+      "text": "厂主没能让工人替自己说话，便在报刊和议会中更加响亮地打着工人的名义叫喊。",
+      "start_ms": 11573,
+      "end_ms": 19742,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s06-n0111",
+      "text": "他们把工厂视察员说成一群冷酷的社会改造狂，为了实现自己的幻想，不惜牺牲不幸的工人。",
+      "start_ms": 19742,
+      "end_ms": 29046,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s06-n0112",
+      "text": "这套把戏也失败了。",
+      "start_ms": 29046,
+      "end_ms": 31089,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s06-n0113",
+      "text": "工厂视察员伦纳德·霍纳和他的助理在兰开夏各工厂询问了大批工人。",
+      "start_ms": 31089,
+      "end_ms": 38123,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s06-n0114",
+      "text": "受访者中约有 70% 支持十小时工作日，支持十一小时的少得多，支持原来十二小时的只占极少数。",
+      "start_ms": 38123,
+      "end_ms": 48108,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s06-n0115",
+      "text": "厂主还有一种“友善”的手段：让成年男工每天劳动 12 至 15 小时，再把这个事实说成工人内心愿望的最好证明。",
+      "start_ms": 0,
+      "end_ms": 13158,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s06-n0116",
+      "text": "但那位“冷酷的”工厂视察员霍纳又来到了现场。",
+      "start_ms": 13158,
+      "end_ms": 18834,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s06-n0117",
+      "text": "大多数加班工人都说，他们宁愿工资少一些，每天只干 10 小时，可他们没有选择。",
+      "start_ms": 18834,
+      "end_ms": 28379,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s06-n0118",
+      "text": "失业者太多，许多纺纱工又被迫降为只负责接头的辅助工。",
+      "start_ms": 28379,
+      "end_ms": 35087,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s06-n0119",
+      "text": "谁拒绝延长劳动时间，马上就会有人顶替。",
+      "start_ms": 35087,
+      "end_ms": 39989,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s06-n0120",
+      "text": "摆在他们面前的选择只有两个：要么延长劳动时间，要么流落街头。",
+      "start_ms": 39989,
+      "end_ms": 47729,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s06-n0121",
+      "text": "资本家的试探性攻势失败了，十小时法于 1848 年 5 月 1 日正式生效。",
+      "start_ms": 0,
+      "end_ms": 6788,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s06-n0122",
+      "text": "不过，此时宪章派已经失败，领袖被捕，组织被打散，英国工人阶级的信心也受到动摇。",
+      "start_ms": 6788,
+      "end_ms": 15062,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s06-n0123",
+      "text": "不久，巴黎六月起义遭到血腥镇压。",
+      "start_ms": 15062,
+      "end_ms": 18456,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s06-n0124",
+      "text": "无论在欧洲大陆还是英国，统治阶级的各个派别都联合起来：地主和资本家、金融投机者和小店主、保护关税派和自由贸易派、政府和反对派、教士和自由思想者，甚至年轻妓女和老修女，全都高喊要拯救财产、宗教、家庭和社会。",
+      "start_ms": 18456,
+      "end_ms": 40094,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s06-n0125",
+      "text": "工人阶级到处受到诋毁和排斥，人人都被当作“可疑分子”监视起来。",
+      "start_ms": 40094,
+      "end_ms": 46671,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s06-n0126",
+      "text": "厂主于是再无顾忌。",
+      "start_ms": 46671,
+      "end_ms": 48580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s06-n0127",
+      "text": "他们公开反叛的不只是十小时法，而是 1833 年以来所有试图稍稍约束资本“自由”榨取劳动力的法律。",
+      "start_ms": 0,
+      "end_ms": 11224,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s06-n0128",
+      "text": "这是一场缩小版的维护奴隶制的叛乱，持续了两年多，既肆无忌惮，又充满恐吓。",
+      "start_ms": 11224,
+      "end_ms": 19822,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s06-n0129",
+      "text": "厂主之所以敢这样做，是因为他们自己不必承担什么风险，付出代价的只是工人的皮肉。",
+      "start_ms": 19822,
+      "end_ms": 29135,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s06-n0130",
+      "text": "要看懂接下来发生的事，必须先记住三点。",
+      "start_ms": 29135,
+      "end_ms": 33673,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s06-n0131",
+      "text": "第一，1833 年、1844 年和 1847 年的工厂法当时都仍然有效，只有后来法律修正的部分除外。",
+      "start_ms": 33673,
+      "end_ms": 44658,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s06-n0132",
+      "text": "第二，这些法律都没有限制 18 岁以上男工的工作日。",
+      "start_ms": 44658,
+      "end_ms": 50390,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s06-n0133",
+      "text": "第三，从 1833 年起，法律一直把早晨 5 点半到晚上 8 点半这 15 个小时规定为工厂可以开工的“工作日”。",
+      "start_ms": 0,
+      "end_ms": 16409,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s06-n0134",
+      "text": "未成年人和女工最初每天劳动 12 小时，后来改为 10 小时，但这些劳动必须按照法律规定，安排在这 15 个小时之内。",
+      "start_ms": 16409,
+      "end_ms": 34158,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s06-n0135",
+      "text": "一些厂主开始解雇部分未成年人和女工，有时甚至解雇其中一半，同时恢复几乎已经消失的成年男工夜班。",
+      "start_ms": 34158,
+      "end_ms": 49898,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s06-n0136",
+      "text": "他们声称，十小时法没有给他们留下别的选择。",
+      "start_ms": 49898,
+      "end_ms": 56930,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s06-n0137",
+      "text": "第二步针对法定吃饭时间。",
+      "start_ms": 56930,
+      "end_ms": 60949,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s06-n0138",
+      "text": "让我们听听工厂视察员怎么说：“工作日限制为 10 小时以后，厂主提出了这样一种说法，虽然他们还没有在实践中彻底照办：假如工人从早晨 9 点干到晚上 7 点，只要在早晨 9 点以前给 1 小时、晚上 7 点以后给半小时，合计给出 1 个半小时的吃饭时间，就算符合法律。",
+      "start_ms": 60949,
+      "end_ms": 100800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s06-n0139",
+      "text": "有些厂主现在会在中午放半小时或 1 小时，但同时坚持说，他们根本没有义务在 10 小时工作日以内安排这 1 个半小时中的任何一部分。”",
+      "start_ms": 0,
+      "end_ms": 15441,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s06-n0140",
+      "text": "按照这种说法，1844 年法律对吃饭时间那些极其细致的规定，只是允许工人在进厂以前和离厂以后，也就是在家里吃喝。",
+      "start_ms": 15441,
+      "end_ms": 29364,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s06-n0141",
+      "text": "工人为什么不能在早晨 9 点以前就把午饭吃掉呢？",
+      "start_ms": 29364,
+      "end_ms": 34933,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s06-n0142",
+      "text": "不过，王室法律顾问裁定，法律规定的吃饭时间“必须作为实际工作日中的休息时间来安排；让工人从早晨 9 点到晚上 7 点连续劳动 10 小时而不休息，属于违法行为”。",
+      "start_ms": 34933,
+      "end_ms": 53918,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s06-n0143",
+      "text": "经过这些温情脉脉的论证，资本开始公开反叛。",
+      "start_ms": 53918,
+      "end_ms": 59234,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s06-n0144",
+      "text": "它采取的第一步符合 1844 年法律的字面规定，因而完全合法。",
+      "start_ms": 59234,
+      "end_ms": 66575,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s06-n0145",
+      "text": "1844 年的法律确实规定，8 至 13 岁的儿童如果在中午 12 点以前工作，下午 1 点以后就不得再工作。",
+      "start_ms": 0,
+      "end_ms": 14616,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s06-n0146",
+      "text": "可是，对于中午 12 点或更晚才开工的儿童，法律完全没有规定他们应怎样完成 6 个半小时的劳动。",
+      "start_ms": 14616,
+      "end_ms": 28299,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s06-n0147",
+      "text": "因此，一个 8 岁儿童如果中午 12 点开工，就可以从 12 点干到 1 点，共 1 小时；从下午 2 点干到 4 点，共 2 小时；再从下午 5 点干到晚上 8 点半，共 3 个半小时，合计正好是法定的 6 个半小时。",
+      "start_ms": 28299,
+      "end_ms": 55043,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s06-n0148",
+      "text": "厂主还有更方便的办法。",
+      "start_ms": 55043,
+      "end_ms": 58463,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s06-n0149",
+      "text": "为了让儿童的工作时间配合成年男工一直持续到晚上 8 点半，他们可以让儿童下午 2 点才开工，随后在工厂连续劳动到晚上 8 点半。",
+      "start_ms": 58463,
+      "end_ms": 76500,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s06-n0150",
+      "text": "“现在已经有人明确承认，为了让机器每天运转 10 小时以上，英格兰近来出现了这样一种做法：13 至 18 岁的青年工人和女工离厂以后，8 至 13 岁的男女儿童继续单独留在厂里，同成年男工一起劳动到晚上 8 点半。”",
+      "start_ms": 0,
+      "end_ms": 19915,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s06-n0151",
+      "text": "工人和工厂视察员以健康和道德为由提出抗议。",
+      "start_ms": 19915,
+      "end_ms": 24183,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s06-n0152",
+      "text": "资本却回答：",
+      "start_ms": 24183,
+      "end_ms": 25402,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s06-n0153",
+      "text": "“一切后果由我承担！",
+      "start_ms": 25402,
+      "end_ms": 27434,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s06-n0154",
+      "text": "我要我的权利！",
+      "start_ms": 27434,
+      "end_ms": 28857,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s06-n0155",
+      "text": "我要执行契约规定的罚则和抵押！”",
+      "start_ms": 28857,
+      "end_ms": 32108,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s06-n0156",
+      "text": "抗议没有阻止这种做法。",
+      "start_ms": 0,
+      "end_ms": 3036,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s06-n0157",
+      "text": "1850 年 7 月 26 日提交下院的统计显示，截至当月 15 日，257 家工厂共有 3,742 名儿童受到这种安排的支配。",
+      "start_ms": 3036,
+      "end_ms": 17939,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s06-n0158",
+      "text": "可这还不够。",
+      "start_ms": 17939,
+      "end_ms": 19595,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s06-n0159",
+      "text": "资本的锐眼又发现，1844 年的法律规定，儿童上午连续劳动 5 小时，中间至少要有 30 分钟休息进食，却没有对下午的劳动作出同样规定。",
+      "start_ms": 19595,
+      "end_ms": 36982,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s06-n0160",
+      "text": "于是资本要求，并强行取得了这种权利：让 8 岁的童工从下午 2 点连续干到晚上 8 点半，不但一直劳动，而且一直挨饿。",
+      "start_ms": 36982,
+      "end_ms": 51609,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s06-n0161",
+      "text": "“对，胸口！",
+      "start_ms": 51609,
+      "end_ms": 53265,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s06-n0162",
+      "text": "契约上就是这样写的。”",
+      "start_ms": 0,
+      "end_ms": 2375,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s06-n0163",
+      "text": "在童工问题上，厂主像夏洛克一样死抓 1844 年法律的字面规定。",
+      "start_ms": 2375,
+      "end_ms": 8852,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s06-n0164",
+      "text": "不过，这只是为了接下来公开反抗同一部法律中关于未成年人和女工的规定。",
+      "start_ms": 8852,
+      "end_ms": 16193,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s06-n0165",
+      "text": "前面已经说过，1844 年法律的主要目的和主要内容，就是废除假“接力制”。",
+      "start_ms": 16193,
+      "end_ms": 23965,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s06-n0166",
+      "text": "这套制度把工人分成多批，在一天 15 小时的开工时段内任意调换，使法律无法查明每个人实际劳动了多久。",
+      "start_ms": 23965,
+      "end_ms": 34328,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s06-n0167",
+      "text": "厂主现在宣布：当工作日还限制为 12 小时时，禁止这种做法的条款“基本没有造成什么妨碍”。",
+      "start_ms": 34328,
+      "end_ms": 43612,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s06-n0168",
+      "text": "可在十小时法实行以后，这些条款就成了“无法忍受的负担”。",
+      "start_ms": 0,
+      "end_ms": 5660,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s06-n0169",
+      "text": "因此，他们若无其事地通知工厂视察员，自己将不再遵守这些条款，并自行恢复旧制度。",
+      "start_ms": 5660,
+      "end_ms": 13544,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s06-n0170",
+      "text": "他们说，这样做正是为了那些受到错误引导的工人，好让工人拿到更高工资。",
+      "start_ms": 13544,
+      "end_ms": 20418,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s06-n0171",
+      "text": "他们还说，这是十小时法实行后维持英国工业霸主地位的唯一办法。",
+      "start_ms": 20418,
+      "end_ms": 26482,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s06-n0172",
+      "text": "至于采用接力制以后，查出违法行为可能会更困难，那又怎样？",
+      "start_ms": 26482,
+      "end_ms": 32142,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s06-n0173",
+      "text": "难道为了替工厂视察员和助理视察员省下一点麻烦，就要把国家庞大的工厂利益放在次要位置吗？",
+      "start_ms": 32142,
+      "end_ms": 40835,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch08-s06-n0174",
+      "text": "这些说辞当然没有用，工厂视察员开始起诉违法厂主。",
+      "start_ms": 0,
+      "end_ms": 5608,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s06-n0175",
+      "text": "厂主随即用请愿书淹没内政大臣乔治·格雷爵士。",
+      "start_ms": 5608,
+      "end_ms": 10748,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s06-n0176",
+      "text": "1848 年 8 月 5 日，格雷发出通告，要求视察员“通常不要仅因违反法律字面规定而介入，除非有证据表明厂主滥用接力制，让未成年人和女工每天劳动超过 10 小时”。",
+      "start_ms": 10748,
+      "end_ms": 28505,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s06-n0177",
+      "text": "此后，工厂视察员 J. 斯图亚特允许苏格兰各工厂在每天 15 小时的开工时段内实行所谓轮班制，旧制度很快在那里全面恢复。",
+      "start_ms": 28505,
+      "end_ms": 41589,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s06-n0178",
+      "text": "英格兰的工厂视察员却宣布，大臣没有暂停法律的独断权力，并继续起诉这些维护奴役制度的反叛者。",
+      "start_ms": 41589,
+      "end_ms": 52103,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s06-n0179",
+      "text": "可是，只要负责审判的郡治安法官总是宣判厂主无罪，起诉又有什么用？",
+      "start_ms": 52103,
+      "end_ms": 59580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch08-s06-n0180",
+      "text": "坐在这些法庭里的厂主，实际上是在审判自己。",
+      "start_ms": 120,
+      "end_ms": 4280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s06-n0181",
+      "text": "举个例子。",
+      "start_ms": 4720,
+      "end_ms": 5520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s06-n0182",
+      "text": "克肖、利斯公司有个名叫埃斯克里奇的棉纺厂主，曾向当地工厂视察员提交一套准备在自己工厂实行的接力方案。",
+      "start_ms": 6000,
+      "end_ms": 16200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s06-n0183",
+      "text": "方案遭到拒绝后，他暂时没有行动。",
+      "start_ms": 16800,
+      "end_ms": 19880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s06-n0184",
+      "text": "几个月后，另一个名叫罗宾逊的棉纺厂主采用了同一套方案。",
+      "start_ms": 20520,
+      "end_ms": 25480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s06-n0185",
+      "text": "就算罗宾逊不是埃斯克里奇的忠实随从，也至少是他的亲友。",
+      "start_ms": 26280,
+      "end_ms": 31680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch08-s06-n0186",
+      "text": "罗宾逊因此到斯托克波特市镇法庭受审。",
+      "start_ms": 0,
+      "end_ms": 4523,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s06-n0187",
+      "text": "四名法官中有三名是棉纺厂主，领头的正是埃斯克里奇。",
+      "start_ms": 4523,
+      "end_ms": 10804,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s06-n0188",
+      "text": "埃斯克里奇判罗宾逊无罪，随后宣称：罗宾逊可以合法做的事，他当然也可以做。",
+      "start_ms": 10804,
+      "end_ms": 19850,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s06-n0189",
+      "text": "凭着自己作出的生效判决，他立刻在自家工厂实行了这套制度。",
+      "start_ms": 19850,
+      "end_ms": 26885,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s06-n0190",
+      "text": "这类法庭的人员组成，本身就已经公开违法。",
+      "start_ms": 26885,
+      "end_ms": 31910,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s06-n0191",
+      "text": "工厂视察员豪厄尔愤怒地说：“这种司法闹剧迫切需要纠正……要么修改法律，使它符合这些判决；要么换一个不那么容易犯错的法庭，让判决符合法律……遇到这种案子，人真希望能有一位领取薪水的职业法官！”",
+      "start_ms": 31910,
+      "end_ms": 55780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch08-s06-n0192",
+      "text": "王室法律顾问认定，厂主对 1844 年法律的解释荒唐透顶，可这些“社会救星”毫不动摇。",
+      "start_ms": 0,
+      "end_ms": 13491,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s06-n0193",
+      "text": "伦纳德·霍纳报告说：“我曾在 7 个不同的司法辖区提起 10 次诉讼，试图执行法律，却只有一次得到治安法官支持……我认为，再为规避法律的行为提起诉讼已经毫无用处。",
+      "start_ms": 13491,
+      "end_ms": 38827,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s06-n0194",
+      "text": "法律中原本用来统一劳动时间的部分……在兰开夏已经不复存在。",
+      "start_ms": 38827,
+      "end_ms": 48369,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s06-n0195",
+      "text": "对于实行所谓接力制的工厂，我和助理也完全无法确认它们有没有让未成年人和女工每天劳动超过 10 小时……到 1849 年 4 月底，我负责的地区已经有 114 家工厂采用这种办法，而且最近增长得非常快。",
+      "start_ms": 48369,
+      "end_ms": 78641,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s06-n0196",
+      "text": "它们现在通常从早晨 6 点开工到晚上 7 点半，共 13 个半小时。",
+      "start_ms": 78641,
+      "end_ms": 87854,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s06-n0197",
+      "text": "有些则从早晨 5 点半开工到晚上 8 点半，共 15 小时。”",
+      "start_ms": 87854,
+      "end_ms": 96080,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch08-s06-n0198",
+      "text": "早在 1848 年 12 月，霍纳就得到一份名单，其中 65 名厂主和 29 名工厂主管一致承认：实行这种接力制后，任何监督办法都无法防止极其严重的超时劳动。",
+      "start_ms": 0,
+      "end_ms": 17956,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s06-n0199",
+      "text": "同一批儿童和未成年人一会儿从纺纱车间调到织布车间，一会儿又在 15 小时内从一家工厂调到另一家。",
+      "start_ms": 17956,
+      "end_ms": 29590,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s06-n0200",
+      "text": "这种制度借用“轮班”之名，把工人像纸牌一样不断重新洗牌，每天变换每个人的劳动和休息时间，使同一套完整人手从不在同一时间、同一地点一起工作。",
+      "start_ms": 29590,
+      "end_ms": 47041,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s06-n0201",
+      "text": "这样的制度怎么可能受到监督？",
+      "start_ms": 47041,
+      "end_ms": 50581,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s06-n0202",
+      "text": "即使完全不谈实际超时劳动，这种所谓接力制本身也是资本异想天开的产物。",
+      "start_ms": 50581,
+      "end_ms": 59180,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s06-n0203",
+      "text": "傅立叶曾幽默地设想过用一次次“短时劳动”吸引人工作，也没有想出这般花样。",
+      "start_ms": 59180,
+      "end_ms": 68285,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch08-s06-n0204",
+      "text": "现在，吸引人的已经不是劳动，而是资本。",
+      "start_ms": 0,
+      "end_ms": 4403,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s06-n0205",
+      "text": "厂主设计的排班表被友好的报刊赞为典范，说它展示了“适度的细心和安排能够取得什么成效”。",
+      "start_ms": 4403,
+      "end_ms": 14369,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s06-n0206",
+      "text": "工人有时被分成 12 至 15 类，每一类的成员还在不断变化。",
+      "start_ms": 14369,
+      "end_ms": 20626,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s06-n0207",
+      "text": "在每天 15 小时的开工时段内，资本一会儿把工人召来干半小时，一会儿召来干 1 小时，随后又把他赶出去，然后再次召回、再次赶走。",
+      "start_ms": 20626,
+      "end_ms": 34531,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s06-n0208",
+      "text": "工人的时间被切得七零八落，人也被来回驱赶，但资本始终抓住他不放，直到凑满 10 小时劳动。",
+      "start_ms": 34531,
+      "end_ms": 44497,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s06-n0209",
+      "text": "就像同一批演员要在一出戏的不同场景中轮流登台一样，同一批工人也要在不同时段反复进出工厂。",
+      "start_ms": 44497,
+      "end_ms": 54694,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch08-s06-n0210",
+      "text": "演员在整出戏期间都属于舞台，工人在整整 15 小时里也都属于工厂，往返工厂所需的时间还没有算在内。",
+      "start_ms": 0,
+      "end_ms": 12957,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch08-s06-n0211",
+      "text": "休息时间因此变成被迫闲置的时间，把青年男工推向酒馆，把青年女工推向妓院。",
+      "start_ms": 12957,
+      "end_ms": 22881,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch08-s06-n0212",
+      "text": "资本家为了让机器每天运转 12 或 15 小时，又不增加工人，每想出一种新安排，工人就得在这一小段或那一小段零碎时间里匆忙吞下饭食。",
+      "start_ms": 22881,
+      "end_ms": 39973,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch08-s06-n0213",
+      "text": "争取十小时工作日时，厂主曾叫嚷说，那群工人之所以请愿，是想用 10 小时劳动换取 12 小时工资。",
+      "start_ms": 39973,
+      "end_ms": 52378,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch08-s06-n0214",
+      "text": "现在，他们把事情倒了过来：只付 10 小时工资，却要在 12 至 15 小时内随时支配工人的劳动力。",
+      "start_ms": 52378,
+      "end_ms": 64508,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch08-s06-n0215",
+      "text": "这才是问题的核心，也是厂主实际实行的“十小时法”。",
+      "start_ms": 64508,
+      "end_ms": 71400,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch08-s06-n0216",
+      "text": "这些满口仁慈的自由贸易派，曾在反谷物法运动的整整 10 年中，一分一厘地给工人算账，证明只要谷物可以自由进口，凭借英国工业的力量，工人每天劳动 10 小时就足以让资本家发财。",
+      "start_ms": 0,
+      "end_ms": 18358,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch08-s06-n0217",
+      "text": "资本反叛两年以后，终于得到英格兰四个最高法院之一——财税法院——的支持。",
+      "start_ms": 18358,
+      "end_ms": 26320,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch08-s06-n0218",
+      "text": "1850 年 2 月 8 日，该法院在一宗案件中裁定：厂主的做法虽然违背 1844 年法律的本意，但这部法律本身有些措辞使它失去了意义。",
+      "start_ms": 26320,
+      "end_ms": 39812,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch08-s06-n0219",
+      "text": "“这个判决实际上废除了十小时法。”",
+      "start_ms": 39812,
+      "end_ms": 43572,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch08-s06-n0220",
+      "text": "许多原本还不敢对未成年人和女工实行接力制的厂主，立刻全盘采用了这套制度。",
+      "start_ms": 43572,
+      "end_ms": 51534,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch08-s06-n0221",
+      "text": "资本看似取得了最终胜利，局面却马上发生逆转。",
+      "start_ms": 51534,
+      "end_ms": 56400,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch08-s06-n0222",
+      "text": "工人过去一直以消极但坚定的方式反抗，而且每天都在坚持。",
+      "start_ms": 0,
+      "end_ms": 5975,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch08-s06-n0223",
+      "text": "现在，兰开夏和约克郡的工人开始召开声势浩大的抗议大会。",
+      "start_ms": 5975,
+      "end_ms": 11950,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch08-s06-n0224",
+      "text": "他们说，所谓十小时法原来只是一场骗局，是议会的欺诈，这部法律实际上从未存在过。",
+      "start_ms": 11950,
+      "end_ms": 20581,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch08-s06-n0225",
+      "text": "工厂视察员紧急警告政府，阶级对立已经紧张到难以置信的程度。",
+      "start_ms": 20581,
+      "end_ms": 26999,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch08-s06-n0226",
+      "text": "连一部分厂主也开始抱怨：“治安法官的判决互相矛盾，造成了一种极不正常的混乱状态。",
+      "start_ms": 26999,
+      "end_ms": 35851,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch08-s06-n0227",
+      "text": "约克郡实行一套法律，兰开夏实行另一套。",
+      "start_ms": 35851,
+      "end_ms": 40056,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch08-s06-n0228",
+      "text": "兰开夏一个教区的法律，到了紧邻的教区又不一样。",
+      "start_ms": 0,
+      "end_ms": 5080,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch08-s06-n0229",
+      "text": "大城市的厂主有条件规避法律，乡村小镇的厂主却找不到足够人手实行接力制，更不用说把工人从一家工厂调到另一家。”",
+      "start_ms": 5080,
+      "end_ms": 17008,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch08-s06-n0230",
+      "text": "可在资本看来，所有资本都能同等程度地榨取劳动力，才是首要人权。",
+      "start_ms": 17008,
+      "end_ms": 23855,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch08-s06-n0231",
+      "text": "在这种情况下，厂主和工人达成妥协，议会又通过 1850 年 8 月 5 日的新补充工厂法，把妥协写进法律。",
+      "start_ms": 23855,
+      "end_ms": 34237,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch08-s06-n0232",
+      "text": "未成年人和女工在每周前 5 天的工作日从 10 小时延长到 10 个半小时，星期六则限制为 7 个半小时。",
+      "start_ms": 34237,
+      "end_ms": 44177,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch08-s06-n0233",
+      "text": "劳动必须安排在早晨 6 点到晚上 6 点之间， 其中有 1 个半小时用于吃饭。",
+      "start_ms": 44177,
+      "end_ms": 51245,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch08-s06-n0234",
+      "text": "所有工人必须同时休息，具体办法仍按 1844 年法律执行。",
+      "start_ms": 120,
+      "end_ms": 5600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch08-s06-n0235",
+      "text": "这样一来，接力制被彻底废除。",
+      "start_ms": 6320,
+      "end_ms": 8920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch08-s06-n0236",
+      "text": "童工仍继续适用 1844 年的法律。",
+      "start_ms": 9600,
+      "end_ms": 12720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch08-s06-n0237",
+      "text": "有一类厂主这次又像过去一样，取得了支配工人子女的特殊领主权利，那就是丝织厂主。",
+      "start_ms": 13000,
+      "end_ms": 20240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch08-s06-n0238",
+      "text": "1833 年，他们曾威胁说，如果不许他们让任何年龄的儿童每天苦干 10 小时，工厂就会停产。",
+      "start_ms": 20680,
+      "end_ms": 28920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch08-s06-n0239",
+      "text": "他们还声称，自己不可能买到足够多的 11 岁以上儿童。",
+      "start_ms": 29400,
+      "end_ms": 34440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch08-s06-n0240",
+      "text": "丝织厂主靠这种威胁取得了想要的特权。",
+      "start_ms": 0,
+      "end_ms": 3613,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch08-s06-n0241",
+      "text": "后来的调查证明，他们的借口完全是谎言。",
+      "start_ms": 3613,
+      "end_ms": 7427,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch08-s06-n0242",
+      "text": "可在随后 10 年里，他们仍让幼童站在凳子上操作，每天用这些孩子的血汗纺丝 10 小时。",
+      "start_ms": 7427,
+      "end_ms": 15456,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch08-s06-n0243",
+      "text": "1844 年的法律虽然“剥夺”了他们让 11 岁以下儿童每天劳动超过 6 个半小时的“自由”，却允许他们让 11 至 13 岁儿童每天劳动 10 小时，而且取消了其他工厂童工必须上学的规定。",
+      "start_ms": 15456,
+      "end_ms": 32317,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch08-s06-n0244",
+      "text": "这次的借口是：“这种织物十分精细，需要手指格外灵巧，而这种技巧只有从小进厂才能获得。”",
+      "start_ms": 32317,
+      "end_ms": 40948,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch08-s06-n0245",
+      "text": "为了保住灵巧的手指，他们不惜牺牲整个孩子，就像俄国南部的人为了牛皮和牛脂宰掉整头牛一样。",
+      "start_ms": 40948,
+      "end_ms": 49780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch08-s06-n0246",
+      "text": "到 1850 年，1844 年赋予的特权终于只保留在并丝和缫丝部门。",
+      "start_ms": 0,
+      "end_ms": 5951,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch08-s06-n0247",
+      "text": "不过，作为资本失去“自由”的补偿，11 至 13 岁儿童在这些部门的工作日又从 10 小时延长到 10 个半小时。",
+      "start_ms": 5951,
+      "end_ms": 15549,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch08-s06-n0248",
+      "text": "这次的借口是：“丝织厂的劳动比其他工厂轻松，对健康的危害也小得多。”",
+      "start_ms": 15549,
+      "end_ms": 22076,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch08-s06-n0249",
+      "text": "后来的官方医学调查证明，事实恰好相反：“丝织区的平均死亡率高得异常，女性死亡率甚至高于兰开夏棉纺织区。”",
+      "start_ms": 22076,
+      "end_ms": 32058,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch08-s06-n0250",
+      "text": "尽管工厂视察员每半年都提出抗议，这种恶行一直延续到现在。",
+      "start_ms": 32058,
+      "end_ms": 37433,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch08-s06-n0251",
+      "text": "1850 年的法律只把未成年人和女工的开工时段从早晨 5 点半到晚上 8 点半的 15 小时，改为早晨 6 点到晚上 6 点的 12 小时。",
+      "start_ms": 37433,
+      "end_ms": 48375,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch08-s06-n0252",
+      "text": "这项限制不适用于儿童。",
+      "start_ms": 0,
+      "end_ms": 2565,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch08-s06-n0253",
+      "text": "只要他们每天劳动不超过 6 个半小时，厂主仍可以在早晨提前半小时使用他们，晚上又延后两个半小时。",
+      "start_ms": 2565,
+      "end_ms": 13292,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch08-s06-n0254",
+      "text": "法律讨论期间，工厂视察员曾向议会提交统计资料，说明这个漏洞造成了怎样恶劣的滥用，但没有产生任何效果。",
+      "start_ms": 13292,
+      "end_ms": 24951,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch08-s06-n0255",
+      "text": "资本躲在背后的打算是：等到经济繁荣时，再借助童工把成年人的工作日拉长到 15 小时。",
+      "start_ms": 24951,
+      "end_ms": 34278,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch08-s06-n0256",
+      "text": "随后 3 年的经验表明，成年男工的反抗会使这种企图失败。",
+      "start_ms": 34278,
+      "end_ms": 40341,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch08-s06-n0257",
+      "text": "因此，1853 年又对 1850 年的法律作了补充，禁止“在未成年人和女工开始工作以前或结束工作以后使用儿童”。",
+      "start_ms": 40341,
+      "end_ms": 52700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch08-s06-n0258",
+      "text": "从此以后，除少数例外，1850 年工厂法统一规定了受它管辖的各行业中所有工人的工作日。",
+      "start_ms": 0,
+      "end_ms": 10530,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch08-s06-n0259",
+      "text": "这时，距离第一部工厂法颁布已经过去半个世纪。",
+      "start_ms": 10530,
+      "end_ms": 16046,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch08-s06-n0260",
+      "text": "1845 年的印花工厂法第一次把工厂立法扩大到原有范围以外，即棉布印花厂等行业。",
+      "start_ms": 16046,
+      "end_ms": 25825,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch08-s06-n0261",
+      "text": "法律的每一行都显出资本多么不情愿接受这种新的“过分要求”。",
+      "start_ms": 25825,
+      "end_ms": 33096,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch08-s06-n0262",
+      "text": "它把 8 至 13 岁儿童和女工的劳动限制在早晨 6 点到晚上 10 点之间，最多 16 小时，却没有规定任何法定吃饭时间。",
+      "start_ms": 33096,
+      "end_ms": 46133,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch08-s06-n0263",
+      "text": "它还允许厂主不分昼夜地任意使用 13 岁以上男工。",
+      "start_ms": 46133,
+      "end_ms": 51900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch08-s06-n0264",
+      "text": "这部法律是议会制造的一个失败产物。",
+      "start_ms": 0,
+      "end_ms": 3154,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch08-s06-n0265",
+      "text": "尽管如此，限制工作日的原则已经在现代生产方式最典型的大工业部门中取得胜利。",
+      "start_ms": 3154,
+      "end_ms": 10018,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch08-s06-n0266",
+      "text": "1853—1860 年，这些行业迅速发展，工厂工人的身体和精神面貌也同时改善，就连最迟钝的人也无法看不到。",
+      "start_ms": 10018,
+      "end_ms": 19665,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch08-s06-n0267",
+      "text": "厂主经过半个世纪的阶级斗争，才被迫一步步接受法定工作日。",
+      "start_ms": 19665,
+      "end_ms": 24859,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch08-s06-n0268",
+      "text": "现在连他们自己也得意地拿工厂的情况，同那些仍可“自由”榨取劳动力的行业作对比。",
+      "start_ms": 24859,
+      "end_ms": 32094,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch08-s06-n0269",
+      "text": "“政治经济学”的伪君子也开始宣布，认识到法定工作日的必要性，是他们这门“科学”的一项新发现。",
+      "start_ms": 32094,
+      "end_ms": 40628,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch08-s06-n0270",
+      "text": "原因不难理解。",
+      "start_ms": 0,
+      "end_ms": 1800,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch08-s06-n0271",
+      "text": "工厂巨头既然已经接受并适应了无法避免的限制，资本的抵抗便逐渐减弱。",
+      "start_ms": 1800,
+      "end_ms": 10288,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch08-s06-n0272",
+      "text": "与此同时，工人阶级的力量不断增强，并在没有直接卷入工厂斗争的社会阶层中得到越来越多的盟友。",
+      "start_ms": 10288,
+      "end_ms": 21862,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch08-s06-n0273",
+      "text": "因此，1860 年以后，工厂立法推进得比较快。",
+      "start_ms": 21862,
+      "end_ms": 27521,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch08-s06-n0274",
+      "text": "漂染业在 1860 年、花边厂和针织袜厂在 1861 年被纳入 1850 年工厂法。",
+      "start_ms": 27521,
+      "end_ms": 36780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch08-s06-n0275",
+      "text": "1863 年儿童就业委员会发表第一份报告后，陶制品制造业的所有部门——不只是制陶厂——以及火柴、雷管、弹药、墙纸、棉绒布剪毛等行业，还有统称为“最后整理”的许多工序，也受到同样的法律约束。",
+      "start_ms": 36780,
+      "end_ms": 60700,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch08-s06-n0276",
+      "text": "1863 年，露天漂白业和面包业分别受到专门法律管制。",
+      "start_ms": 0,
+      "end_ms": 6423,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch08-s06-n0277",
+      "text": "第一部法律禁止儿童、未成年人和女工在晚上 8 点到早晨 6 点之间劳动。",
+      "start_ms": 6423,
+      "end_ms": 14329,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch08-s06-n0278",
+      "text": "第二部法律禁止面包房在晚上 9 点到早晨 5 点之间使用 18 岁以下的帮工。",
+      "start_ms": 14329,
+      "end_ms": 22481,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch08-s06-n0279",
+      "text": "前面提到的委员会后来还提出更多建议，可能使英国除农业、采矿业和运输业以外的所有重要行业都失去这种剥削“自由”。",
+      "start_ms": 22481,
+      "end_ms": 36068,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch08-s06-n0280",
+      "text": "我们以后还会讨论这些建议。",
+      "start_ms": 36068,
+      "end_ms": 39280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0047"
+    }
+  ]
+}

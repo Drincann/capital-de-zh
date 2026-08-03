@@ -1,7 +1,7 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-02T22:37:53.800Z",
+  "generatedAt": "2026-08-03T08:42:42.282Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 20,
@@ -46,14 +46,16 @@
               "number": 3,
               "title": "价值形式或交换价值",
               "versionId": "ch01-s03-v1",
-              "contentPath": "/content/ch01-s03.json"
+              "contentPath": "/content/ch01-s03.json",
+              "audioManifestPath": "/audio/ch01-s03-v1-audio-7000d28886ce/manifest.json"
             },
             {
               "id": "ch01-s04",
               "number": 4,
               "title": "商品的拜物教性质及其秘密",
               "versionId": "ch01-s04-v1",
-              "contentPath": "/content/ch01-s04.json"
+              "contentPath": "/content/ch01-s04.json",
+              "audioManifestPath": "/audio/ch01-s04-v1-audio-74d1b370e525/manifest.json"
             }
           ]
         },
@@ -92,14 +94,16 @@
               "number": 2,
               "title": "流通手段",
               "versionId": "ch03-s02-v1",
-              "contentPath": "/content/ch03-s02.json"
+              "contentPath": "/content/ch03-s02.json",
+              "audioManifestPath": "/audio/ch03-s02-v1-audio-111b4c509652/manifest.json"
             },
             {
               "id": "ch03-s03",
               "number": 3,
               "title": "货币",
               "versionId": "ch03-s03-v1",
-              "contentPath": "/content/ch03-s03.json"
+              "contentPath": "/content/ch03-s03.json",
+              "audioManifestPath": "/audio/ch03-s03-v1-audio-e406bf5e16e0/manifest.json"
             }
           ]
         }
@@ -184,7 +188,8 @@
               "number": 1,
               "title": "不变资本和可变资本",
               "versionId": "ch06-s01-v1",
-              "contentPath": "/content/ch06-s01.json"
+              "contentPath": "/content/ch06-s01.json",
+              "audioManifestPath": "/audio/ch06-s01-v1-audio-7df6e5cb2b68/manifest.json"
             }
           ]
         },
@@ -255,7 +260,8 @@
               "number": 3,
               "title": "没有法定剥削限制的英国工业部门",
               "versionId": "ch08-s03-v2",
-              "contentPath": "/content/ch08-s03.json"
+              "contentPath": "/content/ch08-s03.json",
+              "audioManifestPath": "/audio/ch08-s03-v2-audio-921e75c18cbe/manifest.json"
             },
             {
               "id": "ch08-s04",
@@ -277,14 +283,16 @@
               "number": 6,
               "title": "争取正常工作日：用法律限制劳动时间，1833—1864年的英国工厂法",
               "versionId": "ch08-s06-v1",
-              "contentPath": "/content/ch08-s06.json"
+              "contentPath": "/content/ch08-s06.json",
+              "audioManifestPath": "/audio/ch08-s06-v1-audio-e8230bb2b8d5/manifest.json"
             },
             {
               "id": "ch08-s07",
               "number": 7,
               "title": "争取正常工作日：英国工厂法对其他国家的影响",
               "versionId": "ch08-s07-v1",
-              "contentPath": "/content/ch08-s07.json"
+              "contentPath": "/content/ch08-s07.json",
+              "audioManifestPath": "/audio/ch08-s07-v1-audio-e3a3f27c0a58/manifest.json"
             }
           ]
         },
@@ -299,7 +307,8 @@
               "number": 1,
               "title": "剩余价值率和剩余价值量",
               "versionId": "ch09-s01-v1",
-              "contentPath": "/content/ch09-s01.json"
+              "contentPath": "/content/ch09-s01.json",
+              "audioManifestPath": "/audio/ch09-s01-v1-audio-a7cc47d68445/manifest.json"
             }
           ]
         }
@@ -479,7 +488,8 @@
               "number": 1,
               "title": "绝对剩余价值和相对剩余价值",
               "versionId": "ch14-s01-v1",
-              "contentPath": "/content/ch14-s01.json"
+              "contentPath": "/content/ch14-s01.json",
+              "audioManifestPath": "/audio/ch14-s01-v1-audio-4d9e21e4f818/manifest.json"
             }
           ]
         },
