@@ -939,7 +939,7 @@ function applyHighlights(root: HTMLElement, notes: ReaderNote[]) {
   root
     .querySelectorAll<HTMLElement>(".reader-note-highlight")
     .forEach((mark) =>
-      mark.replaceWith(document.createTextNode(mark.textContent || "")),
+      mark.replaceWith(...Array.from(mark.childNodes)),
     );
   root.normalize();
 

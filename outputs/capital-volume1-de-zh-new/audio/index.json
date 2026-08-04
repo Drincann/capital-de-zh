@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-02T20:50:27.656Z",
+  "updated_at": "2026-08-03T13:18:50.099Z",
   "audio_versions": [
     {
       "audio_version_id": "ch07-s04-v1-audio-0edb73e87b93",
@@ -431,9 +431,93 @@
       "completed_at": "2026-08-02T20:50:27.655Z",
       "sentence_count": 131,
       "duration_ms": 1314645
+    },
+    {
+      "audio_version_id": "ch07-s01-v1-audio-fba24b294aba",
+      "unit_id": "ch07-s01",
+      "translation_version_id": "ch07-s01-v1",
+      "translation_sha256": "a4349de3499641798d74528400188373ae036f0665377fb10c4868b9d4238f85",
+      "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+      "model_id": "seed-tts-2.0",
+      "model_label": "Seed-TTS 2.0",
+      "transport": "tts-unidirectional-http",
+      "status": "failed",
+      "manifest_path": "audio/versions/ch07-s01-v1-audio-fba24b294aba/manifest.json",
+      "created_at": "2026-08-03T13:07:27.728Z",
+      "updated_at": "2026-08-03T13:11:05.136Z",
+      "completed_chunks": 10,
+      "chunk_count": 22,
+      "error": "terminated"
+    },
+    {
+      "audio_version_id": "ch01-s01-v9-audio-393c5a6fa7b7",
+      "unit_id": "ch01-s01",
+      "translation_version_id": "ch01-s01-v9",
+      "translation_sha256": "6ea49a2e35d64b5bf0fc60169bdf0d98640186268650ba68794336f1492ad391",
+      "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+      "model_id": "seed-tts-2.0",
+      "model_label": "Seed-TTS 2.0",
+      "transport": "tts-unidirectional-http",
+      "status": "ready",
+      "manifest_path": "audio/versions/ch01-s01-v9-audio-393c5a6fa7b7/manifest.json",
+      "created_at": "2026-08-03T13:15:13.240Z",
+      "updated_at": "2026-08-03T13:18:50.094Z",
+      "completed_chunks": 18,
+      "chunk_count": 18,
+      "completed_at": "2026-08-03T13:18:50.094Z",
+      "sentence_count": 108,
+      "duration_ms": 560572
     }
   ],
   "jobs": [
+    {
+      "job_id": "audio-job-1785762913240-391649b8",
+      "unit_id": "ch01-s01",
+      "translation_version_id": "ch01-s01-v9",
+      "audio_version_id": "ch01-s01-v9-audio-393c5a6fa7b7",
+      "model_id": "seed-tts-2.0",
+      "model_label": "Seed-TTS 2.0",
+      "status": "ready",
+      "created_at": "2026-08-03T13:15:13.240Z",
+      "updated_at": "2026-08-03T13:18:50.094Z",
+      "completed_at": "2026-08-03T13:18:50.094Z"
+    },
+    {
+      "job_id": "audio-job-1785762447727-e39aa4b8",
+      "unit_id": "ch07-s01",
+      "translation_version_id": "ch07-s01-v1",
+      "audio_version_id": "ch07-s01-v1-audio-fba24b294aba",
+      "model_id": "seed-tts-2.0",
+      "model_label": "Seed-TTS 2.0",
+      "status": "failed",
+      "created_at": "2026-08-03T13:07:27.728Z",
+      "updated_at": "2026-08-03T13:11:05.136Z",
+      "error": "terminated"
+    },
+    {
+      "job_id": "audio-job-1785762358637-4471b1a1",
+      "unit_id": "ch07-s01",
+      "translation_version_id": "ch07-s01-v1",
+      "audio_version_id": "ch07-s01-v1-audio-fba24b294aba",
+      "model_id": "seed-tts-2.0",
+      "model_label": "Seed-TTS 2.0",
+      "status": "failed",
+      "created_at": "2026-08-03T13:05:58.638Z",
+      "updated_at": "2026-08-03T13:07:17.643Z",
+      "error": "terminated"
+    },
+    {
+      "job_id": "audio-job-1785761981782-4f1d3907",
+      "unit_id": "ch07-s01",
+      "translation_version_id": "ch07-s01-v1",
+      "audio_version_id": "ch07-s01-v1-audio-fba24b294aba",
+      "model_id": "seed-tts-2.0",
+      "model_label": "Seed-TTS 2.0",
+      "status": "failed",
+      "created_at": "2026-08-03T12:59:41.782Z",
+      "updated_at": "2026-08-03T13:01:33.375Z",
+      "error": "terminated"
+    },
     {
       "job_id": "audio-job-1785703413663-043bb6e6",
       "unit_id": "ch09-s01",

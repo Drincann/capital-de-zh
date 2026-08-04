@@ -10,5 +10,8 @@
     "sync": "node scripts/sync-progress.mjs",
     "publish:audio": "node scripts/publish-adopted-audio.mjs",
     "test": "node --test tests/app.test.mjs tests/audio.test.mjs tests/audio-generation-queue.test.mjs tests/audio-publish.test.mjs"
+  },
+  "dependencies": {
+    "undici": "^6.27.0"
   }
 }

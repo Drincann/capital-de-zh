@@ -53,6 +53,10 @@ test("划词笔记公开可读，只有指定 ChatGPT 账号可写", async () =>
   assert.match(schema, /reader_notes_section_idx/);
   assert.match(readerNotes, /captureSelection/);
   assert.match(readerNotes, /applyHighlights/);
+  assert.match(
+    readerNotes,
+    /mark\.replaceWith\(\.\.\.Array\.from\(mark\.childNodes\)\)/,
+  );
   assert.match(readerNotes, /saveQueue/);
   assert.match(readerNotes, /使用 ChatGPT 登录/);
   assert.match(readerNotes, /调整笔记栏宽度/);
@@ -177,6 +181,11 @@ test("语音只随完全匹配的采用版本发布", async () => {
   assert.match(worker, /Accept-Ranges/);
   assert.match(audioReader, /fetch\("\/audio\/adoptions\.json"/);
   assert.match(audioReader, /adopted\.translation_sha256 === translationSha256/);
+  assert.match(audioReader, /exact \? adopted\.manifest_path : ""/);
+  assert.doesNotMatch(
+    audioReader,
+    /exact \? adopted\.manifest_path : audioManifestPath/,
+  );
 
   const audioDirectories = await readdir(new URL("public/audio/", appRoot), {
     withFileTypes: true,
@@ -208,6 +217,10 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.doesNotMatch(audioReader, /<select\b/);
   assert.match(audioReader, /narration-play-icon/);
   assert.match(audioReader, /narrationCompanion/);
+  assert.match(
+    audioReader,
+    /span\.replaceWith\(\.\.\.Array\.from\(span\.childNodes\)\)/,
+  );
   assert.match(audioReader, /\[data-narration-sentence\], \.katex/);
   assert.match(audioReader, /aria-pressed=\{followViewport\}/);
   assert.match(audioReader, /!activeSentenceId \|\| !followViewport/);

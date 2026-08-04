@@ -110,6 +110,13 @@ test("publishing adopted audio uploads immutable files then activates the regist
     assert.equal(publications.audio_versions[audioVersionId].status, "published");
     assert.equal(publications.adoptions[versionId], audioVersionId);
 
+    publications.audio_versions[audioVersionId].status = "failed";
+    publications.audio_versions[audioVersionId].error = "temporary network failure";
+    await writeFile(
+      path.join(root, "audio", "publications.json"),
+      JSON.stringify(publications),
+    );
+
     await publishAdoptedAudio({
       projectRoot: root,
       config,
@@ -118,6 +125,14 @@ test("publishing adopted audio uploads immutable files then activates the regist
     });
     assert.equal(putCounts.get(chunkKey), 1);
     assert.equal(putCounts.get(manifestKey), 1);
+    assert.equal(putCounts.get("adoptions.json"), 2);
+    const restoredRegistry = JSON.parse(
+      objects.get("adoptions.json").bytes.toString(),
+    );
+    assert.equal(
+      restoredRegistry.adoptions[versionId].audio_version_id,
+      audioVersionId,
+    );
   } finally {
     await rm(root, { recursive: true, force: true });
   }

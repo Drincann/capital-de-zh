@@ -1,6 +1,7 @@
 import { createHash, randomUUID } from "node:crypto";
 import { readFile, mkdir, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { ProxyAgent, fetch as undiciFetch } from "undici";
 
 const publicationFileName = "publications.json";
 const localConfigFileName = ".audio-publish.local.json";
@@ -36,8 +37,38 @@ export async function loadAudioPublishConfig(appRoot) {
   const origin =
     process.env.CAPITAL_AUDIO_PUBLISH_ORIGIN || local?.origin || "";
   const token = process.env.CAPITAL_AUDIO_PUBLISH_TOKEN || local?.token || "";
+  const proxy =
+    process.env.CAPITAL_AUDIO_PUBLISH_PROXY || local?.proxy || "";
+  const minRequestIntervalMs = Number(
+    process.env.CAPITAL_AUDIO_PUBLISH_INTERVAL_MS ||
+      local?.min_request_interval_ms ||
+      750,
+  );
   if (!origin || !token) return null;
-  return { origin: normalizedOrigin(origin), token };
+  return {
+    origin: normalizedOrigin(origin),
+    token,
+    proxy: proxy ? normalizedOrigin(proxy) : "",
+    minRequestIntervalMs: Number.isFinite(minRequestIntervalMs)
+      ? Math.max(0, Math.min(minRequestIntervalMs, 10_000))
+      : 750,
+  };
+}
+
+export function createAudioPublishFetch(config) {
+  if (!config?.proxy) return fetch;
+  const dispatcher = new ProxyAgent(config.proxy);
+  let nextRequestAt = 0;
+  const request = async (input, init = {}) => {
+    const waitMs = Math.max(0, nextRequestAt - Date.now());
+    if (waitMs) {
+      await new Promise((resolve) => setTimeout(resolve, waitMs));
+    }
+    nextRequestAt = Date.now() + (config.minRequestIntervalMs || 0);
+    return undiciFetch(input, { ...init, dispatcher });
+  };
+  request.close = () => dispatcher.close();
+  return request;
 }
 
 function sha256(value) {
@@ -49,18 +80,29 @@ function encodeObjectPath(value) {
 }
 
 async function remoteObjectMatches(config, key, digest, fetchImpl) {
-  const response = await fetchImpl(
-    `${config.origin}/api/audio-assets/${encodeObjectPath(key)}`,
-    {
-      method: "HEAD",
-      headers: { Authorization: `Bearer ${config.token}` },
-    },
-  );
-  if (response.status === 404) return false;
-  if (!response.ok) {
-    throw new Error(`检查线上语音失败（HTTP ${response.status}）`);
+  let lastError;
+  for (let attempt = 1; attempt <= 4; attempt += 1) {
+    try {
+      const response = await fetchImpl(
+        `${config.origin}/api/audio-assets/${encodeObjectPath(key)}`,
+        {
+          method: "HEAD",
+          headers: { Authorization: `Bearer ${config.token}` },
+        },
+      );
+      if (response.status === 404) return false;
+      if (response.ok) {
+        return response.headers.get("x-content-sha256") === digest;
+      }
+      lastError = new Error(`检查线上语音失败（HTTP ${response.status}）`);
+    } catch (error) {
+      lastError = error;
+    }
+    if (attempt < 4) {
+      await new Promise((resolve) => setTimeout(resolve, attempt * 2_000));
+    }
   }
-  return response.headers.get("x-content-sha256") === digest;
+  throw lastError || new Error("检查线上语音失败");
 }
 
 async function putRemoteObject(config, asset, fetchImpl) {
@@ -68,7 +110,7 @@ async function putRemoteObject(config, asset, fetchImpl) {
     return "skipped";
   }
   let lastError;
-  for (let attempt = 1; attempt <= 3; attempt += 1) {
+  for (let attempt = 1; attempt <= 5; attempt += 1) {
     try {
       const response = await fetchImpl(
         `${config.origin}/api/audio-assets/${encodeObjectPath(asset.key)}`,
@@ -82,7 +124,10 @@ async function putRemoteObject(config, asset, fetchImpl) {
           body: asset.bytes,
         },
       );
-      if (response.ok) return "uploaded";
+      if (response.ok) {
+        await response.arrayBuffer();
+        return "uploaded";
+      }
       const detail = await response.text().catch(() => "");
       lastError = new Error(
         `上传线上语音失败（HTTP ${response.status}${detail ? `：${detail}` : ""}）`,
@@ -91,7 +136,7 @@ async function putRemoteObject(config, asset, fetchImpl) {
     } catch (error) {
       lastError = error;
     }
-    await new Promise((resolve) => setTimeout(resolve, attempt * 500));
+    await new Promise((resolve) => setTimeout(resolve, attempt * 2_000));
   }
   throw lastError || new Error("上传线上语音失败");
 }
@@ -204,7 +249,11 @@ async function buildRemoteRegistry(projectRoot, publications) {
     audioAdoptions,
   )) {
     const publication = publications.audio_versions?.[audioVersionId];
-    if (!publication || !["uploaded", "published"].includes(publication.status)) {
+    if (
+      !publication ||
+      (!publication.published_at &&
+        !["uploaded", "published"].includes(publication.status))
+    ) {
       continue;
     }
     const record = (index.audio_versions || []).find(
@@ -236,11 +285,51 @@ export async function publishAdoptedAudio({
   projectRoot,
   config,
   audioVersionId,
-  fetchImpl = fetch,
+  fetchImpl,
   onProgress = () => {},
 }) {
+  const request = fetchImpl || createAudioPublishFetch(config);
   const context = await audioContext(projectRoot, audioVersionId);
   const prepared = await assetsForAudioVersion(context);
+  const existingPublications = await readPublications(projectRoot);
+  const existing = existingPublications.audio_versions?.[audioVersionId];
+  if (
+    existing?.published_at &&
+    existing.translation_version_id === context.record.translation_version_id &&
+    existing.translation_sha256 === context.record.translation_sha256 &&
+    existing.manifest_path === prepared.manifestPath
+  ) {
+    let publications = await updatePublications(projectRoot, async (current) => {
+      current.audio_versions[audioVersionId] = {
+        ...current.audio_versions[audioVersionId],
+        status: "published",
+        error: "",
+      };
+      return current;
+    });
+    const registry = await buildRemoteRegistry(projectRoot, publications);
+    const registryBytes = Buffer.from(`${JSON.stringify(registry, null, 2)}\n`);
+    await putRemoteObject(
+      config,
+      {
+        key: "adoptions.json",
+        bytes: registryBytes,
+        sha256: sha256(registryBytes),
+        contentType: "application/json; charset=utf-8",
+      },
+      request,
+    );
+    publications = await updatePublications(projectRoot, async (current) => {
+      current.adoptions = Object.fromEntries(
+        Object.entries(registry.adoptions).map(([translationVersionId, value]) => [
+          translationVersionId,
+          value.audio_version_id,
+        ]),
+      );
+      return current;
+    });
+    return publications.audio_versions[audioVersionId];
+  }
   const { assets } = prepared;
   const totalBytes = assets.reduce((sum, asset) => sum + asset.bytes.length, 0);
   let completedFiles = 0;
@@ -266,7 +355,7 @@ export async function publishAdoptedAudio({
 
   try {
     for (const asset of assets) {
-      await putRemoteObject(config, asset, fetchImpl);
+      await putRemoteObject(config, asset, request);
       completedFiles += 1;
       completedBytes += asset.bytes.length;
       onProgress({ completedFiles, totalFiles: assets.length, completedBytes, totalBytes });
@@ -286,7 +375,7 @@ export async function publishAdoptedAudio({
         sha256: sha256(registryBytes),
         contentType: "application/json; charset=utf-8",
       },
-      fetchImpl,
+      request,
     );
 
     publications = await updatePublications(projectRoot, async (current) => {
@@ -318,7 +407,8 @@ export async function publishAdoptedAudio({
   }
 }
 
-export function createAudioPublishQueue({ projectRoot, config, fetchImpl = fetch }) {
+export function createAudioPublishQueue({ projectRoot, config, fetchImpl }) {
+  const request = fetchImpl || createAudioPublishFetch(config);
   const waiting = [];
   const pending = new Map();
   let active = null;
@@ -355,7 +445,7 @@ export function createAudioPublishQueue({ projectRoot, config, fetchImpl = fetch
         projectRoot,
         config,
         audioVersionId: active.audioVersionId,
-        fetchImpl,
+        fetchImpl: request,
         onProgress(progress) {
           Object.assign(active, progress);
         },

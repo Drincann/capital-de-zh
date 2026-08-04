@@ -201,7 +201,9 @@ function decorateArticle(
       delete element.dataset.narrationCompanion;
       element.classList.remove("narration-current");
     });
-    created.forEach((span) => span.replaceWith(span.textContent || ""));
+    created.forEach((span) =>
+      span.replaceWith(...Array.from(span.childNodes)),
+    );
     prose.normalize();
   };
 }
@@ -396,12 +398,12 @@ export function AudioReader({
           adopted.translation_version_id === versionId &&
           adopted.translation_sha256 === translationSha256;
         setResolvedAudioManifestPath(
-          exact ? adopted.manifest_path : audioManifestPath || "",
+          exact ? adopted.manifest_path : "",
         );
       })
       .catch(() => {
         if (!cancelled) {
-          setResolvedAudioManifestPath(audioManifestPath || "");
+          setResolvedAudioManifestPath("");
         }
       })
       .finally(() => {
@@ -410,7 +412,7 @@ export function AudioReader({
     return () => {
       cancelled = true;
     };
-  }, [audioManifestPath, sectionId, translationSha256, versionId]);
+  }, [sectionId, translationSha256, versionId]);
 
   useEffect(() => {
     setManifest(null);

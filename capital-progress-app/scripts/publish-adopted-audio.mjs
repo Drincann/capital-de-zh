@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 import {
+  createAudioPublishFetch,
   loadAudioPublishConfig,
   publishAdoptedAudio,
 } from "./audio-publish.mjs";
@@ -14,21 +15,26 @@ const projectRoot = path.resolve(
 const config = await loadAudioPublishConfig(appRoot);
 if (!config) throw new Error("预览站语音发布尚未配置");
 
-const adoptions = JSON.parse(
-  await readFile(path.join(projectRoot, "audio", "adoptions.json"), "utf8"),
-);
-const audioVersionIds = [...new Set(Object.values(adoptions))];
-let completed = 0;
-for (const audioVersionId of audioVersionIds) {
-  process.stdout.write(`同步 ${audioVersionId}... `);
-  try {
-    await publishAdoptedAudio({ projectRoot, config, audioVersionId });
-    completed += 1;
-    process.stdout.write("完成\n");
-  } catch (error) {
-    process.stdout.write(
-      `失败：${error instanceof Error ? error.message : String(error)}\n`,
-    );
+const fetchImpl = createAudioPublishFetch(config);
+try {
+  const adoptions = JSON.parse(
+    await readFile(path.join(projectRoot, "audio", "adoptions.json"), "utf8"),
+  );
+  const audioVersionIds = [...new Set(Object.values(adoptions))];
+  let completed = 0;
+  for (const audioVersionId of audioVersionIds) {
+    process.stdout.write(`同步 ${audioVersionId}... `);
+    try {
+      await publishAdoptedAudio({ projectRoot, config, audioVersionId, fetchImpl });
+      completed += 1;
+      process.stdout.write("完成\n");
+    } catch (error) {
+      process.stdout.write(
+        `失败：${error instanceof Error ? error.message : String(error)}\n`,
+      );
+    }
   }
+  console.log(`已同步 ${completed}/${audioVersionIds.length} 个采用中的语音版本。`);
+} finally {
+  if (fetchImpl.close) await fetchImpl.close();
 }
-console.log(`已同步 ${completed}/${audioVersionIds.length} 个采用中的语音版本。`);
