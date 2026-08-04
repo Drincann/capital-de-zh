@@ -100,7 +100,9 @@ test("发布快照只包含正式采用的版本", async () => {
   assert.ok(upcomingChapters.every((chapter) => chapter.sections.length === 0));
   assert.equal(
     contentFiles.length,
-    manifest.sectionCount + (manifest.preface ? 1 : 0),
+    manifest.sectionCount +
+      (manifest.preface ? 1 : 0) +
+      (manifest.frontMatter?.length || 0),
   );
   assert.ok(sections.length > 0);
 
@@ -113,6 +115,24 @@ test("发布快照只包含正式采用的版本", async () => {
   assert.match(preface.html, /class="translator-signature"/);
   assert.match(preface.html, /<strong>ChatGPT<\/strong>/);
   assert.match(preface.html, /datetime="2026-07">2026年7月/);
+
+  assert.deepEqual(
+    manifest.frontMatter.map((item) => item.title),
+    ["第一版序言", "第二版跋", "第三版序言", "第四版序言"],
+  );
+  for (const item of manifest.frontMatter) {
+    assert.equal(item.versionId, adoptions[item.id]);
+    assert.match(item.contentPath, /^\/content\/fm0[1-4]\.json$/);
+    const content = JSON.parse(
+      await readFile(
+        new URL(item.contentPath.replace(/^\//, "public/"), appRoot),
+        "utf8",
+      ),
+    );
+    assert.equal(content.unitId, item.id);
+    assert.equal(content.versionId, item.versionId);
+    assert.ok(content.html.length > 0);
+  }
 
   for (const section of sections) {
     assert.equal(section.versionId, adoptions[section.id]);

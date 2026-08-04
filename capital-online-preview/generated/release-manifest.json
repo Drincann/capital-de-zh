@@ -1,7 +1,7 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-04T15:10:37.843Z",
+  "generatedAt": "2026-08-04T16:10:24.904Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 20,
@@ -13,6 +13,36 @@
     "versionId": "translator-preface-v1",
     "contentPath": "/content/translator-preface.json"
   },
+  "frontMatter": [
+    {
+      "id": "fm01",
+      "number": 1,
+      "title": "第一版序言",
+      "versionId": "fm01-v1",
+      "contentPath": "/content/fm01.json"
+    },
+    {
+      "id": "fm02",
+      "number": 2,
+      "title": "第二版跋",
+      "versionId": "fm02-v1",
+      "contentPath": "/content/fm02.json"
+    },
+    {
+      "id": "fm03",
+      "number": 3,
+      "title": "第三版序言",
+      "versionId": "fm03-v1",
+      "contentPath": "/content/fm03.json"
+    },
+    {
+      "id": "fm04",
+      "number": 4,
+      "title": "第四版序言",
+      "versionId": "fm04-v1",
+      "contentPath": "/content/fm04.json"
+    }
+  ],
   "parts": [
     {
       "id": "part01",

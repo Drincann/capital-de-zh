@@ -37,6 +37,7 @@ type ReleaseManifest = {
   chapterCount: number;
   sectionCount: number;
   preface?: ReleaseSection;
+  frontMatter?: ReleaseSection[];
   parts: ReleasePart[];
 };
 
@@ -193,6 +194,12 @@ export function ReaderApp({
             },
           ]
         : []),
+      ...(release.frontMatter || []).map((item) => ({
+        ...item,
+        kind: "preface" as const,
+        part: null,
+        chapter: null,
+      })),
       ...release.parts.flatMap((part) =>
         part.chapters.flatMap((chapter) =>
           chapter.sections.map((section) => ({
@@ -802,19 +809,33 @@ export function ReaderApp({
             <strong>目录</strong>
           </div>
           <nav aria-label="全书目录">
-            {release.preface ? (
+            {release.preface || release.frontMatter?.length ? (
               <div className="catalog-preface catalog-sections">
-                <button
-                  type="button"
-                  className={release.preface.id === selected.id ? "active" : ""}
-                  onClick={() => choose(release.preface!.id)}
-                  title={release.preface.title}
-                >
-                  <span className="section-number">序</span>
-                  <span className="section-title">
-                    {release.preface.title}
-                  </span>
-                </button>
+                {release.preface ? (
+                  <button
+                    type="button"
+                    className={release.preface.id === selected.id ? "active" : ""}
+                    onClick={() => choose(release.preface!.id)}
+                    title={release.preface.title}
+                  >
+                    <span className="section-number">序</span>
+                    <span className="section-title">
+                      {release.preface.title}
+                    </span>
+                  </button>
+                ) : null}
+                {(release.frontMatter || []).map((item) => (
+                  <button
+                    type="button"
+                    key={item.id}
+                    className={item.id === selected.id ? "active" : ""}
+                    onClick={() => choose(item.id)}
+                    title={item.title}
+                  >
+                    <span className="section-number">{item.number}</span>
+                    <span className="section-title">{item.title}</span>
+                  </button>
+                ))}
               </div>
             ) : null}
             {release.parts.map((part) => (

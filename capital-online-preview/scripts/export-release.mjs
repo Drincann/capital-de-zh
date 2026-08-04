@@ -241,6 +241,44 @@ await writeFile(
   "utf8",
 );
 
+const frontMatter = [];
+for (const item of outline.front_matter || []) {
+  const versionId = adoptions[item.unit_id];
+  const version = versionById.get(versionId);
+  if (!version?.artifact_path) continue;
+
+  const artifactPath = path.join(projectRoot, version.artifact_path);
+  if (!(await exists(artifactPath))) continue;
+
+  const source = await readFile(artifactPath);
+  const markdown = stripLeadingDocumentHeadings(source.toString("utf8"));
+  const contentFile = safeFileName(item.unit_id);
+  await writeFile(
+    path.join(contentRoot, contentFile),
+    `${JSON.stringify(
+      {
+        unitId: item.unit_id,
+        chapterId: item.controller_chapter_id || item.unit_id,
+        versionId,
+        translationSha256: sha256(source),
+        title: item.title_zh,
+        html: md.render(markdown),
+        sentences: extractNarrationSentences(markdown, md, item.unit_id),
+      },
+      null,
+      2,
+    )}\n`,
+    "utf8",
+  );
+  frontMatter.push({
+    id: item.unit_id,
+    number: Number(item.number || frontMatter.length + 1),
+    title: item.title_zh,
+    versionId,
+    contentPath: `/content/${contentFile}`,
+  });
+}
+
 const parts = [];
 let publishedSectionCount = 0;
 let publishedChapterCount = 0;
@@ -369,6 +407,7 @@ const manifest = {
   publishedChapterCount,
   sectionCount: publishedSectionCount,
   preface,
+  frontMatter,
   parts,
 };
 
@@ -377,10 +416,10 @@ await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
 const contentFiles = (await readdir(contentRoot)).filter((name) =>
   name.endsWith(".json"),
 );
-if (contentFiles.length !== publishedSectionCount + 1) {
+if (contentFiles.length !== publishedSectionCount + frontMatter.length + 1) {
   throw new Error("发布正文数量与目录不一致。");
 }
 
 console.log(
-  `已生成公开阅读快照：${publishedChapterCount} 章，${publishedSectionCount} 节。`,
+  `已生成公开阅读快照：${frontMatter.length} 篇卷首文字，${publishedChapterCount} 章，${publishedSectionCount} 节。`,
 );
