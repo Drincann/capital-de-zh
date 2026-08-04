@@ -84,6 +84,12 @@ export function audioStateFor(
       : ["published", "uploaded"].includes(storedPublication.status)
         ? "uploaded"
         : storedPublication.status || "pending";
+    const completedFiles = Number(storedPublication.completed_files || 0);
+    const totalFiles = Number(storedPublication.file_count || 0);
+    const publicationLabel =
+      publicationStatus === "uploading" && totalFiles
+        ? `上传中 ${completedFiles}/${totalFiles}`
+        : publicationLabels[publicationStatus] || publicationStatus;
     return {
       id: audio.audio_version_id,
       audioVersionId: audio.audio_version_id,
@@ -104,11 +110,11 @@ export function audioStateFor(
           : ""),
       publication: {
         status: publicationStatus,
-        label: publicationLabels[publicationStatus] || publicationStatus,
+        label: publicationLabel,
         remoteActive,
         canPublish: false,
-        completedFiles: Number(storedPublication.completed_files || 0),
-        totalFiles: Number(storedPublication.file_count || 0),
+        completedFiles,
+        totalFiles,
         error: storedPublication.error || "",
         publishedAt: storedPublication.published_at || "",
       },

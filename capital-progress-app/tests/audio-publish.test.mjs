@@ -108,6 +108,11 @@ test("publishing adopted audio uploads immutable files then activates the regist
       await readFile(path.join(root, "audio", "publications.json"), "utf8"),
     );
     assert.equal(publications.audio_versions[audioVersionId].status, "published");
+    assert.equal(publications.audio_versions[audioVersionId].completed_files, 2);
+    assert.equal(
+      publications.audio_versions[audioVersionId].completed_bytes,
+      chunk.length + objects.get(manifestKey).bytes.length,
+    );
     assert.equal(publications.adoptions[versionId], audioVersionId);
 
     publications.audio_versions[audioVersionId].status = "failed";

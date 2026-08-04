@@ -347,6 +347,8 @@ export async function publishAdoptedAudio({
       target_origin: config.origin,
       file_count: assets.length,
       byte_size: totalBytes,
+      completed_files: 0,
+      completed_bytes: 0,
       manifest_path: prepared.manifestPath,
       error: "",
     };
@@ -358,6 +360,14 @@ export async function publishAdoptedAudio({
       await putRemoteObject(config, asset, request);
       completedFiles += 1;
       completedBytes += asset.bytes.length;
+      await updatePublications(projectRoot, async (current) => {
+        const entry = current.audio_versions?.[audioVersionId];
+        if (entry) {
+          entry.completed_files = completedFiles;
+          entry.completed_bytes = completedBytes;
+        }
+        return current;
+      });
       onProgress({ completedFiles, totalFiles: assets.length, completedBytes, totalBytes });
     }
 
