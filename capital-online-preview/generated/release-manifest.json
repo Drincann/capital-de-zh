@@ -1,7 +1,7 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-10T16:30:18.273Z",
+  "generatedAt": "2026-08-10T16:58:28.248Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 25,
@@ -80,7 +80,7 @@
               "id": "ch01-s04",
               "number": 4,
               "title": "商品的拜物教性质及其秘密",
-              "versionId": "ch01-s04-v2",
+              "versionId": "ch01-s04-v3",
               "contentPath": "/content/ch01-s04.json"
             }
           ]

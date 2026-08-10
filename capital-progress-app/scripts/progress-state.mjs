@@ -65,6 +65,7 @@ export function audioStateFor(
     uploaded: "已上传",
     uploading: "上传中",
     queued: "等待上传",
+    interrupted: "上传已中断",
     failed: "上传失败",
     pending: "待上传",
   };
@@ -79,16 +80,21 @@ export function audioStateFor(
       audioPublications.audio_versions?.[audio.audio_version_id] || {};
     const remoteActive =
       audioPublications.adoptions?.[version.id] === audio.audio_version_id;
+    const storedStatus = storedPublication.status || "pending";
     const publicationStatus = remoteActive
       ? "published"
-      : ["published", "uploaded"].includes(storedPublication.status)
+      : ["published", "uploaded"].includes(storedStatus)
         ? "uploaded"
-        : storedPublication.status || "pending";
+        : ["uploading", "queued"].includes(storedStatus)
+          ? "interrupted"
+          : storedStatus;
     const completedFiles = Number(storedPublication.completed_files || 0);
     const totalFiles = Number(storedPublication.file_count || 0);
     const publicationLabel =
       publicationStatus === "uploading" && totalFiles
         ? `上传中 ${completedFiles}/${totalFiles}`
+        : publicationStatus === "interrupted" && totalFiles
+          ? `上传已中断 ${completedFiles}/${totalFiles}`
         : publicationLabels[publicationStatus] || publicationStatus;
     return {
       id: audio.audio_version_id,
@@ -102,6 +108,9 @@ export function audioStateFor(
       chunkCount: Number(audio.chunk_count || 0),
       sentenceCount: Number(audio.sentence_count || 0),
       durationMs: Number(audio.duration_ms || 0),
+      baseAudioVersionId: audio.base_audio_version_id || "",
+      patchedChunkId: audio.patched_chunk_id || "",
+      speechOverrideCount: Number(audio.speech_override_count || 0),
       updatedAt: audio.updated_at || "",
       error:
         audio.error ||
@@ -115,7 +124,11 @@ export function audioStateFor(
         canPublish: false,
         completedFiles,
         totalFiles,
-        error: storedPublication.error || "",
+        error:
+          storedPublication.error ||
+          (publicationStatus === "interrupted"
+            ? "任务站重启后原上传任务已经停止，可以继续上传。"
+            : ""),
         publishedAt: storedPublication.published_at || "",
       },
     };

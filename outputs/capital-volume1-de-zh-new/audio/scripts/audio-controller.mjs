@@ -2,6 +2,8 @@ import { createHash, randomUUID } from "node:crypto";
 import {
   access,
   appendFile,
+  copyFile,
+  link,
   mkdir,
   readFile,
   rename,
@@ -334,13 +336,13 @@ function makeChunks(sentences, config) {
     chunks.push({
       id: `c${String(chunks.length + 1).padStart(4, "0")}`,
       sentences: current,
-      text: current.map((sentence) => sentence.text).join(""),
+      text: current.map((sentence) => spokenText(sentence)).join(""),
     });
     current = [];
     characters = 0;
   };
   for (const sentence of sentences) {
-    const nextCharacters = characters + [...sentence.text].length;
+    const nextCharacters = characters + [...spokenText(sentence)].length;
     if (
       current.length &&
       (nextCharacters > config.chunking.maximum_characters ||
@@ -349,10 +351,62 @@ function makeChunks(sentences, config) {
       flush();
     }
     current.push(sentence);
-    characters += [...sentence.text].length;
+    characters += [...spokenText(sentence)].length;
   }
   flush();
   return chunks;
+}
+
+function spokenText(sentence) {
+  return String(sentence?.speech_text || sentence?.text || "");
+}
+
+function chunkCanBeReused(chunk, baseManifest) {
+  const baseChunk = (baseManifest?.chunks || []).find(
+    (item) => item.id === chunk.id,
+  );
+  if (!baseChunk) return false;
+  const sentenceIds = chunk.sentences.map((sentence) => sentence.id);
+  if (
+    sentenceIds.length !== (baseChunk.sentence_ids || []).length ||
+    sentenceIds.some((sentenceId, index) => sentenceId !== baseChunk.sentence_ids[index])
+  ) {
+    return false;
+  }
+  const baseSentenceById = new Map(
+    (baseManifest.sentences || []).map((sentence) => [sentence.id, sentence]),
+  );
+  return chunk.sentences.every((sentence) => {
+    const baseSentence = baseSentenceById.get(sentence.id);
+    return (
+      baseSentence &&
+      String(baseSentence.text || "") === String(sentence.text || "") &&
+      spokenText(baseSentence) === spokenText(sentence)
+    );
+  });
+}
+
+function patchedChunks(sourceSentences, baseChunks, overrides = {}) {
+  const sentenceById = new Map(
+    sourceSentences.map((sentence) => [sentence.id, sentence]),
+  );
+  return baseChunks.map((baseChunk) => {
+    const sentences = (baseChunk.sentence_ids || []).map((sentenceId) => {
+      const source = sentenceById.get(sentenceId);
+      if (!source) {
+        throw new Error(`当前译文中找不到语音句子 ${sentenceId}，不能复用旧分块。`);
+      }
+      const override = String(overrides[sentenceId] || "").trim();
+      return override && override !== source.text
+        ? { ...source, speech_text: override }
+        : { ...source };
+    });
+    return {
+      id: baseChunk.id,
+      sentences,
+      text: sentences.map((sentence) => spokenText(sentence)).join(""),
+    };
+  });
 }
 
 function normalized(value) {
@@ -408,12 +462,15 @@ function sentenceTimings(sourceSentences, subtitle, durationSeconds) {
     generated.length === sourceSentences.length &&
     generated.every(
       (sentence, index) =>
-        normalized(sentence.text) === normalized(sourceSentences[index].text),
+        normalized(sentence.text) === normalized(spokenText(sourceSentences[index])),
     )
   ) {
     return sourceSentences.map((sentence, index) => ({
       id: sentence.id,
       text: sentence.text,
+      ...(spokenText(sentence) !== sentence.text
+        ? { speech_text: spokenText(sentence) }
+        : {}),
       start_ms: Number(generated[index].start_time || 0),
       end_ms: Number(generated[index].end_time || 0),
       timing_source: "provider_subtitle",
@@ -422,7 +479,7 @@ function sentenceTimings(sourceSentences, subtitle, durationSeconds) {
 
   const totalMs = Math.round(Number(durationSeconds || 0) * 1000);
   const weights = sourceSentences.map((sentence) =>
-    Math.max(1, [...normalized(sentence.text)].length),
+    Math.max(1, [...normalized(spokenText(sentence))].length),
   );
   const totalWeight = weights.reduce((sum, value) => sum + value, 0);
   let elapsed = 0;
@@ -432,6 +489,9 @@ function sentenceTimings(sourceSentences, subtitle, durationSeconds) {
     return {
       id: sentence.id,
       text: sentence.text,
+      ...(spokenText(sentence) !== sentence.text
+        ? { speech_text: spokenText(sentence) }
+        : {}),
       start_ms: start,
       end_ms: Math.round((elapsed / totalWeight) * totalMs),
       timing_source: "duration_interpolation",
@@ -453,7 +513,7 @@ function sentenceTimingsFromWords(
         Number.isFinite(Number(word?.endTime)),
     );
   const sourceText = normalized(
-    sourceSentences.map((sentence) => sentence.text).join(""),
+    sourceSentences.map((sentence) => spokenText(sentence)).join(""),
   );
   const generatedText = normalized(words.map((word) => word.word).join(""));
   if (!words.length || generatedText !== sourceText) {
@@ -464,7 +524,7 @@ function sentenceTimingsFromWords(
   let wordIndex = 0;
   let generatedOffset = 0;
   return sourceSentences.map((sentence) => {
-    const sentenceLength = [...normalized(sentence.text)].length;
+    const sentenceLength = [...normalized(spokenText(sentence))].length;
     const sentenceStart = sourceOffset;
     const sentenceEnd = sourceOffset + sentenceLength;
     while (
@@ -489,6 +549,9 @@ function sentenceTimingsFromWords(
     return {
       id: sentence.id,
       text: sentence.text,
+      ...(spokenText(sentence) !== sentence.text
+        ? { speech_text: spokenText(sentence) }
+        : {}),
       start_ms: Math.round(Number(firstWord.startTime) * 1000),
       end_ms: Math.round(Number(lastWord.endTime) * 1000),
       timing_source: "provider_word_timestamps",
@@ -785,19 +848,122 @@ async function generateUnlocked(unitId, modelId = "") {
 
   try {
     const planned = makeChunks(content.sentences, config);
-    const keyFile = path.resolve(
-      process.env.VOLCENGINE_API_KEY_FILE ||
-        path.join(repoRoot, "keys", "volcengine-api-key.txt"),
-    );
-    const apiKey = (await readFile(keyFile, "utf8")).trim();
-    if (!apiKey) throw new Error("语音 API 密钥文件为空。");
-
     const results = new Array(planned.length);
-    let completed = 0;
+    const currentIndex = await readJson(indexPath);
+    const legacyConfig = (await exists(configPath))
+      ? await readJson(configPath)
+      : null;
+    const legacyConfigSha256 = legacyConfig
+      ? sha256(JSON.stringify(legacyConfig))
+      : "";
+    const legacyProfileCompatible =
+      legacyConfig &&
+      config.id === "seed-audio-1.0" &&
+      legacyConfig.model === config.model &&
+      legacyConfig.speaker === config.speaker &&
+      legacyConfig.endpoint === config.endpoint &&
+      JSON.stringify(legacyConfig.audio_config) === JSON.stringify(config.audio_config) &&
+      JSON.stringify(legacyConfig.chunking) === JSON.stringify(config.chunking) &&
+      legacyConfig.prompt === config.prompt;
+    const baseCandidates = (currentIndex.audio_versions || [])
+      .filter(
+        (item) =>
+          item.audio_version_id !== audioVersionId &&
+          item.unit_id === unitId &&
+          item.status === "ready" &&
+          ((item.model_id === config.id && item.config_sha256 === configSha256) ||
+            (!item.model_id &&
+              legacyProfileCompatible &&
+              item.config_sha256 === legacyConfigSha256)) &&
+          item.manifest_path,
+      )
+      .sort((left, right) =>
+        String(right.completed_at || right.updated_at || "").localeCompare(
+          String(left.completed_at || left.updated_at || ""),
+        ),
+      );
+    let baseRecord = null;
+    let baseManifest = null;
+    let baseManifestPath = "";
+    for (const candidate of baseCandidates) {
+      const candidatePath = path.join(projectRoot, candidate.manifest_path);
+      if (!(await exists(candidatePath))) continue;
+      const candidateManifest = await readJson(candidatePath);
+      if (
+        candidateManifest.model === config.model &&
+        candidateManifest.speaker === config.speaker &&
+        (!candidateManifest.transport || candidateManifest.transport === config.transport)
+      ) {
+        baseRecord = candidate;
+        baseManifest = candidateManifest;
+        baseManifestPath = candidatePath;
+        break;
+      }
+    }
+
+    let reusedChunkCount = 0;
+    if (baseManifest) {
+      const baseDirectory = path.dirname(baseManifestPath);
+      for (let current = 0; current < planned.length; current += 1) {
+        const chunk = planned[current];
+        if (!chunkCanBeReused(chunk, baseManifest)) continue;
+        const baseChunk = baseManifest.chunks.find((item) => item.id === chunk.id);
+        const audioFile = baseChunk.audio_file || `${chunk.id}.mp3`;
+        const metadataFile = `${chunk.id}.json`;
+        const sourceAudio = path.join(baseDirectory, audioFile);
+        const sourceMetadata = path.join(baseDirectory, metadataFile);
+        if (!(await exists(sourceAudio)) || !(await exists(sourceMetadata))) continue;
+        await linkOrCopy(sourceAudio, path.join(versionRoot, audioFile));
+        await linkOrCopy(sourceMetadata, path.join(versionRoot, metadataFile));
+        results[current] = await readJson(path.join(versionRoot, metadataFile));
+        reusedChunkCount += 1;
+      }
+    }
+
+    const pendingIndexes = planned
+      .map((_, index) => index)
+      .filter((index) => !results[index]);
+    let apiKey = "";
+    if (pendingIndexes.length) {
+      const keyFile = path.resolve(
+        process.env.VOLCENGINE_API_KEY_FILE ||
+          path.join(repoRoot, "keys", "volcengine-api-key.txt"),
+      );
+      apiKey = (await readFile(keyFile, "utf8")).trim();
+      if (!apiKey) throw new Error("语音 API 密钥文件为空。");
+    }
+
+    let completed = reusedChunkCount;
+    await updateIndex((index) => {
+      const record = index.audio_versions.find(
+        (item) => item.audio_version_id === audioVersionId,
+      );
+      if (record) {
+        record.completed_chunks = completed;
+        record.chunk_count = planned.length;
+        record.reused_chunk_count = reusedChunkCount;
+        record.generated_chunk_count = 0;
+        if (baseRecord) record.base_audio_version_id = baseRecord.audio_version_id;
+      }
+    });
+    if (baseRecord && reusedChunkCount) {
+      await appendJobEvent({
+        job_id: jobId,
+        unit_id: unitId,
+        status: "chunks_reused",
+        base_audio_version_id: baseRecord.audio_version_id,
+        reused_chunks: reusedChunkCount,
+        chunk_count: planned.length,
+      });
+      process.stdout.write(
+        `复用旧语音块 ${reusedChunkCount}/${planned.length}\n`,
+      );
+    }
     await runWorkerQueue(
-      planned.length,
+      pendingIndexes.length,
       Number(config.generation_concurrency || 1),
-      async (current) => {
+      async (queueIndex) => {
+        const current = pendingIndexes[queueIndex];
         const chunk = planned[current];
         results[current] = await generateChunk(
           apiKey,
@@ -841,6 +1007,7 @@ async function generateUnlocked(unitId, modelId = "") {
           if (record) {
             record.completed_chunks = completedChunks;
             record.chunk_count = planned.length;
+            record.generated_chunk_count = completedChunks - reusedChunkCount;
             record.updated_at = new Date().toISOString();
             delete record.retrying_chunk;
             delete record.retry_attempt;
@@ -877,9 +1044,16 @@ async function generateUnlocked(unitId, modelId = "") {
     );
     const durationMs = chunks.reduce((sum, chunk) => sum + chunk.duration_ms, 0);
     const manifest = {
-      schema_version: 1,
+      schema_version: baseRecord ? 2 : 1,
       status: "ready",
       audio_version_id: audioVersionId,
+      ...(baseRecord
+        ? {
+            base_audio_version_id: baseRecord.audio_version_id,
+            reused_chunk_count: reusedChunkCount,
+            generated_chunk_count: pendingIndexes.length,
+          }
+        : {}),
       unit_id: unitId,
       translation_version_id: source.versionId,
       translation_sha256: source.translationSha256,
@@ -909,6 +1083,8 @@ async function generateUnlocked(unitId, modelId = "") {
         chunk_count: chunks.length,
         sentence_count: sentences.length,
         duration_ms: durationMs,
+        reused_chunk_count: reusedChunkCount,
+        generated_chunk_count: pendingIndexes.length,
       });
       const job = index.jobs.find((item) => item.job_id === jobId);
       Object.assign(job, {
@@ -948,6 +1124,288 @@ async function generateUnlocked(unitId, modelId = "") {
   }
 }
 
+async function linkOrCopy(source, destination) {
+  if (await exists(destination)) return;
+  await mkdir(path.dirname(destination), { recursive: true });
+  try {
+    await link(source, destination);
+  } catch {
+    await copyFile(source, destination);
+  }
+}
+
+async function patchUnlocked({
+  unitId,
+  modelId = "",
+  baseAudioVersionId,
+  sentenceId,
+  speechText,
+}) {
+  if (!unitId || !baseAudioVersionId || !sentenceId || !String(speechText).trim()) {
+    throw new Error("局部语音修正缺少必要参数。");
+  }
+
+  const source = await adoptedVersion(unitId);
+  const index = await readJson(indexPath);
+  const baseRecord = (index.audio_versions || []).find(
+    (item) =>
+      item.audio_version_id === baseAudioVersionId &&
+      item.unit_id === unitId &&
+      item.translation_version_id === source.versionId &&
+      item.translation_sha256 === source.translationSha256 &&
+      item.status === "ready",
+  );
+  if (!baseRecord?.manifest_path) {
+    throw new Error("只能从当前译文已经完成的语音版本创建修补版。");
+  }
+
+  const config = await loadModelProfile(modelId || baseRecord.model_id);
+  const configSha256 = sha256(JSON.stringify(config));
+  const baseManifestPath = path.join(projectRoot, baseRecord.manifest_path);
+  const baseManifest = await readJson(baseManifestPath);
+  if (
+    (baseManifest.model && baseManifest.model !== config.model) ||
+    (baseManifest.speaker && baseManifest.speaker !== config.speaker) ||
+    (baseManifest.transport && baseManifest.transport !== config.transport)
+  ) {
+    throw new Error("当前模型或音色与基础语音版本不一致，无法复用旧分块。");
+  }
+  const content = await narrationContent(source);
+  const sourceSentence = content.sentences.find((item) => item.id === sentenceId);
+  const baseSentence = (baseManifest.sentences || []).find(
+    (item) => item.id === sentenceId,
+  );
+  const baseChunk = (baseManifest.chunks || []).find((item) =>
+    (item.sentence_ids || []).includes(sentenceId),
+  );
+  if (!sourceSentence || !baseSentence || !baseChunk) {
+    throw new Error("所选句子与基础语音版本不匹配，无法局部修正。");
+  }
+
+  const replacement = String(speechText).replace(/\s+/g, " ").trim();
+  const currentSpoken = String(baseSentence.speech_text || baseSentence.text || "");
+  if (replacement === currentSpoken) {
+    throw new Error("朗读文本没有变化。");
+  }
+
+  const speechOverrides = {
+    ...(baseManifest.speech_overrides || {}),
+    [sentenceId]: replacement,
+  };
+  const overrideSha256 = sha256(JSON.stringify(speechOverrides));
+  const audioVersionId = `${source.versionId}-audio-${sha256(
+    `${source.translationSha256}:${baseRecord.config_sha256}:${configSha256}:${overrideSha256}`,
+  ).slice(0, 12)}`;
+  const versionRoot = path.join(audioRoot, "versions", audioVersionId);
+  const manifestPath = path.join(versionRoot, "manifest.json");
+  const relativeManifestPath = path
+    .relative(projectRoot, manifestPath)
+    .replaceAll("\\", "/");
+  const existing = (index.audio_versions || []).find(
+    (item) => item.audio_version_id === audioVersionId && item.status === "ready",
+  );
+  if (existing && (await exists(manifestPath))) return readJson(manifestPath);
+
+  const planned = patchedChunks(
+    content.sentences,
+    baseManifest.chunks || [],
+    speechOverrides,
+  );
+  const targetChunk = planned.find((item) => item.id === baseChunk.id);
+  if (!targetChunk) throw new Error("找不到需要重新生成的语音分块。");
+
+  const jobId = `audio-patch-${Date.now()}-${randomUUID().slice(0, 8)}`;
+  const startedAt = new Date().toISOString();
+  await mkdir(versionRoot, { recursive: true });
+  await updateIndex((next) => {
+    next.audio_versions = (next.audio_versions || []).filter(
+      (item) => item.audio_version_id !== audioVersionId,
+    );
+    next.audio_versions.push({
+      audio_version_id: audioVersionId,
+      unit_id: unitId,
+      translation_version_id: source.versionId,
+      translation_sha256: source.translationSha256,
+      config_sha256: configSha256,
+      base_config_sha256: baseRecord.config_sha256,
+      model_id: config.id,
+      model_label: config.label,
+      transport: config.transport,
+      status: "generating",
+      manifest_path: relativeManifestPath,
+      base_audio_version_id: baseAudioVersionId,
+      patched_chunk_id: targetChunk.id,
+      speech_override_count: Object.keys(speechOverrides).length,
+      created_at: startedAt,
+      updated_at: startedAt,
+      completed_chunks: Math.max(0, planned.length - 1),
+      chunk_count: planned.length,
+    });
+    next.jobs = [
+      {
+        job_id: jobId,
+        unit_id: unitId,
+        translation_version_id: source.versionId,
+        audio_version_id: audioVersionId,
+        model_id: config.id,
+        model_label: config.label,
+        operation: "patch",
+        sentence_id: sentenceId,
+        chunk_id: targetChunk.id,
+        status: "generating",
+        created_at: startedAt,
+        updated_at: startedAt,
+      },
+      ...(next.jobs || []).filter((item) => item.job_id !== jobId),
+    ].slice(0, 80);
+  });
+  await appendJobEvent({
+    job_id: jobId,
+    unit_id: unitId,
+    status: "patch_started",
+    sentence_id: sentenceId,
+    chunk_id: targetChunk.id,
+  });
+
+  try {
+    const baseDirectory = path.dirname(baseManifestPath);
+    const results = [];
+    for (const chunk of planned) {
+      if (chunk.id === targetChunk.id) continue;
+      const audioFile = `${chunk.id}.mp3`;
+      const metadataFile = `${chunk.id}.json`;
+      await linkOrCopy(
+        path.join(baseDirectory, audioFile),
+        path.join(versionRoot, audioFile),
+      );
+      if (!(await exists(path.join(versionRoot, metadataFile)))) {
+        await copyFile(
+          path.join(baseDirectory, metadataFile),
+          path.join(versionRoot, metadataFile),
+        );
+      }
+      results.push(await readJson(path.join(versionRoot, metadataFile)));
+    }
+
+    const keyFile = path.resolve(
+      process.env.VOLCENGINE_API_KEY_FILE ||
+        path.join(repoRoot, "keys", "volcengine-api-key.txt"),
+    );
+    const apiKey = (await readFile(keyFile, "utf8")).trim();
+    if (!apiKey) throw new Error("语音 API 密钥文件为空。");
+    results.push(
+      await generateChunk(
+        apiKey,
+        config,
+        versionRoot,
+        targetChunk,
+        audioVersionId,
+      ),
+    );
+    const resultByChunk = new Map(results.map((item) => [item.chunk_id, item]));
+    const orderedResults = planned.map((item) => resultByChunk.get(item.id));
+    if (orderedResults.some((item) => !item)) {
+      throw new Error("修补版语音分块没有完整组装。");
+    }
+
+    const chunks = orderedResults.map((result) => ({
+      id: result.chunk_id,
+      audio_file: result.audio_file,
+      duration_ms: Math.round(result.duration_seconds * 1000),
+      bytes: result.bytes,
+      sha256: result.audio_sha256,
+      sentence_ids: result.sentences.map((sentence) => sentence.id),
+    }));
+    const sentences = orderedResults.flatMap((result) =>
+      result.sentences.map((sentence) => ({
+        ...sentence,
+        chunk_id: result.chunk_id,
+      })),
+    );
+    const durationMs = chunks.reduce((sum, chunk) => sum + chunk.duration_ms, 0);
+    const completedAt = new Date().toISOString();
+    const manifest = {
+      schema_version: 2,
+      status: "ready",
+      audio_version_id: audioVersionId,
+      base_audio_version_id: baseAudioVersionId,
+      patched_chunk_id: targetChunk.id,
+      unit_id: unitId,
+      translation_version_id: source.versionId,
+      translation_sha256: source.translationSha256,
+      config_sha256: configSha256,
+      base_config_sha256: baseRecord.config_sha256,
+      model_id: config.id,
+      model_label: config.label,
+      transport: config.transport,
+      speaker: config.speaker,
+      model: config.model,
+      speech_overrides: speechOverrides,
+      created_at: startedAt,
+      completed_at: completedAt,
+      duration_ms: durationMs,
+      sentence_count: sentences.length,
+      chunks,
+      sentences,
+    };
+    await writeJsonAtomic(manifestPath, manifest);
+    await updateIndex((next) => {
+      const record = next.audio_versions.find(
+        (item) => item.audio_version_id === audioVersionId,
+      );
+      Object.assign(record, {
+        status: "ready",
+        updated_at: completedAt,
+        completed_at: completedAt,
+        completed_chunks: chunks.length,
+        chunk_count: chunks.length,
+        sentence_count: sentences.length,
+        duration_ms: durationMs,
+      });
+      const job = next.jobs.find((item) => item.job_id === jobId);
+      Object.assign(job, {
+        status: "ready",
+        updated_at: completedAt,
+        completed_at: completedAt,
+      });
+    });
+    await appendJobEvent({
+      job_id: jobId,
+      unit_id: unitId,
+      status: "patch_ready",
+      audio_version_id: audioVersionId,
+      chunk_id: targetChunk.id,
+    });
+    console.log(`语音修补版已完成：${audioVersionId}`);
+    return manifest;
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    await updateIndex((next) => {
+      const record = next.audio_versions.find(
+        (item) => item.audio_version_id === audioVersionId,
+      );
+      if (record) {
+        record.status = "failed";
+        record.error = message;
+        record.updated_at = new Date().toISOString();
+      }
+      const job = next.jobs.find((item) => item.job_id === jobId);
+      if (job) {
+        job.status = "failed";
+        job.error = message;
+        job.updated_at = new Date().toISOString();
+      }
+    });
+    await appendJobEvent({
+      job_id: jobId,
+      unit_id: unitId,
+      status: "patch_failed",
+      error: message,
+    });
+    throw error;
+  }
+}
+
 async function generate(unitId, modelId = "") {
   if (!unitId) throw new Error("缺少 --unit。");
   const releaseLock = await acquireDirectoryLock(
@@ -955,6 +1413,17 @@ async function generate(unitId, modelId = "") {
   );
   try {
     return await generateUnlocked(unitId, modelId);
+  } finally {
+    await releaseLock();
+  }
+}
+
+async function patchAudio(options) {
+  const releaseLock = await acquireDirectoryLock(
+    path.join(audioRoot, ".generation.lock"),
+  );
+  try {
+    return await patchUnlocked(options);
   } finally {
     await releaseLock();
   }
@@ -1008,6 +1477,15 @@ if (isMain) {
   if (command === "generate") {
     await generate(option("--unit"), option("--model"));
   }
+  else if (command === "patch") {
+    await patchAudio({
+      unitId: option("--unit"),
+      modelId: option("--model"),
+      baseAudioVersionId: option("--base-audio-version"),
+      sentenceId: option("--sentence"),
+      speechText: option("--speech-text"),
+    });
+  }
   else if (command === "validate") await validate();
   else if (command === "status") await status(option("--unit"));
   else throw new Error(`未知命令：${command}`);
@@ -1018,6 +1496,8 @@ export {
   createSerializedJsonUpdater,
   isRetryableGenerationError,
   parseJsonStream,
+  chunkCanBeReused,
+  patchedChunks,
   retryTransient,
   runWorkerQueue,
   sentenceTimingsFromWords,

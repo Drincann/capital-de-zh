@@ -6,7 +6,9 @@ import test from "node:test";
 
 import {
   acquireDirectoryLock,
+  chunkCanBeReused,
   createSerializedJsonUpdater,
+  patchedChunks,
   parseJsonStream,
   retryTransient,
   runWorkerQueue,
@@ -197,4 +199,90 @@ test("word timestamps are mapped back to source sentence ids", () => {
       },
     ],
   );
+});
+
+test("speech overrides change only the selected chunk and keep display text", () => {
+  const chunks = patchedChunks(
+    [
+      { id: "s1", text: "第一句。" },
+      { id: "s2", text: "显示16又三分之二%。" },
+      { id: "s3", text: "第三句。" },
+    ],
+    [
+      { id: "c0001", sentence_ids: ["s1"] },
+      { id: "c0002", sentence_ids: ["s2", "s3"] },
+    ],
+    { s2: "朗读为百分之十六又三分之二。" },
+  );
+  assert.equal(chunks[0].text, "第一句。");
+  assert.equal(
+    chunks[1].text,
+    "朗读为百分之十六又三分之二。第三句。",
+  );
+  assert.equal(chunks[1].sentences[0].text, "显示16又三分之二%。");
+  assert.equal(
+    chunks[1].sentences[0].speech_text,
+    "朗读为百分之十六又三分之二。",
+  );
+});
+
+test("new translation versions reuse only chunks whose visible and spoken text is unchanged", () => {
+  const baseManifest = {
+    chunks: [
+      { id: "c0001", sentence_ids: ["s1", "s2"] },
+      { id: "c0002", sentence_ids: ["s3"] },
+    ],
+    sentences: [
+      { id: "s1", text: "第一句。" },
+      { id: "s2", text: "旧的第二句。" },
+      { id: "s3", text: "第三句。" },
+    ],
+  };
+  assert.equal(
+    chunkCanBeReused(
+      {
+        id: "c0001",
+        sentences: [
+          { id: "s1", text: "第一句。" },
+          { id: "s2", text: "新的第二句。" },
+        ],
+      },
+      baseManifest,
+    ),
+    false,
+  );
+  assert.equal(
+    chunkCanBeReused(
+      { id: "c0002", sentences: [{ id: "s3", text: "第三句。" }] },
+      baseManifest,
+    ),
+    true,
+  );
+});
+
+test("word timestamps follow speech text while retaining visible sentence text", () => {
+  const [mapped] = sentenceTimingsFromWords(
+    [
+      {
+        id: "s1",
+        text: "16又三分之二%。",
+        speech_text: "百分之十六又三分之二。",
+      },
+    ],
+    [
+      {
+        words: [
+          {
+            word: "百分之十六又三分之二。",
+            startTime: 0.2,
+            endTime: 1.8,
+          },
+        ],
+      },
+    ],
+    1.95,
+  );
+  assert.equal(mapped.text, "16又三分之二%。");
+  assert.equal(mapped.speech_text, "百分之十六又三分之二。");
+  assert.equal(mapped.timing_source, "provider_word_timestamps");
 });

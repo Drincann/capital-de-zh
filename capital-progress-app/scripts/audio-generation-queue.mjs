@@ -1,15 +1,39 @@
 import { spawn } from "node:child_process";
 
+const generationProxyEnvironmentNames = new Set([
+  "http_proxy",
+  "https_proxy",
+  "all_proxy",
+  "node_use_env_proxy",
+  "global_agent_http_proxy",
+  "npm_config_proxy",
+  "npm_config_https_proxy",
+]);
+
+function directNetworkEnvironment(environment = process.env) {
+  const direct = { ...environment };
+  for (const name of Object.keys(direct)) {
+    if (generationProxyEnvironmentNames.has(name.toLowerCase())) {
+      delete direct[name];
+    }
+  }
+  direct.NO_PROXY = "*";
+  return direct;
+}
+
 function createAudioGenerationQueue({
   controller,
   cwd,
   executable = process.execPath,
   spawnProcess = spawn,
+  environment = process.env,
   onChange = () => {},
 }) {
   const waiting = [];
   const pending = new Map();
+  const failures = new Map();
   let active = null;
+  let revision = 0;
 
   function snapshot() {
     return {
@@ -17,6 +41,9 @@ function createAudioGenerationQueue({
         ? {
             unitId: active.unitId,
             modelId: active.modelId,
+            operation: active.operation,
+            sentenceId: active.sentenceId || "",
+            baseAudioVersionId: active.baseAudioVersionId || "",
             pid: active.pid,
             startedAt: active.startedAt,
           }
@@ -24,18 +51,37 @@ function createAudioGenerationQueue({
       waiting: waiting.map((item, index) => ({
         unitId: item.unitId,
         modelId: item.modelId,
+        operation: item.operation,
+        sentenceId: item.sentenceId || "",
+        baseAudioVersionId: item.baseAudioVersionId || "",
         position: index + 1,
         queuedAt: item.queuedAt,
       })),
+      failures: [...failures.values()],
+      revision,
     };
   }
 
   function notify() {
+    revision += 1;
     onChange(snapshot());
   }
 
-  function finish(item) {
+  function finish(item, error = "") {
     if (active !== item) return;
+    if (error) {
+      failures.set(`${item.unitId}:${item.modelId}`, {
+        unitId: item.unitId,
+        modelId: item.modelId,
+        operation: item.operation,
+        sentenceId: item.sentenceId || "",
+        status: "failed",
+        label:
+          item.operation === "patch" ? "语音分块修正失败" : "语音生成失败",
+        error,
+        failedAt: new Date().toISOString(),
+      });
+    }
     pending.delete(item.key);
     active = null;
     notify();
@@ -47,35 +93,71 @@ function createAudioGenerationQueue({
     const item = waiting.shift();
     item.startedAt = new Date().toISOString();
     active = item;
+    failures.delete(`${item.unitId}:${item.modelId}`);
     let child;
+    let errorOutput = "";
     try {
+      const arguments_ =
+        item.operation === "patch"
+          ? [
+              controller,
+              "patch",
+              "--unit",
+              item.unitId,
+              "--model",
+              item.modelId,
+              "--base-audio-version",
+              item.baseAudioVersionId,
+              "--sentence",
+              item.sentenceId,
+              "--speech-text",
+              item.speechText,
+            ]
+          : [
+              controller,
+              "generate",
+              "--unit",
+              item.unitId,
+              "--model",
+              item.modelId,
+            ];
       child = spawnProcess(
         executable,
-        [
-          controller,
-          "generate",
-          "--unit",
-          item.unitId,
-          "--model",
-          item.modelId,
-        ],
+        arguments_,
         {
           cwd,
-          stdio: "ignore",
+          env: directNetworkEnvironment(environment),
+          stdio: ["ignore", "ignore", "pipe"],
           windowsHide: true,
         },
       );
       item.pid = child.pid || null;
-    } catch {
-      finish(item);
+    } catch (error) {
+      finish(item, error instanceof Error ? error.message : "语音任务未能启动");
       return;
     }
     notify();
-    child.once("error", () => finish(item));
-    child.once("exit", () => finish(item));
+    child.stderr?.setEncoding?.("utf8");
+    child.stderr?.on?.("data", (chunk) => {
+      errorOutput = `${errorOutput}${chunk}`.slice(-4_000);
+    });
+    child.once("error", (error) =>
+      finish(item, error instanceof Error ? error.message : "语音任务未能启动")
+    );
+    child.once("exit", (code, signal) => {
+      const detail = errorOutput.trim().split(/\r?\n/).filter(Boolean).at(-1);
+      finish(
+        item,
+        code === 0
+          ? ""
+          : detail ||
+              `语音任务异常结束${signal ? `（${signal}）` : code == null ? "" : `（代码 ${code}）`}`
+      );
+    });
   }
 
   function enqueue(unitId, modelId = "seed-audio-1.0") {
+    failures.delete(`${unitId}:${modelId}`);
     const key = `${unitId}:${modelId}`;
     const existing = pending.get(key);
     if (existing) {
@@ -88,6 +170,47 @@ function createAudioGenerationQueue({
     const item = {
       unitId,
       modelId,
+      operation: "generate",
+      key,
+      queuedAt: new Date().toISOString(),
+      startedAt: "",
+      pid: null,
+    };
+    pending.set(key, item);
+    waiting.push(item);
+    notify();
+    startNext();
+    return {
+      accepted: true,
+      duplicate: false,
+      ...statusFor(unitId, modelId),
+    };
+  }
+
+  function enqueuePatch({
+    unitId,
+    modelId,
+    baseAudioVersionId,
+    sentenceId,
+    speechText,
+  }) {
+    failures.delete(`${unitId}:${modelId}`);
+    const key = `${unitId}:${modelId}:patch:${baseAudioVersionId}:${sentenceId}`;
+    const existing = pending.get(key);
+    if (existing) {
+      return {
+        accepted: false,
+        duplicate: true,
+        ...statusFor(unitId, modelId),
+      };
+    }
+    const item = {
+      unitId,
+      modelId,
+      baseAudioVersionId,
+      sentenceId,
+      speechText,
+      operation: "patch",
       key,
       queuedAt: new Date().toISOString(),
       startedAt: "",
@@ -117,7 +240,7 @@ function createAudioGenerationQueue({
     return null;
   }
 
-  return { enqueue, snapshot, statusFor };
+  return { enqueue, enqueuePatch, snapshot, statusFor };
 }
 
 function applyAudioQueueState(state, queueSnapshot) {
@@ -127,7 +250,12 @@ function applyAudioQueueState(state, queueSnapshot) {
       `${queueSnapshot.active.unitId}:${queueSnapshot.active.modelId}`,
       {
       status: "generating",
-      label: "语音生成中",
+      label:
+        queueSnapshot.active.operation === "patch"
+          ? "语音分块修正中"
+          : "语音生成中",
+      operation: queueSnapshot.active.operation || "generate",
+      sentenceId: queueSnapshot.active.sentenceId || "",
       queuePosition: 0,
       },
     );
@@ -135,8 +263,23 @@ function applyAudioQueueState(state, queueSnapshot) {
   for (const item of queueSnapshot.waiting || []) {
     runtime.set(`${item.unitId}:${item.modelId}`, {
       status: "queued",
-      label: `语音排队中 · 第 ${item.position} 个等待`,
+      label: `${item.operation === "patch" ? "语音修正" : "语音生成"}排队中 · 第 ${item.position} 个等待`,
+      operation: item.operation || "generate",
+      sentenceId: item.sentenceId || "",
       queuePosition: item.position,
+    });
+  }
+  for (const item of queueSnapshot.failures || []) {
+    const key = `${item.unitId}:${item.modelId}`;
+    if (runtime.has(key)) continue;
+    runtime.set(key, {
+      status: "failed",
+      label: item.label || "语音任务失败",
+      operation: item.operation || "generate",
+      sentenceId: item.sentenceId || "",
+      queuePosition: 0,
+      error: item.error || "语音任务未能完成",
+      failedAt: item.failedAt || "",
     });
   }
 
@@ -153,12 +296,18 @@ function applyAudioQueueState(state, queueSnapshot) {
     if (!modelEntries.length) continue;
     const audio = {
       ...(unit.audio || {}),
-      error: "",
     };
     audio.models = (audio.models || []).map((model) => {
       const override = runtime.get(`${unit.unit_id}:${model.id}`);
       return override
-        ? { ...model, ...override, canGenerate: false, error: "" }
+        ? {
+            ...model,
+            ...override,
+            canGenerate:
+              override.status === "failed" && override.operation !== "patch"
+                ? model.canGenerate
+                : false,
+          }
         : model;
     });
     const [, primaryOverride] = modelEntries[0];
@@ -174,7 +323,12 @@ function applyAudioQueueState(state, queueSnapshot) {
     );
     if (adopted) adopted.audio = { ...(adopted.audio || {}), ...audio };
   }
+  state.audioQueueRevision = Number(queueSnapshot.revision || 0);
   return state;
 }
 
-export { applyAudioQueueState, createAudioGenerationQueue };
+export {
+  applyAudioQueueState,
+  createAudioGenerationQueue,
+  directNetworkEnvironment,
+};

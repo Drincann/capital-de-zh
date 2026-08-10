@@ -31,6 +31,10 @@ test("interface stays focused on catalog, versions and reading", async () => {
   assert.match(html, /\/api\/audio\/adopt/);
   assert.match(html, /\/api\/audio\/manifest/);
   assert.match(html, /生成语音/);
+  assert.match(html, /\["generating", "failed", "interrupted"\]/);
+  assert.match(html, /item\.completedChunks/);
+  assert.match(html, /Math\.round/);
+  assert.match(html, /100\)}%/);
   assert.match(html, /audio-status/);
   assert.match(html, /id="narrationAudio"/);
   assert.match(html, /id="narrationPlayer"/);
@@ -104,6 +108,44 @@ test("stalled audio generation becomes resumable", () => {
   assert.equal(audio.canGenerate, true);
   assert.equal(audio.completedChunks, 11);
   assert.match(audio.error, /继续/);
+});
+
+test("an upload left running across a task-station restart becomes resumable", () => {
+  const version = { id: "unit-v1", translationSha256: "translation-sha" };
+  const audio = audioStateFor(
+    version,
+    "unit",
+    version.id,
+    [
+      {
+        audio_version_id: "audio-1",
+        unit_id: "unit",
+        translation_version_id: version.id,
+        translation_sha256: version.translationSha256,
+        model_id: "seed-audio-1.0",
+        status: "ready",
+        updated_at: "2026-08-03T01:00:00.000Z",
+      },
+    ],
+    Date.parse("2026-08-03T03:00:00.000Z"),
+    [{ id: "seed-audio-1.0", label: "现有模型 1.0" }],
+    { "unit-v1": "audio-1" },
+    {
+      audio_versions: {
+        "audio-1": {
+          status: "uploading",
+          completed_files: 12,
+          file_count: 22,
+        },
+      },
+      adoptions: {},
+    },
+  );
+  const publication = audio.versions[0].publication;
+  assert.equal(publication.status, "interrupted");
+  assert.equal(publication.label, "上传已中断 12/22");
+  assert.equal(publication.canPublish, true);
+  assert.match(publication.error, /继续上传/);
 });
 
 test("audio models can coexist while only one ready version is adopted", () => {

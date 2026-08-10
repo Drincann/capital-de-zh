@@ -498,6 +498,19 @@
         font: 11px/1.4 var(--sans);
         white-space: nowrap;
       }
+      .audio-operation {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+        min-width: 0;
+        color: var(--muted);
+        font: 12px/1.5 var(--sans);
+      }
+      .audio-operation.failed { color: var(--accent); }
+      .audio-operation.ready { color: var(--green); }
+      .audio-operation-detail {
+        overflow-wrap: anywhere;
+      }
       .audio-publish-state {
         color: var(--muted);
         font: 11px/1.4 var(--sans);
@@ -506,7 +519,67 @@
       .audio-publish-state[data-status="published"] { color: var(--green); }
       .audio-publish-state[data-status="uploading"],
       .audio-publish-state[data-status="queued"] { color: var(--blue); }
-      .audio-publish-state[data-status="failed"] { color: var(--accent); }
+      .audio-publish-state[data-status="failed"],
+      .audio-publish-state[data-status="interrupted"] { color: var(--accent); }
+      .speech-patch-panel {
+        display: grid;
+        gap: 14px;
+        margin: -15px 0 28px;
+        padding: 17px 18px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: color-mix(in srgb, var(--surface) 82%, var(--paper));
+      }
+      .speech-patch-heading,
+      .speech-patch-actions,
+      .speech-patch-impact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+      .speech-patch-heading strong { font: 600 13px/1.4 var(--sans); }
+      .speech-patch-heading span,
+      .speech-patch-impact,
+      .speech-patch-hint {
+        color: var(--muted);
+        font: 11px/1.55 var(--sans);
+      }
+      .speech-patch-source {
+        margin: 0;
+        color: var(--ink);
+        font: 13px/1.7 var(--sans);
+      }
+      .speech-patch-field {
+        display: grid;
+        gap: 7px;
+        color: var(--muted);
+        font: 11px/1.4 var(--sans);
+      }
+      .speech-patch-field textarea {
+        width: 100%;
+        min-height: 92px;
+        resize: vertical;
+        padding: 11px 12px;
+        border: 1px solid var(--line);
+        border-radius: 9px;
+        outline: none;
+        color: var(--ink);
+        background: var(--paper);
+        font: 14px/1.7 var(--sans);
+      }
+      .speech-patch-field textarea:focus {
+        border-color: color-mix(in srgb, var(--accent) 58%, var(--line));
+        box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 11%, transparent);
+      }
+      .speech-patch-actions { justify-content: flex-end; }
+      .speech-patch-error { color: var(--accent); font: 11px/1.5 var(--sans); }
+      .prose.speech-patch-mode [data-narration-sentence] {
+        box-shadow: 0 0 0 1px color-mix(in srgb, var(--line) 76%, transparent);
+      }
+      .prose.speech-patch-mode [data-narration-sentence]:hover {
+        box-shadow: 0 0 0 1.5px color-mix(in srgb, var(--accent) 70%, var(--ink));
+      }
       .prose { font: 400 17px/1.95 var(--serif); }
       .prose h1 { margin: 0 0 32px; font-size: 25px; line-height: 1.35; }
       .prose h2 { margin: 38px 0 20px; font-size: 21px; line-height: 1.4; }
@@ -975,6 +1048,8 @@
           flex-direction: column;
         }
         .audio-manager-actions { justify-content: flex-start; }
+        .speech-patch-heading,
+        .speech-patch-impact { align-items: flex-start; flex-direction: column; gap: 4px; }
         .narration-player {
           right: 12px;
           bottom: max(10px, env(safe-area-inset-bottom));
@@ -1011,6 +1086,9 @@
           min-width: min(100%, 156px);
           flex: 1 1 142px;
         }
+        .speech-patch-panel { margin-top: -14px; padding: 15px; }
+        .speech-patch-actions { align-items: stretch; flex-direction: column-reverse; }
+        .speech-patch-actions button { width: 100%; }
         .prose { font-size: 16px; line-height: 1.9; }
         .narration-player {
           right: 0;
@@ -1148,6 +1226,18 @@
         diffMode: "inline",
         audioModelSelections: {},
         audioVersionSelections: {},
+        speechPatch: {
+          active: false,
+          unitId: "",
+          translationVersionId: "",
+          baseAudioVersionId: "",
+          selectedSentenceId: "",
+          draft: "",
+          error: "",
+          submitting: false,
+        },
+        pendingSpeechPatch: null,
+        speechPatchNotice: null,
       };
       const el = (id) => document.getElementById(id);
       const themeQuery = matchMedia("(prefers-color-scheme: dark)");
@@ -1860,6 +1950,10 @@
         ];
       }
 
+      function allUnits() {
+        return allChapters().flatMap((chapter) => chapter.sections || []);
+      }
+
       function currentChapter() {
         return allChapters().find((chapter) => chapter.id === model.chapterId);
       }
@@ -1907,6 +2001,27 @@
           versions[0] ||
           null
         );
+      }
+
+      function speechPatchStatusFor(unit, version) {
+        const generation = version?.audio?.generation;
+        const notice = model.speechPatchNotice;
+        if (
+          notice?.unitId === unit?.unit_id &&
+          notice?.translationVersionId === version?.id
+        ) {
+          return notice;
+        }
+        if (generation?.operation === "patch") {
+          return {
+            unitId: unit?.unit_id,
+            translationVersionId: version?.id,
+            status: generation.status,
+            label: generation.label,
+            detail: generation.error || "只会重新生成所选句子所在的分块。",
+          };
+        }
+        return null;
       }
 
       function normalizeNarrationText(value = "") {
@@ -1957,7 +2072,8 @@
         });
         narration.decorated = [];
         document.querySelector(".prose.narration-ready")?.classList.remove(
-          "narration-ready"
+          "narration-ready",
+          "speech-patch-mode"
         );
       }
 
@@ -1966,6 +2082,7 @@
         const prose = el("reader")?.querySelector(".prose");
         if (!prose || !narration.manifest) return;
         prose.classList.add("narration-ready");
+        prose.classList.toggle("speech-patch-mode", model.speechPatch.active);
         const paragraphs = Array.from(prose.querySelectorAll("p")).filter(
           (paragraph) => !paragraph.closest(".footnotes")
         );
@@ -2028,7 +2145,9 @@
                 span.setAttribute("role", "button");
                 span.setAttribute(
                   "aria-label",
-                  `从这里朗读：${expected[index].text}`
+                  model.speechPatch.active
+                    ? `修正这句话的朗读：${expected[index].text}`
+                    : `从这里朗读：${expected[index].text}`
                 );
                 const activate = (event) => {
                   if (
@@ -2038,7 +2157,11 @@
                     return;
                   }
                   event.preventDefault();
-                  playNarrationSentence(expected[index].id);
+                  if (model.speechPatch.active) {
+                    selectSpeechPatchSentence(expected[index].id);
+                  } else {
+                    playNarrationSentence(expected[index].id);
+                  }
                 };
                 span.addEventListener("click", activate);
                 span.addEventListener("keydown", activate);
@@ -2226,14 +2349,33 @@
           return;
         }
         const version = displayedVersion(unit);
-        const audioState = version?.audio;
+        const patchingThisVersion =
+          model.speechPatch.active &&
+          model.speechPatch.unitId === unit?.unit_id &&
+          model.speechPatch.translationVersionId === version?.id;
+        const selectedVersion = selectedAudioVersion(unit, version);
+        const audioState = patchingThisVersion
+          ? {
+              ...(version?.audio || {}),
+              status: "ready",
+              audioVersionId: model.speechPatch.baseAudioVersionId,
+            }
+          : selectedVersion
+            ? {
+                ...(version?.audio || {}),
+                status: "ready",
+                audioVersionId: selectedVersion.id,
+              }
+            : version?.audio;
         if (audioState?.status !== "ready" || !audioState.audioVersionId) {
           if (narration.key) resetNarration();
           return;
         }
         const key = `${unit.unit_id}:${version.id}:${audioState.audioVersionId}`;
         if (narration.key && narration.key !== key) resetNarration();
-        void prepareNarration(unit, version).catch(() => {});
+        void prepareNarration(unit, { ...version, audio: audioState }).catch(
+          () => {}
+        );
       }
 
       function loadNarrationChunk(chunkId, seconds, autoplay) {
@@ -2371,6 +2513,7 @@
       }
 
       function selectChapter(chapterId) {
+        resetSpeechPatch();
         model.chapterId = chapterId;
         const chapter = currentChapter();
         const preferred =
@@ -2400,6 +2543,7 @@
       }
 
       function selectUnit(unitId) {
+        resetSpeechPatch();
         model.unitId = unitId;
         model.selectedVersionId = null;
         model.view = "text";
@@ -2504,6 +2648,7 @@
         );
         const selectedVersion = selectedAudioVersion(unit, version);
         const selectedModel = selectedAudioModel(unit, version);
+        const patchStatus = speechPatchStatusFor(unit, version);
         const publication = selectedVersion?.publication;
         const publishing = ["uploading", "queued"].includes(
           publication?.status
@@ -2516,10 +2661,20 @@
           interrupted: "可继续",
           missing: "未生成",
         };
-        const modelOptions = (audio.models || []).map((item) => ({
-          id: item.id,
-          label: `${item.label} · ${modelStatusLabels[item.status] || item.status}`,
-        }));
+        const modelOptions = (audio.models || []).map((item) => {
+          const showProgress = ["generating", "failed", "interrupted"].includes(
+            item.status
+          );
+          const completed = Math.max(0, Number(item.completedChunks || 0));
+          const total = Math.max(0, Number(item.chunkCount || 0));
+          const progress = showProgress && total
+            ? `${Math.min(completed, total)}/${total} · ${Math.round((Math.min(completed, total) / total) * 100)}%`
+            : "";
+          return {
+            id: item.id,
+            label: `${item.label} · ${modelStatusLabels[item.status] || item.status}${progress ? ` · ${progress}` : ""}`,
+          };
+        });
         const duplicateModels = readyVersions.reduce((counts, item) => {
           counts[item.modelId] = (counts[item.modelId] || 0) + 1;
           return counts;
@@ -2527,9 +2682,11 @@
         const audioOptions = readyVersions.map((item) => ({
           id: item.id,
           label:
-            duplicateModels[item.modelId] > 1
-              ? `${item.modelLabel} · ${dateText(item.updatedAt)}`
-              : item.modelLabel,
+            item.patchedChunkId
+              ? `${item.modelLabel} · 修正版 · ${dateText(item.updatedAt)}`
+              : duplicateModels[item.modelId] > 1
+                ? `${item.modelLabel} · ${dateText(item.updatedAt)}`
+                : item.modelLabel,
           adopted: item.adopted,
         }));
         const generation = selectedModel && ["generating", "queued"].includes(
@@ -2554,6 +2711,9 @@
               ${selectedVersion
                 ? '<button class="small-action" id="previewAudioButton">试听</button>'
                 : ""}
+              ${selectedVersion && version.adopted
+                ? `<button class="small-action ${model.speechPatch.active ? "active" : ""}" id="speechPatchButton" aria-pressed="${model.speechPatch.active}">${model.speechPatch.active ? "退出修正" : "修正朗读"}</button>`
+                : ""}
               ${selectedVersion && !selectedVersion.adopted && version.adopted
                 ? '<button class="small-action" id="adoptAudioButton">采用此语音</button>'
                 : ""}
@@ -2561,9 +2721,15 @@
                 ? `<span class="audio-publish-state" data-status="${escapeHtml(publication.status)}">${escapeHtml(publication.label)}</span>`
                 : ""}
               ${selectedVersion?.adopted && version.adopted && publication?.canPublish && !publishing && model.state.audioPublishing?.configured
-                ? `<button class="small-action" id="publishAudioButton">${publication.status === "failed" ? "重新上传" : "上传到预览站"}</button>`
+                ? `<button class="small-action" id="publishAudioButton">${publication.status === "interrupted" ? "继续上传" : publication.status === "failed" ? "重新上传" : "上传到预览站"}</button>`
                 : ""}
             </div>
+            ${patchStatus
+              ? `<div class="audio-operation ${escapeHtml(patchStatus.status || "")}" role="status" aria-live="polite">
+                  <strong>${escapeHtml(patchStatus.label || "语音修正")}</strong>
+                  ${patchStatus.detail ? `<span class="audio-operation-detail">${escapeHtml(patchStatus.detail)}</span>` : ""}
+                </div>`
+              : ""}
             ${version.adopted && modelOptions.length
               ? `<div class="audio-manager-actions">
                   <span class="audio-manager-label">生成</span>
@@ -2581,6 +2747,63 @@
                       : ""}
                 </div>`
               : ""}
+          </section>
+        `;
+      }
+
+      function renderSpeechPatchPanel(unit, version) {
+        const patch = model.speechPatch;
+        if (
+          !patch.active ||
+          patch.unitId !== unit?.unit_id ||
+          patch.translationVersionId !== version?.id
+        ) {
+          return "";
+        }
+        const sentence = narration.manifest?.sentences?.find(
+          (item) => item.id === patch.selectedSentenceId
+        );
+        const chunk = narration.manifest?.chunks?.find(
+          (item) => item.id === sentence?.chunk_id
+        );
+        if (!sentence || !chunk) {
+          return `
+            <section class="speech-patch-panel" id="speechPatchPanel" aria-live="polite">
+              <div class="speech-patch-heading">
+                <strong>选择要修正的句子</strong>
+                <span>点正文中的任意一句</span>
+              </div>
+              <p class="speech-patch-hint">这里只改变送给语音模型的文字，不会修改译文。选中后会先告诉你需要重生成哪个分块。</p>
+              <div class="speech-patch-actions">
+                <button class="small-action" id="cancelSpeechPatchButton" type="button">完成</button>
+              </div>
+            </section>
+          `;
+        }
+        const chunks = narration.manifest?.chunks || [];
+        const reused = Math.max(0, chunks.length - 1);
+        const duration = formatNarrationTime(Number(chunk.duration_ms || 0));
+        const sentenceCount = chunk.sentence_ids?.length || 0;
+        return `
+          <section class="speech-patch-panel" id="speechPatchPanel" aria-live="polite">
+            <div class="speech-patch-heading">
+              <strong>修正这句话的朗读</strong>
+              <span>${escapeHtml(chunk.id)} · 约 ${duration}</span>
+            </div>
+            <p class="speech-patch-source">${escapeHtml(sentence.text)}</p>
+            <label class="speech-patch-field" for="speechPatchText">
+              朗读为
+              <textarea id="speechPatchText" maxlength="1200" spellcheck="false">${escapeHtml(patch.draft)}</textarea>
+            </label>
+            <div class="speech-patch-impact">
+              <span>只重生成这个分块（${sentenceCount} 句），其余 ${reused}/${chunks.length} 个分块直接复用。</span>
+              <span>会生成新的语音版本，原版本不变。</span>
+            </div>
+            ${patch.error ? `<div class="speech-patch-error">${escapeHtml(patch.error)}</div>` : ""}
+            <div class="speech-patch-actions">
+              <button class="small-action" id="clearSpeechPatchSentenceButton" type="button">重新选句</button>
+              <button class="small-action active" id="submitSpeechPatchButton" type="button" ${patch.submitting ? "disabled" : ""}>${patch.submitting ? "正在启动" : "只重生成此分块"}</button>
+            </div>
           </section>
         `;
       }
@@ -2620,6 +2843,7 @@
             </div>
           </div>
           ${renderAudioManager(unit, version)}
+          ${renderSpeechPatchPanel(unit, version)}
           ${version?.reviewStatus === "needs_review" && version?.reviewNote
             ? `<div class="review-notice"><strong>终审待复核：</strong>${escapeHtml(version.reviewNote)}</div>`
             : ""}
@@ -2806,6 +3030,192 @@
         await resumeNarration();
       }
 
+      function resetSpeechPatch() {
+        Object.assign(model.speechPatch, {
+          active: false,
+          unitId: "",
+          translationVersionId: "",
+          baseAudioVersionId: "",
+          selectedSentenceId: "",
+          draft: "",
+          error: "",
+          submitting: false,
+        });
+      }
+
+      async function toggleSpeechPatch() {
+        if (model.speechPatch.active) {
+          resetSpeechPatch();
+          renderReader();
+          return;
+        }
+        const unit = currentUnit();
+        const version = displayedVersion(unit);
+        const audioVersion = selectedAudioVersion(unit, version);
+        if (!unit || !version?.adopted || !audioVersion?.id) return;
+        model.speechPatchNotice = null;
+        Object.assign(model.speechPatch, {
+          active: true,
+          unitId: unit.unit_id,
+          translationVersionId: version.id,
+          baseAudioVersionId: audioVersion.id,
+          selectedSentenceId: "",
+          draft: "",
+          error: "",
+          submitting: false,
+        });
+        const audio = el("narrationAudio");
+        audio.pause();
+        try {
+          await prepareNarration(unit, {
+            ...version,
+            audio: {
+              ...version.audio,
+              status: "ready",
+              audioVersionId: audioVersion.id,
+            },
+          });
+          renderReader();
+        } catch (error) {
+          model.speechPatch.error =
+            error instanceof Error ? error.message : "语音清单不可用";
+          renderReader();
+        }
+      }
+
+      function selectSpeechPatchSentence(sentenceId) {
+        if (!model.speechPatch.active) return;
+        const sentence = narration.manifest?.sentences?.find(
+          (item) => item.id === sentenceId
+        );
+        if (!sentence) return;
+        model.speechPatch.selectedSentenceId = sentenceId;
+        model.speechPatch.draft = sentence.speech_text || sentence.text || "";
+        model.speechPatch.error = "";
+        setActiveNarrationSentence(sentenceId, false);
+        renderReader();
+        requestAnimationFrame(() => el("speechPatchText")?.focus());
+      }
+
+      async function submitSpeechPatch() {
+        const patch = model.speechPatch;
+        const unit = currentUnit();
+        const version = displayedVersion(unit);
+        const sentence = narration.manifest?.sentences?.find(
+          (item) => item.id === patch.selectedSentenceId
+        );
+        const speechText = patch.draft.replace(/\s+/g, " ").trim();
+        if (!sentence || !speechText) {
+          patch.error = "请先选择一句并填写朗读文本。";
+          renderReader();
+          return;
+        }
+        if (speechText === String(sentence.speech_text || sentence.text || "")) {
+          patch.error = "朗读文本没有变化。";
+          renderReader();
+          return;
+        }
+        patch.submitting = true;
+        patch.error = "";
+        renderReader();
+        try {
+          const response = await fetch("/api/audio/patch", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({
+              unitId: unit.unit_id,
+              translationVersionId: version.id,
+              baseAudioVersionId: patch.baseAudioVersionId,
+              sentenceId: sentence.id,
+              speechText,
+            }),
+          });
+          const result = await response.json().catch(() => ({}));
+          if (!response.ok) {
+            throw new Error(result.error || "语音修正未能启动");
+          }
+          model.pendingSpeechPatch = {
+            unitId: unit.unit_id,
+            translationVersionId: version.id,
+            baseAudioVersionId: patch.baseAudioVersionId,
+            sentenceId: sentence.id,
+            submittedAt: new Date().toISOString(),
+          };
+          model.speechPatchNotice = {
+            unitId: unit.unit_id,
+            translationVersionId: version.id,
+            status: result.status || "queued",
+            label:
+              result.status === "generating"
+                ? "语音分块修正中"
+                : "语音修正已进入队列",
+            detail: "完成后会自动切换到新的修正版。",
+          };
+          resetSpeechPatch();
+          await refresh(true);
+        } catch (error) {
+          patch.submitting = false;
+          patch.error =
+            error instanceof Error ? error.message : "语音修正未能启动";
+          renderReader();
+        }
+      }
+
+      function reconcilePendingSpeechPatch() {
+        const pending = model.pendingSpeechPatch;
+        if (!pending) return;
+        const unit = allUnits().find(
+          (item) => item.unit_id === pending.unitId
+        );
+        const version = unit?.versions?.find(
+          (item) => item.id === pending.translationVersionId
+        );
+        if (!unit || !version) return;
+        const submittedAt = Date.parse(pending.submittedAt || "") || 0;
+        const completed = (version.audio?.versions || [])
+          .filter(
+            (item) =>
+              item.status === "ready" &&
+              item.baseAudioVersionId === pending.baseAudioVersionId &&
+              item.id !== pending.baseAudioVersionId &&
+              (Date.parse(item.updatedAt || "") || 0) >= submittedAt - 1_000
+          )
+          .sort((left, right) =>
+            String(right.updatedAt || "").localeCompare(
+              String(left.updatedAt || "")
+            )
+          )[0];
+        if (completed) {
+          model.audioVersionSelections[audioSelectionKey(unit, version)] =
+            completed.id;
+          model.speechPatchNotice = {
+            unitId: unit.unit_id,
+            translationVersionId: version.id,
+            status: "ready",
+            label: "修正版已完成",
+            detail: "已自动切换，可以直接点击原句试听。",
+          };
+          model.pendingSpeechPatch = null;
+          return;
+        }
+        const generation = version.audio?.generation;
+        if (generation?.operation !== "patch") return;
+        model.speechPatchNotice = {
+          unitId: unit.unit_id,
+          translationVersionId: version.id,
+          status: generation.status,
+          label: generation.label || "语音修正",
+          detail:
+            generation.error ||
+            (generation.status === "queued"
+              ? "正在等待前面的语音任务完成。"
+              : "只会重新生成所选句子所在的分块。"),
+        };
+        if (generation.status === "failed") {
+          model.pendingSpeechPatch = null;
+        }
+      }
+
       function closeVersionPickers() {
         document.querySelectorAll("[data-picker-menu]").forEach((menu) => {
           menu.hidden = true;
@@ -2865,6 +3275,7 @@
               } else if (action === "audio-version") {
                 const unit = currentUnit();
                 const version = displayedVersion(unit);
+                resetSpeechPatch();
                 model.audioVersionSelections[audioSelectionKey(unit, version)] = value;
               }
               renderReader();
@@ -2986,6 +3397,37 @@
             }
           });
         }
+        const speechPatchButton = el("speechPatchButton");
+        if (speechPatchButton) {
+          speechPatchButton.addEventListener("click", async () => {
+            speechPatchButton.disabled = true;
+            try {
+              await toggleSpeechPatch();
+            } finally {
+              if (speechPatchButton.isConnected) {
+                speechPatchButton.disabled = false;
+              }
+            }
+          });
+        }
+        el("cancelSpeechPatchButton")?.addEventListener("click", () => {
+          resetSpeechPatch();
+          renderReader();
+        });
+        el("clearSpeechPatchSentenceButton")?.addEventListener("click", () => {
+          model.speechPatch.selectedSentenceId = "";
+          model.speechPatch.draft = "";
+          model.speechPatch.error = "";
+          setActiveNarrationSentence("", false);
+          renderReader();
+        });
+        el("speechPatchText")?.addEventListener("input", (event) => {
+          model.speechPatch.draft = event.currentTarget.value;
+          model.speechPatch.error = "";
+        });
+        el("submitSpeechPatchButton")?.addEventListener("click", () => {
+          void submitSpeechPatch();
+        });
         const adoptAudioButton = el("adoptAudioButton");
         if (adoptAudioButton) {
           adoptAudioButton.addEventListener("click", async () => {
@@ -3192,8 +3634,10 @@
            const shouldRender =
              forceRender ||
              !model.state ||
-             next.updatedAt !== model.state.updatedAt;
+             next.updatedAt !== model.state.updatedAt ||
+             next.audioQueueRevision !== model.state.audioQueueRevision;
            model.state = next;
+           reconcilePendingSpeechPatch();
            if (!readingPositionRestored) {
              const saved = readReadingPosition();
              model.chapterId = saved?.chapterId || null;

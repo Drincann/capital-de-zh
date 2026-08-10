@@ -1,7 +1,11 @@
 import { createHash, randomUUID } from "node:crypto";
 import { readFile, mkdir, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { ProxyAgent, fetch as undiciFetch } from "undici";
+import {
+  EnvHttpProxyAgent,
+  ProxyAgent,
+  fetch as undiciFetch,
+} from "undici";
 
 const publicationFileName = "publications.json";
 const localConfigFileName = ".audio-publish.local.json";
@@ -55,9 +59,38 @@ export async function loadAudioPublishConfig(appRoot) {
   };
 }
 
-export function createAudioPublishFetch(config) {
-  if (!config?.proxy) return fetch;
-  const dispatcher = new ProxyAgent(config.proxy);
+export function resolveAudioPublishProxy(
+  config = {},
+  environment = process.env,
+) {
+  if (config.proxy) {
+    return { kind: "explicit", proxy: config.proxy };
+  }
+  const allProxy = environment.all_proxy || environment.ALL_PROXY || "";
+  const httpProxy =
+    environment.http_proxy || environment.HTTP_PROXY || allProxy;
+  const httpsProxy =
+    environment.https_proxy || environment.HTTPS_PROXY || allProxy;
+  if (!httpProxy && !httpsProxy) return null;
+  return {
+    kind: "environment",
+    httpProxy,
+    httpsProxy,
+    noProxy: environment.no_proxy || environment.NO_PROXY || "",
+  };
+}
+
+export function createAudioPublishFetch(config, environment = process.env) {
+  const proxy = resolveAudioPublishProxy(config, environment);
+  if (!proxy) return fetch;
+  const dispatcher =
+    proxy.kind === "explicit"
+      ? new ProxyAgent(proxy.proxy)
+      : new EnvHttpProxyAgent({
+          httpProxy: proxy.httpProxy || undefined,
+          httpsProxy: proxy.httpsProxy || undefined,
+          noProxy: proxy.noProxy,
+        });
   let nextRequestAt = 0;
   const request = async (input, init = {}) => {
     const waitMs = Math.max(0, nextRequestAt - Date.now());
@@ -503,6 +536,8 @@ export function applyAudioPublishQueueState(state, snapshot) {
         ? `上传中 ${snapshot.active.completedFiles}/${snapshot.active.totalFiles}`
         : "正在准备上传",
       ...snapshot.active,
+      canPublish: false,
+      error: "",
     });
   }
   for (const item of snapshot.waiting || []) {
@@ -510,6 +545,8 @@ export function applyAudioPublishQueueState(state, snapshot) {
       status: "queued",
       label: `等待上传 · 第 ${item.position} 个`,
       ...item,
+      canPublish: false,
+      error: "",
     });
   }
   const units = [...(state.frontMatter || []), ...(state.parts || [])].flatMap(

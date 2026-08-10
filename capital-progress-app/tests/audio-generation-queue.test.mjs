@@ -1,23 +1,35 @@
 import assert from "node:assert/strict";
 import { EventEmitter } from "node:events";
+import { PassThrough } from "node:stream";
 import test from "node:test";
 
 import {
   applyAudioQueueState,
   createAudioGenerationQueue,
+  directNetworkEnvironment,
 } from "../scripts/audio-generation-queue.mjs";
 
 const nextTurn = () => new Promise((resolve) => setImmediate(resolve));
 
 test("audio jobs run one at a time and duplicate clicks do not add jobs", async () => {
   const children = [];
+  const environment = {
+    PATH: "kept",
+    HTTP_PROXY: "http://proxy.example:8080",
+    https_proxy: "http://proxy.example:8080",
+    ALL_PROXY: "socks://proxy.example:1080",
+    NODE_USE_ENV_PROXY: "1",
+    GLOBAL_AGENT_HTTP_PROXY: "http://proxy.example:8080",
+  };
   const queue = createAudioGenerationQueue({
     controller: "controller.mjs",
     cwd: ".",
-    spawnProcess: (_command, arguments_) => {
+    environment,
+    spawnProcess: (_command, arguments_, options) => {
       const child = new EventEmitter();
       child.pid = 4000 + children.length;
       child.arguments = arguments_;
+      child.options = options;
       children.push(child);
       return child;
     },
@@ -31,6 +43,13 @@ test("audio jobs run one at a time and duplicate clicks do not add jobs", async 
   assert.equal(queue.snapshot().active.unitId, "ch01-s01");
   assert.equal(queue.snapshot().waiting[0].unitId, "ch14-s01");
   assert.equal(queue.snapshot().waiting[0].modelId, "seed-tts-2.0");
+  assert.equal(children[0].options.env.PATH, "kept");
+  assert.equal(children[0].options.env.NO_PROXY, "*");
+  assert.equal(children[0].options.env.HTTP_PROXY, undefined);
+  assert.equal(children[0].options.env.https_proxy, undefined);
+  assert.equal(children[0].options.env.ALL_PROXY, undefined);
+  assert.equal(children[0].options.env.NODE_USE_ENV_PROXY, undefined);
+  assert.equal(children[0].options.env.GLOBAL_AGENT_HTTP_PROXY, undefined);
 
   children[0].emit("exit", 0);
   await nextTurn();
@@ -43,6 +62,53 @@ test("audio jobs run one at a time and duplicate clicks do not add jobs", async 
     "ch14-s01",
     "--model",
     "seed-tts-2.0",
+  ]);
+});
+
+test("direct TTS environment removes proxy variables case-insensitively", () => {
+  const environment = directNetworkEnvironment({
+    Https_Proxy: "http://proxy.example:8080",
+    npm_config_proxy: "http://proxy.example:8080",
+    HOME: "kept",
+  });
+  assert.deepEqual(environment, { HOME: "kept", NO_PROXY: "*" });
+});
+
+test("a speech correction queues one patch command with the selected sentence", async () => {
+  const children = [];
+  const queue = createAudioGenerationQueue({
+    controller: "controller.mjs",
+    cwd: ".",
+    spawnProcess: (_command, arguments_) => {
+      const child = new EventEmitter();
+      child.pid = 5100;
+      child.arguments = arguments_;
+      children.push(child);
+      return child;
+    },
+  });
+  const result = queue.enqueuePatch({
+    unitId: "ch08-s01",
+    modelId: "seed-audio-1.0",
+    baseAudioVersionId: "audio-v1",
+    sentenceId: "ch08-s01-n0013",
+    speechText: "百分之十六又三分之二。",
+  });
+  assert.equal(result.status, "generating");
+  assert.equal(queue.snapshot().active.operation, "patch");
+  assert.deepEqual(children[0].arguments, [
+    "controller.mjs",
+    "patch",
+    "--unit",
+    "ch08-s01",
+    "--model",
+    "seed-audio-1.0",
+    "--base-audio-version",
+    "audio-v1",
+    "--sentence",
+    "ch08-s01-n0013",
+    "--speech-text",
+    "百分之十六又三分之二。",
   ]);
 });
 
@@ -102,4 +168,70 @@ test("queue state is visible on the adopted version", () => {
   assert.equal(unit.audio.canGenerate, false);
   assert.equal(unit.versions[0].audio.status, "queued");
   assert.equal(unit.audio.models[0].status, "queued");
+});
+
+test("a failed speech correction exposes its error in queue state", async () => {
+  let child;
+  const queue = createAudioGenerationQueue({
+    controller: "controller.mjs",
+    cwd: ".",
+    spawnProcess: () => {
+      child = new EventEmitter();
+      child.pid = 5200;
+      child.stderr = new PassThrough();
+      return child;
+    },
+  });
+  queue.enqueuePatch({
+    unitId: "ch08-s01",
+    modelId: "seed-audio-1.0",
+    baseAudioVersionId: "audio-v1",
+    sentenceId: "ch08-s01-n0013",
+    speechText: "百分之十六又三分之二。",
+  });
+  child.stderr.write("Error: 基础语音版本不兼容\n");
+  child.emit("exit", 1);
+  await nextTurn();
+
+  const failure = queue.snapshot().failures[0];
+  assert.equal(failure.status, "failed");
+  assert.equal(failure.operation, "patch");
+  assert.equal(failure.error, "Error: 基础语音版本不兼容");
+
+  const state = {
+    frontMatter: [],
+    parts: [
+      {
+        chapters: [
+          {
+            sections: [
+              {
+                unit_id: "ch08-s01",
+                adoptedVersionId: "ch08-s01-v1",
+                audio: {
+                  status: "ready",
+                  models: [{ id: "seed-audio-1.0", canGenerate: false }],
+                },
+                versions: [
+                  {
+                    id: "ch08-s01-v1",
+                    audio: {
+                      status: "ready",
+                      models: [{ id: "seed-audio-1.0", canGenerate: false }],
+                    },
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  };
+  applyAudioQueueState(state, queue.snapshot());
+  const audio = state.parts[0].chapters[0].sections[0].audio;
+  assert.equal(audio.generation.status, "failed");
+  assert.equal(audio.generation.operation, "patch");
+  assert.equal(audio.generation.error, "Error: 基础语音版本不兼容");
+  assert.equal(audio.models[0].canGenerate, false);
 });

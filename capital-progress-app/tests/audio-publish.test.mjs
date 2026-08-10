@@ -5,9 +5,45 @@ import os from "node:os";
 import path from "node:path";
 import test from "node:test";
 
-import { publishAdoptedAudio } from "../scripts/audio-publish.mjs";
+import {
+  publishAdoptedAudio,
+  resolveAudioPublishProxy,
+} from "../scripts/audio-publish.mjs";
 
 const digest = (value) => createHash("sha256").update(value).digest("hex");
+
+test("audio publishing prefers its explicit proxy then follows the environment", () => {
+  assert.deepEqual(
+    resolveAudioPublishProxy(
+      { proxy: "http://project-proxy.example:8080" },
+      { HTTPS_PROXY: "http://environment-proxy.example:8080" },
+    ),
+    { kind: "explicit", proxy: "http://project-proxy.example:8080" },
+  );
+  assert.deepEqual(
+    resolveAudioPublishProxy({}, {
+      HTTP_PROXY: "http://http-proxy.example:8080",
+      HTTPS_PROXY: "http://https-proxy.example:8080",
+      NO_PROXY: "localhost,127.0.0.1",
+    }),
+    {
+      kind: "environment",
+      httpProxy: "http://http-proxy.example:8080",
+      httpsProxy: "http://https-proxy.example:8080",
+      noProxy: "localhost,127.0.0.1",
+    },
+  );
+  assert.deepEqual(
+    resolveAudioPublishProxy({}, { ALL_PROXY: "http://proxy.example:8080" }),
+    {
+      kind: "environment",
+      httpProxy: "http://proxy.example:8080",
+      httpsProxy: "http://proxy.example:8080",
+      noProxy: "",
+    },
+  );
+  assert.equal(resolveAudioPublishProxy({}, {}), null);
+});
 
 test("publishing adopted audio uploads immutable files then activates the registry", async () => {
   const root = await mkdtemp(path.join(os.tmpdir(), "capital-audio-publish-"));

@@ -22,12 +22,12 @@
 任何新任务或上下文压缩后，先运行：
 
 ```powershell
-& 'C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' skill-snapshot/reader-edition-v18/scripts/reader_project_controller.py validate .
-& 'C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' skill-snapshot/reader-edition-v18/scripts/reader_project_controller.py context .
+& 'C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' skill-snapshot/reader-edition-v20/scripts/reader_project_controller.py validate .
+& 'C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' skill-snapshot/reader-edition-v20/scripts/reader_project_controller.py context .
 ```
 
 在 Codex Desktop 中先读取工作区依赖，并使用其中返回的 Python。不要回退
 到 `AppData\Local\Programs\Python`；后者位于工作区运行时之外，会重复触发
 命令批准，即使用户已经为项目选择完全访问。
 
-当前阶段：读者版规范已锁定；已登记 60 章的来源。
+当前阶段：读者版规范已锁定；已登记 79 章的来源。

@@ -1,0 +1,1002 @@
+# 5. Illustration des allgemeinen Gesetzes der kapitalistischen Akkumulation.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch23s05-p0001] [MEGA p.582] [heading]
+a) England von 1846‒1866.
+
+[v1-ch23s05-p0002] [MEGA p.582]
+Keine Periode der modernen Gesellschaft ist so günstig für das Studium der kapitalistischen Akkumulation als die Periode der letztverflossenen 20 Jahre. Es ist, als ob sie den Fortunatussäckel gefunden hätte. Von allen Ländern aber bietet England wieder das klassische Beispiel, weil es den ersten Rang auf dem Weltmarkt behauptet, die kapitalistische Produktionsweise hier allein völlig entwickelt ist, und endlich die Einführung des tausendjährigen Reichs des Freihandels seit 1846 der Vulgärökonomie den letzten Schlupfwinkel abgeschnitten hat. Der titanische Fortschritt der Produktion, so daß die letzte Hälfte der zwanzigjährigen Periode die erste wieder weit überflügelt, ward bereits im vierten Abschnitt hinreichend angedeutet.
+
+[v1-ch23s05-p0003] [MEGA p.582,583]
+Obgleich das absolute Wachsthum der englischen Bevölkerung im letzten halben Jahrhundert sehr groß war, fiel das verhältnißmäßige Wachsthum oder die Rate des Zuwachses fortwährend, wie folgende dem officiellen Census entlehnte Tabelle zeigt:
+
+[v1-ch23s05-p0004] [MEGA p.583]
+Jährlicher procentmäßiger Zuwachs der Bevölkerung von England und Wales in Decimalzahlen.
+[table]
+1811‒1821 | 1,533 %
+1821‒1831 | 1,446 %
+1831‒1841 | 1,326 %
+1841‒1851 | 1,216 %
+1851‒1861 | 1,141 %.
+[/table]
+
+[v1-ch23s05-p0005] [MEGA p.583]
+Betrachten wir nun andrerseits das Wachsthum des Reichthums. Den sichersten Anhaltspunkt bietet hier die Bewegung der der Einkommensteuer unterworfenen Profite, Grundrenten u. s. w. Der Zuwachs der steuerpflichtigen Profite (Pächter und einige andre Rubriken nicht eingeschlossen) betrug für Großbritannien von 1853 bis 1864 50,47 % (oder 4,58 % im jährlichen Durchschnitt) 94), der der Bevölkerung während derselben Periode ungefähr 12 %. Die Zunahme der besteuerbaren Renten von Land (Häuser, Eisenbahnen, Minen, Fischereien u. s. w. eingeschlossen) betrug von 1853 bis 1864 38 %, oder 3 5 12 % jährlich, woran folgende Rubriken den stärksten Antheil nahmen:
+[table]
+Ueberschuß | Zunahme per
+des jährlichen Einkommens | Jahr.
+von 1864 über 1853. | 
+Von Häusern: | 38,60 % | 3,50 %
+” Steinbrüchen: | 84,76 % | 7,70 %
+” Minen: | 68,85 % | 6,26 %
+” Eisenhütten: | 39,92 % | 3,63 %
+” Fischereien: | 57,37 % | 5,21 %
+” Gaswerken: | 126,02 % | 11,45 %
+” Eisenbahnen: | 83,29 % | 7,57 % | 95).|
+[/table]
+
+[v1-ch23s05-p0006] [MEGA p.583,584]
+Vergleicht man je vier Jahre der Periode von 1853‒1864, so wächst der Zunahmegrad der Einkommen fortwährend. Er ist z. B. für die aus Profit stammenden von 1853‒1857 jährlich 1,73 %, 1857‒1861 jährlich 2,74 %, und 9,30 % jährlich für 1861‒1864. Die Gesammtsumme der der Einkommensteuer unterworfenen Einkommen des Vereinigten Königreichs betrug 1856: 307068898 Pfd. St., 1859: 328127416 Pfd. St., 1862: 351745241 Pfd. St., 1863: 359142897 Pfd. St., 1864: 362462279 Pfd. St., 1865: 385530020 Pfd. St. 96).
+
+[v1-ch23s05-p0007] [MEGA p.584]
+Die Akkumulation des Kapitals war zugleich von seiner Koncentration und Centralisation begleitet. Obgleich keine officielle Agrikulturstatistik für England (wohl aber für Irland) existirte, ward sie von 10 Grafschaften freiwillig geliefert. Sie ergab hier das Resultat, daß von 1851 bis 1861 die Pachten unter 100 Acres von 31583 auf 26567 vermindert, also 5016 mit größeren Pachten zusammengeschlagen waren 97). Von 1815 bis 1825 fiel kein Mobiliarvermögen über 1 Million Pfd. St. unter die Erbschaftssteuer, von 1825 bis 1855 dagegen 8, von 1855 bis Juni 1859, d. h. in 4½ Jahren, 4 98). Die Centralisation wird man jedoch am besten ersehn aus einer kurzen Analyse der Einkommensteuer für Rubrik D (Profite mit Ausschluß von Pächtern u. s. w.) in den Jahren 1864 und 1865. Ich bemerke vorher, daß Einkommen aus dieser Quelle bis zu 60 Pfd. St. hinab Income Tax zahlen. Diese steuerpflichtigen Einkommen betrugen in England, Wales und Schottland 1864: 95844222 Pfd. St. und 1865: 105435787 Pfd. St. 99), die Zahl der Besteuerten 1864: 308416 Personen auf eine Gesammtbevölkerung von 23891009, 1865: 332431 Personen auf Gesammtbevölkerung von 24127003. Ueber die Vertheilung dieser Einkommen in beiden Jahren folgende Tabelle:
+[table]
+Jahr, endend 5. April 1864. | Jahr, endend 5. April 1865.
+Einkommen von Profit |  | Personen | Einkommen von Profit | Personen
+Gesammteinkommen: | Pfd. St. | 95 844 222 | 308 416 | Pfd. St. | 105 435 787 | 332 421
+Davon: | Pfd. St. | 57 028 290 | 22 334 | Pfd. St. | 64 554 197 | 24 075
+Davon: | Pfd. St. | 36 415 225 | 3 619 | Pfd. St. | 42 535 576 | 4 021
+Davon: | Pfd. St. | 22 809 781 | 822 | Pfd. St. | 27 555 313 | 973
+Davon: | Pfd. St. | 8 744 762 | 91 | Pfd. St. | 11 077 238 | 107
+[/table]
+
+[v1-ch23s05-p0008] [MEGA p.584,585]
+Es wurden im Vereinigten Königreich 1855 producirt 61453079 Tonnen Kohlen zum Werth von 16113267 Pfd. St., 1864: 92787873 Tonnen zum Werth von 23197968 Pfd. St., 1855: 3218154 Tonnen Roheisen zum Werth von 8045385 Pfd. St., 1864: 4767951 Tonnen zum Werth von 11919877 Pfd. St. 1854 betrug die Länge der im Vereinigten Königreich im Betrieb befindlichen Eisenbahnen 8054 Meilen, mit eingezahltem Kapital von 286068794 Pfd. St., 1864 die Meilenlänge 12789 mit aufgezahltem Kapital von 425719613 Pfd. St. 1854 betrug Gesammtexport und Import des Vereinigten Königreichs 268210145 Pfd. St., 1865: 489993285. Folgende Tabelle zeigt die Bewegung des Exports:
+[table]
+1847 | 58 842 377 | Pfd. | St.
+1849 | 63 596 025 | ” | ”
+1856 | 115 826 948 | ” | ”
+1860 | 135 842 817 | ” | ”
+1865 | 165 862 402 | ” | ”
+1866 | 188 917 356 | ” | ” 100)
+[/table]
+
+[v1-ch23s05-p0009] [MEGA p.585,586,587]
+Man begreift nach diesen wenigen Angaben den Triumphschrei des Generalregistrators des brit. Volks: „Rasch wie die Bevölkerung anwuchs, hat sie nicht Schritt gehalten mit dem Fortschritt der Industrie und des Reichthums“ 101). Wenden wir uns jetzt zu den unmittelbaren Agenten dieser Industrie oder den Producenten dieses Reichthums, zur Arbeiterklasse. „Es ist einer der melancholischsten Charakterzüge im sozialen Zustand des Landes“, sagt Gladstone, „daß mit einer Abnahme in der Konsumtionsmacht des Volks und einer Zunahme in den Entbehrungen und dem Elend der arbeitenden Klasse, gleichzeitig eine beständige Akkumulation von Reichthum in den höhern Klassen und ein beständiger Anwachs von Kapital stattfinden“ 102). So sprach dieser salbungsvolle Minister im Hause der Gemeinen am 13. Februar 1843. Am 16. April 1863, zwanzig Jahre später, in der Rede, worin er sein Budget vorlegt: „Von 1842 bis 1852 wuchs das besteuerbare Einkommen dieses Landes um 6 %... In den 8 Jahren von 1853 bis 1861 wuchs es, wenn wir von der Basis von 1853 ausgehn, um 20 %. Die Thatsache ist so erstaunlich, daß sie beinahe unglaublich ist... Diese berauschende Vermehrung von Reichthum und Macht... ist ganz und gar auf die besitzenden Klassen beschränkt, aber... aber, sie muß von indirektem Vortheil für die Arbeiterbevölkerung sein, weil sie die Artikel der allgemeinen Konsumtion verwohlfeilert ‒ während die Reichen reicher, sind die Armen jedenfalls weniger arm geworden. Daß die Extreme der Armuth sich vermindert haben, wage ich nicht zu sagen“ 103). Welch lahmer Antiklimax! Wenn die Arbeiterklasse „arm“ geblieben ist, nur „weniger arm“ im Verhältniß, worin sie eine „berauschende Vermehrung von Reichthum und Macht“ für die Klasse des Eigenthums producirte, so ist sie relativ gleich arm geblieben. Wenn die Extreme der Armuth sich nicht vermindert haben, haben sie sich vermehrt, weil die Extreme des Reichthums. Was die Verwohlfeilerung der Lebensmittel betrifft, so zeigt die officielle Statistik, z. B. die Angaben des London Orphan Asylum, eine Vertheurung von 20 % für den Durchschnitt der drei Jahre von 1860 bis 1862, verglichen mit 1851‒1853. In den folgenden 3 Jahren 1863‒1865 progressive Vertheurung von Fleisch, Butter, Milch, Zucker, Salz, Kohlen und einer Masse andrer nothwendiger Lebensmittel 104). Gladstone’s folgende Budgetrede, vom 7. April 1864, ist ein pindarischer Dithyrambus auf den Fortschritt der Plusmacherei und das durch „Armuth“ gemäßigte Glück des Volks. Er spricht von Massen „am Rand des Pauperismus“, von den Geschäftszweigen, „worin der Lohn nicht gestiegen“, und faßt schließlich das Glück der Arbeiterklasse zusammen in den Worten: „das menschliche Leben ist in neun Fällen von zehn ein bloßer Kampf um die Existenz“ 105). Professor Fawcett, nicht wie Gladstone durch officielle Rücksicht gebunden, erklärt rund heraus: „Ich läugne natürlich nicht, daß der Geldlohn mit dieser Vermehrung des Kapitals ❲in den letzten Decennien❳ gestiegen ist, aber dieser scheinbare Vortheil geht in großem Umfang wieder verloren, weil viele Lebensbedürfnisse beständig theurer werden ❲er glaubt, wegen Werthfall der edlen Metalle❳... Die Reichen werden rasch reicher (the rich grow rapidly richer), während keine Zunahme im Komfort der arbeitenden Klassen wahrnehmbar ist... Die Arbeiter werden fast Sklaven der Krämer, deren Schuldner sie sind“ 106).
+
+[v1-ch23s05-p0010] [MEGA p.587]
+In den Abschnitten über den Arbeitstag und die Maschinerie enthüllten sich die Umstände, unter welchen die britische Arbeiterklasse eine „berauschende Vermehrung von Reichthum und Macht“ für die besitzenden Klassen schuf. Jedoch beschäftigte uns damals vorzugsweise der Arbeiter während seiner gesellschaftlichen Funktion. Zur vollen Beleuchtung der Gesetze der Akkumulation ist auch seine Lage außerhalb der Werkstatt ins Auge zu fassen, sein Nahrungs- und Wohnungszustand. Die Grenze dieses Buchs gebietet uns hier vor Allem den schlechtest bezahlten Theil des industriellen Proletariats und der Ackerbauarbeiter zu berücksichtigen, d. h. die Majorität der Arbeiterklasse.
+
+[v1-ch23s05-p0011] [MEGA p.587,588]
+Vorher noch ein Wort über den officiellen Pauperismus oder den Theil der Arbeiterklasse, der seine Existenzbedingung, Verkauf der Arbeitskraft, eingebüßt hat und von öffentlichen Almosen vegetirt. Die officielle Pauperliste zählte in England 107) 1855: 851369 Personen, 1856: 877767, 1865: 971433. In Folge der Baumwollnoth schwoll sie in den Jahren 1863 und 1864 zu 1079382 und 1014978. Die Krise von 1866, die London am schwersten traf, schuf in diesem Sitz des Weltmarkts, einwohnerreicher als das Königreich Schottland, für 1866 einen Pauperzuwachs von 19,5 %, verglichen mit 1865, und von 24,4 %, verglichen mit 1864, einen noch größren Zuwachs für die ersten Monate von 1867, verglichen mit 1866. Bei Analyse der Pauperstatistik sind zwei Punkte hervorzuheben. Einerseits spiegelt die Bewegung im Ab und Zu der Paupermasse die periodischen Wechselfälle des industriellen Cyklus wieder. Andrerseits trügt die officielle Statistik mehr und mehr über den wirklichen Umfang des Pauperismus im Grad, worin mit der Akkumulation des Kapitals der Klassenkampf und daher das Selbstgefühl der Arbeiter sich entwickeln. Z. B. die Barbarei in der Behandlung der Paupers, worüber die englische Presse (Times, Pall Mall Gazette etc.) während der letzten zwei Jahre so laut schrie, ist alten Datums. F. Engels konstatirt 1844 ganz dieselben Greuel und ganz dasselbe vorübergehende, scheinheilige zur „Sensationsliteratur“ gehörige Gezeter. Aber die furchtbare Zunahme des Hungertods („deaths by starvation“) in London, während des letzten Decenniums, beweist unbedingt den zunehmenden Abscheu der Arbeiter vor der Sklaverei des Workhouse, 108) dieser Strafanstalt des Elends. |
+
+[v1-ch23s05-p0012] [MEGA p.588] [heading]
+b) Die schlechtbezahlten Schichten der britischen industriellen Arbeiterklasse.
+
+[v1-ch23s05-p0013] [MEGA p.588]
+Wenden wir uns jetzt zu den schlechtbezahlten Schichten der industriellen Arbeiterklasse. Während der Baumwollnoth, 1862, wurde Dr. Smith von Privy Council mit einer Untersuchung über den Nahrungsstand der verkümmerten Baumwollarbeiter in Lancashire und Cheshire beauftragt. Langjährige frühere Beobachtung hatte ihn zum Resultat geführt, daß „um Hungerkrankheiten (starvation diseases) zu vermeiden“, die tägliche Nahrung eines Durchschnitts-Frauenzimmers mindestens 3900 Gran Kohlenstoff mit 180 Gran Stickstoff enthalten müsse, die tägliche Nahrung eines Durchschnitts-Mannes mindestens 4300 Gran Kohlenstoff mit 200 Gran Stickstoff, für die Frauenzimmer ungefähr so viel Nahrungsstoff als in zwei Pfund gutem Weizenbrod enthalten ist, für Männer 1 9 mehr, für den Wochendurchschnitt von weiblichen und männlichen Erwachsnen mindestens 28600 Gran Kohlenstoff und 1330 Gran Stickstoff. Seine Berechnung ward praktisch in überraschender Weise bestätigt durch ihre Uebereinstimmung mit der kümmerlichen Nahrungsmenge, worauf der Nothstand die Konsumtion der Baumwollarbeiter herabgedrückt hatte. Sie erhielten im December 1862: 29211 Gran Kohlenstoff und 1295 Gran Stickstoff wöchentlich.
+
+[v1-ch23s05-p0014] [MEGA p.588,589]
+Im Jahre 1863 verordnete der Privy Council eine Untersuchung über den Nothstand des schlechtestgenährten Theils der englischen Arbeiterklasse. Dr. Simon, der ärztliche Beamte des Privy Council, erkor zu dieser Arbeit den obenerwähnten Dr. Smith. Seine Untersuchung erstreckt sich auf die Agrikulturarbeiter einerseits, andrerseits auf Seidenweber, Nähterinnen, Lederhandschuhmacher, Strumpfwirker, Handschuhweber und Schuster. Die letzteren Kategorien sind, mit Ausnahme der Strumpfwirker, ausschließlich städtisch. Es wurde zur Regel der Untersuchung gemacht, die gesundesten und relativ bestgestellten Familien in jeder Kategorie auszuwählen.
+
+[v1-ch23s05-p0015] [MEGA p.589]
+Als allgemeines Resultat ergab sich, daß „nur in einer der untersuchten Klassen der städtischen Arbeiter die Zufuhr von Stickstoff das absolute Minimalmaß, unter welchem Hungerkrankheiten eintreten, ein wenig überschritt, daß in zwei Klassen Mangel, und zwar in der einen sehr großer Mangel, an der Zufuhr von sowohl stickstoffwie kohlenstoffhaltiger Nahrung stattfand, daß von den untersuchten Ackerbaufamilien mehr als ein Fünftheil weniger als die unentbehrliche Zufuhr von kohlenstoffhaltiger Nahrung erhielt, mehr als ⅓ weniger als die unentbehrliche Zufuhr stickstoffhaltiger Nahrung, und daß in drei Grafschaften (Berkshire, Oxfordshire und Somersetshire) Mangel an dem Minimum der stickstoffhaltigen Nahrung durchschnittlich herrschte“ 109). Unter den Agrikulturarbeitern waren die von England, dem reichsten Theile des Vereinigten Königreichs, die schlechtest genährten 110). Die Unternahrung fiel unter den Landarbeitern überhaupt hauptsächlich auf Frau und Kinder, denn „der Mann muß essen, um sein Werk zu verrichten“. Noch größerer Mangel wüthete unter den untersuchten städtischen Arbeiterkategorien. „Sie sind so schlecht genährt, daß viele Fälle grausamer und gesundheitsruinirender Entbehrung ❲„Entsagung“ des Kapitalisten alles dieß! nämlich Entsagung auf Zahlung der zur bloßen Vegetation seiner Hände unentbehrlichen Lebensmittel!❳ vorkommen müssen“ 111).
+
+[v1-ch23s05-p0016] [MEGA p.589]
+Folgende Tabelle zeigt das Verhältniß des Nahrungsstandes der oben erwähnten rein städtischen Arbeiterkategorien zu dem von Dr. Smith angenommenen Minimalmaß und zum Nahrungsmaß der Baumwollarbeiter während der Zeit ihrer größten Noth:
+[table]
+Beide Geschlechter. | Wochendurchschnitt | Wochendurchschnitt
+ | an Kohlenstoff. | an Stickstoff.
+Fünf städtische Geschäftszweige | 28 876 Gran | 1 192 Gran
+Arbeitslose Lancashire Fabrikarbeiter | 29 211 Gran | 1 295 Gran
+Minimalquantum, vorgeschlagen für die |  | 
+Lancashire Arbeiter auf gleiche Zahl |  | 
+männlicher und weiblicher | 28 600 Gran | 1 330 Gran 112)
+[/table]
+
+[v1-ch23s05-p0017] [MEGA p.589,590]
+Eine Hälfte, 60 125, der untersuchten industriellen Arbeiterkategorien erhielt absolut kein Bier, 28 % keine Milch. Der Wochendurchschnitt der flüssigen Nahrungsmittel in den Familien schwankte von 7 Unzen bei den Nähterinnen auf 24¾ Unzen bei Strumpfwirkern. Die Mehrzahl derer, die keine Milch erhielten, bestand aus den Nähterinnen von London. Die Quantität der wöchentlich konsumirten Brodstoffe wechselte von 7¾ Pfund bei den Nähterinnen zu 11¼ Pfund bei den Schustern und ergab einen Totaldurchschnitt von 9,9 Pfund wöchentlich auf den Erwachsnen. Zucker (Syrup etc.) wechselte von 4 Unzen wöchentlich für die Lederhandschuhmacher auf 11 Unzen für Strumpfwirker; der Totaldurchschnitt per Woche für alle Kategorien, per Erwachsnen, 8 Unzen. Gesammter Wochendurchschnitt von Butter (Fett u. s. w.) 5 Unzen per Erwachsnen. Der Wochendurchschnitt von Fleisch (Speck u. s. w.) schwankte, per Erwachsnen, von 7¼ Unzen bei den Seidenwebern auf 18¼ Unzen bei den Lederhandschuhmachern; Gesammtdurchschnitt für die verschiednen Kategorien 13.6 Unzen. Die wöchentliche Kost für Nahrung per Erwachsnen ergab folgende allgemeine Durchschnittszahlen: Seidenweber 2 sh. 2½ d., Nähterinnen 2 sh. 7 d., Lederhandschuhmacher 2 sh. 9½ d., Schuster 2 sh. 7¾ d., Strumpfwirker 2 sh. 6¼ d. Für die Seidenweber von Macclesfield betrug der Wochendurchschnitt nur 1 sh. 8½ d. Die schlechtestgenährten Kategorien waren die Nähterinnen, die Seidenweber und die Lederhandschuhmacher 113).
+
+[v1-ch23s05-p0018] [MEGA p.590,591]
+Dr. Simon sagt in seinem allgemeinen Gesundheitsbericht über diesen Nahrungszustand: „Daß die Fälle zahllos sind, worin Nahrungsmangel Krankheiten erzeugt oder verschärft, wird Jeder bestätigen, der mit medicinischer Armenpraxis oder mit den Patienten der Spitäler, seien sie Insassen oder außerhalb wohnend, vertraut ist... Jedoch kommt hier vom sanitären Standpunkt noch ein andrer, sehr entscheidender Umstand hinzu... Man muß sich erinnern, daß Beraubung an Nahrungsmitteln nur sehr widerstrebend ertragen wird, und daß in der Regel große Dürftigkeit der Diät nur im Gefolge andrer, vorhergegangner Entbehrungen nachhinkt. Lange bevor der Nahrungsmangel hygienisch ins Gewicht fällt, lange bevor der Physiolog daran denkt, die Grane Stickstoff und Kohlenstoff zu zählen, zwischen denen Leben und Hungertod schwebt, wird der Haushalt von allem materiellen Komfort ganz und gar entblößt sein. Kleidung und Heizung werden noch dürftiger gewesen sein als die Speise. Kein hinreichender Schutz wider die Härte des Wetters; Abknappung des Wohnraums zu einem Grad, der Krankheiten erzeugt oder verschärft; kaum eine Spur von Hausgeräth oder Möbeln; die Reinlichkeit selbst wird kostspielig oder schwierig geworden sein. Werden noch aus Selbstachtung Versuche gemacht, sie aufrecht zu erhalten, so repräsentirt jeder solcher Versuch zuschüssige Hungerpein. Die Häuslichkeit wird dort sein, wo Obdach am wohlfeilsten kaufbar; in Quartieren, wo die Gesundheitspolizei die geringste Frucht trägt, das jämmerlichste Gerinne, wenigster Verkehr, der meiste öffentliche Unrath, kümmerlichste oder schlechteste Wasserzufuhr, und, in Städten, größter Mangel an Licht und Luft. Dieß sind die Gesundheitsgefahren, denen die Armuth unvermeidlich ausgesetzt ist, wenn diese Armuth Nahrungsmangel einschließt. Wenn die Summe dieser Uebel von furchtbarer Größe für das Leben ist, so ist der bloße Nahrungsmangel an sich selbst entsetzlich... Dieß sind qualvolle Gedanken, namentlich wenn man sich erinnert, daß die Armuth, wovon es sich handelt, nicht die selbstverschuldete Armuth des Müßiggangs ist. Es ist die Armuth von Arbeitern. Ja, mit Bezug auf die städtischen Arbeiter, ist die Arbeit, wodurch der knappe Bissen Nahrung erkauft wird, meist über alles Maß verlängert. Und dennoch kann man nur in sehr bedingtem Sinn sagen, daß diese Arbeit selbsterhaltend ist.... Auf sehr großem Maßstab kann der nominelle Selbsterhalt nur ein kürzerer oder längerer Umweg zum Pauperismus sein“ 114).
+
+[v1-ch23s05-p0019] [MEGA p.591,592]
+Der innere Zusammenhang zwischen Hungerpein der fleißigsten Arbeiterschichten und auf kapitalistischer Akkumulation begründetem, grobem oder raffinirtem Verschwendungskonsum der Reichen, enthüllt sich nur mit Kenntniß der ökonomischen Gesetze. Anders mit dem Wohnungszustand. Jeder unbefangne Beobachter sieht, daß je massenhafter die Centralisation der Produktionsmittel, desto größer die entsprechende Anhäufung von Arbeitern auf demselben Raum, daß daher, je rascher die kapitalistische Akkumulation, desto elender der Wohnungszustand der Arbeiter. Die den Fortschritt des Reichthums begleitende „Verbesserung“ (improvements) der Städte durch Niederreißen schlecht gebauter Viertel, Errichtung von Palästen für Banken, Waarenhäuser u. s. w., Streckung der Straßen für Geschäftsverkehr und Luxuskarossen, Einführung von Pferdebahnen u. s. w. verjagt augenscheinlich die Armen in stets schlechtere und dichter gefüllte Schlupfwinkel. Andrerseits weiß jeder, daß die Theuerkeit der Wohnungen im umgekehrten Verhältniß zu ihrer Güte steht und daß die Minen des Elends von Häuserspekulanten mit mehr Profit und weniger Kosten ausgebeutet werden als jemals die Minen von Potosi. Der antagonistische Charakter der kapitalistischen Akkumulation und daher der kapitalistischen Eigenthumsverhältnisse überhaupt 115) wird hier so handgreifbar, daß selbst die officiellen englischen Berichte über diesen Gegenstand wimmeln von heterodoxen Ausfällen auf das „Eigenthum und seine Rechte“. Das Uebel hielt solchen Schritt mit der Entwicklung der Industrie, der Akkumulation des Kapitals, dem Wachsthum und der „Verschönerung“ der Städte, daß die bloße Furcht vor ansteckenden Krankheiten, welche auch der „Ehrbarkeit“ nicht schonen, von 1847 bis 1864 nicht weniger als 10 gesundheitspolizeiliche Parlamentsakte ins Leben rief, und die erschreckte Bürgerschaft in einigen Städten wie Liverpool, Glasgow u. s. w. durch ihre Municipalitäten eingriff. Denoch, ruft Dr. Simon in seinem Bericht von 1865: „Allgemein zu sprechen, sind die Uebelstände in England unkontrolirt.“ Auf Befehl des Privy Council fand 1864 Untersuchung über die Wohnungsverhältnisse der Landarbeiter, 1865 über die der ärmeren Klassen in den Städten statt. Die meisterhaften Arbeiten des Dr. Julian Hunter findet man im siebenten und achten Bericht über „Public Health“. Auf die Landarbeiter komme ich später. Für den städtischen Wohnungszustand schicke ich eine allgemeine Bemerkung des Dr. Simon voraus: „Obgleich mein officieller Gesichtspunkt“, sagt er, „ausschließlich ärztlich ist, erlaubt die gewöhnlichste Humanität nicht die andre Seite dieses Uebels zu ignoriren. In seinem höheren Grad bedingt es fast nothwendig eine solche Verläugnung aller Delikatesse, so schmutzige Konfusion von Körpern und körperlichen Verrichtungen, solche Bloßstellung geschlechtlicher Nacktheit, die bestial, nicht menschlich sind. Diesen Einflüssen unterworfen zu sein ist eine Erniedrigung, die sich vertieft, je länger sie fortwirkt. Für die Kinder, die unter diesem Fluch geboren sind, ist er Taufe in Infamie (baptism into infamy). Und über alles Maß hoffnungslos ist der Wunsch, daß unter solche Umstände gestellte Personen in andren Hinsichten nach jener Atmosphäre der Civilisation aufstreben sollten, deren Wesen in physischer und moralischer Reinheit besteht“ 116).
+
+[v1-ch23s05-p0020] [MEGA p.592]
+Den ersten Rang in überfüllten oder auch für menschliche Behausung absolut unmöglichen Wohnlichkeiten nimmt London ein. „Zwei Punkte“, sagt Dr. Hunter, „sind sicher; erstens gibt es ungefähr 20 große Kolonien in London, jede ungefähr 10000 Personen stark, deren elende Lage alles übersteigt, was jemals anderswo in England gesehen worden ist, und sie ist fast ganz das Resultat ihrer schlechten Hausakkommodation; zweitens, der überfüllte und verfallne Zustand der Häuser dieser Kolonien ist viel schlechter als 20 Jahre zuvor“ 117). „Es ist nicht zu viel zu sagen, daß das Leben in vielen Theilen von London und Newcastle höllisch ist“ 118).
+
+[v1-ch23s05-p0021] [MEGA p.593,594]
+Auch der besser gestellte Theil der Arbeiterklasse, zusammt Kleinkrämern und andren Elementen der kleinen Mittelklasse, fällt in London mehr und mehr unter den Fluch dieser nichtswürdigen Behausungsverhältnisse, im Maße, wie die „Verbesserungen“ und mit ihnen die Niederreißung alter Straßen und Häuser fortschreiten, wie Fabriken und Menschenzustrom in der Metropole wachsen, endlich die Hausmiethen mit der städtischen Grundrente steigen. „Die Hausmiethen sind so übermäßig geworden, daß wenige Arbeiter mehr als ein Zimmer zahlen können“ 119). Es giebt fast kein Londoner Hauseigenthum, das nicht mit einer Unzahl von „middlemen“ belastet wäre. Der Preis des Bodens in London steht nämlich stets sehr hoch im Vergleich zu seinen jährlichen Einkünften, indem jeder Käufer darauf spekulirt, ihn früher oder später zu einem Jury Price (durch Geschworene festgesetzte Taxe bei Expropriationen) wieder loszuschlagen oder durch Nähe irgend eines großen Unternehmens außerordentliche Wertherhöhung zu erschwindeln. Folge davon ist ein regelmäßiger Handel im Ankauf von Miethkontrakten, die ihrem Verfall nahen. „Von den Gentlemen in diesem Geschäft kann man erwarten, daß sie handeln, wie sie handeln, so viel wie möglich aus den Hausbewohnern herausschlagen und das Haus selbst in so elendem Zustand wie möglich ihren Nachfolgern überlassen“ 120). Die Miethen sind wöchentlich, und die Herren laufen kein Risico. In Folge der Eisenbahnbauten innerhalb der Stadt „sah man kürzlich im Osten Londons eine Anzahl aus ihren alten Wohnungen verjagter Familien umherwandern eines Samstags Abends mit ihren wenigen weltlichen Habseligkeiten auf dem Rücken, ohne irgend einen Haltplatz außer dem Workhouse“ 121). Die Workhouses sind bereits überfüllt und die vom Parlament bereits bewilligten „Verbesserungen“ sind erst im Beginn ihrer | Ausführung. Werden die Arbeiter verjagt durch Zerstörung ihrer alten Häuser, so verlassen sie nicht ihr Kirchspiel, oder siedeln sich höchstens an seiner Grenze, im nächsten fest. „Sie suchen natürlich möglichst in der Nähe ihrer Arbeitslokale zu hausen. Folge, daß an der Stelle von zwei Zimmern, eins die Familie aufnehmen muß. Selbst zu erhöhter Miethe wird die Wohnlichkeit schlechter als die schlechte, woraus man sie verjagt. Die Hälfte der Arbeiter im Strand braucht bereits zwei Meilen Reise zum Arbeitslokal.“ Dieser Strand, dessen Hauptstraße auf den Fremden einen imposanten Eindruck vom Reichthum Londons macht, kann als Beispiel der Londoner Menschenverpackung dienen. In einer Pfarrei desselben zählte der Gesundheitsbeamte 581 Personen auf den Acre, obgleich die Hälfte der Themse mit eingemessen war. Es versteht sich von selbst, daß jede gesundheitspolizeiliche Maßregel, die, wie das bisher in London der Fall, durch Niederschleifen untauglicher Häuser die Arbeiter aus einem Viertel verjagt, nur dazu dient, sie in ein andres desto dichter zusammen zu drängen. „Entweder“, sagt Dr. Hunter, „muß die ganze Procedur als eine Abgeschmacktheit nothwendig zum Stillstand kommen, oder die öffentliche Sympathie (!) muß erwachen für das, was man jetzt ohne Uebertreibung eine nationale Pflicht nennen kann, nämlich Obdach für Leute zu verschaffen, welche aus Mangel an Kapital sich selbst keins verschaffen, wohl aber durch periodische Zahlung die Vermiether entschädigen können“ 122). Man bewundre die kapitalistische Justiz! Der Grundeigenthümer, Hauseigner, Geschäftsmann, wenn expropriirt durch „improvements“, wie Eisenbahnen, Neubau der Straßen u. s. w., erhält nicht nur volle Entschädigung. Er muß für seine erzwungne „Entsagung“ von Gott und Rechts wegen noch obendrein durch einen erklecklichen Profit getröstet werden. Der Arbeiter wird mit Frau und Kind und Habe aufs Pflaster geworfen und ‒ wenn er zu massenhaft nach Stadtvierteln drängt, wo die Municipalität auf Anstand hält, gesundheitspolizeilich verfolgt!
+
+[v1-ch23s05-p0022] [MEGA p.594,595]
+Außer London gab es Anfang des 19. Jahrhunderts keine einzige Stadt in England, die 100000 Einwohner zählte. Nur fünf zählten mehr als 50000. Jetzt existiren 28 Städte mit mehr als 50000 Einwohnern. „Das Resultat dieses Wechsels war nicht nur enormer Zuwachs der städtischen Bevölkerung, sondern die alten dichtgepackten kleinen Städte sind nun Centra, die von allen Seiten umbaut sind, nirgendwo mit freiem Luftzutritt. Da sie für die Reichen nicht länger angenehm sind, werden sie von ihnen für die amüsanteren Vorstädte verlassen. Die Nachfolger dieser Reichen beziehn die größeren Häuser, eine Familie, oft noch mit Untermiethern, für jedes Zimmer. So ward eine Bevölkerung gedrängt in Häuser, nicht für sie bestimmt, und wofür sie durchaus unpassend, mit einer Umgebung, die wahrhaft erniedrigend für die Erwachsnen und ruinirend für die Kinder ist“ 123). Je rascher das Kapital in einer industriellen oder kommerciellen Stadt akkumulirt, um so rascher der Zustrom des exploitablen Menschenmaterials, um so elender die improvisirten Wohnlichkeiten der Arbeiter. Newcastle-upon-Tyne, als Centrum eines fortwährend ergiebigeren Kohlen- und Bergbaudistrikts, behauptet daher nach London die zweite Stelle in dem Wohnungsinferno. Nicht minder als 34000 Menschen hausen dort in Einzelkammern. In Folge absoluter Gemeinschädlichkeit sind kürzlich in Newcastle und Gateshead Häuser in bedeutender Anzahl von Polizei wegen zerstört worden. Der Bau der neuen Häuser geht sehr langsam voran, das Geschäft sehr rasch. Die Stadt war daher 1865 überfüllter als je zuvor. Kaum eine einzelne Kammer war zu vermiethen. Dr. Embleton vom Newcastle Fieberhospital sagt: „Ohne allen Zweifel liegt die Ursache der Fortdauer und Verbreitung des Typhus in der Ueberhäufung menschlicher Wesen und der Unreinlichkeit ihrer Wohnungen. Die Häuser, worin die Arbeiter häufig leben, liegen in abgeschloßnen Winkelgassen und Höfen. Sie sind mit Bezug auf Licht, Luft, Raum und Reinlichkeit wahre Muster von Mangelhaftigkeit und Ungesundheit, eine Schmach für jedes civilisirte Land. Dort liegen Männer, Weiber und Kinder des Nachts zusammengehudelt. Was die Männer angeht, folgt die Nachtschicht der Tagesschicht in ununterbrochnem Strom, so daß die Betten kaum Zeit zur Abkühlung finden. Die Häuser sind schlecht mit Wasser versehn und schlechter mit Abtritten, unfläthig, unventilirt, pestilenzialisch“ 124). Der Wochenpreis solcher Löcher steigt von 8 d. zu 3 sh. „Newcastle-upon-Tyne“, sagt Dr. Hunter „bietet das Beispiel eines der schönsten Stämme unsrer Landsleute, der durch die äußern Umstände von Behausung und Straße oft in eine beinah wilde Entartung versunken ist“ 125).
+
+[v1-ch23s05-p0023] [MEGA p.595,596]
+In Folge des Hin- und Herwogens von Kapital und Arbeit mag der Wohnungszustand einer industriellen Stadt heute erträglich sein, morgen wird er abscheulich. Oder die städtische Aedilität mag endlich sich aufgerafft haben zur Beseitigung der ärgsten Mißstände. Morgen wandert ein Heuschreckenschwarm von verlumpten Irländern oder verkommenen englischen Agrikulturarbeitern ein. Man steckt sie weg in Keller und Speicher oder verwandelt das früher respektable Arbeiterhaus in ein Logis, worin das Personal so rasch wechselt wie die Einquartierung während des dreißigjährigen Kriegs. Beispiel: Bradford. Dort war der Municipalphilister eben mit Stadtreform beschäftigt. Zudem gab es daselbst 1861 noch 1751 unbewohnte Häuser. Aber nun das gute Geschäft, worüber der sanft liberale Herr Forster, der Negerfreund, jüngst so artig gekräht hat. Mit dem guten Geschäft natürlich Ueberfluthung durch die Wellen der stets wogenden „Reservearmee“ oder „relativen Uebervölkerung“. Die scheußlichen Kellerwohnungen und Kammern, registrirt in der Liste ❲Note 126)❳, die Dr. Hunter vom Agenten einer Assekuranzgesellschaft erhielt, waren meist von gutbezahlten Arbeitern bewohnt. Sie erklärten, sie würden gern bessere Wohnungen zahlen, wenn sie zu haben wären. Unterdeß verlumpen und verkranken sie mit Mann und Maus, während der sanftliberale Forster, M. P., Thränen vergießt über die Segnungen des Freihandels und die Profite der eminenten Bradforder Köpfe, die in Worsted machen. Im Bericht vom 5. September 1865 erklärt Dr. Bell, einer der Armenärzte von Bradford, die furchtbare Sterblichkeit der Fieberkranken seines Bezirks aus ihren Wohnungsverhältnissen: „In einem Keller von 1500 Kubikfuß wohnen 10 Personen... Die Vincentstraße, Green Air Place und the Leys bergen 223 Häuser mit 1450 Einwohnern, 435 Betten und 36 Abtritten... Die Betten, und darunter verstehe ich jede Rolle von schmutzigen Lumpen oder Handvoll von Hobelspänen, halten jedes im Durchschnitt 3,3 Personen, manches 5 und 6 Personen. Viele schlafen ohne Bett auf nacktem Boden in ihren Kleidern, junge Männer und Weiber, verheirathet und unverheirathet, alles kunterbunt durch einander. Ist es nöthig hinzuzufügen, daß diese Hausungen meist dunkle, feuchte, schmutzige Stinkhöhlen sind, ganz und gar unpassend für menschliche Wohnung? Es sind die Centra, wovon Krankheit und Tod ausgehn und ihre Opfer auch unter den Gutgestellten (of good circumstances) packen, welche diesen Pestbeulen erlaubt haben in unsrer Mitte zu eitern“ 127).
+
+[v1-ch23s05-p0024] [MEGA p.596]
+Bristol behauptet den dritten Rang nach London im Wohnungselend. „Hier, in einer der reichsten Städte Europa’s, größter Ueberfluß an barster Armuth („blank poverty“) und häuslichem Elend“ 128).
+
+[v1-ch23s05-p0025] [MEGA p.597] [heading]
+c) Das Wandervolk.
+
+[v1-ch23s05-p0026] [MEGA p.597,598]
+Wir wenden uns nun zu einer Volksschicht, deren Ursprung ländlich, deren Beschäftigung großentheils industriell ist. Sie bildet die leichte Infanterie des Kapitals, die es je nach seinem Bedürfniß bald auf diesen Punkt wirft, bald auf jenen. Wenn nicht auf dem Marsch, „kampirt“ sie. Die Wanderarbeit wird verbraucht für verschiedne Bau- und Drainirungsoperationen, Backsteinmachen, Kalkbrennen, Eisenbahnbau u. s. w. Eine wandelnde Säule der Pestilenz importirt sie in die Orte, in deren Nachbarschaft sie ihr Lager aufschlägt, Pocken, Typhus, Cholera, Scharlachfieber u.s.w. 129). In Unternehmen von bedeutender Kapitalauslage, wie Eisenbahnbau u. s. w., liefert meist der Unternehmer selbst seiner Armee Holzhütten oder dergl., improvisirte Dörfer ohne alle Gesundheitsvorkehrung, jenseits der Kontrole der Lokalbehörden, sehr profitlich für den Herrn Kontraktor, der die Arbeiter doppelt ausbeutet, als Industriesoldaten und als Miether. Je nachdem die Holzhütte 1, 2 oder 3 Löcher enthält, hat ihr Insasse, Erdarbeiter u.s.w., 2, 3, 4sh. wöchentlich zu zahlen 130). Ein Beispiel genüge. Im September 1864, berichtet Dr. Simon, ging dem Minister des Innern, Sir George Grey, folgende Denunciation Seitens des Vorstehers des Nuisance Removal Committee der Pfarrei von Sevenoaks zu: „Pocken waren dieser Pfarrei ganz unbekannt bis etwa vor 12 Monaten. Kurz vor dieser Zeit wurden Arbeiten für eine Eisenbahn von Lewisham nach Tunbridge eröffnet. Außerdem daß die Hauptarbeiten in der unmittelbaren Nachbarschaft dieser Stadt ausgeführt wurden, ward hier auch das Hauptdepot des ganzen Werks errichtet. Große Personenzahl daher hier beschäftigt. Da es unmöglich war, sie alle in Cottages unterzubringen, ließ der Kontraktor, Herr Jay, längs der Linie der Bahn auf verschiednen Punkten Hütten aufschlagen zur Behausung der Arbeiter. Diese Hütten besaßen weder Ventilation noch Abzugsgerinne und waren außerdem nothwendig überfüllt, weil jeder Miether andre Logirer aufnehmen mußte, wie zahlreich immer seine eigne Familie, und obgleich jede Hütte nur zweizimmrig. Nach dem ärztlichen Bericht, den wir erhielten, war die Folge, daß diese armen Leute zur Nachtzeit alle Qualen der Erstickung zu erdulden hatten, zur Vermeidung der pestilenzialischen Dünste von dem schmutzigen stehenden Wasser und den Abtritten dicht unter den Fenstern. Endlich wurden unsrem Comité Klagen eingehändigt von einem Arzte, der Gelegenheit hatte diese Hütten zu besuchen. Er sprach über den Zustand dieser sog. Wohnlichkeiten in den bittersten Ausdrücken und befürchtete sehr ernsthafte Folgen, falls nicht einige Gesundheitsvorkehrungen getroffen würden. Ungefähr vor einem Jahr verpflichtete sich p. p. Jay ein Haus einzurichten, worin die von ihm beschäftigten Personen, beim Ausbruch ansteckender Krankheiten, sofort entfernt werden sollten. Er wiederholte dieß Versprechen Ende letzten Juli’s, that aber nie den geringsten Schritt zur Ausführung, obgleich seit diesem Datum verschiedne Fälle von Pocken und in Folge davon zwei Todesfälle vorkamen. Am 9. September berichtete mir Arzt Kelson weitere Pockenfälle in denselben Hütten und beschrieb ihren Zustand als entsetzlich. Zu Ihrer (des Ministers) Information muß ich hinzufügen, daß unsere Pfarrei ein isolirtes Haus besitzt, das sog. Pest-| haus, wo die Pfarreigenossen, die von ansteckenden Krankheiten leiden, verpflegt werden. Dieß Haus ist jetzt seit Monaten fortwährend mit Patienten überfüllt. In einer Familie starben fünf Kinder an Pocken und Fieber. Vom 1. April bis 1. September dieses Jahres kamen nicht weniger als 10 Todesfälle an Pocken vor, 4 in den besagten Hütten, den Pestquellen. Es ist unmöglich, die Zahl der Krankheitsfälle anzugeben, da die heimgesuchten Familien sie so geheim als möglich halten“ 131).
+
+[v1-ch23s05-p0027] [MEGA p.598,599]
+Die Arbeiter in Kohlen- und anderen Bergwerken gehören zu den bestbezahlten Kategorien des britischen Proletariats. Zu welchem Preis sie ihren Lohn erkaufen, wurde an einer früheren Stelle gezeigt 132). Ich werfe hier einen raschen Blick auf ihre Wohnlichkeitsverhältnisse. In der Regel errichtet der Exploiteur des Bergwerks, ob Eigenthümer oder Miether desselben, eine Anzahl Cottages für seine Hände. Sie erhalten Cottages und Kohlen zur Feuerung „umsonst“, d. h. letztre bilden einen in natura gelieferten Theil des Lohns. Die nicht in dieser Art Unterbringbaren erhalten zum Ersatz 4 Pfd. St. per Jahr. Die Bergwerksdistrikte ziehn rasch eine große Bevölkerung an, zusammengesetzt aus der Minenbevölkerung selbst und den Handwerkern, Krämern u. s. w., die sich um sie gruppiren. Wie überall, wo die Bevölkerung dicht, ist die Bodenrente hier hoch. Der Bergbauunternehmer sucht daher auf möglichst engem Bauplatz am Mund der Gruben so viel Cottages aufzuwerfen, als grade nöthig sind, um seine Hände und ihre Familien zusammenzupacken. Werden neue Gruben in der Nähe eröffnet oder alte wieder in Angriff genommen, so wächst das Gedränge. Bei der Konstruktion der Cottages waltet nur ein Gesichtspunkt, „Entsagung“ des Kapitalisten auf alle nicht absolut unvermeidliche Ausgabe von Baarem. „Die Wohnungen der Gruben- und andrer Arbeiter, die mit den Bergwerken von Northumberland und Durham verknüpft sind“, sagt Dr. Julian Hunter, „sind vielleicht im Durchschnitt das Schlechteste und Theuerste, was England auf großer Stufenleiter in dieser Art bietet, mit Ausnahme jedoch ähnlicher Distrikte in Monmouthshire. Die extreme Schlechtigkeit liegt in der hohen Menschenzahl, die ein Zimmer füllt, in der Enge des Bauplatzes, worauf eine große Häusermasse geworfen wird, im Wassermangel und Abwesenheit von Abtritten, in der häufig angewandten Methode, ein Haus über ein andres zu stellen oder sie in flats (so daß die verschiednen Cottages vertikal über einander liegende Stockwerke bilden) zu vertheilen... Der Unternehmer behandelt die ganze Kolonie, als ob sie nur kampire, nicht residire“ 133). „In Ausführung meiner Instruktionen“, sagt Dr. Stevens, „habe ich die meisten großen Bergwerksdörfer der Durham Union besucht... Mit sehr wenigen Ausnahmen gilt von allen, daß jedes Mittel zur Sicherung der Gesundheit der Einwohner vernachlässigt wird... Alle Grubenarbeiter sind an den Pächter („lessee“) oder Eigenthümer des Bergwerks für 12 Monate gebunden („bound“, Ausdruck, der wie bondage aus der Zeit der Leibeigenschaft stammt). Wenn sie ihrer Unzufriedenheit Luft machen oder in irgend einer Art den Aufseher („viewer“) belästigen, so setzt er eine Marke oder ein Memorandum hinter ihre Namen im Aufsichtsbuch und entläßt sie bei der jährlichen Neu-Bindung... Es scheint mir, daß kein Theil des Trucksystems schlechter sein kann als das in diesen dichtbevölkerten Distrikten herrschende. Der Arbeiter ist gezwungen, als Theil seines Lohns ein mit pestilenzialischen Einflüssen umgebnes Haus zu empfangen. Er kann sich nicht selbst helfen. Er ist in jeder Rücksicht ein Leibeigner (he is to all intents and purposes a serf). Es scheint fraglich, ob jemand sonst ihm helfen kann außer seinem Eigenthümer, und dieser Eigenthümer zieht vor allem sein Bilanzkonto zu Rath, und das Resultat ist ziemlich unfehlbar. Der Arbeiter erhält von dem Eigenthümer auch seine Zufuhr an Wasser. Es sei gut oder schlecht, es werde geliefert oder zurückgehalten, er muß dafür zahlen oder sich vielmehr einen Lohnabzug gefallen lassen“ 134).
+
+[v1-ch23s05-p0028] [MEGA p.599,600]
+Im Konflikt mit der „öffentlichen Meinung“ oder auch der Gesundheitspolizei genirt sich das Kapital durchaus nicht, die theils gefährlichen, theils entwürdigenden Bedingungen, worin es Funktion und Häuslichkeit des Arbeiters bannt, damit zu „rechtfertigen“, das sei nöthig, um ihn profitlicher auszubeuten. So, wenn es entsagt auf Vorrichtungen zum Schutz gegen gefährliche Maschinerie in der Fabrik, auf Ventilations- und Sicherheitsmittel in den Minen u.s.w. So hier mit der Behausung der Minenarbeiter. „Als Entschuldigung“, sagt Dr. Simon, der ärztliche Beamte des Privy Council, in seinem officiellen Bericht, „als Entschuldigung für die nichtswürdige Hauseinrichtung wird angeführt, daß Minen gewöhnlich pachtweise exploitirt werden, daß die Dauer des Pachtkontrakts (in Kohlenwerken meist 21 Jahre) zu kurz ist, damit der Minenpächter es der Mühe werth halte, gute Hauseinrichtung für das Arbeitsvolk und die Gewerbsleute u. s. w. zu liefern, welche die Unternehmung anzieht; hätte er selbst die Absicht, nach dieser Seite hin liberal zu verfahren, so würde sie vereitelt werden durch den Grundeigenthümer. Der habe nämlich die Tendenz, sofort exorbitante Zuschußrente zu verlangen für das Privilegium, ein anständiges und komfortables Dorf auf der Grundoberfläche zu errichten zur Behausung der Bearbeiter des unterirdischen Eigenthums. Dieser prohibitorische Preis, wenn nicht direkte Prohibition, schrecke ebenfalls andre ab, welche sonst wohl bauen möchten... Ich will den Werth dieser Entschuldigung nicht weiter untersuchen, auch nicht, auf wen denn in letzter Hand die zuschüssige Ausgabe für anständige Wohnlichkeit fallen würde, auf den Grundherrn, den Minenpächter, die Arbeiter oder das Publikum... Aber Angesichts solcher schmählichen Thatsachen, wie die beigefügten Berichte ❲des Dr. Hunter, Stevens u.s.w.❳ sie enthüllen, muß ein Heilmittel angewandt werden... Grundeigenthumstitel werden so benutzt, um ein großes öffentliches Unrecht zu begehn. In seiner Eigenschaft als Mineneigner ladet der Grundherr eine industrielle Kolonie zur Arbeit auf seiner Domaine ein, und macht dann, in seiner Eigenschaft als Eigenthümer der Grundoberfläche, den von ihm versammelten Arbeitern unmöglich, die zu ihrem Leben unentbehrliche, geeignete Wohnlichkeit zu finden. Der Minenpächter ❲der kapitalistische Exploiteur❳ hat kein Geldinteresse, dieser Theilung des Handels zu widerstehn, da er wohl weiß, daß wenn die letztern Ansprüche exorbitant sind, die Folgen nicht auf ihn fallen, daß die Arbeiter, auf die sie fallen, zu unerzogen sind, um ihre Gesundheitsrechte zu kennen, und daß weder obscönste Wohnlichkeit noch faulstes Trinkwasser jemals Anlaß zu einem Strike liefern“ 135). |
+
+[v1-ch23s05-p0029] [MEGA p.600] [heading]
+d) Wirkung der Krisen auf den bestbezahlten Theil der Arbeiterklasse.
+
+[v1-ch23s05-p0030] [MEGA p.600,601,602,603]
+Bevor ich zu den eigentlichen Agrikulturarbeitern übergehe, soll an einem Beispiel noch gezeigt werden, wie die Krisen selbst auf den bestbezahlten Theil der Arbeiterklasse, auf ihre Aristokratie, wirken. Man erinnert sich: das Jahr 1857 brachte eine der großen Krisen, womit der industrielle Cyklus jedesmal abschließt. Der nächste Termin wurde 1866 fällig. Bereits diskontirt in den eigentlichen Fabrikdistrikten durch die Baumwollnoth, welche viel Kapital aus der gewohnten Anlagesphäre zu den großen Centralsitzen des Geldmarkts jagte, nahm die Krise dießmal einen vorwiegend finanziellen Charakter an. Ihr Ausbruch im Mai 1866 wurde signalisirt durch den Fall einer Londoner Riesenbank, dem der Zusammensturz zahlloser finanzieller Schwindelgesellschaften auf dem Fuß nachfolgte. Einer der großen Londoner Geschäftszweige, welche die Katastrophe traf, war der eiserne Schiffsbau. Die Magnaten dieses Geschäfts hatten während der Schwindelzeit nicht nur maßlos überproducirt, sondern zudem enorme Lieferungskontrakte übernommen, auf die Spekulation hin, daß die Kreditquelle gleich reichlich fort fließen werde. Jetzt trat eine furchtbare Reaktion ein, die auch in andren Londoner Industrien 136) bis zur Stunde, Ende März 1867, fortdauert. Zur Charakteristik der Lage der Arbeiter folgende Stelle aus dem ausführlichen Bericht eines Korrespondenten des Morning Star, welcher Anfang 1867 die Hauptsitze des Leidens besuchte. „Im Osten von London, den Distrikten von Poplar, Millwall, Greenwich, Deptford, Limehouse und Canning Town befinden sich mindestens 15000 Arbeiter sammt Familien in einem Zustand äußerster Noth, darunter über 3000 geschickte Mechaniker. Ihre Reservefonds sind erschöpft in Folge sechs- oder achtmonatiger Arbeitslosigkeit... Ich hatte große Mühe, zum Thor des Workhouse (von Poplar) vorzudringen, denn es war belagert von einem ausgehungerten Haufen. Er wartete auf Brodbillets, aber die Zeit zur Vertheilung war noch nicht gekommen. Der Hof bildet ein großes Quadrat mit einem Pultdach, das rings um seine Mauern läuft. Dichte Schneehaufen bedeckten die Pflastersteine in der Mitte des Hofes. Hier waren gewisse kleine Plätze mit Weidengeflecht abgeschlossen, gleich Schafhürden, worin die Männer bei besserem Wetter arbeiten. Am Tage meines Besuchs waren die Hürden so verschneit, daß Niemand in ihnen sitzen konnte. Die Männer waren jedoch unter dem Schutz der Dachvorsprünge mit Macadamisirung von Pflastersteinen beschäftigt. Jeder hatte einen dicken Pflasterstein zum Sitz und klopfte mit schwerem Hammer auf den frostbedeckten Granit, bis er 5 Bushel davon abgehauen hatte. Dann war sein Tagewerk verrichtet und erhielt er 3 d. (2 Silbergroschen, 6 Pfennige) und ein Billet für Brod. In einem andren Theil des Hofes stand ein rhachitisches kleines Holzhaus. Beim Oeffnen der Thür fanden wir es gefüllt mit Männern, Schulter an Schulter gedrängt, um einander warm zu halten. Sie zupften Schiffstau und stritten mit einander, wer von ihnen mit einem Minimum von Nahrung am längsten arbeiten könne, denn Ausdauer war der point d’honneur. In diesem einen Workhouse allein erhielten 7000 Unterstützung, darunter viele Hunderte, die 6 oder 8 Monate zuvor die höchsten Löhne geschickter Arbeit in diesem Land verdienten. Ihre Zahl wäre doppelt so groß gewesen, gäbe es nicht so viele, welche nach Erschöpfung ihrer ganzen Geldreserve dennoch vor Zuflucht zur Pfarrei zurückbeben, so lange sie noch irgend etwas zu versetzen haben... Das Workhouse verlassend, machte ich einen Gang durch die Straßen von meist einstöckigen Häusern, die in Poplar so zahlreich. Mein Führer war Mitglied des Comité für die Arbeitslosen. Das erste Haus, worin wir eintraten, war das eines Eisenarbeiters, seit 27 Wochen außer Beschäftigung. Ich fand den Mann mit seiner ganzen Familie in einem Hinterzimmer sitzend. Das Zimmer war noch nicht ganz von Möbeln entblößt, und es war Feuer darin. Dieß war nöthig, um die nackten Füße der jungen Kinder vor Frost zu schützen, denn es war ein grimmig kalter Tag. Auf einem Teller gegenüber dem Feuer lag ein Quantum Werg, welches Frau und Kinder zupften in Erstattung des Brods vom Workhouse. Der Mann arbeitete in einem der oben beschriebenen Höfe für ein Brodbillet und 3 d. per Tag. Er kam jetzt nach Haus zum Mittagessen, sehr hungrig, wie er uns mit einem bittern Lächeln sagte, und sein Mittagessen bestand aus einigen Brodschnitten mit Schmalz und einer Tasse milchlosen Thees... Die nächste Thür, an der wir anklopften, wurde geöffent durch ein Frauenzimmer mittleren Alters, die, ohne ein Wort zu sagen, uns in ein kleines Hinterzimmer führte, wo ihre ganze Familie saß, schweigend, die Augen auf ein rasch ersterbendes Feuer geheftet. Solche Verödung, solche Hoffnungslosigkeit hing um diese Leute und ihr kleines Zimmer, daß ich nicht wünsche, je eine ähnliche Scene wieder zu sehn. ‚Nichts haben sie verdient, mein Herr‘, sagte die Frau, auf ihre Jungen zeigend, ‚nichts für 26 Wochen, und all unser Geld ist hingegangen, alles Geld, das ich und der Vater in den beßren Zeiten zurücklegten, in dem Wahn, einen Rückhalt während schlechten Geschäfts zu sichern. Sehn sie es‘, schrie sie fast wild, indem sie ein Bankbuch hervorholte mit allen seinen regelmäßigen Nachweisen über eingezahltes und rückerhaltnes Geld, so daß wir sehn konnten, wie das kleine Vermögen begonnen hatte mit dem ersten Deposit von 5 Shilling, wie es nach und nach zu 20 Pfd. St. aufwuchs und dann wieder zusammenschmolz, von Pfunden zu Shillingen, bis der letzte Eintrag das Buch so werthlos machte, wie ein leeres Stück Papier. Diese Familie erhielt ein nothdürftiges Mahl täglich vom Workhouse... Unsere folgende Visite war zur Frau eines Irländers, der an den Schiffswerften gearbeitet hatte. Wir fanden sie krank von Nahrungsmangel, in ihren Kleidern auf eine Matratze gestreckt, knapp bedeckt mit einem Stück Teppich, denn alles Bettzeug war im Pfandhaus. Die elenden Kinder warteten sie und sahen aus, als bedürften sie umgekehrt der mütterlichen Pflege. Neunzehn Wochen erzwungnen Müßiggangs hatten sie so weit heruntergebracht, und während sie die Geschichte der bittern Vergangenheit erzählte, stöhnte sie, als ob alle Hoffnung auf eine bessere Zukunft verloren wäre... Beim Austritt aus dem Hause rannte ein junger Mann auf uns zu und bat uns, in sein Haus zu gehn und zu sehn, ob irgend etwas für ihn geschehen könne. Ein junges Weib, zwei hübsche Kinder, ein Kluster von Pfandzetteln und ein ganz kahles Zimmer war alles, was er zu zeigen hatte.“
+
+[v1-ch23s05-p0031] [MEGA p.603]
+Ueber die Nachwehen der Krise von 1866 folgender Auszug aus einer torystischen Zeitung. Man muß nicht vergessen, daß der Osttheil Londons, um den es sich hier handelt, nicht nur Sitz der im Text des Kapitels erwähnten eisernen Schiffsbauer, sondern auch einer stets unter dem Minimum bezahlten sog. „Hausarbeit“ ist. „Ein entsetzliches Schauspiel entrollte sich gestern in einem Theil der Metropole. Obgleich die arbeitslosen Tausende des Ostendes mit schwarzen Trauerflaggen nicht in Masse paradirten, war der Menschenstrom imposant genug. Erinnern wir uns, was diese Bevölkerung leidet. Sie stirbt vor Hunger. Das ist die einfache und furchtbare Thatsache. Es sind ihrer 40000... In unsrer Gegenwart, in einem Viertel dieser wundervollen Metropole, dicht neben der enormsten Akkumulation von Reichthum, welche die Welt je sah, dicht dabei 40000 hülflos verhungernd! Diese Tausende brechen jetzt ein in die andren Viertel; sie, in allen Zeiten halbverhungert, schreien uns ihr Weh ins Ohr, sie schreien es zum Himmel, sie erzählen uns von ihren elendgeschlagenen Wohnungen, daß es unmöglich für sie, Arbeit zu finden und nutzlos, zu betteln. Die lokalen Armensteuerpflichtigen sind durch die Forderungen der Pfarreien selbst an den Rand des Pauperismus getrieben.“ (Standard. 5. April, 1867.)
+
+[v1-ch23s05-p0032] [MEGA p.603,604]
+Da es Mode unter den englischen Kapitalisten ist, Belgien als das Paradies des Arbeiters zu schildern, weil „die Freiheit der Arbeit“ oder, was dasselbe ist, „die Freiheit des Kapitals“, dort weder durch den Despotismus der Trades’ Unions noch durch Fabrikgesetze verkümmert sei, hier ein paar Worte über das „Glück“ des belgischen Arbeiters. Sicher war niemand tiefer eingeweiht in die Mysterien dieses Glücks als der verstorbene Herr Ducpétiaux, Generalinspektor der belgischen Gefängnisse und Wohlthätigkeitsanstalten, und Mitglied der Centralkommission für belgische Statistik. Nehmen wir sein Werk: „Budgets économiques des classes ouvrières en Belgique, Bruxelles 1855“. Hier finden wir u. A. eine belgische Normalarbeiterfamilie, deren jährliche Ausgaben und Einnahmen nach sehr genauen Daten berechnet, und deren Nahrungsverhältnisse dann mit denen des Soldaten, des Flottenmatrosen und des Gefangnen verglichen werden. Die Familie „besteht aus Vater, Mutter und vier Kindern“. Von diesen sechs Personen „können vier das ganze Jahr durch nützlich beschäftigt werden“; es wird vorausgesetzt, „daß es weder Kranke noch Arbeitsunfähige darunter gibt“, noch „Ausgaben für religiöse, moralische und intellektuelle Zwecke, ausgenommen ein sehr Geringes für Kirchenstühle“, noch „Beiträge zu Sparkassen oder Altersversorgungskassen“, noch „Luxus- oder sonstige überflüssige Ausgaben“. Doch sollen der Vater und der älteste Sohn Tabak rauchen und Sonntags das Wirthshaus besuchen dürfen, wofür ihnen ganze 86 Centimen die Woche ausgesetzt sind. „Aus der Gesammtzusammenstellung der den Arbeitern der verschiednen Geschäftszweige bewilligten Löhne folgt... daß der höchste Durchschnitt des täglichen Lohns ist: 1 fr. 56 c. für Männer, 89 c. für Frauen, 56 c. für Knaben und 55 c. für Mädchen. Hiernach berechnet, würden sich die Einkünfte der Familie allerhöchstens auf 1068 fr. jährlich belaufen... In der als typisch angenommenen Haushaltung haben wir alle möglichen Einkünfte zusammengerechnet. Wenn wir aber der Mutter einen Arbeitslohn anrechnen, entziehen wir dadurch die Haushaltung ihrer Leitung; wer besorgt das Haus, wer die kleinen Kinder? Wer soll kochen, waschen, flicken? Dieß Dilemma tritt jeden Tag vor die Arbeiter.“
+
+[v1-ch23s05-p0033] [MEGA p.604]
+Der Budget der Familie ist demnach:
+[table]
+Der Vater, | 300 Arbeitstage zu | fr. | 1,56 |  | fr. | 468,—.
+Die Mutter |  | „ | 0,89 |  | „ | 267,—.
+Der Junge |  | „ | 0,56 |  | „ | 168,—.
+Das Mädchen |  | „ | 0,55 |  | „ | 165,—.
+ |  |  |  | Total | fr. | 1068,—.
+[/table]
+
+[v1-ch23s05-p0034] [MEGA p.604]
+Die Jahresausgabe der Familie und ihr Deficit würden ausmachen, falls der Arbeiter die Nahrung hätte:
+[table]
+Des Flottenmatrosen | fr. | 1828,— | Deficit | fr. | 760,—.
+Des Soldaten | „ | 1473,— | „ | „ | 405,—.
+Des Gefangenen | „ | 1112,— | „ | „ | 44,—.
+[/table]
+
+[v1-ch23s05-p0035] [MEGA p.604,605]
+„Man sieht, daß wenig Arbeiterfamilien sich die Nahrung verschaffen können, nicht etwa des Matrosen oder des Soldaten, sondern selbst des Gefangnen. Im Durchschnitt hat jeder Gefangne 1847/49 in Belgien 63 c. täglich gekostet, was gegen die täglichen Unterhaltungskosten des Arbeiters einen Unterschied von 13 c. ergibt. Die Verwaltungs- und Ueberwachungskosten gleichen sich aus dagegen, daß der Gefangne keine Miethe zahlt..... Wie aber geht es zu, daß eine große Zahl, wir könnten sagen die große Mehrzahl der Arbeiter in noch sparsameren Verhältnissen lebt? Nur indem sie zu Nothbehelfen flüchtet, wovon der Arbeiter allein das Geheimniß hat; indem sie an der täglichen Ration abknappt; Roggenbrod statt Weizenbrod ißt; weniger oder gar kein Fleisch ißt; ebenso mit Butter und Gewürzen; indem sie die Familie in eine oder zwei Kammern packt, wo Mädchen und Jungen zusammen schlafen, oft auf demselben Strohsack; indem sie an der Kleidung spart, der Wäsche, den Reinigungsmitteln; indem sie den Sonntagsvergnügungen entsagt, kurz sich zu den schmerzlichsten Entbehrungen entschließt. Einmal bei dieser letzten Grenze angelangt, vermehrt der geringste Preisaufschlag der Lebensmittel, eine Arbeitsstockung, eine Krankheit das Elend des Arbeiters und ruinirt ihn vollständig. Die Schulden häufen sich, der Kredit wird versagt, die Kleider, die nothwendigsten Möbel wandern ins Pfandhaus, und schließlich bittet die Familie um Einschreibung in die Armenliste.“ 137) In der That folgt in diesem „Paradiese der Kapitalisten“ auf die geringste Aenderung im Preise der nothwendigsten Lebensmittel eine Aenderung in der Zahl der Todesfälle und Verbrechen! (Sieh Manifest der Maatschappij: „De Vlamingen Vooruit! Brussel 1860“, p. 13,14.) Ganz Belgien zählt 930000 Familien, davon, nach officieller Statistik: 90000 Reiche (Wähler) = 450000 Personen; 390000 Familien der kleinen Mittelklasse, in Stadt und Dorf, großer Theil davon stets ins Proletariat fallend, = 1950000 Personen. Endlich 450000 Arbeiterfamilien = 2250000 Personen, von welchen die Musterfamilien das durch Ducpétiaux geschilderte Glück genießen. Unter den 450000 Arbeiterfamilien über 200000 auf der Armenliste!
+
+[v1-ch23s05-p0036] [MEGA p.605] [heading]
+e) Das britische Ackerbauproletariat.
+
+[v1-ch23s05-p0037] [MEGA p.605]
+Der antagonistische Charakter der kapitalistischen Produktion und Akkumulation bewährt sich nirgendwo brutaler als in dem Fortschritt des englischen Landbaus (Viehzucht eingeschlossen) und dem Rückschritt des englischen Landarbeiters. Bevor ich zu seiner gegenwärtigen Lage übergehe, ein rascher Rückblick. Die moderne Agrikultur datirt in England von der Mitte des 18. Jahrhunderts, obgleich die Umwälzung der Grundeigenthumsverhältnisse, wovon die veränderte Produktionsweise als Grundlage ausgeht, viel früheren Datums.
+
+[v1-ch23s05-p0038] [MEGA p.606]
+Nehmen wir Arthur Young’s, eines genauen Beobachters, obgleich oberflächlichen Denkers, Angaben über den Landarbeiter von 1771, so spielt letztrer eine sehr elende Rolle, verglichen mit seinem Vorgänger Ende des 14. Jahrhunderts, „wo er in Fülle leben und Reichthum akkumuliren konnte“ 138), gar nicht zu sprechen vom 15. Jahrhundert, „dem goldnen Zeitalter der englischen Arbeiter in Stadt und Land“. Wir brauchen jedoch nicht soweit zurückzugehn. In einer sehr gehaltreichen Schrift von 1777 liest man: „Der große Pächter hat sich beinahe erhoben zum Niveau des Gentleman, während der arme Landarbeiter fast zu Boden gedrückt ist... Seine unglückliche Lage zeigt sich klar durch eine vergleichende Uebersicht seiner Verhältnisse von heute und von 40 Jahr früher.... Grundeigenthümer und Pächter wirken Hand in Hand zur Unterdrückung des Arbeiters“ 139). Es wird dann im Detail nachgewiesen, daß der reelle Arbeitslohn auf dem Lande von 1737 bis 1777 um beinahe ¼ oder 25 % gefallen ist. „Die moderne Politik“, sagt gleichzeitig Dr. Richard Price, „begünstigt die höheren Volksklassen; die Folge wird sein, daß früher oder später das ganze Königreich nur aus Gentlemen und Bettlern, aus Granden und Sklaven besteht“ 140).
+
+[v1-ch23s05-p0039] [MEGA p.606]
+Dennoch ist die Lage des englischen Landarbeiters von 1770 bis 1780, sowohl was seine Nahrungs- und Wohnlichkeitszustände, als sein Selbstgefühl, Belustigungen u. s. w. betrifft, ein später nie wieder erreichtes Ideal. In Pints Weizen ausgedrückt betrug sein Durchschnittslohn 1770 bis 1771 90 Pints, zu Eden’s Zeit (1797) nur noch 65, 1808 aber 60 141).
+
+[v1-ch23s05-p0040] [MEGA p.606,607]
+Der Zustand der Landarbeiter Ende des Antijakobinerkriegs, während dessen Grundaristokraten, Pächter, Fabrikanten, Kaufleute, Banquiers, Börsenritter, Armeelieferanten u. s. w. sich so außerordentlich bereichert, ward bereits früher angedeutet. Der nominelle Lohn stieg in Folge theils der Banknoten-Depreciation, theils einer hiervon unabhängigen Zunahme im Preis der ersten Lebensmittel. Die wirkliche Lohnbewegung ist aber auf sehr einfache Art zu konstatiren, ohne Zuflucht zu hier unzulässigen Details. Das Armengesetz und seine Administration waren 1795 und 1814 dieselben. Man erinnert sich, wie dieß Gesetz auf dem Land gehandhabt wurde: in der Gestalt von Almosen ergänzte die Pfarrei den Nominallohn bis zu der für bloße Vegetation des Arbeiters erheischten Nominalsumme. Das Verhältniß zwischen dem vom Pächter gezahlten Lohn und dem von der Pfarrei gutgemachten Lohndeficit zeigt uns zweierlei, erstens die Senkung des Arbeitslohns unter sein Minimum, zweitens den Grad, worin der Landarbeiter aus Lohnarbeiter und Pauper zusammengesetzt war, oder den Grad, worin man ihn in einen Leibeignen seiner Pfarrei verwandelt hatte. Wir wählen eine Grafschaft, die das Durchschnittsverhältniß in allen andren Grafschaften repräsentirt. 1795 betrug der durchschnittliche Wochenlohn in Northamptonshire 7 sh. 6 d., die jährliche Totalausgabe einer Familie von 6 Personen 36 Pfd. St. 12 sh. 5 d., ihre Totaleinnahme 29 Pfd. St. 18 sh., das von der Pfarrei gut gemachte Deficit: 6 Pfd. St. 14 sh. 5 d. In derselben Grafschaft betrug 1814 der Wochenlohn 12 sh. 2 d., die jährliche Totalausgabe einer Familie von 5 Personen 54 Pfd. St. 18 sh. 4 d., ihre Totaleinnahme 36 Pfd. St. 2 sh., das von der Pfarrei gutgemachte Deficit: 18 Pfd. St. 6 sh. 4 d. 142), 1795 betrug das Deficit weniger als ¼ des Arbeitslohns, 1814 mehr als die Hälfte. Es versteht sich von selbst, daß unter diesen Umständen die geringen Komforts, die Eden noch in der Cottage des Landarbeiters fand, 1814 verschwunden waren 143). Unter allen Thieren, die der Pächter hält, blieb von nun an der Arbeiter, das instrumentum vocale, das meist geplackte, schlechtest gefütterte und brutalst behandelte.
+
+[v1-ch23s05-p0041] [MEGA p.607]
+Derselbe Zustand der Dinge dauerte ruhig fort, bis „die Swing Aufstände 1830 uns (d. h. den herrschenden Klassen) beim Lichtflammen der Kornschober enthüllten, daß Elend und dunkle aufrührerische Unzufriedenheit eben so wild unter der Oberfläche des agrikolen als des industriellen Englands lodre“ 144). Sadler taufte damals im Unterhaus die Landarbeiter „weiße Sklaven“ („white slaves“), ein Bischof hallte das Epithet im Oberhaus wieder. Der bedeutendste politische Oekonom jener Periode, E. G. Wakefield, sagt: „Der Landarbeiter Südenglands ist kein Sklave, er ist kein freier Mann, er ist ein Pauper“ 145).
+
+[v1-ch23s05-p0042] [MEGA p.607,608]
+Die Zeit unmittelbar vor der Aufhebung der Korngesetze warf neues Licht auf die Lage der Landarbeiter. Einerseits lag es im Interesse der bürgerlichen Agitatoren nachzuweisen, wie wenig jene Schutzgesetze den wirklichen Kornproducenten beschützten. Andrerseits schäumte die industrielle Bourgeoisie auf von Ingrimm über die Denunciation der Fabrikzustände seitens der Grundaristokraten, über die affektirte Sympathie dieser grundverdorbnen, herzlosen und vornehmen Müßiggänger mit den Leiden des Fabrikarbeiters, und ihren „diplomatischen Eifer“ für Fabrikgesetzgebung. Es ist ein altes englisches Sprichwort, daß wenn zwei Diebe sich in die Haare fallen, immer etwas Nützliches geschieht. Und in der That, der geräuschvolle, leidenschaftliche Zank zwischen den zwei Fraktionen der herrschenden Klasse über die Frage, welche von beiden den Arbeiter am schamlosesten ausbeute, wurde rechts und links Geburtshelfer der Wahrheit. Graf Shaftesbury, alias Lord Ashley, war Vorkämpfer im aristokratischen Antifabrikphilanthropiefeldzug. Er bildet daher 1844 bis 1845 ein Lieblingsthema in den Enthüllungen des Morning Chronicle über die Zustände der Agrikulturarbeiter. Jenes Blatt, damals das bedeutendste liberale Organ, schickte in die Landdistrikte eigne Kommissäre, welche sich keineswegs mit allgemeiner Schilderung und Statistik begnügten, sondern die Namen sowohl der untersuchten Arbeiterfamilien als ihrer Grundherrn veröffentlichten. Die folgende Liste gibt Löhne, gezahlt auf drei Dörfern, in der Nachbarschaft von Blanford, Wimbourne und Poole. Die Dörfer sind Eigenthum des Mr. G. Bankes und des Grafen von Shaftesbury. Man wird bemerken, daß dieser Pabst der „low church“, dieß Haupt der englischen Pietisten, ebenso wie p. p. Bankes von den Hundelöhnen der Arbeiter wieder einen bedeutenden Theil unter dem Vorwand von Hausrente einsteckt.
+
+[v1-ch23s05-p0043] [MEGA p.608]
+Erstes Dorf.
+[table]
+a) | b) | c) | d) | e) | f) | g) | h)
+Kinder. | Zahl | Wöchentl- | Wöchentl- | Wochen- | Wöchentl- | Gesammt- | Wochen-
+ | der | licher | licher- | einnahme | liche | wochenlohn | lohn
+ | Familien- | Arbeits- | Kinder- | der | Haus- | nach Abzug | per Kopf.
+ | glieder. | lohn der | lohn. | Gesammt- | miethe. | der Haus- | 
+ |  | Männer. |  | familie. |  | miethe. | 
+2 | 4 | 8 sh. |  | 8 sh. | 2 sh. | 6 sh. | 1 sh. 6 d.
+3 | 5 | 8 sh. |  | 8 sh. | 1 sh. 6 d. | 6 sh. 6 d. | 1 sh. 3½ d.
+2 | 4 | 8 sh. |  | 8 sh. | 1 sh. | 7 sh. | 1 sh. 9 d.
+2 | 4 | 8 sh. |  | 8 sh. | 1 sh. | 7 sh. | 1 sh. 9 d.
+6 | 8 | 7 sh. | 1 sh. 6 d. | 10 sh. 6 d. | 2 sh. | 8 sh. 6 d. | 1 sh. 0¾ d.
+3 | 5 | 7 sh. | 2 sh. | 7 sh. | 1 sh. 4 d. | 5 sh. 8 d. | 1 sh. 1½ d. |
+[/table]
+
+[v1-ch23s05-p0044] [MEGA p.608,609]
+Zweites Dorf.
+[table]
+6 | 8 | 7 sh. | 1 sh. 6 d. | 10 sh. | 1 sh. 6 d. | 8 sh. 6 d. | 1 sh. 0¾ d.
+6 | 8 | 7 sh. | 1 sh. 6 d. | 7 sh. | 1 sh. 3½ d. | 5 sh. 8½ d. | 0 sh. 8½ d.
+8 | 10 | 7 sh. |  | 7 sh. | 1 sh. 3½ d. | 5 sh. 8½ d. | 0 sh. 7 d.
+4 | 6 | 7 sh. |  | 7 sh. | 1 sh. 6½ d. | 5 sh. 5½ d. | 0 sh. 11 d.
+3 | 5 | 7 sh. |  | 7 sh. | 1 sh. 6½ d. | 5 sh. 5½ d. | 1 sh. 1 d.
+[/table]
+[table]
+[a) | [b) | [c) | [d) | [e) | [f) | [g) | [h)
+Kinder.] | Zahl | Wöchentl- | Wöchentl- | Wochen- | Wöchentl- | Gesammt- | Wochen-
+ | der | licher | licher- | einnahme | liche | wochenlohn | lohn
+ | Familien- | Arbeits- | Kinder- | der | Haus- | nach Abzug | per Kopf.]
+ | glieder.] | lohn der | lohn.] | Gesammt- | miethe.] | der Haus- | 
+ |  | Männer.] |  | familie.] |  | miethe.] | 
+[/table]
+
+[v1-ch23s05-p0045] [MEGA p.609]
+Drittes Dorf.
+[table]
+4 | 6 | 7 sh. |  | 7 sh. | 1 sh. | 6 sh. | 1 sh.
+3 | 5 | 7 sh. | 2 sh. | 11 sh. 6 d. | 0 sh. 10 d. | 10 sh. 8 d. | 2 sh. 1½ d.
+0 | 2 | 5 sh. | 2 sh. 6 d. | 5 sh. | 1 sh. | 4 sh. | 2 sh. 146).
+[/table]
+
+[v1-ch23s05-p0046] [MEGA p.609,610]
+Die Abschaffung der Korngesetze gab dem englischen Landbau einen ungeheuren Ruck. Drainirung auf der größten Stufenleiter 147), neues System der Stallfütterung und des Anbaus der künstlichen Futterkräuter, Einführung mechanischer Düngapparate, neue Behandlung der Thonerde, gesteigerter Gebrauch mineralischer Düngmittel, Anwendung der Dampfmaschine und aller Art neuer Arbeitsmaschinerie u. s. w., intensivere Kultur überhaupt charakterisiren diese Epoche. Der Präsident der königlichen Gesellschaft für Agrikultur, Herr Pusey, behauptet, daß die (relativen) Wirthschaftskosten durch die neu eingeführte Maschinerie beinahe um die Hälfte verringert worden sind. Andrerseits ward der positive Bodenertrag rasch erhöht. Größere Kapitalauslage per Acre, also auch beschleunigte Koncentration der Pachten, war Grundbedingung der neuen Methode 148). Zugleich dehnte sich das Areal der Bebauung von 1846 bis 1856 um 464119 Acres aus, nicht zu sprechen von den großen Flächen der östlichen Grafschaften, welche aus Kaninchengeheg und armer Viehweide in üppige Kornfelder umgezaubert wurden. Man weiß bereits, daß gleichzeitig die Gesammtzahl der in der Agrikultur betheiligten Personen abnahm. Was die eigentlichen Ackerbauer, beiderlei Geschlechts und aller Altersstufen, betrifft, so sank ihre Zahl von 1241269 im Jahr 1851 auf 1163227 im Jahr 1861 149). Wenn der englische Generalregistrator daher mit Recht bemerkt: „Der Zuwachs von Pächtern und Landarbeitern seit 1801 steht in gar keinem Verhältniß zum Zuwachs des agrikolen Produkts“ 150), so gilt dieß Mißverhältniß noch viel mehr von der letzten Periode, wo positive Abnahme der ländlichen Arbeiterbevölkerung Hand in Hand ging mit Ausdehnung des bebauten Areals, intensiverer Kultur, unerhörter Akkumulation des dem Boden einverleibten und des seiner Bearbeitung gewidmeten Kapitals, Steigerung des Bodenprodukts ohne Parallele in der Geschichte der englischen Agronomie, strotzenden Rentrollen der Grundeigenthümer und schwellendem Reichthum der kapitalistischen Pächter. Nimmt man dieß zusammen mit der ununterbrochnen raschen Erweiterung des städtischen Absatzmarkts und der Herrschaft des Freihandels, so war der Landarbeiter post tot discrimina rerum endlich in Verhältnisse gestellt, die ihn, secundum artem, glückstoll machen mußten.
+
+[v1-ch23s05-p0047] [MEGA p.610]
+Professor Rogers gelangt dagegen zum Resultat, daß der englische Landarbeiter heutigen Tags, gar nicht zu sprechen von seinem Vorgänger in der letzten Hälfte des 14. Jahrhunderts und im 15. Jahrhundert, sondern nur verglichen mit seinem Vorgänger aus der Periode 1770‒1780, seine Lage außerordentlich verschlechtert hat, daß „er wieder ein Leibeigner geworden ist“ und zwar schlecht gefütterter und behauster Leibeigner 151). Dr. Julian Hunter, in seinem epochemachenden Bericht über die Wohnlichkeit der Landarbeiter, sagt: „Die Existenzkosten des hind (der Zeit der Leibeigenschaft angehöriger Name für den Landarbeiter) sind fixirt zu dem möglichst niedrigen Betrag, womit er leben kann... sein Lohn und Obdach sind nicht berechnet auf den aus ihm herauszuschlagenden Profit. Er ist eine Null in den Berechnungen des Pächters 152)... Seine Subsistenzmittel werden stets als eine fixe Quantität behandelt“ 153). „Was irgend eine weitere Reduktion seines Einkommens angeht, so kann er sagen: nihil habeo, nihil curo. Er hat keine Furcht für die Zukunft, weil er über nichts verfügt außer dem, was zu seiner Existenz absolut unentbehrlich ist. Er hat den Gefrierpunkt erreicht, von dem die Berechnungen des Pächters als Datum ausgehn. Komme was wolle, er hat keinen Antheil an Glück oder Unglück“ 154).
+
+[v1-ch23s05-p0048] [MEGA p.610,611]
+Im Jahre 1863 fand eine officielle Untersuchung über die Verpflegungs- und Beschäftigungszustände der zu Transportation und öffentlicher Zwangsarbeit verurtheilten Verbrecher statt. Die Resultate sind in zwei dickleibigen Blaubüchern niedergelegt. „Eine sorgfältige Vergleichung“, heißt es unter anderem, „zwischen der Diät der Verbrecher in den Gefängnissen von England und der der Paupers in Workhouses und der freien Landarbeiter desselben Landes zeigt unstreitig, daß die erstern viel besser genährt sind als irgend eine der beiden andren Klassen“ 155), während „die Arbeitsmasse, die von einem zu öffentlicher Zwangsarbeit Verurtheilten verlangt wird, ungefähr die Hälfte der vom gewöhnlichen Landarbeiter verrichteten beträgt“ 156). Einige wenige charakteristische Zeugenaussagen: John Smith, Direktor des Gefängnisses zu Edinburg, verhört. Nr. 5056: „Die Diät in den englischen Gefängnissen ist viel besser als die der gewöhnlichen Landarbeiter.“ Nr. 5057: „Es ist Thatsache, daß die gewöhnlichen Agrikulturarbeiter Schottlands sehr selten irgend welches Fleisch erhalten.“ Nr. 3047: „Kennen Sie irgend einen Grund für die Nothwendigkeit, die Verbrecher viel besser (much better) zu nähren als gewöhnliche Landarbeiter? ‒ Sicher nicht.“ Nr. 3048: „Halten Sie es für angemessen, weitere Experimente zu machen, um die Diät zu öffentlichen Zwangsarbeiten verurtheilter Gefangenen der Diät freier Landarbeiter nahe zu bringen?“ 157). „Der Landarbeiter“, heißt es, „könnte sagen: Ich arbeite hart und habe nicht genug zu essen. Als ich im Gefängniß war, arbeitete ich nicht so hart und hatte Essen in Fülle, und darum ist es besser für mich im Gefängniß als im Freien zu sein“ 158). Aus den dem ersten Band des Berichts | angehängten Tabellen ist eine vergleichende Uebersicht zusammengestellt.
+
+[v1-ch23s05-p0049] [MEGA p.611]
+Wöchentlicher Nahrungsbetrag. 158a)
+[table]
+ | Stickstoff- | Stickstoff- | Mineralische | Gesammt-
+ | haltige | freie | Bestand- | summe.
+ | Bestand- | Bestand- | theile. | 
+ | theile. | theile. |  | 
+ | Unzen. | Unzen. | Unzen. | Unzen.
+Verbrecher im Gefängniß |  |  |  | 
+von Portland | 28,95 | 150,06 | 4,68 | 183,69
+Matrose in der königl. Marine | 29,63 | 152,91 | 4,52 | 187,06
+Soldat | 25,55 | 114,49 | 3,94 | 143,98
+Kutschenmacher (Arbeiter) | 24,53 | 162,06 | 4,23 | 190,82
+Setzer | 21,24 | 100,83 | 3,12 | 125,19
+Landarbeiter | 17,73 | 118,06 | 3,29 | 139,08
+[/table]
+
+[v1-ch23s05-p0050] [MEGA p.612]
+Das allgemeine Resultat der ärztlichen Untersuchungskommission von 1863 über den Nahrungszustand der schlechter genährten Volksklassen ist dem Leser bereits bekannt. Er erinnert sich, daß die Diät eines großen Theils der Landarbeiterfamilien unter dem Minimalmaß „zur Abwehr von Hungerkrankheiten“ steht. Es ist dies namentlich der Fall in allen rein agrikolen Distrikten von Cornwall, Devon, Somerset, Wilts, Stafford, Oxford, Berks und Herts. „Die Nahrung, die der Landarbeiter erhält“, sagt Dr. Simon, „ist größer, als das Durchschnittsquantum anzeigt, da er selbst einen viel größeren, für seine Arbeit unentbehrlichen, Theil der Lebensmittel erhält als seine übrigen Familienglieder, in den ärmeren Distrikten fast alles Fleisch oder Speck. Das Quantum Nahrung, das der Frau zufällt, und ebenso den Kindern in ihrer Periode raschen Wachsthums, ist in vielen Fällen, und zwar in fast allen Grafschaften, mangelhaft, hauptsächlich an Stickstoff“ 159). Die bei den Pächtern selbst wohnenden Knechte und Mägde werden reichlich genährt. Ihre Zahl fiel von 288272 im Jahre 1851 auf 204962 im Jahr 1861. „Die Arbeit der Weiber auf freiem Feld“, sagt Dr. Smith, „von welchen sonstigen Nachtheilen auch immer begleitet, ist unter gegenwärtigen Umständen von großem Vortheil für die Familie, denn sie liefert derselben Mittel für Beschuhung, Kleidung, Zahlung der Hausrente, und befähigt sie so besser zu essen“ 160). Eins der merkwürdigsten Resultate dieser Untersuchung war, daß der Landarbeiter in England bei weitem schlechter genährt ist als in den andren Theilen des Vereinigten Königreichs („is considerably the worst fed“), wie die Tabelle zeigt.
+
+[v1-ch23s05-p0051] [MEGA p.612]
+Wöchentlicher Konsum von Kohlenstoff und Stickstoff durch den ländlichen Durchschnittsarbeiter.
+[table]
+ | Kohlenstoff. | Stickstoff.
+England | 40 673 Gran | 1 594 Gran
+Wales | 48 354 Gran | 2 031 Gran
+Schottland | 48 980 Gran | 2 348 Gran
+Irland | 43 366 Gran | 2 434 Gran 161)|
+[/table]
+
+[v1-ch23s05-p0052] [MEGA p.613,614,615,616,617,618]
+„Jede Seite von Dr. Hunters Bericht“, sagt Dr. Simon in seinem officiellen Gesundheitsbericht, „gibt Zeugniß von der unzureichenden Quantität und elenden Qualität der Wohnlichkeit unsres Landarbeiters. Und seit vielen Jahren hat sich sein Zustand progressiv in dieser Hinsicht verschlechtert. Es ist jetzt viel schwerer für ihn, Hausraum zu finden, und, wenn gefunden, ist er seinen Bedürfnissen viel weniger entsprechend, als vielleicht seit Jahrhunderten der Fall war. Besonders innerhalb der letzten 30 oder 20 Jahre ist das Uebel in raschem Wachsthum begriffen, und die Wohnlichkeitsverhältnisse des Landmanns sind jetzt im höchsten Grad kläglich. Außer soweit diejenigen, die seine Arbeit bereichert, es der Mühe werth halten, ihn mit einer Art von mitleidiger Nachsicht zu behandeln, ist er ganz hülflos in der Sache. Ob er Behausung findet auf dem Land, welches er bebaut, ob sie menschlich oder schweinisch ist, ob mit kleinem Garten, der den Druck der Armuth so sehr erleichtert, alles das hängt nicht von seiner Breitheit oder Fähigkeit zur Zahlung einer angemeßnen Miethe ab, sondern von dem Gebrauch, den Andre von ‚dem Recht mit ihrem Eigenthum zu thun, was sie wollen‘ zu machen belieben. Eine Pachtung mag noch so groß sein, es existirt kein Gesetz, daß auf ihr eine bestimmte Anzahl von Arbeiterwohnungen, und nun gar anständigen, stehen muß; ebensowenig behält das Gesetz dem Arbeiter auch nur das kleinste Recht auf den Boden vor, für welchen seine Arbeit so nothwendig ist wie Regen und Sonnenschein... Ein notorischer Umstand wirft noch ein schweres Gewicht in die Wagschale gegen ihn..., der Einfluß des Armengesetzes mit seinen Bestimmungen über Niederlassung und Belastung zur Armensteuer 162). Unter seinem Einfluß hat jede Pfarrei ein Geldinteresse, | die Zahl ihrer residirenden Landarbeiter auf ein Minimum zu beschränken; denn unglücklicher Weise führt die Landarbeit, statt sichre und permanente Unabhängigkeit dem hartschanzenden Arbeiter und seiner Familie zu verbürgen, meist nur auf längerem oder kürzerem Umweg zum Pauperismus, einem Pauperismus, der während des ganzen Wegs so nahe ist, daß jede Krankheit oder irgend ein vorübergehender Mangel an Beschäftigung unmittelbar die Zuflucht zur Pfarreihülfe ernöthigt; und daher ist alle Ansässigkeit einer Ackerbaubevölkerung in einer Pfarrei augenscheinlich ein Zuschuß zu ihrer Armensteuer... Große Grundeigenthümer 163) haben nur zu beschließen, daß keine Arbeiterwohnungen auf ihren Gütern stehn sollen, und sie befreien sich sofort von der Hälfte ihrer Verantwortlichkeit für die Armen. Wie weit die englische Konstitution und das Gesetz dieser Art unbedingtes Grundeigenthum beabsichtigten, welches einen Landlord, der „mit seinem Eignen thut was er will“, befähigt, die Bebauer des Bodens wie Fremde zu behandeln und sie von seinem Territorium zu verjagen, ist eine Frage, deren Diskussion nicht in meinen Bereich fällt... Diese Macht der Eviktion ist keine bloße Theorie. Sie wird praktisch auf der größten Stufenleiter geltend gemacht. Sie ist einer der Umstände, welche die Wohnlichkeitsverhältnisse des Landarbeiters beherrschen... Den Umfang des Uebels mag man aus dem letzten Census beurtheilen, wonach die Zerstörung von Häusern, trotz vermehrter lokaler Nachfrage für dieselben, während der letzten 10 Jahre, in 821 verschiednen Distrikten von England fortschritt, so daß, abgesehn von den Personen, die gezwungen wurden, Nichtresidirende (nämlich in dem Kirchspiel, worin sie arbeiten) zu werden, 1861 verglichen mit 1851 eine um 5⅓ % größere Bevölkerung in einen um 4½ % kleineren Hausraum gedrängt wurde... Sobald der Entvölkerungsproceß sein Ziel erreicht hat, ist das Resultat, sagt Dr. Hunter, ein Schaudorf (show-village), wo die Cottages auf wenige reducirt sind und wo niemand leben darf außer Schafhirten, Gärtnern und Wildhütern, reguläre Bediente, welche die in ihrer Klasse gewohnheitsmäßige gute Behandlung von der gnädigen Herrschaft erhalten 164). Aber das | Land bedarf der Bebauung, und man wird finden, daß die darauf beschäftigten Arbeiter keine Haussassen des Grundeigenthümers sind, sondern von einem offnen Dorf herkommen, vielleicht 3 Meilen weit entfernt, wo eine zahlreiche kleine Hauseigenthümerschaft sie aufnahm, nach Zerstörung ihrer Cottages in den geschloßnen Dörfern. Wo die Dinge diesem Resultat zustreben, bezeugen die Cottages meist durch ihr elendes Aussehn das Schicksal, zu dem sie verdammt sind. Man findet sie auf den verschiednen Stufen natürlichen Verfalls. So lange das Obdach zusammenhält, wird dem Arbeiter erlaubt, Rente dafür zu zahlen, und er ist oft sehr froh, dieß thun zu dürfen, selbst wenn er den Preis einer guten Wohnung zu zahlen hat. Aber keine Reparatur, keine Ausbesserung, außer die der pfenniglose Inhaber leisten kann. Wird es endlich zuletzt ganz unbewohnbar, so ist es nur eine zerstörte Cottage mehr und so viel künftige Armensteuer weniger. Während die großen Eigenthümer die Armensteuer so von sich abwälzen durch Entvölkerung des von ihnen kontrolirten Grund und Bodens, nimmt das nächste Landstädtchen oder offne Ortschaft die hinausgeworfnen Arbeiter auf; die nächste, sage ich, aber dieß „nächste“ mag 3 oder 4 Meilen vom Pachthof sein, wo der Arbeiter sich täglich abzuplakken hat. So wird seinem Tageswerk, als ob es gar nichts sei, die Nothwendigkeit eines täglichen Marsches von 6 oder 8 Meilen zur Verdienung seines täglichen Brodes hinzugefügt. Alle von seiner Frau und seinen Kindern verrichtete Landarbeit geht jetzt unter denselben erschwerenden Umständen vor. Und dieß ist nicht das ganze Uebel, welches ihm die Entfernung verursacht. In der offnen Ortschaft kaufen Bauspekulanten Bodenfetzen, welche sie so dicht wie möglich mit den wohlfeilsten aller möglichen Spelunken besäen. Und in diesen elenden Wohnlichkeiten, die sogar, wenn sie auf das offne Land münden, die ungeheuerlichsten Charakterzüge der schlechtesten Stadtwohnungen theilen, locken die Ackerbauarbeiter Englands 165)... Andrerseits muß man sich nur nicht einbilden, daß selbst der auf dem Grund und Boden, den er bebaut, behauste Arbeiter eine Wohnlichkeit findet, wie sie sein Leben produktiver Industrie verdient. Selbst auf den fürstlichsten Gütern ist seine Cottage oft von der allerjämmerlichsten Art. Es gibt Landlords, die einen Stall gut genug für ihre Arbeiter und deren Familien glauben, und die es dennoch nicht verschmähn, aus ihrer Miethe so viel Baares als möglich herauszuschlagen 166). Es mag nur eine verfallende Hütte mit einer Schlafstube sein, ohne Feuerherd, ohne Abtritt, ohne öffenbare Fenster, ohne Wasserzufuhr außer dem Graben, ohne Garten, der Arbeiter ist hülflos gegen die Unbill. Und unsre gesundheitspolizeilichen Gesetze (The Nuisances Removal Acts) sind ein todter Buchstabe. Ihre Ausführung ist ja grade den Eigenthümern anvertraut, welche solche Löcher vermiethen... Man muß sich durch ausnahmsweise lichtvollere Scenen nicht blenden lassen über das erdrückende Uebergewicht der Thatsachen, die ein Schandfleck der englischen Civilisation sind. Schauderhaft muß in der That die Lage der Dinge sein, wenn, trotz der augenfälligen Ungeheuerlichkeit der gegenwärtigen Behausung, kompetente Beobachter einstimmig zu dem Schlußresultat gelangen, daß selbst die allgemeine Nichtswürdigkeit der Wohnungen noch ein unendlich minder drückendes Uebel ist als ihr bloß numerischer Mangel. Seit Jahren war die Ueberstopfung der Wohnungen der Landarbeiter ein Gegenstand tiefen Kummers nicht nur für Personen, die auf Gesundheit, sondern für alle, die auf anständiges und moralisches Leben halten. Denn, wieder und wieder, in Ausdrücken so gleichförmig, daß sie stereotypirt zu sein scheinen, denunciren die Berichterstatter über die Verbreitung epidemischer Krankheiten in den ländlichen Distrikten Hausüberfüllung als eine Ursache, die jeden Versuch, den Fortschritt einer einmal eingeführten Epidemie aufzuhalten, durchaus vereitelt. Und wieder und wieder ward nachgewiesen, daß den vielen gesunden Einflüssen des Landlebens zum Trotz die Agglomeration, welche das Umsichgreifen ansteckender Krankheiten so sehr beschleunigt, auch die Entstehung nicht ansteckender Krankheiten fördert. Und die Personen, welche diesen Zustand denuncirt haben, verschwiegen weitres Unheil nicht. Selbst wo ihr ursprüngliches Thema nur die Gesundheitspflege betraf, waren sie beinahe gezwungen, auf die andren Seiten des Gegenstandes einzugehn. Indem sie nachwiesen, wie häufig es sich ereignet, daß erwachsne Personen beiderlei Geschlechts, verheirathet und unverheirathet, zusammengehudelt (huddled) werden in engen Schlafstuben, mußten ihre Berichte die Ueberzeugung hervorrufen, daß unter den beschriebenen Umständen Scham- und Anstandsgefühl aufs gröbste verletzt und alle Moralität fast nothwendig ruinirt wird 167).... Z. B. im Appendix meines letzten Berichts erwähnt Dr. Ord, in seinem Bericht über den Fieberausbruch zu Wing in Buckinghamshire, wie ein junger Mann von Wingrave mit Fieber dorthin kam. In den ersten Tagen seiner Krankheit schlief er mit 9 andren Personen in einem Gemach zusammen. In zwei Wochen wurden verschiedne Personen ergriffen, im Verlauf weniger Wochen verfielen 5 von den 9 Personen dem Fieber und eine starb! Gleichzeitig berichtete mir Dr. Harvey von St. George’s Spital, der Wing während der Epidemiezeit in Angelegenheiten seiner Privatpraxis besuchte, in demselben Sinne: „Ein junges, fieberkrankes Frauenzimmer schlief Nachts in derselben Stube mit Vater, Mutter, ihrem Bastardkind, zwei jungen Männern, ihren Brüdern, und ihren zwei Schwestern, jede mit einem Bastard, in allem 10 Personen. Wenige Wochen vorher schliefen 13 Kinder in demselben Raume“ 168).
+
+[v1-ch23s05-p0053] [MEGA p.618]
+Dr. Hunter untersuchte 5375 Landarbeiter-Cottages, nicht nur in den reinen Agrikulturdistrikten, sondern in allen Grafschaften Englands. Unter diesen 5375 hatten 2195 nur eine Schlafstube (oft zugleich Wohnstube), 2930 nur 2 und 250 mehr als 2. Ich will für ein Dutzend Grafschaften eine kurze Blüthenlese geben.
+
+[v1-ch23s05-p0054] [MEGA p.618]
+1) Bedfordshire.
+
+[v1-ch23s05-p0055] [MEGA p.618]
+Wrestlingworth: Schlafzimmer ungefähr 12 Fuß lang und 10 breit, obgleich viele kleiner sind. Die kleine einstöckige Hütte wird oft durch Bretter in zwei Schlafstuben getheilt, oft ein Bett in einer Küche 5 Fuß 6 Zoll hoch. Miethe 3 Pfd. St. Die Miether haben ihre eignen Abtritte zu bauen, der Hauseigenthümer liefert nur ein Loch. So oft einer einen Abtritt baut, wird letzterer von der ganzen Nachbarschaft benutzt. Ein Haus Namens Richardson von unerreichbarer Schöne. Seine Mörtelwände bauschten aus wie ein Damenkleid beim Knix. Ein Giebelende war konvex, das andre konkav, und auf dem letztren stand unglücklicher Weise ein Schornstein, ein krummes Rohr von Lehm und Holz gleich einem Elephantenrüssel. Ein langer Stock diente als Stütze, um den Fall des Schornsteins zu verhindern, Thür und Fenster rautenförmig. Von 17 besuchten Häusern nur 4 mit mehr als 1 Schlafzimmer und diese 4 überstopft. Die einschläfrigen Cots bargen 3 Erwachsne mit 3 Kindern, ein verheirathetes Paar mit 6 Kindern u. s. w.
+
+[v1-ch23s05-p0056] [MEGA p.618]
+Dunton: Hohe Hausrenten, von 4 bis 5 Pfd. St., Wochenlohn der Männer 10 sh. Sie hoffen durch Strohflechten der Familie die Miethe herauszuschlagen. Je höher die Hausmiethe, desto größer die Zahl, die sich zusammenthun muß, um sie zu zahlen. Sechs Erwachsne, die mit 4 Kindern in einer Schlafstube, zahlen dafür 3 Pfd. 10 sh. Das wohlfeilste Haus in Dunton, von der Außenseite 15 Fuß lang, 10 breit, vermiethet für 3 Pfd. St. Nur eins von den 14 untersuchten Häusern hatte zwei Schlafstuben. Etwas vor dem Dorf ein Haus, von den Insassen bekothet vor seinen Außenwänden, die untern 9 Zoll der Thür verschwunden durch reinen Verfaulungsproceß, einige Ziegelsteine von innen sinnreich des Abends beim Zuschließen vorgeschoben und mit etwas Matte verhangen. Ein halbes Fenster, sammt Glas und Rahmen, war ganz den Weg alles Fleisches gegangen. Hier, ohne Möbel, hudelten 3 Erwachsne und 5 Kinder zusammen. Dunton ist nicht schlimmer als der Rest der Biggleswade Union.
+
+[v1-ch23s05-p0057] [MEGA p.619]
+2) Berkshire.
+
+[v1-ch23s05-p0058] [MEGA p.619]
+Beenham: Juni 1864 lebte ein Mann, Frau, 4 Kinder in einem Cot (einstöckigen Cottage). Eine Tochter kam heim aus dem Dienst mit Scharlachfieber. Sie starb. Ein Kind erkrankte und starb. Die Mutter und ein Kind litten am Typhus, als Dr. Hunter gerufen wurde. Der Vater und ein Kind schliefen auswärts, aber die Schwierigkeit, Isolirung zu sichern, zeigte sich hier, denn im vollgepropften Markt des elenden Dorfs lag das Leinen des fiebergeschlagnen Hauses, auf Wäsche wartend. ‒ Die Miethe von H.’s Haus 1 sh. wöchentlich; das eine Schlafzimmer für ein Paar und 6 Kinder. Ein Haus vermiethet zu 8 d. (wöchentlich), 14 Fuß 6 Zoll lang, 7 Fuß breit, Küche 6 Fuß hoch; das Schlafzimmer ohne Fenster, Feuerplatz, Thür, noch Oeffnung, außer nach dem Gang zu, kein Garten. Ein Mann lebte hier vor kurzem mit zwei erwachsnen Töchtern und einem aufwachsenden Sohn; Vater und Sohn schliefen auf dem Bett, die Mädchen auf dem Hausgang. Jede hatte ein Kind, so lange die Familie hier lebte, aber eine ging zum Workhouse für ihre Entbindung und kehrte dann heim.
+
+[v1-ch23s05-p0059] [MEGA p.619]
+3) Buckinghamshire.
+
+[v1-ch23s05-p0060] [MEGA p.619]
+30 Cottages ‒ auf 1000 Acres Land ‒ enthalten hier ungefähr 130‒140 Personen. Die Pfarrei von Bradenham umfaßt 1000 Acres; sie hatte 1851 36 Häuser und eine Bevölkerung von 84 Manns- und 54 Weibspersonen. Diese geschlechtliche Ungleichheit geheilt 1861, wo sie 98 männlichen und 87 weiblichen Geschlechts zählte, Zuwachs in 10 Jahren von 14 Männern und 33 Weibern. Unterdeß hatte die Häuserzahl um 1 abgenommen.
+
+[v1-ch23s05-p0061] [MEGA p.619]
+Winslow: Großer Theil davon neu gebaut in gutem Styl; Nachfrage nach Häusern scheint bedeutend, weil sehr armselige Cots vermiethet zu 1 sh. und 1 sh. 3 d. per Woche.
+
+[v1-ch23s05-p0062] [MEGA p.619]
+Water Eaton: Hier haben die Eigenthümer im Angesicht wachsender Bevölkerung ungefähr 20 % der existirenden Häuser zerstört. Ein armer Arbeiter, der ungefähr 4 Meilen zu seinem Werk zu gehn hatte, antwortete auf die Frage, ob er kein Cot näher finden könnte: „Nein, sie werden sich verdammt hüten, einen Mann mit meiner großen Familie aufzunehmen.“
+
+[v1-ch23s05-p0063] [MEGA p.619,620]
+Tinker’s End, bei Winslow: Eine Schlafstube, worin 4 Erwachsne und 5 Kinder, 11 Fuß lang, 9 Fuß breit, 6 Fuß 5 Zoll hoch am höchsten Punkt; ein andres 11 Fuß 7 Zoll lang, 9 Fuß breit, 5 Fuß 10 Zoll hoch, beherbergte 6 Personen. Jede dieser Familien hatte weniger Raum als nöthig für einen Galeerensträfling. Kein Haus hatte mehr als ein Schlafzimmer, keins eine Hinterthür, Wasser sehr selten. Wochenmiethe von 1 sh. 4 d. zu 2 sh. In 16 untersuchten Häusern nur ein einziger Mann, der 10 sh. wöchentlich verdiente. Das Luftreservoir, jeder Person in dem erwähnten Falle gegönnt, entspricht dem, das ihr zu gut käme, wenn des Nachts eingeschlossen in eine Schachtel von 4 Fuß Kubik. Allerdings bieten die alten Hütten eine Masse naturwüchsiger Ventilation.
+
+[v1-ch23s05-p0064] [MEGA p.620]
+4) Cambridgeshire.
+
+[v1-ch23s05-p0065] [MEGA p.620]
+Gamblingay gehört verschiednen Eigenthümern. Es enthält die lumpigsten Cots, die man irgendwo finden kann. Viel Strohflechterei. Eine tödtliche Mattheit, eine hoffnungslose Ergebung in Schmutz beherrscht Gamblingay. Die Vernachlässigung in seinem Centrum wird zur Tortur an den Extremitäten, Nord und Süd, wo die Häuser stückweis abfaulen. Die abwesenden Landlords lassen dem armen Nest flott zur Ader. Die Miethen sind sehr hoch; 8 bis 9 Personen gepackt in ein einschläfriges Zimmer, in zwei Fällen 6 Erwachsne mit je 1 und 2 Kindern in einer kleinen Schlafstube.
+
+[v1-ch23s05-p0066] [MEGA p.620]
+5) Essex.
+
+[v1-ch23s05-p0067] [MEGA p.620]
+In dieser Grafschaft gehn in vielen Pfarreien Abnahme von Personen und Cottages Hand in Hand. In nicht weniger als 22 Pfarreien hat jedoch die Häuserzerstörung den Bevölkerungsanwachs nicht aufgehalten, oder nicht die Expulsion bewirkt, welche unter dem Namen: „Wanderung nach den Städten“ überall vorgeht. In Fingringhoe, einer Pfarrei von 3443 Acres, standen 1851 145 Häuser, 1861 nur noch 110, aber das Volk wollte nicht fort und brachte es fertig, selbst unter dieser Behandlung zuzunehmen. Zu Ramsden Crays bewohnten 1851 252 Personen 61 Häuser, aber 1861 waren 262 Personen in 49 Häuser gequetscht. In Basildon lebten 1851 auf 1827 Acres 157 Personen in 35 Häusern, am Ende des Decenniums 180 Personen in 27 Häusern. In den Pfarreien von Fingringhoe, South Fambridge, Widford, Basildon und Ramsden Crays lebten 1851 auf 8449 Acres 1392 Personen in 316 Häusern, 1861 auf demselben Areal 1473 Personen in 249 Häusern.
+
+[v1-ch23s05-p0068] [MEGA p.620]
+6) Herefordshire.
+
+[v1-ch23s05-p0069] [MEGA p.620]
+Diese kleine Grafschaft hat mehr gelitten vom „Evictionsgeist“ als irgend eine andre in England. Zu Madley gehören die überstopften Cottages, meist mit 2 Schlafzimmern, großentheils den Pächtern. Sie vermiethen selbe leicht zu 3 oder 4 Pfd. St. per Jahr und zahlen Wochenlohn von 9 sh.!
+
+[v1-ch23s05-p0070] [MEGA p.620]
+7) Huntingdonshire.
+
+[v1-ch23s05-p0071] [MEGA p.620,621]
+Hartford hatte 1851 87 Häuser, kurz nachher 19 Cottages zerstört in dieser kleinen Pfarrei von 1720 Acres; Einwohnerschaft 1831: 452 Personen, 1851: 382 und 1861: 341. Vierzehn einschläfrige Cots untersucht. In einem 1 verheirathetes Paar, 3 erwachsne Söhne, 1 erwachsnes Mädchen, 4 Kinder, zusammen 10; in einem andren 3 Erwachsne, 6 Kinder. Eine dieser Stuben, worin 8 Personen schliefen, war 12 Fuß 10 Zoll lang, 12 Fuß 2 Zoll breit, 6 Fuß 9 Zoll hoch; Durchschnittsmaß, ohne Abzug der Vorsprünge, ergab ungefähr 130 Kubikfuß per Kopf. In den 14 Schlafstuben 34 Erwachsne und 33 Kinder. Diese Cottages selten mit Gärtchen versehn, aber viele der Insassen konnten kleine Fetzen Land, 10 oder 12 sh. per rood (¼ Acre) pachten. Diese allotments sind entfernt von den abtrittslosen Häusern. Die Familie muß entweder zu ihrer Parcelle gehn, um ihre Exkremente abzulagern, oder, wie es, mit Respekt zu melden hier geschieht, die Schublade eines Schranks damit füllen. Sobald sie voll, wird sie ausgezogen und dort entleert, wo ihr Inhalt nöthig ist. In Japan geht der Cirkellauf der Lebensbedingungen reinlicher von statten.
+
+[v1-ch23s05-p0072] [MEGA p.621]
+8) Lincolnshire.
+
+[v1-ch23s05-p0073] [MEGA p.621]
+Langtoft: Ein Mann wohnt hier in Wright’s Haus mit seiner Frau, ihrer Mutter und 5 Kindern; das Haus hat Vorderküche, Spülkammer, Schlafzimmer über der Vorderküche; Vorderküche und Schlafstube 12 Fuß 2 Zoll lang, 9 Fuß 5 Zoll breit, die ganze Grundfläche 21 Fuß 3 Zoll lang, 9 Fuß 5 Zoll breit. Die Schlafstube ist ein Dachraum, die Wände laufen zuckerhutig an der Decke zusammen, und ein Klappfenster öffnet sich in der Front. Warum wohnte er hier? Garten? Außerordentlich winzig. Miethe? Hoch, 1 sh. 3 d. per Woche. Nah seiner Arbeit? Nein, 6 Meilen entfernt, so daß er täglich 12 Meilen hin und her vermarschirt. Er wohnte da, weil es ein vermiethbares Cot war, und weil er ein Cot für sich allein haben wollte, irgendwo, zu irgend einem Preis, in irgend einem Zustand. Folgendes ist die Statistik von 12 Häusern in Langtoft mit 12 Schlafstuben, 38 Erwachsnen und 36 Kindern:
+
+[v1-ch23s05-p0074] [MEGA p.621]
+12 Häuser in Langtoft.
+[table]
+Häuser. | Schlaf- | Er- | Kinder. | Per- | Häuser. | Schlaf- | Er- | Kinder. | Per-
+ | stuben | wachsne. |  | sonen- |  | stuben. | wachsne. |  | sonen
+ |  |  |  | zahl. |  |  |  |  | zahl.
+1 | 1 | 3 | 5 | 8 | 1 | 1 | 3 | 3 | 6
+1 | 1 | 4 | 3 | 7 | 1 | 1 | 3 | 2 | 5
+1 | 1 | 4 | 4 | 8 | 1 | 1 | 2 | 0 | 2
+1 | 1 | 5 | 4 | 9 | 1 | 1 | 2 | 3 | 5
+1 | 1 | 2 | 2 | 4 | 1 | 1 | 3 | 3 | 6
+1 | 1 | 5 | 3 | 8 | 1 | 1 | 2 | 4 | 6
+[/table]
+
+[v1-ch23s05-p0075] [MEGA p.621]
+9) Kent.
+
+[v1-ch23s05-p0076] [MEGA p.621,622]
+Kennington, höchst traurig überfüllt 1859, als die Diptherie erschien und der Kirchspielsarzt eine amtliche Untersuchung über die Lage der ärmeren Volksklasse veranstaltete. Er fand, daß in dieser Ortschaft, wo viel Arbeit nöthig, verschiedne Cots zerstört und keine neuen erbaut worden waren. In einem Bezirk standen 4 Häuser, birdcages (Vogelkäfige) benamst; jedes hatte 4 Zimmer mit den folgenden Dimensionen in Fuß und Zoll:
+[table]
+Küche | 9,5 | × 8,11 | × 6,6
+Spülkammer | 8,6 | × 4,6 | × 6,6
+Schlafzimmer | 8,5 | × 5,10 | × 6,3
+Schlafzimmer | 8,3 | × 8,4 | × 6,3
+[/table]
+
+[v1-ch23s05-p0077] [MEGA p.622]
+10) Northamptonshire.
+
+[v1-ch23s05-p0078] [MEGA p.622]
+Brixworth, Pitsford und Floore: In diesen Dörfern lungern im Winter 20‒30 Mann aus Arbeitsmangel auf den Straßen herum. Die Pächter bestellen nicht immer hinreichend das Korn- und Wurzelland, und der Landlord hat es passend gefunden, alle seine Pachten in 2 oder 3 zusammenzuwerfen. Daher Mangel an Beschäftigung. Während von der einen Seite des Grabens das Feld nach Arbeit schreit, werfen ihm die geprellten Arbeiter von der andren Seite sehnsüchtige Blicke zu. Fieberhaft überarbeitet im Sommer und halbverhungert im Winter, ist es kein Wunder, wenn sie in ihrem eignen Dialekt sagen, daß „the parson and gentlefolks seem frit to death at them“ 168a).
+
+[v1-ch23s05-p0079] [MEGA p.622]
+Zu Floore Beispiele von Paaren mit 4, 5, 6 Kindern in einer Schlafstube kleinster Ausgabe, ditto 3 Erwachsne mit 5 Kindern, ditto ein Paar mit Großvater und 6 scharlachkranken Kindern etc.; in 2 Häusern mit 2 Schlafstuben 2 Familien von je 8 und 9 Erwachsnen.
+
+[v1-ch23s05-p0080] [MEGA p.622]
+11) Wiltshire.
+
+[v1-ch23s05-p0081] [MEGA p.622]
+Stratton: 31 Häuser besucht, 8 mit nur einer Schlafstube; Penhill in derselben Pfarrei. Ein Cot vermiethet zu 1 sh. 3 d. wöchentlich an 4 Erwachsne und 4 Kinder, hatte außer guten Wänden nichts Gutes an sich, vom Estrich aus rauhgehaunen Steinen bis zum faulen Strohdach.
+
+[v1-ch23s05-p0082] [MEGA p.622]
+12) Worcestershire.
+
+[v1-ch23s05-p0083] [MEGA p.622]
+Hauszerstörung hier nicht ganz so arg; doch von 1851‒1861 vermehrte sich das Personal per Haus von 4,2 zu 4,6 Individuen.
+
+[v1-ch23s05-p0084] [MEGA p.622,623]
+Badsey: Viele Cots und Gärtchen hier. Einige Pächter erklären die Cots „a great nuisance here, because they bring the poor“. (Die Cots großer Mißstand, weil sie die Armen herbringen.) Auf die Aeußerung eines Gentleman: „Die Armen sind deßwegen um nichts besser dran; wenn man 500 Cots baut, gehn sie wie die Wecken ab, in der That je mehr man davon baut, desto mehr sind nöthig“ ‒ die Häuser bringen nach ihm die Einwohner hervor, die naturgesetzlich auf „die Mittel der Behausung“ drücken ‒, bemerkt Dr. Hunter: „Nun, diese Armen müssen irgend woher kommen, und da keine besondre Attraktion, wie milde Gaben, in Badsey existirt, muß Repulsion von einem noch unbequemeren Platz existiren, der sie hierhin treibt. Könnte jeder ein Cot und ein Stückchen Land in der Nähe seines Arbeitsplatzes finden, so würde er solche sicher Badsey vorziehn, wo er für seine Handvoll Boden zweimal soviel zahlt als der Pächter für den seinen.“ |
+
+[v1-ch23s05-p0085] [MEGA p.623,624]
+Die beständige Emigration nach den Städten, die beständige „Ueberzähligmachung“ auf dem Land durch Koncentration von Pachtungen, Verwandlung von Acker in Weide, Maschinerie u. s. w., und die beständige Eviktion der Landbevölkerung durch Zerstörung der Cottages gehn Hand in Hand. Je menschenleerer der Distrikt, desto größer seine „relative Uebervölkerung“, desto größer ihr Druck auf die Beschäftigungsmittel, desto größer der absolute Ueberschuß des Landvolks über seine Behausungsmittel, desto größer also in den Dörfern die lokale Ueberpopulation und die pestilenzialischste Menschenzusammenpackung. Die Verdichtung des Menschenknäuels in zerstreuten kleinen Dörfern und Marktflecken entspricht der gewaltsamen Menschenentleerung auf der Oberfläche des Landes. Die ununterbrochne „Ueberzähligmachung“ der Landarbeiter trotz ihrer abnehmenden Anzahl und mit der wachsenden Masse ihres Produkts, ist die Wiege ihres Pauperismus. Ihr eventueller Pauperismus ist ein Motiv ihrer Eviktion und die Hauptquelle ihrer Wohnlichkeitsmisère, welche die letzte Widerstandsfähigkeit bricht und sie zu reinen Sklaven der Grundherrn 169) und Pächter macht, so daß das Minimum des Arbeitslohns sich zum Naturgesetz für sie befestigt. Andrerseits ist das Land trotz seiner beständigen „relativen Uebervölkerung“ zugleich untervölkert. Dies zeigt sich nicht nur lokal auf solchen Punkten, wo der Menschenabfluß nach den Städten, Minen, Eisenbahnbauten u. s. w. zu rasch vorgeht, es zeigt sich überall sowohl zur Erntezeit als im Frühling und Sommer während der zahlreichen Momente, wo die sehr sorgfältige und intensive englische Agrikultur Extrahände braucht. Es sind der Landarbeiter stets zu viel für die mittleren und stets zu wenig für die ausnahmsweisen oder temporären Bedürfnisse des Landbaus 170). Daher findet man in den officiellen Dokumenten die widerspruchsvolle Klage derselben Orte über gleichzeitigen Arbeitsmangel und Arbeitsüberfluß registrirt. Der temporäre oder lokale Arbeitsmangel bewirkt keine Erhöhung des Arbeitslohns, sondern Pressung von Weibern und Kindern in den Feldbau und Herabsteigen zu stets niedrigeren Altersstufen. Sobald die Weiber- und Kinderausbeutung größeren Spielraum gewinnt, wird sie ihrerseits ein neues Mittel zur Ueberzähligmachung des männlichen Landarbeiters und Niederhaltung seines Lohns. Im Osten Englands blüht eine schöne Frucht dieses cercle vicieux ‒ das sog. Gangsystem (Gang- oder Bandensystem), worauf ich hier kurz zurückkomme 171).
+
+[v1-ch23s05-p0086] [MEGA p.624,625]
+Das Gangsystem haust fast ausschließlich in Lincolnshire, Huntingdonshire, Cambridgeshire, Norfolk, Suffolk und Nottinghamshire, sporadisch in den benachbarten Grafschaften von Northampton, Bedford und Rutland. Als Beispiel diene hier Lincolnshire. Ein großer Theil dieser Grafschaft ist neu, früheres Moor oder auch, wie in andren der genannten östlichen Grafschaften, der See erst abgewonnenes Land. Die Dampfmaschine hat für die Entwässerung Wunder gewirkt. Früherer Morast und Sandboden trägt jetzt ein üppiges Kornmeer und die höchsten Grundrenten. Dasselbe gilt von dem künstlich gewonnenen Alluvialland, wie in der Insel von Axholme und den andren Pfarreien am Ufer des Trent. Im Maß wie die neuen Pachten entstanden, wurden nicht nur keine neuen Cottages gebaut, sondern alte niedergerissen, die Arbeitszufuhr aber verschafft aus den meilenweit entfernten offnen Dörfern längs den Landstraßen, die an Hügelrükken vorbeischlängeln. Dort hatte die Bevölkerung früher allein Schutz vor | den langanhaltenden Winterüberschwemmungen gefunden. Auf den Pachten von 400 bis 1000 Acres ansässige Arbeiter (sie heißen hier „confined labourers“) dienen ausschließlich zur permanenten schweren und mit Pferden verrichteten Landarbeit. Auf je 100 Acres (1 Acre = 40,49 Aren oder 1,584 preußische Morgen) kommt im Durchschnitt kaum eine Cottage. Ein Fenlandpächter z. B. sagt aus vor der Untersuchungskommission: „Meine Pachtung erstreckt sich über 320 Acres, alles Kornland. Sie hat keine Cottage. Ein Arbeiter wohnt jetzt bei mir. Ich habe vier Pferdemänner in der Umgegend logirend. Das leichte Werk, wozu zahlreiche Hände nöthig, wird durch Gänge vollbracht“ 172). Der Boden erheischt viel leichtes Feldwerk wie Ausjäten des Unkrauts, Behackung, gewisse Düngeroperationen, Auflesen der Steine u. s. w. Es wird verrichtet durch die Gänge oder organisirten Banden, deren Wohnsitz in den offnen Ortschaften.
+
+[v1-ch23s05-p0087] [MEGA p.625]
+Der Gang besteht aus 10 bis 40 oder 50 Personen, nämlich Weibern, jungen Personen beiderlei Geschlechts (13‒18 Jahr), obgleich Jungen meist mit dem 13. Jahr ausscheiden, endlich Kindern beiderlei Geschlechts (6‒13 Jahr). An der Spitze steht der Gangmaster (Gangmeister), immer ein gewöhnlicher Landarbeiter, meist ein sog. schlechter Kerl, Liederjahn, unstät, versoffen, aber mit einem gewissen Unternehmungsgeist und savoir faire. Er wirbt den Gang, der unter ihm arbeitet, nicht unter dem Pächter. Mit letztrem akkordirt er meist auf Stückwerk, und sein Einkommen, das im Durchschnitt nicht sehr hoch über das eines gewöhnlichen Landarbeiters steigt 173), hängt fast ganz ab vom Geschick, womit er in kürzester Zeit möglichst viel Arbeit aus seiner Bande flüssig zu machen weiß. Die Pächter haben entdeckt, daß Frauenzimmer nur unter männlicher Diktatur ordentlich arbeiten, daß aber Frauenzimmer und Kinder, wenn einmal im Zug, mit wahrem Ungestüm, was schon Fourier wußte, ihre Lebenskraft verausgaben, während der erwachsne männliche Arbeiter so heimtückisch ist damit, soviel er kann, hauszuhalten. Der Gangmeister zieht von einem Gut zum andren und beschäftigt so seine Bande 6‒8 Monate im Jahr. Seine Kundschaft ist daher viel einträglicher und sicherer für die Arbeiterfamilien als die des einzelnen Pächters, welcher nur gelegentlich Kinder beschäftigt. Dieser Umstand befestigt seinen Einfluß in den offnen Ortschaften so sehr, daß Kinder meist nur durch seine Vermittlung dingbar sind. Individuelles Verpumpen der letztren, getrennt vom Gang, bildet sein Nebengeschäft.
+
+[v1-ch23s05-p0088] [MEGA p.625,626]
+Die „Schattenseiten“ des Systems sind die Ueberarbeit der Kinder und jungen Personen, die ungeheuren Märsche, die sie täglich zu und von den 5, 6 und manchmal 7 Meilen entfernten Gütern zurücklegen, endlich die Demoralisation des „Gangs“. Obgleich der Gangmeister, der in einigen Gegenden „the driver“ (Treiber) heißt, mit einem langen Stabe ausgerüstet ist, wendet er solchen jedoch nur selten an, und Klage über brutale Behandlung ist Ausnahme. Er ist ein demokratischer Kaiser oder eine Art Rattenfänger von Hameln. Er bedarf also der Popularität unter seinen Unterthanen und fesselt sie an sich durch das unter seinen Auspicien blühende Zigeunerthum. Rohe Ungebundenheit, lustige Ausgelassenheit und obscönste Frechheit leihen dem Gang Flügel. Meist zahlt der Gangmeister in einer Kneipe aus und kehrt dann wohl wankend, rechts und links gestützt auf ein stämmiges Frauenmensch, an der Spitze des Zugs heim, die Kinder und jungen Personen hinterher tollend, Spott und Zotenlieder singend. Auf dem Rückweg ist das, was Fourier „Phanerogamie“ nennt, an der Tagesordnung. Die Schwängerung dreizehn- und vierzehnjähriger Mädchen durch ihre männlichen Altersgenossen ist häufig. Die offnen Dörfer, welche das Kontingent des Gangs stellen, werden Sodoms und Gomorrhas 174) und liefern doppelt so viel uneheliche Geburten als der Rest des Königreichs. Was in dieser Schule gezüchtete Mädchen als verheirathete Frauen in der Moralität leisten, ward schon früher angedeutet. Ihre Kinder, soweit Opium ihnen nicht den Garaus macht, sind geborne Rekruten des Gangs.
+
+[v1-ch23s05-p0089] [MEGA p.626]
+Der Gang in seiner eben beschriebenen klassischen Form heißt öffentlicher, gemeiner, oder Wandergang (public, common or tramping gang). Es giebt nämlich auch Privatgänge (private gangs). Sie sind zusammengesetzt wie der Gemeingang, zählen aber weniger Köpfe und arbeiten, statt unter dem Gangmeister, unter einem alten Bauernknecht, den der Pächter nicht besser zu verwenden weiß. Der Zigeunerhumor verschwindet hier, aber nach allen Zeugenaussagen verschlechtern sich Zahlung und Behandlung der Kinder. |
+
+[v1-ch23s05-p0090] [MEGA p.626,627]
+Das Gangsystem, das sich seit den letzten Jahren beständig ausdehnt 175), existirt offenbar nicht dem Gangmeister zu lieb. Es existirt zur Bereicherung der großen Pächter 176), resp. Grundherrn 177). Für den Pächter giebt’s keine sinnreichere Methode, sein Arbeiterpersonal tief unter dem normalen Niveau zu halten und dennoch für alles Extrawerk stets die Extrahand bereit zu haben, mit möglichst wenig Geld möglichst viel Arbeit herauszuschlagen 178) und den erwachsnen männlichen Arbeiter „überzählig“ zu machen. Nach der früheren Auseinandersetzung versteht man, wenn einerseits die größere oder geringere Beschäftigungslosigkeit des Landmanns zugestanden, andrerseits zugleich das Gangsystem wegen Mangels an männlicher Arbeit und ihrer Wanderung nach den Städten für „nothwendig“ erklärt wird 179). Das unkrautreine Feld und das Menschenunkraut von Lincolnshire u. s. w. sind Pol und Gegenpol der kapitalistischen Produktion 180).|
+
+[v1-ch23s05-p0091] [MEGA p.628] [heading]
+f) Irland.
+
+[v1-ch23s05-p0092] [MEGA p.628]
+Zum Schluß dieses Abschnitts müssen wir noch einen Augenblick nach Irland wandern. Zunächst die Thatsachen, worauf es hier ankommt.
+
+[v1-ch23s05-p0093] [MEGA p.628]
+Irlands Bevölkerung war 1841 auf 8 222 664 Personen angewachsen, 1851 auf 6 623 985 zusammengeschmolzen, 1861 auf 5 850 309, 1866 auf 5½ Million, ungefähr auf ihr Niveau von 1801. Die Abnahme begann mit dem Hungerjahr 1846, so daß Irland in weniger als 20 Jahren mehr als 5 16 seiner Volksmenge verlor 181). Seine Gesammtemigration von Mai 1851 bis Juli 1865 zählte 1 591 487 Personen, die Emigration während der letzten 5 Jahre 1861‒1865 mehr als eine halbe Million. Die Zahl der bewohnten Häuser verminderte sich von 1851‒1861 um 52 990. Von 1851‒1861 wuchs die Zahl der Pachthöfe von 15‒30 Acres um 61 000, die der Pachthöfe über 30 Acres um 109 000, während die Gesammtzahl aller Pachten um 120 000 abnahm, eine Abnahme, die also ausschließlich der Vernichtung von Pachten unter 15 Acres, alias ihrer Centralisation geschuldet ist.
+
+[v1-ch23s05-p0094] [MEGA p.628]
+Die Abnahme der Volksmenge war natürlich im Großen und Ganzen von einer Abnahme der Produktenmasse begleitet. Für unsren Zweck genügt es, die 5 Jahre 1861‒1865 zu betrachten, während deren über ½ Million emigrirte und die absolute Volkszahl um mehr als ⅛ Million sank. (s. Tab. A.)
+
+[v1-ch23s05-p0095] [MEGA p.628,629]
+Tabelle A. Viehstand.
+[table]
+Jahr. | Pferde. | Hornvieh.
+ | Gesammt- | Abnahme. | Gesammt- | Abnahme. | Zunahme.
+ | zahl. |  | zahl. |  | 
+1860 | 619 811 |  | 3 606 374 |  | 
+1861 | 614 232 | 5 579 | 3 471 688 | 134 686 | 
+1862 | 602 894 | 11 338 | 3 254 890 | 216 798 | 
+1863 | 579 978 | 22 916 | 3 144 231 | 110 659 | 
+1864 | 562 158 | 17 820 | 3 262 294 |  | 118 063
+1865 | 547 867 | 14 291 | 3 493 414 |  | 231 120
+[/table]
+[table]
+Jahr. | Schafe. | Schweine.
+ | Gesammt- | Abnahme. | Zunahme. | Gesammt- | Abnahme. | Zunahme.
+ | zahl. |  |  | zahl. |  | 
+1860 | 3 542 080 |  |  | 1 271 072 |  | 
+1861 | 3 556 050 |  | 13 970 | 1 102 042 | 169 030 | 
+1862 | 3 456 132 | 99 918 |  | 1 154 324 |  | 52 282
+1863 | 3 308 204 | 147 928 |  | 1 067 458 | 86 866 | 
+1864 | 3 366 941 |  | 58 737 | 1 058 480 | 8 978 | 
+1865 | 3 688 742 |  | 321 801 | 1 299 893 |  | 241 413
+[/table]
+
+[v1-ch23s05-p0096] [MEGA p.629]
+Aus der vorhergehenden Tabelle ergiebt sich:
+[table]
+Pferde. | Hornvieh. | Schafe. | Schweine.
+Absolute Abnahme. | Absolute Abnahme. | Absolute Zunahme. | Absolute Zunahme.
+71 944 | 112 960 | 146 662 | 28 821 182)
+[/table]
+
+[v1-ch23s05-p0097] [MEGA p.629]
+Wenden wir uns jetzt zum Ackerbau, der die Lebensmittel für | Vieh und Mensch liefert. In der folgenden Tabelle ist Ab- oder Zunahme für jedes einzelne Jahr mit Bezug auf das unmittelbar vorhergehende berechnet. Die Kornfrucht umfaßt Weizen, Hafer, Gerste, Roggen, Bohnen und Erbsen, die Grünfrucht Kartoffeln, Turnips, Mangold- und Runkelrübe, Kohl, gelbe Rüben, Parsnips, Wicke u. s. w.
+
+[v1-ch23s05-p0098] [MEGA p.629]
+Tabelle B. Zu- oder Abnahme des zum Fruchtbau und als Wiese (resp. Weide) benutzten Bodenareals in Acres.
+[table]
+ | Korn- | Grünfrucht. | Grasland | Flachs. | Alles zu
+ | frucht. |  |  | und Klee. |  |  | Ackerbau
+ |  |  |  |  |  |  |  | und Viehzucht
+ |  |  |  |  |  |  |  | dienende Land.
+Jahr. | Ab- | Ab- | Zu- | Ab- | Zu- | Ab- | Zu- | Ab- | Zu-
+ | nahme. | nahme. | nahme. | nahme. | nahme. | nahme. | nahme. | nahme. | nahme.
+ | Acres | Acres | Acres | Acres | Acres | Acres | Acres | Acres | Acres
+1861 | 15 701 | 36 974 |  | 47 969 |  |  | 19 271 | 81 373 | 
+1862 | 72 734 | 74 785 |  |  | 6 623 |  | 2 055 | 138 841 | 
+1863 | 144 719 | 19 358 |  |  | 7 724 |  | 63 922 | 92 431 | 
+1864 | 122 437 | 2 317 |  |  | 47 486 |  | 87 761 |  | 10 493
+1865 | 72 450 |  | 25 421 |  | 68 970 | 50 159 |  | 28 218 | 
+1861‒1865 | 428 041 | 108 013 |  |  | 82 834 |  | 122 850 | 330 370 | 
+[/table]
+
+[v1-ch23s05-p0099] [MEGA p.629,630]
+Im Jahr 1865 kamen unter der Rubrik „Grasland“ 127 470 Acres hinzu, hauptsächlich weil das Areal unter der Rubrik „unbenutztes wüstes Land und Bog (Torfmoor)“ um 101 543 Acres abnahm. Vergleichen wir 1865 mit 1864, so Abnahme in Kornfrucht 246 667 Qrs., wovon 48 999 Weizen, 166 605 Hafer, 29 892 Gerste u.s.w.; Abnahme an Kartoffeln, obgleich das Areal ihrer Bebauung 1865 wuchs, 446 398 Tonnen u.s.w. (S.Tab.C.)
+
+[v1-ch23s05-p0100] [MEGA p.630]
+Von der Bewegung der Bevölkerung und Bodenproduktion Irlands gehn wir über zur Bewegung in der Börse seiner Landlords, größeren Pächter und industriellen Kapitalisten. Sie spiegelt sich im Ab und Zu der Einkommensteuer. Zum Verständniß der folgenden Tabelle D sei bemerkt, daß Rubrik D (Profite mit Ausnahme der Pächterprofite) auch sog. „professionelle“ Profite einbegreift, d. h. die Einkommen von Advokaten, Aerzten u.s.w., die nicht besonders aufgezählten Rubriken C und E aber die Einnahmen von Beamten, Offizieren, Staatssinekuristen, Staatsgläubigern u.s.w.|
+
+[v1-ch23s05-p0101] [MEGA p.630]
+Tabelle C. Zu- oder Abnahme in dem Areal des bebauten Bodens, dem Produkt per Acre, und dem Gesammtprodukt. 1865 verglichen mit 1864.
+[table]
+Produkt | Acres bebautes Land 1864 | Acres bebautes Land 1865 | Zu- oder Abnahme 1865 | Produkt per Acre 1864 | Produkt per Acre 1865 | Zu- oder Abnahme 1865 | Totalprodukt 1864 | Totalprodukt 1865 | Zu- oder Abnahme 1865
+Weizen | 276 483 | 266 989 | -9 494 | 13,3 C. | 13,0 C. | -0,3 C. | 875 782 Qrs. | 826 783 Qrs. | -48 999 Qrs.
+Hafer | 1 814 886 | 1 745 228 | -69 658 | 12,1 C. | 12,3 C. | +0,2 C. | 7 826 332 Qrs. | 7 659 727 Qrs. | -166 605 Qrs.
+Gerste | 172 700 | 177 102 | +4 402 | 15,9 C. | 14,9 C. | -1,0 C. | 761 909 Qrs. | 732 017 Qrs. | -29 892 Qrs.
+Bere | 8 894 | 10 091 | +1 197 | 16,4 C. | 14,8 C. | -1,6 C. | 15 160 Qrs. | 13 989 Qrs. | -1 171 Qrs.
+Roggen | — | — | — | 8,5 C. | 10,4 C. | +1,9 C. | 12 680 Qrs. | 18 364 Qrs. | +5 684 Qrs.
+Kartoffeln | 1 039 724 | 1 066 260 | +26 536 | 4,1 Tonnen | 3,6 Tonnen | -0,5 Tonnen | 4 312 388 Tonnen | 3 865 990 Tonnen | -446 398 Tonnen
+Turnips | 337 355 | 334 212 | -3 143 | 10,3 Tonnen | 9,9 Tonnen | -0,4 Tonnen | 3 467 659 Tonnen | 3 301 683 Tonnen | -165 976 Tonnen
+Mangoldwurzel | 14 073 | 14 389 | +316 | 10,5 Tonnen | 13,3 Tonnen | +2,8 Tonnen | 147 284 Tonnen | 191 937 Tonnen | +44 653 Tonnen
+Kohl | 31 821 | 33 622 | +1 801 | 9,3 Tonnen | 10,4 Tonnen | +1,1 Tonnen | 297 375 Tonnen | 350 252 Tonnen | +52 877 Tonnen
+Flachs | 301 693 | 251 433 | -50 260 | 34,2 Stones von 14 Pfund | 25,2 Stones von 14 Pfund | -9,0 Stones | 64 506 Stones | 39 561 Stones | -24 945 Stones
+Heu | 1 609 569 | 1 678 493 | +68 924 | 1,6 Tonnen | 1,8 Tonnen | +0,2 Tonnen | 2 607 153 Tonnen | 3 068 707 Tonnen | +461 554 Tonnen 183)
+[/table]
+
+[v1-ch23s05-p0102] [MEGA p.630]
+Tabelle D. Der Einkommensteuer unterliegende Einkommen in Pfd. St.
+[table]
+ | 1860. | 1861. | 1862. | 1863. | 1864. | 1865.
+Rubrik A. |  |  |  |  |  |  |  | 
+Grundrente. | 12 893 829 | 13 003 554 | 13 398 938 | 13 494 091 | 13 470 700 | 13 801 616 | 
+Rubrik B. |  |  |  |  |  |  |  | 
+Pächterprof. | 2 765 387 | 2 773 644 | 2 937 899 | 2 938 923 | 2 930 874 | 2 946 072 | 
+Rubrik D. |  |  |  |  |  |  |  | 
+Industrielle |  |  |  |  |  |  |  | 
+etc. Profite. | 4 891 652 | 4 836 203 | 4 858 800 | 4 846 497 | 4 546 147 | 4 850 199 | 
+Sämmtliche |  |  |  |  |  |  |  | 
+Rubriken |  |  |  |  |  |  |  | 
+A bis E. | 22 962 885 | 22 998 394 | 23 597 574 | 23 658 631 | 23 236 298 | 23 930 340 | 184)
+[/table]
+
+[v1-ch23s05-p0103] [MEGA p.630]
+Unter Rubrik D betrug die Zunahme des Einkommens im Jahresdurchschnitt von 1853‒1864 nur 0,93, während sie in derselben Periode in Großbritannien 4,58 betrug. Die folgende Tabelle zeigt die Vertheilung der Profite (mit Ausschluß der Pächterprofite) für die Jahre 1864 und 1865:
+
+[v1-ch23s05-p0104] [MEGA p.632]
+Tabelle E. Rubrik D. Einkommen aus Profiten (über 60 Pfd. St.) in Irland.
+[table]
+ | 1864. |  |  |  |  | 1865. |  |  |  | 
+ | Pfd. St. |  |  |  |  | Pfd. St. |  |  |  | 
+Jährliche |  |  |  |  |  |  |  |  |  | 
+Gesammt- |  |  |  |  |  |  |  |  |  | 
+einnahme von: | 4 368 610 | vertheilt | unter | 17 467 | Pers. | 4 669 979 | vertheilt | unter | 18 081 | P.
+Jährliche |  |  |  |  |  |  |  |  |  | 
+Einkommen |  |  |  |  |  |  |  |  |  | 
+über 60 und |  |  |  |  |  |  |  |  |  | 
+unter 100 |  |  |  |  |  |  |  |  |  | 
+Pfd. St. | 238 726 | ” | ” | 5 015 | ” | 222 575 | ” | ” | 4 703 | ”
+Von der jährl. |  |  |  |  |  |  |  |  |  | 
+Gesammt- |  |  |  |  |  |  |  |  |  | 
+einname: | 1 979 066 | ” | ” | 11 321 | ” | 2 028 571 | ” | ” | 12 184 | ”
+Rest der jährl. |  |  |  |  |  |  |  |  |  | 
+Gesammt- |  |  |  |  |  |  |  |  |  | 
+einname von: | 2 150 818 | ” | ” | 1 131 | ” | 2 418 833 | ” | ” | 1 194 | ”
+ | 1 073 906 | ” | ” | 1 010 | ” | 1 097 927 | ” | ” | 1 044 | ”
+ | 1 076 912 | ” | ” | 121 | ” | 1 320 906 | ” | ” | 150 | ”
+Davon: | 430 535 | ” | ” | 95 | ” | 584 458 | ” | ” | 122 | ”
+ | 646 377 | ” | ” | 26 | ” | 736 448 | ” | ” | 28 | ”
+ | 262 819 | ” | ” | 3 | ” | 274 528 | ” | ” | 3 | „ 185)
+[/table]
+
+[v1-ch23s05-p0105] [MEGA p.632]
+England, ein Land entwickelter kapitalistischer Produktion und vorzugsweis industriell, wäre verblutet an einem Volksaderlaß, gleich dem irischen. Aber Irland ist gegenwärtig nur ein durch einen breiten Wassergraben abgezäunter Agrikulturdistrikt Englands, dem es Korn, Wolle, Vieh, industrielle und militärische Rekruten liefert.
+
+[v1-ch23s05-p0106] [MEGA p.632,633]
+Die Entvölkerung hat viel Land außer Bebauung geworfen, das Bodenprodukt sehr vermindert 186), und, trotz des erweiterten Areals der Viehzucht, in einigen ihrer Zweige absolute Abnahme erzeugt, in andren kaum nennenswerthen, durch beständige Rückschritte unterbrochnen Fortschritt. Dennoch stiegen mit dem Fall der Volksmasse fortwährend Bodenrenten und Pachtprofite, obgleich letztere nicht so konstant wie die erstren. Der Grund ist leicht verständlich. Einerseits verwandtelte sich mit der Zusammenwerfung der Pachtungen und der Verwandlung von Ackerland in Viehweide ein größerer Theil des Gesammtprodukts in Mehrprodukt. Das Mehrprodukt wuchs, obgleich das Gesammtprodukt, wovon es einen Bruchtheil bildet, abnahm. Andrerseits stieg der Geldwerth dieses Mehrprodukts noch rascher als seine Masse, in Folge der seit den letzten 20 und ganz besonders seit den letzten 10 Jahren steigenden englischen Marktpreise für Fleisch, Wolle u. s. w.
+
+[v1-ch23s05-p0107] [MEGA p.633]
+Zersplitterte Produktionsmittel, die den Producenten selbst als Beschäftigungs- und Subsistenzmittel dienen, ohne sich durch Einverleibung fremder Arbeit zu verwerthen, sind eben so wenig Kapital als das von seinem eigenen Producenten verzehrte Produkt Waare ist. Wenn mit der Volksmasse auch die Masse der in der Agrikultur angewandten Produktionsmittel abnahm, so nahm die Masse des in ihr angewandten Kapitals zu, weil ein Theil früher zersplitterter Produktionsmittel in Kapital verwandelt ward.
+
+[v1-ch23s05-p0108] [MEGA p.633]
+Das außerhalb der Agrikultur, in Industrie und Handel angelegte Gesammtkapital Irlands akkumulirte während der letzten zwei Decennien langsam und unter beständiger großer Fluktuation. Um so rascher entwikkelte sich dagegen die Koncentration seiner individuellen Bestandtheile. Endlich, wie gering immerhin sein absolutes Wachsthum, relativ, im Verhältniß zur zusammengeschmolzenen Volkszahl, war es angeschwollen.
+
+[v1-ch23s05-p0109] [MEGA p.633]
+Hier entrollt sich also, unter unsren Augen, auf großer Stufenleiter, ein Proceß, wie die orthodoxe Oekonomie ihn nicht schöner wünschen konnte zur Bewähr ihres Dogmas’s, wonach das Elend aus absoluter Uebervölkerung entspringt und das Gleichgewicht durch Entvölkerung wieder hergestellt wird. Es ist dies ein ganz anderes wichtiges Experiment als die von den Malthusianern so sehr verherrlichte Pest in der Mitte des vierzehnten Jahrhunderts. Nebenbei bemerkt. War es an sich schulmeisterlich naiv, den Produktions- und entsprechenden Bevölkerungsverhältnissen des 19. Jahrhunderts den Maßstab des 14. Jahrhunderts anzulegen, so übersah diese Naivetät noch obendrein, daß wenn jener Pest und der sie begleitenden Decimation diesseits des Kanals, in England, Befreiung und Bereicherung des Landvolks, ihr jenseits, in Frankreich, größere Knechtung und erhöhtes Elend auf dem Fuß nachfolgten 186a).
+
+[v1-ch23s05-p0110] [MEGA p.633,634]
+Die Hungersnoth erschlug 1846 in Irland über eine Menschenmillion, aber nur arme Teufel. Sie that dem Reichthum des Landes nicht den geringsten Abbruch. Der nachfolgende zwanzigjährige und stets noch anschwellende Exodus decimirte nicht, wie etwa der dreißigjährige Krieg, mit den Menschen zugleich ihre Produktionsmittel. Das irische Genie erfand eine ganz neue Methode, ein armes Volk tausende von Meilen vom Schauplatz seines Elends wegzuhexen. Die in die Vereinigten Staaten übergesiedelten Auswanderer schicken jährlich Geldsummen nach Haus, Reisemittel für die Zurückgebliebenen. Jeder Trupp, der dieses Jahr auswandert, zieht nächstes Jahr einen andren Trupp nach. Statt Irland etwas zu kosten, bildet die Auswanderung so einen der einträglichsten Zweige seines Exportgeschäftes. Sie ist endlich ein systematischer Proceß, der nicht etwa vorübergehend ein Loch in die Volksmasse bohrt, sondern aus derselben jährlich mehr Menschen auspumpt, als der Nachwuchs ersetzt, so daß das absolute Bevölkerungsniveau von Jahr zu Jahr sinkt 64a).
+
+[v1-ch23s05-p0111] [MEGA p.634,635]
+Welches waren die Folgen für die zurückbleibenden, von der Uebervölkerung befreiten Arbeiter Irlands? Daß die relative Uebervölkerung heute so groß ist wie vor 1846, daß der Arbeitslohn eben so niedrig steht und die Arbeitsplackerei zugenommen hat, daß die Misère auf dem Land wieder zu einer neuen Krise drängt. Die Ursachen sind einfach. Die Revolution in der Agrikultur hielt Schritt mit der Emigration. Die Produktion der relativen Uebervölkerung hielt mehr als Schritt mit der absoluten Entvölkerung. Ein Blick auf Tabelle B zeigt, wie die Verwandlung von Ackerbau in Viehweide in Irland noch akuter wirken muß als in England. Hier wächst mit der Viehzucht der Bau von Grünfrucht, dort nimmt er ab. Während große Massen früher bestellter Aecker brachgelegt oder in permanentes Grasland verwandelt werden, dient ein großer Theil des früher unbenutzten wüsten Landes und Torfmoors zur Ausdehnung der Viehzucht. Die kleineren und mittleren Pächter ‒ ich rechne dazu alle, die nicht über 100 Acres bebauen ‒ machen immer noch ungefähr 8 10 der Gesammtzahl aus 64a). Sie werden progressiv in ganz andrem Grad als zuvor von der Konkurrenz des kapitalistisch betriebenen Ackerbaus erdrückt und liefern daher der Klasse der Lohnarbeiter beständig neue Rekruten. Die einzige große Industrie Irlands, die Leinenfabrikation, braucht verhältnißmäßig wenig erwachsne Männer und beschäftigt überhaupt, trotz ihrer Expansion seit der Vertheuerung der Baumwolle 1861‒66, nur einen verhältnißmäßig unbedeutenden Theil der Bevölkerung. Gleich jeder andren großen Industrie producirt sie durch stete Schwankungen in ihrer eignen Sphäre beständig eine relative Uebervölkerung, selbst bei absolutem Wachsthum der von ihr absorbirten Menschenmasse. Die Misère des Landvolks bildet das Piedestal riesenhafter Hemdenfabriken etc., deren Arbeiterarmee zum größten Theil über das flache Land zerstreut ist. Wir finden hier das früher geschilderte System der Hausarbeit wieder, welches in Unterzahlung und Ueberarbeit seine methodischen Mittel der „Ueberzähligmachung“ besitzt. Endlich, obschon die Entvölkerung nicht zerstörende Folgen hat, wie in einem Land entwickelter kapitalistischer Produktion, vollzieht sie sich nicht ohne beständigen Rückschlag auf den innern Markt. Die Lücke, welche die Auswanderung hier schafft, verengert nicht nur die lokale Arbeitsnachfrage, sondern auch die Einkünfte der Kleinkrämer, Handwerker, kleinen Gewerbsleute überhaupt. Daher der Rückgang der Einkommen zwischen 60 und 100 Pfd. St. in Tabelle E.
+
+[v1-ch23s05-p0112] [MEGA p.635]
+Eine durchsichtige Darstellung der Lage der ländlichen Tagelöhner in Irland findet sich in den Berichten der irischen Armenverwaltungs- Inspektoren (1870) 186d). Beamte einer Regierung, die sich nur durch die Bayonnete und den bald offnen, bald verhüllten Belagerungszustand hält, müssen sie alle die Rücksichten der Sprache beobachten, die ihre Kollegen in England verachten; trotzdem aber erlauben sie ihrer Regierung nicht, sich in Illusionen zu wiegen. Nach ihnen hat sich die, immer noch sehr niedrige Lohnrate auf dem Lande, in den lezten 20 Jahren doch um 50‒60 % erhöht und steht jetzt im Durchschnitt auf 6‒9 sh. die Woche. Hinter dieser scheinbaren Erhöhung aber verbirgt sich ein wirkliches Fallen des Lohns, denn sie gleicht nicht einmal den inzwischen erfolgten Preisaufschlag der nothwendigen Lebensmittel aus; Beweis folgender Auszug aus den amtlichen Rechnungen eines irischen Workhouse:
+
+[v1-ch23s05-p0113] [MEGA p.635]
+Wochendurchschnitt der Unterhaltungskosten pr. Kopf.
+[table]
+Jahr. | Nahrung. | Kleidung. | Zusammen.
+29. Sept. 1848 bis 29. Sept. 1849 | 1 sh. 3¼ d. | 0 sh. 3 d. | 1 sh. 6¼ d.
+29. Sept. 1868 bis 29. Sept. 1869 | 2 sh. 7¼ d. | 0 sh. 6 d. | 3 sh. 1¼ d.
+[/table]
+
+[v1-ch23s05-p0114] [MEGA p.635]
+Der Preis der nothwendigen Lebensmittel ist also beinah zweimal, und der der Kleidung genau zweimal so hoch als vor zwanzig Jahren.
+
+[v1-ch23s05-p0115] [MEGA p.635,636]
+Selbst abgesehen von diesem Mißverhältniß, ergäbe bloße Vergleichung der in Geld ausgedrückten Lohnrate noch lange kein richtiges Resultat. Vor der Hungersnoth wurde die große Masse der ländlichen Löhne in natura entrichtet, in Geld nur der kleinste Theil; heute ist Geldzahlung Regel. Schon daraus folgt daß, welches auch die Bewegung des wirklichen Lohns, seine Geldrate steigen mußte. „Vor der Hungersnoth besaß der Akkerbautagelöhner ein Stückchen Land, worauf er Kartoffeln baute und Schweine und Geflügel zog... Heutzutage muß er nicht nur alle seine Lebensmittel kaufen, sondern es entgehn ihm auch die Einnahmen aus dem Verkauf von Schweinen, Geflügel und Eiern“ 187). In der That flossen früher die Landarbeiter zusammen mit den kleinen Pächtern und bildeten meistens nur den Nachtrab der mittleren und großen Pachtungen, auf denen sie Beschäftigung fanden. Erst seit der Katastrophe von 1846 hatten sie angefangen einen Bruchtheil der Klasse reiner Lohnarbeiter zu bilden, einen besonderen Stand, der mit seinen Lohnherren nur noch durch Geldverhältnisse verknüpft ist.
+
+[v1-ch23s05-p0116] [MEGA p.636]
+Man weiß, was ihr Wohnungszustand von 1846 war. Seitdem hat er sich noch verschlimmert. Ein Theil der Landtaglöhner, der indeß von Tag zu Tag abnimmt, wohnt noch auf den Ländereien der Pächter in überfüllten Hütten, deren Scheußlichkeiten das Schlimmste weit übertreffen, das uns die englischen Landdistrikte in dieser Art vorführten. Und das gilt allgemein, mit Ausnahme einiger Striche von Ulster; im Süden in den Grafschaften Cork, Limerick, Kilkenny etc.; im Osten in Wicklow, Wexford etc.; im Centrum in King’s und Queen’s County, Dublin etc.; im Norden in Down, Antrim, Tyrone etc.; im Westen in Sligo, Roscommon, Mayo, Galway etc. „Es ist“, ruft einer der Inspektoren aus, „es ist eine Schande für die Religion und die Civilisation dieses Landes“ 187a). Um den Taglöhnern die Wohnlichkeit ihrer Höhlen erträglicher zu machen, konfiscirt man systematisch die seit undenklicher Zeit dazugehörigen Stückchen Land. „Das Bewußtsein dieser Art von Acht, in die sie von den Grundherrn und ihren Verwaltern gethan sind, hat bei den Landtaglöhnern entsprechende Gefühle des Gegensatzes und Hasses hervorgerufen gegen die, welche sie als eine rechtlose Race behandeln.“ 187a).
+
+[v1-ch23s05-p0117] [MEGA p.636]
+Der erste Akt der Ackerbaurevolution war, auf allergrößtem Maßstab und wie nach einem von oben gegebenen Losungswort, die auf dem Arbeitsfeld gelegenen Hütten wegzufegen. Viele Arbeiter wurden so gezwungen, in Dörfern und Städten Schutz zu suchen. Dort warf man sie wie Schund in Dachkammern, Löcher, Keller und in die Schlupfwinkel der schlechtesten Viertel. Tausende irischer Familien, die sich selbst nach dem Zeugniß von, in nationalen Vorurtheilen befangnen, Engländern durch ihre seltne Anhänglichkeit an den heimischen Herd, durch ihre sorglose Heiterkeit und durch häusliche Sittenreinheit auszeichneten, fanden sich so plötzlich verpflanzt in die Treibhäuser des Lasters. Die Männer müssen jetzt Arbeit suchen bei benachbarten Pächtern und werden nur auf den Tag gemiethet, also in der prekärsten Lohnform; dabei „haben sie jetzt weite Wege zur Pachtung und zurück zu machen, oft naß wie die Ratten, und andren Unbilden ausgesetzt, die häufig Abschwächung, Krankheit und damit Mangel herbeiführen“. 187b) |
+
+[v1-ch23s05-p0118] [MEGA p.637]
+„Die Städte hatten Jahr um Jahr aufzunehmen, was als Ueberschuß von Arbeitern in den Landdistrikten galt“ 187c), und dann wundert man sich noch, „daß in den Städten und Dörfern Ueberschuß, und auf dem Lande Mangel an Arbeitern herrscht!“ 187d). Die Wahrheit ist, daß dieser Mangel nur fühlbar wird „zur Zeit dringlicher Ackerbauarbeiten, im Frühjahr und Herbst, während den Rest des Jahres viele Hände müßig bleiben“ 187e); daß „nach der Ernte, vom Oktober bis zum Frühling, es kaum Beschäftigung für sie giebt“ 187f), und daß sie auch während der beschäftigten Zeit „häufig ganze Tage verlieren und Arbeitsunterbrechungen aller Art ausgesetzt sind“ 187g).
+
+[v1-ch23s05-p0119] [MEGA p.637]
+Diese Folgen der agrikolen Revolution, d. h. der Verwandlung von Akkerland in Viehweide, der Anwendung von Maschinerie, der strengsten Arbeitsersparung etc. ‒ werden noch verschärft durch die Muster-Grundherren, solche die statt ihre Renten im Ausland zu verzehren, so gnädig sind in Irland auf ihren Domainen zu wohnen. Damit das Gesetz von Nachfrage und Angebot ganz ungekränkt bleibe, ziehen diese Herren „jetzt fast ihren ganzen Arbeitsbedarf aus ihren kleinen Pächtern, die so gezwungen sind für ihre Grundherrn zu schanzen für einen im Allgemeinen geringeren Lohn als der der gewöhnlichen Taglöhner, und das ohne alle Rücksicht auf die Unbequemlichkeiten und Verluste, die daraus entstehn, daß sie zur kritischen Zeit der Saat oder Ernte ihre eignen Felder vernachlässigen müssen“. 187h)
+
+[v1-ch23s05-p0120] [MEGA p.637]
+Die Unsicherheit und Unregelmäßigkeit der Beschäftigung, die häufige Wiederkehr und lange Dauer der Arbeitsstockungen, alle diese Symptome einer relativen Uebervölkerung figuriren also in den Berichten der Armenverwaltungs-Inspectoren als ebensoviel Beschwerden des irischen Ackerbauproletariats. Man erinnert sich, daß wir beim englischen Landproletariat ähnlichen Erscheinungen begegnet sind. Aber der Unterschied ist, daß in England, einem industriellen Lande, die industrielle Reserve sich auf dem Lande rekrutirt, während in Irland, einem Ackerbauland, die Ackerbaureserve sich in den Städten, den Zufluchtsorten der vertriebenen Landarbeiter, rekrutirt. Dort verwandeln sich die Ueberzähligen des Landbaus in Fabrikarbeiter; hier bleiben die in die Städte Gejagten, während sie gleichzeitig auf den städtischen Lohn drücken, Landarbeiter und werden beständig aufs Land auf Arbeitsuche zurückgeschickt.
+
+[v1-ch23s05-p0121] [MEGA p.637,638]
+Die amtlichen Berichterstatter fassen die materielle Lage der Ackerbautaglöhner zusammen, wie folgt: „Obwohl sie mit der äußersten Frugalität leben, reicht ihr Lohn doch kaum hin, ihnen und ihren Familien Nahrung und Wohnung zu bestreiten; für Kleidung bedürfen sie weiterer Einnahmen... Die Atmosphäre ihrer Wohnungen, im Verein mit andern Entbehrungen, setzt diese Klasse in ganz besondrem Grade dem Typhus und der Schwindsucht aus“ 187i). Hiernach ist es kein Wunder, daß, nach dem einstimmigen Zeugniß der Berichterstatter, ein finstres Mißvergnügen die Reihen dieser Klasse durchdringt, daß sie die Vergangenheit zurückwünscht, die Gegenwart verabscheut, an der Zukunft verzweifelt, „sich den verwerflichen Einflüssen von Demagogen hingiebt“ und nur die eine fixe Idee hat, nach Amerika auszuwandern. Das ist das Schlaraffenland, worin das große malthusische Allerweltsheilmittel, die Entvölkerung, das grüne Erin verwandelt hat!
+
+[v1-ch23s05-p0122] [MEGA p.638]
+Welches Wohlleben die irischen Manufakturarbeiter führen, dafür genügt ein Beispiel:
+
+[v1-ch23s05-p0123] [MEGA p.638,639]
+„Bei meiner neulichen Inspektion des Nordens von Irland“, sagt der englische Fabrikinspektor Robert Baker, „frappirte mich die Bemühung eines geschickten irischen Arbeiters, aus den allerdürftigsten Mitteln seinen Kindern Erziehung zu verschaffen. Ich gebe seine Aussage wörtlich, wie ich sie aus seinem Mund erhielt. Daß er eine geschickte Fabrikhand, weiß man, wenn ich sage, daß man ihn zu Artikeln für den Manchester Markt verwendet. Johnson: Ich bin ein beetler und arbeite von 6 Uhr Morgens bis 11 Uhr in der Nacht, von Montag bis Freitag; Samstag endigen wir um 6 Uhr Abends und haben 3 Stunden für Mahlzeit und Erholung. Ich habe 5 Kinder. Für diese Arbeit erhalte ich 10 sh. 6 d. wöchentlich; meine Frau arbeitet auch und verdient 5 sh. die Woche. Das älteste Mädchen, zwölfjährig, wartet das Haus. Sie ist unsre Köchin und einzige Gehülfin. Sie macht die jüngeren zur Schule fertig. Meine Frau steht mit mir auf und geht mit mir fort. Ein Mädchen, welches unser Haus entlang geht, weckt mich um halb 6 Uhr Morgens. Wir essen nichts, bevor wir zur Arbeit gehn. Das zwölfjährige Kind sorgt für die Kleineren des Tags über. Wir frühstücken um 8 und gehn dazu nach Hause. Wir haben Thee einmal die Woche; sonst haben wir einen Brei (stirabout), manchmal von Hafermehl, manchmal von Maismehl, je nachdem wir fähig sind es zu beschaffen. Im Winter haben wir ein wenig Zucker und Wasser zu unsrem Maismehl. Im Sommer ernten wir einige Kartoffeln, womit wir selbst ein Bodenfetzchen bepflanzen, und wenn sie zu Ende sind, kehren wir zum Brei zurück. So geht’s Tag aus Tag ein, Sonntag und Werkeltag, das ganze Jahr durch. Ich bin stets sehr müde des Abends nach vollbrachtem Tagwerk. Einen Bissen Fleisch sehn wir ausnahmsweis, aber sehr selten. Drei unsrer Kinder besuchen Schule, wofür wir 1 d. per Kopf wöchentlich zahlen. Unsre Hausmiethe ist 9 d. die Woche, Torf und Feuerung kosten mindestens 1 sh. 6 d. vierzehntägig“ 188). Das sind irische Löhne, das ist irisches Leben!
+
+[v1-ch23s05-p0124] [MEGA p.639]
+In der That, das Elend Irlands ist wieder Tagesthema in England. Ende 1866 und Anfang 1867 machte sich in der Times einer der irischen Landmagnaten, Lord Dufferin, an die Lösung. „Wie menschlich von solch’ großem Herrn!“
+
+[v1-ch23s05-p0125] [MEGA p.639]
+Aus Tabelle E sah man, daß während 1864 von 4368610 Pfd. St. Gesammtprofit 3 Plusmacher nur 262819, dieselben 3 Virtuosen der „Entsagung“ 1865 von 4669979 Pfd. St. Gesammtprofit dagegen 274528 Pfd. St. einsteckten, 1864: 26 Plusmacher 646377 Pfd. St., 1865: 28 Plusmacher 736448 Pfd. St., 1864: 121 Plusmacher 1 076 912 Pfd. St., 1865: 150 Plusmacher 1320906 Pfd. St., 1864: 1131 Plusmacher 2150818 Pfd. St., beinahe die Hälfte des jährlichen Gesammtprofits, 1865: 1194 Plusmacher 2418833 Pfd. St., mehr als die Hälfte des jährlichen Gesammtprofits. Der Löwenantheil aber, welchen eine verschwindend kleine Anzahl Landmagnaten in England, Schottland und Irland vom jährlichen Nationalrental verschlingt, ist so monströs, daß die englische Staatsweisheit es angemessen findet, für die Vertheilung der Grundrente nicht dasselbe statistische Material zu liefern wie für die Vertheilung des Profits. Lord Dufferin ist einer dieser Landmagnaten. Daß Rentrollen und Profite jemals „überzählig“ sein können, oder daß ihre Plethora mit der Plethora des Volkselends irgendwie zusammenhängt, ist natürlich eine ebenso „irrespektable“ als „ungesunde“ (unsound) Vorstellung. Er hält sich an Thatsachen. Die Thatsache ist, daß wie die irische Volkszahl abnimmt, die irischen Rentrollen schwellen, daß die Entvölkerung dem Grundeigenthümer „wohlthut“, also auch dem Grund und Boden, also auch dem Volk, das nur Zubehör des Bodens. Er erklärt also, Irland sei immer noch übervölkert und der Strom der Emigration fließe stets noch zu träg. Um vollständig glücklich zu sein, müsse Irland wenigstens noch ⅓ Million Arbeitsmenschen ablassen. Man wähne nicht, dieser obendrein noch poetische Lord sei ein Arzt aus der Schule Sangrado’s, der, so oft er seinen Kranken nicht besser fand, Aderlaß verordnete, neuen Aderlaß, bis der Patient mit seinem Blut auch seine Krankheit verlor. Lord Dufferin verlangt einen neuen Aderlaß von nur ⅓ Million, statt von ungefähr 2 Millionen, ohne deren Ablaß in der That das Millennium in Erin nicht herstellbar ist. Der Beweis ist leicht geliefert.
+
+[v1-ch23s05-p0126] [MEGA p.640]
+Anzahl und Umfang der Pachten in Irland 1864.
+[table]
+1. | 2. | 3. | 4.
+Pachten | Pachten über 1, | Pachten über 5, | Pachten über 15,
+nicht über 1 Acre. | nicht über 5 Acres. | nicht über 15 Acres. | nicht über 30 Acres.
+Anzahl | Acres | Anzahl | Acres | Anzahl | Acres | Anzahl | Acres
+48 653 | 25 394 | 82 037 | 288 916 | 176 368 | 1 836 310 | 136 578 | 3 051 343
+5. | 6. | 7. | 8.
+Pachten über 30, | Pachten über 50, | Pachten | Gesammtareal
+nicht über 50 Acres. | nicht über 100 Acres. | über 100 Acres. | 
+Anzahl | Acres | Anzahl | Acres | Anzahl | Acres |  | 
+71 961 | 2 906 274 | 54 247 | 3 983 880 | 31 927 | 8 227 807 | 20 319 924 Acr. 188a)
+[/table]
+
+[v1-ch23s05-p0127] [MEGA p.640]
+Die Centralisation hat von 1851 bis 1861 hauptsächlich Pachten der ersten drei Kategorien, unter 1 und nicht über 15 Acres, vernichtet. Sie müssen vor allem verschwinden. Dies giebt 307058 „überzählige“ Pächter, und die Familie zum niedrigen Durchschnitt von 4 Köpfen gerechnet, 1228232 Personen. Unter der extravaganten Unterstellung, daß ¼ davon nach vollbrachter agrikoler Revolution wieder absorbirbar, bleiben auszuwandern: 921174 Personen. Die Kategorien 4, 5, 6, von über 15 und nicht über 100 Acres, sind, wie man längst in England weiß, für den kapitalistischen Kornbau zu klein, für Schafzucht aber fast verschwindende Größen. Unter denselben Unterstellungen wie vorher sind also fernere 788358 Personen auszuwandern, Summe: 1709532. Und, comme l’appétit vient en mangeant, werden die Augen der Rentrolle bald entdecken, daß Irland mit 3½ Millionen immer noch elend, und elend, weil übervölkert ist, also seine Entvölkerung noch viel weiter gehn muß, damit es seinen wahren Beruf erfülle, den einer englischen Schaftrift und Viehweide 188b).
+
+[v1-ch23s05-p0128] [MEGA p.641]
+Diese einbringliche Methode hat wie alles Gute in dieser Welt ihren Mißstand. Mit der Akkumulation der Grundrente in Irland hält Schritt die Akkumulation der Irländer in Amerika. Der durch Schaf und Ochs beseitigte Ire ersteht auf der andren Seite des Oceans als Fenier. Und gegenüber der alten Seekönigin erhebt sich drohend und drohender die junge Riesenrepublik.
+
+[v1-ch23s05-p0129] [MEGA p.641]
+Acerba fata Romanos agunt. Scelusque fraternae necis. |
+
+## Footnotes
+
+[note-001] [MEGA p.583]
+94) „Tenth Report of the Commissioners of H. M.’s Inland Revenue. Lond. 1866“, p. 38.
+
+[note-002] [MEGA p.583]
+95) ibidem.
+
+[note-003] [MEGA p.584]
+96) Diese Zahlen sind hinreichend für die Vergleichung, aber, absolut betrachtet, falsch, da vielleicht 100 Millionen Pfd. St. Einkommen jährlich, „verschwiegen“ werden. Die Klage der Commissioners of Inland Revenue über systematischen Betrug, namentlich von kommercieller und industrieller Seite, wiederholt sich in jedem ihrer Berichte. So heißt es z. B.: „Eine Aktiengesellschaft gab ihre besteuerbaren Profite auf 6000 Pfd. St. an, der Taxator veranschlagte sie zu 88000 Pfd. St., und für diese Summe ward schließlich die Steuer gezahlt. Eine andre Kompagnie gab 190000 Pfd. St. an, sie ward gezwungen zu gestehn, daß der wirkliche Betrag 250000 Pfd. St.“ (ibid. p. 42.)
+
+[note-004] [MEGA p.584]
+97) Census etc. l. c. p. 29. John Bright’s Behauptung, daß 150 Grundherren die Hälfte des englischen und 12 die Hälfte des schottischen Bodens eignen, ist nicht widerlegt worden.
+
+[note-005] [MEGA p.584]
+98) „Fourth Report etc. of Inland Revenue. Lond. 1860“, p. 17.
+
+[note-006] [MEGA p.584]
+99) Es sind dieß die Reineinkommen, also nach gewissen gesetzlich gültigen Abzügen.
+
+[note-007] [MEGA p.585]
+100) In diesem Augenblick, März 1867, ist der indisch-chinesische Markt durch die Konsignationen der britischen Baumwollfabrikanten schon wieder völlig überführt. Lohnherabsetzung um 5 % begann unter den Baumwollarbeitern 1866, 1867 in Folge ähnlicher Operation Strike von 20000 Mann in Preston. ❲Es war dieß das Vorspiel der Krise, die gleich darauf hereinbrach. ‒ D. H.❳
+
+[note-008] [MEGA p.585]
+101) Census etc. l. c. p. 11.
+
+[note-009] [MEGA p.585]
+102) Gladstone im Hause der Gemeinen, 13. Febr. 1843: “It is one of the most melancholy features in the social state of this country that we see, beyond the possibility of denial, that while there is at this moment, a decrease in the consuming powers of the people, an increase of the pressure of privations and distress; there is at the same time a constant accumulation of wealth in the upper classes, an increase in the luxuriousness of their habits, and of their means of enjoyment.” (Times, 14. Febr. 1843. ‒ Hansard, 13. Febr.)
+
+[note-010] [MEGA p.586]
+103) “From 1842 to 1852 the taxable income of the country increased by 6 per cent... In the 8 years from 1853 to 1861, it had increased from the basis taken in 1853, 20 per cent! The fact is so astonishing as to be almost incredible... this intoxicating augmentation of wealth and power... entirely confined to classes of property... must be of indirect benefit to the labouring population, because it cheapens the commodities of general consumption—while the rich have been growing richer the poor have been growing less poor! at any rate, whether the extremes of poverty are less, I do not presume to say.” Gladstone im H. o. C. 16. April 1863. Morning Star, 17. April.
+
+[note-011] [MEGA p.586]
+104) Sieh die officiellen Angaben in dem Blaubuch: „Miscellaneous Statistics of the Un. Kingdom. Part VI. Lond. 1866“, p. 260‒273 passim. Statt der Statistik der Waisenanstalten u. s. w. könnten auch die Deklamationen ministerieller Journale zur Bevorwortung der Aussteuer der Kinder des königlichen Hauses als Beleg dienen. Die Theurung der Lebensmittel wird nie darin vergessen.
+
+[note-012] [MEGA p.586]
+105) “Think of those who are on the border of that region (pauperism)”, “wages... in others not increased... human life is but, in nine cases out of ten, a struggle for existence.” (Gladstone, H. o. C. 7. April 1864.) Die Version bei Hansard lautet: “Again; and yet more at large, what is human life but, in the majority of cases, a struggle for existence.” ‒ Die fortlaufenden, schreienden Widersprüche in Gladstone’s Budgetreden von 1863 und 1864 charakterisirt ein englischer Schriftsteller durch folgendes Citat aus Boileau: «Voilà l’homme en effet. Il va du blanc au noir. Il condamne au matin ses sentiments du soir. Importun à tout autre, à soi même incommode, Il change à tous moments d’esprit comme de mode.» („The Theory of Exchanges etc. Lond. 1864“, p. 135.)
+
+[note-013] [MEGA p.587]
+106) H. Fawcett l. c. p. 67, 82. Was die wachsende Abhängigkeit der Arbeiter von dem Krämer betrifft, so ist sie Folge der zunehmenden Schwankungen und Unterbrechungen ihrer Beschäftigung.
+
+[note-014] [MEGA p.587]
+107) In England ist immer Wales eingeschlossen, in Großbritannien England, Wales und Schottland, im Vereinigten Königreich jene drei Länder und Irland.
+
+[note-015] [MEGA p.588]
+108) Es wirft ein eignes Licht auf den seit A. Smith zurückgelegten Fortschritt, daß ihm das Wort workhouse gelegentlich noch gleichwerthig mit manufactory. Z. B. Eingang seines Kapitels über Theilung der Arbeit: “those employed in every different branch of the work can often be collected into the same workhouse.”
+
+[note-016] [MEGA p.589]
+109) „Public Health. Sixth Report etc. for 1863. Lond. 1864“, p. 13.
+
+[note-017] [MEGA p.589]
+110) l. c. p. 17.
+
+[note-018] [MEGA p.589]
+111) l. c. p. 13.
+
+[note-019] [MEGA p.589]
+112) l. c. Appendix, p. 232.
+
+[note-020] [MEGA p.590]
+113) l. c. p. 232, 233.
+
+[note-021] [MEGA p.591]
+114) l. c. p. 14, 15.
+
+[note-022] [MEGA p.591]
+115) „Nirgendwo sind so offen und so schamlos die Rechte der Person dem Recht des Eigenthums geopfert worden, als in den Wohnungsverhältnissen der arbeitenden Klasse. Jede große Stadt ist eine Stätte des Menschenopfers, ein Altar, worauf Tausende jährlich dem Moloch der Habsucht geschlachtet werden.“ (S. Laing l. c. p. 150.)
+
+[note-023] [MEGA p.592]
+116) „Public Health. Eighth Report. Lond. 1866“, p. 14, Note.
+
+[note-024] [MEGA p.592]
+117) l. c. p. 89. Mit Bezug auf die Kinder in diesen Kolonien sagt Dr. Hunter: „Wir wissen nicht, wie Kinder vor diesem Zeitalter dichter Agglomeration der Armen aufgebracht worden, und er wäre ein kühner Prophet, der vorhersagen wollte, welches Betragen zu erwarten von Kindern, die unter Zuständen ohne Parallele in diesem Land jetzt ihre Erziehung für künftige Praxis als gefährliche Klassen durchmachen, indem sie die halbe Nacht aufsitzen mit Personen jeden Alters, trunken, obscön und zanksüchtig.“ (l. c. p. 56.)
+
+[note-025] [MEGA p.592]
+118) l. c. p. 62.
+
+[note-026] [MEGA p.593]
+119) „Report of the Officer of Health of St. Martin’s in the Fields. 1865.“
+
+[note-027] [MEGA p.593]
+120) „Public Health. Eighth Report. Lond. 1866,“ p. 91.
+
+[note-028] [MEGA p.593]
+121) l. c. p. 88.
+
+[note-029] [MEGA p.594]
+122) l. c. p. 89.
+
+[note-030] [MEGA p.594]
+123) l. c. p. 56.
+
+[note-031] [MEGA p.595]
+124) l. c. p. 149.
+
+[note-032] [MEGA p.595]
+125) l. c. p. 50.
+
+[note-033] [MEGA p.595,596]
+126) Liste des Agenten einer Arbeiter-Assekuranzgesellschaft zu Bradford.
+[table]
+Vulcanstreet. Nr. 122 | 1 Zimmer | 16 Personen
+Lumleystreet. Nr. 13 | 1 Zimmer | 11 Personen
+Bowerstreet. Nr. 41 | 1 Zimmer | 11 Personen
+Portlandstreet. Nr. 112 | 1 Zimmer | 10 Personen
+Hardystreet. Nr. 17 | 1 Zimmer | 10 Personen
+Northstreet. Nr. 18 | 1 Zimmer | 16 Personen
+ditto Nr. 17 | 1 Zimmer | 13 Personen
+Wymerstreet. Nr. 19 | 1 Zimmer | 8 Erwachsne
+Jowettstreet. Nr. 56 | 1 Zimmer | 12 Personen
+[/table]
+
+[table]
+Georgestreet. Nr. 150 | 1 Zimmer | 3 | Familien
+Rifle-Court, Marygate. Nr. 11 | 1 Zimmer | 11 | Personen
+Marshallstreet. Nr. 28 | 1 Zimmer | 10 | Personen
+ditto Nr. 49 | 3 Zimmer | 3 | Familien
+Georgestreet. Nr. 128 | 1 Zimmer | 18 | Personen
+ditto Nr. 130 | 1 Zimmer | 16 | Personen
+Edwardstreet. Nr. 4 | 1 Zimmer | 17 | Personen
+Yorkstreet. Nr. 34 | 1 Zimmer | 2 | Familien
+Salt Piestreet | 2 Zimmer | 26 | Personen
+Keller.
+Regent Square. | 1 Keller | 8 | Personen
+Acrestreet. | 1 Keller | 7 | Personen
+Robert’s Court. Nr. 33 | 1 Keller | 7 | Personen
+Back Prattstreet, vernutzt als
+Kupferschmiedewerkstatt. | 1 Keller | 7 | Personen
+Ebenezerstreet. Nr. 27 | 1 Keller | 6 | Personen (l. c. p. 111).
+[/table]
+
+[note-034] [MEGA p.596]
+127) l. c. p. 114.
+
+[note-035] [MEGA p.596]
+128) l. c. p. 50.
+
+[note-036] [MEGA p.597]
+129) „Public Health. Seventh Report. Lond. 1865“, p. 18.
+
+[note-037] [MEGA p.597]
+130) l. c. p. 165.
+
+[note-038] [MEGA p.598]
+131) l. c. p. 18, Note. Der Armenpfleger der Chapel-en-le-Frith-Union berichtet an den Registrar General: „Zu Doveholes hat man eine Anzahl kleiner Aushöhlungen in einem großen Hügel von Kalkasche gemacht. Diese Höhlen dienen den Erd- und andren am Eisenbahnbau beschäftigten Arbeitern zur Wohnung. Die Höhlen sind eng, feucht, ohne Abzug für Unreinigkeiten und ohne Abtritte. Sie entbehren aller Ventilationsmittel, mit Ausnahme eines Lochs durch die Wölbung, das zugleich als Schornstein dient. Die Pocken wüthen und haben schon verschiedne Todesfälle (unter den Troglodyten) verursacht.“ (l. c. Note 2.)
+
+[note-039] [MEGA p.598]
+132) Die auf S. 460 ff. gegebnen Einzelheiten beziehn sich namentlich auf Arbeiter in Kohlenbergwerken. Ueber den noch schlechteren Zustand in den Metallminen vgl. den gewissenhaften Bericht der Royal Commission von 1864.
+
+[note-040] [MEGA p.599]
+133) l. c. p. 180, 182.
+
+[note-041] [MEGA p.599]
+134) l. c. p. 515, 517.
+
+[note-042] [MEGA p.600]
+135) l. c. p. 16.
+
+[note-043] [MEGA p.601]
+136) „Massenhafte Verhungerung der Londoner Armen! (“Wholesale starvation of the London Poor!”)... Während der letzten Tage waren die Mauern Londons überklebt mit großen Plakaten, die folgende merkwürdige Anzeige bringen: „Fette Ochsen, verhungernde Menschen! Die fetten Ochsen haben ihre Glaspaläste verlassen, um die Reichen in ihren Luxusgemächern zu mästen, während die verhungernden Menschen in ihren Jammerhöhlen verderben und sterben.“ Die Plakate mit dieser unheilkündenden Inschrift werden beständig erneuert. Kaum ist eine Partie ausgemerzt und überklebt, wenn sofort eine neue Partie an demselben oder einem gleich öffentlichen Platz wiedererscheint... Das erinnert an die omina, die das französische Volk auf die Ereignisse von 1789 vorbereiteten... In diesem Augenblick, während englische Arbeiter mit Weib und Kind an Kälte und Hunger sterben, werden Millionen von englischem Geld, dem Produkt englischer Arbeit, in russischen, spanischen, italienischen und andren fremden Anleihen angelegt.“ („Reynolds’s Newspaper“, 20. Jan. 1867.)
+
+[note-044] [MEGA p.605]
+137) Ducpétiaux, l. c. p. 151, 154, 155, 156.
+
+[note-045] [MEGA p.606]
+138) James E. Th. Rogers (Prof. of Polit. Econ. in the University of Oxford): „A History of Agriculture and Prices in England. Oxford 1866“, v. I, p. 690. Dieß fleißig gearbeitete Werk umfaßt in den bisher erschienenen zwei ersten Bänden nur noch die Periode von 1259‒1400. Der zweite Band enthält blos statistisches Material. Es ist die erste authentische „History of Prices“, die wir für jene Zeit besitzen.
+
+[note-046] [MEGA p.606]
+139) „Reasons for the late Increase of the Poor-Rates; or, a comparative view of the price of labour and provisions. Lond. 1777“, p. 5, 11.
+
+[note-047] [MEGA p.606]
+140) Dr. Richard Price: „Observations on Reversionary Payments, 6. ed. By W. Morgan. Lond. 1803“, v. II, p. 158. Price bemerkt p. 159: “The nominal price of day labour is at present no more than about four times, or at most five times higher than it was in the year 1514. But the price of corn is seven times, and of flesh-meat and raiment about fifteen times higher. So far, therefore, has the price of labour been even from advancing in proportion to the increase in the expences of living, that it does not appear that it bears now half the proportion to those expences that it did bear.”
+
+[note-048] [MEGA p.606]
+141) Barton l. c. p. 26. Für Ende des 18. Jahrhunderts vgl. Eden l. c.
+
+[note-049] [MEGA p.607]
+142) Parry l. c. p. 80.
+
+[note-050] [MEGA p.607]
+143) id. p. 213.
+
+[note-051] [MEGA p.607]
+144) S. Laing l. c. p. 62.
+
+[note-052] [MEGA p.607]
+145) „England and America. Lond. 1833“, v. I, p. 47.
+
+[note-053] [MEGA p.609]
+146) London Economist. 29. März 1845, p. 290.
+
+[note-054] [MEGA p.609]
+147) Die Grundaristokratie schoß sich selbst zu diesem Zweck Fonds, natürlich per Parlament, aus der Staatskasse vor, zu sehr niedrigem Zins, welchen die Pächter ihr doppelt zu erstatten haben.
+
+[note-055] [MEGA p.609]
+148) Die Abnahme der mittleren Pächter ersieht man namentlich aus den Rubriken des Census: „Pächters Sohn, Enkel, Bruder, Neffe, Tochter, Enkelin, Schwester, Nichte“, kurz der vom Pächter beschäftigten Glieder seiner eignen Familie. Diese Rubriken zählten 1851: 216851 Personen, 1861 nur 176151. Von 1851 bis 1871 haben in England die Pachthöfe von unter 20 Acres sich um mehr als 900 verringert; die zwischen 50 und 75 Acres sind von 8253 auf 6370 gefallen; ähnlich bei allen andern Pachthöfen unter 100 Acres. Dagegen hat sich während derselben 20 Jahre die Zahl der großen Pachthöfe vermehrt; die von 300‒500 Acres sind gestiegen von 7771 auf 8410, die von mehr als 500 Acres von 2755 auf 3914, die von mehr als 1000 Acres, von 492 auf 582.
+
+[note-056] [MEGA p.609]
+149) Die Zahl der Schafhirten wuchs von 12517 auf 25559.
+
+[note-057] [MEGA p.609]
+150) Census etc. l. c. p. 36.
+
+[note-058] [MEGA p.610]
+151) Rogers l. c. p. 693. “The peasant has again become a serf.” l. c. p. 10. Herr Rogers gehört zur liberalen Schule, ist persönlicher Freund von Cobden und Bright, also kein laudator temporis acti.
+
+[note-059] [MEGA p.610]
+152) „Public Health. Seventh Report. Lond. 1865“, p. 242. “The cost of the hind is fixed at the lowest possible amount on which he can live... the supplies of wages or shelter are not calculated on the profit to be derived from him. He is a zero in farming calculations.” Es ist daher nichts ungewöhnliches, daß entweder der Hausvermiether die Miethe für einen Arbeiter erhöht, sobald er hört, daß derselbe etwas mehr verdient, oder daß der Pächter den Lohn des Arbeiters heruntersetzt, „weil dessen Frau Beschäftigung gefunden hat“. (l. c.)
+
+[note-060] [MEGA p.610]
+153) l. c. p. 135.
+
+[note-061] [MEGA p.610]
+154) l. c. p. 134.
+
+[note-062] [MEGA p.611]
+155) „Report of the Commissioners... relating to Transportation and Penal Servitude. Lond. 1863“, p. 42, n. 50.
+
+[note-063] [MEGA p.611]
+156) l. c. p. 77. Memorandum by the Lord Chief Justice.
+
+[note-064] [MEGA p.611]
+157) l. c. v. II. Evidence.
+
+[note-065] [MEGA p.611]
+158) l. c. v. I. Appendix p. 280.
+
+[note-066] [MEGA p.611]
+158a) l. c. p. 274, 275.
+
+[note-067] [MEGA p.612]
+159) „Public Health. Sixth Report. 1863“, p. 238, 249, 261, 262.
+
+[note-068] [MEGA p.612]
+160) l. c. p. 262.
+
+[note-069] [MEGA p.612,613]
+161) l. c. p. 17. Der englische Landarbeiter erhält nur ¼ so viel Milch und nur ½ so viel Brodstoff als der irische. Den besseren Nahrungsstand der letzteren bemerkte schon A. Young, in seiner „Tour through Ireland“ Anfang dieses Jahrhunderts. Der Grund ist einfach der, daß der arme irische Pächter ungleich humaner ist als der reiche englische. Mit Bezug auf Wales gilt die Textangabe nicht für seinen Südwesten. „Alle dortigen Aerzte stimmen überein, daß die Zunahme der Sterblichkeitsrate durch Tuberkulose, Skropheln etc. an Intensität wächst mit der Verschlechterung des physischen Zustandes der Bevölkerung, und alle schreiben diese Verschlechterung der Armuth zu. Der tägliche Unterhalt des Landarbeiters wird dort auf 5 d. veranschlagt, in vielen Distrikten zahlt der Pächter (selbst elend) weniger. Ein Bissen gesalznes Fleisch, getrocknet zur Härte von Mahagoni und kaum werth des schwierigen Processes der Verdauung, oder Speck dient zur Würze einer großen Quantität von Brühe, von Mehl und Lauch, oder Haferbrei, und Tag nach Tag ist dieß das Mittagsmahl des Landarbeiters... Der Fortschritt der Industrie hatte die Folge für ihn, in diesem harten und feuchten Klima, das solide hausgesponnene Tuch durch wohlfeile Baumwollzeuge zu verdrängen und stärkere Getränke durch „nominellen“ Tee... Nach langstündiger Aussetzung an Wind und Regen, kehrt der Ackerbauer zurück zu seiner Cottage, um niederzusitzen bei einem Feuer von Torf oder Ballen, die aus Lehm und Kohlenabfall zusammengesetzt sind und Wolken von Kohlen- und Schwefelsäure ausqualmen. Die Wände der Hütte bestehn aus Lehm und Steinen, das Estrich aus der nackten Erde, welche da war vor Erbauung der Hütte, das Dach ist eine Masse losen und aufgedunsenen Strohs. Jeder Spalt ist verstopft zur Erhaltung der Wärme, und in einer Atmosphäre von diabolischem Gestank, einen Schlammboden unter sich, oft mit seinen einzigen Kleidern trocknend auf seinem Leibe, nimmt er sein Abendbrot mit Weib und Kindern. Geburtshelfer, gezwungen, einen Theil der Nacht in diesen Hütten zuzubringen, haben beschrieben, wie ihre Füße im Schlamm des Fußbodens versanken, und wie sie gezwungen waren, leichte Arbeit!, ein Loch durch die Wand zu bohren, um sich eine kleine Privatrespiration zu verschaffen. Zahlreiche Zeugen von verschiednem Rang bezeugen, daß der untergenährte (underfed) Bauer diesen und andren gesundheitswidrigen Einflüssen jede Nacht ausgesetzt ist, und für das Resultat, ein geschwächtes und skrophulöses Volk, fehlt es wahrhaftig nicht an Beweisen... Die Mittheilungen der Pfarreibeamten von Caermarthenshire und Cardiganshire zeigen schlagend denselben Zustand der Dinge. Es kommt hinzu eine noch größere Pest, das Umsichgreifen des Idiotismus. Nun noch die klimatischen Verhältnisse. Heftige Südwestwinde durchblasen das ganze Land während 8 bis 9 Monaten im Jahr, in ihrem Gefolg Regen-Sturzbäche, die sich hauptsächlich auf die westlichen Abhänge der Hügel entladen. Bäume sind selten, außer in gedeckten Plätzen; wo unbeschützt, werden sie aus aller Form zerblasen. Die Hütten kriechen unter irgendeine Bergterrasse, oft auch in eine Schlucht oder einen Steinbruch, nur die winzigsten Schafe und einheimisches Hornvieh können auf den Weiden leben... Die jungen Leute wandern nach dem östlichen Minendistrikte von Glamorgan und Monmouth... Caermarthenshire ist die Pflanzschule der Minenbevölkerung und ihr Invalidenhaus... Die Bevölkerung erhält ihre Zahl nur mühsam. So in Cardiganshire:
+[table]
+| 1851 | 1861
+Männlichen Geschlechts: | 45 155 | 44 446
+Weiblichen Geschlechts: | 52 459 | 52 955
+| 97 614 | 97 401.“
+[/table]
+(Dr. Hunters Report in: „Public Health. Seventh Report. 1864, Lond. 1865“, p. 498–502 passim.)
+
+[note-070] [MEGA p.614]
+162) 1865 ist dieß Gesetz etwas verbessert worden. Man wird bald durch Erfahrung lernen, daß dergleichen Pfuscherei nichts hilft.
+
+[note-071] [MEGA p.614]
+163) Zum Verständniß des folgenden: Close Villages (geschlossne Dörfer) heißen die, deren Grundeigenthümer ein oder ein paar große Landlords; Open Villages (offne Dörfer) die, deren Boden vielen kleineren Eigenthümern gehört. Es sind die letzteren Orte, wo Bauspekulanten Cottages und Logirhäuser errichten können.
+
+[note-072] [MEGA p.615]
+164) Ein solches Schaudorf sieht sehr nett aus, aber es ist so unreal, wie die Dörfer, welche Katharina II. auf der Reise nach der Krim sah. In der letzteren Zeit wird auch der Schafhirt häufig aus diesen show-villages verbannt. Z. B. bei Market Harborough ist eine Schäferei von ungefähr 500 Acres, die nur die Arbeit eines Mannes erheischt. Zur Verminderung der langen Märsche über diese weiten Flächen, die schönen Weiden von Leicester und Northampton, pflegte der Hirt eine Cottage auf der Meierei zu erhalten. Jetzt gibt man ihm einen dreizehnten Schilling für Logis, das er weitab in dem offnen Dorf suchen muß.
+
+[note-073] [MEGA p.616]
+165) „Die Häuser der Arbeiter (in den offnen Ortschaften, die natürlich stets überfüllt sind) sind gewöhnlich in Reihen gebaut, mit dem Rücken auf der äußersten Kante des Bodenfetzens, den der Bauspekulant sein nennt. Sie sind daher ohne Zutritt von Licht und Luft, außer von der Frontseite.“ (Dr. Hunter’s Report l. c. p. 135.) Sehr oft ist der Bierwirth oder Krämer des Dorfs zugleich Hausvermiether. In diesem Fall findet der Landarbeiter in ihm einen zweiten Herrn neben dem Pächter. Er muß zugleich sein Kunde sein. „Mit 10 sh. per Woche, minus einer jährlichen Rente von 4 Pfd. St., ist er verpflichtet, sein modicum von Thee, Zucker, Mehl, Seife, Kerzen und Bier zu den vom Krämer beliebten Preisen zu kaufen.“ (l. c. p. 132.) Diese offnen Dorfschaften bilden in der That die „Strafkolonien“ des englischen Ackerbauproletariats. Viele der Cottages sind reine Logirhäuser, wo alles vagabundirende Gesindel der Umgegend durchpassirt. Der Landmann und seine Familie, die oft wahrhaft wunderbar in den schmutzigsten Verhältnissen Tüchtigkeit und Reinheit des Charakters bewahrt hatten, gehn hier platterdings zum Teufel. Es ist natürlich Mode unter den vornehmen Shylocks über die Bauspekulanten und die kleinen Eigenthümer und die offnen Orte pharisäisch die Achsel zu zucken. Sie wissen sehr wohl, daß ihre „geschloßnen Dörfer und Schaudörfer“ die Geburtsstätten der „offnen Orte“ sind und ohne dieselben nicht existiren könnten. „Ohne die kleinen Eigenthümer der offnen Orte müßte der größte Theil der Landarbeiter unter den Bäumen der Güter schlafen, worauf sie arbeiten.“ (l. c. p. 135.) Das System der „offnen“ und „geschloßnen“ Dörfer herrscht in allen Midlands und im ganzen Osten Englands.
+
+[note-074] [MEGA p.616]
+166) „Der Hausvermiether (der Pächter oder Landlord) bereichert sich direkt oder indirekt durch die Arbeit eines Mannes, dem er 10 sh. per Woche zahlt, und zwackt dann wieder von diesem armen Teufel 4 oder 5 Pfd. St. jährliche Miethe für Häuser ab, die keine 20 Pfd. St. auf offnem Markt werth sind, aber auf ihrem künstlichen Preis erhalten werden durch die Macht des Eigenthümers zu sagen: ‚Nimm mein Haus, oder pack’ Dich und suche anderswo ein Unterkommen, ohne Arbeitszeugniß von mir‘... Wünscht ein Mann sich zu verbessern und als Schienenleger zu einer Eisenbahn zu gehn oder einem Steinbruch, wieder ist dieselbe Macht bereit mit einem: ‚Arbeite für mich zu diesem niedrigen Arbeitslohn, oder pack’ Dich auf eine Woche Kündigung; nimm Dein Schwein mit Dir, wenn Du eins hast, und schau zu, was Du aus den Kartoffeln herausschlägst, die in Deinem Garten wachsen.‘ Steht jedoch das Interesse nach der andren Seite, so zieht in solchen Fällen der Eigenthümer (resp. Pächter) manchmal eine erhöhte Hausmiethe vor als Strafe für die Desertion aus seinem Dienst.“ (Dr. Hunter l. c. p. 132.)
+
+[note-075] [MEGA p.617]
+167) „Jung verheirathete Paare sind kein erbauliches Studium für erwachsne Brüder und Schwestern in derselben Schlafstube; und obgleich Beispiele nicht registrirt werden dürfen, liegen hinreichende Data vor, um die Bemerkung zu rechtfertigen, daß großes Leid und oft der Tod das Loos der weiblichen Theilnehmer am Verbrechen der Blutschande ist.“ (Dr. Hunter l. c. p. 137.) Ein ländlicher Polizeibeamter, der viele Jahre durch als Detektiv in den schlechtesten Vierteln von London funktionirt hatte, sagt von den Mädchen seines Dorfs aus: „Ihre grobe Immoralität im frühen Alter, ihre Frechheit und Schamlosigkeit habe ich niemals während meines Polizeilebens in den schlechtesten Theilen von London erreicht gesehn... Sie leben wie Schweine, große Jungen und Mädchen, Mütter und Väter, alles schläft zusammen in derselben Stube.“ („Child. Empl. Comm. Sixth Report. Lond. 1867“, Appendix, p. 77, n. 155.)
+
+[note-076] [MEGA p.618]
+168) „Public Health. Seventh Report. 1864“, p. 9‒14 passim.
+
+[note-077] [MEGA p.622]
+168a) „Pfaff und Edelmann scheinen verschworen sie todt zu hetzen.“
+
+[note-078] [MEGA p.623]
+169) “The heaven-born employment of the hind gives dignity even to his position. He is not a slave, but a soldier of peace, and deserves his place in married man’s quarters, to be provided by the landlord, who has claimed a power of enforced labour similar to that the country demands of a military soldier. He no more receives market-price for his work than does a soldier. Like the soldier he is caught young, ignorant, knowing only his own trade and his own locality. Early marriage and the operation of the various laws of settlement affect the one as enlistment and the Mutiny Act affect the other.” (Dr. Hunter l. c. p. 132.) Manchmal erweicht sich irgend ein ausnahmsweis schwachherziger Landlord über die von ihm geschaffene Einöde. „Es ist ein melancholisch Ding allein in seinem Land zu sein“, sagte der Graf von Leicester, als man ihm zum Fertigbau von Holkham gratulirte: „ich schaue um mich und sehe kein Haus außer meinem eignen. Ich bin der Riese vom Riesenthurm und habe alle meine Nachbarn aufgegessen.“
+
+[note-079] [MEGA p.623,624]
+170) Aehnliche Bewegung seit den letzten Decennien in Frankreich, im Maß wie sich dort die kapitalistische Produktion der Agrikultur bemächtigt und die „überzählige“ Landbevölkerung nach den Städten treibt. Ebenso hier verschlechterte Wohnlichkeits- und sonstige Verhältnisse an der Quelle der „Ueberzähligen“. Ueber das eigenthümliche „Prolétariat foncier“, welches das Parcellensystem ausgebrütet hat, sieh u. a. die früher citirte Schrift von Colins und Karl Marx: Der Achtzehnte Brumaire des Louis Bonaparte. 2. Aufl. Hamburg 1869, p. 56 sqq. 1846 betrug die städtische Bevölkerung in Frankreich 24,42, die ländliche 75,58 %, 1861 die städtische 28,86, die ländliche 71,14 %. In den letzten 5 Jahren ist die Abnahme der ländlichen Procenttheile der Bevölkerung noch größer. Schon 1846 sang Pierre Dupont in seinen „Ouvriers“: «Mal vêtus, logés dans des trous, Sous les combles, dans les décombres, Nous vivons avec les hiboux Et les larrons, amis des ombres.»
+
+[note-080] [MEGA p.624]
+171) Der sechste und schließliche Report der Child. Empl. Comm., publicirt Ende März 1867, behandelt nur das agrikole Gangsystem.
+
+[note-081] [MEGA p.625]
+172) Child. Empl. Comm. VI. Report. Evidence, p. 37, n. 173. ‒ Fenland = Marschland.
+
+[note-082] [MEGA p.625]
+173) Einzelne Gangmeister jedoch haben sich zu Pächtern von 500 Acres oder Besitzern ganzer Häuserreihen heraufgearbeitet.
+
+[note-083] [MEGA p.626]
+174) „Die Hälfte der Mädchen von Ludford ist ruinirt worden durch den Gang.“ l. c. Appendix, p. 6, n. 32.
+
+[note-084] [MEGA p.626]
+175) „Das System hat sehr zugenommen in den letzten Jahren. In einigen Plätzen ist es erst seit kurzem eingeführt, in andren, wo es älter, werden mehr und jüngere Kinder in den Gang einrollirt.“ (l. c. p. 79, n. 174.)
+
+[note-085] [MEGA p.626]
+176) „Kleine Pächter wenden die Gangarbeit nicht an.“ „Sie wird nicht angewandt auf armem Land, sondern auf Land, was 2 Pfd. St. bis 2 Pfd. St. 10 sh. Rente per Acre bringt.“ (l. c. p. 17 u. 14.)
+
+[note-086] [MEGA p.626]
+177) Einem dieser Herrn schmecken seine Renten so gut, daß er der Untersuchungskommission entrüstet erklärt, der ganze Schrei sei nur dem Namen des Systems geschuldet. Wenn man es statt „Gang“ dahingegen „jugendliche industriell-agrikol-kooperative Selbsterhaltungsassociation“ taufe, so wäre alles all right.
+
+[note-087] [MEGA p.626,627]
+178) „Gangarbeit ist wohlfeiler als andre Arbeit, das ist die Ursache, warum sie angewandt wird“, sagt ein ehemaliger Gangmeister. (l. c. p. 17, n. 14.) „Das Gangsystem ist entschieden das wohlfeilste für den Pächter und eben so entschieden das verderblichste für die Kinder“, sagt ein Pächter. (l. c. p. 16, n. 3.)
+
+[note-088] [MEGA p.627]
+179) „Zweifelsohne vieles jetzt von den Kindern in Gängen verrichtete Werk wurde früher von Männern und Weibern verrichtet. Wo Weiber und Kinder angewandt werden, sind jetzt mehr Männer arbeitslos (more men are out of work) als früher.“ (l. c. p. 43, n. 202.) Dagegen u. a.: „Die Arbeitsfrage (labour question) in vielen Agrikulturdistrikten, besonders den kornproducirenden, wird so ernsthaft in Folge der Auswanderung und der Leichtigkeit, welche die Eisenbahnen zur Entfernung nach den großen Städten bieten, daß ich ❲das „Ich“ ist das des Landagenten eines großen Herrn❳ die Kinderdienste für absolut unentbehrlich halte.“ (l. c. p. 80, n. 180.) The Labour Question (die Arbeitsfrage) bedeutet nämlich in den englischen Agrikulturdistrikten, im Unterschied von der übrigen civilisirten Welt, the landlords’ and farmers’ Question (Grundherren- und Pächterfrage): wie, trotz stets vermehrtem Abzug der Landleute, eine genügende „relative Uebervölkerung“ auf dem Land und dadurch das „Minimum des Arbeitslohns“ für den Landarbeiter zu verewigen sei?
+
+[note-089] [MEGA p.627]
+180) Der früher von mir citirte „Public Health Report“, worin bei Gelegenheit der Kindersterblichkeit vorübergehend vom Gangsystem gehandelt wird, blieb der Presse und daher dem englischen Publikum unbekannt. Dagegen bot der letzte Bericht der „Child. Empl. Comm.“ willkommenes, „sensational“ Preßfutter. Während die liberale Presse frug, wie doch die feinen Gentlemen und Ladies und Staatskirchpfründner, womit Lincolnshire schwärmt, ein solches System auf ihren Gütern, unter ihren Augen aufwachsen lassen konnten, Personagen, die eigne „Missionen zur Sittenverbesserung der Südseewilden“ nach den Antipoden entsenden, stellte die feinere Presse ausschließlich Betrachtungen an über die rohe Verdorbenheit der Landleute, die fähig sind, ihre Kinder in solche Sklaverei zu verkaufen! Unter den fluchwürdigen Umständen, worin „die Delikateren“ den Landmann gebannt, wäre es erklärlich, wenn er seine eignen Kinder aufäße. Was wirklich wunderbar, ist die Charaktertüchtigkeit, die er großentheils bewahrt hat. Die officiellen Berichterstatter beweisen, daß die Eltern selbst in den Gangdistrikten das Gangsystem verabscheuen. „Man findet reichlichen Beweis in den von uns gesammelten Zeugenaussagen, daß die Eltern in vielen Fällen dankbar sein würden für ein Zwangsgesetz, welches sie befähigen würde, den Versuchungen und dem Druck zu widerstehn, denen sie oft unterworfen sind. Bald treibt sie der Pfarreibeamte, bald der Anwender unter Androhung ihrer eignen Entlassung, die Kinder auf den Verdienst, statt in die Schule zu schicken... Alle verwüstete Zeit und Kraft, alles Leid, welches außerordentliche und nutzlose Ermüdung für den Landmann und seine Familie producirt, jeder Fall, worin die Eltern den moralischen Ruin ihres Kindes auf die Ueberfüllung der Cottages oder die besudelnden Einflüsse des Gangsystems zurückleiten, stacheln in der Brust der arbeitenden Armen Gefühle auf, die man wohl verstehn wird, und die es unnöthig ist zu detailliren. Sie haben ein Bewußtsein darüber, daß ihnen viel körperliche und geistige Qual angethan wird durch Umstände, wofür sie in keiner Weise verantwortlich sind, welchen sie, wäre es in ihrer Macht gewesen, niemals ihre Zustimmung gegeben hätten, und wider welche anzukämpfen sie ohnmächtig sind.“ (l. c. p. XX, n. 82 und XXIII, n. 96.)
+
+[note-090] [MEGA p.628]
+181) Bevölkerung von Irland: 1801: 5 319 867 Personen, 1811: 6 084 996, 1821: 6 869 544, 1831: 7 828 347, 1841: 8 222 664.
+
+[note-091] [MEGA p.629]
+182) Das Ergebniß würde sich ungünstiger stellen, wenn wir weiter zurückgingen. So Schafe 1865: 3 688 742, aber 1856: 3 694 294, Schweine 1865: 1 299 893, aber 1858: 1 409 883.
+
+[note-092] [MEGA p.630]
+184) Tenth Report of the Commissioners of Inland Revenue. Lond. 1866.
+
+[note-093] [MEGA p.632]
+185) Das jährliche Gesammteinkommen unter Rubrik D weicht hier von der vorigen Tabelle ab, wegen gewisser gesetzlich zulässiger Abzüge.
+
+[note-094] [MEGA p.632]
+186) Wenn das Produkt auch verhältnißmäßig pro Acre abnimmt, vergesse man nicht, daß England seit 1½ Jahrhunderten den Boden von Irland indirekt exportirt hat, ohne seinen Bebauern auch nur die Mittel zum Ersatz der Bodenbestandtheile zu gönnen.
+
+[note-095] [MEGA p.633]
+186a) Da Irland als das gelobte Land des „Bevölkerungsprincipes“ angesehn wird, erließ Th. Sadler, vor der Veröffentlichung seines Werks über Bevölkerung, sein berühmtes Buch: Ireland, its Evils and their Remedies, 2nd ed. London 1829, worin er durch Vergleichung der Statistik der einzelnen Provinzen, und in jeder Provinz der einzelnen Grafschaften, nachweist, daß das Elend dort herrscht nicht, wie Malthus will, im Verhältniß zur Bevölkerungszahl, sondern im umgekehrten Verhältniß zu ihr.
+
+[note-096] [MEGA p.501]
+64a) An andrer Stelle werden wir untersuchen, welche Umstände, in Beziehung auf die Produktivität, dieß Gesetz für einzelne Produktionszweige modificiren können.
+
+[note-097] [MEGA p.635]
+186d) Reports from the Poor Law Inspectors on the wages of Agricultural Labourers in Ireland. Dublin 1870. ‒ Vgl. auch Agricultural Labourers (Ireland) Return etc. 8. March 1861.
+
+[note-098] [MEGA p.636]
+187) l. c. p. 29, 1.
+
+[note-099] [MEGA p.636]
+187a) l. c. p. 12.
+
+[note-100] [MEGA p.636]
+187b) l. c. p. 25.
+
+[note-101] [MEGA p.637]
+187c) l. c. p. 27.
+
+[note-102] [MEGA p.637]
+187d) p. 26.
+
+[note-103] [MEGA p.637]
+187e) p. 1.
+
+[note-104] [MEGA p.637]
+187f) p. 32.
+
+[note-105] [MEGA p.637]
+187g) p. 25.
+
+[note-106] [MEGA p.637]
+187h) p. 30.
+
+[note-107] [MEGA p.638]
+187i) p. 21, 13.
+
+[note-108] [MEGA p.639]
+188) „Reports of Insp. of Fact. for 31st Oct. 1866“, p. 96.
+
+[note-109] [MEGA p.640]
+188a) Das Gesammtareal schließt auch „Torfmoor und wüstes Land“ ein.
+
+[note-110] [MEGA p.640,641]
+188b) Wie die Hungersnoth und die von ihr herbeigeführten Umstände sowohl von den einzelnen Grundeigenthümern als auch von der englischen Gesetzgebung planmäßig ausgebeutet wurden, um die Agrikulturrevolution gewaltsam durchzusetzen und die Bevölkerung Irlands auf das den Landlords zusagende Maß zu verdünnen, werde ich in Buch III dieser Schrift, im Abschnitt über das Grundeigenthum, ausführlicher nachweisen. Ich komme daselbst auch zurück auf die Verhältnisse der kleinen Pächter und Landarbeiter. Hier nur ein Citat. Nassau W. Senior sagt u. a. in seiner nachgelaßnen Schrift: Journals, Conversations and Essays relating to Ireland. 2 vols., London 1868, v. II, p. 282: „Treffend bemerkte Dr. G., wir haben unser Armengesetz und es ist ein großes Werkzeug, um den Landlords den Sieg zu geben; ein andres ist die Emigration. Kein Freund Irlands kann wünschen, daß der Krieg (zwischen den Landlords und den kleinen celtischen Pächtern) sich verlängere, ‒ noch weniger, daß er mit dem Sieg der Pächter ende.... Je rascher er (dieser Krieg) vorüber, je rascher Irland ein Weideland (grazing country) wird mit der verhältnißmäßig geringen Volkszahl, die ein Weideland erheischt, desto besser für alle Klassen.“ Die englischen Korngesetze von 1815 sicherten Irland das Monopol der freien Korneinfuhr nach Großbritannien. Sie begünstigten also künstlich den Kornbau. Dies Monopol wurde 1846 mit Abschaffung der Korngesetze plötzlich beseitigt. Von allen andern Umständen abgesehn, reicht dies Ereigniß allein hin, der Verwandlung von irischem Ackerland in Viehweide, der Koncentration der Pachthöfe und der Vertreibung der Kleinbauern einen mächtigen Aufschwung zu geben. Nachdem man von 1815 bis 1846 die Fruchtbarkeit des irischen Bodens gerühmt und laut erklärt, er sei von der Natur selbst zum Weizenbau bestimmt, entdecken von da an plötzlich die englischen Agronomen, Oekonomen, Politiker, daß er zu nichts passe als Grünfutter zu produciren! Herr Léonce de Lavergne hat sich beeilt dies jenseits des Kanals zu wiederholen. Es gehört ein „ernsthafter“ Mann à la Lavergne dazu, sich von solchen Kindereien fangen zu lassen.
+
+[note-111] [MEGA p.631]
+183) Die Angaben des Textes sind zusammengestellt aus dem Material der: „Agricultural Statistics, Ireland. General Abstracts, Dublin“ für die Jahre 1860 sqq., und „Agricultural Statistics. Ireland. Tables showing the Estimated Average Produce etc. Dublin 1866“. Man weiß, daß diese Statistik officiell ist und dem Parlament jährlich vorgelegt wird. Zusatz zur 2. Ausg. Die offizielle Statistik zeigt für das Jahr 1872 eine Abnahme im Areal des bebauten Bodens ‒ verglichen mit 1871 ‒ von 134 915 Acres. Es fand „Zunahme“ statt im Anbau von Grünfrucht, ‒ Turnips, Mangoldwurzel u. dergl.; „Abnahme“ im Areal des bebauten Bodens von 16 000 Acres für Weizen, 14 000 Acres für Hafer, 4 000 Acres für Gerste und Roggen, 66 632 Acres für Kartoffeln, 34 667 Acres für Flachs und 30 000 Acres weniger in Wiesen, Klee, Wicke und Rübsamen. Der unter Weizenkultur befindliche Boden zeigt für die letzten 5 Jahre folgende abnehmende Stufenleiter: 1868 ‒ 285 000 Acres; 1869 ‒ 280 000 Acres; 1870 ‒ 259 000 Acres; 1871 ‒ 244 000 Acres; 1872 ‒ 228 000 Acres. Für 1872 finden wir in runder Zahl eine Zunahme von 2 600 Pferden, 80 000 Hornvieh, 28 682 Schafen und eine Abnahme von 236 000 Schweinen.

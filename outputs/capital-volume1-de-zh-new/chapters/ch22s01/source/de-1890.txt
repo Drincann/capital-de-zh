@@ -1,0 +1,139 @@
+# 1. Kapitalistischer Produktionsproceß auf erweiterter Stufenleiter. Umschlag der Eigenthumsgesetze der Waarenproduktion in Gesetze der kapitalistischen Aneignung.
+
+Source authority: MEGA II/10
+Source file: de-1890.megadigital.xml
+Working extraction; the TEI XML remains canonical.
+
+[v1-ch22s01-p0001] [MEGA p.518]
+Früher hatten wir zu betrachten, wie der Mehrwerth aus dem Kapital, jetzt wie das Kapital aus dem Mehrwerth entspringt. Anwendung von Mehrwerth als Kapital oder Rückverwandlung von Mehrwerth in Kapital heißt Akkumulation des Kapitals 21).
+
+[v1-ch22s01-p0002] [MEGA p.518,519]
+Betrachten wir diesen Vorgang zunächst vom Standpunkt des einzelnen Kapitalisten. Ein Spinner z. B. habe ein Kapital von 10000 Pfd. St. vorgeschossen, wovon vier Fünftel in Baumwolle, Maschinen etc., das letzte Fünftel in Arbeitslohn. Er producire jährlich 240000 Pfd. Garn zum Wert von 12000 Pfd. St. Bei einer Rate des Mehrwerths von 100 % steckt der Mehrwerth im Mehrprodukt oder Nettoprodukt von 40000 Pfd. Garn, einem Sechstel des Bruttoprodukts, zum Werth von 2000 Pfd. Sterling, den der Verkauf realisiren wird. Eine Werthsumme von 2000 Pfd. St. ist eine Werthsumme von 2000 Pfd. St. Man riecht und sieht diesem Gelde nicht an, daß es Mehrwerth ist. Der Charakter eines Werths als Mehrwerth zeigt, wie er zu seinem Eigner kam, ändert aber nichts an der Natur des Werths oder des Geldes.
+
+[v1-ch22s01-p0003] [MEGA p.519]
+Um die neu hinzugekommne Summe von 2000 Pfd. St. in Kapital zu verwandeln, wird also der Spinner, alle andern Umstände gleichbleibend, vier Fünftel davon vorschießen im Ankauf von Baumwolle u. s. w. und ein Fünftel im Ankauf neuer Spinnarbeiter, die auf dem Markte die Lebensmittel finden werden, deren Werth er ihnen vorgeschossen hat. Dann fungirt das neue Kapital von 2000 Pfd. St. in der Spinnerei und bringt seinerseits einen Mehrwerth von 400 Pfd. ein.
+
+[v1-ch22s01-p0004] [MEGA p.519]
+Der Kapitalwerth war ursprünglich vorgeschossen in Geldform; der Mehrwerth dagegen existirt von vornherein als Werth eines bestimmten Theils des Bruttoprodukts. Wird dieses verkauft, in Geld verwandelt, so gewinnt der Kapitalwerth seine ursprüngliche Form wieder, aber der Mehrwerth verwandelt seine ursprüngliche Daseinsweise. Von diesem Augenblick an sind jedoch Kapitalwerth und Mehrwerth beides Geldsummen, und ihre Wiederverwandlung in Kapital vollzieht sich auf ganz dieselbe Weise. Die eine wie die andre legt der Kapitalist an im Ankauf der Waaren, die ihn in Stand setzen, die Verfertigung seines Artikels von Neuem zu beginnen und zwar dießmal auf erweiterter Stufenleiter. Um aber diese Waaren zu kaufen, muß er sie auf dem Markte vorfinden.
+
+[v1-ch22s01-p0005] [MEGA p.519]
+Seine eignen Garne cirkuliren nur, weil er sein Jahresprodukt auf den Markt bringt, wie das alle andern Kapitalisten mit ihren Waaren ebenfalls thun. Aber ehe sie auf den Markt kamen, hatten sie sich schon befunden im jährlichen Produktionsfonds, d. h. der Gesammtmasse der Gegenstände aller Art, worin die Gesammtsumme der Einzelkapitale oder das gesellschaftliche Gesammtkapital im Laufe des Jahres sich verwandelt, und wovon jeder Einzelkapitalist nur einen aliquoten Theil in Händen hat. Die Vorgänge auf dem Markt bewerkstelligen nur den Umsatz der einzelnen Bestandtheile der Jahresproduktion, schicken sie von einer Hand in die andre, aber sie können weder die Gesammt-Jahresproduktion vergrößern noch die Natur der producirten Gegenstände ändern. Welcher Gebrauch also von dem jährlichen Gesammtprodukt gemacht werden kann, das hängt ab von seiner eignen Zusammensetzung, keineswegs aber von der Cirkulation.
+
+[v1-ch22s01-p0006] [MEGA p.519,520]
+Zunächst muß die Jahresproduktion alle die Gegenstände (Gebrauchswerthe) liefern, aus denen die im Lauf des Jahres verbrauchten sachlichen Bestandtheile des Kapitals zu ersetzen sind. Nach Abzug dieser bleibt das Netto- oder Mehrprodukt, worin der Mehrwerth steckt. Und woraus besteht dieß Mehrprodukt? Vielleicht in Dingen, bestimmt zur Befriedigung der Bedürfnisse und Gelüste der Kapitalistenklasse, die also in ihren Konsumtionsfonds eingehn? Wäre das Alles, so würde der Mehrwerth verjubelt bis auf die Hefen, und es fände bloß einfache Reproduktion statt.
+
+[v1-ch22s01-p0007] [MEGA p.520]
+Um zu akkumuliren, muß man einen Theil des Mehrprodukts in Kapital verwandeln. Aber, ohne Wunder zu thun, kann man nur solche Dinge in Kapital verwandeln, die im Arbeitsproceß verwendbar sind, d. h. Produktionsmittel, und des Ferneren Dinge, von denen der Arbeiter sich erhalten kann, d. h. Lebensmittel. Folglich muß ein Theil der jährlichen Mehrarbeit verwandt worden sein zur Herstellung zusätzlicher Produktions- und Lebensmittel, im Ueberschuß über das Quantum, das zum Ersatz des vorgeschossenen Kapitals erforderlich war. Mit einem Wort: der Mehrwerth ist nur deshalb in Kapital verwandelbar, weil das Mehrprodukt, dessen Werth er ist, bereits die sachlichen Bestandtheile eines neuen Kapitals enthält. 21a)
+
+[v1-ch22s01-p0008] [MEGA p.520]
+Um nun diese Bestandtheile thatsächlich als Kapital fungiren zu lassen, bedarf die Kapitalistenklasse eines Zuschusses von Arbeit. Soll nicht die Ausbeutung der schon beschäftigten Arbeiter extensiv oder intensiv wachsen, so müssen zusätzliche Arbeitskräfte eingestellt werden. Dafür hat der Mechanismus der kapitalistischen Produktion ebenfalls schon gesorgt, indem er die Arbeiterklasse reproducirt als vom Arbeitslohn abhängige Klasse, deren gewöhnlicher Lohn hinreicht, nicht nur ihre Erhaltung zu sichern, sondern auch ihre Vermehrung. Diese, ihm durch die Arbeiterklasse auf verschiednen Altersstufen jährlich gelieferten, zuschüssigen Arbeitskräfte braucht das Kapital nur noch den in der Jahresproduktion schon enthaltnen zuschüssigen Produktionsmitteln einzuverleiben, und die Verwandlung des Mehrwerths in Kapital ist fertig. Konkret betrachtet, löst sich die Akkumulation auf in Reproduktion des Kapitals auf progressiver Stufenleiter. Der Kreislauf der einfachen Reproduktion verändert sich und verwandelt sich, nach Sismondi’s Ausdruck, in eine Spirale 21b).
+
+[v1-ch22s01-p0009] [MEGA p.520,521]
+Kehren wir jetzt zu unserm Beispiel zurück. Es ist die alte Geschichte: Abraham zeugte Isaak, Isaak zeugte Jakob u. s. w. Das ursprüngliche Kapital von 10000 Pfd. St. bringt einen Mehrwerth von 2000 Pfd. St. der kapitalisirt wird. Das neue Kapital von 2000 Pfd. St. bringt einen Mehrwerth von 400 Pfd. St.; dieser, wiederum kapitalisirt, also in ein zweites zusätzliches Kapital verwandelt, bringt einen neuen Mehrwerth von 80 Pfd. St., u. s. w. | Wir sehen hier ab von dem vom Kapitalisten verzehrten Theil des Mehrwerths. Ebensowenig interessirt es uns für den Augenblick, ob die Zusatzkapitale zum ursprünglichen Kapital geschlagen, oder von ihm zu selbständiger Verwerthung getrennt werden; ob derselbe Kapitalist sie ausnutzt, der sie akkumulirt hat, oder ob er sie Andern überträgt. Nur dürfen wir nicht vergessen, daß neben den neugebildeten Kapitalen das ursprüngliche Kapital fortfährt sich zu reproduciren und Mehrwerth zu produciren, und daß dasselbe gilt von jedem akkumulirten Kapital in Beziehung auf das von ihm erzeugte Zusatzkapital.
+
+[v1-ch22s01-p0010] [MEGA p.521]
+Das ursprüngliche Kapital bildete sich durch den Vorschuß von 10000 Pfd. St. Woher hat sie ihr Besitzer? Durch seine eigne Arbeit und die seiner Vorfahren! antworten uns einstimmig die Wortführer der politischen Oekonomie 21c) und ihre Annahme scheint in der That die einzige, die zu den Gesetzen der Waarenproduktion stimmt.
+
+[v1-ch22s01-p0011] [MEGA p.521]
+Ganz anders verhält es sich mit dem Zusatzkapital von 2000 Pfd. St. Seinen Entstehungsproceß kennen wir ganz genau. Es ist kapitalisirter Mehrwerth. Von Ursprung an enthält er nicht ein einziges Werthatom, das nicht aus unbezahlter fremder Arbeit herstammt. Die Produktionsmittel, denen die zuschüssige Arbeitskraft einverleibt wird, wie die Lebensmittel, von denen diese sich erhält, sind nichts als integrirende Bestandtheile des Mehrprodukts, des der Arbeiterklasse jährlich durch die Kapitalistenklasse entrissenen Tributs. Wenn diese mit einem Theil des Tributs von jener zusätzliche Arbeitskraft kauft, selbst zum vollen Preise, sodaß Aequivalent sich austauscht gegen Aequivalent ‒ es bleibt immer das alte Verfahren des Eroberers, der den Besiegten Waaren abkauft mit ihrem eignen, geraubten Geld.
+
+[v1-ch22s01-p0012] [MEGA p.521]
+Wenn das Zusatzkapital seinen eignen Producenten beschäftigt, so muß dieser erstens fortfahren, das ursprüngliche Kapital zu verwerthen und zudem den Ertrag seiner früheren Arbeit zurückkaufen mit mehr Arbeit, als er gekostet hat. Als Transaktion zwischen der Kapitalistenklasse und der Arbeiterklasse betrachtet, ändert es nichts an der Sache, wenn mit der unbezahlten Arbeit der bisher beschäftigten Arbeiter zuschüssige Arbeiter beschäftigt werden. Der Kapitalist verwandelt vielleicht auch das Zusatzkapital in eine Maschine, die den Producenten des Zusatzkapitals aufs Pflaster wirft und durch ein paar Kinder ersetzt. In allen Fällen hat die Arbeiterklasse durch ihre dießjährige Mehrarbeit das Kapital geschaffen, das im nächsten Jahr zuschüssige Arbeit beschäftigen wird 22) Das ist es, was man nennt: Kapital durch Kapital erzeugen.
+
+[v1-ch22s01-p0013] [MEGA p.522]
+Die Voraussetzung der Akkumulation des ersten Zusatzkapitals von 2000 Pfd. St. war eine vom Kapitalisten vorgeschoßne, ihm Kraft seiner „ursprünglichen Arbeit“ gehörige Werthsumme von 10000 Pfd. St. Die Voraussetzung des zweiten Zusatzkapitals von 400 Pfd. St. dagegen ist nichts andres als die vorhergegangne Akkumulation des ersten, der 2000 Pfd. St., dessen kapitalisirter Mehrwerth es ist. Eigenthum an vergangner unbezahlter Arbeit erscheint jetzt als die einzige Bedingung für gegenwärtige Aneignung lebendiger unbezahlter Arbeit in stets wachsendem Umfang. Jemehr der Kapitalist akkumulirt hat, destomehr kann er akkumuliren.
+
+[v1-ch22s01-p0014] [MEGA p.522,523]
+Insofern der Mehrwerth, woraus Zusatzkapital Nr. I besteht, das Resultat des Ankaufs der Arbeitskraft durch einen Theil des Originalkapitals war, ein Kauf, der den Gesetzen des Waarenaustausches entsprach, und, juristisch betrachtet, nichts voraussetzt als freie Verfügung auf Seiten des Arbeiters über seine eignen Fähigkeiten, auf Seiten des Geld- oder Waarenbesitzers über ihm gehörige Werthe; sofern Zusatzkapital Nr. II u. s. w. bloß Resultat von Zusatzkapital Nr. I, also Konsequenz jenes ersten Verhältnisses; sofern jede einzelne Transaktion fortwährend dem Gesetz des Waarenaustausches entspricht, der Kapitalist stets die Arbeitskraft kauft, der Arbeiter sie stets verkauft, und wir wollen annehmen selbst zu ihrem wirklichen Werth, schlägt offenbar das auf Waarenproduktion und Waarencirkulation beruhende Gesetz der Aneignung oder Gesetz des Privateigenthums durch seine eigne, innere, unvermeidliche Dialektik in sein direktes Gegentheil um. Der Austausch von Aequivalenten, der als die ursprüngliche Operation erschien, hat sich so gedreht, daß nur zum Schein ausgetauscht wird, indem erstens der gegen Arbeitskraft ausgetauschte Kapitaltheil selbst nur ein Theil des ohne Aequivalent angeeigneten fremden Arbeitsproduktes ist, und zweitens von seinem Producenten, dem Arbeiter, nicht nur ersetzt, sondern mit neuem Surplus ersetzt werden muß. Das Verhältniß des Austausches zwischen Kapitalist und Arbeiter wird also nur ein dem Cirkulationsproceß angehöriger Schein, bloße Form, die dem Inhalt selbst fremd ist und ihn nur mystificirt. Der beständige Kauf und Verkauf der Arbeitskraft ist die Form. Der Inhalt ist, daß der Kapitalist einen Theil der bereits vergegenständlichten fremden Arbeit, die er sich unaufhörlich ohne Aequivalent aneignet, stets wieder gegen größeres Quantum lebendiger fremder Arbeit umsetzt. Ursprünglich erschien uns das Eigenthumsrecht gegründet auf eigne Arbeit. Wenigstens mußte diese Annahme gelten, da sich nur gleichberechtigte Waarenbesitzer gegenüberstehn, das Mittel zur Aneignung fremder Waare aber nur die Veräußerung der eignen Waare, und letztere nur durch Arbeit herstellbar ist. Eigenthum erscheint jetzt, auf Seite des Kapitalisten, als das Recht, fremde unbezahlte Arbeit oder ihr Produkt, auf Seite des Arbeiters, als Unmöglichkeit, sich sein eignes Produkt anzueignen. Die Scheidung zwischen Eigenthum und Arbeit wird zur nothwendigen Konsequenz eines Gesetzes, das scheinbar von ihrer Identität ausging 23).
+
+[v1-ch22s01-p0015] [MEGA p.523]
+So sehr die kapitalistische Aneignungsweise also den ursprünglichen Gesetzen der Waarenproduktion ins Gesicht zu schlagen scheint, so entspringt sie doch keineswegs aus der Verletzung, sondern im Gegentheil aus der Anwendung dieser Gesetze. Ein kurzer Rückblick auf die Reihenfolge der Bewegungsphasen, deren Schlußpunkt die kapitalistische Akkumulation ist, stelle dieß nochmals klar.
+
+[v1-ch22s01-p0016] [MEGA p.523]
+Zuerst haben wir gesehn, daß die ursprüngliche Verwandlung einer Werthsumme in Kapital sich durchaus gemäß den Gesetzen des Austausches vollzog. Der eine Kontrahent verkauft seine Arbeitskraft, der andre kauft sie. Der erstre empfängt den Werth seiner Waare, deren Gebrauchswerth ‒ die Arbeit ‒ damit an den zweiten veräußert ist. Dieser verwandelt nunmehr, ihm bereits gehörende, Produktionsmittel mit Hülfe von ihm ebenfalls gehörender Arbeit in ein neues Produkt, das ihm ebenfalls von Rechtswegen gehört.
+
+[v1-ch22s01-p0017] [MEGA p.523]
+Der Werth dieses Produkts schließt ein: erstens den Werth der verbrauchten Produktionsmittel. Die nützliche Arbeit kann diese Produktionsmittel nicht verbrauchen ohne ihren Werth auf das neue Produkt zu übertragen; um aber verkäuflich zu sein, muß die Arbeitskraft im Stande sein, in dem Industriezweig, wo sie verwandt werden soll, nützliche Arbeit zu liefern.
+
+[v1-ch22s01-p0018] [MEGA p.523]
+Der Werth des neuen Produkts schließt ferner ein: das Aequivalent des Werths der Arbeitskraft und einen Mehrwerth. Und zwar deßhalb, weil die für einen bestimmten Zeitraum, Tag, Woche etc., verkaufte Arbeitskraft weniger Werth besitzt als ihr Gebrauch während dieser Zeit schafft. Der Arbeiter aber hat den Tauschwerth seiner Arbeitskraft bezahlt erhalten und hat damit ihren Gebrauchswerth veräußert ‒ wie das bei jedem Kauf und Verkauf der Fall.
+
+[v1-ch22s01-p0019] [MEGA p.523,524]
+Daß diese besondre Waare Arbeitskraft den eigenthümlichen Gebrauchswerth hat, Arbeit zu liefern, also Werth zu schaffen, das kann das allgemeine Gesetz der Waarenproduktion nicht berühren. Wenn also die in Arbeitslohn vorgeschoßne Werthsumme sich in Produkt nicht bloß einfach wieder vorfindet, sondern um einen Mehrwerth vermehrt vorfindet, so rührt dieß nicht her aus einer Uebervortheilung des Verkäufers, der ja den Werth seiner Waare erhalten, sondern nur aus dem Verbrauch dieser Waare durch den Käufer.
+
+[v1-ch22s01-p0020] [MEGA p.524]
+Das Gesetz des Austausches bedingt Gleichheit nur für die Tauschwerthe der gegen einander weggegebenen Waaren. Es bedingt sogar von vornherein Verschiedenheit ihrer Gebrauchswerthe, und hat absolut nichts zu schaffen mit ihrem Verbrauch, der erst nach geschloßnem und vollzognem Handel beginnt.
+
+[v1-ch22s01-p0021] [MEGA p.524]
+Die ursprüngliche Verwandlung des Geldes in Kapital vollzieht sich also im genauesten Einklang mit den ökonomischen Gesetzen der Waarenproduktion und mit dem daraus sich ableitenden Eigenthumsrecht. Trotzdem aber hat sie zum Ergebniß:
+
+[v1-ch22s01-p0022] [MEGA p.524]
+1) daß das Produkt dem Kapitalisten gehört und nicht dem Arbeiter;
+
+[v1-ch22s01-p0023] [MEGA p.524]
+2) daß der Werth dieses Produkts, außer dem Werth des vorgeschoßnen Kapitals, einen Mehrwerth einschließt, der dem Arbeiter Arbeit, dem Kapitalisten aber nichts gekostet hat, und der dennoch das rechtmäßige Eigenthum des Kapitalisten wird;
+
+[v1-ch22s01-p0024] [MEGA p.524]
+3) daß der Arbeiter seine Arbeitskraft forterhalten hat und sie aufs neue verkaufen kann, wenn er einen Käufer findet.
+
+[v1-ch22s01-p0025] [MEGA p.524]
+Die einfache Reproduktion ist nur die periodische Wiederholung dieser ersten Operation; jedesmal wird, stets von neuem, Geld in Kapital verwandelt. Das Gesetz wird also nicht gebrochen, im Gegentheil es erhält nur Gelegenheit sich dauernd zu bethätigen. «Plusieurs échanges successifs n’ont fait du dernier que le représentant du premier.» (Sismondi, l. c. p. 70.)
+
+[v1-ch22s01-p0026] [MEGA p.524]
+Und dennoch haben wir gesehn, daß die einfache Reproduktion hinreicht, um dieser ersten Operation ‒ soweit sie als isolirter Vorgang gefaßt war ‒ einen total veränderten Charakter aufzuprägen. «Parmi ceux qui se partagent le revenue national, les uns ❲die Arbeiter❳ y acquièrent chaque année un nouveau droit par un nouveau travail, les autres ❲die Kapitalisten❳ y ont acquis antérieurement un droit permanent par un travail primitif.» (Sismondi, l. c. p. 111.) Das Gebiet der Arbeit ist bekanntlich nicht das einzige, wo die Erstgeburt Wunder thut.
+
+[v1-ch22s01-p0027] [MEGA p.524]
+Es verschlägt auch nichts, wenn die einfache Reproduktion ersetzt wird durch die Reproduktion auf erweiterter Stufenleiter, durch die Akkumulation. Bei jener vermöbelt der Kapitalist den gesammten Mehrwerth, bei dieser beweist er seine Bürgertugend durch Verzehrung nur eines Theils, und Verwandlung des Restes in Geld.
+
+[v1-ch22s01-p0028] [MEGA p.524,525]
+Der Mehrwerth ist sein Eigenthum, er hat nie einem Andern gehört. Schießt er ihn zur Produktion vor, so macht er, ganz wie am Tag, wo er zuerst den Markt beschritt, Vorschüsse aus seinem eignen Fonds. Daß dieser Fonds dießmal aus der unbezahlten Arbeit seiner Arbeiter stammt, thut absolut nichts zur Sache. Wird Arbeiter B beschäftigt mit dem Mehrwerth, den Arbeiter A producirt hat, so hat erstens A diesen Mehrwerth geliefert, ohne daß man ihm den gerechten Preis seiner Waare um einen Heller verkürzt hat, und zweitens geht dieß Geschäft dem B überhaupt nichts an. Was B verlangt und das Recht hat zu verlangen, ist, daß der Kapitalist ihm den Werth seiner Arbeitskraft zahle. «Tous deux gagnaient encore; l’ouvrier parce qu’on lui avançait les fruits de son travail ❲soll heißen: du travail gratuit d’autres ouvriers❳ avant qu’il fût fait ❲soll heißen: avant que le sien ait porté de fruit❳; le maître, parceque le travail de cet ouvrier valait plus que le salaire» ❲soll heißen: produisait plus de valeur que celle de son salaire❳. (Sismondi, l. c. p. 135.)
+
+[v1-ch22s01-p0029] [MEGA p.525]
+Allerdings sieht die Sache ganz anders aus, wenn wir die kapitalistische Produktion im ununterbrochnen Fluß ihrer Erneuerung betrachten, und statt des einzelnen Kapitalisten und des einzelnen Arbeiters, die Gesammtheit, die Kapitalistenklasse und ihr gegenüber die Arbeiterklasse ins Auge fassen. Damit aber würden wir einen Maßstab anlegen, der der Waarenproduktion total fremd ist.
+
+[v1-ch22s01-p0030] [MEGA p.525]
+In der Waarenproduktion stehn sich nur, von einander unabhängig, Verkäufer und Käufer gegenüber. Ihre gegenseitigen Beziehungen sind zu Ende mit dem Verfalltag des zwischen ihnen abgeschloßnen Vertrags. Wiederholt sich das Geschäft, denn in Folge eines neuen Vertrags, der mit dem vorhergehenden nichts zu thun hat, und bei dem nur ein Zufall denselben Käufer mit demselben Verkäufer wieder zusammenbringt.
+
+[v1-ch22s01-p0031] [MEGA p.525]
+Soll also die Waarenproduktion oder ein ihr angehöriger Vorgang nach ihren eignen ökonomischen Gesetzen beurtheilt werden, so müssen wir jeden Austauschakt für sich betrachten, außerhalb alles Zusammenhangs mit dem Austauschakt, der ihm vorherging, wie mit dem der ihm nachfolgt. Und da Käufe und Verkäufe nur zwischen einzelnen Individuen abgeschlossen werden, so ist es unzulässig, Beziehungen zwischen ganzen Gesellschaftsklassen darin zu suchen.
+
+[v1-ch22s01-p0032] [MEGA p.525,526]
+Wie lang auch die Reihenfolge der periodischen Reproduktionen und vorhergegangnen Akkumulationen, die das heute funktionirende Kapital durchgemacht hat, es bewahrt immer seine ursprüngliche Jungfräulichkeit. So lange bei jedem Austauschakt ‒ einzeln genommen ‒ die Gesetze des Austausches eingehalten werden, kann die Aneignungsweise eine totale Umwälzung erfahren ohne das, der Waarenproduktion gemäße, Eigenthumsrecht irgendwie zu berühren. Dieses selbe Recht steht in Kraft, wie am Anfang, wo das Produkt dem Producenten gehört, und wo dieser, Aequivalent gegen Aequivalent austauschend, sich nur durch eigne Arbeit bereichern kann, so auch in der kapitalistischen Periode, wo der gesellschaftliche Reichthum in stets steigendem Maß das Eigenthum derer wird, die in der Lage sind, sich stets aufs Neue die unbezahlte Arbeit Andrer anzueignen.
+
+[v1-ch22s01-p0033] [MEGA p.526]
+Dieß Resultat wird unvermeidlich, sobald die Arbeitskraft durch den Arbeiter selbst als Waare frei verkauft wird. Aber auch erst von da an verallgemeinert sich die Waarenproduktion und wird sie typische Produktionsform; erst von da an wird jedes Produkt von vornherein für den Verkauf producirt, und geht aller producirte Reichthum durch die Cirkulation hindurch. Erst da, wo die Lohnarbeit ihre Basis, zwingt die Waarenproduktion sich der gesammten Gesellschaft auf; aber auch erst da entfaltet sie alle ihre verborgnen Potenzen. Sagen, daß die Dazwischenkunft der Lohnarbeit die Waarenproduktion fälscht, heißt sagen, daß die Waarenproduktion, will sie unverfälscht bleiben, sich nicht entwickeln darf. Im selben Maß, wie sie nach ihren eignen immanenten Gesetzen sich zur kapitalistischen Produktion fortbildet, in demselben Maß schlagen die Eigenthumsgesetze der Waarenproduktion um in Gesetze der kapitalistischen Aneignung 24).
+
+[v1-ch22s01-p0034] [MEGA p.526]
+Man sah, daß selbst bei einfacher Reproduktion alles vorgeschoßne Kapital, wie immer ursprünglich erworben, sich in akkumulirtes Kapital oder kapitalisirten Mehrwerth verwandelt. Aber im Strom der Produktion wird überhaupt alles ursprünglich vorgeschoßne Kapital eine verschwindende Größe (magnitudo evanescens im mathematischen Sinn) verglichen mit dem direkt akkumulirten Kapital, d. h. dem in Kapital rückverwandelten Mehrwerth oder Mehrprodukt, ob nun funktionirend in der Hand, die akkumulirt hat, oder in fremder Hand. Die politische Oekonomie stellt das Kapital daher überhaupt dar als „akkumulirten Reichthum“ (verwandelten Mehrwerth oder Revenue) „der von neuem zur Produktion von Mehrwerth verwandt wird“ 25), oder auch den Kapitalisten als „Besitzer des Mehrprodukts“ 26). Dieselbe Anschauungsweise besitzt nur andre Form in dem Ausdruck, daß alles vorhandne Kapital akkumulirter oder kapitalisirter Zins sei, denn der Zins ist ein bloßes Bruchstück des Mehrwerths 27).
+
+## Footnotes
+
+[note-001] [MEGA p.518]
+21) „Accumulation of Capital: the employment of a portion of revenue as capital.“ (Malthus: „Definitions etc.“ ed. Cazenove p. 11.) „Conversion of revenue into Capital“. (Malthus: „Princ. of Pol. Econ. 2nd ed. Lond. 1836“, p. 320.)
+
+[note-002] [MEGA p.520]
+21a) Es wird hier abstrahirt vom Ausfuhrhandel, vermittelst dessen eine Nation Luxusartikel in Produktions- oder Lebensmittel umsetzen kann und umgekehrt. Um den Gegenstand der Untersuchung in seiner Reinheit, frei von störenden Nebenumständen aufzufassen, müssen wir hier die gesammte Handelswelt als eine Nation ansehn und voraussetzen, daß die kapitalistische Produktion sich überall festgesetzt und sich aller Industriezweige bemächtigt hat.
+
+[note-003] [MEGA p.520]
+21b) Sismondi’s Analyse der Akkumulation hat den großen Fehler, daß er sich zu sehr mit der Phrase: „Umsetzung von Revenue in Kapital“ begnügt, ohne die materiellen Bedingungen dieser Operation zu ergründen.
+
+[note-004] [MEGA p.521]
+21c) «Le travail primitif auquel son capital a dû sa naissance.» Sismondi l. c. éd. Paris, t. I. p. 109.
+
+[note-005] [MEGA p.521]
+22) „Die Arbeit schafft das Kapital, bevor das Kapital die Arbeit anwendet.“ (“Labour creates capital, before capital employs labour.”) E. G. Wakefield, „England and America. London 1833“, v. II, p. 110.
+
+[note-006] [MEGA p.523]
+23) Das Eigenthum des Kapitalisten an dem fremden Arbeitsprodukt „ist strenge Konsequenz des Gesetzes der Aneignung, dessen Fundamentalprincip umgekehrt der ausschließliche Eigenthumstitel jedes Arbeiters am Produkt seiner eignen Arbeit war“. (Cherbuliez: „Riche ou Pauvre. Paris 1841“, p. 58, wo jedoch dieser dialektische Umschlag nicht richtig entwickelt wird.)
+
+[note-007] [MEGA p.526]
+24) Man bewundere daher die Pfiffigkeit Proudhon’s, der das kapitalistische Eigenthum abschaffen will, indem er ihm gegenüber ‒ die ewigen Eigenthumsgesetze der Waarenproduktion geltend macht!
+
+[note-008] [MEGA p.526]
+25) “Capital, viz: accumulated wealth employed with a view to profit.” Malthus l. c. “Capital... consists of wealth saved from revenue, and used with a view to profit.” (R. Jones: „Textbook etc., Hertford 1852“, p. 16.)
+
+[note-009] [MEGA p.526]
+26) “The possessors of surplusproduce or capital.” („The Source and Remedy of the National Difficulties. A Letter to Lord John Russell. Lond. 1821“, [p. 4.])
+
+[note-010] [MEGA p.526]
+27) “Capital, with compound interest on every portion of capital saved, is so all engrossing, that all the wealth in the world from which income is derived, has long ago become the interest on capital.” (London Economist, 19. July, 1851.)

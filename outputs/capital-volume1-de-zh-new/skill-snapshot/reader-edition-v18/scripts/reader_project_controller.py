@@ -1166,10 +1166,13 @@ def make_tasks(
     max_paragraphs: int,
     title: str | None = None,
     replace_incomplete: bool = False,
+    fill_gaps: bool = False,
 ) -> None:
     load_project(root)
     if max_paragraphs < 1 or max_paragraphs > 20:
         raise SystemExit("--max-paragraphs must be between 1 and 20")
+    if replace_incomplete and fill_gaps:
+        raise SystemExit("--replace-incomplete and --fill-gaps cannot be used together")
     chapter_rows = read_jsonl(root / "manifests" / "chapters.jsonl")
     chapter = next(
         (row for row in chapter_rows if row.get("chapter_id") == chapter_id), None
@@ -1199,12 +1202,12 @@ def make_tasks(
         and row.get("status") != "superseded"
     ]
     replaced: list[dict[str, Any]] = []
-    if active and not replace_incomplete:
+    if active and not replace_incomplete and not fill_gaps:
         raise SystemExit(
             f"{chapter_id} already has {len(active)} active tasks; "
             "supersede or finish them before rechunking"
         )
-    if active:
+    if active and replace_incomplete:
         blocked = [
             str(row.get("task_id", ""))
             for row in active
@@ -1225,12 +1228,75 @@ def make_tasks(
 
     source_path = root / str(chapter["source_path"])
     paragraphs = parse_source(source_path)
+    groups: list[list[dict[str, str]]] = []
+    if fill_gaps:
+        paragraph_indexes = {
+            str(paragraph["id"]): index
+            for index, paragraph in enumerate(paragraphs)
+        }
+        covered: dict[int, str] = {}
+        for task in active:
+            task_id = str(task.get("task_id", ""))
+            start_id = str(task.get("start_paragraph", ""))
+            end_id = str(task.get("end_paragraph", ""))
+            if start_id not in paragraph_indexes or end_id not in paragraph_indexes:
+                raise SystemExit(
+                    f"Active task {task_id} points outside the current source: "
+                    f"{start_id}..{end_id}"
+                )
+            start_index = paragraph_indexes[start_id]
+            end_index = paragraph_indexes[end_id]
+            if start_index > end_index:
+                raise SystemExit(
+                    f"Active task {task_id} has a reversed source range: "
+                    f"{start_id}..{end_id}"
+                )
+            for paragraph_index in range(start_index, end_index + 1):
+                if paragraph_index in covered:
+                    raise SystemExit(
+                        "Active task ranges overlap at "
+                        f"{paragraphs[paragraph_index]['id']}: "
+                        f"{covered[paragraph_index]} and {task_id}"
+                    )
+                covered[paragraph_index] = task_id
+
+        gap: list[dict[str, str]] = []
+        for paragraph_index, paragraph in enumerate(paragraphs):
+            if paragraph_index in covered:
+                if gap:
+                    groups.extend(
+                        gap[index : index + max_paragraphs]
+                        for index in range(0, len(gap), max_paragraphs)
+                    )
+                    gap = []
+                continue
+            gap.append(paragraph)
+        if gap:
+            groups.extend(
+                gap[index : index + max_paragraphs]
+                for index in range(0, len(gap), max_paragraphs)
+            )
+        if not groups:
+            raise SystemExit(f"{chapter_id} has no uncovered source paragraphs")
+    else:
+        groups = [
+            paragraphs[index : index + max_paragraphs]
+            for index in range(0, len(paragraphs), max_paragraphs)
+        ]
+
     return_budget = chapter_review_return_budget(root, chapter_id)
     current_spec_hash = spec_hash(root)
     decisions = active_decisions(root)
     created: list[dict[str, Any]] = []
-    for index in range(0, len(paragraphs), max_paragraphs):
-        group = paragraphs[index : index + max_paragraphs]
+    dependency_rows = replaced
+    if fill_gaps:
+        dependency_rows = [
+            row
+            for row in all_tasks
+            if row.get("chapter_id") == chapter_id
+            and row.get("status") == "superseded"
+        ]
+    for group in groups:
         source_blocks = source_blocks_with_referenced_notes(source_path, group)
         first_num = paragraph_number(group[0]["id"])
         last_num = paragraph_number(group[-1]["id"])
@@ -1271,7 +1337,7 @@ def make_tasks(
             "readability_review_artifact_sha256": "",
             "dependencies": [
                 str(row["task_id"])
-                for row in replaced
+                for row in dependency_rows
                 if (
                     paragraph_number(str(row["start_paragraph"])) <= last_num
                     and paragraph_number(str(row["end_paragraph"])) >= first_num
@@ -1302,7 +1368,7 @@ def make_tasks(
         {
             "chapter_id": chapter_id,
             "status": "chunked",
-            "task_count": len(created),
+            "task_count": len(active) + len(created) if fill_gaps else len(created),
             "last_updated": chapter["last_updated"],
         },
     )
@@ -1310,15 +1376,23 @@ def make_tasks(
         root,
         chapter=chapter_id,
         stage=(
-            "task-rechunking"
-            if replace_incomplete and replaced
-            else "task-chunking"
+            "task-gap-fill"
+            if fill_gaps
+            else (
+                "task-rechunking"
+                if replace_incomplete and replaced
+                else "task-chunking"
+            )
         ),
         artifact=f"chapters/{chapter_id}/tasks",
         result=(
-            f"completed:{len(created)};superseded:{len(replaced)}"
-            if replaced
-            else f"completed:{len(created)}"
+            f"completed:{len(created)};preserved:{len(active)}"
+            if fill_gaps
+            else (
+                f"completed:{len(created)};superseded:{len(replaced)}"
+                if replaced
+                else f"completed:{len(created)}"
+            )
         ),
         next_stage="draft",
     )
@@ -2004,10 +2078,25 @@ def assemble(root: Path, chapter_id: str) -> None:
         )
         if display_title:
             chapter["title_zh"] = display_title
+    # A source paragraph may itself be the chapter heading, sometimes with a
+    # footnote reference attached.  The controller already supplies the
+    # canonical heading, so merge that reference into the canonical heading
+    # instead of rendering the title twice.
+    title_suffix = ""
+    if bodies:
+        first_lines = bodies[0].splitlines()
+        if first_lines and first_lines[0].startswith("# "):
+            artifact_title = first_lines[0][2:].strip()
+            title_without_notes = re.sub(
+                r"(?:\[\^[^\]]+\])+\s*$", "", artifact_title
+            ).strip()
+            if title_without_notes == display_title:
+                title_suffix = artifact_title[len(title_without_notes) :]
+                bodies[0] = "\n".join(first_lines[1:]).strip()
     assembled = (
-        f"# {display_title}\n\n"
+        f"# {display_title}{title_suffix}\n\n"
         + section_heading
-        + "\n\n".join(bodies)
+        + "\n\n".join(body for body in bodies if body)
         + "\n"
     )
     atomic_write_text(output, assembled)
@@ -2980,7 +3069,8 @@ def rebuild_chapter(root: Path, chapter_id: str) -> None:
     if not isinstance(adoptions, dict):
         raise SystemExit("manifests/adoptions.json must contain an object")
     bodies: list[str] = []
-    for unit in units:
+    title_suffix = ""
+    for unit_index, unit in enumerate(units):
         unit_id = str(unit.get("unit_id", ""))
         version_id = str(adoptions.get(unit_id, ""))
         version = versions.get(version_id)
@@ -2990,11 +3080,22 @@ def rebuild_chapter(root: Path, chapter_id: str) -> None:
         if not artifact.is_file():
             raise SystemExit(f"Missing adopted version artifact: {artifact}")
         body = artifact.read_text(encoding="utf-8").strip()
-        body = re.sub(r"\A\s*#\s+[^\n]+\n+", "", body).strip()
+        title_match = re.match(r"\A\s*#\s+([^\n]+)\n+", body)
+        if title_match:
+            artifact_title = title_match.group(1).strip()
+            title_without_notes = re.sub(
+                r"(?:\[\^[^\]]+\])+\s*$", "", artifact_title
+            ).strip()
+            if (
+                unit_index == 0
+                and title_without_notes == str(chapter["title_zh"]).strip()
+            ):
+                title_suffix = artifact_title[len(title_without_notes) :]
+            body = body[title_match.end() :].strip()
         bodies.append(body)
     output = root / str(chapter.get("output_path", ""))
     assembled = (
-        f"# {chapter['title_zh']}\n\n"
+        f"# {chapter['title_zh']}{title_suffix}\n\n"
         + "\n\n".join(bodies)
         + "\n"
     )
@@ -3030,6 +3131,13 @@ def build_parser() -> argparse.ArgumentParser:
         help=(
             "supersede pending, in-progress, or unreviewed drafted tasks and "
             "rechunk the current verified source"
+        ),
+    )
+    task_parser.add_argument(
+        "--fill-gaps",
+        action="store_true",
+        help=(
+            "create tasks only for source paragraphs not covered by active tasks"
         ),
     )
     refresh_parser = subparsers.add_parser("refresh-tasks")
@@ -3131,6 +3239,7 @@ def main() -> int:
             args.max_paragraphs,
             args.title,
             args.replace_incomplete,
+            args.fill_gaps,
         )
     elif args.command == "refresh-tasks":
         refresh_tasks(root, args.chapter, args.task_ids)

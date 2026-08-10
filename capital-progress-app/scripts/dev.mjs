@@ -172,6 +172,73 @@ const server = http.createServer(async (request, response) => {
       );
       return;
     }
+    if (url.pathname === "/api/audio/patch" && request.method === "POST") {
+      const body = await readJsonBody(request);
+      const speechText =
+        typeof body.speechText === "string"
+          ? body.speechText.replace(/\s+/g, " ").trim()
+          : "";
+      if (
+        typeof body.unitId !== "string" ||
+        typeof body.translationVersionId !== "string" ||
+        typeof body.baseAudioVersionId !== "string" ||
+        typeof body.sentenceId !== "string" ||
+        !speechText ||
+        speechText.length > 1_200
+      ) {
+        response.writeHead(400, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "朗读修正信息不完整" }));
+        return;
+      }
+      const state = await progressState();
+      const unit = [...(state.frontMatter || []), ...state.parts]
+        .flatMap((item) =>
+          item.chapters
+            ? item.chapters.flatMap((chapter) => chapter.sections || [])
+            : item.sections || []
+        )
+        .find((item) => item.unit_id === body.unitId);
+      const version = unit?.versions?.find(
+        (item) =>
+          item.id === body.translationVersionId &&
+          item.id === unit.adoptedVersionId
+      );
+      const baseAudioVersion = version?.audio?.versions?.find(
+        (item) =>
+          item.id === body.baseAudioVersionId && item.status === "ready"
+      );
+      if (!version || !baseAudioVersion) {
+        response.writeHead(409, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(
+          JSON.stringify({ error: "只能修正当前采用译文的已完成语音" })
+        );
+        return;
+      }
+      const queued = audioQueue.enqueuePatch({
+        unitId: body.unitId,
+        modelId: baseAudioVersion.modelId,
+        baseAudioVersionId: body.baseAudioVersionId,
+        sentenceId: body.sentenceId,
+        speechText,
+      });
+      response.writeHead(202, {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store",
+      });
+      response.end(
+        JSON.stringify({
+          ok: true,
+          unitId: body.unitId,
+          modelId: baseAudioVersion.modelId,
+          ...queued,
+        })
+      );
+      return;
+    }
     if (url.pathname === "/api/audio/adopt" && request.method === "POST") {
       const body = await readJsonBody(request);
       if (
