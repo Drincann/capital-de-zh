@@ -1,0 +1,1183 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch12-s05-v1-audio-87f477fd7ec6",
+  "unit_id": "ch12-s05",
+  "translation_version_id": "ch12-s05-v1",
+  "translation_sha256": "9aa3b08b63247008a8cc4f420469b05f39562358598ee33a65fcdb64934d9b36",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T16:24:16.648Z",
+  "completed_at": "2026-08-04T16:26:07.823Z",
+  "duration_ms": 776968,
+  "sentence_count": 110,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 35445,
+      "bytes": 567981,
+      "sha256": "8f98af7e3b9b14627d69262f71f192cccf6ed774e122821c66c44a77ec4eaeb9",
+      "sentence_ids": [
+        "ch12-s05-n0001",
+        "ch12-s05-n0002",
+        "ch12-s05-n0003",
+        "ch12-s05-n0004",
+        "ch12-s05-n0005",
+        "ch12-s05-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 38425,
+      "bytes": 615597,
+      "sha256": "944e099c5d8cb03f4728bcceb662b961362c0a4dc5f8b7de35bade61d3b4d7f2",
+      "sentence_ids": [
+        "ch12-s05-n0007",
+        "ch12-s05-n0008",
+        "ch12-s05-n0009",
+        "ch12-s05-n0010",
+        "ch12-s05-n0011",
+        "ch12-s05-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 43027,
+      "bytes": 695469,
+      "sha256": "fe6448e1b6118a7ab13b33eab96bc7f096524dbbee10acaae53fad09e9d16304",
+      "sentence_ids": [
+        "ch12-s05-n0013",
+        "ch12-s05-n0014",
+        "ch12-s05-n0015",
+        "ch12-s05-n0016",
+        "ch12-s05-n0017",
+        "ch12-s05-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 42557,
+      "bytes": 682413,
+      "sha256": "6defaa21e2dc802c1e51882623ededc2ea09dabbcddae8172b2a38b12088a3b2",
+      "sentence_ids": [
+        "ch12-s05-n0019",
+        "ch12-s05-n0020",
+        "ch12-s05-n0021",
+        "ch12-s05-n0022",
+        "ch12-s05-n0023",
+        "ch12-s05-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 40718,
+      "bytes": 650541,
+      "sha256": "eef84cfbcfbf03f4fbc44eb27482fe0bc34e4839abded766e1dc6a9f7ffd1ff3",
+      "sentence_ids": [
+        "ch12-s05-n0025",
+        "ch12-s05-n0026",
+        "ch12-s05-n0027",
+        "ch12-s05-n0028",
+        "ch12-s05-n0029",
+        "ch12-s05-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 40865,
+      "bytes": 659373,
+      "sha256": "f45f9e5a85453e4f221aadacd119ebd88f9a3cd945c9e3d24ce6d05909efadb5",
+      "sentence_ids": [
+        "ch12-s05-n0031",
+        "ch12-s05-n0032",
+        "ch12-s05-n0033",
+        "ch12-s05-n0034",
+        "ch12-s05-n0035",
+        "ch12-s05-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 49863,
+      "bytes": 797997,
+      "sha256": "d766f3bb8b283766af58ba7393ffc16148e7a80443a71c62e162d5bc38f4eb33",
+      "sentence_ids": [
+        "ch12-s05-n0037",
+        "ch12-s05-n0038",
+        "ch12-s05-n0039",
+        "ch12-s05-n0040",
+        "ch12-s05-n0041",
+        "ch12-s05-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 49850,
+      "bytes": 800301,
+      "sha256": "8f916cbf411c238c491c77759abdd48603c7937cb1070da8c6958de68cd925a2",
+      "sentence_ids": [
+        "ch12-s05-n0043",
+        "ch12-s05-n0044",
+        "ch12-s05-n0045",
+        "ch12-s05-n0046",
+        "ch12-s05-n0047",
+        "ch12-s05-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 42576,
+      "bytes": 682029,
+      "sha256": "9c3a288b53cf72ba97df1b4d104d97c4ded448ce9b828c8db15ea16a0e843ea8",
+      "sentence_ids": [
+        "ch12-s05-n0049",
+        "ch12-s05-n0050",
+        "ch12-s05-n0051",
+        "ch12-s05-n0052",
+        "ch12-s05-n0053",
+        "ch12-s05-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 42856,
+      "bytes": 692013,
+      "sha256": "1559b27ac7384dfdfeac2acf6283c33f8bc216a67642eea7f725722d7a31f2dc",
+      "sentence_ids": [
+        "ch12-s05-n0055",
+        "ch12-s05-n0056",
+        "ch12-s05-n0057",
+        "ch12-s05-n0058",
+        "ch12-s05-n0059",
+        "ch12-s05-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 46185,
+      "bytes": 739629,
+      "sha256": "32a4e67cd44b8d57ab6e0203180819ac87a7f649cea61739bb45ed3fd1071aae",
+      "sentence_ids": [
+        "ch12-s05-n0061",
+        "ch12-s05-n0062",
+        "ch12-s05-n0063",
+        "ch12-s05-n0064",
+        "ch12-s05-n0065",
+        "ch12-s05-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 48629,
+      "bytes": 778797,
+      "sha256": "00996b00f152ada336c04aeb4c5a11badbaeeb1b3bdea41549688fce7136d7fd",
+      "sentence_ids": [
+        "ch12-s05-n0067",
+        "ch12-s05-n0068",
+        "ch12-s05-n0069",
+        "ch12-s05-n0070",
+        "ch12-s05-n0071",
+        "ch12-s05-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 44214,
+      "bytes": 714285,
+      "sha256": "8567298107e6f25c7aa12df8ea23c7317b64c63175b86b250bfcda6ff37eda5a",
+      "sentence_ids": [
+        "ch12-s05-n0073",
+        "ch12-s05-n0074",
+        "ch12-s05-n0075",
+        "ch12-s05-n0076",
+        "ch12-s05-n0077",
+        "ch12-s05-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 37975,
+      "bytes": 611757,
+      "sha256": "7fe45ca76900712c2fd8831c40fd1b072cecc9a8bd4cb13ca133fac212ce2968",
+      "sentence_ids": [
+        "ch12-s05-n0079",
+        "ch12-s05-n0080",
+        "ch12-s05-n0081",
+        "ch12-s05-n0082",
+        "ch12-s05-n0083",
+        "ch12-s05-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 68503,
+      "bytes": 1100973,
+      "sha256": "9b192cd03bb773864f1602a6fe5320dd2b81edbaad0bb85250b74fdaa872a25b",
+      "sentence_ids": [
+        "ch12-s05-n0085",
+        "ch12-s05-n0086",
+        "ch12-s05-n0087",
+        "ch12-s05-n0088",
+        "ch12-s05-n0089",
+        "ch12-s05-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 28915,
+      "bytes": 467373,
+      "sha256": "921846a6cae5b5c0a915a16c55d9530142a4587dad72ea4c3aad4529d6b2cf7c",
+      "sentence_ids": [
+        "ch12-s05-n0091",
+        "ch12-s05-n0092",
+        "ch12-s05-n0093",
+        "ch12-s05-n0094",
+        "ch12-s05-n0095",
+        "ch12-s05-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 32515,
+      "bytes": 522669,
+      "sha256": "f20786dcd69e050dc8f5981f36841ecefa0f2cfa39bfe52d6d07ba5bf2020080",
+      "sentence_ids": [
+        "ch12-s05-n0097",
+        "ch12-s05-n0098",
+        "ch12-s05-n0099",
+        "ch12-s05-n0100",
+        "ch12-s05-n0101",
+        "ch12-s05-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 33705,
+      "bytes": 538797,
+      "sha256": "6611eb67c2fc6f348bd33e79347d102d4b55fdad40656230f2c64770d1bae61b",
+      "sentence_ids": [
+        "ch12-s05-n0103",
+        "ch12-s05-n0104",
+        "ch12-s05-n0105",
+        "ch12-s05-n0106",
+        "ch12-s05-n0107",
+        "ch12-s05-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 10145,
+      "bytes": 167085,
+      "sha256": "2974752fcb0b265259714df0d5bd6d00287ed2aeffdc140e0b9363bc3f3ece37",
+      "sentence_ids": [
+        "ch12-s05-n0109",
+        "ch12-s05-n0110"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch12-s05-n0001",
+      "text": "工场手工业和一般协作一样，都自然地从一个起点开始：较多工人受同一个资本支配。",
+      "start_ms": 115,
+      "end_ms": 6285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s05-n0002",
+      "text": "反过来，一旦实行工场手工业式的分工，增加工人人数就成了技术上的必需。",
+      "start_ms": 6620,
+      "end_ms": 11795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s05-n0003",
+      "text": "已有的分工决定了单个资本家至少必须雇用多少工人。",
+      "start_ms": 12845,
+      "end_ms": 16635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s05-n0004",
+      "text": "要进一步细分劳动并获得相应好处，工人人数还必须按一定倍数增加。",
+      "start_ms": 17040,
+      "end_ms": 22305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s05-n0005",
+      "text": "这样一来，资本中用来购买劳动力的部分必须增加，用于生产资料的部分也必须增加。",
+      "start_ms": 22605,
+      "end_ms": 28675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s05-n0006",
+      "text": "厂房、炉子等共同生产条件的规模要扩大，原料的增加尤其快，远快于工人人数。",
+      "start_ms": 28960,
+      "end_ms": 35295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s05-n0007",
+      "text": "因为分工提高了生产率，同样多的劳动在同样长的时间里会加工更多原料，原料用量会随着劳动生产率一同增加。",
+      "start_ms": 355,
+      "end_ms": 8245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s05-n0008",
+      "text": "因此，单个资本家手中资本的最低规模必须不断扩大。",
+      "start_ms": 8885,
+      "end_ms": 12625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s05-n0009",
+      "text": "换句话说，社会的生活资料和生产资料会越来越多地转化为资本。",
+      "start_ms": 13475,
+      "end_ms": 18095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s05-n0010",
+      "text": "这条规律来自工场手工业自身的技术结构。",
+      "start_ms": 18560,
+      "end_ms": 21785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s05-n0011",
+      "text": "与简单协作一样，在工场手工业中，实际运转的整个工人群体成了资本的一种存在形式。",
+      "start_ms": 22395,
+      "end_ms": 28575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s05-n0012",
+      "text": "这个由许多局部工人组成的社会生产机制属于资本家，因此，劳动组合产生的生产力也表现成了资本自己的生产力。",
+      "start_ms": 29505,
+      "end_ms": 38275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s05-n0013",
+      "text": "真正的工场手工业不仅把原先独立的工人置于资本的指挥和纪律之下，还在工人之间建立起等级。",
+      "start_ms": 275,
+      "end_ms": 6875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s05-n0014",
+      "text": "简单协作总体上不改变个人的劳动方式，工场手工业却从根本上改造这种方式，直接改变工人的劳动能力。",
+      "start_ms": 7220,
+      "end_ms": 14435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s05-n0015",
+      "text": "它像在温室里一样，过度培育工人的单项技能，同时压抑他其他各种生产才能，最终把他塑造成一个畸形的片面劳动者。",
+      "start_ms": 15255,
+      "end_ms": 23825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s05-n0016",
+      "text": "这就像拉普拉塔地区有人宰掉整头牲畜，只为了取得兽皮或油脂。",
+      "start_ms": 24210,
+      "end_ms": 28845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s05-n0017",
+      "text": "各种局部工作不仅分给不同的人，工人本人也被分割，变成执行一道局部工序的自动装置。",
+      "start_ms": 29185,
+      "end_ms": 35655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s05-n0018",
+      "text": "于是，梅涅尼乌斯·阿格里帕那个荒唐的寓言仿佛成真了：一个完整的人被缩减成自己身体的一个局部。",
+      "start_ms": 36042,
+      "end_ms": 42877,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s05-n0019",
+      "text": "起初，工人把劳动力卖给资本，是因为自己没有生产商品所需的物质条件。",
+      "start_ms": 295,
+      "end_ms": 5985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s05-n0020",
+      "text": "如今，他的个人劳动力即使存在，不卖给资本也不能发挥作用了。",
+      "start_ms": 6345,
+      "end_ms": 10435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s05-n0021",
+      "text": "它只能在一种卖出以后才形成的联系中运转，也就是在资本家的工场里运转。",
+      "start_ms": 11055,
+      "end_ms": 16235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s05-n0022",
+      "text": "工人的能力已经被塑造成无法独立生产的样子，他只有作为资本家工场的附属部分，才能从事生产。",
+      "start_ms": 16660,
+      "end_ms": 23215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s05-n0023",
+      "text": "就像上帝的选民额头上写着自己属于耶和华一样，分工也给工场手工业工人打上烙印，标明他属于资本。",
+      "start_ms": 23975,
+      "end_ms": 31715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s05-n0024",
+      "text": "独立农民或手工业者虽然生产规模很小，却要自己具备相应的知识、判断力和意志，就像原始部落中的人要靠个人机智运用各种作战本领。",
+      "start_ms": 32182,
+      "end_ms": 42407,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s05-n0025",
+      "text": "现在，这些能力只需存在于整个工场中，不再需要每个工人都具备。",
+      "start_ms": 105,
+      "end_ms": 5805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s05-n0026",
+      "text": "生产中的智力力量之所以在整个工场层面扩大，正是因为它从许多个人身上消失了。",
+      "start_ms": 6240,
+      "end_ms": 12875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s05-n0027",
+      "text": "局部工人失去的东西，集中到了他们对面的资本手中。",
+      "start_ms": 13515,
+      "end_ms": 17725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s05-n0028",
+      "text": "工场手工业式的分工造成了这样的结果：物质生产所需的知识、判断力和组织意志同工人分离，作为别人的财产和支配他们的力量出现在工人面前。",
+      "start_ms": 18250,
+      "end_ms": 31145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s05-n0029",
+      "text": "这种分离从简单协作开始。",
+      "start_ms": 31573,
+      "end_ms": 33858,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s05-n0030",
+      "text": "在那里，资本家代表整个社会劳动组织的统一和意志，同一个个工人相对立。",
+      "start_ms": 34173,
+      "end_ms": 40568,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s05-n0031",
+      "text": "到了工场手工业阶段，这种分离进一步发展，因为工人被削减成只做局部工作的片面劳动者。",
+      "start_ms": 165,
+      "end_ms": 7225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s05-n0032",
+      "text": "到了大工业阶段，这一过程最终完成：科学成为一种独立的生产力量，同劳动分离，并被迫为资本服务。",
+      "start_ms": 7660,
+      "end_ms": 15475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s05-n0033",
+      "text": "在工场手工业中，整个工人集体获得社会生产力，也就是资本获得这种生产力，是以单个工人失去自身的多种生产能力为条件的。",
+      "start_ms": 16100,
+      "end_ms": 25575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s05-n0034",
+      "text": "“无知既是迷信之母，也是工业之母。",
+      "start_ms": 25580,
+      "end_ms": 29075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s05-n0035",
+      "text": "思考和想象都有可能出错，但让手脚按照习惯动作，并不依赖思考或想象。",
+      "start_ms": 29475,
+      "end_ms": 35455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s05-n0036",
+      "text": "因此，制造业最兴盛的地方，正是最不需要人运用精神能力的地方。",
+      "start_ms": 35885,
+      "end_ms": 40715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s05-n0037",
+      "text": "这样一来，工场就可以看成一架机器，而人就是它的零件。”",
+      "start_ms": 265,
+      "end_ms": 4315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s05-n0038",
+      "text": "事实上，18 世纪中叶，有些工场面对某些简单却属于工艺秘密的操作，尤其喜欢雇用智力明显受限的人。",
+      "start_ms": 4320,
+      "end_ms": 12375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s05-n0039",
+      "text": "亚当·斯密说：“绝大多数人的思想，必然由他们日常所做的事情塑造。",
+      "start_ms": 12745,
+      "end_ms": 17325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s05-n0040",
+      "text": "一个人如果一生只做几项简单操作……就没有机会锻炼自己的理解力……一般说来，他会变得极其迟钝和无知，几乎达到一个人所能达到的极限。”",
+      "start_ms": 17710,
+      "end_ms": 27715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s05-n0041",
+      "text": "斯密描述完局部工人的愚钝以后，又说：“一成不变的生活自然也会损害他的精神活力……甚至会破坏他的身体力量，使他除了在受训从事的局部工作中以外，再也不能有力而持久地使用自己的体力。",
+      "start_ms": 28290,
+      "end_ms": 42953,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s05-n0042",
+      "text": "他在这一门特殊工作上的熟练，看来是用智力、社会能力和战斗精神的损失换来的。",
+      "start_ms": 43533,
+      "end_ms": 49713,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s05-n0043",
+      "text": "可是在每一个工业发达的文明社会中，贫苦劳动者，也就是绝大多数人民，都必然落入这种状态。”",
+      "start_ms": 175,
+      "end_ms": 7915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s05-n0044",
+      "text": "为了防止劳动分工使广大人民的身心彻底萎缩，斯密主张由国家提供国民教育，尽管他开出的剂量十分谨慎，近乎顺势疗法。",
+      "start_ms": 8595,
+      "end_ms": 19255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s05-n0045",
+      "text": "斯密的法文译者和评注者加尔尼耶却坚决反对。",
+      "start_ms": 19820,
+      "end_ms": 23555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s05-n0046",
+      "text": "这位后来顺理成章当上法兰西第一帝国参议员的人认为，国民教育违反劳动分工的首要法则，推行它就等于“取缔我们的整个社会制度”。",
+      "start_ms": 24095,
+      "end_ms": 34835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s05-n0047",
+      "text": "他说：“同其他一切劳动分工一样，体力劳动和脑力劳动之间的分工， 也会随着社会日益富裕而变得更加明确、更加彻底。”",
+      "start_ms": 35275,
+      "end_ms": 45010,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s05-n0048",
+      "text": "这里的“社会”，实际指资本、土地所有权和它们的国家。",
+      "start_ms": 45545,
+      "end_ms": 49700,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s05-n0049",
+      "text": "加尔尼耶把这个词用在这里，倒很准确。",
+      "start_ms": 475,
+      "end_ms": 2805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s05-n0050",
+      "text": "他接着说：“同其他分工一样，这种分工既是过去进步的结果，也是未来进步的原因……政府难道可以反对这种分工，阻止它自然发展吗？",
+      "start_ms": 3110,
+      "end_ms": 13045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s05-n0051",
+      "text": "政府难道可以拿出一部分国家收入，试图扰乱并混合两类本来趋向分离的劳动吗？”",
+      "start_ms": 13715,
+      "end_ms": 20085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s05-n0052",
+      "text": "即使只看整个社会范围内的劳动分工，也免不了在一定程度上损害人的智力和身体。",
+      "start_ms": 20590,
+      "end_ms": 26745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s05-n0053",
+      "text": "工场手工业时期把社会各行业的分裂推进得更远，又以自己特有的分工从生命根基处伤害个人。",
+      "start_ms": 27495,
+      "end_ms": 35155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s05-n0054",
+      "text": "因此，它也最早为研究工业劳动造成的疾病提供了材料，并推动工业病理学形成。",
+      "start_ms": 35556,
+      "end_ms": 42426,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s05-n0055",
+      "text": "“把一个人分割开来，如果他罪该处死，这叫处决；如果他罪不该死，这叫谋杀。",
+      "start_ms": 385,
+      "end_ms": 7075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s05-n0056",
+      "text": "把劳动细分，就是谋杀一个民族。”",
+      "start_ms": 7480,
+      "end_ms": 9935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s05-n0057",
+      "text": "以劳动分工为基础的协作，也就是工场手工业，起初是自发形成的。",
+      "start_ms": 10615,
+      "end_ms": 16095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s05-n0058",
+      "text": "等它发展到一定规模并稳定下来，就变成资本主义生产方式中一种有意识、有计划、有系统的组织形式。",
+      "start_ms": 16390,
+      "end_ms": 24065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s05-n0059",
+      "text": "真正的工场手工业在历史上的发展过程表明，它特有的分工最初并非出自谁的预先设计，而是靠经验逐渐找到适合生产的形式。",
+      "start_ms": 24895,
+      "end_ms": 35345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s05-n0060",
+      "text": "可是，一种形式一旦形成，它又像行会手工业一样被传统固定下来，有时几个世纪都不改变。",
+      "start_ms": 35666,
+      "end_ms": 42706,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s05-n0061",
+      "text": "除了次要变化以外，只有劳动工具发生革命，才会改变这种分工形式。",
+      "start_ms": 145,
+      "end_ms": 5115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s05-n0062",
+      "text": "现代工场手工业——这里说的不是以机器为基础的大工业——通常有两种形成方法。",
+      "start_ms": 5460,
+      "end_ms": 10755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s05-n0063",
+      "text": "第一种情况是，大城市中已经存在各种彼此分散的局部工种，工场手工业只需把它们集中起来，服装业就是如此。",
+      "start_ms": 11665,
+      "end_ms": 19975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s05-n0064",
+      "text": "第二种情况更为直接，只要把一门手艺原有的不同操作分别交给不同工人，让每个人专门负责一种操作，例如装订业。",
+      "start_ms": 20395,
+      "end_ms": 29025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s05-n0065",
+      "text": "遇到这种情况，用不到一周的经验，就能确定每项职能需要多少人，以及各类工人的人数比例。",
+      "start_ms": 29475,
+      "end_ms": 36275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s05-n0066",
+      "text": "工场手工业式的分工，把手工业劳动拆成不同操作，使劳动工具专门化，培养局部工人，再把他们按一定比例组成一个整体。",
+      "start_ms": 36730,
+      "end_ms": 46035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s05-n0067",
+      "text": "这样，它便使社会生产过程有了明确的职能划分和数量比例，形成一种特定的社会劳动组织，同时创造出新的社会生产力。",
+      "start_ms": 385,
+      "end_ms": 9245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s05-n0068",
+      "text": "可是，它是社会生产过程中特有的资本主义形式，而且在当时已有的基础上也不可能以别的形式发展。",
+      "start_ms": 9685,
+      "end_ms": 16195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s05-n0069",
+      "text": "因此，它不过是生产相对剩余价值的一种特殊方法，也就是以损害工人为代价，让资本进一步增殖，让所谓“社会财富”或“国民财富”增加。",
+      "start_ms": 16955,
+      "end_ms": 27455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s05-n0070",
+      "text": "它不仅让劳动的社会生产力为资本家而不是为工人服务，而且正是通过使单个工人变得片面和残缺，来提高这种生产力。",
+      "start_ms": 27770,
+      "end_ms": 36565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s05-n0071",
+      "text": "这样，它又为资本支配劳动创造了新的条件。",
+      "start_ms": 36884,
+      "end_ms": 39739,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s05-n0072",
+      "text": "所以，它一方面表现为历史进步，是社会经济发展中一个必要阶段，另一方面又是文明而精巧的剥削手段。",
+      "start_ms": 40299,
+      "end_ms": 48479,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s05-n0073",
+      "text": "政治经济学直到工场手工业时期才成为一门独立学科。",
+      "start_ms": 235,
+      "end_ms": 3615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s05-n0074",
+      "text": "它通常只从工场手工业式分工的角度看待一般社会分工， 把分工看成一种手段，可以用同样多的劳动生产更多商品，从而降低商品价格，加快资本积累。",
+      "start_ms": 3960,
+      "end_ms": 14595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s05-n0075",
+      "text": "古代经典作家恰好相反，他们关心的只有质量和使用价值。",
+      "start_ms": 15345,
+      "end_ms": 19145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s05-n0076",
+      "text": "在他们看来，社会各生产部门彼此分开以后，商品会做得更好，人们不同的兴趣和才能也会找到合适的活动领域， 因为一个人如果不把自己限制在特定工作上，就不可能取得重要成就。",
+      "start_ms": 19490,
+      "end_ms": 32485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s05-n0077",
+      "text": "所以，劳动分工会同时改善产品和生产者。",
+      "start_ms": 32889,
+      "end_ms": 36014,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s05-n0078",
+      "text": "他们偶尔也提到产品数量增加，但只是说人们可以得到更丰富的有用物品，从不谈交换价值，也不谈商品变便宜。",
+      "start_ms": 36329,
+      "end_ms": 44064,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s05-n0079",
+      "text": "柏拉图和色诺芬都采取这种以使用价值为中心的立场。",
+      "start_ms": 115,
+      "end_ms": 3215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s05-n0080",
+      "text": "柏拉图把劳动分工当作社会等级划分的基础， 色诺芬则凭着一种典型的资产阶级直觉，更接近对单个作坊内部分工的分析。",
+      "start_ms": 3725,
+      "end_ms": 12355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s05-n0081",
+      "text": "《理想国》把劳动分工发展成国家的组织原则，但这种理想国家不过是雅典人对埃及种姓制度的理想化。",
+      "start_ms": 12360,
+      "end_ms": 19715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s05-n0082",
+      "text": "柏拉图同时代的其他人，例如伊索克拉底，也把埃及看成工业组织的典范。",
+      "start_ms": 20275,
+      "end_ms": 25005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s05-n0083",
+      "text": "甚至到了罗马帝国时期，这个看法在希腊人中仍有影响。",
+      "start_ms": 25420,
+      "end_ms": 29145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s05-n0084",
+      "text": "在真正的工场手工业时期，也就是工场手工业成为资本主义生产主要形式的时期，它自身的趋势仍然受到多方面阻碍。",
+      "start_ms": 29660,
+      "end_ms": 37825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s05-n0085",
+      "text": "它虽然在工人中建立了等级，还把工人简单分成熟练工和非熟练工，但熟练工仍占主导，因此非熟练工人数十分有限。",
+      "start_ms": 125,
+      "end_ms": 11235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s05-n0086",
+      "text": "它虽然按照人的成熟程度、力量和身体发育状况，把不同局部操作分配给不同工人，从而推动资本利用妇女和儿童劳动，但男性工人的习惯和抵抗总体上阻止了这种趋势充分发展。",
+      "start_ms": 11735,
+      "end_ms": 28565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s05-n0087",
+      "text": "它虽然通过拆解手工业劳动降低了培训成本，从而降低工人的劳动力价值，但困难的局部工作仍然需要较长学习时间。",
+      "start_ms": 29345,
+      "end_ms": 40285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s05-n0088",
+      "text": "即使这种长期学习已经没有必要，工人也会坚决维护它。",
+      "start_ms": 40983,
+      "end_ms": 46113,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s05-n0089",
+      "text": "比如在英国，规定七年学徒期的学徒法一直有效到工场手工业时期结束，后来才被大工业推翻。",
+      "start_ms": 46518,
+      "end_ms": 55353,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s05-n0090",
+      "text": "工场手工业始终以手工技能为基础，整个生产机构还没有一种脱离工人而独立存在的物质骨架，所以资本不断同工人的不服从作斗争。",
+      "start_ms": 56038,
+      "end_ms": 68353,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s05-n0091",
+      "text": "“人性的弱点真是太大了，”我们的朋友尤尔惊呼，“工人越熟练，就越任性，越难管理。",
+      "start_ms": 165,
+      "end_ms": 5795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s05-n0092",
+      "text": "他那些固执的怪脾气也就越会严重损害整个生产机构。”",
+      "start_ms": 5960,
+      "end_ms": 9605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s05-n0093",
+      "text": "因此，整个工场手工业时期都充满了对工人缺乏纪律的抱怨。",
+      "start_ms": 9605,
+      "end_ms": 13475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s05-n0094",
+      "text": "即使没有同时代人的整整一图书馆证词，事实本身也足以说明问题。",
+      "start_ms": 14045,
+      "end_ms": 18335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s05-n0095",
+      "text": "从 16 世纪直到大工业兴起，资本始终无法占用工场手工业工人的全部可用劳动时间。",
+      "start_ms": 18590,
+      "end_ms": 24465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s05-n0096",
+      "text": "工场往往寿命很短，工人迁入或迁出一个国家，工场也随之迁移。",
+      "start_ms": 24710,
+      "end_ms": 28765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s05-n0097",
+      "text": "“必须用这种或那种办法建立秩序。”",
+      "start_ms": 0,
+      "end_ms": 3505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s05-n0098",
+      "text": "1770 年，前面多次引用的《论商业和贸易》作者这样喊道。",
+      "start_ms": 3915,
+      "end_ms": 8025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s05-n0099",
+      "text": "66 年后，安德鲁·尤尔博士又发出同样的呼声。",
+      "start_ms": 8785,
+      "end_ms": 11725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s05-n0100",
+      "text": "他说，以“劳动分工这一经院哲学教条”为基础的工场手工业缺少“秩序”，而“阿克莱创造了秩序”。",
+      "start_ms": 12030,
+      "end_ms": 20065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s05-n0101",
+      "text": "与此同时，工场手工业既不能覆盖整个社会生产，也不能从根本上改造它。",
+      "start_ms": 20070,
+      "end_ms": 25455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s05-n0102",
+      "text": "它像一件精巧的经济艺术品，建立在城市手工业和农村家庭工业这片广阔基础之上。",
+      "start_ms": 25850,
+      "end_ms": 32365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s05-n0103",
+      "text": "发展到一定阶段后，它狭窄的技术基础便同它自己造成的生产需要发生冲突。",
+      "start_ms": 155,
+      "end_ms": 5435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s05-n0104",
+      "text": "工场手工业最成熟的产物之一，是专门制造生产工具的工场，尤其是制造当时已经使用的较复杂机械装置的工场。",
+      "start_ms": 5880,
+      "end_ms": 14085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s05-n0105",
+      "text": "尤尔说：“在这样的工场里，各种层次的劳动分工一目了然。",
+      "start_ms": 14590,
+      "end_ms": 18595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s05-n0106",
+      "text": "钻孔工具、凿子和车床各有专门的工人，这些工人又按照熟练程度分成不同等级。”",
+      "start_ms": 18970,
+      "end_ms": 24685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s05-n0107",
+      "text": "这种由工场手工业式分工产生的工场，反过来制造出了机器。",
+      "start_ms": 25070,
+      "end_ms": 29675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s05-n0108",
+      "text": "机器不再让手工业劳动充当社会生产的支配原则。",
+      "start_ms": 29985,
+      "end_ms": 33555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s05-n0109",
+      "text": "这样一来，工人被终身固定在某项局部职能上的技术基础被扫除了。",
+      "start_ms": 155,
+      "end_ms": 5215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s05-n0110",
+      "text": "但同时，手工业劳动原先给资本统治造成的限制也被扫除了。",
+      "start_ms": 5560,
+      "end_ms": 9995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    }
+  ]
+}

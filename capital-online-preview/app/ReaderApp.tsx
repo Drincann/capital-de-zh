@@ -254,6 +254,10 @@ export function ReaderApp({
     selected && loadedContent.sectionId === selected.id
       ? loadedContent.error
       : "";
+  const proseInnerHtml = useMemo(
+    () => ({ __html: content?.html || "" }),
+    [content?.html],
+  );
 
   useEffect(() => {
     let cancelled = false;
@@ -1008,7 +1012,7 @@ export function ReaderApp({
               <div
                 className="prose"
                 onClick={navigateFootnote}
-                dangerouslySetInnerHTML={{ __html: content?.html || "" }}
+                dangerouslySetInnerHTML={proseInnerHtml}
               />
             )}
 

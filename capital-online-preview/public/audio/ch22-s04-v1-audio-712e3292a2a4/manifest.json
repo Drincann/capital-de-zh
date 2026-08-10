@@ -1,0 +1,1426 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch22-s04-v1-audio-712e3292a2a4",
+  "unit_id": "ch22-s04",
+  "translation_version_id": "ch22-s04-v1",
+  "translation_sha256": "ed7bfeac3a05434f686addbdbf277ef21712e6f6dc4a85697f983ac7ed89beee",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-09T21:15:37.336Z",
+  "completed_at": "2026-08-09T21:17:36.895Z",
+  "duration_ms": 836616,
+  "sentence_count": 133,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 33115,
+      "bytes": 531501,
+      "sha256": "a517a0b7b9fdf56fc3e0e9689d9f98e73246eb10dc834684bdfed9dbb6a03436",
+      "sentence_ids": [
+        "ch22-s04-n0001",
+        "ch22-s04-n0002",
+        "ch22-s04-n0003",
+        "ch22-s04-n0004",
+        "ch22-s04-n0005",
+        "ch22-s04-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 30365,
+      "bytes": 486573,
+      "sha256": "f938d673a2804f4feb6e7f138588a9c3bcdbd2f80234e601ef180a6574666e91",
+      "sentence_ids": [
+        "ch22-s04-n0007",
+        "ch22-s04-n0008",
+        "ch22-s04-n0009",
+        "ch22-s04-n0010",
+        "ch22-s04-n0011",
+        "ch22-s04-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 30475,
+      "bytes": 490029,
+      "sha256": "345f732bd99ee58083ab25ab05b3920eedcf1a57acfb0720ad03c8ccfb06b120",
+      "sentence_ids": [
+        "ch22-s04-n0013",
+        "ch22-s04-n0014",
+        "ch22-s04-n0015",
+        "ch22-s04-n0016",
+        "ch22-s04-n0017",
+        "ch22-s04-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 46484,
+      "bytes": 746157,
+      "sha256": "84404eab026798c3897ab038584338373f7f59c2dc1647fcdd8c30ffe4bdf137",
+      "sentence_ids": [
+        "ch22-s04-n0019",
+        "ch22-s04-n0020",
+        "ch22-s04-n0021",
+        "ch22-s04-n0022"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 49085,
+      "bytes": 788013,
+      "sha256": "31a83752b181f816a953c95e189844c0d1a9bc4a2e3a8b9a64931d2d4ec26854",
+      "sentence_ids": [
+        "ch22-s04-n0023",
+        "ch22-s04-n0024",
+        "ch22-s04-n0025",
+        "ch22-s04-n0026",
+        "ch22-s04-n0027",
+        "ch22-s04-n0028"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 36735,
+      "bytes": 592941,
+      "sha256": "3a439ec5d09dd4f3c32ec9f97ff3f52c0113f190d3af67d65a47378a3ca3b9da",
+      "sentence_ids": [
+        "ch22-s04-n0029",
+        "ch22-s04-n0030",
+        "ch22-s04-n0031",
+        "ch22-s04-n0032",
+        "ch22-s04-n0033",
+        "ch22-s04-n0034"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 45770,
+      "bytes": 741165,
+      "sha256": "d3d7d81eb8a7e9ec7b5fd73d4b9da2678c190ca752438621f4e6507e178f3fe3",
+      "sentence_ids": [
+        "ch22-s04-n0035",
+        "ch22-s04-n0036",
+        "ch22-s04-n0037",
+        "ch22-s04-n0038",
+        "ch22-s04-n0039",
+        "ch22-s04-n0040"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 31335,
+      "bytes": 505773,
+      "sha256": "d39a3eeca562a1617d8fbeb17bf4d5b1b9feae3988e7d7e7517b8a7a38209570",
+      "sentence_ids": [
+        "ch22-s04-n0041",
+        "ch22-s04-n0042",
+        "ch22-s04-n0043",
+        "ch22-s04-n0044",
+        "ch22-s04-n0045",
+        "ch22-s04-n0046"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 36765,
+      "bytes": 588717,
+      "sha256": "ca739b07ab35b4cf60593f3ad2638545dff56bace2e111567660528d2cd02dd6",
+      "sentence_ids": [
+        "ch22-s04-n0047",
+        "ch22-s04-n0048",
+        "ch22-s04-n0049",
+        "ch22-s04-n0050",
+        "ch22-s04-n0051",
+        "ch22-s04-n0052"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 32725,
+      "bytes": 524973,
+      "sha256": "009ae44acc800144822326eb5a6603d9a44bb11ac84b00004b21f3a1a9c276d1",
+      "sentence_ids": [
+        "ch22-s04-n0053",
+        "ch22-s04-n0054",
+        "ch22-s04-n0055",
+        "ch22-s04-n0056",
+        "ch22-s04-n0057",
+        "ch22-s04-n0058"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 35305,
+      "bytes": 563757,
+      "sha256": "3b86dc52aa8e70bf108c30ea9da5c3d2f43625bafa0a92f709b273d1adcc24c1",
+      "sentence_ids": [
+        "ch22-s04-n0059",
+        "ch22-s04-n0060",
+        "ch22-s04-n0061",
+        "ch22-s04-n0062",
+        "ch22-s04-n0063",
+        "ch22-s04-n0064"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 27245,
+      "bytes": 438573,
+      "sha256": "a84c21d322469a9cc3d05dbddb6aa63611ae63d7ad5ce1cddca2f9ba9b5da3e8",
+      "sentence_ids": [
+        "ch22-s04-n0065",
+        "ch22-s04-n0066",
+        "ch22-s04-n0067",
+        "ch22-s04-n0068",
+        "ch22-s04-n0069",
+        "ch22-s04-n0070"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 36102,
+      "bytes": 579501,
+      "sha256": "ea524c249652d2fd2ece0d90d9a3b4c458c1e2e52b44bd7db0da866e35de4469",
+      "sentence_ids": [
+        "ch22-s04-n0071",
+        "ch22-s04-n0072",
+        "ch22-s04-n0073",
+        "ch22-s04-n0074",
+        "ch22-s04-n0075",
+        "ch22-s04-n0076"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 28385,
+      "bytes": 458541,
+      "sha256": "a27a1ee1000820849466b2ff875d64b25ca3d25b4e190cd523de9247c840d40b",
+      "sentence_ids": [
+        "ch22-s04-n0077",
+        "ch22-s04-n0078",
+        "ch22-s04-n0079",
+        "ch22-s04-n0080",
+        "ch22-s04-n0081",
+        "ch22-s04-n0082"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 39774,
+      "bytes": 678189,
+      "sha256": "4cdeb5dbbd42736fcc328a3db87f56d8062438cc5e5796a2ee95f71c34101d28",
+      "sentence_ids": [
+        "ch22-s04-n0083",
+        "ch22-s04-n0084",
+        "ch22-s04-n0085",
+        "ch22-s04-n0086",
+        "ch22-s04-n0087",
+        "ch22-s04-n0088"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 36422,
+      "bytes": 582573,
+      "sha256": "96b7c052b0e1072bcd57a9ba5068a03da1d6f276fe29edb269fac12e93ee0dc5",
+      "sentence_ids": [
+        "ch22-s04-n0089",
+        "ch22-s04-n0090",
+        "ch22-s04-n0091",
+        "ch22-s04-n0092",
+        "ch22-s04-n0093",
+        "ch22-s04-n0094"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 40268,
+      "bytes": 650157,
+      "sha256": "00542ce56a5ec2a80562a7152da3b4f2fea89f5a7a7e0869feaa6e961d250338",
+      "sentence_ids": [
+        "ch22-s04-n0095",
+        "ch22-s04-n0096",
+        "ch22-s04-n0097",
+        "ch22-s04-n0098",
+        "ch22-s04-n0099",
+        "ch22-s04-n0100"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 36585,
+      "bytes": 586413,
+      "sha256": "239c99d7b8931c571b47f797f753ff98e409bf51275838407ef5358100d33acf",
+      "sentence_ids": [
+        "ch22-s04-n0101",
+        "ch22-s04-n0102",
+        "ch22-s04-n0103",
+        "ch22-s04-n0104",
+        "ch22-s04-n0105",
+        "ch22-s04-n0106"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 38505,
+      "bytes": 614829,
+      "sha256": "41f9a8acd9c63e4799ba2b895d1c6083117fc8915da717fa3ae4dd5de51a8195",
+      "sentence_ids": [
+        "ch22-s04-n0107",
+        "ch22-s04-n0108",
+        "ch22-s04-n0109",
+        "ch22-s04-n0110",
+        "ch22-s04-n0111",
+        "ch22-s04-n0112"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 41461,
+      "bytes": 665517,
+      "sha256": "a774f869e371a49e110ed8111b7aba8d3efc97e90dfc1c19cd9934f93ffc19df",
+      "sentence_ids": [
+        "ch22-s04-n0113",
+        "ch22-s04-n0114",
+        "ch22-s04-n0115",
+        "ch22-s04-n0116",
+        "ch22-s04-n0117",
+        "ch22-s04-n0118"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 44468,
+      "bytes": 710829,
+      "sha256": "79d265198f6717a2de09acc7b2511a0626e4e487d0bac5f2640f818bf8c66eda",
+      "sentence_ids": [
+        "ch22-s04-n0119",
+        "ch22-s04-n0120",
+        "ch22-s04-n0121",
+        "ch22-s04-n0122",
+        "ch22-s04-n0123",
+        "ch22-s04-n0124"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 38787,
+      "bytes": 625197,
+      "sha256": "24128698d16c4b06be4f84c6219f11fb46ae8bf1d40956b4ec6157b59b9ef9e6",
+      "sentence_ids": [
+        "ch22-s04-n0125",
+        "ch22-s04-n0126",
+        "ch22-s04-n0127",
+        "ch22-s04-n0128",
+        "ch22-s04-n0129",
+        "ch22-s04-n0130"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 20455,
+      "bytes": 326061,
+      "sha256": "82538f5f5fd9a5a117bf0495e3d535ff151ebd5172d3238d571b7c637336e943",
+      "sentence_ids": [
+        "ch22-s04-n0131",
+        "ch22-s04-n0132",
+        "ch22-s04-n0133"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch22-s04-n0001",
+      "text": "假定剩余价值用于积累和用于消费的比例不变，积累资本的规模显然取决于剩余价值总量。",
+      "start_ms": 265,
+      "end_ms": 6735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s04-n0002",
+      "text": "比如，80%用于积累，20%用于消费。",
+      "start_ms": 7115,
+      "end_ms": 10075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s04-n0003",
+      "text": "剩余价值总额为3000英镑时，积累资本就是2400英镑；总额只有1500英镑时，积累资本就是1200英镑。",
+      "start_ms": 10715,
+      "end_ms": 18725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s04-n0004",
+      "text": "因此，凡是影响剩余价值总量的条件，也都会影响积累规模。",
+      "start_ms": 19190,
+      "end_ms": 23835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s04-n0005",
+      "text": "下面只从它们会怎样影响积累这个角度，再作一次概括。",
+      "start_ms": 24250,
+      "end_ms": 28245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s04-n0006",
+      "text": "前面讲过，剩余价值率首先取决于劳动力受到剥削的程度。",
+      "start_ms": 28760,
+      "end_ms": 32965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s04-n0007",
+      "text": "政治经济学非常看重这个因素，有时甚至把提高劳动生产率带来的积累加快，同加强剥削带来的积累加快混为一谈。",
+      "start_ms": 255,
+      "end_ms": 7715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s04-n0008",
+      "text": "前面分析剩余价值生产时，一直假定工资至少等于劳动力价值。",
+      "start_ms": 8165,
+      "end_ms": 12545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s04-n0009",
+      "text": "但在现实中，把工资强行压到劳动力价值以下十分重要，不能略过不谈。",
+      "start_ms": 12885,
+      "end_ms": 18015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s04-n0010",
+      "text": "在一定范围内，这实际上会把本来供工人维持生活的必要消费基金，转变成资本的积累基金。",
+      "start_ms": 18520,
+      "end_ms": 24875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s04-n0011",
+      "text": "约翰·斯图亚特·穆勒说：“工资本身没有生产力。",
+      "start_ms": 25425,
+      "end_ms": 28385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s04-n0012",
+      "text": "工资是生产力的价格。",
+      "start_ms": 28740,
+      "end_ms": 30215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s04-n0013",
+      "text": "工资不会同劳动一起生产商品，就像机器的价格不会同机器一起生产商品一样。",
+      "start_ms": 125,
+      "end_ms": 4855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s04-n0014",
+      "text": "如果不用购买就能得到劳动，工资便没有必要。”",
+      "start_ms": 5105,
+      "end_ms": 7845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s04-n0015",
+      "text": "可是，如果工人能靠空气活着，资本家就算一分钱不付也买不到他们。",
+      "start_ms": 8100,
+      "end_ms": 12645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s04-n0016",
+      "text": "把工人的成本降到零，就像数学中的极限，资本永远达不到，却总想越来越接近。",
+      "start_ms": 12840,
+      "end_ms": 18185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s04-n0017",
+      "text": "资本不断试图把工人的生活压向这个零点。",
+      "start_ms": 18620,
+      "end_ms": 21225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s04-n0018",
+      "text": "我经常引用的十八世纪《贸易和商业论》作者，说出了英国资本心底的秘密：英国的历史任务，是把本国工资压到法国和荷兰的水平。",
+      "start_ms": 21560,
+      "end_ms": 30325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s04-n0019",
+      "text": "他天真地写道：“如果我们的穷人——这是工人的专门称呼——想过奢侈生活……他们的劳动当然会很贵……看看工场工人消费了多少令人震惊的多余品吧，例如白兰地、杜松子酒、茶、糖、外国水果、烈性啤酒、印花布、鼻烟和烟草等等。”",
+      "start_ms": 355,
+      "end_ms": 17065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s04-n0020",
+      "text": "他又引用一位北安普敦郡工厂主的哀叹：“法国的劳动比英国便宜整整三分之一，因为法国穷人辛苦劳动，在食物和衣服上也过得艰苦。",
+      "start_ms": 17665,
+      "end_ms": 27335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s04-n0021",
+      "text": "他们主要消费面包、水果、蔬菜、根茎和干鱼，很少吃肉；小麦昂贵时，连面包也吃得很少。”",
+      "start_ms": 27710,
+      "end_ms": 34784,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s04-n0022",
+      "text": "这位作者接着说：“此外，他们喝水或类似的清淡饮料，所以确实花不了多少钱……这样的状况当然很难实现，却不是无法实现，法国和荷兰的现实已经明确证明了这一点。”",
+      "start_ms": 35259,
+      "end_ms": 46334,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s04-n0023",
+      "text": "二十年后，美国骗子本杰明·汤普森——后来获封贵族，号称伦福德伯爵——沿着同一条“慈善”路线，为上帝和世人提出各种廉价食谱，用替代品换掉工人的正常食物。",
+      "start_ms": 275,
+      "end_ms": 13065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s04-n0024",
+      "text": "他的一份得意配方是：“5磅大麦、5磅玉米、3便士鲱鱼、1便士盐、1便士醋、2便士胡椒和香草，总共花20¾便士，可以给64个人做汤。",
+      "start_ms": 13450,
+      "end_ms": 24965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s04-n0025",
+      "text": "按谷物平均价格，每人只需¼便士，还不到3芬尼。”",
+      "start_ms": 25450,
+      "end_ms": 28955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s04-n0026",
+      "text": "后来资本主义生产发展出普遍的商品掺假，汤普森的理想也就不必再靠特殊食谱实现了。",
+      "start_ms": 29350,
+      "end_ms": 35585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s04-n0027",
+      "text": "十八世纪末和十九世纪最初几十年，英国租地农场主和土地所有者把农业短工的工资压到绝对最低。",
+      "start_ms": 36080,
+      "end_ms": 43625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s04-n0028",
+      "text": "他们直接支付的工资低于最低生活费用，不足部分由教区救济补足。",
+      "start_ms": 43920,
+      "end_ms": 48935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s04-n0029",
+      "text": "1795年，斯皮纳姆兰的乡绅们制定工资标准时刚吃过午饭，却显然认为工人不需要同样吃饭。",
+      "start_ms": 545,
+      "end_ms": 6625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s04-n0030",
+      "text": "他们规定，8磅11盎司的一大条面包售价1先令时，一个成年男子每周工资为3先令。",
+      "start_ms": 7005,
+      "end_ms": 13135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s04-n0031",
+      "text": "面包价格上涨到1先令5便士以前，工资随之增加。",
+      "start_ms": 13575,
+      "end_ms": 17005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s04-n0032",
+      "text": "此后面包再涨价，工资反而按比例减少。",
+      "start_ms": 17400,
+      "end_ms": 20205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s04-n0033",
+      "text": "面包涨到2先令时，工人得到的食物会比原先少五分之一。",
+      "start_ms": 20605,
+      "end_ms": 24335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s04-n0034",
+      "text": "1814年，英国上议院调查委员会询问大租地农场主、治安法官、济贫院管理者兼工资制定者贝内特：工人的日劳动价值同教区救济之间，是否保持一定比例？",
+      "start_ms": 25315,
+      "end_ms": 36585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s04-n0035",
+      "text": "他回答：“是的。",
+      "start_ms": 265,
+      "end_ms": 1395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s04-n0036",
+      "text": "每个家庭的周收入会在名义工资之外补足到每人一条8磅11盎司的面包，再加3便士……我们认为这一条面包足够维持每个家庭成员一周生活，3便士用来买衣服。",
+      "start_ms": 1880,
+      "end_ms": 14355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s04-n0037",
+      "text": "如果教区愿意直接提供衣服，就扣掉这3便士。",
+      "start_ms": 14660,
+      "end_ms": 17695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s04-n0038",
+      "text": "这种做法不仅遍及威尔特郡西部，我相信也遍及全国。”",
+      "start_ms": 18115,
+      "end_ms": 21885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s04-n0039",
+      "text": "当时一位资产阶级作者喊道：“租地农场主多年来一直在贬低一群体面的同胞，迫使他们求助济贫院……农场主增加了自己的利润，却不许工人积累最不可缺少的生活基金。”",
+      "start_ms": 22380,
+      "end_ms": 35940,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s04-n0040",
+      "text": "第十五章谈家庭劳动时已经举例说明，今天直接夺走工人必要消费基金的做法，在形成剩余价值和资本积累基金时仍有多大作用。",
+      "start_ms": 35945,
+      "end_ms": 45620,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s04-n0041",
+      "text": "本节后面还会列出更多事实。",
+      "start_ms": 725,
+      "end_ms": 2415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s04-n0042",
+      "text": "在任何工业部门，构成不变资本的劳动资料都必须足以供一定数量的工人使用，这个数量受工厂规模限制。",
+      "start_ms": 2840,
+      "end_ms": 11235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s04-n0043",
+      "text": "但劳动资料不必同劳动量按相同比例增长。",
+      "start_ms": 12045,
+      "end_ms": 15525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s04-n0044",
+      "text": "假定一家工厂有100名工人，每人工作8小时，总劳动量是800小时。",
+      "start_ms": 16030,
+      "end_ms": 21225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s04-n0045",
+      "text": "资本家要把劳动量增加一半，可以再雇50名工人。",
+      "start_ms": 21945,
+      "end_ms": 25695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s04-n0046",
+      "text": "但这样一来，他不仅要追加工资，还要为新增工人追加劳动资料。",
+      "start_ms": 26070,
+      "end_ms": 31185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s04-n0047",
+      "text": "另一种办法是让原来的100名工人每天工作12小时。",
+      "start_ms": 315,
+      "end_ms": 3235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s04-n0048",
+      "text": "现有劳动资料仍然够用，只是磨损得更快。",
+      "start_ms": 3460,
+      "end_ms": 6215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s04-n0049",
+      "text": "因此，通过延长或加强劳动而增加的劳动，可以提高剩余产品和剩余价值，也就是扩大积累的来源，却不必按同一比例增加不变资本。",
+      "start_ms": 6440,
+      "end_ms": 16675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s04-n0050",
+      "text": "在采掘业，例如矿业，原料不是预付资本的一部分。",
+      "start_ms": 17535,
+      "end_ms": 21115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s04-n0051",
+      "text": "这里的劳动对象不是以前劳动的产品，而是自然无偿提供的，例如金属矿石、其他矿物、煤和石料。",
+      "start_ms": 21500,
+      "end_ms": 28675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s04-n0052",
+      "text": "不变资本在这里几乎全是劳动资料，它们通常能承受大幅增加的劳动量，比如让工人日夜轮班使用同一套设备。",
+      "start_ms": 29085,
+      "end_ms": 36615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s04-n0053",
+      "text": "其他条件不变，投入的劳动增加多少，产品的数量和价值也会按同样比例增加。",
+      "start_ms": 85,
+      "end_ms": 5865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s04-n0054",
+      "text": "人与自然本来就是产品的两个创造者，也是资本中各种物质要素的创造者。",
+      "start_ms": 6280,
+      "end_ms": 11505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s04-n0055",
+      "text": "在这里，两者仍像生产开始时那样共同发挥作用。",
+      "start_ms": 11945,
+      "end_ms": 15575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s04-n0056",
+      "text": "由于劳动力可以延长或加强使用，资本即使不先增加不变资本，也能扩大积累的范围。",
+      "start_ms": 16105,
+      "end_ms": 22715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s04-n0057",
+      "text": "在农业中，要扩大耕地，必须先追加种子和肥料。",
+      "start_ms": 23175,
+      "end_ms": 26955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s04-n0058",
+      "text": "但这笔资本一旦投入，单靠增加对土地的耕作，也能显著提高产量。",
+      "start_ms": 27350,
+      "end_ms": 32575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s04-n0059",
+      "text": "同一批工人投入更多劳动，可以提高土地的生产能力，不需要再追加劳动资料。",
+      "start_ms": 105,
+      "end_ms": 5365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s04-n0060",
+      "text": "这里同样是人直接作用于自然，使积累有了更多来源，而无须先增加资本。",
+      "start_ms": 5580,
+      "end_ms": 10965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s04-n0061",
+      "text": "在制造业中，每增加一份劳动，都会相应增加原料消耗，却不一定需要增加劳动资料。",
+      "start_ms": 11380,
+      "end_ms": 16995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s04-n0062",
+      "text": "制造业的原料以及制造劳动资料所需的原料，都来自采掘业和农业。",
+      "start_ms": 17675,
+      "end_ms": 22715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s04-n0063",
+      "text": "因此，采掘业和农业不追加资本便增加的产品，也会使制造业受益。",
+      "start_ms": 23040,
+      "end_ms": 28105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s04-n0064",
+      "text": "总的结果是，资本支配了劳动力和土地这两种财富的原始创造者，也就获得了扩大自身的力量。",
+      "start_ms": 28400,
+      "end_ms": 35155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s04-n0065",
+      "text": "由资本现有的规模看，积累似乎有一道界限。",
+      "start_ms": 155,
+      "end_ms": 2915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s04-n0066",
+      "text": "这道界限取决于资本所包含的现有生产资料有多少、价值多大。",
+      "start_ms": 3200,
+      "end_ms": 7185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s04-n0067",
+      "text": "但资本能够越过这道表面上的界限，扩大可供积累的要素。",
+      "start_ms": 7420,
+      "end_ms": 11205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s04-n0068",
+      "text": "影响资本积累的另一个重要因素，是社会劳动的生产率。",
+      "start_ms": 11480,
+      "end_ms": 14705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s04-n0069",
+      "text": "劳动生产率越高，同一价值量就会体现在越多的产品中，一定量的剩余价值也是如此。",
+      "start_ms": 14960,
+      "end_ms": 19715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s04-n0070",
+      "text": "只要剩余价值率下降得比劳动生产率上升得慢，即使剩余价值率不变或有所下降，剩余产品仍会增加。",
+      "start_ms": 20475,
+      "end_ms": 27095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s04-n0071",
+      "text": "如果剩余产品用于资本家消费和追加资本的比例不变，资本家的消费便可以增加，而不必减少积累基金。",
+      "start_ms": 105,
+      "end_ms": 7225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s04-n0072",
+      "text": "积累基金所占的比例甚至还可以提高，代价是消费基金所占的比例下降。",
+      "start_ms": 7675,
+      "end_ms": 12495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s04-n0073",
+      "text": "与此同时，商品变便宜了，所以资本家即使拿到较小比例的消费基金，也能获得同过去一样多甚至更多的消费品。",
+      "start_ms": 12830,
+      "end_ms": 20325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s04-n0074",
+      "text": "前面已经讲过，劳动生产率提高时，劳动力的价值会下降，剩余价值率会随之上升。",
+      "start_ms": 21005,
+      "end_ms": 26825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s04-n0075",
+      "text": "即使工人的实际工资增加，增加的幅度也从来赶不上劳动生产率。",
+      "start_ms": 27210,
+      "end_ms": 31425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s04-n0076",
+      "text": "同样数额的可变资本因此能购买更多劳动力，推动更多劳动。",
+      "start_ms": 31917,
+      "end_ms": 35952,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s04-n0077",
+      "text": "同样数额的不变资本也能买到更多生产资料，也就是更多劳动资料、原料和辅助材料。",
+      "start_ms": 95,
+      "end_ms": 4875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s04-n0078",
+      "text": "这些生产资料一方面进入更多产品，另一方面能吸收更多活劳动，并把自身价值转入产品。",
+      "start_ms": 5325,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s04-n0079",
+      "text": "因此，即使追加资本的价值不变甚至减少，积累仍会加快。",
+      "start_ms": 11205,
+      "end_ms": 14965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s04-n0080",
+      "text": "扩大再生产不仅在物质规模上扩张，剩余价值的增长还会快于追加资本价值的增长。",
+      "start_ms": 15380,
+      "end_ms": 20425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s04-n0081",
+      "text": "劳动生产率的发展也会影响原有资本，也就是已经在生产过程中运转的资本。",
+      "start_ms": 20860,
+      "end_ms": 24875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s04-n0082",
+      "text": "运转中的不变资本有一部分是机器等劳动资料。",
+      "start_ms": 25635,
+      "end_ms": 28235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s04-n0083",
+      "text": "它们要经过较长时间才会用完，随后才重新生产或用同类新品替换。",
+      "start_ms": 355,
+      "end_ms": 5275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s04-n0084",
+      "text": "不过，每年总有一部分劳动资料达到使用寿命，结束自己的生产职能，因而必须更新。",
+      "start_ms": 5715,
+      "end_ms": 11495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s04-n0085",
+      "text": "如果制造这些劳动资料的部门提高了生产率——科学技术不断进步，生产率也会持续提高——性能更强、按生产能力计算更便宜的机器、工具和设备，就会替代旧设备。",
+      "start_ms": 12425,
+      "end_ms": 23925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s04-n0086",
+      "text": "即使暂且不算现有劳动资料不断发生的局部改进，原有资本仅凭正常更新，也会以生产率更高的形式重新建立起来。",
+      "start_ms": 24735,
+      "end_ms": 33195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s04-n0087",
+      "text": "不变资本的另一部分是原料和辅助材料。",
+      "start_ms": 33704,
+      "end_ms": 36344,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s04-n0088",
+      "text": "它们会在一年之内不断得到补充，其中来自农业的材料通常每年重新生产一次。",
+      "start_ms": 36649,
+      "end_ms": 39624,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s04-n0089",
+      "text": "因此，更好的生产方法几乎会同时影响追加资本和正在运转的资本。",
+      "start_ms": 405,
+      "end_ms": 5365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s04-n0090",
+      "text": "化学上的每一次进步，都会发现更多有用物质，也会为已知物质找到更多用途，从而随着资本增长扩大投资领域。",
+      "start_ms": 5830,
+      "end_ms": 14585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s04-n0091",
+      "text": "化学还教人把生产和消费产生的废料重新送回再生产过程，不必预先投入资本，便能得到新的生产材料。",
+      "start_ms": 14950,
+      "end_ms": 23215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s04-n0092",
+      "text": "把劳动力使用得更紧，可以更多地利用自然财富。",
+      "start_ms": 23580,
+      "end_ms": 27085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s04-n0093",
+      "text": "科学和技术同样能使资本扩大，而且这种力量不取决于正在运转的资本原有多大。",
+      "start_ms": 27480,
+      "end_ms": 33435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s04-n0094",
+      "text": "它也会作用于正在更新的原有资本。",
+      "start_ms": 33877,
+      "end_ms": 36272,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s04-n0095",
+      "text": "资本换成新形态时，可以免费吸收旧形态存续期间社会已经取得的进步。",
+      "start_ms": 135,
+      "end_ms": 5005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s04-n0096",
+      "text": "不过，生产率发展也会使一部分正在运转的资本贬值。",
+      "start_ms": 5535,
+      "end_ms": 9505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s04-n0097",
+      "text": "当竞争使这种贬值集中显现时，主要冲击会落到工人身上，因为资本家会加重对工人的剥削，力图补回自己的损失。",
+      "start_ms": 9800,
+      "end_ms": 18325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s04-n0098",
+      "text": "劳动会把生产中消耗掉的生产资料价值转入产品。",
+      "start_ms": 18780,
+      "end_ms": 22165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s04-n0099",
+      "text": "另一方面，劳动生产率越高，一定量劳动所能推动的生产资料就越多，这些生产资料的数量和价值也就越大。",
+      "start_ms": 22605,
+      "end_ms": 30285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s04-n0100",
+      "text": "因此，同样多的劳动虽然始终只为产品增加同样多的新价值，却会随着生产率提高，把越来越多的原有资本价值转入产品。",
+      "start_ms": 30923,
+      "end_ms": 40118,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s04-n0101",
+      "text": "比如，一名英国纺纱工和一名中国纺纱工每周劳动同样多的小时，强度也相同，两人创造的新价值就一样多。",
+      "start_ms": 305,
+      "end_ms": 8335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s04-n0102",
+      "text": "然而，英国工人使用大型自动机器，中国工人只有一架纺车，所以两人的周产品价值会相差极大。",
+      "start_ms": 8645,
+      "end_ms": 15915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s04-n0103",
+      "text": "中国工人纺一磅棉花的时间，英国工人能纺几百磅。",
+      "start_ms": 16510,
+      "end_ms": 20225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s04-n0104",
+      "text": "英国工人的产品因而包含多出几百倍的原有价值。",
+      "start_ms": 20755,
+      "end_ms": 24105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s04-n0105",
+      "text": "这些价值在棉纱等新产品中保存下来，又能重新作为资本发挥作用。",
+      "start_ms": 24675,
+      "end_ms": 29665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s04-n0106",
+      "text": "恩格斯告诉我们：“1782年，由于缺少工人，英国此前三年的全部羊毛还没有加工。",
+      "start_ms": 30215,
+      "end_ms": 36435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s04-n0107",
+      "text": "要不是新发明的机器前来帮忙，这些羊毛只能继续堆在那里。”",
+      "start_ms": 465,
+      "end_ms": 3695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s04-n0108",
+      "text": "凝结在机器中的劳动当然不能凭空造出工人，却能让少量工人只追加相对较少的活劳动，就把这些羊毛有效地用于生产。",
+      "start_ms": 4190,
+      "end_ms": 12165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s04-n0109",
+      "text": "他们不仅为羊毛增加新价值，也把羊毛的原有价值保存在毛纱等新产品中。",
+      "start_ms": 12775,
+      "end_ms": 18335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s04-n0110",
+      "text": "这样一来，机器还为扩大羊毛生产提供了条件和动力。",
+      "start_ms": 18775,
+      "end_ms": 21975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s04-n0111",
+      "text": "活劳动有一种天然能力：它在创造新价值的同时，还能保存原有价值。",
+      "start_ms": 22725,
+      "end_ms": 28115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s04-n0112",
+      "text": "生产资料的效能、使用范围和价值越大，积累的规模也越大，劳动便会把越来越多的资本价值保存下来，并不断赋予它新的物质形态。",
+      "start_ms": 28480,
+      "end_ms": 38355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s04-n0113",
+      "text": "可是，一旦劳动被纳入资本，这种劳动自身的天然能力就表现为资本保存自己的能力。",
+      "start_ms": 325,
+      "end_ms": 6345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s04-n0114",
+      "text": "同样，劳动的社会生产力表现为资本的属性，资本家不断占有剩余劳动则表现为资本自行增殖。",
+      "start_ms": 6655,
+      "end_ms": 13155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s04-n0115",
+      "text": "劳动的一切力量都表现为资本的力量，正如商品的一切价值形式都表现为货币的形式。",
+      "start_ms": 13805,
+      "end_ms": 19785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s04-n0116",
+      "text": "随着资本增长，投入生产的资本与实际消耗掉的资本之间，差额会越来越大。",
+      "start_ms": 20155,
+      "end_ms": 25575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s04-n0117",
+      "text": "建筑物、机器、排水管、役畜和各种设备，可以在长短不等的一段时期内反复参加生产，以完整的功能发挥作用，但只会逐渐磨损。",
+      "start_ms": 26125,
+      "end_ms": 36605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s04-n0118",
+      "text": "因此，它们的价值也只会逐步减少，并分批转入产品。",
+      "start_ms": 37096,
+      "end_ms": 41311,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s04-n0119",
+      "text": "这些劳动资料在形成产品时已经被全部投入使用，却只有一部分被消耗掉，并没有在这个过程中额外增加价值。",
+      "start_ms": 275,
+      "end_ms": 8895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s04-n0120",
+      "text": "正因为如此，它们会像水、蒸汽、空气和电力等自然力一样，为生产提供免费的服务。",
+      "start_ms": 9300,
+      "end_ms": 16195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s04-n0121",
+      "text": "过去劳动留下的这种免费服务，一旦被活劳动利用起来，就会随着积累规模扩大而不断增加。",
+      "start_ms": 16850,
+      "end_ms": 23685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s04-n0122",
+      "text": "过去的劳动总是以资本的面目出现：A、B、C等工人过去付出的劳动，成了不劳动的X手中的财产。",
+      "start_ms": 24170,
+      "end_ms": 32135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s04-n0123",
+      "text": "因此，资本家和经济学家都极力赞美过去劳动的功劳。",
+      "start_ms": 32798,
+      "end_ms": 36628,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s04-n0124",
+      "text": "按照苏格兰“天才”麦克库洛赫的说法，过去的劳动甚至应该获得一份自己的报酬，也就是利息、利润等。",
+      "start_ms": 37123,
+      "end_ms": 44318,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s04-n0125",
+      "text": "在生产过程中，过去的劳动以生产资料的形式同活劳动一起发挥作用，而且作用越来越大。",
+      "start_ms": 465,
+      "end_ms": 6565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s04-n0126",
+      "text": "这些生产资料本来是工人过去没有得到报酬的劳动成果，如今却脱离工人，成了资本。",
+      "start_ms": 7005,
+      "end_ms": 12865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s04-n0127",
+      "text": "可是，人们把过去劳动越来越重要，归功于它采取了资本这种形式。",
+      "start_ms": 13170,
+      "end_ms": 17305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s04-n0128",
+      "text": "资本主义生产的实际经营者和替它辩护的人，无法把生产资料同它今天带有的阶级对立性质分开来理解，正像奴隶主无法把劳动者同奴隶身份分开来理解。",
+      "start_ms": 18265,
+      "end_ms": 28405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s04-n0129",
+      "text": "在劳动力受剥削程度不变时，剩余价值总量取决于同时受剥削的工人人数。",
+      "start_ms": 29065,
+      "end_ms": 34545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s04-n0130",
+      "text": "这个人数同资本规模相对应，尽管两者的比例会变化。",
+      "start_ms": 34902,
+      "end_ms": 38637,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s04-n0131",
+      "text": "因此，资本经过一轮轮积累而扩大时，可供资本家消费或继续积累的剩余价值总额也会增加。",
+      "start_ms": 385,
+      "end_ms": 7335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch22-s04-n0132",
+      "text": "资本家既能生活得更加阔绰，又能把更多财富留作积累，也就是做出更多所谓的“节欲”。",
+      "start_ms": 7560,
+      "end_ms": 14165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch22-s04-n0133",
+      "text": "随着预付资本增加、生产规模扩大，推动生产的一切力量也会更有力地发挥作用。",
+      "start_ms": 14535,
+      "end_ms": 20305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    }
+  ]
+}

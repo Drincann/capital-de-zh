@@ -1,0 +1,544 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch16-s01-v1-audio-3d46618b7830",
+  "unit_id": "ch16-s01",
+  "translation_version_id": "ch16-s01-v1",
+  "translation_sha256": "4d7fb0ddac5741d3e790af6b1e34b0091496d6693df028076c7f1ae31f84aa02",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:26:26.238Z",
+  "completed_at": "2026-08-04T17:27:05.459Z",
+  "duration_ms": 256228,
+  "sentence_count": 49,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 31875,
+      "bytes": 511917,
+      "sha256": "fdac692641b16eb82ae1a0f6577ac494631cb339814507806cdcd52844b98462",
+      "sentence_ids": [
+        "ch16-s01-n0001",
+        "ch16-s01-n0002",
+        "ch16-s01-n0003",
+        "ch16-s01-n0004",
+        "ch16-s01-n0005",
+        "ch16-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 29805,
+      "bytes": 477741,
+      "sha256": "4df3e17f89bd10d76b7e58f2e1e026f9188a9d7fc7406b709d8c32f7c6bb659a",
+      "sentence_ids": [
+        "ch16-s01-n0007",
+        "ch16-s01-n0008",
+        "ch16-s01-n0009",
+        "ch16-s01-n0010",
+        "ch16-s01-n0011",
+        "ch16-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 27175,
+      "bytes": 438957,
+      "sha256": "93fa5ff58f210aadea42bc221ad9f0e2c456a6d11cbb6db91b97a0adb5fb8260",
+      "sentence_ids": [
+        "ch16-s01-n0013",
+        "ch16-s01-n0014",
+        "ch16-s01-n0015",
+        "ch16-s01-n0016",
+        "ch16-s01-n0017",
+        "ch16-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 40018,
+      "bytes": 643629,
+      "sha256": "8b99c0f2c058514c81b39652832e87594940cac5adc373ac4850c93ac8fe6b19",
+      "sentence_ids": [
+        "ch16-s01-n0019",
+        "ch16-s01-n0020",
+        "ch16-s01-n0021",
+        "ch16-s01-n0022",
+        "ch16-s01-n0023",
+        "ch16-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 33515,
+      "bytes": 538413,
+      "sha256": "8200489b6f7315b219ab09ce9786b9c4243b613c5d1d20d712d4add168ef6c0f",
+      "sentence_ids": [
+        "ch16-s01-n0025",
+        "ch16-s01-n0026",
+        "ch16-s01-n0027",
+        "ch16-s01-n0028",
+        "ch16-s01-n0029",
+        "ch16-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 29825,
+      "bytes": 480045,
+      "sha256": "e63143366260531a7efe4994b7fc5861e296d4e7d3a26c6912b0804e345d121e",
+      "sentence_ids": [
+        "ch16-s01-n0031",
+        "ch16-s01-n0032",
+        "ch16-s01-n0033",
+        "ch16-s01-n0034",
+        "ch16-s01-n0035",
+        "ch16-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 29405,
+      "bytes": 471213,
+      "sha256": "a7733bffdfaf64837b0a8a19cf31827ee0193fcf6196540fc9c4bde43e8a1dc0",
+      "sentence_ids": [
+        "ch16-s01-n0037",
+        "ch16-s01-n0038",
+        "ch16-s01-n0039",
+        "ch16-s01-n0040",
+        "ch16-s01-n0041",
+        "ch16-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 29545,
+      "bytes": 473901,
+      "sha256": "aa5e52be3c6e0251070b8b1a8564ae7e53cb218037ceacb99410d24e4b64b1c1",
+      "sentence_ids": [
+        "ch16-s01-n0043",
+        "ch16-s01-n0044",
+        "ch16-s01-n0045",
+        "ch16-s01-n0046",
+        "ch16-s01-n0047",
+        "ch16-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 5065,
+      "bytes": 83373,
+      "sha256": "16aa67ec30a9251266c676e205ef422b57ea3457e7eab3e413d22fa30d663654",
+      "sentence_ids": [
+        "ch16-s01-n0049"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch16-s01-n0001",
+      "text": "我们已经看到，剩余价值率可以用下面几种相等的比率表示：",
+      "start_ms": 115,
+      "end_ms": 4225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch16-s01-n0002",
+      "text": "前两个比率用价值表示这种关系，第三个比率则用生产这些价值所花的时间来表示。",
+      "start_ms": 4660,
+      "end_ms": 10565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch16-s01-n0003",
+      "text": "三者可以相互替换，而且概念非常严密。",
+      "start_ms": 10935,
+      "end_ms": 13315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch16-s01-n0004",
+      "text": "古典政治经济学实际上也使用过这些关系，却没有把它们明确整理成公式。",
+      "start_ms": 14165,
+      "end_ms": 19415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch16-s01-n0005",
+      "text": "与此不同，我们还会看到下面这组从它们推导出来的公式：",
+      "start_ms": 19850,
+      "end_ms": 23435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch16-s01-n0006",
+      "text": "这三个比率仍然表示同一个比例，只是依次用劳动时间、劳动形成的价值和体现这些价值的产品来表示。",
+      "start_ms": 24075,
+      "end_ms": 31725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch16-s01-n0007",
+      "text": "这里所说的“当天新创造的全部价值”，不包括生产资料转移到产品中的那部分原有价值。",
+      "start_ms": 95,
+      "end_ms": 6565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch16-s01-n0008",
+      "text": "这组公式不能正确表示劳动实际受到的剥削程度，也就是剩余价值率。",
+      "start_ms": 6975,
+      "end_ms": 11835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch16-s01-n0009",
+      "text": "假定工作日为十二小时，其他条件仍与前面的例子相同。",
+      "start_ms": 12695,
+      "end_ms": 16685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch16-s01-n0010",
+      "text": "劳动实际受到的剥削程度应当这样计算：",
+      "start_ms": 17200,
+      "end_ms": 20295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch16-s01-n0011",
+      "text": "按照第二组公式计算，得到的却是：",
+      "start_ms": 20295,
+      "end_ms": 22555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch16-s01-n0012",
+      "text": "第二组公式真正表示的，是工作日或当天新创造的价值怎样在资本家和工人之间分配。",
+      "start_ms": 23005,
+      "end_ms": 29655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch16-s01-n0013",
+      "text": "如果把它们直接当成资本增殖程度的公式，就会得出一条错误的规律：剩余劳动或剩余价值永远不可能达到 100%。",
+      "start_ms": 75,
+      "end_ms": 7535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch16-s01-n0014",
+      "text": "原因很简单。",
+      "start_ms": 8480,
+      "end_ms": 8905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch16-s01-n0015",
+      "text": "剩余劳动只是工作日的一部分，剩余价值也只是当天新创造价值的一部分，所以分子必然小于分母。",
+      "start_ms": 9160,
+      "end_ms": 16125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch16-s01-n0016",
+      "text": "要达到 100分之100，二者就必须相等。",
+      "start_ms": 16590,
+      "end_ms": 18745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch16-s01-n0017",
+      "text": "也就是说，剩余劳动必须占满整个工作日，而必要劳动必须降为零。",
+      "start_ms": 19090,
+      "end_ms": 23595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch16-s01-n0018",
+      "text": "这里说的是一周、一年等较长时期内的平均工作日。",
+      "start_ms": 23890,
+      "end_ms": 27025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch16-s01-n0019",
+      "text": "可是必要劳动一旦消失，剩余劳动也会随之消失，因为剩余劳动只有在必要劳动存在的前提下才存在。",
+      "start_ms": 285,
+      "end_ms": 5775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch16-s01-n0020",
+      "text": "因此，剩余劳动/工作日 或 剩余价值/新创造的全部价值 永远不可能达到 100分之100，更不可能上升到 (100+x)/100。",
+      "start_ms": 6225,
+      "end_ms": 15575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch16-s01-n0021",
+      "text": "剩余价值率，也就是劳动实际受到的剥削程度，却完全可以超过 100%。",
+      "start_ms": 15580,
+      "end_ms": 19535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch16-s01-n0022",
+      "text": "例如，拉韦涅估计，英国农业工人只得到产品或其价值的四分之一，资本家，也就是租地农场主，得到四分之三。",
+      "start_ms": 20440,
+      "end_ms": 27635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch16-s01-n0023",
+      "text": "至于这份所得后来怎样在资本家、土地所有者等人之间再分配，并不影响这里的计算。",
+      "start_ms": 28355,
+      "end_ms": 33785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch16-s01-n0024",
+      "text": "按这个估计，英国农业工人的剩余劳动与必要劳动之比是 3:1，剥削程度就是 300%。",
+      "start_ms": 34133,
+      "end_ms": 39868,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch16-s01-n0025",
+      "text": "第二组公式还强化了一种教科书式的做法：把工作日看成一个固定量。",
+      "start_ms": 255,
+      "end_ms": 4185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch16-s01-n0026",
+      "text": "因为在这些公式中，剩余劳动总是同一个长度已经确定的工作日相比。",
+      "start_ms": 4400,
+      "end_ms": 8565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch16-s01-n0027",
+      "text": "只看当天新创造的价值怎样分配，也会产生同样的效果，因为这笔价值所体现的工作日已经结束，长度当然已经确定。",
+      "start_ms": 8900,
+      "end_ms": 16075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch16-s01-n0028",
+      "text": "把剩余价值和劳动力价值都表示成当天新创造价值的一部分，是资本主义生产方式本身造成的。",
+      "start_ms": 16965,
+      "end_ms": 23145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch16-s01-n0029",
+      "text": "它的意义以后还会说明。",
+      "start_ms": 23390,
+      "end_ms": 24615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch16-s01-n0030",
+      "text": "不过，这种表示方法遮住了资本关系的特殊之处：资本家用可变资本购买活的劳动力，工人却无权占有自己生产的产品。",
+      "start_ms": 24895,
+      "end_ms": 33365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch16-s01-n0031",
+      "text": "于是，这种关系看起来反倒像一种合作关系，好像工人和资本家分别贡献了不同的生产要素，再按各自要素所占的比例分配产品。",
+      "start_ms": 335,
+      "end_ms": 9105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch16-s01-n0032",
+      "text": "第二组公式随时可以还原成第一组公式。",
+      "start_ms": 9445,
+      "end_ms": 11485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch16-s01-n0033",
+      "text": "例如，已知十二小时工作日中有六小时剩余劳动，必要劳动时间就是十二小时减六小时，仍为六小时。",
+      "start_ms": 12315,
+      "end_ms": 18925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch16-s01-n0034",
+      "text": "因此：",
+      "start_ms": 19555,
+      "end_ms": 19615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch16-s01-n0035",
+      "text": "还有第三组公式，我在前文已经偶尔提前用过：",
+      "start_ms": 19875,
+      "end_ms": 22605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch16-s01-n0036",
+      "text": "“未付报酬的劳动与已付报酬的劳动之比”可能让人误以为，资本家付钱购买的是劳动，而不是劳动力。",
+      "start_ms": 22905,
+      "end_ms": 29675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch16-s01-n0037",
+      "text": "经过前面的分析，这种误解已经可以排除。",
+      "start_ms": 695,
+      "end_ms": 3515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch16-s01-n0038",
+      "text": "这个说法只是“剩余劳动与必要劳动之比”的通俗表达。",
+      "start_ms": 3770,
+      "end_ms": 6945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch16-s01-n0039",
+      "text": "资本家支付的是劳动力的价值，或者与这一价值有所偏离的价格，换来的则是对活劳动力本身的支配。",
+      "start_ms": 7505,
+      "end_ms": 14565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch16-s01-n0040",
+      "text": "劳动力的使用分为两个阶段。",
+      "start_ms": 15305,
+      "end_ms": 17095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch16-s01-n0041",
+      "text": "在第一个阶段，工人只生产出等于自己劳动力价值的价值，也就是一个等价物。",
+      "start_ms": 17590,
+      "end_ms": 22895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch16-s01-n0042",
+      "text": "资本家预付了劳动力的价格，得到一个价格相同的产品，就像从市场上买来一件成品。",
+      "start_ms": 23350,
+      "end_ms": 29255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch16-s01-n0043",
+      "text": "在剩余劳动阶段，资本家使用劳动力得到新的价值，却不用为这部分价值付出等价物。",
+      "start_ms": 105,
+      "end_ms": 6065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch16-s01-n0044",
+      "text": "劳动力在这段时间里的发挥，对资本家来说是免费的。",
+      "start_ms": 6645,
+      "end_ms": 9935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch16-s01-n0045",
+      "text": "正是在这个意义上，剩余劳动可以叫作未付报酬的劳动。",
+      "start_ms": 10220,
+      "end_ms": 14085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch16-s01-n0046",
+      "text": "所以，资本不只是亚当·斯密所说的对劳动的支配。",
+      "start_ms": 14520,
+      "end_ms": 17885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch16-s01-n0047",
+      "text": "它在本质上是对未付报酬劳动的支配。",
+      "start_ms": 18200,
+      "end_ms": 20965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch16-s01-n0048",
+      "text": "剩余价值以后无论采取利润、利息、地租等哪种具体形式，归根到底都是未付报酬劳动时间的产物。",
+      "start_ms": 21445,
+      "end_ms": 29395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch16-s01-n0049",
+      "text": "资本能够自行增殖的秘密，就在于它能支配一定数量的他人无偿劳动。",
+      "start_ms": 155,
+      "end_ms": 4915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    }
+  ]
+}

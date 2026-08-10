@@ -622,6 +622,8 @@ html::-webkit-scrollbar {
 .prose [data-narration-companion].narration-current {
   background: transparent;
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 78%, var(--ink));
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .narration-player {
@@ -638,6 +640,13 @@ html::-webkit-scrollbar {
   background: color-mix(in srgb, var(--panel) 94%, transparent);
   box-shadow: 0 12px 38px rgba(31, 24, 18, 0.18);
   backdrop-filter: blur(18px);
+  transition: opacity 160ms ease, transform 190ms ease;
+  will-change: transform;
+}
+
+.narration-tuck,
+.narration-dock-tab {
+  display: none;
 }
 
 .catalog-collapsed .narration-player {
@@ -913,6 +922,78 @@ html::-webkit-scrollbar {
   .reading-pane:has(.narration-player) {
     padding-bottom: 176px;
   }
+
+  .narration-player.mobile-auto-hidden,
+  .narration-player.mobile-tucked {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(calc(100% + 32px + env(safe-area-inset-bottom)));
+  }
+
+  .reading-pane:has(.narration-player.mobile-tucked) {
+    padding-bottom: 80px;
+  }
+
+  .narration-player > .narration-tuck {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    display: grid;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    place-items: center;
+    border: 0;
+    border-radius: 50%;
+    color: var(--muted);
+    background: color-mix(in srgb, var(--paper-deep) 82%, transparent);
+    cursor: pointer;
+  }
+
+  .narration-player > .narration-tuck span {
+    width: 8px;
+    height: 8px;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: rotate(-45deg) translate(-1px, -1px);
+  }
+
+  .narration-player > .narration-tuck:hover {
+    color: var(--ink);
+    background: var(--paper-deep);
+  }
+
+  .narration-player > .narration-tuck:focus-visible,
+  .narration-dock-tab:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--accent) 66%, transparent);
+    outline-offset: 2px;
+  }
+
+  .narration-player .narration-progress-row {
+    padding-right: 24px;
+  }
+
+  .narration-dock-tab {
+    position: fixed;
+    right: 0;
+    bottom: max(25vh, calc(92px + env(safe-area-inset-bottom)));
+    z-index: 62;
+    display: grid;
+    width: 34px;
+    min-height: 54px;
+    padding: 8px 5px 8px 8px;
+    place-items: center;
+    border: 1px solid color-mix(in srgb, var(--line) 86%, transparent);
+    border-right: 0;
+    border-radius: 12px 0 0 12px;
+    color: var(--ink);
+    background: color-mix(in srgb, var(--panel) 96%, transparent);
+    box-shadow: -6px 8px 22px rgba(31, 24, 18, 0.16);
+    cursor: pointer;
+    font: 0.76rem/1 ui-sans-serif, system-ui, sans-serif;
+    letter-spacing: 0.08em;
+    backdrop-filter: blur(14px);
+  }
 }
 
 @media (max-width: 580px) {
@@ -962,6 +1043,12 @@ html::-webkit-scrollbar {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .narration-player {
+    transition: none;
   }
 }
 

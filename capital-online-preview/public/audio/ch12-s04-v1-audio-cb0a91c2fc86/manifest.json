@@ -1,0 +1,1201 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch12-s04-v1-audio-cb0a91c2fc86",
+  "unit_id": "ch12-s04",
+  "translation_version_id": "ch12-s04-v1",
+  "translation_sha256": "44777f7cebb6176d68aacdf886d95a543f4a78e7aeacf1ba012772606c32cf49",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T16:22:31.655Z",
+  "completed_at": "2026-08-04T16:24:16.588Z",
+  "duration_ms": 712722,
+  "sentence_count": 112,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 31685,
+      "bytes": 509997,
+      "sha256": "dc5b0cd797c0122eb1d0ac698922cf5f3363cd08436fb906781168f8bf9617ee",
+      "sentence_ids": [
+        "ch12-s04-n0001",
+        "ch12-s04-n0002",
+        "ch12-s04-n0003",
+        "ch12-s04-n0004",
+        "ch12-s04-n0005",
+        "ch12-s04-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 31985,
+      "bytes": 512301,
+      "sha256": "87717b7d558677a5725a6a4cc0ebda739925fee6acee27959840e453d7b1e698",
+      "sentence_ids": [
+        "ch12-s04-n0007",
+        "ch12-s04-n0008",
+        "ch12-s04-n0009",
+        "ch12-s04-n0010",
+        "ch12-s04-n0011",
+        "ch12-s04-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 42941,
+      "bytes": 695085,
+      "sha256": "81c7947edaac98a137d9518d4b2d96897a4052fc7aa466534791826cf56b7665",
+      "sentence_ids": [
+        "ch12-s04-n0013",
+        "ch12-s04-n0014",
+        "ch12-s04-n0015",
+        "ch12-s04-n0016",
+        "ch12-s04-n0017",
+        "ch12-s04-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 36574,
+      "bytes": 586413,
+      "sha256": "7ea3e496e59c98b67c563deaec4b0bf6ee5290c58c1a151b205b289704e70647",
+      "sentence_ids": [
+        "ch12-s04-n0019",
+        "ch12-s04-n0020",
+        "ch12-s04-n0021",
+        "ch12-s04-n0022",
+        "ch12-s04-n0023",
+        "ch12-s04-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 29565,
+      "bytes": 473901,
+      "sha256": "7547f1a5aeaca37ff1bf82a975811e14a16fbda2497423d8e3fbe6dc7ce02c19",
+      "sentence_ids": [
+        "ch12-s04-n0025",
+        "ch12-s04-n0026",
+        "ch12-s04-n0027",
+        "ch12-s04-n0028",
+        "ch12-s04-n0029",
+        "ch12-s04-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 40270,
+      "bytes": 643629,
+      "sha256": "f662410f00d2ce06e287de57c5936c01549fa7002727ef96f064454591de50df",
+      "sentence_ids": [
+        "ch12-s04-n0031",
+        "ch12-s04-n0032",
+        "ch12-s04-n0033",
+        "ch12-s04-n0034",
+        "ch12-s04-n0035",
+        "ch12-s04-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 47323,
+      "bytes": 761901,
+      "sha256": "f07a88b4670f6b197a183d6a2c7df55d723794ea4d8ebfae138969d4a42a3f6d",
+      "sentence_ids": [
+        "ch12-s04-n0037",
+        "ch12-s04-n0038",
+        "ch12-s04-n0039",
+        "ch12-s04-n0040",
+        "ch12-s04-n0041",
+        "ch12-s04-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 36276,
+      "bytes": 582573,
+      "sha256": "cf7b7fee2d9e3d8b0ea531ef3f28cded4f871c78e0965567109d432cc1f131e9",
+      "sentence_ids": [
+        "ch12-s04-n0043",
+        "ch12-s04-n0044",
+        "ch12-s04-n0045",
+        "ch12-s04-n0046",
+        "ch12-s04-n0047",
+        "ch12-s04-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 36820,
+      "bytes": 592557,
+      "sha256": "189d2475d4ce71f0bf75888e6b5ecdc9105f20a0050e2a2ff02061a764faddfe",
+      "sentence_ids": [
+        "ch12-s04-n0049",
+        "ch12-s04-n0050",
+        "ch12-s04-n0051",
+        "ch12-s04-n0052",
+        "ch12-s04-n0053",
+        "ch12-s04-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 36475,
+      "bytes": 585645,
+      "sha256": "2764dba1daf2e7fe97019c63ce9f69075d357cd0433d14191584313152611780",
+      "sentence_ids": [
+        "ch12-s04-n0055",
+        "ch12-s04-n0056",
+        "ch12-s04-n0057",
+        "ch12-s04-n0058",
+        "ch12-s04-n0059",
+        "ch12-s04-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 35345,
+      "bytes": 564141,
+      "sha256": "913be46dd016283e1e6c15115bc2aef7b20cdaec8636bb7938f3fe9edf128849",
+      "sentence_ids": [
+        "ch12-s04-n0061",
+        "ch12-s04-n0062",
+        "ch12-s04-n0063",
+        "ch12-s04-n0064",
+        "ch12-s04-n0065",
+        "ch12-s04-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 59277,
+      "bytes": 948525,
+      "sha256": "98074cb005335b7c6ea9bce3e7cea8ee8b6002921530546f90dd7f055f26811a",
+      "sentence_ids": [
+        "ch12-s04-n0067",
+        "ch12-s04-n0068",
+        "ch12-s04-n0069",
+        "ch12-s04-n0070",
+        "ch12-s04-n0071"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 28485,
+      "bytes": 454701,
+      "sha256": "9d464945a1e09f7db9545f269b0474a7e3ed8eb0f0ba3bf146a296f8e73d15da",
+      "sentence_ids": [
+        "ch12-s04-n0072",
+        "ch12-s04-n0073",
+        "ch12-s04-n0074",
+        "ch12-s04-n0075",
+        "ch12-s04-n0076",
+        "ch12-s04-n0077"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 35105,
+      "bytes": 563757,
+      "sha256": "9e634084491ce610c420f3921b6b98070ad9fba193ff1d3eb0758aa1fcf46b7c",
+      "sentence_ids": [
+        "ch12-s04-n0078",
+        "ch12-s04-n0079",
+        "ch12-s04-n0080",
+        "ch12-s04-n0081",
+        "ch12-s04-n0082",
+        "ch12-s04-n0083"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 55719,
+      "bytes": 896301,
+      "sha256": "3229012e86ffc8a583b0ebd288eb3a488d3444e265c0fe4b2699d90a7ef7f739",
+      "sentence_ids": [
+        "ch12-s04-n0084",
+        "ch12-s04-n0085",
+        "ch12-s04-n0086",
+        "ch12-s04-n0087",
+        "ch12-s04-n0088"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 26725,
+      "bytes": 432429,
+      "sha256": "59410fea5e8c7418768411ffb912e3356f4cb67c37b471d7b539f29b79f5b176",
+      "sentence_ids": [
+        "ch12-s04-n0089",
+        "ch12-s04-n0090",
+        "ch12-s04-n0091",
+        "ch12-s04-n0092",
+        "ch12-s04-n0093",
+        "ch12-s04-n0094"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 30225,
+      "bytes": 486573,
+      "sha256": "4e50aff7efaa7289a93bf9987dda58fdd499bd855747f1f2da3143354a639add",
+      "sentence_ids": [
+        "ch12-s04-n0095",
+        "ch12-s04-n0096",
+        "ch12-s04-n0097",
+        "ch12-s04-n0098",
+        "ch12-s04-n0099",
+        "ch12-s04-n0100"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 36995,
+      "bytes": 593325,
+      "sha256": "a3187940821ebef92eefc833a7058cce9f4b741e8cb9d780d92b10165a015d86",
+      "sentence_ids": [
+        "ch12-s04-n0101",
+        "ch12-s04-n0102",
+        "ch12-s04-n0103",
+        "ch12-s04-n0104",
+        "ch12-s04-n0105",
+        "ch12-s04-n0106"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 34932,
+      "bytes": 557997,
+      "sha256": "69f0e7d6b1f7e900fe6cd41d0a0c45efff35fa081bd4a029856a4108086fb3e3",
+      "sentence_ids": [
+        "ch12-s04-n0107",
+        "ch12-s04-n0108",
+        "ch12-s04-n0109",
+        "ch12-s04-n0110",
+        "ch12-s04-n0111",
+        "ch12-s04-n0112"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch12-s04-n0001",
+      "text": "前面先考察了工场手工业的起源，接着分析了它的基本要素，也就是局部工人及其工具，最后又说明了它的整体机制。",
+      "start_ms": 95,
+      "end_ms": 8245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s04-n0002",
+      "text": "现在，我们简要考察工场手工业内部的分工同社会分工之间的关系。",
+      "start_ms": 8745,
+      "end_ms": 13155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s04-n0003",
+      "text": "社会分工是一切商品生产的共同基础。",
+      "start_ms": 13905,
+      "end_ms": 16525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s04-n0004",
+      "text": "如果只看劳动本身，可以把社会生产分成农业、工业等大类，称为一般分工。",
+      "start_ms": 16950,
+      "end_ms": 22575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s04-n0005",
+      "text": "每个生产大类再分成不同种类和分支，可以称为特殊分工。",
+      "start_ms": 23035,
+      "end_ms": 27385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s04-n0006",
+      "text": "一个工场内部的劳动划分，则可以称为个别分工。",
+      "start_ms": 27990,
+      "end_ms": 31535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s04-n0007",
+      "text": "社会分工把不同人限制在不同职业范围内。",
+      "start_ms": 625,
+      "end_ms": 3465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s04-n0008",
+      "text": "它同工场手工业内部的分工一样，可以从两条相反的道路发展出来。",
+      "start_ms": 3960,
+      "end_ms": 8525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s04-n0009",
+      "text": "第一条道路始于一个共同体内部。",
+      "start_ms": 8915,
+      "end_ms": 10795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s04-n0010",
+      "text": "在家庭，后来在部落中，最初的分工由性别和年龄差异自然形成，纯粹以人的生理差别为基础。",
+      "start_ms": 11495,
+      "end_ms": 19415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s04-n0011",
+      "text": "随着共同体扩大、人口增加，尤其是不同部落发生冲突、一个部落征服另一个部落，这种分工能够处理的事务越来越多。",
+      "start_ms": 19910,
+      "end_ms": 28755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s04-n0012",
+      "text": "第二条道路则始于不同共同体之间。",
+      "start_ms": 29205,
+      "end_ms": 31835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s04-n0013",
+      "text": "前面已经说过，产品交换最早发生在不同家庭、部落或共同体接触的地方，因为在人类文明早期，彼此独立面对的不是个人，而是家庭、部落等共同体。",
+      "start_ms": 95,
+      "end_ms": 11635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s04-n0014",
+      "text": "不同共同体从自然环境中得到的生产资料和生活资料不同，所以它们的生产方式、生活方式和产品也不同。",
+      "start_ms": 12185,
+      "end_ms": 19945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s04-n0015",
+      "text": "共同体接触以后，这些自然形成的差别引起产品交换，产品也逐渐变成商品。",
+      "start_ms": 20455,
+      "end_ms": 26495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s04-n0016",
+      "text": "交换并没有创造各生产领域之间的差别。",
+      "start_ms": 27050,
+      "end_ms": 29715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s04-n0017",
+      "text": "它只是把原本不同的生产领域联系起来，使它们逐渐成为社会总生产中彼此依赖的部门。",
+      "start_ms": 30115,
+      "end_ms": 36535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s04-n0018",
+      "text": "由此可见，第二条道路通过交换，把原本不同而独立的生产领域变得互相依赖。",
+      "start_ms": 36936,
+      "end_ms": 42791,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s04-n0019",
+      "text": "第一条道路恰好相反：原本属于同一个整体的不同职能逐渐分离，外部共同体的商品交换给这种分解以主要推动，最后各项劳动各自独立，彼此的联系只能通过商品交换来维持。",
+      "start_ms": 295,
+      "end_ms": 12655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s04-n0020",
+      "text": "简要地说，一条道路让原本独立的生产领域失去独立，另一条道路让原本从属的职能取得独立。",
+      "start_ms": 13040,
+      "end_ms": 19545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s04-n0021",
+      "text": "凡是已经发展起来、并通过商品交换联系的分工，都以城乡分离为基础。",
+      "start_ms": 19920,
+      "end_ms": 25055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s04-n0022",
+      "text": "甚至可以说，社会的整个经济史都体现在城乡对立的发展中。",
+      "start_ms": 25560,
+      "end_ms": 29505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s04-n0023",
+      "text": "不过，这里不再深入讨论这个问题。",
+      "start_ms": 29835,
+      "end_ms": 31935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s04-n0024",
+      "text": "工场内部要形成分工，物质前提是同时雇用一定数量的工人。",
+      "start_ms": 32219,
+      "end_ms": 36424,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s04-n0025",
+      "text": "社会内部要形成分工，也需要相应的物质条件，也就是人口达到一定规模和密度。",
+      "start_ms": 505,
+      "end_ms": 6255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s04-n0026",
+      "text": "这里的人口密度，取代了工人集中在同一工场中的作用。",
+      "start_ms": 6695,
+      "end_ms": 10325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s04-n0027",
+      "text": "不过，这种密度是相对的。",
+      "start_ms": 10875,
+      "end_ms": 12605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s04-n0028",
+      "text": "一个人口较少但交通发达的国家，人口的实际联系可能比一个人口更多但交通落后的国家更紧密。",
+      "start_ms": 13000,
+      "end_ms": 20465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s04-n0029",
+      "text": "从这个意义上说，美国北部各州的人口密度就高于印度。",
+      "start_ms": 20885,
+      "end_ms": 24575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s04-n0030",
+      "text": "商品生产和商品流通是资本主义生产方式的共同前提。",
+      "start_ms": 25255,
+      "end_ms": 29415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s04-n0031",
+      "text": "因此，工场手工业的分工要求社会分工已经发展到一定程度。",
+      "start_ms": 335,
+      "end_ms": 4305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s04-n0032",
+      "text": "反过来，工场内部的分工又会推动社会分工继续发展，产生更多分支。",
+      "start_ms": 4620,
+      "end_ms": 9195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s04-n0033",
+      "text": "劳动工具不断分化，制造这些不同工具的行业也会随之分化。",
+      "start_ms": 10045,
+      "end_ms": 14095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s04-n0034",
+      "text": "如果工场手工业进入一种原来同其他工作结合在一起、由同一生产者兼做的行业，无论它原来是主业还是副业，这些工作都会立即分开，各自成为独立行业。",
+      "start_ms": 14440,
+      "end_ms": 25525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s04-n0035",
+      "text": "如果它进入商品生产的某个阶段，商品的不同生产阶段也会变成不同的独立行业。",
+      "start_ms": 26040,
+      "end_ms": 31535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s04-n0036",
+      "text": "前面已经提到，如果一种产品只是由不同零件机械组合而成，生产各个零件的局部劳动还可以重新发展为独立手艺。",
+      "start_ms": 32015,
+      "end_ms": 40120,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s04-n0037",
+      "text": "为了把工场内部的分工做得更细，同一生产部门还会按照原料的差别，或同一种原料可以制成的不同产品，分裂成若干工场，其中有些是全新的。",
+      "start_ms": 145,
+      "end_ms": 10235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s04-n0038",
+      "text": "仅在 18 世纪上半叶，法国就已经织造一百多种不同丝织品。",
+      "start_ms": 11185,
+      "end_ms": 15485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s04-n0039",
+      "text": "在阿维尼翁，法律甚至规定：“每名学徒始终只能学习一种生产方法，不得同时学习制造多种织物。”",
+      "start_ms": 15850,
+      "end_ms": 23035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s04-n0040",
+      "text": "工场手工业还会利用各地的特殊条件，推动地域分工，把某些生产部门固定在一国的特定地区。",
+      "start_ms": 23550,
+      "end_ms": 30425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s04-n0041",
+      "text": "世界市场的扩大和殖民制度，也给工场手工业时期的社会分工提供了大量材料，而且本来就是这一时期存在的一般条件。",
+      "start_ms": 30978,
+      "end_ms": 39253,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s04-n0042",
+      "text": "这里不再详细说明分工怎样从经济领域扩展到社会其他领域，到处造成专家制度、专业划分和人的碎片化。",
+      "start_ms": 39518,
+      "end_ms": 47173,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s04-n0043",
+      "text": "亚当·斯密的老师亚当·弗格森看到这种后果，已经感叹：“我们正在把整个民族变成黑劳士，而我们当中没有自由人。”",
+      "start_ms": 375,
+      "end_ms": 7515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s04-n0044",
+      "text": "社会内部的分工和工场内部的分工有许多相似之处，彼此也有联系，但二者的区别不只是程度不同，而是性质不同。",
+      "start_ms": 8020,
+      "end_ms": 15355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s04-n0045",
+      "text": "它们最相似的情形，是几个行业本来就有内在联系。",
+      "start_ms": 16115,
+      "end_ms": 19765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s04-n0046",
+      "text": "例如，牧畜者生产兽皮，制革者把兽皮制成皮革，鞋匠再把皮革制成靴子。",
+      "start_ms": 20130,
+      "end_ms": 26135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s04-n0047",
+      "text": "每个人生产的都是一个中间阶段，最后的成品由他们各自的劳动共同形成。",
+      "start_ms": 26510,
+      "end_ms": 31495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s04-n0048",
+      "text": "此外，还有许多行业为牧畜者、制革者和鞋匠提供生产资料。",
+      "start_ms": 31961,
+      "end_ms": 36126,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s04-n0049",
+      "text": "人们可能会像亚当·斯密一样，以为社会分工和工场分工的差别只在观察者的视角：在工场里，各项局部劳动集中在同一地点，可以一眼看见；在社会中，它们分散在广大地域，每个行业又有大量从业者，所以彼此的联系不容易看出来。",
+      "start_ms": 365,
+      "end_ms": 16295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s04-n0050",
+      "text": "但真正的问题是，牧畜者、制革者和鞋匠这些彼此独立的劳动，靠什么联系起来？",
+      "start_ms": 16650,
+      "end_ms": 22245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s04-n0051",
+      "text": "靠的是他们各自的产品都作为商品存在。",
+      "start_ms": 22835,
+      "end_ms": 25615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s04-n0052",
+      "text": "工场内部却不同，局部工人自己并不生产商品。",
+      "start_ms": 26150,
+      "end_ms": 29505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s04-n0053",
+      "text": "只有所有局部工人的共同产品，才成为商品。",
+      "start_ms": 29925,
+      "end_ms": 33085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s04-n0054",
+      "text": "社会分工通过不同行业产品的买卖建立联系。",
+      "start_ms": 33535,
+      "end_ms": 36670,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s04-n0055",
+      "text": "工场内部的局部劳动，则通过不同工人把劳动力卖给同一个资本家而结合起来，由资本家把这些劳动力当作一支共同力量使用。",
+      "start_ms": 95,
+      "end_ms": 8445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s04-n0056",
+      "text": "工场分工要求生产资料集中在一个资本家手中，社会分工却要求生产资料分散在许多彼此独立的商品生产者手中。",
+      "start_ms": 8740,
+      "end_ms": 16035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s04-n0057",
+      "text": "工场内部有固定的数量比例，各道工序必须安排规定人数。",
+      "start_ms": 16875,
+      "end_ms": 21045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s04-n0058",
+      "text": "社会中各类商品生产者和生产资料怎样分布到不同行业，却充满偶然和任意。",
+      "start_ms": 21450,
+      "end_ms": 26775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s04-n0059",
+      "text": "当然，各个生产领域一直有恢复平衡的趋势。",
+      "start_ms": 27285,
+      "end_ms": 30405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s04-n0060",
+      "text": "一方面，每个商品生产者都必须生产某种使用价值，满足一种特定的社会需要。",
+      "start_ms": 30990,
+      "end_ms": 36325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s04-n0061",
+      "text": "各种需要的数量并不相同，但彼此联系，组成一个自然形成的需要体系。",
+      "start_ms": 85,
+      "end_ms": 5245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s04-n0062",
+      "text": "另一方面，价值规律限制了社会能够把多少总劳动时间用于生产每一种商品。",
+      "start_ms": 5665,
+      "end_ms": 10755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s04-n0063",
+      "text": "可是，这种恢复平衡的趋势，只会在平衡不断被破坏之后，以反作用的方式表现出来。",
+      "start_ms": 11515,
+      "end_ms": 18155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s04-n0064",
+      "text": "工场内部的比例规则事先按计划执行。",
+      "start_ms": 18480,
+      "end_ms": 21255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s04-n0065",
+      "text": "在整个社会中，同一规则却只能事后发挥作用。",
+      "start_ms": 21580,
+      "end_ms": 24895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s04-n0066",
+      "text": "它是一种内在而无声的强制力量，只能通过市场价格像气压计一样的涨落被人察觉，并最终压过各商品生产者杂乱无序的任意行动。",
+      "start_ms": 25285,
+      "end_ms": 35195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s04-n0067",
+      "text": "工场分工以资本家对工人的绝对权威为前提，工人只是资本家所拥有的整体机制中的零件。",
+      "start_ms": 285,
+      "end_ms": 7255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s04-n0068",
+      "text": "社会分工却让彼此独立的商品生产者相互面对。",
+      "start_ms": 7660,
+      "end_ms": 10595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s04-n0069",
+      "text": "他们不承认竞争以外的权威，只服从各自利益相互施压造成的强制，正像动物界中“一切人反对一切人的战争”，多少维持着各个物种的生存条件。",
+      "start_ms": 11535,
+      "end_ms": 22965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s04-n0070",
+      "text": "同一种资产阶级意识，一方面赞美工场分工，赞美工人终身依附于一道局部工序，赞美局部工人无条件服从资本，称这些安排能够提高劳动生产力；另一方面，只要有人主张有意识地控制和调节整个社会的生产过程，它又立即谴责这种主张，说它侵犯了个人资本家不可侵犯的财产权、自由和“自主天才”。",
+      "start_ms": 23545,
+      "end_ms": 49297,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s04-n0071",
+      "text": "工厂制度的热情辩护者反对任何社会劳动的总体组织时，最严重的指责竟然只是：这样会把整个社会变成一座工厂。",
+      "start_ms": 49357,
+      "end_ms": 59127,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s04-n0072",
+      "text": "在资本主义生产方式下，社会分工的无政府状态和工场分工的专制统治互为条件。",
+      "start_ms": 365,
+      "end_ms": 6325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s04-n0073",
+      "text": "更早的社会却不同。",
+      "start_ms": 6640,
+      "end_ms": 7875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s04-n0074",
+      "text": "在那些社会中，不同行业先自然分化，后来固定下来，最终又得到法律确认。",
+      "start_ms": 8255,
+      "end_ms": 12675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s04-n0075",
+      "text": "因此，一方面，整个社会的劳动按照计划和权威组织起来。",
+      "start_ms": 13495,
+      "end_ms": 18025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s04-n0076",
+      "text": "另一方面，工场内部的分工却完全不存在，或只在极小规模上、偶然和零星地出现。",
+      "start_ms": 18340,
+      "end_ms": 24505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s04-n0077",
+      "text": "印度一些古老的小型村社，至今还有一部分存在。",
+      "start_ms": 24985,
+      "end_ms": 28335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s04-n0078",
+      "text": "它们以土地公有、农业与手工业直接结合，以及固定分工为基础。",
+      "start_ms": 275,
+      "end_ms": 5245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s04-n0079",
+      "text": "建立新村社时，这套分工就是现成的规划和蓝图。",
+      "start_ms": 5720,
+      "end_ms": 9325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s04-n0080",
+      "text": "每个村社都是自给自足的生产整体，占地从一百英亩到几千英亩不等。",
+      "start_ms": 9705,
+      "end_ms": 14755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s04-n0081",
+      "text": "绝大部分产品直接供村社成员自己使用，不作为商品。",
+      "start_ms": 15260,
+      "end_ms": 18745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s04-n0082",
+      "text": "因此，村社内部的生产基本不依赖印度全社会那种由商品交换联系起来的分工。",
+      "start_ms": 19100,
+      "end_ms": 24575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s04-n0083",
+      "text": "只有剩余产品才会成为商品，其中一部分甚至要等到交给国家以后才进入交换，因为国家自远古以来一直以实物地租的形式取得固定份额。",
+      "start_ms": 25125,
+      "end_ms": 34955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s04-n0084",
+      "text": "印度各地的村社形式并不完全相同。",
+      "start_ms": 485,
+      "end_ms": 2665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s04-n0085",
+      "text": "最简单的一种，是村社成员共同耕种土地，再把产品分给各家。",
+      "start_ms": 3060,
+      "end_ms": 7675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s04-n0086",
+      "text": "每个家庭还在家里纺纱、织布，作为农业之外的副业。",
+      "start_ms": 8045,
+      "end_ms": 11215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s04-n0087",
+      "text": "除了这群从事相同劳动的人，村里还有一套固定职务：一名“首要居民”兼任法官、警察和税收人员；一名会计负责农业账目，登记土地和相关事项；另一名官员负责追捕罪犯、保护外来旅行者，并护送他们从一个村到另一个村；守界人看守村社同邻村的边界；管水人把公共蓄水设施里的水分配给各块农田；婆罗门主持宗教仪式；教师在沙地上教村里的孩子读写；懂历法的婆罗门以占星家的身份，确定播种和收获时间，也判断每项农活的吉时和凶时；铁匠和木匠制造、修理全部农具；",
+      "start_ms": 11905,
+      "end_ms": 49018,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s04-n0088",
+      "text": "陶工制作全村所需的器皿；此外还有理发师、洗衣工、银匠，有些地方还有诗人。",
+      "start_ms": 49524,
+      "end_ms": 55569,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s04-n0089",
+      "text": "诗人在某些村社代替银匠，在另一些村社代替教师。",
+      "start_ms": 245,
+      "end_ms": 3865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s04-n0090",
+      "text": "这十来个人都由整个村社供养。",
+      "start_ms": 4120,
+      "end_ms": 5955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s04-n0091",
+      "text": "人口增加后，人们就在未开垦土地上照旧村的样子建立一个新村。",
+      "start_ms": 6260,
+      "end_ms": 10415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s04-n0092",
+      "text": "村社内部显然存在有计划的分工，但这种分工无法发展成工场手工业式的分工，因为铁匠、木匠等人的市场不会扩大。",
+      "start_ms": 10720,
+      "end_ms": 18755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s04-n0093",
+      "text": "村庄规模不同，最多只是把一名铁匠或陶工增加到两三名。",
+      "start_ms": 19200,
+      "end_ms": 23065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s04-n0094",
+      "text": "调节村社分工的规则像自然规律一样不可违背。",
+      "start_ms": 23505,
+      "end_ms": 26575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s04-n0095",
+      "text": "可每个铁匠等手工业者，在自己的作坊里仍按传统方式独立完成本行业的全部操作，不服从任何人的指挥。",
+      "start_ms": 425,
+      "end_ms": 7885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s04-n0096",
+      "text": "这些自给自足的村社组织简单，总是以同一种形式延续。",
+      "start_ms": 8385,
+      "end_ms": 11925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s04-n0097",
+      "text": "即使偶然被毁，也会在原地以原来的名称重新建立。",
+      "start_ms": 12755,
+      "end_ms": 16455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s04-n0098",
+      "text": "这就是亚洲社会长期不变的秘密。",
+      "start_ms": 16890,
+      "end_ms": 19265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s04-n0099",
+      "text": "亚洲各国不断瓦解又重新建立，王朝不停更替，与这种稳定形成鲜明对照。",
+      "start_ms": 19835,
+      "end_ms": 25225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s04-n0100",
+      "text": "政治上层风云变幻，社会经济的基本结构却不受影响。",
+      "start_ms": 25935,
+      "end_ms": 30075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s04-n0101",
+      "text": "前面已经提到，行会制度严格限制每名师傅可以雇用的帮工人数，有意识地防止师傅变成资本家。",
+      "start_ms": 405,
+      "end_ms": 7415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s04-n0102",
+      "text": "师傅也只能在自己取得师傅资格的那门手艺中雇用帮工。",
+      "start_ms": 7810,
+      "end_ms": 11995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s04-n0103",
+      "text": "面对当时唯一能够自由活动的资本形式，也就是商业资本，行会严防它侵入手工业。",
+      "start_ms": 12505,
+      "end_ms": 18495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s04-n0104",
+      "text": "商人可以买卖任何商品，却不能把劳动当作商品购买。",
+      "start_ms": 18950,
+      "end_ms": 22305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s04-n0105",
+      "text": "人们只允许他收购和经销手工业产品。",
+      "start_ms": 23135,
+      "end_ms": 26055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s04-n0106",
+      "text": "如果外部条件推动分工继续发展，原有行会就分裂成更细的行会，或在旧行会旁出现新行会，但不同手艺仍不会集中到同一作坊。",
+      "start_ms": 26635,
+      "end_ms": 36845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s04-n0107",
+      "text": "行会把各门手艺区分开来，使它们彼此隔离并各自发展。",
+      "start_ms": 185,
+      "end_ms": 3925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s04-n0108",
+      "text": "这些条件固然也是工场手工业时期出现的物质前提，但行会制度本身却排除了工场内部的分工。",
+      "start_ms": 4300,
+      "end_ms": 10555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s04-n0109",
+      "text": "总的来说，工人仍同自己的生产资料结合在一起，就像蜗牛同蜗牛壳连在一起。",
+      "start_ms": 11285,
+      "end_ms": 16555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s04-n0110",
+      "text": "工场手工业的第一个基础还不存在，也就是生产资料还没有脱离工人，作为资本同工人相对立。",
+      "start_ms": 16985,
+      "end_ms": 23085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s04-n0111",
+      "text": "社会范围内的分工，无论是否通过商品交换建立联系，都存在于各种不同的经济社会形态中。",
+      "start_ms": 23385,
+      "end_ms": 29905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s04-n0112",
+      "text": "工场手工业内部的分工却不同，它是资本主义生产方式特有的产物。",
+      "start_ms": 30302,
+      "end_ms": 34782,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    }
+  ]
+}

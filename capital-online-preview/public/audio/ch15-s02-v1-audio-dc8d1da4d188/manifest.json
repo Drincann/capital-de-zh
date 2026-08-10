@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch15-s02-v1-audio-dc8d1da4d188",
+  "unit_id": "ch15-s02",
+  "translation_version_id": "ch15-s02-v1",
+  "translation_sha256": "bd2ba2b55ad6b58f3e8fcf34daedd1502aa5edf2c00d28f1b05a7f860a3ecdb0",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:25:09.456Z",
+  "completed_at": "2026-08-04T17:25:30.870Z",
+  "duration_ms": 148182,
+  "sentence_count": 23,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 35305,
+      "bytes": 573741,
+      "sha256": "d1b5387efc7cf4db57fb3427ee145ae015138b854836b4c53920c5d86792eb68",
+      "sentence_ids": [
+        "ch15-s02-n0001",
+        "ch15-s02-n0002",
+        "ch15-s02-n0003",
+        "ch15-s02-n0004",
+        "ch15-s02-n0005",
+        "ch15-s02-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 31335,
+      "bytes": 503085,
+      "sha256": "78bf28d6dd0c012107bd72594e5addff02d2910cf90b8b6e3039952d9f8b8306",
+      "sentence_ids": [
+        "ch15-s02-n0007",
+        "ch15-s02-n0008",
+        "ch15-s02-n0009",
+        "ch15-s02-n0010",
+        "ch15-s02-n0011",
+        "ch15-s02-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 41965,
+      "bytes": 682797,
+      "sha256": "8ad243476e38a90b47a567926044967508e09f9696036dd4c18d8111630a18c8",
+      "sentence_ids": [
+        "ch15-s02-n0013",
+        "ch15-s02-n0014",
+        "ch15-s02-n0015",
+        "ch15-s02-n0016",
+        "ch15-s02-n0017",
+        "ch15-s02-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 39577,
+      "bytes": 634029,
+      "sha256": "95ab1283aa21c7c5015feb0fa97ca45990af553e56388c7dadc7ae80142fe6db",
+      "sentence_ids": [
+        "ch15-s02-n0019",
+        "ch15-s02-n0020",
+        "ch15-s02-n0021",
+        "ch15-s02-n0022",
+        "ch15-s02-n0023"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch15-s02-n0001",
+      "text": "劳动强度提高，意味着同样长的时间里付出更多劳动。",
+      "start_ms": 135,
+      "end_ms": 3945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s02-n0002",
+      "text": "因此，两个工作日即使小时数相同，强度更高的工作日也会生产更多产品。",
+      "start_ms": 4380,
+      "end_ms": 9955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s02-n0003",
+      "text": "劳动生产力提高，同一个工作日也会生产更多产品，但两种情况的结果不同。",
+      "start_ms": 10865,
+      "end_ms": 16515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s02-n0004",
+      "text": "生产力提高时，每件产品耗费的劳动减少，所以单件产品的价值下降。",
+      "start_ms": 16950,
+      "end_ms": 22125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s02-n0005",
+      "text": "劳动强度提高时，每件产品耗费的劳动仍和以前一样多，所以单件产品的价值不变。",
+      "start_ms": 23035,
+      "end_ms": 29295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s02-n0006",
+      "text": "后一种情况下，产品数量增加，单价不降，产品的价格总额也随之增加。",
+      "start_ms": 29855,
+      "end_ms": 35155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s02-n0007",
+      "text": "前一种情况下，只是同一个价值总额分摊到更多产品上。",
+      "start_ms": 465,
+      "end_ms": 4295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s02-n0008",
+      "text": "因此，只要工作时间不变，强度更高的工作日就会创造更多价值。",
+      "start_ms": 4765,
+      "end_ms": 9315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s02-n0009",
+      "text": "货币价值不变时，这些价值也会表现为更多货币。",
+      "start_ms": 10265,
+      "end_ms": 14025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s02-n0010",
+      "text": "一个工作日创造的价值总额，会随着劳动强度偏离社会正常水平的程度而变化。",
+      "start_ms": 14475,
+      "end_ms": 19995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s02-n0011",
+      "text": "这样，它就不再是固定不变的。",
+      "start_ms": 20635,
+      "end_ms": 22825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s02-n0012",
+      "text": "例如，强度正常的十二小时工作日创造6先令价值，强度更高的十二小时工作日可能创造7先令、8先令等。",
+      "start_ms": 23290,
+      "end_ms": 31185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s02-n0013",
+      "text": "既然一天创造的价值总额可以从6先令增加到8先令，其中的劳动力价格和剩余价值就可以同时增加，而且增幅可以相同，也可以不同。",
+      "start_ms": 95,
+      "end_ms": 9995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s02-n0014",
+      "text": "例如，两者都可以从3先令增加到4先令。",
+      "start_ms": 10895,
+      "end_ms": 14155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s02-n0015",
+      "text": "这里，劳动力价格上涨并不一定意味着它已经高于劳动力价值。",
+      "start_ms": 14610,
+      "end_ms": 18985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s02-n0016",
+      "text": "反过来，即使价格上涨，实际支付仍可能低于劳动力价值。",
+      "start_ms": 19410,
+      "end_ms": 23605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s02-n0017",
+      "text": "只要上涨的部分不足以补偿劳动力加速消耗，就会出现这种情况。",
+      "start_ms": 24555,
+      "end_ms": 28975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s02-n0018",
+      "text": "前面已经知道，除去暂时的例外，劳动生产力发生变化，只有在相关行业的产品成为工人的日常生活必需品时，才会改变劳动力价值，进而改变剩余价值。",
+      "start_ms": 29785,
+      "end_ms": 41815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s02-n0019",
+      "text": "这里没有这个限制。",
+      "start_ms": 85,
+      "end_ms": 1035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s02-n0020",
+      "text": "无论劳动量是靠延长工作时间增加，还是靠提高劳动强度增加，只要劳动量变化，一天创造的价值总额就会变化，不管这些价值最后体现在哪种产品上。",
+      "start_ms": 1500,
+      "end_ms": 13275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s02-n0021",
+      "text": "如果所有行业的劳动强度同时、均匀地提高，这个更高的强度就会成为新的社会正常水平，不再被单独算作超过常态的劳动量。",
+      "start_ms": 13670,
+      "end_ms": 23805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s02-n0022",
+      "text": "即使这样，不同国家的平均劳动强度仍会不同，因此价值规律在比较各国工作日时也会有所不同。",
+      "start_ms": 24360,
+      "end_ms": 31335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s02-n0023",
+      "text": "劳动强度较高的国家，一个工作日会表现为更多货币，而劳动强度较低的国家则会表现为较少货币。",
+      "start_ms": 31932,
+      "end_ms": 39427,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    }
+  ]
+}

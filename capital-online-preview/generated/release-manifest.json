@@ -1,11 +1,11 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-04T16:10:24.904Z",
+  "generatedAt": "2026-08-10T16:30:18.273Z",
   "partCount": 7,
   "chapterCount": 25,
-  "publishedChapterCount": 20,
-  "sectionCount": 53,
+  "publishedChapterCount": 25,
+  "sectionCount": 72,
   "preface": {
     "id": "translator-preface",
     "number": 0,
@@ -59,33 +59,29 @@
               "id": "ch01-s01",
               "number": 1,
               "title": "商品的两个因素：使用价值和价值",
-              "versionId": "ch01-s01-v9",
-              "contentPath": "/content/ch01-s01.json",
-              "audioManifestPath": "/audio/ch01-s01-v9-audio-f0d1ec297b30/manifest.json"
+              "versionId": "ch01-s01-v10",
+              "contentPath": "/content/ch01-s01.json"
             },
             {
               "id": "ch01-s02",
               "number": 2,
               "title": "商品中所包含的劳动的双重性质",
-              "versionId": "ch01-s02-v4",
-              "contentPath": "/content/ch01-s02.json",
-              "audioManifestPath": "/audio/ch01-s02-v4-audio-cd2e0eddb84d/manifest.json"
+              "versionId": "ch01-s02-v5",
+              "contentPath": "/content/ch01-s02.json"
             },
             {
               "id": "ch01-s03",
               "number": 3,
               "title": "价值形式或交换价值",
-              "versionId": "ch01-s03-v1",
-              "contentPath": "/content/ch01-s03.json",
-              "audioManifestPath": "/audio/ch01-s03-v1-audio-7000d28886ce/manifest.json"
+              "versionId": "ch01-s03-v3",
+              "contentPath": "/content/ch01-s03.json"
             },
             {
               "id": "ch01-s04",
               "number": 4,
               "title": "商品的拜物教性质及其秘密",
-              "versionId": "ch01-s04-v1",
-              "contentPath": "/content/ch01-s04.json",
-              "audioManifestPath": "/audio/ch01-s04-v1-audio-74d1b370e525/manifest.json"
+              "versionId": "ch01-s04-v2",
+              "contentPath": "/content/ch01-s04.json"
             }
           ]
         },
@@ -154,9 +150,8 @@
               "id": "ch04-s01",
               "number": 1,
               "title": "资本的一般公式",
-              "versionId": "ch04-s01-v1",
-              "contentPath": "/content/ch04-s01.json",
-              "audioManifestPath": "/audio/ch04-s01-v1-audio-7955003151ae/manifest.json"
+              "versionId": "ch04-s01-v2",
+              "contentPath": "/content/ch04-s01.json"
             },
             {
               "id": "ch04-s02",
@@ -275,7 +270,7 @@
               "title": "工作日的界限",
               "versionId": "ch08-s01-v1",
               "contentPath": "/content/ch08-s01.json",
-              "audioManifestPath": "/audio/ch08-s01-v1-audio-6d26ed106ba1/manifest.json"
+              "audioManifestPath": "/audio/ch08-s01-v1-audio-3cd239f98895/manifest.json"
             },
             {
               "id": "ch08-s02",
@@ -306,7 +301,8 @@
               "number": 5,
               "title": "争取正常工作日：从十四世纪中叶到十七世纪末强制延长工作日的法律",
               "versionId": "ch08-s05-v1",
-              "contentPath": "/content/ch08-s05.json"
+              "contentPath": "/content/ch08-s05.json",
+              "audioManifestPath": "/audio/ch08-s05-v1-audio-c4b44946fa3d/manifest.json"
             },
             {
               "id": "ch08-s06",
@@ -360,7 +356,8 @@
               "number": 1,
               "title": "相对剩余价值的概念",
               "versionId": "ch10-s01-v1",
-              "contentPath": "/content/ch10-s01.json"
+              "contentPath": "/content/ch10-s01.json",
+              "audioManifestPath": "/audio/ch10-s01-v1-audio-74a51147b215/manifest.json"
             }
           ]
         },
@@ -375,7 +372,8 @@
               "number": 1,
               "title": "协作",
               "versionId": "ch11-s01-v1",
-              "contentPath": "/content/ch11-s01.json"
+              "contentPath": "/content/ch11-s01.json",
+              "audioManifestPath": "/audio/ch11-s01-v1-audio-9f6ed5730116/manifest.json"
             }
           ]
         },
@@ -390,20 +388,22 @@
               "number": 1,
               "title": "工场手工业的双重起源",
               "versionId": "ch12-s01-v1",
-              "contentPath": "/content/ch12-s01.json"
+              "contentPath": "/content/ch12-s01.json",
+              "audioManifestPath": "/audio/ch12-s01-v1-audio-23debe7abfde/manifest.json"
             },
             {
               "id": "ch12-s02",
               "number": 2,
               "title": "局部工人及其工具",
               "versionId": "ch12-s02-v1",
-              "contentPath": "/content/ch12-s02.json"
+              "contentPath": "/content/ch12-s02.json",
+              "audioManifestPath": "/audio/ch12-s02-v1-audio-2ec4795fddd1/manifest.json"
             },
             {
               "id": "ch12-s03",
               "number": 3,
               "title": "工场手工业的两种基本形式：异质式和有机式",
-              "versionId": "ch12-s03-v1",
+              "versionId": "ch12-s03-v2",
               "contentPath": "/content/ch12-s03.json"
             },
             {
@@ -411,14 +411,16 @@
               "number": 4,
               "title": "工场手工业内部的分工和社会内部的分工",
               "versionId": "ch12-s04-v1",
-              "contentPath": "/content/ch12-s04.json"
+              "contentPath": "/content/ch12-s04.json",
+              "audioManifestPath": "/audio/ch12-s04-v1-audio-cb0a91c2fc86/manifest.json"
             },
             {
               "id": "ch12-s05",
               "number": 5,
               "title": "工场手工业的资本主义性质",
               "versionId": "ch12-s05-v1",
-              "contentPath": "/content/ch12-s05.json"
+              "contentPath": "/content/ch12-s05.json",
+              "audioManifestPath": "/audio/ch12-s05-v1-audio-87f477fd7ec6/manifest.json"
             }
           ]
         },
@@ -433,21 +435,24 @@
               "number": 1,
               "title": "机器的发展",
               "versionId": "ch13-s01-v2",
-              "contentPath": "/content/ch13-s01.json"
+              "contentPath": "/content/ch13-s01.json",
+              "audioManifestPath": "/audio/ch13-s01-v2-audio-d9e31adf7586/manifest.json"
             },
             {
               "id": "ch13-s02",
               "number": 2,
               "title": "机器向产品转移的价值",
               "versionId": "ch13-s02-v2",
-              "contentPath": "/content/ch13-s02.json"
+              "contentPath": "/content/ch13-s02.json",
+              "audioManifestPath": "/audio/ch13-s02-v2-audio-ccb3f31bbf11/manifest.json"
             },
             {
               "id": "ch13-s03",
               "number": 3,
               "title": "机器生产对工人的直接影响",
               "versionId": "ch13-s03-v2",
-              "contentPath": "/content/ch13-s03.json"
+              "contentPath": "/content/ch13-s03.json",
+              "audioManifestPath": "/audio/ch13-s03-v2-audio-9752913c0a16/manifest.json"
             },
             {
               "id": "ch13-s04",
@@ -534,28 +539,32 @@
               "number": 1,
               "title": "工作日的长度和劳动强度不变，劳动生产力可变",
               "versionId": "ch15-s01-v1",
-              "contentPath": "/content/ch15-s01.json"
+              "contentPath": "/content/ch15-s01.json",
+              "audioManifestPath": "/audio/ch15-s01-v1-audio-e81fc6c91ddd/manifest.json"
             },
             {
               "id": "ch15-s02",
               "number": 2,
               "title": "工作日和劳动生产力不变，劳动强度可变",
               "versionId": "ch15-s02-v1",
-              "contentPath": "/content/ch15-s02.json"
+              "contentPath": "/content/ch15-s02.json",
+              "audioManifestPath": "/audio/ch15-s02-v1-audio-dc8d1da4d188/manifest.json"
             },
             {
               "id": "ch15-s03",
               "number": 3,
               "title": "劳动生产力和劳动强度不变，工作日可变",
               "versionId": "ch15-s03-v1",
-              "contentPath": "/content/ch15-s03.json"
+              "contentPath": "/content/ch15-s03.json",
+              "audioManifestPath": "/audio/ch15-s03-v1-audio-8e796b50c647/manifest.json"
             },
             {
               "id": "ch15-s04",
               "number": 4,
               "title": "劳动时间、劳动生产力和劳动强度同时变化",
               "versionId": "ch15-s04-v1",
-              "contentPath": "/content/ch15-s04.json"
+              "contentPath": "/content/ch15-s04.json",
+              "audioManifestPath": "/audio/ch15-s04-v1-audio-d05fa830e518/manifest.json"
             }
           ]
         },
@@ -570,7 +579,8 @@
               "number": 1,
               "title": "剩余价值率的各种公式",
               "versionId": "ch16-s01-v1",
-              "contentPath": "/content/ch16-s01.json"
+              "contentPath": "/content/ch16-s01.json",
+              "audioManifestPath": "/audio/ch16-s01-v1-audio-3d46618b7830/manifest.json"
             }
           ]
         }
@@ -592,7 +602,8 @@
               "number": 1,
               "title": "劳动力的价值或价格怎样转化为工资",
               "versionId": "ch17-s01-v1",
-              "contentPath": "/content/ch17-s01.json"
+              "contentPath": "/content/ch17-s01.json",
+              "audioManifestPath": "/audio/ch17-s01-v1-audio-c5fae5ee7c0a/manifest.json"
             }
           ]
         },
@@ -607,7 +618,8 @@
               "number": 1,
               "title": "计时工资",
               "versionId": "ch18-s01-v1",
-              "contentPath": "/content/ch18-s01.json"
+              "contentPath": "/content/ch18-s01.json",
+              "audioManifestPath": "/audio/ch18-s01-v1-audio-2e96e500fb0a/manifest.json"
             }
           ]
         },
@@ -622,7 +634,8 @@
               "number": 1,
               "title": "计件工资",
               "versionId": "ch19-s01-v1",
-              "contentPath": "/content/ch19-s01.json"
+              "contentPath": "/content/ch19-s01.json",
+              "audioManifestPath": "/audio/ch19-s01-v1-audio-4a3c9935dd9c/manifest.json"
             }
           ]
         },
@@ -636,7 +649,7 @@
               "id": "ch20-s01",
               "number": 1,
               "title": "不同国家的工资差异",
-              "versionId": "ch20-s01-v1",
+              "versionId": "ch20-s01-v2",
               "contentPath": "/content/ch20-s01.json"
             }
           ]
@@ -652,36 +665,182 @@
           "id": "ch21",
           "number": 21,
           "title": "简单再生产",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch21-s01",
+              "number": 1,
+              "title": "简单再生产",
+              "versionId": "ch21-s01-v1",
+              "contentPath": "/content/ch21-s01.json",
+              "audioManifestPath": "/audio/ch21-s01-v1-audio-f3adfe0b3cca/manifest.json"
+            }
+          ]
         },
         {
           "id": "ch22",
           "number": 22,
           "title": "剩余价值转化为资本",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch22-s01",
+              "number": 1,
+              "title": "扩大规模的资本主义生产。商品生产的所有权规律怎样变成资本主义占有规律",
+              "versionId": "ch22-s01-v1",
+              "contentPath": "/content/ch22-s01.json",
+              "audioManifestPath": "/audio/ch22-s01-v1-audio-1b102653887d/manifest.json"
+            },
+            {
+              "id": "ch22-s02",
+              "number": 2,
+              "title": "政治经济学对扩大再生产的错误理解",
+              "versionId": "ch22-s02-v1",
+              "contentPath": "/content/ch22-s02.json",
+              "audioManifestPath": "/audio/ch22-s02-v1-audio-7633e1cd9e48/manifest.json"
+            },
+            {
+              "id": "ch22-s03",
+              "number": 3,
+              "title": "剩余价值分为资本和收入。“节欲论”",
+              "versionId": "ch22-s03-v1",
+              "contentPath": "/content/ch22-s03.json",
+              "audioManifestPath": "/audio/ch22-s03-v1-audio-002d80fdaaed/manifest.json"
+            },
+            {
+              "id": "ch22-s04",
+              "number": 4,
+              "title": "决定积累规模的其他因素",
+              "versionId": "ch22-s04-v1",
+              "contentPath": "/content/ch22-s04.json",
+              "audioManifestPath": "/audio/ch22-s04-v1-audio-712e3292a2a4/manifest.json"
+            },
+            {
+              "id": "ch22-s05",
+              "number": 5,
+              "title": "所谓劳动基金",
+              "versionId": "ch22-s05-v1",
+              "contentPath": "/content/ch22-s05.json",
+              "audioManifestPath": "/audio/ch22-s05-v1-audio-fd0fcea52156/manifest.json"
+            }
+          ]
         },
         {
           "id": "ch23",
           "number": 23,
           "title": "资本主义积累的一般规律",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch23-s01",
+              "number": 1,
+              "title": "资本构成不变时，积累怎样增加对劳动力的需求",
+              "versionId": "ch23-s01-v1",
+              "contentPath": "/content/ch23-s01.json",
+              "audioManifestPath": "/audio/ch23-s01-v1-audio-0063ad281310/manifest.json"
+            },
+            {
+              "id": "ch23-s02",
+              "number": 2,
+              "title": "积累怎样使可变资本所占比例下降",
+              "versionId": "ch23-s02-v1",
+              "contentPath": "/content/ch23-s02.json",
+              "audioManifestPath": "/audio/ch23-s02-v1-audio-71ccee3e4001/manifest.json"
+            },
+            {
+              "id": "ch23-s03",
+              "number": 3,
+              "title": "相对过剩人口或产业后备军怎样产生",
+              "versionId": "ch23-s03-v1",
+              "contentPath": "/content/ch23-s03.json"
+            },
+            {
+              "id": "ch23-s04",
+              "number": 4,
+              "title": "相对过剩人口的不同形式。资本主义积累的一般规律",
+              "versionId": "ch23-s04-v2",
+              "contentPath": "/content/ch23-s04.json"
+            },
+            {
+              "id": "ch23-s05",
+              "number": 5,
+              "title": "用事实说明资本主义积累的一般规律",
+              "versionId": "ch23-s05-v2",
+              "contentPath": "/content/ch23-s05.json"
+            }
+          ]
         },
         {
           "id": "ch24",
           "number": 24,
           "title": "所谓原始积累",
-          "available": false,
-          "sections": []
+          "available": true,
+          "sections": [
+            {
+              "id": "ch24-s01",
+              "number": 1,
+              "title": "原始积累的秘密",
+              "versionId": "ch24-s01-v1",
+              "contentPath": "/content/ch24-s01.json"
+            },
+            {
+              "id": "ch24-s02",
+              "number": 2,
+              "title": "剥夺农村人口的土地",
+              "versionId": "ch24-s02-v1",
+              "contentPath": "/content/ch24-s02.json"
+            },
+            {
+              "id": "ch24-s03",
+              "number": 3,
+              "title": "针对被剥夺者的血腥法律。压低工资的法律",
+              "versionId": "ch24-s03-v1",
+              "contentPath": "/content/ch24-s03.json"
+            },
+            {
+              "id": "ch24-s04",
+              "number": 4,
+              "title": "资本主义租地农场主怎样产生",
+              "versionId": "ch24-s04-v1",
+              "contentPath": "/content/ch24-s04.json"
+            },
+            {
+              "id": "ch24-s05",
+              "number": 5,
+              "title": "农业革命怎样影响工业并形成国内市场",
+              "versionId": "ch24-s05-v1",
+              "contentPath": "/content/ch24-s05.json"
+            },
+            {
+              "id": "ch24-s06",
+              "number": 6,
+              "title": "工业资本家怎样产生",
+              "versionId": "ch24-s06-v1",
+              "contentPath": "/content/ch24-s06.json"
+            },
+            {
+              "id": "ch24-s07",
+              "number": 7,
+              "title": "资本主义积累的历史趋势",
+              "versionId": "ch24-s07-v1",
+              "contentPath": "/content/ch24-s07.json"
+            }
+          ]
         },
         {
           "id": "ch25",
           "number": 25,
-          "title": "现代殖民制度",
-          "available": false,
-          "sections": []
+          "title": "现代殖民理论",
+          "available": true,
+          "sections": [
+            {
+              "id": "ch25-s01",
+              "number": 1,
+              "title": "现代殖民理论",
+              "versionId": "ch25-s01-v1",
+              "contentPath": "/content/ch25-s01.json"
+            }
+          ]
         }
       ]
     }

@@ -51,6 +51,10 @@ const sentencePattern = /[^。！？!?]+(?:[。！？!?]+[”’」』》）)]*)
 const maximumSentenceCharacters = 220;
 const sentenceClickLeadInMs = 240;
 const viewportFollowStorageKey = "capital-reader-audio-viewport-follow";
+const playerTuckedStorageKey = "capital-reader-audio-player-tucked";
+const readerLayoutChangedEvent = "capital-reader-layout-changed";
+const narrationDecoratedEvent = "capital-reader-narration-decorated";
+const mobileReaderQuery = "(max-width: 900px)";
 
 function normalize(value: string) {
   return value.replace(/\s+/g, " ").trim();
@@ -208,6 +212,22 @@ function decorateArticle(
   };
 }
 
+function syncNarrationCurrent(sentenceId: string) {
+  document
+    .querySelectorAll(
+      "#reading-content .prose [data-narration-sentence], #reading-content .prose [data-narration-companion]",
+    )
+    .forEach((element) => {
+      const decoratedSentenceId =
+        element.getAttribute("data-narration-sentence") ||
+        element.getAttribute("data-narration-companion");
+      element.classList.toggle(
+        "narration-current",
+        decoratedSentenceId === sentenceId,
+      );
+    });
+}
+
 function formatTime(milliseconds: number) {
   const seconds = Math.max(0, Math.floor(milliseconds / 1000));
   return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
@@ -345,9 +365,13 @@ export function AudioReader({
   const [scrubMs, setScrubMs] = useState<number | null>(null);
   const [rate, setRate] = useState(1);
   const [followViewport, setFollowViewport] = useState(true);
+  const [mobileViewport, setMobileViewport] = useState(false);
+  const [mobileAutoHidden, setMobileAutoHidden] = useState(false);
+  const [playerTucked, setPlayerTucked] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
   const pendingStart = useRef<{ chunkId: string; time: number; autoplay: boolean } | null>(null);
   const playSentenceRef = useRef<(sentenceId: string) => void>(() => {});
+  const activeSentenceIdRef = useRef("");
   const manifestUrl = useMemo(
     () =>
       resolvedAudioManifestPath && typeof window !== "undefined"
@@ -369,7 +393,21 @@ export function AudioReader({
   useEffect(() => {
     const stored = window.localStorage.getItem(viewportFollowStorageKey);
     if (stored === "off") setFollowViewport(false);
+    setPlayerTucked(
+      window.localStorage.getItem(playerTuckedStorageKey) === "on",
+    );
+
+    const media = window.matchMedia(mobileReaderQuery);
+    const updateViewport = () => {
+      setMobileViewport(media.matches);
+      if (!media.matches) setMobileAutoHidden(false);
+    };
+    updateViewport();
+    media.addEventListener("change", updateViewport);
+    return () => media.removeEventListener("change", updateViewport);
   }, []);
+
+  activeSentenceIdRef.current = activeSentenceId;
 
   useEffect(() => {
     return () => {
@@ -457,28 +495,38 @@ export function AudioReader({
     };
   }, [registryResolved, resolvedAudioManifestPath, sectionId, translationSha256, versionId]);
 
-  useEffect(
-    () =>
-      decorateArticle(sentences, status === "ready", (sentenceId) =>
+  useEffect(() => {
+    const cleanup = decorateArticle(
+      sentences,
+      status === "ready",
+      (sentenceId) =>
         playSentenceRef.current(sentenceId),
-      ),
-    [sentences, status],
-  );
+    );
+    syncNarrationCurrent(activeSentenceIdRef.current);
+    window.dispatchEvent(new Event(narrationDecoratedEvent));
+    return cleanup;
+  }, [sentences, status]);
 
   useEffect(() => {
-    document
-      .querySelectorAll(
-        "[data-narration-sentence], [data-narration-companion]",
-      )
-      .forEach((element) => {
-        const sentenceId =
-          element.getAttribute("data-narration-sentence") ||
-          element.getAttribute("data-narration-companion");
-        element.classList.toggle(
-          "narration-current",
-          sentenceId === activeSentenceId,
-        );
+    let frame = 0;
+    const restoreCurrentSentence = () => {
+      window.cancelAnimationFrame(frame);
+      frame = window.requestAnimationFrame(() => {
+        syncNarrationCurrent(activeSentenceIdRef.current);
       });
+    };
+    window.addEventListener(readerLayoutChangedEvent, restoreCurrentSentence);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener(
+        readerLayoutChangedEvent,
+        restoreCurrentSentence,
+      );
+    };
+  }, []);
+
+  useEffect(() => {
+    syncNarrationCurrent(activeSentenceId);
     if (!activeSentenceId || !followViewport) return;
     const primary = document.querySelector<HTMLElement>(
       `[data-narration-sentence="${activeSentenceId}"]`,
@@ -493,6 +541,56 @@ export function AudioReader({
       });
     }
   }, [activeSentenceId, followViewport]);
+
+  useEffect(() => {
+    if (
+      !mobileViewport ||
+      playerTucked ||
+      !started ||
+      status !== "ready"
+    ) {
+      setMobileAutoHidden(false);
+      return;
+    }
+
+    let previousY = window.scrollY;
+    let directionTravel = 0;
+    let frame = 0;
+
+    const updateFromScroll = () => {
+      frame = 0;
+      const currentY = window.scrollY;
+      const delta = currentY - previousY;
+      previousY = currentY;
+      if (Math.abs(delta) < 2) return;
+
+      if (
+        directionTravel !== 0 &&
+        Math.sign(directionTravel) !== Math.sign(delta)
+      ) {
+        directionTravel = 0;
+      }
+      directionTravel += delta;
+
+      if (directionTravel > 28 && currentY > 72) {
+        setMobileAutoHidden(true);
+        directionTravel = 0;
+      } else if (directionTravel < -18) {
+        setMobileAutoHidden(false);
+        directionTravel = 0;
+      }
+    };
+
+    const handleScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(updateFromScroll);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [mobileViewport, playerTucked, started, status]);
 
   useEffect(() => {
     if (!("mediaSession" in navigator)) return;
@@ -610,6 +708,18 @@ export function AudioReader({
     });
   }
 
+  function tuckPlayer() {
+    setPlayerTucked(true);
+    setMobileAutoHidden(false);
+    window.localStorage.setItem(playerTuckedStorageKey, "on");
+  }
+
+  function restorePlayer() {
+    setPlayerTucked(false);
+    setMobileAutoHidden(false);
+    window.localStorage.setItem(playerTuckedStorageKey, "off");
+  }
+
   function updatePlayback() {
     const audio = audioRef.current;
     if (!audio || !manifest || !activeChunkId) return;
@@ -715,7 +825,23 @@ export function AudioReader({
         onError={() => setPlaying(false)}
       />
       {status === "ready" && started ? (
-        <section className="narration-player" aria-label="语音阅读控制">
+        <section
+          className={`narration-player${
+            mobileViewport && mobileAutoHidden ? " mobile-auto-hidden" : ""
+          }${mobileViewport && playerTucked ? " mobile-tucked" : ""}`}
+          aria-label="语音阅读控制"
+          aria-hidden={mobileViewport && playerTucked ? true : undefined}
+          inert={mobileViewport && playerTucked ? true : undefined}
+        >
+          <button
+            className="narration-tuck"
+            type="button"
+            onClick={tuckPlayer}
+            aria-label="将语音控制收至侧边"
+            title="收至侧边"
+          >
+            <span aria-hidden="true" />
+          </button>
           <div className="narration-progress-row">
             <span>{formatTime(scrubMs ?? elapsedMs)}</span>
             <input
@@ -769,6 +895,16 @@ export function AudioReader({
             />
           </div>
         </section>
+      ) : null}
+      {status === "ready" && started && mobileViewport && playerTucked ? (
+        <button
+          className="narration-dock-tab"
+          type="button"
+          onClick={restorePlayer}
+          aria-label="展开语音控制"
+        >
+          <span aria-hidden="true">听</span>
+        </button>
       ) : null}
     </>
   );

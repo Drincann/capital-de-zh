@@ -29,6 +29,23 @@ test("公开页面只呈现阅读界面", async () => {
   );
 });
 
+test("调整目录宽度不会重写正文并清除动态高亮", async () => {
+  const reader = await readFile(
+    new URL("app/ReaderApp.tsx", appRoot),
+    "utf8",
+  );
+
+  assert.match(
+    reader,
+    /const proseInnerHtml = useMemo\([\s\S]*?\[content\?\.html\],[\s\S]*?\);/,
+  );
+  assert.match(reader, /dangerouslySetInnerHTML=\{proseInnerHtml\}/);
+  assert.doesNotMatch(
+    reader,
+    /dangerouslySetInnerHTML=\{\{\s*__html:/,
+  );
+});
+
 test("划词笔记公开可读，只有指定 ChatGPT 账号可写", async () => {
   const [page, readerNotes, notesRoute, notesAuth, schema, css] =
     await Promise.all([
@@ -63,6 +80,9 @@ test("划词笔记公开可读，只有指定 ChatGPT 账号可写", async () =>
   assert.match(readerNotes, /调整笔记编辑框高度/);
   assert.match(readerNotes, /capital-reader-notes-width/);
   assert.match(readerNotes, /capital-reader-note-editor-height/);
+  assert.match(readerNotes, /capital-reader-narration-decorated/);
+  assert.match(readerNotes, /capital-reader-layout-changed/);
+  assert.match(readerNotes, /window\.dispatchEvent\(new Event\(readerLayoutChangedEvent\)\)/);
   assert.match(css, /\.reader-note-highlight/);
   assert.match(css, /\.notes-panel/);
   assert.match(css, /\.notes-panel-resizer/);
@@ -96,7 +116,8 @@ test("发布快照只包含正式采用的版本", async () => {
   const upcomingChapters = chapters.filter((chapter) => !chapter.available);
   assert.equal(sections.length, manifest.sectionCount);
   assert.equal(chapters.length, manifest.chapterCount);
-  assert.ok(upcomingChapters.length > 0);
+  assert.equal(manifest.chapterCount, 25);
+  assert.equal(upcomingChapters.length, 0);
   assert.ok(upcomingChapters.every((chapter) => chapter.sections.length === 0));
   assert.equal(
     contentFiles.length,
@@ -246,6 +267,12 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(audioReader, /!activeSentenceId \|\| !followViewport/);
   assert.match(audioReader, /readyState >= HTMLMediaElement\.HAVE_METADATA/);
   assert.match(audioReader, /startLoadedAudio\(audio, pending\.time, pending\.autoplay\)/);
+  assert.match(audioReader, /capital-reader-layout-changed/);
+  assert.match(audioReader, /capital-reader-narration-decorated/);
+  assert.match(audioReader, /mobileAutoHidden/);
+  assert.match(audioReader, /playerTucked/);
+  assert.match(audioReader, /narration-dock-tab/);
+  assert.match(audioReader, /aria-label="将语音控制收至侧边"/);
   assert.doesNotMatch(audioReader, /Ⅱ/);
   assert.match(css, /\.narration-current/);
   assert.match(
@@ -261,6 +288,9 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
     /\.catalog\s*\{[^}]*background:\s*var\(--paper-deep\)/s,
   );
   assert.match(css, /\.catalog-backdrop\s*\{[^}]*backdrop-filter: blur\(5px\)/s);
+  assert.match(css, /\.narration-player\.mobile-auto-hidden/);
+  assert.match(css, /\.narration-player\.mobile-tucked/);
+  assert.match(css, /\.narration-dock-tab/);
 });
 
 test("统计数据库不保存访问明细和原始环境信息", async () => {

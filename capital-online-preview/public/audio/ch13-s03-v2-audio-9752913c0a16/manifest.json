@@ -1,0 +1,3640 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s03-v2-audio-9752913c0a16",
+  "unit_id": "ch13-s03",
+  "translation_version_id": "ch13-s03-v2",
+  "translation_sha256": "aab85a956775706a19cfe569f49a5b8d922d3f13235471571d266f7f22443a8e",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T16:31:05.973Z",
+  "completed_at": "2026-08-04T16:39:49.709Z",
+  "duration_ms": 2301662,
+  "sentence_count": 344,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 37604,
+      "bytes": 602541,
+      "sha256": "780c5fe188c0f1771b4e348ca0ed9171e66a9a265febe97dc45c67357b933889",
+      "sentence_ids": [
+        "ch13-s03-n0001",
+        "ch13-s03-n0002",
+        "ch13-s03-n0003",
+        "ch13-s03-n0004",
+        "ch13-s03-n0005",
+        "ch13-s03-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 36485,
+      "bytes": 586413,
+      "sha256": "dacc409f495a28494662e6aeceb65eb2047db4b328d654b7340953244f4b1972",
+      "sentence_ids": [
+        "ch13-s03-n0007",
+        "ch13-s03-n0008",
+        "ch13-s03-n0009",
+        "ch13-s03-n0010",
+        "ch13-s03-n0011",
+        "ch13-s03-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 33065,
+      "bytes": 531885,
+      "sha256": "9c077b5ae415fd8f3dcab4fc7a366d77154eb4dca10ed06084023e9661e4d561",
+      "sentence_ids": [
+        "ch13-s03-n0013",
+        "ch13-s03-n0014",
+        "ch13-s03-n0015",
+        "ch13-s03-n0016",
+        "ch13-s03-n0017",
+        "ch13-s03-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 38323,
+      "bytes": 611757,
+      "sha256": "722c2ef09f6c02b7b481de911d435a9cec05baf8f5b8affb22900705bdd61b8d",
+      "sentence_ids": [
+        "ch13-s03-n0019",
+        "ch13-s03-n0020",
+        "ch13-s03-n0021",
+        "ch13-s03-n0022",
+        "ch13-s03-n0023",
+        "ch13-s03-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 44135,
+      "bytes": 708141,
+      "sha256": "6104dd63eb9204ad8ef5d51f2a7251a1ab805225569a202def4ca9e447453a42",
+      "sentence_ids": [
+        "ch13-s03-n0025",
+        "ch13-s03-n0026",
+        "ch13-s03-n0027",
+        "ch13-s03-n0028",
+        "ch13-s03-n0029",
+        "ch13-s03-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 34575,
+      "bytes": 556845,
+      "sha256": "0d32813bfdbfd3dadc8b40cccd9c024f5121a8301b9494cfbda18fdd7e80710e",
+      "sentence_ids": [
+        "ch13-s03-n0031",
+        "ch13-s03-n0032",
+        "ch13-s03-n0033",
+        "ch13-s03-n0034",
+        "ch13-s03-n0035",
+        "ch13-s03-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 52644,
+      "bytes": 842157,
+      "sha256": "25a962fb381daeef2a30df0ecd4586171caec17767e42f9215c5c7963d6c10a5",
+      "sentence_ids": [
+        "ch13-s03-n0037",
+        "ch13-s03-n0038",
+        "ch13-s03-n0039",
+        "ch13-s03-n0040",
+        "ch13-s03-n0041",
+        "ch13-s03-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 51300,
+      "bytes": 862125,
+      "sha256": "c7b68d71ef35db8b681fdf851f2d894da636b02efb2e211ca7448d0c4f744912",
+      "sentence_ids": [
+        "ch13-s03-n0043",
+        "ch13-s03-n0044",
+        "ch13-s03-n0045",
+        "ch13-s03-n0046",
+        "ch13-s03-n0047",
+        "ch13-s03-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 58757,
+      "bytes": 938541,
+      "sha256": "14ddde04663bc31ac8aa281d55a4150023aa80219d227323293ca3e93e144dab",
+      "sentence_ids": [
+        "ch13-s03-n0049",
+        "ch13-s03-n0050",
+        "ch13-s03-n0051",
+        "ch13-s03-n0052",
+        "ch13-s03-n0053",
+        "ch13-s03-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 49714,
+      "bytes": 800685,
+      "sha256": "83882139373e4c58d80e19b76946534b771e9a7a20270de8335cefba846fd069",
+      "sentence_ids": [
+        "ch13-s03-n0055",
+        "ch13-s03-n0056",
+        "ch13-s03-n0057",
+        "ch13-s03-n0058",
+        "ch13-s03-n0059",
+        "ch13-s03-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 43137,
+      "bytes": 695469,
+      "sha256": "ced47130e805130bbebed88735523ec4d328d3af0f5cdd4781a993e9b2b20502",
+      "sentence_ids": [
+        "ch13-s03-n0061",
+        "ch13-s03-n0062",
+        "ch13-s03-n0063",
+        "ch13-s03-n0064",
+        "ch13-s03-n0065",
+        "ch13-s03-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 41576,
+      "bytes": 669357,
+      "sha256": "445936fc798a76e7b37efc1cbd1da9ad9d12df66acc762bc02c317dc5c671495",
+      "sentence_ids": [
+        "ch13-s03-n0067",
+        "ch13-s03-n0068",
+        "ch13-s03-n0069",
+        "ch13-s03-n0070",
+        "ch13-s03-n0071",
+        "ch13-s03-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 36395,
+      "bytes": 583341,
+      "sha256": "48d53d8835a22e1bc312a04c83285ea9e70e3609132c4409fbc225b7488f74e9",
+      "sentence_ids": [
+        "ch13-s03-n0073",
+        "ch13-s03-n0074",
+        "ch13-s03-n0075",
+        "ch13-s03-n0076",
+        "ch13-s03-n0077",
+        "ch13-s03-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 32275,
+      "bytes": 522285,
+      "sha256": "fe5b9d488c91531749ff4f7d2dbc58d13254dfd74943ed0722ffd3f5ce6fb2a0",
+      "sentence_ids": [
+        "ch13-s03-n0079",
+        "ch13-s03-n0080",
+        "ch13-s03-n0081",
+        "ch13-s03-n0082",
+        "ch13-s03-n0083",
+        "ch13-s03-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 37118,
+      "bytes": 595629,
+      "sha256": "183629dff11bcbe48dd476b4846b348e7870e0f271d386406d357cf0a7401edd",
+      "sentence_ids": [
+        "ch13-s03-n0085",
+        "ch13-s03-n0086",
+        "ch13-s03-n0087",
+        "ch13-s03-n0088",
+        "ch13-s03-n0089",
+        "ch13-s03-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 37680,
+      "bytes": 605613,
+      "sha256": "4a4eaf07890636dc84e38952589f98c6d968bcbeac5e7d6383dca8531b3cb40a",
+      "sentence_ids": [
+        "ch13-s03-n0091",
+        "ch13-s03-n0092",
+        "ch13-s03-n0093",
+        "ch13-s03-n0094",
+        "ch13-s03-n0095",
+        "ch13-s03-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 37861,
+      "bytes": 614445,
+      "sha256": "bcef4cc8a9abc679b005c93b5eca55e9cccd0465e59450dad79f8db48e2d8965",
+      "sentence_ids": [
+        "ch13-s03-n0097",
+        "ch13-s03-n0098",
+        "ch13-s03-n0099",
+        "ch13-s03-n0100",
+        "ch13-s03-n0101",
+        "ch13-s03-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 41066,
+      "bytes": 665901,
+      "sha256": "5b08731da7be441d19edc540b5e6fec09db8018c7c8e2d5d2b008deecfb67b9b",
+      "sentence_ids": [
+        "ch13-s03-n0103",
+        "ch13-s03-n0104",
+        "ch13-s03-n0105",
+        "ch13-s03-n0106",
+        "ch13-s03-n0107",
+        "ch13-s03-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 36275,
+      "bytes": 582957,
+      "sha256": "95fe696e92260cf662d54c8599402ccee23f33319b7696e4736c428c67c7a6d8",
+      "sentence_ids": [
+        "ch13-s03-n0109",
+        "ch13-s03-n0110",
+        "ch13-s03-n0111",
+        "ch13-s03-n0112",
+        "ch13-s03-n0113",
+        "ch13-s03-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 39589,
+      "bytes": 633645,
+      "sha256": "0aa48c92d16729edd24ca254bb5ebbd59a5bb0fcb609c71d729bef585f7e870d",
+      "sentence_ids": [
+        "ch13-s03-n0115",
+        "ch13-s03-n0116",
+        "ch13-s03-n0117",
+        "ch13-s03-n0118",
+        "ch13-s03-n0119",
+        "ch13-s03-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 40425,
+      "bytes": 657453,
+      "sha256": "5168a861ef9a979c0213f0130b4a1a7d0af45f5b8eb40377a66925e730b2b9f9",
+      "sentence_ids": [
+        "ch13-s03-n0121",
+        "ch13-s03-n0122",
+        "ch13-s03-n0123",
+        "ch13-s03-n0124",
+        "ch13-s03-n0125",
+        "ch13-s03-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 36099,
+      "bytes": 580653,
+      "sha256": "c16d3807dde952fc1b02a3dbc3865bdb79c7c90ad59f1da6c81bd691856eb022",
+      "sentence_ids": [
+        "ch13-s03-n0127",
+        "ch13-s03-n0128",
+        "ch13-s03-n0129",
+        "ch13-s03-n0130",
+        "ch13-s03-n0131",
+        "ch13-s03-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 39385,
+      "bytes": 630957,
+      "sha256": "2ea5ad09b6812143aaa1aaf0a5c0d2a16730d3eb1aed024b1e7199f605f715b6",
+      "sentence_ids": [
+        "ch13-s03-n0133",
+        "ch13-s03-n0134",
+        "ch13-s03-n0135",
+        "ch13-s03-n0136",
+        "ch13-s03-n0137",
+        "ch13-s03-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 36675,
+      "bytes": 586797,
+      "sha256": "321e2b5b0fb42345d7e14cec297d64c994953c91facccd6900775091af7fcd61",
+      "sentence_ids": [
+        "ch13-s03-n0139",
+        "ch13-s03-n0140",
+        "ch13-s03-n0141",
+        "ch13-s03-n0142",
+        "ch13-s03-n0143",
+        "ch13-s03-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 34460,
+      "bytes": 554925,
+      "sha256": "f93438ed69566978c91813116ff2d8f73e9a739b5c148733663a59383762ce8b",
+      "sentence_ids": [
+        "ch13-s03-n0145",
+        "ch13-s03-n0146",
+        "ch13-s03-n0147",
+        "ch13-s03-n0148",
+        "ch13-s03-n0149",
+        "ch13-s03-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 26275,
+      "bytes": 422061,
+      "sha256": "f8962d3005c6d6a23fac22ff8587522c662c4fde959622b5fce0a4298b37edf7",
+      "sentence_ids": [
+        "ch13-s03-n0151",
+        "ch13-s03-n0152",
+        "ch13-s03-n0153",
+        "ch13-s03-n0154",
+        "ch13-s03-n0155",
+        "ch13-s03-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 33875,
+      "bytes": 541485,
+      "sha256": "d19517f8d32b218aa7a201b2cd976b79bbdeaab9559fd21b9a01613407bc8647",
+      "sentence_ids": [
+        "ch13-s03-n0157",
+        "ch13-s03-n0158",
+        "ch13-s03-n0159",
+        "ch13-s03-n0160",
+        "ch13-s03-n0161",
+        "ch13-s03-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 34235,
+      "bytes": 548013,
+      "sha256": "926013ed10ca867039d02f8bcbe3eeea8c588eb0dfafa70774f1ecda820e52f8",
+      "sentence_ids": [
+        "ch13-s03-n0163",
+        "ch13-s03-n0164",
+        "ch13-s03-n0165",
+        "ch13-s03-n0166",
+        "ch13-s03-n0167",
+        "ch13-s03-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 38779,
+      "bytes": 620589,
+      "sha256": "5d1d848df905045d004f51d37faadea43534dce6c75812bd55c4962a752b59b5",
+      "sentence_ids": [
+        "ch13-s03-n0169",
+        "ch13-s03-n0170",
+        "ch13-s03-n0171",
+        "ch13-s03-n0172",
+        "ch13-s03-n0173",
+        "ch13-s03-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 46283,
+      "bytes": 739245,
+      "sha256": "d0199abcf4760340c3854d17c648cd1448f2ce3a0830a65ed7929ed6cb2ac358",
+      "sentence_ids": [
+        "ch13-s03-n0175",
+        "ch13-s03-n0176",
+        "ch13-s03-n0177",
+        "ch13-s03-n0178",
+        "ch13-s03-n0179",
+        "ch13-s03-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 52570,
+      "bytes": 844845,
+      "sha256": "39a6652b4debb4052fd9524f33de55ce0f66c056dcc130ff77f1819e837225ad",
+      "sentence_ids": [
+        "ch13-s03-n0181",
+        "ch13-s03-n0182",
+        "ch13-s03-n0183",
+        "ch13-s03-n0184",
+        "ch13-s03-n0185"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 47531,
+      "bytes": 761901,
+      "sha256": "c82b7a79f0add0b2906e052c8d2b957026bbd7da3688dd9569a1458efebe40dc",
+      "sentence_ids": [
+        "ch13-s03-n0186",
+        "ch13-s03-n0187",
+        "ch13-s03-n0188",
+        "ch13-s03-n0189",
+        "ch13-s03-n0190",
+        "ch13-s03-n0191"
+      ]
+    },
+    {
+      "id": "c0033",
+      "audio_file": "c0033.mp3",
+      "duration_ms": 40277,
+      "bytes": 650157,
+      "sha256": "1e424b1b28277edf7f402b4c19017f1eb0d46e1179405e2620094d9507db270e",
+      "sentence_ids": [
+        "ch13-s03-n0192",
+        "ch13-s03-n0193",
+        "ch13-s03-n0194",
+        "ch13-s03-n0195",
+        "ch13-s03-n0196",
+        "ch13-s03-n0197"
+      ]
+    },
+    {
+      "id": "c0034",
+      "audio_file": "c0034.mp3",
+      "duration_ms": 40924,
+      "bytes": 663213,
+      "sha256": "e4e154025f96f51cf7e6608cc286f50f603314a5a55f8b576f3b5418ac219dfc",
+      "sentence_ids": [
+        "ch13-s03-n0198",
+        "ch13-s03-n0199",
+        "ch13-s03-n0200",
+        "ch13-s03-n0201",
+        "ch13-s03-n0202",
+        "ch13-s03-n0203"
+      ]
+    },
+    {
+      "id": "c0035",
+      "audio_file": "c0035.mp3",
+      "duration_ms": 34675,
+      "bytes": 554541,
+      "sha256": "7f47194a5149971426073799abbf3a1e1f50e96332abe0158b574fc430bc07aa",
+      "sentence_ids": [
+        "ch13-s03-n0204",
+        "ch13-s03-n0205",
+        "ch13-s03-n0206",
+        "ch13-s03-n0207",
+        "ch13-s03-n0208",
+        "ch13-s03-n0209"
+      ]
+    },
+    {
+      "id": "c0036",
+      "audio_file": "c0036.mp3",
+      "duration_ms": 48478,
+      "bytes": 779181,
+      "sha256": "b1af61595d72ad52bb48a25b4a5012eb2ecf036c405bf7d7fbf08579e66b366a",
+      "sentence_ids": [
+        "ch13-s03-n0210",
+        "ch13-s03-n0211",
+        "ch13-s03-n0212",
+        "ch13-s03-n0213",
+        "ch13-s03-n0214",
+        "ch13-s03-n0215"
+      ]
+    },
+    {
+      "id": "c0037",
+      "audio_file": "c0037.mp3",
+      "duration_ms": 55761,
+      "bytes": 897069,
+      "sha256": "f6ddec1f4c567a4a2430deff1b0bfbaee9007b2a39e3b4aa73ed098bf8b2deea",
+      "sentence_ids": [
+        "ch13-s03-n0216",
+        "ch13-s03-n0217",
+        "ch13-s03-n0218",
+        "ch13-s03-n0219",
+        "ch13-s03-n0220",
+        "ch13-s03-n0221"
+      ]
+    },
+    {
+      "id": "c0038",
+      "audio_file": "c0038.mp3",
+      "duration_ms": 42337,
+      "bytes": 678957,
+      "sha256": "85fb02296f87df9dd1138e70f5d9759a31a4993016759dfd7d41fd956fc535ae",
+      "sentence_ids": [
+        "ch13-s03-n0222",
+        "ch13-s03-n0223",
+        "ch13-s03-n0224",
+        "ch13-s03-n0225",
+        "ch13-s03-n0226",
+        "ch13-s03-n0227"
+      ]
+    },
+    {
+      "id": "c0039",
+      "audio_file": "c0039.mp3",
+      "duration_ms": 34374,
+      "bytes": 557229,
+      "sha256": "a7252404c97fae4026a3b10893729eb3b7cc1b05d4d60ec73464864099b4244c",
+      "sentence_ids": [
+        "ch13-s03-n0228",
+        "ch13-s03-n0229",
+        "ch13-s03-n0230",
+        "ch13-s03-n0231",
+        "ch13-s03-n0232",
+        "ch13-s03-n0233"
+      ]
+    },
+    {
+      "id": "c0040",
+      "audio_file": "c0040.mp3",
+      "duration_ms": 34972,
+      "bytes": 560301,
+      "sha256": "117efc39eee4ccacd84b805226500c425749f05ec5d3c6871c4d8e1d54a98584",
+      "sentence_ids": [
+        "ch13-s03-n0234",
+        "ch13-s03-n0235",
+        "ch13-s03-n0236",
+        "ch13-s03-n0237",
+        "ch13-s03-n0238",
+        "ch13-s03-n0239"
+      ]
+    },
+    {
+      "id": "c0041",
+      "audio_file": "c0041.mp3",
+      "duration_ms": 29195,
+      "bytes": 467757,
+      "sha256": "83af0369742d2e83368213127157a5a0ecb64bf72165af4291a152d01c3228b2",
+      "sentence_ids": [
+        "ch13-s03-n0240",
+        "ch13-s03-n0241",
+        "ch13-s03-n0242",
+        "ch13-s03-n0243",
+        "ch13-s03-n0244",
+        "ch13-s03-n0245"
+      ]
+    },
+    {
+      "id": "c0042",
+      "audio_file": "c0042.mp3",
+      "duration_ms": 38844,
+      "bytes": 624813,
+      "sha256": "d341e15798c522b6db71113a43606a7824c81393cd49259c8043050d91a39eb7",
+      "sentence_ids": [
+        "ch13-s03-n0246",
+        "ch13-s03-n0247",
+        "ch13-s03-n0248",
+        "ch13-s03-n0249",
+        "ch13-s03-n0250",
+        "ch13-s03-n0251"
+      ]
+    },
+    {
+      "id": "c0043",
+      "audio_file": "c0043.mp3",
+      "duration_ms": 45246,
+      "bytes": 727341,
+      "sha256": "9d600fc0e6fe9237f63fda3725bafd2f185ae1c388a1203213dacdeb0591cb4c",
+      "sentence_ids": [
+        "ch13-s03-n0252",
+        "ch13-s03-n0253",
+        "ch13-s03-n0254",
+        "ch13-s03-n0255",
+        "ch13-s03-n0256",
+        "ch13-s03-n0257"
+      ]
+    },
+    {
+      "id": "c0044",
+      "audio_file": "c0044.mp3",
+      "duration_ms": 25825,
+      "bytes": 413229,
+      "sha256": "ba1400b83bc16ae6a5b57baab3145595d33584764ecacb96c4a7194ce6edfad7",
+      "sentence_ids": [
+        "ch13-s03-n0258",
+        "ch13-s03-n0259",
+        "ch13-s03-n0260",
+        "ch13-s03-n0261",
+        "ch13-s03-n0262",
+        "ch13-s03-n0263"
+      ]
+    },
+    {
+      "id": "c0045",
+      "audio_file": "c0045.mp3",
+      "duration_ms": 35395,
+      "bytes": 569901,
+      "sha256": "2db12b766d13e9aaf12d1d1ad81344e1c12216f604abfab5dc05de4d56a85ea6",
+      "sentence_ids": [
+        "ch13-s03-n0264",
+        "ch13-s03-n0265",
+        "ch13-s03-n0266",
+        "ch13-s03-n0267",
+        "ch13-s03-n0268",
+        "ch13-s03-n0269"
+      ]
+    },
+    {
+      "id": "c0046",
+      "audio_file": "c0046.mp3",
+      "duration_ms": 37356,
+      "bytes": 599085,
+      "sha256": "dca3f7c7007793cf462fbe150849105c07d3db39a4db0731d5ee18fe8967aa99",
+      "sentence_ids": [
+        "ch13-s03-n0270",
+        "ch13-s03-n0271",
+        "ch13-s03-n0272",
+        "ch13-s03-n0273",
+        "ch13-s03-n0274",
+        "ch13-s03-n0275"
+      ]
+    },
+    {
+      "id": "c0047",
+      "audio_file": "c0047.mp3",
+      "duration_ms": 39289,
+      "bytes": 627885,
+      "sha256": "95349465db00d995c14c7f94cf3fa194f4923b96089be8fb74e46901efa275bd",
+      "sentence_ids": [
+        "ch13-s03-n0276",
+        "ch13-s03-n0277",
+        "ch13-s03-n0278",
+        "ch13-s03-n0279",
+        "ch13-s03-n0280",
+        "ch13-s03-n0281"
+      ]
+    },
+    {
+      "id": "c0048",
+      "audio_file": "c0048.mp3",
+      "duration_ms": 40539,
+      "bytes": 653613,
+      "sha256": "954ebed444be1cbf8a9644ccf15802bd5fbca65446089df521c471cf87f1b6b8",
+      "sentence_ids": [
+        "ch13-s03-n0282",
+        "ch13-s03-n0283",
+        "ch13-s03-n0284",
+        "ch13-s03-n0285",
+        "ch13-s03-n0286",
+        "ch13-s03-n0287"
+      ]
+    },
+    {
+      "id": "c0049",
+      "audio_file": "c0049.mp3",
+      "duration_ms": 55481,
+      "bytes": 941997,
+      "sha256": "7b882dfcd031eaf39d7026a707881c5e43b94395980fc4699a73e0b2061dbc35",
+      "sentence_ids": [
+        "ch13-s03-n0288",
+        "ch13-s03-n0289",
+        "ch13-s03-n0290",
+        "ch13-s03-n0291",
+        "ch13-s03-n0292",
+        "ch13-s03-n0293"
+      ]
+    },
+    {
+      "id": "c0050",
+      "audio_file": "c0050.mp3",
+      "duration_ms": 31145,
+      "bytes": 499245,
+      "sha256": "cabacebe0b2c47162234142a9c3374841ab3ab70439044e00c4de48b60bfa9c6",
+      "sentence_ids": [
+        "ch13-s03-n0294",
+        "ch13-s03-n0295",
+        "ch13-s03-n0296",
+        "ch13-s03-n0297",
+        "ch13-s03-n0298",
+        "ch13-s03-n0299"
+      ]
+    },
+    {
+      "id": "c0051",
+      "audio_file": "c0051.mp3",
+      "duration_ms": 41035,
+      "bytes": 663597,
+      "sha256": "67d1a1286de3bb44a5e13f6103de62611a30a589509f415f6ea30cfdd84ceb3a",
+      "sentence_ids": [
+        "ch13-s03-n0300",
+        "ch13-s03-n0301",
+        "ch13-s03-n0302",
+        "ch13-s03-n0303",
+        "ch13-s03-n0304",
+        "ch13-s03-n0305"
+      ]
+    },
+    {
+      "id": "c0052",
+      "audio_file": "c0052.mp3",
+      "duration_ms": 47413,
+      "bytes": 851373,
+      "sha256": "ea6266544fd45d73934657003569e293893f1b2abd8526adac7455ad5ada32ee",
+      "sentence_ids": [
+        "ch13-s03-n0306",
+        "ch13-s03-n0307",
+        "ch13-s03-n0308",
+        "ch13-s03-n0309",
+        "ch13-s03-n0310",
+        "ch13-s03-n0311"
+      ]
+    },
+    {
+      "id": "c0053",
+      "audio_file": "c0053.mp3",
+      "duration_ms": 50539,
+      "bytes": 858669,
+      "sha256": "f249ed16d14a1a7105020e0f7d33f29079ebf75c48423b4da9142231fc9c57f9",
+      "sentence_ids": [
+        "ch13-s03-n0312",
+        "ch13-s03-n0313",
+        "ch13-s03-n0314",
+        "ch13-s03-n0315",
+        "ch13-s03-n0316",
+        "ch13-s03-n0317"
+      ]
+    },
+    {
+      "id": "c0054",
+      "audio_file": "c0054.mp3",
+      "duration_ms": 41135,
+      "bytes": 662445,
+      "sha256": "d52fb071181a280e4654d8ec3393fc1d1333a30d8eaa4a940f0f48eacabda2c8",
+      "sentence_ids": [
+        "ch13-s03-n0318",
+        "ch13-s03-n0319",
+        "ch13-s03-n0320",
+        "ch13-s03-n0321",
+        "ch13-s03-n0322",
+        "ch13-s03-n0323"
+      ]
+    },
+    {
+      "id": "c0055",
+      "audio_file": "c0055.mp3",
+      "duration_ms": 43964,
+      "bytes": 704301,
+      "sha256": "88bf17878ec15243936f65061cff603c670bb77504f99927fb30abed1ad84e7f",
+      "sentence_ids": [
+        "ch13-s03-n0324",
+        "ch13-s03-n0325",
+        "ch13-s03-n0326",
+        "ch13-s03-n0327",
+        "ch13-s03-n0328",
+        "ch13-s03-n0329"
+      ]
+    },
+    {
+      "id": "c0056",
+      "audio_file": "c0056.mp3",
+      "duration_ms": 27485,
+      "bytes": 445869,
+      "sha256": "a89aecafbce62119ef27fb52f066f1b644c20eb09f3f7b2a8e1fe5095cd5c672",
+      "sentence_ids": [
+        "ch13-s03-n0330",
+        "ch13-s03-n0331",
+        "ch13-s03-n0332",
+        "ch13-s03-n0333",
+        "ch13-s03-n0334",
+        "ch13-s03-n0335"
+      ]
+    },
+    {
+      "id": "c0057",
+      "audio_file": "c0057.mp3",
+      "duration_ms": 33327,
+      "bytes": 535725,
+      "sha256": "88399092edc6f53a0b005da19f167604152d1d181fb7d7ffdf1e6c90c2b5af33",
+      "sentence_ids": [
+        "ch13-s03-n0336",
+        "ch13-s03-n0337",
+        "ch13-s03-n0338",
+        "ch13-s03-n0339",
+        "ch13-s03-n0340",
+        "ch13-s03-n0341"
+      ]
+    },
+    {
+      "id": "c0058",
+      "audio_file": "c0058.mp3",
+      "duration_ms": 20485,
+      "bytes": 377517,
+      "sha256": "82d702822f4050e9b1ae8c22a5549ac102b0432605bb6387719c7ff39439539a",
+      "sentence_ids": [
+        "ch13-s03-n0342",
+        "ch13-s03-n0343",
+        "ch13-s03-n0344"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s03-n0001",
+      "text": "前面已经说过，大工业从生产工具的变革开始。",
+      "start_ms": 445,
+      "end_ms": 3725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s03-n0002",
+      "text": "在工厂里，经过变革的生产工具发展成一套各部分相互配合的机器系统。",
+      "start_ms": 3990,
+      "end_ms": 9215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s03-n0003",
+      "text": "在考察工人怎样作为人力材料被纳入这套机器系统以前，我们先来看这场变革给工人本身带来的一些普遍影响。",
+      "start_ms": 9630,
+      "end_ms": 16585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s03-n0004",
+      "text": "机器减少了生产对肌肉力量的需要，资本因此可以雇用体力较弱的人，也可以雇用身体尚未发育成熟、四肢却更灵活的人。",
+      "start_ms": 17445,
+      "end_ms": 26475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s03-n0005",
+      "text": "所以，资本主义一用上机器，首先出现的就是妇女劳动和儿童劳动！",
+      "start_ms": 26730,
+      "end_ms": 31615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s03-n0006",
+      "text": "机器本来能大量节省劳动、替代工人，却立刻成了增加雇佣工人数的手段。",
+      "start_ms": 32109,
+      "end_ms": 37454,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s03-n0007",
+      "text": "它把工人全家不分性别和年龄，都置于资本的直接支配之下。",
+      "start_ms": 125,
+      "end_ms": 4975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s03-n0008",
+      "text": "资本家强迫全家为自己劳动。",
+      "start_ms": 5645,
+      "end_ms": 7745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s03-n0009",
+      "text": "这不仅夺走了孩子玩耍的时间，也占用了家人原本自己安排、用来料理家庭生活的时间。",
+      "start_ms": 8305,
+      "end_ms": 14905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s03-n0010",
+      "text": "这类家务劳动本来只受家庭伦理约束。",
+      "start_ms": 15415,
+      "end_ms": 18235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s03-n0011",
+      "text": "一个成年工人的劳动力价值，取决于维持他本人及其家庭生活所必需的劳动时间。",
+      "start_ms": 18795,
+      "end_ms": 25445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s03-n0012",
+      "text": "机器把全家人都推向劳动力市场以后，原先集中在男工一人劳动力价值中的家庭生活费用，便分摊到全家几个人的劳动力价值上。",
+      "start_ms": 25960,
+      "end_ms": 36335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s03-n0013",
+      "text": "结果，男工的劳动力贬值了。",
+      "start_ms": 325,
+      "end_ms": 2295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s03-n0014",
+      "text": "比如，资本家购买一家四个人的劳动力，总支出或许比过去只雇一家之主更多，但他现在得到的是四个工作日，而不是一个。",
+      "start_ms": 2560,
+      "end_ms": 11165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s03-n0015",
+      "text": "四个人提供的剩余劳动越多，资本为全家劳动力支付的总价，相对于它得到的剩余劳动就越低。",
+      "start_ms": 11405,
+      "end_ms": 17495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s03-n0016",
+      "text": "现在，为了养活一家人，四个人都得为资本家工作。",
+      "start_ms": 18125,
+      "end_ms": 21525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s03-n0017",
+      "text": "每个人的工作日中，都有一部分劳动没有得到报酬，成了资本家的剩余劳动。",
+      "start_ms": 21840,
+      "end_ms": 26695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s03-n0018",
+      "text": "因此，机器从一开始就扩大了资本可以剥削的人数，同时也提高了剥削程度。",
+      "start_ms": 27020,
+      "end_ms": 32915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s03-n0019",
+      "text": "机器还彻底改变了资本关系借以成立的形式，也就是工人与资本家之间的契约。",
+      "start_ms": 135,
+      "end_ms": 4825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s03-n0020",
+      "text": "在商品交换关系中，原本有一个基本前提：资本家和工人以自由人和彼此独立的商品所有者身份相遇，一方拥有货币以及生产所需的工具和材料，另一方拥有劳动力。",
+      "start_ms": 5200,
+      "end_ms": 16185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s03-n0021",
+      "text": "但资本现在购买的劳动力，却由在法律上不能像成年人那样独立订立契约的儿童和少年提供。",
+      "start_ms": 16670,
+      "end_ms": 22645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s03-n0022",
+      "text": "过去，工人出售的是自己的劳动力，因为作为形式上自由的人，他可以支配它。",
+      "start_ms": 23090,
+      "end_ms": 27965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s03-n0023",
+      "text": "现在，他连妻子和孩子也拿去出售，自己成了奴隶贩子。",
+      "start_ms": 28585,
+      "end_ms": 32415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s03-n0024",
+      "text": "对童工的需求，甚至在形式上也很像过去美国报纸广告中对黑人奴隶的需求。",
+      "start_ms": 32908,
+      "end_ms": 38173,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s03-n0025",
+      "text": "比如，一位英国工厂监察员说：“我注意到辖区内一座重要工业城市的地方报纸上登了一则广告，抄录如下：需要12至20名男孩，看起来必须至少有13岁。",
+      "start_ms": 445,
+      "end_ms": 12115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s03-n0026",
+      "text": "每周工资4先令。",
+      "start_ms": 13015,
+      "end_ms": 14225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s03-n0027",
+      "text": "详情请询……” 广告之所以要求“看起来必须至少有13岁”，是因为按照当时的工厂法，未满13岁的儿童每天只能劳动6小时，年龄还必须由获得官方资格的医生出具证明。",
+      "start_ms": 14780,
+      "end_ms": 27515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s03-n0028",
+      "text": "工厂主想要的，正是实际不到13岁、外表却像已经13岁的男孩。",
+      "start_ms": 28010,
+      "end_ms": 32855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s03-n0029",
+      "text": "英国对此前20年的统计显示，工厂雇用的未满13岁儿童有时会突然大幅减少。",
+      "start_ms": 33425,
+      "end_ms": 39035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s03-n0030",
+      "text": "工厂监察员自己也承认，这很大程度上是认证医生造成的。",
+      "start_ms": 39825,
+      "end_ms": 43985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s03-n0031",
+      "text": "他们迎合资本家的剥削欲望和父母拿孩子做交易的需要，把儿童的年龄报大。",
+      "start_ms": 275,
+      "end_ms": 5315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s03-n0032",
+      "text": "在当时伦敦臭名昭著的贝思纳尔格林区，每周一和周二早晨都有公开市场，男女儿童从9岁起就在这里把自己的劳动力租给伦敦的丝织厂。",
+      "start_ms": 5800,
+      "end_ms": 15725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s03-n0033",
+      "text": "一个孩子说：“通常的条件是每周1先令8便士，这些钱归父母，另外给我自己2便士和茶水。”",
+      "start_ms": 16245,
+      "end_ms": 22755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s03-n0034",
+      "text": "契约只管一个星期。",
+      "start_ms": 23345,
+      "end_ms": 24695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s03-n0035",
+      "text": "市场上的场面和言语实在令人愤怒。",
+      "start_ms": 25160,
+      "end_ms": 27345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s03-n0036",
+      "text": "当时英国仍有妇女“从济贫院领出男孩，再按每周2先令6便士的价格租给任何愿意要的人”。",
+      "start_ms": 27860,
+      "end_ms": 34425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s03-n0037",
+      "text": "尽管已经有相关法律，英国仍至少有2000名男孩被亲生父母卖掉，充当活的烟囱清扫机器，哪怕当时早已有机器可以代替他们。",
+      "start_ms": 135,
+      "end_ms": 10725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s03-n0038",
+      "text": "机器由此改变了劳动力买卖双方的法律关系，使整项交易连自由人之间订立契约的外观也失去了。",
+      "start_ms": 11060,
+      "end_ms": 18755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s03-n0039",
+      "text": "这后来给英国议会提供了从法律上为国家干预工厂制度辩护的理由。",
+      "start_ms": 19635,
+      "end_ms": 24525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s03-n0040",
+      "text": "每当工厂法把一个过去不受限制的行业中的童工劳动限制为6小时，工厂主就会再次抱怨：一些父母把孩子带离这个受管制的行业，卖到仍有“劳动自由”的行业。",
+      "start_ms": 24950,
+      "end_ms": 37335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s03-n0041",
+      "text": "所谓“劳动自由”，就是强迫未满13岁的儿童像成年人一样劳动，因此还能卖出更高的价钱。",
+      "start_ms": 37884,
+      "end_ms": 44334,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s03-n0042",
+      "text": "资本天生要把各行业的劳动剥削条件拉到同一水平，并把这种“平等”当成自己与生俱来的权利。",
+      "start_ms": 45304,
+      "end_ms": 52494,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s03-n0043",
+      "text": "因此，一个行业依法限制童工，就会推动其他行业也受到同样限制。",
+      "start_ms": 495,
+      "end_ms": 5295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s03-n0044",
+      "text": "前面已经提到，机器制度使妇女、儿童和青少年的身体受到摧残。",
+      "start_ms": 5735,
+      "end_ms": 10025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s03-n0045",
+      "text": "它先在以机器为基础的工厂里把他们直接置于资本的剥削之下，随后又在其他行业间接地把他们置于同样的剥削之下。",
+      "start_ms": 10815,
+      "end_ms": 18785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s03-n0046",
+      "text": "这里我们只考察其中一点：工人子女出生后头几年的死亡率高得惊人。",
+      "start_ms": 19205,
+      "end_ms": 24055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s03-n0047",
+      "text": "当时英格兰有16个登记区，每10万名未满一岁的婴儿中，平均每年死亡人数只有9085人，其中一个区只有7047人。",
+      "start_ms": 24500,
+      "end_ms": 34715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s03-n0048",
+      "text": "24个区超过1万人、不到1.1万人，39个区超过1.1万人、不到1.2万人，48个区超过1.2万人、不到1.3万人，22个区超过2万人，25个区超过2.1万人，17个区超过2.2万人，11个区超过2.3万人。",
+      "start_ms": 35520,
+      "end_ms": 51150,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s03-n0049",
+      "text": "在胡、伍尔弗汉普顿、阿什顿安德莱恩和普雷斯顿，死亡人数超过2.4万人，在诺丁汉、斯托克波特和布拉德福德超过2.5万人，在威斯比奇为26001人，在曼彻斯特则达到26125人。",
+      "start_ms": 3625,
+      "end_ms": 17845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s03-n0050",
+      "text": "1861年的一项官方医学调查表明，除去各地的特殊情况，这种高死亡率主要是因为母亲在外工作，孩子因此受到忽视和虐待，比如食物不合适、吃不饱或被喂食鸦片类药物。",
+      "start_ms": 19945,
+      "end_ms": 31965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s03-n0051",
+      "text": "母亲与孩子之间还会产生不正常的疏离，甚至导致故意饿死或毒死孩子。",
+      "start_ms": 32422,
+      "end_ms": 37377,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s03-n0052",
+      "text": "相反，在那些很少雇用妇女的农业区，“儿童死亡率最低”。",
+      "start_ms": 37762,
+      "end_ms": 41457,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s03-n0053",
+      "text": "但1861年的调查委员会发现了一个出人意料的现象：北海沿岸一些完全从事农业的地区，未满一岁儿童的死亡率几乎赶上了名声最坏的工厂区。",
+      "start_ms": 42157,
+      "end_ms": 52497,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s03-n0054",
+      "text": "朱利安·亨特医生因此受命前往当地调查，他的报告后来收入《第六号公共卫生报告》。",
+      "start_ms": 52932,
+      "end_ms": 58607,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s03-n0055",
+      "text": "人们原以为，是疟疾等低洼沼泽地区常见的疾病夺走了这些孩子的生命。",
+      "start_ms": 425,
+      "end_ms": 6735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s03-n0056",
+      "text": "调查却得出了正好相反的结论：“赶走疟疾的原因，同时也造成了婴儿异常高的死亡率。",
+      "start_ms": 7180,
+      "end_ms": 14495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s03-n0057",
+      "text": "过去冬天是沼泽、夏天是贫瘠牧场的土地被改造成了肥沃的粮田。”",
+      "start_ms": 15040,
+      "end_ms": 20755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s03-n0058",
+      "text": "亨特医生询问了当地70名医生，他们对这一点的看法“惊人地一致”。",
+      "start_ms": 21415,
+      "end_ms": 26675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s03-n0059",
+      "text": "原因是，农业发生变革的同时，一套工业化的用工制度也被带进了农村：“已婚妇女同女孩和男孩结成劳动队，由一个叫作‘工头’的人整队承包，再按固定价钱提供给农场主。",
+      "start_ms": 27380,
+      "end_ms": 43025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s03-n0060",
+      "text": "这些劳动队往往要走出村庄许多英里，人们早晚都能在乡间道路上看见她们。",
+      "start_ms": 43589,
+      "end_ms": 49564,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s03-n0061",
+      "text": "妇女穿着短衬裙、相配的外裙和靴子，有时还穿长裤。",
+      "start_ms": 155,
+      "end_ms": 4465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s03-n0062",
+      "text": "她们外表强健健康，却因长期放荡而变坏。",
+      "start_ms": 4800,
+      "end_ms": 8185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s03-n0063",
+      "text": "她们喜欢这种忙碌而独立的生活，却毫不在意它会给子女带来什么灾难，孩子们只能留在家里日渐衰弱。”",
+      "start_ms": 8480,
+      "end_ms": 15265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s03-n0064",
+      "text": "工厂区的种种现象都在这里重演，暗中杀害儿童和给儿童服用鸦片类药物的情况甚至更加严重。",
+      "start_ms": 15900,
+      "end_ms": 22245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s03-n0065",
+      "text": "英国枢密院卫生官员、历年《公共卫生报告》主编西蒙医生说：“我了解大量雇用成年妇女造成的种种祸害，所以请原谅我对此深恶痛绝。”",
+      "start_ms": 22660,
+      "end_ms": 32295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s03-n0066",
+      "text": "工厂监察员R. 贝克也在一份官方报告中喊道：“如果能禁止所有有家庭的已婚妇女到任何工厂工作，那对英格兰的制造业地区确实是一件幸事。”",
+      "start_ms": 33052,
+      "end_ms": 42987,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s03-n0067",
+      "text": "妇女和儿童在资本主义剥削下受到怎样的道德摧残，恩格斯已经在《英国工人阶级状况》中作了全面论述，其他作者也写过很多，这里只作提醒。",
+      "start_ms": 175,
+      "end_ms": 8995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s03-n0068",
+      "text": "更需要说明的是，资本把尚未成熟的人变成制造剩余价值的机器，人为地摧毁了他们的智力。",
+      "start_ms": 9300,
+      "end_ms": 15705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s03-n0069",
+      "text": "这不同于自然形成的无知：后者只是让人的头脑荒废，却不会破坏它今后的发展能力。",
+      "start_ms": 15880,
+      "end_ms": 20365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s03-n0070",
+      "text": "前一种摧残终于迫使英国议会规定，在所有受工厂法约束的行业中，资本要在生产中“使用”未满14岁的儿童，就必须让他们接受初等教育。",
+      "start_ms": 21625,
+      "end_ms": 31635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s03-n0071",
+      "text": "但所谓教育条款写得敷衍，执行法律的机构又不健全，强制教育在很大程度上仍是一纸空文。",
+      "start_ms": 32011,
+      "end_ms": 38316,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s03-n0072",
+      "text": "工厂主还反对这项法律，并用各种手段逃避它。",
+      "start_ms": 38671,
+      "end_ms": 41426,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s03-n0073",
+      "text": "这些敷衍的条文和形同虚设的执行机制清楚地表明：资本只想使用儿童劳动，却不愿承担教育他们的责任。",
+      "start_ms": 265,
+      "end_ms": 7795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s03-n0074",
+      "text": "“应当责怪的只有立法机关。",
+      "start_ms": 8195,
+      "end_ms": 9815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s03-n0075",
+      "text": "它制定了一部骗人的法律，表面上关心儿童教育，却没有任何一条规定能保证实现这个声称的目的。",
+      "start_ms": 10140,
+      "end_ms": 16595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s03-n0076",
+      "text": "法律只规定，儿童每天必须在一个叫作学校的地方关上一定时间，也就是3小时。",
+      "start_ms": 17245,
+      "end_ms": 22655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s03-n0077",
+      "text": "雇用儿童的人每周还必须取得一张证明，由一个签名自称男教师或女教师的人开具。”",
+      "start_ms": 22950,
+      "end_ms": 28785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s03-n0078",
+      "text": "1844年修订工厂法以前，有些出勤证明甚至由教师画十字签名，因为教师本人也不会写字。",
+      "start_ms": 29705,
+      "end_ms": 36245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s03-n0079",
+      "text": "“我访问过一所开这种证明的学校。",
+      "start_ms": 165,
+      "end_ms": 2515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s03-n0080",
+      "text": "教师的无知令我十分震惊，我便问他：‘先生，请问您会读书吗？’",
+      "start_ms": 2970,
+      "end_ms": 7595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s03-n0081",
+      "text": "他回答：‘唔，会一点儿。",
+      "start_ms": 7950,
+      "end_ms": 10145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s03-n0082",
+      "text": "’为了替自己辩解，他又说：‘不管怎样，我总比我的学生强。",
+      "start_ms": 10150,
+      "end_ms": 13065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s03-n0083",
+      "text": "’1844年法案准备期间，工厂监察员揭露了这些所谓学校的可耻状况，可法律又迫使他们承认这些学校开出的证明有效。",
+      "start_ms": 14355,
+      "end_ms": 22445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s03-n0084",
+      "text": "他们争取到的全部成果，只是从1844年起，出勤证明上的数字必须由教师亲手填写，教师的姓名也必须由本人签署。”",
+      "start_ms": 22790,
+      "end_ms": 32125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s03-n0085",
+      "text": "苏格兰工厂监察员约翰·金凯德爵士也有类似的官方见闻：“我们访问的第一所学校由安·基林太太开办。",
+      "start_ms": 225,
+      "end_ms": 6485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s03-n0086",
+      "text": "我请她拼出自己的姓名，她一开口就错了，先说字母C，随后马上改口说自己的姓以K开头。",
+      "start_ms": 6800,
+      "end_ms": 13385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s03-n0087",
+      "text": "但我查看出勤证明簿上的签名时，发现她每次的拼法都不一样。",
+      "start_ms": 13725,
+      "end_ms": 17725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s03-n0088",
+      "text": "字迹也清楚表明，她没有能力教书。",
+      "start_ms": 18090,
+      "end_ms": 20515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s03-n0089",
+      "text": "她本人还承认不会填写登记簿……第二所学校的教室长15英尺、宽10英尺，这么小的房间里挤了75个孩子，他们尖声念着一些谁也听不懂的东西。”",
+      "start_ms": 20890,
+      "end_ms": 31165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s03-n0090",
+      "text": "“不过，孩子拿得到出勤证明、却学不到东西的，并不只有这种悲惨的学校。",
+      "start_ms": 31723,
+      "end_ms": 36968,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s03-n0091",
+      "text": "许多学校的教师虽然合格，也几乎无法教学，因为一屋子挤满了从3岁起、年龄各不相同的孩子，混乱得让人无从下手。",
+      "start_ms": 275,
+      "end_ms": 9155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s03-n0092",
+      "text": "教师的生活本来就很贫苦，他的收入又完全取决于能把多少孩子塞进一间屋子，从每个孩子身上收取几便士。",
+      "start_ms": 9965,
+      "end_ms": 17575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s03-n0093",
+      "text": "学校里的桌椅少得可怜，书本和其他教材也不足，闷热恶臭的空气更让这些可怜的孩子萎靡不振。",
+      "start_ms": 17960,
+      "end_ms": 24955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s03-n0094",
+      "text": "我去过许多这样的学校，看见一排排儿童无所事事。",
+      "start_ms": 25460,
+      "end_ms": 28735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s03-n0095",
+      "text": "可这也被证明为上过学，这些孩子在官方统计中也算作‘受过教育’。”",
+      "start_ms": 29035,
+      "end_ms": 33545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s03-n0096",
+      "text": "在苏格兰，工厂主尽量不雇用依法必须上学的儿童。",
+      "start_ms": 33875,
+      "end_ms": 37530,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s03-n0097",
+      "text": "“这一点足以证明，工厂主多么厌恶教育条款。”",
+      "start_ms": 0,
+      "end_ms": 3355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s03-n0098",
+      "text": "印花布等印染厂另有一部专门的工厂法，那里的情形荒唐得令人害怕。",
+      "start_ms": 4005,
+      "end_ms": 8945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s03-n0099",
+      "text": "按照法律，“儿童进印染厂工作以前，必须在紧接开工之日前的6个月中，至少上学30天、总计不少于150小时。",
+      "start_ms": 9405,
+      "end_ms": 18295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s03-n0100",
+      "text": "此后只要继续在厂里工作，每过6个月，也必须上学30天、总计150小时……上学时间必须在上午8点至下午6点之间。",
+      "start_ms": 18640,
+      "end_ms": 28275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s03-n0101",
+      "text": "同一天少于2个半小时或超过5小时，都不能计入这150小时。",
+      "start_ms": 28690,
+      "end_ms": 33575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s03-n0102",
+      "text": "通常，儿童连续30天在上午和下午上学，每天5小时。",
+      "start_ms": 33981,
+      "end_ms": 37711,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s03-n0103",
+      "text": "30天结束，法定的150小时凑够，用他们自己的话说，就是‘把书念完了’，他们便回到印染厂再干6个月，直到下一轮上学期限到来。",
+      "start_ms": 525,
+      "end_ms": 9465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s03-n0104",
+      "text": "他们随后又留在学校，直到再次‘把书念完’……许多男孩按规定上完150小时的课，在印染厂待了6个月再回学校时，和第一次入学时几乎没有区别……他们当然已经忘光了上次学到的一切。",
+      "start_ms": 9765,
+      "end_ms": 22465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s03-n0105",
+      "text": "还有一些印花布厂完全按照工厂的生产需要安排儿童上学。",
+      "start_ms": 22740,
+      "end_ms": 26285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s03-n0106",
+      "text": "每6个月规定的课时被拆成一次3至5小时，零零散散地分布在整整6个月里。",
+      "start_ms": 26640,
+      "end_ms": 32215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s03-n0107",
+      "text": "例如，儿童某天上午8点至11点上学，另一天改为下午1点至4点。",
+      "start_ms": 32681,
+      "end_ms": 37476,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s03-n0108",
+      "text": "随后他一连几天不来，又突然在下午3点至6点出现。",
+      "start_ms": 37986,
+      "end_ms": 40916,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s03-n0109",
+      "text": "有时他连续来三四天或一个星期，然后又消失三个星期或整整一个月。",
+      "start_ms": 295,
+      "end_ms": 5115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s03-n0110",
+      "text": "只有在雇主碰巧用不着他的零散日子里，他才回来补上几个零散小时。",
+      "start_ms": 5525,
+      "end_ms": 10605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s03-n0111",
+      "text": "孩子就这样从学校被推到工厂，又从工厂被推回学校，直到150小时一分不差地凑满为止。”",
+      "start_ms": 11045,
+      "end_ms": 17555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s03-n0112",
+      "text": "机器把大批妇女和儿童也纳入工厂的劳动队伍，终于打破了男工原有的抵抗。",
+      "start_ms": 18330,
+      "end_ms": 23895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s03-n0113",
+      "text": "在工场手工业中，男工原本还能以这种抵抗来对抗资本的专制。",
+      "start_ms": 24390,
+      "end_ms": 29085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s03-n0114",
+      "text": "机器是提高劳动生产率最强有力的手段，也就是能缩短生产一件商品所需的劳动时间。",
+      "start_ms": 29565,
+      "end_ms": 36125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s03-n0115",
+      "text": "但机器一旦成为资本的工具，在最先采用机器的行业里，它也立刻成为延长工作日最强有力的手段，把工作日推过人的身体所能承受的自然界限。",
+      "start_ms": 105,
+      "end_ms": 10105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s03-n0116",
+      "text": "一方面，机器创造了新的条件，让资本可以放任自己不断延长工作日的冲动。",
+      "start_ms": 10400,
+      "end_ms": 14605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s03-n0117",
+      "text": "另一方面，它又给资本增加了新的动机，使资本更加贪求他人的劳动。",
+      "start_ms": 16285,
+      "end_ms": 21455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s03-n0118",
+      "text": "首先，机器使生产工具的运动和操作摆脱工人，形成一套自行运转的机制。",
+      "start_ms": 21850,
+      "end_ms": 27365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s03-n0119",
+      "text": "单看机器本身，它就像一台工业上的永动机，只要不受作为助手的工人限制，便会不停地生产。",
+      "start_ms": 27995,
+      "end_ms": 34505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s03-n0120",
+      "text": "工人身体会疲劳，也有自己的意愿，这就是机器面对的自然限制。",
+      "start_ms": 34974,
+      "end_ms": 39439,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s03-n0121",
+      "text": "可是，机器作为资本，要通过资本家获得意识和意志。",
+      "start_ms": 145,
+      "end_ms": 4545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s03-n0122",
+      "text": "因此，资本总想把人这种会反抗、却又可以被逼迫的限制压到最低。",
+      "start_ms": 4860,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s03-n0123",
+      "text": "机器劳动看起来轻松，而妇女和儿童又更容易受资本摆布，这本来就已经削弱了工人的抵抗。",
+      "start_ms": 10885,
+      "end_ms": 18305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s03-n0124",
+      "text": "前面已经看到，机器转移到每件产品上的价值越少，机器的生产率就越高。",
+      "start_ms": 18740,
+      "end_ms": 24875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s03-n0125",
+      "text": "机器使用得越久，它转移的价值就能分摊到越多的产品上，每件商品分到的价值也就越少。",
+      "start_ms": 25510,
+      "end_ms": 33005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s03-n0126",
+      "text": "机器实际运转的总时间，取决于每天劳动过程持续多久，以及这样的工作日重复多少天。",
+      "start_ms": 33520,
+      "end_ms": 40275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s03-n0127",
+      "text": "机器的磨损当然不会和使用时间在数学上完全一致。",
+      "start_ms": 415,
+      "end_ms": 4075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s03-n0128",
+      "text": "即使先假定二者完全成正比，一台机器在7年半里每天运转16小时，与同一台机器在15年里每天运转8小时，累计运转时间也一样，转移给全部产品的价值也不会更多。",
+      "start_ms": 4530,
+      "end_ms": 16625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s03-n0129",
+      "text": "不过，在前一种情况下，机器的价值只用7年半就能收回，速度是后一种情况的两倍。",
+      "start_ms": 17355,
+      "end_ms": 24345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s03-n0130",
+      "text": "资本家也能在这7年半里，榨取本来要15年才能榨取的剩余劳动。",
+      "start_ms": 24865,
+      "end_ms": 29665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s03-n0131",
+      "text": "机器在物质上会受到两种磨损。",
+      "start_ms": 30085,
+      "end_ms": 32315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s03-n0132",
+      "text": "一种来自使用，就像硬币在流通中会磨损。",
+      "start_ms": 32684,
+      "end_ms": 35949,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s03-n0133",
+      "text": "另一种来自闲置，就像剑放在鞘里不用也会生锈，这是自然环境造成的损耗。",
+      "start_ms": 115,
+      "end_ms": 5605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s03-n0134",
+      "text": "第一种磨损大致随使用增加而增加。",
+      "start_ms": 6045,
+      "end_ms": 8515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s03-n0135",
+      "text": "第二种则在一定程度上相反，机器用得越少，这种损耗越大。",
+      "start_ms": 8935,
+      "end_ms": 13135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s03-n0136",
+      "text": "机器除了会在物质上磨损，还会因为技术进步而贬值，可以说这是它的“无形磨损”。",
+      "start_ms": 13620,
+      "end_ms": 18885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s03-n0137",
+      "text": "同样结构的机器变得更便宜，或者市场上出现了更好的机器，它的交换价值都会随之下降。",
+      "start_ms": 19440,
+      "end_ms": 25805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s03-n0138",
+      "text": "无论是哪一种情况，即使原有机器还很新、性能很好，决定它现有价值的也不再是制造它时实际花费的劳动时间，而是当下重造同样的机器，或制造更好机器所需的劳动时间。",
+      "start_ms": 26260,
+      "end_ms": 39235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s03-n0139",
+      "text": "因此，它已经不同程度地贬值。",
+      "start_ms": 325,
+      "end_ms": 2645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s03-n0140",
+      "text": "机器的全部价值收回得越快，遭受这种贬值的风险就越小。",
+      "start_ms": 2960,
+      "end_ms": 6745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s03-n0141",
+      "text": "工作日越长，收回价值所需的时间就越短。",
+      "start_ms": 6980,
+      "end_ms": 9885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s03-n0142",
+      "text": "一个行业刚开始采用机器时，更便宜的机器制造方法会接连出现，改进也不只涉及个别零件或装置，而会改变机器的整体结构。",
+      "start_ms": 10115,
+      "end_ms": 19335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s03-n0143",
+      "text": "所以在机器投入使用后的早期阶段，资本家最想延长工作日，尽快收回机器的价值。",
+      "start_ms": 19560,
+      "end_ms": 24915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s03-n0144",
+      "text": "其他条件不变，工作日长度也不变时，如果工人人数翻一倍，投在机器和厂房上的资本就要翻一倍，购买原料、辅助材料等所需的资本也同样要翻一倍。",
+      "start_ms": 25705,
+      "end_ms": 36525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s03-n0145",
+      "text": "可是，延长工作日也能扩大生产规模，却不必增加机器和厂房的投资。",
+      "start_ms": 485,
+      "end_ms": 6395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s03-n0146",
+      "text": "这样，剩余价值增加了，资本家为取得这些剩余价值所需的开支却相对减少了。",
+      "start_ms": 6855,
+      "end_ms": 12665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s03-n0147",
+      "text": "其实，在其他情况下，延长工作日也多少有这种效果。",
+      "start_ms": 13465,
+      "end_ms": 18015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s03-n0148",
+      "text": "但在机器生产中，这一点格外重要，因为投在机器等生产工具上的资本本来就占很大比重。",
+      "start_ms": 18515,
+      "end_ms": 25315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s03-n0149",
+      "text": "机器生产越发展，资本中锁在机器上的部分就越大。",
+      "start_ms": 25815,
+      "end_ms": 29675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s03-n0150",
+      "text": "这部分资本只有同工人的活劳动结合，才能不断增殖。",
+      "start_ms": 30140,
+      "end_ms": 34310,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s03-n0151",
+      "text": "一旦这种结合中断，机器的使用价值和交换价值都会受损。",
+      "start_ms": 495,
+      "end_ms": 4285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s03-n0152",
+      "text": "英国棉纺业巨头阿什沃思当时这样开导纳骚·W. 西尼尔教授：“一个农夫放下铁锹，在这段时间里闲置的资本只值18便士。",
+      "start_ms": 4825,
+      "end_ms": 13545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s03-n0153",
+      "text": "我们的人，也就是工厂工人，只要离开工厂，闲置的资本就值10万英镑。”",
+      "start_ms": 13840,
+      "end_ms": 18615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s03-n0154",
+      "text": "想想看！",
+      "start_ms": 19260,
+      "end_ms": 19785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s03-n0155",
+      "text": "价值10万英镑的资本，哪怕只“闲置”片刻！",
+      "start_ms": 20200,
+      "end_ms": 23235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s03-n0156",
+      "text": "我们的人居然还会离开工厂，简直天理难容！",
+      "start_ms": 23400,
+      "end_ms": 26125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s03-n0157",
+      "text": "西尼尔受了阿什沃思这番教导，也就得出结论：机器规模越大，延长工作日就越“值得追求”。",
+      "start_ms": 95,
+      "end_ms": 5385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s03-n0158",
+      "text": "机器生产相对剩余价值，有两种作用。",
+      "start_ms": 5900,
+      "end_ms": 8455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s03-n0159",
+      "text": "它一方面直接使劳动力贬值，另一方面又降低维持劳动力所需商品的价格，从而间接降低劳动力价值。",
+      "start_ms": 8720,
+      "end_ms": 15405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s03-n0160",
+      "text": "机器刚开始零星使用时，它还有另一种作用。",
+      "start_ms": 15870,
+      "end_ms": 18615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s03-n0161",
+      "text": "采用机器的资本家所雇用的劳动，生产力高于社会平均水平，因而同样一小时劳动表现为更多的社会劳动。",
+      "start_ms": 18950,
+      "end_ms": 26025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s03-n0162",
+      "text": "这样，机器产品按社会平均生产条件决定的价值，就高于它在这家企业中实际形成的个别价值。",
+      "start_ms": 26585,
+      "end_ms": 33725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s03-n0163",
+      "text": "资本家只需拿出比过去更小的一部分产品价值，便能补回劳动力一天的价值。",
+      "start_ms": 155,
+      "end_ms": 5755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s03-n0164",
+      "text": "在机器尚未普及、机器生产近似一种垄断的过渡时期，利润因此异常丰厚。",
+      "start_ms": 6140,
+      "end_ms": 12035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s03-n0165",
+      "text": "资本家便尽可能延长工作日，要把这段“初恋的美好时光”榨得一干二净。",
+      "start_ms": 12555,
+      "end_ms": 17835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s03-n0166",
+      "text": "利润越大，他对更多利润的欲望反而越强。",
+      "start_ms": 18270,
+      "end_ms": 21235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s03-n0167",
+      "text": "同一行业普遍使用机器以后，机器产品的社会价值就降到它的个别价值。",
+      "start_ms": 21690,
+      "end_ms": 26385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s03-n0168",
+      "text": "此时，剩余价值不是来自被机器替代的劳动力，而是来自资本家仍在机器旁雇用的劳动力。",
+      "start_ms": 27105,
+      "end_ms": 34085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s03-n0169",
+      "text": "剩余价值只由可变资本产生，它的总量取决于两个因素：剩余价值率和同时雇用的工人人数。",
+      "start_ms": 135,
+      "end_ms": 7005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s03-n0170",
+      "text": "工作日长度不变时，剩余价值率取决于必要劳动和剩余劳动各占多少。",
+      "start_ms": 7320,
+      "end_ms": 12435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s03-n0171",
+      "text": "同时雇用的工人人数，又取决于总资本中可变资本与不变资本的比例。",
+      "start_ms": 12825,
+      "end_ms": 17985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s03-n0172",
+      "text": "机器无论怎样提高生产率、压缩必要劳动来扩大剩余劳动，都只能在减少既定资本所雇工人人数的同时做到这一点。",
+      "start_ms": 18380,
+      "end_ms": 26925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s03-n0173",
+      "text": "原来用于购买劳动力的一部分可变资本，如今变成了机器，也就是不能生产剩余价值的不变资本。",
+      "start_ms": 27200,
+      "end_ms": 33685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s03-n0174",
+      "text": "比如，从两个工人身上不可能榨出和二十四个工人一样多的剩余价值。",
+      "start_ms": 34004,
+      "end_ms": 38629,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s03-n0175",
+      "text": "如果二十四个工人在十二小时内各提供一小时剩余劳动，合计就是二十四小时；两个工人一天的全部劳动也不过二十四小时。",
+      "start_ms": 85,
+      "end_ms": 7805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s03-n0176",
+      "text": "可见，用机器生产剩余价值，本身就包含一个矛盾：资本要提高剩余价值率，就得减少另一个决定剩余价值总量的因素，也就是工人人数。",
+      "start_ms": 8065,
+      "end_ms": 17855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s03-n0177",
+      "text": "当机器在一个行业中普及，机器产品的价值成为同类商品通行的社会价值时，这个矛盾就显露出来。",
+      "start_ms": 18310,
+      "end_ms": 24785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s03-n0178",
+      "text": "资本自己没有意识到其中的原因，却会在这个矛盾的推动下极端延长工作日。",
+      "start_ms": 25685,
+      "end_ms": 30575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s03-n0179",
+      "text": "它想用每个工人提供的更多剩余劳动，弥补受剥削工人人数相对减少造成的损失，不只增加相对剩余劳动，也增加绝对剩余劳动。",
+      "start_ms": 31028,
+      "end_ms": 40253,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s03-n0180",
+      "text": "资本主义使用机器，一方面制造出强烈的动机，推动资本无限延长工作日。",
+      "start_ms": 40803,
+      "end_ms": 46133,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s03-n0181",
+      "text": "机器还改变劳动方式和工人队伍的构成，削弱了工人抵抗这种趋势的能力。",
+      "start_ms": 535,
+      "end_ms": 5175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s03-n0182",
+      "text": "另一方面，资本开始雇用过去难以利用的工人群体，又把被机器排挤的工人抛向市场，由此造成一批过剩工人，他们不得不接受资本开出的条件。",
+      "start_ms": 5655,
+      "end_ms": 15975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s03-n0183",
+      "text": "因此，在现代工业的历史上，机器打破了工作日在道德和生理上的一切界限。",
+      "start_ms": 16415,
+      "end_ms": 21685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s03-n0184",
+      "text": "这里也出现了一个经济上的悖论：机器本来是缩短劳动时间最有力的手段，在资本手中却成了最可靠的工具，把工人及其家人的全部生活时间都变成可供资本增殖支配的劳动时间。",
+      "start_ms": 22020,
+      "end_ms": 34345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s03-n0185",
+      "text": "古代最伟大的思想家亚里士多德曾设想：“如果每件工具都能奉命工作，甚至预先领会命令，像代达罗斯的艺术品会自己活动，赫淮斯托斯的三脚架会自行从事神圣的工作，如果梭子也能自己织布，那么工匠师傅就不再需要助手，主人也不再需要奴隶。”",
+      "start_ms": 34889,
+      "end_ms": 52420,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s03-n0186",
+      "text": "生活在西塞罗时代的希腊诗人安提帕特，则把用于磨粮的水磨看作一切生产机器的原始形式，赞颂它把女奴从劳动中解放出来，让黄金时代重返人间。",
+      "start_ms": 75,
+      "end_ms": 12085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s03-n0187",
+      "text": "“异教徒，终究只是异教徒！”",
+      "start_ms": 12120,
+      "end_ms": 14195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s03-n0188",
+      "text": "聪明的巴斯夏发现了这一点，比他更聪明的麦克库洛赫还要更早：这些古人根本不懂政治经济学和基督教。",
+      "start_ms": 14890,
+      "end_ms": 22085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s03-n0189",
+      "text": "他们尤其不明白，机器是延长工作日最可靠的手段。",
+      "start_ms": 22410,
+      "end_ms": 26165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s03-n0190",
+      "text": "他们或许会为奴役某些人辩护，把这说成让另一些人得到全面发展的手段。",
+      "start_ms": 26620,
+      "end_ms": 31885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s03-n0191",
+      "text": "但是，为了把几个粗野或只受过一点教育的暴发户变成“杰出的纺纱家”“大型香肠制造商”和“有影响力的鞋油经销商”，就鼓吹奴役广大群众——这种特别属于基督教世界的本领，他们还没有学会。",
+      "start_ms": 32316,
+      "end_ms": 47381,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s03-n0192",
+      "text": "前面已经看到，资本利用机器无限延长工作日，后来激起了社会的反抗，因为这种做法威胁到社会生存的根基。",
+      "start_ms": 155,
+      "end_ms": 7885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s03-n0193",
+      "text": "反抗的结果，是法律对正常工作日作出限制。",
+      "start_ms": 8315,
+      "end_ms": 11075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s03-n0194",
+      "text": "在这个基础上，一个前面已经遇到的现象变得非常重要，那就是提高劳动强度。",
+      "start_ms": 11955,
+      "end_ms": 17685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s03-n0195",
+      "text": "分析绝对剩余价值时，我们主要考察劳动时间的长短，并暂时假定劳动强度不变。",
+      "start_ms": 18120,
+      "end_ms": 24505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s03-n0196",
+      "text": "现在要考察的是，资本怎样把对劳动时间长度的追求，转为对劳动强度的追求。",
+      "start_ms": 25090,
+      "end_ms": 31525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s03-n0197",
+      "text": "随着机器体系不断发展，操作机器的工人也积累了更多经验，劳动节奏越来越快，劳动强度也自然随之提高。",
+      "start_ms": 32052,
+      "end_ms": 40127,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s03-n0198",
+      "text": "到当时为止，英国在半个世纪里一面不断延长工作日，一面提高工厂劳动的强度。",
+      "start_ms": 145,
+      "end_ms": 5525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s03-n0199",
+      "text": "不过，这种劳动不是偶尔拼命干一阵，而是日复一日地按固定节奏重复。",
+      "start_ms": 5800,
+      "end_ms": 10555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s03-n0200",
+      "text": "它迟早会达到一个临界点：工作日的长度和劳动强度开始互相排斥。",
+      "start_ms": 11035,
+      "end_ms": 15815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s03-n0201",
+      "text": "工作日越长，劳动强度就只能越低；反过来，要进一步提高劳动强度，就必须缩短工作日。",
+      "start_ms": 16180,
+      "end_ms": 22655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s03-n0202",
+      "text": "后来，工人阶级日益强烈的反抗迫使国家强制缩短劳动时间，首先为真正采用机器生产的工厂规定了正常工作日。",
+      "start_ms": 23365,
+      "end_ms": 32125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s03-n0203",
+      "text": "资本从此再也不能靠延长工作日来增加剩余价值，于是全力加快机器体系的发展，转而生产相对剩余价值。",
+      "start_ms": 32619,
+      "end_ms": 40774,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s03-n0204",
+      "text": "相对剩余价值的形成方式也随之发生了变化。",
+      "start_ms": 445,
+      "end_ms": 2895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s03-n0205",
+      "text": "一般来说，提高劳动生产率，是让工人在同样时间内付出同样多的劳动，却生产出更多产品。",
+      "start_ms": 3090,
+      "end_ms": 9295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s03-n0206",
+      "text": "同一段劳动时间给全部产品增加的价值仍和过去一样，只是这份价值现在分散在更多产品上，所以每件商品的价值下降。",
+      "start_ms": 9510,
+      "end_ms": 17475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s03-n0207",
+      "text": "强制缩短工作日带来的变化则不同。",
+      "start_ms": 17820,
+      "end_ms": 19885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s03-n0208",
+      "text": "它不仅极大推动了生产率的提高和生产条件的节约，还迫使工人在更短的工作日里付出更多劳动。",
+      "start_ms": 20200,
+      "end_ms": 26265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s03-n0209",
+      "text": "工人必须更加用力，减少劳动时间里的空隙，把劳动压得更紧密，而且这种强度只有在较短的工作日内才能维持。",
+      "start_ms": 26600,
+      "end_ms": 34525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s03-n0210",
+      "text": "既然同样时间里实际付出了更多劳动，这部分增加的劳动量也就要按它本来的分量计算。",
+      "start_ms": 85,
+      "end_ms": 6565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s03-n0211",
+      "text": "因此，衡量劳动量时，除了看劳动持续了多久，还要看劳动有多密集。",
+      "start_ms": 6975,
+      "end_ms": 11955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s03-n0212",
+      "text": "在十小时工作日里，强度较高的一小时，包含的劳动可以等于甚至超过过去十二小时工作日里较松散的一小时。",
+      "start_ms": 12300,
+      "end_ms": 20115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s03-n0213",
+      "text": "因此，一小时的产品所含的价值，也可以等于甚至超过过去一又五分之一小时的产品。",
+      "start_ms": 20615,
+      "end_ms": 26655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s03-n0214",
+      "text": "劳动生产率提高会增加相对剩余价值，而劳动强度提高又带来另一层结果：过去八小时必要劳动之外有四小时剩余劳动，现在六又三分之二小时必要劳动之外只需三又三分之一小时剩余劳动，给资本家带来的价值总量仍与过去相同。",
+      "start_ms": 27000,
+      "end_ms": 45005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s03-n0215",
+      "text": "现在的问题是，资本怎样提高劳动强度？",
+      "start_ms": 45423,
+      "end_ms": 48328,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s03-n0216",
+      "text": "缩短工作日首先会产生一个直接效果：在一定限度内，劳动持续的时间越短，工人在每小时内能够发挥的力量越大。",
+      "start_ms": 115,
+      "end_ms": 8285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s03-n0217",
+      "text": "因此，缩短的时间可以由更大的用力程度来补偿。",
+      "start_ms": 8520,
+      "end_ms": 11915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s03-n0218",
+      "text": "资本再通过工资的支付方式，确保工人确实在更短时间里付出更多劳动。",
+      "start_ms": 12260,
+      "end_ms": 17155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s03-n0219",
+      "text": "在机器不起作用或作用很小的工场手工业中，比如制陶业，工厂法的实行清楚地证明，仅仅缩短工作日，就能显著提高劳动的规律性、均匀程度、秩序、连续性和用力程度。",
+      "start_ms": 17965,
+      "end_ms": 31555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s03-n0220",
+      "text": "但在机器占主导地位的工厂里，人们曾怀疑是否还会有这种效果，因为工人长期跟随机器连续而均匀的运动，早已受到极严格的纪律约束。",
+      "start_ms": 32116,
+      "end_ms": 42171,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s03-n0221",
+      "text": "1844年，英国讨论把工作日缩短到十二小时以下时，工厂主几乎一致声称：“监工在各个车间盯着工人，不让他们浪费时间”，“工人的警觉和注意力已经几乎没有提高的余地”。",
+      "start_ms": 43031,
+      "end_ms": 55611,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s03-n0222",
+      "text": "他们还说，如果机器运转等其他条件不变，“指望管理良好的工厂靠工人更加专心来显著增加产量，是荒唐的”。",
+      "start_ms": 305,
+      "end_ms": 8735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s03-n0223",
+      "text": "实验推翻了这种说法。",
+      "start_ms": 9320,
+      "end_ms": 10635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s03-n0224",
+      "text": "从1844年4月20日起，R. 加德纳先生把他在普雷斯顿的两家大工厂的每日劳动时间从十二小时减到十一小时。",
+      "start_ms": 10920,
+      "end_ms": 18235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s03-n0225",
+      "text": "大约一年后，结果表明：“同样的成本生产出了同样多的产品，所有工人在十一小时内挣到的工资，也和过去十二小时内一样多。”",
+      "start_ms": 19235,
+      "end_ms": 28645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s03-n0226",
+      "text": "纺纱和梳棉车间的实验这里暂且不谈，因为那里的机器速度还提高了2%。",
+      "start_ms": 29525,
+      "end_ms": 34715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s03-n0227",
+      "text": "织布车间则没有改变任何客观生产条件，而且那里织造的还是许多不同种类的轻薄花色织物。",
+      "start_ms": 35267,
+      "end_ms": 42187,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s03-n0228",
+      "text": "结果是：“1844年1月6日至4月20日，实行十二小时工作日时，每名工人的平均周工资为10先令1½便士。",
+      "start_ms": 375,
+      "end_ms": 8015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s03-n0229",
+      "text": "4月20日至6月29日，实行十一小时工作日时，平均周工资为10先令3½便士。”",
+      "start_ms": 8545,
+      "end_ms": 14635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s03-n0230",
+      "text": "十一小时内的产量超过了过去十二小时的产量，原因完全在于工人能更稳定地坚持劳动，也更少浪费时间。",
+      "start_ms": 14640,
+      "end_ms": 21255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s03-n0231",
+      "text": "工人拿到同样的工资，还多出一小时自由时间。",
+      "start_ms": 22005,
+      "end_ms": 24955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s03-n0232",
+      "text": "资本家则得到同样多的产品，并节省了一小时的煤、煤气等费用。",
+      "start_ms": 25390,
+      "end_ms": 29765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s03-n0233",
+      "text": "霍罗克斯和杰克逊两位先生的工厂也进行了类似实验，结果同样成功。",
+      "start_ms": 30124,
+      "end_ms": 34224,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s03-n0234",
+      "text": "一旦缩短工作日成为法律规定，工人就有可能在有限时间里付出更多力量，这为压紧劳动提供了主观条件。",
+      "start_ms": 135,
+      "end_ms": 7685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s03-n0235",
+      "text": "机器则在资本手中成为一种客观而有计划的手段，用来从工人身上榨出更多劳动。",
+      "start_ms": 8060,
+      "end_ms": 14085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s03-n0236",
+      "text": "办法有两种：一是加快机器速度，二是扩大同一个工人必须照看的机器数量，也就是扩大他的工作范围。",
+      "start_ms": 14420,
+      "end_ms": 21875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s03-n0237",
+      "text": "机器的改进，一方面是加强对工人压力的必要条件。",
+      "start_ms": 22290,
+      "end_ms": 25885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s03-n0238",
+      "text": "另一方面，劳动强度提高也会反过来推动机器改进。",
+      "start_ms": 26365,
+      "end_ms": 30025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s03-n0239",
+      "text": "工作日受到限制后，资本家还不得不更严格地节省生产费用。",
+      "start_ms": 30352,
+      "end_ms": 34822,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s03-n0240",
+      "text": "改进后的蒸汽机每分钟可以完成更多次活塞运动，还能节省动力。",
+      "start_ms": 275,
+      "end_ms": 4855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s03-n0241",
+      "text": "这样，同一台发动机可以带动规模更大的机器系统，而煤耗保持不变，甚至有所下降。",
+      "start_ms": 5130,
+      "end_ms": 11165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s03-n0242",
+      "text": "传动装置的改进减少了摩擦，并不断缩小各种传动轴的直径和重量。",
+      "start_ms": 11985,
+      "end_ms": 17125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s03-n0243",
+      "text": "这正是现代机器与旧机器一个十分明显的区别。",
+      "start_ms": 17520,
+      "end_ms": 20855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s03-n0244",
+      "text": "工作机的改进则有几种形式。",
+      "start_ms": 21360,
+      "end_ms": 23275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s03-n0245",
+      "text": "现代蒸汽织机速度更快、生产能力更强，机身反而更小。",
+      "start_ms": 23875,
+      "end_ms": 29045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s03-n0246",
+      "text": "纺纱机则扩大机身，同时扩大它所带工具的规模和数量。",
+      "start_ms": 115,
+      "end_ms": 4475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s03-n0247",
+      "text": "还有一些看似不起眼的细节改动，可以让工具运动得更快。",
+      "start_ms": 4840,
+      "end_ms": 8485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s03-n0248",
+      "text": "比如在19世纪50年代中期，自动走锭纺纱机的锭子速度就因此提高了五分之一。",
+      "start_ms": 8825,
+      "end_ms": 14195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s03-n0249",
+      "text": "英国从1832年开始实行十二小时工作日。",
+      "start_ms": 15415,
+      "end_ms": 18415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s03-n0250",
+      "text": "早在1836年，一位英国工厂主就说：“与过去相比，工厂里的劳动大大增加了，因为机器速度显著加快，要求工人更加专心，也更加卖力。”",
+      "start_ms": 18770,
+      "end_ms": 29505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s03-n0251",
+      "text": "1844年，当时的阿什利勋爵，也就是后来的沙夫茨伯里伯爵，在英国下议院列出了下面这些有文件为证的材料：",
+      "start_ms": 30634,
+      "end_ms": 38694,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s03-n0252",
+      "text": "“如今，在这些工厂生产环节工作的工人，劳动量已经是这类工序刚采用时的三倍。",
+      "start_ms": 0,
+      "end_ms": 5905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s03-n0253",
+      "text": "机器无疑替代了原本需要千百万人用肌肉完成的工作，但与此同时，机器越转越快，照管机器的工人承担的劳动也大幅增加……1815年，一个工人要照看一对走锭纺纱机，用12小时纺40号纱，必须跟着机器来回走8英里。",
+      "start_ms": 6300,
+      "end_ms": 23165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s03-n0254",
+      "text": "到1832年，纺同样的纱，12小时内要走20英里，往往还不止。",
+      "start_ms": 23540,
+      "end_ms": 28545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s03-n0255",
+      "text": "1825年，纺纱工在12小时内必须操作每台走锭纺纱机完成820次牵伸，两台合计1640次。",
+      "start_ms": 29320,
+      "end_ms": 36660,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s03-n0256",
+      "text": "1832年，每台增到2200次，合计4400次。",
+      "start_ms": 37536,
+      "end_ms": 40236,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s03-n0257",
+      "text": "1844年，每台2400次，合计4800次。",
+      "start_ms": 41886,
+      "end_ms": 45096,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s03-n0258",
+      "text": "有些地方要求的劳动量还要更大……我手头还有一份1842年的文件。",
+      "start_ms": 365,
+      "end_ms": 4235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s03-n0259",
+      "text": "它证明，劳动量正在不断增加。",
+      "start_ms": 4570,
+      "end_ms": 6705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s03-n0260",
+      "text": "原因不只是工人必须走更远的路，还因为产量增加了，工人人数却相对减少了。",
+      "start_ms": 6990,
+      "end_ms": 12045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s03-n0261",
+      "text": "此外，当时工厂还常用质量较差、加工起来更费力的棉花……梳棉车间的劳动量也大幅增加。",
+      "start_ms": 12585,
+      "end_ms": 19275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s03-n0262",
+      "text": "过去两个人分担的工作，现在一个人就要全部完成。",
+      "start_ms": 19590,
+      "end_ms": 22655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s03-n0263",
+      "text": "织布车间雇了很多人，其中多数是女性。",
+      "start_ms": 23010,
+      "end_ms": 25675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s03-n0264",
+      "text": "近几年，由于机器速度提高，这里的劳动量足足增加了10%。",
+      "start_ms": 165,
+      "end_ms": 4165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s03-n0265",
+      "text": "这份材料随后又列出纺纱和织机速度的数据：1838年每周纺18,000绞纱，1843年增到21,000绞。",
+      "start_ms": 4925,
+      "end_ms": 13125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s03-n0266",
+      "text": "1819年，蒸汽织机每分钟投梭60次，1842年达到140次。",
+      "start_ms": 13840,
+      "end_ms": 18505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s03-n0267",
+      "text": "这说明劳动量大幅增加。”",
+      "start_ms": 18905,
+      "end_ms": 20895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s03-n0268",
+      "text": "到1844年，在十二小时法的限制下，劳动强度已经达到如此惊人的程度。",
+      "start_ms": 20900,
+      "end_ms": 25955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s03-n0269",
+      "text": "因此，当时英国工厂主声称，劳动强度不可能再提高，继续缩短工作日就一定会减少产量，听起来似乎很有道理。",
+      "start_ms": 26815,
+      "end_ms": 35245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s03-n0270",
+      "text": "最能说明他们的推理为何看似合理的，是连一向严格监督他们的工厂监察员伦纳德·霍纳当时也说：",
+      "start_ms": 365,
+      "end_ms": 6795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s03-n0271",
+      "text": "“产量主要由机器速度决定，所以工厂主必然希望把机器开到尽可能快。",
+      "start_ms": 7400,
+      "end_ms": 11995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s03-n0272",
+      "text": "但这个最高速度必须满足三项条件：机器不会过快损坏，产品质量能够保持，工人也能跟上机器，而且不必付出超过自己能够长期承受的力气。",
+      "start_ms": 12605,
+      "end_ms": 22845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s03-n0273",
+      "text": "工厂主急于增产，常常把机器开得太快。",
+      "start_ms": 23665,
+      "end_ms": 26525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s03-n0274",
+      "text": "结果，机器故障和劣质产品造成的损失超过了提速增加的产量，他只好把速度降下来。",
+      "start_ms": 26940,
+      "end_ms": 32985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s03-n0275",
+      "text": "一个积极而精明的工厂主会找出机器可以达到的最高速度。",
+      "start_ms": 33376,
+      "end_ms": 37206,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s03-n0276",
+      "text": "因此，我认定，11小时不可能生产出12小时的产量。",
+      "start_ms": 375,
+      "end_ms": 4375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s03-n0277",
+      "text": "我还认为，按件计酬的工人会尽全力劳动，直到他所能长期维持的最高强度。”",
+      "start_ms": 4600,
+      "end_ms": 9715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s03-n0278",
+      "text": "尽管加德纳等人的实验已经提供了相反的证据，霍纳仍据此断定，把工作日进一步缩短到12小时以下，产量必然减少。",
+      "start_ms": 10565,
+      "end_ms": 19415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s03-n0279",
+      "text": "十年后，他再次引用自己1845年的这番顾虑，承认当时没有想到：工作日缩短以后，机器速度和工人的劳动强度竟会被推到远超他预想的程度。",
+      "start_ms": 19675,
+      "end_ms": 30885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s03-n0280",
+      "text": "现在来看1847年以后的时期。",
+      "start_ms": 31434,
+      "end_ms": 33649,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s03-n0281",
+      "text": "这一年，英国的棉纺、毛纺、丝织和亚麻工厂开始实行十小时法。",
+      "start_ms": 34014,
+      "end_ms": 39139,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s03-n0282",
+      "text": "“翼锭纺纱机的纱锭速度每分钟提高了500转，走锭纺纱机提高了1000转。",
+      "start_ms": 0,
+      "end_ms": 5625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s03-n0283",
+      "text": "具体说，翼锭纺纱机的纱锭在1839年每分钟转4500次，到1862年达到5000次。",
+      "start_ms": 6420,
+      "end_ms": 12515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s03-n0284",
+      "text": "走锭纺纱机的纱锭则从每分钟5000次增到6000次。",
+      "start_ms": 13420,
+      "end_ms": 16365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s03-n0285",
+      "text": "前者提速十分之一，后者提速六分之一。”",
+      "start_ms": 17700,
+      "end_ms": 19885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s03-n0286",
+      "text": "1852年，曼彻斯特附近帕特里克罗夫特的著名土木工程师詹姆斯·内斯密写信给伦纳德·霍纳，说明1848至1852年间蒸汽机的改进。",
+      "start_ms": 20645,
+      "end_ms": 30525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s03-n0287",
+      "text": "他先指出，官方工厂统计一直按蒸汽机在1828年的效能估算马力，这种“蒸汽马力”已经只剩名义，只能用作实际动力的一个指标。",
+      "start_ms": 31034,
+      "end_ms": 40389,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s03-n0288",
+      "text": "接着他说：“毫无疑问，采用现代改进以后，同样重量的蒸汽设备平均能比过去多做50%的工作，很多时候甚至只需改造原来那台机器就能做到。",
+      "start_ms": 255,
+      "end_ms": 10715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s03-n0289",
+      "text": "在许多情况下，同一台蒸汽机在机器速度限制为每分钟220英尺的年代只能提供50马力，如今消耗的煤更少，却能提供100马力以上……同样标称马力的现代蒸汽机，实际功率比过去更大。",
+      "start_ms": 11515,
+      "end_ms": 26075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s03-n0290",
+      "text": "这是因为蒸汽机的结构得到改进，锅炉体积缩小、构造改善，等等……所以，按名义马力计算，雇用的工人数和过去相同。",
+      "start_ms": 26510,
+      "end_ms": 35840,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s03-n0291",
+      "text": "但与实际带动的机器规模相比，所需工人数已经减少。”",
+      "start_ms": 36225,
+      "end_ms": 40010,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s03-n0292",
+      "text": "1850年，英国工厂用134,217名义马力带动25,638,716枚纱锭和301,445台织机。",
+      "start_ms": 41090,
+      "end_ms": 49050,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s03-n0293",
+      "text": "到1856年，纱锭增至33,503,580枚，织机增至369,205台。",
+      "start_ms": 49056,
+      "end_ms": 55331,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s03-n0294",
+      "text": "如果每台机器所需的马力仍和1850年相同，1856年就需要175,000马力。",
+      "start_ms": 105,
+      "end_ms": 4975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s03-n0295",
+      "text": "但官方统计只有161,435马力，比按1850年标准计算的数量少了1万多马力。",
+      "start_ms": 5280,
+      "end_ms": 10995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s03-n0296",
+      "text": "“1856年最新官方统计确认了这些事实。",
+      "start_ms": 11000,
+      "end_ms": 14405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s03-n0297",
+      "text": "工厂制度正在飞速扩张，机器相对于工人的数量增加了。",
+      "start_ms": 14750,
+      "end_ms": 18505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s03-n0298",
+      "text": "改进后的蒸汽机更有效地利用动力，因此能够带动总重量更大的机器设备。",
+      "start_ms": 18890,
+      "end_ms": 23545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s03-n0299",
+      "text": "工作机得到改进，生产方法发生变化，机器速度提高，再加上其他许多原因，产量也随之增加。”",
+      "start_ms": 24105,
+      "end_ms": 30995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s03-n0300",
+      "text": "“各种机器都经过重大改进，生产能力大幅提高。",
+      "start_ms": 0,
+      "end_ms": 3255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s03-n0301",
+      "text": "毫无疑问，缩短工作日……刺激了这些改进。",
+      "start_ms": 3660,
+      "end_ms": 6525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s03-n0302",
+      "text": "机器的改进加上工人劳动强度提高，使工作日即使缩短两小时，也就是缩短六分之一，产量至少仍能达到过去较长工作日的水平。”",
+      "start_ms": 6920,
+      "end_ms": 16285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s03-n0303",
+      "text": "工厂主的财富怎样随着劳动力受到更强烈的榨取而增长，只看一个事实就够了：1838—1850年，英国的棉纺等工厂平均每年增加32家，1850—1856年则平均每年增加86家。",
+      "start_ms": 16830,
+      "end_ms": 31395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s03-n0304",
+      "text": "1848—1856年实行十小时工作日，英国工业已经发展得很快。",
+      "start_ms": 31570,
+      "end_ms": 36575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s03-n0305",
+      "text": "但1856—1862年这六年的发展，又远远超过了前八年。",
+      "start_ms": 36895,
+      "end_ms": 40885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s03-n0306",
+      "text": "以丝织业为例，纱锭从1856年的1,093,799枚增加到1862年的1,388,544枚，织机从9,260台增加到10,709台，工人人数却从56,137人减少到52,429人。",
+      "start_ms": 425,
+      "end_ms": 17485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s03-n0307",
+      "text": "纱锭增加了26.9%，织机增加了15.6%，工人则减少了7%。",
+      "start_ms": 17490,
+      "end_ms": 22675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s03-n0308",
+      "text": "精纺毛织业在1850年使用875,830枚纱锭，1856年增加到1,324,549枚，增幅为51.2%。",
+      "start_ms": 22815,
+      "end_ms": 30585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s03-n0309",
+      "text": "1862年又降到1,289,172枚，降幅为2.7%。",
+      "start_ms": 31573,
+      "end_ms": 36113,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s03-n0310",
+      "text": "不过，1856年的统计包括并线锭，1862年的统计没有包括。",
+      "start_ms": 36118,
+      "end_ms": 41753,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s03-n0311",
+      "text": "扣除这部分差别，1856年以后纱锭数量基本没有变化。",
+      "start_ms": 41758,
+      "end_ms": 47263,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s03-n0312",
+      "text": "但从1850年起，许多纱锭和织机的运转速度提高了一倍。",
+      "start_ms": 265,
+      "end_ms": 4415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s03-n0313",
+      "text": "精纺毛织业的蒸汽织机从1850年的32,617台，增加到1856年的38,956台和1862年的43,048台。",
+      "start_ms": 4920,
+      "end_ms": 13925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s03-n0314",
+      "text": "这个行业雇用的工人，1850年为79,737人，1856年为87,794人，1862年为86,063人。",
+      "start_ms": 15645,
+      "end_ms": 24345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s03-n0315",
+      "text": "但其中不满14岁的童工，却从1850年的9,956人增加到1856年的11,228人和1862年的13,178人。",
+      "start_ms": 26005,
+      "end_ms": 33675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s03-n0316",
+      "text": "因此，同1856年相比，1862年的织机大幅增加，工人总数反而减少，受剥削的童工却更多了。",
+      "start_ms": 33684,
+      "end_ms": 41929,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s03-n0317",
+      "text": "1863年4月27日，议员费兰德在英国下议院说：“我代表兰开夏和柴郡16个地区的工人代表发言。",
+      "start_ms": 42664,
+      "end_ms": 50389,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s03-n0318",
+      "text": "他们告诉我，机器不断改进，工厂里的劳动也随之不断加重。",
+      "start_ms": 95,
+      "end_ms": 4515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s03-n0319",
+      "text": "过去，一个工人带着助手看管两台织机。",
+      "start_ms": 4980,
+      "end_ms": 8105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s03-n0320",
+      "text": "现在，他没有助手也要看管三台，一个人看管四台也并不少见。",
+      "start_ms": 8460,
+      "end_ms": 12675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s03-n0321",
+      "text": "事实表明，过去12小时的劳动量，如今被压进了不到10小时。",
+      "start_ms": 13515,
+      "end_ms": 18355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s03-n0322",
+      "text": "由此不难看出，此前几年里，工厂工人的负担增加到了何等惊人的程度。”",
+      "start_ms": 18745,
+      "end_ms": 24205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s03-n0323",
+      "text": "所以，尽管工厂监察员一直赞扬1844年和1850年工厂法的良好成果，而且这种赞扬完全有道理，他们仍不得不承认：缩短工作日已经使劳动强度上升到摧毁工人健康，也就是摧毁劳动力本身的程度。",
+      "start_ms": 24685,
+      "end_ms": 40985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s03-n0324",
+      "text": "“在大多数棉纺、精纺毛织和丝织厂里，机器在此前几年大幅提速。",
+      "start_ms": 175,
+      "end_ms": 6325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s03-n0325",
+      "text": "为了跟上机器，工人必须始终处在令人精疲力竭的紧张状态。",
+      "start_ms": 6815,
+      "end_ms": 11285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s03-n0326",
+      "text": "格林豪医生在他当时最新发表的出色报告中发现，肺病死亡率高得反常，这种紧张状态似乎正是原因之一。”",
+      "start_ms": 11665,
+      "end_ms": 19915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s03-n0327",
+      "text": "毫无疑问，一旦法律彻底堵住延长工作日这条路，资本就会系统地提高劳动强度作为补偿，还会把机器的每一次改进都变成加紧榨取劳动力的手段。",
+      "start_ms": 20380,
+      "end_ms": 31655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s03-n0328",
+      "text": "这样发展下去，很快又会到达一个转折点，不得不再次缩短工时。",
+      "start_ms": 31999,
+      "end_ms": 37024,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s03-n0329",
+      "text": "另一方面，从1848年到1867年的十小时工作日时期，英国工业突飞猛进。",
+      "start_ms": 37359,
+      "end_ms": 43814,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s03-n0330",
+      "text": "这个时期取得的进步，远远超过1833—1847年十二小时工作日时期取得的进步。",
+      "start_ms": 155,
+      "end_ms": 6275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s03-n0331",
+      "text": "而十二小时制时期的进步，又超过工厂制度实行以来此前半个世纪的进步。",
+      "start_ms": 6595,
+      "end_ms": 11555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s03-n0332",
+      "text": "那半个世纪里，工作日不受任何限制。",
+      "start_ms": 12405,
+      "end_ms": 15225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s03-n0333",
+      "text": "出口数量",
+      "start_ms": 15620,
+      "end_ms": 16345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s03-n0334",
+      "text": "出口价值（英镑）",
+      "start_ms": 16345,
+      "end_ms": 17435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s03-n0335",
+      "text": "丝织物一行的统计单位在原表中发生了变化：1851年和1860年按磅统计，1865年按码统计，因此这些数字不能直接横向比较。",
+      "start_ms": 17780,
+      "end_ms": 27335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s03-n0336",
+      "text": "——译者注",
+      "start_ms": 0,
+      "end_ms": 775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s03-n0337",
+      "text": "资料见英国政府蓝皮书《联合王国统计摘要》第8号和第13号，伦敦，1861年、1866年。",
+      "start_ms": 775,
+      "end_ms": 7305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s03-n0338",
+      "text": "兰开夏的工厂数量在1839—1850年只增加了4%，1850—1856年增加了19%，1856—1862年增加了33%。",
+      "start_ms": 7570,
+      "end_ms": 17025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s03-n0339",
+      "text": "把1839—1850年和1850—1862年分别作为整体来看，工人人数的绝对数虽然增加，相对于工厂数量却下降了。",
+      "start_ms": 17545,
+      "end_ms": 26145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s03-n0340",
+      "text": "参见《工厂监察员报告，截至1862年10月31日》，第63页。",
+      "start_ms": 26545,
+      "end_ms": 31385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s03-n0341",
+      "text": "兰开夏以棉纺织业为主。",
+      "start_ms": 31732,
+      "end_ms": 33177,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s03-n0342",
+      "text": "只看它在英格兰、威尔士、苏格兰和爱尔兰同类工厂中所占的比重，就能知道它在整个纱线和织物生产中的地位：工厂占45.2%，纱锭占83.3%，蒸汽织机占81.4%，带动这些机器的蒸汽动力占72.6%，工人占58.2%。",
+      "start_ms": 465,
+      "end_ms": 18675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch13-s03-n0343",
+      "text": "（同上，第62—63页。",
+      "start_ms": 18680,
+      "end_ms": 20305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch13-s03-n0344",
+      "text": "）",
+      "start_ms": 20305,
+      "end_ms": 20335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0058"
+    }
+  ]
+}

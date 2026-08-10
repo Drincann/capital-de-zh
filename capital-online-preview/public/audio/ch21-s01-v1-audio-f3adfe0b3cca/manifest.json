@@ -1,0 +1,2029 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch21-s01-v1-audio-f3adfe0b3cca",
+  "unit_id": "ch21-s01",
+  "translation_version_id": "ch21-s01-v1",
+  "translation_sha256": "24e8ad3588b96eac7ca8f64379a6fa1323656178e3881c8d6412d2bf861f9049",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T20:05:16.678Z",
+  "completed_at": "2026-08-04T20:08:11.084Z",
+  "duration_ms": 1211856,
+  "sentence_count": 191,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 39025,
+      "bytes": 624813,
+      "sha256": "5f9198a425a7e9fd3e31f9395c63b32701401a8c17394d78f65c15ea33cf9404",
+      "sentence_ids": [
+        "ch21-s01-n0001",
+        "ch21-s01-n0002",
+        "ch21-s01-n0003",
+        "ch21-s01-n0004",
+        "ch21-s01-n0005",
+        "ch21-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 29325,
+      "bytes": 473901,
+      "sha256": "5349b609b6baf80b37b8ebc7d3731741be9a9c406f80a4ba06dda51ea7070bdf",
+      "sentence_ids": [
+        "ch21-s01-n0007",
+        "ch21-s01-n0008",
+        "ch21-s01-n0009",
+        "ch21-s01-n0010",
+        "ch21-s01-n0011",
+        "ch21-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 33334,
+      "bytes": 535341,
+      "sha256": "50749babaee885534fb38e8f778471f9673ddcd2d50693d8169a17d3bf9cc459",
+      "sentence_ids": [
+        "ch21-s01-n0013",
+        "ch21-s01-n0014",
+        "ch21-s01-n0015",
+        "ch21-s01-n0016",
+        "ch21-s01-n0017",
+        "ch21-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 43485,
+      "bytes": 704301,
+      "sha256": "bb5913b2850b55ef5f3410fdc4662d800c6131d078f917b4b890a9df7c2771b3",
+      "sentence_ids": [
+        "ch21-s01-n0019",
+        "ch21-s01-n0020",
+        "ch21-s01-n0021",
+        "ch21-s01-n0022",
+        "ch21-s01-n0023",
+        "ch21-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 35165,
+      "bytes": 563757,
+      "sha256": "aec36ba8c49a1b4d18e55a42b97eaec242c8d671b0ee06a333df3b1b23e9eb71",
+      "sentence_ids": [
+        "ch21-s01-n0025",
+        "ch21-s01-n0026",
+        "ch21-s01-n0027",
+        "ch21-s01-n0028",
+        "ch21-s01-n0029",
+        "ch21-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 27625,
+      "bytes": 452013,
+      "sha256": "1b9ea67b7d872c88475725ce0150a4638e664ff12954c4aefb93bcf1677e2e25",
+      "sentence_ids": [
+        "ch21-s01-n0031",
+        "ch21-s01-n0032",
+        "ch21-s01-n0033",
+        "ch21-s01-n0034",
+        "ch21-s01-n0035",
+        "ch21-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 39074,
+      "bytes": 627501,
+      "sha256": "a00af081f38acfb8597025eb231e5833af8759bc69bffa9aafa25a18d44f3a65",
+      "sentence_ids": [
+        "ch21-s01-n0037",
+        "ch21-s01-n0038",
+        "ch21-s01-n0039",
+        "ch21-s01-n0040",
+        "ch21-s01-n0041",
+        "ch21-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 41428,
+      "bytes": 662829,
+      "sha256": "8f62c9b849f7065f5bb1891183986d0c3a2cf8cde81e4f86293047dc02ab2dbd",
+      "sentence_ids": [
+        "ch21-s01-n0043",
+        "ch21-s01-n0044",
+        "ch21-s01-n0045",
+        "ch21-s01-n0046",
+        "ch21-s01-n0047",
+        "ch21-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 45221,
+      "bytes": 730029,
+      "sha256": "cdd51175a60e954c633e14d239302f019943c91a642e3cb683f76df6c2238c4b",
+      "sentence_ids": [
+        "ch21-s01-n0049",
+        "ch21-s01-n0050",
+        "ch21-s01-n0051",
+        "ch21-s01-n0052",
+        "ch21-s01-n0053",
+        "ch21-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 60246,
+      "bytes": 966573,
+      "sha256": "6543a20eb921021e511a372cc7fa7c57b1190158d96bb888896617396bd07a5a",
+      "sentence_ids": [
+        "ch21-s01-n0055",
+        "ch21-s01-n0056",
+        "ch21-s01-n0057",
+        "ch21-s01-n0058",
+        "ch21-s01-n0059",
+        "ch21-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 45361,
+      "bytes": 727725,
+      "sha256": "35220c1dc0bb4fd0dbe82cba044dd094ce5fae077ff981199ab49ef6c2065863",
+      "sentence_ids": [
+        "ch21-s01-n0061",
+        "ch21-s01-n0062",
+        "ch21-s01-n0063",
+        "ch21-s01-n0064",
+        "ch21-s01-n0065",
+        "ch21-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 22975,
+      "bytes": 370989,
+      "sha256": "a3becf7feabb323ab676b1916022027b7fc10f9e1184a767e3c64b78d60c9eed",
+      "sentence_ids": [
+        "ch21-s01-n0067",
+        "ch21-s01-n0068",
+        "ch21-s01-n0069",
+        "ch21-s01-n0070",
+        "ch21-s01-n0071",
+        "ch21-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 39701,
+      "bytes": 640557,
+      "sha256": "4d0e18ae528fb32f430d1a3144c9282229ed92c795e4bbef9ae1e5909bf93e2c",
+      "sentence_ids": [
+        "ch21-s01-n0073",
+        "ch21-s01-n0074",
+        "ch21-s01-n0075",
+        "ch21-s01-n0076",
+        "ch21-s01-n0077",
+        "ch21-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 42669,
+      "bytes": 685101,
+      "sha256": "e5c40ccd8fe12e03c86195e6d15acdf3c9295781ed70eba29627c702d7abd179",
+      "sentence_ids": [
+        "ch21-s01-n0079",
+        "ch21-s01-n0080",
+        "ch21-s01-n0081",
+        "ch21-s01-n0082",
+        "ch21-s01-n0083",
+        "ch21-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 23975,
+      "bytes": 387885,
+      "sha256": "693ebfbaf76ad0a71109778d455a9b977c00abc93151376834a65fbd73dc7f74",
+      "sentence_ids": [
+        "ch21-s01-n0085",
+        "ch21-s01-n0086",
+        "ch21-s01-n0087",
+        "ch21-s01-n0088",
+        "ch21-s01-n0089",
+        "ch21-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 25545,
+      "bytes": 415917,
+      "sha256": "44653a32501438d68c97e9040e0b4ef4bf8c31d3d2d2cf873f2b08fa9ba9bdb6",
+      "sentence_ids": [
+        "ch21-s01-n0091",
+        "ch21-s01-n0092",
+        "ch21-s01-n0093",
+        "ch21-s01-n0094",
+        "ch21-s01-n0095",
+        "ch21-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 37617,
+      "bytes": 605229,
+      "sha256": "6d27f164f5b3612b67e6daf8ce5b3966fc0d0183030e8b4663c5e362c9290279",
+      "sentence_ids": [
+        "ch21-s01-n0097",
+        "ch21-s01-n0098",
+        "ch21-s01-n0099",
+        "ch21-s01-n0100",
+        "ch21-s01-n0101",
+        "ch21-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 53603,
+      "bytes": 857517,
+      "sha256": "bde96fbbaca1f3ccc4928e7032a1ba624e728995f6b0868faa86f72b9e7db0cc",
+      "sentence_ids": [
+        "ch21-s01-n0103",
+        "ch21-s01-n0104",
+        "ch21-s01-n0105",
+        "ch21-s01-n0106",
+        "ch21-s01-n0107",
+        "ch21-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 38795,
+      "bytes": 628269,
+      "sha256": "4df51a891f2321ca3c69575d4d1f7af51d6888c1d8e4dcd6262f9960c97a883e",
+      "sentence_ids": [
+        "ch21-s01-n0109",
+        "ch21-s01-n0110",
+        "ch21-s01-n0111",
+        "ch21-s01-n0112",
+        "ch21-s01-n0113",
+        "ch21-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 41635,
+      "bytes": 669357,
+      "sha256": "cb6bf28f4f7d3bb7b16f65556731b37fa4a1ca284d7a3a7bc982726521353072",
+      "sentence_ids": [
+        "ch21-s01-n0115",
+        "ch21-s01-n0116",
+        "ch21-s01-n0117",
+        "ch21-s01-n0118",
+        "ch21-s01-n0119",
+        "ch21-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 42680,
+      "bytes": 682413,
+      "sha256": "6a36bbad8e991aed88588d3d88296988ddfbe6070b4ac62958f93a6c3e4d9a04",
+      "sentence_ids": [
+        "ch21-s01-n0121",
+        "ch21-s01-n0122",
+        "ch21-s01-n0123",
+        "ch21-s01-n0124",
+        "ch21-s01-n0125",
+        "ch21-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 36425,
+      "bytes": 582189,
+      "sha256": "c49e2aa9155608984c33ef48f31684b3922ab89c1d005b4fd387ad82d81be7af",
+      "sentence_ids": [
+        "ch21-s01-n0127",
+        "ch21-s01-n0128",
+        "ch21-s01-n0129",
+        "ch21-s01-n0130",
+        "ch21-s01-n0131",
+        "ch21-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 45184,
+      "bytes": 733485,
+      "sha256": "ac686289c886a4f376d7010016757e33020e40701c9500655d01fcb3793af473",
+      "sentence_ids": [
+        "ch21-s01-n0133",
+        "ch21-s01-n0134",
+        "ch21-s01-n0135",
+        "ch21-s01-n0136",
+        "ch21-s01-n0137",
+        "ch21-s01-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 29975,
+      "bytes": 480429,
+      "sha256": "de311e1ef19729508ca4667cb8a639ae8bc06a99ac08c640d443292ac26e6b16",
+      "sentence_ids": [
+        "ch21-s01-n0139",
+        "ch21-s01-n0140",
+        "ch21-s01-n0141",
+        "ch21-s01-n0142",
+        "ch21-s01-n0143",
+        "ch21-s01-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 42898,
+      "bytes": 685485,
+      "sha256": "fe4a9bd751959b6da364baf00748f1e1e289b25e1ae60ec22c5c4605057678e4",
+      "sentence_ids": [
+        "ch21-s01-n0145",
+        "ch21-s01-n0146",
+        "ch21-s01-n0147",
+        "ch21-s01-n0148",
+        "ch21-s01-n0149",
+        "ch21-s01-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 41830,
+      "bytes": 669357,
+      "sha256": "6764bb6bbe1af37a1eeed17d770cf5c22001c12f6f0e9cfadfeb9b96d578a5c2",
+      "sentence_ids": [
+        "ch21-s01-n0151",
+        "ch21-s01-n0152",
+        "ch21-s01-n0153",
+        "ch21-s01-n0154",
+        "ch21-s01-n0155",
+        "ch21-s01-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 23425,
+      "bytes": 377901,
+      "sha256": "9d78fcdd39d4f93c0f1c901ef800bfbbf708875e5bc23ee073780a771dc4536f",
+      "sentence_ids": [
+        "ch21-s01-n0157",
+        "ch21-s01-n0158",
+        "ch21-s01-n0159",
+        "ch21-s01-n0160",
+        "ch21-s01-n0161",
+        "ch21-s01-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 26035,
+      "bytes": 423213,
+      "sha256": "bf89a03dd8f3a61dcb584c78ec6dfbabd5a52790d74b3fe588ebebc54d37c59b",
+      "sentence_ids": [
+        "ch21-s01-n0163",
+        "ch21-s01-n0164",
+        "ch21-s01-n0165",
+        "ch21-s01-n0166",
+        "ch21-s01-n0167",
+        "ch21-s01-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 31975,
+      "bytes": 515373,
+      "sha256": "e7d54235d516602be5a6c3aa2402dcf7631dc835cbd624949793e59dbe4a0434",
+      "sentence_ids": [
+        "ch21-s01-n0169",
+        "ch21-s01-n0170",
+        "ch21-s01-n0171",
+        "ch21-s01-n0172",
+        "ch21-s01-n0173",
+        "ch21-s01-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 49059,
+      "bytes": 784173,
+      "sha256": "6a923612fa1b5b3c9752d68c6764c3675d7405888c9bc887e8177c1104cc78f3",
+      "sentence_ids": [
+        "ch21-s01-n0175",
+        "ch21-s01-n0176",
+        "ch21-s01-n0177",
+        "ch21-s01-n0178",
+        "ch21-s01-n0179",
+        "ch21-s01-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 37841,
+      "bytes": 605229,
+      "sha256": "9e236e51436be7590e165307cb7813d2a92f85ff101456853fa5da1e112f9b48",
+      "sentence_ids": [
+        "ch21-s01-n0181",
+        "ch21-s01-n0182",
+        "ch21-s01-n0183",
+        "ch21-s01-n0184",
+        "ch21-s01-n0185",
+        "ch21-s01-n0186"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 38725,
+      "bytes": 618669,
+      "sha256": "b08f2f15be56e214e64811657530f681743f48a97716385596f7029c68ae0bfc",
+      "sentence_ids": [
+        "ch21-s01-n0187",
+        "ch21-s01-n0188",
+        "ch21-s01-n0189",
+        "ch21-s01-n0190",
+        "ch21-s01-n0191"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch21-s01-n0001",
+      "text": "无论生产采取什么社会形式，都不能中断，而必须不断重复同样的阶段。",
+      "start_ms": 225,
+      "end_ms": 4965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch21-s01-n0002",
+      "text": "社会不能停止消费，也就不能停止生产。",
+      "start_ms": 5300,
+      "end_ms": 7795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch21-s01-n0003",
+      "text": "因此，只要把社会生产看成一个持续进行、不断更新的过程，任何生产过程同时也都是再生产过程。",
+      "start_ms": 8120,
+      "end_ms": 14515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch21-s01-n0004",
+      "text": "生产的条件，同时也是再生产的条件。",
+      "start_ms": 15315,
+      "end_ms": 18105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch21-s01-n0005",
+      "text": "任何社会要持续生产，也就是持续再生产，都必须不断把一部分产品重新变成生产资料，投入下一轮生产。",
+      "start_ms": 18420,
+      "end_ms": 26075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch21-s01-n0006",
+      "text": "假定其他条件不变，社会要按原有规模维持生产，就必须用当年生产出来的新产品，补足这一年消耗掉的劳动资料、原料和辅助材料，而且要在种类和数量上与消耗掉的相同。",
+      "start_ms": 26460,
+      "end_ms": 38875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch21-s01-n0007",
+      "text": "这部分产品要从全年产品中分出来，重新投入生产。",
+      "start_ms": 415,
+      "end_ms": 3835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch21-s01-n0008",
+      "text": "因此，每年总有一定数量的产品属于下一轮生产。",
+      "start_ms": 4320,
+      "end_ms": 7535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch21-s01-n0009",
+      "text": "它们从一开始就是供生产消费的，其中大部分产品的具体形态也决定了它们不能供个人直接消费。",
+      "start_ms": 8025,
+      "end_ms": 14565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch21-s01-n0010",
+      "text": "如果生产采取资本主义形式，再生产也会采取资本主义形式。",
+      "start_ms": 15045,
+      "end_ms": 19155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch21-s01-n0011",
+      "text": "在资本主义生产中，劳动过程只是价值增殖的手段。",
+      "start_ms": 19535,
+      "end_ms": 22945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch21-s01-n0012",
+      "text": "同样，再生产也只是让预付价值继续作为资本存在的手段，也就是让它继续自行增殖。",
+      "start_ms": 23330,
+      "end_ms": 29175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch21-s01-n0013",
+      "text": "一个人之所以具有资本家这种经济身份，只是因为他的钱不断作为资本发挥作用。",
+      "start_ms": 125,
+      "end_ms": 5105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch21-s01-n0014",
+      "text": "例如，今年预付的100英镑变成资本，产生了20英镑剩余价值。",
+      "start_ms": 5460,
+      "end_ms": 9765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch21-s01-n0015",
+      "text": "明年以及以后各年，它就必须再次完成同样的过程。",
+      "start_ms": 10215,
+      "end_ms": 13695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch21-s01-n0016",
+      "text": "剩余价值因此表现为资本价值定期增加的部分，也就是正在发挥作用的资本定期结出的收入。",
+      "start_ms": 14120,
+      "end_ms": 20445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch21-s01-n0017",
+      "text": "如果资本家把这笔收入全部用于个人消费，收入一到手就花掉，那么在其他条件不变时，生产只会按原有规模重复，这就是简单再生产。",
+      "start_ms": 20700,
+      "end_ms": 30485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch21-s01-n0018",
+      "text": "它看起来只是同一个生产过程的反复。",
+      "start_ms": 31019,
+      "end_ms": 33184,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch21-s01-n0019",
+      "text": "不过，一旦把这种反复看成持续进行的过程，就会显出一些新的特点。",
+      "start_ms": 85,
+      "end_ms": 5355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch21-s01-n0020",
+      "text": "更准确地说，孤立地看一次生产时产生的某些表象，会在连续的再生产中消失。",
+      "start_ms": 5620,
+      "end_ms": 11635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch21-s01-n0021",
+      "text": "生产过程从资本家购买一定期限内的劳动力开始。",
+      "start_ms": 12285,
+      "end_ms": 15835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch21-s01-n0022",
+      "text": "约定的劳动期限一到，例如一周或一个月结束，资本家就会再次购买劳动力。",
+      "start_ms": 16295,
+      "end_ms": 21795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch21-s01-n0023",
+      "text": "但是，工人要等自己的劳动力已经发挥作用，在商品中实现了自身价值和剩余价值以后，才能拿到工资。",
+      "start_ms": 22135,
+      "end_ms": 30355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch21-s01-n0024",
+      "text": "也就是说，工人不仅先生产了剩余价值——这里暂且只把它看作资本家的消费基金——还先生产了用于支付自己工资的可变资本，然后这部分价值才以工资形式回到他手中。",
+      "start_ms": 30800,
+      "end_ms": 43335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch21-s01-n0025",
+      "text": "只有工人不断重新生产这笔价值，资本家才会继续雇用他。",
+      "start_ms": 85,
+      "end_ms": 4455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch21-s01-n0026",
+      "text": "因此，第十六章第二部分提到的经济学家会把工资说成产品本身的一部分。",
+      "start_ms": 4880,
+      "end_ms": 9875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch21-s01-n0027",
+      "text": "工人不断生产产品，其中一部分又不断以工资形式回到自己手中。",
+      "start_ms": 10785,
+      "end_ms": 15855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch21-s01-n0028",
+      "text": "资本家确实用货币支付工资，但货币只是劳动产品转化而来的形式。",
+      "start_ms": 16320,
+      "end_ms": 21415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch21-s01-n0029",
+      "text": "工人把一部分生产资料变成新产品时，他以前生产的一部分产品也转化成了货币。",
+      "start_ms": 22375,
+      "end_ms": 28495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch21-s01-n0030",
+      "text": "资本家用工人上周或过去半年的劳动成果，支付他今天或今后半年的劳动。",
+      "start_ms": 28925,
+      "end_ms": 35015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch21-s01-n0031",
+      "text": "只看单个资本家和单个工人，货币形式会遮住这一点。",
+      "start_ms": 325,
+      "end_ms": 3925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch21-s01-n0032",
+      "text": "一旦改为考察资本家阶级和工人阶级，这种假象就会立刻消失。",
+      "start_ms": 4200,
+      "end_ms": 8245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch21-s01-n0033",
+      "text": "资本家阶级不断把货币交给工人阶级，而这些货币实际上只是领取一部分产品的凭证。",
+      "start_ms": 8675,
+      "end_ms": 13655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch21-s01-n0034",
+      "text": "这些产品由工人阶级生产，却已被资本家阶级占有。",
+      "start_ms": 14525,
+      "end_ms": 17875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch21-s01-n0035",
+      "text": "工人阶级又不断把凭证交还给资本家阶级，取回自己产品中归自己的一部分。",
+      "start_ms": 18200,
+      "end_ms": 23065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch21-s01-n0036",
+      "text": "产品的商品形式和商品的货币形式，掩盖了这项交易的实际内容。",
+      "start_ms": 23420,
+      "end_ms": 27475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch21-s01-n0037",
+      "text": "因此，可变资本只是工人生活基金或劳动基金在特定历史条件下采取的一种形式。",
+      "start_ms": 345,
+      "end_ms": 6225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch21-s01-n0038",
+      "text": "工人为了维持自己并养育下一代，在任何社会生产制度下都必须亲自生产和再生产这部分生活资料。",
+      "start_ms": 6605,
+      "end_ms": 13515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch21-s01-n0039",
+      "text": "在资本主义制度下，它不断以工资形式流回工人手中，是因为工人自己的产品总是以资本的形式离开他。",
+      "start_ms": 13915,
+      "end_ms": 21115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch21-s01-n0040",
+      "text": "不过，生活基金采取这种形式，并不能改变一个事实：资本家预付给工人的，其实是工人自己过去劳动形成的价值。",
+      "start_ms": 21430,
+      "end_ms": 30055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch21-s01-n0041",
+      "text": "以一个服劳役的农民为例。",
+      "start_ms": 30649,
+      "end_ms": 32014,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch21-s01-n0042",
+      "text": "他使用自己的生产资料，在自己的土地上每周劳动三天，另外三天在领主的庄园里无偿服役。",
+      "start_ms": 32429,
+      "end_ms": 38924,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch21-s01-n0043",
+      "text": "他不断生产自己的生活基金，但这份生活基金从来不会表现为第三人预付给他的工资。",
+      "start_ms": 135,
+      "end_ms": 5225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch21-s01-n0044",
+      "text": "相应地，他为领主承担的无偿强制劳动，也不会表现成自愿的有偿劳动。",
+      "start_ms": 5580,
+      "end_ms": 10525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch21-s01-n0045",
+      "text": "假如领主明天占有了这个农民的土地、耕畜、种子以及其他生产资料，农民从此就必须把劳动力卖给领主。",
+      "start_ms": 10935,
+      "end_ms": 18115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch21-s01-n0046",
+      "text": "在其他条件不变时，他仍然每周劳动六天，三天为自己，三天为过去的领主劳动，只是领主现在变成了雇主。",
+      "start_ms": 18480,
+      "end_ms": 26035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch21-s01-n0047",
+      "text": "他仍然使用生产资料，把它们的价值转移到产品中，也仍然拿出一部分产品投入下一轮生产。",
+      "start_ms": 26515,
+      "end_ms": 32525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch21-s01-n0048",
+      "text": "变化只在形式上：劳役变成了雇佣劳动，农民自己一直生产和再生产的生活基金，也变成了仿佛由雇主预付给他的资本。",
+      "start_ms": 33003,
+      "end_ms": 41278,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch21-s01-n0049",
+      "text": "资产阶级经济学家分不清外在形式和形式背后的实际内容，于是无视一个事实：直到今天，在世界大部分地区，劳动基金仍然不是以资本的形式出现。",
+      "start_ms": 355,
+      "end_ms": 9615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch21-s01-n0050",
+      "text": "只有把资本主义生产看成一个不断更新的过程，才会发现可变资本并不是资本家拿自己的基金预付给工人的价值。",
+      "start_ms": 9880,
+      "end_ms": 16355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch21-s01-n0051",
+      "text": "不过，这个过程总得从某个时间、某个地方开始。",
+      "start_ms": 17235,
+      "end_ms": 20295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch21-s01-n0052",
+      "text": "按照我们前面的分析，资本家最初似乎可能通过某种与他人无偿劳动无关的“原始积累”成为货币所有者，从而能够进入市场购买劳动力。",
+      "start_ms": 20745,
+      "end_ms": 29195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch21-s01-n0053",
+      "text": "然而，只要资本主义生产持续下去，哪怕生产规模没有扩大，也会发生一些特别的变化，而且变化的不只是可变资本，而是全部资本。",
+      "start_ms": 29815,
+      "end_ms": 38775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch21-s01-n0054",
+      "text": "假定一笔1000英镑的资本每年产生200英镑剩余价值，资本家又把这些剩余价值每年全部消费。",
+      "start_ms": 39196,
+      "end_ms": 45071,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch21-s01-n0055",
+      "text": "这个过程重复五年后，他消费的剩余价值总额就是5乘200英镑，正好等于最初预付的1000英镑资本。",
+      "start_ms": 315,
+      "end_ms": 8255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch21-s01-n0056",
+      "text": "如果他每年只消费一半剩余价值，同样的结果会在十年后出现，因为10乘100英镑同样等于1000英镑。",
+      "start_ms": 8600,
+      "end_ms": 16545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch21-s01-n0057",
+      "text": "一般来说，用预付资本的价值除以资本家每年消费的剩余价值，就能算出经过多少年或多少个再生产周期，最初预付的资本会被资本家全部消费掉，从而在价值上消失。",
+      "start_ms": 17010,
+      "end_ms": 30645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch21-s01-n0058",
+      "text": "资本家可以认为，自己消费的只是他人无偿劳动形成的剩余价值，原来的资本仍然完好无损，但这种想法改变不了事实。",
+      "start_ms": 31191,
+      "end_ms": 40046,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch21-s01-n0059",
+      "text": "经过一定年数以后，他仍然占有的资本价值，已经等于这些年里无偿占有的剩余价值总额，而他消费掉的价值总额，则等于最初的资本价值。",
+      "start_ms": 40816,
+      "end_ms": 51616,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch21-s01-n0060",
+      "text": "当然，他手中仍有一笔规模不变的资本，其中有些厂房、机器等物质成分早在开业时就已存在。",
+      "start_ms": 52506,
+      "end_ms": 60096,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch21-s01-n0061",
+      "text": "可是，这里讨论的是资本的价值，不是构成资本的具体物品。",
+      "start_ms": 315,
+      "end_ms": 4675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch21-s01-n0062",
+      "text": "一个人如果借下与全部财产等值的债务，并把借来的钱全部消费掉，那么他的全部财产实际上只代表等额债务。",
+      "start_ms": 4930,
+      "end_ms": 12785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch21-s01-n0063",
+      "text": "同样，资本家消费掉与原预付资本等值的价值后，现有资本的全部价值实际上只代表他无偿占有的剩余价值。",
+      "start_ms": 13155,
+      "end_ms": 21335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch21-s01-n0064",
+      "text": "原有资本的价值已经一分也不剩。",
+      "start_ms": 21795,
+      "end_ms": 23515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch21-s01-n0065",
+      "text": "因此，即使完全不发生积累，生产过程只要持续进行，也就是只要不断进行简单再生产，经过或长或短的时间，任何资本都必然会变成积累起来的资本，也就是资本化的剩余价值。",
+      "start_ms": 24255,
+      "end_ms": 37815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch21-s01-n0066",
+      "text": "哪怕这笔资本进入生产时确实是资本家本人劳动所得，它迟早也会变成不付等价物而占有的价值。",
+      "start_ms": 38221,
+      "end_ms": 45211,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch21-s01-n0067",
+      "text": "无论这笔价值采取货币还是其他形式，它都只是他人无偿劳动的物质体现。",
+      "start_ms": 395,
+      "end_ms": 4955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch21-s01-n0068",
+      "text": "第四章已经说明，仅有价值生产和商品流通，还不足以让货币变成资本。",
+      "start_ms": 5355,
+      "end_ms": 10035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch21-s01-n0069",
+      "text": "市场上还必须出现两种彼此对立的人。",
+      "start_ms": 10390,
+      "end_ms": 12545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch21-s01-n0070",
+      "text": "一边拥有价值或货币，也拥有生产资料和生活资料。",
+      "start_ms": 12885,
+      "end_ms": 15395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch21-s01-n0071",
+      "text": "另一边拥有能够创造价值的劳动力，却除此之外一无所有。",
+      "start_ms": 16445,
+      "end_ms": 20215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch21-s01-n0072",
+      "text": "双方由此以买者和卖者的身份相遇。",
+      "start_ms": 20570,
+      "end_ms": 22825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch21-s01-n0073",
+      "text": "因此，劳动者同自己的劳动产品相分离，客观的劳动条件同劳动者的劳动力相分离，才是资本主义生产实际存在的基础和起点。",
+      "start_ms": 405,
+      "end_ms": 9215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch21-s01-n0074",
+      "text": "这种分离起初只是资本主义生产的出发点。",
+      "start_ms": 10055,
+      "end_ms": 12775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch21-s01-n0075",
+      "text": "但生产过程只要不断持续，也就是不断进行简单再生产，就会一再产生这种分离，使它成为资本主义生产自身的结果，并把它长久维持下去。",
+      "start_ms": 13180,
+      "end_ms": 23635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch21-s01-n0076",
+      "text": "一方面，生产过程不断把物质财富变成资本，变成资本家用来增殖和享用的手段。",
+      "start_ms": 24050,
+      "end_ms": 29905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch21-s01-n0077",
+      "text": "另一方面，工人走出生产过程时，处境仍同进入时一样。",
+      "start_ms": 30255,
+      "end_ms": 34575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch21-s01-n0078",
+      "text": "他依然是财富的活的源泉，却没有任何手段让这种财富归自己所有。",
+      "start_ms": 34956,
+      "end_ms": 39551,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch21-s01-n0079",
+      "text": "工人进入生产以前，自己的劳动就已经通过劳动力买卖归资本家支配，并被纳入资本。",
+      "start_ms": 85,
+      "end_ms": 5985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch21-s01-n0080",
+      "text": "因此，他的劳动在生产过程中不断化为属于别人的产品。",
+      "start_ms": 6515,
+      "end_ms": 9955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch21-s01-n0081",
+      "text": "资本家消费工人劳动力的过程，同时就是生产过程。",
+      "start_ms": 11045,
+      "end_ms": 14375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch21-s01-n0082",
+      "text": "工人的产品由此不仅不断变成商品，还变成资本：它是吸取价值创造能力的价值，是购买劳动者的生活资料，也是使用生产者的生产资料。",
+      "start_ms": 14700,
+      "end_ms": 25315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch21-s01-n0083",
+      "text": "所以，工人不断把客观财富生产成资本，使它成为一种与自己对立、支配并剥削自己的力量。",
+      "start_ms": 25690,
+      "end_ms": 32465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch21-s01-n0084",
+      "text": "资本家则不断再生产劳动力，使它成为一种同自己的产品和实现自身的手段相分离、只存在于工人身体中的抽象财富来源。",
+      "start_ms": 32944,
+      "end_ms": 42519,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch21-s01-n0085",
+      "text": "简言之，资本家不断把工人再生产为雇佣工人。",
+      "start_ms": 255,
+      "end_ms": 3285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch21-s01-n0086",
+      "text": "资本主义生产要存在，就必须不断维持和再生产这种工人。",
+      "start_ms": 3620,
+      "end_ms": 7495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch21-s01-n0087",
+      "text": "工人的消费有两种。",
+      "start_ms": 7895,
+      "end_ms": 8935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch21-s01-n0088",
+      "text": "在生产过程中，他用劳动消耗生产资料，把它们变成价值高于预付资本的产品。",
+      "start_ms": 9220,
+      "end_ms": 14445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch21-s01-n0089",
+      "text": "这是工人的生产消费，同时也是资本家对自己买来的劳动力的消费。",
+      "start_ms": 14675,
+      "end_ms": 19005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch21-s01-n0090",
+      "text": "另一方面，工人用出售劳动力得到的钱购买生活资料，这是他的个人消费。",
+      "start_ms": 19370,
+      "end_ms": 23825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch21-s01-n0091",
+      "text": "这两种消费完全不同。",
+      "start_ms": 125,
+      "end_ms": 1405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch21-s01-n0092",
+      "text": "进行生产消费时，工人是推动资本运转的力量，属于资本家。",
+      "start_ms": 1700,
+      "end_ms": 5485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch21-s01-n0093",
+      "text": "进行个人消费时，他属于自己，在生产过程之外维持自己的生活。",
+      "start_ms": 5780,
+      "end_ms": 9075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch21-s01-n0094",
+      "text": "前一种消费维持资本家的生活，后一种消费维持工人自己的生活。",
+      "start_ms": 10045,
+      "end_ms": 13715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch21-s01-n0095",
+      "text": "前面讨论工作日等问题时已经看到，工人常被迫把个人消费变成生产过程的附带环节。",
+      "start_ms": 14000,
+      "end_ms": 19195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch21-s01-n0096",
+      "text": "这时，他摄取生活资料只是为了让劳动力继续运转，就像给蒸汽机加煤和水、给车轮上油一样。",
+      "start_ms": 19560,
+      "end_ms": 25395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch21-s01-n0097",
+      "text": "他的消费资料成了维持一种生产资料的手段，个人消费也直接成了生产消费。",
+      "start_ms": 105,
+      "end_ms": 5495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch21-s01-n0098",
+      "text": "不过，这只是资本主义生产过程中的一种过度做法，并不是这种生产方式必不可少的特征。",
+      "start_ms": 5915,
+      "end_ms": 11875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch21-s01-n0099",
+      "text": "如果不再只看单个资本家、单个工人和一次孤立的商品生产，而是考察资本家阶级、工人阶级以及整个社会中持续进行的资本主义生产，情况就不同了。",
+      "start_ms": 12565,
+      "end_ms": 23685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch21-s01-n0100",
+      "text": "资本家把一部分资本换成劳动力，是为了让全部资本增殖。",
+      "start_ms": 24455,
+      "end_ms": 28525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch21-s01-n0101",
+      "text": "他不但从工人交给自己的东西中获利，也从自己交给工人的东西中获利。",
+      "start_ms": 28950,
+      "end_ms": 34075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch21-s01-n0102",
+      "text": "资本家用来购买劳动力的资本变成生活资料。",
+      "start_ms": 34572,
+      "end_ms": 37467,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch21-s01-n0103",
+      "text": "工人消费这些生活资料，恢复现有工人的肌肉、神经、骨骼和头脑，同时养育新的工人。",
+      "start_ms": 145,
+      "end_ms": 6375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch21-s01-n0104",
+      "text": "因此，只要工人阶级的个人消费没有超过维持生活所必需的范围，它的作用就是把资本家交给工人的生活资料，重新变成可供资本使用和剥削的劳动力。",
+      "start_ms": 6855,
+      "end_ms": 19045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch21-s01-n0105",
+      "text": "这种消费生产并再生产着资本家最不可缺少的生产条件，也就是工人本身。",
+      "start_ms": 19540,
+      "end_ms": 25055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch21-s01-n0106",
+      "text": "由此可见，无论个人消费发生在厂内还是厂外、劳动中还是劳动外，它都是资本生产和再生产的一个环节，就像清洁机器无论在运转时还是停机时进行，都属于生产所需的工作。",
+      "start_ms": 25525,
+      "end_ms": 39765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch21-s01-n0107",
+      "text": "工人是为了自己而生活和消费，不是为了资本家，但这并不改变个人消费在资本循环中的作用。",
+      "start_ms": 40128,
+      "end_ms": 47223,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch21-s01-n0108",
+      "text": "役畜吃饲料是为了满足自己，饲养役畜却仍是生产过程必不可少的环节。",
+      "start_ms": 47828,
+      "end_ms": 53453,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch21-s01-n0109",
+      "text": "工人阶级不断维持并再生产自身，也始终是资本再生产的必要条件。",
+      "start_ms": 85,
+      "end_ms": 5945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch21-s01-n0110",
+      "text": "资本家大可以把这项任务交给工人的求生和生育本能。",
+      "start_ms": 6495,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch21-s01-n0111",
+      "text": "他只需设法把工人的个人消费限制在维持劳动力所必需的水平。",
+      "start_ms": 10845,
+      "end_ms": 15565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch21-s01-n0112",
+      "text": "这与南美洲那种粗暴做法相去甚远：那里的雇主会强迫工人吃更有营养、而不是营养较少的食物。",
+      "start_ms": 16075,
+      "end_ms": 23125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch21-s01-n0113",
+      "text": "因此，资本家和替他说明道理的政治经济学家，只把工人个人消费中维持工人阶级延续所必需的部分看成生产性消费。",
+      "start_ms": 23985,
+      "end_ms": 33595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch21-s01-n0114",
+      "text": "工人必须消费这部分生活资料，资本才能继续消费他的劳动力。",
+      "start_ms": 34050,
+      "end_ms": 38645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch21-s01-n0115",
+      "text": "工人为自己享受而进行的其他消费，则被看作非生产性消费。",
+      "start_ms": 265,
+      "end_ms": 4575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch21-s01-n0116",
+      "text": "如果资本积累提高了工资，工人能够消费更多生活资料，而资本却没有因此使用更多劳动力，那么这部分追加资本就会被说成非生产性地消费掉了。",
+      "start_ms": 4905,
+      "end_ms": 14555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch21-s01-n0117",
+      "text": "事实上，对工人自己来说，个人消费是非生产性的，因为它只再生产一个仍然需要出卖劳动力的人。",
+      "start_ms": 15155,
+      "end_ms": 22035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch21-s01-n0118",
+      "text": "对资本家和国家来说，它却是生产性的，因为它生产出了替别人创造财富的能力。",
+      "start_ms": 22350,
+      "end_ms": 26085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch21-s01-n0119",
+      "text": "所以，从整个社会来看，工人阶级即使离开直接生产过程，也仍像没有生命的劳动工具一样，是资本的附属物。",
+      "start_ms": 28455,
+      "end_ms": 37085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch21-s01-n0120",
+      "text": "工人的个人消费在一定范围内，也只是资本再生产的一个环节。",
+      "start_ms": 37490,
+      "end_ms": 41485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch21-s01-n0121",
+      "text": "资本主义生产不断把工人生产的产品从工人一边转移到资本一边，以此保证这些有自我意识的生产工具不会离开。",
+      "start_ms": 375,
+      "end_ms": 7895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch21-s01-n0122",
+      "text": "个人消费一方面维持工人的生命并养育下一代，另一方面又消耗掉他们的生活资料，迫使他们不断回到劳动力市场。",
+      "start_ms": 8435,
+      "end_ms": 15935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch21-s01-n0123",
+      "text": "古罗马的奴隶被锁链拴在主人身边，雇佣工人则被看不见的线拴在资本所有者身边。",
+      "start_ms": 16480,
+      "end_ms": 22305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch21-s01-n0124",
+      "text": "雇佣工人不断更换具体雇主，再加上法律把劳动合同假定为自由契约，于是维持了工人仿佛独立的表象。",
+      "start_ms": 22715,
+      "end_ms": 30565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch21-s01-n0125",
+      "text": "过去，资本认为有必要时，还会用强制法律来维护自己对自由工人的支配权。",
+      "start_ms": 31005,
+      "end_ms": 36340,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch21-s01-n0126",
+      "text": "例如，英国直到1815年还严禁机器工人移居国外，违反者会受到重罚。",
+      "start_ms": 36745,
+      "end_ms": 42530,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch21-s01-n0127",
+      "text": "工人阶级的再生产，还包括劳动技能一代代传下去并不断积累。",
+      "start_ms": 255,
+      "end_ms": 4265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch21-s01-n0128",
+      "text": "资本家把熟练工人队伍看作自己的生产条件，实际上也把它看作可变资本的现实存在。",
+      "start_ms": 4860,
+      "end_ms": 10435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch21-s01-n0129",
+      "text": "一旦危机可能使这支队伍流失，这一点就会显露出来。",
+      "start_ms": 11235,
+      "end_ms": 14645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch21-s01-n0130",
+      "text": "美国内战引发棉荒后，兰开夏等地的大多数棉纺织工人失去了工作。",
+      "start_ms": 15135,
+      "end_ms": 19865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch21-s01-n0131",
+      "text": "工人阶级和社会其他阶层中都有人主张，由国家资助或在全国募捐，帮助这些“过剩”工人移居英国殖民地或美国。",
+      "start_ms": 20240,
+      "end_ms": 29035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch21-s01-n0132",
+      "text": "当时，《泰晤士报》在1863年3月24日刊登了曼彻斯特商会前主席埃德蒙·波特的一封信。",
+      "start_ms": 29530,
+      "end_ms": 36275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch21-s01-n0133",
+      "text": "这封信在英国下议院被恰当地称为“工厂主宣言”。",
+      "start_ms": 115,
+      "end_ms": 3365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch21-s01-n0134",
+      "text": "下面摘录其中几段，因为它直白地说出了资本自认为对劳动力拥有怎样的权利。",
+      "start_ms": 3960,
+      "end_ms": 9645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch21-s01-n0135",
+      "text": "波特写道：“可以告诉棉纺织工人，他们的人数太多了……也许必须减少三分之一，剩下三分之二才会重新得到正常需求……公众舆论正在要求组织移民……厂主，也就是棉纺织资本家，不愿看着自己的劳动力供应离开。",
+      "start_ms": 9840,
+      "end_ms": 25645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch21-s01-n0136",
+      "text": "他可能认为，这既不公平，也不正确……如果移民由公共资金资助，他就有权要求别人听取意见，甚至有权反对。”",
+      "start_ms": 25830,
+      "end_ms": 34285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch21-s01-n0137",
+      "text": "波特接着说明，棉纺织业多么有用，它怎样“从爱尔兰和英格兰农业区吸收了人口”，规模又多么庞大。",
+      "start_ms": 34919,
+      "end_ms": 41924,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch21-s01-n0138",
+      "text": "1860年，它占英国出口总额的5/13。",
+      "start_ms": 42684,
+      "end_ms": 45034,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch21-s01-n0139",
+      "text": "只要市场扩大，尤其是印度市场扩大，再强制保证每磅6便士的充足棉花供应，这个行业几年后就会再次扩张。",
+      "start_ms": 275,
+      "end_ms": 9035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch21-s01-n0140",
+      "text": "他继续说：“时间——也许一年、两年或三年——会生产出所需的数量……那么我要问，这个行业值不值得保住？",
+      "start_ms": 9360,
+      "end_ms": 17675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch21-s01-n0141",
+      "text": "这些机器——也就是活的劳动机器——值不值得保持完好？",
+      "start_ms": 18040,
+      "end_ms": 21835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch21-s01-n0142",
+      "text": "想要放弃它们，难道不是最愚蠢的事吗？",
+      "start_ms": 22140,
+      "end_ms": 24745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch21-s01-n0143",
+      "text": "我认为是。",
+      "start_ms": 25015,
+      "end_ms": 25655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch21-s01-n0144",
+      "text": "我要承认，工人不是财产，不是兰开夏和厂主的财产。",
+      "start_ms": 26130,
+      "end_ms": 29825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch21-s01-n0145",
+      "text": "但他们是双方的力量，是无法在一代人的时间内补回的智力和熟练力量。",
+      "start_ms": 275,
+      "end_ms": 5555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch21-s01-n0146",
+      "text": "相比之下，他们操作的其他机器，大部分都可以在十二个月内划算地更新和改进。",
+      "start_ms": 6085,
+      "end_ms": 11635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch21-s01-n0147",
+      "text": "鼓励甚至允许劳动力移居国外，资本家怎么办？",
+      "start_ms": 12525,
+      "end_ms": 16155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch21-s01-n0148",
+      "text": "……抽走工人中的精华，固定资本就会严重贬值，流动资本也不会冒险去使用数量不足、质量较差的劳动力……有人告诉我们，工人自己希望移民。",
+      "start_ms": 16605,
+      "end_ms": 27735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch21-s01-n0149",
+      "text": "他们有这种想法非常自然……拿走三分之一的劳动力，使棉纺织业缩小，让工资支出减少三分之一，也就是500万英镑，那么紧挨着工人的小店主怎么办？",
+      "start_ms": 28170,
+      "end_ms": 39845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch21-s01-n0150",
+      "text": "地租和工人住房租金怎么办？",
+      "start_ms": 40578,
+      "end_ms": 42748,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch21-s01-n0151",
+      "text": "小农场主、较富裕的房主和土地所有者又怎么办？",
+      "start_ms": 165,
+      "end_ms": 2885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch21-s01-n0152",
+      "text": "……现在请问，对国内所有阶级来说，还有什么方案比这更像自杀？",
+      "start_ms": 3125,
+      "end_ms": 7615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch21-s01-n0153",
+      "text": "把最优秀的工厂工人输出国外，使国家变弱，又使一部分生产力最强的资本和财富贬值。”",
+      "start_ms": 7980,
+      "end_ms": 13995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch21-s01-n0154",
+      "text": "波特的办法是：“我建议借款500万到600万英镑，分两三年使用。",
+      "start_ms": 14855,
+      "end_ms": 19785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch21-s01-n0155",
+      "text": "由棉纺织区济贫机构的专员管理，制定专门法律，并安排一定的强制劳动，以维持领取救济者的道德价值……对土地所有者或厂主来说，还有什么比放弃最好的工人更糟？",
+      "start_ms": 20180,
+      "end_ms": 32905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch21-s01-n0156",
+      "text": "让大量工人移居国外，把整个地区的价值和资本抽走，同时又使留下的工人士气低落、心怀不满，难道还不够糟吗？”",
+      "start_ms": 33285,
+      "end_ms": 41680,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch21-s01-n0157",
+      "text": "波特是棉纺织工厂主选出的代言人。",
+      "start_ms": 85,
+      "end_ms": 2625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch21-s01-n0158",
+      "text": "在他看来，资本家拥有两类“机器”。",
+      "start_ms": 2960,
+      "end_ms": 5575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch21-s01-n0159",
+      "text": "一类白天立在工厂里，另一类晚上和星期日住在外面的工人小屋里。",
+      "start_ms": 5580,
+      "end_ms": 9705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch21-s01-n0160",
+      "text": "一类没有生命，另一类有生命。",
+      "start_ms": 9920,
+      "end_ms": 11695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch21-s01-n0161",
+      "text": "没有生命的机器每天都会磨损、贬值，而且技术不断进步，现有机器中很大一部分会迅速过时，几个月内就值得换成更新的机器。",
+      "start_ms": 11945,
+      "end_ms": 21525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch21-s01-n0162",
+      "text": "有生命的机器却恰好相反。",
+      "start_ms": 21860,
+      "end_ms": 23275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch21-s01-n0163",
+      "text": "它存在得越久，积累的世代技能越多，也就越完善。",
+      "start_ms": 125,
+      "end_ms": 3355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch21-s01-n0164",
+      "text": "《泰晤士报》这样回答这位工厂巨头：",
+      "start_ms": 3800,
+      "end_ms": 6095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch21-s01-n0165",
+      "text": "“埃德蒙·波特先生深信棉纺织厂主具有非凡而绝对的重要性。",
+      "start_ms": 6165,
+      "end_ms": 10545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch21-s01-n0166",
+      "text": "为了保住这个阶级，让他们的行业永远延续，他竟想违背工人的意愿，把五十万工人关进一座巨大的‘道德感化院’。",
+      "start_ms": 11105,
+      "end_ms": 19275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch21-s01-n0167",
+      "text": "波特先生问，这个行业值不值得保住？",
+      "start_ms": 20025,
+      "end_ms": 22245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch21-s01-n0168",
+      "text": "我们的回答是，当然值得，但只能采取一切正当手段。",
+      "start_ms": 22490,
+      "end_ms": 25885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch21-s01-n0169",
+      "text": "他又问，这些机器值不值得保持完好？",
+      "start_ms": 85,
+      "end_ms": 2945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch21-s01-n0170",
+      "text": "我们说到这里就要犹豫了。",
+      "start_ms": 3415,
+      "end_ms": 4655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch21-s01-n0171",
+      "text": "他所说的机器，是人的机器，因为他还特意声明，自己并不打算把工人当作绝对财产。",
+      "start_ms": 5120,
+      "end_ms": 11395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch21-s01-n0172",
+      "text": "我们必须承认，把人的机器关起来，不断给他们上油，直到需要时再使用，既不值得，也不可能。",
+      "start_ms": 12275,
+      "end_ms": 19725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch21-s01-n0173",
+      "text": "人的机器闲置时还是会生锈，无论怎样上油擦拭都没用。",
+      "start_ms": 20185,
+      "end_ms": 24255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch21-s01-n0174",
+      "text": "眼前的事实还告诉我们，人的机器能够自己开动蒸汽、发生爆炸，也能在大城市里疯狂起舞。",
+      "start_ms": 24825,
+      "end_ms": 31825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch21-s01-n0175",
+      "text": "正如波特先生所说，再生产出一批工人也许需要较长时间。",
+      "start_ms": 545,
+      "end_ms": 4315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch21-s01-n0176",
+      "text": "但只要有机器管理者和金钱，我们随时都能找到勤奋、强硬、有实业精神的人，制造出远比实际需要更多的工厂主……波特先生说，工业会在一两年或三年后复苏，所以要求我们不要鼓励，甚至不要允许劳动力移居国外！",
+      "start_ms": 4590,
+      "end_ms": 20005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch21-s01-n0177",
+      "text": "他说工人想移民很自然，却又主张国家违背他们的愿望，把这五十万工人和依靠他们生活的七十万人关在棉纺织区。",
+      "start_ms": 20310,
+      "end_ms": 27775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch21-s01-n0178",
+      "text": "这样做必然需要用暴力压制他们的不满，再靠救济让他们活下去，而理由只是棉纺织厂主说不定哪天会再次需要他们……现在已经到了时候。",
+      "start_ms": 28085,
+      "end_ms": 37169,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch21-s01-n0179",
+      "text": "全国强大的公众舆论必须采取行动，从那些想把‘劳动力’当作铁、煤和棉花来处理的人手中，把它拯救出来。”",
+      "start_ms": 37504,
+      "end_ms": 45219,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch21-s01-n0180",
+      "text": "不过，《泰晤士报》这篇文章只是机智的讽刺。",
+      "start_ms": 45999,
+      "end_ms": 48909,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch21-s01-n0181",
+      "text": "所谓“强大的公众舆论”实际赞同波特先生，认为工厂工人是工厂可以搬动的附属物。",
+      "start_ms": 595,
+      "end_ms": 6345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch21-s01-n0182",
+      "text": "工人的移民受到阻挠。",
+      "start_ms": 6800,
+      "end_ms": 8235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch21-s01-n0183",
+      "text": "他们被关在棉纺织区这座“道德感化院”里，后来仍然是“兰开夏棉纺织厂主的力量”。",
+      "start_ms": 8685,
+      "end_ms": 14575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch21-s01-n0184",
+      "text": "因此，资本主义生产通过自身的运行，不断再生产劳动力同劳动条件的分离，也就不断再生产并维持资本剥削工人的条件。",
+      "start_ms": 15095,
+      "end_ms": 23995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch21-s01-n0185",
+      "text": "这个过程不断迫使工人出售劳动力来维持生活，又不断使资本家能够购买劳动力来扩大自己的财富。",
+      "start_ms": 24415,
+      "end_ms": 31455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch21-s01-n0186",
+      "text": "现在，让资本家和工人以买者和卖者身份在商品市场相遇的，已经不是偶然。",
+      "start_ms": 31891,
+      "end_ms": 37691,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch21-s01-n0187",
+      "text": "生产过程本身像一套无法摆脱的夹具，不断把工人重新推回市场出售劳动力，又不断把工人自己的产品变成资本家购买劳动力的手段。",
+      "start_ms": 115,
+      "end_ms": 9445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch21-s01-n0188",
+      "text": "事实上，工人在把自己卖给某个资本家以前，就已经从属于资本。",
+      "start_ms": 9720,
+      "end_ms": 14275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch21-s01-n0189",
+      "text": "他在经济上的依附，一方面通过他定期再次出卖自己、更换具体雇主和工资市场价格波动这些形式实现，另一方面也被这些形式遮掩起来。",
+      "start_ms": 14560,
+      "end_ms": 24725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch21-s01-n0190",
+      "text": "所以，把资本主义生产作为一个相互联系的整体，也就是作为再生产过程来看，它生产的不只是商品和剩余价值。",
+      "start_ms": 24990,
+      "end_ms": 33055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch21-s01-n0191",
+      "text": "它还生产并再生产资本关系本身：一边是资本家，另一边是雇佣工人。",
+      "start_ms": 33290,
+      "end_ms": 38575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    }
+  ]
+}

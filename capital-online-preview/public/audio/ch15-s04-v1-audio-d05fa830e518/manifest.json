@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch15-s04-v1-audio-d05fa830e518",
+  "unit_id": "ch15-s04",
+  "translation_version_id": "ch15-s04-v1",
+  "translation_sha256": "2e31140c0406ff8b5389552f29f592e3efca21e3f5303b9f8efd5a7f216e0cfc",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:25:48.982Z",
+  "completed_at": "2026-08-04T17:26:26.166Z",
+  "duration_ms": 251583,
+  "sentence_count": 42,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 23755,
+      "bytes": 384429,
+      "sha256": "47599caf4654b8a8a93094585f7bed38ed156f0a943aa762d413bebaa97fa6c1",
+      "sentence_ids": [
+        "ch15-s04-n0001",
+        "ch15-s04-n0002",
+        "ch15-s04-n0003",
+        "ch15-s04-n0004",
+        "ch15-s04-n0005",
+        "ch15-s04-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 24385,
+      "bytes": 394413,
+      "sha256": "9d972bc870cb7ea2c651ba1abd8784b2adb1554b1e285b659cdaed5f9de24ca0",
+      "sentence_ids": [
+        "ch15-s04-n0007",
+        "ch15-s04-n0008",
+        "ch15-s04-n0009",
+        "ch15-s04-n0010",
+        "ch15-s04-n0011",
+        "ch15-s04-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 51170,
+      "bytes": 817581,
+      "sha256": "55be7c1417b00982bf229756682e59c9444b5bb9310cbc2ae4b18d1a41a8658d",
+      "sentence_ids": [
+        "ch15-s04-n0013",
+        "ch15-s04-n0014",
+        "ch15-s04-n0015",
+        "ch15-s04-n0016",
+        "ch15-s04-n0017",
+        "ch15-s04-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 40534,
+      "bytes": 650925,
+      "sha256": "9b7476a8f3ab176b895c3f49a9566718c305a2eeefbdd04f12afc71adf4f7a58",
+      "sentence_ids": [
+        "ch15-s04-n0019",
+        "ch15-s04-n0020",
+        "ch15-s04-n0021",
+        "ch15-s04-n0022",
+        "ch15-s04-n0023",
+        "ch15-s04-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 35790,
+      "bytes": 576429,
+      "sha256": "13834b7820105b08ef2c69a3b6e173355aaaea5ffab85807a3a07cfc2be02af0",
+      "sentence_ids": [
+        "ch15-s04-n0025",
+        "ch15-s04-n0026",
+        "ch15-s04-n0027",
+        "ch15-s04-n0028",
+        "ch15-s04-n0029",
+        "ch15-s04-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 25815,
+      "bytes": 423213,
+      "sha256": "531b8ea3dd6d81b4508c99cc5387cac64c32dbc07b20ffdc2b08710278247d32",
+      "sentence_ids": [
+        "ch15-s04-n0031",
+        "ch15-s04-n0032",
+        "ch15-s04-n0033",
+        "ch15-s04-n0034",
+        "ch15-s04-n0035",
+        "ch15-s04-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 50134,
+      "bytes": 804141,
+      "sha256": "3da60f531c20574c353f594db43ec5728f8c65a95e0625b855092c730c3250e5",
+      "sentence_ids": [
+        "ch15-s04-n0037",
+        "ch15-s04-n0038",
+        "ch15-s04-n0039",
+        "ch15-s04-n0040",
+        "ch15-s04-n0041",
+        "ch15-s04-n0042"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch15-s04-n0001",
+      "text": "三个因素同时考虑时，可以形成很多组合。",
+      "start_ms": 315,
+      "end_ms": 3015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s04-n0002",
+      "text": "可以是两个因素变化、一个不变，也可以是三个因素同时变化。",
+      "start_ms": 3200,
+      "end_ms": 6935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s04-n0003",
+      "text": "它们的变化幅度可能相同，也可能不同。",
+      "start_ms": 7080,
+      "end_ms": 9295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s04-n0004",
+      "text": "变化的方向可能一致，也可能相反，因而可能部分抵消或完全抵消。",
+      "start_ms": 9695,
+      "end_ms": 14235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s04-n0005",
+      "text": "不过，根据前三节的分析，所有组合都不难判断。",
+      "start_ms": 14530,
+      "end_ms": 17705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s04-n0006",
+      "text": "只要依次把一个因素当作变量，暂时把另外两个看作不变量，就能得出每种组合的结果。",
+      "start_ms": 18030,
+      "end_ms": 23605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s04-n0007",
+      "text": "下面只简要讨论两个重要情况。",
+      "start_ms": 345,
+      "end_ms": 1895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s04-n0008",
+      "text": "1）劳动生产力下降，同时工作日延长。",
+      "start_ms": 2260,
+      "end_ms": 5345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s04-n0009",
+      "text": "这里所说的生产力下降，只涉及那些产品会影响劳动力价值的行业。",
+      "start_ms": 5640,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s04-n0010",
+      "text": "例如，土地越来越贫瘠，农产品越来越贵，就会降低农业劳动的生产力。",
+      "start_ms": 10680,
+      "end_ms": 16365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s04-n0011",
+      "text": "假定工作日是12小时，一天创造6先令价值。",
+      "start_ms": 16830,
+      "end_ms": 19985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s04-n0012",
+      "text": "其中3先令补回劳动力价值，另外3先令是剩余价值。",
+      "start_ms": 20310,
+      "end_ms": 24235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s04-n0013",
+      "text": "工作日因此分为6小时必要劳动和6小时剩余劳动。",
+      "start_ms": 95,
+      "end_ms": 2925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s04-n0014",
+      "text": "农产品涨价以后，劳动力价值从3先令升到4先令，必要劳动也从6小时增加到8小时。",
+      "start_ms": 3240,
+      "end_ms": 8775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s04-n0015",
+      "text": "如果工作日仍是12小时，剩余劳动就从6小时降到4小时，剩余价值从3先令降到2先令。",
+      "start_ms": 9000,
+      "end_ms": 14755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s04-n0016",
+      "text": "如果工作日从12小时延长到14小时，剩余劳动仍是6小时，剩余价值仍是3先令，但它同劳动力价值相比已经下降了，正如剩余劳动同必要劳动相比下降了一样。",
+      "start_ms": 15110,
+      "end_ms": 26035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s04-n0017",
+      "text": "如果工作日从12小时延长到16小时，剩余价值同劳动力价值的比例、剩余劳动同必要劳动的比例都保持不变，但剩余价值的绝对数额从3先令增加到4先令，剩余劳动从6小时增加到8小时，都增加了三分之一，也就是33⅓%。",
+      "start_ms": 26440,
+      "end_ms": 41725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s04-n0018",
+      "text": "所以，劳动生产力下降而工作日同时延长时，剩余价值的绝对数额可以不变而相对比例下降，也可以相对比例不变而绝对数额增加。",
+      "start_ms": 42180,
+      "end_ms": 51020,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s04-n0019",
+      "text": "工作日延长得更多时，两者还可以同时增加。",
+      "start_ms": 105,
+      "end_ms": 2975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s04-n0020",
+      "text": "1799年至1815年间，英国生活必需品价格上涨，带动名义工资上升，但工人用工资实际买到的生活必需品反而减少。",
+      "start_ms": 3825,
+      "end_ms": 11075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s04-n0021",
+      "text": "韦斯特和李嘉图据此认为，农业劳动生产力下降使剩余价值率降低，并以这个只存在于他们想象中的假设为起点，分析工资、利润和地租之间的比例关系。",
+      "start_ms": 11915,
+      "end_ms": 22495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s04-n0022",
+      "text": "实际上，当时劳动强度提高，工作时间又被强行延长，所以剩余价值无论绝对数额还是相对比例都在增加。",
+      "start_ms": 23045,
+      "end_ms": 30685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s04-n0023",
+      "text": "正是在这一时期，无限制延长工作日取得了合法地位。",
+      "start_ms": 31229,
+      "end_ms": 34474,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s04-n0024",
+      "text": "这个时期尤其明显的特征，是资本在一边迅速增长，贫困人口在另一边迅速增加。",
+      "start_ms": 34849,
+      "end_ms": 40384,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s04-n0025",
+      "text": "2）劳动强度和劳动生产力提高，同时工作日缩短。",
+      "start_ms": 495,
+      "end_ms": 4195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch15-s04-n0026",
+      "text": "劳动生产力提高和劳动强度增加，在一个方面作用相同：两者都会增加一定时间内生产的产品数量，也都会缩短工人生产自身生活必需品或等值产品所需的那部分工作日。",
+      "start_ms": 4665,
+      "end_ms": 16865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch15-s04-n0027",
+      "text": "工作日最短能缩到什么程度，取决于这部分必要劳动时间。",
+      "start_ms": 17260,
+      "end_ms": 21175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch15-s04-n0028",
+      "text": "必要劳动时间可以继续缩短，但不可能消失。",
+      "start_ms": 21565,
+      "end_ms": 23935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch15-s04-n0029",
+      "text": "如果整个工作日缩短到只剩必要劳动，剩余劳动就会消失，而这在资本统治下不可能发生。",
+      "start_ms": 24715,
+      "end_ms": 31255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch15-s04-n0030",
+      "text": "资本主义生产方式消失以后，工作日可以只包括必要劳动。",
+      "start_ms": 31725,
+      "end_ms": 35640,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch15-s04-n0031",
+      "text": "不过，在其他条件不变时，必要劳动的范围反而会扩大。",
+      "start_ms": 285,
+      "end_ms": 4055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch15-s04-n0032",
+      "text": "一方面，工人的生活条件会更加丰富，对生活的要求也会提高。",
+      "start_ms": 4430,
+      "end_ms": 8675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch15-s04-n0033",
+      "text": "另一方面，现在一部分剩余劳动会被算入必要劳动，也就是为全社会建立储备和积累基金所需的劳动。",
+      "start_ms": 9015,
+      "end_ms": 15545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch15-s04-n0034",
+      "text": "劳动生产力越高，工作日就越能缩短。",
+      "start_ms": 16255,
+      "end_ms": 18745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch15-s04-n0035",
+      "text": "反过来，工作日越短，劳动强度也越可以提高。",
+      "start_ms": 19230,
+      "end_ms": 22385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch15-s04-n0036",
+      "text": "从整个社会看，提高劳动生产力还包括节约劳动。",
+      "start_ms": 22650,
+      "end_ms": 25665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch15-s04-n0037",
+      "text": "这不仅要求节省生产资料，还要求避免一切无用劳动。",
+      "start_ms": 505,
+      "end_ms": 3875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch15-s04-n0038",
+      "text": "资本主义生产方式迫使每个单独企业节约生产资料和劳动，但它的无政府竞争却在整个社会范围内极端浪费这些资源，同时还制造出无数现在不可缺少、其实本身多余的职能。",
+      "start_ms": 4370,
+      "end_ms": 15305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch15-s04-n0039",
+      "text": "假定劳动强度和生产力不变，能够劳动的社会成员越是共同分担劳动，物质生产在全社会工作日中所需的部分就越短，个人能够用于自由活动、精神生活和社会生活的时间就越多。",
+      "start_ms": 16845,
+      "end_ms": 29195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch15-s04-n0040",
+      "text": "也就是说，一个阶层越难把劳动这种自然必需的负担从自己身上推给另一个阶层，工作日就越能缩短。",
+      "start_ms": 30105,
+      "end_ms": 37315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch15-s04-n0041",
+      "text": "从这个角度看，工作日缩短的最终界限，是所有人共同参加劳动。",
+      "start_ms": 37689,
+      "end_ms": 42024,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch15-s04-n0042",
+      "text": "在资本主义社会里，一个阶级的自由时间，是通过把广大群众的一生都变成劳动时间生产出来的。",
+      "start_ms": 42974,
+      "end_ms": 49984,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    }
+  ]
+}

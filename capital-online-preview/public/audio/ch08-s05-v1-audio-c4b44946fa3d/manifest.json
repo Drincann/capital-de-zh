@@ -1,0 +1,1750 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch08-s05-v1-audio-c4b44946fa3d",
+  "unit_id": "ch08-s05",
+  "translation_version_id": "ch08-s05-v1",
+  "translation_sha256": "7ef839bbecb1ea30da2ba52c07e16ff588a0ac3afd754ad3efaf0885ef24adce",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T18:11:12.567Z",
+  "completed_at": "2026-08-04T18:13:51.954Z",
+  "duration_ms": 1042412,
+  "sentence_count": 164,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 41295,
+      "bytes": 665901,
+      "sha256": "b708ce2a5632c115611be10759e61c2f37805af353df82072551d546eff77cdd",
+      "sentence_ids": [
+        "ch08-s05-n0001",
+        "ch08-s05-n0002",
+        "ch08-s05-n0003",
+        "ch08-s05-n0004",
+        "ch08-s05-n0005",
+        "ch08-s05-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 32225,
+      "bytes": 515757,
+      "sha256": "0b35d2db945a611c45df60cdb90e7d7be642ee9aa0cac676e0606a8ea6166a65",
+      "sentence_ids": [
+        "ch08-s05-n0007",
+        "ch08-s05-n0008",
+        "ch08-s05-n0009",
+        "ch08-s05-n0010",
+        "ch08-s05-n0011",
+        "ch08-s05-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 42326,
+      "bytes": 685101,
+      "sha256": "9f41256bfdd4851bb16cd088a34dcafb9fbdec131b727523477a5c2a9f13bea7",
+      "sentence_ids": [
+        "ch08-s05-n0013",
+        "ch08-s05-n0014",
+        "ch08-s05-n0015",
+        "ch08-s05-n0016",
+        "ch08-s05-n0017",
+        "ch08-s05-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 36747,
+      "bytes": 586413,
+      "sha256": "7b04fd3c7d274280beb84730dcfbcc0a9a72780f1627bca4ba2cd3aceaa5d1db",
+      "sentence_ids": [
+        "ch08-s05-n0019",
+        "ch08-s05-n0020",
+        "ch08-s05-n0021",
+        "ch08-s05-n0022",
+        "ch08-s05-n0023",
+        "ch08-s05-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 40456,
+      "bytes": 652845,
+      "sha256": "c5211730f164b17fcee83fdcbf2bb119ac2d5bbfdea7c200a1faaf6b7b6dcb67",
+      "sentence_ids": [
+        "ch08-s05-n0025",
+        "ch08-s05-n0026",
+        "ch08-s05-n0027",
+        "ch08-s05-n0028",
+        "ch08-s05-n0029",
+        "ch08-s05-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 43315,
+      "bytes": 698541,
+      "sha256": "401e205d016c13e6e450fda43e22f8e19646a19846f7e61648ac69b341c83027",
+      "sentence_ids": [
+        "ch08-s05-n0031",
+        "ch08-s05-n0032",
+        "ch08-s05-n0033",
+        "ch08-s05-n0034",
+        "ch08-s05-n0035",
+        "ch08-s05-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 38486,
+      "bytes": 615597,
+      "sha256": "dda36d37a9c30787a713e94b4978e1e4373ad96e0fbc5b224e9d3b8825dcbc74",
+      "sentence_ids": [
+        "ch08-s05-n0037",
+        "ch08-s05-n0038",
+        "ch08-s05-n0039",
+        "ch08-s05-n0040",
+        "ch08-s05-n0041",
+        "ch08-s05-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 35004,
+      "bytes": 560685,
+      "sha256": "b826d9940733cc91d277aa522cf531c309ff9b9d4a7681e26bcc9d6374426a2a",
+      "sentence_ids": [
+        "ch08-s05-n0043",
+        "ch08-s05-n0044",
+        "ch08-s05-n0045",
+        "ch08-s05-n0046",
+        "ch08-s05-n0047",
+        "ch08-s05-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 23505,
+      "bytes": 378285,
+      "sha256": "dcd59d86aa4c496b859a670c1cca482e8c52106972dd812ec92edb78b9a58010",
+      "sentence_ids": [
+        "ch08-s05-n0049",
+        "ch08-s05-n0050",
+        "ch08-s05-n0051",
+        "ch08-s05-n0052",
+        "ch08-s05-n0053",
+        "ch08-s05-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 51593,
+      "bytes": 826029,
+      "sha256": "04daf7b42e5207d98ac2bf01c4bc509f159ab79b6090bd422d514468cd903a1d",
+      "sentence_ids": [
+        "ch08-s05-n0055",
+        "ch08-s05-n0056",
+        "ch08-s05-n0057",
+        "ch08-s05-n0058",
+        "ch08-s05-n0059",
+        "ch08-s05-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 42458,
+      "bytes": 681645,
+      "sha256": "76bde4884b89c50e790a01265c9e278a6e4d624816090f1f5207c7fc696a93a9",
+      "sentence_ids": [
+        "ch08-s05-n0061",
+        "ch08-s05-n0062",
+        "ch08-s05-n0063",
+        "ch08-s05-n0064",
+        "ch08-s05-n0065",
+        "ch08-s05-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 32615,
+      "bytes": 522669,
+      "sha256": "214695249ce684968ad00f26e51d477759e0889266969473ac7dd77ecb3019fc",
+      "sentence_ids": [
+        "ch08-s05-n0067",
+        "ch08-s05-n0068",
+        "ch08-s05-n0069",
+        "ch08-s05-n0070",
+        "ch08-s05-n0071",
+        "ch08-s05-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 35775,
+      "bytes": 576429,
+      "sha256": "33d599f5334e71c9a81ce58c3a2958499cb7fc5ebaa7f62018e47cd56d953edc",
+      "sentence_ids": [
+        "ch08-s05-n0073",
+        "ch08-s05-n0074",
+        "ch08-s05-n0075",
+        "ch08-s05-n0076",
+        "ch08-s05-n0077",
+        "ch08-s05-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 52706,
+      "bytes": 842157,
+      "sha256": "d523bdc40ad3a205098c724a7933f0c8dd5d0d2077cad9952981703bc4c6bf7e",
+      "sentence_ids": [
+        "ch08-s05-n0079",
+        "ch08-s05-n0080",
+        "ch08-s05-n0081",
+        "ch08-s05-n0082",
+        "ch08-s05-n0083"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 37825,
+      "bytes": 605613,
+      "sha256": "1ff1e238b13846e0841a8aa3aa1a330c629c459c3a88884f571e64812e20f8b6",
+      "sentence_ids": [
+        "ch08-s05-n0084",
+        "ch08-s05-n0085",
+        "ch08-s05-n0086",
+        "ch08-s05-n0087",
+        "ch08-s05-n0088",
+        "ch08-s05-n0089"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 32815,
+      "bytes": 524973,
+      "sha256": "6d720db8d6b24579f5c99578614a9839437e882d84764fe772080c928dfb8c46",
+      "sentence_ids": [
+        "ch08-s05-n0090",
+        "ch08-s05-n0091",
+        "ch08-s05-n0092",
+        "ch08-s05-n0093",
+        "ch08-s05-n0094",
+        "ch08-s05-n0095"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 28665,
+      "bytes": 461229,
+      "sha256": "a89546c14fc920c8360219f081a21e9b10f8bf416e2132887aa2c34e254c99c7",
+      "sentence_ids": [
+        "ch08-s05-n0096",
+        "ch08-s05-n0097",
+        "ch08-s05-n0098",
+        "ch08-s05-n0099",
+        "ch08-s05-n0100",
+        "ch08-s05-n0101"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 46892,
+      "bytes": 749229,
+      "sha256": "226795474fd7d0e8f093b2fc00ee6520ba1842ad409c813bc9dded920b1d402a",
+      "sentence_ids": [
+        "ch08-s05-n0102",
+        "ch08-s05-n0103",
+        "ch08-s05-n0104",
+        "ch08-s05-n0105",
+        "ch08-s05-n0106"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 47449,
+      "bytes": 758829,
+      "sha256": "5f68de436e2355a6a83765aba33e8c9fbeb7ed59c682f0d72d662f193249169b",
+      "sentence_ids": [
+        "ch08-s05-n0107",
+        "ch08-s05-n0108",
+        "ch08-s05-n0109",
+        "ch08-s05-n0110",
+        "ch08-s05-n0111",
+        "ch08-s05-n0112"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 35866,
+      "bytes": 576813,
+      "sha256": "a7e158db500eb2e70b963fdd2371400b7427b3680bf2303e206d93d0c7f88824",
+      "sentence_ids": [
+        "ch08-s05-n0113",
+        "ch08-s05-n0114",
+        "ch08-s05-n0115",
+        "ch08-s05-n0116",
+        "ch08-s05-n0117",
+        "ch08-s05-n0118"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 25915,
+      "bytes": 413613,
+      "sha256": "950bc8024f7ea66cc7c845ad5c2604e1a208b7b02b0ed3c1af0f2c0574706c8e",
+      "sentence_ids": [
+        "ch08-s05-n0119",
+        "ch08-s05-n0120",
+        "ch08-s05-n0121",
+        "ch08-s05-n0122",
+        "ch08-s05-n0123",
+        "ch08-s05-n0124"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 33505,
+      "bytes": 535341,
+      "sha256": "18cb58951074f11afec37241faecfdb8e8ebb8c7b979c623f4feed4a1b21e7ca",
+      "sentence_ids": [
+        "ch08-s05-n0125",
+        "ch08-s05-n0126",
+        "ch08-s05-n0127",
+        "ch08-s05-n0128",
+        "ch08-s05-n0129",
+        "ch08-s05-n0130"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 28345,
+      "bytes": 454701,
+      "sha256": "abdbdf2281c0205186890467350f3b84d794cd2759ae30f6595394f07f9d2202",
+      "sentence_ids": [
+        "ch08-s05-n0131",
+        "ch08-s05-n0132",
+        "ch08-s05-n0133",
+        "ch08-s05-n0134",
+        "ch08-s05-n0135",
+        "ch08-s05-n0136"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 41961,
+      "bytes": 675885,
+      "sha256": "85fd1bd07591e776772c7c3b93455c07115b1511efbaa4527a46c31fee3299f0",
+      "sentence_ids": [
+        "ch08-s05-n0137",
+        "ch08-s05-n0138",
+        "ch08-s05-n0139",
+        "ch08-s05-n0140",
+        "ch08-s05-n0141",
+        "ch08-s05-n0142"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 36555,
+      "bytes": 595245,
+      "sha256": "522af686728ecca66f8f2a7428702bd3cffbadf96dbbd3788be72d2c8a7d4f81",
+      "sentence_ids": [
+        "ch08-s05-n0143",
+        "ch08-s05-n0144",
+        "ch08-s05-n0145",
+        "ch08-s05-n0146",
+        "ch08-s05-n0147",
+        "ch08-s05-n0148"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 44189,
+      "bytes": 707757,
+      "sha256": "07bef2a423d296ec9905c9ca3596e8fa1523f8ec8ee35a636be300371ed15017",
+      "sentence_ids": [
+        "ch08-s05-n0149",
+        "ch08-s05-n0150",
+        "ch08-s05-n0151",
+        "ch08-s05-n0152",
+        "ch08-s05-n0153",
+        "ch08-s05-n0154"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 39379,
+      "bytes": 634029,
+      "sha256": "989f51879ab4bd3200ff68e3bbe2fad8db187dda5a2a1fb2ab1f528bab624d23",
+      "sentence_ids": [
+        "ch08-s05-n0155",
+        "ch08-s05-n0156",
+        "ch08-s05-n0157",
+        "ch08-s05-n0158",
+        "ch08-s05-n0159",
+        "ch08-s05-n0160"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 14545,
+      "bytes": 236973,
+      "sha256": "5660048c5614aafea74d18c4b4b00e65a56914d8322eaac71818f592e2ac9f84",
+      "sentence_ids": [
+        "ch08-s05-n0161",
+        "ch08-s05-n0162",
+        "ch08-s05-n0163",
+        "ch08-s05-n0164"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch08-s05-n0001",
+      "text": "“什么是一个工作日？”",
+      "start_ms": 0,
+      "end_ms": 1095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s05-n0002",
+      "text": "资本支付了劳动力一天的价值，究竟可以使用它多久？",
+      "start_ms": 1660,
+      "end_ms": 5185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s05-n0003",
+      "text": "工作日可以超过补偿劳动力所需的必要劳动时间多远？",
+      "start_ms": 5400,
+      "end_ms": 8735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s05-n0004",
+      "text": "我们已经看到，资本的回答是：一天有整整 24 小时，只需扣掉最低限度的休息时间，因为没有这点休息，劳动力就根本无法第二天继续使用。",
+      "start_ms": 8900,
+      "end_ms": 19095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s05-n0005",
+      "text": "在资本看来，工人一生都只是劳动力，所以他能够支配的全部时间自然都该是劳动时间，理所当然地属于资本增殖。",
+      "start_ms": 19520,
+      "end_ms": 27495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s05-n0006",
+      "text": "至于受教育、发展智力、履行社会责任、同人交往、自由发挥体力和脑力所需的时间，甚至星期日的休息时间——哪怕是在那些把安息日奉为神圣的国家——统统都是多余的东西！",
+      "start_ms": 28285,
+      "end_ms": 41145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch08-s05-n0007",
+      "text": "资本对剩余劳动有一种没有限度的、像饿狼一样的欲望。",
+      "start_ms": 135,
+      "end_ms": 3555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s05-n0008",
+      "text": "它不仅越过工作日的道德界限，也越过身体所能承受的极限。",
+      "start_ms": 3920,
+      "end_ms": 7805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s05-n0009",
+      "text": "它夺走人体生长、发育和保持健康所需的时间，也夺走呼吸新鲜空气、接触阳光的时间。",
+      "start_ms": 8155,
+      "end_ms": 13955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s05-n0010",
+      "text": "它克扣吃饭时间，并尽可能把吃饭也塞进生产过程。",
+      "start_ms": 14725,
+      "end_ms": 18355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s05-n0011",
+      "text": "工人被当成生产工具，得到食物就像蒸汽锅炉得到煤、机器得到油脂。",
+      "start_ms": 18810,
+      "end_ms": 24195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s05-n0012",
+      "text": "原本用来恢复和更新生命力的正常睡眠，也被压缩成绝对疲惫的身体重新动起来所必需的最低时数。",
+      "start_ms": 24625,
+      "end_ms": 32075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch08-s05-n0013",
+      "text": "于是，不再是正常维持劳动力的需要决定工作日的上限，反而是每天最多还能榨出多少劳动力，决定工人最少可以休息多久，不管这种消耗多么病态、痛苦和暴烈。",
+      "start_ms": 235,
+      "end_ms": 12815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s05-n0014",
+      "text": "资本不关心劳动力能维持多少年，只关心一个工作日里最多能使出多少劳动力。",
+      "start_ms": 13260,
+      "end_ms": 19305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s05-n0015",
+      "text": "它靠缩短劳动力的寿命达到这个目的，就像贪婪的农场主靠耗尽土地肥力来提高眼前的产量。",
+      "start_ms": 19740,
+      "end_ms": 26875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s05-n0016",
+      "text": "资本主义生产的本质，是生产剩余价值，也就是吸收剩余劳动。",
+      "start_ms": 27200,
+      "end_ms": 31835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s05-n0017",
+      "text": "因此，延长工作日不只会使工人失去身心正常发展和活动的条件，使劳动力变得残缺。",
+      "start_ms": 32341,
+      "end_ms": 39256,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s05-n0018",
+      "text": "它还会使劳动力过早耗尽和死亡。",
+      "start_ms": 39641,
+      "end_ms": 42176,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch08-s05-n0019",
+      "text": "资本通过缩短工人的一生，增加了这段较短生命中可供生产使用的时间。",
+      "start_ms": 145,
+      "end_ms": 5315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s05-n0020",
+      "text": "不过，劳动力的价值中包括维持工人生活、繁衍工人阶级所需商品的价值。",
+      "start_ms": 5595,
+      "end_ms": 11475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s05-n0021",
+      "text": "如果资本为了无限增殖而反常地延长工作日，缩短了每个工人的寿命，也就缩短了劳动力可以使用的年限。",
+      "start_ms": 11805,
+      "end_ms": 19475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s05-n0022",
+      "text": "磨损得更快的工人必须更快地补充，维持和更新劳动力的成本便会增加。",
+      "start_ms": 19910,
+      "end_ms": 25285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s05-n0023",
+      "text": "这就像机器磨损得越快，每天必须计入产品、以后用来更换机器的价值就越多。",
+      "start_ms": 25570,
+      "end_ms": 31345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s05-n0024",
+      "text": "照这样看，资本出于自身利益，似乎也应该支持一个正常工作日。",
+      "start_ms": 31762,
+      "end_ms": 36597,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch08-s05-n0025",
+      "text": "奴隶主购买奴隶，就像购买一匹马。",
+      "start_ms": 605,
+      "end_ms": 2875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s05-n0026",
+      "text": "奴隶死去，他损失的是一笔资本，必须重新到奴隶市场花钱补上。",
+      "start_ms": 3385,
+      "end_ms": 8355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s05-n0027",
+      "text": "可是，“乔治亚的稻田和密西西比的沼泽对人的身体固然具有致命的破坏力，但消耗掉的人命仍可以由弗吉尼亚和肯塔基人丁兴旺的奴隶繁殖场补足。",
+      "start_ms": 8885,
+      "end_ms": 19955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s05-n0028",
+      "text": "如果奴隶主的利益同保存奴隶相一致，经济上的考虑本来还能在一定程度上保证奴隶得到较为人道的对待。",
+      "start_ms": 20505,
+      "end_ms": 28185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s05-n0029",
+      "text": "奴隶贸易出现后，这种考虑却反而成了把奴隶毁到极限的理由。",
+      "start_ms": 28755,
+      "end_ms": 33305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s05-n0030",
+      "text": "因为只要能从外地的黑人繁殖场补充新人，奴隶能活多久就不再像活着时能生产多少那样重要。",
+      "start_ms": 33856,
+      "end_ms": 40306,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch08-s05-n0031",
+      "text": "因此，在输入奴隶的国家，奴隶经济奉行一条原则：最有效的节约办法，是在最短时间内从这种‘人形牲畜’身上榨出最大劳动量。",
+      "start_ms": 185,
+      "end_ms": 10995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s05-n0032",
+      "text": "热带种植业的年利润常常等于种植园的全部资本，黑人的生命也正是在那里被牺牲得最无所顾忌。",
+      "start_ms": 11605,
+      "end_ms": 19385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s05-n0033",
+      "text": "几个世纪以来，西印度群岛的农业一直是巨额财富的摇篮，也吞噬了数百万非洲人。",
+      "start_ms": 20025,
+      "end_ms": 26615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s05-n0034",
+      "text": "今天的古巴收入以百万计，种植园主富可敌国。",
+      "start_ms": 27180,
+      "end_ms": 30825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s05-n0035",
+      "text": "在那里，奴隶不仅只能得到最粗劣的食物，还要承受无休止的沉重苦役。",
+      "start_ms": 31450,
+      "end_ms": 37065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s05-n0036",
+      "text": "每年都有许多奴隶在过度劳动、缺少睡眠和休息的缓慢折磨中直接死去。”",
+      "start_ms": 37490,
+      "end_ms": 43165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch08-s05-n0037",
+      "text": "换几个名字，这个故事说的就是你！",
+      "start_ms": 95,
+      "end_ms": 2525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s05-n0038",
+      "text": "把奴隶贸易换成劳动力市场，把肯塔基和弗吉尼亚换成爱尔兰以及英格兰、苏格兰和威尔士的农业区，再把非洲换成德国。",
+      "start_ms": 3055,
+      "end_ms": 12095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s05-n0039",
+      "text": "我们已经看到，过度劳动怎样夺走伦敦面包工的生命，可伦敦劳动力市场上始终挤满了德国人和其他等着送命的面包工。",
+      "start_ms": 12615,
+      "end_ms": 21565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s05-n0040",
+      "text": "制陶业也是工人寿命最短的行业之一，但陶工因此短缺了吗？",
+      "start_ms": 22175,
+      "end_ms": 26885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s05-n0041",
+      "text": "现代制陶业的开创者乔赛亚·韦奇伍德本人出身普通工人。",
+      "start_ms": 27400,
+      "end_ms": 31815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s05-n0042",
+      "text": "他 1785 年在下院作证说，整个行业雇用了 15,000 至 20,000 人。",
+      "start_ms": 32856,
+      "end_ms": 38336,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch08-s05-n0043",
+      "text": "到 1861 年，仅英国几个制陶业城市的人口就达到 101,302。",
+      "start_ms": 345,
+      "end_ms": 4015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s05-n0044",
+      "text": "“棉纺织业只有 90 年历史……这段时间大约只够普通英国人更替三代，棉纺业却已经先后耗尽了九代棉纺工人。”",
+      "start_ms": 5670,
+      "end_ms": 13735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s05-n0045",
+      "text": "诚然，在工业狂热扩张的个别时期，劳动力市场也会出现严重缺口，例如 1834 年。",
+      "start_ms": 14125,
+      "end_ms": 20675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s05-n0046",
+      "text": "厂主们于是建议济贫法委员会，把农业区的“过剩人口”送到北方，并直言“厂主会把他们吸收掉、消耗掉”。",
+      "start_ms": 21070,
+      "end_ms": 28625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s05-n0047",
+      "text": "这确实是棉纺厂主自己的原话。",
+      "start_ms": 29055,
+      "end_ms": 31245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s05-n0048",
+      "text": "“济贫法委员会同意，曼彻斯特设立了招工代理。",
+      "start_ms": 31709,
+      "end_ms": 34854,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch08-s05-n0049",
+      "text": "农业工人的名单编好后交给这些代理。",
+      "start_ms": 375,
+      "end_ms": 2475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s05-n0050",
+      "text": "厂主来到办事处，挑出合用的人，随后整家整户地从英格兰南部运来。",
+      "start_ms": 2790,
+      "end_ms": 7085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s05-n0051",
+      "text": "运送这些‘人肉包裹’时，给他们贴上标签，仿佛一包包货物，再用运河船和货车运走。",
+      "start_ms": 7465,
+      "end_ms": 12685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s05-n0052",
+      "text": "有些人跟在后面步行，许多人迷了路，半饥半饱地在工业区游荡。",
+      "start_ms": 12970,
+      "end_ms": 17065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s05-n0053",
+      "text": "这逐渐发展成一个真正的行业。",
+      "start_ms": 17315,
+      "end_ms": 19085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s05-n0054",
+      "text": "下院恐怕很难相信，这种有组织的人肉买卖一直持续下去。",
+      "start_ms": 19500,
+      "end_ms": 23355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch08-s05-n0055",
+      "text": "曼彻斯特的代理把这些人买来，再同样有规律地卖给曼彻斯特厂主，就像黑人被卖给美国南部的棉花种植园主一样……1860 年是棉纺织业的顶峰……工人又不够了。",
+      "start_ms": 315,
+      "end_ms": 11695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s05-n0056",
+      "text": "厂主再次找上人肉代理……代理搜遍多塞特的沙丘、德文的山地和威尔特郡的平原，可那里的过剩人口已经被消耗光了。”",
+      "start_ms": 12060,
+      "end_ms": 21215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s05-n0057",
+      "text": "英法贸易条约签订后，《伯里卫报》哀叹，这个行业本来还可以再“吸收”10,000 名工人，不久还会需要 30,000 至 40,000 人。",
+      "start_ms": 21215,
+      "end_ms": 29825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s05-n0058",
+      "text": "1860 年，人肉买卖的代理和分代理几乎徒劳地扫遍农业区后，“厂主代表团找到济贫法委员会主席维利尔斯，要求再次允许他们从济贫院取得贫民儿童和孤儿”。",
+      "start_ms": 31727,
+      "end_ms": 42582,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s05-n0059",
+      "text": "一般说来，资本家从经验中看到的，是人口始终“过剩”。",
+      "start_ms": 42967,
+      "end_ms": 46962,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s05-n0060",
+      "text": "所谓过剩，只是人数超过了资本眼前增殖的需要。",
+      "start_ms": 47613,
+      "end_ms": 51443,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch08-s05-n0061",
+      "text": "这股过剩人口的洪流，却由一代代发育不良、寿命短促、迅速互相替换的人组成。",
+      "start_ms": 335,
+      "end_ms": 7115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s05-n0062",
+      "text": "他们仿佛还没有成熟，便被摘了下来。",
+      "start_ms": 7505,
+      "end_ms": 9945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s05-n0063",
+      "text": "可在头脑清醒的观察者看来，同一经验说明的恰好是另一件事：资本主义生产在历史上几乎昨天才出现，却已经迅速而深刻地侵蚀了人民生命力的根基。",
+      "start_ms": 10345,
+      "end_ms": 21845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s05-n0064",
+      "text": "工业人口之所以没有退化得更快，只是因为来自农村、尚未被工业耗损的人口不断补充进来。",
+      "start_ms": 22105,
+      "end_ms": 29115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s05-n0065",
+      "text": "现在，就连农村工人也已经开始走向衰亡。",
+      "start_ms": 29370,
+      "end_ms": 32645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s05-n0066",
+      "text": "他们虽然享有新鲜空气，而且“自然选择”在那里强烈发挥作用，只有体格最强的人才能生存下来，却仍逃不过同样的命运。",
+      "start_ms": 33033,
+      "end_ms": 42308,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch08-s05-n0067",
+      "text": "资本有种种“好理由”否认眼前这代工人的痛苦。",
+      "start_ms": 145,
+      "end_ms": 2945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s05-n0068",
+      "text": "至于未来人类是否会腐烂、人口是否终将不可遏止地下降，对它今天的行动几乎没有影响，就像地球也许会掉进太阳一样。",
+      "start_ms": 3360,
+      "end_ms": 11075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s05-n0069",
+      "text": "在每一场股份投机骗局中，人人都知道暴风雨总有一天会来，却都希望自己接住金雨、带着收益安全离场以后，灾难才落到别人头上。",
+      "start_ms": 11905,
+      "end_ms": 21075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s05-n0070",
+      "text": "“我死以后，哪管洪水滔天！”",
+      "start_ms": 21080,
+      "end_ms": 23675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s05-n0071",
+      "text": "这就是每个资本家和每个资本主义国家的口号。",
+      "start_ms": 24100,
+      "end_ms": 26875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s05-n0072",
+      "text": "因此，只要社会没有迫使资本顾及工人的健康和寿命，资本就不会在乎。",
+      "start_ms": 27280,
+      "end_ms": 32465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch08-s05-n0073",
+      "text": "面对身体和智力遭到摧残、过早死亡以及过度劳动造成的折磨，资本的回答是：既然这种痛苦能增加我们的快乐——利润——我们何必为它痛苦？",
+      "start_ms": 95,
+      "end_ms": 9915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s05-n0074",
+      "text": "不过，从总体上说，这也不取决于某个资本家的善意或恶意。",
+      "start_ms": 10505,
+      "end_ms": 15015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s05-n0075",
+      "text": "自由竞争把资本主义生产自身的规律，变成每个资本家不得不服从的外在压力。",
+      "start_ms": 15400,
+      "end_ms": 20435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s05-n0076",
+      "text": "正常工作日是资本家和工人经过几百年斗争才形成的结果。",
+      "start_ms": 21095,
+      "end_ms": 25315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s05-n0077",
+      "text": "这段历史中却有两股方向相反的力量。",
+      "start_ms": 25785,
+      "end_ms": 28425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s05-n0078",
+      "text": "只要把今天英国的工厂法同 14 世纪直到 18 世纪中叶的劳动法令比较一下，就能看得很清楚。",
+      "start_ms": 28855,
+      "end_ms": 35625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch08-s05-n0079",
+      "text": "现代工厂法用国家强制力缩短工作日，早期法令却用强制力延长工作日。",
+      "start_ms": 85,
+      "end_ms": 5625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s05-n0080",
+      "text": "资本尚在萌芽时，不能只靠经济关系本身迫使工人提供足够的剩余劳动，还需要国家出手保障这种权利。",
+      "start_ms": 6000,
+      "end_ms": 13435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s05-n0081",
+      "text": "它当时提出的要求，同资本成熟以后不得不一边抱怨、一边作出的让步相比，甚至显得相当温和。",
+      "start_ms": 14085,
+      "end_ms": 21325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s05-n0082",
+      "text": "资本主义生产方式经历了几个世纪，才使“自由”工人自愿接受——也就是在社会压力下被迫接受——用维持惯常生活的工资，出卖自己全部能够活动的时间，甚至出卖劳动能力本身，像为了一碗扁豆汤卖掉自己的长子继承权。",
+      "start_ms": 21680,
+      "end_ms": 38495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s05-n0083",
+      "text": "因此，从 14 世纪中叶到 17 世纪末，资本借助国家强迫成年工人接受的工作日长度，竟大致等于 19 世纪后半叶一些国家为防止儿童的鲜血全部变成资本而规定的上限。",
+      "start_ms": 38871,
+      "end_ms": 52556,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch08-s05-n0084",
+      "text": "例如，不久前还被称为美国最自由州的马萨诸塞规定，12 岁以下儿童每天最多工作 10 小时。",
+      "start_ms": 225,
+      "end_ms": 7235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s05-n0085",
+      "text": "可在 17 世纪中叶的英国，这正是身体健壮的手艺人、强壮的农业工人和魁梧铁匠的正常工作日。",
+      "start_ms": 7535,
+      "end_ms": 14275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s05-n0086",
+      "text": "第一部《劳工法令》颁布于 1349 年，即爱德华三世在位第 23 年。",
+      "start_ms": 15045,
+      "end_ms": 20445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s05-n0087",
+      "text": "它的直接借口是黑死病造成人口锐减。",
+      "start_ms": 20775,
+      "end_ms": 23545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s05-n0088",
+      "text": "请注意，这只是借口，不是原因，因为此类法律在黑死病结束后仍延续了几个世纪。",
+      "start_ms": 24010,
+      "end_ms": 30275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s05-n0089",
+      "text": "一名保守党作者说，瘟疫使“以合理价格找到工人并让他们干活，变得真正无法忍受地困难”。",
+      "start_ms": 31120,
+      "end_ms": 37675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch08-s05-n0090",
+      "text": "所谓合理价格，就是能给雇主留下合理数量剩余劳动的工资。",
+      "start_ms": 115,
+      "end_ms": 4445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s05-n0091",
+      "text": "因此，国家不仅强行规定“合理工资”，也规定工作日的长度。",
+      "start_ms": 4965,
+      "end_ms": 9475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s05-n0092",
+      "text": "我们这里只关心工作日。",
+      "start_ms": 9845,
+      "end_ms": 10875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s05-n0093",
+      "text": "1496 年亨利七世时期的法令再次规定：每年 3 月到 9 月，所有手艺人和农业工人从早晨 5 点工作到晚上 7 点或 8 点。",
+      "start_ms": 12305,
+      "end_ms": 20865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s05-n0094",
+      "text": "不过，这项规定从未真正执行。",
+      "start_ms": 21245,
+      "end_ms": 23225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s05-n0095",
+      "text": "吃饭休息包括早餐 1 小时、午餐 1 个半小时、下午 4 点的点心半小时，合计正好是现行工厂法允许时间的两倍。",
+      "start_ms": 23835,
+      "end_ms": 32665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch08-s05-n0096",
+      "text": "冬季则从早晨 5 点干到天黑，休息时间相同。",
+      "start_ms": 485,
+      "end_ms": 3755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s05-n0097",
+      "text": "1562 年伊丽莎白时期的法令适用于所有按日或按周领取工资的工人。",
+      "start_ms": 4675,
+      "end_ms": 9255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s05-n0098",
+      "text": "它没有改变工作日长度，却试图把休息时间限制为夏季 2 个半小时、冬季 2 小时。",
+      "start_ms": 9625,
+      "end_ms": 14955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s05-n0099",
+      "text": "午餐只能用 1 小时，半小时午睡只允许在 5 月中旬到 8 月中旬之间。",
+      "start_ms": 15925,
+      "end_ms": 20855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s05-n0100",
+      "text": "每缺勤 1 小时，工资扣 1 便士，约合 8 芬尼。",
+      "start_ms": 21335,
+      "end_ms": 24625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s05-n0101",
+      "text": "不过，工人在实际生活中的处境比法令写的有利得多。",
+      "start_ms": 25010,
+      "end_ms": 28515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch08-s05-n0102",
+      "text": "政治经济学之父、也可算统计学创始人的威廉·配第，在 17 世纪最后三分之一时期写道：“工人——当时主要指农业工人——每天劳动 10 小时，每周吃 20 顿饭，也就是工作日每天三顿，星期日两顿。",
+      "start_ms": 85,
+      "end_ms": 13235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s05-n0103",
+      "text": "由此可以清楚看出，如果他们星期五晚上禁食，把午餐时间从现在的两小时，也就是上午 11 点到下午 1 点，缩短为一个半小时，这样一来，他们会多工作 20分之1，又少消费 20分之1。",
+      "start_ms": 14165,
+      "end_ms": 27495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s05-n0104",
+      "text": "一增一减合起来，正好是 20分之2，也就是十分之一，前面提到的税收便可以增加同样的数额。”",
+      "start_ms": 27865,
+      "end_ms": 35525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s05-n0105",
+      "text": "这么看，安德鲁·尤尔博士把 1833 年的十二小时法案斥为倒退回黑暗时代，难道说错了吗？",
+      "start_ms": 35927,
+      "end_ms": 42422,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s05-n0106",
+      "text": "当然，这些法令和配第所说的规定也适用于学徒。",
+      "start_ms": 43082,
+      "end_ms": 46742,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch08-s05-n0107",
+      "text": "至于 17 世纪末英国儿童劳动的状况，可以从当时的一段抱怨看出：“英国的年轻人在当学徒以前什么也不做，因此当然需要很长时间——整整七年——才能练成成熟工匠。”",
+      "start_ms": 475,
+      "end_ms": 12095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s05-n0108",
+      "text": "相比之下，德国受到称赞，因为那里至少从摇篮起就训练儿童“做一点事情”。",
+      "start_ms": 12485,
+      "end_ms": 17885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s05-n0109",
+      "text": "直到 18 世纪的大部分时间，也就是大工业出现以前，英国资本除了在农业中，还没有做到只支付劳动力一周的价值，就占有工人整个星期。",
+      "start_ms": 18465,
+      "end_ms": 28125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s05-n0110",
+      "text": "工人靠四天的工资就能生活一周，但他们并不认为这足以成为理由，还要替资本家再干两天。",
+      "start_ms": 28865,
+      "end_ms": 35845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s05-n0111",
+      "text": "英国经济学家中，一派为资本服务，对这种“顽固”大发雷霆，另一派则为工人辩护。",
+      "start_ms": 36369,
+      "end_ms": 42649,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s05-n0112",
+      "text": "我们可以听听波斯尔思韦特同《论贸易和商业》的匿名作者怎样争论。",
+      "start_ms": 42959,
+      "end_ms": 47299,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch08-s05-n0113",
+      "text": "当时，波斯尔思韦特的商业词典享有的声誉，正如今天麦克库洛赫和麦格雷戈的同类著作。",
+      "start_ms": 85,
+      "end_ms": 6565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s05-n0114",
+      "text": "波斯尔思韦特说：“我不能结束这几句评论，却不提许多人挂在嘴边的一种陈词滥调。",
+      "start_ms": 7040,
+      "end_ms": 12955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s05-n0115",
+      "text": "他们说，如果勤劳的穷人五天挣的钱已经够生活，就不会老老实实干满六天。",
+      "start_ms": 13365,
+      "end_ms": 19255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s05-n0116",
+      "text": "于是他们断定，必须通过税收或其他办法，连生活必需品也要涨价，才能强迫手艺人和工场工人每周连续工作六天。",
+      "start_ms": 19705,
+      "end_ms": 28735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s05-n0117",
+      "text": "请允许我不同意这些伟大的政治家。",
+      "start_ms": 29210,
+      "end_ms": 31485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s05-n0118",
+      "text": "他们挺身捍卫的，是本国劳动人民永远受奴役。",
+      "start_ms": 31901,
+      "end_ms": 35716,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch08-s05-n0119",
+      "text": "他们忘了那句谚语：只工作、不玩耍，人会变得愚钝。",
+      "start_ms": 95,
+      "end_ms": 4165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s05-n0120",
+      "text": "“英国人不是一向以手艺人和工场工人的才智与灵巧自豪吗？",
+      "start_ms": 4600,
+      "end_ms": 8505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s05-n0121",
+      "text": "英国商品过去能在全世界享有信用和声誉，不正是靠他们吗？",
+      "start_ms": 8860,
+      "end_ms": 12975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s05-n0122",
+      "text": "这很可能是因为我国劳动人民能够按照自己的性情安排消遣。",
+      "start_ms": 13120,
+      "end_ms": 16355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s05-n0123",
+      "text": "如果强迫他们一年到头每周六天不停地干同一种活，他们的才智难道不会变钝？",
+      "start_ms": 17145,
+      "end_ms": 22665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s05-n0124",
+      "text": "他们难道不会从活跃灵巧变得愚钝懒散？",
+      "start_ms": 22990,
+      "end_ms": 25765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch08-s05-n0125",
+      "text": "这种永久奴役能保住工人的声誉，还是会毁掉它？",
+      "start_ms": 105,
+      "end_ms": 3485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s05-n0126",
+      "text": "……被驱赶得如此辛苦的牲口，还能有什么技艺可言？",
+      "start_ms": 3515,
+      "end_ms": 6795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s05-n0127",
+      "text": "……许多英国工人四天完成的工作，法国工人要五六天才能完成。",
+      "start_ms": 6795,
+      "end_ms": 11155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s05-n0128",
+      "text": "可如果英国人也必须永远做苦役，就怕他们会退化得比法国人还不如。",
+      "start_ms": 11745,
+      "end_ms": 16355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s05-n0129",
+      "text": "我们说英国人在战争中勇敢，一方面是因为肚子里有上好的英国烤牛肉和布丁，另一方面同样是因为我们宪法中的自由精神。",
+      "start_ms": 16755,
+      "end_ms": 24735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s05-n0130",
+      "text": "既然如此，手艺人和工场工人较高的才智、活力和灵巧，为什么不可能来自他们按照自己方式享受消遣的自由？",
+      "start_ms": 25115,
+      "end_ms": 33355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch08-s05-n0131",
+      "text": "我希望他们永远不要失去这些权利，也不要失去良好的生活。",
+      "start_ms": 275,
+      "end_ms": 3815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s05-n0132",
+      "text": "正是这种生活，同时养成了他们的劳动能力和勇气。”",
+      "start_ms": 4160,
+      "end_ms": 7425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s05-n0133",
+      "text": "《论贸易和商业》的作者回答道：",
+      "start_ms": 7920,
+      "end_ms": 9475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s05-n0134",
+      "text": "“如果把每周第七天的休息视为上帝的制度，这就意味着其余六天属于劳动——稍后便会看到，他实际指的是属于资本。",
+      "start_ms": 9480,
+      "end_ms": 18405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s05-n0135",
+      "text": "强制执行这项上帝的命令，不能算残酷……人类天生偏爱安逸和懒惰。",
+      "start_ms": 18960,
+      "end_ms": 24045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s05-n0136",
+      "text": "我国工场里那群暴民的行为，使我们痛苦地认识到这一点。",
+      "start_ms": 24520,
+      "end_ms": 28195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch08-s05-n0137",
+      "text": "除非食品涨价，他们平均每周只工作四天……假定一蒲式耳小麦代表工人的全部生活资料，价格为 5 先令，而工人每天挣 1 先令，他每周只需工作五天。",
+      "start_ms": 325,
+      "end_ms": 10965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s05-n0138",
+      "text": "小麦若只卖 4 先令，他更只需工作四天……我国工资同生活资料价格相比高得多，所以工场工人干四天以后，手里还有余钱，可以在一周剩下的日子里游手好闲。",
+      "start_ms": 11875,
+      "end_ms": 23475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s05-n0139",
+      "text": "“我希望上面这些话已经足以说明，一周六天从事适度劳动并不是奴役。",
+      "start_ms": 23570,
+      "end_ms": 28785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s05-n0140",
+      "text": "我国农业工人就是这样做的，而且从各方面看来，他们是劳动穷人中最幸福的一群。",
+      "start_ms": 29170,
+      "end_ms": 34725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s05-n0141",
+      "text": "荷兰的工场工人也这样做，荷兰看来是一个很幸福的国家。",
+      "start_ms": 35116,
+      "end_ms": 38471,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s05-n0142",
+      "text": "法国人也这样做，只是常被众多节日打断。",
+      "start_ms": 39021,
+      "end_ms": 41811,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch08-s05-n0143",
+      "text": "……可是我国暴民头脑里有一种根深蒂固的想法：英国人天生享有一种权利，要比欧洲任何其他国家的劳动人民更加自由、独立。",
+      "start_ms": 0,
+      "end_ms": 9355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s05-n0144",
+      "text": "只要这种想法能增强士兵的勇气，也许还有些用处。",
+      "start_ms": 10525,
+      "end_ms": 13785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s05-n0145",
+      "text": "可工场工人拥有这种想法越少，对他们自己和国家越好。",
+      "start_ms": 14160,
+      "end_ms": 17805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s05-n0146",
+      "text": "工人绝不应该觉得自己可以不依赖上级……我国是一个商业国家，总人口中也许有八分之七没有财产或只有很少财产。",
+      "start_ms": 18100,
+      "end_ms": 26705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s05-n0147",
+      "text": "在这样的国家鼓励暴民，极其危险。",
+      "start_ms": 27175,
+      "end_ms": 29635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s05-n0148",
+      "text": "……除非勤劳的穷人甘愿用现在四天挣到的同样一笔钱工作六天，否则治疗就没有完成。”",
+      "start_ms": 29635,
+      "end_ms": 36405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch08-s05-n0149",
+      "text": "为了“根除懒惰、放荡以及对自由的浪漫幻想”，同时“减少济贫税、培养勤劳精神、降低工场劳动的价格”，这位资本的忠诚卫士提出了一个久经考验的办法：凡是需要公共救济的人，也就是贫民，都关进“理想劳动院”。",
+      "start_ms": 205,
+      "end_ms": 14325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s05-n0150",
+      "text": "“这种劳动院必须变成恐怖之屋”， 绝不能成为贫民得到救助的地方。",
+      "start_ms": 14870,
+      "end_ms": 19075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s05-n0151",
+      "text": "在这座“恐怖之屋”、这座“理想劳动院”里，每天要劳动 14 小时。",
+      "start_ms": 19625,
+      "end_ms": 23045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s05-n0152",
+      "text": "扣除适当的吃饭时间，实际劳动仍有整整 12 小时。",
+      "start_ms": 24145,
+      "end_ms": 27835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s05-n0153",
+      "text": "1770 年的“理想劳动院”、恐怖之屋，每天要求 12 个实际劳动小时！",
+      "start_ms": 28985,
+      "end_ms": 33415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s05-n0154",
+      "text": "63 年后的 1833 年，英国议会把四个行业中 13 至 18 岁儿童的工作日降到整整 12 个劳动小时，英国工业却仿佛迎来了世界末日。",
+      "start_ms": 34219,
+      "end_ms": 44039,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch08-s05-n0155",
+      "text": "1852 年，路易·波拿巴为了在资产阶级社会站稳脚跟，企图动摇法定工作日，法国人民异口同声地说：“把工作日缩短到 12 小时的法律，是共和时代立法留给我们的唯一成果！”",
+      "start_ms": 625,
+      "end_ms": 12475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s05-n0156",
+      "text": "在苏黎世，10 岁以上儿童每天最多工作 12 小时。",
+      "start_ms": 13145,
+      "end_ms": 16555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s05-n0157",
+      "text": "阿尔高州在 1862 年把 13 至 16 岁儿童的上限从 12 个半小时降到 12 小时。",
+      "start_ms": 17015,
+      "end_ms": 21865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s05-n0158",
+      "text": "奥地利也在 1860 年把 14 至 16 岁儿童的上限定为 12 小时。",
+      "start_ms": 22915,
+      "end_ms": 27085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s05-n0159",
+      "text": "麦考莱曾把现代社会的进步归结为“发现旧弊病的智慧和医治它们的人道精神”。",
+      "start_ms": 27515,
+      "end_ms": 32625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s05-n0160",
+      "text": "照他的说法，看到这些结果，他一定会欣喜地高呼：从 1770 年以来，这是多么大的“进步”！",
+      "start_ms": 33294,
+      "end_ms": 39229,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch08-s05-n0161",
+      "text": "1770 年，资本的灵魂还只是在幻想给贫民建一座“恐怖之屋”。",
+      "start_ms": 635,
+      "end_ms": 4985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s05-n0162",
+      "text": "几年后，它便以一座巨大的“劳动院”出现在工场工人面前。",
+      "start_ms": 5540,
+      "end_ms": 9555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s05-n0163",
+      "text": "这座劳动院名叫工厂。",
+      "start_ms": 10055,
+      "end_ms": 11625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch08-s05-n0164",
+      "text": "现实一出现，理想便黯然失色。",
+      "start_ms": 12220,
+      "end_ms": 14395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    }
+  ]
+}

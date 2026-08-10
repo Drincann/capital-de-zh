@@ -51,6 +51,8 @@ const panelWidthKey = "capital-reader-notes-width";
 const editorHeightKey = "capital-reader-note-editor-height";
 const defaultPanelWidth = 400;
 const defaultEditorHeight = 220;
+const readerLayoutChangedEvent = "capital-reader-layout-changed";
+const narrationDecoratedEvent = "capital-reader-narration-decorated";
 
 export function ReaderNotes({
   sectionId,
@@ -156,6 +158,25 @@ export function ReaderNotes({
       if (root) applyHighlights(root, notes);
     });
     return () => cancelAnimationFrame(frame);
+  }, [contentReady, notes, sectionId, versionId]);
+
+  useEffect(() => {
+    if (!contentReady) return;
+    let frame = 0;
+    const restoreHighlights = () => {
+      window.cancelAnimationFrame(frame);
+      frame = window.requestAnimationFrame(() => {
+        const root = noteRoot();
+        if (root) applyHighlights(root, notes);
+      });
+    };
+    window.addEventListener(narrationDecoratedEvent, restoreHighlights);
+    window.addEventListener(readerLayoutChangedEvent, restoreHighlights);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener(narrationDecoratedEvent, restoreHighlights);
+      window.removeEventListener(readerLayoutChangedEvent, restoreHighlights);
+    };
   }, [contentReady, notes, sectionId, versionId]);
 
   useEffect(() => {
@@ -431,6 +452,7 @@ export function ReaderNotes({
         panelWidthKey,
         String(currentCssPixels("--notes-panel-width", defaultPanelWidth)),
       );
+      window.dispatchEvent(new Event(readerLayoutChangedEvent));
     }
 
     document.addEventListener("pointermove", move);
@@ -446,11 +468,13 @@ export function ReaderNotes({
       panelWidthKey,
       String(currentCssPixels("--notes-panel-width", defaultPanelWidth)),
     );
+    window.dispatchEvent(new Event(readerLayoutChangedEvent));
   }
 
   function resetPanelWidth() {
     applyPanelWidth(defaultPanelWidth);
     localStorage.setItem(panelWidthKey, String(defaultPanelWidth));
+    window.dispatchEvent(new Event(readerLayoutChangedEvent));
   }
 
   function beginEditorResize(event: React.PointerEvent<HTMLElement>) {

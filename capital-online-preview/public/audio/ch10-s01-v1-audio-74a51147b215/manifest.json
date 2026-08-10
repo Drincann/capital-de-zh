@@ -1,0 +1,1489 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch10-s01-v1-audio-74a51147b215",
+  "unit_id": "ch10-s01",
+  "translation_version_id": "ch10-s01-v1",
+  "translation_sha256": "09c76db2550601681138eaa7202f885764ea873b50e0d5de95a1afa0defee6ef",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T16:03:39.022Z",
+  "completed_at": "2026-08-04T16:05:55.643Z",
+  "duration_ms": 930555,
+  "sentence_count": 139,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 36124,
+      "bytes": 582957,
+      "sha256": "bec12d643bf352130041cf3c028f0d0d2021a0646b855ee9e4b268489a38269d",
+      "sentence_ids": [
+        "ch10-s01-n0001",
+        "ch10-s01-n0002",
+        "ch10-s01-n0003",
+        "ch10-s01-n0004",
+        "ch10-s01-n0005",
+        "ch10-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 46753,
+      "bytes": 749613,
+      "sha256": "9877d96aee3a6a2c484e62ffbf7c9d704be41090bdd77703b5c561c85d00f29d",
+      "sentence_ids": [
+        "ch10-s01-n0007",
+        "ch10-s01-n0008",
+        "ch10-s01-n0009",
+        "ch10-s01-n0010",
+        "ch10-s01-n0011",
+        "ch10-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 36411,
+      "bytes": 582573,
+      "sha256": "d4bba63484c02b3b345f60b5fe71f88fa5797af2555c74ff8adc1b22f8609aba",
+      "sentence_ids": [
+        "ch10-s01-n0013",
+        "ch10-s01-n0014",
+        "ch10-s01-n0015",
+        "ch10-s01-n0016",
+        "ch10-s01-n0017",
+        "ch10-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 34722,
+      "bytes": 556845,
+      "sha256": "77daf4f86c875abe68c0e508f1b95b4dc87dfa9583e24f7af77e46fe075a0659",
+      "sentence_ids": [
+        "ch10-s01-n0019",
+        "ch10-s01-n0020",
+        "ch10-s01-n0021",
+        "ch10-s01-n0022",
+        "ch10-s01-n0023",
+        "ch10-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 28905,
+      "bytes": 468141,
+      "sha256": "abcad883833f4d85ef73f0b00563f1e89ce071438d046f9504c2b00b3da24267",
+      "sentence_ids": [
+        "ch10-s01-n0025",
+        "ch10-s01-n0026",
+        "ch10-s01-n0027",
+        "ch10-s01-n0028",
+        "ch10-s01-n0029",
+        "ch10-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 58002,
+      "bytes": 938157,
+      "sha256": "279891414e385373f180e3b5be2b810883ef4bb01aa98250388df4170dbc5c4e",
+      "sentence_ids": [
+        "ch10-s01-n0031",
+        "ch10-s01-n0032",
+        "ch10-s01-n0033",
+        "ch10-s01-n0034",
+        "ch10-s01-n0035",
+        "ch10-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 28075,
+      "bytes": 458925,
+      "sha256": "a5c0dce28631fdcfcdb3fdbd3b30873be95bf8dff2e51d86bade746756f4f9d5",
+      "sentence_ids": [
+        "ch10-s01-n0037",
+        "ch10-s01-n0038",
+        "ch10-s01-n0039",
+        "ch10-s01-n0040",
+        "ch10-s01-n0041",
+        "ch10-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 40738,
+      "bytes": 652845,
+      "sha256": "cdaa20f3f691e736329df1e20bdccb7e38b21f6a898a9959acea619d09179d05",
+      "sentence_ids": [
+        "ch10-s01-n0043",
+        "ch10-s01-n0044",
+        "ch10-s01-n0045",
+        "ch10-s01-n0046",
+        "ch10-s01-n0047",
+        "ch10-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 45059,
+      "bytes": 726957,
+      "sha256": "365ef6dfe8008f3988944b27dd308e360b3c64273d2347b4035fb8bc13b834c5",
+      "sentence_ids": [
+        "ch10-s01-n0049",
+        "ch10-s01-n0050",
+        "ch10-s01-n0051",
+        "ch10-s01-n0052",
+        "ch10-s01-n0053",
+        "ch10-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 34912,
+      "bytes": 560685,
+      "sha256": "57ab7ccebbc642497162d132b874d3fcdd2999fb60d8e2dd3f251efa1614c8b2",
+      "sentence_ids": [
+        "ch10-s01-n0055",
+        "ch10-s01-n0056",
+        "ch10-s01-n0057",
+        "ch10-s01-n0058",
+        "ch10-s01-n0059",
+        "ch10-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 44645,
+      "bytes": 720813,
+      "sha256": "908d0e9ccbd3a4b07da40da184e4c8c49cbfa9fa5e812ffacb6ae205006e427e",
+      "sentence_ids": [
+        "ch10-s01-n0061",
+        "ch10-s01-n0062",
+        "ch10-s01-n0063",
+        "ch10-s01-n0064",
+        "ch10-s01-n0065",
+        "ch10-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 36245,
+      "bytes": 582573,
+      "sha256": "42b148a7a437a3e8c954e94fcc1092d8037f1eae41611391a7b8e99ff7214f30",
+      "sentence_ids": [
+        "ch10-s01-n0067",
+        "ch10-s01-n0068",
+        "ch10-s01-n0069",
+        "ch10-s01-n0070",
+        "ch10-s01-n0071",
+        "ch10-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 49297,
+      "bytes": 794541,
+      "sha256": "7ad0fa096b312a9e4e5fcaef512f729fa65172ed64c1ea15308d00fdc5d34e09",
+      "sentence_ids": [
+        "ch10-s01-n0073",
+        "ch10-s01-n0074",
+        "ch10-s01-n0075",
+        "ch10-s01-n0076",
+        "ch10-s01-n0077",
+        "ch10-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 42315,
+      "bytes": 678957,
+      "sha256": "5f75aa1b085db26a65d01cac718575c6522e84f3dbce6aee49f401ee3879d4d3",
+      "sentence_ids": [
+        "ch10-s01-n0079",
+        "ch10-s01-n0080",
+        "ch10-s01-n0081",
+        "ch10-s01-n0082",
+        "ch10-s01-n0083",
+        "ch10-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 37318,
+      "bytes": 598701,
+      "sha256": "ae7d11a717f408b56255e0c0402bbbb49d695152313fbe9fdd1ed3ca13e83b8c",
+      "sentence_ids": [
+        "ch10-s01-n0085",
+        "ch10-s01-n0086",
+        "ch10-s01-n0087",
+        "ch10-s01-n0088",
+        "ch10-s01-n0089",
+        "ch10-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 33834,
+      "bytes": 544557,
+      "sha256": "251e49f3ca18981a94055ff0be179c96bae70e70aea4704d61d18ede1f7c92c7",
+      "sentence_ids": [
+        "ch10-s01-n0091",
+        "ch10-s01-n0092",
+        "ch10-s01-n0093",
+        "ch10-s01-n0094",
+        "ch10-s01-n0095",
+        "ch10-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 27315,
+      "bytes": 445869,
+      "sha256": "e2d48d2a12d373796526a602226e7a9ee0ff84f3d776f3d1723532f28ea27282",
+      "sentence_ids": [
+        "ch10-s01-n0097",
+        "ch10-s01-n0098",
+        "ch10-s01-n0099",
+        "ch10-s01-n0100",
+        "ch10-s01-n0101",
+        "ch10-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 36057,
+      "bytes": 576429,
+      "sha256": "00799a2966c03b7709138a4731a3ad94003d8a7f0283dd475ada0e69d21e2c32",
+      "sentence_ids": [
+        "ch10-s01-n0103",
+        "ch10-s01-n0104",
+        "ch10-s01-n0105",
+        "ch10-s01-n0106",
+        "ch10-s01-n0107",
+        "ch10-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 36991,
+      "bytes": 592557,
+      "sha256": "d27a58d354044feb50a132c660050cfa582602cb076189b8a2c722895a61286f",
+      "sentence_ids": [
+        "ch10-s01-n0109",
+        "ch10-s01-n0110",
+        "ch10-s01-n0111",
+        "ch10-s01-n0112",
+        "ch10-s01-n0113",
+        "ch10-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 45062,
+      "bytes": 723501,
+      "sha256": "40f8a1876730897e9b049e16104e127afc25e58a027352f7407924a4b8f2dc01",
+      "sentence_ids": [
+        "ch10-s01-n0115",
+        "ch10-s01-n0116",
+        "ch10-s01-n0117",
+        "ch10-s01-n0118",
+        "ch10-s01-n0119",
+        "ch10-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 39110,
+      "bytes": 625197,
+      "sha256": "3d8d59b30697336863e31c8053486eaffbff695a1c9ceaedcd23cdc60f4fab90",
+      "sentence_ids": [
+        "ch10-s01-n0121",
+        "ch10-s01-n0122",
+        "ch10-s01-n0123",
+        "ch10-s01-n0124",
+        "ch10-s01-n0125",
+        "ch10-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 44202,
+      "bytes": 716973,
+      "sha256": "e74a9be1e2bfc09a013c1f2108cd46ab3691f5e0ad837ab4cbba75d717ee0482",
+      "sentence_ids": [
+        "ch10-s01-n0127",
+        "ch10-s01-n0128",
+        "ch10-s01-n0129",
+        "ch10-s01-n0130",
+        "ch10-s01-n0131",
+        "ch10-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 49818,
+      "bytes": 804141,
+      "sha256": "d83a61a033584ce350c03dd91aaf6f7e037f4df3529950a5ab0a6a8ba602dfc8",
+      "sentence_ids": [
+        "ch10-s01-n0133",
+        "ch10-s01-n0134",
+        "ch10-s01-n0135",
+        "ch10-s01-n0136",
+        "ch10-s01-n0137"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 18645,
+      "bytes": 301485,
+      "sha256": "d1a5d4f5ea50aac2a06346584bd8552be56c5848fc9c3780846a1ee4e4aac9f6",
+      "sentence_ids": [
+        "ch10-s01-n0138",
+        "ch10-s01-n0139"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch10-s01-n0001",
+      "text": "此前，我们一直把工作日的一部分看作固定量：工人在这段时间里生产的价值，正好补偿资本家为劳动力支付的价值。",
+      "start_ms": 285,
+      "end_ms": 8505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch10-s01-n0002",
+      "text": "在既定生产条件和既定社会经济发展水平下，这段必要劳动时间确实是固定的。",
+      "start_ms": 8925,
+      "end_ms": 13955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch10-s01-n0003",
+      "text": "完成必要劳动以后，工人还可以再劳动2、3、4、6小时，等等。",
+      "start_ms": 14875,
+      "end_ms": 19815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch10-s01-n0004",
+      "text": "这段额外劳动延长多少，决定剩余价值率有多高，也决定工作日有多长。",
+      "start_ms": 20240,
+      "end_ms": 24915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch10-s01-n0005",
+      "text": "也就是说，必要劳动时间不变，整个工作日可以变化。",
+      "start_ms": 25725,
+      "end_ms": 29365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch10-s01-n0006",
+      "text": "现在换一个前提，假定工作日的总长，以及必要劳动和剩余劳动各占多少，都已经确定。",
+      "start_ms": 29974,
+      "end_ms": 35974,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch10-s01-n0007",
+      "text": "例如，线段 a──────────b──c 表示一个12小时工作日，其中ab是10小时必要劳动，bc是2小时剩余劳动。",
+      "start_ms": 485,
+      "end_ms": 8745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch10-s01-n0008",
+      "text": "现在的问题是：不再延长ac，也就是不靠继续延长工作日，怎样才能增加剩余价值、延长剩余劳动？",
+      "start_ms": 9115,
+      "end_ms": 16665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch10-s01-n0009",
+      "text": "尽管工作日ac的总长已经固定，剩余劳动bc似乎仍然可以延长。",
+      "start_ms": 17200,
+      "end_ms": 22345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch10-s01-n0010",
+      "text": "既然不能把终点c向右推，就把起点b向左移，使它更靠近a。",
+      "start_ms": 22740,
+      "end_ms": 27975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch10-s01-n0011",
+      "text": "假定在 a─────────b′─b──c 中，b′b等于bc的一半，也就是1小时。",
+      "start_ms": 28655,
+      "end_ms": 34235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch10-s01-n0012",
+      "text": "如果把12小时工作日中的分界点从b移到b′，剩余劳动就从bc延长为b′c，由2小时增加到3小时，增加了一半，而工作日仍然只有12小时。",
+      "start_ms": 34763,
+      "end_ms": 46603,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch10-s01-n0013",
+      "text": "不过，剩余劳动能从2小时增加到3小时，必要劳动就必须同时从ab缩短为ab′，由10小时减少到9小时。",
+      "start_ms": 125,
+      "end_ms": 8295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch10-s01-n0014",
+      "text": "剩余劳动延长多少，必要劳动就要缩短多少。",
+      "start_ms": 8715,
+      "end_ms": 11555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch10-s01-n0015",
+      "text": "原来属于必要劳动、也就是工人为补偿自身劳动力价值而工作的那部分时间，现在变成了为资本家提供的剩余劳动。",
+      "start_ms": 11780,
+      "end_ms": 19295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch10-s01-n0016",
+      "text": "改变的不是工作日的长度，而是工作日在必要劳动和剩余劳动之间的划分。",
+      "start_ms": 19580,
+      "end_ms": 24565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch10-s01-n0017",
+      "text": "另一方面，在工作日长度和劳动力价值都已确定时，剩余劳动的长度也就确定。",
+      "start_ms": 24990,
+      "end_ms": 30625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch10-s01-n0018",
+      "text": "维持和再生产劳动力所需的生活资料中包含多少劳动，决定了劳动力的价值。",
+      "start_ms": 31076,
+      "end_ms": 36261,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch10-s01-n0019",
+      "text": "劳动力的价值又决定工人需要劳动多久，才能生产出与这份价值相等的价值。",
+      "start_ms": 125,
+      "end_ms": 5155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch10-s01-n0020",
+      "text": "假定1小时劳动表现为半先令黄金，也就是6便士，而劳动力每天价值5先令，工人每天就必须劳动10小时，才能补偿资本家为劳动力支付的日价值。",
+      "start_ms": 5585,
+      "end_ms": 16355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch10-s01-n0021",
+      "text": "换句话说，他要用10小时生产出与自己每天必需的生活资料等值的价值。",
+      "start_ms": 16770,
+      "end_ms": 21925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch10-s01-n0022",
+      "text": "每天必需的生活资料价值一旦确定，劳动力的价值也随之确定。",
+      "start_ms": 22335,
+      "end_ms": 26085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch10-s01-n0023",
+      "text": "劳动力的价值一旦确定，必要劳动时间也就确定。",
+      "start_ms": 27005,
+      "end_ms": 30255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch10-s01-n0024",
+      "text": "用整个工作日减去必要劳动时间，剩下的就是剩余劳动时间。",
+      "start_ms": 30807,
+      "end_ms": 34572,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch10-s01-n0025",
+      "text": "12小时减去10小时等于2小时。",
+      "start_ms": 575,
+      "end_ms": 2395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch10-s01-n0026",
+      "text": "在这些条件不变时，剩余劳动看不出怎样还能超过2小时。",
+      "start_ms": 2815,
+      "end_ms": 6765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch10-s01-n0027",
+      "text": "当然，资本家可以不付5先令，只付4先令6便士，甚至更少。",
+      "start_ms": 6960,
+      "end_ms": 11635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch10-s01-n0028",
+      "text": "工人只需劳动9小时，就能生产出与4先令6便士相等的价值。",
+      "start_ms": 11800,
+      "end_ms": 16275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch10-s01-n0029",
+      "text": "这样一来，12小时工作日中就有3小时而不是2小时属于剩余劳动，剩余价值也会从1先令增加到1先令6便士。",
+      "start_ms": 16915,
+      "end_ms": 25015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch10-s01-n0030",
+      "text": "但这个结果只是靠把工资压到劳动力价值以下取得的。",
+      "start_ms": 25340,
+      "end_ms": 28755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch10-s01-n0031",
+      "text": "工人用9小时生产出4先令6便士，却只能买到比以前少十分之一的生活资料，因此他的劳动力不能得到正常的恢复和延续。",
+      "start_ms": 135,
+      "end_ms": 9115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch10-s01-n0032",
+      "text": "这里的剩余劳动之所以增加，只是因为它越过正常界限，强占了一部分必要劳动时间。",
+      "start_ms": 9935,
+      "end_ms": 15995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch10-s01-n0033",
+      "text": "尽管这种办法在现实工资变动中十分重要，这里仍要把它排除，因为我们已经假定一切商品都按全部价值买卖，劳动力也不例外。",
+      "start_ms": 16405,
+      "end_ms": 25235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch10-s01-n0034",
+      "text": "在这个前提下，维持和再生产劳动力所需的时间要想缩短，不能靠把工资压到劳动力价值以下，只有劳动力价值本身下降才行。",
+      "start_ms": 25965,
+      "end_ms": 35445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch10-s01-n0035",
+      "text": "在工作日总长不变时，剩余劳动只能因为必要劳动时间缩短而延长，不能反过来用剩余劳动延长来解释必要劳动时间缩短。",
+      "start_ms": 35837,
+      "end_ms": 44972,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch10-s01-n0036",
+      "text": "在我们的例子中，劳动力价值必须真正下降十分之一，必要劳动时间才会相应减少十分之一，从10小时降到9小时，剩余劳动也才会从2小时延长到3小时。",
+      "start_ms": 45732,
+      "end_ms": 57852,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch10-s01-n0037",
+      "text": "要把劳动力价值降低十分之一，原来用10小时生产的同样一批生活资料，现在就必须用9小时生产出来。",
+      "start_ms": 135,
+      "end_ms": 6405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch10-s01-n0038",
+      "text": "这只有提高劳动生产力才能做到。",
+      "start_ms": 6765,
+      "end_ms": 8645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch10-s01-n0039",
+      "text": "比如，鞋匠按现有条件劳动，一天12小时只能做一双靴子。",
+      "start_ms": 8985,
+      "end_ms": 12715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch10-s01-n0040",
+      "text": "如果要他在同样时间做两双，他的劳动生产力就必须提高一倍。",
+      "start_ms": 13505,
+      "end_ms": 17315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch10-s01-n0041",
+      "text": "要提高一倍，就必须改变劳动工具、劳动方法，或者两者同时改变。",
+      "start_ms": 17630,
+      "end_ms": 21975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch10-s01-n0042",
+      "text": "所以，他的生产条件必须发生根本变化：生产方式必须改变，劳动过程本身也必须随之改变。",
+      "start_ms": 22375,
+      "end_ms": 27925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch10-s01-n0043",
+      "text": "这里所说的提高劳动生产力，就是改变劳动过程，缩短生产一种商品所需的社会必要劳动时间，让较少的劳动能够生产更多有用物品。",
+      "start_ms": 415,
+      "end_ms": 9525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch10-s01-n0044",
+      "text": "过去讨论的剩余价值，是在生产方式不变的前提下产生的。",
+      "start_ms": 10575,
+      "end_ms": 14325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch10-s01-n0045",
+      "text": "资本只需接管历史上沿用或眼前已有的劳动过程，再把工作时间延长。",
+      "start_ms": 14810,
+      "end_ms": 19445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch10-s01-n0046",
+      "text": "但要通过缩短必要劳动、把省下的时间变成剩余劳动来生产剩余价值，光靠这一点远远不够。",
+      "start_ms": 20415,
+      "end_ms": 27185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch10-s01-n0047",
+      "text": "资本必须改变劳动过程的技术条件和社会条件，也就是改变生产方式本身。",
+      "start_ms": 27690,
+      "end_ms": 32765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch10-s01-n0048",
+      "text": "这样才能提高劳动生产力，进而降低劳动力价值，缩短工作日中为补足劳动力价值而必需的劳动时间。",
+      "start_ms": 33218,
+      "end_ms": 40588,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch10-s01-n0049",
+      "text": "通过延长工作日产生的剩余价值，叫作绝对剩余价值。",
+      "start_ms": 255,
+      "end_ms": 4145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch10-s01-n0050",
+      "text": "相反，通过缩短必要劳动时间，使必要劳动和剩余劳动在工作日中所占的比例相应改变，由此产生的剩余价值，叫作相对剩余价值。",
+      "start_ms": 4685,
+      "end_ms": 14995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch10-s01-n0051",
+      "text": "要降低劳动力价值，就必须提高那些决定劳动力价值的行业的劳动生产力。",
+      "start_ms": 15995,
+      "end_ms": 21685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch10-s01-n0052",
+      "text": "这些行业的产品，要么属于工人通常消费的必要生活资料，要么能够替代这类生活资料。",
+      "start_ms": 22060,
+      "end_ms": 28645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch10-s01-n0053",
+      "text": "不过，一件商品的价值不仅取决于最后把它制成成品的劳动，也取决于它所用生产资料中包含的劳动。",
+      "start_ms": 29250,
+      "end_ms": 37155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch10-s01-n0054",
+      "text": "比如，一双靴子的价值不仅来自鞋匠的劳动，也包括皮革、鞋蜡、线等生产资料的价值。",
+      "start_ms": 37454,
+      "end_ms": 44909,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch10-s01-n0055",
+      "text": "生产必要生活资料，同样要使用劳动手段和原料。",
+      "start_ms": 75,
+      "end_ms": 3515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch10-s01-n0056",
+      "text": "它们是不变资本的物质要素。",
+      "start_ms": 3840,
+      "end_ms": 5695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch10-s01-n0057",
+      "text": "因此，生产这些劳动手段和原料的行业如果提高劳动生产力，使产品变便宜，劳动力价值也会下降。",
+      "start_ms": 6000,
+      "end_ms": 12715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch10-s01-n0058",
+      "text": "反过来，一个行业既不生产必要生活资料，也不为它们提供生产资料，那么它提高劳动生产力也不会影响劳动力价值。",
+      "start_ms": 13675,
+      "end_ms": 21945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch10-s01-n0059",
+      "text": "一种商品变便宜，能使劳动力价值降低多少，只取决于这种商品在维持劳动力所需的全部生活资料中占多大比重。",
+      "start_ms": 22315,
+      "end_ms": 30385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch10-s01-n0060",
+      "text": "比如，衬衫虽是必要生活资料，却只是许多种中的一种。",
+      "start_ms": 30937,
+      "end_ms": 34762,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch10-s01-n0061",
+      "text": "衬衫变便宜，只会减少工人在衬衫上的支出。",
+      "start_ms": 295,
+      "end_ms": 3655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch10-s01-n0062",
+      "text": "工人所需的全部生活资料由许多不同商品组成，每种商品都由特定行业生产，它的价值只占劳动力价值的一部分。",
+      "start_ms": 3980,
+      "end_ms": 12375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch10-s01-n0063",
+      "text": "劳动力价值随着再生产劳动力所需的劳动时间缩短而下降，而总共缩短的时间，正是各个相关行业分别缩短的劳动时间之和。",
+      "start_ms": 12790,
+      "end_ms": 21685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch10-s01-n0064",
+      "text": "这里先把劳动力价值下降这个总结果，看作每个具体事例直接造成的结果和直接追求的目的。",
+      "start_ms": 22515,
+      "end_ms": 28745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch10-s01-n0065",
+      "text": "不过现实中，一个资本家提高劳动生产力，使衬衫变便宜，目的并不一定是相应降低劳动力价值和必要劳动时间。",
+      "start_ms": 29245,
+      "end_ms": 37675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch10-s01-n0066",
+      "text": "只有当衬衫降价最终促成了这个结果时，他的行动才会对一般剩余价值率的提高作出贡献。",
+      "start_ms": 38115,
+      "end_ms": 44495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch10-s01-n0067",
+      "text": "资本的一般必然趋势，必须同这种趋势在现实中的具体表现形式区分开来。",
+      "start_ms": 125,
+      "end_ms": 4945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch10-s01-n0068",
+      "text": "资本主义生产有它自身的规律。",
+      "start_ms": 5295,
+      "end_ms": 7005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch10-s01-n0069",
+      "text": "但这些规律怎样通过各个资本之间的竞争表现出来，竞争又怎样迫使每个资本家服从这些规律，并让资本家自觉地按这些规律行动，这里暂且不谈。",
+      "start_ms": 7300,
+      "end_ms": 17075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch10-s01-n0070",
+      "text": "不过，有一点一开始就很清楚：只有先弄清资本内部怎样运作，才可能科学地分析竞争。",
+      "start_ms": 17510,
+      "end_ms": 23395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch10-s01-n0071",
+      "text": "正如只有知道天体真实而肉眼看不见的运动，才能理解它们表面上怎样运行。",
+      "start_ms": 23810,
+      "end_ms": 29035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch10-s01-n0072",
+      "text": "尽管如此，为了理解相对剩余价值怎样产生，根据前面已经得到的结论，还需要说明下面这个过程。",
+      "start_ms": 29315,
+      "end_ms": 36095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch10-s01-n0073",
+      "text": "假定一小时劳动表现为 6 便士黄金，也就是半先令，那么一个 12 小时工作日会创造 6 先令新价值。",
+      "start_ms": 545,
+      "end_ms": 7415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch10-s01-n0074",
+      "text": "再假定，按现有劳动生产率，12 小时能生产 12 件商品，每件商品所耗用的原料等生产资料价值 6 便士。",
+      "start_ms": 7740,
+      "end_ms": 16015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch10-s01-n0075",
+      "text": "那么每件商品的价值就是 1 先令，其中 6 便士是生产资料转移过来的价值，另 6 便士是加工时新增加的价值。",
+      "start_ms": 16410,
+      "end_ms": 24205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch10-s01-n0076",
+      "text": "现在，某个资本家把劳动生产率提高一倍，一天能生产 24 件而不是 12 件。",
+      "start_ms": 24945,
+      "end_ms": 30705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch10-s01-n0077",
+      "text": "假定每件商品耗用的生产资料仍值 6 便士，每件商品的价值就降到 9 便士：6 便士来自生产资料，3 便士是本次劳动新增加的价值。",
+      "start_ms": 31212,
+      "end_ms": 40527,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch10-s01-n0078",
+      "text": "劳动生产率虽翻了一倍，12 小时工作日仍只创造 6 先令新价值，只是这 6 先令现在分摊在两倍的产品上。",
+      "start_ms": 41477,
+      "end_ms": 49147,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch10-s01-n0079",
+      "text": "每件商品因此只分到总新价值的 1/24，而不是 1/12，也就是 3 便士而不是 6 便士。",
+      "start_ms": 395,
+      "end_ms": 8145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch10-s01-n0080",
+      "text": "换句话说，生产资料每变成一件商品，新加上的劳动从一小时降到了半小时。",
+      "start_ms": 8875,
+      "end_ms": 15375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch10-s01-n0081",
+      "text": "这批商品的个别价值现在低于社会价值，因为这个资本家实际花费的劳动时间，少于在社会平均条件下生产同类商品通常需要的劳动时间。",
+      "start_ms": 15785,
+      "end_ms": 26335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch10-s01-n0082",
+      "text": "按社会平均条件，每件商品价值 1 先令，代表 2 小时社会劳动。",
+      "start_ms": 27355,
+      "end_ms": 32395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch10-s01-n0083",
+      "text": "采用新方法后，每件只值 9 便士，包含 1½ 小时劳动。",
+      "start_ms": 32860,
+      "end_ms": 37445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch10-s01-n0084",
+      "text": "但商品的真实价值不是它的个别价值，而是社会价值。",
+      "start_ms": 37840,
+      "end_ms": 42165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch10-s01-n0085",
+      "text": "也就是说，决定商品价值的，不是个别生产者在某次生产中实际花费的劳动时间，而是社会通常生产这种商品所需要的劳动时间。",
+      "start_ms": 145,
+      "end_ms": 9695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch10-s01-n0086",
+      "text": "如果采用新方法的资本家仍按 1 先令的社会价值出售，每件商品就能比它的个别价值多卖 3 便士，使他多得 3 便士剩余价值。",
+      "start_ms": 9915,
+      "end_ms": 19305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch10-s01-n0087",
+      "text": "另一方面，他一天的产品已从 12 件增至 24 件。",
+      "start_ms": 19630,
+      "end_ms": 23325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch10-s01-n0088",
+      "text": "要全部卖掉，销量就必须翻倍，市场也得扩大一倍。",
+      "start_ms": 23775,
+      "end_ms": 27455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch10-s01-n0089",
+      "text": "其他条件不变，他只有降价才能争到更大的市场。",
+      "start_ms": 27730,
+      "end_ms": 31255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch10-s01-n0090",
+      "text": "因此，他会把价格定在个别价值以上、社会价值以下，比如每件卖 10 便士。",
+      "start_ms": 31683,
+      "end_ms": 37168,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch10-s01-n0091",
+      "text": "这样，每件商品仍能给他多带来 1 便士剩余价值。",
+      "start_ms": 375,
+      "end_ms": 3995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch10-s01-n0092",
+      "text": "他能得到这份额外的剩余价值，并不取决于这种商品是否属于生活必需品、是否因而影响劳动力的总体价值。",
+      "start_ms": 4375,
+      "end_ms": 11165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch10-s01-n0093",
+      "text": "即使撇开这种影响，每个资本家也都有动力提高劳动生产率，把商品变得更便宜。",
+      "start_ms": 12015,
+      "end_ms": 17575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch10-s01-n0094",
+      "text": "不过，即使在这个例子里，剩余价值的增加仍来自必要劳动时间缩短，以及剩余劳动时间相应延长。",
+      "start_ms": 18035,
+      "end_ms": 24875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch10-s01-n0095",
+      "text": "假定必要劳动原来是 10 小时，劳动力一天的价值是 5 先令。",
+      "start_ms": 25675,
+      "end_ms": 29655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch10-s01-n0096",
+      "text": "剩余劳动是 2 小时，每天产生的剩余价值就是 1 先令。",
+      "start_ms": 29914,
+      "end_ms": 33684,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch10-s01-n0097",
+      "text": "这个资本家现在一天生产 24 件商品，按每件 10 便士出售，共得 20 先令。",
+      "start_ms": 155,
+      "end_ms": 4505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch10-s01-n0098",
+      "text": "生产资料价值 12 先令，其中 14⅖ 件商品的售价刚好补回预付的不变资本。",
+      "start_ms": 4940,
+      "end_ms": 9915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch10-s01-n0099",
+      "text": "剩余 9⅗ 件商品体现 12 小时工作日新创造的价值。",
+      "start_ms": 10400,
+      "end_ms": 13315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch10-s01-n0100",
+      "text": "劳动力价格是 5 先令，相当于 6 件商品的售价。",
+      "start_ms": 14215,
+      "end_ms": 17195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch10-s01-n0101",
+      "text": "因此，必要劳动体现在 6 件商品中，剩余劳动体现在 3⅗ 件商品中。",
+      "start_ms": 17630,
+      "end_ms": 22135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch10-s01-n0102",
+      "text": "必要劳动和剩余劳动的比例，原来按社会平均条件是 5∶1，现在则是 5∶3。",
+      "start_ms": 22565,
+      "end_ms": 27165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch10-s01-n0103",
+      "text": "也可以这样计算：12 小时生产的商品一共卖 20 先令，扣除生产资料重新出现在产品中的 12 先令，还剩 8 先令。",
+      "start_ms": 135,
+      "end_ms": 7245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch10-s01-n0104",
+      "text": "这 8 先令，就是 12 小时工作日新创造价值的货币表现。",
+      "start_ms": 7665,
+      "end_ms": 11195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch10-s01-n0105",
+      "text": "它高于同类社会平均劳动的货币表现，因为社会平均劳动 12 小时只表现为 6 先令。",
+      "start_ms": 11965,
+      "end_ms": 17555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch10-s01-n0106",
+      "text": "只要新方法还没有普及，这种生产率特别高的劳动就相当于倍加的劳动，在相同时间里创造的价值高于同类社会平均劳动。",
+      "start_ms": 17990,
+      "end_ms": 26655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch10-s01-n0107",
+      "text": "但资本家仍然只支付 5 先令购买一天的劳动力。",
+      "start_ms": 27130,
+      "end_ms": 30165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch10-s01-n0108",
+      "text": "工人现在只需劳动 7½ 小时，而不是原来的 10 小时，就能补回这 5 先令。",
+      "start_ms": 30742,
+      "end_ms": 35907,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch10-s01-n0109",
+      "text": "这样，他的剩余劳动增加了 2½ 小时，产生的剩余价值也从 1 先令增至 3 先令。",
+      "start_ms": 435,
+      "end_ms": 5585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch10-s01-n0110",
+      "text": "因此，采用新方法的资本家能把工作日中更大的一部分变成剩余劳动时间，比同行的其他资本家占得更多。",
+      "start_ms": 6000,
+      "end_ms": 13295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch10-s01-n0111",
+      "text": "他在自己的企业中做到的，正是资本生产相对剩余价值时在全社会范围内所做的事。",
+      "start_ms": 13775,
+      "end_ms": 19655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch10-s01-n0112",
+      "text": "但新方法一旦普及，低价生产的商品就不再存在个别价值与社会价值的差额，这份额外的剩余价值也会随之消失。",
+      "start_ms": 20065,
+      "end_ms": 27545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch10-s01-n0113",
+      "text": "决定价值的是社会必要劳动时间。",
+      "start_ms": 28485,
+      "end_ms": 30735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch10-s01-n0114",
+      "text": "对率先采用新方法的资本家，这条规律表现为他必须把价格降到社会价值以下。",
+      "start_ms": 31226,
+      "end_ms": 36841,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch10-s01-n0115",
+      "text": "对其他资本家，这条规律又通过竞争迫使他们采用同样的新方法。",
+      "start_ms": 795,
+      "end_ms": 5045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch10-s01-n0116",
+      "text": "不过，整个过程最终只有在生产率提高扩展到生产生活必需品的部门，从而降低那些构成劳动力价值的商品的价值时，才会提高全社会的一般剩余价值率。",
+      "start_ms": 5435,
+      "end_ms": 16095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch10-s01-n0117",
+      "text": "商品价值与劳动生产率成反比：生产率越高，商品价值越低。",
+      "start_ms": 16905,
+      "end_ms": 21355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch10-s01-n0118",
+      "text": "劳动力的价值由商品价值决定，所以也与劳动生产率成反比。",
+      "start_ms": 21750,
+      "end_ms": 26235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch10-s01-n0119",
+      "text": "相对剩余价值则相反，它与劳动生产率成正比：生产率提高时，它就增加；生产率下降时，它就减少。",
+      "start_ms": 26670,
+      "end_ms": 34282,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch10-s01-n0120",
+      "text": "假定货币价值不变，一个 12 小时的社会平均工作日总会创造 6 先令新价值，不管其中多少用来补偿劳动力价值，多少成为剩余价值。",
+      "start_ms": 34787,
+      "end_ms": 44912,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch10-s01-n0121",
+      "text": "可是，如果生产率提高，使工人每天所需生活必需品的价值下降，劳动力一天的价值也就会从 5 先令降到 3 先令，剩余价值则从 1 先令增至 3 先令。",
+      "start_ms": 265,
+      "end_ms": 10925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch10-s01-n0122",
+      "text": "原来需要 10 小时才能补回劳动力的价值，现在只需 6 小时。",
+      "start_ms": 11345,
+      "end_ms": 15495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch10-s01-n0123",
+      "text": "这样便腾出了 4 小时，可以把它们变成剩余劳动时间。",
+      "start_ms": 15785,
+      "end_ms": 19365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch10-s01-n0124",
+      "text": "因此，资本有一种内在冲动和持久趋势：不断提高劳动生产率，先把商品变便宜，再通过商品变便宜，把工人本身也变便宜。",
+      "start_ms": 19855,
+      "end_ms": 29305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch10-s01-n0125",
+      "text": "对生产商品的资本家来说，商品本身价值有多大并不重要。",
+      "start_ms": 29955,
+      "end_ms": 33925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch10-s01-n0126",
+      "text": "他关心的是商品中包含多少剩余价值，又有多少能在出售时实现。",
+      "start_ms": 34255,
+      "end_ms": 38960,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch10-s01-n0127",
+      "text": "只要剩余价值实现了，预付资本的价值自然也会一并得到补偿。",
+      "start_ms": 285,
+      "end_ms": 4195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch10-s01-n0128",
+      "text": "提高劳动生产力会带来两个方向相反的结果：商品价值下降，相对剩余价值上升。",
+      "start_ms": 4600,
+      "end_ms": 9715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch10-s01-n0129",
+      "text": "正因为同一个过程既使商品变便宜，又增加商品中包含的剩余价值，一个看似矛盾的现象便得到了解释：资本家只关心生产交换价值，却总想降低商品的交换价值。",
+      "start_ms": 10615,
+      "end_ms": 22475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch10-s01-n0130",
+      "text": "政治经济学的奠基人之一魁奈曾用这个矛盾难倒他的论敌，他们始终答不上来。",
+      "start_ms": 23345,
+      "end_ms": 28785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch10-s01-n0131",
+      "text": "魁奈说：“你们承认，只要不影响生产，制造工业品时越能节省成本、减少代价高昂的劳动，这种节省就越有利，因为它会降低产品价格。",
+      "start_ms": 29110,
+      "end_ms": 39035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch10-s01-n0132",
+      "text": "可是，你们同时又认为，工业劳动创造财富，就是提高产品的交换价值。”",
+      "start_ms": 39382,
+      "end_ms": 44052,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch10-s01-n0133",
+      "text": "所以，在资本主义生产中，通过提高劳动生产力来节省劳动，目的绝不是缩短工作日，而只是缩短生产一定数量商品所需的劳动时间。",
+      "start_ms": 135,
+      "end_ms": 9875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch10-s01-n0134",
+      "text": "假如生产力提高后，工人每小时能生产的商品是过去的十倍，每件商品所需的劳动时间也就只有过去的十分之一。",
+      "start_ms": 10705,
+      "end_ms": 18945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch10-s01-n0135",
+      "text": "但资本家仍然可以让他每天工作 12 小时，在这段时间里生产 1,200 件，而不是过去的 120 件。",
+      "start_ms": 19415,
+      "end_ms": 26655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch10-s01-n0136",
+      "text": "工作日甚至还可能同时延长，让他在 14 小时里生产 1,400 件。",
+      "start_ms": 27040,
+      "end_ms": 31785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch10-s01-n0137",
+      "text": "麦克库洛赫、尤尔、西尼尔之流的经济学家因此可以在这一页说，资本发展了生产力，缩短了必要劳动时间，工人应当心怀感激；到了下一页，他们又要求工人用延长劳动来表示感谢，比如以后每天劳动 15 小时，而不是 10 小时。",
+      "start_ms": 32263,
+      "end_ms": 49668,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch10-s01-n0138",
+      "text": "在资本主义生产中，提高劳动生产力，是为了缩短工人为维持自己而劳动的那部分工作日，从而延长他无偿为资本家劳动的另一部分。",
+      "start_ms": 485,
+      "end_ms": 9925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch10-s01-n0139",
+      "text": "即使商品没有变便宜，这个结果可以在多大程度上实现，后面分析相对剩余价值的具体生产方法时就会看到。",
+      "start_ms": 10425,
+      "end_ms": 18495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    }
+  ]
+}

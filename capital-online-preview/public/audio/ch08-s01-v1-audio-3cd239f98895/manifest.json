@@ -1,16 +1,25 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "status": "ready",
-  "audio_version_id": "ch08-s01-v1-audio-6d26ed106ba1",
+  "audio_version_id": "ch08-s01-v1-audio-3cd239f98895",
+  "base_audio_version_id": "ch08-s01-v1-audio-6d26ed106ba1",
+  "patched_chunk_id": "c0003",
   "unit_id": "ch08-s01",
   "translation_version_id": "ch08-s01-v1",
   "translation_sha256": "974ca9622fb06613e82bbd486dae1649297a4ff931a6373bbeb5441c594d951f",
-  "config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "config_sha256": "38448e9085aaf6b8a25d2809647fbf6be1b8c3e4ea04d47fc3b4230c313f3e05",
+  "base_config_sha256": "84aa14b642e5b7c10834f41d4efd545f204e03dee2b753bae0f5b4ad0578a866",
+  "model_id": "seed-audio-1.0",
+  "model_label": "现有模型 1.0",
+  "transport": "audio-create-http",
   "speaker": "zh_male_dayi_uranus_bigtts",
   "model": "seed-audio-1.0",
-  "created_at": "2026-08-02T19:58:36.518Z",
-  "completed_at": "2026-08-02T20:02:05.363Z",
-  "duration_ms": 533077,
+  "speech_overrides": {
+    "ch08-s01-n0013": "剩余价值率就是剩余劳动时间与必要劳动时间之比，所以三个工作日的剩余价值率分别是百分之十六又三分之二、百分之五十和百分之一百。"
+  },
+  "created_at": "2026-08-04T20:08:11.229Z",
+  "completed_at": "2026-08-04T20:08:51.052Z",
+  "duration_ms": 527757,
   "sentence_count": 75,
   "chunks": [
     {
@@ -46,9 +55,9 @@
     {
       "id": "c0003",
       "audio_file": "c0003.mp3",
-      "duration_ms": 52900,
-      "bytes": 847148,
-      "sha256": "fca851bb4e930892bc518831f533aa108632d0d5c505295f084c165a0cf905d9",
+      "duration_ms": 47580,
+      "bytes": 761900,
+      "sha256": "21b9bfcd1d9986d016a59a87b54db875bed362761ea53858018282859a5a831d",
       "sentence_ids": [
         "ch08-s01-n0013",
         "ch08-s01-n0014",
@@ -306,48 +315,49 @@
     {
       "id": "ch08-s01-n0013",
       "text": "剩余价值率就是剩余劳动时间与必要劳动时间之比，所以三个工作日的剩余价值率分别是 163分之2百分号、50% 和 100%。",
-      "start_ms": 360,
-      "end_ms": 15720,
+      "speech_text": "剩余价值率就是剩余劳动时间与必要劳动时间之比，所以三个工作日的剩余价值率分别是百分之十六又三分之二、百分之五十和百分之一百。",
+      "start_ms": 80,
+      "end_ms": 11920,
       "timing_source": "provider_subtitle",
       "chunk_id": "c0003"
     },
     {
       "id": "ch08-s01-n0014",
       "text": "反过来，只知道剩余价值率，还不能知道工作日究竟有多长。",
-      "start_ms": 15720,
-      "end_ms": 21160,
+      "start_ms": 12720,
+      "end_ms": 17880,
       "timing_source": "provider_subtitle",
       "chunk_id": "c0003"
     },
     {
       "id": "ch08-s01-n0015",
       "text": "例如，剩余价值率为 100%，只说明必要劳动和剩余劳动一样长。",
-      "start_ms": 21840,
-      "end_ms": 28480,
+      "start_ms": 18480,
+      "end_ms": 24760,
       "timing_source": "provider_subtitle",
       "chunk_id": "c0003"
     },
     {
       "id": "ch08-s01-n0016",
       "text": "整个工作日可能是 8 小时、10 小时或 12 小时，两个部分就分别是 4 小时、5 小时或 6 小时。",
-      "start_ms": 29240,
-      "end_ms": 38640,
+      "start_ms": 25520,
+      "end_ms": 34520,
       "timing_source": "provider_subtitle",
       "chunk_id": "c0003"
     },
     {
       "id": "ch08-s01-n0017",
       "text": "所以，工作日不是一个固定量，而是一个可变量。",
-      "start_ms": 39640,
-      "end_ms": 44200,
+      "start_ms": 35520,
+      "end_ms": 39880,
       "timing_source": "provider_subtitle",
       "chunk_id": "c0003"
     },
     {
       "id": "ch08-s01-n0018",
       "text": "其中，维持工人自身不断再生产所需要的劳动时间，决定了必要劳动部分的长度。",
-      "start_ms": 45120,
-      "end_ms": 52720,
+      "start_ms": 40440,
+      "end_ms": 47440,
       "timing_source": "provider_subtitle",
       "chunk_id": "c0003"
     },

@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch22-s02-v1-audio-7633e1cd9e48",
+  "unit_id": "ch22-s02",
+  "translation_version_id": "ch22-s02-v1",
+  "translation_sha256": "f8abc90ea6762c3b4e642d99ef3f227921ebdd04c82dbe154ea4843cc892c27e",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-05T18:12:30.672Z",
+  "completed_at": "2026-08-05T18:13:08.685Z",
+  "duration_ms": 265920,
+  "sentence_count": 41,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 58033,
+      "bytes": 927789,
+      "sha256": "8211a533e304a394fc9dfbf0c421305a8e5efc1fd5f16b92e265ae0cc894678d",
+      "sentence_ids": [
+        "ch22-s02-n0001",
+        "ch22-s02-n0002",
+        "ch22-s02-n0003",
+        "ch22-s02-n0004",
+        "ch22-s02-n0005",
+        "ch22-s02-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 31795,
+      "bytes": 509229,
+      "sha256": "446fbbd363170da3e67a021d731d1ae8ecf29573f4e82f8d380400a439310fc1",
+      "sentence_ids": [
+        "ch22-s02-n0007",
+        "ch22-s02-n0008",
+        "ch22-s02-n0009",
+        "ch22-s02-n0010",
+        "ch22-s02-n0011",
+        "ch22-s02-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 28525,
+      "bytes": 454701,
+      "sha256": "016fa61c57e929dba3ce696ad3bcd662273a57fe36a1c66417580730d7461dc9",
+      "sentence_ids": [
+        "ch22-s02-n0013",
+        "ch22-s02-n0014",
+        "ch22-s02-n0015",
+        "ch22-s02-n0016",
+        "ch22-s02-n0017",
+        "ch22-s02-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 35657,
+      "bytes": 569901,
+      "sha256": "0c5eed267c00a5d0963b9286bbc5ff99a870c8fa7d015d39515cd010830c9abf",
+      "sentence_ids": [
+        "ch22-s02-n0019",
+        "ch22-s02-n0020",
+        "ch22-s02-n0021",
+        "ch22-s02-n0022",
+        "ch22-s02-n0023",
+        "ch22-s02-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 37085,
+      "bytes": 595629,
+      "sha256": "6d13f4c7ba7986b95150994543b49a1d3a887e63dd033decba4172c41884afff",
+      "sentence_ids": [
+        "ch22-s02-n0025",
+        "ch22-s02-n0026",
+        "ch22-s02-n0027",
+        "ch22-s02-n0028",
+        "ch22-s02-n0029",
+        "ch22-s02-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 43140,
+      "bytes": 697773,
+      "sha256": "b67a32b4b699fae8c0c4492a94137018a30bf1bc50e40b4815e78cf3cce046d0",
+      "sentence_ids": [
+        "ch22-s02-n0031",
+        "ch22-s02-n0032",
+        "ch22-s02-n0033",
+        "ch22-s02-n0034",
+        "ch22-s02-n0035",
+        "ch22-s02-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 31685,
+      "bytes": 506157,
+      "sha256": "4514def6dfb168a8a285d5fd731a739a3608ffcec831df0dc5549321707fff2d",
+      "sentence_ids": [
+        "ch22-s02-n0037",
+        "ch22-s02-n0038",
+        "ch22-s02-n0039",
+        "ch22-s02-n0040",
+        "ch22-s02-n0041"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch22-s02-n0001",
+      "text": "在进一步讨论积累，也就是剩余价值重新转化为资本的具体条件以前，必须先澄清古典政治经济学制造的一处含混。",
+      "start_ms": 445,
+      "end_ms": 9385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s02-n0002",
+      "text": "资本家用一部分剩余价值购买商品供自己消费，这些商品当然不会成为生产和增殖的手段。",
+      "start_ms": 9850,
+      "end_ms": 16475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s02-n0003",
+      "text": "同样，他为了满足自然需要和社会需要而购买的服务，也不是生产劳动。",
+      "start_ms": 16940,
+      "end_ms": 22175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s02-n0004",
+      "text": "资本家购买这些商品和服务，不是把剩余价值变成资本，而是把它当作收入消费掉。",
+      "start_ms": 22620,
+      "end_ms": 28825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s02-n0005",
+      "text": "旧贵族的生活原则，用黑格尔恰当的话说，就是“吃掉已经存在的东西”，尤其喜欢以大量私人服务炫耀奢侈。",
+      "start_ms": 29390,
+      "end_ms": 38245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s02-n0006",
+      "text": "为了反对这种生活方式，资产阶级经济学必须把资本积累宣布为资产阶级的首要义务，并不断告诫资本家：如果把全部收入都吃光，而不拿出相当一部分去雇用新增的生产工人，就不可能积累，因为这些工人创造的价值会超过雇用他们的成本。",
+      "start_ms": 38812,
+      "end_ms": 57883,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s02-n0007",
+      "text": "另一方面，古典经济学还必须反对一种流行看法：把资本主义生产同囤积财宝混为一谈。",
+      "start_ms": 115,
+      "end_ms": 7505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s02-n0008",
+      "text": "按照这种看法，积累财富就是不消费现有物品，也不让财富进入流通。",
+      "start_ms": 8015,
+      "end_ms": 13745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s02-n0009",
+      "text": "但把货币锁起来、不让它流通，恰好同让货币作为资本增殖相反。",
+      "start_ms": 14220,
+      "end_ms": 19655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s02-n0010",
+      "text": "为了囤积而堆放商品也毫无意义。",
+      "start_ms": 20140,
+      "end_ms": 22455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s02-n0011",
+      "text": "大量商品堆积，通常是流通停滞或生产过剩的结果。",
+      "start_ms": 23165,
+      "end_ms": 28035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s02-n0012",
+      "text": "不过，流行观念中还混入了两种不同现象。",
+      "start_ms": 28300,
+      "end_ms": 31645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s02-n0013",
+      "text": "一种是富人消费基金中逐渐用掉的物品，另一种是各种生产方式都会进行的存货储备。",
+      "start_ms": 155,
+      "end_ms": 6355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s02-n0014",
+      "text": "后面分析流通过程时，还会专门讨论后一种现象。",
+      "start_ms": 6745,
+      "end_ms": 9595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s02-n0015",
+      "text": "古典经济学强调，积累的一个特征是剩余产品由生产工人而非非生产工人消费。",
+      "start_ms": 10235,
+      "end_ms": 16105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s02-n0016",
+      "text": "到这里，它是正确的。",
+      "start_ms": 16535,
+      "end_ms": 17845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s02-n0017",
+      "text": "但错误也从这里开始。",
+      "start_ms": 18160,
+      "end_ms": 19555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s02-n0018",
+      "text": "亚当·斯密使一种说法流行起来：积累不过是生产工人消费剩余产品，把剩余价值变成资本也不过是把它换成劳动力。",
+      "start_ms": 20145,
+      "end_ms": 28375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s02-n0019",
+      "text": "以李嘉图为例，他说：“必须明白，一个国家的全部产品都会被消费。",
+      "start_ms": 165,
+      "end_ms": 4595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s02-n0020",
+      "text": "但由能够再生产价值的人消费，还是由不能再生产价值的人消费，造成的差别大得无法想象。",
+      "start_ms": 4920,
+      "end_ms": 10755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s02-n0021",
+      "text": "当我们说一部分收入被节省下来并加入资本时，意思是这部分收入由生产工人消费，而不是由非生产工人消费。",
+      "start_ms": 11605,
+      "end_ms": 19155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s02-n0022",
+      "text": "认为资本通过不消费而增加，是最大的错误。”",
+      "start_ms": 19505,
+      "end_ms": 22575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s02-n0023",
+      "text": "真正严重的错误，恰恰是李嘉图和后来所有人跟着亚当·斯密重复的这句话：“加入资本的那部分收入由生产工人消费。”",
+      "start_ms": 22990,
+      "end_ms": 30765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s02-n0024",
+      "text": "照这种说法，全部转化为资本的剩余价值都会变成可变资本。",
+      "start_ms": 31402,
+      "end_ms": 35507,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s02-n0025",
+      "text": "实际上，它同最初预付的资本一样，要分成不变资本和可变资本，也就是生产资料和劳动力。",
+      "start_ms": 335,
+      "end_ms": 6665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s02-n0026",
+      "text": "劳动力是可变资本在生产过程中的存在形式。",
+      "start_ms": 7050,
+      "end_ms": 9845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s02-n0027",
+      "text": "在这个过程中，资本家消费劳动力，而劳动力通过实际劳动来消耗生产资料。",
+      "start_ms": 10665,
+      "end_ms": 16005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s02-n0028",
+      "text": "与此同时，资本家用于购买劳动力的货币会变成生活资料。",
+      "start_ms": 16495,
+      "end_ms": 19955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s02-n0029",
+      "text": "消费这些生活资料的是“生产工人”，不是“生产劳动”。",
+      "start_ms": 20695,
+      "end_ms": 24115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s02-n0030",
+      "text": "亚当·斯密的分析把这几种消费混在一起，最后得到一个荒谬结论：每个单独资本都分成不变资本和可变资本，全社会的资本却最终只剩可变资本，全部用来支付工资。",
+      "start_ms": 24785,
+      "end_ms": 36935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s02-n0031",
+      "text": "例如，一个呢绒厂资本家把2000英镑变成资本，一部分用来雇织工，另一部分购买毛纱、纺织机器等。",
+      "start_ms": 375,
+      "end_ms": 6915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s02-n0032",
+      "text": "亚当·斯密会接着说，出售毛纱和机器的人又拿其中一部分支付劳动，如此继续下去，最后全部2000英镑都会用于支付工资，或者说，这2000英镑所代表的全部产品都会被生产工人消费。",
+      "start_ms": 7340,
+      "end_ms": 19895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s02-n0033",
+      "text": "这个论证的全部力量都藏在“如此继续下去”几个字里，它把我们从一个环节推到另一个环节，却始终没有说明生产资料价值最后去了哪里。",
+      "start_ms": 20250,
+      "end_ms": 28845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s02-n0034",
+      "text": "事实上，亚当·斯密恰好在真正的困难出现时停止了分析。",
+      "start_ms": 29665,
+      "end_ms": 33555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s02-n0035",
+      "text": "如果只看全年生产形成的产品总量，每年的再生产过程很容易理解。",
+      "start_ms": 33895,
+      "end_ms": 38620,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s02-n0036",
+      "text": "但年度产品的所有组成部分都必须进入商品市场，困难就从这里开始。",
+      "start_ms": 38915,
+      "end_ms": 42990,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s02-n0037",
+      "text": "各个资本的运动和个人收入的运动彼此交错、混合，最后消失在社会财富不断换手的流通中。",
+      "start_ms": 85,
+      "end_ms": 6505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s02-n0038",
+      "text": "这会干扰观察，也给分析带来十分复杂的问题。",
+      "start_ms": 6800,
+      "end_ms": 9555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s02-n0039",
+      "text": "我将在第二卷第三篇分析它们之间的真实联系。",
+      "start_ms": 10365,
+      "end_ms": 13355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s02-n0040",
+      "text": "重农学派的一项重大贡献，是第一次用《经济表》尝试展示年度生产经过流通以后呈现的形态。",
+      "start_ms": 13830,
+      "end_ms": 20745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s02-n0041",
+      "text": "当然，政治经济学没有错过利用亚当·斯密这个命题来维护资本家阶级利益的机会：净产品中所有转化为资本的部分，最终都由工人阶级消费。",
+      "start_ms": 21295,
+      "end_ms": 31535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    }
+  ]
+}

@@ -1,0 +1,1714 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch22-s01-v1-audio-1b102653887d",
+  "unit_id": "ch22-s01",
+  "translation_version_id": "ch22-s01-v1",
+  "translation_sha256": "eda25317fdd1c7661b8dbc1e41d743ee0d698bd17d82e932bbb56183a90e8b56",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-09T21:02:34.580Z",
+  "completed_at": "2026-08-09T21:05:14.405Z",
+  "duration_ms": 935795,
+  "sentence_count": 161,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 25315,
+      "bytes": 407469,
+      "sha256": "e036bdb1abe2b43a132678ad74a7412908334b8b8f3151156d1e023ee3302516",
+      "sentence_ids": [
+        "ch22-s01-n0001",
+        "ch22-s01-n0002",
+        "ch22-s01-n0003",
+        "ch22-s01-n0004",
+        "ch22-s01-n0005",
+        "ch22-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 38133,
+      "bytes": 614061,
+      "sha256": "2ff003ca1e4e30579fbb78b8a28757b4f82ba6ab7b8ec616deb1d9190c79e667",
+      "sentence_ids": [
+        "ch22-s01-n0007",
+        "ch22-s01-n0008",
+        "ch22-s01-n0009",
+        "ch22-s01-n0010",
+        "ch22-s01-n0011",
+        "ch22-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 36198,
+      "bytes": 582573,
+      "sha256": "14255b20447b295e33f7b2e98af8231f9f99f4b774e3a6732f967bc8057337ae",
+      "sentence_ids": [
+        "ch22-s01-n0013",
+        "ch22-s01-n0014",
+        "ch22-s01-n0015",
+        "ch22-s01-n0016",
+        "ch22-s01-n0017",
+        "ch22-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 39496,
+      "bytes": 637869,
+      "sha256": "5eade4a8ef18ccbc398598bf5bac4e170e18d1690848483524deab2b4701a252",
+      "sentence_ids": [
+        "ch22-s01-n0019",
+        "ch22-s01-n0020",
+        "ch22-s01-n0021",
+        "ch22-s01-n0022",
+        "ch22-s01-n0023",
+        "ch22-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 34915,
+      "bytes": 557997,
+      "sha256": "f48a79a2badf34c2b92304efda6c0b5b8768017dd8eddd0e9d5737c6660a5c29",
+      "sentence_ids": [
+        "ch22-s01-n0025",
+        "ch22-s01-n0026",
+        "ch22-s01-n0027",
+        "ch22-s01-n0028",
+        "ch22-s01-n0029",
+        "ch22-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 41472,
+      "bytes": 665133,
+      "sha256": "22f4e1735d5778faa3b38addd225ddeb50c3e22e6958b7ce9cb3b87d5383a6f1",
+      "sentence_ids": [
+        "ch22-s01-n0031",
+        "ch22-s01-n0032",
+        "ch22-s01-n0033",
+        "ch22-s01-n0034",
+        "ch22-s01-n0035",
+        "ch22-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 32205,
+      "bytes": 518445,
+      "sha256": "cefa4f3d334a9a0693952c56b6c109099b5082d078cced2f7d9bda62b4bb7310",
+      "sentence_ids": [
+        "ch22-s01-n0037",
+        "ch22-s01-n0038",
+        "ch22-s01-n0039",
+        "ch22-s01-n0040",
+        "ch22-s01-n0041",
+        "ch22-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 29185,
+      "bytes": 470829,
+      "sha256": "c873a03478332fd129de8a5bf3b753ea4e71bdc86aaf1a0684738d1af2d919be",
+      "sentence_ids": [
+        "ch22-s01-n0043",
+        "ch22-s01-n0044",
+        "ch22-s01-n0045",
+        "ch22-s01-n0046",
+        "ch22-s01-n0047",
+        "ch22-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 19635,
+      "bytes": 313773,
+      "sha256": "833d82f89c0e152f96725ebd77ab339924186064f97d3fa35ee46baa31be0f8d",
+      "sentence_ids": [
+        "ch22-s01-n0049",
+        "ch22-s01-n0050",
+        "ch22-s01-n0051",
+        "ch22-s01-n0052",
+        "ch22-s01-n0053",
+        "ch22-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 45829,
+      "bytes": 741165,
+      "sha256": "79cc56637cccaa43797d2557f135fa54289c3704021b967881cc256882c137e7",
+      "sentence_ids": [
+        "ch22-s01-n0055",
+        "ch22-s01-n0056",
+        "ch22-s01-n0057",
+        "ch22-s01-n0058",
+        "ch22-s01-n0059",
+        "ch22-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 43308,
+      "bytes": 698157,
+      "sha256": "ce0c01d8f2d66a379c271cc874e58a632b8ceba3d435e7046138afb0da145371",
+      "sentence_ids": [
+        "ch22-s01-n0061",
+        "ch22-s01-n0062",
+        "ch22-s01-n0063",
+        "ch22-s01-n0064",
+        "ch22-s01-n0065",
+        "ch22-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 29205,
+      "bytes": 473517,
+      "sha256": "14eeaf61fc04e54124081812a6343c76aa8ee8e3cd897535720969d01bc4677f",
+      "sentence_ids": [
+        "ch22-s01-n0067",
+        "ch22-s01-n0068",
+        "ch22-s01-n0069",
+        "ch22-s01-n0070",
+        "ch22-s01-n0071",
+        "ch22-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 28195,
+      "bytes": 454317,
+      "sha256": "68d50c8c452f9e36f1863ab4beecab233799677c19c79349241cee39aa80ad9a",
+      "sentence_ids": [
+        "ch22-s01-n0073",
+        "ch22-s01-n0074",
+        "ch22-s01-n0075",
+        "ch22-s01-n0076",
+        "ch22-s01-n0077",
+        "ch22-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 32795,
+      "bytes": 524589,
+      "sha256": "e740cb8de9c50c2aca4bd64ec11eebcd11bec10d1e3f55bc3c57cec94f22c8f3",
+      "sentence_ids": [
+        "ch22-s01-n0079",
+        "ch22-s01-n0080",
+        "ch22-s01-n0081",
+        "ch22-s01-n0082",
+        "ch22-s01-n0083",
+        "ch22-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 35597,
+      "bytes": 569901,
+      "sha256": "3a6f7481a4d3f4af3fb018fb6349548787e38855b794615c197841bdbeef4442",
+      "sentence_ids": [
+        "ch22-s01-n0085",
+        "ch22-s01-n0086",
+        "ch22-s01-n0087",
+        "ch22-s01-n0088",
+        "ch22-s01-n0089",
+        "ch22-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 27805,
+      "bytes": 454701,
+      "sha256": "259c3f0de2e3292904589a3e01c32ba402797be3eb2b7e8f044a2c2fa59e7017",
+      "sentence_ids": [
+        "ch22-s01-n0091",
+        "ch22-s01-n0092",
+        "ch22-s01-n0093",
+        "ch22-s01-n0094",
+        "ch22-s01-n0095",
+        "ch22-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 39568,
+      "bytes": 638253,
+      "sha256": "1c17168b3ee8100c190a79fa045242bd0e2527a2079b911519ebcfd0e47e77e6",
+      "sentence_ids": [
+        "ch22-s01-n0097",
+        "ch22-s01-n0098",
+        "ch22-s01-n0099",
+        "ch22-s01-n0100",
+        "ch22-s01-n0101",
+        "ch22-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 28845,
+      "bytes": 461229,
+      "sha256": "41a02ee35ce66c176c3aa82e01b235ef03cafd69f51f348d8a0835f2a6afb3b7",
+      "sentence_ids": [
+        "ch22-s01-n0103",
+        "ch22-s01-n0104",
+        "ch22-s01-n0105",
+        "ch22-s01-n0106",
+        "ch22-s01-n0107",
+        "ch22-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 24905,
+      "bytes": 404013,
+      "sha256": "c521bd542f654573fd06b553387b83c5f1f6975426798e69b0270a695533f32a",
+      "sentence_ids": [
+        "ch22-s01-n0109",
+        "ch22-s01-n0110",
+        "ch22-s01-n0111",
+        "ch22-s01-n0112",
+        "ch22-s01-n0113",
+        "ch22-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 31895,
+      "bytes": 512301,
+      "sha256": "8b3caa92fc52e50ce79b9cbaf24d9777a44790aaa8c58aa7deeddbaf2665463d",
+      "sentence_ids": [
+        "ch22-s01-n0115",
+        "ch22-s01-n0116",
+        "ch22-s01-n0117",
+        "ch22-s01-n0118",
+        "ch22-s01-n0119",
+        "ch22-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 29105,
+      "bytes": 471213,
+      "sha256": "0f55968ddb55f1309cc6149f90a2b040556438411ceaff8643bd17e0b104b12d",
+      "sentence_ids": [
+        "ch22-s01-n0121",
+        "ch22-s01-n0122",
+        "ch22-s01-n0123",
+        "ch22-s01-n0124",
+        "ch22-s01-n0125",
+        "ch22-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 34184,
+      "bytes": 550317,
+      "sha256": "f5f1fef20bcc68a91b83aea6f576b80e226c677bfb007e9903094b3dbe46ada3",
+      "sentence_ids": [
+        "ch22-s01-n0127",
+        "ch22-s01-n0128",
+        "ch22-s01-n0129",
+        "ch22-s01-n0130",
+        "ch22-s01-n0131",
+        "ch22-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 45186,
+      "bytes": 729645,
+      "sha256": "18b57a2e1f2e19e362d1b7ce9128b6a8fa9b00a3477ba060f7791425e468cf6c",
+      "sentence_ids": [
+        "ch22-s01-n0133",
+        "ch22-s01-n0134",
+        "ch22-s01-n0135",
+        "ch22-s01-n0136",
+        "ch22-s01-n0137",
+        "ch22-s01-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 33555,
+      "bytes": 537645,
+      "sha256": "cc8e25092c99bb4e7eae6690559763b061c7ddaa7dc9b0bdd5c32c3d7b664a45",
+      "sentence_ids": [
+        "ch22-s01-n0139",
+        "ch22-s01-n0140",
+        "ch22-s01-n0141",
+        "ch22-s01-n0142",
+        "ch22-s01-n0143",
+        "ch22-s01-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 43811,
+      "bytes": 701613,
+      "sha256": "f34c917252ebd6c6c60249123d27d3b4f490021c83c8b80a0614354cddb78628",
+      "sentence_ids": [
+        "ch22-s01-n0145",
+        "ch22-s01-n0146",
+        "ch22-s01-n0147",
+        "ch22-s01-n0148",
+        "ch22-s01-n0149",
+        "ch22-s01-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 46097,
+      "bytes": 740397,
+      "sha256": "f009d2c768efcb7e24602e50a4c9c35e5d2ee34ab75c168249bd2ec18e67b00f",
+      "sentence_ids": [
+        "ch22-s01-n0151",
+        "ch22-s01-n0152",
+        "ch22-s01-n0153",
+        "ch22-s01-n0154",
+        "ch22-s01-n0155",
+        "ch22-s01-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 39356,
+      "bytes": 634029,
+      "sha256": "e232a27c1a7076a394b12ca3837b7f772823da1768a3bb8be2a2f44ce4c27cc1",
+      "sentence_ids": [
+        "ch22-s01-n0157",
+        "ch22-s01-n0158",
+        "ch22-s01-n0159",
+        "ch22-s01-n0160",
+        "ch22-s01-n0161"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch22-s01-n0001",
+      "text": "前面考察的是剩余价值怎样从资本中产生。",
+      "start_ms": 105,
+      "end_ms": 2905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s01-n0002",
+      "text": "现在要考察资本怎样从剩余价值中产生。",
+      "start_ms": 3200,
+      "end_ms": 5885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s01-n0003",
+      "text": "把剩余价值当作资本使用，也就是把它重新转化为资本，就叫资本积累。",
+      "start_ms": 6275,
+      "end_ms": 10955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s01-n0004",
+      "text": "先从单个资本家的角度来看。",
+      "start_ms": 11595,
+      "end_ms": 13495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s01-n0005",
+      "text": "假定一个纺纱资本家预付了10000英镑资本，其中五分之四购买棉花、机器等，另外五分之一支付工资。",
+      "start_ms": 13850,
+      "end_ms": 20925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s01-n0006",
+      "text": "他每年生产240000磅棉纱，价值12000英镑。",
+      "start_ms": 21745,
+      "end_ms": 25165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s01-n0007",
+      "text": "如果剩余价值率是100%，剩余价值就体现在40000磅剩余产品中。",
+      "start_ms": 435,
+      "end_ms": 4935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s01-n0008",
+      "text": "这批棉纱占总产品的六分之一，价值2000英镑，出售后便实现为货币。",
+      "start_ms": 5395,
+      "end_ms": 10565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s01-n0009",
+      "text": "这笔钱本身没有任何标记，根本看不出它是剩余价值。",
+      "start_ms": 11185,
+      "end_ms": 14625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s01-n0010",
+      "text": "一笔价值是不是剩余价值，取决于它怎样来到所有者手中，并不改变价值或货币本身的性质。",
+      "start_ms": 15115,
+      "end_ms": 21115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s01-n0011",
+      "text": "在其他条件不变时，纺纱资本家要把新增的2000英镑变成资本，就会拿出其中五分之四购买棉花等生产资料，另外五分之一雇用更多纺纱工人。",
+      "start_ms": 21905,
+      "end_ms": 32865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s01-n0012",
+      "text": "工人可以用资本家预付的工资，在市场上买到相应价值的生活资料。",
+      "start_ms": 33308,
+      "end_ms": 37983,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s01-n0013",
+      "text": "这样，新增的2000英镑就作为资本投入纺纱生产，并再产生400英镑剩余价值。",
+      "start_ms": 125,
+      "end_ms": 6125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s01-n0014",
+      "text": "原有资本最初以货币形式预付，剩余价值最初却是总产品中一部分产品的价值。",
+      "start_ms": 6785,
+      "end_ms": 12075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s01-n0015",
+      "text": "产品出售并变成货币后，原有资本价值恢复了原来的货币形式，剩余价值则改变了最初的存在形式。",
+      "start_ms": 12915,
+      "end_ms": 20485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s01-n0016",
+      "text": "从这时起，两者都只是一定数量的货币，所以再次转化为资本的方式完全相同。",
+      "start_ms": 20955,
+      "end_ms": 26365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s01-n0017",
+      "text": "资本家用这两笔钱购买商品，重新开始生产，而且这次扩大了生产规模。",
+      "start_ms": 27435,
+      "end_ms": 32425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s01-n0018",
+      "text": "不过，他要买到这些商品，市场上必须先有这些商品。",
+      "start_ms": 32773,
+      "end_ms": 36048,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s01-n0019",
+      "text": "纺纱资本家的棉纱能够进入流通，是因为他把全年产品拿到市场上，其他资本家也同样把各自的商品拿到市场上。",
+      "start_ms": 115,
+      "end_ms": 8195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s01-n0020",
+      "text": "但在进入市场以前，这些商品已经属于全社会的年度生产基金。",
+      "start_ms": 8525,
+      "end_ms": 12435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s01-n0021",
+      "text": "这个基金包括一年中各个资本转化成的全部物品，也就是社会总资本这一年生产出的各种产品。",
+      "start_ms": 13335,
+      "end_ms": 19985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s01-n0022",
+      "text": "每个资本家手中只掌握其中一部分。",
+      "start_ms": 20415,
+      "end_ms": 22435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s01-n0023",
+      "text": "市场交易只是让年度产品的各个组成部分换手，既不能增加全年的产品总量，也不能改变已经生产出来的东西是什么。",
+      "start_ms": 23175,
+      "end_ms": 31685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s01-n0024",
+      "text": "因此，全社会一年的产品能用来做什么，取决于这些产品本身由什么构成，而不取决于它们怎样流通。",
+      "start_ms": 32091,
+      "end_ms": 39346,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s01-n0025",
+      "text": "首先，全年的生产必须提供各种物品，补足这一年消耗掉的资本实物成分。",
+      "start_ms": 345,
+      "end_ms": 5725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s01-n0026",
+      "text": "扣除这部分产品以后，剩下的才是包含剩余价值的净产品，也就是剩余产品。",
+      "start_ms": 6245,
+      "end_ms": 10795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s01-n0027",
+      "text": "这些剩余产品由什么构成？",
+      "start_ms": 11765,
+      "end_ms": 13195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s01-n0028",
+      "text": "如果它们全是供资本家阶级满足需要和欲望的消费品，只能进入资本家的消费基金，那么剩余价值就会被花得一干二净，生产仍然只是简单再生产。",
+      "start_ms": 13550,
+      "end_ms": 23285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s01-n0029",
+      "text": "要进行积累，就必须把一部分剩余产品变成资本。",
+      "start_ms": 23795,
+      "end_ms": 26795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s01-n0030",
+      "text": "可是，除非出现奇迹，能够变成资本的只能是劳动过程中用得上的生产资料，以及工人赖以生活的生活资料。",
+      "start_ms": 27300,
+      "end_ms": 34765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s01-n0031",
+      "text": "因此，每年的剩余劳动必须有一部分用来追加生产资料和生活资料，也就是生产出超过补足预付资本所需数量的产品。",
+      "start_ms": 215,
+      "end_ms": 8595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s01-n0032",
+      "text": "简言之，剩余价值之所以能够转化为资本，是因为承载这部分价值的剩余产品，已经包含组成新资本所需的各种实物。",
+      "start_ms": 8965,
+      "end_ms": 18275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s01-n0033",
+      "text": "要让这些实物真正作为资本发挥作用，资本家阶级还需要增加劳动。",
+      "start_ms": 18720,
+      "end_ms": 23205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s01-n0034",
+      "text": "如果不延长现有工人的劳动时间，也不提高他们的劳动强度，就必须再雇用一些工人。",
+      "start_ms": 23600,
+      "end_ms": 29595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s01-n0035",
+      "text": "资本主义生产机制已经为此准备好了条件。",
+      "start_ms": 30095,
+      "end_ms": 32725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s01-n0036",
+      "text": "它把工人阶级再生产为依靠工资生活的阶级，而通常的工资不仅足以维持现有工人，也足以让工人阶级繁衍后代。",
+      "start_ms": 33117,
+      "end_ms": 41322,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s01-n0037",
+      "text": "工人阶级每年提供不同年龄的新增劳动力，资本只需把他们同年度产品中已经存在的新增生产资料结合起来，剩余价值向资本的转化就完成了。",
+      "start_ms": 275,
+      "end_ms": 9465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s01-n0038",
+      "text": "从实物过程来看，积累就是资本以不断扩大的规模进行再生产。",
+      "start_ms": 9815,
+      "end_ms": 13995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s01-n0039",
+      "text": "简单再生产的循环由此改变，用西斯蒙第的话说，变成了不断扩展的螺旋。",
+      "start_ms": 14325,
+      "end_ms": 19635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s01-n0040",
+      "text": "现在回到前面的例子。",
+      "start_ms": 19960,
+      "end_ms": 21095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s01-n0041",
+      "text": "这里重复着一个古老的故事：亚伯拉罕生以撒，以撒生雅各，如此继续下去。",
+      "start_ms": 21400,
+      "end_ms": 26335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s01-n0042",
+      "text": "最初的10000英镑资本产生2000英镑剩余价值，这笔剩余价值又转化为资本。",
+      "start_ms": 27025,
+      "end_ms": 32055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s01-n0043",
+      "text": "新增的2000英镑资本产生400英镑剩余价值。",
+      "start_ms": 115,
+      "end_ms": 3095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s01-n0044",
+      "text": "400英镑再次转化为第二笔新增资本，又产生80英镑剩余价值，如此继续下去。",
+      "start_ms": 3555,
+      "end_ms": 8985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s01-n0045",
+      "text": "这里暂且不考虑资本家消费掉的那部分剩余价值。",
+      "start_ms": 9185,
+      "end_ms": 12145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s01-n0046",
+      "text": "追加资本是并入原有资本，还是独立出来单独增殖，目前也不重要。",
+      "start_ms": 12440,
+      "end_ms": 16435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s01-n0047",
+      "text": "同样，这笔追加资本是由积累它的资本家使用，还是转交给别人使用，也不影响这里的分析。",
+      "start_ms": 17235,
+      "end_ms": 23625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s01-n0048",
+      "text": "只需记住，原有资本在新增资本形成以后仍会继续再生产并产生剩余价值。",
+      "start_ms": 23940,
+      "end_ms": 29035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s01-n0049",
+      "text": "每笔积累起来的资本同它产生的下一笔追加资本之间，也存在同样的关系。",
+      "start_ms": 125,
+      "end_ms": 4555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s01-n0050",
+      "text": "最初那10000英镑资本，是资本家预付出来的。",
+      "start_ms": 5035,
+      "end_ms": 7575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s01-n0051",
+      "text": "它从哪里来？",
+      "start_ms": 7780,
+      "end_ms": 8525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s01-n0052",
+      "text": "政治经济学的代言人异口同声地回答：来自资本家本人和他的祖先的劳动。",
+      "start_ms": 8820,
+      "end_ms": 12995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s01-n0053",
+      "text": "这种假定看起来确实是唯一符合商品生产规律的解释。",
+      "start_ms": 13705,
+      "end_ms": 17025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s01-n0054",
+      "text": "新增的2000英镑资本却完全不同。",
+      "start_ms": 17490,
+      "end_ms": 19485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s01-n0055",
+      "text": "我们清楚地知道它是怎样产生的：它是资本化的剩余价值。",
+      "start_ms": 265,
+      "end_ms": 4035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s01-n0056",
+      "text": "从来源看，这笔资本的每一分价值都来自他人的无偿劳动。",
+      "start_ms": 4310,
+      "end_ms": 8425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s01-n0057",
+      "text": "新增劳动力使用的生产资料，以及维持这些劳动力生活的生活资料，都只是工人阶级每年生产、却被资本家阶级拿走的剩余产品的一部分。",
+      "start_ms": 8870,
+      "end_ms": 18775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s01-n0058",
+      "text": "资本家阶级再用这部分产品的价值向工人阶级购买新增劳动力。",
+      "start_ms": 19150,
+      "end_ms": 23605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s01-n0059",
+      "text": "即使劳动力按全部价值出售，双方交换的是等价物，整个过程仍像征服者拿被征服者遭抢走的钱，再向他们购买商品。",
+      "start_ms": 24090,
+      "end_ms": 33425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s01-n0060",
+      "text": "如果这笔追加资本雇用了创造它的工人，这个工人首先必须继续让原有资本增殖，还要用比自己原先产品所耗费的劳动更多的劳动，把原先的劳动成果买回来。",
+      "start_ms": 33804,
+      "end_ms": 45679,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s01-n0061",
+      "text": "从资本家阶级与工人阶级的关系来看，就算资本家用现有工人的无偿劳动雇用其他工人，事情也没有改变。",
+      "start_ms": 125,
+      "end_ms": 7935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s01-n0062",
+      "text": "资本家也可能把追加资本变成机器，让创造这笔资本的工人失业，再用几个童工代替他。",
+      "start_ms": 8355,
+      "end_ms": 14725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s01-n0063",
+      "text": "无论采取哪种形式，工人阶级都用今年的剩余劳动，创造了明年用来雇用新增劳动的资本。",
+      "start_ms": 15125,
+      "end_ms": 21865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s01-n0064",
+      "text": "这就是人们所谓的“资本产生资本”。",
+      "start_ms": 22250,
+      "end_ms": 24305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s01-n0065",
+      "text": "第一笔2000英镑追加资本能够积累，前提是资本家先预付10000英镑，并声称这笔钱来自自己的“原始劳动”。",
+      "start_ms": 24850,
+      "end_ms": 32655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s01-n0066",
+      "text": "第二笔400英镑追加资本的前提却只有一个：第一笔2000英镑已经完成积累，而这400英镑正是第一笔追加资本产生并资本化的剩余价值。",
+      "start_ms": 33263,
+      "end_ms": 43158,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s01-n0067",
+      "text": "于是，占有过去的无偿劳动，成了今天占有更多活的无偿劳动的唯一条件。",
+      "start_ms": 215,
+      "end_ms": 5465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s01-n0068",
+      "text": "资本家积累得越多，就越能继续积累。",
+      "start_ms": 5800,
+      "end_ms": 8405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s01-n0069",
+      "text": "第一笔追加资本来自剩余价值，而剩余价值来自资本家用一部分原有资本购买劳动力。",
+      "start_ms": 8820,
+      "end_ms": 14635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s01-n0070",
+      "text": "这次购买符合商品交换规律。",
+      "start_ms": 15235,
+      "end_ms": 17365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s01-n0071",
+      "text": "从法律上看，它只要求工人能够自由支配自己的劳动力，货币或商品所有者也能够自由支配自己的财产。",
+      "start_ms": 17800,
+      "end_ms": 25265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s01-n0072",
+      "text": "第二笔以及后续追加资本又只是第一笔追加资本的结果。",
+      "start_ms": 25540,
+      "end_ms": 29055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s01-n0073",
+      "text": "此后每一笔具体交易仍然符合商品交换规律：资本家购买劳动力，工人出售劳动力。",
+      "start_ms": 145,
+      "end_ms": 6685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s01-n0074",
+      "text": "这里甚至可以假定，劳动力始终按它的实际价值出售。",
+      "start_ms": 6900,
+      "end_ms": 10435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s01-n0075",
+      "text": "可是，建立在商品生产和商品流通之上的占有规律，也就是私有权规律，正是通过这种不断重复的运行，必然转化成了自己的直接反面。",
+      "start_ms": 10785,
+      "end_ms": 21325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s01-n0076",
+      "text": "起初看起来，双方交换的是等价物。",
+      "start_ms": 21710,
+      "end_ms": 24185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s01-n0077",
+      "text": "现在，这种交换只剩下表面形式。",
+      "start_ms": 24510,
+      "end_ms": 27145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s01-n0078",
+      "text": "原因有两个。",
+      "start_ms": 27430,
+      "end_ms": 28045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s01-n0079",
+      "text": "第一，资本家拿来购买劳动力的那部分资本，本身就是他没有付出等价物便占有的他人劳动产品。",
+      "start_ms": 135,
+      "end_ms": 6245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s01-n0080",
+      "text": "第二，创造这部分价值的工人不仅要重新补足它，还必须创造出新的剩余。",
+      "start_ms": 6565,
+      "end_ms": 10915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s01-n0081",
+      "text": "这样，资本家与工人的交换关系就只剩下流通领域中的表象，成了同实际内容无关、反而掩盖实际内容的形式。",
+      "start_ms": 11705,
+      "end_ms": 19415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s01-n0082",
+      "text": "劳动力不断被买卖，这是外在形式。",
+      "start_ms": 19720,
+      "end_ms": 21995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s01-n0083",
+      "text": "它的实际内容是：资本家把自己先前无偿占有的一部分他人劳动，不断换成数量更多的他人活劳动。",
+      "start_ms": 22240,
+      "end_ms": 28855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s01-n0084",
+      "text": "我们最初看到，所有权似乎以自己的劳动为基础。",
+      "start_ms": 29365,
+      "end_ms": 32645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s01-n0085",
+      "text": "这个假定当时必须成立，因为市场上只有权利平等的商品所有者。",
+      "start_ms": 265,
+      "end_ms": 3915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s01-n0086",
+      "text": "一个人只有交出自己的商品，才能取得别人的商品，而自己的商品又只能靠劳动生产出来。",
+      "start_ms": 4240,
+      "end_ms": 9315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s01-n0087",
+      "text": "现在，所有权在资本家一边表现为占有他人无偿劳动及其产品的权利，在工人一边却表现为无法占有自己的产品。",
+      "start_ms": 9540,
+      "end_ms": 16805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s01-n0088",
+      "text": "所有权同劳动相分离，成了那个表面上以二者统一为出发点的规律所产生的必然结果。",
+      "start_ms": 17000,
+      "end_ms": 22075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s01-n0089",
+      "text": "因此，资本主义占有方式看起来同商品生产原有的规律正面冲突，实际上却不是破坏这些规律的结果，反而是这些规律得到贯彻的结果。",
+      "start_ms": 22635,
+      "end_ms": 31295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s01-n0090",
+      "text": "下面简要回顾资本主义积累形成的各个阶段，把这一点再说明一遍。",
+      "start_ms": 31592,
+      "end_ms": 35447,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s01-n0091",
+      "text": "首先，我们已经看到，一笔价值最初转化为资本时，完全符合交换规律。",
+      "start_ms": 305,
+      "end_ms": 5735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s01-n0092",
+      "text": "一方出售劳动力，另一方购买劳动力。",
+      "start_ms": 6140,
+      "end_ms": 8545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s01-n0093",
+      "text": "卖方得到自己商品的价值，同时把这种商品的使用价值，也就是劳动，交给买方。",
+      "start_ms": 9025,
+      "end_ms": 13895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s01-n0094",
+      "text": "买方随后用已经属于自己的生产资料，加上同样已经归自己使用的劳动，生产出新产品。",
+      "start_ms": 14905,
+      "end_ms": 20895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s01-n0095",
+      "text": "按照法律，这项新产品也属于买方。",
+      "start_ms": 21325,
+      "end_ms": 23875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s01-n0096",
+      "text": "这项新产品的价值首先包含已经消耗的生产资料的价值。",
+      "start_ms": 24325,
+      "end_ms": 27655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s01-n0097",
+      "text": "有用劳动在消耗生产资料的同时，会把它们的价值转移到新产品中。",
+      "start_ms": 85,
+      "end_ms": 4975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s01-n0098",
+      "text": "劳动力要能在市场上出售，也必须能够在使用它的行业中完成这种有用劳动。",
+      "start_ms": 5525,
+      "end_ms": 10645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s01-n0099",
+      "text": "新产品的价值还包含劳动力价值的等价物和一笔剩余价值。",
+      "start_ms": 11135,
+      "end_ms": 15245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s01-n0100",
+      "text": "这是因为，劳动力按一天、一周等一定期限出售时，劳动力本身的价值低于它在这段时间内使用时创造的价值。",
+      "start_ms": 15530,
+      "end_ms": 23525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s01-n0101",
+      "text": "工人已经得到了劳动力的交换价值，同时也就像其他任何商品买卖一样，把劳动力的使用价值交给了买方。",
+      "start_ms": 24435,
+      "end_ms": 32405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s01-n0102",
+      "text": "劳动力这种特殊商品能够提供劳动，因而能够创造价值，但这个特点并不违反商品生产的一般规律。",
+      "start_ms": 32763,
+      "end_ms": 39418,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s01-n0103",
+      "text": "预付为工资的价值出现在新产品中时，不仅得到了补足，还增加了剩余价值。",
+      "start_ms": 285,
+      "end_ms": 5545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s01-n0104",
+      "text": "这不是因为卖方吃了亏，因为工人已经得到了劳动力的全部价值。",
+      "start_ms": 5895,
+      "end_ms": 10015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s01-n0105",
+      "text": "剩余价值只来自买方对这种商品的使用。",
+      "start_ms": 10320,
+      "end_ms": 12675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s01-n0106",
+      "text": "交换规律只要求双方交出的商品具有相等的交换价值。",
+      "start_ms": 13515,
+      "end_ms": 17495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s01-n0107",
+      "text": "它从一开始就以这些商品具有不同的使用价值为前提。",
+      "start_ms": 17865,
+      "end_ms": 21515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s01-n0108",
+      "text": "至于买方后来怎样使用买到的商品，那是在交易完成后才开始的事情，不属于交换规律所管的范围。",
+      "start_ms": 21935,
+      "end_ms": 28695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s01-n0109",
+      "text": "所以，货币最初转化为资本的过程，完全符合商品生产的经济规律和由此产生的所有权。",
+      "start_ms": 535,
+      "end_ms": 7675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s01-n0110",
+      "text": "不过，这个过程会得到三个结果：",
+      "start_ms": 8105,
+      "end_ms": 10095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s01-n0111",
+      "text": "产品属于资本家，不属于工人。",
+      "start_ms": 10355,
+      "end_ms": 12215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s01-n0112",
+      "text": "产品价值除了补回预付资本，还包含剩余价值。",
+      "start_ms": 12885,
+      "end_ms": 16315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s01-n0113",
+      "text": "这部分价值耗费了工人的劳动，资本家却没有为它付出任何东西，但它仍然成为资本家的合法财产。",
+      "start_ms": 16600,
+      "end_ms": 23055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s01-n0114",
+      "text": "工人保住了自己的劳动力。",
+      "start_ms": 23400,
+      "end_ms": 24755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch22-s01-n0115",
+      "text": "如果还能找到买方，他可以再次出售劳动力。",
+      "start_ms": 75,
+      "end_ms": 2705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s01-n0116",
+      "text": "简单再生产只是在固定周期内重复上述过程，每一次都重新把货币变成资本。",
+      "start_ms": 3180,
+      "end_ms": 8965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s01-n0117",
+      "text": "因此，商品生产规律没有被破坏，反而获得了不断发挥作用的机会。",
+      "start_ms": 9505,
+      "end_ms": 13645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s01-n0118",
+      "text": "正如西斯蒙第所说：“一连串交换，只是使最后一次交换成为第一次交换的代表。”",
+      "start_ms": 14835,
+      "end_ms": 20435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s01-n0119",
+      "text": "（前引书，第70页。）",
+      "start_ms": 21090,
+      "end_ms": 23085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s01-n0120",
+      "text": "尽管如此，我们已经看到，只要进行简单再生产，第一次交易的性质就会彻底改变，至少不能再把它看作一次孤立的交易。",
+      "start_ms": 23090,
+      "end_ms": 31745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch22-s01-n0121",
+      "text": "西斯蒙第说：“分享国民收入的人中，一部分人，也就是工人，每年都要通过新的劳动取得新的权利。",
+      "start_ms": 435,
+      "end_ms": 7525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s01-n0122",
+      "text": "另一部分人，也就是资本家，却凭借最初的一次劳动，早已取得永久的权利。”",
+      "start_ms": 7955,
+      "end_ms": 12675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s01-n0123",
+      "text": "（前引书，第111页。）",
+      "start_ms": 12680,
+      "end_ms": 15865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s01-n0124",
+      "text": "当然，长子身份能够创造奇迹的领域，并不只有劳动。",
+      "start_ms": 15870,
+      "end_ms": 19535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s01-n0125",
+      "text": "把简单再生产换成扩大再生产，也就是积累，并不会改变这个结论。",
+      "start_ms": 19930,
+      "end_ms": 24285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s01-n0126",
+      "text": "在简单再生产中，资本家把全部剩余价值用于个人消费。",
+      "start_ms": 24965,
+      "end_ms": 28955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch22-s01-n0127",
+      "text": "在扩大再生产中，他则只消费一部分，把其余部分变成货币，以此表现自己的资产阶级美德。",
+      "start_ms": 265,
+      "end_ms": 7095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s01-n0128",
+      "text": "剩余价值是资本家的财产，从未属于别人。",
+      "start_ms": 7540,
+      "end_ms": 9955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s01-n0129",
+      "text": "资本家把它重新投入生产时，同他第一次进入市场时一样，预付的是自己的财产。",
+      "start_ms": 10755,
+      "end_ms": 15925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s01-n0130",
+      "text": "至于这份财产这一次来自工人的无偿劳动，在单次商品交易中并不影响它的所有权。",
+      "start_ms": 16320,
+      "end_ms": 21555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s01-n0131",
+      "text": "如果资本家用工人甲创造的剩余价值雇用工人乙，那么第一，甲提供这笔剩余价值时，劳动力的价格并没有少付一分钱。",
+      "start_ms": 22295,
+      "end_ms": 30875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s01-n0132",
+      "text": "第二，这笔价值怎样产生，与乙无关。",
+      "start_ms": 31329,
+      "end_ms": 34034,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch22-s01-n0133",
+      "text": "乙所要求并有权要求的，只是资本家足额支付他的劳动力价值。",
+      "start_ms": 115,
+      "end_ms": 5115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch22-s01-n0134",
+      "text": "西斯蒙第说：“双方仍然都有所得。",
+      "start_ms": 5480,
+      "end_ms": 8225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch22-s01-n0135",
+      "text": "工人有所得，是因为在他的劳动还没有完成以前，就预支给他劳动的果实〔更准确地说：预支给他其他工人无偿劳动的果实；而且是在他自己的劳动结出果实以前〕。",
+      "start_ms": 8520,
+      "end_ms": 21835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch22-s01-n0136",
+      "text": "雇主有所得，是因为这个工人的劳动比工资更值钱〔更准确地说：工人创造的价值超过了工资的价值〕。”",
+      "start_ms": 21840,
+      "end_ms": 30755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch22-s01-n0137",
+      "text": "（前引书，第135页。）",
+      "start_ms": 30761,
+      "end_ms": 32876,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch22-s01-n0138",
+      "text": "不过，如果我们不再考察单个资本家和单个工人，而是把资本主义生产看作一个不断更新的过程，考察整个资本家阶级同整个工人阶级的关系，情况就会完全不同。",
+      "start_ms": 32881,
+      "end_ms": 45036,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch22-s01-n0139",
+      "text": "但这种考察采用了一种商品生产本身完全不认识的尺度。",
+      "start_ms": 135,
+      "end_ms": 3785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch22-s01-n0140",
+      "text": "在商品生产中，彼此面对的只是相互独立的卖方和买方。",
+      "start_ms": 4305,
+      "end_ms": 8195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch22-s01-n0141",
+      "text": "双方的关系在合同到期时就结束了。",
+      "start_ms": 8685,
+      "end_ms": 10955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch22-s01-n0142",
+      "text": "如果交易再次发生，那是因为双方订立了一份新合同。",
+      "start_ms": 11725,
+      "end_ms": 15365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch22-s01-n0143",
+      "text": "这份合同同上一份没有关系，同一个买方再次碰到同一个卖方，也只是偶然。",
+      "start_ms": 15800,
+      "end_ms": 21015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch22-s01-n0144",
+      "text": "因此，如果要按照商品生产自身的经济规律来判断商品生产及其中发生的事情，就必须把每一次交换单独拿出来考察，不考虑它之前和之后的交换。",
+      "start_ms": 21975,
+      "end_ms": 33405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch22-s01-n0145",
+      "text": "买卖又只在一个个个人之间达成，所以不能在这些交易中寻找整个社会阶级之间的关系。",
+      "start_ms": 115,
+      "end_ms": 6115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch22-s01-n0146",
+      "text": "无论今天正在运行的资本已经经历多少轮再生产和积累，只要这样逐笔考察，它就始终保持着最初的“清白”。",
+      "start_ms": 6485,
+      "end_ms": 13695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch22-s01-n0147",
+      "text": "只要每次交换单独看来都遵守交换规律，占有方式即使发生彻底变化，也不会触犯商品生产的所有权。",
+      "start_ms": 14270,
+      "end_ms": 21665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch22-s01-n0148",
+      "text": "起初，产品属于生产者，生产者只能用自己的劳动生产商品，再以等价物交换等价物，使自己增加财富。",
+      "start_ms": 22235,
+      "end_ms": 30545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch22-s01-n0149",
+      "text": "到了资本主义时期，同一套所有权依然有效，社会财富却越来越多地归那些能够反复占有他人无偿劳动的人所有。",
+      "start_ms": 31036,
+      "end_ms": 39081,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch22-s01-n0150",
+      "text": "工人一旦把劳动力作为商品自由出售，这种结果就不可避免。",
+      "start_ms": 39376,
+      "end_ms": 43661,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch22-s01-n0151",
+      "text": "但也只有从这时起，商品生产才会普遍发展，成为典型的生产形式。",
+      "start_ms": 85,
+      "end_ms": 5085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch22-s01-n0152",
+      "text": "每件产品从一开始就是为出售而生产，所有生产出来的财富都要经过流通。",
+      "start_ms": 5400,
+      "end_ms": 10275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch22-s01-n0153",
+      "text": "商品生产只有建立在雇佣劳动的基础上，才能支配整个社会，也只有到这时，它隐藏的各种可能性才会充分展开。",
+      "start_ms": 11105,
+      "end_ms": 19685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch22-s01-n0154",
+      "text": "如果说雇佣劳动的介入使商品生产变得不纯粹，那就等于说，商品生产要想保持纯粹，就不能继续发展。",
+      "start_ms": 20115,
+      "end_ms": 28165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch22-s01-n0155",
+      "text": "商品生产越是按照自身规律发展为资本主义生产，它的所有权规律也就越是转化为资本主义占有规律。",
+      "start_ms": 28790,
+      "end_ms": 35555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch22-s01-n0156",
+      "text": "前面已经看到，即使只有简单再生产，全部预付资本无论最初怎样取得，最终都会变成积累起来的资本，也就是资本化的剩余价值。",
+      "start_ms": 35952,
+      "end_ms": 45947,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch22-s01-n0157",
+      "text": "在持续不断的生产中，同直接积累起来的资本相比，最初预付的资本会逐渐变成一个可以忽略不计的量。",
+      "start_ms": 335,
+      "end_ms": 8205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch22-s01-n0158",
+      "text": "直接积累的资本，就是重新变成资本的剩余价值或剩余产品，无论它留在完成积累的资本家手中，还是转到别人手中，都是如此。",
+      "start_ms": 8590,
+      "end_ms": 18045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch22-s01-n0159",
+      "text": "因此，政治经济学通常把资本说成“积累起来、再次用来生产剩余价值的财富”，也就是转化后的剩余价值或收入。",
+      "start_ms": 18605,
+      "end_ms": 26905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch22-s01-n0160",
+      "text": "政治经济学也把资本家称为“剩余产品的所有者”。",
+      "start_ms": 27615,
+      "end_ms": 30695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch22-s01-n0161",
+      "text": "同一种看法还有另一种说法：一切现有资本都是积累起来或资本化的利息，因为利息只是剩余价值的一部分。",
+      "start_ms": 31411,
+      "end_ms": 39206,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    }
+  ]
+}

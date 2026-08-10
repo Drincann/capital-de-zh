@@ -1,0 +1,1120 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch19-s01-v1-audio-4a3c9935dd9c",
+  "unit_id": "ch19-s01",
+  "translation_version_id": "ch19-s01-v1",
+  "translation_sha256": "aa84eb8670d2a9748b90f738bb5a76e271c93710ba5ed25162319af6f8c7cdfc",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:30:28.843Z",
+  "completed_at": "2026-08-04T17:31:56.865Z",
+  "duration_ms": 612877,
+  "sentence_count": 104,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 40029,
+      "bytes": 640557,
+      "sha256": "458469454afea95d75e1d8145e535bca009d44d3bcc55709a2f8cbc917cdf026",
+      "sentence_ids": [
+        "ch19-s01-n0001",
+        "ch19-s01-n0002",
+        "ch19-s01-n0003",
+        "ch19-s01-n0004",
+        "ch19-s01-n0005",
+        "ch19-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 37802,
+      "bytes": 605613,
+      "sha256": "7b5df8a1db6560d7ad8932c88004c675b3e7433553b61c230cb2c0d47831d3d8",
+      "sentence_ids": [
+        "ch19-s01-n0007",
+        "ch19-s01-n0008",
+        "ch19-s01-n0009",
+        "ch19-s01-n0010",
+        "ch19-s01-n0011",
+        "ch19-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 38089,
+      "bytes": 612525,
+      "sha256": "9b7a7d9f7c8d669817be3f8d6131511f14305be32465172257c02661b0d31873",
+      "sentence_ids": [
+        "ch19-s01-n0013",
+        "ch19-s01-n0014",
+        "ch19-s01-n0015",
+        "ch19-s01-n0016",
+        "ch19-s01-n0017",
+        "ch19-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 39902,
+      "bytes": 637485,
+      "sha256": "b5555495dd3029002cf9114cd281857ae0558e0e1ad01b4afc61dd7edc961ac0",
+      "sentence_ids": [
+        "ch19-s01-n0019",
+        "ch19-s01-n0020",
+        "ch19-s01-n0021",
+        "ch19-s01-n0022",
+        "ch19-s01-n0023",
+        "ch19-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 23205,
+      "bytes": 371757,
+      "sha256": "808975e3315f8f055b8608e793b15cb758f7a43b55c5796757e77ffa587ef57e",
+      "sentence_ids": [
+        "ch19-s01-n0025",
+        "ch19-s01-n0026",
+        "ch19-s01-n0027",
+        "ch19-s01-n0028",
+        "ch19-s01-n0029",
+        "ch19-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 37135,
+      "bytes": 595245,
+      "sha256": "a59dd6b8ba9a4bf98b64e9e674d1bf1cd366534c37789306c797d5a6bc685f89",
+      "sentence_ids": [
+        "ch19-s01-n0031",
+        "ch19-s01-n0032",
+        "ch19-s01-n0033",
+        "ch19-s01-n0034",
+        "ch19-s01-n0035",
+        "ch19-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 28175,
+      "bytes": 452013,
+      "sha256": "a6c2419eab0143eb6627a3b4b6b2c3944a0657c9091c87b47337ed5fe427769c",
+      "sentence_ids": [
+        "ch19-s01-n0037",
+        "ch19-s01-n0038",
+        "ch19-s01-n0039",
+        "ch19-s01-n0040",
+        "ch19-s01-n0041",
+        "ch19-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 29325,
+      "bytes": 477357,
+      "sha256": "9e0872b7ee19fe424531140b1ec34445817a2eb4729d634d6830abdab3e78dea",
+      "sentence_ids": [
+        "ch19-s01-n0043",
+        "ch19-s01-n0044",
+        "ch19-s01-n0045",
+        "ch19-s01-n0046",
+        "ch19-s01-n0047",
+        "ch19-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 33135,
+      "bytes": 534957,
+      "sha256": "102c94c5936452fe3d26dfdf124b51afee780a64fc5a2a1a09fdfa942d693460",
+      "sentence_ids": [
+        "ch19-s01-n0049",
+        "ch19-s01-n0050",
+        "ch19-s01-n0051",
+        "ch19-s01-n0052",
+        "ch19-s01-n0053",
+        "ch19-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 34545,
+      "bytes": 554157,
+      "sha256": "5538fc7b1e817b5b9488c4d267364a93569fc070cd4d75b059c42d234b582601",
+      "sentence_ids": [
+        "ch19-s01-n0055",
+        "ch19-s01-n0056",
+        "ch19-s01-n0057",
+        "ch19-s01-n0058",
+        "ch19-s01-n0059",
+        "ch19-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 31415,
+      "bytes": 505773,
+      "sha256": "b0c72e48a78add15bcad7d75701c532f946811ec10db07e9e3a4ebc2f87ee26e",
+      "sentence_ids": [
+        "ch19-s01-n0061",
+        "ch19-s01-n0062",
+        "ch19-s01-n0063",
+        "ch19-s01-n0064",
+        "ch19-s01-n0065",
+        "ch19-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 26125,
+      "bytes": 419757,
+      "sha256": "8f04cad6dc862413255c4c95d851e7dccfb5105132c86dc6d4cf794f0445bceb",
+      "sentence_ids": [
+        "ch19-s01-n0067",
+        "ch19-s01-n0068",
+        "ch19-s01-n0069",
+        "ch19-s01-n0070",
+        "ch19-s01-n0071",
+        "ch19-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 46013,
+      "bytes": 736173,
+      "sha256": "ae11a07c6e26685c29a769044783c0cec0c7312d8251d29daa4e7b561122bc0e",
+      "sentence_ids": [
+        "ch19-s01-n0073",
+        "ch19-s01-n0074",
+        "ch19-s01-n0075",
+        "ch19-s01-n0076",
+        "ch19-s01-n0077",
+        "ch19-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 50735,
+      "bytes": 823725,
+      "sha256": "34a3a63f5aa0b5c293d44a0e2db20d70597e05a228b387944e47e06414ab7d58",
+      "sentence_ids": [
+        "ch19-s01-n0079",
+        "ch19-s01-n0080",
+        "ch19-s01-n0081",
+        "ch19-s01-n0082",
+        "ch19-s01-n0083",
+        "ch19-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 41545,
+      "bytes": 666285,
+      "sha256": "501c6e8eecadfe506deb96b0ce4418ee2f8acaaea743aa864d7c623f4ecf04f5",
+      "sentence_ids": [
+        "ch19-s01-n0085",
+        "ch19-s01-n0086",
+        "ch19-s01-n0087",
+        "ch19-s01-n0088",
+        "ch19-s01-n0089",
+        "ch19-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 34342,
+      "bytes": 548781,
+      "sha256": "f5a1bee8f1b31db933b5ec1f187fe9bca053bae07702b382785f0a56137140d5",
+      "sentence_ids": [
+        "ch19-s01-n0091",
+        "ch19-s01-n0092",
+        "ch19-s01-n0093",
+        "ch19-s01-n0094",
+        "ch19-s01-n0095",
+        "ch19-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 28935,
+      "bytes": 466221,
+      "sha256": "e3fda4a0fa6edefbfa71026a792078bc6347b57cf3420c3fbc5c505ade9d1fe5",
+      "sentence_ids": [
+        "ch19-s01-n0097",
+        "ch19-s01-n0098",
+        "ch19-s01-n0099",
+        "ch19-s01-n0100",
+        "ch19-s01-n0101",
+        "ch19-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 12425,
+      "bytes": 202029,
+      "sha256": "8eef386c0dd6cc2874591a521ac1bfdfd0782b7c1613238281900fc65e762062",
+      "sentence_ids": [
+        "ch19-s01-n0103",
+        "ch19-s01-n0104"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch19-s01-n0001",
+      "text": "计件工资只是计时工资换了一种表现形式，就像计时工资只是劳动力价值或价格换了一种表现形式一样。",
+      "start_ms": 125,
+      "end_ms": 6705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch19-s01-n0002",
+      "text": "计件工资乍看起来好像是这样：工人出售的不是劳动力实际发挥的作用，也就是活劳动，而是已经凝结在产品中的劳动。",
+      "start_ms": 7020,
+      "end_ms": 14865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch19-s01-n0003",
+      "text": "劳动的价格也不像计时工资那样，由劳动力一天的价值除以固定工作日的小时数来决定，仿佛是由生产者的工作效率决定。",
+      "start_ms": 15330,
+      "end_ms": 23625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch19-s01-n0004",
+      "text": "不过，只要看看同一时期、同一行业里两种工资形式同时存在，就会发现这种表象靠不住。",
+      "start_ms": 24275,
+      "end_ms": 31025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch19-s01-n0005",
+      "text": "例如，“伦敦排字工通常按件计酬，计时工资是例外。",
+      "start_ms": 31434,
+      "end_ms": 35219,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch19-s01-n0006",
+      "text": "各省的排字工正好相反，计时工资是常规，计件工资是例外。",
+      "start_ms": 35634,
+      "end_ms": 39879,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch19-s01-n0007",
+      "text": "伦敦港口的造船木工按件计酬，英国其他港口则按时间计酬。”",
+      "start_ms": 335,
+      "end_ms": 4085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch19-s01-n0008",
+      "text": "在伦敦同一家马具工场里，同样的工作常常对法国工人按件计酬，对英国工人按时间计酬。",
+      "start_ms": 4720,
+      "end_ms": 11605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch19-s01-n0009",
+      "text": "在计件工资占主导地位的工厂里，有些工作由于技术原因无法按件计量，因此仍按时间计酬。",
+      "start_ms": 12940,
+      "end_ms": 18845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch19-s01-n0010",
+      "text": "可见，工资怎样支付，并不改变工资的实质，尽管其中一种形式可能比另一种更有利于资本主义生产的发展。",
+      "start_ms": 19160,
+      "end_ms": 27045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch19-s01-n0011",
+      "text": "假定通常的工作日是十二小时，其中六小时有酬，六小时无酬。",
+      "start_ms": 27600,
+      "end_ms": 32395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch19-s01-n0012",
+      "text": "工人在这十二小时里新创造6先令价值，所以每小时创造6便士。",
+      "start_ms": 32837,
+      "end_ms": 37652,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch19-s01-n0013",
+      "text": "再假定，一名劳动强度和技能都处于平均水平的工人，也就是生产每件产品只耗费社会必要劳动时间的工人，十二小时能完成二十四件产品。",
+      "start_ms": 245,
+      "end_ms": 9945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch19-s01-n0014",
+      "text": "它们可以是二十四件彼此分开的成品，也可以是一件连续产品中可以计量的二十四个部分。",
+      "start_ms": 10275,
+      "end_ms": 15555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch19-s01-n0015",
+      "text": "扣除产品中原有的生产资料价值后，这二十四件产品新增加的价值是6先令，每件增加3便士。",
+      "start_ms": 16085,
+      "end_ms": 23295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch19-s01-n0016",
+      "text": "工人每件得到1.5便士，十二小时共挣3先令。",
+      "start_ms": 23680,
+      "end_ms": 27085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch19-s01-n0017",
+      "text": "在计时工资下，我们可以说工人六小时为自己劳动，另六小时为资本家劳动，也可以说他每小时有一半为自己劳动，另一半为资本家劳动。",
+      "start_ms": 27480,
+      "end_ms": 36465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch19-s01-n0018",
+      "text": "计件工资也是一样。",
+      "start_ms": 36834,
+      "end_ms": 37939,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch19-s01-n0019",
+      "text": "我们可以说每件产品中的劳动一半有酬、一半无酬，也可以说十二件产品的价格只补偿劳动力的价值，另外十二件产品中则包含剩余价值。",
+      "start_ms": 255,
+      "end_ms": 9595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch19-s01-n0020",
+      "text": "计件工资同计时工资一样不合理。",
+      "start_ms": 9920,
+      "end_ms": 11875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch19-s01-n0021",
+      "text": "例如，扣除生产资料转移的价值后，两件商品作为一小时劳动的产品，新增价值是6便士，工人得到的工资却只有3便士。",
+      "start_ms": 12335,
+      "end_ms": 21225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch19-s01-n0022",
+      "text": "计件工资本身并不直接表示一种价值关系。",
+      "start_ms": 21630,
+      "end_ms": 24365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch19-s01-n0023",
+      "text": "它不是用产品中包含的劳动时间来衡量产品价值，而是反过来，用工人生产的产品数量衡量他付出的劳动。",
+      "start_ms": 24690,
+      "end_ms": 32395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch19-s01-n0024",
+      "text": "计时工资用劳动持续了多久来计量劳动，计件工资则用一定时间内凝结了劳动的产品数量来计量劳动。",
+      "start_ms": 32857,
+      "end_ms": 39752,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch19-s01-n0025",
+      "text": "劳动时间的价格归根结底仍由劳动力一天的价值决定。",
+      "start_ms": 125,
+      "end_ms": 3495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch19-s01-n0026",
+      "text": "换句话说，在工资这种表现形式中，一天劳动的工资被说成劳动力一天的价值。",
+      "start_ms": 3920,
+      "end_ms": 9875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch19-s01-n0027",
+      "text": "因此，计件工资只是计时工资的一种变形。",
+      "start_ms": 10505,
+      "end_ms": 13615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch19-s01-n0028",
+      "text": "下面进一步考察计件工资的几个特点。",
+      "start_ms": 14000,
+      "end_ms": 16215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch19-s01-n0029",
+      "text": "首先，产品本身会检验劳动质量。",
+      "start_ms": 16520,
+      "end_ms": 19025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch19-s01-n0030",
+      "text": "产品必须达到平均质量，工人才能拿到全额计件工资。",
+      "start_ms": 19360,
+      "end_ms": 23055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch19-s01-n0031",
+      "text": "因此，计件工资很容易成为扣工资和欺骗工人的手段。",
+      "start_ms": 175,
+      "end_ms": 4125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch19-s01-n0032",
+      "text": "其次，计件工资为资本家提供了衡量劳动强度的明确尺度。",
+      "start_ms": 4440,
+      "end_ms": 9025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch19-s01-n0033",
+      "text": "只有在一定时间内完成预先规定、根据经验确定的产品数量，这段劳动时间才算社会必要劳动时间，才会得到报酬。",
+      "start_ms": 9340,
+      "end_ms": 17535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch19-s01-n0034",
+      "text": "在伦敦较大的裁缝工场里，一定的工作量，例如做一件背心，会被叫作“一小时”或“半小时”，每小时支付6便士。",
+      "start_ms": 17960,
+      "end_ms": 25895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch19-s01-n0035",
+      "text": "人们根据经验知道，一小时的平均产量是多少。",
+      "start_ms": 26185,
+      "end_ms": 29195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch19-s01-n0036",
+      "text": "遇到新款式或修补之类的工作，雇主和工人会争论某项工作是否该算一小时，最后仍由经验确定。",
+      "start_ms": 29530,
+      "end_ms": 36985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch19-s01-n0037",
+      "text": "伦敦的家具木工等行业也采用类似做法。",
+      "start_ms": 465,
+      "end_ms": 2875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch19-s01-n0038",
+      "text": "如果工人达不到平均效率，无法完成一天最低限度的工作量，就会被解雇。",
+      "start_ms": 3180,
+      "end_ms": 7925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch19-s01-n0039",
+      "text": "计件工资本身已经控制了劳动质量和强度，因此可以省去很大一部分监督。",
+      "start_ms": 8380,
+      "end_ms": 12915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch19-s01-n0040",
+      "text": "它既是前面讲过的现代家庭工业的基础，也是等级分明的剥削和压迫制度的基础。",
+      "start_ms": 13705,
+      "end_ms": 19745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch19-s01-n0041",
+      "text": "后一种制度有两种基本形式。",
+      "start_ms": 20140,
+      "end_ms": 22135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch19-s01-n0042",
+      "text": "一种是让寄生的中间人插在资本家和雇佣工人之间，把工作层层转包。",
+      "start_ms": 22465,
+      "end_ms": 28025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch19-s01-n0043",
+      "text": "中间人的利润完全来自一个差额：资本家支付的劳动价格，减去真正交到工人手中的部分。",
+      "start_ms": 235,
+      "end_ms": 7345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch19-s01-n0044",
+      "text": "在英国，这种制度被很形象地称为“血汗制”。",
+      "start_ms": 7740,
+      "end_ms": 10715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch19-s01-n0045",
+      "text": "另一种形式是，资本家同领头工人约定每件产品的价格，再由领头工人自己招募和支付助手。",
+      "start_ms": 11465,
+      "end_ms": 19125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch19-s01-n0046",
+      "text": "在工场手工业中，这个人是一个小组的组长。",
+      "start_ms": 19610,
+      "end_ms": 23295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch19-s01-n0047",
+      "text": "在矿井里，他是负责采煤的矿工。",
+      "start_ms": 23840,
+      "end_ms": 26255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch19-s01-n0048",
+      "text": "在工厂里，他是直接操作机器的工人。",
+      "start_ms": 26680,
+      "end_ms": 29175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch19-s01-n0049",
+      "text": "资本对工人的剥削，在这里通过工人对工人的剥削实现。",
+      "start_ms": 525,
+      "end_ms": 4185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch19-s01-n0050",
+      "text": "实行计件工资后，工人为了多挣钱，自然会尽可能提高自己的劳动强度。",
+      "start_ms": 4620,
+      "end_ms": 9205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch19-s01-n0051",
+      "text": "这就使资本家更容易提高社会通行的劳动强度。",
+      "start_ms": 9575,
+      "end_ms": 11995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch19-s01-n0052",
+      "text": "工人也会主动延长工作日，因为这样可以增加日工资或周工资。",
+      "start_ms": 12965,
+      "end_ms": 16975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch19-s01-n0053",
+      "text": "于是，前面讨论计时工资时说过的反作用再次出现：工作日越长，劳动力损耗增加得越快，名义上不变的工资不足以补偿这种增长。",
+      "start_ms": 17475,
+      "end_ms": 26985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch19-s01-n0054",
+      "text": "因此，即使每件产品的工资不变，工作日延长本身也会降低实际劳动价格。",
+      "start_ms": 27530,
+      "end_ms": 32985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch19-s01-n0055",
+      "text": "实行计时工资时，除少数例外，相同工作通常支付相同工资。",
+      "start_ms": 95,
+      "end_ms": 6155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch19-s01-n0056",
+      "text": "计件工资则不同。",
+      "start_ms": 6580,
+      "end_ms": 7955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch19-s01-n0057",
+      "text": "虽然劳动时间的价格仍由一定数量的产品来衡量，但每个人的日工资或周工资会有差别。",
+      "start_ms": 8365,
+      "end_ms": 15275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch19-s01-n0058",
+      "text": "有人在规定时间内只能完成最低产量，有人能达到平均产量，还有人超过平均产量。",
+      "start_ms": 16145,
+      "end_ms": 23095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch19-s01-n0059",
+      "text": "因此，工人的技能、体力、干劲和耐力不同，实际收入也会有很大差别。",
+      "start_ms": 23470,
+      "end_ms": 29525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch19-s01-n0060",
+      "text": "不过，这并不改变资本与雇佣劳动之间的一般关系。",
+      "start_ms": 30315,
+      "end_ms": 34395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch19-s01-n0061",
+      "text": "第一，个人差异在整个工场中会相互抵消。",
+      "start_ms": 505,
+      "end_ms": 3895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch19-s01-n0062",
+      "text": "工场在一定时间内仍会得到平均产量，支付的工资总额也仍是该行业的平均工资。",
+      "start_ms": 4350,
+      "end_ms": 10085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch19-s01-n0063",
+      "text": "第二，工资与剩余价值的比例不变，因为每个工人得到多少个人工资，也相应地为资本家提供多少剩余价值。",
+      "start_ms": 10995,
+      "end_ms": 19165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch19-s01-n0064",
+      "text": "计件工资为个人差异留下了更大空间。",
+      "start_ms": 19550,
+      "end_ms": 22355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch19-s01-n0065",
+      "text": "一方面，它会发展工人的个性，以及自由感、独立性和自我约束。",
+      "start_ms": 22795,
+      "end_ms": 27715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch19-s01-n0066",
+      "text": "另一方面，它也会加剧工人彼此之间的竞争。",
+      "start_ms": 28250,
+      "end_ms": 31265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch19-s01-n0067",
+      "text": "因此，个别工人的工资虽然可能高于平均水平，这种竞争却会把平均水平本身压低。",
+      "start_ms": 435,
+      "end_ms": 5995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch19-s01-n0068",
+      "text": "有些行业的计件工资标准长期沿用，已经很难直接降低。",
+      "start_ms": 6375,
+      "end_ms": 9445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch19-s01-n0069",
+      "text": "雇主有时便强行改用计时工资。",
+      "start_ms": 10255,
+      "end_ms": 12415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch19-s01-n0070",
+      "text": "1860年考文垂织带工人的大罢工，就是为了反对这种做法。",
+      "start_ms": 13205,
+      "end_ms": 16645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch19-s01-n0071",
+      "text": "最后，计件工资还是前面讲过的小时工资制度的重要支柱。",
+      "start_ms": 16890,
+      "end_ms": 20575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch19-s01-n0072",
+      "text": "由前面的分析可以看出，计件工资是最适合资本主义生产方式的工资形式。",
+      "start_ms": 21005,
+      "end_ms": 25975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch19-s01-n0073",
+      "text": "它并不新鲜，十四世纪法国和英国的劳工法令已经正式把它同计时工资并列，但直到工场手工业时期，它才得到更广泛的运用。",
+      "start_ms": 195,
+      "end_ms": 9995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch19-s01-n0074",
+      "text": "在大工业迅猛发展的时期，特别是1797—1815年，计件工资成为延长工时和压低工资的有力手段。",
+      "start_ms": 10975,
+      "end_ms": 19785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch19-s01-n0075",
+      "text": "关于这一时期工资的变化，议会在1813—1814年和1814—1815年会期发布的两份蓝皮书提供了重要材料。",
+      "start_ms": 20210,
+      "end_ms": 29535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch19-s01-n0076",
+      "text": "材料证明，自反雅各宾战争开始以来，劳动价格一直下降。",
+      "start_ms": 29965,
+      "end_ms": 34985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch19-s01-n0077",
+      "text": "例如在织布业，计件工资已经降得很低，以至于工人的工作日虽然大大延长，日工资反而比以前更少。",
+      "start_ms": 35368,
+      "end_ms": 43463,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch19-s01-n0078",
+      "text": "“织工的实际收入远低于从前。",
+      "start_ms": 43978,
+      "end_ms": 45863,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch19-s01-n0079",
+      "text": "他原先远远高于普通工人的收入优势，已经几乎完全消失。",
+      "start_ms": 145,
+      "end_ms": 4955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch19-s01-n0080",
+      "text": "如今熟练工人与普通工人的工资差距，比以往任何时期都小得多。”",
+      "start_ms": 5445,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch19-s01-n0081",
+      "text": "劳动强度和劳动时间因计件工资而增加，却同样没有给农村无产者带来好处。",
+      "start_ms": 10985,
+      "end_ms": 17165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch19-s01-n0082",
+      "text": "一份为地主和租地农场主辩护的小册子写道：“绝大多数农业劳动由按天或按件雇用的人完成。",
+      "start_ms": 17655,
+      "end_ms": 24995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch19-s01-n0083",
+      "text": "他们的周工资大约是12先令。",
+      "start_ms": 25460,
+      "end_ms": 27685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch19-s01-n0084",
+      "text": "计件工资带来的更强刺激也许能让一个人比领周工资时多挣1先令，甚至2先令，但从全年总收入看，失业造成的损失又会抵消这笔增加……一般还会发现，这些人的工资同必需生活资料的价格保持一定比例，使一个有两个孩子的男子不用求助教区救济，也能养活全家。”",
+      "start_ms": 28220,
+      "end_ms": 50585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch19-s01-n0085",
+      "text": "马尔萨斯当时针对议会公布的材料评论说：“我必须承认，我不愿看到计件工资如此广泛地实行。",
+      "start_ms": 415,
+      "end_ms": 6815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch19-s01-n0086",
+      "text": "长期每天真正辛苦地工作十二或十四小时，对任何人来说都太多了。”",
+      "start_ms": 7180,
+      "end_ms": 11515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch19-s01-n0087",
+      "text": "在受工厂法约束的工场里，计件工资成为普遍规则，因为资本不能再延长工作日，只能提高劳动强度。",
+      "start_ms": 12375,
+      "end_ms": 19775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch19-s01-n0088",
+      "text": "同样数量的产品，随着劳动生产率变化，会代表不同的劳动时间。",
+      "start_ms": 20140,
+      "end_ms": 24545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch19-s01-n0089",
+      "text": "计件工资是一定劳动时间的价格表现，所以也会随之变化。",
+      "start_ms": 24880,
+      "end_ms": 28795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch19-s01-n0090",
+      "text": "在前面的例子中，工人十二小时生产二十四件产品，十二小时新创造6先令价值，劳动力一天的价值是3先令，一小时劳动的价格是3便士，每件工资是1.5便士。",
+      "start_ms": 29250,
+      "end_ms": 41395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch19-s01-n0091",
+      "text": "每件产品包含半小时劳动。",
+      "start_ms": 165,
+      "end_ms": 2155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch19-s01-n0092",
+      "text": "现在假定劳动生产率提高一倍，同一个工作日生产四十八件而不是二十四件，其他条件不变。",
+      "start_ms": 2460,
+      "end_ms": 8525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch19-s01-n0093",
+      "text": "每件产品只包含四分之一小时劳动，因此每件工资会从1.5便士降到0.75便士。",
+      "start_ms": 8840,
+      "end_ms": 14725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch19-s01-n0094",
+      "text": "二十四件 × 1.5便士 = 3先令，四十八件 × 0.75便士也等于3先令。",
+      "start_ms": 15045,
+      "end_ms": 20035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch19-s01-n0095",
+      "text": "换句话说，同一时间内生产的件数增加多少，计件工资就按同样比例降低，因为每件产品耗费的劳动时间相应减少。",
+      "start_ms": 20715,
+      "end_ms": 29385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch19-s01-n0096",
+      "text": "只要这种调整只是名义变化，它仍会不断引起资本家与工人的冲突。",
+      "start_ms": 29792,
+      "end_ms": 34192,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch19-s01-n0097",
+      "text": "原因有三种。",
+      "start_ms": 195,
+      "end_ms": 925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch19-s01-n0098",
+      "text": "第一，资本家可能借调整计件工资之名，真正压低劳动价格。",
+      "start_ms": 1460,
+      "end_ms": 5955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch19-s01-n0099",
+      "text": "第二，生产率提高可能同时要求提高劳动强度。",
+      "start_ms": 6455,
+      "end_ms": 9395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch19-s01-n0100",
+      "text": "第三，工人把计件工资造成的表象当成了事实，以为资本家支付的是他的产品，而不是劳动力。",
+      "start_ms": 10375,
+      "end_ms": 17045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch19-s01-n0101",
+      "text": "因此，如果产品售价没有相应下降，他就会抵制计件工资的降低。",
+      "start_ms": 17585,
+      "end_ms": 22345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch19-s01-n0102",
+      "text": "“工人会仔细观察原料价格和制成品价格，从而能够相当准确地估计雇主的利润。”",
+      "start_ms": 22350,
+      "end_ms": 28785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch19-s01-n0103",
+      "text": "资本根据雇佣劳动的性质，把工人的这种要求斥为严重误解。",
+      "start_ms": 125,
+      "end_ms": 4715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch19-s01-n0104",
+      "text": "它还大声指责工人妄想向工业进步征税，并直截了当地宣称，劳动生产率同工人毫无关系。",
+      "start_ms": 5040,
+      "end_ms": 12275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    }
+  ]
+}

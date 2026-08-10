@@ -1,0 +1,1138 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch22-s03-v1-audio-002d80fdaaed",
+  "unit_id": "ch22-s03",
+  "translation_version_id": "ch22-s03-v1",
+  "translation_sha256": "6d9d72547226c5859b72650cc78971757dcefb932f7a16c04d32e460972885ec",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-05T18:13:08.750Z",
+  "completed_at": "2026-08-05T18:14:36.604Z",
+  "duration_ms": 621541,
+  "sentence_count": 106,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 24455,
+      "bytes": 400941,
+      "sha256": "338c388a6828c7b9d46f4cf032dd0188c70c6365fd3649bc4e419f5ee9d2d472",
+      "sentence_ids": [
+        "ch22-s03-n0001",
+        "ch22-s03-n0002",
+        "ch22-s03-n0003",
+        "ch22-s03-n0004",
+        "ch22-s03-n0005",
+        "ch22-s03-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 33185,
+      "bytes": 531501,
+      "sha256": "79dd46d1f334b4f775a2a10673bcff0ca9827e6ff8e9cdeafa0346f46b5daae3",
+      "sentence_ids": [
+        "ch22-s03-n0007",
+        "ch22-s03-n0008",
+        "ch22-s03-n0009",
+        "ch22-s03-n0010",
+        "ch22-s03-n0011",
+        "ch22-s03-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 34565,
+      "bytes": 553773,
+      "sha256": "9dcb5520921baca075a401f73c1e73f50a79fa0902333e60e4552d6ea58baa50",
+      "sentence_ids": [
+        "ch22-s03-n0013",
+        "ch22-s03-n0014",
+        "ch22-s03-n0015",
+        "ch22-s03-n0016",
+        "ch22-s03-n0017",
+        "ch22-s03-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 27905,
+      "bytes": 448557,
+      "sha256": "83416d99c631cd9f6d267ca1ae7dfd69f176f277e89b21a9fdcd8146c2043fcf",
+      "sentence_ids": [
+        "ch22-s03-n0019",
+        "ch22-s03-n0020",
+        "ch22-s03-n0021",
+        "ch22-s03-n0022",
+        "ch22-s03-n0023",
+        "ch22-s03-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 30435,
+      "bytes": 490029,
+      "sha256": "73573310fc3319bc72f5272d8626aad74093049e19de72874f85d822a822fba0",
+      "sentence_ids": [
+        "ch22-s03-n0025",
+        "ch22-s03-n0026",
+        "ch22-s03-n0027",
+        "ch22-s03-n0028",
+        "ch22-s03-n0029",
+        "ch22-s03-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 38820,
+      "bytes": 624429,
+      "sha256": "2d7ffac0a48d334a52a15f283f549b08f881ae89bcce9aa51edac93c1f90ea06",
+      "sentence_ids": [
+        "ch22-s03-n0031",
+        "ch22-s03-n0032",
+        "ch22-s03-n0033",
+        "ch22-s03-n0034",
+        "ch22-s03-n0035",
+        "ch22-s03-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 35831,
+      "bytes": 579885,
+      "sha256": "a0b0aee38314657f634da4a9a93f62293e104154e15068439ee883c45086677d",
+      "sentence_ids": [
+        "ch22-s03-n0037",
+        "ch22-s03-n0038",
+        "ch22-s03-n0039",
+        "ch22-s03-n0040",
+        "ch22-s03-n0041",
+        "ch22-s03-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 26975,
+      "bytes": 435117,
+      "sha256": "430d430f62f9bd4a10a2daf02f52391c456a80f9b44318c109d138aadc8a9bd5",
+      "sentence_ids": [
+        "ch22-s03-n0043",
+        "ch22-s03-n0044",
+        "ch22-s03-n0045",
+        "ch22-s03-n0046",
+        "ch22-s03-n0047",
+        "ch22-s03-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 38265,
+      "bytes": 614445,
+      "sha256": "25e6480b8714440d947f20a12fcb21e19933206deed413dfc7cbea724ea101b6",
+      "sentence_ids": [
+        "ch22-s03-n0049",
+        "ch22-s03-n0050",
+        "ch22-s03-n0051",
+        "ch22-s03-n0052",
+        "ch22-s03-n0053",
+        "ch22-s03-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 28115,
+      "bytes": 451629,
+      "sha256": "d547f06b71eba29197afef5b79adf3ab3f9872dbe8ca44e22ce272aa14f03f79",
+      "sentence_ids": [
+        "ch22-s03-n0055",
+        "ch22-s03-n0056",
+        "ch22-s03-n0057",
+        "ch22-s03-n0058",
+        "ch22-s03-n0059",
+        "ch22-s03-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 44305,
+      "bytes": 710445,
+      "sha256": "fd0922937ad1d7daae19a0e83cf7eee33efc11fb93129abd78e31ecbc8c86b9a",
+      "sentence_ids": [
+        "ch22-s03-n0061",
+        "ch22-s03-n0062",
+        "ch22-s03-n0063",
+        "ch22-s03-n0064",
+        "ch22-s03-n0065",
+        "ch22-s03-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 31395,
+      "bytes": 506157,
+      "sha256": "8aef1a7dc5178a2aef59b55045baad04114c99e6ce1f33c9aacade8ada13aac6",
+      "sentence_ids": [
+        "ch22-s03-n0067",
+        "ch22-s03-n0068",
+        "ch22-s03-n0069",
+        "ch22-s03-n0070",
+        "ch22-s03-n0071",
+        "ch22-s03-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 37649,
+      "bytes": 602541,
+      "sha256": "58da9259f49f9fda0d0f058de2858962a30c09cc9214874aabcf5d7a41a18057",
+      "sentence_ids": [
+        "ch22-s03-n0073",
+        "ch22-s03-n0074",
+        "ch22-s03-n0075",
+        "ch22-s03-n0076",
+        "ch22-s03-n0077",
+        "ch22-s03-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 34725,
+      "bytes": 557229,
+      "sha256": "cd2bd9586f34515340e18621200fae8f99b609195da8ea27aef60bdd0e5d934a",
+      "sentence_ids": [
+        "ch22-s03-n0079",
+        "ch22-s03-n0080",
+        "ch22-s03-n0081",
+        "ch22-s03-n0082",
+        "ch22-s03-n0083",
+        "ch22-s03-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 28715,
+      "bytes": 461229,
+      "sha256": "21dbbba0650ee306b3cb5203ceb83fb013647ee3fb1d433e6adf2172963e6f9d",
+      "sentence_ids": [
+        "ch22-s03-n0085",
+        "ch22-s03-n0086",
+        "ch22-s03-n0087",
+        "ch22-s03-n0088",
+        "ch22-s03-n0089",
+        "ch22-s03-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 35975,
+      "bytes": 579885,
+      "sha256": "a6d66ec18839fda25bbe182c9899a77eda5b1f5cba540f4e85588aa803dca74a",
+      "sentence_ids": [
+        "ch22-s03-n0091",
+        "ch22-s03-n0092",
+        "ch22-s03-n0093",
+        "ch22-s03-n0094",
+        "ch22-s03-n0095",
+        "ch22-s03-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 50157,
+      "bytes": 803757,
+      "sha256": "82b781d5596bfc37f2fbde721a708347f00aeffa6c385277ff99ac4f7156a961",
+      "sentence_ids": [
+        "ch22-s03-n0097",
+        "ch22-s03-n0098",
+        "ch22-s03-n0099",
+        "ch22-s03-n0100",
+        "ch22-s03-n0101",
+        "ch22-s03-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 40069,
+      "bytes": 639789,
+      "sha256": "ab1150654eae137ccc6da4b81fa23ea57e08a7440e0370a0bde8d0777d48c2dd",
+      "sentence_ids": [
+        "ch22-s03-n0103",
+        "ch22-s03-n0104",
+        "ch22-s03-n0105",
+        "ch22-s03-n0106"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch22-s03-n0001",
+      "text": "上一章只把剩余价值或剩余产品看作资本家的个人消费基金。",
+      "start_ms": 85,
+      "end_ms": 4165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s03-n0002",
+      "text": "本章到目前为止，又只把它看作积累基金。",
+      "start_ms": 4580,
+      "end_ms": 7335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s03-n0003",
+      "text": "实际上，剩余价值同时具有这两种用途。",
+      "start_ms": 7720,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s03-n0004",
+      "text": "一部分被资本家当作收入消费掉，另一部分被当作资本使用，也就是积累起来。",
+      "start_ms": 11035,
+      "end_ms": 16455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s03-n0005",
+      "text": "剩余价值总量一定时，其中一部分越大，另一部分就越小。",
+      "start_ms": 16870,
+      "end_ms": 20565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s03-n0006",
+      "text": "假定其他条件不变，两部分怎样分配，决定了积累的规模。",
+      "start_ms": 20910,
+      "end_ms": 24305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s03-n0007",
+      "text": "决定怎样分配的人，是剩余价值的所有者，也就是资本家，所以这取决于他的意志。",
+      "start_ms": 275,
+      "end_ms": 5395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s03-n0008",
+      "text": "资本家把自己取得的剩余价值拿出一部分积累起来，人们便说他“节省”了这部分，因为他没有把它吃掉。",
+      "start_ms": 5740,
+      "end_ms": 12025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s03-n0009",
+      "text": "换句话说，他履行了资本家的职能，也就是使自己不断增加财富。",
+      "start_ms": 12240,
+      "end_ms": 16575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s03-n0010",
+      "text": "资本家只有作为资本的化身，才具有历史作用，也才有那种没有明确起始日期的历史存在权。",
+      "start_ms": 16780,
+      "end_ms": 23035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s03-n0011",
+      "text": "他个人的暂时必要性，只来自资本主义生产方式本身的暂时必要性。",
+      "start_ms": 23410,
+      "end_ms": 28035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s03-n0012",
+      "text": "只要他发挥这种作用，推动他的就不是享用物品，而是增加交换价值。",
+      "start_ms": 28330,
+      "end_ms": 33035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s03-n0013",
+      "text": "作为价值增殖的狂热追求者，他不顾一切地迫使人类为生产而生产。",
+      "start_ms": 295,
+      "end_ms": 4835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s03-n0014",
+      "text": "这样一来，他推动了社会生产力的发展，也创造出一种更高社会形式所需的物质生产条件。",
+      "start_ms": 5245,
+      "end_ms": 11345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s03-n0015",
+      "text": "只有具备这些条件，社会才可能把每个人全面而自由的发展作为基本原则。",
+      "start_ms": 11715,
+      "end_ms": 16195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s03-n0016",
+      "text": "资本家也只有作为资本的化身，才值得资本主义社会尊重。",
+      "start_ms": 17065,
+      "end_ms": 21095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s03-n0017",
+      "text": "在这一点上，他同守财奴一样，具有无限增加财富的冲动。",
+      "start_ms": 21540,
+      "end_ms": 25725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s03-n0018",
+      "text": "但这种冲动在守财奴身上只是个人狂热，在资本家身上却是社会机制的作用，而他只是这套机制中的一个齿轮。",
+      "start_ms": 26100,
+      "end_ms": 34415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s03-n0019",
+      "text": "此外，资本主义生产的发展要求单个企业不断增加投入的资本。",
+      "start_ms": 255,
+      "end_ms": 4105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s03-n0020",
+      "text": "竞争又把资本主义生产方式内在的规律，变成每个资本家不得不服从的外部压力。",
+      "start_ms": 4580,
+      "end_ms": 9595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s03-n0021",
+      "text": "为了保住自己的资本，他必须不断扩大资本，而扩大资本只能依靠持续积累。",
+      "start_ms": 9985,
+      "end_ms": 14595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s03-n0022",
+      "text": "因此，只要资本家的行为完全服从资本的意志，他就会把个人消费看成对资本积累的侵占。",
+      "start_ms": 15315,
+      "end_ms": 21475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s03-n0023",
+      "text": "意大利式簿记也把资本家的私人支出记在他对资本的负债一栏。",
+      "start_ms": 21880,
+      "end_ms": 25865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s03-n0024",
+      "text": "积累是在征服社会财富。",
+      "start_ms": 26280,
+      "end_ms": 27755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s03-n0025",
+      "text": "资本家扩大积累时，不仅会增加受剥削的人数，还会扩大自己对这些人的直接和间接支配。",
+      "start_ms": 1395,
+      "end_ms": 7545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s03-n0026",
+      "text": "不过，“原罪”的影响无处不在。",
+      "start_ms": 8025,
+      "end_ms": 10085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s03-n0027",
+      "text": "随着资本主义生产、积累和财富的发展，资本家不再只是资本的化身。",
+      "start_ms": 10390,
+      "end_ms": 14405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s03-n0028",
+      "text": "他开始对自己这个凡人产生一点“人情”，也渐渐学会嘲笑老式守财奴对禁欲的迷信。",
+      "start_ms": 15225,
+      "end_ms": 20775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s03-n0029",
+      "text": "古典资本家把个人消费说成背叛自身职能的罪，把它看作停止积累。",
+      "start_ms": 21270,
+      "end_ms": 25825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s03-n0030",
+      "text": "现代资本家却能反过来把积累说成牺牲自己的享受欲。",
+      "start_ms": 26495,
+      "end_ms": 30285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s03-n0031",
+      "text": "“唉，两颗灵魂住在他的胸中，彼此都想同对方分开！”",
+      "start_ms": 0,
+      "end_ms": 5145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s03-n0032",
+      "text": "资本主义生产方式刚出现时，发财冲动和吝啬是资本家压倒一切的热情。",
+      "start_ms": 5880,
+      "end_ms": 11355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s03-n0033",
+      "text": "每个新发迹的资本家，个人也会经历这个历史阶段。",
+      "start_ms": 12245,
+      "end_ms": 16075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s03-n0034",
+      "text": "但资本主义生产的发展不仅创造出无数享受，还通过投机和信用制度，打开了许多突然发财的渠道。",
+      "start_ms": 16530,
+      "end_ms": 24265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s03-n0035",
+      "text": "发展到一定程度后，资本家甚至必须按社会惯例进行一定规模的挥霍，因为炫耀财富有助于取得信用，因而成为经营的一部分。",
+      "start_ms": 25165,
+      "end_ms": 35755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s03-n0036",
+      "text": "奢侈也被列入资本的交际费用。",
+      "start_ms": 36255,
+      "end_ms": 38670,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s03-n0037",
+      "text": "资本家增加财富，并不像守财奴那样依靠自己的劳动和减少自己的消费，而是依靠榨取他人的劳动力，并迫使工人放弃生活享受。",
+      "start_ms": 515,
+      "end_ms": 9505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s03-n0038",
+      "text": "所以，资本家的挥霍从来没有豪爽封建领主那种真心挥霍的性质，背后总藏着吝啬和精打细算。",
+      "start_ms": 9885,
+      "end_ms": 17255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s03-n0039",
+      "text": "不过，他的挥霍仍会随着积累一起增长，两者不必互相妨碍。",
+      "start_ms": 17720,
+      "end_ms": 22005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s03-n0040",
+      "text": "这样，积累欲和享受欲的冲突，也会同时出现在资本家心中。",
+      "start_ms": 22400,
+      "end_ms": 26805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s03-n0041",
+      "text": "艾金博士1795年出版的一本书，把曼彻斯特工业分成四个时期。",
+      "start_ms": 27235,
+      "end_ms": 31945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s03-n0042",
+      "text": "“第一个时期，工厂主为了维持生活，不得不辛苦工作。”",
+      "start_ms": 32346,
+      "end_ms": 35681,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch22-s03-n0043",
+      "text": "他们发财的一种重要办法，是欺骗把孩子送来当学徒的父母。",
+      "start_ms": 95,
+      "end_ms": 3905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s03-n0044",
+      "text": "父母要付出高额费用，学徒却挨饿。",
+      "start_ms": 4260,
+      "end_ms": 6755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s03-n0045",
+      "text": "另一方面，当时平均利润不高，积累需要高度节俭。",
+      "start_ms": 7275,
+      "end_ms": 11015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s03-n0046",
+      "text": "工厂主像守财奴一样生活，甚至远没有花掉资本带来的全部利息。",
+      "start_ms": 11375,
+      "end_ms": 15975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s03-n0047",
+      "text": "“第二个时期，他们已经开始积累一点财产，但仍像以前一样辛苦工作”，因为任何监工都知道，亲自监督剥削别人也要付出劳动。",
+      "start_ms": 16400,
+      "end_ms": 24755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s03-n0048",
+      "text": "他们的生活仍然十分节俭。",
+      "start_ms": 25265,
+      "end_ms": 26825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch22-s03-n0049",
+      "text": "“第三个时期开始出现奢侈。",
+      "start_ms": 0,
+      "end_ms": 1735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s03-n0050",
+      "text": "企业派出骑马的推销员，到全国各个市场城镇招揽订单，生意由此扩大。”",
+      "start_ms": 2100,
+      "end_ms": 7375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s03-n0051",
+      "text": "1690年以前，这个行业里可能几乎没有靠经营积累起3000至4000英镑的资本。",
+      "start_ms": 8345,
+      "end_ms": 13315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s03-n0052",
+      "text": "但在1690年前后或稍晚，实业家已经积累了一些钱，开始用石头建房，不再用木材和灰泥。",
+      "start_ms": 14125,
+      "end_ms": 20985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s03-n0053",
+      "text": "十八世纪最初几十年，如果一个曼彻斯特工厂主拿出一品脱外国葡萄酒招待客人，还会遭到所有邻居嘲笑和摇头。",
+      "start_ms": 21400,
+      "end_ms": 29645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s03-n0054",
+      "text": "机器出现以前，工厂主晚上在酒馆聚会，每人最多只花6便士买一杯潘趣酒，再花1便士买一卷烟草。",
+      "start_ms": 29945,
+      "end_ms": 38115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch22-s03-n0055",
+      "text": "直到1758年，才第一次看到“一个真正从事经营的人拥有自己的马车”，这在当时是一件划时代的事情。",
+      "start_ms": 1035,
+      "end_ms": 8565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s03-n0056",
+      "text": "“第四个时期”，也就是十八世纪最后三分之一，“随着经营规模扩大，出现了大规模奢侈和挥霍”。",
+      "start_ms": 9040,
+      "end_ms": 16185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s03-n0057",
+      "text": "如果善良的艾金博士今天在曼彻斯特复活，不知会说些什么！",
+      "start_ms": 16840,
+      "end_ms": 21105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s03-n0058",
+      "text": "积累，积累！",
+      "start_ms": 21565,
+      "end_ms": 22485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s03-n0059",
+      "text": "这就是一切法则和教诲！",
+      "start_ms": 22905,
+      "end_ms": 24375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s03-n0060",
+      "text": "“工业提供材料，节俭把材料积累起来。”",
+      "start_ms": 24950,
+      "end_ms": 27965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch22-s03-n0061",
+      "text": "所以，节省，再节省，也就是尽可能把更多剩余价值或剩余产品重新变成资本。",
+      "start_ms": 145,
+      "end_ms": 5535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s03-n0062",
+      "text": "“为积累而积累，为生产而生产”，古典经济学用这句话表达了资产阶级时代的历史使命。",
+      "start_ms": 6060,
+      "end_ms": 11705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s03-n0063",
+      "text": "它从未看错财富诞生时伴随的痛苦，但历史必然性既然如此，抱怨又有什么用？",
+      "start_ms": 12080,
+      "end_ms": 17375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s03-n0064",
+      "text": "在古典经济学眼中，工人只是生产剩余价值的机器，资本家同样只是把剩余价值变成更多资本的机器。",
+      "start_ms": 17800,
+      "end_ms": 24725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s03-n0065",
+      "text": "它极其严肃地看待资本家的这种历史职能。",
+      "start_ms": 25060,
+      "end_ms": 27375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s03-n0066",
+      "text": "为了使资本家摆脱享受欲和发财欲之间的危险冲突，马尔萨斯在十九世纪二十年代初提出一种分工：实际经营生产的资本家负责积累，分享剩余价值的其他人，如土地贵族、国家和教会领薪者等，负责挥霍。",
+      "start_ms": 28105,
+      "end_ms": 44155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch22-s03-n0067",
+      "text": "他说，把“花钱的热情”和“积累的热情”分开，具有最高的重要性。",
+      "start_ms": 125,
+      "end_ms": 5215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s03-n0068",
+      "text": "早已学会享受生活的资本家立刻抗议。",
+      "start_ms": 5660,
+      "end_ms": 8295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s03-n0069",
+      "text": "一位李嘉图派代言人喊道：什么？",
+      "start_ms": 8785,
+      "end_ms": 11235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s03-n0070",
+      "text": "马尔萨斯主张高地租、高税收等，就是要用非生产消费者不断刺激实业家吗？",
+      "start_ms": 11830,
+      "end_ms": 17045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s03-n0071",
+      "text": "扩大再生产当然是他们的口号，但这种办法“阻碍生产远多于促进生产”。",
+      "start_ms": 17530,
+      "end_ms": 22705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s03-n0072",
+      "text": "而且，仅仅为了逼迫另一些按性格看本来就会好好工作的人，便养着一批无所事事者，“也不完全公平”。",
+      "start_ms": 23235,
+      "end_ms": 31245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch22-s03-n0073",
+      "text": "这位代言人认为，从实业资本家的汤里撇走油脂来逼他积累很不公平，却认为把工人工资尽量压到最低水平、好让工人勤奋工作十分必要。",
+      "start_ms": 285,
+      "end_ms": 9325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s03-n0074",
+      "text": "他也毫不隐瞒，获利的秘密就是占有无偿劳动。",
+      "start_ms": 9895,
+      "end_ms": 12855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s03-n0075",
+      "text": "他说：“工人增加需求，只意味着他们愿意把自己的产品少留一点给自己，多留一点给雇主。",
+      "start_ms": 13210,
+      "end_ms": 19165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s03-n0076",
+      "text": "如果有人说，工人减少消费会造成市场饱和或生产过剩，我只能回答：市场饱和就是高利润的同义词。”",
+      "start_ms": 19450,
+      "end_ms": 26525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s03-n0077",
+      "text": "怎样在实业资本家和无所事事的土地所有者等人之间分配从工人身上榨出的战利品，才最有利于积累？",
+      "start_ms": 27355,
+      "end_ms": 34375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s03-n0078",
+      "text": "这场学术争论在法国七月革命前沉寂下来。",
+      "start_ms": 34864,
+      "end_ms": 37499,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch22-s03-n0079",
+      "text": "此后不久，城市无产阶级在里昂发出起义警报，英国农村无产阶级也放起大火。",
+      "start_ms": 375,
+      "end_ms": 6155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s03-n0080",
+      "text": "英吉利海峡一边兴起欧文主义，另一边兴起圣西门主义和傅立叶主义。",
+      "start_ms": 6595,
+      "end_ms": 11395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s03-n0081",
+      "text": "庸俗经济学登场的时刻到了。",
+      "start_ms": 11865,
+      "end_ms": 13745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s03-n0082",
+      "text": "拿骚·西尼尔到曼彻斯特“发现”资本利润连同利息来自工人无偿提供的“最后一小时”以前一年，就已经向世界宣布了另一项发现。",
+      "start_ms": 14230,
+      "end_ms": 22565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s03-n0083",
+      "text": "他郑重地说：“我不用‘资本’这个词来指生产工具，而把它换成‘节欲’。”",
+      "start_ms": 23295,
+      "end_ms": 28145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s03-n0084",
+      "text": "这是庸俗经济学“发现”的完美样板：只需把一个经济范畴换成一句讨好资本家的话。",
+      "start_ms": 28730,
+      "end_ms": 34575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch22-s03-n0085",
+      "text": "西尼尔教导说：“野蛮人制造弓时从事了生产，却没有实行节欲。”",
+      "start_ms": 85,
+      "end_ms": 4805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s03-n0086",
+      "text": "这倒解释了，在资本家的“节欲”出现以前，人类为什么照样能制造劳动工具。",
+      "start_ms": 5360,
+      "end_ms": 10715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s03-n0087",
+      "text": "“社会越进步，需要的节欲越多。”",
+      "start_ms": 10880,
+      "end_ms": 13215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s03-n0088",
+      "text": "准确地说，是从事生产的人要克制自己，好让别人占有他们的生产活动和产品。",
+      "start_ms": 13910,
+      "end_ms": 19715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s03-n0089",
+      "text": "从此，劳动过程的一切条件都被改写成资本家的节欲。",
+      "start_ms": 20165,
+      "end_ms": 24175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s03-n0090",
+      "text": "粮食没有全被吃掉，还留下一部分播种，是资本家的节欲。",
+      "start_ms": 24555,
+      "end_ms": 28565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch22-s03-n0091",
+      "text": "葡萄酒没有立刻喝掉，而是等待发酵，也是资本家的节欲。",
+      "start_ms": 105,
+      "end_ms": 3385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s03-n0092",
+      "text": "资本家没有把蒸汽机、棉花、铁路、肥料、役畜等吃掉，或没有把它们的价值花在奢侈品和消费品上，反而把“生产工具借给工人”，也就是把劳动力并入生产工具，使它们作为资本增殖。",
+      "start_ms": 3780,
+      "end_ms": 16515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s03-n0093",
+      "text": "这仿佛是资本家亏待了自己。",
+      "start_ms": 17325,
+      "end_ms": 19055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s03-n0094",
+      "text": "至于资本家怎样才能吃掉蒸汽机、铁路等，庸俗经济学一直严守这个秘密。",
+      "start_ms": 19510,
+      "end_ms": 24745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s03-n0095",
+      "text": "总之，世界仿佛全靠资本家这位现代苦行者的自我折磨才活下去。",
+      "start_ms": 25130,
+      "end_ms": 29645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s03-n0096",
+      "text": "不仅积累需要节欲，就连“维持一笔资本，也需要不断努力抵抗把它消费掉的诱惑”。",
+      "start_ms": 30205,
+      "end_ms": 35825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch22-s03-n0097",
+      "text": "因此，出于基本人道，人们似乎应该把资本家从这种苦难和诱惑中解救出来，就像废除奴隶制把美国佐治亚州的奴隶主从一个痛苦难题中解救出来：究竟该把从奴隶身上榨出的全部剩余产品都换成香槟，还是拿一部分去购买更多奴隶和土地？",
+      "start_ms": 485,
+      "end_ms": 16805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s03-n0098",
+      "text": "各种不同的社会形态中，不仅会有简单再生产，也会有不同规模的扩大再生产。",
+      "start_ms": 17745,
+      "end_ms": 23215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s03-n0099",
+      "text": "生产和消费会不断增加，转化为生产资料的产品也会增加。",
+      "start_ms": 23640,
+      "end_ms": 27865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s03-n0100",
+      "text": "但是，只要劳动者的生产资料、产品和生活资料还没有以资本的形式同劳动者对立，这个过程就不会表现为资本积累，也不是资本家的职能。",
+      "start_ms": 28255,
+      "end_ms": 38855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s03-n0101",
+      "text": "马尔萨斯在黑利伯里东印度学院的政治经济学教席继任者理查德·琼斯，用两个重要事实很好地说明了这一点。",
+      "start_ms": 39272,
+      "end_ms": 44907,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s03-n0102",
+      "text": "印度人口中人数最多的是自给自足的农民。",
+      "start_ms": 47117,
+      "end_ms": 50007,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch22-s03-n0103",
+      "text": "因此，他们的产品、劳动资料和生活资料，从来不是“从他人收入中节省出来、因而必须先经过积累的基金”。",
+      "start_ms": 395,
+      "end_ms": 8555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s03-n0104",
+      "text": "另一方面，在英国统治最少破坏旧制度的地区，非农业劳动者由当地权贵直接雇用，权贵以贡赋或地租形式取得一部分农村剩余产品。",
+      "start_ms": 9155,
+      "end_ms": 19885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s03-n0105",
+      "text": "权贵直接消费其中一部分实物，另一部分由工人替他们制成奢侈品和其他消费品，剩余部分则成为工人的报酬，而这些工人自己拥有劳动工具。",
+      "start_ms": 20335,
+      "end_ms": 30805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch22-s03-n0106",
+      "text": "这里的生产和扩大再生产正常进行，完全不需要那位古怪的圣人、那位愁容骑士，也就是“实行节欲”的资本家出场。",
+      "start_ms": 31314,
+      "end_ms": 39919,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch22-s05-v1-audio-fd0fcea52156",
+  "unit_id": "ch22-s05",
+  "translation_version_id": "ch22-s05-v1",
+  "translation_sha256": "ffdd95ea558e7239a47b2954098aeed1139748dedf652a9ba21b19958c040397",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-09T21:17:36.962Z",
+  "completed_at": "2026-08-09T21:18:04.578Z",
+  "duration_ms": 202262,
+  "sentence_count": 34,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 37715,
+      "bytes": 605613,
+      "sha256": "1a2f7399d645a82eeab84870111fd7680e2f066e4c4532ce127c8350b5636d37",
+      "sentence_ids": [
+        "ch22-s05-n0001",
+        "ch22-s05-n0002",
+        "ch22-s05-n0003",
+        "ch22-s05-n0004",
+        "ch22-s05-n0005",
+        "ch22-s05-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 29695,
+      "bytes": 473901,
+      "sha256": "519ed68b2a1d4fa285c557094e174753e9477d041ff9d003c74e0afdf48e86cf",
+      "sentence_ids": [
+        "ch22-s05-n0007",
+        "ch22-s05-n0008",
+        "ch22-s05-n0009",
+        "ch22-s05-n0010",
+        "ch22-s05-n0011",
+        "ch22-s05-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 37715,
+      "bytes": 612909,
+      "sha256": "78d858a8c430fa4e649daa078929f984b424f54488a3de207ddafc54d624dd04",
+      "sentence_ids": [
+        "ch22-s05-n0013",
+        "ch22-s05-n0014",
+        "ch22-s05-n0015",
+        "ch22-s05-n0016",
+        "ch22-s05-n0017",
+        "ch22-s05-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 38717,
+      "bytes": 621357,
+      "sha256": "480447ddddd96b7ef5a9f947671a0e8b4024671b4702e8bc85194cfdd5649eb1",
+      "sentence_ids": [
+        "ch22-s05-n0019",
+        "ch22-s05-n0020",
+        "ch22-s05-n0021",
+        "ch22-s05-n0022",
+        "ch22-s05-n0023",
+        "ch22-s05-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 29875,
+      "bytes": 478125,
+      "sha256": "d7e976b3196089b0515e55d14c1a0f4d02e7185655a7e57c09272dc7e07c5dcc",
+      "sentence_ids": [
+        "ch22-s05-n0025",
+        "ch22-s05-n0026",
+        "ch22-s05-n0027",
+        "ch22-s05-n0028",
+        "ch22-s05-n0029",
+        "ch22-s05-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 28545,
+      "bytes": 464685,
+      "sha256": "ca2fa7d06f5730d00c1cf3398362eacf33dea332b989a744f07fb61df3cb73d8",
+      "sentence_ids": [
+        "ch22-s05-n0031",
+        "ch22-s05-n0032",
+        "ch22-s05-n0033",
+        "ch22-s05-n0034"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch22-s05-n0001",
+      "text": "前面的分析已经表明，资本并不是一个固定不变的数量。",
+      "start_ms": 475,
+      "end_ms": 4105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s05-n0002",
+      "text": "它是社会财富中一个可以伸缩的部分，会随着剩余价值在资本家收入和追加资本之间的分配不断变化。",
+      "start_ms": 4420,
+      "end_ms": 11375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s05-n0003",
+      "text": "即使正在运转的资本量不变，已经被它支配的劳动力、科学和土地，也都是可以伸缩的力量。",
+      "start_ms": 12155,
+      "end_ms": 18995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s05-n0004",
+      "text": "在经济学上，这里的“土地”包括一切未经人加工、天然存在的劳动对象。",
+      "start_ms": 19390,
+      "end_ms": 24125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s05-n0005",
+      "text": "在一定范围内，这些力量使资本能发挥多大作用，并不完全取决于资本自身有多少。",
+      "start_ms": 24855,
+      "end_ms": 30925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s05-n0006",
+      "text": "这里暂时没有考察流通过程中的各种条件，而这些条件会使同量资本产生很不相同的效果。",
+      "start_ms": 31350,
+      "end_ms": 37565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch22-s05-n0007",
+      "text": "我们还把资本主义生产的限制当作既定前提，也就是把社会生产过程看成自发运行的。",
+      "start_ms": 195,
+      "end_ms": 5975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s05-n0008",
+      "text": "因此，我们没有考察能否有计划地重新组合现有生产资料和劳动力，从而直接提高生产效率。",
+      "start_ms": 6425,
+      "end_ms": 12315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s05-n0009",
+      "text": "古典经济学却一向喜欢把社会资本看成数量固定、效能也固定。",
+      "start_ms": 13215,
+      "end_ms": 17535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s05-n0010",
+      "text": "边沁把这种偏见变成了一条教条。",
+      "start_ms": 18010,
+      "end_ms": 20165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s05-n0011",
+      "text": "这个人刻板、啰唆，是十九世纪庸俗市民常识的权威。",
+      "start_ms": 20485,
+      "end_ms": 24685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s05-n0012",
+      "text": "边沁在哲学界的地位，就像马丁·塔珀在诗歌界的地位。",
+      "start_ms": 25305,
+      "end_ms": 29545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch22-s05-n0013",
+      "text": "两人都是只有英国才能制造出来的人物。",
+      "start_ms": 445,
+      "end_ms": 2255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s05-n0014",
+      "text": "按照这一教条，生产为什么会突然扩张或收缩，甚至资本积累本身，都无法解释。",
+      "start_ms": 2630,
+      "end_ms": 8065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s05-n0015",
+      "text": "边沁、马尔萨斯、詹姆斯·穆勒和麦克库洛赫等人用它为资本主义辩护，尤其要把可变资本，也就是能够转化为劳动力的资本，说成一个固定数量。",
+      "start_ms": 8470,
+      "end_ms": 18265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s05-n0016",
+      "text": "可变资本在物质上表现为供工人消费的一定量生活资料。",
+      "start_ms": 18660,
+      "end_ms": 22145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s05-n0017",
+      "text": "经济学家把这些生活资料称为“劳动基金”，并编造说它是社会财富中由自然划定、绝对不能超过的一部分。",
+      "start_ms": 22560,
+      "end_ms": 29835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s05-n0018",
+      "text": "要让作为不变资本发挥作用的生产资料运转起来，确实需要一定量的活劳动，这个劳动总量由当时的技术条件决定。",
+      "start_ms": 30255,
+      "end_ms": 37565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch22-s05-n0019",
+      "text": "然而，为提供这一定量劳动究竟需要多少工人，并不是固定的，因为这取决于每个工人受剥削的程度。",
+      "start_ms": 505,
+      "end_ms": 7265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s05-n0020",
+      "text": "劳动力的价格也不是固定的，只有它的最低限度，而且这个最低限度本身也很有弹性。",
+      "start_ms": 7685,
+      "end_ms": 12665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s05-n0021",
+      "text": "所谓劳动基金教条所依据的事实其实只有两个。",
+      "start_ms": 13595,
+      "end_ms": 16815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s05-n0022",
+      "text": "第一，工人无权参与决定社会财富中有多少分给不劳动者享用，有多少成为生产资料。",
+      "start_ms": 17130,
+      "end_ms": 22985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s05-n0023",
+      "text": "第二，只有在少数有利情况下，工人才可能以减少富人收入为代价，扩大所谓的“劳动基金”。",
+      "start_ms": 23585,
+      "end_ms": 30835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s05-n0024",
+      "text": "把劳动基金在资本主义下受到的限制，改说成整个社会不可逾越的自然限制，会产生多么荒唐的同义反复。",
+      "start_ms": 30842,
+      "end_ms": 38567,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch22-s05-n0025",
+      "text": "福西特教授就提供了一个例子。",
+      "start_ms": 295,
+      "end_ms": 2255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s05-n0026",
+      "text": "他说：“一个国家的流动资本， 就是它的劳动基金。",
+      "start_ms": 2590,
+      "end_ms": 6165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s05-n0027",
+      "text": "因此，要计算每个工人平均得到多少货币工资，只要用这笔资本除以工人人数就行了。”",
+      "start_ms": 6590,
+      "end_ms": 12925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s05-n0028",
+      "text": "也就是说，先把实际支付给每个工人的工资加在一起，再宣称这个总额就是上帝和自然规定的“劳动基金”。",
+      "start_ms": 13735,
+      "end_ms": 21885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s05-n0029",
+      "text": "最后，再用这个总额除以工人人数，重新发现每个工人平均能拿到多少。",
+      "start_ms": 22435,
+      "end_ms": 28155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s05-n0030",
+      "text": "真是聪明绝顶的办法。",
+      "start_ms": 28560,
+      "end_ms": 29725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch22-s05-n0031",
+      "text": "可是，福西特紧接着又说：“英国每年积累的财富总量分成两部分。",
+      "start_ms": 185,
+      "end_ms": 5005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s05-n0032",
+      "text": "一部分留在英国，用来维持本国工业；另一部分出口到别国……用于本国工业的那一部分，只占英国每年积累财富的一小部分。”",
+      "start_ms": 5240,
+      "end_ms": 13395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s05-n0033",
+      "text": "这就是说，英国工人每年无偿交出的新增剩余产品，大部分并没有在英国转化为资本，而是在国外转化为资本。",
+      "start_ms": 14075,
+      "end_ms": 21925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch22-s05-n0034",
+      "text": "可是，同这部分追加资本一起出口的，不也正是上帝和边沁发明的“劳动基金”的一部分吗？",
+      "start_ms": 22345,
+      "end_ms": 28395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    }
+  ]
+}

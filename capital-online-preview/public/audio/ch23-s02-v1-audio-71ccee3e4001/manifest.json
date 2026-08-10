@@ -1,0 +1,1246 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch23-s02-v1-audio-71ccee3e4001",
+  "unit_id": "ch23-s02",
+  "translation_version_id": "ch23-s02-v1",
+  "translation_sha256": "b2f3b32ffbd2c29d6853c75d8bbeea431dfc30a078e916407baa723432ddd628",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-09T21:19:48.685Z",
+  "completed_at": "2026-08-09T21:21:35.172Z",
+  "duration_ms": 753900,
+  "sentence_count": 116,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 31795,
+      "bytes": 511917,
+      "sha256": "bcf0971387de87388d7d13c9de9a16383059083c19633a845f62c2d04f4aa16d",
+      "sentence_ids": [
+        "ch23-s02-n0001",
+        "ch23-s02-n0002",
+        "ch23-s02-n0003",
+        "ch23-s02-n0004",
+        "ch23-s02-n0005",
+        "ch23-s02-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 41722,
+      "bytes": 678957,
+      "sha256": "e261b09ad4a924824937fea76e6720918a792c2b441ebdf59c211ac845908030",
+      "sentence_ids": [
+        "ch23-s02-n0007",
+        "ch23-s02-n0008",
+        "ch23-s02-n0009",
+        "ch23-s02-n0010",
+        "ch23-s02-n0011",
+        "ch23-s02-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 35535,
+      "bytes": 566829,
+      "sha256": "66258e6d0066f614d754504c7711beef8bb607bdc1cfe5389a48801e743f531c",
+      "sentence_ids": [
+        "ch23-s02-n0013",
+        "ch23-s02-n0014",
+        "ch23-s02-n0015",
+        "ch23-s02-n0016",
+        "ch23-s02-n0017",
+        "ch23-s02-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 51122,
+      "bytes": 816813,
+      "sha256": "41327f809115733f04b2812fec1bbd051968fe2a6672f040ebf4f9f51b4a23a6",
+      "sentence_ids": [
+        "ch23-s02-n0019",
+        "ch23-s02-n0020",
+        "ch23-s02-n0021",
+        "ch23-s02-n0022",
+        "ch23-s02-n0023",
+        "ch23-s02-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 40321,
+      "bytes": 650925,
+      "sha256": "1dffef9a62df96d2e8a2eed355e7f88da04d497fdd2c523831382384c122d5a6",
+      "sentence_ids": [
+        "ch23-s02-n0025",
+        "ch23-s02-n0026",
+        "ch23-s02-n0027",
+        "ch23-s02-n0028",
+        "ch23-s02-n0029",
+        "ch23-s02-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 49553,
+      "bytes": 794925,
+      "sha256": "7c4ee2beb30be732ea976175d41780e7f1870264d947a29163ecde4272a00460",
+      "sentence_ids": [
+        "ch23-s02-n0031",
+        "ch23-s02-n0032",
+        "ch23-s02-n0033",
+        "ch23-s02-n0034",
+        "ch23-s02-n0035",
+        "ch23-s02-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 50494,
+      "bytes": 809901,
+      "sha256": "d13cc6179061e5b8343efc4855d62fee44046f10737750e41d632f5d4aabf1cf",
+      "sentence_ids": [
+        "ch23-s02-n0037",
+        "ch23-s02-n0038",
+        "ch23-s02-n0039",
+        "ch23-s02-n0040",
+        "ch23-s02-n0041",
+        "ch23-s02-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 31805,
+      "bytes": 509229,
+      "sha256": "eef1895c45d9a2be8fc5e3ac2d69cfbf75cdb2d2475b348f3ea458e1098c7ba2",
+      "sentence_ids": [
+        "ch23-s02-n0043",
+        "ch23-s02-n0044",
+        "ch23-s02-n0045",
+        "ch23-s02-n0046",
+        "ch23-s02-n0047",
+        "ch23-s02-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 32935,
+      "bytes": 528429,
+      "sha256": "d5cded53649147df840b3e4464995d7d68ec3d4a2845ac1ad4e7133fc46172b0",
+      "sentence_ids": [
+        "ch23-s02-n0049",
+        "ch23-s02-n0050",
+        "ch23-s02-n0051",
+        "ch23-s02-n0052",
+        "ch23-s02-n0053",
+        "ch23-s02-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 34973,
+      "bytes": 560301,
+      "sha256": "64744cc59ab2aa1c732cfc2199a53c9f79c3effd777441f8e9d683f36941ae88",
+      "sentence_ids": [
+        "ch23-s02-n0055",
+        "ch23-s02-n0056",
+        "ch23-s02-n0057",
+        "ch23-s02-n0058",
+        "ch23-s02-n0059",
+        "ch23-s02-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 33970,
+      "bytes": 547629,
+      "sha256": "80bc1f1fd3ec0d42fedd1d593b78616e96da3ff71393e1602241dc116e1e6c62",
+      "sentence_ids": [
+        "ch23-s02-n0061",
+        "ch23-s02-n0062",
+        "ch23-s02-n0063",
+        "ch23-s02-n0064",
+        "ch23-s02-n0065",
+        "ch23-s02-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 43617,
+      "bytes": 703917,
+      "sha256": "f7bc06b31482c23c31270328150cf0454b61f55175459cf62f101c2e539e5d99",
+      "sentence_ids": [
+        "ch23-s02-n0067",
+        "ch23-s02-n0068",
+        "ch23-s02-n0069",
+        "ch23-s02-n0070",
+        "ch23-s02-n0071",
+        "ch23-s02-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 26685,
+      "bytes": 428973,
+      "sha256": "1c5c1412593ce9fdd1ef92a85241ae5f512cdecb912f32fee7473151e96a34be",
+      "sentence_ids": [
+        "ch23-s02-n0073",
+        "ch23-s02-n0074",
+        "ch23-s02-n0075",
+        "ch23-s02-n0076",
+        "ch23-s02-n0077",
+        "ch23-s02-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 31995,
+      "bytes": 511917,
+      "sha256": "a46318b85c05124a3dcc5ba9a14a88379a7da8a4af414885505745d07bf878c4",
+      "sentence_ids": [
+        "ch23-s02-n0079",
+        "ch23-s02-n0080",
+        "ch23-s02-n0081",
+        "ch23-s02-n0082",
+        "ch23-s02-n0083",
+        "ch23-s02-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 42549,
+      "bytes": 682797,
+      "sha256": "29c048d793fe46514c8e1f1b01bdc4006c9bda99a4f7a0431917f824dce52921",
+      "sentence_ids": [
+        "ch23-s02-n0085",
+        "ch23-s02-n0086",
+        "ch23-s02-n0087",
+        "ch23-s02-n0088",
+        "ch23-s02-n0089",
+        "ch23-s02-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 45938,
+      "bytes": 742317,
+      "sha256": "251c339c50e4b55bf78be259d8a20df3c1755be4dad9df4884bdbe39e49e752e",
+      "sentence_ids": [
+        "ch23-s02-n0091",
+        "ch23-s02-n0092",
+        "ch23-s02-n0093",
+        "ch23-s02-n0094",
+        "ch23-s02-n0095",
+        "ch23-s02-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 43203,
+      "bytes": 690861,
+      "sha256": "740c83744e081491ba53c28a8be4de90163e51bff09c3b59b0e9a59ca89d08b6",
+      "sentence_ids": [
+        "ch23-s02-n0097",
+        "ch23-s02-n0098",
+        "ch23-s02-n0099",
+        "ch23-s02-n0100",
+        "ch23-s02-n0101",
+        "ch23-s02-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 40038,
+      "bytes": 639789,
+      "sha256": "c41aa5cab116de85ea698823be8963d0b63a15ce397604dac536ab5be1b783f0",
+      "sentence_ids": [
+        "ch23-s02-n0103",
+        "ch23-s02-n0104",
+        "ch23-s02-n0105",
+        "ch23-s02-n0106",
+        "ch23-s02-n0107",
+        "ch23-s02-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 29615,
+      "bytes": 473901,
+      "sha256": "fbd860dbb2f319cc8c38ce7211f48a8cf64a5235fc6c53679cbce8f68b80fa3e",
+      "sentence_ids": [
+        "ch23-s02-n0109",
+        "ch23-s02-n0110",
+        "ch23-s02-n0111",
+        "ch23-s02-n0112",
+        "ch23-s02-n0113",
+        "ch23-s02-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 16035,
+      "bytes": 260013,
+      "sha256": "e9e99a86ad24328a6d7c6629300a84be9269bca0bcc0cf52db759d6189d13908",
+      "sentence_ids": [
+        "ch23-s02-n0115",
+        "ch23-s02-n0116"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch23-s02-n0001",
+      "text": "按照经济学家自己的说法，工资上涨并不取决于社会已经拥有多少财富，也不取决于已经积累了多少资本。",
+      "start_ms": 175,
+      "end_ms": 6985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s02-n0002",
+      "text": "真正起作用的，是积累是否持续增长，以及增长得有多快。",
+      "start_ms": 7380,
+      "end_ms": 11035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s02-n0003",
+      "text": "（亚当·斯密，第一卷第八章。）",
+      "start_ms": 12045,
+      "end_ms": 14355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s02-n0004",
+      "text": "前面我们只考察了这个过程的一个特殊阶段，也就是资本增加、技术构成却保持不变的阶段。",
+      "start_ms": 14360,
+      "end_ms": 20295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s02-n0005",
+      "text": "可是，积累并不会一直停留在这个阶段。",
+      "start_ms": 20695,
+      "end_ms": 22915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s02-n0006",
+      "text": "资本主义制度的基本条件一旦形成，积累发展到一定程度，提高社会劳动生产力就会成为推动积累最强大的力量。",
+      "start_ms": 23685,
+      "end_ms": 31645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s02-n0007",
+      "text": "亚当·斯密说：“使工资上涨的原因，也就是资本增加，也会推动劳动生产能力提高，使较少的劳动能够生产较多的产品。”",
+      "start_ms": 785,
+      "end_ms": 9535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s02-n0008",
+      "text": "这里先不考虑土地肥力等自然条件，也不考虑独立劳动者的个人技巧。",
+      "start_ms": 10155,
+      "end_ms": 14765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s02-n0009",
+      "text": "后一种技巧主要提高产品的质量，而不是增加产品数量。",
+      "start_ms": 15545,
+      "end_ms": 19445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s02-n0010",
+      "text": "在这些条件之外，社会劳动生产力有多高，要看一个工人在同样长的时间内、付出同样强度的劳动，能够把多少生产资料变成产品。",
+      "start_ms": 19890,
+      "end_ms": 30145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s02-n0011",
+      "text": "劳动生产力越高，每个工人使用的生产资料就越多。",
+      "start_ms": 30737,
+      "end_ms": 34432,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s02-n0012",
+      "text": "生产资料的增加在这里有两种作用：一部分是生产力提高的结果，另一部分是生产力提高的条件。",
+      "start_ms": 34737,
+      "end_ms": 41572,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s02-n0013",
+      "text": "比如，分工和机器的使用使工人在同一时间内加工更多原料，所以进入劳动过程的原料和辅助材料会增加。",
+      "start_ms": 115,
+      "end_ms": 8235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s02-n0014",
+      "text": "这是生产力提高的结果。",
+      "start_ms": 8555,
+      "end_ms": 9545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s02-n0015",
+      "text": "另一方面，更多的机器、役畜、矿物肥料和排水管等，又是提高生产力的条件。",
+      "start_ms": 10405,
+      "end_ms": 16395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s02-n0016",
+      "text": "集中在厂房、大型熔炉和运输工具中的生产资料也是如此。",
+      "start_ms": 16770,
+      "end_ms": 20665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s02-n0017",
+      "text": "无论生产资料的增加是条件还是结果，只要它同所用劳动力相比不断增多，就说明劳动生产力正在提高。",
+      "start_ms": 21405,
+      "end_ms": 29275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s02-n0018",
+      "text": "换句话说，工人推动的生产资料越来越多，而所需劳动相对越来越少。",
+      "start_ms": 29675,
+      "end_ms": 35385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s02-n0019",
+      "text": "劳动过程中的人的因素，同物的因素相比，所占的比重下降了。",
+      "start_ms": 125,
+      "end_ms": 5005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s02-n0020",
+      "text": "资本技术构成的这种变化，也就是生产资料相对于使用它们的劳动力不断增加，会反映在资本的价值构成上：资本价值中不变资本所占的部分上升，可变资本所占的部分下降。",
+      "start_ms": 5400,
+      "end_ms": 18225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s02-n0021",
+      "text": "例如，一笔资本最初可能有50%用于生产资料，另有50%用于劳动力。",
+      "start_ms": 18600,
+      "end_ms": 24355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s02-n0022",
+      "text": "生产力提高以后，这两个比例可能变成80%和20%。",
+      "start_ms": 24605,
+      "end_ms": 28195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s02-n0023",
+      "text": "前面已经说明，对商品价格作比较也会不断证实这条规律。",
+      "start_ms": 29205,
+      "end_ms": 33585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s02-n0024",
+      "text": "无论比较同一国家的不同时代，还是比较同一时代的不同国家，结果都一样：积累越发展，商品价格中代表已消耗生产资料价值的部分，也就是代表不变资本的部分，通常占得越多；代表工资或可变资本的部分，通常占得越少。",
+      "start_ms": 33872,
+      "end_ms": 50972,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s02-n0025",
+      "text": "不过，可变资本相对于不变资本下降，只能大致反映生产资料与劳动力在物质数量上的变化。",
+      "start_ms": 275,
+      "end_ms": 8135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s02-n0026",
+      "text": "比如，今天投入纺纱业的资本可能有⅞是不变资本、⅛是可变资本，而十八世纪初这两个部分各占一半。",
+      "start_ms": 8465,
+      "end_ms": 17565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s02-n0027",
+      "text": "可是，今天一定量的纺纱劳动所使用的原料和劳动工具，比十八世纪初多出几百倍。",
+      "start_ms": 17875,
+      "end_ms": 24935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s02-n0028",
+      "text": "原因很简单。",
+      "start_ms": 25300,
+      "end_ms": 25965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s02-n0029",
+      "text": "劳动生产力提高时，所使用的生产资料不仅在数量上增加，每件生产资料的价值通常还会下降。",
+      "start_ms": 26340,
+      "end_ms": 34205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s02-n0030",
+      "text": "因此，生产资料的价值总额虽然会上升，增长速度却赶不上它的物质数量。",
+      "start_ms": 34516,
+      "end_ms": 40171,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s02-n0031",
+      "text": "这样一来，不变资本与可变资本在价值上的差距虽然会扩大，却远没有生产资料数量与劳动力数量之间的差距扩大得那么快。",
+      "start_ms": 425,
+      "end_ms": 8835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s02-n0032",
+      "text": "积累的发展虽然会降低可变资本所占的比例，却完全不排除可变资本的绝对数量增加。",
+      "start_ms": 9235,
+      "end_ms": 14965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s02-n0033",
+      "text": "假定一笔资本最初有50%是不变资本、50%是可变资本，后来变成80%和20%。",
+      "start_ms": 15785,
+      "end_ms": 22205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s02-n0034",
+      "text": "如果这笔资本同时从6000英镑增加到18000英镑，可变资本仍会增加五分之一：原来是3000英镑，现在是3600英镑。",
+      "start_ms": 23535,
+      "end_ms": 32065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s02-n0035",
+      "text": "不过，在原来的资本构成下，总资本只需增加20%，对劳动的需求就能增加20%；在新的构成下，要达到同样结果，总资本必须增加到原来的三倍。",
+      "start_ms": 32458,
+      "end_ms": 44793,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s02-n0036",
+      "text": "第四篇已经说明，提高社会劳动生产力需要大规模协作。",
+      "start_ms": 45223,
+      "end_ms": 49403,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s02-n0037",
+      "text": "只有在这个前提下，人们才能组织劳动的分工与结合，通过大量集中使用生产资料来节约成本，采用机器体系等必须共同使用的劳动资料，把巨大的自然力量用于生产，并使生产过程成为科学技术的实际应用。",
+      "start_ms": 455,
+      "end_ms": 16625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s02-n0038",
+      "text": "在商品生产中，生产资料归私人所有。",
+      "start_ms": 17130,
+      "end_ms": 19835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s02-n0039",
+      "text": "手工业者要么独立生产商品，要么因为没有独立经营所需的生产资料，只能把劳动力当作商品出售。",
+      "start_ms": 20210,
+      "end_ms": 27625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s02-n0040",
+      "text": "因此，大规模协作只有随着个别资本增长才能实现，也就是说，只有越来越多的社会生产资料和生活资料变成资本家的私有财产才能实现。",
+      "start_ms": 28170,
+      "end_ms": 38345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s02-n0041",
+      "text": "商品生产只有采取资本主义形式，才能支撑大规模生产。",
+      "start_ms": 38759,
+      "end_ms": 42674,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s02-n0042",
+      "text": "所以，资本主义生产方式必须以一定数量的资本已经积累在个别商品生产者手中为前提。",
+      "start_ms": 43584,
+      "end_ms": 50344,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s02-n0043",
+      "text": "从手工业转向资本主义经营时，我们也必须先假定这个前提。",
+      "start_ms": 125,
+      "end_ms": 4475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s02-n0044",
+      "text": "它可以叫作原始积累，因为它不是资本主义生产在历史上的结果，而是它的历史起点。",
+      "start_ms": 4805,
+      "end_ms": 10115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s02-n0045",
+      "text": "原始积累本身怎样发生，这里还不需要研究。",
+      "start_ms": 11085,
+      "end_ms": 14215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s02-n0046",
+      "text": "现在只须知道，它构成了出发点。",
+      "start_ms": 14570,
+      "end_ms": 16745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s02-n0047",
+      "text": "在这个基础上形成的各种提高社会劳动生产力的方法，同时也会增加剩余价值或剩余产品，而剩余产品正是积累的来源。",
+      "start_ms": 17165,
+      "end_ms": 26155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s02-n0048",
+      "text": "因此，这些方法也是资本通过自身生产更多资本、加快积累的方法。",
+      "start_ms": 26470,
+      "end_ms": 31655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s02-n0049",
+      "text": "剩余价值不断转回资本，表现为投入生产过程的资本越来越大。",
+      "start_ms": 255,
+      "end_ms": 3465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s02-n0050",
+      "text": "更大的资本又会扩大生产规模，进一步提高劳动生产力，并加快剩余价值生产。",
+      "start_ms": 3945,
+      "end_ms": 8405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s02-n0051",
+      "text": "可见，一定程度的资本积累最初是资本主义生产方式的条件，而资本主义生产方式一旦形成，又会反过来加快资本积累。",
+      "start_ms": 8720,
+      "end_ms": 16305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s02-n0052",
+      "text": "资本积累推动资本主义生产方式发展，资本主义生产方式又推动资本积累。",
+      "start_ms": 16750,
+      "end_ms": 20755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s02-n0053",
+      "text": "两者相互加强，共同改变资本的技术构成，使可变资本同不变资本相比越来越小。",
+      "start_ms": 21170,
+      "end_ms": 26365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s02-n0054",
+      "text": "每一笔个别资本，都是一定数量的生产资料集中在某个资本家手中，并让他能够支配相应数量的工人。",
+      "start_ms": 26785,
+      "end_ms": 32785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s02-n0055",
+      "text": "这里把这种随着个别资本自身增长而发生的集中，称为资本积聚。",
+      "start_ms": 255,
+      "end_ms": 4805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s02-n0056",
+      "text": "每一次积累都会成为下一次积累的手段。",
+      "start_ms": 5325,
+      "end_ms": 7765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s02-n0057",
+      "text": "作为资本发挥作用的财富越多，生产资料在个别资本家手中积聚得就越多，大规模生产和资本主义生产方法的基础也越强。",
+      "start_ms": 8115,
+      "end_ms": 17225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s02-n0058",
+      "text": "社会总资本的增长，是通过许多个别资本的增长实现的。",
+      "start_ms": 17640,
+      "end_ms": 21575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s02-n0059",
+      "text": "在其他条件不变时，一笔个别资本在社会总资本中所占的份额越大，它增长得就越多，生产资料也会相应积聚。",
+      "start_ms": 21960,
+      "end_ms": 30515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s02-n0060",
+      "text": "同时，原有资本还会分出支系，成为新的独立资本。",
+      "start_ms": 31178,
+      "end_ms": 34823,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s02-n0061",
+      "text": "资本家家庭分割财产，就是产生新资本的重要途径之一。",
+      "start_ms": 305,
+      "end_ms": 4195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s02-n0062",
+      "text": "因此，资本积累通常也会使资本家人数增加。",
+      "start_ms": 4785,
+      "end_ms": 7815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s02-n0063",
+      "text": "这种直接来自积累、甚至同积累本身是一回事的资本积聚，有两个特点。",
+      "start_ms": 8225,
+      "end_ms": 12595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s02-n0064",
+      "text": "第一，在其他条件不变时，社会生产资料能在个别资本家手中积聚到什么程度，受社会财富增长速度的限制。",
+      "start_ms": 13425,
+      "end_ms": 21425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s02-n0065",
+      "text": "第二，每个生产部门中的社会资本都分散在许多资本家手中，他们彼此独立，作为互相竞争的商品生产者相对立。",
+      "start_ms": 21885,
+      "end_ms": 29985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s02-n0066",
+      "text": "可见，积累及其带来的资本积聚分散在许多地方。",
+      "start_ms": 30290,
+      "end_ms": 33820,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s02-n0067",
+      "text": "与此同时，新资本不断形成，旧资本不断分裂，又会打断原有资本的增长。",
+      "start_ms": 445,
+      "end_ms": 5795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s02-n0068",
+      "text": "因此，积累一方面使生产资料和支配劳动的权力越来越集中，另一方面又使许多个别资本彼此分离。",
+      "start_ms": 6195,
+      "end_ms": 12645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s02-n0069",
+      "text": "社会总资本被分割成许多个别资本，个别资本彼此排斥；但同这种力量相反，资本之间也会互相吸引。",
+      "start_ms": 13465,
+      "end_ms": 21195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s02-n0070",
+      "text": "这时发生的，已经不是随着积累而来的简单积聚，而是已经形成的资本彼此合并。",
+      "start_ms": 21610,
+      "end_ms": 27085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s02-n0071",
+      "text": "原有资本会失去独立性，资本家剥夺资本家，许多小资本变成少数大资本。",
+      "start_ms": 27705,
+      "end_ms": 33315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s02-n0072",
+      "text": "这个过程只需要重新分配已经存在并正在发挥作用的资本，所以它不同于前一种积聚，也不受社会财富绝对增长或积累绝对界限的限制。",
+      "start_ms": 33792,
+      "end_ms": 43467,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s02-n0073",
+      "text": "资本在一只手里膨胀成巨大规模，正是因为它从许多别的手里消失了。",
+      "start_ms": 155,
+      "end_ms": 4435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s02-n0074",
+      "text": "这才是严格意义上的资本集中，它不同于积累和资本积聚。",
+      "start_ms": 4760,
+      "end_ms": 8525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s02-n0075",
+      "text": "资本怎样互相吸引、实现集中的规律，这里无法详细展开，只须指出几个事实。",
+      "start_ms": 8985,
+      "end_ms": 14435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s02-n0076",
+      "text": "竞争主要靠降低商品价格进行。",
+      "start_ms": 15000,
+      "end_ms": 17025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s02-n0077",
+      "text": "在其他条件相同时，商品能否便宜，取决于劳动生产力，而劳动生产力又取决于生产规模。",
+      "start_ms": 17555,
+      "end_ms": 23795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s02-n0078",
+      "text": "因此，大资本会击败小资本。",
+      "start_ms": 24435,
+      "end_ms": 26535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s02-n0079",
+      "text": "还要记得，随着资本主义生产方式发展，一项经营要按正常条件运行，所需的最低个别资本也会越来越大。",
+      "start_ms": 745,
+      "end_ms": 7865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s02-n0080",
+      "text": "小资本只好涌入大工业还没有充分占领、只是偶尔涉及的生产部门。",
+      "start_ms": 8240,
+      "end_ms": 12215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s02-n0081",
+      "text": "在这些领域，参与竞争的资本越多、每笔资本越小，竞争就越激烈。",
+      "start_ms": 12855,
+      "end_ms": 17495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s02-n0082",
+      "text": "结果总是许多小资本家破产，他们的资本一部分落到胜利者手中，一部分直接消失。",
+      "start_ms": 17930,
+      "end_ms": 23475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s02-n0083",
+      "text": "除此之外，资本主义生产还会创造一种全新的力量：信用制度。",
+      "start_ms": 23790,
+      "end_ms": 27465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s02-n0084",
+      "text": "它起初悄悄出现，只是积累的一个不起眼的辅助工具。",
+      "start_ms": 28105,
+      "end_ms": 31845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s02-n0085",
+      "text": "它通过看不见的线，把散落在社会各处、大大小小的货币集中到个别资本家或资本家联合体手中。",
+      "start_ms": 95,
+      "end_ms": 6955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s02-n0086",
+      "text": "可是，它很快就会成为竞争中一种新的可怕武器，最终发展成集中资本的庞大社会机制。",
+      "start_ms": 7435,
+      "end_ms": 14015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s02-n0087",
+      "text": "资本主义生产和积累越发展，推动资本集中的两股最强力量——竞争和信用——也越发展。",
+      "start_ms": 14500,
+      "end_ms": 20955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s02-n0088",
+      "text": "同时，积累不断增加可以被集中的材料，也就是一笔笔个别资本。",
+      "start_ms": 21320,
+      "end_ms": 26125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s02-n0089",
+      "text": "资本主义生产的扩张则一方面产生社会需要，另一方面提供技术手段，使那些必须先集中大量资本才能实施的巨型工业项目成为可能。",
+      "start_ms": 26710,
+      "end_ms": 36175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s02-n0090",
+      "text": "因此，今天个别资本互相吸引的力量和资本集中的趋势，比以往任何时候都强。",
+      "start_ms": 36699,
+      "end_ms": 42399,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s02-n0091",
+      "text": "集中运动的规模和力量，固然在一定程度上取决于资本主义财富已经达到的规模，以及经济机制的发展程度，但资本集中并不依赖社会总资本实际增长。",
+      "start_ms": 85,
+      "end_ms": 11235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s02-n0092",
+      "text": "这正是集中与积聚的特殊区别。",
+      "start_ms": 11725,
+      "end_ms": 14015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s02-n0093",
+      "text": "资本积聚只是资本扩大再生产的另一种表现，资本集中却可以只靠重新分配已有资本、重新组合社会总资本的各个部分来完成。",
+      "start_ms": 14490,
+      "end_ms": 23845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s02-n0094",
+      "text": "资本能在一只手中增长为巨大规模，是因为它同时从许多其他人手中被夺走。",
+      "start_ms": 24685,
+      "end_ms": 30605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s02-n0095",
+      "text": "对于一个特定行业来说，如果这个行业里的全部资本都合并成一笔资本，集中就达到了极限。",
+      "start_ms": 31173,
+      "end_ms": 37548,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s02-n0096",
+      "text": "对整个社会来说，只有当全部社会资本都集中在一个资本家或一家资本家联合体手中时，才会达到这个极限。",
+      "start_ms": 37933,
+      "end_ms": 45788,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s02-n0097",
+      "text": "资本集中补充了积累的作用，因为它使工业资本家能够扩大经营规模。",
+      "start_ms": 165,
+      "end_ms": 4195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s02-n0098",
+      "text": "无论规模扩大来自积累还是集中，也无论集中是通过强行吞并实现——某些资本成为强大的吸引中心，打破其他资本的独立结构，再把碎片吸收进来——还是通过组织股份公司的温和办法，把许多已经形成或正在形成的资本合并起来，经济效果都一样。",
+      "start_ms": 4460,
+      "end_ms": 20185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s02-n0099",
+      "text": "工业企业规模扩大以后，许多人的劳动可以得到更全面的统一组织，生产所依靠的物质力量也可以得到更广泛的发展。",
+      "start_ms": 20460,
+      "end_ms": 27135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s02-n0100",
+      "text": "这样，彼此分散、依靠习惯运行的生产过程，就会逐步变成社会化协作并由科学安排的生产过程。",
+      "start_ms": 27705,
+      "end_ms": 34405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s02-n0101",
+      "text": "积累通过不断扩大再生产，使资本一点点增加，速度很慢。",
+      "start_ms": 34838,
+      "end_ms": 38653,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s02-n0102",
+      "text": "资本集中却只需改变社会总资本各部分的组合，所以快得多。",
+      "start_ms": 39018,
+      "end_ms": 43053,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s02-n0103",
+      "text": "如果必须等到积累使某些个别资本大到足以修建铁路，世界恐怕至今还没有铁路。",
+      "start_ms": 75,
+      "end_ms": 6095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s02-n0104",
+      "text": "资本集中却通过股份公司，一下子就做到了。",
+      "start_ms": 6595,
+      "end_ms": 9635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s02-n0105",
+      "text": "集中不仅加强并加快积累的作用，也会扩大并加快资本技术构成的变化：不变资本增加，可变资本相对减少，对劳动的相对需求也随之下降。",
+      "start_ms": 10295,
+      "end_ms": 21345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s02-n0106",
+      "text": "资本集中可以在一夜之间把许多资本合成巨额资本。",
+      "start_ms": 22145,
+      "end_ms": 25705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s02-n0107",
+      "text": "这些资本同其他资本一样会继续再生产和增长，只是增长得更快，因此又会成为推动社会积累的新力量。",
+      "start_ms": 26190,
+      "end_ms": 33925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s02-n0108",
+      "text": "所以，今天谈社会积累的发展时，其中已经默认包含了资本集中的作用。",
+      "start_ms": 34488,
+      "end_ms": 39888,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s02-n0109",
+      "text": "正常积累过程中形成的追加资本，主要用来采用新的发明、发现和其他工业改进。",
+      "start_ms": 95,
+      "end_ms": 6115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s02-n0110",
+      "text": "（参见第二十二章第一节。）",
+      "start_ms": 6500,
+      "end_ms": 7985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s02-n0111",
+      "text": "旧资本经过一段时间，也会迎来全面更新。",
+      "start_ms": 8480,
+      "end_ms": 11075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s02-n0112",
+      "text": "它脱去旧的技术形态，以改进后的形态重新出现，用更少的劳动推动更多机器和原料。",
+      "start_ms": 11945,
+      "end_ms": 18625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s02-n0113",
+      "text": "这样一来，对劳动的绝对需求必然下降。",
+      "start_ms": 19045,
+      "end_ms": 21915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s02-n0114",
+      "text": "经过资本集中以后，参加这种更新的资本已经积成的规模越大，劳动需求下降得也就越多。",
+      "start_ms": 22365,
+      "end_ms": 29465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s02-n0115",
+      "text": "所以，一方面，积累过程中形成的追加资本，按它自身的规模计算，吸收的工人越来越少。",
+      "start_ms": 335,
+      "end_ms": 7595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch23-s02-n0116",
+      "text": "另一方面，旧资本定期按照新的构成重新投入生产时，会排斥越来越多原先由它雇用的工人。",
+      "start_ms": 7880,
+      "end_ms": 15885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    }
+  ]
+}

@@ -1,0 +1,1084 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch18-s01-v1-audio-2e96e500fb0a",
+  "unit_id": "ch18-s01",
+  "translation_version_id": "ch18-s01-v1",
+  "translation_sha256": "39b81bf1b27bc577aaba7bcc2c85ae75fee3aba7bb938fde9fd6e3da06d5eee6",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:28:57.497Z",
+  "completed_at": "2026-08-04T17:30:28.771Z",
+  "duration_ms": 630458,
+  "sentence_count": 101,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 25355,
+      "bytes": 407469,
+      "sha256": "877ed41547b491a194dfb669a0c7ca93aac3957d8a6ec1e8139a3ae703a4cc6e",
+      "sentence_ids": [
+        "ch18-s01-n0001",
+        "ch18-s01-n0002",
+        "ch18-s01-n0003",
+        "ch18-s01-n0004",
+        "ch18-s01-n0005",
+        "ch18-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 36515,
+      "bytes": 586029,
+      "sha256": "4562289b90b8efa776ed5f1f3e6a78d37a7a0e3a9991021227996928726a3cd6",
+      "sentence_ids": [
+        "ch18-s01-n0007",
+        "ch18-s01-n0008",
+        "ch18-s01-n0009",
+        "ch18-s01-n0010",
+        "ch18-s01-n0011",
+        "ch18-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 28215,
+      "bytes": 450861,
+      "sha256": "0235ffb351453483f5717d389daff8890be9d5246976e89ce549afa592eb404e",
+      "sentence_ids": [
+        "ch18-s01-n0013",
+        "ch18-s01-n0014",
+        "ch18-s01-n0015",
+        "ch18-s01-n0016",
+        "ch18-s01-n0017",
+        "ch18-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 31825,
+      "bytes": 509613,
+      "sha256": "d231abe78b4e7ff0eea0e7000ee2e1a325982bee8d46db8e11b6d116997dc795",
+      "sentence_ids": [
+        "ch18-s01-n0019",
+        "ch18-s01-n0020",
+        "ch18-s01-n0021",
+        "ch18-s01-n0022",
+        "ch18-s01-n0023",
+        "ch18-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 35655,
+      "bytes": 569517,
+      "sha256": "a9c497353d0c994e8daea64dfe430834b1593ac97ce3f83229e0687703e3c37c",
+      "sentence_ids": [
+        "ch18-s01-n0025",
+        "ch18-s01-n0026",
+        "ch18-s01-n0027",
+        "ch18-s01-n0028",
+        "ch18-s01-n0029",
+        "ch18-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 29495,
+      "bytes": 473517,
+      "sha256": "ad8978b138e81ce8852944804cd4558bfe753c27e5466fe07a350128bccba063",
+      "sentence_ids": [
+        "ch18-s01-n0031",
+        "ch18-s01-n0032",
+        "ch18-s01-n0033",
+        "ch18-s01-n0034",
+        "ch18-s01-n0035",
+        "ch18-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 41991,
+      "bytes": 675117,
+      "sha256": "0238aa2a0c15078b03b68e42a0fb385385c5a2048543f34b04d175c13cb29e4a",
+      "sentence_ids": [
+        "ch18-s01-n0037",
+        "ch18-s01-n0038",
+        "ch18-s01-n0039",
+        "ch18-s01-n0040",
+        "ch18-s01-n0041",
+        "ch18-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 46834,
+      "bytes": 749613,
+      "sha256": "7e17bfdad80c68f6270e7d0569e0671df390d3436396e09b2ad5d1c512c492d5",
+      "sentence_ids": [
+        "ch18-s01-n0043",
+        "ch18-s01-n0044",
+        "ch18-s01-n0045",
+        "ch18-s01-n0046",
+        "ch18-s01-n0047",
+        "ch18-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 47889,
+      "bytes": 768429,
+      "sha256": "8b00bc2bc23111cf829e166318441dffa0ec360a716f78a1afa583298410e969",
+      "sentence_ids": [
+        "ch18-s01-n0049",
+        "ch18-s01-n0050",
+        "ch18-s01-n0051",
+        "ch18-s01-n0052",
+        "ch18-s01-n0053",
+        "ch18-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 36265,
+      "bytes": 582957,
+      "sha256": "248a04ad443a33f65791aea218713fcca6105f942ec5090777d5ce97ea4d9afe",
+      "sentence_ids": [
+        "ch18-s01-n0055",
+        "ch18-s01-n0056",
+        "ch18-s01-n0057",
+        "ch18-s01-n0058",
+        "ch18-s01-n0059",
+        "ch18-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 43726,
+      "bytes": 708909,
+      "sha256": "4d43d1745db8b509931cd4a8b1f5b12e7f63aabfb0a895ccf2a2e6287fd55004",
+      "sentence_ids": [
+        "ch18-s01-n0061",
+        "ch18-s01-n0062",
+        "ch18-s01-n0063",
+        "ch18-s01-n0064",
+        "ch18-s01-n0065",
+        "ch18-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 32845,
+      "bytes": 528429,
+      "sha256": "73093a4538f018ecd2917109305d91d615253396f626994b73997f31ebc5367d",
+      "sentence_ids": [
+        "ch18-s01-n0067",
+        "ch18-s01-n0068",
+        "ch18-s01-n0069",
+        "ch18-s01-n0070",
+        "ch18-s01-n0071",
+        "ch18-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 42143,
+      "bytes": 678957,
+      "sha256": "62115f542ce15331cde99ecc6e20357220b3a013fc06b6f28c7e7698b013ca7a",
+      "sentence_ids": [
+        "ch18-s01-n0073",
+        "ch18-s01-n0074",
+        "ch18-s01-n0075",
+        "ch18-s01-n0076",
+        "ch18-s01-n0077",
+        "ch18-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 32275,
+      "bytes": 516525,
+      "sha256": "7478ac27d41fc3aa7b82588ff65db4b423a19a81aaad86054c2862f40c38d7a2",
+      "sentence_ids": [
+        "ch18-s01-n0079",
+        "ch18-s01-n0080",
+        "ch18-s01-n0081",
+        "ch18-s01-n0082",
+        "ch18-s01-n0083",
+        "ch18-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 40718,
+      "bytes": 659373,
+      "sha256": "66ec2f3fed352aec8111cd786a92f909b879af7b61a8006beea5dbb9e3c04fad",
+      "sentence_ids": [
+        "ch18-s01-n0085",
+        "ch18-s01-n0086",
+        "ch18-s01-n0087",
+        "ch18-s01-n0088",
+        "ch18-s01-n0089",
+        "ch18-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 47087,
+      "bytes": 753453,
+      "sha256": "880685984b6abd7096d255c012ef5f641dd5c5cdb823d98fc08fbf6b54a94b2e",
+      "sentence_ids": [
+        "ch18-s01-n0091",
+        "ch18-s01-n0092",
+        "ch18-s01-n0093",
+        "ch18-s01-n0094",
+        "ch18-s01-n0095",
+        "ch18-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 31625,
+      "bytes": 505773,
+      "sha256": "f7ab99009887ae847be384676c595cb3cdd00527087e768c87918e7947329a95",
+      "sentence_ids": [
+        "ch18-s01-n0097",
+        "ch18-s01-n0098",
+        "ch18-s01-n0099",
+        "ch18-s01-n0100",
+        "ch18-s01-n0101"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch18-s01-n0001",
+      "text": "工资本身也有许多不同形式。",
+      "start_ms": 205,
+      "end_ms": 1655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch18-s01-n0002",
+      "text": "那些只关心材料、粗暴忽略形式差别的经济学手册，无法让人看出这一点。",
+      "start_ms": 1920,
+      "end_ms": 6525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch18-s01-n0003",
+      "text": "逐一说明所有工资形式，属于专门研究雇佣劳动的理论，不在本书范围之内。",
+      "start_ms": 6900,
+      "end_ms": 11845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch18-s01-n0004",
+      "text": "这里只简要讨论两种占主导地位的基本形式。",
+      "start_ms": 12165,
+      "end_ms": 15045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch18-s01-n0005",
+      "text": "前面说过，劳动力总是按一定期限出售。",
+      "start_ms": 15400,
+      "end_ms": 18095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch18-s01-n0006",
+      "text": "劳动力一天或一周的价值经过转化，直接表现为按时间支付的工资，也就是日工资、周工资等。",
+      "start_ms": 18460,
+      "end_ms": 25205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch18-s01-n0007",
+      "text": "第十五章已经说明，劳动力的价格和剩余价值会怎样变化。",
+      "start_ms": 95,
+      "end_ms": 4835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch18-s01-n0008",
+      "text": "换成工资这种表现形式，那些规律也就成了工资的变化规律。",
+      "start_ms": 5280,
+      "end_ms": 9995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch18-s01-n0009",
+      "text": "同样，劳动力的交换价值同它能换来的生活资料数量之间的差别，现在表现为名义工资同实际工资的差别。",
+      "start_ms": 10545,
+      "end_ms": 19435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch18-s01-n0010",
+      "text": "已经分析过的实质关系，没有必要换成表面形式再讲一遍。",
+      "start_ms": 19895,
+      "end_ms": 23265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch18-s01-n0011",
+      "text": "因此，这里只讨论计时工资的几个特点。",
+      "start_ms": 24945,
+      "end_ms": 28165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch18-s01-n0012",
+      "text": "工人一天或一周劳动后得到的货币总额，构成他的名义工资，也就是按货币价值计算的工资。",
+      "start_ms": 28640,
+      "end_ms": 36365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch18-s01-n0013",
+      "text": "但是，工作日有长有短，工人每天交出的劳动量也就不同。",
+      "start_ms": 115,
+      "end_ms": 4335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch18-s01-n0014",
+      "text": "因此，即使日工资或周工资总额相同，每一小时劳动的价格也可能很不一样。",
+      "start_ms": 4835,
+      "end_ms": 10195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch18-s01-n0015",
+      "text": "换句话说，同样多的劳动可能换来不同数额的货币。",
+      "start_ms": 11045,
+      "end_ms": 14595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch18-s01-n0016",
+      "text": "分析计时工资时，必须区分工资总额和劳动价格。",
+      "start_ms": 15130,
+      "end_ms": 19035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch18-s01-n0017",
+      "text": "怎样算出劳动价格，也就是一定劳动量值多少钱呢？",
+      "start_ms": 19545,
+      "end_ms": 23155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch18-s01-n0018",
+      "text": "用劳动力一天的平均价值，除以平均工作日的小时数。",
+      "start_ms": 23640,
+      "end_ms": 28065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch18-s01-n0019",
+      "text": "假定劳动力一天的价值是3先令，相当于六小时劳动创造的价值，平均工作日为十二小时。",
+      "start_ms": 285,
+      "end_ms": 6545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch18-s01-n0020",
+      "text": "那么，一小时劳动的价格就是3先令 ÷ 12 = 3便士。",
+      "start_ms": 6875,
+      "end_ms": 10835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch18-s01-n0021",
+      "text": "这样算出的一小时价格，就是衡量劳动价格的单位尺度。",
+      "start_ms": 11125,
+      "end_ms": 14995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch18-s01-n0022",
+      "text": "由此可见，即使日工资或周工资不变，劳动价格也可能不断下降。",
+      "start_ms": 15320,
+      "end_ms": 20035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch18-s01-n0023",
+      "text": "例如，通常的工作日是十小时，劳动力一天的价值是3先令，那么一小时劳动的价格就是3.6便士。",
+      "start_ms": 20460,
+      "end_ms": 27605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch18-s01-n0024",
+      "text": "工作日延长到十二小时，一小时的价格便降到3便士。",
+      "start_ms": 27920,
+      "end_ms": 31675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch18-s01-n0025",
+      "text": "延长到十五小时，则降到2.4便士，日工资或周工资却仍然不变。",
+      "start_ms": 155,
+      "end_ms": 5335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch18-s01-n0026",
+      "text": "反过来，即使劳动价格不变甚至下降，日工资或周工资也可能上升。",
+      "start_ms": 5720,
+      "end_ms": 10775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch18-s01-n0027",
+      "text": "仍假定劳动力一天的价值是3先令，十小时工作日中每小时的价格是3.6便士。",
+      "start_ms": 11080,
+      "end_ms": 16385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch18-s01-n0028",
+      "text": "如果就业增加，工人在每小时价格不变的情况下工作十二小时，日工资就会升到3先令7.2便士，但劳动价格没有变化。",
+      "start_ms": 16730,
+      "end_ms": 24805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch18-s01-n0029",
+      "text": "劳动时间不增加而劳动强度增加，也可能产生同样结果。",
+      "start_ms": 25050,
+      "end_ms": 28365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch18-s01-n0030",
+      "text": "因此，名义上的日工资或周工资上升，完全可以同劳动价格不变或下降同时发生。",
+      "start_ms": 28895,
+      "end_ms": 35505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch18-s01-n0031",
+      "text": "如果户主之外的家庭成员也参加劳动，家庭总收入同样可能增加。",
+      "start_ms": 85,
+      "end_ms": 4125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch18-s01-n0032",
+      "text": "可见，即使不削减名义日工资或周工资，也有办法压低劳动价格。",
+      "start_ms": 4515,
+      "end_ms": 9205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch18-s01-n0033",
+      "text": "一般说来，规律如下。",
+      "start_ms": 9565,
+      "end_ms": 11075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch18-s01-n0034",
+      "text": "如果每天或每周的劳动量已经确定，日工资或周工资就取决于劳动价格。",
+      "start_ms": 11455,
+      "end_ms": 16565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch18-s01-n0035",
+      "text": "劳动价格本身又会随着劳动力价值变化，或者随着劳动力价格偏离其价值的程度而变化。",
+      "start_ms": 16945,
+      "end_ms": 22515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch18-s01-n0036",
+      "text": "反过来，如果劳动价格已经确定，日工资或周工资就取决于每天或每周提供多少劳动。",
+      "start_ms": 23225,
+      "end_ms": 29345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch18-s01-n0037",
+      "text": "计时工资的单位尺度，是一小时劳动的价格。",
+      "start_ms": 305,
+      "end_ms": 3485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch18-s01-n0038",
+      "text": "它等于劳动力一天的价值除以通常工作日的小时数。",
+      "start_ms": 3825,
+      "end_ms": 7755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch18-s01-n0039",
+      "text": "假定通常的工作日是十二小时，劳动力一天的价值为3先令，相当于六小时劳动创造的价值。",
+      "start_ms": 8190,
+      "end_ms": 15405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch18-s01-n0040",
+      "text": "那么，一小时劳动的价格是3便士，而这一小时创造的新价值是6便士。",
+      "start_ms": 15745,
+      "end_ms": 21295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch18-s01-n0041",
+      "text": "如果资本家每天雇用工人不到十二小时，或者每周雇用不到六天，例如每天只工作八小时或六小时，按这个小时价格计算，工人的日工资就只有2先令或1.5先令。",
+      "start_ms": 21725,
+      "end_ms": 34595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch18-s01-n0042",
+      "text": "按照这个例子，工人平均每天必须工作六小时，才能创造出相当于自己劳动力日价值的金额。",
+      "start_ms": 34966,
+      "end_ms": 41841,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch18-s01-n0043",
+      "text": "每工作一小时，他只有半小时为自己创造价值，另外半小时为资本家创造价值。",
+      "start_ms": 415,
+      "end_ms": 5715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch18-s01-n0044",
+      "text": "因此，如果他受雇不到十二小时，就不可能拿到六小时劳动创造的全部价值。",
+      "start_ms": 6175,
+      "end_ms": 11185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch18-s01-n0045",
+      "text": "前面看到的是过度劳动怎样摧残工人，这里看到的则是就业不足为什么也会使工人陷入困苦。",
+      "start_ms": 12095,
+      "end_ms": 18735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch18-s01-n0046",
+      "text": "如果小时工资固定下来，而资本家只需支付他愿意让工人工作的那些小时，不必保证一天或一周的工资，那么他就可以让工人的工作时间低于计算小时工资时所依据的工作日。",
+      "start_ms": 19265,
+      "end_ms": 32695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch18-s01-n0047",
+      "text": "小时工资原本是用劳动力日价值除以固定的工作日小时数算出的。",
+      "start_ms": 33129,
+      "end_ms": 38064,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch18-s01-n0048",
+      "text": "一旦工作日不再有固定时数，这个单位尺度也就失去了意义，有酬劳动与无酬劳动之间原有的关系随之被打破。",
+      "start_ms": 38504,
+      "end_ms": 46684,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch18-s01-n0049",
+      "text": "资本家可以从工人身上取得一定量的剩余劳动，却不给他足够的工作时间去挣到维持生活所需的收入。",
+      "start_ms": 155,
+      "end_ms": 7265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch18-s01-n0050",
+      "text": "他还可以破坏就业的规律性，完全按照自己的方便、意愿和眼前利益，让极端过度劳动同部分失业甚至完全失业交替出现。",
+      "start_ms": 7520,
+      "end_ms": 16515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch18-s01-n0051",
+      "text": "他也可以声称自己支付了“正常的劳动价格”，同时把工作日异常延长，却不给工人相应补偿。",
+      "start_ms": 17265,
+      "end_ms": 24015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch18-s01-n0052",
+      "text": "1860年，伦敦建筑工人反对资本家强行实行这种小时工资，完全合乎道理。",
+      "start_ms": 24825,
+      "end_ms": 30475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch18-s01-n0053",
+      "text": "法律限制工作日，可以制止这种滥用，却无法消除机器竞争、所用工人素质变化以及局部或普遍危机造成的就业不足。",
+      "start_ms": 31064,
+      "end_ms": 40319,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch18-s01-n0054",
+      "text": "即使日工资或周工资上升，一小时劳动的名义价格保持不变，它仍可能已经低于正常水平。",
+      "start_ms": 40764,
+      "end_ms": 47739,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch18-s01-n0055",
+      "text": "只要工作日超过通常长度，就会出现这种情况。",
+      "start_ms": 1005,
+      "end_ms": 3535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch18-s01-n0056",
+      "text": "计算一小时劳动价格时，分母是工作日的小时数，分子是劳动力一天的价值。",
+      "start_ms": 3900,
+      "end_ms": 9115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch18-s01-n0057",
+      "text": "工作日延长时，分母增加，但分子增加得更快。",
+      "start_ms": 9465,
+      "end_ms": 12315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch18-s01-n0058",
+      "text": "原因是劳动力使用得越久，损耗越大，而且损耗增加得比使用时间更快。",
+      "start_ms": 13225,
+      "end_ms": 17815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch18-s01-n0059",
+      "text": "因此，在许多实行计时工资而工时又不受法律限制的行业里，自然形成了一种惯例：工作日只有到某个时点以前才算正常，例如到第十小时为止。",
+      "start_ms": 18200,
+      "end_ms": 28865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch18-s01-n0060",
+      "text": "超过这条界线的时间算作加班，并以小时为单位支付稍高的加班费，尽管增加的比例往往小得可笑。",
+      "start_ms": 29270,
+      "end_ms": 36115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch18-s01-n0061",
+      "text": "这里的正常工作日只是实际工作日的一部分，实际工作日常常全年都比正常工作日长。",
+      "start_ms": 445,
+      "end_ms": 6455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch18-s01-n0062",
+      "text": "在英国一些行业，正常时段的劳动价格被压得很低，工人只有做报酬稍高的加班，才能挣到足够的工资。",
+      "start_ms": 6925,
+      "end_ms": 14435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch18-s01-n0063",
+      "text": "这样，超过正常界线后提高劳动价格，反而迫使工人延长工作日。",
+      "start_ms": 15325,
+      "end_ms": 20855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch18-s01-n0064",
+      "text": "法律限制工作日，也就终止了资本家的这种“乐趣”。",
+      "start_ms": 21320,
+      "end_ms": 24635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch18-s01-n0065",
+      "text": "一个行业的工作日越长，工资往往越低，这是人们普遍知道的事实。",
+      "start_ms": 25335,
+      "end_ms": 30245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch18-s01-n0066",
+      "text": "工厂视察员A.雷德格雷夫比较了1839—1859这二十年间的情况：实行十小时工作日法律的工厂，工资上升，而每天工作十四到十五小时的工厂，工资反而下降。",
+      "start_ms": 30861,
+      "end_ms": 43576,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch18-s01-n0067",
+      "text": "前面已经说明，在劳动价格一定时，日工资或周工资取决于工人提供多少劳动。",
+      "start_ms": 345,
+      "end_ms": 5465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch18-s01-n0068",
+      "text": "由此可见，劳动价格越低，工人为了挣到哪怕十分微薄的平均工资，就必须提供越多劳动，工作日也必须越长。",
+      "start_ms": 5770,
+      "end_ms": 12725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch18-s01-n0069",
+      "text": "低廉的劳动价格由此反过来推动工作时间延长。",
+      "start_ms": 13555,
+      "end_ms": 16535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch18-s01-n0070",
+      "text": "与此同时，工作时间延长本身又会压低劳动价格，并进一步压低日工资或周工资。",
+      "start_ms": 16910,
+      "end_ms": 22515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch18-s01-n0071",
+      "text": "一小时劳动的价格，是用劳动力一天的价值除以固定的工作日小时数算出的。",
+      "start_ms": 22830,
+      "end_ms": 28025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch18-s01-n0072",
+      "text": "因此，如果没有额外补偿，仅仅延长工作日就会降低劳动价格。",
+      "start_ms": 28225,
+      "end_ms": 32695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch18-s01-n0073",
+      "text": "更进一步，那些使资本家能够长期延长工作日的条件，起初也使他能够降低名义上的劳动价格，最终还会迫使他这样做，直到工人工作时间增加，日工资或周工资总额反而下降。",
+      "start_ms": 145,
+      "end_ms": 14215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch18-s01-n0074",
+      "text": "这里只需指出两个原因。",
+      "start_ms": 14680,
+      "end_ms": 16295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch18-s01-n0075",
+      "text": "第一，一个人如果承担一个半人或两个人的工作，即使市场上的工人人数没有增加，可供资本使用的劳动量也增加了。",
+      "start_ms": 16720,
+      "end_ms": 24975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch18-s01-n0076",
+      "text": "工人之间的竞争使资本家能够压低劳动价格，劳动价格下降又使他能够进一步延长工作时间。",
+      "start_ms": 25705,
+      "end_ms": 32775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch18-s01-n0077",
+      "text": "第二，这种超过社会平均水平的无酬劳动，很快会成为资本家彼此竞争的手段。",
+      "start_ms": 33138,
+      "end_ms": 39403,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch18-s01-n0078",
+      "text": "商品售价中有一部分用来支付工资。",
+      "start_ms": 39818,
+      "end_ms": 41993,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch18-s01-n0079",
+      "text": "工人没有得到报酬的那部分劳动，不必计入商品售价，资本家可以把它让给买者。",
+      "start_ms": 125,
+      "end_ms": 5435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch18-s01-n0080",
+      "text": "这是竞争推动的第一步。",
+      "start_ms": 5760,
+      "end_ms": 7275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch18-s01-n0081",
+      "text": "接着，竞争还会迫使资本家把延长工作日产生的额外剩余价值，也拿出至少一部分来降低售价。",
+      "start_ms": 7580,
+      "end_ms": 15095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch18-s01-n0082",
+      "text": "这样，异常低的商品售价起初零星出现，后来逐渐固定下来。",
+      "start_ms": 15540,
+      "end_ms": 20385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch18-s01-n0083",
+      "text": "低价原本来自微薄工资和超长劳动，最后却反过来成为维持这两种状况的固定基础。",
+      "start_ms": 20885,
+      "end_ms": 26895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch18-s01-n0084",
+      "text": "这里只简要指出这一过程，因为竞争不属于本书此处的分析范围。",
+      "start_ms": 27395,
+      "end_ms": 32125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch18-s01-n0085",
+      "text": "不妨让资本家自己说话：“在伯明翰，雇主之间的竞争非常激烈，迫使我们中的一些人在用工时做出平时会感到羞耻的事。",
+      "start_ms": 465,
+      "end_ms": 7425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch18-s01-n0086",
+      "text": "可我们并没有因此赚到更多钱，得到好处的只有公众。”",
+      "start_ms": 7795,
+      "end_ms": 10705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch18-s01-n0087",
+      "text": "前面提过伦敦的两类面包师。",
+      "start_ms": 11585,
+      "end_ms": 13345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch18-s01-n0088",
+      "text": "一类按正常价格卖面包，另一类低于正常价格出售。",
+      "start_ms": 13710,
+      "end_ms": 16785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch18-s01-n0089",
+      "text": "按正常价格出售的面包师在议会调查委员会面前指责竞争者：“他们能生存，第一是靠掺假欺骗公众，第二是只付十二小时的工资，却从工人身上榨取十八小时劳动……工人的无酬劳动，就是他们进行竞争的手段……面包师之间的竞争，使夜间劳动很难废除。",
+      "start_ms": 17345,
+      "end_ms": 35958,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch18-s01-n0090",
+      "text": "低价出售者按低于成本的价格卖面包，而成本会随面粉价格变化。",
+      "start_ms": 36453,
+      "end_ms": 40568,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch18-s01-n0091",
+      "text": "他靠从工人身上榨取更多劳动来弥补损失。",
+      "start_ms": 125,
+      "end_ms": 3255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch18-s01-n0092",
+      "text": "如果我的工人只做十二小时，邻人的工人却做十八或二十小时，他就能在售价上压过我。",
+      "start_ms": 3600,
+      "end_ms": 9955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch18-s01-n0093",
+      "text": "工人如果能够坚持要求加班工资，这种做法很快就会结束……低价面包房雇用的许多人是外国人、少年和其他没有选择的人，他们几乎只能接受任何拿得到的工资。”",
+      "start_ms": 10365,
+      "end_ms": 21485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch18-s01-n0094",
+      "text": "这番哀叹还有一个有趣之处：它说明资本家头脑中反映的，只是生产关系的表面现象。",
+      "start_ms": 22395,
+      "end_ms": 28665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch18-s01-n0095",
+      "text": "资本家不知道，正常的劳动价格本来就包含一定量的无酬劳动，而这种无酬劳动正是他正常利润的来源。",
+      "start_ms": 29475,
+      "end_ms": 37315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch18-s01-n0096",
+      "text": "在他的观念里，根本没有“剩余劳动时间”这个概念，因为它已经包含在正常工作日中，而他以为日工资把整个工作日都付清了。",
+      "start_ms": 37777,
+      "end_ms": 46937,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch18-s01-n0097",
+      "text": "不过，他看得见加班，也就是工作日超过通常劳动价格所对应的时限。",
+      "start_ms": 295,
+      "end_ms": 5355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch18-s01-n0098",
+      "text": "面对低价竞争者，他甚至坚持加班必须额外付钱。",
+      "start_ms": 5755,
+      "end_ms": 9225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch18-s01-n0099",
+      "text": "他仍然不知道，加班费同普通小时工资一样，也包含无酬劳动。",
+      "start_ms": 9665,
+      "end_ms": 14065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch18-s01-n0100",
+      "text": "例如，在十二小时工作日中，一小时的价格是3便士，只相当于半小时创造的价值，资本家便无偿占有另外半小时。",
+      "start_ms": 14440,
+      "end_ms": 23105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch18-s01-n0101",
+      "text": "加班时一小时支付4便士，只相当于三分之二小时创造的价值，资本家仍无偿占有剩下的三分之一。",
+      "start_ms": 23575,
+      "end_ms": 31475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    }
+  ]
+}

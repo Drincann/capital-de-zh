@@ -1,0 +1,1327 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch17-s01-v1-audio-c5fae5ee7c0a",
+  "unit_id": "ch17-s01",
+  "translation_version_id": "ch17-s01-v1",
+  "translation_sha256": "cea0800192e2a1b97e5afee1267a6323898cef5664f46bd3615b5c5b8a0a7a06",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:27:05.529Z",
+  "completed_at": "2026-08-04T17:28:57.421Z",
+  "duration_ms": 729484,
+  "sentence_count": 124,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 28265,
+      "bytes": 458541,
+      "sha256": "03dda9846de8e42efcf5380fafe1ba5aca52355deda1ccabeb8a9911c2d8f463",
+      "sentence_ids": [
+        "ch17-s01-n0001",
+        "ch17-s01-n0002",
+        "ch17-s01-n0003",
+        "ch17-s01-n0004",
+        "ch17-s01-n0005",
+        "ch17-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 28565,
+      "bytes": 461229,
+      "sha256": "b8381cac2275ad9a2c0b5042744d229f9c4b15e1e3df0107d138c138515f7cab",
+      "sentence_ids": [
+        "ch17-s01-n0007",
+        "ch17-s01-n0008",
+        "ch17-s01-n0009",
+        "ch17-s01-n0010",
+        "ch17-s01-n0011",
+        "ch17-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 27295,
+      "bytes": 442029,
+      "sha256": "e231e9888a709687c9e3b73d97c1bc0d8d6d320506b3ecc5eb4b659c15c55420",
+      "sentence_ids": [
+        "ch17-s01-n0013",
+        "ch17-s01-n0014",
+        "ch17-s01-n0015",
+        "ch17-s01-n0016",
+        "ch17-s01-n0017",
+        "ch17-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 37263,
+      "bytes": 599469,
+      "sha256": "07ab6aaf2dadf41d84cf697edcc3c26130376c6d5df9971bb7abb234ba0e3944",
+      "sentence_ids": [
+        "ch17-s01-n0019",
+        "ch17-s01-n0020",
+        "ch17-s01-n0021",
+        "ch17-s01-n0022",
+        "ch17-s01-n0023",
+        "ch17-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 38039,
+      "bytes": 608301,
+      "sha256": "8d375a5d514fa5b087eb749a8288f736a3ab1a54a8036567988ffa9cbbdba67c",
+      "sentence_ids": [
+        "ch17-s01-n0025",
+        "ch17-s01-n0026",
+        "ch17-s01-n0027",
+        "ch17-s01-n0028",
+        "ch17-s01-n0029",
+        "ch17-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 26165,
+      "bytes": 428973,
+      "sha256": "1fd9e4e4726200a755dbbde865cefd1ccde85bf8e66622fa1d6d950224928d71",
+      "sentence_ids": [
+        "ch17-s01-n0031",
+        "ch17-s01-n0032",
+        "ch17-s01-n0033",
+        "ch17-s01-n0034",
+        "ch17-s01-n0035",
+        "ch17-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 30705,
+      "bytes": 493101,
+      "sha256": "49496c0f18fc853a16807b858440b7dbd066fc17636cae5480369ee096a96f23",
+      "sentence_ids": [
+        "ch17-s01-n0037",
+        "ch17-s01-n0038",
+        "ch17-s01-n0039",
+        "ch17-s01-n0040",
+        "ch17-s01-n0041",
+        "ch17-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 41989,
+      "bytes": 677805,
+      "sha256": "2c5d658f478df16a067c017d8e1654394d80e54b80dd279379c41631f3bd851c",
+      "sentence_ids": [
+        "ch17-s01-n0043",
+        "ch17-s01-n0044",
+        "ch17-s01-n0045",
+        "ch17-s01-n0046",
+        "ch17-s01-n0047",
+        "ch17-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 31905,
+      "bytes": 512301,
+      "sha256": "fe13fc8d74981fa8b11dfdfc7db4c19e72dac67ea217b10d77e8e0ca21fa8e58",
+      "sentence_ids": [
+        "ch17-s01-n0049",
+        "ch17-s01-n0050",
+        "ch17-s01-n0051",
+        "ch17-s01-n0052",
+        "ch17-s01-n0053",
+        "ch17-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 51140,
+      "bytes": 819501,
+      "sha256": "605b3a8c17f1b832f97f31523e4c252154510bddf7eecd5ba84c2e22d6fe2188",
+      "sentence_ids": [
+        "ch17-s01-n0055",
+        "ch17-s01-n0056",
+        "ch17-s01-n0057",
+        "ch17-s01-n0058",
+        "ch17-s01-n0059",
+        "ch17-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 27965,
+      "bytes": 454317,
+      "sha256": "6222501bfd4e612b5764e71c62b0f7e60914538cd92a153f1e52c413caf2aa08",
+      "sentence_ids": [
+        "ch17-s01-n0061",
+        "ch17-s01-n0062",
+        "ch17-s01-n0063",
+        "ch17-s01-n0064",
+        "ch17-s01-n0065",
+        "ch17-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 35415,
+      "bytes": 567981,
+      "sha256": "befac45255714729534dd26ed2efe99e79bb02c2bf3bd6dd9560899f3c143778",
+      "sentence_ids": [
+        "ch17-s01-n0067",
+        "ch17-s01-n0068",
+        "ch17-s01-n0069",
+        "ch17-s01-n0070",
+        "ch17-s01-n0071",
+        "ch17-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 38503,
+      "bytes": 620973,
+      "sha256": "48309003239c54b28938072cada594044198000f1d24d0aa600f8e9ff391c35c",
+      "sentence_ids": [
+        "ch17-s01-n0073",
+        "ch17-s01-n0074",
+        "ch17-s01-n0075",
+        "ch17-s01-n0076",
+        "ch17-s01-n0077",
+        "ch17-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 33215,
+      "bytes": 531501,
+      "sha256": "708bd517b1800df39e5d70e424c0e809e062b1f1a901e7f286a47611ae399817",
+      "sentence_ids": [
+        "ch17-s01-n0079",
+        "ch17-s01-n0080",
+        "ch17-s01-n0081",
+        "ch17-s01-n0082",
+        "ch17-s01-n0083",
+        "ch17-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 36403,
+      "bytes": 585645,
+      "sha256": "db0c67aff48a8a080af81d7108981baee95d73d44a4ca6aa05da3ac0a35588af",
+      "sentence_ids": [
+        "ch17-s01-n0085",
+        "ch17-s01-n0086",
+        "ch17-s01-n0087",
+        "ch17-s01-n0088",
+        "ch17-s01-n0089",
+        "ch17-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 40859,
+      "bytes": 666285,
+      "sha256": "2f4ae7e5556280b14bcba166d1da5bb5906b8f4ce0a2e4fdee851738c0e1a498",
+      "sentence_ids": [
+        "ch17-s01-n0091",
+        "ch17-s01-n0092",
+        "ch17-s01-n0093",
+        "ch17-s01-n0094",
+        "ch17-s01-n0095",
+        "ch17-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 43490,
+      "bytes": 697773,
+      "sha256": "f92ac473a4366f744b64c320644601c9db16444224815833c15bb05fe8ed5019",
+      "sentence_ids": [
+        "ch17-s01-n0097",
+        "ch17-s01-n0098",
+        "ch17-s01-n0099",
+        "ch17-s01-n0100",
+        "ch17-s01-n0101",
+        "ch17-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 40208,
+      "bytes": 650925,
+      "sha256": "0156fa7520605a8c496b65cbc854d9f8dca0b0bd9e7206079ad340f1e61a7c6f",
+      "sentence_ids": [
+        "ch17-s01-n0103",
+        "ch17-s01-n0104",
+        "ch17-s01-n0105",
+        "ch17-s01-n0106",
+        "ch17-s01-n0107",
+        "ch17-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 36855,
+      "bytes": 593325,
+      "sha256": "f8c9a9b88a2f9d09d15d11d6e3994672889be52179450a36bb3a1e8aa2cbcf8b",
+      "sentence_ids": [
+        "ch17-s01-n0109",
+        "ch17-s01-n0110",
+        "ch17-s01-n0111",
+        "ch17-s01-n0112",
+        "ch17-s01-n0113",
+        "ch17-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 34965,
+      "bytes": 560685,
+      "sha256": "6d5e1c3348344033fcefab9b2a68ccef4004a7175b9384f53db1d5e61f58d541",
+      "sentence_ids": [
+        "ch17-s01-n0115",
+        "ch17-s01-n0116",
+        "ch17-s01-n0117",
+        "ch17-s01-n0118",
+        "ch17-s01-n0119",
+        "ch17-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 20275,
+      "bytes": 336429,
+      "sha256": "f5a73324963732277e3d32a0ee96513532c95e43ba6a484fcf611b9c275b67c2",
+      "sentence_ids": [
+        "ch17-s01-n0121",
+        "ch17-s01-n0122",
+        "ch17-s01-n0123",
+        "ch17-s01-n0124"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch17-s01-n0001",
+      "text": "在资产阶级社会的表面，工人的工资看起来是劳动的价格，也就是为一定数量的劳动支付一定数量的货币。",
+      "start_ms": 105,
+      "end_ms": 7125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch17-s01-n0002",
+      "text": "人们因此谈论“劳动的价值”，并把它的货币表现叫作劳动的“必要价格”或“自然价格”。",
+      "start_ms": 7420,
+      "end_ms": 12595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch17-s01-n0003",
+      "text": "另一方面，人们也谈论劳动的市场价格，也就是围绕其必要价格上下波动的价格。",
+      "start_ms": 13405,
+      "end_ms": 18975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch17-s01-n0004",
+      "text": "可是，商品的价值究竟是什么？",
+      "start_ms": 19305,
+      "end_ms": 21465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch17-s01-n0005",
+      "text": "它是生产商品时耗费的社会劳动，以物的形式体现在商品中。",
+      "start_ms": 21700,
+      "end_ms": 26135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch17-s01-n0006",
+      "text": "商品的价值量又用什么衡量？",
+      "start_ms": 26460,
+      "end_ms": 28115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch17-s01-n0007",
+      "text": "用商品中包含的劳动量。",
+      "start_ms": 465,
+      "end_ms": 2385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch17-s01-n0008",
+      "text": "如果把劳动本身当作商品，那么十二小时工作日的价值由什么决定？",
+      "start_ms": 2955,
+      "end_ms": 7355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch17-s01-n0009",
+      "text": "只能由这十二小时中包含的十二小时劳动决定。",
+      "start_ms": 7805,
+      "end_ms": 10735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch17-s01-n0010",
+      "text": "这只是毫无意义的同义反复。",
+      "start_ms": 11595,
+      "end_ms": 13735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch17-s01-n0011",
+      "text": "劳动要作为商品在市场上出售，至少必须在出售以前已经存在。",
+      "start_ms": 14360,
+      "end_ms": 19375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch17-s01-n0012",
+      "text": "但如果工人能让自己的劳动脱离自身而独立存在，他出售的就会是劳动的产品，也就是商品，而不是劳动本身。",
+      "start_ms": 19785,
+      "end_ms": 28415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch17-s01-n0013",
+      "text": "即使先撇开这些矛盾，货币——也就是已经物化的劳动——如果直接同活劳动交换，结果也只有两种。",
+      "start_ms": 205,
+      "end_ms": 6705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch17-s01-n0014",
+      "text": "一种是推翻价值规律，而价值规律恰恰只有在资本主义生产的基础上才能充分发挥作用。",
+      "start_ms": 7085,
+      "end_ms": 12035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch17-s01-n0015",
+      "text": "另一种是推翻以雇佣劳动为基础的资本主义生产本身。",
+      "start_ms": 12795,
+      "end_ms": 16045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch17-s01-n0016",
+      "text": "假定十二小时工作日表现为6先令的货币价值。",
+      "start_ms": 16530,
+      "end_ms": 19555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch17-s01-n0017",
+      "text": "如果交换的是等价物，工人付出十二小时劳动，就会得到6先令。",
+      "start_ms": 19945,
+      "end_ms": 24085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch17-s01-n0018",
+      "text": "这样，他的劳动价格就等于产品的价格。",
+      "start_ms": 24505,
+      "end_ms": 27145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch17-s01-n0019",
+      "text": "他没有为劳动的买方生产任何剩余价值，6先令也不会变成资本，资本主义生产的基础随之消失。",
+      "start_ms": 205,
+      "end_ms": 7205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch17-s01-n0020",
+      "text": "可是，工人恰恰是在这个基础上出售自己的劳动，他的劳动也正因此成为雇佣劳动。",
+      "start_ms": 7545,
+      "end_ms": 13365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch17-s01-n0021",
+      "text": "另一种情况是，他付出十二小时劳动，却得到少于6先令的报酬，也就是得到少于十二小时劳动的价值。",
+      "start_ms": 13700,
+      "end_ms": 21525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch17-s01-n0022",
+      "text": "于是，十二小时劳动就同十小时、六小时或其他更少的劳动相交换。",
+      "start_ms": 21840,
+      "end_ms": 27095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch17-s01-n0023",
+      "text": "这样把不相等的量说成相等，不仅取消了价值由劳动量决定的原则。",
+      "start_ms": 27440,
+      "end_ms": 32815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch17-s01-n0024",
+      "text": "这种自相矛盾的说法，根本不可能被表述成一条规律。",
+      "start_ms": 33293,
+      "end_ms": 37113,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch17-s01-n0025",
+      "text": "不能用两种劳动的形式差别来解释为什么较多劳动能同较少劳动交换，仿佛只因为一种劳动已经物化，另一种还是活劳动。",
+      "start_ms": 95,
+      "end_ms": 7905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch17-s01-n0026",
+      "text": "这种说法尤其荒谬，因为商品的价值不是由实际物化在其中的劳动量决定，而是由生产这种商品通常需要的活劳动量决定。",
+      "start_ms": 8555,
+      "end_ms": 16755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch17-s01-n0027",
+      "text": "假定一种商品原来代表六小时劳动。",
+      "start_ms": 17310,
+      "end_ms": 19365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch17-s01-n0028",
+      "text": "后来出现一种新方法，只用三小时就能生产它，那么已经生产出来的同类商品也会贬值一半。",
+      "start_ms": 19905,
+      "end_ms": 25745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch17-s01-n0029",
+      "text": "它现在只代表三小时社会必要劳动，不再代表原来的六小时。",
+      "start_ms": 26515,
+      "end_ms": 30155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch17-s01-n0030",
+      "text": "可见，决定商品价值量的，是生产它所需的劳动量，而不是这种劳动采取了物的形式还是活劳动的形式。",
+      "start_ms": 30614,
+      "end_ms": 37889,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch17-s01-n0031",
+      "text": "在商品市场上，直接面对货币所有者的其实不是劳动，而是工人。",
+      "start_ms": 1125,
+      "end_ms": 5505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch17-s01-n0032",
+      "text": "工人出售的是自己的劳动力。",
+      "start_ms": 5790,
+      "end_ms": 7545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch17-s01-n0033",
+      "text": "一旦他真正开始劳动，这种劳动就已经不再属于他，因此也不能再由他出售。",
+      "start_ms": 7910,
+      "end_ms": 12725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch17-s01-n0034",
+      "text": "劳动是价值的实体，也是衡量价值的内在尺度，但劳动本身没有价值。",
+      "start_ms": 13565,
+      "end_ms": 18325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch17-s01-n0035",
+      "text": "“劳动的价值”这个说法，不仅抹掉了价值概念，甚至把它变成了自己的反面。",
+      "start_ms": 18580,
+      "end_ms": 23155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch17-s01-n0036",
+      "text": "它同“土地的价值”一样，都是一种想象出来的说法。",
+      "start_ms": 23380,
+      "end_ms": 26015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch17-s01-n0037",
+      "text": "不过，这些说法并不是凭空产生的，而是来自生产关系本身。",
+      "start_ms": 95,
+      "end_ms": 3505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch17-s01-n0038",
+      "text": "它们用表面形式来表达背后的实质关系。",
+      "start_ms": 3985,
+      "end_ms": 6475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch17-s01-n0039",
+      "text": "在表面现象中，事物往往颠倒地表现出来。",
+      "start_ms": 6875,
+      "end_ms": 9685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch17-s01-n0040",
+      "text": "几乎所有科学都知道这一点，政治经济学却是例外。",
+      "start_ms": 10095,
+      "end_ms": 13105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch17-s01-n0041",
+      "text": "古典政治经济学没有批判日常生活中的说法，直接采用了“劳动的价格”这个概念，然后才追问这个价格由什么决定。",
+      "start_ms": 13600,
+      "end_ms": 20735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch17-s01-n0042",
+      "text": "它很快发现，供求变化对劳动价格的解释，同对其他商品价格的解释一样，只能说明市场价格为什么围绕某个数值上下波动。",
+      "start_ms": 21545,
+      "end_ms": 30555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch17-s01-n0043",
+      "text": "当供求相等，其他条件又不变时，价格停止波动，可是供求也就不再能解释这个价格本身。",
+      "start_ms": 255,
+      "end_ms": 6875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch17-s01-n0044",
+      "text": "此时的劳动价格不再由当下的供求比例决定，因此被称为劳动的自然价格，并成为真正需要分析的对象。",
+      "start_ms": 7335,
+      "end_ms": 14275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch17-s01-n0045",
+      "text": "人们也可以观察较长时期，例如一年内的市场价格波动。",
+      "start_ms": 15175,
+      "end_ms": 19215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch17-s01-n0046",
+      "text": "这些涨落会相互抵消，得到一个稳定的平均数。",
+      "start_ms": 19700,
+      "end_ms": 23335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch17-s01-n0047",
+      "text": "这个平均数不能再用围绕它上下波动的偏差来说明，必须由别的因素决定。",
+      "start_ms": 23905,
+      "end_ms": 29565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch17-s01-n0048",
+      "text": "因此，那个超越个别偶然市场价格、并调节它们的“必要价格”（重农学派）或“自然价格”（亚当·斯密），同其他商品一样，只能是劳动价值的货币表现。",
+      "start_ms": 30279,
+      "end_ms": 41839,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch17-s01-n0049",
+      "text": "政治经济学以为，自己就这样穿过劳动的偶然价格，找到了劳动的价值。",
+      "start_ms": 435,
+      "end_ms": 5665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch17-s01-n0050",
+      "text": "接着，它又像分析其他商品一样，用生产成本来决定这个价值。",
+      "start_ms": 5920,
+      "end_ms": 10325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch17-s01-n0051",
+      "text": "可是，劳动的生产成本究竟是什么？",
+      "start_ms": 10520,
+      "end_ms": 13095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch17-s01-n0052",
+      "text": "政治经济学实际回答的，却是生产和维持工人本人需要多少费用。",
+      "start_ms": 13320,
+      "end_ms": 17675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch17-s01-n0053",
+      "text": "这个问题不知不觉取代了原来的问题，因为如果追问劳动本身的生产成本，只会在同义反复中打转。",
+      "start_ms": 18315,
+      "end_ms": 25575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch17-s01-n0054",
+      "text": "因此，古典政治经济学所谓的“劳动价值”，其实是存在于工人身上的劳动力的价值。",
+      "start_ms": 25950,
+      "end_ms": 31755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch17-s01-n0055",
+      "text": "劳动力同它发挥作用时进行的劳动不同，就像机器不同于机器的运转。",
+      "start_ms": 395,
+      "end_ms": 4885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch17-s01-n0056",
+      "text": "古典政治经济学一直忙于研究劳动的市场价格同所谓劳动价值的差别、这个价值同利润率的关系，以及同劳动生产的商品价值之间的关系等等。",
+      "start_ms": 5415,
+      "end_ms": 14935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch17-s01-n0057",
+      "text": "它始终没有发现，自己的分析不仅从劳动的市场价格走到了所谓的劳动价值，实际上还进一步把“劳动价值”分解成了劳动力的价值。",
+      "start_ms": 15885,
+      "end_ms": 25105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch17-s01-n0058",
+      "text": "由于没有意识到自己的分析已经得出这个结果，它仍把“劳动价值”、“劳动的自然价格”等说法当成所研究关系的最终而恰当的表达。",
+      "start_ms": 25585,
+      "end_ms": 34495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch17-s01-n0059",
+      "text": "我们以后会看到，这使古典政治经济学陷入无法解决的混乱和矛盾，同时也给庸俗经济学提供了一个稳固的立足点，让它可以一味停留在表面现象上。",
+      "start_ms": 34745,
+      "end_ms": 45160,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch17-s01-n0060",
+      "text": "现在先来看看，劳动力的价值和价格怎样以工资这种转化形式表现出来。",
+      "start_ms": 45770,
+      "end_ms": 50990,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch17-s01-n0061",
+      "text": "劳动力每天的价值，是按照工人的一定寿命以及与之相应的工作日长度计算出来的。",
+      "start_ms": 485,
+      "end_ms": 5605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch17-s01-n0062",
+      "text": "假定通常的工作日是十二小时，劳动力每天的价值是3先令。",
+      "start_ms": 5910,
+      "end_ms": 9685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch17-s01-n0063",
+      "text": "这3先令所代表的价值，需要六小时劳动才能创造。",
+      "start_ms": 10065,
+      "end_ms": 13585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch17-s01-n0064",
+      "text": "工人得到3先令，得到的就是自己劳动力在十二小时内供人使用的价值。",
+      "start_ms": 13790,
+      "end_ms": 17585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch17-s01-n0065",
+      "text": "如果把劳动力每天的价值说成一天劳动的价值，公式就变成：十二小时劳动的价值是3先令。",
+      "start_ms": 18455,
+      "end_ms": 24705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch17-s01-n0066",
+      "text": "这样，劳动力的价值就被说成劳动的价值。",
+      "start_ms": 25100,
+      "end_ms": 27815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch17-s01-n0067",
+      "text": "用货币表示，它又被说成劳动的必要价格。",
+      "start_ms": 185,
+      "end_ms": 2995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch17-s01-n0068",
+      "text": "如果劳动力的实际价格偏离自身价值，所谓劳动价格也会相应偏离所谓劳动价值。",
+      "start_ms": 3295,
+      "end_ms": 8965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch17-s01-n0069",
+      "text": "“劳动价值”只是“劳动力价值”的一种不合理说法，因此，所谓劳动价值必然总是小于这份劳动创造的价值。",
+      "start_ms": 9240,
+      "end_ms": 16315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch17-s01-n0070",
+      "text": "原因是资本家总会让劳动力工作的时间超过它再生产自身价值所需的时间。",
+      "start_ms": 17165,
+      "end_ms": 22555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch17-s01-n0071",
+      "text": "在上面的例子中，使用十二小时的劳动力价值3先令，而劳动力只需六小时就能再生产这3先令。",
+      "start_ms": 22870,
+      "end_ms": 29785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch17-s01-n0072",
+      "text": "可是，这份劳动力实际工作了十二小时，因此创造了6先令的新价值。",
+      "start_ms": 30125,
+      "end_ms": 35265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch17-s01-n0073",
+      "text": "它创造多少价值，不由劳动力自身值多少决定，而由它实际工作了多久决定。",
+      "start_ms": 265,
+      "end_ms": 5015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch17-s01-n0074",
+      "text": "于是，我们得到一个乍看荒谬的结果：一份创造6先令价值的劳动，自身却只有3先令的“价值”。",
+      "start_ms": 5405,
+      "end_ms": 11125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch17-s01-n0075",
+      "text": "我们还可以看到，3先令代表工作日中得到报酬的部分，也就是六小时劳动，却表现成整个十二小时工作日的价值或价格，而这个工作日还包含六小时没有报酬的劳动。",
+      "start_ms": 11735,
+      "end_ms": 22115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch17-s01-n0076",
+      "text": "工资这种形式因此抹掉了工作日分成必要劳动和剩余劳动、得到报酬的劳动和没有报酬的劳动的一切痕迹。",
+      "start_ms": 22510,
+      "end_ms": 29285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch17-s01-n0077",
+      "text": "所有劳动看起来都得到了报酬。",
+      "start_ms": 29610,
+      "end_ms": 31325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch17-s01-n0078",
+      "text": "在徭役制度下，劳动者为自己劳动和被迫为地主劳动，在时间和地点上明确分开，一眼就能看出区别。",
+      "start_ms": 31838,
+      "end_ms": 38353,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch17-s01-n0079",
+      "text": "在奴隶劳动中，奴隶用来补偿自己生活资料价值的那部分工作日，实际上是为自己劳动，却也表现成替主人劳动。",
+      "start_ms": 335,
+      "end_ms": 8005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch17-s01-n0080",
+      "text": "他的全部劳动看起来都没有报酬。",
+      "start_ms": 8395,
+      "end_ms": 9845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch17-s01-n0081",
+      "text": "在雇佣劳动中则正好相反，连剩余劳动，也就是没有报酬的劳动，都表现成得到了报酬。",
+      "start_ms": 10655,
+      "end_ms": 16545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch17-s01-n0082",
+      "text": "在奴隶制下，所有权关系掩盖了奴隶为自己劳动的部分。",
+      "start_ms": 17030,
+      "end_ms": 20545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch17-s01-n0083",
+      "text": "在雇佣劳动下，货币关系掩盖了雇佣工人的无偿劳动。",
+      "start_ms": 21125,
+      "end_ms": 24915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch17-s01-n0084",
+      "text": "现在就能理解，把劳动力的价值和价格变成工资，也就是变成劳动本身的价值和价格，为什么具有决定性意义。",
+      "start_ms": 25290,
+      "end_ms": 33065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch17-s01-n0085",
+      "text": "这种表现形式让真实关系变得看不见，展现出来的恰好是它的反面。",
+      "start_ms": 115,
+      "end_ms": 4745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch17-s01-n0086",
+      "text": "工人和资本家的一切法律观念、资本主义生产方式制造的一切神秘、关于自由的一切幻觉，以及庸俗经济学为资本主义辩护的一切空话，都建立在这种表现形式上。",
+      "start_ms": 5245,
+      "end_ms": 17555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch17-s01-n0087",
+      "text": "世界历史花了很长时间，才揭开工资的秘密。",
+      "start_ms": 18110,
+      "end_ms": 21435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch17-s01-n0088",
+      "text": "相比之下，要理解这种表现形式为什么必然存在，却再容易不过。",
+      "start_ms": 21870,
+      "end_ms": 26685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch17-s01-n0089",
+      "text": "资本同劳动的交换，乍看同其他商品的买卖完全一样。",
+      "start_ms": 27695,
+      "end_ms": 31875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch17-s01-n0090",
+      "text": "买方付出一笔钱，卖方交出一种不是货币的东西。",
+      "start_ms": 32338,
+      "end_ms": 36253,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch17-s01-n0091",
+      "text": "法律观念至多只看见交换物在材料上的差别，并把这种交换归入四种在法律上同等有效的形式。",
+      "start_ms": 345,
+      "end_ms": 6605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch17-s01-n0092",
+      "text": "这四种形式分别是：“我给你，是为了让你给我”、“我给你，是为了让你替我做事”、“我替你做事，是为了让你给我”，以及“我替你做事，是为了让你也替我做事”。",
+      "start_ms": 6905,
+      "end_ms": 16505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch17-s01-n0093",
+      "text": "交换价值和使用价值本来就不是同一类可以直接比较的量。",
+      "start_ms": 17315,
+      "end_ms": 21145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch17-s01-n0094",
+      "text": "因此，在日常意识中，谈“劳动的价值”或“劳动的价格”，似乎同谈“棉花的价值”或“棉花的价格”一样自然。",
+      "start_ms": 21825,
+      "end_ms": 28865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch17-s01-n0095",
+      "text": "还有一点：工人先完成劳动，之后才得到工资。",
+      "start_ms": 29315,
+      "end_ms": 32335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch17-s01-n0096",
+      "text": "货币在这里充当支付手段，事后实现已经交付之物的价值或价格，于是看起来实现的正是已交付劳动的价值或价格。",
+      "start_ms": 32814,
+      "end_ms": 40709,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch17-s01-n0097",
+      "text": "工人实际交给资本家的使用价值，也不是尚未发挥作用的劳动力，而是劳动力的实际运用，也就是某种具体的有用劳动，例如裁缝劳动、制鞋劳动或纺纱劳动。",
+      "start_ms": 105,
+      "end_ms": 10485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch17-s01-n0098",
+      "text": "至于同一劳动从另一方面看又是形成价值的一般要素，并且因此不同于其他一切商品，这已经超出了日常意识能够看到的范围。",
+      "start_ms": 10885,
+      "end_ms": 19375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch17-s01-n0099",
+      "text": "站在工人的角度看，假定他劳动十二小时，得到六小时劳动创造的价值，也就是3先令。",
+      "start_ms": 19800,
+      "end_ms": 26025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch17-s01-n0100",
+      "text": "那么，对他来说，十二小时劳动确实就是取得3先令的手段。",
+      "start_ms": 26430,
+      "end_ms": 30785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch17-s01-n0101",
+      "text": "劳动力的价值可能随着日常生活资料的价值从3先令升到4先令，也可能降到2先令。",
+      "start_ms": 31275,
+      "end_ms": 36920,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch17-s01-n0102",
+      "text": "即使劳动力的价值不变，它的市场价格也可能因供求变化升到4先令或降到2先令。",
+      "start_ms": 37415,
+      "end_ms": 43340,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch17-s01-n0103",
+      "text": "但无论如何，工人交出的始终是十二小时劳动。",
+      "start_ms": 215,
+      "end_ms": 4295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch17-s01-n0104",
+      "text": "因此，他得到的报酬无论怎样变化，在他看来都必然是这十二小时劳动的价值或价格发生了变化。",
+      "start_ms": 4720,
+      "end_ms": 12555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch17-s01-n0105",
+      "text": "亚当·斯密把工作日看成固定不变的量，正是因此反过来断言：即使生活资料的价值发生变化，同一个工作日给工人带来的货币有多有少，劳动的价值本身仍然不变。",
+      "start_ms": 13395,
+      "end_ms": 27275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch17-s01-n0106",
+      "text": "再站到资本家的角度。",
+      "start_ms": 27840,
+      "end_ms": 29115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch17-s01-n0107",
+      "text": "他当然想用尽可能少的钱取得尽可能多的劳动。",
+      "start_ms": 29495,
+      "end_ms": 33335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch17-s01-n0108",
+      "text": "因此，他在实际经营中只关心劳动力的价格同劳动力创造的价值相差多少。",
+      "start_ms": 33803,
+      "end_ms": 40058,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch17-s01-n0109",
+      "text": "不过，资本家购买其他商品时也总想压低价格，并习惯把利润解释成买得低于价值、卖得高于价值的结果。",
+      "start_ms": 355,
+      "end_ms": 6735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch17-s01-n0110",
+      "text": "正因如此，他看不到：如果劳动本身真有一个价值，而他又足额支付了这个价值，资本就不可能存在，他的钱也不可能变成资本。",
+      "start_ms": 7130,
+      "end_ms": 14765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch17-s01-n0111",
+      "text": "工资的实际变化还会产生一些现象，使人觉得资本家支付的不是劳动力的价值，而是劳动力发挥作用时进行的劳动本身。",
+      "start_ms": 15665,
+      "end_ms": 23625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch17-s01-n0112",
+      "text": "这些现象大体有两类。",
+      "start_ms": 24085,
+      "end_ms": 25365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch17-s01-n0113",
+      "text": "第一，工资会随着工作日长度变化。",
+      "start_ms": 25670,
+      "end_ms": 27905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch17-s01-n0114",
+      "text": "但机器租用一周比租用一天更贵，我们同样不能仅凭这一点断定，租金支付的是机器的运转，而不是机器本身的价值。",
+      "start_ms": 28615,
+      "end_ms": 36705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch17-s01-n0115",
+      "text": "第二，做同一种工作的不同工人，工资也会不同。",
+      "start_ms": 295,
+      "end_ms": 4125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch17-s01-n0116",
+      "text": "在奴隶制度中，同样存在这种个人差异，却不会造成上述错觉，因为那里公开出售的就是劳动力，没有任何掩饰。",
+      "start_ms": 4560,
+      "end_ms": 12735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch17-s01-n0117",
+      "text": "在奴隶制度下，劳动力高于或低于平均水平带来的好处或损失归奴隶主。",
+      "start_ms": 13635,
+      "end_ms": 19475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch17-s01-n0118",
+      "text": "在雇佣劳动制度下，它们则归工人自己。",
+      "start_ms": 20040,
+      "end_ms": 22765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch17-s01-n0119",
+      "text": "原因是奴隶的劳动力由第三人出售，雇佣工人的劳动力则由本人出售。",
+      "start_ms": 23100,
+      "end_ms": 27895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch17-s01-n0120",
+      "text": "“劳动的价值和价格”或“工资”，只是劳动力的价值和价格这种实质关系在表面上的表现。",
+      "start_ms": 27900,
+      "end_ms": 34815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch17-s01-n0121",
+      "text": "它同一切现象形式一样，会直接而自发地反复出现，成为人们习以为常的思维方式。",
+      "start_ms": 185,
+      "end_ms": 6255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch17-s01-n0122",
+      "text": "隐藏在背后的真实关系，却必须通过科学研究才能发现。",
+      "start_ms": 6805,
+      "end_ms": 9725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch17-s01-n0123",
+      "text": "古典政治经济学已经接近事实真相，但始终没有自觉而明确地把它说出来。",
+      "start_ms": 11025,
+      "end_ms": 16195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch17-s01-n0124",
+      "text": "只要它仍受资产阶级立场的限制，就不可能做到这一点。",
+      "start_ms": 16585,
+      "end_ms": 20125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    }
+  ]
+}

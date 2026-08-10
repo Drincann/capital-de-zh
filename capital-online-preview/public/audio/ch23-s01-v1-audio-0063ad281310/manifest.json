@@ -1,0 +1,1201 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch23-s01-v1-audio-0063ad281310",
+  "unit_id": "ch23-s01",
+  "translation_version_id": "ch23-s01-v1",
+  "translation_sha256": "149a12f637770a5e0b21099d3f265d230e5c4c5ef0242ad0f2291f68ff62d265",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-09T21:18:04.645Z",
+  "completed_at": "2026-08-09T21:19:48.611Z",
+  "duration_ms": 734532,
+  "sentence_count": 112,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 26135,
+      "bytes": 419757,
+      "sha256": "6aacb5727ef894e7cbf169ce7104bf08faa9f9b391dfacf79b61a0251182c4a7",
+      "sentence_ids": [
+        "ch23-s01-n0001",
+        "ch23-s01-n0002",
+        "ch23-s01-n0003",
+        "ch23-s01-n0004",
+        "ch23-s01-n0005",
+        "ch23-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 29865,
+      "bytes": 480429,
+      "sha256": "947027f534fb92a2c78153afcc65c837672f432f65b4186604d10cc4b5aad8a6",
+      "sentence_ids": [
+        "ch23-s01-n0007",
+        "ch23-s01-n0008",
+        "ch23-s01-n0009",
+        "ch23-s01-n0010",
+        "ch23-s01-n0011",
+        "ch23-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 23475,
+      "bytes": 381357,
+      "sha256": "fa708328fed38dbaf5b0f16d73b4f10daf2d8bb98bed5dad959b3a63017c1768",
+      "sentence_ids": [
+        "ch23-s01-n0013",
+        "ch23-s01-n0014",
+        "ch23-s01-n0015",
+        "ch23-s01-n0016",
+        "ch23-s01-n0017",
+        "ch23-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 39901,
+      "bytes": 640557,
+      "sha256": "f7bd9ed1dc72739a04b5b7077d6e6598591e58ce75035e4125bb87736e333790",
+      "sentence_ids": [
+        "ch23-s01-n0019",
+        "ch23-s01-n0020",
+        "ch23-s01-n0021",
+        "ch23-s01-n0022",
+        "ch23-s01-n0023",
+        "ch23-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 44456,
+      "bytes": 710829,
+      "sha256": "1ec531b5ebd413c1fe64c46a36c8181cb0243f853cf7eaae129f6d318ab1bdb9",
+      "sentence_ids": [
+        "ch23-s01-n0025",
+        "ch23-s01-n0026",
+        "ch23-s01-n0027",
+        "ch23-s01-n0028",
+        "ch23-s01-n0029",
+        "ch23-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 29185,
+      "bytes": 466989,
+      "sha256": "a7523cd51fef1b5429b20aa9f93ad94e9171d2eaebf2e100b7f4927e6bfa2373",
+      "sentence_ids": [
+        "ch23-s01-n0031",
+        "ch23-s01-n0032",
+        "ch23-s01-n0033",
+        "ch23-s01-n0034",
+        "ch23-s01-n0035",
+        "ch23-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 50146,
+      "bytes": 806829,
+      "sha256": "1446d2d4db786705b7352d6f8966665b43cf8a21eb2125b70ab2bb7de91afc19",
+      "sentence_ids": [
+        "ch23-s01-n0037",
+        "ch23-s01-n0038",
+        "ch23-s01-n0039",
+        "ch23-s01-n0040",
+        "ch23-s01-n0041",
+        "ch23-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 45107,
+      "bytes": 722349,
+      "sha256": "430d86eda1cb05a1a55d57ceb899625412b6dd4901ec3ba54e1331ab6ac3aab2",
+      "sentence_ids": [
+        "ch23-s01-n0043",
+        "ch23-s01-n0044",
+        "ch23-s01-n0045",
+        "ch23-s01-n0046",
+        "ch23-s01-n0047",
+        "ch23-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 27215,
+      "bytes": 442029,
+      "sha256": "038ebe4df3fd7b507b6ee96fee597410b0d936856e3eb64a6b6291aa2806f969",
+      "sentence_ids": [
+        "ch23-s01-n0049",
+        "ch23-s01-n0050",
+        "ch23-s01-n0051",
+        "ch23-s01-n0052",
+        "ch23-s01-n0053",
+        "ch23-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 44146,
+      "bytes": 713517,
+      "sha256": "cb23fbe8d28a8eedc1b7367d4d5deeea759685796678b9cb664c7828f9fc72ca",
+      "sentence_ids": [
+        "ch23-s01-n0055",
+        "ch23-s01-n0056",
+        "ch23-s01-n0057",
+        "ch23-s01-n0058",
+        "ch23-s01-n0059",
+        "ch23-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 58201,
+      "bytes": 934701,
+      "sha256": "f5141bdc3d2adfc2ad4b2229f3f5250dae7ba91a6978e73f66f09efd325467f1",
+      "sentence_ids": [
+        "ch23-s01-n0061",
+        "ch23-s01-n0062",
+        "ch23-s01-n0063",
+        "ch23-s01-n0064",
+        "ch23-s01-n0065",
+        "ch23-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 47660,
+      "bytes": 762669,
+      "sha256": "7bbc55320b59cd028c3d17c80406ddb03efd72fc32b723d9c5715f5f44f4ed49",
+      "sentence_ids": [
+        "ch23-s01-n0067",
+        "ch23-s01-n0068",
+        "ch23-s01-n0069",
+        "ch23-s01-n0070",
+        "ch23-s01-n0071",
+        "ch23-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 44818,
+      "bytes": 721197,
+      "sha256": "b9bb5f93592f74d3d6af1ab43e67849d7bc5234c33fa8bcc658836f47d51f41a",
+      "sentence_ids": [
+        "ch23-s01-n0073",
+        "ch23-s01-n0074",
+        "ch23-s01-n0075",
+        "ch23-s01-n0076",
+        "ch23-s01-n0077",
+        "ch23-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 34375,
+      "bytes": 554925,
+      "sha256": "16bf2ddd46b05c879817346fe09c1bdd7389b7032c80afe97fc19929fa1e4afe",
+      "sentence_ids": [
+        "ch23-s01-n0079",
+        "ch23-s01-n0080",
+        "ch23-s01-n0081",
+        "ch23-s01-n0082",
+        "ch23-s01-n0083",
+        "ch23-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 29685,
+      "bytes": 477357,
+      "sha256": "922f71b666b4bbfd4a1dadc1be31d8a15fc05766258a2bff76963c30088304d3",
+      "sentence_ids": [
+        "ch23-s01-n0085",
+        "ch23-s01-n0086",
+        "ch23-s01-n0087",
+        "ch23-s01-n0088",
+        "ch23-s01-n0089",
+        "ch23-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 38620,
+      "bytes": 618285,
+      "sha256": "8ddb0dad36fc50fc0bde5b5fe1b7fb40512e8380168790969795f83eac097fc6",
+      "sentence_ids": [
+        "ch23-s01-n0091",
+        "ch23-s01-n0092",
+        "ch23-s01-n0093",
+        "ch23-s01-n0094",
+        "ch23-s01-n0095",
+        "ch23-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 34608,
+      "bytes": 553773,
+      "sha256": "ffd281ea62a6965186934918faa81e68677458ec2f71041124feff1c521114d5",
+      "sentence_ids": [
+        "ch23-s01-n0097",
+        "ch23-s01-n0098",
+        "ch23-s01-n0099",
+        "ch23-s01-n0100",
+        "ch23-s01-n0101",
+        "ch23-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 50091,
+      "bytes": 800301,
+      "sha256": "c85d0b9ccf594c8290d07f5d39d5a07b954e720b974e5455a2f1d6bd912161b9",
+      "sentence_ids": [
+        "ch23-s01-n0103",
+        "ch23-s01-n0104",
+        "ch23-s01-n0105",
+        "ch23-s01-n0106",
+        "ch23-s01-n0107",
+        "ch23-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 36843,
+      "bytes": 592557,
+      "sha256": "f9342c66794e553cc927807745302e4efecacb5001fbc6fcb6648f36ffa3d6e1",
+      "sentence_ids": [
+        "ch23-s01-n0109",
+        "ch23-s01-n0110",
+        "ch23-s01-n0111",
+        "ch23-s01-n0112"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch23-s01-n0001",
+      "text": "本章要研究的是，资本增长会怎样影响工人阶级的命运。",
+      "start_ms": 665,
+      "end_ms": 4575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s01-n0002",
+      "text": "这里最重要的因素，是资本由哪些部分构成，以及这种构成在积累过程中怎样变化。",
+      "start_ms": 4910,
+      "end_ms": 10585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s01-n0003",
+      "text": "资本构成要从两个角度来看。",
+      "start_ms": 11395,
+      "end_ms": 13205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s01-n0004",
+      "text": "按价值计算，资本分为不变资本和可变资本。",
+      "start_ms": 13635,
+      "end_ms": 16835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s01-n0005",
+      "text": "不变资本是生产资料的价值，可变资本是劳动力的价值，也就是工资总额。",
+      "start_ms": 17295,
+      "end_ms": 22715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s01-n0006",
+      "text": "两者之间的比例，称为资本的价值构成。",
+      "start_ms": 23340,
+      "end_ms": 25985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s01-n0007",
+      "text": "再看资本在生产中的物质组成，它分为生产资料和活的劳动力。",
+      "start_ms": 85,
+      "end_ms": 4615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s01-n0008",
+      "text": "这时要比较的，是所用生产资料的数量同使用这些资料所需劳动量的比例。",
+      "start_ms": 5060,
+      "end_ms": 10995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s01-n0009",
+      "text": "这个比例称为资本的技术构成。",
+      "start_ms": 11595,
+      "end_ms": 13935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s01-n0010",
+      "text": "价值构成与技术构成紧密相关。",
+      "start_ms": 14540,
+      "end_ms": 16935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s01-n0011",
+      "text": "为了表示这种联系，我把由技术构成决定、并反映技术构成变化的价值构成，称为资本的有机构成。",
+      "start_ms": 17545,
+      "end_ms": 25345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s01-n0012",
+      "text": "下文只说“资本构成”时，指的都是资本的有机构成。",
+      "start_ms": 25755,
+      "end_ms": 29715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s01-n0013",
+      "text": "同一生产部门里的许多个别资本，构成通常各不相同。",
+      "start_ms": 385,
+      "end_ms": 3635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s01-n0014",
+      "text": "把这些个别构成平均起来，就得到这个部门总资本的构成。",
+      "start_ms": 4075,
+      "end_ms": 7455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s01-n0015",
+      "text": "再把所有生产部门的平均构成作一次总平均，就得到一国社会资本的构成。",
+      "start_ms": 7835,
+      "end_ms": 12165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s01-n0016",
+      "text": "下文最终要讨论的，正是这一构成。",
+      "start_ms": 12430,
+      "end_ms": 14525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s01-n0017",
+      "text": "资本增长时，其中转化为劳动力的可变资本也会增长。",
+      "start_ms": 14750,
+      "end_ms": 17895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s01-n0018",
+      "text": "成为追加资本的那部分剩余价值，总要有一部分重新转化为可变资本，也就是新增的工资基金。",
+      "start_ms": 18150,
+      "end_ms": 23325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s01-n0019",
+      "text": "现在假定其他条件不变，资本构成也不变。",
+      "start_ms": 115,
+      "end_ms": 4385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s01-n0020",
+      "text": "换句话说，一定量生产资料始终需要同样多的劳动力来推动。",
+      "start_ms": 4860,
+      "end_ms": 9555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s01-n0021",
+      "text": "在这个前提下，资本增长多少，对劳动的需求和供工人生活的基金也会相应增长，而且资本增长越快，这两项增长得也越快。",
+      "start_ms": 10555,
+      "end_ms": 21665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s01-n0022",
+      "text": "资本每年都会产生剩余价值，其中一部分加入原有资本。",
+      "start_ms": 22525,
+      "end_ms": 26655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s01-n0023",
+      "text": "随着已经投入生产的资本越来越大，每年增加的这部分资本也会越来越多。",
+      "start_ms": 27100,
+      "end_ms": 32325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s01-n0024",
+      "text": "此外，新市场开放、新的社会需要产生新的投资领域时，发财欲会受到格外刺激。",
+      "start_ms": 32716,
+      "end_ms": 39751,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s01-n0025",
+      "text": "资本家只要重新分配剩余价值或剩余产品，把更多部分用于资本、较少部分用于个人收入，就能突然扩大积累规模。",
+      "start_ms": 325,
+      "end_ms": 10365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s01-n0026",
+      "text": "因此，资本积累对劳动力的需求，可能比劳动力和工人人数增长得更快。",
+      "start_ms": 10680,
+      "end_ms": 16195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s01-n0027",
+      "text": "对工人的需求一旦超过供给，工资就会上升。",
+      "start_ms": 17025,
+      "end_ms": 20555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s01-n0028",
+      "text": "如果资本构成一直不变，这种情况迟早必然发生，因为每年雇用的工人都比上一年多，积累终会超过通常的劳动力供给。",
+      "start_ms": 20930,
+      "end_ms": 30865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s01-n0029",
+      "text": "英国从十五世纪直到十八世纪上半叶，一直可以听到对此的抱怨。",
+      "start_ms": 31461,
+      "end_ms": 36376,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s01-n0030",
+      "text": "不过，工资工人维持生活和繁衍后代的条件是好是坏，并不改变资本主义生产的基本性质。",
+      "start_ms": 36701,
+      "end_ms": 44306,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s01-n0031",
+      "text": "简单再生产不断重新产生资本关系，一边是资本家，另一边是工资工人。",
+      "start_ms": 245,
+      "end_ms": 4765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s01-n0032",
+      "text": "扩大再生产，也就是积累，则在更大规模上重新产生这种关系：一边出现更多资本家或更大的资本家，另一边出现更多工资工人。",
+      "start_ms": 5140,
+      "end_ms": 12995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s01-n0033",
+      "text": "劳动力必须不断被资本吸收，成为资本增殖的工具。",
+      "start_ms": 13955,
+      "end_ms": 17395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s01-n0034",
+      "text": "它无法摆脱资本，只是在把自己卖给不同资本家时，这种从属关系才被遮住。",
+      "start_ms": 17790,
+      "end_ms": 22735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s01-n0035",
+      "text": "因此，劳动力的再生产本身也是资本再生产的一部分。",
+      "start_ms": 23150,
+      "end_ms": 26525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s01-n0036",
+      "text": "资本积累也就是无产阶级的增加。",
+      "start_ms": 26955,
+      "end_ms": 29035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s01-n0037",
+      "text": "古典经济学非常清楚这一点。",
+      "start_ms": 105,
+      "end_ms": 1765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s01-n0038",
+      "text": "正因为如此，亚当·斯密、李嘉图等人甚至走到了另一个错误上：他们以为，所谓积累，就是让生产工人把剩余产品中转化为资本的那一部分全部消费掉。",
+      "start_ms": 2200,
+      "end_ms": 13275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s01-n0039",
+      "text": "换句话说，他们把新增资本全都看成了用来雇用更多工资工人的资本。",
+      "start_ms": 13985,
+      "end_ms": 19375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s01-n0040",
+      "text": "早在1696年，约翰·贝勒斯就说：“假如一个人有十万英亩土地、十万英镑和同样多的牲畜，却没有劳动者，那么这个富人除了亲自劳动，还能怎么办？",
+      "start_ms": 19870,
+      "end_ms": 31955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s01-n0041",
+      "text": "劳动者使人变富，所以劳动者越多，富人也就越多……穷人的劳动是富人的矿藏。”",
+      "start_ms": 32421,
+      "end_ms": 38916,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s01-n0042",
+      "text": "十八世纪初，伯纳德·曼德维尔也说：“只要财产权得到充分保护，一个社会没有钱也许还能生活，没有穷人却更难生活，因为活由谁来干呢？",
+      "start_ms": 39496,
+      "end_ms": 49996,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s01-n0043",
+      "text": "……工人固然不能饿死，但也不应当得到足以积蓄的收入。",
+      "start_ms": 0,
+      "end_ms": 3845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s01-n0044",
+      "text": "如果下层阶级中偶尔有人靠非凡的勤奋和节衣缩食，摆脱了自己原来的处境，谁也不该阻止他。",
+      "start_ms": 4255,
+      "end_ms": 10405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s01-n0045",
+      "text": "对社会中的每个人和每个家庭来说，节俭无疑是最明智的做法；可是，对一个富国来说，最有利的却是大多数穷人永远不闲着，同时又把收入全部花掉……靠每日劳动生活的人，只有生活需要才能迫使他们继续干活。",
+      "start_ms": 11045,
+      "end_ms": 26095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s01-n0046",
+      "text": "缓和这些需要是明智的，彻底消除它们却是愚蠢的。",
+      "start_ms": 26580,
+      "end_ms": 30005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s01-n0047",
+      "text": "只有适中的工资才能让工人勤奋。",
+      "start_ms": 30346,
+      "end_ms": 32686,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s01-n0048",
+      "text": "工资太低，会使人灰心或绝望；工资太高，又会使人傲慢和懒惰……由此可见，在一个不允许奴隶制的自由国家里，最可靠的财富就是大批勤劳的穷人。",
+      "start_ms": 33142,
+      "end_ms": 44957,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s01-n0049",
+      "text": "他们不仅为海军和陆军源源不断地提供人员。",
+      "start_ms": 115,
+      "end_ms": 2565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s01-n0050",
+      "text": "没有他们，人们就无法享受生活，任何国家的产品也卖不出去、实现不了价值。",
+      "start_ms": 2965,
+      "end_ms": 7575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s01-n0051",
+      "text": "为了让社会——当然是指不劳动的人——生活幸福，同时让人民安于困苦，大多数人就必须既无知又贫穷。",
+      "start_ms": 7820,
+      "end_ms": 14625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s01-n0052",
+      "text": "知识会增加人的愿望。",
+      "start_ms": 15110,
+      "end_ms": 16295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s01-n0053",
+      "text": "一个人要求得越少，他的需要就越容易满足。”",
+      "start_ms": 16590,
+      "end_ms": 18805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s01-n0054",
+      "text": "曼德维尔为人坦率，头脑也很清楚，但他还不明白：积累过程本身会随着资本增长，增加“勤劳的穷人”，也就是工资工人。",
+      "start_ms": 19370,
+      "end_ms": 27065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s01-n0055",
+      "text": "工人把自己的劳动力变成资本不断增殖的力量，也因此不断延续自己对劳动产品的从属关系。",
+      "start_ms": 125,
+      "end_ms": 5975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s01-n0056",
+      "text": "他们自己的劳动产品已经成为资本，由资本家占有和支配，反过来成了统治工人的力量。",
+      "start_ms": 6280,
+      "end_ms": 12015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s01-n0057",
+      "text": "谈到这种从属关系，弗雷德里克·莫顿·伊登爵士在《穷人的状况，或英国劳动阶级史》中写道：“我们所处的气候要求人们通过劳动来满足需要，因此社会中至少有一部分人必须不停劳动……有些人自己不劳动，却可以支配勤劳者的产品。",
+      "start_ms": 12300,
+      "end_ms": 27875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s01-n0058",
+      "text": "这些财产所有者只能把这一点归功于文明和秩序，因为他们完全是市民社会制度的产物。",
+      "start_ms": 28195,
+      "end_ms": 34005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s01-n0059",
+      "text": "正是这些制度承认，人可以不靠自己的劳动占有劳动成果。",
+      "start_ms": 34361,
+      "end_ms": 38266,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s01-n0060",
+      "text": "拥有独立财产的人，几乎完全靠别人的劳动获得财富，并不是因为他们的能力比别人强。",
+      "start_ms": 38626,
+      "end_ms": 43996,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s01-n0061",
+      "text": "富人与穷人的区别，不在于拥有土地和货币，而在于能够支配别人的劳动……适合穷人的，不是卑贱或奴役状态，而是一种舒适、宽松的从属关系。",
+      "start_ms": 225,
+      "end_ms": 11795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s01-n0062",
+      "text": "有财产的人则应当对为自己工作的人拥有足够的影响力和权威……任何了解人性的人都知道，这样的从属关系是工人自己生活舒适所必需的。”",
+      "start_ms": 12295,
+      "end_ms": 22395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s01-n0063",
+      "text": "顺便说一句，伊登爵士是十八世纪亚当·斯密的学生中，唯一做出过重要成果的人。",
+      "start_ms": 22985,
+      "end_ms": 29205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s01-n0064",
+      "text": "在我们目前假定的、对工人最有利的积累条件下，工人对资本的依赖会采取一种尚可忍受的形式，或者像伊登所说的那样，成为“舒适、宽松的从属关系”。",
+      "start_ms": 29565,
+      "end_ms": 41595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s01-n0065",
+      "text": "资本增长时，这种依赖并不会变得更深，而只会扩大范围：资本的剥削和统治范围随着资本本身扩大，受它支配的工人也越来越多。",
+      "start_ms": 42131,
+      "end_ms": 52521,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s01-n0066",
+      "text": "工人创造的剩余产品不断增加，其中一部分又变成追加资本。",
+      "start_ms": 53301,
+      "end_ms": 58051,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s01-n0067",
+      "text": "与此同时，他们从中得到的货币也会增加，可以扩大消费，添置更多衣服、家具等生活用品，甚至积下一小笔钱。",
+      "start_ms": 325,
+      "end_ms": 8335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s01-n0068",
+      "text": "可是，更好的衣食和待遇、更多的私人积蓄，并不能消除工资工人所受的剥削和支配，正如这些改善不能消除奴隶对主人的依赖。",
+      "start_ms": 8725,
+      "end_ms": 18595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s01-n0069",
+      "text": "积累使工资上涨，实际只说明工资工人亲手铸成的金锁链变长、变重了，所以可以系得松一些。",
+      "start_ms": 19150,
+      "end_ms": 26365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s01-n0070",
+      "text": "有关这个问题的争论往往忽略了资本主义生产最关键的特点。",
+      "start_ms": 26775,
+      "end_ms": 30555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s01-n0071",
+      "text": "资本家购买劳动力，不是为了用工人的服务或产品满足自己的个人需要，而是为了让资本增殖。",
+      "start_ms": 31145,
+      "end_ms": 37870,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s01-n0072",
+      "text": "他要生产的商品，必须包含比工资所支付的更多的劳动，也就是包含一部分没有给他花钱、却可以通过出售商品实现的价值。",
+      "start_ms": 38205,
+      "end_ms": 47510,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s01-n0073",
+      "text": "因此，生产剩余价值，也就是赚钱，是这种生产方式不可改变的规律。",
+      "start_ms": 215,
+      "end_ms": 5295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s01-n0074",
+      "text": "劳动力只有在以下条件下才卖得出去：它能够使生产资料继续作为资本存在，能够把自身的价值重新生产出来，还能以无偿劳动为资本提供新的增量。",
+      "start_ms": 5700,
+      "end_ms": 17025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s01-n0075",
+      "text": "所以，无论工人出卖劳动力的条件较好还是较差，他们都必须不断重新出卖劳动力，而财富也会作为资本不断扩大再生产。",
+      "start_ms": 17470,
+      "end_ms": 27325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s01-n0076",
+      "text": "前面已经看到，工资本身就意味着工人必须提供一定数量的无偿劳动。",
+      "start_ms": 27870,
+      "end_ms": 32815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s01-n0077",
+      "text": "这里先不讨论工资收入可能在单位劳动的价格下降时反而增加等情况。",
+      "start_ms": 33273,
+      "end_ms": 38118,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s01-n0078",
+      "text": "即使工资增加，最好的结果也只是工人必须提供的无偿劳动在数量上有所减少。",
+      "start_ms": 38633,
+      "end_ms": 44668,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s01-n0079",
+      "text": "这种减少绝不可能发展到威胁整个制度的程度。",
+      "start_ms": 235,
+      "end_ms": 3265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s01-n0080",
+      "text": "工资斗争有时会十分激烈，而亚当·斯密早已指出，从总体上看，雇主在这种斗争中总能占上风。",
+      "start_ms": 3720,
+      "end_ms": 10685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s01-n0081",
+      "text": "即便撇开这种强制冲突，积累引起的工资上涨也只会导向以下两种情况。",
+      "start_ms": 11060,
+      "end_ms": 15875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s01-n0082",
+      "text": "第一种情况是，工资继续上涨，因为它并没有妨碍积累。",
+      "start_ms": 16835,
+      "end_ms": 20575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s01-n0083",
+      "text": "对此不必感到奇怪。",
+      "start_ms": 21080,
+      "end_ms": 22325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s01-n0084",
+      "text": "亚当·斯密说，即使利润下降，资本仍会继续增加，甚至可能比以前增加得更快；庞大的资本获得较低利润时，通常仍比小资本获得较高利润时增长得更快。",
+      "start_ms": 22765,
+      "end_ms": 34225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s01-n0085",
+      "text": "在这种情况下，无偿劳动有所减少，显然并不妨碍资本扩大自己的统治。",
+      "start_ms": 145,
+      "end_ms": 4885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s01-n0086",
+      "text": "第二种情况是，工资上涨削弱了利润的刺激，积累因而放慢。",
+      "start_ms": 5315,
+      "end_ms": 9655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s01-n0087",
+      "text": "可是，积累一旦放慢，导致它放慢的原因也会随之消失，也就是资本同可供剥削的劳动力之间的不平衡会消失。",
+      "start_ms": 9965,
+      "end_ms": 17885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s01-n0088",
+      "text": "资本主义生产过程会自行排除它暂时造成的障碍。",
+      "start_ms": 18395,
+      "end_ms": 21155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s01-n0089",
+      "text": "工资便重新下降到适合资本增殖的水平。",
+      "start_ms": 21735,
+      "end_ms": 24495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s01-n0090",
+      "text": "这个水平可能低于、等于或高于工资上涨前被视为正常的水平。",
+      "start_ms": 24870,
+      "end_ms": 29535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s01-n0091",
+      "text": "可见，在第一种情况下，并不是劳动力或工人人口增长太慢使资本显得过多，而是资本增加使可供剥削的劳动力显得不足。",
+      "start_ms": 515,
+      "end_ms": 9625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s01-n0092",
+      "text": "在第二种情况下，也不是劳动力或工人人口增长太快造成资本不足。",
+      "start_ms": 10345,
+      "end_ms": 15285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s01-n0093",
+      "text": "恰恰相反，是积累量减少，也就是新增资本变少，才使可供剥削的劳动力显得过多。",
+      "start_ms": 15680,
+      "end_ms": 21985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s01-n0094",
+      "text": "更准确地说，是使劳动力的价格显得过高。",
+      "start_ms": 22415,
+      "end_ms": 25625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s01-n0095",
+      "text": "真正起决定作用的，是积累量，也就是新增资本的增减。",
+      "start_ms": 26010,
+      "end_ms": 30115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s01-n0096",
+      "text": "积累量的绝对变化，会在可供剥削的劳动力数量上表现为相对变化，看起来却像是劳动力自身的变化造成的。",
+      "start_ms": 30725,
+      "end_ms": 38470,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s01-n0097",
+      "text": "用数学语言来说，积累量是自变量，工资量是因变量，而不是相反。",
+      "start_ms": 165,
+      "end_ms": 4695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s01-n0098",
+      "text": "工业周期的危机阶段也有类似的错觉。",
+      "start_ms": 5180,
+      "end_ms": 7385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s01-n0099",
+      "text": "商品价格普遍下降，会表现为货币相对升值；繁荣阶段商品价格普遍上涨，则会表现为货币相对贬值。",
+      "start_ms": 7845,
+      "end_ms": 15395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s01-n0100",
+      "text": "所谓通货学派由此断定，物价高是因为流通中的货币太多，物价低是因为货币太少。",
+      "start_ms": 15760,
+      "end_ms": 21335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s01-n0101",
+      "text": "他们对事实的无知和彻底误解， 恰好可以同另一类经济学家相比：后者把上述积累现象解释成工人有时太少、有时又太多。",
+      "start_ms": 21775,
+      "end_ms": 30345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s01-n0102",
+      "text": "所谓“自然人口规律”背后的资本主义生产规律，其实很简单。",
+      "start_ms": 31273,
+      "end_ms": 34458,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s01-n0103",
+      "text": "资本、积累和工资率之间的关系，归根到底是两部分劳动之间的关系：一部分是已经转化为资本的无偿劳动，另一部分是推动追加资本所需的新增有偿劳动。",
+      "start_ms": 195,
+      "end_ms": 11715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s01-n0104",
+      "text": "因此，这并不是资本量和工人人数这两个彼此独立的数量之间的关系，而只是同一批工人的无偿劳动与有偿劳动之间的关系。",
+      "start_ms": 12395,
+      "end_ms": 20815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s01-n0105",
+      "text": "如果工人阶级提供的无偿劳动被资本家迅速积累，以至于只有大幅增加有偿劳动才能把它转化为资本，工资就会上涨。",
+      "start_ms": 21285,
+      "end_ms": 29545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s01-n0106",
+      "text": "在其他条件不变时，无偿劳动所占的比例便会下降。",
+      "start_ms": 29941,
+      "end_ms": 33451,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s01-n0107",
+      "text": "可是，一旦这种下降使维持资本的剩余劳动无法按通常数量提供，反作用就会出现：资本家把收入转化为资本的部分减少，积累放慢，工资继续上涨的趋势也受到压制。",
+      "start_ms": 33736,
+      "end_ms": 46401,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s01-n0108",
+      "text": "所以，工资上涨始终被限制在一定范围内。",
+      "start_ms": 46856,
+      "end_ms": 49941,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s01-n0109",
+      "text": "这些界限既不让资本主义制度的基础受到触动，又保证资本关系能够在越来越大的规模上继续再生产。",
+      "start_ms": 255,
+      "end_ms": 7175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s01-n0110",
+      "text": "资本主义积累规律被神秘地说成一种自然规律，实际表达的只有一点：资本积累的性质，绝不会允许剥削程度下降或工资上涨到严重威胁资本关系持续再生产和扩大再生产的地步。",
+      "start_ms": 7635,
+      "end_ms": 20625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s01-n0111",
+      "text": "在这种生产方式下，工人存在，是为了让已经存在的价值继续增殖；而不是反过来，让物质财富服务于工人的发展需要。",
+      "start_ms": 21075,
+      "end_ms": 29875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s01-n0112",
+      "text": "人在宗教中受自己头脑创造的东西支配，在资本主义生产中则受自己双手创造的东西支配。",
+      "start_ms": 30283,
+      "end_ms": 36693,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    }
+  ]
+}

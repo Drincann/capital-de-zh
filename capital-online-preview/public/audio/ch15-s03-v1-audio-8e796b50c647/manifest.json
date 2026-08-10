@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch15-s03-v1-audio-8e796b50c647",
+  "unit_id": "ch15-s03",
+  "translation_version_id": "ch15-s03-v1",
+  "translation_sha256": "fa30ee1ce073cd5a5497852c637a2c025c641dec14f72a2bb94a9bd60ff05e3a",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:25:30.940Z",
+  "completed_at": "2026-08-04T17:25:48.912Z",
+  "duration_ms": 125373,
+  "sentence_count": 21,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 30045,
+      "bytes": 483885,
+      "sha256": "954b2d9137c5d7bab5e38067c9ca377858a61b7744bd6834937b6f977e3b4002",
+      "sentence_ids": [
+        "ch15-s03-n0001",
+        "ch15-s03-n0002",
+        "ch15-s03-n0003",
+        "ch15-s03-n0004",
+        "ch15-s03-n0005",
+        "ch15-s03-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 34095,
+      "bytes": 548397,
+      "sha256": "03d55a0ed7cb78d700f6fa9a5adfe3a9317a52d14d71ed981c3e34b7e71a98b3",
+      "sentence_ids": [
+        "ch15-s03-n0007",
+        "ch15-s03-n0008",
+        "ch15-s03-n0009",
+        "ch15-s03-n0010",
+        "ch15-s03-n0011",
+        "ch15-s03-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 42448,
+      "bytes": 685101,
+      "sha256": "fb98df9d75d25547b1abee36255b73608269ae776186c14622c21b1003ce551e",
+      "sentence_ids": [
+        "ch15-s03-n0013",
+        "ch15-s03-n0014",
+        "ch15-s03-n0015",
+        "ch15-s03-n0016",
+        "ch15-s03-n0017",
+        "ch15-s03-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 18785,
+      "bytes": 304557,
+      "sha256": "31aedfcfd6f0edc94f11527fbab803202d0f4c3b2d24d0d6b2feedfe79736fe7",
+      "sentence_ids": [
+        "ch15-s03-n0019",
+        "ch15-s03-n0020",
+        "ch15-s03-n0021"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch15-s03-n0001",
+      "text": "工作日可以朝两个方向变化：缩短或者延长。",
+      "start_ms": 155,
+      "end_ms": 2975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s03-n0002",
+      "text": "1）在劳动生产力和劳动强度不变的条件下，缩短工作日不会改变劳动力价值，也不会改变必要劳动时间。",
+      "start_ms": 3615,
+      "end_ms": 10995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s03-n0003",
+      "text": "减少的是剩余劳动和剩余价值。",
+      "start_ms": 11605,
+      "end_ms": 13785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s03-n0004",
+      "text": "剩余价值的绝对数额减少以后，它同劳动力价值相比的相对数额也会减少。",
+      "start_ms": 14180,
+      "end_ms": 19275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s03-n0005",
+      "text": "资本家只有把劳动力价格压到它的价值以下，才能弥补这项损失。",
+      "start_ms": 19620,
+      "end_ms": 24035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s03-n0006",
+      "text": "一切反对缩短工作日的老套说法，都假定劳动生产力和劳动强度保持不变。",
+      "start_ms": 24580,
+      "end_ms": 29895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch15-s03-n0007",
+      "text": "可现实恰恰相反：劳动生产力和劳动强度的变化，往往发生在工作日缩短以前，或者紧接着发生。",
+      "start_ms": 115,
+      "end_ms": 6885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s03-n0008",
+      "text": "2）延长工作日。",
+      "start_ms": 7745,
+      "end_ms": 8765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s03-n0009",
+      "text": "假定必要劳动是6小时，劳动力价值是3先令，剩余劳动也是6小时，剩余价值也是3先令。",
+      "start_ms": 9200,
+      "end_ms": 15525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s03-n0010",
+      "text": "整个工作日就是12小时，共创造6先令价值。",
+      "start_ms": 15900,
+      "end_ms": 19055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s03-n0011",
+      "text": "如果工作日延长2小时，而劳动力价格不变，剩余价值的绝对数额会增加，它同劳动力价值相比的相对数额也会增加。",
+      "start_ms": 19855,
+      "end_ms": 28755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s03-n0012",
+      "text": "劳动力价值的绝对数额虽然不变，它在总额中所占的比例却下降了。",
+      "start_ms": 29195,
+      "end_ms": 33945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch15-s03-n0013",
+      "text": "在第一节讨论的条件下，劳动力价值的相对比例要变化，它的绝对数额也必须变化。",
+      "start_ms": 515,
+      "end_ms": 5595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s03-n0014",
+      "text": "这里正好相反：劳动力价值的相对比例发生变化，是因为剩余价值的绝对数额增加了。",
+      "start_ms": 5965,
+      "end_ms": 10935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s03-n0015",
+      "text": "工作日延长以后，一天创造的价值总额也会增加，所以劳动力价格和剩余价值可以同时增加，而且增加得可以一样多，也可以不一样多。",
+      "start_ms": 11855,
+      "end_ms": 20755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s03-n0016",
+      "text": "因此，两者同时增加有两种可能：一是工作日延长，二是工作日不延长而劳动强度提高。",
+      "start_ms": 21305,
+      "end_ms": 27435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s03-n0017",
+      "text": "工作日延长以后，劳动力的名义价格即使不变甚至上涨，实际也可能已经低于它的价值。",
+      "start_ms": 27930,
+      "end_ms": 33905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s03-n0018",
+      "text": "前面说过，计算劳动力每天的价值时，假定工人有正常的平均工作寿命，身体每天也只按符合人的正常限度消耗。",
+      "start_ms": 34368,
+      "end_ms": 42298,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch15-s03-n0019",
+      "text": "在一定范围内，工作日延长带来的额外损耗还可以用更多生活必需品补偿。",
+      "start_ms": 95,
+      "end_ms": 5085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s03-n0020",
+      "text": "一旦越过这个范围，劳动力的损耗就会成倍加快，维持和正常使用劳动力所需的各种条件也会同时遭到破坏。",
+      "start_ms": 5545,
+      "end_ms": 12635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch15-s03-n0021",
+      "text": "到了这时，劳动力价格和劳动力受到剥削的程度已经不能再用同一尺度衡量。",
+      "start_ms": 13415,
+      "end_ms": 18635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    }
+  ]
+}

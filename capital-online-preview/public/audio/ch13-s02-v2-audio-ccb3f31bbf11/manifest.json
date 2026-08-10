@@ -1,0 +1,1192 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s02-v2-audio-ccb3f31bbf11",
+  "unit_id": "ch13-s02",
+  "translation_version_id": "ch13-s02-v2",
+  "translation_sha256": "37aac08a647436dd847d5569d5670e67526db98ee03188c7a12e70760303f6d0",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T16:29:21.236Z",
+  "completed_at": "2026-08-04T16:31:05.849Z",
+  "duration_ms": 721323,
+  "sentence_count": 111,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 33705,
+      "bytes": 541485,
+      "sha256": "9d9958ea12d91093d2d6613d56d4d9f925bcea3c612d27317649fa9233297420",
+      "sentence_ids": [
+        "ch13-s02-n0001",
+        "ch13-s02-n0002",
+        "ch13-s02-n0003",
+        "ch13-s02-n0004",
+        "ch13-s02-n0005",
+        "ch13-s02-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 30665,
+      "bytes": 492717,
+      "sha256": "25326f501a79aec6f0005c4c52a1e8f2f2a072e3099f3e204152ccc427943ccb",
+      "sentence_ids": [
+        "ch13-s02-n0007",
+        "ch13-s02-n0008",
+        "ch13-s02-n0009",
+        "ch13-s02-n0010",
+        "ch13-s02-n0011",
+        "ch13-s02-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 38015,
+      "bytes": 611373,
+      "sha256": "12a361e3b3982fd5599f79274911f2a5a1ba1cbd6bf2d5e391bc9a0c9945a793",
+      "sentence_ids": [
+        "ch13-s02-n0013",
+        "ch13-s02-n0014",
+        "ch13-s02-n0015",
+        "ch13-s02-n0016",
+        "ch13-s02-n0017",
+        "ch13-s02-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 34546,
+      "bytes": 554925,
+      "sha256": "f2000db097729af4b543825c007ef1bc86bcbc5ba4258698b0db15af35bc0d29",
+      "sentence_ids": [
+        "ch13-s02-n0019",
+        "ch13-s02-n0020",
+        "ch13-s02-n0021",
+        "ch13-s02-n0022",
+        "ch13-s02-n0023",
+        "ch13-s02-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 47504,
+      "bytes": 761901,
+      "sha256": "051718968d6446b7a6d36cc0522e99f3ea300824f80d865011ed86b01dbc845c",
+      "sentence_ids": [
+        "ch13-s02-n0025",
+        "ch13-s02-n0026",
+        "ch13-s02-n0027",
+        "ch13-s02-n0028",
+        "ch13-s02-n0029",
+        "ch13-s02-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 47159,
+      "bytes": 758445,
+      "sha256": "4b36e59ef8bdee4fe24fef6c259c98666381d1197fdde8cc19e869bebd5ed3a6",
+      "sentence_ids": [
+        "ch13-s02-n0031",
+        "ch13-s02-n0032",
+        "ch13-s02-n0033",
+        "ch13-s02-n0034",
+        "ch13-s02-n0035",
+        "ch13-s02-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 32065,
+      "bytes": 512685,
+      "sha256": "d4f157bfaacef64fd64227b1036b1866b76a244ad44e70b216e1623fbb040f78",
+      "sentence_ids": [
+        "ch13-s02-n0037",
+        "ch13-s02-n0038",
+        "ch13-s02-n0039",
+        "ch13-s02-n0040",
+        "ch13-s02-n0041",
+        "ch13-s02-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 33385,
+      "bytes": 536109,
+      "sha256": "2f20d558fa609a8bd02070ee5f810242f9ba58c9c7b043d2a9cfbd21de04540e",
+      "sentence_ids": [
+        "ch13-s02-n0043",
+        "ch13-s02-n0044",
+        "ch13-s02-n0045",
+        "ch13-s02-n0046",
+        "ch13-s02-n0047",
+        "ch13-s02-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 53194,
+      "bytes": 855213,
+      "sha256": "3bdb74db3a87eac8c89645a8ff689452acb730eef8a8545336dd255c7a489992",
+      "sentence_ids": [
+        "ch13-s02-n0049",
+        "ch13-s02-n0050",
+        "ch13-s02-n0051",
+        "ch13-s02-n0052",
+        "ch13-s02-n0053",
+        "ch13-s02-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 40684,
+      "bytes": 650925,
+      "sha256": "a16a9d14b794bd20a7476e1b2c2bec5ad03df45c4c89817707b6b1abe759e880",
+      "sentence_ids": [
+        "ch13-s02-n0055",
+        "ch13-s02-n0056",
+        "ch13-s02-n0057",
+        "ch13-s02-n0058",
+        "ch13-s02-n0059",
+        "ch13-s02-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 57725,
+      "bytes": 928173,
+      "sha256": "94ebf0adf81db5b3641b0424b8d4772a3b189aea4c5fa8036309df87dab440a7",
+      "sentence_ids": [
+        "ch13-s02-n0061",
+        "ch13-s02-n0062",
+        "ch13-s02-n0063",
+        "ch13-s02-n0064",
+        "ch13-s02-n0065",
+        "ch13-s02-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 22925,
+      "bytes": 371373,
+      "sha256": "8bf57a0383fc43550b46aff513f5748040ff628351b8d2837c434abc2134ea94",
+      "sentence_ids": [
+        "ch13-s02-n0067",
+        "ch13-s02-n0068",
+        "ch13-s02-n0069",
+        "ch13-s02-n0070",
+        "ch13-s02-n0071",
+        "ch13-s02-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 41258,
+      "bytes": 669741,
+      "sha256": "653d2426c4bf58ec19d32446c272ad9a69697ab63f179176179216228a7543b8",
+      "sentence_ids": [
+        "ch13-s02-n0073",
+        "ch13-s02-n0074",
+        "ch13-s02-n0075",
+        "ch13-s02-n0076",
+        "ch13-s02-n0077",
+        "ch13-s02-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 47681,
+      "bytes": 761517,
+      "sha256": "7ecfc17dd9cb7ab06acfa26f5d2187fc11cf26e15d74df20e1b47e3cd4260ffa",
+      "sentence_ids": [
+        "ch13-s02-n0079",
+        "ch13-s02-n0080",
+        "ch13-s02-n0081",
+        "ch13-s02-n0082",
+        "ch13-s02-n0083",
+        "ch13-s02-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 32365,
+      "bytes": 518829,
+      "sha256": "0d3d9286c79fb5ebc927dd136b384a75910866f03e4a1469c564d76e1ca9847f",
+      "sentence_ids": [
+        "ch13-s02-n0085",
+        "ch13-s02-n0086",
+        "ch13-s02-n0087",
+        "ch13-s02-n0088",
+        "ch13-s02-n0089",
+        "ch13-s02-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 41165,
+      "bytes": 663213,
+      "sha256": "ab82d19f42a70126f587ecd7049c2bc8dfaa4ec4b15ccff47b8101f34325090f",
+      "sentence_ids": [
+        "ch13-s02-n0091",
+        "ch13-s02-n0092",
+        "ch13-s02-n0093",
+        "ch13-s02-n0094",
+        "ch13-s02-n0095",
+        "ch13-s02-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 34537,
+      "bytes": 554157,
+      "sha256": "f133798f32d91e5f761eb9e95a2aed52695103165b9611bcce864cbe0f48f5a5",
+      "sentence_ids": [
+        "ch13-s02-n0097",
+        "ch13-s02-n0098",
+        "ch13-s02-n0099",
+        "ch13-s02-n0100",
+        "ch13-s02-n0101",
+        "ch13-s02-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 35210,
+      "bytes": 567213,
+      "sha256": "5076857a9823a8c5b4d2a17d097f224ec40afd26cbf7cbe2759901cf554bcbf7",
+      "sentence_ids": [
+        "ch13-s02-n0103",
+        "ch13-s02-n0104",
+        "ch13-s02-n0105",
+        "ch13-s02-n0106",
+        "ch13-s02-n0107",
+        "ch13-s02-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 17535,
+      "bytes": 288045,
+      "sha256": "c22003147bbc169d3424bc566c74a5e6ecd9bc3c96220168b5a9e73b01c8f7c8",
+      "sentence_ids": [
+        "ch13-s02-n0109",
+        "ch13-s02-n0110",
+        "ch13-s02-n0111"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s02-n0001",
+      "text": "前面已经看到，协作和分工带来的生产力不需要资本付钱，因为它们来自社会共同劳动本身。",
+      "start_ms": 105,
+      "end_ms": 7315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s02-n0002",
+      "text": "蒸汽、水力等用于生产的自然力，同样是免费的。",
+      "start_ms": 7760,
+      "end_ms": 11395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s02-n0003",
+      "text": "可是，人要呼吸就得有肺，要在生产中利用自然力，也得有人工制造的设备。",
+      "start_ms": 12115,
+      "end_ms": 18385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s02-n0004",
+      "text": "利用水的动力需要水轮，利用蒸汽的膨胀力需要蒸汽机。",
+      "start_ms": 18905,
+      "end_ms": 23365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s02-n0005",
+      "text": "科学也是如此。",
+      "start_ms": 23755,
+      "end_ms": 24775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s02-n0006",
+      "text": "一条科学规律一旦被发现，本身不花一分钱，比如电流使磁针偏转，或者电流能使铁产生磁性。",
+      "start_ms": 25350,
+      "end_ms": 33555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s02-n0007",
+      "text": "但要把这些规律用于电报等实际生产，却需要庞大而昂贵的设备。",
+      "start_ms": 365,
+      "end_ms": 4705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s02-n0008",
+      "text": "前面还看到，机器并没有抛弃工具。",
+      "start_ms": 5060,
+      "end_ms": 7475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s02-n0009",
+      "text": "原来由人体操纵的小工具，在机器上成了数量众多、体积庞大的工具。",
+      "start_ms": 7740,
+      "end_ms": 12415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s02-n0010",
+      "text": "资本现在不再让工人直接使用手工工具，而是让他操作一台自行带动工具的机器。",
+      "start_ms": 12965,
+      "end_ms": 18535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s02-n0011",
+      "text": "大工业把强大的自然力和自然科学用于生产，显然会大幅提高劳动生产力。",
+      "start_ms": 19015,
+      "end_ms": 23795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s02-n0012",
+      "text": "但有一点并不那么明显：要提高生产力，是否必须先在制造机器和设备上投入更多劳动。",
+      "start_ms": 24485,
+      "end_ms": 30515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s02-n0013",
+      "text": "机器同不变资本的其他部分一样，不会创造价值，只会把自身的价值转移到产品中。",
+      "start_ms": 365,
+      "end_ms": 6505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s02-n0014",
+      "text": "机器有多少价值，便会按损耗把其中一部分加到产品价值中。",
+      "start_ms": 6800,
+      "end_ms": 11085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s02-n0015",
+      "text": "因此，单看机器转移的这部分价值，它不是让产品变便宜，而是增加了产品的价值。",
+      "start_ms": 11545,
+      "end_ms": 16845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s02-n0016",
+      "text": "很明显，作为大工业特有的劳动手段，单台机器和系统化发展的机器体系，与手工业和工场手工业使用的劳动手段相比，价值都高得多。",
+      "start_ms": 18175,
+      "end_ms": 28535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s02-n0017",
+      "text": "机器在生产产品时，总是作为一个整体发挥作用。",
+      "start_ms": 29175,
+      "end_ms": 32785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s02-n0018",
+      "text": "但在形成产品价值时，每次只有机器磨损掉的那一部分算进去。",
+      "start_ms": 33110,
+      "end_ms": 37865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s02-n0019",
+      "text": "机器本身的价值，和它每隔一段时间转移给产品的价值，因而相差很大。",
+      "start_ms": 485,
+      "end_ms": 5845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s02-n0020",
+      "text": "换句话说，机器对产品生产的作用很大，每次加到产品价值中的部分却很小。",
+      "start_ms": 6305,
+      "end_ms": 11885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s02-n0021",
+      "text": "同一台机器反复使用的时间越长，这个差距就越大。",
+      "start_ms": 12735,
+      "end_ms": 16395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s02-n0022",
+      "text": "其实，任何真正的劳动工具都有这个特点：生产时整个工具都在发挥作用，形成价值时则只按每天的平均损耗，把一小部分价值转移给产品。",
+      "start_ms": 16820,
+      "end_ms": 27015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s02-n0023",
+      "text": "不过，机器的使用和损耗之间差距更大。",
+      "start_ms": 27815,
+      "end_ms": 30825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s02-n0024",
+      "text": "机器用更耐久的材料制成，使用寿命更长。",
+      "start_ms": 31321,
+      "end_ms": 34396,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s02-n0025",
+      "text": "机器按照严格的科学规律运行，零部件磨损较少，油、煤等辅助材料也用得更省。",
+      "start_ms": 85,
+      "end_ms": 6155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s02-n0026",
+      "text": "它所能承担的生产规模还远远超过普通工具。",
+      "start_ms": 6640,
+      "end_ms": 9715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s02-n0027",
+      "text": "如果从机器和工具的作用中扣除每天的平均费用，也就是日常磨损和油、煤等辅助材料转移给产品的价值，它们剩下的作用便是免费的，和不靠人类劳动就已存在的自然力一样。",
+      "start_ms": 10115,
+      "end_ms": 22425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s02-n0028",
+      "text": "机器的生产能力超过普通工具越多，它提供的这种免费作用也就越多。",
+      "start_ms": 22930,
+      "end_ms": 27425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s02-n0029",
+      "text": "直到大工业出现，人类才学会让过去已经凝结在机器中的劳动，像自然力一样大规模地免费发挥作用。",
+      "start_ms": 28375,
+      "end_ms": 35865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s02-n0030",
+      "text": "前面考察协作和工场手工业时已经看到，厂房等一般生产条件由许多工人共同使用，会比每个工人各用一套更省，从而减少它们加到产品上的价值。",
+      "start_ms": 36219,
+      "end_ms": 47354,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s02-n0031",
+      "text": "在机器生产中，不仅一台工作机的机体供许多工具共同使用，同一台动力机和一部分传动装置也由许多工作机共同使用。",
+      "start_ms": 365,
+      "end_ms": 8555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s02-n0032",
+      "text": "前面已经说明，机器的总价值远高于它每天转移给产品的价值。",
+      "start_ms": 8955,
+      "end_ms": 13345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s02-n0033",
+      "text": "每天转移给全部产品的价值量既定时，每件产品分到多少，首先取决于日产量。",
+      "start_ms": 13605,
+      "end_ms": 19255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s02-n0034",
+      "text": "产品越多，这部分价值就分摊得越薄。",
+      "start_ms": 19630,
+      "end_ms": 21955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s02-n0035",
+      "text": "布莱克本的贝恩斯先生在1857年的一次讲演中估计：“每一实际机械马力，可以带动450个自动走锭纺纱机纱锭及其附属装置，或者200个翼锭纺纱机纱锭，或者15台织造40英寸宽布匹的织机，以及整经、上浆等装置。”",
+      "start_ms": 22525,
+      "end_ms": 39045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s02-n0036",
+      "text": "第一种情况下，一马力蒸汽动力的日常费用和机器损耗，分摊在450个走锭纺纱机纱锭一天的产量上。",
+      "start_ms": 39759,
+      "end_ms": 47009,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s02-n0037",
+      "text": "第二种情况下，它们分摊在200个翼锭纺纱机纱锭的日产量上。",
+      "start_ms": 725,
+      "end_ms": 5655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s02-n0038",
+      "text": "第三种情况下，则分摊在15台机械织机的日产量上。",
+      "start_ms": 5920,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s02-n0039",
+      "text": "这样，每盎司棉纱或每厄尔布（一种长度单位）的布，只分到极小的一部分价值。",
+      "start_ms": 10695,
+      "end_ms": 16735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s02-n0040",
+      "text": "前面说过的蒸汽锤也是如此。",
+      "start_ms": 17185,
+      "end_ms": 18935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s02-n0041",
+      "text": "它每天的损耗和煤耗分摊在当天锻打的大量铁材上，所以每英担铁增加的价值很少。",
+      "start_ms": 19345,
+      "end_ms": 25855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s02-n0042",
+      "text": "要是用这种巨大的机器打小钉子，每英担铁分摊的价值就会非常高。",
+      "start_ms": 26775,
+      "end_ms": 31915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s02-n0043",
+      "text": "先假定工作机能带动多少工具，或者机器能施加多大力量，都已经确定。",
+      "start_ms": 165,
+      "end_ms": 5205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s02-n0044",
+      "text": "在这种情况下，产量取决于机器运转得多快，例如纱锭转得多快，锤子每分钟能打多少下。",
+      "start_ms": 5460,
+      "end_ms": 11515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s02-n0045",
+      "text": "有些巨型蒸汽锤每分钟打70下。",
+      "start_ms": 12185,
+      "end_ms": 14625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s02-n0046",
+      "text": "莱德的专利锻造机用较小的蒸汽锤锻造纱锭，每分钟能打700下。",
+      "start_ms": 15080,
+      "end_ms": 19725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s02-n0047",
+      "text": "先假定机器每次把自身价值转移给产品的比例不变，那么，产品从机器那里得到多少价值，就取决于机器本身值多少。",
+      "start_ms": 20080,
+      "end_ms": 28715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s02-n0048",
+      "text": "制造机器所用的劳动越少，机器加到产品中的价值就越少。",
+      "start_ms": 29025,
+      "end_ms": 33235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s02-n0049",
+      "text": "机器转移的价值越少，它的生产效率就越高，它提供的作用也越接近无须花费劳动的自然力。",
+      "start_ms": 115,
+      "end_ms": 6255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s02-n0050",
+      "text": "用机器来制造机器，可以降低机器的价值，使机器的价值同它的规模和效能相比越来越小。",
+      "start_ms": 6705,
+      "end_ms": 12595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s02-n0051",
+      "text": "比较手工业或工场手工业产品的价格与同类机器产品的价格，通常会看到同一个结果：在机器产品中，由劳动工具转移来的价值量变小了，但它在产品总价值中所占的比例反而上升。",
+      "start_ms": 13235,
+      "end_ms": 26135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s02-n0052",
+      "text": "以一磅棉纱为例，机器转移到其中的价值量比旧工具少，但棉纱的总价值下降得更多，所以这部分价值所占的比例反而更大。",
+      "start_ms": 26720,
+      "end_ms": 35455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s02-n0053",
+      "text": "如果制造一台机器耗费的劳动，同使用它所节省的劳动一样多，那么劳动只是换了一个地方，生产商品所需的劳动总量并没有减少，劳动生产力也没有提高。",
+      "start_ms": 35834,
+      "end_ms": 47134,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s02-n0054",
+      "text": "机器究竟节省了多少劳动，不能看机器与它所替代的旧工具之间的价值差额。",
+      "start_ms": 47609,
+      "end_ms": 53044,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s02-n0055",
+      "text": "真正要比较的是：制造机器用了多少劳动，它在使用中又代替了多少劳动。",
+      "start_ms": 315,
+      "end_ms": 5155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s02-n0056",
+      "text": "只要制造机器所用的劳动少于它所代替的劳动，机器就节省了劳动。",
+      "start_ms": 5605,
+      "end_ms": 10325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s02-n0057",
+      "text": "换成价值来看，就是机器分摊到产品中的价值，必须少于工人使用旧工具时原本会加到劳动对象上的价值。",
+      "start_ms": 10945,
+      "end_ms": 19355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s02-n0058",
+      "text": "因此，机器的生产效率，要看它能代替多少人的劳动力。",
+      "start_ms": 19825,
+      "end_ms": 23595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s02-n0059",
+      "text": "贝恩斯先生说，450枚走锭纺纱机纱锭连同配套设备，由一马力蒸汽动力驱动，只需两名半工人。",
+      "start_ms": 24635,
+      "end_ms": 32615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s02-n0060",
+      "text": "在每天工作10小时的制度下，每枚自动走锭纺纱机纱锭每周可以纺出13盎司中等支数的棉纱。",
+      "start_ms": 33139,
+      "end_ms": 40534,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s02-n0061",
+      "text": "这样，两名半工人每周可以纺出365又5/8磅棉纱。",
+      "start_ms": 1145,
+      "end_ms": 5815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s02-n0062",
+      "text": "为把大约366磅棉花纺成这些棉纱，如果暂且不计损耗，总共只需150个劳动小时，也就是15个10小时工作日。",
+      "start_ms": 6130,
+      "end_ms": 15805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s02-n0063",
+      "text": "若改用纺车，而一名手工纺纱工每60小时只能纺出13盎司棉纱，那么加工同样多的棉花，就需要2700个10小时工作日，共27000个劳动小时。",
+      "start_ms": 16220,
+      "end_ms": 28645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s02-n0064",
+      "text": "在机器印花取代木版印花或手工印花的地方，一台机器只需一名男子或男孩协助，一小时印出的四色印花布，就相当于过去200名男子一小时的产量。",
+      "start_ms": 29120,
+      "end_ms": 41135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s02-n0065",
+      "text": "1793年伊莱·惠特尼发明轧棉机以前，从棉籽中分离出一磅棉花，平均需要一个工作日。",
+      "start_ms": 42565,
+      "end_ms": 49505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s02-n0066",
+      "text": "轧棉机发明以后，一名黑人女工每天可以清理出100磅棉花，后来这种机器的效率又有了大幅提高。",
+      "start_ms": 49930,
+      "end_ms": 57575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s02-n0067",
+      "text": "过去生产一磅棉纤维要花50美分。",
+      "start_ms": 85,
+      "end_ms": 2295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s02-n0068",
+      "text": "后来每磅售价虽然降到10美分，利润却反而更高。",
+      "start_ms": 2700,
+      "end_ms": 6415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s02-n0069",
+      "text": "这说明生产成本降得更厉害。",
+      "start_ms": 6700,
+      "end_ms": 8395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s02-n0070",
+      "text": "利润的提高也意味着，工人在生产中提供的无偿劳动比过去更多。",
+      "start_ms": 8855,
+      "end_ms": 12995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s02-n0071",
+      "text": "在印度，人们用一种近似机器的工具“丘尔卡”把棉纤维同棉籽分开。",
+      "start_ms": 13655,
+      "end_ms": 18945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s02-n0072",
+      "text": "一名男子和一名女子每天可以用它清理28磅棉花。",
+      "start_ms": 19365,
+      "end_ms": 22775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s02-n0073",
+      "text": "福布斯博士几年前发明的新式丘尔卡，每天可以由两名男子和一名男孩加工250磅棉花。",
+      "start_ms": 205,
+      "end_ms": 6365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s02-n0074",
+      "text": "如果用牛、蒸汽或水提供动力，只需少数男孩和女孩负责给机器送料。",
+      "start_ms": 6905,
+      "end_ms": 11795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s02-n0075",
+      "text": "16台牛力驱动的这种机器，一天完成的工作量，等于过去750人平均一天的工作量。",
+      "start_ms": 13175,
+      "end_ms": 19425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s02-n0076",
+      "text": "前面提到，用蒸汽犁时，蒸汽机每小时只花3便士，也就是1/4先令，就能完成66个人每小时领取15先令工资才能完成的工作。",
+      "start_ms": 20075,
+      "end_ms": 30815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s02-n0077",
+      "text": "这里再谈这个例子，是为了纠正一种误解。",
+      "start_ms": 31308,
+      "end_ms": 33778,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s02-n0078",
+      "text": "15先令只是66个人一小时所得的工资，绝不代表他们这一小时实际加到产品中的全部劳动。",
+      "start_ms": 34728,
+      "end_ms": 41108,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s02-n0079",
+      "text": "假设剩余劳动与必要劳动的比例是100%，这66名工人一小时创造的价值就是30先令。",
+      "start_ms": 285,
+      "end_ms": 6335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s02-n0080",
+      "text": "这30先令中，15先令是工资，相当于他们66个劳动小时中33个小时创造的价值。",
+      "start_ms": 7065,
+      "end_ms": 12325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s02-n0081",
+      "text": "假设一台机器值3000英镑，恰好等于它所替代的150名工人的全年工资。",
+      "start_ms": 13505,
+      "end_ms": 19065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s02-n0082",
+      "text": "这3000英镑并不代表150名工人一年付出的全部劳动，只代表他们以工资形式得到报酬的那部分劳动。",
+      "start_ms": 19475,
+      "end_ms": 26645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s02-n0083",
+      "text": "与此相反，一台价值3000英镑的机器，它的价格代表制造这台机器所耗费的全部劳动，不管这些劳动中有多少成为工人的工资，多少成为资本家的剩余价值。",
+      "start_ms": 27225,
+      "end_ms": 38635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s02-n0084",
+      "text": "因此，即使机器的价格等于它所替代的劳动力的价格，机器中包含的劳动也总是远少于它所替代的活劳动。",
+      "start_ms": 39201,
+      "end_ms": 47531,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s02-n0085",
+      "text": "如果只考虑降低产品成本，使用机器有一条界线：制造机器所用的劳动，必须少于机器所代替的劳动。",
+      "start_ms": 225,
+      "end_ms": 7575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s02-n0086",
+      "text": "但对资本来说，这条界线更窄。",
+      "start_ms": 8005,
+      "end_ms": 10055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s02-n0087",
+      "text": "资本家支付的不是生产中实际使用的全部劳动，而是所用劳动力的价值。",
+      "start_ms": 10595,
+      "end_ms": 15765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s02-n0088",
+      "text": "因此，是否使用机器，取决于机器的价格同它所替代的劳动力价格之间的差额。",
+      "start_ms": 16245,
+      "end_ms": 21865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s02-n0089",
+      "text": "一个工作日里必要劳动和剩余劳动的划分比例，在不同国家并不一样。",
+      "start_ms": 22685,
+      "end_ms": 27865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s02-n0090",
+      "text": "在同一个国家，这个比例也会随着时期和行业而变化。",
+      "start_ms": 28230,
+      "end_ms": 32215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s02-n0091",
+      "text": "工人的实际工资有时低于劳动力的价值，有时又高于它。",
+      "start_ms": 585,
+      "end_ms": 4095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s02-n0092",
+      "text": "所以，即使机器实际节省的劳动量没有变化，机器价格同被替代劳动力价格之间的差额仍可能大幅波动。",
+      "start_ms": 4455,
+      "end_ms": 11845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s02-n0093",
+      "text": "而资本家自己的商品成本，以及竞争对他的压力，只取决于机器价格同劳动力价格之间的差额。",
+      "start_ms": 12245,
+      "end_ms": 18155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s02-n0094",
+      "text": "所以，当时有些机器在英国发明后只在北美使用，正如16和17世纪德国发明的一些机器只在荷兰使用，18世纪法国的一些发明只在英国得到利用。",
+      "start_ms": 19035,
+      "end_ms": 30195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s02-n0095",
+      "text": "在工业发展较早的国家，一些行业采用机器，会使另一些行业出现大量过剩劳动力。",
+      "start_ms": 30740,
+      "end_ms": 36345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s02-n0096",
+      "text": "工资因此降到劳动力价值以下，反而会阻碍这些行业使用机器。",
+      "start_ms": 36740,
+      "end_ms": 41015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s02-n0097",
+      "text": "站在资本的角度看，使用机器会变得多余，甚至不可能，因为资本的利润来自减少有酬劳动，而不是单纯减少生产中实际使用的劳动。",
+      "start_ms": 105,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s02-n0098",
+      "text": "在当时的几年间，英国毛纺业的一些部门大幅减少了童工，个别地方甚至几乎不再使用童工。",
+      "start_ms": 11015,
+      "end_ms": 17985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s02-n0099",
+      "text": "为什么？",
+      "start_ms": 18385,
+      "end_ms": 18815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s02-n0100",
+      "text": "《工厂法》迫使厂家安排两组儿童轮班，一组工作6小时，另一组工作4小时，或者两组各工作5小时。",
+      "start_ms": 19160,
+      "end_ms": 26845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s02-n0101",
+      "text": "但父母要求半日童工拿到过去全日童工同样的工资。",
+      "start_ms": 27200,
+      "end_ms": 30995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s02-n0102",
+      "text": "于是，厂家便用机器取代了半日童工。",
+      "start_ms": 31532,
+      "end_ms": 34387,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s02-n0103",
+      "text": "在法律禁止妇女和10岁以下儿童下矿以前，资本让赤裸的妇女和女孩在煤矿及其他矿井中干活，还常把她们同男子拴在一起。",
+      "start_ms": 305,
+      "end_ms": 9105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s02-n0104",
+      "text": "这种做法同资本的道德准则，尤其同它的账本如此合拍，以至于禁令颁布后，资本才改用机器。",
+      "start_ms": 9575,
+      "end_ms": 16565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s02-n0105",
+      "text": "美国人发明了碎石机，英国人却不用，因为做这项工作的“可怜虫”，只有极少一部分劳动得到了报酬。",
+      "start_ms": 17020,
+      "end_ms": 23525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s02-n0106",
+      "text": "英国政治经济学甚至把“可怜虫”当作农业工人的专门称呼。",
+      "start_ms": 23980,
+      "end_ms": 27455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s02-n0107",
+      "text": "改用机器反而会增加资本家的生产成本。",
+      "start_ms": 28165,
+      "end_ms": 30805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s02-n0108",
+      "text": "英国有些地方甚至仍让妇女代替马匹，拖拉运河船只等。",
+      "start_ms": 31365,
+      "end_ms": 35060,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s02-n0109",
+      "text": "因为养育马匹和制造机器需要多少劳动，可以准确计算。",
+      "start_ms": 645,
+      "end_ms": 4535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s02-n0110",
+      "text": "相比之下，要维持过剩人口中的妇女生活，成本却低得几乎无法计算。",
+      "start_ms": 4910,
+      "end_ms": 10605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s02-n0111",
+      "text": "因此，世界上没有哪个地方比英国这个机器之国更无耻地把人的力量浪费在卑贱琐碎的工作上。",
+      "start_ms": 10965,
+      "end_ms": 17385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    }
+  ]
+}

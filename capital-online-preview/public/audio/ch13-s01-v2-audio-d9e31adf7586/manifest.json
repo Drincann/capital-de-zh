@@ -1,0 +1,2182 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s01-v2-audio-d9e31adf7586",
+  "unit_id": "ch13-s01",
+  "translation_version_id": "ch13-s01-v2",
+  "translation_sha256": "9b2ec54b866a5d6dc0c0562c4b60df89a02987165b534e7a75e6a2984301df26",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T16:26:07.885Z",
+  "completed_at": "2026-08-04T16:29:21.159Z",
+  "duration_ms": 1320028,
+  "sentence_count": 205,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 31925,
+      "bytes": 509613,
+      "sha256": "9bcbc67aba9fdb330eabe37248658d28c5bea0c5a09748dfdc0472e437666c10",
+      "sentence_ids": [
+        "ch13-s01-n0001",
+        "ch13-s01-n0002",
+        "ch13-s01-n0003",
+        "ch13-s01-n0004",
+        "ch13-s01-n0005",
+        "ch13-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 31975,
+      "bytes": 512301,
+      "sha256": "8270c8c75284cca94ec35a0c612fc349903c3729b7ec7ec6a2ce2774bffa2a10",
+      "sentence_ids": [
+        "ch13-s01-n0007",
+        "ch13-s01-n0008",
+        "ch13-s01-n0009",
+        "ch13-s01-n0010",
+        "ch13-s01-n0011",
+        "ch13-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 42885,
+      "bytes": 688173,
+      "sha256": "40f36a135bd055bae5582f237e624c2984051cc6c67c2a3791a9346d8b7b4b00",
+      "sentence_ids": [
+        "ch13-s01-n0013",
+        "ch13-s01-n0014",
+        "ch13-s01-n0015",
+        "ch13-s01-n0016",
+        "ch13-s01-n0017",
+        "ch13-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 30465,
+      "bytes": 486957,
+      "sha256": "d724e9f792b25f91c29e34f7b4598eaac12f14e5deec81d63002264769630c5c",
+      "sentence_ids": [
+        "ch13-s01-n0019",
+        "ch13-s01-n0020",
+        "ch13-s01-n0021",
+        "ch13-s01-n0022",
+        "ch13-s01-n0023",
+        "ch13-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 37593,
+      "bytes": 607533,
+      "sha256": "3a3acc72e22335a7aeead4cec27b42649cc6484a9bf6b74de994a7584f753b96",
+      "sentence_ids": [
+        "ch13-s01-n0025",
+        "ch13-s01-n0026",
+        "ch13-s01-n0027",
+        "ch13-s01-n0028",
+        "ch13-s01-n0029",
+        "ch13-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 42308,
+      "bytes": 685101,
+      "sha256": "0f219b2dd3e5ae95c0556fb0579e98880357c17372d59772855944604322a010",
+      "sentence_ids": [
+        "ch13-s01-n0031",
+        "ch13-s01-n0032",
+        "ch13-s01-n0033",
+        "ch13-s01-n0034",
+        "ch13-s01-n0035",
+        "ch13-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 34735,
+      "bytes": 561069,
+      "sha256": "801a96c6f6b1c9d1044cc6277b69438f9e019a15020b32aca888c76ab74ec592",
+      "sentence_ids": [
+        "ch13-s01-n0037",
+        "ch13-s01-n0038",
+        "ch13-s01-n0039",
+        "ch13-s01-n0040",
+        "ch13-s01-n0041",
+        "ch13-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 41494,
+      "bytes": 663213,
+      "sha256": "91f419d30a0e7a337f620af5ec206c22c1c7474380872ecc995d9fec4ed610bd",
+      "sentence_ids": [
+        "ch13-s01-n0043",
+        "ch13-s01-n0044",
+        "ch13-s01-n0045",
+        "ch13-s01-n0046",
+        "ch13-s01-n0047",
+        "ch13-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 39633,
+      "bytes": 633645,
+      "sha256": "2a875d4de85b0a21741bca7d705ddc3f50532a16288558a6c6e414ccd32c4541",
+      "sentence_ids": [
+        "ch13-s01-n0049",
+        "ch13-s01-n0050",
+        "ch13-s01-n0051",
+        "ch13-s01-n0052",
+        "ch13-s01-n0053",
+        "ch13-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 47941,
+      "bytes": 768429,
+      "sha256": "56a173f83d058160fefdbea6bca3fb364244ce9ef8ae46a0b0ff2f1aa10278ba",
+      "sentence_ids": [
+        "ch13-s01-n0055",
+        "ch13-s01-n0056",
+        "ch13-s01-n0057",
+        "ch13-s01-n0058",
+        "ch13-s01-n0059",
+        "ch13-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 31535,
+      "bytes": 503085,
+      "sha256": "14f2dee35846f76ca6ee8a3962dc06bb66774a15f221e0b46bfeda830ad52562",
+      "sentence_ids": [
+        "ch13-s01-n0061",
+        "ch13-s01-n0062",
+        "ch13-s01-n0063",
+        "ch13-s01-n0064",
+        "ch13-s01-n0065",
+        "ch13-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 25835,
+      "bytes": 413229,
+      "sha256": "4408cd8a259cbd02abbb181de9cff026d1fd0d9733f52c62782d47a5c5d8ec79",
+      "sentence_ids": [
+        "ch13-s01-n0067",
+        "ch13-s01-n0068",
+        "ch13-s01-n0069",
+        "ch13-s01-n0070",
+        "ch13-s01-n0071",
+        "ch13-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 33495,
+      "bytes": 535341,
+      "sha256": "740c3caedee85471d7dc52137836675de625f841a2d73d793297d57f6494e131",
+      "sentence_ids": [
+        "ch13-s01-n0073",
+        "ch13-s01-n0074",
+        "ch13-s01-n0075",
+        "ch13-s01-n0076",
+        "ch13-s01-n0077",
+        "ch13-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 36319,
+      "bytes": 580269,
+      "sha256": "e52b4014725b28aee643ecf4a4a6a0c1b3629a340990cf3923611b89123c1a67",
+      "sentence_ids": [
+        "ch13-s01-n0079",
+        "ch13-s01-n0080",
+        "ch13-s01-n0081",
+        "ch13-s01-n0082",
+        "ch13-s01-n0083",
+        "ch13-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 36065,
+      "bytes": 576429,
+      "sha256": "77e0caf22e18d9446638459ddb31c93ddb3cf54419693bba45a877b32ca87fa3",
+      "sentence_ids": [
+        "ch13-s01-n0085",
+        "ch13-s01-n0086",
+        "ch13-s01-n0087",
+        "ch13-s01-n0088",
+        "ch13-s01-n0089",
+        "ch13-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 41740,
+      "bytes": 672429,
+      "sha256": "060c999e68af46914430bafa47d275e6c27e06167d948afabca970b38d7476e8",
+      "sentence_ids": [
+        "ch13-s01-n0091",
+        "ch13-s01-n0092",
+        "ch13-s01-n0093",
+        "ch13-s01-n0094",
+        "ch13-s01-n0095",
+        "ch13-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 35144,
+      "bytes": 569517,
+      "sha256": "945e2d295557e5e73c340cc48ac3f059431a5032aa5e9f68b070749c354ff1e1",
+      "sentence_ids": [
+        "ch13-s01-n0097",
+        "ch13-s01-n0098",
+        "ch13-s01-n0099",
+        "ch13-s01-n0100",
+        "ch13-s01-n0101",
+        "ch13-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 33135,
+      "bytes": 531501,
+      "sha256": "a548b53e4f967e5700db1e92fa1fcf33123db19fad776c3b76b210eb61c8be84",
+      "sentence_ids": [
+        "ch13-s01-n0103",
+        "ch13-s01-n0104",
+        "ch13-s01-n0105",
+        "ch13-s01-n0106",
+        "ch13-s01-n0107",
+        "ch13-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 42825,
+      "bytes": 691245,
+      "sha256": "4a88e0e4847d6b1df02cfc161798ea9584a7d9db93fe193dcf32ec4d0f7d89d0",
+      "sentence_ids": [
+        "ch13-s01-n0109",
+        "ch13-s01-n0110",
+        "ch13-s01-n0111",
+        "ch13-s01-n0112",
+        "ch13-s01-n0113",
+        "ch13-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 34963,
+      "bytes": 560685,
+      "sha256": "17702566a47f60fd30c2d1ae2db467a5b1a1d197661dea75459359b51a18e6f6",
+      "sentence_ids": [
+        "ch13-s01-n0115",
+        "ch13-s01-n0116",
+        "ch13-s01-n0117",
+        "ch13-s01-n0118",
+        "ch13-s01-n0119",
+        "ch13-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 41258,
+      "bytes": 663981,
+      "sha256": "f2d9d10ed03d95ac09a659ebb420a3522fd9a87fa114addd00eb8dac91ccb24e",
+      "sentence_ids": [
+        "ch13-s01-n0121",
+        "ch13-s01-n0122",
+        "ch13-s01-n0123",
+        "ch13-s01-n0124",
+        "ch13-s01-n0125",
+        "ch13-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 36039,
+      "bytes": 575661,
+      "sha256": "a7b3dd85dd508f55554f53524652fad1322d5ca769ae794cc76149b0c36f9ba1",
+      "sentence_ids": [
+        "ch13-s01-n0127",
+        "ch13-s01-n0128",
+        "ch13-s01-n0129",
+        "ch13-s01-n0130",
+        "ch13-s01-n0131",
+        "ch13-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 49252,
+      "bytes": 788013,
+      "sha256": "d7671344c352b1e13f060d4ce84195d55a0ad811306fae4b6f7a3bfcf887f1f0",
+      "sentence_ids": [
+        "ch13-s01-n0133",
+        "ch13-s01-n0134",
+        "ch13-s01-n0135",
+        "ch13-s01-n0136",
+        "ch13-s01-n0137",
+        "ch13-s01-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 48986,
+      "bytes": 784557,
+      "sha256": "08f9db9121e8517f4427cf3b4125b628ef63ce0e50e9f2a691db1049bd4779c2",
+      "sentence_ids": [
+        "ch13-s01-n0139",
+        "ch13-s01-n0140",
+        "ch13-s01-n0141",
+        "ch13-s01-n0142",
+        "ch13-s01-n0143",
+        "ch13-s01-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 31965,
+      "bytes": 511917,
+      "sha256": "13f7327bb808d0717b4074726fb0bf0fdf2e25ba2a4b4d1c978c79a495ccbc80",
+      "sentence_ids": [
+        "ch13-s01-n0145",
+        "ch13-s01-n0146",
+        "ch13-s01-n0147",
+        "ch13-s01-n0148",
+        "ch13-s01-n0149",
+        "ch13-s01-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 41069,
+      "bytes": 658989,
+      "sha256": "a4b5779fda8c4c1b31dd1156b52336944e686340b2bbbd716024d9e7d4ee6b63",
+      "sentence_ids": [
+        "ch13-s01-n0151",
+        "ch13-s01-n0152",
+        "ch13-s01-n0153",
+        "ch13-s01-n0154",
+        "ch13-s01-n0155",
+        "ch13-s01-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 37335,
+      "bytes": 598701,
+      "sha256": "f2ac826fa7d14e34ea73ae9688b4dc1dce476d8ace7de7e0e76b514575ce1693",
+      "sentence_ids": [
+        "ch13-s01-n0157",
+        "ch13-s01-n0158",
+        "ch13-s01-n0159",
+        "ch13-s01-n0160",
+        "ch13-s01-n0161",
+        "ch13-s01-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 38681,
+      "bytes": 624813,
+      "sha256": "5f581f52a88c94d013305d1327905a7a8c16e4cfe10364b17ece7b57e433be6b",
+      "sentence_ids": [
+        "ch13-s01-n0163",
+        "ch13-s01-n0164",
+        "ch13-s01-n0165",
+        "ch13-s01-n0166",
+        "ch13-s01-n0167",
+        "ch13-s01-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 49712,
+      "bytes": 800301,
+      "sha256": "8a01dac3204de851b3174d802e5c13f7aab75e152fb7370a18e153135f14e66d",
+      "sentence_ids": [
+        "ch13-s01-n0169",
+        "ch13-s01-n0170",
+        "ch13-s01-n0171",
+        "ch13-s01-n0172",
+        "ch13-s01-n0173",
+        "ch13-s01-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 51659,
+      "bytes": 826413,
+      "sha256": "b63b534576a530d8212f9d0233c5d94b6aef2d653a1962797435f57d9d1630e5",
+      "sentence_ids": [
+        "ch13-s01-n0175",
+        "ch13-s01-n0176",
+        "ch13-s01-n0177",
+        "ch13-s01-n0178",
+        "ch13-s01-n0179",
+        "ch13-s01-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 37617,
+      "bytes": 605229,
+      "sha256": "552612b7bbcfa0c021cb886fdeae665106badad65bd7473f104315a3724fd4ce",
+      "sentence_ids": [
+        "ch13-s01-n0181",
+        "ch13-s01-n0182",
+        "ch13-s01-n0183",
+        "ch13-s01-n0184",
+        "ch13-s01-n0185",
+        "ch13-s01-n0186"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 37003,
+      "bytes": 593709,
+      "sha256": "829252bb00762989f01b0151067fedeaffcd3a4f4411a1c8990ed938e5a1628b",
+      "sentence_ids": [
+        "ch13-s01-n0187",
+        "ch13-s01-n0188",
+        "ch13-s01-n0189",
+        "ch13-s01-n0190",
+        "ch13-s01-n0191",
+        "ch13-s01-n0192"
+      ]
+    },
+    {
+      "id": "c0033",
+      "audio_file": "c0033.mp3",
+      "duration_ms": 38317,
+      "bytes": 614829,
+      "sha256": "631da9c46c23ef60385d19c37e3980e57c36d1607b52f4fb82a1e7e510212c4d",
+      "sentence_ids": [
+        "ch13-s01-n0193",
+        "ch13-s01-n0194",
+        "ch13-s01-n0195",
+        "ch13-s01-n0196",
+        "ch13-s01-n0197",
+        "ch13-s01-n0198"
+      ]
+    },
+    {
+      "id": "c0034",
+      "audio_file": "c0034.mp3",
+      "duration_ms": 41890,
+      "bytes": 675885,
+      "sha256": "274a9196a227c3d4d80b49bf6f88be0236bdc3ad8a0fd9cc25cca7827438285b",
+      "sentence_ids": [
+        "ch13-s01-n0199",
+        "ch13-s01-n0200",
+        "ch13-s01-n0201",
+        "ch13-s01-n0202",
+        "ch13-s01-n0203",
+        "ch13-s01-n0204"
+      ]
+    },
+    {
+      "id": "c0035",
+      "audio_file": "c0035.mp3",
+      "duration_ms": 7235,
+      "bytes": 118701,
+      "sha256": "55ec6280d92bfdeb24afd5bd4b7232b14d9c44d36a07a88cb9ab54b66d7cfe24",
+      "sentence_ids": [
+        "ch13-s01-n0205"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s01-n0001",
+      "text": "约翰·斯图亚特·穆勒在《政治经济学原理》中说：“以往所有机械发明是否减轻过任何一个人的日常劳苦，是很值得怀疑的。”",
+      "start_ms": 455,
+      "end_ms": 7985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s01-n0002",
+      "text": "不过，资本主义使用机器，本来就不是为了减轻人的劳苦。",
+      "start_ms": 8585,
+      "end_ms": 12175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s01-n0003",
+      "text": "机器和其他提高劳动生产力的方法一样，是为了使商品更便宜，缩短工人为自己劳动的时间，从而延长他无偿为资本家劳动的时间。",
+      "start_ms": 12805,
+      "end_ms": 22265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s01-n0004",
+      "text": "机器是生产剩余价值的手段。",
+      "start_ms": 22675,
+      "end_ms": 24825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s01-n0005",
+      "text": "工场手工业改造生产方式，着手点是劳动力。",
+      "start_ms": 25360,
+      "end_ms": 28965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s01-n0006",
+      "text": "大工业的着手点则是劳动手段。",
+      "start_ms": 29360,
+      "end_ms": 31775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s01-n0007",
+      "text": "因此，我们先要考察：劳动手段怎样从普通工具变成机器，机器又同手工业工具有什么区别。",
+      "start_ms": 405,
+      "end_ms": 6885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s01-n0008",
+      "text": "这里只谈几个基本特征，因为无论划分社会时代还是地质时代，都不存在绝对严格的界线。",
+      "start_ms": 7225,
+      "end_ms": 12555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s01-n0009",
+      "text": "数学家和机械师把工具说成简单机器，把机器说成复合工具。",
+      "start_ms": 13285,
+      "end_ms": 17755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s01-n0010",
+      "text": "一些英国经济学家也重复这种说法。",
+      "start_ms": 18110,
+      "end_ms": 20135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s01-n0011",
+      "text": "在他们看来，两者没有本质区别，连杠杆、斜面、螺旋和楔子等简单机械也被叫作机器。",
+      "start_ms": 20470,
+      "end_ms": 26845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s01-n0012",
+      "text": "从力学上说，任何机器确实都由这些简单机械组合而成。",
+      "start_ms": 27615,
+      "end_ms": 31825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s01-n0013",
+      "text": "但从经济上看，这种解释没有用，因为它没有说明工具和机器之间的历史差别。",
+      "start_ms": 155,
+      "end_ms": 5575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s01-n0014",
+      "text": "另一种说法把动力来源当作界线：由人提供动力的是工具，由牲畜、水、风等自然力提供动力的才是机器。",
+      "start_ms": 6005,
+      "end_ms": 14435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s01-n0015",
+      "text": "照这个标准，各个时代都用过的牛拉犁成了机器，克劳森的圆织机却只是工具，因为一名工人用手驱动它时，它每分钟能织出96000个线圈。",
+      "start_ms": 15145,
+      "end_ms": 25265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s01-n0016",
+      "text": "同一台织机用手驱动就是工具，用蒸汽驱动才变成机器。",
+      "start_ms": 26155,
+      "end_ms": 30585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s01-n0017",
+      "text": "牲畜动力又是人类最古老的发明之一，这样一来，机器生产反倒早于手工业生产。",
+      "start_ms": 31200,
+      "end_ms": 37105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s01-n0018",
+      "text": "可真正揭开18世纪工业革命序幕的，并不是把人力换成牲畜动力。",
+      "start_ms": 37440,
+      "end_ms": 42735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s01-n0019",
+      "text": "1735年，约翰·怀亚特宣布发明纺纱机。",
+      "start_ms": 655,
+      "end_ms": 3395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s01-n0020",
+      "text": "他没有说要用驴代替人来驱动机器，尽管后来确实由驴承担了这项工作。",
+      "start_ms": 3720,
+      "end_ms": 8995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s01-n0021",
+      "text": "他提出的目标是制造一台“不用手指纺纱”的机器。",
+      "start_ms": 9320,
+      "end_ms": 12675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s01-n0022",
+      "text": "一套发展成熟的机器包含三个根本不同的部分：动力机、传动机构和工作机。",
+      "start_ms": 13235,
+      "end_ms": 18755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s01-n0023",
+      "text": "动力机为整套设备提供动力。",
+      "start_ms": 19140,
+      "end_ms": 21135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s01-n0024",
+      "text": "它可以像蒸汽机、热力机和电磁机那样自行产生动力，也可以利用外部已有的自然力，比如水轮利用落差，风车利用风力。",
+      "start_ms": 21480,
+      "end_ms": 30315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s01-n0025",
+      "text": "传动机构由飞轮、传动轴、齿轮、转轮、轴杆、绳索、皮带以及各种中间传动装置组成。",
+      "start_ms": 465,
+      "end_ms": 7695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s01-n0026",
+      "text": "它调节运动，必要时改变运动形式，例如把垂直运动变成圆周运动，然后把运动分配并传给工作机。",
+      "start_ms": 8030,
+      "end_ms": 14765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s01-n0027",
+      "text": "动力机和传动机构最终都是为了让工作机运动，使它接触加工对象，并按预定方式加工它。",
+      "start_ms": 15515,
+      "end_ms": 21755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s01-n0028",
+      "text": "18世纪工业革命正是从工作机开始的。",
+      "start_ms": 22335,
+      "end_ms": 24725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s01-n0029",
+      "text": "直到今天，只要手工业或工场手工业转向机器生产，起点仍然是工作机。",
+      "start_ms": 25020,
+      "end_ms": 30485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s01-n0030",
+      "text": "仔细观察工作机，就会发现工匠和工场工人使用的器具仍在其中，只是形态往往发生了很大变化。",
+      "start_ms": 31068,
+      "end_ms": 37443,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s01-n0031",
+      "text": "这些器具不再由人直接使用，而成了机械装置的工具。",
+      "start_ms": 345,
+      "end_ms": 4125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s01-n0032",
+      "text": "整台机器可能只是旧手工业工具的机械化版本，例如机械织机。",
+      "start_ms": 4540,
+      "end_ms": 9435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s01-n0033",
+      "text": "也可能只有工作机上真正加工材料的部件沿用了旧工具，例如纺纱机上的纱锭、针织机上的针、锯木机上的锯片和切碎机上的刀。",
+      "start_ms": 9775,
+      "end_ms": 19955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s01-n0034",
+      "text": "这些工具甚至和工作机的机体分别制造：工具大多仍由手工业或工场手工业生产，之后才装到机器制造的机体上。",
+      "start_ms": 20285,
+      "end_ms": 29185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s01-n0035",
+      "text": "所以，工作机就是这样一种装置：获得适当运动后，它用自己的工具完成过去由工人拿着同类工具完成的操作。",
+      "start_ms": 29570,
+      "end_ms": 37955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s01-n0036",
+      "text": "至于最初的动力来自人还是另一台机器，并不改变这一点。",
+      "start_ms": 38323,
+      "end_ms": 42158,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s01-n0037",
+      "text": "一旦真正的工具从人手中转移到机械装置上，机器就取代了单纯的工具。",
+      "start_ms": 175,
+      "end_ms": 5035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s01-n0038",
+      "text": "即使人仍是最初的动力来源，区别也很明显。",
+      "start_ms": 5400,
+      "end_ms": 8545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s01-n0039",
+      "text": "工人能同时使用多少工具，受自己的手脚等身体器官限制。",
+      "start_ms": 8940,
+      "end_ms": 12875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s01-n0040",
+      "text": "德国曾有人试图让一名纺纱工同时踩动两架纺车，用两手两脚一起工作，但实在过于劳累。",
+      "start_ms": 13605,
+      "end_ms": 20825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s01-n0041",
+      "text": "后来虽然出现了带两根纱锭的脚踏纺车，能同时纺两根线的人却像双头人一样罕见。",
+      "start_ms": 21170,
+      "end_ms": 27415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s01-n0042",
+      "text": "珍妮纺纱机一开始就能同时带动12至18根纱锭，针织机则能同时操作成千上万根针。",
+      "start_ms": 27785,
+      "end_ms": 34585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s01-n0043",
+      "text": "工作机能同时使用多少工具，从此摆脱了人体器官数量的限制。",
+      "start_ms": 75,
+      "end_ms": 4855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s01-n0044",
+      "text": "许多手工业工具本身就能让人看出两种角色的区别：人可以只是提供动力，也可以亲自完成加工。",
+      "start_ms": 5260,
+      "end_ms": 12835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s01-n0045",
+      "text": "例如使用纺车时，脚只负责踩动纺车，手却要在纱锭旁牵伸和加捻，真正完成纺纱。",
+      "start_ms": 13310,
+      "end_ms": 20215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s01-n0046",
+      "text": "工业革命首先接管的，正是手所完成的加工操作。",
+      "start_ms": 20650,
+      "end_ms": 24185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s01-n0047",
+      "text": "人除了监视机器、动手纠正机器的差错外，还暂时留下来充当纯粹的动力。",
+      "start_ms": 24855,
+      "end_ms": 31115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s01-n0048",
+      "text": "另一些工具从一开始就只需要人提供动力，例如转动磨坊的曲柄、操作水泵、上下拉动风箱或舂捣臼中物料。",
+      "start_ms": 31854,
+      "end_ms": 41344,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s01-n0049",
+      "text": "这些工具很早就促使人们改用牲畜、水和风来提供动力。",
+      "start_ms": 345,
+      "end_ms": 4315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s01-n0050",
+      "text": "它们有些在工场手工业时期变成了机器，有些早在此前就零星采用机器形式，却没有改变生产方式。",
+      "start_ms": 4700,
+      "end_ms": 11275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s01-n0051",
+      "text": "到大工业时期，人们才看清：它们在手工业形态下其实已经是机器。",
+      "start_ms": 12275,
+      "end_ms": 16915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s01-n0052",
+      "text": "比如，荷兰人在1836至1837年抽干哈勒姆湖所用的水泵，原理与普通水泵相同，只不过由巨大的蒸汽机代替人手推动活塞。",
+      "start_ms": 17260,
+      "end_ms": 26685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s01-n0053",
+      "text": "在英国，人们有时只要把铁匠的普通风箱接到蒸汽机上，就把它变成了机械气泵。",
+      "start_ms": 27145,
+      "end_ms": 32615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s01-n0054",
+      "text": "17世纪末在工场手工业时期发明的蒸汽机，直到18世纪80年代初仍没有引发工业革命。",
+      "start_ms": 33433,
+      "end_ms": 39483,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s01-n0055",
+      "text": "实际情况恰好相反：工作机的出现，才使人们必须彻底改造蒸汽机。",
+      "start_ms": 235,
+      "end_ms": 4705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s01-n0056",
+      "text": "当人不再拿着工具加工材料，而只为工作机提供动力时，动力由人的肌肉提供就不再是必需条件，风、水和蒸汽都可以取代人。",
+      "start_ms": 5215,
+      "end_ms": 14905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s01-n0057",
+      "text": "当然，原来专为人力设计的装置改用其他动力时，往往仍要作重大技术改造。",
+      "start_ms": 15400,
+      "end_ms": 21115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s01-n0058",
+      "text": "今天新问世的机器，例如缝纫机和制面包机，只要用途允许做成小型，都会设计成既可由人驱动，也可由机械动力驱动。",
+      "start_ms": 21520,
+      "end_ms": 30555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s01-n0059",
+      "text": "工业革命正是从这样一种机器开始的：机械装置取代了手持单件工具的工人，能够同时使用大量相同或同类工具，并由同一个动力源驱动，无论动力采取什么形式。",
+      "start_ms": 31196,
+      "end_ms": 43031,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s01-n0060",
+      "text": "机器已经出现了，但它还只是机器化生产体系里的一个简单要素。",
+      "start_ms": 43606,
+      "end_ms": 47791,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s01-n0061",
+      "text": "工作机越大，同时使用的工具越多，所需的传动机构就越庞大。",
+      "start_ms": 245,
+      "end_ms": 5415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s01-n0062",
+      "text": "为了克服这套机构自身的阻力，动力也必须超过人力。",
+      "start_ms": 5835,
+      "end_ms": 9315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s01-n0063",
+      "text": "何况人的身体本来就不善于持续、均匀地运动。",
+      "start_ms": 10165,
+      "end_ms": 13595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s01-n0064",
+      "text": "一旦人只负责提供动力，工作机已经接替了手中的工具，自然力也就能在动力这一环节取代人。",
+      "start_ms": 13980,
+      "end_ms": 20865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s01-n0065",
+      "text": "工场手工业时期留下、可供大规模使用的几种动力中，马力最差。",
+      "start_ms": 21180,
+      "end_ms": 26275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s01-n0066",
+      "text": "马有自己的脾气，饲养成本又高，在工厂里能使用的范围也有限。",
+      "start_ms": 26640,
+      "end_ms": 31385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s01-n0067",
+      "text": "但大工业的早期仍经常使用马力。",
+      "start_ms": 115,
+      "end_ms": 2255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s01-n0068",
+      "text": "当时农业学家的抱怨，以及机械功率至今仍用“马力”表示，都证明了这一点。",
+      "start_ms": 2660,
+      "end_ms": 7285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s01-n0069",
+      "text": "风力太不稳定，也难以控制。",
+      "start_ms": 7895,
+      "end_ms": 9595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s01-n0070",
+      "text": "英国是大工业的发源地，早在工场手工业时期，水力便已经占优势。",
+      "start_ms": 10325,
+      "end_ms": 15095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s01-n0071",
+      "text": "17世纪，人们已经尝试用一个水轮带动两组磨石。",
+      "start_ms": 15520,
+      "end_ms": 19145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s01-n0072",
+      "text": "后来传动机构越来越庞大，原有水力显得不足，这也推动了人们更精确地研究摩擦定律。",
+      "start_ms": 19535,
+      "end_ms": 25685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s01-n0073",
+      "text": "另一些磨坊靠杠杆推拉来驱动，动力很不均匀，于是人们发展出飞轮理论并采用飞轮。",
+      "start_ms": 445,
+      "end_ms": 6875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s01-n0074",
+      "text": "飞轮后来在大工业中发挥了重要作用。",
+      "start_ms": 7315,
+      "end_ms": 9715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s01-n0075",
+      "text": "工场手工业时期就这样为大工业准备了最初的科学和技术条件。",
+      "start_ms": 10080,
+      "end_ms": 13895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s01-n0076",
+      "text": "阿克莱特的水力纺纱厂从一开始就使用水力。",
+      "start_ms": 14875,
+      "end_ms": 17785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s01-n0077",
+      "text": "不过，水力作为主要动力也有明显限制：不能随意增加，水量不足时无法补充，有时还会中断，最重要的是只能在特定地点使用。",
+      "start_ms": 18050,
+      "end_ms": 27305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s01-n0078",
+      "text": "瓦特的第二种蒸汽机，也就是双作用蒸汽机，才第一次提供了一种合适的动力机。",
+      "start_ms": 27700,
+      "end_ms": 33345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s01-n0079",
+      "text": "它消耗煤和水，自行产生动力，功率完全受人控制。",
+      "start_ms": 275,
+      "end_ms": 4955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s01-n0080",
+      "text": "它可以移动，也能用于交通。",
+      "start_ms": 5280,
+      "end_ms": 7285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s01-n0081",
+      "text": "它适合城市，可以让生产集中到城市，而不像水轮那样把工厂分散到乡间。",
+      "start_ms": 7600,
+      "end_ms": 13315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s01-n0082",
+      "text": "它还能用于各种技术，并且很少受所在地自然条件限制。",
+      "start_ms": 14035,
+      "end_ms": 18275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s01-n0083",
+      "text": "瓦特的天才在1784年4月取得的专利说明中表现得十分清楚：他没有把蒸汽机说成只适用于某种用途的发明，而把它描述成大工业的一般动力。",
+      "start_ms": 18865,
+      "end_ms": 30695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s01-n0084",
+      "text": "其中一些用途，例如蒸汽锤，要在半个多世纪以后才真正出现。",
+      "start_ms": 31244,
+      "end_ms": 36169,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s01-n0085",
+      "text": "不过，他怀疑蒸汽机能否用于海上航行。",
+      "start_ms": 275,
+      "end_ms": 3775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s01-n0086",
+      "text": "1851年，他的后继者博尔顿—瓦特公司却在伦敦工业博览会上展出了当时用于远洋轮船的最大蒸汽机。",
+      "start_ms": 4675,
+      "end_ms": 12165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s01-n0087",
+      "text": "工具从人体的工具变成工作机上的工具以后，动力机也获得了不再受人力限制的独立形式。",
+      "start_ms": 12645,
+      "end_ms": 20175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s01-n0088",
+      "text": "这样，我们前面讨论的单台工作机便降为机器化生产体系的一个组成部分。",
+      "start_ms": 20470,
+      "end_ms": 25705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s01-n0089",
+      "text": "同一台动力机现在可以同时驱动许多工作机。",
+      "start_ms": 26475,
+      "end_ms": 30045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s01-n0090",
+      "text": "工作机越多，动力机就要越大，传动机构也会扩展成庞大的系统。",
+      "start_ms": 31350,
+      "end_ms": 35915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s01-n0091",
+      "text": "现在必须区分两种情况：许多同类机器共同工作，以及由不同机器组成的机器系统。",
+      "start_ms": 155,
+      "end_ms": 7285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s01-n0092",
+      "text": "第一种情况是，由同一台工作机完成全部加工。",
+      "start_ms": 7685,
+      "end_ms": 11235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s01-n0093",
+      "text": "它可以完成一个工匠过去用一件工具完成的各种操作，例如织工用织机完成的操作。",
+      "start_ms": 12135,
+      "end_ms": 18805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s01-n0094",
+      "text": "它也可以把不同工匠过去各用不同工具、独立或在工场手工业中依次完成的操作，全部接过来。",
+      "start_ms": 19165,
+      "end_ms": 26885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s01-n0095",
+      "text": "例如，近代信封工场先由一名工人用折纸刀折纸，另一人涂胶，第三人折下封口，第四人把图案压在封口上，以后还有其他工序。",
+      "start_ms": 27655,
+      "end_ms": 38915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s01-n0096",
+      "text": "每做一道工序，信封都要换一双手。",
+      "start_ms": 39315,
+      "end_ms": 41590,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s01-n0097",
+      "text": "一台信封机却能一次完成所有操作，每小时制造3000个以上的信封。",
+      "start_ms": 85,
+      "end_ms": 4935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s01-n0098",
+      "text": "1862年伦敦工业博览会展出的一台美国纸袋机，每分钟能完成裁纸、涂胶、折叠和成袋，生产300个纸袋。",
+      "start_ms": 5765,
+      "end_ms": 13635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s01-n0099",
+      "text": "工场手工业原本把整个过程拆开，按顺序完成。",
+      "start_ms": 14220,
+      "end_ms": 17465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s01-n0100",
+      "text": "现在，一台装有不同工具的工作机就能完成整个过程。",
+      "start_ms": 17840,
+      "end_ms": 21315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s01-n0101",
+      "text": "这种工作机可能是复杂手工业工具的机械化版本，也可能组合了工场手工业中各种各样的简单工具。",
+      "start_ms": 22285,
+      "end_ms": 29475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s01-n0102",
+      "text": "无论是哪一种，在以机器生产为基础的工厂里，简单协作都会重新出现。",
+      "start_ms": 29974,
+      "end_ms": 34994,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s01-n0103",
+      "text": "暂且不谈工人，这种协作首先表现为许多同类工作机并排放置，同时运转。",
+      "start_ms": 295,
+      "end_ms": 5945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s01-n0104",
+      "text": "织布厂由许多机械织机组成，缝纫厂由同一厂房中的许多缝纫机组成。",
+      "start_ms": 6505,
+      "end_ms": 11645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s01-n0105",
+      "text": "但这些机器并非简单地放在一起。",
+      "start_ms": 12175,
+      "end_ms": 14535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s01-n0106",
+      "text": "它们同时而均匀地接受同一台动力机的驱动，传动机构把动力送到各台工作机。",
+      "start_ms": 14730,
+      "end_ms": 20505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s01-n0107",
+      "text": "传动系统有一部分由它们共同使用，只在末端分支到每台机器。",
+      "start_ms": 20750,
+      "end_ms": 25195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s01-n0108",
+      "text": "正如许多工具只是同一台工作机的器官，许多工作机现在也只是同一套动力系统中性质相同的器官。",
+      "start_ms": 25510,
+      "end_ms": 32985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s01-n0109",
+      "text": "只有当加工对象连续经过一系列不同工序，而这些工序由一组性质不同、彼此配合的工作机完成时，真正的机器系统才取代了各自独立的单台机器。",
+      "start_ms": 185,
+      "end_ms": 9475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s01-n0110",
+      "text": "工场手工业中以分工为基础的协作在这里重新出现，但协作的已经不是做局部工作的工人，而是完成局部工序的机器。",
+      "start_ms": 9780,
+      "end_ms": 17395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s01-n0111",
+      "text": "例如，在羊毛工场手工业中，打毛工、梳毛工、剪毛工和纺毛工各有专用工具。",
+      "start_ms": 17815,
+      "end_ms": 23785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s01-n0112",
+      "text": "现在，这些工具变成各种专用工作机的工具，每台机器都是整套系统中承担某项功能的一个器官。",
+      "start_ms": 24100,
+      "end_ms": 30675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s01-n0113",
+      "text": "机器系统最初进入一个行业时，大体会沿用该行业原有的工场手工业分工，因此工场手工业为机器系统提供了自然形成的生产流程框架。",
+      "start_ms": 31240,
+      "end_ms": 40645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s01-n0114",
+      "text": "但两者立刻显出一个根本区别。",
+      "start_ms": 40980,
+      "end_ms": 42675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s01-n0115",
+      "text": "在工场手工业中，每道局部工序都必须由一个工人或一组工人拿着手工工具完成。",
+      "start_ms": 155,
+      "end_ms": 6715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s01-n0116",
+      "text": "工人固然要适应生产过程，但生产过程也预先按照工人的能力来安排。",
+      "start_ms": 7125,
+      "end_ms": 12315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s01-n0117",
+      "text": "机器生产不再遵循这种以工人为中心的分工原则。",
+      "start_ms": 12620,
+      "end_ms": 15875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s01-n0118",
+      "text": "人们先把整个生产过程本身分解成各个组成阶段，再运用力学、化学等知识，解决每道工序怎样完成、各道工序怎样连接的问题。",
+      "start_ms": 16585,
+      "end_ms": 26495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s01-n0119",
+      "text": "当然，理论设计仍然必须靠长期、大规模的实践经验不断完善。",
+      "start_ms": 26710,
+      "end_ms": 31455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s01-n0120",
+      "text": "每台局部机器把加工过的材料交给下一台。",
+      "start_ms": 31868,
+      "end_ms": 34813,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s01-n0121",
+      "text": "所有机器同时运转，所以产品既不断处在形成过程的不同阶段，也不断从一个阶段转入下一个阶段。",
+      "start_ms": 195,
+      "end_ms": 7035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s01-n0122",
+      "text": "在工场手工业中，不同工人小组必须保持一定人数比例。",
+      "start_ms": 7420,
+      "end_ms": 11545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s01-n0123",
+      "text": "机器系统也一样：为了让各台局部机器持续运转，它们的数量、大小和速度必须保持一定比例。",
+      "start_ms": 11880,
+      "end_ms": 18675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s01-n0124",
+      "text": "由不同工作机及其机组组成的整个机器系统，生产越连续，就越完善。",
+      "start_ms": 19010,
+      "end_ms": 24275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s01-n0125",
+      "text": "也就是说，原料从第一道工序走到最后一道工序时，中断越少，越多由机器而不是人手把它送入下一道工序，系统就越完善。",
+      "start_ms": 24655,
+      "end_ms": 33855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s01-n0126",
+      "text": "工场手工业以各道工序彼此分离为原则，发展成熟的工厂则以各道工序连续衔接为原则。",
+      "start_ms": 34343,
+      "end_ms": 41108,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s01-n0127",
+      "text": "无论一套机器只是把许多同类工作机组合起来，例如织布厂，还是把不同工作机组合起来，例如纺纱厂，只要由一台自行运转的动力机驱动，整套系统本身就构成一个巨大的自动装置。",
+      "start_ms": 355,
+      "end_ms": 12095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s01-n0128",
+      "text": "不过，即使整套系统由蒸汽机驱动，个别工作机仍可能需要工人完成某些动作。",
+      "start_ms": 12975,
+      "end_ms": 18335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s01-n0129",
+      "text": "例如，自动走锭纺纱机出现以前，走锭纺纱机的回车动作要由工人完成。",
+      "start_ms": 18720,
+      "end_ms": 23635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s01-n0130",
+      "text": "而在本书写作时，精细纺纱仍需工人完成回车动作。",
+      "start_ms": 24105,
+      "end_ms": 27905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s01-n0131",
+      "text": "机器的某些部分也可能像工具一样，需要工人操纵。",
+      "start_ms": 28300,
+      "end_ms": 31505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s01-n0132",
+      "text": "例如，机器制造中的刀架在改成自动装置以前便是如此。",
+      "start_ms": 32054,
+      "end_ms": 35889,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s01-n0133",
+      "text": "当工作机无需人手就能完成加工原料所需的一切动作，只需人在旁协助时，自动机器系统便形成了。",
+      "start_ms": 155,
+      "end_ms": 7205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s01-n0134",
+      "text": "当然，许多细节还会不断实现自动化。",
+      "start_ms": 7665,
+      "end_ms": 10305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s01-n0135",
+      "text": "例如，一根纱线断裂时让纺纱机自行停机的装置，以及梭子里的纬纱用完时让改良蒸汽织机自行停机的装置，当时都还是新发明。",
+      "start_ms": 10720,
+      "end_ms": 20675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s01-n0136",
+      "text": "现代造纸厂既能说明生产怎样连续进行，也能说明自动化原则怎样实现。",
+      "start_ms": 21135,
+      "end_ms": 26325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s01-n0137",
+      "text": "造纸业还特别适合具体研究三件事：不同生产资料怎样形成不同生产方式，这些生产方式怎样同社会生产关系相联系，以及同一行业怎样经历这些变化。",
+      "start_ms": 26810,
+      "end_ms": 37855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s01-n0138",
+      "text": "旧德国造纸业提供了手工业生产的样本，17世纪的荷兰和18世纪的法国提供了真正工场手工业的样本，现代英国则提供了自动化工厂生产的样本。",
+      "start_ms": 38347,
+      "end_ms": 49102,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s01-n0139",
+      "text": "此外，中国和印度各自还保留着一种古老的造纸方式，而且两种方式并不相同。",
+      "start_ms": 545,
+      "end_ms": 5535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s01-n0140",
+      "text": "机器生产最成熟的形态，是许多工作机组成有层次的系统，通过传动机构接受中央自动动力机的驱动。",
+      "start_ms": 6000,
+      "end_ms": 13995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s01-n0141",
+      "text": "单台机器在这里被一个机械巨兽取代。",
+      "start_ms": 14395,
+      "end_ms": 17145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s01-n0142",
+      "text": "它的身躯占满整座厂房，巨大的肢体起初近乎庄严地缓缓运动，仿佛把魔力藏在体内，随后却通过无数真正执行加工的器官，爆发成疯狂而急迫的旋转。",
+      "start_ms": 17570,
+      "end_ms": 30355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s01-n0143",
+      "text": "在专门制造蒸汽机、走锭纺纱机等机器的工人出现以前，这些机器已经存在，正如裁缝出现以前人类已经会穿衣。",
+      "start_ms": 30991,
+      "end_ms": 39406,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s01-n0144",
+      "text": "沃康松、阿克莱特和瓦特等人的发明之所以能够实现，是因为工场手工业时期已经培养出相当数量、技术熟练的机械工人。",
+      "start_ms": 39811,
+      "end_ms": 48836,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s01-n0145",
+      "text": "其中一部分是各行各业的独立工匠，另一部分集中在工场手工业中。",
+      "start_ms": 165,
+      "end_ms": 4435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s01-n0146",
+      "text": "正如前面说过的，这些工场内部实行着严格分工。",
+      "start_ms": 4860,
+      "end_ms": 8155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s01-n0147",
+      "text": "随着发明增多，新机器需求上升，机器制造一方面逐渐分化成许多独立行业，另一方面在制造机器的工场内部发展出更细的分工。",
+      "start_ms": 8540,
+      "end_ms": 17875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s01-n0148",
+      "text": "因此，工场手工业为大工业提供了直接的技术基础。",
+      "start_ms": 18340,
+      "end_ms": 21785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s01-n0149",
+      "text": "它制造出机器，大工业则用这些机器，在最先进入的行业里淘汰手工业和工场手工业。",
+      "start_ms": 22100,
+      "end_ms": 28075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s01-n0150",
+      "text": "但机器生产最初建立在一个不适合自己的物质基础上。",
+      "start_ms": 28405,
+      "end_ms": 31815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s01-n0151",
+      "text": "发展到一定阶段后，它必须改造这个继承而来、又用旧方式继续发展的基础，为自己创造一种适合机器生产的新基础。",
+      "start_ms": 135,
+      "end_ms": 8705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s01-n0152",
+      "text": "单台机器只靠人力驱动时，只能保持很小的规模。",
+      "start_ms": 9225,
+      "end_ms": 12315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s01-n0153",
+      "text": "机器系统只有用蒸汽机取代牲畜、风力乃至水力等原有动力后，才能自由发展。",
+      "start_ms": 13145,
+      "end_ms": 19115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s01-n0154",
+      "text": "同样，只要大工业特有的生产工具——机器——仍要靠个人的体力和技巧来制造，大工业的整体发展就会受到束缚。",
+      "start_ms": 19480,
+      "end_ms": 27875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s01-n0155",
+      "text": "机器的制造仍取决于工场局部工人或独立工匠的肌肉、眼力和手上功夫，他们用这些能力操纵小型工具。",
+      "start_ms": 28470,
+      "end_ms": 36495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s01-n0156",
+      "text": "这种制造方式使机器更昂贵，资本家当然在意这个问题。",
+      "start_ms": 36824,
+      "end_ms": 40919,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s01-n0157",
+      "text": "更重要的是，已经采用机器生产的行业要扩大，机器要进入新行业，都取决于这类熟练工人的增加。",
+      "start_ms": 275,
+      "end_ms": 7315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s01-n0158",
+      "text": "由于他们的工作近似一门技艺，人数只能缓慢增长，无法突然增加。",
+      "start_ms": 7795,
+      "end_ms": 12155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s01-n0159",
+      "text": "大工业发展到一定阶段，便在技术上同手工业和工场手工业的基础发生冲突。",
+      "start_ms": 13015,
+      "end_ms": 18305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s01-n0160",
+      "text": "动力机、传动机构和工作机越来越大，结构越来越复杂多样，各个部件必须做得越来越规整一致。",
+      "start_ms": 18800,
+      "end_ms": 25455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s01-n0161",
+      "text": "工作机也逐渐摆脱旧手工业工具的形态，只按自身的机械任务形成新的结构。",
+      "start_ms": 26265,
+      "end_ms": 31775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s01-n0162",
+      "text": "自动系统不断发展，铁等难以加工的材料又越来越不可避免地取代木材。",
+      "start_ms": 32220,
+      "end_ms": 37185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s01-n0163",
+      "text": "机器工业要解决这一系列自然出现的技术任务，可个人能力处处成为障碍。",
+      "start_ms": 265,
+      "end_ms": 4705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s01-n0164",
+      "text": "即使工场手工业把许多工人组织起来，也只能把个人能力的界限推远一点，不能从根本上突破它。",
+      "start_ms": 5120,
+      "end_ms": 10875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s01-n0165",
+      "text": "因此，现代印刷机、现代蒸汽织机和现代梳棉机等机器，已经无法由工场手工业制造出来。",
+      "start_ms": 11585,
+      "end_ms": 18355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s01-n0166",
+      "text": "一个工业部门改变生产方式，会迫使其他部门也跟着改变。",
+      "start_ms": 18725,
+      "end_ms": 22495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s01-n0167",
+      "text": "首先受到影响的，是那些被社会分工分成独立行业、各自生产一种商品，却又共同构成一个完整生产过程的部门。",
+      "start_ms": 22800,
+      "end_ms": 30775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s01-n0168",
+      "text": "机器纺纱使机器织布成为必要，两者又共同推动漂白、印花和染色发生机械和化学方面的变革。",
+      "start_ms": 31316,
+      "end_ms": 38531,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s01-n0169",
+      "text": "反过来，棉纺革命催生了轧棉机，用它把棉纤维与棉籽分开，棉花生产才可能扩大到机器工业所需的规模。",
+      "start_ms": 105,
+      "end_ms": 7445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s01-n0170",
+      "text": "工业和农业生产方式的革命，还迫使整个社会生产过程的共同条件发生革命，也就是通信和运输方式的革命。",
+      "start_ms": 8005,
+      "end_ms": 15465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s01-n0171",
+      "text": "借用傅立叶的说法，过去社会的支点是小农业及其家庭副业和城市手工业。",
+      "start_ms": 16070,
+      "end_ms": 21505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s01-n0172",
+      "text": "旧有的通信和运输手段根本无法满足工场手工业时期的生产需要，因为当时社会分工扩大，劳动工具和工人日益集中，殖民市场也在扩张，所以通信和运输已经经历过一次改造。",
+      "start_ms": 21950,
+      "end_ms": 34505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s01-n0173",
+      "text": "同样，工场手工业时期留下的通信和运输手段，很快又成为大工业无法忍受的障碍。",
+      "start_ms": 35042,
+      "end_ms": 40962,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s01-n0174",
+      "text": "大工业生产速度极快，规模庞大，不断把大量资本和工人从一个生产部门抛向另一个部门，还建立了新的世界市场联系。",
+      "start_ms": 41382,
+      "end_ms": 49562,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s01-n0175",
+      "text": "因此，帆船制造被彻底改造，通信和运输也逐渐形成由内河汽船、铁路、远洋汽船和电报构成的体系，以适应大工业。",
+      "start_ms": 495,
+      "end_ms": 11585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s01-n0176",
+      "text": "铁路、轮船等新的通信和运输工具需要制造体量极其庞大的钢铁部件，要对这些部件进行锻打、焊接、切割、钻孔和成形，就必须使用巨型机器。",
+      "start_ms": 12015,
+      "end_ms": 25125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s01-n0177",
+      "text": "采用工场手工业方式制造机器，已经造不出这样的设备。",
+      "start_ms": 25565,
+      "end_ms": 30005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s01-n0178",
+      "text": "因此，大工业必须掌握自己的标志性生产工具，也就是机器本身，开始用机器制造机器。",
+      "start_ms": 30535,
+      "end_ms": 38285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s01-n0179",
+      "text": "只有这样，它才建立起适合自己的技术基础，真正有了独立发展的条件。",
+      "start_ms": 38669,
+      "end_ms": 44269,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s01-n0180",
+      "text": "19世纪最初几十年，随着机器生产扩大，人们逐渐开始用机器制造工作机。",
+      "start_ms": 44794,
+      "end_ms": 51509,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s01-n0181",
+      "text": "不过，直到19世纪后半叶，大规模铁路建设和远洋轮船的发展，才催生出制造大型动力机所需的巨型机器。",
+      "start_ms": 105,
+      "end_ms": 7545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s01-n0182",
+      "text": "用机器制造机器，首先需要一种功率可以不断提高、又完全受人控制的动力机。",
+      "start_ms": 8045,
+      "end_ms": 13305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s01-n0183",
+      "text": "蒸汽机已经满足了这个条件。",
+      "start_ms": 13760,
+      "end_ms": 15630,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s01-n0184",
+      "text": "但机器零件还必须具有严格的几何形状，例如直线、平面、圆、圆柱、圆锥和球体，这些形状也要由机器加工出来。",
+      "start_ms": 16030,
+      "end_ms": 25165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s01-n0185",
+      "text": "19世纪最初十年，亨利·莫兹利发明了滑动刀架，解决了这个问题。",
+      "start_ms": 25170,
+      "end_ms": 30355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s01-n0186",
+      "text": "刀架很快实现自动化，并经过改造，从最初使用它的车床推广到其他制造机器的设备。",
+      "start_ms": 30982,
+      "end_ms": 37467,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s01-n0187",
+      "text": "这个机械装置取代的不是某一种工具，而是人的手本身。",
+      "start_ms": 295,
+      "end_ms": 3495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s01-n0188",
+      "text": "工人的手原本要扶持和调整刀具，控制刀刃相对铁等材料的位置与方向，从而加工出特定形状。",
+      "start_ms": 4085,
+      "end_ms": 10335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s01-n0189",
+      "text": "采用刀架以后，机器零件所需的几何形状便能“轻松、准确而迅速地制造出来，熟练工人的手无论积累多少经验，也达不到这种程度”。",
+      "start_ms": 11135,
+      "end_ms": 20425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s01-n0190",
+      "text": "再看机器制造设备中真正执行加工的工作机，旧手工业工具又出现了，只是变成了巨型版本。",
+      "start_ms": 21205,
+      "end_ms": 27955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s01-n0191",
+      "text": "例如，钻床的加工部件是一根由蒸汽机驱动的巨型钻头。",
+      "start_ms": 28340,
+      "end_ms": 32705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s01-n0192",
+      "text": "没有它，大型蒸汽机和水压机的汽缸反而无法制造。",
+      "start_ms": 33153,
+      "end_ms": 36853,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s01-n0193",
+      "text": "机械车床就是放大后的普通脚踏车床，刨床则像一名钢铁木匠，用木匠加工木料时使用的同类工具来加工钢铁。",
+      "start_ms": 85,
+      "end_ms": 9015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s01-n0194",
+      "text": "伦敦造船厂切割饰面板的工具，是一把巨型剃刀。",
+      "start_ms": 9480,
+      "end_ms": 13375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s01-n0195",
+      "text": "剪切机像裁缝剪布一样剪断钢铁，它的工具是一把怪兽般的大剪刀。",
+      "start_ms": 13795,
+      "end_ms": 19345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s01-n0196",
+      "text": "蒸汽锤仍使用普通锤头，但重量之大，连雷神托尔也挥动不了。",
+      "start_ms": 19810,
+      "end_ms": 24615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s01-n0197",
+      "text": "纳斯密斯发明的一种蒸汽锤重达6吨多，从7英尺高处垂直落到重36吨的铁砧上。",
+      "start_ms": 25115,
+      "end_ms": 31965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s01-n0198",
+      "text": "它能轻松把花岗岩打成粉末，也能连续轻轻敲击，把一枚钉子钉进软木。",
+      "start_ms": 32412,
+      "end_ms": 38167,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s01-n0199",
+      "text": "劳动工具变成机器以后，机器的物质结构本身就要求用自然力取代人力，还要求人们自觉运用自然科学，不能只靠经验积累出来的熟练技巧。",
+      "start_ms": 185,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s01-n0200",
+      "text": "在工场手工业中，社会劳动过程怎样分工，完全取决于工人怎样组合，也就是怎样把做局部工作的工人组织起来。",
+      "start_ms": 10795,
+      "end_ms": 18885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s01-n0201",
+      "text": "大工业的机器系统却形成了一个客观的生产组织。",
+      "start_ms": 19230,
+      "end_ms": 21965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s01-n0202",
+      "text": "工人来到这里时，机器系统已经作为现成的物质生产条件摆在面前。",
+      "start_ms": 22795,
+      "end_ms": 27705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s01-n0203",
+      "text": "在简单协作中，甚至在按分工组织的协作中，用社会化的共同劳动取代单个工人，多少还带有偶然性。",
+      "start_ms": 28120,
+      "end_ms": 36245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s01-n0204",
+      "text": "除了以后要谈的少数例外，机器只有在许多工人直接共同劳动时才能运转。",
+      "start_ms": 36685,
+      "end_ms": 41740,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s01-n0205",
+      "text": "因此，劳动过程必须采取协作形式，现在已经是劳动工具本身的性质决定的技术要求。",
+      "start_ms": 395,
+      "end_ms": 7085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    }
+  ]
+}
