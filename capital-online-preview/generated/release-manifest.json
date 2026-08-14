@@ -1,7 +1,7 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-14T20:02:10.312Z",
+  "generatedAt": "2026-08-14T20:27:42.161Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 25,
@@ -10,7 +10,7 @@
     "id": "translator-preface",
     "number": 0,
     "title": "译者序",
-    "versionId": "translator-preface-v1",
+    "versionId": "translator-preface-v2",
     "contentPath": "/content/translator-preface.json"
   },
   "frontMatter": [
@@ -84,7 +84,8 @@
               "number": 4,
               "title": "商品的拜物教性质及其秘密",
               "versionId": "ch01-s04-v3",
-              "contentPath": "/content/ch01-s04.json"
+              "contentPath": "/content/ch01-s04.json",
+              "audioManifestPath": "/audio/ch01-s04-v3-audio-da6bc23e78d9/manifest.json"
             }
           ]
         },
@@ -154,7 +155,8 @@
               "number": 1,
               "title": "资本的一般公式",
               "versionId": "ch04-s01-v2",
-              "contentPath": "/content/ch04-s01.json"
+              "contentPath": "/content/ch04-s01.json",
+              "audioManifestPath": "/audio/ch04-s01-v2-audio-8975e020f8db/manifest.json"
             },
             {
               "id": "ch04-s02",
@@ -192,7 +194,8 @@
               "number": 1,
               "title": "劳动过程",
               "versionId": "ch05-s01-v7",
-              "contentPath": "/content/ch05-s01.json"
+              "contentPath": "/content/ch05-s01.json",
+              "audioManifestPath": "/audio/ch05-s01-v7-audio-e3549a225353/manifest.json"
             },
             {
               "id": "ch05-s02",
@@ -405,7 +408,8 @@
               "number": 3,
               "title": "工场手工业的两种基本形式：异质式和有机式",
               "versionId": "ch12-s03-v2",
-              "contentPath": "/content/ch12-s03.json"
+              "contentPath": "/content/ch12-s03.json",
+              "audioManifestPath": "/audio/ch12-s03-v2-audio-b428f3073c87/manifest.json"
             },
             {
               "id": "ch12-s04",
@@ -769,7 +773,8 @@
               "number": 4,
               "title": "相对过剩人口的不同形式。资本主义积累的一般规律",
               "versionId": "ch23-s04-v2",
-              "contentPath": "/content/ch23-s04.json"
+              "contentPath": "/content/ch23-s04.json",
+              "audioManifestPath": "/audio/ch23-s04-v2-audio-bfe2b9cda134/manifest.json"
             },
             {
               "id": "ch23-s05",

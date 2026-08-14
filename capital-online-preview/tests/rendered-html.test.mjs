@@ -132,7 +132,13 @@ test("发布快照只包含正式采用的版本", async () => {
     await readFile(new URL("public/content/translator-preface.json", appRoot)),
   );
   assert.equal(preface.unitId, manifest.preface.id);
-  assert.match(preface.html, /答案有时走在问题前面/);
+  assert.doesNotMatch(preface.html, /答案有时走在问题前面/);
+  assert.match(preface.html, /一个连续底本和三个参校版本/);
+  assert.match(preface.html, /1890年德文第四版/);
+  assert.match(preface.html, /1872—1875年的法文版/);
+  assert.doesNotMatch(preface.html, /现成中译本不作为这一版的改写底稿/);
+  assert.doesNotMatch(preface.html, /内部留下版本记录/);
+  assert.equal(preface.versionId, "translator-preface-v2");
   assert.match(preface.html, /class="translator-signature"/);
   assert.match(preface.html, /<strong>ChatGPT<\/strong>/);
   assert.match(preface.html, /datetime="2026-07">2026年7月/);

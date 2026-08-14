@@ -1,0 +1,1960 @@
+{
+  "schema_version": 2,
+  "status": "ready",
+  "audio_version_id": "ch01-s04-v3-audio-da6bc23e78d9",
+  "base_audio_version_id": "ch01-s04-v1-audio-74d1b370e525",
+  "reused_chunk_count": 3,
+  "generated_chunk_count": 28,
+  "unit_id": "ch01-s04",
+  "translation_version_id": "ch01-s04-v3",
+  "translation_sha256": "c5ea80722b23bc65de8f8b52218fd7aaec9e2bd58766adcbb4f046c2faa8565d",
+  "config_sha256": "38448e9085aaf6b8a25d2809647fbf6be1b8c3e4ea04d47fc3b4230c313f3e05",
+  "model_id": "seed-audio-1.0",
+  "model_label": "现有模型 1.0",
+  "transport": "audio-create-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-14T19:57:13.038Z",
+  "completed_at": "2026-08-14T20:00:02.056Z",
+  "duration_ms": 1584681,
+  "sentence_count": 184,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 36412,
+      "bytes": 583340,
+      "sha256": "71d5e6e5325000b0b3c57332de9ccbd97d7defc4e8bae4c146e36dc99be43fb8",
+      "sentence_ids": [
+        "ch01-s04-n0001",
+        "ch01-s04-n0002",
+        "ch01-s04-n0003",
+        "ch01-s04-n0004",
+        "ch01-s04-n0005",
+        "ch01-s04-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 44900,
+      "bytes": 718892,
+      "sha256": "fd1bcf9d87d5a5a9ace27df857de39ceaf67815433778cec760229428c49a582",
+      "sentence_ids": [
+        "ch01-s04-n0007",
+        "ch01-s04-n0008",
+        "ch01-s04-n0009",
+        "ch01-s04-n0010",
+        "ch01-s04-n0011",
+        "ch01-s04-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 40900,
+      "bytes": 655148,
+      "sha256": "d030e4f8ba414bceea4e258b17559b5a32abbce6b21b63c92449d1503df51b79",
+      "sentence_ids": [
+        "ch01-s04-n0013",
+        "ch01-s04-n0014",
+        "ch01-s04-n0015",
+        "ch01-s04-n0016",
+        "ch01-s04-n0017",
+        "ch01-s04-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 46097,
+      "bytes": 738861,
+      "sha256": "6c75c16138c2d6cac90c10f47c5cad958c78119b874762aac16772919728aca1",
+      "sentence_ids": [
+        "ch01-s04-n0019",
+        "ch01-s04-n0020",
+        "ch01-s04-n0021",
+        "ch01-s04-n0022",
+        "ch01-s04-n0023",
+        "ch01-s04-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 38208,
+      "bytes": 612525,
+      "sha256": "a7835bfe6688e787d4b702e144893dbfc4f6d8068711942171941dc8276d37df",
+      "sentence_ids": [
+        "ch01-s04-n0025",
+        "ch01-s04-n0026",
+        "ch01-s04-n0027",
+        "ch01-s04-n0028",
+        "ch01-s04-n0029",
+        "ch01-s04-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 43579,
+      "bytes": 698541,
+      "sha256": "8261b5091892663b12d934e4461ebdb05a5b595e32fb9df9ee2bd090c7557455",
+      "sentence_ids": [
+        "ch01-s04-n0031",
+        "ch01-s04-n0032",
+        "ch01-s04-n0033",
+        "ch01-s04-n0034",
+        "ch01-s04-n0035",
+        "ch01-s04-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 35280,
+      "bytes": 565677,
+      "sha256": "a79538db87873cee2c1c98d283eb90c555c1aae7118ba0c136e2ab581920752b",
+      "sentence_ids": [
+        "ch01-s04-n0037",
+        "ch01-s04-n0038",
+        "ch01-s04-n0039",
+        "ch01-s04-n0040",
+        "ch01-s04-n0041",
+        "ch01-s04-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 67395,
+      "bytes": 1079853,
+      "sha256": "35ee55e6883d343b0be87fa9d792b7f31348cc1cb3f577c1f3aa8d5c8e5e573c",
+      "sentence_ids": [
+        "ch01-s04-n0043",
+        "ch01-s04-n0044",
+        "ch01-s04-n0045",
+        "ch01-s04-n0046",
+        "ch01-s04-n0047",
+        "ch01-s04-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 64518,
+      "bytes": 1033773,
+      "sha256": "8280ef405150f03c6c88bc5475d6463e3f67a22562f0363ba7abcf3320610a3c",
+      "sentence_ids": [
+        "ch01-s04-n0049",
+        "ch01-s04-n0050",
+        "ch01-s04-n0051",
+        "ch01-s04-n0052",
+        "ch01-s04-n0053",
+        "ch01-s04-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 38500,
+      "bytes": 617517,
+      "sha256": "7117c458e0ddc15530db65884f64afd19172087abdcbd181c5a2b0a54882ff56",
+      "sentence_ids": [
+        "ch01-s04-n0055",
+        "ch01-s04-n0056",
+        "ch01-s04-n0057",
+        "ch01-s04-n0058",
+        "ch01-s04-n0059",
+        "ch01-s04-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 94041,
+      "bytes": 1506093,
+      "sha256": "f04eda9b3f64d28f41f3ff22e411a085546aa376e0e74484e8e26ca8a33aec5c",
+      "sentence_ids": [
+        "ch01-s04-n0061",
+        "ch01-s04-n0062",
+        "ch01-s04-n0063",
+        "ch01-s04-n0064",
+        "ch01-s04-n0065",
+        "ch01-s04-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 48767,
+      "bytes": 781485,
+      "sha256": "aeab1abcccd39c08a9554edd4ad2660194ff623f3b7813ea447b8ffa228fcfc5",
+      "sentence_ids": [
+        "ch01-s04-n0067",
+        "ch01-s04-n0068",
+        "ch01-s04-n0069",
+        "ch01-s04-n0070",
+        "ch01-s04-n0071",
+        "ch01-s04-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 69459,
+      "bytes": 1112877,
+      "sha256": "47da876d53c8ea043b52fe1551c0115ca2592f4ce187779580a6113de19a0131",
+      "sentence_ids": [
+        "ch01-s04-n0073",
+        "ch01-s04-n0074",
+        "ch01-s04-n0075",
+        "ch01-s04-n0076",
+        "ch01-s04-n0077",
+        "ch01-s04-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 51195,
+      "bytes": 820653,
+      "sha256": "289c30d58a93dc9db475dd472e33aa1b32f58c1799c01c30a6d3dc9083fd3921",
+      "sentence_ids": [
+        "ch01-s04-n0079",
+        "ch01-s04-n0080",
+        "ch01-s04-n0081",
+        "ch01-s04-n0082",
+        "ch01-s04-n0083",
+        "ch01-s04-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 60321,
+      "bytes": 966573,
+      "sha256": "7db6e9611f723a23ffc58b73361171b8d91d039fc224ed4a1491c69b87c88a49",
+      "sentence_ids": [
+        "ch01-s04-n0085",
+        "ch01-s04-n0086",
+        "ch01-s04-n0087",
+        "ch01-s04-n0088",
+        "ch01-s04-n0089",
+        "ch01-s04-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 50080,
+      "bytes": 802605,
+      "sha256": "6383e5904bda1012018e37cc12885991e51439e2dd5e2f2ac788e613d3297c3b",
+      "sentence_ids": [
+        "ch01-s04-n0091",
+        "ch01-s04-n0092",
+        "ch01-s04-n0093",
+        "ch01-s04-n0094",
+        "ch01-s04-n0095",
+        "ch01-s04-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 70900,
+      "bytes": 1135917,
+      "sha256": "53212d3e98148464cd5fb41650acca903ad4f6efc5057c7e57d6215b5a8ede61",
+      "sentence_ids": [
+        "ch01-s04-n0097",
+        "ch01-s04-n0098",
+        "ch01-s04-n0099",
+        "ch01-s04-n0100",
+        "ch01-s04-n0101",
+        "ch01-s04-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 51700,
+      "bytes": 828717,
+      "sha256": "29983672f0a0b782ae4868f0264b70c5bb0ee4b3f736808d63b5a40e1ffddb0a",
+      "sentence_ids": [
+        "ch01-s04-n0103",
+        "ch01-s04-n0104",
+        "ch01-s04-n0105",
+        "ch01-s04-n0106",
+        "ch01-s04-n0107",
+        "ch01-s04-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 49419,
+      "bytes": 792237,
+      "sha256": "0abcdaf65ae90fc6b9b51947742fee596a0f404491da3ba27ad2b2a98219b59e",
+      "sentence_ids": [
+        "ch01-s04-n0109",
+        "ch01-s04-n0110",
+        "ch01-s04-n0111",
+        "ch01-s04-n0112",
+        "ch01-s04-n0113",
+        "ch01-s04-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 54900,
+      "bytes": 879789,
+      "sha256": "09ed4d99cfe5499278dd17f696ea7f3f931fdffc0ad798f9ab1ba980fef8b1f0",
+      "sentence_ids": [
+        "ch01-s04-n0115",
+        "ch01-s04-n0116",
+        "ch01-s04-n0117",
+        "ch01-s04-n0118",
+        "ch01-s04-n0119",
+        "ch01-s04-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 45146,
+      "bytes": 723885,
+      "sha256": "ca1e232d211f98a7019df633d404ca8beea13ac99f0c68ab40ade06cbf29b71d",
+      "sentence_ids": [
+        "ch01-s04-n0121",
+        "ch01-s04-n0122",
+        "ch01-s04-n0123",
+        "ch01-s04-n0124",
+        "ch01-s04-n0125",
+        "ch01-s04-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 35280,
+      "bytes": 565677,
+      "sha256": "a1c26870560b5b5280f5b6d046152766d80f2c9a91232e8ef2ea42ee5cc66bcf",
+      "sentence_ids": [
+        "ch01-s04-n0127",
+        "ch01-s04-n0128",
+        "ch01-s04-n0129",
+        "ch01-s04-n0130",
+        "ch01-s04-n0131",
+        "ch01-s04-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 45221,
+      "bytes": 725037,
+      "sha256": "e2034456cef3b6481fb3956644bca1db91aeb09d488a4812117c1ea561cff77f",
+      "sentence_ids": [
+        "ch01-s04-n0133",
+        "ch01-s04-n0134",
+        "ch01-s04-n0135",
+        "ch01-s04-n0136",
+        "ch01-s04-n0137",
+        "ch01-s04-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 75096,
+      "bytes": 1203117,
+      "sha256": "0b88755eca987da67e25b1053515c45503dc732590a1e46dafc0086d78d8d96d",
+      "sentence_ids": [
+        "ch01-s04-n0139",
+        "ch01-s04-n0140",
+        "ch01-s04-n0141",
+        "ch01-s04-n0142",
+        "ch01-s04-n0143",
+        "ch01-s04-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 62480,
+      "bytes": 1001133,
+      "sha256": "4ee8968db506f97c51f01eca44cf5c1b3564c9f342afa872c0323f4fe82550e2",
+      "sentence_ids": [
+        "ch01-s04-n0145",
+        "ch01-s04-n0146",
+        "ch01-s04-n0147",
+        "ch01-s04-n0148",
+        "ch01-s04-n0149",
+        "ch01-s04-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 62270,
+      "bytes": 997677,
+      "sha256": "56524c2a5ba3ffe81128ff1be124fc75b218de455d7957d33e399cf596abaa01",
+      "sentence_ids": [
+        "ch01-s04-n0151",
+        "ch01-s04-n0152",
+        "ch01-s04-n0153",
+        "ch01-s04-n0154",
+        "ch01-s04-n0155",
+        "ch01-s04-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 40521,
+      "bytes": 649773,
+      "sha256": "b89d27c722b48eb39cf2f09894ba01a50e53b8d2fd28a5061f43bc8a21453052",
+      "sentence_ids": [
+        "ch01-s04-n0157",
+        "ch01-s04-n0158",
+        "ch01-s04-n0159",
+        "ch01-s04-n0160",
+        "ch01-s04-n0161",
+        "ch01-s04-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 31761,
+      "bytes": 509613,
+      "sha256": "1aa43cab9a32913849378f0814fa613952c65e3fe9d4fa91dd4551d784603c5d",
+      "sentence_ids": [
+        "ch01-s04-n0163",
+        "ch01-s04-n0164",
+        "ch01-s04-n0165",
+        "ch01-s04-n0166",
+        "ch01-s04-n0167",
+        "ch01-s04-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 41560,
+      "bytes": 666285,
+      "sha256": "bf7136f4d8016836f8316e9f90d50d0a40721be15ab762e7c6668efb64a2bbec",
+      "sentence_ids": [
+        "ch01-s04-n0169",
+        "ch01-s04-n0170",
+        "ch01-s04-n0171",
+        "ch01-s04-n0172",
+        "ch01-s04-n0173",
+        "ch01-s04-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 69180,
+      "bytes": 1108269,
+      "sha256": "ea0cf3737d8bf9135f2d31f15165a54b5ea4f0935f381b6ea4cd84f8e71b5cea",
+      "sentence_ids": [
+        "ch01-s04-n0175",
+        "ch01-s04-n0176",
+        "ch01-s04-n0177",
+        "ch01-s04-n0178",
+        "ch01-s04-n0179",
+        "ch01-s04-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 19595,
+      "bytes": 314925,
+      "sha256": "af9f0f7bf6ae488a4d9264e533bd5dee88f79faad4bc6717bddc436baff083ea",
+      "sentence_ids": [
+        "ch01-s04-n0181",
+        "ch01-s04-n0182",
+        "ch01-s04-n0183",
+        "ch01-s04-n0184"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch01-s04-n0001",
+      "text": "商品乍看是个一目了然、普普通通的东西。",
+      "start_ms": 640,
+      "end_ms": 3960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s04-n0002",
+      "text": "分析后却会发现，它非常古怪，充满形而上学的玄妙和神学的怪想。",
+      "start_ms": 4520,
+      "end_ms": 10280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s04-n0003",
+      "text": "只把商品看作使用价值，它一点也不神秘。",
+      "start_ms": 10720,
+      "end_ms": 13920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s04-n0004",
+      "text": "无论我们说它凭自身性质满足人的需要，还是说这些有用性质是人类劳动赋予它的，都没有什么难懂。",
+      "start_ms": 14600,
+      "end_ms": 22320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s04-n0005",
+      "text": "人通过活动把自然物的形态改造成对自己有用的样子，这是明摆着的。",
+      "start_ms": 22920,
+      "end_ms": 28600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s04-n0006",
+      "text": "例如，木头被做成桌子，形状虽然变了，桌子却仍是木头，仍是一个普通、可以感知的东西。",
+      "start_ms": 29080,
+      "end_ms": 36080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s04-n0007",
+      "text": "可桌子一旦作为商品出现，就变成一种既能被感知、又超出感官的东西。",
+      "start_ms": 40,
+      "end_ms": 6280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s04-n0008",
+      "text": "它不仅用几条腿站在地上，还会倒立着面对其他一切商品。",
+      "start_ms": 7040,
+      "end_ms": 12240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s04-n0009",
+      "text": "它那木头脑袋里生出的怪念头，比它自己突然跳起舞来还要离奇。",
+      "start_ms": 12960,
+      "end_ms": 18760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s04-n0010",
+      "text": "商品的神秘性既不来自使用价值，也不来自决定价值的几个基本事实。",
+      "start_ms": 19520,
+      "end_ms": 26040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s04-n0011",
+      "text": "首先，各种有用劳动或生产活动无论多么不同，从生理上看都是人体在发挥功能。",
+      "start_ms": 26920,
+      "end_ms": 35480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s04-n0012",
+      "text": "不论劳动的内容和形式是什么，都会消耗人的大脑、神经、肌肉、感觉器官等。",
+      "start_ms": 36280,
+      "end_ms": 44760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s04-n0013",
+      "text": "其次，价值量以这种耗费持续多久，也就是劳动量为根据。",
+      "start_ms": 40,
+      "end_ms": 6040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s04-n0014",
+      "text": "花了多少劳动，同劳动具体做什么，本来就是明显不同的两件事。",
+      "start_ms": 6760,
+      "end_ms": 13200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s04-n0015",
+      "text": "在任何社会中，人们都必须关心生产生活资料要花多少劳动时间，只是不同发展阶段的关注程度不同。",
+      "start_ms": 13920,
+      "end_ms": 23600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s04-n0016",
+      "text": "最后，只要人们以某种方式为别人劳动，他们的劳动就会取得一种社会形式。",
+      "start_ms": 24360,
+      "end_ms": 31040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s04-n0017",
+      "text": "那么，劳动产品一取得商品形式，为什么就有了谜一般的性质？",
+      "start_ms": 31880,
+      "end_ms": 37920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s04-n0018",
+      "text": "答案显然在商品形式本身。",
+      "start_ms": 38560,
+      "end_ms": 40800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s04-n0019",
+      "text": "商品形式把三种原本属于人的劳动和生产关系的事情，表现成物品自身的属性和物品之间的关系。",
+      "start_ms": 80,
+      "end_ms": 9800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s04-n0020",
+      "text": "第一，各种人类劳动彼此相同的那一面，被表现为各种劳动产品同样具有的价值属性。",
+      "start_ms": 10680,
+      "end_ms": 18200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s04-n0021",
+      "text": "第二，用劳动持续时间来衡量劳动力的耗费，被表现为劳动产品价值量的大小。",
+      "start_ms": 19040,
+      "end_ms": 26320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s04-n0022",
+      "text": "第三，生产者通过劳动建立的社会关系，被表现为劳动产品之间的社会关系。",
+      "start_ms": 27280,
+      "end_ms": 34040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s04-n0023",
+      "text": "商品形式的奥秘就在这里。",
+      "start_ms": 35080,
+      "end_ms": 37560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s04-n0024",
+      "text": "各个生产者的劳动本来共同构成社会总劳动，他们的劳动也因此彼此联系。",
+      "start_ms": 38520,
+      "end_ms": 45720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s04-n0025",
+      "text": "但在商品形式下，劳动的社会性质却显得像是劳动产品自身的属性，仿佛是这些物品天生就有的。",
+      "start_ms": 360,
+      "end_ms": 8280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s04-n0026",
+      "text": "生产者之间的社会联系也显得像一种存在于人之外的、物品之间的关系。",
+      "start_ms": 9160,
+      "end_ms": 15280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s04-n0027",
+      "text": "人与人的社会联系就这样表现成了物与物的关系。",
+      "start_ms": 15920,
+      "end_ms": 19440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s04-n0028",
+      "text": "劳动产品也因此成了商品：它们既是可以看见和触摸的物品，又仿佛带着一种超出物质本身的社会属性。",
+      "start_ms": 19800,
+      "end_ms": 28000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s04-n0029",
+      "text": "可以拿视觉作比较。",
+      "start_ms": 28320,
+      "end_ms": 29720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s04-n0030",
+      "text": "来自外部物体的光进入眼睛时，我们感受到的不是视觉神经受到的刺激，而是眼前那个物体的形状。",
+      "start_ms": 30280,
+      "end_ms": 37880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s04-n0031",
+      "text": "这里确实有光从一个物体传到另一个物体，所以仍是物体之间的物理关系。",
+      "start_ms": 120,
+      "end_ms": 5880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s04-n0032",
+      "text": "商品却不同。",
+      "start_ms": 6200,
+      "end_ms": 7360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s04-n0033",
+      "text": "商品形式，以及它所表现出来的劳动产品之间的价值关系，同产品的物理性质和由此产生的物质关系毫无关系。",
+      "start_ms": 8040,
+      "end_ms": 18800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s04-n0034",
+      "text": "这里真正存在的是人与人之间的特定社会关系，但在人们眼中却表现成物与物之间的关系。",
+      "start_ms": 19440,
+      "end_ms": 27800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s04-n0035",
+      "text": "因此，要找类似现象，只能到宗教世界的迷雾中去。",
+      "start_ms": 28720,
+      "end_ms": 33960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s04-n0036",
+      "text": "在那里，人脑创造出来的东西仿佛有了自己的生命，成了能够彼此交往、也能同人交往的独立存在。",
+      "start_ms": 34920,
+      "end_ms": 43320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s04-n0037",
+      "text": "商品世界里，人手制造的产品也是这样。",
+      "start_ms": 0,
+      "end_ms": 3736,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s04-n0038",
+      "text": "我把这种现象叫作“商品拜物教”。",
+      "start_ms": 3736,
+      "end_ms": 7056,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s04-n0039",
+      "text": "劳动产品一旦作为商品生产，这种性质就会附着在它们身上，因此同商品生产不可分离。",
+      "start_ms": 7056,
+      "end_ms": 15150,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s04-n0040",
+      "text": "正如前面的分析已经表明，商品世界的这种拜物教性质，来自生产商品的劳动所具有的特殊社会性质。",
+      "start_ms": 15150,
+      "end_ms": 24488,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s04-n0041",
+      "text": "有用物品之所以成为商品，是因为它们由彼此独立的私人劳动生产出来。",
+      "start_ms": 24488,
+      "end_ms": 31129,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s04-n0042",
+      "text": "这些私人劳动合在一起，构成社会的总劳动。",
+      "start_ms": 31129,
+      "end_ms": 35280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s04-n0043",
+      "text": "生产者只有交换劳动产品时才发生社会联系，所以私人劳动特有的社会性质也只有在交换中才表现出来。",
+      "start_ms": 80,
+      "end_ms": 9200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s04-n0044",
+      "text": "换句话说，交换使劳动产品发生关系，并通过产品使生产者发生关系。",
+      "start_ms": 10000,
+      "end_ms": 17120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s04-n0045",
+      "text": "私人劳动正是通过这些关系，才真正成为社会总劳动的一部分。",
+      "start_ms": 17960,
+      "end_ms": 23720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s04-n0046",
+      "text": "因此，生产者看到的私人劳动之间的社会关系，并不是人们在劳动本身中直接建立的社会关系，而是人与人之间借助物形成的关系，以及物与物之间的社会关系。",
+      "start_ms": 24560,
+      "end_ms": 40200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s04-n0047",
+      "text": "劳动产品只有在交换中，才会在各自不同的有用物形态之外，取得一种彼此相同的社会价值形态。",
+      "start_ms": 41040,
+      "end_ms": 49360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s04-n0048",
+      "text": "只有当交换扩展到足够大的范围并变得足够重要，人们开始为了交换而生产有用物品，并在生产时就考虑物品的价值性质，劳动产品才会在实践中分成有用物和价值物这两个方面。",
+      "start_ms": 50280,
+      "end_ms": 67280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s04-n0049",
+      "text": "从这时起，生产者的私人劳动实际上具有两重社会性质。",
+      "start_ms": 40,
+      "end_ms": 5280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s04-n0050",
+      "text": "一方面，它必须作为某种具体的有用劳动，满足某种社会需要，从而证明自己是社会总劳动的一部分，也是自发形成的社会分工体系的一部分。",
+      "start_ms": 6040,
+      "end_ms": 21400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s04-n0051",
+      "text": "另一方面，私人劳动只有能够同其他各种有用的私人劳动相交换，并被当作同它们相等，才能通过交换满足本生产者的各种需要。",
+      "start_ms": 21960,
+      "end_ms": 36200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s04-n0052",
+      "text": "这些实际差别极大的劳动之所以能够相等，只因为人们撇开了它们现实中的差别，把它们归结为共同的一点：它们都是人的劳动力的耗费，也就是抽象的人类劳动。",
+      "start_ms": 36880,
+      "end_ms": 53200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s04-n0053",
+      "text": "私人生产者对自己劳动这两重社会性质的认识，只来自产品交换中实际出现的形式。",
+      "start_ms": 53520,
+      "end_ms": 59320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s04-n0054",
+      "text": "劳动的社会有用性表现为产品必须有用，而且必须对别人有用。",
+      "start_ms": 59600,
+      "end_ms": 64200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s04-n0055",
+      "text": "不同劳动在社会上相等，则表现为这些物质形态各异的劳动产品都具有共同的价值性质。",
+      "start_ms": 80,
+      "end_ms": 7160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s04-n0056",
+      "text": "人们并不是先把劳动产品看成同质人类劳动的物质外壳，然后才把它们作为价值相互联系起来。",
+      "start_ms": 7960,
+      "end_ms": 16680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s04-n0057",
+      "text": "实际恰好相反。",
+      "start_ms": 17320,
+      "end_ms": 18760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s04-n0058",
+      "text": "人们在交换中把不同产品作为价值相等，也就把生产这些产品的不同劳动作为人类劳动相等。",
+      "start_ms": 19480,
+      "end_ms": 28200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s04-n0059",
+      "text": "他们不知道自己这样做的含义，却实际这样做了。",
+      "start_ms": 29120,
+      "end_ms": 33160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s04-n0060",
+      "text": "所以，价值并没有把自己的真实身份写在脸上。",
+      "start_ms": 34000,
+      "end_ms": 38440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s04-n0061",
+      "text": "它反而使每个劳动产品变成一种社会象形文字。",
+      "start_ms": 240,
+      "end_ms": 5040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s04-n0062",
+      "text": "后来，人们才试图读懂这种象形文字，揭开自己创造的社会产品之谜，因为有用物品成为价值，同语言一样，都是人们自己的社会产物。",
+      "start_ms": 5800,
+      "end_ms": 20200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s04-n0063",
+      "text": "很久以后，科学才发现，劳动产品就其作为价值而言，只是生产它们时耗费的人类劳动的物质表现。",
+      "start_ms": 21120,
+      "end_ms": 33240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s04-n0064",
+      "text": "这个发现在人类发展史上具有划时代意义，却丝毫没有消除一种表象：劳动的社会性质仿佛是物品自身的属性。",
+      "start_ms": 34200,
+      "end_ms": 47240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s04-n0065",
+      "text": "事实上，下面这件事只适用于商品生产这种特殊生产形式：彼此独立的私人劳动，只有被当作相同的人类劳动时，才取得这种生产形式中特有的社会性质，而这种社会性质表现为劳动产品具有价值。",
+      "start_ms": 48120,
+      "end_ms": 73080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s04-n0066",
+      "text": "即使科学已经揭示这一点，身处商品生产关系的人仍会把这种形式看成最终不变的事实，就像科学把空气分解成各种成分以后，空气仍以原来的物理形态存在。",
+      "start_ms": 74000,
+      "end_ms": 93760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s04-n0067",
+      "text": "产品交换者首先关心的是，自己的产品能换到多少别人的产品，也就是各种产品按什么比例交换。",
+      "start_ms": 200,
+      "end_ms": 8040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s04-n0068",
+      "text": "这些比例一旦通过习惯取得某种稳定性，就仿佛来自劳动产品自身的性质。",
+      "start_ms": 9160,
+      "end_ms": 15280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s04-n0069",
+      "text": "例如，一吨铁和2盎司黄金价值相等，看起来就像1磅黄金和1磅铁虽然物理、化学性质不同，却同样重。",
+      "start_ms": 17440,
+      "end_ms": 27000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s04-n0070",
+      "text": "实际上，劳动产品只有不断表现为一定的价值量，它们的价值性质才固定下来。",
+      "start_ms": 28200,
+      "end_ms": 34800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s04-n0071",
+      "text": "这些价值量始终在变化，不受交换者的意愿、预见和行动支配。",
+      "start_ms": 36640,
+      "end_ms": 42560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s04-n0072",
+      "text": "对交换者来说，他们自身的社会运动表现为物的运动。",
+      "start_ms": 43920,
+      "end_ms": 48680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s04-n0073",
+      "text": "他们受这种物的运动支配，而不是控制它。",
+      "start_ms": 0,
+      "end_ms": 3680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s04-n0074",
+      "text": "商品生产只有充分发展以后，人们才能从经验中获得科学认识：私人劳动虽然彼此独立，却作为自发形成的社会分工的一部分，在各方面互相依赖。",
+      "start_ms": 4200,
+      "end_ms": 22200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s04-n0075",
+      "text": "这些劳动不断被归结为它们在社会总劳动中应占的比例。",
+      "start_ms": 23160,
+      "end_ms": 28320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s04-n0076",
+      "text": "原因是，产品的交换比例虽然偶然并且始终波动，生产这些产品所需的社会必要劳动时间仍会作为调节规律强制发生作用，就像房屋塌到头上时，重力定律强制显示自己一样。",
+      "start_ms": 29120,
+      "end_ms": 48640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s04-n0077",
+      "text": "因此，劳动时间决定价值量，是藏在商品相对价值的表面运动之下的秘密。",
+      "start_ms": 49560,
+      "end_ms": 57160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s04-n0078",
+      "text": "发现这个秘密，会消除价值量仿佛纯由偶然决定的假象，却不会消除价值量仍采取物的形式。",
+      "start_ms": 58120,
+      "end_ms": 69040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s04-n0079",
+      "text": "人们对各种人类生活形式进行思考和科学分析时，所走的道路通常同这些形式在现实中的发展方向相反。",
+      "start_ms": 80,
+      "end_ms": 10760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s04-n0080",
+      "text": "这种思考总是在事情发生以后才开始，因此面对的是发展过程已经形成的结果。",
+      "start_ms": 11720,
+      "end_ms": 19800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s04-n0081",
+      "text": "劳动产品一旦采取某些形式，就成为商品，并能进入流通。",
+      "start_ms": 20600,
+      "end_ms": 26240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s04-n0082",
+      "text": "早在人们试图理解这些形式之前，它们已经像社会生活的自然形态一样稳固。",
+      "start_ms": 26800,
+      "end_ms": 34360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s04-n0083",
+      "text": "在人们眼中，这些形式不会变化，所以人们追问的不是它们怎样在历史中形成，而只是它们包含什么内容。",
+      "start_ms": 35320,
+      "end_ms": 45080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s04-n0084",
+      "text": "因此，人们是从分析商品价格出发，才确定价值量。",
+      "start_ms": 46080,
+      "end_ms": 51120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s04-n0085",
+      "text": "又是从各种商品共同用货币表现价值出发，才确认商品具有价值。",
+      "start_ms": 0,
+      "end_ms": 6120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s04-n0086",
+      "text": "可是，商品世界这个已经成熟的货币形式，并没有揭示私人劳动的社会性质，以及私人生产者之间的社会关系，反而把它们表现成物与物的关系，从而掩盖起来。",
+      "start_ms": 6880,
+      "end_ms": 22880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s04-n0087",
+      "text": "假如我直接说，上衣、靴子等物品把麻布看作抽象人类劳动的普遍化身，听起来显然荒唐。",
+      "start_ms": 23520,
+      "end_ms": 32160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s04-n0088",
+      "text": "但上衣、靴子等商品的生产者，实际上正是把麻布——或者黄金、白银，这并不影响问题——当作一般等价物，用它来表现自己商品的价值。",
+      "start_ms": 32840,
+      "end_ms": 45920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s04-n0089",
+      "text": "于是，他们各自的私人劳动同社会总劳动的关系，也就以这种荒唐的形式出现在他们面前。",
+      "start_ms": 46760,
+      "end_ms": 55240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s04-n0090",
+      "text": "这类形式，正是资产阶级经济学的基本范畴。",
+      "start_ms": 56120,
+      "end_ms": 60000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s04-n0091",
+      "text": "对于商品生产这种特定历史形态下的生产关系，它们是社会公认的、因而具有客观效力的思维形式。",
+      "start_ms": 0,
+      "end_ms": 7600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s04-n0092",
+      "text": "因此，只要转向其他生产形式，笼罩商品世界的一切神秘、魔法和幽灵就会立刻消失。",
+      "start_ms": 8440,
+      "end_ms": 15400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s04-n0093",
+      "text": "政治经济学喜欢拿鲁滨逊式的孤岛故事作例子，那就先看看岛上的鲁滨逊。",
+      "start_ms": 16240,
+      "end_ms": 22600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s04-n0094",
+      "text": "他一向要求不高，但仍有各种需要要满足，所以必须从事各种有用的劳动，比如制造工具和家具、驯养羊驼、捕鱼、打猎等等。",
+      "start_ms": 23480,
+      "end_ms": 34920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s04-n0095",
+      "text": "祈祷之类的事暂且不算，因为鲁滨逊乐在其中，把它当作休息。",
+      "start_ms": 35520,
+      "end_ms": 40440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s04-n0096",
+      "text": "这些生产活动虽然各不相同，他却知道，它们都只是自己劳动的不同方式，也就是不同形式的人类劳动。",
+      "start_ms": 41360,
+      "end_ms": 49920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s04-n0097",
+      "text": "生存需要迫使他精确分配花在各种活动上的时间。",
+      "start_ms": 240,
+      "end_ms": 4280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s04-n0098",
+      "text": "一项活动在全部劳动中占多少时间，取决于为了取得预期用途需要克服多少困难。",
+      "start_ms": 5120,
+      "end_ms": 12280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s04-n0099",
+      "text": "经验会告诉他答案。",
+      "start_ms": 13000,
+      "end_ms": 14640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s04-n0100",
+      "text": "鲁滨逊还从沉船中救出了钟表、账本、墨水和笔，所以像一个地道的英国人那样，很快开始记录自己的生产活动。",
+      "start_ms": 15360,
+      "end_ms": 23920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s04-n0101",
+      "text": "他的清单列出自己拥有的各种有用物品、生产它们所需的不同工作，以及生产一定数量的各种物品平均要花多少劳动时间。",
+      "start_ms": 24480,
+      "end_ms": 59160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s04-n0102",
+      "text": "鲁滨逊同自己创造的各种物品之间的关系如此简单透明，就连 M·维尔特先生也该能不费脑子地看懂。",
+      "start_ms": 59920,
+      "end_ms": 70640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s04-n0103",
+      "text": "尽管如此，用来分析价值的全部基本要素，在这里已经都出现了。",
+      "start_ms": 0,
+      "end_ms": 6920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s04-n0104",
+      "text": "现在，让我们离开鲁滨逊明亮的孤岛，来到阴暗的欧洲中世纪。",
+      "start_ms": 7760,
+      "end_ms": 15480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s04-n0105",
+      "text": "这里没有独立的人，人人都处在依附关系中：农奴和领主、封臣和封君、世俗人和教士。",
+      "start_ms": 16240,
+      "end_ms": 26760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s04-n0106",
+      "text": "这种人身依附既支配物质生产，也支配建立在生产之上的其他生活领域。",
+      "start_ms": 27640,
+      "end_ms": 34760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s04-n0107",
+      "text": "正因为人身依附关系就是社会基础，劳动和产品不必再披上一层不同于自身实际情况的神秘外衣。",
+      "start_ms": 35760,
+      "end_ms": 45520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s04-n0108",
+      "text": "它们以劳役和实物贡赋的形式直接进入社会运行。",
+      "start_ms": 46360,
+      "end_ms": 51520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s04-n0109",
+      "text": "在这里，劳动直接以各自具体的形式成为社会劳动。",
+      "start_ms": 120,
+      "end_ms": 6600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s04-n0110",
+      "text": "它不需要像商品生产那样，先被归结为没有差别的一般人类劳动。",
+      "start_ms": 7440,
+      "end_ms": 13280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s04-n0111",
+      "text": "农奴替领主服的劳役，也同生产商品的劳动一样按时间计算。",
+      "start_ms": 14000,
+      "end_ms": 19600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s04-n0112",
+      "text": "但每个农奴都清楚，他在给领主干活时耗费的是自己多少劳动力。",
+      "start_ms": 20360,
+      "end_ms": 26320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s04-n0113",
+      "text": "农民交给教士的什一税，也比教士赐下的祝福清楚得多。",
+      "start_ms": 27000,
+      "end_ms": 32600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s04-n0114",
+      "text": "所以，无论怎样评价这些人的社会角色，他们在劳动中形成的社会关系，至少直接表现为人与人之间的关系，并没有伪装成物与物、劳动产品与劳动产品之间的社会关系。",
+      "start_ms": 33400,
+      "end_ms": 49040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch01-s04-n0115",
+      "text": "要考察共同劳动，也就是直接社会化的劳动，我们不必追溯各文明民族早期那种自然形成的共同劳动。",
+      "start_ms": 40,
+      "end_ms": 10680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s04-n0116",
+      "text": "一个更近的例子，是农村父权制农民家庭的生产。",
+      "start_ms": 11280,
+      "end_ms": 16240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s04-n0117",
+      "text": "一家人为了自己生活，生产粮食、牲畜、纱线、麻布、衣服等物品。",
+      "start_ms": 16920,
+      "end_ms": 24920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s04-n0118",
+      "text": "这些东西在家人面前，是家庭共同劳动的不同产品，但它们彼此之间并不是商品。",
+      "start_ms": 25800,
+      "end_ms": 33480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s04-n0119",
+      "text": "生产这些物品的耕种、畜牧、纺纱、织布和缝纫等劳动，都以各自具体的形式直接成为社会劳动，因为它们本来就是这个家庭的共同职能。",
+      "start_ms": 34240,
+      "end_ms": 49120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s04-n0120",
+      "text": "这个家庭和商品生产社会一样，也有自然形成的分工。",
+      "start_ms": 50040,
+      "end_ms": 54760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch01-s04-n0121",
+      "text": "性别、年龄的差别，以及随季节变化的自然条件，决定各种工作怎样分配给家人，也决定每个人劳动多久。",
+      "start_ms": 160,
+      "end_ms": 9520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s04-n0122",
+      "text": "每个人耗费多少劳动力，可以用劳动时间来衡量。",
+      "start_ms": 9960,
+      "end_ms": 13800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s04-n0123",
+      "text": "在这里，这一数量从一开始就直接具有社会意义，因为每个人的劳动力从一开始就只是家庭共同劳动力的一部分。",
+      "start_ms": 14800,
+      "end_ms": 23200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s04-n0124",
+      "text": "最后，我们换一个例子。",
+      "start_ms": 23760,
+      "end_ms": 25360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s04-n0125",
+      "text": "设想一群自由人组成联合体，共同使用生产所需的工具和条件，并且有意识地把各人的劳动力作为一个共同的社会劳动力来使用。",
+      "start_ms": 26000,
+      "end_ms": 37120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s04-n0126",
+      "text": "鲁滨逊劳动中那些基本关系在这里再次出现，只是由个人关系变成了社会关系。",
+      "start_ms": 37920,
+      "end_ms": 44800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch01-s04-n0127",
+      "text": "鲁滨逊生产的一切都只属于他个人，所以直接供他自己使用。",
+      "start_ms": 0,
+      "end_ms": 4720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s04-n0128",
+      "text": "联合体的全部产品却是社会共同产品。",
+      "start_ms": 5480,
+      "end_ms": 8600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s04-n0129",
+      "text": "其中一部分继续用于生产，仍归社会共同所有。",
+      "start_ms": 9120,
+      "end_ms": 12800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s04-n0130",
+      "text": "另一部分作为生活资料，由联合体成员消费，所以必须在成员之间分配。",
+      "start_ms": 13600,
+      "end_ms": 18920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s04-n0131",
+      "text": "具体怎样分配，会随着这种社会生产组织本身的性质，以及生产者相应的历史发展水平而变化。",
+      "start_ms": 19680,
+      "end_ms": 27120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s04-n0132",
+      "text": "这里只是为了同商品生产作比较，我们假定每个生产者分得多少生活资料，由他的劳动时间决定。",
+      "start_ms": 27840,
+      "end_ms": 35240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch01-s04-n0133",
+      "text": "这样，劳动时间就有双重作用。",
+      "start_ms": 280,
+      "end_ms": 2720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s04-n0134",
+      "text": "一方面，社会按计划分配劳动时间，使各种工作同各种需要保持适当比例。",
+      "start_ms": 3080,
+      "end_ms": 8960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s04-n0135",
+      "text": "另一方面，劳动时间又衡量每个生产者在共同劳动中贡献了多少，从而决定他能从共同产品中分得多少供个人消费。",
+      "start_ms": 9360,
+      "end_ms": 19160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s04-n0136",
+      "text": "在这里，无论生产还是分配，人们同自己的劳动和劳动产品之间的社会关系都简单透明。",
+      "start_ms": 20040,
+      "end_ms": 27840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s04-n0137",
+      "text": "在商品生产者的社会里，人们普遍通过商品发生生产关系。",
+      "start_ms": 28600,
+      "end_ms": 33360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s04-n0138",
+      "text": "他们把自己的产品当作商品，也就是当作价值来对待，并借助商品这种物的形式，把各自的私人劳动作为相等的人类劳动联系起来。",
+      "start_ms": 34200,
+      "end_ms": 44920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch01-s04-n0139",
+      "text": "与这种社会最相称的宗教，是崇拜抽象的“人”的基督教，尤其是它在资产阶级社会中发展出的新教、自然神论等形式。",
+      "start_ms": 0,
+      "end_ms": 14266,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s04-n0140",
+      "text": "在古代亚洲、古希腊罗马等生产方式中，产品变成商品、人作为商品生产者存在，都只占次要地位。",
+      "start_ms": 14266,
+      "end_ms": 26109,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s04-n0141",
+      "text": "不过，各个共同体越走向衰落，商品生产的作用就越大。",
+      "start_ms": 26109,
+      "end_ms": 32838,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s04-n0142",
+      "text": "真正以商业为业的民族，只存在于古代世界各社会之间的缝隙里，就像伊壁鸠鲁的诸神生活在诸世界之间，又像犹太人生活在波兰社会的孔隙中。",
+      "start_ms": 32838,
+      "end_ms": 50064,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s04-n0143",
+      "text": "那些古代生产组织远比资产阶级社会简单透明，但它们要么建立在个人尚未成熟的基础上，人还没有剪断自己同天然共同体相连的脐带，要么建立在直接的统治和奴役关系上。",
+      "start_ms": 50064,
+      "end_ms": 70789,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s04-n0144",
+      "text": "它们以劳动生产力的低水平为条件。",
+      "start_ms": 70789,
+      "end_ms": 75096,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch01-s04-n0145",
+      "text": "与此相应，人们在物质生活的生产过程中，在彼此之间以及同自然之间，都处在狭窄的关系中。",
+      "start_ms": 200,
+      "end_ms": 7680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s04-n0146",
+      "text": "这种现实的局限，又在观念上反映为古代的自然宗教和民族宗教。",
+      "start_ms": 7720,
+      "end_ms": 13120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s04-n0147",
+      "text": "只有当日常实践生活中的关系，天天都向人们表现为彼此之间以及同自然之间清楚合理的关系时，现实世界的宗教倒影才可能消失。",
+      "start_ms": 13880,
+      "end_ms": 25680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s04-n0148",
+      "text": "社会生活过程，也就是物质生产过程，只有成为自由联合的人们共同创造的结果，并处在他们自觉而有计划的控制之下，才会摆脱神秘的迷雾。",
+      "start_ms": 26480,
+      "end_ms": 40440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s04-n0149",
+      "text": "不过，这需要一定的社会物质基础，或者说一系列物质生存条件，而这些条件本身又是长期而痛苦的历史发展自然形成的结果。",
+      "start_ms": 41320,
+      "end_ms": 53080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s04-n0150",
+      "text": "政治经济学虽然并不完善，却已经分析了价值和价值量，发现了隐藏在这些形式中的内容。",
+      "start_ms": 53560,
+      "end_ms": 62240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch01-s04-n0151",
+      "text": "但它从来没有追问，为什么这些内容偏偏采取这样的形式。",
+      "start_ms": 0,
+      "end_ms": 4800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s04-n0152",
+      "text": "也就是说，为什么劳动表现为价值，为什么劳动时间表现为劳动产品的价值量。",
+      "start_ms": 5560,
+      "end_ms": 14400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s04-n0153",
+      "text": "这些公式一眼就表明，它们属于这样一种社会：生产过程支配着人，人还没有支配生产过程。",
+      "start_ms": 15240,
+      "end_ms": 25040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s04-n0154",
+      "text": "可是，在资产阶级意识看来，这些公式同生产劳动本身一样，都是不言自明、永恒不变的自然规律。",
+      "start_ms": 25920,
+      "end_ms": 35520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s04-n0155",
+      "text": "因此，政治经济学看待资产阶级社会以前的生产组织，就像基督教教父看待基督教以前的宗教一样。",
+      "start_ms": 36400,
+      "end_ms": 45680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s04-n0156",
+      "text": "商品世界的拜物教，或者说劳动的社会性质看起来像物品自身性质的假象，欺骗了多少经济学家，从那场无聊而荒唐的争论就能看出来：自然在形成交换价值时究竟起什么作用？",
+      "start_ms": 46400,
+      "end_ms": 62080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch01-s04-n0157",
+      "text": "交换价值只是用一种特定的社会方式，表现耗费在物品上的劳动。",
+      "start_ms": 0,
+      "end_ms": 6000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s04-n0158",
+      "text": "因此，它不可能包含自然物质，就像汇率中不可能包含自然物质一样。",
+      "start_ms": 6600,
+      "end_ms": 13200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s04-n0159",
+      "text": "商品形式是资产阶级生产最普遍、也最不发达的形式。",
+      "start_ms": 14040,
+      "end_ms": 18480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s04-n0160",
+      "text": "因此，它在很早时期就已经出现，不过不像今天这样占统治地位，成为这种社会的典型形式。",
+      "start_ms": 19480,
+      "end_ms": 28360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s04-n0161",
+      "text": "正因为商品形式还很简单，它的拜物教性质似乎也比较容易看穿。",
+      "start_ms": 29400,
+      "end_ms": 34920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s04-n0162",
+      "text": "到了更具体的形式，连这种表面上的简单也消失了。",
+      "start_ms": 35720,
+      "end_ms": 40320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch01-s04-n0163",
+      "text": "货币主义体系的错觉从何而来？",
+      "start_ms": 240,
+      "end_ms": 2800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s04-n0164",
+      "text": "它看不出，黄金和白银作为货币代表着一种社会生产关系，只是这种关系表现为具有奇特社会属性的自然物。",
+      "start_ms": 3560,
+      "end_ms": 12600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s04-n0165",
+      "text": "现代经济学自命高明，对货币主义嗤之以鼻。",
+      "start_ms": 13440,
+      "end_ms": 16560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s04-n0166",
+      "text": "可是，它一谈到资本，自己的拜物教不是立刻变得一目了然吗？",
+      "start_ms": 17160,
+      "end_ms": 22000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s04-n0167",
+      "text": "重农学派曾以为地租从土地中长出来，而不是由社会关系产生。",
+      "start_ms": 22320,
+      "end_ms": 27680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s04-n0168",
+      "text": "这种错觉消失至今，又有多久呢？",
+      "start_ms": 28600,
+      "end_ms": 31440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch01-s04-n0169",
+      "text": "不过，为了不提前讨论后面的内容，这里再举一个只涉及商品形式本身的例子就够了。",
+      "start_ms": 0,
+      "end_ms": 8356,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s04-n0170",
+      "text": "假如商品会说话，它们会说：“我们的用处或许对人有意义，但这种用处并不属于我们这些物品本身。",
+      "start_ms": 8356,
+      "end_ms": 18251,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s04-n0171",
+      "text": "作为物品，我们自身具有的是价值。",
+      "start_ms": 18251,
+      "end_ms": 21770,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s04-n0172",
+      "text": "我们这些商品彼此交往的方式证明了这一点，因为我们只把彼此当作交换价值。”",
+      "start_ms": 21770,
+      "end_ms": 29686,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s04-n0173",
+      "text": "现在听听经济学家怎样借商品的灵魂说话：“价值，也就是交换价值，是物的属性。",
+      "start_ms": 29686,
+      "end_ms": 37822,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s04-n0174",
+      "text": "财富，也就是使用价值，是人的属性。",
+      "start_ms": 37822,
+      "end_ms": 41560,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch01-s04-n0175",
+      "text": "这里所说的价值必然包含交换，财富却不需要交换。”",
+      "start_ms": 0,
+      "end_ms": 6889,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s04-n0176",
+      "text": "“财富，也就是使用价值，是人的属性，价值则是商品的属性。",
+      "start_ms": 6889,
+      "end_ms": 14927,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s04-n0177",
+      "text": "一个人或共同体是富有的，珍珠或钻石则是有价值的……” 照这种说法，一颗珍珠或钻石单凭自己是珍珠或钻石就有价值。",
+      "start_ms": 14927,
+      "end_ms": 30428,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s04-n0178",
+      "text": "可是，至今还没有哪位化学家在珍珠或钻石中发现交换价值。",
+      "start_ms": 30428,
+      "end_ms": 38178,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s04-n0179",
+      "text": "这些把交换价值当成一种化学成分的经济学发现家，自称批判得特别深刻，却认为物品的使用价值同物品本身的性质无关，价值反而是物品自身的属性。",
+      "start_ms": 38178,
+      "end_ms": 57411,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s04-n0180",
+      "text": "他们的根据是一个奇怪的事实：物品的使用价值不经交换，在物和人的直接关系中就能实现。",
+      "start_ms": 57411,
+      "end_ms": 69180,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch01-s04-n0181",
+      "text": "相反，物品的价值只能在交换中，也就是在一种社会过程中实现。",
+      "start_ms": 0,
+      "end_ms": 6846,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch01-s04-n0182",
+      "text": "说到这里，谁不会想起善良的道格培里？",
+      "start_ms": 6846,
+      "end_ms": 11096,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch01-s04-n0183",
+      "text": "他这样教导守夜人西科尔：“长得好看，是环境赐予的。",
+      "start_ms": 11096,
+      "end_ms": 16998,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch01-s04-n0184",
+      "text": "会读写，却是天生的。”",
+      "start_ms": 16998,
+      "end_ms": 19595,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0031"
+    }
+  ]
+}

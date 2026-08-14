@@ -1,0 +1,1789 @@
+{
+  "schema_version": 2,
+  "status": "ready",
+  "audio_version_id": "ch04-s01-v2-audio-8975e020f8db",
+  "base_audio_version_id": "ch04-s01-v1-audio-7955003151ae",
+  "reused_chunk_count": 1,
+  "generated_chunk_count": 27,
+  "unit_id": "ch04-s01",
+  "translation_version_id": "ch04-s01-v2",
+  "translation_sha256": "dd9d433f0a8545a088bd3ae332180866f34336c8bee460d405570845e621af10",
+  "config_sha256": "38448e9085aaf6b8a25d2809647fbf6be1b8c3e4ea04d47fc3b4230c313f3e05",
+  "model_id": "seed-audio-1.0",
+  "model_label": "现有模型 1.0",
+  "transport": "audio-create-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-14T20:04:17.182Z",
+  "completed_at": "2026-08-14T20:12:49.551Z",
+  "duration_ms": 1291850,
+  "sentence_count": 168,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 55268,
+      "bytes": 884780,
+      "sha256": "c6d58434732588bbeca90c6547902a9734d31498dfc1e015391c174e0ee51b52",
+      "sentence_ids": [
+        "ch04-s01-n0001",
+        "ch04-s01-n0002",
+        "ch04-s01-n0003",
+        "ch04-s01-n0004",
+        "ch04-s01-n0005",
+        "ch04-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 32886,
+      "bytes": 527661,
+      "sha256": "b93c59e12da01e4fadb9e1c8cf1f9be328c9a03e507d187b55afe1f1f49f6e92",
+      "sentence_ids": [
+        "ch04-s01-n0007",
+        "ch04-s01-n0008",
+        "ch04-s01-n0009",
+        "ch04-s01-n0010",
+        "ch04-s01-n0011",
+        "ch04-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 51200,
+      "bytes": 820653,
+      "sha256": "0b21db135d3c7a662c07420da833175f126387cb2016586668638066595afb49",
+      "sentence_ids": [
+        "ch04-s01-n0013",
+        "ch04-s01-n0014",
+        "ch04-s01-n0015",
+        "ch04-s01-n0016",
+        "ch04-s01-n0017",
+        "ch04-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 45449,
+      "bytes": 728493,
+      "sha256": "b3e71604ace2bb241c4edf96adc6b0a7fd5e2c96a244405b96bfde619ca19a5c",
+      "sentence_ids": [
+        "ch04-s01-n0019",
+        "ch04-s01-n0020",
+        "ch04-s01-n0021",
+        "ch04-s01-n0022",
+        "ch04-s01-n0023",
+        "ch04-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 66900,
+      "bytes": 1071789,
+      "sha256": "dfbd9d1f1702114e5cc6e1064d1101efefcd6f132de847a0396b05f9c74dff9f",
+      "sentence_ids": [
+        "ch04-s01-n0025",
+        "ch04-s01-n0026",
+        "ch04-s01-n0027",
+        "ch04-s01-n0028",
+        "ch04-s01-n0029",
+        "ch04-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 53780,
+      "bytes": 861741,
+      "sha256": "71b932c847b4fa18f50ffbcf590ebddd526814ca31da2bec0c1a0298248eb8dd",
+      "sentence_ids": [
+        "ch04-s01-n0031",
+        "ch04-s01-n0032",
+        "ch04-s01-n0033",
+        "ch04-s01-n0034",
+        "ch04-s01-n0035",
+        "ch04-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 43780,
+      "bytes": 701997,
+      "sha256": "6e6755d620e5e7d91722cd53672fc4856a42e23b3c15bccb9d3c08987c3b248f",
+      "sentence_ids": [
+        "ch04-s01-n0037",
+        "ch04-s01-n0038",
+        "ch04-s01-n0039",
+        "ch04-s01-n0040",
+        "ch04-s01-n0041",
+        "ch04-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 28994,
+      "bytes": 465453,
+      "sha256": "ae854b38a1315dd993bfd863630a69a3da11779bf89671dd0e27f4cce7f4492b",
+      "sentence_ids": [
+        "ch04-s01-n0043",
+        "ch04-s01-n0044",
+        "ch04-s01-n0045",
+        "ch04-s01-n0046",
+        "ch04-s01-n0047",
+        "ch04-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 36942,
+      "bytes": 592557,
+      "sha256": "5b1086b675bf128eb3f0d6c41e4257b576138a58a15a8b0bacd7008ddd1f3e7f",
+      "sentence_ids": [
+        "ch04-s01-n0049",
+        "ch04-s01-n0050",
+        "ch04-s01-n0051",
+        "ch04-s01-n0052",
+        "ch04-s01-n0053",
+        "ch04-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 47400,
+      "bytes": 759597,
+      "sha256": "97436b8c130737d1f392b44a1b653da9093a0d3e1a69963a0ed04ad1a22f94b6",
+      "sentence_ids": [
+        "ch04-s01-n0055",
+        "ch04-s01-n0056",
+        "ch04-s01-n0057",
+        "ch04-s01-n0058",
+        "ch04-s01-n0059",
+        "ch04-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 72565,
+      "bytes": 1162413,
+      "sha256": "9a2cb9c301a4c63cc8420d5cbf8435a049ec21062e3931f024bff407a4e498fe",
+      "sentence_ids": [
+        "ch04-s01-n0061",
+        "ch04-s01-n0062",
+        "ch04-s01-n0063",
+        "ch04-s01-n0064",
+        "ch04-s01-n0065",
+        "ch04-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 32056,
+      "bytes": 514221,
+      "sha256": "0ba113c358b184c6e14db84855ad9ae9b5da3bd32f34fdfffb6e8a0c2becd4da",
+      "sentence_ids": [
+        "ch04-s01-n0067",
+        "ch04-s01-n0068",
+        "ch04-s01-n0069",
+        "ch04-s01-n0070",
+        "ch04-s01-n0071",
+        "ch04-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 45280,
+      "bytes": 725805,
+      "sha256": "dd8bb1fab1482ccb495da3ac3b86d051dda2d3225429df407fc88aac1df4f740",
+      "sentence_ids": [
+        "ch04-s01-n0073",
+        "ch04-s01-n0074",
+        "ch04-s01-n0075",
+        "ch04-s01-n0076",
+        "ch04-s01-n0077",
+        "ch04-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 41728,
+      "bytes": 668973,
+      "sha256": "451f31d747e11e389e354cbd29e7753a69448c7b672a557f6f16f49f18821a30",
+      "sentence_ids": [
+        "ch04-s01-n0079",
+        "ch04-s01-n0080",
+        "ch04-s01-n0081",
+        "ch04-s01-n0082",
+        "ch04-s01-n0083",
+        "ch04-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 42080,
+      "bytes": 674733,
+      "sha256": "b978116322cb57cc0eaa7846eecce476fe7d119d712eb7325e2913916bc4c81b",
+      "sentence_ids": [
+        "ch04-s01-n0085",
+        "ch04-s01-n0086",
+        "ch04-s01-n0087",
+        "ch04-s01-n0088",
+        "ch04-s01-n0089",
+        "ch04-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 32739,
+      "bytes": 525357,
+      "sha256": "a8d1e2e611ebad92a64d5d97b870b3f6a034992c217cb64a14dc04ad71fdc8d1",
+      "sentence_ids": [
+        "ch04-s01-n0091",
+        "ch04-s01-n0092",
+        "ch04-s01-n0093",
+        "ch04-s01-n0094",
+        "ch04-s01-n0095",
+        "ch04-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 42799,
+      "bytes": 686253,
+      "sha256": "cbf676dc9ff32339ce9b286a331ed554abbd583767a1a859f0b9506d53b698ac",
+      "sentence_ids": [
+        "ch04-s01-n0097",
+        "ch04-s01-n0098",
+        "ch04-s01-n0099",
+        "ch04-s01-n0100",
+        "ch04-s01-n0101",
+        "ch04-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 35879,
+      "bytes": 575277,
+      "sha256": "9115d8e80ee898b49b5bfa1be6ed165a21b3e80c824f80df3195c5ff0eb7027d",
+      "sentence_ids": [
+        "ch04-s01-n0103",
+        "ch04-s01-n0104",
+        "ch04-s01-n0105",
+        "ch04-s01-n0106",
+        "ch04-s01-n0107",
+        "ch04-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 44253,
+      "bytes": 709293,
+      "sha256": "5598a776d4871f200da5137d1b6cfa71108735836f04f7cc9c6c2007e505949a",
+      "sentence_ids": [
+        "ch04-s01-n0109",
+        "ch04-s01-n0110",
+        "ch04-s01-n0111",
+        "ch04-s01-n0112",
+        "ch04-s01-n0113",
+        "ch04-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 47700,
+      "bytes": 764589,
+      "sha256": "8ea462d8daea627644b26d34a8a1219e557cce4e32b5c3b06f9fc30e056607cc",
+      "sentence_ids": [
+        "ch04-s01-n0115",
+        "ch04-s01-n0116",
+        "ch04-s01-n0117",
+        "ch04-s01-n0118",
+        "ch04-s01-n0119",
+        "ch04-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 52690,
+      "bytes": 844461,
+      "sha256": "3e24b2520d32156bbf5d7f721d395970a0f5bb0b2f3c029050db71afae7bd150",
+      "sentence_ids": [
+        "ch04-s01-n0121",
+        "ch04-s01-n0122",
+        "ch04-s01-n0123",
+        "ch04-s01-n0124",
+        "ch04-s01-n0125",
+        "ch04-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 43437,
+      "bytes": 696237,
+      "sha256": "67456eec8782884ba7813f8bc63198c1f635dddf3676f73802008cfae25b2bf0",
+      "sentence_ids": [
+        "ch04-s01-n0127",
+        "ch04-s01-n0128",
+        "ch04-s01-n0129",
+        "ch04-s01-n0130",
+        "ch04-s01-n0131",
+        "ch04-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 46200,
+      "bytes": 740397,
+      "sha256": "e0d6c1a614f616d8e32b55226391ac095b9d1abd270702ee6c9719d76fc4c415",
+      "sentence_ids": [
+        "ch04-s01-n0133",
+        "ch04-s01-n0134",
+        "ch04-s01-n0135",
+        "ch04-s01-n0136",
+        "ch04-s01-n0137",
+        "ch04-s01-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 46080,
+      "bytes": 738477,
+      "sha256": "2f979d6784a00719a5b1c718de2c9fd377cc449a0584e796c8c1d53b302ba1b8",
+      "sentence_ids": [
+        "ch04-s01-n0139",
+        "ch04-s01-n0140",
+        "ch04-s01-n0141",
+        "ch04-s01-n0142",
+        "ch04-s01-n0143",
+        "ch04-s01-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 43900,
+      "bytes": 703917,
+      "sha256": "45f4d483d2226164201704fa7e2b1665b6b538f9476e4d63b1a9a06961b67292",
+      "sentence_ids": [
+        "ch04-s01-n0145",
+        "ch04-s01-n0146",
+        "ch04-s01-n0147",
+        "ch04-s01-n0148",
+        "ch04-s01-n0149",
+        "ch04-s01-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 43200,
+      "bytes": 692397,
+      "sha256": "cc6da6c1bad1806e703971b4ed38ced83d06b4dad6096255203d6a560d8c6e7d",
+      "sentence_ids": [
+        "ch04-s01-n0151",
+        "ch04-s01-n0152",
+        "ch04-s01-n0153",
+        "ch04-s01-n0154",
+        "ch04-s01-n0155",
+        "ch04-s01-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 60780,
+      "bytes": 973869,
+      "sha256": "635bd7ad8f1e0efcbe4700cccf4f7581711478b0c89408fd5ae3be2fd5907280",
+      "sentence_ids": [
+        "ch04-s01-n0157",
+        "ch04-s01-n0158",
+        "ch04-s01-n0159",
+        "ch04-s01-n0160",
+        "ch04-s01-n0161",
+        "ch04-s01-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 55885,
+      "bytes": 895533,
+      "sha256": "323a705fa29ad61f8b5553a153e0d2586e62f0e744aa58fc0ebe3fbb153435ea",
+      "sentence_ids": [
+        "ch04-s01-n0163",
+        "ch04-s01-n0164",
+        "ch04-s01-n0165",
+        "ch04-s01-n0166",
+        "ch04-s01-n0167",
+        "ch04-s01-n0168"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch04-s01-n0001",
+      "text": "商品流通是资本的起点。",
+      "start_ms": 0,
+      "end_ms": 1840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch04-s01-n0002",
+      "text": "商品生产和充分发展的商品流通，也就是贸易，是资本产生的历史前提。",
+      "start_ms": 2720,
+      "end_ms": 9000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch04-s01-n0003",
+      "text": "16世纪兴起的世界贸易和世界市场，开启了资本的现代历史。",
+      "start_ms": 9280,
+      "end_ms": 14680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch04-s01-n0004",
+      "text": "现在先不看商品流通的物质内容，也就是各种使用价值之间的交换，只看这个过程产生的经济形式。",
+      "start_ms": 15400,
+      "end_ms": 23320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch04-s01-n0005",
+      "text": "这样就会发现，商品流通的最终产物是货币，而货币正是资本最初的表现形式。",
+      "start_ms": 23960,
+      "end_ms": 33840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch04-s01-n0006",
+      "text": "从历史上看，资本最初总是以货币形式同土地所有权相对立，表现为货币财富、商业资本和高利贷资本。",
+      "start_ms": 34360,
+      "end_ms": 55080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch04-s01-n0007",
+      "text": "商业资本中，商人先拿货币买进商品，再卖出换回货币。",
+      "start_ms": 120,
+      "end_ms": 5400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch04-s01-n0008",
+      "text": "高利贷资本中，放贷者把货币借出去，再收回货币。",
+      "start_ms": 5680,
+      "end_ms": 10160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch04-s01-n0009",
+      "text": "这些都是资本在历史上以货币出现的形式。",
+      "start_ms": 10880,
+      "end_ms": 14760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch04-s01-n0010",
+      "text": "不过，要看出货币是资本最初的表现形式，并不需要追溯资本的起源。",
+      "start_ms": 15880,
+      "end_ms": 21920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch04-s01-n0011",
+      "text": "这段历史每天都在我们眼前重演。",
+      "start_ms": 22480,
+      "end_ms": 24880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch04-s01-n0012",
+      "text": "每一笔新资本刚登上市场时，无论进入商品市场、劳动力市场还是货币市场，起初都表现为货币。",
+      "start_ms": 25400,
+      "end_ms": 32600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch04-s01-n0013",
+      "text": "它必须经过一定过程，才会转化为资本。",
+      "start_ms": 0,
+      "end_ms": 4452,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch04-s01-n0014",
+      "text": "货币只是货币，还是成为资本，最初的区别只在于它采取哪一种流通形式。",
+      "start_ms": 4452,
+      "end_ms": 12614,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch04-s01-n0015",
+      "text": "商品流通最直接的形式是“商品—货币—商品”：先把商品变成货币，再把货币变回商品，也就是为了购买而出售。",
+      "start_ms": 12614,
+      "end_ms": 25229,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch04-s01-n0016",
+      "text": "除此之外，还有另一种性质不同的形式：“货币—商品—货币”：先把货币变成商品，再把商品变回货币，也就是为了出售而购买。",
+      "start_ms": 25229,
+      "end_ms": 39575,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch04-s01-n0017",
+      "text": "货币只要沿着后一条路线运动，就会转化为资本，成为资本。",
+      "start_ms": 39575,
+      "end_ms": 46253,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch04-s01-n0018",
+      "text": "从运动一开始，它的目的就已经是成为资本。",
+      "start_ms": 46253,
+      "end_ms": 51200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch04-s01-n0019",
+      "text": "现在仔细考察 G—W—G 这条流通路线。",
+      "start_ms": 160,
+      "end_ms": 4840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch04-s01-n0020",
+      "text": "它同简单商品流通一样，也经历两个方向相反的阶段。",
+      "start_ms": 5320,
+      "end_ms": 10760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch04-s01-n0021",
+      "text": "第一阶段是 G—W，也就是购买：货币变成商品。",
+      "start_ms": 11640,
+      "end_ms": 16320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch04-s01-n0022",
+      "text": "第二阶段是 W—G，也就是出售：商品重新变成货币。",
+      "start_ms": 16800,
+      "end_ms": 22880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch04-s01-n0023",
+      "text": "两个阶段合在一起，形成这样的完整运动：先用货币换取商品，再把同一商品换回货币，也就是买进商品再卖出去。",
+      "start_ms": 23240,
+      "end_ms": 34360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch04-s01-n0024",
+      "text": "如果暂且不管购买和出售在形式上的差别，也可以说，先用货币买商品，再用商品买货币。",
+      "start_ms": 35160,
+      "end_ms": 44840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch04-s01-n0025",
+      "text": "整个过程最后归结为货币同货币的交换，也就是 G—G。",
+      "start_ms": 0,
+      "end_ms": 5040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch04-s01-n0026",
+      "text": "假如我用 100 英镑买进 2000 磅棉花，再把这 2000 磅棉花卖出 110 英镑，那么最终发生的，就是用 100 英镑换到 110 英镑，也就是货币换货币。",
+      "start_ms": 6160,
+      "end_ms": 20800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch04-s01-n0027",
+      "text": "显然，如果 G—W—G 绕了一圈，只是把同一笔货币价值换回同一笔货币价值，比如用 100 英镑换回 100 英镑，这个过程就既荒唐又毫无内容。",
+      "start_ms": 21600,
+      "end_ms": 37240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch04-s01-n0028",
+      "text": "储藏货币的人把 100 英镑牢牢握在手里，不让它冒流通的风险，反而简单得多，也稳妥得多。",
+      "start_ms": 38160,
+      "end_ms": 46440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch04-s01-n0029",
+      "text": "不过，商人用 100 英镑买来的棉花，无论后来卖到 110 英镑、100 英镑，还是不得不以 50 英镑脱手，他的货币都经历了一种特殊的运动。",
+      "start_ms": 47080,
+      "end_ms": 59120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch04-s01-n0030",
+      "text": "这种运动同简单商品流通完全不同，比如农民卖掉粮食，再用所得货币购买衣服。",
+      "start_ms": 59840,
+      "end_ms": 66840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch04-s01-n0031",
+      "text": "因此，我们首先要说明 G—W—G 和 W—G—W 这两种循环在形式上有什么不同。",
+      "start_ms": 40,
+      "end_ms": 8360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch04-s01-n0032",
+      "text": "形式差别背后隐藏的内容差别，也会随之显现出来。",
+      "start_ms": 9600,
+      "end_ms": 14480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch04-s01-n0033",
+      "text": "先看这两种形式有什么共同点。",
+      "start_ms": 15200,
+      "end_ms": 17960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch04-s01-n0034",
+      "text": "两种循环都分成同样两个方向相反的阶段：W—G，即出售，以及 G—W，即购买。",
+      "start_ms": 18640,
+      "end_ms": 27880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch04-s01-n0035",
+      "text": "每个阶段中相对而立的，都是商品和货币这两个实际要素，以及分别以买者和卖者身份出现的两个人。",
+      "start_ms": 28680,
+      "end_ms": 39000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch04-s01-n0036",
+      "text": "两种循环都把同样两个相反阶段连成一个整体，也都由三名交易者促成：一人只卖，一人只买，第三人则既买又卖，先后承担两种角色。",
+      "start_ms": 39800,
+      "end_ms": 53680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch04-s01-n0037",
+      "text": "W—G—W 和 G—W—G 从一开始就有一个区别：同样两个相反的流通阶段，排列顺序正好颠倒。",
+      "start_ms": 0,
+      "end_ms": 10640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch04-s01-n0038",
+      "text": "简单商品流通从出售开始，以购买结束。",
+      "start_ms": 11240,
+      "end_ms": 15480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch04-s01-n0039",
+      "text": "货币作为资本的流通则从购买开始，以出售结束。",
+      "start_ms": 16240,
+      "end_ms": 21960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch04-s01-n0040",
+      "text": "在前一种循环中，商品是运动的起点和终点。",
+      "start_ms": 22680,
+      "end_ms": 27960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch04-s01-n0041",
+      "text": "在后一种循环中，货币才是起点和终点。",
+      "start_ms": 28600,
+      "end_ms": 32840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch04-s01-n0042",
+      "text": "前一种循环由货币连接整个过程，后一种循环则反过来，由商品连接整个过程。",
+      "start_ms": 33520,
+      "end_ms": 43560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch04-s01-n0043",
+      "text": "在“商品—货币—商品”的流通中，货币最后变成商品，供人使用。",
+      "start_ms": 0,
+      "end_ms": 5760,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch04-s01-n0044",
+      "text": "钱就此花掉，不会再回来。",
+      "start_ms": 5760,
+      "end_ms": 8065,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch04-s01-n0045",
+      "text": "相反，在“货币—商品—货币”的流通中，买者花钱，是为了以后作为卖者收回钱。",
+      "start_ms": 8065,
+      "end_ms": 15169,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch04-s01-n0046",
+      "text": "他购买商品时把货币投入流通，出售同一商品时又把货币从流通中取回。",
+      "start_ms": 15169,
+      "end_ms": 21313,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch04-s01-n0047",
+      "text": "他放手货币时，早就盘算着再次把它拿回来。",
+      "start_ms": 21313,
+      "end_ms": 25154,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch04-s01-n0048",
+      "text": "因此，这笔钱不是最终花掉，而是预付出去。",
+      "start_ms": 25154,
+      "end_ms": 28994,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch04-s01-n0049",
+      "text": "在“商品—货币—商品”中，同一笔货币换了两次位置。",
+      "start_ms": 0,
+      "end_ms": 6414,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch04-s01-n0050",
+      "text": "卖者先从一个买者手中收到钱，再把钱交给另一个卖者。",
+      "start_ms": 6414,
+      "end_ms": 12827,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch04-s01-n0051",
+      "text": "整个过程从卖出商品、收到货币开始，到买入商品、交出货币结束。",
+      "start_ms": 12827,
+      "end_ms": 20523,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch04-s01-n0052",
+      "text": "“货币—商品—货币”正好相反。",
+      "start_ms": 20523,
+      "end_ms": 24371,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch04-s01-n0053",
+      "text": "这里换两次位置的不是同一笔货币，而是同一件商品。",
+      "start_ms": 24371,
+      "end_ms": 30528,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch04-s01-n0054",
+      "text": "买者从一个卖者手中取得商品，又把它交给另一个买者。",
+      "start_ms": 30528,
+      "end_ms": 36942,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch04-s01-n0055",
+      "text": "在简单商品流通中，同一笔货币换手两次，最后从一个人手中转到另一个人手中。",
+      "start_ms": 0,
+      "end_ms": 8841,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch04-s01-n0056",
+      "text": "在后一种流通中，同一件商品换手两次，货币则流回最初的出发点。",
+      "start_ms": 8841,
+      "end_ms": 16209,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch04-s01-n0057",
+      "text": "货币能否流回出发点，并不取决于商品是否卖得比买入时更贵。",
+      "start_ms": 16209,
+      "end_ms": 23086,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch04-s01-n0058",
+      "text": "售价高低只会影响流回多少钱。",
+      "start_ms": 23086,
+      "end_ms": 26524,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch04-s01-n0059",
+      "text": "只要买来的商品再次卖出，“货币—商品—货币”的循环就完成了，货币也会流回。",
+      "start_ms": 26524,
+      "end_ms": 35611,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch04-s01-n0060",
+      "text": "因此，货币作为资本的流通，同货币只是货币时的流通，有一个直接可见的区别：前者会让货币回到出发点。",
+      "start_ms": 35611,
+      "end_ms": 47400,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch04-s01-n0061",
+      "text": "“商品—货币—商品”的循环，在卖出一种商品获得货币、再用货币买到另一种商品时就完成了。",
+      "start_ms": 0,
+      "end_ms": 14859,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch04-s01-n0062",
+      "text": "如果货币后来又回到原主手里，那只是因为整个过程重新发生了一次。",
+      "start_ms": 14859,
+      "end_ms": 25571,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch04-s01-n0063",
+      "text": "比如，我把1夸特小麦卖3英镑，再用这3英镑买衣服，这笔钱对我来说就已经花完。",
+      "start_ms": 25571,
+      "end_ms": 38701,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch04-s01-n0064",
+      "text": "我同它再没有关系，它现在属于服装商。",
+      "start_ms": 38701,
+      "end_ms": 44921,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch04-s01-n0065",
+      "text": "假如我又卖出1夸特小麦，钱确实会再次流到我手里，但那不是第一次交易带来的回流，而是因为我又做了一次同样的交易。",
+      "start_ms": 44921,
+      "end_ms": 63926,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch04-s01-n0066",
+      "text": "等我再次买东西、完成第二轮交易，这笔钱又会离开我。",
+      "start_ms": 63926,
+      "end_ms": 72565,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch04-s01-n0067",
+      "text": "因此，在“商品—货币—商品”中，钱怎样花出去，同它以后是否回来没有关系。",
+      "start_ms": 0,
+      "end_ms": 7037,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch04-s01-n0068",
+      "text": "“货币—商品—货币”则不同。",
+      "start_ms": 7037,
+      "end_ms": 9773,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch04-s01-n0069",
+      "text": "钱会不会回来，正是由它最初花出去的方式决定的。",
+      "start_ms": 9773,
+      "end_ms": 14269,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch04-s01-n0070",
+      "text": "如果钱没有回来，这次操作就失败了，或者还没有完成，因为买入之后还缺少一次出售来补足并结束整个过程。",
+      "start_ms": 14269,
+      "end_ms": 23847,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch04-s01-n0071",
+      "text": "“商品—货币—商品”从一种商品出发，以另一种商品结束。",
+      "start_ms": 23847,
+      "end_ms": 29124,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch04-s01-n0072",
+      "text": "后一种商品离开流通，进入消费。",
+      "start_ms": 29124,
+      "end_ms": 32056,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch04-s01-n0073",
+      "text": "因此，这个循环的最终目的是消费、满足需要，也就是获得使用价值。",
+      "start_ms": 0,
+      "end_ms": 7886,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch04-s01-n0074",
+      "text": "“货币—商品—货币”则从货币出发，最后又回到货币。",
+      "start_ms": 7886,
+      "end_ms": 14245,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch04-s01-n0075",
+      "text": "它的目的不在于得到某种商品来使用，而在于让价值以可以同别的商品交换的货币形式回到手里。",
+      "start_ms": 14245,
+      "end_ms": 25184,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch04-s01-n0076",
+      "text": "换句话说，它追求的是交换价值本身。",
+      "start_ms": 25184,
+      "end_ms": 29508,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch04-s01-n0077",
+      "text": "在简单商品流通中，循环两端具有同一种经济形式：两端都是商品，而且价值量相等。",
+      "start_ms": 29508,
+      "end_ms": 39175,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch04-s01-n0078",
+      "text": "不过，它们是性质不同的使用价值，比如粮食和衣服。",
+      "start_ms": 39175,
+      "end_ms": 45280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch04-s01-n0079",
+      "text": "社会劳动表现为各种不同的物品，这些物品彼此交换、发生转换，正是这种运动的内容。",
+      "start_ms": 80,
+      "end_ms": 7200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch04-s01-n0080",
+      "text": "G—W—G 的流通却不同。",
+      "start_ms": 7200,
+      "end_ms": 10280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch04-s01-n0081",
+      "text": "乍看起来，它只是同义反复，似乎没有内容。",
+      "start_ms": 10800,
+      "end_ms": 14200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch04-s01-n0082",
+      "text": "循环两端具有同一种经济形式，都是货币。",
+      "start_ms": 15000,
+      "end_ms": 18640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch04-s01-n0083",
+      "text": "货币是商品转化后的形态，各种商品原有的特殊用处已经在这种形态中消失，所以两端不存在性质不同的使用价值。",
+      "start_ms": 19560,
+      "end_ms": 30080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch04-s01-n0084",
+      "text": "先用 100 英镑买棉花，再把同一批棉花卖回 100 英镑，就是绕道用货币换货币、用同一个东西换回同一个东西。",
+      "start_ms": 31080,
+      "end_ms": 41080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch04-s01-n0085",
+      "text": "这种做法既无目的，也很荒唐。",
+      "start_ms": 0,
+      "end_ms": 2400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch04-s01-n0086",
+      "text": "两笔货币之间只能有数量上的差别。",
+      "start_ms": 2960,
+      "end_ms": 5920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch04-s01-n0087",
+      "text": "因此，G—W—G 的内容不可能来自循环两端的性质差别，只能来自数量差别。",
+      "start_ms": 6720,
+      "end_ms": 14480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch04-s01-n0088",
+      "text": "这个过程结束时，从流通中取出的货币多于最初投入的货币。",
+      "start_ms": 15360,
+      "end_ms": 21240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch04-s01-n0089",
+      "text": "例如，用 100 英镑买来的棉花，后来卖到 100 + 10 英镑，也就是 110 英镑。",
+      "start_ms": 21960,
+      "end_ms": 29320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch04-s01-n0090",
+      "text": "因此，这个过程的完整形式是 G—W—G′，其中 G′ = G + ΔG，也就是原先垫付的货币加上一个增加额。",
+      "start_ms": 30280,
+      "end_ms": 41920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch04-s01-n0091",
+      "text": "这个增加额，也就是超过原有价值的余额，叫作剩余价值（surplus value）。",
+      "start_ms": 0,
+      "end_ms": 7079,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch04-s01-n0092",
+      "text": "原先垫付的价值不仅在流通中保存下来，还改变了自己的大小，增加了剩余价值，也就是实现了价值增殖。",
+      "start_ms": 7079,
+      "end_ms": 15396,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch04-s01-n0093",
+      "text": "正是这种运动把价值变成了资本。",
+      "start_ms": 15396,
+      "end_ms": 18051,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch04-s01-n0094",
+      "text": "在 W—G—W 中，循环两端的两个商品，比如粮食和衣服，也可能具有不同的价值量。",
+      "start_ms": 18051,
+      "end_ms": 24775,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch04-s01-n0095",
+      "text": "农民可以把粮食卖得高于价值，也可以用低于价值的价格买到衣服。",
+      "start_ms": 24775,
+      "end_ms": 30084,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch04-s01-n0096",
+      "text": "他也可能反过来受衣服商人欺骗。",
+      "start_ms": 30084,
+      "end_ms": 32739,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch04-s01-n0097",
+      "text": "可是，这种价值差别对 W—G—W 这种流通形式本身来说，只是偶然情况。",
+      "start_ms": 160,
+      "end_ms": 7720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch04-s01-n0098",
+      "text": "即使粮食和衣服价值相等，这个过程也不会像 G—W—G 那样几乎失去意义。",
+      "start_ms": 8480,
+      "end_ms": 14960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch04-s01-n0099",
+      "text": "恰恰相反，两端价值相等，才是 W—G—W 正常进行的条件。",
+      "start_ms": 15640,
+      "end_ms": 21880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch04-s01-n0100",
+      "text": "为了购买而反复出售，目的在这个过程之外，也就是消费和满足某种需要。",
+      "start_ms": 22720,
+      "end_ms": 29560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch04-s01-n0101",
+      "text": "这个外在目的给运动规定了限度和终点。",
+      "start_ms": 30280,
+      "end_ms": 33720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch04-s01-n0102",
+      "text": "为了出售而购买则不同，它的起点和终点都是同一个东西，也就是货币、交换价值。",
+      "start_ms": 34520,
+      "end_ms": 42480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch04-s01-n0103",
+      "text": "单凭这一点，这种运动就没有终点。",
+      "start_ms": 40,
+      "end_ms": 2800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch04-s01-n0104",
+      "text": "G 的确变成了 G + ΔG，100 英镑变成了 100 + 10 英镑。",
+      "start_ms": 3800,
+      "end_ms": 9080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch04-s01-n0105",
+      "text": "但是从性质上看，110 英镑和 100 英镑没有区别，都是货币。",
+      "start_ms": 9880,
+      "end_ms": 15040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch04-s01-n0106",
+      "text": "从数量上看，110 英镑也同 100 英镑一样，仍是一笔有限的价值。",
+      "start_ms": 15520,
+      "end_ms": 21240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch04-s01-n0107",
+      "text": "如果把这 110 英镑作为货币花掉，它们就离开了资本的角色。",
+      "start_ms": 22160,
+      "end_ms": 27080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch04-s01-n0108",
+      "text": "如果把它们撤出流通，它们就凝固成贮藏货币，哪怕一直存到世界末日，也不会自行增加一个小钱。",
+      "start_ms": 27720,
+      "end_ms": 35400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch04-s01-n0109",
+      "text": "既然目的已经变成价值增殖，那么 110 英镑同 100 英镑一样，都需要继续增殖。",
+      "start_ms": 0,
+      "end_ms": 7580,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch04-s01-n0110",
+      "text": "两者都是有限的交换价值，都只能靠继续增大数额，向无限的财富靠近。",
+      "start_ms": 7580,
+      "end_ms": 14136,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch04-s01-n0111",
+      "text": "原先垫付的 100 英镑，确实会暂时同流通中增加的 10 英镑剩余价值区别开来，但这个区别随即又消失了。",
+      "start_ms": 14136,
+      "end_ms": 23970,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch04-s01-n0112",
+      "text": "过程结束时，不是一边留下原来的 100 英镑，另一边留下 10 英镑剩余价值。",
+      "start_ms": 23970,
+      "end_ms": 31141,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch04-s01-n0113",
+      "text": "最后得到的是一笔统一的 110 英镑，它同最初的 100 英镑一样，完全适合重新开始价值增殖。",
+      "start_ms": 31141,
+      "end_ms": 39951,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch04-s01-n0114",
+      "text": "货币在运动结束时，又回到运动开始时的形态。",
+      "start_ms": 39951,
+      "end_ms": 44253,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch04-s01-n0115",
+      "text": "因此，每一次为了出售而购买的循环一结束，就会自动成为下一次循环的起点。",
+      "start_ms": 80,
+      "end_ms": 7640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch04-s01-n0116",
+      "text": "简单商品流通是为了购买而出售，它只是实现流通之外目的的手段，也就是取得使用价值、满足需要。",
+      "start_ms": 8960,
+      "end_ms": 20400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch04-s01-n0117",
+      "text": "货币作为资本的流通却把自身当作目的，因为价值只有在这种不断更新的运动中才能增殖。",
+      "start_ms": 21080,
+      "end_ms": 29120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch04-s01-n0118",
+      "text": "因此，资本的运动没有限度。",
+      "start_ms": 29840,
+      "end_ms": 33000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch04-s01-n0119",
+      "text": "货币所有者有意识地承担这种运动，就成了资本家。",
+      "start_ms": 33920,
+      "end_ms": 38960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch04-s01-n0120",
+      "text": "他本人，更确切地说是他的钱袋，是货币的起点和返回点。",
+      "start_ms": 39840,
+      "end_ms": 47560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch04-s01-n0121",
+      "text": "这种流通的客观内容是价值增殖，它也成了资本家的主观目的。",
+      "start_ms": 80,
+      "end_ms": 7320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch04-s01-n0122",
+      "text": "只有当不断占有更多抽象财富成为他的唯一动机时，他才作为资本家发挥作用，也就是成为具有意志和意识的人格化资本。",
+      "start_ms": 8000,
+      "end_ms": 21680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch04-s01-n0123",
+      "text": "因此，使用价值从来不是资本家的直接目的。",
+      "start_ms": 22560,
+      "end_ms": 26880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch04-s01-n0124",
+      "text": "他的目的也不是某一次孤立的利润，而是永不停歇的获利运动。",
+      "start_ms": 27560,
+      "end_ms": 33920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch04-s01-n0125",
+      "text": "这种绝对的发财欲，这种追逐价值的狂热，既属于资本家，也属于贮藏货币的人。",
+      "start_ms": 34800,
+      "end_ms": 44120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch04-s01-n0126",
+      "text": "不过，贮藏货币的人只是疯狂的资本家，资本家则是理性的货币贮藏者。",
+      "start_ms": 44600,
+      "end_ms": 52440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch04-s01-n0127",
+      "text": "贮藏货币的人试图把钱从流通中救出来，以此不断增加价值。",
+      "start_ms": 40,
+      "end_ms": 4720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch04-s01-n0128",
+      "text": "更精明的资本家却把钱一次又一次投入流通，从而实现价值的不断增加。",
+      "start_ms": 5240,
+      "end_ms": 11160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch04-s01-n0129",
+      "text": "在简单流通中，商品价值会取得独立的货币形式，但这种形式只用来促成商品交换，并在运动的最终结果中消失。",
+      "start_ms": 11600,
+      "end_ms": 21240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch04-s01-n0130",
+      "text": "在 G—W—G 的流通中，商品和货币却只是价值本身的两种存在方式。",
+      "start_ms": 21880,
+      "end_ms": 28120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch04-s01-n0131",
+      "text": "货币是价值的一般形式，商品是价值的特殊形式，可以说只是价值披上的外衣。",
+      "start_ms": 28880,
+      "end_ms": 36080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch04-s01-n0132",
+      "text": "价值不断从一种形式转到另一种形式，在这种运动中并不消失。",
+      "start_ms": 36800,
+      "end_ms": 43120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch04-s01-n0133",
+      "text": "于是，价值就成了一个仿佛能自行运动的主体。",
+      "start_ms": 40,
+      "end_ms": 5520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch04-s01-n0134",
+      "text": "如果只抓住价值在自行增殖的循环中交替采取的具体形式，就会得到这样的定义：资本是货币，资本是商品。",
+      "start_ms": 6440,
+      "end_ms": 19360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch04-s01-n0135",
+      "text": "但实际上，价值在这里成了一个过程的主体。",
+      "start_ms": 20120,
+      "end_ms": 24520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch04-s01-n0136",
+      "text": "它不断在货币形式和商品形式之间转换，同时改变自己的大小。",
+      "start_ms": 25280,
+      "end_ms": 32240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch04-s01-n0137",
+      "text": "它从原有价值中分出剩余价值，又使自身增殖。",
+      "start_ms": 32680,
+      "end_ms": 37720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch04-s01-n0138",
+      "text": "增加剩余价值的运动是价值自己的运动，所以价值增殖也就是自行增殖。",
+      "start_ms": 38640,
+      "end_ms": 46040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch04-s01-n0139",
+      "text": "价值仿佛取得了一种神秘能力，仅仅因为自己是价值，就能创造价值。",
+      "start_ms": 80,
+      "end_ms": 6640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch04-s01-n0140",
+      "text": "它会生出活生生的后代，至少也会下出金蛋。",
+      "start_ms": 7240,
+      "end_ms": 12320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch04-s01-n0141",
+      "text": "在这个过程中，价值一会儿采取货币形式，一会儿采取商品形式，又不断脱下这两种形式。",
+      "start_ms": 13240,
+      "end_ms": 23120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch04-s01-n0142",
+      "text": "它在变化中始终保持为同一份价值，并且不断扩大。",
+      "start_ms": 23920,
+      "end_ms": 29160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch04-s01-n0143",
+      "text": "要确认前后始终是同一个价值，它首先需要一种独立形式，而这种形式只有货币能够提供。",
+      "start_ms": 29800,
+      "end_ms": 39120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch04-s01-n0144",
+      "text": "因此，每个价值增殖过程都从货币开始，又以货币结束。",
+      "start_ms": 40000,
+      "end_ms": 45960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch04-s01-n0145",
+      "text": "原来是100英镑，现在是110英镑，依此类推。",
+      "start_ms": 0,
+      "end_ms": 4320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch04-s01-n0146",
+      "text": "不过，货币在这里也只是价值的一种形式，因为价值还必须采取商品形式。",
+      "start_ms": 5240,
+      "end_ms": 12520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch04-s01-n0147",
+      "text": "货币如果不变成商品，就不会成为资本。",
+      "start_ms": 13560,
+      "end_ms": 17560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch04-s01-n0148",
+      "text": "因此，资本同货币贮藏不同，并不排斥商品。",
+      "start_ms": 18320,
+      "end_ms": 22800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch04-s01-n0149",
+      "text": "资本家知道，无论商品外表多么破烂，气味多么难闻，骨子里都是货币，而且是能把货币变成更多货币的神奇手段。",
+      "start_ms": 23560,
+      "end_ms": 34760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch04-s01-n0150",
+      "text": "在简单流通中，商品价值面对商品的使用价值，最多只是取得货币这种独立形式。",
+      "start_ms": 35560,
+      "end_ms": 43760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch04-s01-n0151",
+      "text": "到了这里，价值却成了一个持续运动、仿佛自己推动自己的东西，商品和货币都只是它暂时采取的形式。",
+      "start_ms": 120,
+      "end_ms": 8520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch04-s01-n0152",
+      "text": "不仅如此，价值现在不再只是表示商品之间的关系，而像是同自己发生了关系。",
+      "start_ms": 9400,
+      "end_ms": 15840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch04-s01-n0153",
+      "text": "它把自己分成原有价值和剩余价值。",
+      "start_ms": 16640,
+      "end_ms": 19560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch04-s01-n0154",
+      "text": "原有的100英镑和新增的10英镑，就像圣父与圣子，年龄相同，实际上又只是同一个人。",
+      "start_ms": 20280,
+      "end_ms": 28480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch04-s01-n0155",
+      "text": "因为只有增加的10英镑，才使预付的100英镑成为资本。",
+      "start_ms": 29200,
+      "end_ms": 33400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch04-s01-n0156",
+      "text": "新增的10英镑一旦产生，原有的100英镑也随之成为资本，二者的区别又随即消失，合在一起成为110英镑。",
+      "start_ms": 34280,
+      "end_ms": 43160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch04-s01-n0157",
+      "text": "因此，价值成了运动中的价值，货币也成了运动中的货币。",
+      "start_ms": 0,
+      "end_ms": 6992,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch04-s01-n0158",
+      "text": "它以这种身份成为资本。",
+      "start_ms": 6992,
+      "end_ms": 9951,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch04-s01-n0159",
+      "text": "资本从流通中产生，又重新进入流通，在流通中保存自己并增加自己，随后带着增量回到出发点，再一次开始同样的循环。",
+      "start_ms": 9951,
+      "end_ms": 24473,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch04-s01-n0160",
+      "text": "如果把比原来更多的货币写作“货币′”，资本的运动就可以简写为“货币—货币′”，也就是会生出更多货币的货币。",
+      "start_ms": 24473,
+      "end_ms": 38727,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch04-s01-n0161",
+      "text": "最早解释资本的重商主义者，正是这样描述资本的。",
+      "start_ms": 38727,
+      "end_ms": 44913,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch04-s01-n0162",
+      "text": "为了出售而购买，更完整地说，为了以更高价格出售而购买，也就是“货币—商品—货币′”，看起来似乎只是商业资本特有的形式。",
+      "start_ms": 44913,
+      "end_ms": 60780,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch04-s01-n0163",
+      "text": "可是，产业资本同样从货币开始，先变成商品，再通过出售商品变回更多货币。",
+      "start_ms": 0,
+      "end_ms": 11306,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch04-s01-n0164",
+      "text": "买入和卖出之间即使在流通之外还发生生产活动，也不改变这条运动路线。",
+      "start_ms": 11306,
+      "end_ms": 21966,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch04-s01-n0165",
+      "text": "到了生息资本，整个过程则被缩短了。",
+      "start_ms": 21966,
+      "end_ms": 27458,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch04-s01-n0166",
+      "text": "中间环节不再表现出来，只留下简洁的结果：“货币—货币′”。",
+      "start_ms": 27458,
+      "end_ms": 36826,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch04-s01-n0167",
+      "text": "也就是货币直接等于更多货币，价值变得大于自身。",
+      "start_ms": 36826,
+      "end_ms": 44256,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch04-s01-n0168",
+      "text": "因此，“货币—商品—货币′”确实是资本在流通领域直接表现出来的一般公式。",
+      "start_ms": 44256,
+      "end_ms": 55885,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0028"
+    }
+  ]
+}

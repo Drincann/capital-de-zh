@@ -1,0 +1,1402 @@
+{
+  "schema_version": 2,
+  "status": "ready",
+  "audio_version_id": "ch12-s03-v2-audio-b428f3073c87",
+  "base_audio_version_id": "ch12-s03-v1-audio-fe2d0cf08d27",
+  "reused_chunk_count": 21,
+  "generated_chunk_count": 1,
+  "unit_id": "ch12-s03",
+  "translation_version_id": "ch12-s03-v2",
+  "translation_sha256": "3962bfee971390274db4d809169284afce8d18978a074e44a5fb5b09e1d2d6a7",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-14T19:55:04.805Z",
+  "completed_at": "2026-08-14T19:55:10.283Z",
+  "duration_ms": 801324,
+  "sentence_count": 131,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 32745,
+      "bytes": 525357,
+      "sha256": "382acd4e6826fb7a43909e650fd459dd0d7186e16ae93e42456cb8c9178cf423",
+      "sentence_ids": [
+        "ch12-s03-n0001",
+        "ch12-s03-n0002",
+        "ch12-s03-n0003",
+        "ch12-s03-n0004",
+        "ch12-s03-n0005",
+        "ch12-s03-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 43355,
+      "bytes": 692013,
+      "sha256": "a4854fcd223826f8e10a1b59b0b265960bd4468d09dd03b2e971fdddcc9dd0dd",
+      "sentence_ids": [
+        "ch12-s03-n0007",
+        "ch12-s03-n0008",
+        "ch12-s03-n0009",
+        "ch12-s03-n0010",
+        "ch12-s03-n0011",
+        "ch12-s03-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 47331,
+      "bytes": 759213,
+      "sha256": "51743c9f2c89306cd54cc9d6be1380865fd72967e1e6ed9a288a2d3a0000fb13",
+      "sentence_ids": [
+        "ch12-s03-n0013",
+        "ch12-s03-n0014",
+        "ch12-s03-n0015",
+        "ch12-s03-n0016",
+        "ch12-s03-n0017",
+        "ch12-s03-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 28855,
+      "bytes": 465453,
+      "sha256": "8f52a9ec6eccce7691db7d4dae5dfe0cbba8daadcfa52491c436f527b0ba05eb",
+      "sentence_ids": [
+        "ch12-s03-n0019",
+        "ch12-s03-n0020",
+        "ch12-s03-n0021",
+        "ch12-s03-n0022",
+        "ch12-s03-n0023",
+        "ch12-s03-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 32455,
+      "bytes": 518829,
+      "sha256": "d769c2ffc073d24fd4706eb1d40b274f6e7926a41eee79bd5b095aa05ed7c2c4",
+      "sentence_ids": [
+        "ch12-s03-n0025",
+        "ch12-s03-n0026",
+        "ch12-s03-n0027",
+        "ch12-s03-n0028",
+        "ch12-s03-n0029",
+        "ch12-s03-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 40688,
+      "bytes": 649773,
+      "sha256": "4c7692998a089e7e9aebb086c5a09eecd73b8f1f64723f9bfe00822fd0b46791",
+      "sentence_ids": [
+        "ch12-s03-n0031",
+        "ch12-s03-n0032",
+        "ch12-s03-n0033",
+        "ch12-s03-n0034",
+        "ch12-s03-n0035",
+        "ch12-s03-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 36088,
+      "bytes": 579885,
+      "sha256": "87957dd6c4ee97fe4552cfe6286f1184d3c36239843ea9188a8c314a7561bb61",
+      "sentence_ids": [
+        "ch12-s03-n0037",
+        "ch12-s03-n0038",
+        "ch12-s03-n0039",
+        "ch12-s03-n0040",
+        "ch12-s03-n0041",
+        "ch12-s03-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 32155,
+      "bytes": 518829,
+      "sha256": "b8e732799eca5db8f381cf4e14ed3598b8c46bf3176ee9b93f22c47b7efdd21c",
+      "sentence_ids": [
+        "ch12-s03-n0043",
+        "ch12-s03-n0044",
+        "ch12-s03-n0045",
+        "ch12-s03-n0046",
+        "ch12-s03-n0047",
+        "ch12-s03-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 40378,
+      "bytes": 646701,
+      "sha256": "a204c896a5b7ed2b34b0b16008a63cbc328f55c7f5f94b4d306cf902f45ed800",
+      "sentence_ids": [
+        "ch12-s03-n0049",
+        "ch12-s03-n0050",
+        "ch12-s03-n0051",
+        "ch12-s03-n0052",
+        "ch12-s03-n0053",
+        "ch12-s03-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 40371,
+      "bytes": 646701,
+      "sha256": "a2d485176db098fb3fcc19c8534c6e7951e2ad537e97999c6e2d319c8f945df1",
+      "sentence_ids": [
+        "ch12-s03-n0055",
+        "ch12-s03-n0056",
+        "ch12-s03-n0057",
+        "ch12-s03-n0058",
+        "ch12-s03-n0059",
+        "ch12-s03-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 44318,
+      "bytes": 710445,
+      "sha256": "59c508a1e69f697493a0a6f8c665bad1d0fc6258c3ccea9a1b79ae88fda19a6d",
+      "sentence_ids": [
+        "ch12-s03-n0061",
+        "ch12-s03-n0062",
+        "ch12-s03-n0063",
+        "ch12-s03-n0064",
+        "ch12-s03-n0065",
+        "ch12-s03-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 39405,
+      "bytes": 631341,
+      "sha256": "2e8961bac07412d8ba825432067714dc0bd24a25f5d05d7f484f236be45b00c1",
+      "sentence_ids": [
+        "ch12-s03-n0067",
+        "ch12-s03-n0068",
+        "ch12-s03-n0069",
+        "ch12-s03-n0070",
+        "ch12-s03-n0071",
+        "ch12-s03-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 24855,
+      "bytes": 400941,
+      "sha256": "4e996e52beb6372fa7add82d067c4a99c6b1cc3d64d0fb90e414cfe771fdd08e",
+      "sentence_ids": [
+        "ch12-s03-n0073",
+        "ch12-s03-n0074",
+        "ch12-s03-n0075",
+        "ch12-s03-n0076",
+        "ch12-s03-n0077",
+        "ch12-s03-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 34105,
+      "bytes": 544941,
+      "sha256": "3d7419de2fdef51daa391526707bfbc8cdfe8d8609e72784b10a6b8b80e13a31",
+      "sentence_ids": [
+        "ch12-s03-n0079",
+        "ch12-s03-n0080",
+        "ch12-s03-n0081",
+        "ch12-s03-n0082",
+        "ch12-s03-n0083",
+        "ch12-s03-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 36055,
+      "bytes": 576045,
+      "sha256": "96ff922d731f991fc80f460b638b26fbe8604ac0d31ce36fe098272ef778cefa",
+      "sentence_ids": [
+        "ch12-s03-n0085",
+        "ch12-s03-n0086",
+        "ch12-s03-n0087",
+        "ch12-s03-n0088",
+        "ch12-s03-n0089",
+        "ch12-s03-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 38491,
+      "bytes": 620973,
+      "sha256": "1a5369d63c2877b5be6be180b17962c11e99ee525c458fc51da863c635fae2b6",
+      "sentence_ids": [
+        "ch12-s03-n0091",
+        "ch12-s03-n0092",
+        "ch12-s03-n0093",
+        "ch12-s03-n0094",
+        "ch12-s03-n0095",
+        "ch12-s03-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 38603,
+      "bytes": 621357,
+      "sha256": "767caf7816370613224c3b9521f65b3315d49b3ee3f91f67ddacf0c3bfb97237",
+      "sentence_ids": [
+        "ch12-s03-n0097",
+        "ch12-s03-n0098",
+        "ch12-s03-n0099",
+        "ch12-s03-n0100",
+        "ch12-s03-n0101",
+        "ch12-s03-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 39525,
+      "bytes": 640173,
+      "sha256": "3c233cf6df01e39191bb15ebaf810d4127280d1fc1c8d2b5ea7bd752ddbb4a03",
+      "sentence_ids": [
+        "ch12-s03-n0103",
+        "ch12-s03-n0104",
+        "ch12-s03-n0105",
+        "ch12-s03-n0106",
+        "ch12-s03-n0107",
+        "ch12-s03-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 40901,
+      "bytes": 657453,
+      "sha256": "2d831d920c6d373698b586bdb4d280ee0f725107743bba56a7e1229085275e94",
+      "sentence_ids": [
+        "ch12-s03-n0109",
+        "ch12-s03-n0110",
+        "ch12-s03-n0111",
+        "ch12-s03-n0112",
+        "ch12-s03-n0113",
+        "ch12-s03-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 36055,
+      "bytes": 575661,
+      "sha256": "0b11e53a9d463eb4248a792a245b6ef538e8256adc49df3f3ae660bc46005cf2",
+      "sentence_ids": [
+        "ch12-s03-n0115",
+        "ch12-s03-n0116",
+        "ch12-s03-n0117",
+        "ch12-s03-n0118",
+        "ch12-s03-n0119",
+        "ch12-s03-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 31295,
+      "bytes": 503085,
+      "sha256": "100f075b591ced2fbf7ce75d6b5e4269d4224d276310f54456e2a5556874b764",
+      "sentence_ids": [
+        "ch12-s03-n0121",
+        "ch12-s03-n0122",
+        "ch12-s03-n0123",
+        "ch12-s03-n0124",
+        "ch12-s03-n0125",
+        "ch12-s03-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 23295,
+      "bytes": 381741,
+      "sha256": "88acfff3b29dbd599a266586f95e2cf4857a5b2a1c01e191e5c17f3d80e0574f",
+      "sentence_ids": [
+        "ch12-s03-n0127",
+        "ch12-s03-n0128",
+        "ch12-s03-n0129",
+        "ch12-s03-n0130",
+        "ch12-s03-n0131"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch12-s03-n0001",
+      "text": "工场手工业的内部结构有两种基本形式：异质式和有机式。",
+      "start_ms": 395,
+      "end_ms": 4435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s03-n0002",
+      "text": "两者偶尔会交织，但本质上仍是两种不同类型。",
+      "start_ms": 4840,
+      "end_ms": 8165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s03-n0003",
+      "text": "后来工场手工业转变为机器化大工业时，两者所起的作用也完全不同。",
+      "start_ms": 8525,
+      "end_ms": 13475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s03-n0004",
+      "text": "区别来自产品的形成方式：异质式把各自独立的部件最后机械地组装成成品，有机式则让产品依次经过一连串彼此衔接的工序，逐步成形。",
+      "start_ms": 13880,
+      "end_ms": 24135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s03-n0005",
+      "text": "例如，一台机车由5,000多个独立部件组成。",
+      "start_ms": 24625,
+      "end_ms": 27535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s03-n0006",
+      "text": "但它不能算第一类真正工场手工业的例子，因为机车是大工业的产物。",
+      "start_ms": 27990,
+      "end_ms": 32595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch12-s03-n0007",
+      "text": "钟表才是合适的例子，威廉·配第也曾用它说明工场手工业式分工。",
+      "start_ms": 95,
+      "end_ms": 4835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s03-n0008",
+      "text": "钟表原是纽伦堡一名手工业者独自完成的产品，后来变成无数局部工人共同制造的社会产品。",
+      "start_ms": 5100,
+      "end_ms": 11125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s03-n0009",
+      "text": "这些人包括毛坯机芯工、发条工、表盘工、游丝工、宝石轴孔工、红宝石擒纵叉工、指针工、表壳工、螺丝工、镀金工等。",
+      "start_ms": 11280,
+      "end_ms": 21365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s03-n0010",
+      "text": "每一类下面还有许多更细的分工。",
+      "start_ms": 21700,
+      "end_ms": 22825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s03-n0011",
+      "text": "例如，齿轮工又分黄铜齿轮工和钢齿轮工。",
+      "start_ms": 23655,
+      "end_ms": 27075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s03-n0012",
+      "text": "此外还有小齿轮工、指针传动机构工、把齿轮装上小齿轮并打磨棱面的工人、轴榫工、把各种齿轮和小齿轮装入机芯的工人、负责给发条盒开齿和扩孔并给止动件及棘轮机构淬火的工人，以及擒纵机构工。",
+      "start_ms": 27430,
+      "end_ms": 43205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch12-s03-n0013",
+      "text": "圆柱擒纵机构还要分出圆柱工、擒纵轮工、摆轮工、调速器工和实际安装擒纵机构的工人。",
+      "start_ms": 425,
+      "end_ms": 6445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s03-n0014",
+      "text": "随后还有把发条盒和止动机构彻底做完的工人、钢件抛光工、齿轮抛光工、螺丝抛光工、数字描绘工、把珐琅熔到铜片上的表盘工、只制作表壳吊环的工人、把黄铜销钉装进表壳铰链的工人、制作开盖弹簧的工人、雕刻工、錾花工、表壳抛光工，等等。",
+      "start_ms": 6825,
+      "end_ms": 24925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s03-n0015",
+      "text": "最后，总装调试工把整只钟表组装起来，调到能够走动后交付。",
+      "start_ms": 25610,
+      "end_ms": 29995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s03-n0016",
+      "text": "钟表只有少数部件会经过不同工人之手。",
+      "start_ms": 30516,
+      "end_ms": 32721,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s03-n0017",
+      "text": "这些分散的部件直到最后，才汇集到总装工手中，被连成一个机械整体。",
+      "start_ms": 33116,
+      "end_ms": 38231,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s03-n0018",
+      "text": "成品只是在最后从外部把各种独立部件组合起来，因此在这类生产中，是否把所有局部工人集中在同一工场，带有偶然性。",
+      "start_ms": 38596,
+      "end_ms": 47181,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch12-s03-n0019",
+      "text": "各项局部工作本身也可以作为彼此独立的手艺来经营，例如沃州和纳沙泰尔就是如此。",
+      "start_ms": 95,
+      "end_ms": 5395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s03-n0020",
+      "text": "日内瓦则有大型钟表工场，也就是局部工人直接在同一资本指挥下协作。",
+      "start_ms": 5805,
+      "end_ms": 10385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s03-n0021",
+      "text": "即使在那里，表盘、发条和表壳也很少由工场自己制造。",
+      "start_ms": 10805,
+      "end_ms": 15245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s03-n0022",
+      "text": "把所有工种集中起来的经营方式，只有在特殊条件下才有利可图。",
+      "start_ms": 15740,
+      "end_ms": 20315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s03-n0023",
+      "text": "这是因为，愿意在家工作的工人之间竞争最激烈。",
+      "start_ms": 20795,
+      "end_ms": 24185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s03-n0024",
+      "text": "生产被分成许多性质不同的工序，很少能共用劳动资料。",
+      "start_ms": 24720,
+      "end_ms": 28705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch12-s03-n0025",
+      "text": "分散生产还能让资本家省下厂房等开支。",
+      "start_ms": 175,
+      "end_ms": 2575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s03-n0026",
+      "text": "不过，这些在家里替资本家，也就是制造商或钟表业主工作的局部工人，处境和为自己顾客工作的独立手工业者完全不同。",
+      "start_ms": 2985,
+      "end_ms": 10755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s03-n0027",
+      "text": "第二类工场手工业是它的完整形态。",
+      "start_ms": 11275,
+      "end_ms": 13315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s03-n0028",
+      "text": "它生产的产品必须连续经过彼此衔接的发展阶段，也就是一系列逐级展开的工序。",
+      "start_ms": 13720,
+      "end_ms": 19025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s03-n0029",
+      "text": "例如，在缝衣针工场里，一根金属丝要依次经过72名甚至92名不同的局部工人之手。",
+      "start_ms": 19400,
+      "end_ms": 25525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s03-n0030",
+      "text": "就这种工场手工业把原先分散的手艺结合起来而言，它缩短了产品各个生产阶段之间的空间距离。",
+      "start_ms": 25945,
+      "end_ms": 32305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch12-s03-n0031",
+      "text": "产品从一个阶段转到下一个阶段所需的时间减少了，衔接这些阶段所需的劳动也随之减少。",
+      "start_ms": 125,
+      "end_ms": 6975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s03-n0032",
+      "text": "与手工业相比，这样便提高了生产力，而这种提高来自工场手工业的一般协作性质。",
+      "start_ms": 7405,
+      "end_ms": 13545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s03-n0033",
+      "text": "另一方面，工场手工业特有的分工原则，又使各个生产阶段彼此分离。",
+      "start_ms": 13900,
+      "end_ms": 19385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s03-n0034",
+      "text": "每个阶段都成为一项手工性的局部劳动，彼此独立。",
+      "start_ms": 19720,
+      "end_ms": 23295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s03-n0035",
+      "text": "为了保持这些孤立职能之间的联系，产品必须不断从一个人手中送到另一个人手中，从一道工序转到下一道工序。",
+      "start_ms": 24015,
+      "end_ms": 32575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s03-n0036",
+      "text": "从大工业的角度看，这是工场手工业一种典型而昂贵的限制，也是它自身原则所固有的限制。",
+      "start_ms": 33003,
+      "end_ms": 40538,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch12-s03-n0037",
+      "text": "从一批特定的原料来看，比如造纸工场的一批破布，或制针工场的一批金属丝，它要依次经过不同局部工人手中的一道道生产阶段，最后才成为成品。",
+      "start_ms": 625,
+      "end_ms": 10785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s03-n0038",
+      "text": "可是，如果把整个工场看成一套完整机制，情况就不同了。",
+      "start_ms": 11040,
+      "end_ms": 14945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s03-n0039",
+      "text": "不同批次的原料会同时处在生产的各个阶段。",
+      "start_ms": 15160,
+      "end_ms": 17395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s03-n0040",
+      "text": "由局部工人组成的总体工人仿佛有许多拿着工具的手：一些手在拉金属丝，另一些手同时把它拉直，还有一些手负责切断、磨尖，等等。",
+      "start_ms": 18225,
+      "end_ms": 28015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s03-n0041",
+      "text": "原本在时间上先后进行的不同工序，变成了在空间中同时进行。",
+      "start_ms": 28465,
+      "end_ms": 32835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s03-n0042",
+      "text": "因此，同样时间内可以交付更多成品。",
+      "start_ms": 33173,
+      "end_ms": 35938,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch12-s03-n0043",
+      "text": "这种同时性当然来自整个劳动过程的协作形式。",
+      "start_ms": 285,
+      "end_ms": 3865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s03-n0044",
+      "text": "不过，工场手工业并不是简单接受现成的协作条件。",
+      "start_ms": 4285,
+      "end_ms": 8355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s03-n0045",
+      "text": "它把原来完整的手艺拆开，从而创造出一部分协作条件。",
+      "start_ms": 8695,
+      "end_ms": 12355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s03-n0046",
+      "text": "另一方面，它只有把同一个工人牢牢固定在同一道局部工序上，才能建立这种社会化的劳动组织。",
+      "start_ms": 13295,
+      "end_ms": 20685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s03-n0047",
+      "text": "每个局部工人的半成品，都是同一件产品发展的一个阶段，也就是下一名工人或下一组工人的原料。",
+      "start_ms": 21105,
+      "end_ms": 27715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s03-n0048",
+      "text": "前一个人的劳动成果，是后一个人的劳动起点。",
+      "start_ms": 28555,
+      "end_ms": 32005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch12-s03-n0049",
+      "text": "所以在这里，一个工人的工作会直接决定另一个人有没有活可干。",
+      "start_ms": 115,
+      "end_ms": 4445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s03-n0050",
+      "text": "每道局部工序要在多长时间内达到预期效果，由实际经验确定。",
+      "start_ms": 4920,
+      "end_ms": 9625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s03-n0051",
+      "text": "整套工场机制能够运行，有一个前提：每道工序必须在规定时间内完成规定数量。",
+      "start_ms": 10000,
+      "end_ms": 16315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s03-n0052",
+      "text": "只有这样，各项互相补充的劳动过程才能连续不断地同时进行，并在同一场所彼此衔接。",
+      "start_ms": 16730,
+      "end_ms": 23445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s03-n0053",
+      "text": "各项劳动以及各个工人之间存在这种直接依赖，会迫使每个人只用必要时间完成自己的工作。",
+      "start_ms": 23910,
+      "end_ms": 30765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s03-n0054",
+      "text": "这样形成的劳动，在连续性、整齐程度、规律性、秩序和劳动强度上，都同独立手工业甚至简单协作大不相同。",
+      "start_ms": 31173,
+      "end_ms": 40228,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch12-s03-n0055",
+      "text": "在一般商品生产中，每件商品只能耗费生产它所需的社会必要劳动时间，这一要求表现为竞争施加的外部压力。",
+      "start_ms": 105,
+      "end_ms": 8495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s03-n0056",
+      "text": "简单说，每个生产者都必须按市场价格出售商品。",
+      "start_ms": 8860,
+      "end_ms": 12195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s03-n0057",
+      "text": "在工场手工业内部，规定时间内必须交出规定数量的产品，却变成了生产过程自身的技术要求。",
+      "start_ms": 13025,
+      "end_ms": 20375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s03-n0058",
+      "text": "不过，不同工序所需的时间并不相同，所以同样时间内产出的半成品数量也不同。",
+      "start_ms": 20735,
+      "end_ms": 26775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s03-n0059",
+      "text": "如果每个工人日复一日只做同一道工序，那么各种工序就必须配备不同比例的工人。",
+      "start_ms": 27355,
+      "end_ms": 33745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s03-n0060",
+      "text": "例如，在铸字工场中，每 1 名磨光工需要配 2 名折字工和 4 名铸字工。",
+      "start_ms": 34156,
+      "end_ms": 40221,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch12-s03-n0061",
+      "text": "因为铸字工每小时铸出 2,000 个铅字，折字工每小时处理 4,000 个，磨光工每小时能磨亮 8,000 个。",
+      "start_ms": 155,
+      "end_ms": 6615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s03-n0062",
+      "text": "这里又出现了最简单的协作原则，也就是许多人同时做同类工作。",
+      "start_ms": 7420,
+      "end_ms": 10835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s03-n0063",
+      "text": "不过，现在各组人数不再是随意的，而是由各道工序之间的有机联系决定的。",
+      "start_ms": 11725,
+      "end_ms": 16825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s03-n0064",
+      "text": "可见，工场手工业的分工不仅简化并增加了总体工人的各种不同职能，还规定了这些职能在数量上的固定比例，也就是每项专门工作应有多少工人、各组应有多大。",
+      "start_ms": 17170,
+      "end_ms": 29035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s03-n0065",
+      "text": "它在划分工作种类的同时，也为整个社会劳动过程建立了数量上的规则和比例。",
+      "start_ms": 29480,
+      "end_ms": 34655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s03-n0066",
+      "text": "一种生产规模下，各类局部工人的最佳人数比例一旦由经验确定，要扩大生产规模，就只能把每个工人组都按同样倍数增加。",
+      "start_ms": 35188,
+      "end_ms": 44168,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch12-s03-n0067",
+      "text": "此外，有些工作无论生产规模大小，一个人都同样能做，比如总监督，或把半成品从一个生产阶段运到下一个阶段。",
+      "start_ms": 145,
+      "end_ms": 8235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s03-n0068",
+      "text": "只有工人人数增加到一定程度，把这些工作独立出来交给专人负责才划算。",
+      "start_ms": 8585,
+      "end_ms": 13355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s03-n0069",
+      "text": "可是，只要扩大生产，各个工人组就必须立即按比例一起增加。",
+      "start_ms": 14035,
+      "end_ms": 18795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s03-n0070",
+      "text": "在有些工场里，每个工人组由许多从事同一局部工作的工人组成。",
+      "start_ms": 19140,
+      "end_ms": 23895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s03-n0071",
+      "text": "组内成员的工作相同，整个组只是完整生产机制中的一个器官。",
+      "start_ms": 24345,
+      "end_ms": 29045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s03-n0072",
+      "text": "但在另一些工场里，每个工人组本身就是一个内部有分工的劳动集体，完整的生产机制则由许多这样的基本劳动集体重复组合而成。",
+      "start_ms": 29410,
+      "end_ms": 39255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch12-s03-n0073",
+      "text": "玻璃瓶工场就是一例。",
+      "start_ms": 295,
+      "end_ms": 1825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s03-n0074",
+      "text": "它的生产分成三个性质明显不同的阶段。",
+      "start_ms": 2220,
+      "end_ms": 5005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s03-n0075",
+      "text": "第一是准备阶段：配制玻璃原料，把砂、石灰等混合起来，再熔成液态玻璃。",
+      "start_ms": 5385,
+      "end_ms": 11395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s03-n0076",
+      "text": "这一阶段需要不同的局部工人。",
+      "start_ms": 11825,
+      "end_ms": 13915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s03-n0077",
+      "text": "最后一个阶段也是如此，包括从退火炉中取出玻璃瓶、分类和包装等。",
+      "start_ms": 14350,
+      "end_ms": 19355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s03-n0078",
+      "text": "两个阶段之间，才是真正制造玻璃瓶的过程，也就是加工液态玻璃。",
+      "start_ms": 19830,
+      "end_ms": 24705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch12-s03-n0079",
+      "text": "在同一个玻璃炉口旁，会有一个英国人称为“hole”的五人小组，五个人分别负责成形或修整、吹制、取料、切离和送入退火炉。",
+      "start_ms": 605,
+      "end_ms": 9485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s03-n0080",
+      "text": "他们是同一个劳动集体的五个专门器官，必须五人直接协作，整个小组才能工作。",
+      "start_ms": 9820,
+      "end_ms": 15445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s03-n0081",
+      "text": "少一个人，这个五人集体就会瘫痪。",
+      "start_ms": 15890,
+      "end_ms": 17805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s03-n0082",
+      "text": "不过，同一座玻璃炉有好几个炉口，在英国通常有四到六个。",
+      "start_ms": 18210,
+      "end_ms": 22575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s03-n0083",
+      "text": "每个炉口都有一只装着液态玻璃的陶制坩埚，也配有一个结构相同的五人小组。",
+      "start_ms": 22830,
+      "end_ms": 28365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s03-n0084",
+      "text": "每个小组内部靠分工结合起来，各个同类小组之间则只是简单协作。",
+      "start_ms": 28795,
+      "end_ms": 33955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch12-s03-n0085",
+      "text": "它们共同使用玻璃炉，从而更节省地利用这项生产资料。",
+      "start_ms": 425,
+      "end_ms": 4545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s03-n0086",
+      "text": "一座玻璃炉及其四到六个小组构成一个玻璃作坊。",
+      "start_ms": 5055,
+      "end_ms": 8475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s03-n0087",
+      "text": "一个玻璃工场又包括多个这样的作坊，以及负责前期和后期生产阶段的设备与工人。",
+      "start_ms": 8895,
+      "end_ms": 14895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s03-n0088",
+      "text": "工场手工业有时由不同手艺组合而成，后来还可能进一步发展成几种不同工场手工业的组合。",
+      "start_ms": 15785,
+      "end_ms": 23305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s03-n0089",
+      "text": "例如，英国较大的玻璃工场会自行制造陶制坩埚，因为坩埚质量直接关系到玻璃产品的成败。",
+      "start_ms": 23690,
+      "end_ms": 31015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s03-n0090",
+      "text": "这里，生产工具的工场同生产最终产品的工场结合起来。",
+      "start_ms": 31490,
+      "end_ms": 35905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch12-s03-n0091",
+      "text": "反过来，生产某种产品的工场，也可以同把这种产品当作原料的工场结合，或同生产其他配套部件的工场结合。",
+      "start_ms": 155,
+      "end_ms": 8865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s03-n0092",
+      "text": "例如，燧石玻璃生产会同玻璃磨制和黄铜铸造结合起来，后者负责制造各种玻璃制品的金属镶边。",
+      "start_ms": 9405,
+      "end_ms": 17255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s03-n0093",
+      "text": "组合起来的不同工场，成为总工场中彼此多少分开的部门。",
+      "start_ms": 17625,
+      "end_ms": 21985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s03-n0094",
+      "text": "它们同时又是各自独立的生产过程，各有自己的分工。",
+      "start_ms": 22370,
+      "end_ms": 26105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s03-n0095",
+      "text": "组合式工场虽然有不少好处，但仅靠工场手工业自身的基础，并不能形成真正统一的技术体系。",
+      "start_ms": 26570,
+      "end_ms": 34225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s03-n0096",
+      "text": "只有转变为机器生产以后，这种技术统一才会出现。",
+      "start_ms": 34686,
+      "end_ms": 38341,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch12-s03-n0097",
+      "text": "工场手工业时期很快就自觉地提出一个原则：缩短生产商品所需的劳动时间。",
+      "start_ms": 325,
+      "end_ms": 6115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s03-n0098",
+      "text": "这一时期也零星使用机器，尤其是在某些需要大批量完成、耗费很大力量的简单初始工序中。",
+      "start_ms": 6515,
+      "end_ms": 14025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s03-n0099",
+      "text": "例如，造纸工场开始用纸浆磨碾碎破布，冶金业开始用捣矿机粉碎矿石。",
+      "start_ms": 14385,
+      "end_ms": 21065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s03-n0100",
+      "text": "罗马帝国留下的水磨，是一切机器最初的基本形式。",
+      "start_ms": 21475,
+      "end_ms": 25535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s03-n0101",
+      "text": "手工业时期则留下了指南针、火药、印刷术和自动钟表这些重大发明。",
+      "start_ms": 25920,
+      "end_ms": 31675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s03-n0102",
+      "text": "总的来说，机器在这一时期仍然处于次要地位，正如亚当·斯密把它放在分工之后一样。",
+      "start_ms": 32058,
+      "end_ms": 38453,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch12-s03-n0103",
+      "text": "不过，17 世纪零星使用机器仍有重大意义，因为它给当时的大数学家提供了实际材料和研究动力，推动他们创立现代力学。",
+      "start_ms": 275,
+      "end_ms": 8395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s03-n0104",
+      "text": "工场手工业时期真正特有的“机器”，仍然是由许多局部工人组合成的总体工人。",
+      "start_ms": 8760,
+      "end_ms": 13935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s03-n0105",
+      "text": "一个人独立生产某种商品时，要轮流完成彼此交织的不同工序。",
+      "start_ms": 14415,
+      "end_ms": 18905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s03-n0106",
+      "text": "这些工序对人的要求各不相同：有的更需要力量，有的更需要灵巧，有的更需要集中精神，等等，而同一个人不可能同样充分地具备所有这些能力。",
+      "start_ms": 19320,
+      "end_ms": 28025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s03-n0107",
+      "text": "各道工序一旦分离，成为彼此独立的专门工作，工人也就会按照各自较突出的能力被划分、分类和编组。",
+      "start_ms": 29545,
+      "end_ms": 37045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s03-n0108",
+      "text": "分工起初利用工人的自然差异。",
+      "start_ms": 37560,
+      "end_ms": 39375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch12-s03-n0109",
+      "text": "一旦工场手工业建立起来，它还会进一步塑造出只能胜任某种片面职能的劳动力。",
+      "start_ms": 365,
+      "end_ms": 5775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s03-n0110",
+      "text": "现在，总体工人把所有生产能力都发展到很高的熟练程度，并且以最节省的方式同时使用这些能力，因为它的每一个“器官”都由特定工人或工人组构成，只执行自己的专门职能。",
+      "start_ms": 6060,
+      "end_ms": 19305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s03-n0111",
+      "text": "局部工人的片面，甚至身体上的缺陷，反而使他成为总体工人的合格部件。",
+      "start_ms": 19780,
+      "end_ms": 25195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s03-n0112",
+      "text": "长期重复一种片面工作，使他变成能可靠执行这种工作的专门器官。",
+      "start_ms": 25640,
+      "end_ms": 30585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s03-n0113",
+      "text": "整套机制之间的联系，又迫使他像机器零件一样有规律地运转。",
+      "start_ms": 31176,
+      "end_ms": 35671,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s03-n0114",
+      "text": "集体工人要完成的各种职能，有的简单，有的复杂，也有高低之分。",
+      "start_ms": 36016,
+      "end_ms": 40751,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch12-s03-n0115",
+      "text": "因此，组成这个集体工人的各个“器官”——每个工人的劳动力——需要程度不同的训练，价值也就不同。",
+      "start_ms": 585,
+      "end_ms": 7225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch12-s03-n0116",
+      "text": "工场手工业由此形成了劳动力的等级体系，工资也随之分成不同等级。",
+      "start_ms": 7775,
+      "end_ms": 12425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch12-s03-n0117",
+      "text": "一方面，工人被固定在一种片面的职能上，一辈子离不开它。",
+      "start_ms": 13405,
+      "end_ms": 17335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch12-s03-n0118",
+      "text": "另一方面，各道工序也会按照工人天生或后天获得的技能高低，分配给不同的人。",
+      "start_ms": 17770,
+      "end_ms": 23465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch12-s03-n0119",
+      "text": "不过，任何生产过程都少不了一些人人都能做的简单动作。",
+      "start_ms": 23955,
+      "end_ms": 27875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch12-s03-n0120",
+      "text": "工场手工业也把这些简单动作从原本与较复杂工作相连的过程中分离出来，固定成某些人唯一负责的工序。",
+      "start_ms": 28360,
+      "end_ms": 35905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch12-s03-n0121",
+      "text": "所以，无论工场手工业进入哪一种行业，都会产生一批所谓的非熟练工人，而传统手工业原本严格排斥这类人。",
+      "start_ms": 335,
+      "end_ms": 8575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch12-s03-n0122",
+      "text": "工场手工业牺牲工人的全面劳动能力，把一种片面技能练到极致。",
+      "start_ms": 8970,
+      "end_ms": 13385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch12-s03-n0123",
+      "text": "与此同时，它又把“无需培养任何技能”变成一种专门岗位。",
+      "start_ms": 13895,
+      "end_ms": 17695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch12-s03-n0124",
+      "text": "于是，工人除了按技能高低分层，还被直接分成熟练工和非熟练工。",
+      "start_ms": 18070,
+      "end_ms": 23065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch12-s03-n0125",
+      "text": "培养非熟练工不再需要任何培训成本。",
+      "start_ms": 23450,
+      "end_ms": 25585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch12-s03-n0126",
+      "text": "熟练工由于只需掌握简化后的工序，培训成本也比传统手工业者低。",
+      "start_ms": 26305,
+      "end_ms": 31145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch12-s03-n0127",
+      "text": "两类人的劳动力价值都会下降。",
+      "start_ms": 115,
+      "end_ms": 1875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch12-s03-n0128",
+      "text": "但也有例外：劳动过程分解以后，可能产生一些负责统筹各部分的新工作。",
+      "start_ms": 2355,
+      "end_ms": 7445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch12-s03-n0129",
+      "text": "传统手工业里原本没有这类工作，或者规模没有这么大。",
+      "start_ms": 7800,
+      "end_ms": 11075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch12-s03-n0130",
+      "text": "学习成本一旦消失或减少，劳动力的价值就会相对降低，资本也就能实现更大程度的增殖。",
+      "start_ms": 11735,
+      "end_ms": 18305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch12-s03-n0131",
+      "text": "因为再生产劳动力所需的时间越短，剩余劳动可以占据的时间就越长。",
+      "start_ms": 18765,
+      "end_ms": 23145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    }
+  ]
+}

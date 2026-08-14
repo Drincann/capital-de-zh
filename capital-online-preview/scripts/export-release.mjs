@@ -220,7 +220,7 @@ const preface = {
   id: "translator-preface",
   number: 0,
   title: "译者序",
-  versionId: "translator-preface-v1",
+  versionId: "translator-preface-v2",
   contentPath: "/content/translator-preface.json",
 };
 await writeFile(

@@ -1,0 +1,1663 @@
+{
+  "schema_version": 2,
+  "status": "ready",
+  "audio_version_id": "ch05-s01-v7-audio-e3549a225353",
+  "base_audio_version_id": "ch05-s01-v6-audio-d31b7a8b0ab8",
+  "reused_chunk_count": 25,
+  "generated_chunk_count": 1,
+  "unit_id": "ch05-s01",
+  "translation_version_id": "ch05-s01-v7",
+  "translation_sha256": "bad6d290ddca098b3504f92588909ee7e31f3f4e6dd3942c6a1d8258e8f957f5",
+  "config_sha256": "38448e9085aaf6b8a25d2809647fbf6be1b8c3e4ea04d47fc3b4230c313f3e05",
+  "model_id": "seed-audio-1.0",
+  "model_label": "现有模型 1.0",
+  "transport": "audio-create-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-14T19:53:25.034Z",
+  "completed_at": "2026-08-14T19:54:08.973Z",
+  "duration_ms": 1183395,
+  "sentence_count": 156,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 34560,
+      "bytes": 553388,
+      "sha256": "53052ee78c017ce895c2456948bcae87a0205d79718d3f79e3df22e51045b24e",
+      "sentence_ids": [
+        "ch05-s01-n0001",
+        "ch05-s01-n0002",
+        "ch05-s01-n0003",
+        "ch05-s01-n0004",
+        "ch05-s01-n0005",
+        "ch05-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 36361,
+      "bytes": 582572,
+      "sha256": "6a96a79cca6e704d5a9a8708100a8d72e81592b2a902aabebe79c6ca5c76b108",
+      "sentence_ids": [
+        "ch05-s01-n0007",
+        "ch05-s01-n0008",
+        "ch05-s01-n0009",
+        "ch05-s01-n0010",
+        "ch05-s01-n0011",
+        "ch05-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 34745,
+      "bytes": 556460,
+      "sha256": "1ad47203e72de6fa8ad7894b7bb0427ac48b6b2f7fd20d5bec05f14e73e7d322",
+      "sentence_ids": [
+        "ch05-s01-n0013",
+        "ch05-s01-n0014",
+        "ch05-s01-n0015",
+        "ch05-s01-n0016",
+        "ch05-s01-n0017",
+        "ch05-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 41733,
+      "bytes": 668204,
+      "sha256": "56de80a0f3c25d7e5697a556a243b7fec71604ea3284422c6f417f9abbdd7677",
+      "sentence_ids": [
+        "ch05-s01-n0019",
+        "ch05-s01-n0020",
+        "ch05-s01-n0021",
+        "ch05-s01-n0022",
+        "ch05-s01-n0023",
+        "ch05-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 40700,
+      "bytes": 651692,
+      "sha256": "d42cf541e31771d68f54554923ca407a24c02f64bb674ad2ff7ae15ccf160b1e",
+      "sentence_ids": [
+        "ch05-s01-n0025",
+        "ch05-s01-n0026",
+        "ch05-s01-n0027",
+        "ch05-s01-n0028",
+        "ch05-s01-n0029",
+        "ch05-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 36565,
+      "bytes": 585644,
+      "sha256": "fbbec45bbe60586061c2952385d7f194b472f84ab151424bfd60f09821af2311",
+      "sentence_ids": [
+        "ch05-s01-n0031",
+        "ch05-s01-n0032",
+        "ch05-s01-n0033",
+        "ch05-s01-n0034",
+        "ch05-s01-n0035",
+        "ch05-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 42200,
+      "bytes": 675884,
+      "sha256": "5475833abbbed347c4e79beb33babca58949fe1cb7f102fa0eebef6e87491ee2",
+      "sentence_ids": [
+        "ch05-s01-n0037",
+        "ch05-s01-n0038",
+        "ch05-s01-n0039",
+        "ch05-s01-n0040",
+        "ch05-s01-n0041",
+        "ch05-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 42966,
+      "bytes": 688941,
+      "sha256": "525c0800ba6c0a77eeeb70f940f158d22b659889164225f1ca05cf3baa28a124",
+      "sentence_ids": [
+        "ch05-s01-n0043",
+        "ch05-s01-n0044",
+        "ch05-s01-n0045",
+        "ch05-s01-n0046",
+        "ch05-s01-n0047",
+        "ch05-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 35775,
+      "bytes": 572972,
+      "sha256": "c37b7e2c9f9fdaaa1048ae10c48ee13ba0307540574d3d0883929b28864b28fd",
+      "sentence_ids": [
+        "ch05-s01-n0049",
+        "ch05-s01-n0050",
+        "ch05-s01-n0051",
+        "ch05-s01-n0052",
+        "ch05-s01-n0053",
+        "ch05-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 81412,
+      "bytes": 1303340,
+      "sha256": "70e987df0deaf3f4f2e7859dd79212f0b71a37961e455ded937456cc4c0ff9f5",
+      "sentence_ids": [
+        "ch05-s01-n0055",
+        "ch05-s01-n0056",
+        "ch05-s01-n0057",
+        "ch05-s01-n0058",
+        "ch05-s01-n0059",
+        "ch05-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 68900,
+      "bytes": 1102892,
+      "sha256": "d08994f76d56c864dcce969c91ee954670c346e6b58084531fd76a5d3ba2893e",
+      "sentence_ids": [
+        "ch05-s01-n0061",
+        "ch05-s01-n0062",
+        "ch05-s01-n0063",
+        "ch05-s01-n0064",
+        "ch05-s01-n0065",
+        "ch05-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 29349,
+      "bytes": 470060,
+      "sha256": "1713a62248875e9cf39c90af36a0852686f54e9c496cb7a7934aa44d235c6449",
+      "sentence_ids": [
+        "ch05-s01-n0067",
+        "ch05-s01-n0068",
+        "ch05-s01-n0069",
+        "ch05-s01-n0070",
+        "ch05-s01-n0071",
+        "ch05-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 51497,
+      "bytes": 824492,
+      "sha256": "84e19abf992c5aa0dfa8dbaca4572dc4f4dd88e6f0cd0ab19ea9f43858cef0db",
+      "sentence_ids": [
+        "ch05-s01-n0073",
+        "ch05-s01-n0074",
+        "ch05-s01-n0075",
+        "ch05-s01-n0076",
+        "ch05-s01-n0077",
+        "ch05-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 43578,
+      "bytes": 697772,
+      "sha256": "e263c9964d28b453d47636049ac7088ce604fb9d0b2bb99110a119e8927a9c7e",
+      "sentence_ids": [
+        "ch05-s01-n0079",
+        "ch05-s01-n0080",
+        "ch05-s01-n0081",
+        "ch05-s01-n0082",
+        "ch05-s01-n0083",
+        "ch05-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 44785,
+      "bytes": 717356,
+      "sha256": "8a70dfd74b421271b6adcac408c85ae5c965591861594b6120a5bb2e748d74c5",
+      "sentence_ids": [
+        "ch05-s01-n0085",
+        "ch05-s01-n0086",
+        "ch05-s01-n0087",
+        "ch05-s01-n0088",
+        "ch05-s01-n0089",
+        "ch05-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 38700,
+      "bytes": 619820,
+      "sha256": "811f49ebf3a394b2d513be97aafd7b524b05e4a687c39c6d14d27307fe10812e",
+      "sentence_ids": [
+        "ch05-s01-n0091",
+        "ch05-s01-n0092",
+        "ch05-s01-n0093",
+        "ch05-s01-n0094",
+        "ch05-s01-n0095",
+        "ch05-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 50229,
+      "bytes": 804140,
+      "sha256": "00dea3c09ffd9a017c913fe259104010e05855edb92d5d17430e28263ff700ba",
+      "sentence_ids": [
+        "ch05-s01-n0097",
+        "ch05-s01-n0098",
+        "ch05-s01-n0099",
+        "ch05-s01-n0100",
+        "ch05-s01-n0101",
+        "ch05-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 46905,
+      "bytes": 751148,
+      "sha256": "4f315feefdf593fa9b510638d561bcf52c47469e6f2cfb0ec8818a3ad4a9d40b",
+      "sentence_ids": [
+        "ch05-s01-n0103",
+        "ch05-s01-n0104",
+        "ch05-s01-n0105",
+        "ch05-s01-n0106",
+        "ch05-s01-n0107",
+        "ch05-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 38876,
+      "bytes": 622508,
+      "sha256": "5a140348abda2b296a3b3f0e279599a7f331bc26a5ed2b06d1ba31025dae87ae",
+      "sentence_ids": [
+        "ch05-s01-n0109",
+        "ch05-s01-n0110",
+        "ch05-s01-n0111",
+        "ch05-s01-n0112",
+        "ch05-s01-n0113",
+        "ch05-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 44935,
+      "bytes": 719660,
+      "sha256": "d7bee6f54f271275ff100c57ebcd91e890ab2ed7d23d67a7853f8ecc037fd81c",
+      "sentence_ids": [
+        "ch05-s01-n0115",
+        "ch05-s01-n0116",
+        "ch05-s01-n0117",
+        "ch05-s01-n0118",
+        "ch05-s01-n0119",
+        "ch05-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 45461,
+      "bytes": 728108,
+      "sha256": "208aeb5df6a35b52b5326fc6514d7919e4b00826bec929738e9bdb7d3531888b",
+      "sentence_ids": [
+        "ch05-s01-n0121",
+        "ch05-s01-n0122",
+        "ch05-s01-n0123",
+        "ch05-s01-n0124",
+        "ch05-s01-n0125",
+        "ch05-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 35357,
+      "bytes": 566444,
+      "sha256": "5bf5145affaea978a0fe1170af2b279ca6d7f6434d7164492474de186f23624e",
+      "sentence_ids": [
+        "ch05-s01-n0127",
+        "ch05-s01-n0128",
+        "ch05-s01-n0129",
+        "ch05-s01-n0130",
+        "ch05-s01-n0131",
+        "ch05-s01-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 82000,
+      "bytes": 1312556,
+      "sha256": "aa6e8ba4782f3cd1b18eea516e0c458be1b1dd7772401b5df5c344c6e650fcfc",
+      "sentence_ids": [
+        "ch05-s01-n0133",
+        "ch05-s01-n0134",
+        "ch05-s01-n0135",
+        "ch05-s01-n0136",
+        "ch05-s01-n0137",
+        "ch05-s01-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 47780,
+      "bytes": 764972,
+      "sha256": "fdab3d89cf5cd083da59d1164ec8de954eddb2957b62cca4e2deff8a4a7700d2",
+      "sentence_ids": [
+        "ch05-s01-n0139",
+        "ch05-s01-n0140",
+        "ch05-s01-n0141",
+        "ch05-s01-n0142",
+        "ch05-s01-n0143",
+        "ch05-s01-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 41580,
+      "bytes": 665900,
+      "sha256": "710517353656279d3714943090e2bffff71271d1eff47143361561070916ab0a",
+      "sentence_ids": [
+        "ch05-s01-n0145",
+        "ch05-s01-n0146",
+        "ch05-s01-n0147",
+        "ch05-s01-n0148",
+        "ch05-s01-n0149",
+        "ch05-s01-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 46446,
+      "bytes": 743852,
+      "sha256": "f6656a73d008243557d8e9885ef10d62b17d43fb3017acdee76946d070e1917d",
+      "sentence_ids": [
+        "ch05-s01-n0151",
+        "ch05-s01-n0152",
+        "ch05-s01-n0153",
+        "ch05-s01-n0154",
+        "ch05-s01-n0155",
+        "ch05-s01-n0156"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch05-s01-n0001",
+      "text": "劳动力的实际使用，就是劳动。",
+      "start_ms": 200,
+      "end_ms": 2200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s01-n0002",
+      "text": "资本家购买劳动力以后，便让劳动力的出售者为自己工作，从而把买来的劳动力实际使用起来。",
+      "start_ms": 2680,
+      "end_ms": 9520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s01-n0003",
+      "text": "工人的劳动要体现在商品中，首先必须生产出某种有用的东西，也就是能够满足某种需要的具体产品。",
+      "start_ms": 9920,
+      "end_ms": 17880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s01-n0004",
+      "text": "这样的产品具有使用价值。",
+      "start_ms": 18520,
+      "end_ms": 20640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s01-n0005",
+      "text": "因此，资本家总会让工人生产某种特定的产品。",
+      "start_ms": 21480,
+      "end_ms": 24960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s01-n0006",
+      "text": "不过，即使生产是为资本家进行的，整个过程也受资本家控制，劳动者仍然要通过实际劳动生产出有用的东西。",
+      "start_ms": 25720,
+      "end_ms": 34200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch05-s01-n0007",
+      "text": "劳动过程本身并不会因此变成另一回事。",
+      "start_ms": 280,
+      "end_ms": 3760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s01-n0008",
+      "text": "因此，我们暂时撇开劳动所处的具体社会关系，只考察劳动过程本身。",
+      "start_ms": 4360,
+      "end_ms": 10480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s01-n0009",
+      "text": "劳动首先是人与自然之间的一个过程。",
+      "start_ms": 10960,
+      "end_ms": 13720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s01-n0010",
+      "text": "人在这个过程中，通过自己的行动，推动、调节并控制自己与自然之间的物质交换。",
+      "start_ms": 14120,
+      "end_ms": 20600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s01-n0011",
+      "text": "人本身也是自然的一部分，也是一种自然力量。",
+      "start_ms": 21200,
+      "end_ms": 24920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s01-n0012",
+      "text": "他调动自己的手、脚、头脑和身体的其他力量，作用于外界的自然物，把它们改造成适合自己使用的形态。",
+      "start_ms": 25640,
+      "end_ms": 36000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch05-s01-n0013",
+      "text": "人在改变外部自然的同时，也在改变自己。",
+      "start_ms": 40,
+      "end_ms": 3640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s01-n0014",
+      "text": "他使自身原本潜藏的能力得到发展，并逐渐学会支配这些能力。",
+      "start_ms": 4360,
+      "end_ms": 9720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s01-n0015",
+      "text": "这里说的，不是人类早期那种近似动物本能的活动。",
+      "start_ms": 10600,
+      "end_ms": 14640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s01-n0016",
+      "text": "到了工人能够在市场上出售劳动力的时代，那种尚未摆脱本能的早期劳动，早已退到遥远的史前背景。",
+      "start_ms": 15280,
+      "end_ms": 24040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s01-n0017",
+      "text": "这里，我们只讨论已经具有明确目的、真正属于人类的劳动。",
+      "start_ms": 24640,
+      "end_ms": 28560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s01-n0018",
+      "text": "蜘蛛的动作很像织工，蜜蜂筑出的蜂房甚至会让不少建筑师汗颜。",
+      "start_ms": 28840,
+      "end_ms": 34440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch05-s01-n0019",
+      "text": "可是，再差的建筑师也有一点胜过最出色的蜜蜂：动手以前，他已经在头脑中构想好了自己要造的东西。",
+      "start_ms": 560,
+      "end_ms": 9800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s01-n0020",
+      "text": "劳动结束时出现的结果，在劳动开始以前，就已经以设想的形式存在于劳动者的头脑中。",
+      "start_ms": 10520,
+      "end_ms": 19200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s01-n0021",
+      "text": "因此，劳动者不只是改变自然物的形态，还要在自然物上实现自己预先设定的目的。",
+      "start_ms": 19760,
+      "end_ms": 26000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s01-n0022",
+      "text": "这个目的决定了他应该怎样行动，也成为他在劳动过程中必须遵守的准则。",
+      "start_ms": 26920,
+      "end_ms": 32600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s01-n0023",
+      "text": "为了实现这个目的，他必须约束自己的意志。",
+      "start_ms": 33200,
+      "end_ms": 36240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s01-n0024",
+      "text": "而且，这种自我约束必须贯穿劳动的全过程。",
+      "start_ms": 36960,
+      "end_ms": 41320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch05-s01-n0025",
+      "text": "劳动不仅需要身体持续用力，也要求劳动者始终围绕既定目的保持专注。",
+      "start_ms": 120,
+      "end_ms": 6000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s01-n0026",
+      "text": "劳动越枯燥，劳动者越难从中感到自己是在自由运用体力和智力，也就越需要靠意志强迫自己专心。",
+      "start_ms": 6440,
+      "end_ms": 15800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s01-n0027",
+      "text": "劳动过程包含三个基本部分。",
+      "start_ms": 16600,
+      "end_ms": 18880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s01-n0028",
+      "text": "第一是有目的的活动，也就是劳动本身。",
+      "start_ms": 19720,
+      "end_ms": 22840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s01-n0029",
+      "text": "第二是劳动所作用的对象。",
+      "start_ms": 23120,
+      "end_ms": 24880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s01-n0030",
+      "text": "第三是劳动时使用的工具和其他手段。",
+      "start_ms": 25240,
+      "end_ms": 28120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch05-s01-n0031",
+      "text": "后面两项分别称为劳动对象和劳动手段。",
+      "start_ms": 280,
+      "end_ms": 4280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s01-n0032",
+      "text": "土地在经济学意义上也包括水。",
+      "start_ms": 4800,
+      "end_ms": 7440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s01-n0033",
+      "text": "最初，它不需要人类加工，就能提供现成的食物，也是人类劳动最普遍的对象。",
+      "start_ms": 8200,
+      "end_ms": 14960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s01-n0034",
+      "text": "有些劳动只是把某种东西从原来的自然环境中取出来。",
+      "start_ms": 15400,
+      "end_ms": 19360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s01-n0035",
+      "text": "这些东西在劳动开始前已经由自然提供，是未经加工的劳动对象。",
+      "start_ms": 20200,
+      "end_ms": 26080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s01-n0036",
+      "text": "比如，捕鱼是把鱼从它生活的水中捕获，伐木是把树木从原始森林中砍下，采矿是把矿石从矿脉中开采出来。",
+      "start_ms": 26640,
+      "end_ms": 36280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch05-s01-n0037",
+      "text": "如果劳动对象以前已经经过人的加工，就叫作原料。",
+      "start_ms": 80,
+      "end_ms": 4800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s01-n0038",
+      "text": "比如，矿石已经开采出来，现在又要清洗，这时它就是原料。",
+      "start_ms": 5800,
+      "end_ms": 11600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s01-n0039",
+      "text": "所以，所有原料都是劳动对象，但不是所有劳动对象都是原料。",
+      "start_ms": 12360,
+      "end_ms": 18000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s01-n0040",
+      "text": "劳动对象只有经过先前的劳动改变以后，才成为原料。",
+      "start_ms": 18960,
+      "end_ms": 24080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s01-n0041",
+      "text": "劳动手段，是劳动者放在自己和劳动对象之间，用来把自己的行动传递到劳动对象上的东西，或一整套东西。",
+      "start_ms": 24880,
+      "end_ms": 34640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s01-n0042",
+      "text": "劳动者利用这些东西的力学、物理或化学性质，让它们按照自己的目的作用于其他东西。",
+      "start_ms": 35480,
+      "end_ms": 42000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch05-s01-n0043",
+      "text": "除了直接摘取果实这类只靠身体器官完成的活动，劳动者通常直接拿在手里的不是劳动对象，而是劳动手段。",
+      "start_ms": 200,
+      "end_ms": 8280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s01-n0044",
+      "text": "自然物由此成了他劳动的器官，被接到他自己的身体器官上，延长了人的自然形体——不管《圣经》怎么说。",
+      "start_ms": 8720,
+      "end_ms": 17040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s01-n0045",
+      "text": "土地最初既是人类的食物仓库，也是劳动手段的仓库。",
+      "start_ms": 17560,
+      "end_ms": 22480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s01-n0046",
+      "text": "它提供石头，让人投掷、摩擦、压碎和切割东西。",
+      "start_ms": 22880,
+      "end_ms": 27520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s01-n0047",
+      "text": "土地本身也可以成为劳动手段，比如农业中的耕地。",
+      "start_ms": 27920,
+      "end_ms": 33040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s01-n0048",
+      "text": "不过，要把土地当作农业劳动的手段，人们已经需要一整套其他工具，也需要相当发展的劳动能力。",
+      "start_ms": 33840,
+      "end_ms": 42640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch05-s01-n0049",
+      "text": "劳动过程只要发展到一定程度，就会使用加工过的劳动手段。",
+      "start_ms": 0,
+      "end_ms": 5396,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s01-n0050",
+      "text": "最古老的人类洞穴中已经发现了石制工具和武器。",
+      "start_ms": 5396,
+      "end_ms": 9793,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s01-n0051",
+      "text": "人类早期除了使用加工过的石头、木头、骨头和贝壳，驯养的动物也在劳动手段中居于主要地位。",
+      "start_ms": 9793,
+      "end_ms": 18387,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s01-n0052",
+      "text": "这些动物本身已经经过人的劳动改造和培育。",
+      "start_ms": 18387,
+      "end_ms": 22384,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s01-n0053",
+      "text": "少数动物也会在很初步的意义上使用甚至制造工具，但使用和制造劳动手段仍是人类劳动的典型特征。",
+      "start_ms": 22384,
+      "end_ms": 31378,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s01-n0054",
+      "text": "因此，富兰克林把人定义为“制造工具的动物”。",
+      "start_ms": 31378,
+      "end_ms": 35775,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch05-s01-n0055",
+      "text": "古生物学家从骨骼遗存判断已经灭绝的动物怎样生活，研究社会历史也可以从遗留下来的劳动手段判断已经消失的经济和社会形态。",
+      "start_ms": 0,
+      "end_ms": 15381,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s01-n0056",
+      "text": "区分不同经济时代的关键，不只是生产了什么，更是怎样生产、使用什么劳动手段生产。",
+      "start_ms": 15381,
+      "end_ms": 25723,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s01-n0057",
+      "text": "劳动手段不仅显示人类生产能力发展到什么程度，也显示劳动是在什么社会关系中进行的。",
+      "start_ms": 25723,
+      "end_ms": 36330,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s01-n0058",
+      "text": "其中，工具、机器等机械性劳动手段，可以看作生产的“骨骼和肌肉系统”，最能显示一个生产时代的特征。",
+      "start_ms": 36330,
+      "end_ms": 49059,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s01-n0059",
+      "text": "管道、木桶、篮子、陶罐等只用来容纳劳动对象的手段，可以看作生产的“血管系统”，通常没有同样强的时代特征，只是在化工生产中才格外重要。",
+      "start_ms": 49059,
+      "end_ms": 66562,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s01-n0060",
+      "text": "从更广的意义上说，劳动手段不只包括直接把人的行动传递给劳动对象的工具，还包括劳动过程能够进行所需的一切物质条件。",
+      "start_ms": 66562,
+      "end_ms": 81412,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch05-s01-n0061",
+      "text": "这些条件虽然不直接参与加工，但没有它们，劳动就无法进行，或者只能很不顺利地进行。",
+      "start_ms": 160,
+      "end_ms": 8240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s01-n0062",
+      "text": "土地仍是这类条件中最普遍的一种，因为它给劳动者提供立足之处，也给劳动过程提供活动空间。",
+      "start_ms": 8920,
+      "end_ms": 19200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s01-n0063",
+      "text": "经过劳动建成的厂房、运河和道路等，也属于这类劳动手段。",
+      "start_ms": 20000,
+      "end_ms": 46400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s01-n0064",
+      "text": "在劳动过程中，人通过劳动手段，有目的地改变劳动对象。",
+      "start_ms": 49280,
+      "end_ms": 54640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s01-n0065",
+      "text": "产品一旦完成，劳动过程也就结束了。",
+      "start_ms": 55120,
+      "end_ms": 58840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s01-n0066",
+      "text": "这个产品是一种使用价值，是经过形态改变、已经适合满足人类需要的自然材料。",
+      "start_ms": 59680,
+      "end_ms": 68720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch05-s01-n0067",
+      "text": "劳动已经同对象结合在一起。",
+      "start_ms": 240,
+      "end_ms": 2560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s01-n0068",
+      "text": "劳动凝结在对象中，对象也受到了加工。",
+      "start_ms": 3480,
+      "end_ms": 6480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s01-n0069",
+      "text": "劳动进行时，它表现为劳动者持续不断的活动。",
+      "start_ms": 6920,
+      "end_ms": 10840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s01-n0070",
+      "text": "劳动完成后，这种活动则表现为产品已经具有的一种稳定性质。",
+      "start_ms": 11400,
+      "end_ms": 16560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s01-n0071",
+      "text": "比如，工人不断纺纱，最后留下的是纱。",
+      "start_ms": 17040,
+      "end_ms": 19680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s01-n0072",
+      "text": "如果从劳动过程的结果，也就是产品出发来看，劳动对象和劳动手段都是生产所需的物质条件，合称生产资料。",
+      "start_ms": 20440,
+      "end_ms": 29080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch05-s01-n0073",
+      "text": "劳动本身则表现为生产产品的劳动，也就是生产劳动。",
+      "start_ms": 120,
+      "end_ms": 4800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s01-n0074",
+      "text": "一种有用之物从某个劳动过程中作为产品出现时，另一些有用之物则会作为生产资料进入这个过程，而后者也是以往劳动过程的产品。",
+      "start_ms": 5760,
+      "end_ms": 21000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s01-n0075",
+      "text": "同一种东西，可以是这一次劳动的产品，也可以成为下一次劳动的生产资料。",
+      "start_ms": 21760,
+      "end_ms": 29080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s01-n0076",
+      "text": "因此，产品不只是劳动过程的结果，也是劳动过程得以进行的条件。",
+      "start_ms": 29800,
+      "end_ms": 37040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s01-n0077",
+      "text": "采矿、狩猎和捕鱼等采掘性行业，直接从自然界取得劳动对象。",
+      "start_ms": 38200,
+      "end_ms": 46120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s01-n0078",
+      "text": "农业在最初开垦从未耕种的土地时也是如此。",
+      "start_ms": 47000,
+      "end_ms": 51320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch05-s01-n0079",
+      "text": "除此之外，各生产部门加工的对象都是原料，也就是已经受过劳动作用、本身就是劳动产品的对象。",
+      "start_ms": 0,
+      "end_ms": 9080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s01-n0080",
+      "text": "农业中的种子就是一个例子。",
+      "start_ms": 9880,
+      "end_ms": 12200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s01-n0081",
+      "text": "动物和植物通常被看作自然的产物，但它们现在的形态不只是上一年劳动的结果，也是人类经过许多代的控制、劳动和选择，持续改造出来的结果。",
+      "start_ms": 12640,
+      "end_ms": 26240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s01-n0082",
+      "text": "至于劳动手段，其中绝大多数只要看上一眼，就能发现过去劳动留下的痕迹。",
+      "start_ms": 27000,
+      "end_ms": 34000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s01-n0083",
+      "text": "原料可以构成产品的主要材料，也可以只作为辅助材料参与生产。",
+      "start_ms": 34720,
+      "end_ms": 40000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s01-n0084",
+      "text": "辅助材料有三种常见用法。",
+      "start_ms": 40560,
+      "end_ms": 43320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch05-s01-n0085",
+      "text": "第一种是被劳动手段消耗，比如蒸汽机烧煤、车轮用油、役畜吃草料。",
+      "start_ms": 400,
+      "end_ms": 7320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s01-n0086",
+      "text": "第二种是加入主要原料，使它发生物质变化，比如用氯漂白麻布、炼铁时加入煤、给羊毛染色。",
+      "start_ms": 7880,
+      "end_ms": 16640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s01-n0087",
+      "text": "第三种是帮助劳动本身进行，比如用燃料给工作场所照明和取暖。",
+      "start_ms": 17160,
+      "end_ms": 22880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s01-n0088",
+      "text": "在真正的化工生产中，主要材料和辅助材料的区别会变得模糊，因为投入的各种原料往往都不再以原来的物质形态出现在产品中。",
+      "start_ms": 23600,
+      "end_ms": 34400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s01-n0089",
+      "text": "同一种东西有多种性质，也就可以有多种用途。",
+      "start_ms": 35040,
+      "end_ms": 38800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s01-n0090",
+      "text": "因此，同一种产品能够成为许多不同劳动过程的原料。",
+      "start_ms": 39880,
+      "end_ms": 44480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch05-s01-n0091",
+      "text": "比如，谷物可以成为磨坊、淀粉厂、酿酒业和养殖业的原料。",
+      "start_ms": 80,
+      "end_ms": 5080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s01-n0092",
+      "text": "谷物作为种子时，甚至会成为生产谷物本身的原料。",
+      "start_ms": 5640,
+      "end_ms": 9640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s01-n0093",
+      "text": "煤则从采矿业中作为产品出来，又作为生产资料重新进入采矿业。",
+      "start_ms": 10600,
+      "end_ms": 16280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s01-n0094",
+      "text": "同一种产品在同一个劳动过程中，也可以同时充当劳动手段和原料。",
+      "start_ms": 16960,
+      "end_ms": 22480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s01-n0095",
+      "text": "比如在养肥牲畜时，牲畜一方面是正在被加工的原料，另一方面又是生产肥料的手段。",
+      "start_ms": 23280,
+      "end_ms": 30200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s01-n0096",
+      "text": "一件已经可以直接消费的产品，也能重新成为另一种产品的原料，比如葡萄可以成为酿酒的原料。",
+      "start_ms": 31040,
+      "end_ms": 38600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch05-s01-n0097",
+      "text": "有些劳动过程生产出来的东西，本来就只能继续作为原料使用。",
+      "start_ms": 80,
+      "end_ms": 4600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s01-n0098",
+      "text": "这种产品通常叫半成品，更准确地说，可以叫阶段性产品，比如棉花、纱线和织线等。",
+      "start_ms": 5120,
+      "end_ms": 12600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s01-n0099",
+      "text": "最初的原料虽然已经是产品，仍可能依次经过许多不同的加工过程。",
+      "start_ms": 13000,
+      "end_ms": 18240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s01-n0100",
+      "text": "在每个阶段，它的形态都会变化，却又一次次成为下一阶段的原料，直到最后一个劳动过程把它变成可以直接使用的生活资料或劳动手段。",
+      "start_ms": 18600,
+      "end_ms": 30320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s01-n0101",
+      "text": "由此可见，一种有用之物究竟是原料、劳动手段还是产品，不取决于它本身固定不变的身份，而完全取决于它在具体劳动过程中发挥什么作用、处在什么位置。",
+      "start_ms": 31080,
+      "end_ms": 46560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s01-n0102",
+      "text": "位置一变，它的身份也会随之改变。",
+      "start_ms": 47200,
+      "end_ms": 49960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch05-s01-n0103",
+      "text": "产品一旦作为生产资料进入新的劳动过程，就不再以产品的身份出现，只作为活劳动所使用的物质条件发挥作用。",
+      "start_ms": 40,
+      "end_ms": 9200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s01-n0104",
+      "text": "纺纱工只把纺锭看作纺纱的手段，把亚麻看作被纺的对象。",
+      "start_ms": 9760,
+      "end_ms": 15520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s01-n0105",
+      "text": "没有纺锭和纺纱材料，当然无法开始纺纱，所以这些产品必须事先已经存在。",
+      "start_ms": 16120,
+      "end_ms": 22520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s01-n0106",
+      "text": "但在纺纱过程中，亚麻和纺锭是不是过去劳动的产品并不重要，就像人吃面包时，并不关心它曾经过农民、磨坊工人和面包师的劳动。",
+      "start_ms": 22880,
+      "end_ms": 34400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s01-n0107",
+      "text": "只有当生产资料出现缺陷时，它们才会让人注意到其中的过去劳动。",
+      "start_ms": 35280,
+      "end_ms": 41040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s01-n0108",
+      "text": "刀不锋利，线总是断，人们才会想起制刀匠或纺线工。",
+      "start_ms": 41560,
+      "end_ms": 46600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch05-s01-n0109",
+      "text": "产品如果好用，过去劳动怎样使它获得这些用途，反而不会被人注意。",
+      "start_ms": 80,
+      "end_ms": 5800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s01-n0110",
+      "text": "机器如果不进入劳动过程，就毫无用处，还会在自然作用下不断损坏。",
+      "start_ms": 6440,
+      "end_ms": 12120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s01-n0111",
+      "text": "铁会生锈，木头会腐烂。",
+      "start_ms": 12680,
+      "end_ms": 14920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s01-n0112",
+      "text": "纱线如果不拿去织布或编织，就只是已经变坏的棉花。",
+      "start_ms": 15600,
+      "end_ms": 20600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s01-n0113",
+      "text": "活劳动必须抓住这些东西，把它们从死物中唤醒，使它们从可能有用的东西变成真正发挥作用的使用价值。",
+      "start_ms": 21040,
+      "end_ms": 30240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s01-n0114",
+      "text": "它们被劳动的火焰卷入，成为劳动活动的一部分，按照各自在生产中的用途发挥作用。",
+      "start_ms": 30960,
+      "end_ms": 38520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch05-s01-n0115",
+      "text": "它们也会在这个过程中被消耗，但这种消耗有明确目的：它们会成为新产品的构成部分。",
+      "start_ms": 0,
+      "end_ms": 7480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s01-n0116",
+      "text": "新产品随后既可以作为生活资料供个人消费，也可以作为生产资料进入新的劳动过程。",
+      "start_ms": 8200,
+      "end_ms": 16000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s01-n0117",
+      "text": "所以，已有产品一方面是过去劳动的结果，另一方面也是当前劳动过程能够存在的条件。",
+      "start_ms": 16680,
+      "end_ms": 24040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s01-n0118",
+      "text": "而要保存并真正实现这些旧产品的用途，唯一办法就是把它们投入新的劳动过程，让它们同活劳动接触。",
+      "start_ms": 24920,
+      "end_ms": 35040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s01-n0119",
+      "text": "劳动会消耗它的物质要素，也就是劳动对象和劳动手段。",
+      "start_ms": 35960,
+      "end_ms": 40640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s01-n0120",
+      "text": "因此，劳动过程同时也是一种消费过程。",
+      "start_ms": 41400,
+      "end_ms": 44640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch05-s01-n0121",
+      "text": "不过，这种生产中的消费不同于个人消费。",
+      "start_ms": 80,
+      "end_ms": 4120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s01-n0122",
+      "text": "个人消费把产品当作维持个人生活的资料，生产中的消费则把产品当作劳动活动得以进行的资料。",
+      "start_ms": 4760,
+      "end_ms": 15400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s01-n0123",
+      "text": "个人消费的结果，是消费者自身的生存和维持。",
+      "start_ms": 16080,
+      "end_ms": 20360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s01-n0124",
+      "text": "生产中消费的结果，则是一个同劳动者本人不同的新产品。",
+      "start_ms": 21440,
+      "end_ms": 26520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s01-n0125",
+      "text": "只要劳动对象和劳动手段本身已经是产品，劳动就是在消费产品的同时创造新产品，也就是把已有产品当作生产新产品的生产资料。",
+      "start_ms": 27320,
+      "end_ms": 38520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s01-n0126",
+      "text": "不过，劳动过程最初只是发生在人和未经人类加工的自然之间。",
+      "start_ms": 39360,
+      "end_ms": 45200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch05-s01-n0127",
+      "text": "即使到了后来，生产中仍然会使用一些自然直接提供的条件。",
+      "start_ms": 0,
+      "end_ms": 5400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s01-n0128",
+      "text": "这些生产资料只是自然物，并不包含人类过去的劳动。",
+      "start_ms": 6120,
+      "end_ms": 10680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s01-n0129",
+      "text": "我们以上分析的，只是劳动过程最简单、最抽象的部分。",
+      "start_ms": 11320,
+      "end_ms": 16200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s01-n0130",
+      "text": "归结起来，劳动就是一种有目的的活动。",
+      "start_ms": 16840,
+      "end_ms": 20240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s01-n0131",
+      "text": "人通过劳动取得并改造自然物，生产使用价值，满足自己的需要。",
+      "start_ms": 20760,
+      "end_ms": 26880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s01-n0132",
+      "text": "劳动是人与自然进行物质交换的普遍条件，是人类生活永远离不开的自然条件。",
+      "start_ms": 27760,
+      "end_ms": 35000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch05-s01-n0133",
+      "text": "因此，它不属于任何一种特定的社会形式，而为一切社会共有。",
+      "start_ms": 0,
+      "end_ms": 7653,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s01-n0134",
+      "text": "正因为如此，前面的分析只需要考察人怎样劳动、怎样对待自然，不必讨论他同其他劳动者的关系。",
+      "start_ms": 7653,
+      "end_ms": 19680,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s01-n0135",
+      "text": "就像尝一粒麦子无法知道是谁种的一样，单看劳动过程本身，也看不出它是在什么社会条件下进行的：劳动者可能在奴隶监工的鞭子下劳动，也可能在资本家的严密监视下劳动；可能是古罗马的辛辛纳图斯耕种自己的几亩地，也可能是原始猎人用石头击杀野兽。",
+      "start_ms": 19680,
+      "end_ms": 51113,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s01-n0136",
+      "text": "现在回到那位准备成为资本家的买主身上。",
+      "start_ms": 51113,
+      "end_ms": 56307,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s01-n0137",
+      "text": "前面说到，他已经在商品市场上买齐了劳动过程所需的各种要素：物质要素是生产资料，人的要素是劳动力。",
+      "start_ms": 56307,
+      "end_ms": 69427,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s01-n0138",
+      "text": "他以精明内行的眼光，挑选了适合自己所办企业的生产资料和劳动力，比如纺纱厂或制靴厂所需的一切。",
+      "start_ms": 69427,
+      "end_ms": 82000,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch05-s01-n0139",
+      "text": "接下来，他开始消费买来的劳动力，也就是让工人使用生产资料进行劳动。",
+      "start_ms": 0,
+      "end_ms": 6400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s01-n0140",
+      "text": "工人现在虽然为资本家而不是为自己劳动，劳动过程的基本性质却没有改变。",
+      "start_ms": 7280,
+      "end_ms": 13960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s01-n0141",
+      "text": "资本家刚刚介入时，制靴或纺纱的具体方法也不会立刻改变。",
+      "start_ms": 14760,
+      "end_ms": 20200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s01-n0142",
+      "text": "他只能先使用市场上已有的劳动力，也只能采用此前形成的劳动方式，而这些劳动方式早在资本家出现以前就已经存在。",
+      "start_ms": 20920,
+      "end_ms": 31160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s01-n0143",
+      "text": "等到劳动受资本支配以后，资本还会进一步改变生产方式，但那是后面才要讨论的问题。",
+      "start_ms": 31880,
+      "end_ms": 39680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s01-n0144",
+      "text": "不过，一旦劳动过程成为资本家消费劳动力的过程，就会出现两个特殊之处。",
+      "start_ms": 40600,
+      "end_ms": 47720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch05-s01-n0145",
+      "text": "第一，工人在资本家的控制下劳动，他的劳动归资本家支配。",
+      "start_ms": 120,
+      "end_ms": 5760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s01-n0146",
+      "text": "资本家会监督劳动是否正常进行，生产资料是否得到恰当使用。",
+      "start_ms": 6200,
+      "end_ms": 12240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s01-n0147",
+      "text": "他要防止原料浪费，也要避免工具受到不必要的损坏，只允许劳动造成使用工具时无法避免的损耗。",
+      "start_ms": 12640,
+      "end_ms": 20920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s01-n0148",
+      "text": "第二，产品归资本家所有，而不归直接生产它的工人所有。",
+      "start_ms": 21960,
+      "end_ms": 27520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s01-n0149",
+      "text": "资本家支付一天劳动力的价钱，便可以在这一天里使用这种劳动力，就像租用一匹马一天，便可以使用它一天。",
+      "start_ms": 28240,
+      "end_ms": 38000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s01-n0150",
+      "text": "商品的买主可以使用买来的商品。",
+      "start_ms": 38840,
+      "end_ms": 41440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch05-s01-n0151",
+      "text": "劳动力的所有者把自己的劳动交给资本家，提供的正是劳动力的这种用途。",
+      "start_ms": 0,
+      "end_ms": 5080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s01-n0152",
+      "text": "从工人进入资本家工场的那一刻起，他的劳动力怎样使用，也就是他的劳动，便归资本家支配。",
+      "start_ms": 5480,
+      "end_ms": 13800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s01-n0153",
+      "text": "资本家买下劳动力，等于把活劳动这种能使生产发生的力量，加入同样属于自己的各种生产资料中。",
+      "start_ms": 14760,
+      "end_ms": 22800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s01-n0154",
+      "text": "在资本家看来，劳动过程只是他消费劳动力这种商品的过程。",
+      "start_ms": 23320,
+      "end_ms": 28040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s01-n0155",
+      "text": "不过，劳动力只有同生产资料结合起来，才能被实际使用。",
+      "start_ms": 28680,
+      "end_ms": 33040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch05-s01-n0156",
+      "text": "因此，整个劳动过程是在资本家买来的各种要素之间进行的，产品自然也属于他，就像酒窖里的原料经过发酵，产出的酒仍然属于酒窖的主人一样。",
+      "start_ms": 33720,
+      "end_ms": 46240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0026"
+    }
+  ]
+}
