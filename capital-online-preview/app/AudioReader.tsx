@@ -398,9 +398,7 @@ export function AudioReader({
   const playSentenceRef = useRef<(sentenceId: string) => void>(() => {});
   const activeSentenceIdRef = useRef("");
   const sentenceInteractionEnabled =
-    status === "ready" &&
-    playerOpen &&
-    (!mobileViewport || (!playerTucked && !mobileAutoHidden));
+    status === "ready" && playerOpen;
   const sentenceInteractionEnabledRef = useRef(false);
   sentenceInteractionEnabledRef.current = sentenceInteractionEnabled;
   const manifestUrl = useMemo(

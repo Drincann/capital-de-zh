@@ -285,6 +285,10 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(audioReader, /playerTucked/);
   assert.match(audioReader, /playerOpen/);
   assert.match(audioReader, /sentenceInteractionEnabledRef\.current/);
+  assert.match(
+    audioReader,
+    /const sentenceInteractionEnabled =\s*status === "ready" && playerOpen;/,
+  );
   assert.match(audioReader, /syncNarrationInteraction/);
   assert.match(audioReader, /aria-label="关闭语音阅读"/);
   assert.match(audioReader, /function closePlayer\(\) \{\s*pendingStart\.current = null;/);
@@ -297,6 +301,10 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(audioReader, /aria-label="将语音控制收至侧边"/);
   assert.doesNotMatch(audioReader, /Ⅱ/);
   assert.match(css, /\.narration-current/);
+  assert.match(
+    css,
+    /\.prose \[data-narration-sentence\]\s*\{[^}]*border-radius:\s*0\.22em/s,
+  );
   assert.match(
     css,
     /\[data-narration-companion\]\.narration-current\s*\{[^}]*background:\s*transparent[^}]*box-shadow:\s*0 0 0 2px/s,

@@ -598,15 +598,18 @@ html::-webkit-scrollbar {
   color: color-mix(in srgb, var(--muted) 76%, transparent);
 }
 
-.prose.narration-ready [data-narration-sentence] {
+.prose [data-narration-sentence] {
   border-radius: 0.22em;
   box-decoration-break: clone;
-  cursor: pointer;
   transition:
     color 130ms ease,
     background-color 130ms ease,
     box-shadow 130ms ease;
   -webkit-box-decoration-break: clone;
+}
+
+.prose.narration-ready [data-narration-sentence] {
+  cursor: pointer;
 }
 
 .prose.narration-ready [data-narration-sentence]:hover {
