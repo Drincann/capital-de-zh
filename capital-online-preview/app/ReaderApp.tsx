@@ -246,6 +246,7 @@ export function ReaderApp({
     pointerId: number;
     startY: number;
     dragging: boolean;
+    previousScrollBehavior: string;
   } | null>(null);
   const suppressReadingPositionClick = useRef(false);
   const settingsRef = useRef<HTMLDivElement>(null);
@@ -350,10 +351,16 @@ export function ReaderApp({
     };
   }, [settingsOpen]);
 
-  useEffect(
-    () => () => document.body.classList.remove("reading-position-dragging"),
-    [],
-  );
+  useEffect(() => {
+    return () => {
+      const drag = readingPositionDrag.current;
+      if (drag) {
+        document.documentElement.style.scrollBehavior =
+          drag.previousScrollBehavior;
+      }
+      document.body.classList.remove("reading-position-dragging");
+    };
+  }, []);
 
   useEffect(() => {
     if (!selected || !locationResolved) return;
@@ -661,11 +668,14 @@ export function ReaderApp({
 
   function startReadingPositionDrag(event: React.PointerEvent<HTMLElement>) {
     if (event.pointerType === "mouse" && event.button !== 0) return;
+    const root = document.documentElement;
     readingPositionDrag.current = {
       pointerId: event.pointerId,
       startY: event.clientY,
       dragging: false,
+      previousScrollBehavior: root.style.scrollBehavior,
     };
+    root.style.scrollBehavior = "auto";
     event.currentTarget.setPointerCapture(event.pointerId);
   }
 
@@ -686,6 +696,8 @@ export function ReaderApp({
     if (!drag || drag.pointerId !== event.pointerId) return;
     const wasDragging = drag.dragging;
     readingPositionDrag.current = null;
+    document.documentElement.style.scrollBehavior =
+      drag.previousScrollBehavior;
     if (event.currentTarget.hasPointerCapture(event.pointerId)) {
       event.currentTarget.releasePointerCapture(event.pointerId);
     }

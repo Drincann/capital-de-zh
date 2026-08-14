@@ -355,6 +355,8 @@ test("目录收起和脚注跳转保留稳定布局与明确反馈", async () =>
   assert.match(reader, /scrollToParagraph/);
   assert.match(reader, /scrollFromReadingPosition/);
   assert.match(reader, /setPointerCapture\(event\.pointerId\)/);
+  assert.match(reader, /root\.style\.scrollBehavior = "auto"/);
+  assert.match(reader, /drag\.previousScrollBehavior/);
   assert.match(reader, /onPointerMove=\{moveReadingPositionDrag\}/);
   assert.match(reader, /suppressReadingPositionClick/);
   assert.match(reader, /paragraph-marker/);
