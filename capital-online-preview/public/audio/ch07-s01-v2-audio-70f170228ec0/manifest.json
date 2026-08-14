@@ -1,0 +1,1384 @@
+{
+  "schema_version": 2,
+  "status": "ready",
+  "audio_version_id": "ch07-s01-v2-audio-70f170228ec0",
+  "base_audio_version_id": "ch07-s01-v1-audio-7540a576f0a1",
+  "reused_chunk_count": 16,
+  "generated_chunk_count": 6,
+  "unit_id": "ch07-s01",
+  "translation_version_id": "ch07-s01-v2",
+  "translation_sha256": "d3e97e2eb94967027d6ffc37275aeef0d3ae0c4b374732d7c54210a4a3df613a",
+  "config_sha256": "38448e9085aaf6b8a25d2809647fbf6be1b8c3e4ea04d47fc3b4230c313f3e05",
+  "model_id": "seed-audio-1.0",
+  "model_label": "现有模型 1.0",
+  "transport": "audio-create-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-14T20:28:04.469Z",
+  "completed_at": "2026-08-14T20:29:33.215Z",
+  "duration_ms": 1095665,
+  "sentence_count": 129,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 30060,
+      "bytes": 481580,
+      "sha256": "86287782776a18dc4f7faf8037cc88afc62f1dd19dc6e159d61dc3657d864abf",
+      "sentence_ids": [
+        "ch07-s01-n0001",
+        "ch07-s01-n0002",
+        "ch07-s01-n0003",
+        "ch07-s01-n0004",
+        "ch07-s01-n0005",
+        "ch07-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 55006,
+      "bytes": 880556,
+      "sha256": "9a0eb135d0895a0158790aa79a6cb6de05bff91d549b8a6fc25926ae5ccf3336",
+      "sentence_ids": [
+        "ch07-s01-n0007",
+        "ch07-s01-n0008",
+        "ch07-s01-n0009",
+        "ch07-s01-n0010",
+        "ch07-s01-n0011",
+        "ch07-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 51900,
+      "bytes": 831020,
+      "sha256": "0f4792ed0582893263f78b45c03fdba3d4785609c93a4906df9fd6a0a6cba580",
+      "sentence_ids": [
+        "ch07-s01-n0013",
+        "ch07-s01-n0014",
+        "ch07-s01-n0015",
+        "ch07-s01-n0016",
+        "ch07-s01-n0017",
+        "ch07-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 48849,
+      "bytes": 782252,
+      "sha256": "40f77171ba730d1a36fd1784aef3dabfcfa536d11bb450609ff10d2a4cc4b95d",
+      "sentence_ids": [
+        "ch07-s01-n0019",
+        "ch07-s01-n0020",
+        "ch07-s01-n0021",
+        "ch07-s01-n0022",
+        "ch07-s01-n0023",
+        "ch07-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 57200,
+      "bytes": 915884,
+      "sha256": "31691b9ccb00084e7acad9842ad182cc3689284fdba080f4afe520bcc4b558ca",
+      "sentence_ids": [
+        "ch07-s01-n0025",
+        "ch07-s01-n0026",
+        "ch07-s01-n0027",
+        "ch07-s01-n0028",
+        "ch07-s01-n0029",
+        "ch07-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 57895,
+      "bytes": 927020,
+      "sha256": "a264ab7890c19bb9a9fc0487a61ce7bba09ae364d34d0fd964384514cc233949",
+      "sentence_ids": [
+        "ch07-s01-n0031",
+        "ch07-s01-n0032",
+        "ch07-s01-n0033",
+        "ch07-s01-n0034",
+        "ch07-s01-n0035",
+        "ch07-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 67847,
+      "bytes": 1085996,
+      "sha256": "d261fc0967dd35469f14fc37bb4075ee87c1fa99cfd74be303227447e8d6fa83",
+      "sentence_ids": [
+        "ch07-s01-n0037",
+        "ch07-s01-n0038",
+        "ch07-s01-n0039",
+        "ch07-s01-n0040",
+        "ch07-s01-n0041",
+        "ch07-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 56000,
+      "bytes": 896684,
+      "sha256": "4f8298aed1b28c0e920a3dc8304ffa2864ad555900eff9ee9b0a99647d176117",
+      "sentence_ids": [
+        "ch07-s01-n0043",
+        "ch07-s01-n0044",
+        "ch07-s01-n0045",
+        "ch07-s01-n0046",
+        "ch07-s01-n0047",
+        "ch07-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 46200,
+      "bytes": 740012,
+      "sha256": "bcf36497f0ea256eda047d7fcbf98108e64e51d3033830b871db4f496b951e15",
+      "sentence_ids": [
+        "ch07-s01-n0049",
+        "ch07-s01-n0050",
+        "ch07-s01-n0051",
+        "ch07-s01-n0052",
+        "ch07-s01-n0053",
+        "ch07-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 56280,
+      "bytes": 900908,
+      "sha256": "e090a1f9d2d910ba4b6db74aae3ce19a08b7b4027a4f46e2f8ce35d745c512e8",
+      "sentence_ids": [
+        "ch07-s01-n0055",
+        "ch07-s01-n0056",
+        "ch07-s01-n0057",
+        "ch07-s01-n0058",
+        "ch07-s01-n0059",
+        "ch07-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 49182,
+      "bytes": 787628,
+      "sha256": "318528f978f6b6b2bfcf2140a891dcf1cbb6952b65498a42fd8ceb72f85ff5bf",
+      "sentence_ids": [
+        "ch07-s01-n0061",
+        "ch07-s01-n0062",
+        "ch07-s01-n0063",
+        "ch07-s01-n0064",
+        "ch07-s01-n0065",
+        "ch07-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 79180,
+      "bytes": 1267628,
+      "sha256": "b8a8c4bc22dbce9fb349a1cc5498650f7408bed2259965d5fa598d7e94f11199",
+      "sentence_ids": [
+        "ch07-s01-n0067",
+        "ch07-s01-n0068",
+        "ch07-s01-n0069",
+        "ch07-s01-n0070",
+        "ch07-s01-n0071",
+        "ch07-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 39326,
+      "bytes": 630573,
+      "sha256": "321f048b8c2009eb5a661e8fe384d8bf0a0a5735e4a13f576308f73b5eef2605",
+      "sentence_ids": [
+        "ch07-s01-n0073",
+        "ch07-s01-n0074",
+        "ch07-s01-n0075",
+        "ch07-s01-n0076",
+        "ch07-s01-n0077",
+        "ch07-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 44580,
+      "bytes": 714669,
+      "sha256": "08ba263b7868e2274c2759f405365decb2da221100d18d41d7b13c0e1371946b",
+      "sentence_ids": [
+        "ch07-s01-n0079",
+        "ch07-s01-n0080",
+        "ch07-s01-n0081",
+        "ch07-s01-n0082",
+        "ch07-s01-n0083",
+        "ch07-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 42200,
+      "bytes": 675884,
+      "sha256": "4b05eb5b9710fb629534f22263e181f07c3f9ac742d75a90c1ca85525586d69b",
+      "sentence_ids": [
+        "ch07-s01-n0085",
+        "ch07-s01-n0086",
+        "ch07-s01-n0087",
+        "ch07-s01-n0088",
+        "ch07-s01-n0089",
+        "ch07-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 65338,
+      "bytes": 1046829,
+      "sha256": "ce055b95faa00e51fea90ade7e1388f0083766c6fa8208ac30c1079eda63eccb",
+      "sentence_ids": [
+        "ch07-s01-n0091",
+        "ch07-s01-n0092",
+        "ch07-s01-n0093",
+        "ch07-s01-n0094",
+        "ch07-s01-n0095",
+        "ch07-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 39978,
+      "bytes": 640941,
+      "sha256": "ffa6c0c61e6cccd64b9b0eee3aa5bff7e4e6e31737becf1ab513f292fed6b704",
+      "sentence_ids": [
+        "ch07-s01-n0097",
+        "ch07-s01-n0098",
+        "ch07-s01-n0099",
+        "ch07-s01-n0100",
+        "ch07-s01-n0101",
+        "ch07-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 50900,
+      "bytes": 814892,
+      "sha256": "40025b8a718522cf2dd05af80dc9ab36695656d630ade34b91b11d1e59f23278",
+      "sentence_ids": [
+        "ch07-s01-n0103",
+        "ch07-s01-n0104",
+        "ch07-s01-n0105",
+        "ch07-s01-n0106",
+        "ch07-s01-n0107",
+        "ch07-s01-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 36280,
+      "bytes": 581036,
+      "sha256": "eb0a277fe667cedc9fd62bb40b8f1a356b4cdcfbe38a6906a6af605d527b4ff9",
+      "sentence_ids": [
+        "ch07-s01-n0109",
+        "ch07-s01-n0110",
+        "ch07-s01-n0111",
+        "ch07-s01-n0112",
+        "ch07-s01-n0113",
+        "ch07-s01-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 70624,
+      "bytes": 1130540,
+      "sha256": "83d0539b2ee7f50d26a56529accf33ed605441cf3c54760bfb47840525a793b5",
+      "sentence_ids": [
+        "ch07-s01-n0115",
+        "ch07-s01-n0116",
+        "ch07-s01-n0117",
+        "ch07-s01-n0118",
+        "ch07-s01-n0119",
+        "ch07-s01-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 30745,
+      "bytes": 493485,
+      "sha256": "d7a51cb59cb4408b72cced6bf6d7b6c6241330ae3855413639b899ba8b38877a",
+      "sentence_ids": [
+        "ch07-s01-n0121",
+        "ch07-s01-n0122",
+        "ch07-s01-n0123",
+        "ch07-s01-n0124",
+        "ch07-s01-n0125",
+        "ch07-s01-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 20095,
+      "bytes": 322989,
+      "sha256": "c46f59d233e8fce7821136ce26c315c1c059e8c6eb27c32088d78c761f51870a",
+      "sentence_ids": [
+        "ch07-s01-n0127",
+        "ch07-s01-n0128",
+        "ch07-s01-n0129"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch07-s01-n0001",
+      "text": "预付资本 C 在生产过程中产生了剩余价值。",
+      "start_ms": 0,
+      "end_ms": 3600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s01-n0002",
+      "text": "也就是说，这笔资本实现了增殖。",
+      "start_ms": 4480,
+      "end_ms": 7480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s01-n0003",
+      "text": "最直接的表现，就是产品的价值超过了生产它所消耗的各种要素的价值总和。",
+      "start_ms": 8280,
+      "end_ms": 15360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s01-n0004",
+      "text": "资本 C 分成两部分：购买生产资料的钱是 c，购买劳动力的钱是 v。",
+      "start_ms": 16400,
+      "end_ms": 22720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s01-n0005",
+      "text": "前者是不变资本，后者是可变资本。",
+      "start_ms": 23520,
+      "end_ms": 26280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s01-n0006",
+      "text": "因此，生产开始时，C=c+v。",
+      "start_ms": 26640,
+      "end_ms": 29680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch07-s01-n0007",
+      "text": "比如，预付资本为 500 英镑，其中 c=410 英镑，v=90 英镑。",
+      "start_ms": 0,
+      "end_ms": 7135,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s01-n0008",
+      "text": "生产结束后，得到的商品价值为 c+v+m，其中 m 是剩余价值。",
+      "start_ms": 7135,
+      "end_ms": 13809,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s01-n0009",
+      "text": "假设 m=90 英镑，那么商品价值就是 410+90+90=590 英镑。",
+      "start_ms": 13809,
+      "end_ms": 21404,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s01-n0010",
+      "text": "原来的资本 C 从 500 英镑变成了 590 英镑的 C'，二者相差的 90 英镑正是剩余价值 m。",
+      "start_ms": 21404,
+      "end_ms": 30840,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s01-n0011",
+      "text": "生产要素的价值本来就等于预付资本的价值，所以说“产品价值超过生产要素价值的部分”等于“预付资本的增殖额”，也就等于“生产出来的剩余价值”，其实只是用三种说法表达同一件事。",
+      "start_ms": 30840,
+      "end_ms": 50403,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s01-n0012",
+      "text": "不过，这个看似简单的等式还需要一项限定。",
+      "start_ms": 50403,
+      "end_ms": 55006,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch07-s01-n0013",
+      "text": "拿来同产品价值比较的，只能是生产产品时实际消耗掉的生产要素的价值。",
+      "start_ms": 0,
+      "end_ms": 6360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s01-n0014",
+      "text": "我们已经知道，生产工具只把自身价值的一部分转移到产品中，其余价值仍保留在原来的实物上。",
+      "start_ms": 6920,
+      "end_ms": 15680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s01-n0015",
+      "text": "没有转移的部分并不参与这次产品的价值形成，所以计算时可以先不管它。",
+      "start_ms": 16160,
+      "end_ms": 22760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s01-n0016",
+      "text": "即使把它算进去，结果也不会改变。",
+      "start_ms": 23440,
+      "end_ms": 26440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s01-n0017",
+      "text": "假设 410 英镑的不变资本包括 312 英镑的原料、44 英镑的辅助材料和 54 英镑的机器损耗，而实际使用的机器总值 1054 英镑。",
+      "start_ms": 27240,
+      "end_ms": 42840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s01-n0018",
+      "text": "计算生产这个产品所预付的价值时，只计机器在生产中损失并转移给产品的 54 英镑。",
+      "start_ms": 43640,
+      "end_ms": 51760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch07-s01-n0019",
+      "text": "如果把仍以蒸汽机等原有形态存在的另外 1000 英镑也算进去，就必须同时把它加到预付价值和产品价值两边，二者会分别变成 1500 英镑和 1590 英镑。",
+      "start_ms": 120,
+      "end_ms": 15280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s01-n0020",
+      "text": "差额仍是 90 英镑，剩余价值没有变化。",
+      "start_ms": 16200,
+      "end_ms": 19720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s01-n0021",
+      "text": "因此，除非上下文另有说明，本书所说为价值生产而预付的不变资本，只包括生产过程中实际消耗掉的生产资料价值。",
+      "start_ms": 20560,
+      "end_ms": 31000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s01-n0022",
+      "text": "有了这项限定，我们再看公式。",
+      "start_ms": 31640,
+      "end_ms": 33920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s01-n0023",
+      "text": "生产开始时 C=c+v，结束时 C'=c+v+m，资本 C 因而变成了 C'。",
+      "start_ms": 34720,
+      "end_ms": 43560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s01-n0024",
+      "text": "不变资本的价值只是重新出现在产品中，并不是这次生产新创造的。",
+      "start_ms": 43560,
+      "end_ms": 48680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch07-s01-n0025",
+      "text": "因此，这次生产实际创造的新价值，不是产品的全部价值 c+v+m，而只是 v+m。",
+      "start_ms": 40,
+      "end_ms": 7040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s01-n0026",
+      "text": "在上面的例子中，新创造的价值不是 590 英镑，而是 90+90=180 英镑。",
+      "start_ms": 7720,
+      "end_ms": 14560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s01-n0027",
+      "text": "假如有一种生产只使用天然存在的材料和劳动力，不使用任何已经生产出来的原料、辅助材料或工具，那么 c=0，也就没有不变资本的价值需要转移到产品中。",
+      "start_ms": 15200,
+      "end_ms": 28240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s01-n0028",
+      "text": "产品价值中原来的 410 英镑会消失，但新创造的 180 英镑仍然不变，其中照样包括 90 英镑剩余价值。",
+      "start_ms": 28680,
+      "end_ms": 37400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s01-n0029",
+      "text": "此时 C=0+v=v，增殖后的 C'=v+m，二者之差仍是 m。",
+      "start_ms": 38000,
+      "end_ms": 44800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s01-n0030",
+      "text": "反过来，如果 m=0，也就是劳动力只生产出同自身价值相等的新价值，那么 C=c+v，产品价值 C'=c+v+0，所以 C'=C。",
+      "start_ms": 45760,
+      "end_ms": 57000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch07-s01-n0031",
+      "text": "预付资本并没有增殖。",
+      "start_ms": 0,
+      "end_ms": 2517,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s01-n0032",
+      "text": "我们已经知道，剩余价值完全来自转化为劳动力的那部分资本 v 发生了变化。",
+      "start_ms": 2517,
+      "end_ms": 11076,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s01-n0033",
+      "text": "因此，v+m 也可以写成 v+\\Delta v，即原来的 v 加上它的增量。",
+      "start_ms": 11076,
+      "end_ms": 19382,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s01-n0034",
+      "text": "但总资本也会随着 v 的增加而从 500 英镑变成 590 英镑，这会遮住真正发生变化的是哪一部分，也会遮住它按什么比例变化。",
+      "start_ms": 19382,
+      "end_ms": 33730,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s01-n0035",
+      "text": "要把这个过程单独看清，就必须暂时撇开产品价值中只是重新出现的不变资本，把 c 当作 0。",
+      "start_ms": 33730,
+      "end_ms": 44051,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s01-n0036",
+      "text": "这里采用的只是一个普通的数学方法：当一个变量同一个常量只靠加减法相连时，可以先把常量去掉，单独考察变量的变化。",
+      "start_ms": 44051,
+      "end_ms": 57895,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch07-s01-n0037",
+      "text": "可变资本最初以一笔固定金额出现，这还会造成另一个疑问。",
+      "start_ms": 0,
+      "end_ms": 7184,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s01-n0038",
+      "text": "在上面的例子中，C'=410 英镑不变资本 +90 英镑可变资本 +90 英镑剩余价值。",
+      "start_ms": 7184,
+      "end_ms": 17560,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s01-n0039",
+      "text": "可是，90 英镑明明是一个已经确定的数，为什么还叫“可变”呢？",
+      "start_ms": 17560,
+      "end_ms": 25542,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s01-n0040",
+      "text": "因为“90 英镑可变资本”并不是说这笔钱的数额本身忽大忽小，而是用它代表这部分价值在生产中经历的变化。",
+      "start_ms": 25542,
+      "end_ms": 38846,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s01-n0041",
+      "text": "资本家购买劳动力时预付的 90 英镑，是一定量已经凝结在商品中的劳动，数额是固定的，买来的劳动力也具有确定的价值。",
+      "start_ms": 38846,
+      "end_ms": 53479,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s01-n0042",
+      "text": "但生产一开始，实际发挥作用的劳动力取代了预付的 90 英镑，活劳动取代了死劳动，不断进行的活动取代了静止的数额。",
+      "start_ms": 53479,
+      "end_ms": 67847,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch07-s01-n0043",
+      "text": "结果，活劳动不但再生产出 v，还给它增加了一个 m。",
+      "start_ms": 0,
+      "end_ms": 5695,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s01-n0044",
+      "text": "从资本主义生产的角度看，整个过程仿佛是那笔转化为劳动力的价值自己动了起来，过程和结果也都记在这笔价值名下。",
+      "start_ms": 5695,
+      "end_ms": 18271,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s01-n0045",
+      "text": "因此，“90 英镑可变资本”或“自行增殖的价值”听起来虽然矛盾，表达的却正是资本主义生产本身包含的矛盾。",
+      "start_ms": 18271,
+      "end_ms": 30373,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s01-n0046",
+      "text": "起初，把不变资本当作 0 似乎很奇怪，但日常计算经常这样做。",
+      "start_ms": 30373,
+      "end_ms": 37017,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s01-n0047",
+      "text": "比如，要计算英国从棉纺工业中得到的收益，首先就要扣除向美国、印度、埃及等地支付的棉花价款。",
+      "start_ms": 37017,
+      "end_ms": 47695,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s01-n0048",
+      "text": "也就是说，只是重新出现在产品价值中的那部分资本价值，会先从计算中排除。",
+      "start_ms": 47695,
+      "end_ms": 56000,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch07-s01-n0049",
+      "text": "剩余价值同预付总资本的比例当然也很重要，我们将在第三卷详细讨论。",
+      "start_ms": 320,
+      "end_ms": 6760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s01-n0050",
+      "text": "不过，现在要考察的是剩余价值怎样产生，所以要单独看它同可变资本的关系。",
+      "start_ms": 7360,
+      "end_ms": 13440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s01-n0051",
+      "text": "资本家要让购买劳动力的那部分资本增殖，确实还必须把另一部分资本转化为生产资料。",
+      "start_ms": 14120,
+      "end_ms": 22280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s01-n0052",
+      "text": "可变资本要发挥作用，就必须按照劳动过程的技术要求，配备相应数量的不变资本。",
+      "start_ms": 22720,
+      "end_ms": 29560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s01-n0053",
+      "text": "但化学反应需要曲颈瓶和其他容器，并不妨碍我们在分析反应本身时暂时不谈容器。",
+      "start_ms": 30000,
+      "end_ms": 37320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s01-n0054",
+      "text": "同样，只考察价值怎样创造和增加时，生产资料只是活劳动形成新价值时必须作用于其上的物质。",
+      "start_ms": 38000,
+      "end_ms": 46160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch07-s01-n0055",
+      "text": "它是棉花还是铁并不重要，本身价值多少也不重要。",
+      "start_ms": 120,
+      "end_ms": 6720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s01-n0056",
+      "text": "只要数量足够，能够承载生产中付出的劳动，它的价值上涨、下跌，甚至像土地和海洋一样本身没有价值，都不会改变价值的创造和增加。",
+      "start_ms": 7520,
+      "end_ms": 21720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s01-n0057",
+      "text": "因此，我们先把不变资本 c 当作 0。",
+      "start_ms": 22480,
+      "end_ms": 26520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s01-n0058",
+      "text": "这样，预付资本从 c+v 简化为 v，产品价值 c+v+m 也简化为新创造的价值 v+m。",
+      "start_ms": 27640,
+      "end_ms": 39920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s01-n0059",
+      "text": "假设整个生产过程中新创造的价值是 180 英镑，减去 90 英镑可变资本，就得到 90 英镑剩余价值。",
+      "start_ms": 40960,
+      "end_ms": 51600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s01-n0060",
+      "text": "这个 90 英镑表示剩余价值的绝对数量。",
+      "start_ms": 52440,
+      "end_ms": 56200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch07-s01-n0061",
+      "text": "至于可变资本按多大比例实现了增殖，则要用剩余价值除以可变资本，即 m/v。",
+      "start_ms": 0,
+      "end_ms": 8085,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s01-n0062",
+      "text": "在这个例子中，90分之90=100百分号。",
+      "start_ms": 8085,
+      "end_ms": 12801,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s01-n0063",
+      "text": "可变资本增殖的这个比例，也就是剩余价值的相对大小，我称为“剩余价值率”。",
+      "start_ms": 12801,
+      "end_ms": 20886,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s01-n0064",
+      "text": "我们已经看到，在一部分劳动时间里，工人创造的价值只相当于自己劳动力的价值，也就是维持生活所需物品的价值。",
+      "start_ms": 20886,
+      "end_ms": 32563,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s01-n0065",
+      "text": "社会分工之下，他不会直接生产自己的生活资料，而是生产纱之类的特定商品。",
+      "start_ms": 32563,
+      "end_ms": 40424,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s01-n0066",
+      "text": "商品中包含的一部分价值，等于他的生活资料价值，也等于购买这些生活资料所需的钱。",
+      "start_ms": 40424,
+      "end_ms": 49182,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch07-s01-n0067",
+      "text": "每天要用多少时间创造这部分价值，取决于日常生活资料的平均价值，也就是生产它们平均需要多少劳动时间。",
+      "start_ms": 0,
+      "end_ms": 14212,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch07-s01-n0068",
+      "text": "假如这些生活资料平均包含 6 小时劳动，工人每天就必须劳动 6 小时，才能创造出同等价值。",
+      "start_ms": 14212,
+      "end_ms": 26103,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch07-s01-n0069",
+      "text": "即使他不为资本家工作，而是独立为自己劳动，在其他条件不变时，也仍要用每天相同的时间来取得维持和延续自身生活所需的资料。",
+      "start_ms": 26103,
+      "end_ms": 43215,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch07-s01-n0070",
+      "text": "工人在这段时间里创造的价值，假设为 3 先令，只是补回资本家购买劳动力时已经支付的价值， 也就是补回预付的可变资本。",
+      "start_ms": 43215,
+      "end_ms": 59167,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch07-s01-n0071",
+      "text": "因此，这部分价值的生产表现为原有价值的再生产。",
+      "start_ms": 59167,
+      "end_ms": 65838,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch07-s01-n0072",
+      "text": "我把完成这种再生产所用的劳动时间称为“必要劳动时间”，把这段时间付出的劳动称为“必要劳动”。",
+      "start_ms": 65838,
+      "end_ms": 79180,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch07-s01-n0073",
+      "text": "对工人来说，这种劳动是必要的，因为无论劳动采取什么社会形式，他都必须维持自己的生活。",
+      "start_ms": 0,
+      "end_ms": 8018,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch07-s01-n0074",
+      "text": "对资本及其支配的世界来说，这种劳动同样必要，因为工人的持续存在是它们存在的基础。",
+      "start_ms": 8018,
+      "end_ms": 15654,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch07-s01-n0075",
+      "text": "工人完成必要劳动以后，劳动过程还会继续。",
+      "start_ms": 15654,
+      "end_ms": 19472,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch07-s01-n0076",
+      "text": "这段时间同样耗费他的劳动力，却不再为他形成任何价值，而是形成剩余价值。",
+      "start_ms": 19472,
+      "end_ms": 26154,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch07-s01-n0077",
+      "text": "在资本家眼里，这份剩余价值仿佛无中生有，带着十足的诱惑向他招手。",
+      "start_ms": 26154,
+      "end_ms": 32263,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch07-s01-n0078",
+      "text": "我把这部分工作时间称为“剩余劳动时间”，把其中付出的劳动称为“剩余劳动”。",
+      "start_ms": 32263,
+      "end_ms": 39326,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch07-s01-n0079",
+      "text": "要理解一般的价值，关键是把它看成凝结在商品中的劳动时间，也就是已经化为物的劳动。",
+      "start_ms": 40,
+      "end_ms": 8960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch07-s01-n0080",
+      "text": "要理解剩余价值，关键同样是把它看成凝结起来的剩余劳动时间，也就是已经化为物的剩余劳动。",
+      "start_ms": 9520,
+      "end_ms": 18720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch07-s01-n0081",
+      "text": "不同经济社会之间的区别，就在于它们以什么方式从直接生产者那里榨取剩余劳动。",
+      "start_ms": 19440,
+      "end_ms": 26680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch07-s01-n0082",
+      "text": "例如，奴隶社会和雇佣劳动社会的区别，就在这里。",
+      "start_ms": 27280,
+      "end_ms": 31480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch07-s01-n0083",
+      "text": "可变资本的价值等于它所购买的劳动力价值，而劳动力价值决定工作日中的必要劳动时间。",
+      "start_ms": 32160,
+      "end_ms": 39720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch07-s01-n0084",
+      "text": "剩余价值则由工作日中超出必要劳动的部分决定。",
+      "start_ms": 40600,
+      "end_ms": 44480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch07-s01-n0085",
+      "text": "因此，剩余价值同可变资本的比例，等于剩余劳动同必要劳动的比例：",
+      "start_ms": 0,
+      "end_ms": 6508,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch07-s01-n0086",
+      "text": "这两个比率表达的是同一种关系。",
+      "start_ms": 6508,
+      "end_ms": 9658,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch07-s01-n0087",
+      "text": "左边用已经凝结为价值的劳动来表示，右边用正在进行的劳动来表示。",
+      "start_ms": 9658,
+      "end_ms": 16166,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch07-s01-n0088",
+      "text": "所以，剩余价值率准确表示了资本对劳动力的剥削程度，也就是资本家对工人的剥削程度。",
+      "start_ms": 16166,
+      "end_ms": 24564,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch07-s01-n0089",
+      "text": "按照前面的例子，产品价值是 410c+90v+90m 英镑，预付资本是 500 英镑。",
+      "start_ms": 24564,
+      "end_ms": 32752,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch07-s01-n0090",
+      "text": "如果按通常的算法，用 90 英镑剩余价值除以 500 英镑总资本，得到的“剩余价值率”只有 18%。",
+      "start_ms": 32752,
+      "end_ms": 42200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch07-s01-n0091",
+      "text": "这种算法其实把剩余价值率同利润率混在了一起；18% 这个低数字，或许会让凯里等鼓吹社会利益和谐的人深受感动。",
+      "start_ms": 0,
+      "end_ms": 12457,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch07-s01-n0092",
+      "text": "真正的剩余价值率不是 m/C，也不是 m/(c+v)，而是 m/v。",
+      "start_ms": 12457,
+      "end_ms": 19742,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch07-s01-n0093",
+      "text": "因此，这里的计算不是 500分之90，而是 90分之90=100百分号，是表面剥削程度的五倍多。",
+      "start_ms": 19742,
+      "end_ms": 30554,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch07-s01-n0094",
+      "text": "我们虽然还不知道工作日究竟有多长，生产过程按天还是按周计算，也不知道 90 英镑可变资本同时雇用了多少工人，但剩余价值率可以换算成“剩余劳动/必要劳动”，所以仍能准确显示工作日两部分的比例。",
+      "start_ms": 30554,
+      "end_ms": 52411,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch07-s01-n0095",
+      "text": "比率为 100%，说明二者时间相等：工人半天为自己劳动，另外半天为资本家劳动。",
+      "start_ms": 52411,
+      "end_ms": 61343,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch07-s01-n0096",
+      "text": "计算剩余价值率的方法可以概括如下。",
+      "start_ms": 61343,
+      "end_ms": 65338,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch07-s01-n0097",
+      "text": "先从产品总价值中扣除只是重新出现的不变资本价值，剩下的就是商品生产过程中真正新创造的价值。",
+      "start_ms": 320,
+      "end_ms": 9280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch07-s01-n0098",
+      "text": "已知剩余价值时，从这笔新价值中减去剩余价值，就得到可变资本。",
+      "start_ms": 10160,
+      "end_ms": 16440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch07-s01-n0099",
+      "text": "反过来，已知可变资本时，把它从新价值中减去，就得到剩余价值。",
+      "start_ms": 16920,
+      "end_ms": 22840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch07-s01-n0100",
+      "text": "二者都知道以后，最后一步就是用剩余价值除以可变资本，计算 m/v。",
+      "start_ms": 23360,
+      "end_ms": 30120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch07-s01-n0101",
+      "text": "这种方法虽然简单，它背后的看问题方式却可能让读者感到陌生。",
+      "start_ms": 31000,
+      "end_ms": 36480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch07-s01-n0102",
+      "text": "下面用几个例子把这种看法练熟。",
+      "start_ms": 37120,
+      "end_ms": 39640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch07-s01-n0103",
+      "text": "先看一家拥有一万枚走锭纺纱机锭子的工厂。",
+      "start_ms": 0,
+      "end_ms": 5851,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch07-s01-n0104",
+      "text": "它用美国棉花纺 32 支纱，每枚锭子每周生产一磅纱。",
+      "start_ms": 5851,
+      "end_ms": 12871,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch07-s01-n0105",
+      "text": "加工损耗为 6%，所以每周投入 10,600 磅棉花，产出 10,000 磅纱和 600 磅废料。",
+      "start_ms": 12871,
+      "end_ms": 25157,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch07-s01-n0106",
+      "text": "1871 年 4 月，棉花每磅 7¾ 便士，10,600 磅共约 342 英镑。",
+      "start_ms": 25157,
+      "end_ms": 34518,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch07-s01-n0107",
+      "text": "一万枚锭子连同粗纺设备和蒸汽机，每枚价值 1 英镑，总值一万英镑。",
+      "start_ms": 34518,
+      "end_ms": 43587,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch07-s01-n0108",
+      "text": "每年损耗 10%，即 1000 英镑，折合每周 20 英镑。",
+      "start_ms": 43587,
+      "end_ms": 50900,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch07-s01-n0109",
+      "text": "厂房年租金 300 英镑，折合每周 6 英镑。",
+      "start_ms": 0,
+      "end_ms": 4854,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch07-s01-n0110",
+      "text": "煤炭按每指示马力每小时 4 磅、100 马力、每周 60 小时计算，连同厂房取暖共需 11 吨。",
+      "start_ms": 4854,
+      "end_ms": 15330,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch07-s01-n0111",
+      "text": "每吨 8 先令 6 便士，每周约花 4½ 英镑。",
+      "start_ms": 15330,
+      "end_ms": 19928,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch07-s01-n0112",
+      "text": "煤气每周 1 英镑，机油 4½ 英镑，因此各种辅助材料每周合计 10 英镑。",
+      "start_ms": 19928,
+      "end_ms": 28104,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch07-s01-n0113",
+      "text": "每周转移到产品中的不变资本价值总计 378 英镑。",
+      "start_ms": 28104,
+      "end_ms": 33981,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch07-s01-n0114",
+      "text": "工资每周 52 英镑。",
+      "start_ms": 33981,
+      "end_ms": 36280,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch07-s01-n0115",
+      "text": "纱每磅售价 12¼ 便士，10,000 磅共值 510 英镑，所以剩余价值为 510-430=80 英镑。",
+      "start_ms": 0,
+      "end_ms": 13883,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch07-s01-n0116",
+      "text": "计算新创造的价值时，把没有参与本周价值创造的 378 英镑不变资本当作 0，剩下 132=52v+80m 英镑。",
+      "start_ms": 13883,
+      "end_ms": 29276,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch07-s01-n0117",
+      "text": "因此，剩余价值率为 52分之80=15313分之11百分号。",
+      "start_ms": 29276,
+      "end_ms": 38028,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch07-s01-n0118",
+      "text": "如果平均工作日为 10 小时，必要劳动时间就是 333分之31 小时，剩余劳动时间就是 633分之2 小时。",
+      "start_ms": 38028,
+      "end_ms": 52515,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch07-s01-n0119",
+      "text": "雅各布对 1815 年英国农业作过一项估算。",
+      "start_ms": 52515,
+      "end_ms": 58552,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch07-s01-n0120",
+      "text": "他假定小麦每夸特售价 80 先令，每英亩平均收获 22 蒲式耳，因此每英亩收入 11 英镑。",
+      "start_ms": 58552,
+      "end_ms": 70624,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch07-s01-n0121",
+      "text": "下面这份账目预先把几个项目互相抵消过，算得很粗糙，但足够说明这里的方法。",
+      "start_ms": 0,
+      "end_ms": 7428,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch07-s01-n0122",
+      "text": "每英亩的价值生产如下：",
+      "start_ms": 7428,
+      "end_ms": 9698,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch07-s01-n0123",
+      "text": "这里仍然假定产品价格等于产品价值。",
+      "start_ms": 9698,
+      "end_ms": 13206,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch07-s01-n0124",
+      "text": "剩余价值被分列为利润、利息、什一税等项目，但这些名称同当前计算无关。",
+      "start_ms": 13206,
+      "end_ms": 20222,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch07-s01-n0125",
+      "text": "把它们加在一起，剩余价值共 3 英镑 11 先令。",
+      "start_ms": 20222,
+      "end_ms": 24555,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch07-s01-n0126",
+      "text": "种子和肥料共 3 英镑 19 先令，属于不变资本，计算时把它当作 0。",
+      "start_ms": 24555,
+      "end_ms": 30745,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch07-s01-n0127",
+      "text": "剩下的预付可变资本是 3 英镑 10 先令，而生产过程中形成的新价值是 3 英镑 10 先令 +3 英镑 11 先令。",
+      "start_ms": 0,
+      "end_ms": 9942,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch07-s01-n0128",
+      "text": "因此：",
+      "start_ms": 9942,
+      "end_ms": 10576,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch07-s01-n0129",
+      "text": "这说明工人把工作日的一半以上用来生产剩余价值，随后不同的人又各找借口，把这份剩余价值分掉。",
+      "start_ms": 10576,
+      "end_ms": 20095,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0022"
+    }
+  ]
+}

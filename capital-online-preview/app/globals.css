@@ -644,6 +644,53 @@ html::-webkit-scrollbar {
   will-change: transform;
 }
 
+.narration-close {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  display: grid;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: var(--muted);
+  background: color-mix(in srgb, var(--paper-deep) 82%, transparent);
+  cursor: pointer;
+}
+
+.narration-close span,
+.narration-close span::after {
+  width: 11px;
+  height: 1.5px;
+  border-radius: 2px;
+  background: currentColor;
+}
+
+.narration-close span {
+  position: relative;
+  display: block;
+  transform: rotate(45deg);
+}
+
+.narration-close span::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  transform: rotate(90deg);
+}
+
+.narration-close:hover {
+  color: var(--ink);
+  background: var(--paper-deep);
+}
+
+.narration-close:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 66%, transparent);
+  outline-offset: 2px;
+}
+
 .narration-tuck,
 .narration-dock-tab {
   display: none;
@@ -662,6 +709,7 @@ html::-webkit-scrollbar {
   color: var(--muted);
   font: 0.66rem/1 ui-sans-serif, system-ui, sans-serif;
   font-variant-numeric: tabular-nums;
+  padding-right: 24px;
 }
 
 .narration-progress-row span:last-child {
@@ -937,7 +985,7 @@ html::-webkit-scrollbar {
   .narration-player > .narration-tuck {
     position: absolute;
     top: 7px;
-    right: 7px;
+    right: 39px;
     display: grid;
     width: 28px;
     height: 28px;
@@ -970,7 +1018,7 @@ html::-webkit-scrollbar {
   }
 
   .narration-player .narration-progress-row {
-    padding-right: 24px;
+    padding-right: 56px;
   }
 
   .narration-dock-tab {
@@ -1197,6 +1245,33 @@ html::-webkit-scrollbar {
   font-weight: 600;
 }
 
+.section-outline {
+  display: grid;
+  gap: 1px;
+  margin: 3px 0 8px;
+  padding-left: 27px;
+}
+
+.catalog-sections .section-outline button {
+  display: block;
+  padding: 5px 8px 5px
+    calc(8px + var(--heading-indent, 0px));
+  overflow: hidden;
+  border-radius: 6px;
+  color: color-mix(in srgb, var(--muted) 88%, var(--ink));
+  font-size: 0.74rem;
+  font-weight: 400;
+  line-height: 1.45;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.catalog-sections .section-outline button:hover,
+.catalog-sections .section-outline button:focus-visible {
+  color: var(--ink);
+  background: var(--panel);
+}
+
 .catalog-resizer {
   position: fixed;
   top: 48px;
@@ -1311,9 +1386,12 @@ body.catalog-resizing .reader-layout {
 
 .prose h2,
 .prose h3,
-.prose h4 {
+.prose h4,
+.prose h5,
+.prose h6 {
   margin: 2.4em 0 1em;
   line-height: 1.45;
+  scroll-margin-top: 76px;
 }
 
 .prose h2 {

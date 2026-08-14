@@ -12,6 +12,13 @@ type ReleaseSection = {
   versionId: string;
   contentPath: string;
   audioManifestPath?: string;
+  headings?: ReleaseHeading[];
+};
+
+type ReleaseHeading = {
+  id: string;
+  level: number;
+  text: string;
 };
 
 type ReleaseChapter = {
@@ -62,6 +69,7 @@ type PublishedContent = {
   translationSha256: string;
   sentences: NarrationSentence[];
   audioManifestPath?: string;
+  headings?: ReleaseHeading[];
 };
 
 type ParagraphMarker = {
@@ -625,6 +633,16 @@ export function ReaderApp({
     });
   }
 
+  function scrollToHeading(headingId: string) {
+    document.getElementById(headingId)?.scrollIntoView({
+      behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "auto"
+        : "smooth",
+      block: "start",
+    });
+    setCatalogOpen(false);
+  }
+
   if (!selected) {
     return <main className="empty-state">尚未发布可阅读的章节。</main>;
   }
@@ -877,24 +895,55 @@ export function ReaderApp({
                     </h3>
                     {chapter.available ? (
                       <div className="catalog-sections">
-                        {chapter.sections.map((section) => (
-                          <button
-                            type="button"
-                            key={section.id}
-                            className={
-                              section.id === selected.id ? "active" : ""
-                            }
-                            onClick={() => choose(section.id)}
-                            title={section.title}
-                          >
-                            <span className="section-number">
-                              {section.number}
-                            </span>
-                            <span className="section-title">
-                              {section.title}
-                            </span>
-                          </button>
-                        ))}
+                        {chapter.sections.map((section) => {
+                          const active = section.id === selected.id;
+                          const headings = active
+                            ? content?.headings || section.headings || []
+                            : [];
+                          return (
+                            <div className="catalog-section-entry" key={section.id}>
+                              <button
+                                type="button"
+                                className={active ? "active" : ""}
+                                onClick={() => choose(section.id)}
+                                title={section.title}
+                              >
+                                <span className="section-number">
+                                  {section.number}
+                                </span>
+                                <span className="section-title">
+                                  {section.title}
+                                </span>
+                              </button>
+                              {headings.length ? (
+                                <div
+                                  className="section-outline"
+                                  role="navigation"
+                                  aria-label={`${section.title}的标题`}
+                                >
+                                  {headings.map((heading) => (
+                                    <button
+                                      type="button"
+                                      key={heading.id}
+                                      style={
+                                        {
+                                          "--heading-indent": `${Math.min(
+                                            2,
+                                            Math.max(0, heading.level - 2),
+                                          ) * 10}px`,
+                                        } as React.CSSProperties
+                                      }
+                                      onClick={() => scrollToHeading(heading.id)}
+                                      title={heading.text}
+                                    >
+                                      {heading.text}
+                                    </button>
+                                  ))}
+                                </div>
+                              ) : null}
+                            </div>
+                          );
+                        })}
                       </div>
                     ) : null}
                   </div>

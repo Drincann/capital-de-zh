@@ -162,6 +162,45 @@ const md = new MarkdownIt({
   .use(mathPlugin)
   .use(footnote);
 
+function inlineHeadingText(token) {
+  return (token.children || [])
+    .map((child) => {
+      if (child.type === "image") return child.content || child.attrGet("alt") || "";
+      if (child.type === "text" || child.type === "code_inline") return child.content;
+      return "";
+    })
+    .join("")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function renderWithHeadings(markdown, unitId) {
+  const env = {};
+  const tokens = md.parse(markdown, env);
+  const headings = [];
+  let headingIndex = 0;
+
+  tokens.forEach((token, index) => {
+    if (token.type !== "heading_open") return;
+    const inline = tokens[index + 1];
+    const text = inline?.type === "inline" ? inlineHeadingText(inline) : "";
+    if (!text) return;
+    headingIndex += 1;
+    const id = `${unitId}-heading-${headingIndex}`;
+    token.attrSet("id", id);
+    headings.push({
+      id,
+      level: Number(token.tag.slice(1)),
+      text,
+    });
+  });
+
+  return {
+    html: md.renderer.render(tokens, md.options, env),
+    headings,
+  };
+}
+
 const [outline, adoptions, unitsText, versionsText] = await Promise.all([
   readFile(path.join(projectRoot, "manifests", "outline.json"), "utf8").then(
     JSON.parse,
@@ -204,8 +243,8 @@ await mkdir(generatedRoot, { recursive: true });
 const prefaceMarkdown = stripLeadingDocumentHeadings(
   await readFile(prefaceSourcePath, "utf8"),
 );
-const prefaceHtml = md
-  .render(prefaceMarkdown)
+const renderedPreface = renderWithHeadings(prefaceMarkdown, "translator-preface");
+const prefaceHtml = renderedPreface.html
   .replace(
     /<p>ChatGPT<\/p>\s*$/,
     '<footer class="translator-signature"><strong>ChatGPT</strong><time datetime="2026-07">2026年7月</time></footer>',
@@ -222,6 +261,7 @@ const preface = {
   title: "译者序",
   versionId: "translator-preface-v2",
   contentPath: "/content/translator-preface.json",
+  headings: renderedPreface.headings,
 };
 await writeFile(
   path.join(contentRoot, "translator-preface.json"),
@@ -233,6 +273,7 @@ await writeFile(
       translationSha256: prefaceSha256,
       title: preface.title,
       html: prefaceHtml,
+      headings: renderedPreface.headings,
       sentences: prefaceSentences,
     },
     null,
@@ -252,6 +293,7 @@ for (const item of outline.front_matter || []) {
 
   const source = await readFile(artifactPath);
   const markdown = stripLeadingDocumentHeadings(source.toString("utf8"));
+  const rendered = renderWithHeadings(markdown, item.unit_id);
   const contentFile = safeFileName(item.unit_id);
   await writeFile(
     path.join(contentRoot, contentFile),
@@ -262,7 +304,8 @@ for (const item of outline.front_matter || []) {
         versionId,
         translationSha256: sha256(source),
         title: item.title_zh,
-        html: md.render(markdown),
+        html: rendered.html,
+        headings: rendered.headings,
         sentences: extractNarrationSentences(markdown, md, item.unit_id),
       },
       null,
@@ -276,6 +319,7 @@ for (const item of outline.front_matter || []) {
     title: item.title_zh,
     versionId,
     contentPath: `/content/${contentFile}`,
+    headings: rendered.headings,
   });
 }
 
@@ -300,7 +344,8 @@ for (const part of outline.parts || []) {
         await readFile(artifactPath, "utf8"),
       );
       const translationSha256 = sha256(await readFile(artifactPath));
-      const html = md.render(markdown);
+      const rendered = renderWithHeadings(markdown, unit.unit_id);
+      const html = rendered.html;
       const sentences = extractNarrationSentences(markdown, md, unit.unit_id);
       const contentFile = safeFileName(unit.unit_id);
       const adoptedAudioVersionId = audioAdoptions[versionId] || "";
@@ -356,6 +401,7 @@ for (const part of outline.parts || []) {
             translationSha256,
             title: unit.title_zh,
             html,
+            headings: rendered.headings,
             sentences,
             audioManifestPath,
           },
@@ -371,6 +417,7 @@ for (const part of outline.parts || []) {
         title: unit.title_zh,
         versionId,
         contentPath: `/content/${contentFile}`,
+        headings: rendered.headings,
         audioManifestPath,
       });
       publishedSectionCount += 1;

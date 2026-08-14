@@ -1,7 +1,7 @@
 {
   "title": "《资本论》第一卷",
   "editionTitle": "ChatGPT 译",
-  "generatedAt": "2026-08-14T20:27:42.161Z",
+  "generatedAt": "2026-08-14T20:48:42.405Z",
   "partCount": 7,
   "chapterCount": 25,
   "publishedChapterCount": 25,
@@ -11,7 +11,8 @@
     "number": 0,
     "title": "译者序",
     "versionId": "translator-preface-v2",
-    "contentPath": "/content/translator-preface.json"
+    "contentPath": "/content/translator-preface.json",
+    "headings": []
   },
   "frontMatter": [
     {
@@ -19,28 +20,32 @@
       "number": 1,
       "title": "第一版序言",
       "versionId": "fm01-v1",
-      "contentPath": "/content/fm01.json"
+      "contentPath": "/content/fm01.json",
+      "headings": []
     },
     {
       "id": "fm02",
       "number": 2,
       "title": "第二版跋",
       "versionId": "fm02-v1",
-      "contentPath": "/content/fm02.json"
+      "contentPath": "/content/fm02.json",
+      "headings": []
     },
     {
       "id": "fm03",
       "number": 3,
       "title": "第三版序言",
       "versionId": "fm03-v1",
-      "contentPath": "/content/fm03.json"
+      "contentPath": "/content/fm03.json",
+      "headings": []
     },
     {
       "id": "fm04",
       "number": 4,
       "title": "第四版序言",
       "versionId": "fm04-v1",
-      "contentPath": "/content/fm04.json"
+      "contentPath": "/content/fm04.json",
+      "headings": []
     }
   ],
   "parts": [
@@ -61,6 +66,7 @@
               "title": "商品的两个因素：使用价值和价值",
               "versionId": "ch01-s01-v10",
               "contentPath": "/content/ch01-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch01-s01-v10-audio-7e1bf0f06079/manifest.json"
             },
             {
@@ -69,6 +75,7 @@
               "title": "商品中所包含的劳动的双重性质",
               "versionId": "ch01-s02-v5",
               "contentPath": "/content/ch01-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch01-s02-v5-audio-21fdc10e610d/manifest.json"
             },
             {
@@ -77,6 +84,88 @@
               "title": "价值形式或交换价值",
               "versionId": "ch01-s03-v4",
               "contentPath": "/content/ch01-s03.json",
+              "headings": [
+                {
+                  "id": "ch01-s03-heading-1",
+                  "level": 3,
+                  "text": "A（形式 I）. 简单的、个别的或偶然的价值形式"
+                },
+                {
+                  "id": "ch01-s03-heading-2",
+                  "level": 4,
+                  "text": "1. 价值表现的两极：相对价值形式和等价形式"
+                },
+                {
+                  "id": "ch01-s03-heading-3",
+                  "level": 4,
+                  "text": "2. 相对价值形式"
+                },
+                {
+                  "id": "ch01-s03-heading-4",
+                  "level": 5,
+                  "text": "a. 相对价值形式的内容"
+                },
+                {
+                  "id": "ch01-s03-heading-5",
+                  "level": 4,
+                  "text": "b. 相对价值的数量如何确定"
+                },
+                {
+                  "id": "ch01-s03-heading-6",
+                  "level": 4,
+                  "text": "3. 等价形式"
+                },
+                {
+                  "id": "ch01-s03-heading-7",
+                  "level": 4,
+                  "text": "4. 简单价值形式的整体"
+                },
+                {
+                  "id": "ch01-s03-heading-8",
+                  "level": 2,
+                  "text": "B（形式 II）. 总体的或展开的价值形式"
+                },
+                {
+                  "id": "ch01-s03-heading-9",
+                  "level": 4,
+                  "text": "1. 展开的相对价值形式"
+                },
+                {
+                  "id": "ch01-s03-heading-10",
+                  "level": 4,
+                  "text": "2. 特殊的等价形式"
+                },
+                {
+                  "id": "ch01-s03-heading-11",
+                  "level": 4,
+                  "text": "3. 总的或展开的价值形式的缺陷"
+                },
+                {
+                  "id": "ch01-s03-heading-12",
+                  "level": 2,
+                  "text": "C（形式 III）. 一般价值形式"
+                },
+                {
+                  "id": "ch01-s03-heading-13",
+                  "level": 4,
+                  "text": "1. 价值形式的新特点"
+                },
+                {
+                  "id": "ch01-s03-heading-14",
+                  "level": 4,
+                  "text": "2. 相对价值形式和等价形式的发展关系"
+                },
+                {
+                  "id": "ch01-s03-heading-15",
+                  "level": 4,
+                  "text": "3. 从一般价值形式到货币形式"
+                },
+                {
+                  "id": "ch01-s03-heading-16",
+                  "level": 2,
+                  "text": "D（形式 IV）. 货币形式"
+                }
+              ],
               "audioManifestPath": "/audio/ch01-s03-v4-audio-f39b250599d4/manifest.json"
             },
             {
@@ -85,6 +174,7 @@
               "title": "商品的拜物教性质及其秘密",
               "versionId": "ch01-s04-v3",
               "contentPath": "/content/ch01-s04.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch01-s04-v3-audio-da6bc23e78d9/manifest.json"
             }
           ]
@@ -101,6 +191,7 @@
               "title": "交换过程",
               "versionId": "ch02-s01-v1",
               "contentPath": "/content/ch02-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch02-s01-v1-audio-57c4718e47d9/manifest.json"
             }
           ]
@@ -117,6 +208,7 @@
               "title": "价值尺度",
               "versionId": "ch03-s01-v1",
               "contentPath": "/content/ch03-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch03-s01-v1-audio-5c697a4ad3ac/manifest.json"
             },
             {
@@ -125,6 +217,23 @@
               "title": "流通手段",
               "versionId": "ch03-s02-v1",
               "contentPath": "/content/ch03-s02.json",
+              "headings": [
+                {
+                  "id": "ch03-s02-heading-1",
+                  "level": 3,
+                  "text": "a. 商品的形态变化"
+                },
+                {
+                  "id": "ch03-s02-heading-2",
+                  "level": 3,
+                  "text": "b. 货币的流通"
+                },
+                {
+                  "id": "ch03-s02-heading-3",
+                  "level": 3,
+                  "text": "c. 铸币。价值符号"
+                }
+              ],
               "audioManifestPath": "/audio/ch03-s02-v1-audio-111b4c509652/manifest.json"
             },
             {
@@ -133,6 +242,23 @@
               "title": "货币",
               "versionId": "ch03-s03-v1",
               "contentPath": "/content/ch03-s03.json",
+              "headings": [
+                {
+                  "id": "ch03-s03-heading-1",
+                  "level": 3,
+                  "text": "a. 货币贮藏"
+                },
+                {
+                  "id": "ch03-s03-heading-2",
+                  "level": 3,
+                  "text": "b. 支付手段"
+                },
+                {
+                  "id": "ch03-s03-heading-3",
+                  "level": 3,
+                  "text": "c. 世界货币"
+                }
+              ],
               "audioManifestPath": "/audio/ch03-s03-v1-audio-e406bf5e16e0/manifest.json"
             }
           ]
@@ -156,6 +282,7 @@
               "title": "资本的一般公式",
               "versionId": "ch04-s01-v2",
               "contentPath": "/content/ch04-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch04-s01-v2-audio-8975e020f8db/manifest.json"
             },
             {
@@ -164,6 +291,7 @@
               "title": "一般公式的矛盾",
               "versionId": "ch04-s02-v1",
               "contentPath": "/content/ch04-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch04-s02-v1-audio-8c0ef98dabd2/manifest.json"
             },
             {
@@ -172,6 +300,7 @@
               "title": "劳动力的买和卖",
               "versionId": "ch04-s03-v1",
               "contentPath": "/content/ch04-s03.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch04-s03-v1-audio-f1eacc1eeb97/manifest.json"
             }
           ]
@@ -195,6 +324,7 @@
               "title": "劳动过程",
               "versionId": "ch05-s01-v7",
               "contentPath": "/content/ch05-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch05-s01-v7-audio-e3549a225353/manifest.json"
             },
             {
@@ -203,6 +333,7 @@
               "title": "价值增殖过程",
               "versionId": "ch05-s02-v4",
               "contentPath": "/content/ch05-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch05-s02-v4-audio-78fb3ddb76df/manifest.json"
             }
           ]
@@ -219,6 +350,7 @@
               "title": "不变资本和可变资本",
               "versionId": "ch06-s01-v1",
               "contentPath": "/content/ch06-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch06-s01-v1-audio-7df6e5cb2b68/manifest.json"
             }
           ]
@@ -234,7 +366,9 @@
               "number": 1,
               "title": "劳动力的剥削程度",
               "versionId": "ch07-s01-v2",
-              "contentPath": "/content/ch07-s01.json"
+              "contentPath": "/content/ch07-s01.json",
+              "headings": [],
+              "audioManifestPath": "/audio/ch07-s01-v2-audio-70f170228ec0/manifest.json"
             },
             {
               "id": "ch07-s02",
@@ -242,6 +376,7 @@
               "title": "产品价值怎样分布在产品的各个部分中",
               "versionId": "ch07-s02-v1",
               "contentPath": "/content/ch07-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch07-s02-v1-audio-d3e3002012e4/manifest.json"
             },
             {
@@ -250,6 +385,7 @@
               "title": "西尼尔的“最后一小时”",
               "versionId": "ch07-s03-v1",
               "contentPath": "/content/ch07-s03.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch07-s03-v1-audio-55a218d6b186/manifest.json"
             },
             {
@@ -258,6 +394,7 @@
               "title": "剩余产品",
               "versionId": "ch07-s04-v1",
               "contentPath": "/content/ch07-s04.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch07-s04-v1-audio-0edb73e87b93/manifest.json"
             }
           ]
@@ -274,6 +411,7 @@
               "title": "工作日的界限",
               "versionId": "ch08-s01-v1",
               "contentPath": "/content/ch08-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch08-s01-v1-audio-3cd239f98895/manifest.json"
             },
             {
@@ -282,6 +420,7 @@
               "title": "对剩余劳动的贪欲：工厂主和领主",
               "versionId": "ch08-s02-v1",
               "contentPath": "/content/ch08-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch08-s02-v1-audio-5142baf48b88/manifest.json"
             },
             {
@@ -290,6 +429,7 @@
               "title": "没有法定剥削限制的英国工业部门",
               "versionId": "ch08-s03-v2",
               "contentPath": "/content/ch08-s03.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch08-s03-v2-audio-921e75c18cbe/manifest.json"
             },
             {
@@ -298,6 +438,7 @@
               "title": "日夜劳动：轮班制度",
               "versionId": "ch08-s04-v2",
               "contentPath": "/content/ch08-s04.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch08-s04-v2-audio-72490626f176/manifest.json"
             },
             {
@@ -306,6 +447,7 @@
               "title": "争取正常工作日：从十四世纪中叶到十七世纪末强制延长工作日的法律",
               "versionId": "ch08-s05-v1",
               "contentPath": "/content/ch08-s05.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch08-s05-v1-audio-c4b44946fa3d/manifest.json"
             },
             {
@@ -314,6 +456,7 @@
               "title": "争取正常工作日：用法律限制劳动时间，1833—1864年的英国工厂法",
               "versionId": "ch08-s06-v1",
               "contentPath": "/content/ch08-s06.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch08-s06-v1-audio-e8230bb2b8d5/manifest.json"
             },
             {
@@ -322,6 +465,7 @@
               "title": "争取正常工作日：英国工厂法对其他国家的影响",
               "versionId": "ch08-s07-v1",
               "contentPath": "/content/ch08-s07.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch08-s07-v1-audio-e3a3f27c0a58/manifest.json"
             }
           ]
@@ -338,6 +482,7 @@
               "title": "剩余价值率和剩余价值量",
               "versionId": "ch09-s01-v1",
               "contentPath": "/content/ch09-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch09-s01-v1-audio-a7cc47d68445/manifest.json"
             }
           ]
@@ -361,6 +506,7 @@
               "title": "相对剩余价值的概念",
               "versionId": "ch10-s01-v1",
               "contentPath": "/content/ch10-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch10-s01-v1-audio-74a51147b215/manifest.json"
             }
           ]
@@ -377,6 +523,7 @@
               "title": "协作",
               "versionId": "ch11-s01-v2",
               "contentPath": "/content/ch11-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch11-s01-v2-audio-6782cd3e61e4/manifest.json"
             }
           ]
@@ -393,6 +540,7 @@
               "title": "工场手工业的双重起源",
               "versionId": "ch12-s01-v1",
               "contentPath": "/content/ch12-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch12-s01-v1-audio-23debe7abfde/manifest.json"
             },
             {
@@ -401,6 +549,7 @@
               "title": "局部工人及其工具",
               "versionId": "ch12-s02-v1",
               "contentPath": "/content/ch12-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch12-s02-v1-audio-2ec4795fddd1/manifest.json"
             },
             {
@@ -409,6 +558,7 @@
               "title": "工场手工业的两种基本形式：异质式和有机式",
               "versionId": "ch12-s03-v2",
               "contentPath": "/content/ch12-s03.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch12-s03-v2-audio-b428f3073c87/manifest.json"
             },
             {
@@ -417,6 +567,7 @@
               "title": "工场手工业内部的分工和社会内部的分工",
               "versionId": "ch12-s04-v1",
               "contentPath": "/content/ch12-s04.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch12-s04-v1-audio-cb0a91c2fc86/manifest.json"
             },
             {
@@ -425,6 +576,7 @@
               "title": "工场手工业的资本主义性质",
               "versionId": "ch12-s05-v1",
               "contentPath": "/content/ch12-s05.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch12-s05-v1-audio-87f477fd7ec6/manifest.json"
             }
           ]
@@ -441,6 +593,7 @@
               "title": "机器的发展",
               "versionId": "ch13-s01-v2",
               "contentPath": "/content/ch13-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch13-s01-v2-audio-d9e31adf7586/manifest.json"
             },
             {
@@ -449,6 +602,7 @@
               "title": "机器向产品转移的价值",
               "versionId": "ch13-s02-v2",
               "contentPath": "/content/ch13-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch13-s02-v2-audio-ccb3f31bbf11/manifest.json"
             },
             {
@@ -457,6 +611,23 @@
               "title": "机器生产对工人的直接影响",
               "versionId": "ch13-s03-v3",
               "contentPath": "/content/ch13-s03.json",
+              "headings": [
+                {
+                  "id": "ch13-s03-heading-1",
+                  "level": 3,
+                  "text": "a）资本获得额外劳动力：妇女和儿童劳动"
+                },
+                {
+                  "id": "ch13-s03-heading-2",
+                  "level": 3,
+                  "text": "b）延长工作日"
+                },
+                {
+                  "id": "ch13-s03-heading-3",
+                  "level": 3,
+                  "text": "c）提高劳动强度"
+                }
+              ],
               "audioManifestPath": "/audio/ch13-s03-v3-audio-f9b695e4983b/manifest.json"
             },
             {
@@ -465,6 +636,7 @@
               "title": "工厂",
               "versionId": "ch13-s04-v1",
               "contentPath": "/content/ch13-s04.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch13-s04-v1-audio-3a1cb29a2947/manifest.json"
             },
             {
@@ -473,6 +645,7 @@
               "title": "工人与机器的斗争",
               "versionId": "ch13-s05-v2",
               "contentPath": "/content/ch13-s05.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch13-s05-v2-audio-949a9adbe677/manifest.json"
             },
             {
@@ -481,6 +654,7 @@
               "title": "关于被机器排挤的工人的“补偿理论”",
               "versionId": "ch13-s06-v2",
               "contentPath": "/content/ch13-s06.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch13-s06-v2-audio-dfa1d3f6d113/manifest.json"
             },
             {
@@ -489,6 +663,7 @@
               "title": "机器生产发展中的工人排斥和吸收：棉纺织业的危机",
               "versionId": "ch13-s07-v1",
               "contentPath": "/content/ch13-s07.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch13-s07-v1-audio-90ab382e1020/manifest.json"
             },
             {
@@ -497,6 +672,33 @@
               "title": "大工业对工场手工业、手工业和家庭劳动的改造",
               "versionId": "ch13-s08-v1",
               "contentPath": "/content/ch13-s08.json",
+              "headings": [
+                {
+                  "id": "ch13-s08-heading-1",
+                  "level": 3,
+                  "text": "a. 机器取代以手工业和分工为基础的协作"
+                },
+                {
+                  "id": "ch13-s08-heading-2",
+                  "level": 3,
+                  "text": "b. 工厂制度怎样反过来改变工场手工业和家庭劳动"
+                },
+                {
+                  "id": "ch13-s08-heading-3",
+                  "level": 3,
+                  "text": "c. 现代工场手工业"
+                },
+                {
+                  "id": "ch13-s08-heading-4",
+                  "level": 3,
+                  "text": "d. 现代家庭劳动"
+                },
+                {
+                  "id": "ch13-s08-heading-5",
+                  "level": 3,
+                  "text": "e. 现代工场手工业和家庭劳动向大工业转变。工厂法怎样加速这一转变"
+                }
+              ],
               "audioManifestPath": "/audio/ch13-s08-v1-audio-b5989e9d2004/manifest.json"
             },
             {
@@ -505,6 +707,38 @@
               "title": "工厂立法（卫生和教育条款）及其在英国的普遍推行",
               "versionId": "ch13-s09-v2",
               "contentPath": "/content/ch13-s09.json",
+              "headings": [
+                {
+                  "id": "ch13-s09-heading-1",
+                  "level": 4,
+                  "text": "1. 矿山从十岁起雇用男孩"
+                },
+                {
+                  "id": "ch13-s09-heading-2",
+                  "level": 4,
+                  "text": "2. 教育"
+                },
+                {
+                  "id": "ch13-s09-heading-3",
+                  "level": 4,
+                  "text": "3. 妇女劳动"
+                },
+                {
+                  "id": "ch13-s09-heading-4",
+                  "level": 4,
+                  "text": "4. 死亡调查陪审团"
+                },
+                {
+                  "id": "ch13-s09-heading-5",
+                  "level": 4,
+                  "text": "5. 虚假计量等问题"
+                },
+                {
+                  "id": "ch13-s09-heading-6",
+                  "level": 4,
+                  "text": "6. 矿山检查"
+                }
+              ],
               "audioManifestPath": "/audio/ch13-s09-v2-audio-a0d043a66a2c/manifest.json"
             },
             {
@@ -513,6 +747,7 @@
               "title": "大工业和农业",
               "versionId": "ch13-s10-v1",
               "contentPath": "/content/ch13-s10.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch13-s10-v1-audio-0bd55f910bfe/manifest.json"
             }
           ]
@@ -536,6 +771,7 @@
               "title": "绝对剩余价值和相对剩余价值",
               "versionId": "ch14-s01-v1",
               "contentPath": "/content/ch14-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch14-s01-v1-audio-4d9e21e4f818/manifest.json"
             }
           ]
@@ -552,6 +788,7 @@
               "title": "工作日的长度和劳动强度不变，劳动生产力可变",
               "versionId": "ch15-s01-v1",
               "contentPath": "/content/ch15-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch15-s01-v1-audio-e81fc6c91ddd/manifest.json"
             },
             {
@@ -560,6 +797,7 @@
               "title": "工作日和劳动生产力不变，劳动强度可变",
               "versionId": "ch15-s02-v1",
               "contentPath": "/content/ch15-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch15-s02-v1-audio-dc8d1da4d188/manifest.json"
             },
             {
@@ -568,6 +806,7 @@
               "title": "劳动生产力和劳动强度不变，工作日可变",
               "versionId": "ch15-s03-v1",
               "contentPath": "/content/ch15-s03.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch15-s03-v1-audio-8e796b50c647/manifest.json"
             },
             {
@@ -576,6 +815,7 @@
               "title": "劳动时间、劳动生产力和劳动强度同时变化",
               "versionId": "ch15-s04-v1",
               "contentPath": "/content/ch15-s04.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch15-s04-v1-audio-d05fa830e518/manifest.json"
             }
           ]
@@ -592,6 +832,7 @@
               "title": "剩余价值率的各种公式",
               "versionId": "ch16-s01-v1",
               "contentPath": "/content/ch16-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch16-s01-v1-audio-3d46618b7830/manifest.json"
             }
           ]
@@ -615,6 +856,7 @@
               "title": "劳动力的价值或价格怎样转化为工资",
               "versionId": "ch17-s01-v1",
               "contentPath": "/content/ch17-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch17-s01-v1-audio-c5fae5ee7c0a/manifest.json"
             }
           ]
@@ -631,6 +873,7 @@
               "title": "计时工资",
               "versionId": "ch18-s01-v1",
               "contentPath": "/content/ch18-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch18-s01-v1-audio-2e96e500fb0a/manifest.json"
             }
           ]
@@ -647,6 +890,7 @@
               "title": "计件工资",
               "versionId": "ch19-s01-v1",
               "contentPath": "/content/ch19-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch19-s01-v1-audio-4a3c9935dd9c/manifest.json"
             }
           ]
@@ -663,6 +907,7 @@
               "title": "不同国家的工资差异",
               "versionId": "ch20-s01-v2",
               "contentPath": "/content/ch20-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch20-s01-v2-audio-9721275faf53/manifest.json"
             }
           ]
@@ -686,6 +931,7 @@
               "title": "简单再生产",
               "versionId": "ch21-s01-v1",
               "contentPath": "/content/ch21-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch21-s01-v1-audio-f3adfe0b3cca/manifest.json"
             }
           ]
@@ -702,6 +948,7 @@
               "title": "扩大规模的资本主义生产。商品生产的所有权规律怎样变成资本主义占有规律",
               "versionId": "ch22-s01-v1",
               "contentPath": "/content/ch22-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch22-s01-v1-audio-1b102653887d/manifest.json"
             },
             {
@@ -710,6 +957,7 @@
               "title": "政治经济学对扩大再生产的错误理解",
               "versionId": "ch22-s02-v1",
               "contentPath": "/content/ch22-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch22-s02-v1-audio-7633e1cd9e48/manifest.json"
             },
             {
@@ -718,6 +966,7 @@
               "title": "剩余价值分为资本和收入。“节欲论”",
               "versionId": "ch22-s03-v1",
               "contentPath": "/content/ch22-s03.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch22-s03-v1-audio-002d80fdaaed/manifest.json"
             },
             {
@@ -726,6 +975,7 @@
               "title": "决定积累规模的其他因素",
               "versionId": "ch22-s04-v1",
               "contentPath": "/content/ch22-s04.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch22-s04-v1-audio-712e3292a2a4/manifest.json"
             },
             {
@@ -734,6 +984,7 @@
               "title": "所谓劳动基金",
               "versionId": "ch22-s05-v2",
               "contentPath": "/content/ch22-s05.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch22-s05-v2-audio-5b6617b1380d/manifest.json"
             }
           ]
@@ -750,6 +1001,7 @@
               "title": "资本构成不变时，积累怎样增加对劳动力的需求",
               "versionId": "ch23-s01-v1",
               "contentPath": "/content/ch23-s01.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch23-s01-v1-audio-0063ad281310/manifest.json"
             },
             {
@@ -758,6 +1010,7 @@
               "title": "积累怎样使可变资本所占比例下降",
               "versionId": "ch23-s02-v1",
               "contentPath": "/content/ch23-s02.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch23-s02-v1-audio-71ccee3e4001/manifest.json"
             },
             {
@@ -766,6 +1019,7 @@
               "title": "相对过剩人口或产业后备军怎样产生",
               "versionId": "ch23-s03-v1",
               "contentPath": "/content/ch23-s03.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch23-s03-v1-audio-c6ec8d91250b/manifest.json"
             },
             {
@@ -774,6 +1028,7 @@
               "title": "相对过剩人口的不同形式。资本主义积累的一般规律",
               "versionId": "ch23-s04-v2",
               "contentPath": "/content/ch23-s04.json",
+              "headings": [],
               "audioManifestPath": "/audio/ch23-s04-v2-audio-bfe2b9cda134/manifest.json"
             },
             {
@@ -781,7 +1036,99 @@
               "number": 5,
               "title": "用事实说明资本主义积累的一般规律",
               "versionId": "ch23-s05-v2",
-              "contentPath": "/content/ch23-s05.json"
+              "contentPath": "/content/ch23-s05.json",
+              "headings": [
+                {
+                  "id": "ch23-s05-heading-1",
+                  "level": 3,
+                  "text": "a. 1846—1866年的英国"
+                },
+                {
+                  "id": "ch23-s05-heading-2",
+                  "level": 3,
+                  "text": "b. 英国工业工人阶级中的低工资阶层"
+                },
+                {
+                  "id": "ch23-s05-heading-3",
+                  "level": 3,
+                  "text": "c. 流动工人"
+                },
+                {
+                  "id": "ch23-s05-heading-4",
+                  "level": 3,
+                  "text": "d. 危机对高工资工人的影响"
+                },
+                {
+                  "id": "ch23-s05-heading-5",
+                  "level": 3,
+                  "text": "e. 英国农业无产阶级"
+                },
+                {
+                  "id": "ch23-s05-heading-6",
+                  "level": 4,
+                  "text": "1. 贝德福德郡"
+                },
+                {
+                  "id": "ch23-s05-heading-7",
+                  "level": 4,
+                  "text": "2. 伯克郡"
+                },
+                {
+                  "id": "ch23-s05-heading-8",
+                  "level": 4,
+                  "text": "3. 白金汉郡"
+                },
+                {
+                  "id": "ch23-s05-heading-9",
+                  "level": 4,
+                  "text": "4. 剑桥郡"
+                },
+                {
+                  "id": "ch23-s05-heading-10",
+                  "level": 4,
+                  "text": "5. 埃塞克斯郡"
+                },
+                {
+                  "id": "ch23-s05-heading-11",
+                  "level": 4,
+                  "text": "6. 赫里福德郡"
+                },
+                {
+                  "id": "ch23-s05-heading-12",
+                  "level": 4,
+                  "text": "7. 亨廷登郡"
+                },
+                {
+                  "id": "ch23-s05-heading-13",
+                  "level": 4,
+                  "text": "8. 林肯郡"
+                },
+                {
+                  "id": "ch23-s05-heading-14",
+                  "level": 4,
+                  "text": "9. 肯特郡"
+                },
+                {
+                  "id": "ch23-s05-heading-15",
+                  "level": 4,
+                  "text": "10. 北安普敦郡"
+                },
+                {
+                  "id": "ch23-s05-heading-16",
+                  "level": 4,
+                  "text": "11. 威尔特郡"
+                },
+                {
+                  "id": "ch23-s05-heading-17",
+                  "level": 4,
+                  "text": "12. 伍斯特郡"
+                },
+                {
+                  "id": "ch23-s05-heading-18",
+                  "level": 3,
+                  "text": "f. 爱尔兰"
+                }
+              ]
             }
           ]
         },
@@ -796,49 +1143,56 @@
               "number": 1,
               "title": "原始积累的秘密",
               "versionId": "ch24-s01-v1",
-              "contentPath": "/content/ch24-s01.json"
+              "contentPath": "/content/ch24-s01.json",
+              "headings": []
             },
             {
               "id": "ch24-s02",
               "number": 2,
               "title": "剥夺农村人口的土地",
               "versionId": "ch24-s02-v1",
-              "contentPath": "/content/ch24-s02.json"
+              "contentPath": "/content/ch24-s02.json",
+              "headings": []
             },
             {
               "id": "ch24-s03",
               "number": 3,
               "title": "针对被剥夺者的血腥法律。压低工资的法律",
               "versionId": "ch24-s03-v1",
-              "contentPath": "/content/ch24-s03.json"
+              "contentPath": "/content/ch24-s03.json",
+              "headings": []
             },
             {
               "id": "ch24-s04",
               "number": 4,
               "title": "资本主义租地农场主怎样产生",
               "versionId": "ch24-s04-v1",
-              "contentPath": "/content/ch24-s04.json"
+              "contentPath": "/content/ch24-s04.json",
+              "headings": []
             },
             {
               "id": "ch24-s05",
               "number": 5,
               "title": "农业革命怎样影响工业并形成国内市场",
               "versionId": "ch24-s05-v1",
-              "contentPath": "/content/ch24-s05.json"
+              "contentPath": "/content/ch24-s05.json",
+              "headings": []
             },
             {
               "id": "ch24-s06",
               "number": 6,
               "title": "工业资本家怎样产生",
               "versionId": "ch24-s06-v1",
-              "contentPath": "/content/ch24-s06.json"
+              "contentPath": "/content/ch24-s06.json",
+              "headings": []
             },
             {
               "id": "ch24-s07",
               "number": 7,
               "title": "资本主义积累的历史趋势",
               "versionId": "ch24-s07-v1",
-              "contentPath": "/content/ch24-s07.json"
+              "contentPath": "/content/ch24-s07.json",
+              "headings": []
             }
           ]
         },
@@ -853,7 +1207,8 @@
               "number": 1,
               "title": "现代殖民理论",
               "versionId": "ch25-s01-v1",
-              "contentPath": "/content/ch25-s01.json"
+              "contentPath": "/content/ch25-s01.json",
+              "headings": []
             }
           ]
         }

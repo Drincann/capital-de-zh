@@ -96,11 +96,10 @@ function rawSentenceRanges(value: string) {
 function decorateArticle(
   sentences: NarrationSentence[],
   ready: boolean,
-  onActivate: (sentenceId: string) => void,
+  onActivate: (sentenceId: string) => boolean,
 ) {
   const prose = document.querySelector<HTMLElement>("#reading-content .prose");
   if (!prose) return () => {};
-  prose.classList.toggle("narration-ready", ready);
   const paragraphs = Array.from(prose.querySelectorAll<HTMLElement>("p")).filter(
     (paragraph) => !paragraph.closest(".footnotes"),
   );
@@ -151,9 +150,6 @@ function decorateArticle(
         );
         if (primary && ready) {
           span.dataset.narrationPrimary = "true";
-          span.tabIndex = 0;
-          span.setAttribute("role", "button");
-          span.setAttribute("aria-label", `从这里朗读：${expected[index].text}`);
           const activate = (event: Event) => {
             if (
               event instanceof KeyboardEvent &&
@@ -161,8 +157,8 @@ function decorateArticle(
             ) {
               return;
             }
+            if (!onActivate(expected[index].id)) return;
             event.preventDefault();
-            onActivate(expected[index].id);
           };
           span.addEventListener("click", activate);
           span.addEventListener("keydown", activate);
@@ -210,6 +206,34 @@ function decorateArticle(
     );
     prose.normalize();
   };
+}
+
+function syncNarrationInteraction(
+  enabled: boolean,
+  sentences: NarrationSentence[],
+) {
+  const prose = document.querySelector<HTMLElement>("#reading-content .prose");
+  if (!prose) return;
+  const sentenceText = new Map(
+    sentences.map((sentence) => [sentence.id, sentence.text]),
+  );
+  prose.classList.toggle("narration-ready", enabled);
+  prose
+    .querySelectorAll<HTMLElement>("[data-narration-primary]")
+    .forEach((element) => {
+      if (enabled) {
+        element.tabIndex = 0;
+        element.setAttribute("role", "button");
+        element.setAttribute(
+          "aria-label",
+          `从这里朗读：${sentenceText.get(element.dataset.narrationSentence || "") || ""}`,
+        );
+        return;
+      }
+      element.removeAttribute("tabindex");
+      element.removeAttribute("role");
+      element.removeAttribute("aria-label");
+    });
 }
 
 function syncNarrationCurrent(sentenceId: string) {
@@ -368,10 +392,17 @@ export function AudioReader({
   const [mobileViewport, setMobileViewport] = useState(false);
   const [mobileAutoHidden, setMobileAutoHidden] = useState(false);
   const [playerTucked, setPlayerTucked] = useState(false);
+  const [playerOpen, setPlayerOpen] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
   const pendingStart = useRef<{ chunkId: string; time: number; autoplay: boolean } | null>(null);
   const playSentenceRef = useRef<(sentenceId: string) => void>(() => {});
   const activeSentenceIdRef = useRef("");
+  const sentenceInteractionEnabled =
+    status === "ready" &&
+    playerOpen &&
+    (!mobileViewport || (!playerTucked && !mobileAutoHidden));
+  const sentenceInteractionEnabledRef = useRef(false);
+  sentenceInteractionEnabledRef.current = sentenceInteractionEnabled;
   const manifestUrl = useMemo(
     () =>
       resolvedAudioManifestPath && typeof window !== "undefined"
@@ -453,8 +484,11 @@ export function AudioReader({
   }, [sectionId, translationSha256, versionId]);
 
   useEffect(() => {
+    pendingStart.current = null;
+    audioRef.current?.pause();
     setManifest(null);
     setStarted(false);
+    setPlayerOpen(false);
     setPlaying(false);
     setActiveSentenceId("");
     setActiveChunkId("");
@@ -499,13 +533,21 @@ export function AudioReader({
     const cleanup = decorateArticle(
       sentences,
       status === "ready",
-      (sentenceId) =>
-        playSentenceRef.current(sentenceId),
+      (sentenceId) => {
+        if (!sentenceInteractionEnabledRef.current) return false;
+        playSentenceRef.current(sentenceId);
+        return true;
+      },
     );
     syncNarrationCurrent(activeSentenceIdRef.current);
+    syncNarrationInteraction(sentenceInteractionEnabledRef.current, sentences);
     window.dispatchEvent(new Event(narrationDecoratedEvent));
     return cleanup;
   }, [sentences, status]);
+
+  useEffect(() => {
+    syncNarrationInteraction(sentenceInteractionEnabled, sentences);
+  }, [sentenceInteractionEnabled, sentences]);
 
   useEffect(() => {
     let frame = 0;
@@ -513,6 +555,10 @@ export function AudioReader({
       window.cancelAnimationFrame(frame);
       frame = window.requestAnimationFrame(() => {
         syncNarrationCurrent(activeSentenceIdRef.current);
+        syncNarrationInteraction(
+          sentenceInteractionEnabledRef.current,
+          sentences,
+        );
       });
     };
     window.addEventListener(readerLayoutChangedEvent, restoreCurrentSentence);
@@ -523,7 +569,7 @@ export function AudioReader({
         restoreCurrentSentence,
       );
     };
-  }, []);
+  }, [sentences]);
 
   useEffect(() => {
     syncNarrationCurrent(activeSentenceId);
@@ -546,6 +592,7 @@ export function AudioReader({
     if (
       !mobileViewport ||
       playerTucked ||
+      !playerOpen ||
       !started ||
       status !== "ready"
     ) {
@@ -590,7 +637,7 @@ export function AudioReader({
       window.cancelAnimationFrame(frame);
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [mobileViewport, playerTucked, started, status]);
+  }, [mobileViewport, playerOpen, playerTucked, started, status]);
 
   useEffect(() => {
     if (!("mediaSession" in navigator)) return;
@@ -599,7 +646,7 @@ export function AudioReader({
       artist: "《资本论》第一卷 · ChatGPT 译",
       album: "语音阅读",
     });
-    navigator.mediaSession.setActionHandler("play", () => void resume());
+    navigator.mediaSession.setActionHandler("play", () => void openAndResume());
     navigator.mediaSession.setActionHandler("pause", pause);
     navigator.mediaSession.setActionHandler("previoustrack", previousSentence);
     navigator.mediaSession.setActionHandler("nexttrack", nextSentence);
@@ -678,8 +725,27 @@ export function AudioReader({
     await playSentence(firstVisibleSentenceId());
   }
 
+  async function openAndResume() {
+    setPlayerOpen(true);
+    setPlayerTucked(false);
+    setMobileAutoHidden(false);
+    window.localStorage.setItem(playerTuckedStorageKey, "off");
+    await resume();
+  }
+
   function pause() {
     audioRef.current?.pause();
+  }
+
+  function closePlayer() {
+    pendingStart.current = null;
+    pause();
+    setPlayerOpen(false);
+    setPlayerTucked(false);
+    setMobileAutoHidden(false);
+    setActiveSentenceId("");
+    syncNarrationCurrent("");
+    window.localStorage.setItem(playerTuckedStorageKey, "off");
   }
 
   function sentenceStep(direction: number) {
@@ -790,7 +856,7 @@ export function AudioReader({
     <>
       <div className={`narration-availability ${status}`}>
         {status === "ready" ? (
-          <button type="button" onClick={() => void resume()}>
+          <button type="button" onClick={() => void openAndResume()}>
             <span aria-hidden="true">▶</span> 朗读本节
           </button>
         ) : status === "loading" ? (
@@ -824,7 +890,7 @@ export function AudioReader({
         onEnded={continueToNextChunk}
         onError={() => setPlaying(false)}
       />
-      {status === "ready" && started ? (
+      {status === "ready" && playerOpen ? (
         <section
           className={`narration-player${
             mobileViewport && mobileAutoHidden ? " mobile-auto-hidden" : ""
@@ -833,6 +899,15 @@ export function AudioReader({
           aria-hidden={mobileViewport && playerTucked ? true : undefined}
           inert={mobileViewport && playerTucked ? true : undefined}
         >
+          <button
+            className="narration-close"
+            type="button"
+            onClick={closePlayer}
+            aria-label="关闭语音阅读"
+            title="关闭语音阅读"
+          >
+            <span aria-hidden="true" />
+          </button>
           <button
             className="narration-tuck"
             type="button"
@@ -896,7 +971,7 @@ export function AudioReader({
           </div>
         </section>
       ) : null}
-      {status === "ready" && started && mobileViewport && playerTucked ? (
+      {status === "ready" && playerOpen && mobileViewport && playerTucked ? (
         <button
           className="narration-dock-tab"
           type="button"

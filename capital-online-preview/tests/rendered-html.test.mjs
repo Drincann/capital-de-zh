@@ -173,6 +173,12 @@ test("发布快照只包含正式采用的版本", async () => {
     assert.equal(content.unitId, section.id);
     assert.equal(content.versionId, section.versionId);
     assert.ok(content.html.length > 0);
+    assert.deepEqual(content.headings, section.headings);
+    for (const heading of section.headings || []) {
+      assert.match(heading.id, new RegExp(`^${section.id}-heading-\\d+$`));
+      assert.match(content.html, new RegExp(`id="${heading.id}"`));
+      assert.ok(heading.text.length > 0);
+    }
   }
 
   const serialized = JSON.stringify(manifest);
@@ -277,6 +283,16 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(audioReader, /capital-reader-narration-decorated/);
   assert.match(audioReader, /mobileAutoHidden/);
   assert.match(audioReader, /playerTucked/);
+  assert.match(audioReader, /playerOpen/);
+  assert.match(audioReader, /sentenceInteractionEnabledRef\.current/);
+  assert.match(audioReader, /syncNarrationInteraction/);
+  assert.match(audioReader, /aria-label="关闭语音阅读"/);
+  assert.match(audioReader, /function closePlayer\(\) \{\s*pendingStart\.current = null;/);
+  assert.match(audioReader, /onClick=\{\(\) => void openAndResume\(\)\}/);
+  assert.match(
+    audioReader,
+    /status === "ready" && playerOpen \? \(/,
+  );
   assert.match(audioReader, /narration-dock-tab/);
   assert.match(audioReader, /aria-label="将语音控制收至侧边"/);
   assert.doesNotMatch(audioReader, /Ⅱ/);
@@ -297,6 +313,7 @@ test("语音阅读支持逐句定位、按需加载和移动端控制", async ()
   assert.match(css, /\.narration-player\.mobile-auto-hidden/);
   assert.match(css, /\.narration-player\.mobile-tucked/);
   assert.match(css, /\.narration-dock-tab/);
+  assert.match(css, /\.narration-close/);
 });
 
 test("统计数据库不保存访问明细和原始环境信息", async () => {
@@ -331,9 +348,14 @@ test("目录收起和脚注跳转保留稳定布局与明确反馈", async () =>
   assert.match(reader, /paragraph-marker/);
   assert.match(reader, /in-viewport/);
   assert.match(reader, /catalog-chapter-upcoming/);
+  assert.match(reader, /section-outline/);
+  assert.match(reader, /scrollToHeading/);
+  assert.match(reader, /content\?\.headings \|\| section\.headings/);
   assert.match(reader, /本章尚未完成翻译，完成后将在这里开放/);
   assert.match(reader, /aria-disabled/);
   assert.match(css, /\.reading-pane\s*\{[^}]*grid-column:\s*2/s);
+  assert.match(css, /\.section-outline/);
+  assert.match(css, /scroll-margin-top:\s*76px/);
   assert.match(css, /\.footnotes-list\s*\{[^}]*list-style:\s*decimal/s);
   assert.match(css, /html\s*\{[^}]*scrollbar-width:\s*none/s);
   assert.doesNotMatch(
