@@ -430,6 +430,9 @@ html::-webkit-scrollbar {
   bottom: 18px;
   z-index: 45;
   width: 42px;
+  cursor: ns-resize;
+  touch-action: none;
+  user-select: none;
   transition: opacity 160ms ease;
 }
 
@@ -448,6 +451,16 @@ html::-webkit-scrollbar {
   border: 0;
   background: transparent;
   cursor: pointer;
+}
+
+body.reading-position-dragging,
+body.reading-position-dragging * {
+  cursor: ns-resize !important;
+  user-select: none !important;
+}
+
+body.reading-position-dragging .paragraph-line {
+  width: 18px;
 }
 
 .paragraph-line {

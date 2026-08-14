@@ -242,6 +242,12 @@ export function ReaderApp({
   const [restoredSectionId, setRestoredSectionId] = useState("");
   const trackedSection = useRef("");
   const readingPosition = useRef<HTMLElement>(null);
+  const readingPositionDrag = useRef<{
+    pointerId: number;
+    startY: number;
+    dragging: boolean;
+  } | null>(null);
+  const suppressReadingPositionClick = useRef(false);
   const settingsRef = useRef<HTMLDivElement>(null);
 
   const selectedIndex = flatSections.findIndex(
@@ -343,6 +349,11 @@ export function ReaderApp({
       document.removeEventListener("keydown", closeOnEscape);
     };
   }, [settingsOpen]);
+
+  useEffect(
+    () => () => document.body.classList.remove("reading-position-dragging"),
+    [],
+  );
 
   useEffect(() => {
     if (!selected || !locationResolved) return;
@@ -633,6 +644,60 @@ export function ReaderApp({
     });
   }
 
+  function scrollFromReadingPosition(clientY: number) {
+    const position = readingPosition.current;
+    if (!position) return;
+    const bounds = position.getBoundingClientRect();
+    const ratio = Math.min(
+      1,
+      Math.max(0, (clientY - bounds.top) / Math.max(1, bounds.height)),
+    );
+    const maximumScroll = Math.max(
+      0,
+      document.documentElement.scrollHeight - window.innerHeight,
+    );
+    window.scrollTo(0, ratio * maximumScroll);
+  }
+
+  function startReadingPositionDrag(event: React.PointerEvent<HTMLElement>) {
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    readingPositionDrag.current = {
+      pointerId: event.pointerId,
+      startY: event.clientY,
+      dragging: false,
+    };
+    event.currentTarget.setPointerCapture(event.pointerId);
+  }
+
+  function moveReadingPositionDrag(event: React.PointerEvent<HTMLElement>) {
+    const drag = readingPositionDrag.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    if (!drag.dragging && Math.abs(event.clientY - drag.startY) < 4) return;
+    if (!drag.dragging) {
+      drag.dragging = true;
+      document.body.classList.add("reading-position-dragging");
+    }
+    event.preventDefault();
+    scrollFromReadingPosition(event.clientY);
+  }
+
+  function finishReadingPositionDrag(event: React.PointerEvent<HTMLElement>) {
+    const drag = readingPositionDrag.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    const wasDragging = drag.dragging;
+    readingPositionDrag.current = null;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    }
+    document.body.classList.remove("reading-position-dragging");
+    if (!wasDragging) return;
+    event.preventDefault();
+    suppressReadingPositionClick.current = true;
+    window.setTimeout(() => {
+      suppressReadingPositionClick.current = false;
+    }, 0);
+  }
+
   function scrollToHeading(headingId: string) {
     document.getElementById(headingId)?.scrollIntoView({
       behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
@@ -788,7 +853,12 @@ export function ReaderApp({
             ? "reading-position"
             : "reading-position reading-position-hidden"
         }
-        aria-label="正文段落定位"
+        aria-label="正文段落定位，可按住拖动"
+        onPointerDown={startReadingPositionDrag}
+        onPointerMove={moveReadingPositionDrag}
+        onPointerUp={finishReadingPositionDrag}
+        onPointerCancel={finishReadingPositionDrag}
+        onLostPointerCapture={finishReadingPositionDrag}
       >
         {paragraphMarkers.map((marker) => (
           <button
@@ -808,7 +878,10 @@ export function ReaderApp({
                 "--paragraph-hit-size": marker.hitSize,
               } as React.CSSProperties
             }
-            onClick={() => scrollToParagraph(marker.index)}
+            onClick={() => {
+              if (suppressReadingPositionClick.current) return;
+              scrollToParagraph(marker.index);
+            }}
             aria-label={`跳到第 ${marker.index + 1} 段：${marker.preview}`}
           >
             <span className="paragraph-line" aria-hidden="true" />

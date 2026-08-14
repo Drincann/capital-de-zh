@@ -353,6 +353,10 @@ test("目录收起和脚注跳转保留稳定布局与明确反馈", async () =>
   assert.match(reader, /footnote-pulse/);
   assert.match(reader, /querySelectorAll<HTMLElement>\(\s*"#reading-content \.prose p"/s);
   assert.match(reader, /scrollToParagraph/);
+  assert.match(reader, /scrollFromReadingPosition/);
+  assert.match(reader, /setPointerCapture\(event\.pointerId\)/);
+  assert.match(reader, /onPointerMove=\{moveReadingPositionDrag\}/);
+  assert.match(reader, /suppressReadingPositionClick/);
   assert.match(reader, /paragraph-marker/);
   assert.match(reader, /in-viewport/);
   assert.match(reader, /catalog-chapter-upcoming/);
@@ -362,6 +366,8 @@ test("目录收起和脚注跳转保留稳定布局与明确反馈", async () =>
   assert.match(reader, /本章尚未完成翻译，完成后将在这里开放/);
   assert.match(reader, /aria-disabled/);
   assert.match(css, /\.reading-pane\s*\{[^}]*grid-column:\s*2/s);
+  assert.match(css, /\.reading-position\s*\{[^}]*touch-action:\s*none/s);
+  assert.match(css, /body\.reading-position-dragging/);
   assert.match(css, /\.section-outline/);
   assert.match(css, /scroll-margin-top:\s*76px/);
   assert.match(css, /\.footnotes-list\s*\{[^}]*list-style:\s*decimal/s);
