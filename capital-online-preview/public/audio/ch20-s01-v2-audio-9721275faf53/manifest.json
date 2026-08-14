@@ -1,0 +1,709 @@
+{
+  "schema_version": 2,
+  "status": "ready",
+  "audio_version_id": "ch20-s01-v2-audio-9721275faf53",
+  "base_audio_version_id": "ch20-s01-v1-audio-6d65aa675af6",
+  "reused_chunk_count": 3,
+  "generated_chunk_count": 8,
+  "unit_id": "ch20-s01",
+  "translation_version_id": "ch20-s01-v2",
+  "translation_sha256": "a7e19eac06f7f3e16e1f0289c1f38125726bb58f455af29abdcbecebfe10c6d9",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-14T18:34:43.577Z",
+  "completed_at": "2026-08-14T18:35:28.710Z",
+  "duration_ms": 466504,
+  "sentence_count": 65,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 53959,
+      "bytes": 868269,
+      "sha256": "72dfc4b537a461184dd65906800e076ebdc401f63db34f82816eb7f0ba1f8323",
+      "sentence_ids": [
+        "ch20-s01-n0001",
+        "ch20-s01-n0002",
+        "ch20-s01-n0003",
+        "ch20-s01-n0004",
+        "ch20-s01-n0005"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 40576,
+      "bytes": 657453,
+      "sha256": "099d63f801c29d357cc916b86e3c3f4ef14de7e14d44ea68fd04bd919e5ec0a5",
+      "sentence_ids": [
+        "ch20-s01-n0006",
+        "ch20-s01-n0007",
+        "ch20-s01-n0008",
+        "ch20-s01-n0009",
+        "ch20-s01-n0010",
+        "ch20-s01-n0011"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 46197,
+      "bytes": 749613,
+      "sha256": "ba4a60fc842e8320d52a26c1eb55a93420ffac76677a129959f7af27dcea0486",
+      "sentence_ids": [
+        "ch20-s01-n0012",
+        "ch20-s01-n0013",
+        "ch20-s01-n0014",
+        "ch20-s01-n0015",
+        "ch20-s01-n0016",
+        "ch20-s01-n0017"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 55085,
+      "bytes": 883629,
+      "sha256": "6642c685294620b3312f53d7f78a58486a75916bd5ee980131ecc5c26f99b672",
+      "sentence_ids": [
+        "ch20-s01-n0018",
+        "ch20-s01-n0019",
+        "ch20-s01-n0020",
+        "ch20-s01-n0021",
+        "ch20-s01-n0022",
+        "ch20-s01-n0023"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 46006,
+      "bytes": 743085,
+      "sha256": "f984b183af450b69fcd2fa85075aea27683bb2550f392eeca4f8b93402336838",
+      "sentence_ids": [
+        "ch20-s01-n0024",
+        "ch20-s01-n0025",
+        "ch20-s01-n0026",
+        "ch20-s01-n0027",
+        "ch20-s01-n0028",
+        "ch20-s01-n0029"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 40022,
+      "bytes": 640557,
+      "sha256": "72c7e5ae887ccf386ba723b02f4442f850718b7c97992844aa3679f8f58a301e",
+      "sentence_ids": [
+        "ch20-s01-n0030",
+        "ch20-s01-n0031",
+        "ch20-s01-n0032",
+        "ch20-s01-n0033",
+        "ch20-s01-n0034",
+        "ch20-s01-n0035"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 23915,
+      "bytes": 384429,
+      "sha256": "4688f7767ef919b1c3f57d536db8386b34af142029dc89079f05e6a482b348e8",
+      "sentence_ids": [
+        "ch20-s01-n0036",
+        "ch20-s01-n0037",
+        "ch20-s01-n0038",
+        "ch20-s01-n0039",
+        "ch20-s01-n0040",
+        "ch20-s01-n0041"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 41200,
+      "bytes": 666669,
+      "sha256": "6dd21f2c1f5c535ff355f87f0b15ff1e5aa88b2012635845c06008b79f2f0b3e",
+      "sentence_ids": [
+        "ch20-s01-n0042",
+        "ch20-s01-n0043",
+        "ch20-s01-n0044",
+        "ch20-s01-n0045",
+        "ch20-s01-n0046",
+        "ch20-s01-n0047"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 45994,
+      "bytes": 734253,
+      "sha256": "38c7fa244653cdeb4da16f1ca0f86be76f64cfffaf6986d6779bca776d6646f1",
+      "sentence_ids": [
+        "ch20-s01-n0048",
+        "ch20-s01-n0049",
+        "ch20-s01-n0050",
+        "ch20-s01-n0051",
+        "ch20-s01-n0052",
+        "ch20-s01-n0053"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 31355,
+      "bytes": 503469,
+      "sha256": "c017c55a3defab66cebf3404a652c5db742d44caafee98524e29b994ba673f95",
+      "sentence_ids": [
+        "ch20-s01-n0054",
+        "ch20-s01-n0055",
+        "ch20-s01-n0056",
+        "ch20-s01-n0057",
+        "ch20-s01-n0058",
+        "ch20-s01-n0059"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 42195,
+      "bytes": 682413,
+      "sha256": "cf7110756caadaeb5d54d4625b41c4b29c01558c7e15560f5e0aab7e235cb11e",
+      "sentence_ids": [
+        "ch20-s01-n0060",
+        "ch20-s01-n0061",
+        "ch20-s01-n0062",
+        "ch20-s01-n0063",
+        "ch20-s01-n0064",
+        "ch20-s01-n0065"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch20-s01-n0001",
+      "text": "第十五章分析过，劳动力的绝对价值以及它同剩余价值相比的相对价值，会怎样在多种因素的组合下发生变化。",
+      "start_ms": 95,
+      "end_ms": 7865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch20-s01-n0002",
+      "text": "另一方面，劳动力价格所能买到的生活资料数量，也可能不随劳动力价格一起变化，或者按不同方向和幅度变化。",
+      "start_ms": 8265,
+      "end_ms": 16355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch20-s01-n0003",
+      "text": "前面已经说过，只要把劳动力的价值或价格换成工资这种外在表现形式，劳动力价值的变化规律也就表现为工资的变化规律。",
+      "start_ms": 16820,
+      "end_ms": 25695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch20-s01-n0004",
+      "text": "同一种变化，在一个国家内部会表现为不同时期的工资组合，在不同国家之间则会表现为同时存在的工资差异。",
+      "start_ms": 26565,
+      "end_ms": 35385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch20-s01-n0005",
+      "text": "因此，比较各国工资时，必须考虑所有会改变劳动力价值的因素：维持生活所需物品的价格和范围，其中既有自然需要，也有历史形成的需要，还有工人的培养费用、妇女和儿童劳动的作用、劳动生产率、劳动时间和劳动强度。",
+      "start_ms": 35674,
+      "end_ms": 53809,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch20-s01-n0006",
+      "text": "哪怕只作最粗略的比较，也必须先把不同国家同一行业的平均日工资，换算成长度相同的工作日。",
+      "start_ms": 85,
+      "end_ms": 7345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch20-s01-n0007",
+      "text": "日工资经过这种换算后，还要把计时工资换算成计件工资，因为只有计件工资才能同时反映劳动生产率和劳动强度。",
+      "start_ms": 7855,
+      "end_ms": 16085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch20-s01-n0008",
+      "text": "每个国家都有一个通行的平均劳动强度。",
+      "start_ms": 16585,
+      "end_ms": 19095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch20-s01-n0009",
+      "text": "劳动强度低于这个平均水平，生产商品就要耗费超过社会必要劳动时间的时间，因此不能算作正常质量的劳动。",
+      "start_ms": 19555,
+      "end_ms": 27635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch20-s01-n0010",
+      "text": "在一个国家内部，只有高于本国平均水平的劳动强度，才不能再单凭劳动持续时间来衡量它创造的价值。",
+      "start_ms": 28210,
+      "end_ms": 35785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch20-s01-n0011",
+      "text": "世界市场上的情况则不同，因为各个国家都是世界市场的组成部分。",
+      "start_ms": 36276,
+      "end_ms": 40426,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch20-s01-n0012",
+      "text": "平均劳动强度因国家而异，有的较高，有的较低。",
+      "start_ms": 125,
+      "end_ms": 4295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch20-s01-n0013",
+      "text": "各国的平均强度由此形成一个等级，衡量这个等级的共同单位是世界劳动的平均强度。",
+      "start_ms": 4660,
+      "end_ms": 11515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch20-s01-n0014",
+      "text": "因此，同较低强度的国家相比，劳动强度较高的国家在相同时间内会创造更多价值，并表现为更多货币。",
+      "start_ms": 12125,
+      "end_ms": 21475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch20-s01-n0015",
+      "text": "劳动生产率还会使价值规律在世界市场上的作用发生更大变化。",
+      "start_ms": 21780,
+      "end_ms": 25895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch20-s01-n0016",
+      "text": "一个国家的劳动生产率较高时，只要竞争没有迫使它把商品售价降到商品本身的价值，这种生产率更高的劳动在世界市场上也会被当作强度更高的劳动。",
+      "start_ms": 26645,
+      "end_ms": 39055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch20-s01-n0017",
+      "text": "一个国家的资本主义生产越发达，它的平均劳动强度和劳动生产率通常也越高于世界平均水平。",
+      "start_ms": 39312,
+      "end_ms": 46047,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch20-s01-n0018",
+      "text": "因此，同一时间内，各国生产出的同种商品数量不同，这些产量在世界市场上的价值也不同，并表现为不同的价格总额。",
+      "start_ms": 195,
+      "end_ms": 9175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch20-s01-n0019",
+      "text": "由此，同较不发达国家相比，较发达国家每单位货币所代表的价值量更小，名义工资也会更高。",
+      "start_ms": 9735,
+      "end_ms": 16875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch20-s01-n0020",
+      "text": "不过，这完全不等于较发达国家的实际工资也更高，也就是不等于那里的工人能得到更多生活资料。",
+      "start_ms": 17635,
+      "end_ms": 24475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch20-s01-n0021",
+      "text": "即使不考虑各国货币相对价值的差别，也经常会出现这种情况：较发达国家的日工资、周工资等高于较不发达国家，后者的相对劳动价格却高于前者。",
+      "start_ms": 24950,
+      "end_ms": 36515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch20-s01-n0022",
+      "text": "这里所说的相对劳动价格，是劳动价格同剩余价值以及产品价值相比的比例。",
+      "start_ms": 36920,
+      "end_ms": 42235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch20-s01-n0023",
+      "text": "1833年工厂委员会委员J. W. 考威尔仔细调查纺纱业后得出结论：“在英国，工资对工人来说可能较高，但工厂主实际承担的劳动成本却低于欧洲大陆。”",
+      "start_ms": 43755,
+      "end_ms": 54935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch20-s01-n0024",
+      "text": "（尤尔，第314页。）",
+      "start_ms": 225,
+      "end_ms": 2555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch20-s01-n0025",
+      "text": "英国工厂视察员亚历山大·雷德格雷夫在1866年10月31日的工厂报告中，用英国和欧洲大陆各国的统计数字证明：大陆工人的工资较低，工作时间长得多，可是同产品数量相比，使用大陆工人反而比使用英国工人更贵。",
+      "start_ms": 2560,
+      "end_ms": 19375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch20-s01-n0026",
+      "text": "德国奥尔登堡一家棉纺厂的英国经理说，那里每天从早晨五点半工作到晚上八点，星期六也是如此。",
+      "start_ms": 19810,
+      "end_ms": 26285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch20-s01-n0027",
+      "text": "在英国监工管理下，当地工人在这么长的时间里，产量仍略低于英国工人十小时的产量。",
+      "start_ms": 27065,
+      "end_ms": 33685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch20-s01-n0028",
+      "text": "在德国监工管理下，产量还要低得多。",
+      "start_ms": 34081,
+      "end_ms": 36906,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch20-s01-n0029",
+      "text": "当地工资远低于英国，许多情况下低50%，可是相对于机器数量，所需工人多得多，有些部门达到五比三。",
+      "start_ms": 37241,
+      "end_ms": 45856,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch20-s01-n0030",
+      "text": "雷德格雷夫还提供了俄国棉纺厂的详细资料，数据来自一名不久前还在那里任职的英国经理。",
+      "start_ms": 445,
+      "end_ms": 6165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch20-s01-n0031",
+      "text": "在这片盛产丑恶现象的俄国土地上，英国工厂早期的种种旧弊端仍十分猖獗。",
+      "start_ms": 6525,
+      "end_ms": 11925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch20-s01-n0032",
+      "text": "工厂管理者当然是英国人，因为俄国本地资本家还不善于经营工厂。",
+      "start_ms": 12375,
+      "end_ms": 16435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch20-s01-n0033",
+      "text": "尽管工人长期过度劳动，日夜连续工作，工资又低得可耻，俄国棉纺业仍只能靠禁止外国商品输入勉强生存。",
+      "start_ms": 16950,
+      "end_ms": 24885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch20-s01-n0034",
+      "text": "最后，下面列出雷德格雷夫对欧洲各国每家工厂平均纱锭数和每名工人平均看管纱锭数的比较。",
+      "start_ms": 25295,
+      "end_ms": 32615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch20-s01-n0035",
+      "text": "他说明，这些数字是在几年前收集的，此后英国的工厂规模和每名工人看管的纱锭数都有增加。",
+      "start_ms": 33017,
+      "end_ms": 39872,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch20-s01-n0036",
+      "text": "不过，他假定所列的欧洲大陆国家也有大致相同比例的进步，因此这些数字仍有比较价值。",
+      "start_ms": 195,
+      "end_ms": 6315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch20-s01-n0037",
+      "text": "每家工厂的平均纱锭数",
+      "start_ms": 6605,
+      "end_ms": 8305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch20-s01-n0038",
+      "text": "每人平均看管的纱锭数",
+      "start_ms": 8305,
+      "end_ms": 10015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch20-s01-n0039",
+      "text": "雷德格雷夫说：“除了其他原因，这项比较还有一点对英国特别不利。",
+      "start_ms": 10015,
+      "end_ms": 14075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch20-s01-n0040",
+      "text": "英国有很多工厂把机器织布和纺纱结合在一起，但计算工人人数时，并没有扣除操作织机的人。",
+      "start_ms": 14825,
+      "end_ms": 21575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch20-s01-n0041",
+      "text": "国外的工厂大多只是纺纱厂。",
+      "start_ms": 21890,
+      "end_ms": 23765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch20-s01-n0042",
+      "text": "如果能够严格比较同类工厂，我可以列举本区许多棉纺厂。",
+      "start_ms": 75,
+      "end_ms": 3495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch20-s01-n0043",
+      "text": "在那里，一名男工和两名女助手看管一台装有二千二百枚纱锭的走锭精纺机，每天生产二百二十磅棉纱，纱线总长四百英里。”",
+      "start_ms": 3940,
+      "end_ms": 13005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch20-s01-n0044",
+      "text": "（《工厂视察员报告》，1866年10月31日，第31—37页各处。）",
+      "start_ms": 13690,
+      "end_ms": 18525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch20-s01-n0045",
+      "text": "人们知道，英国公司曾承包东欧和亚洲的铁路建设，除了当地工人，还雇用一定数量的英国工人。",
+      "start_ms": 18735,
+      "end_ms": 25535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch20-s01-n0046",
+      "text": "实际经营迫使这些公司把各国劳动强度的差别考虑进去，但它们并没有因此吃亏。",
+      "start_ms": 26000,
+      "end_ms": 31625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch20-s01-n0047",
+      "text": "它们的经验表明，工资高低虽然大致会随一国的平均劳动强度变化，但相对于产品数量的劳动价格通常朝相反方向变化。",
+      "start_ms": 32175,
+      "end_ms": 41050,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch20-s01-n0048",
+      "text": "也就是说，工资较高的国家，每单位产品所需的劳动成本反而往往较低。",
+      "start_ms": 595,
+      "end_ms": 5915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch20-s01-n0049",
+      "text": "H.凯里在早期经济学著作《工资率研究》中，试图证明各国工资同各国劳动生产率成正比，并由这种国际关系推出一条普遍结论：劳动生产率上升，工资也上升，劳动生产率下降，工资也下降。",
+      "start_ms": 6595,
+      "end_ms": 20775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch20-s01-n0050",
+      "text": "即使凯里真的证明了这个前提，我们对剩余价值生产的全部分析也足以说明，这个结论十分荒谬。",
+      "start_ms": 21395,
+      "end_ms": 27985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch20-s01-n0051",
+      "text": "何况他仍按一贯做法，只把未经批判、粗略搜集的统计材料胡乱堆在一起，并没有证明自己的前提。",
+      "start_ms": 28785,
+      "end_ms": 36435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch20-s01-n0052",
+      "text": "最妙的是，他也不敢说现实真像他的理论所要求的那样运行。",
+      "start_ms": 37024,
+      "end_ms": 41534,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch20-s01-n0053",
+      "text": "按照他的解释，国家干预歪曲了这种自然的经济关系。",
+      "start_ms": 41849,
+      "end_ms": 45844,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch20-s01-n0054",
+      "text": "因此，计算各国工资时，仿佛工资中以税收形式交给国家的部分仍然归工人所有。",
+      "start_ms": 345,
+      "end_ms": 6655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch20-s01-n0055",
+      "text": "凯里先生或许还应该想一想，这些“国家费用”会不会也是资本主义发展“自然结出的果实”？",
+      "start_ms": 6920,
+      "end_ms": 12045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch20-s01-n0056",
+      "text": "这样的推理非常配得上他本人。",
+      "start_ms": 12735,
+      "end_ms": 14545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch20-s01-n0057",
+      "text": "他起初把资本主义生产关系说成永恒的自然法则和理性法则，认为国家干预破坏了这些法则自由而和谐的运行。",
+      "start_ms": 14790,
+      "end_ms": 22595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch20-s01-n0058",
+      "text": "后来，他又发现英国对世界市场的“恶魔般影响”迫使国家出面干预。",
+      "start_ms": 22850,
+      "end_ms": 27235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch20-s01-n0059",
+      "text": "看来这种影响并不是从资本主义生产的自然法则中产生的。",
+      "start_ms": 27565,
+      "end_ms": 31205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch20-s01-n0060",
+      "text": "国家于是必须保护那些自然法则和理性法则，换句话说，实行保护主义。",
+      "start_ms": 165,
+      "end_ms": 5435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch20-s01-n0061",
+      "text": "凯里还发现，李嘉图等人的理论所概括的现实社会对立和矛盾，并不是现实经济运动在思想中的反映。",
+      "start_ms": 5820,
+      "end_ms": 12035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch20-s01-n0062",
+      "text": "恰恰相反，他认为英国和其他地方资本主义生产中的真实矛盾，倒是李嘉图等人的理论造成的！",
+      "start_ms": 12785,
+      "end_ms": 18935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch20-s01-n0063",
+      "text": "最后，他又发现，归根到底是商业摧毁了资本主义生产方式天生的美好与和谐。",
+      "start_ms": 19290,
+      "end_ms": 24525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch20-s01-n0064",
+      "text": "再往前走一步，他也许就会发现，资本主义生产唯一的问题正是资本本身。",
+      "start_ms": 25095,
+      "end_ms": 30115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch20-s01-n0065",
+      "text": "一个人的批判能力如此糟糕，学问又如此冒牌，他确实有资格在背叛自由贸易、转向保护主义以后，仍成为巴斯夏和当时所有自由贸易乐观主义者“和谐智慧”的秘密来源。",
+      "start_ms": 31225,
+      "end_ms": 42045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    }
+  ]
+}

@@ -1,0 +1,922 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s04-v1-audio-3a1cb29a2947",
+  "unit_id": "ch13-s04",
+  "translation_version_id": "ch13-s04-v1",
+  "translation_sha256": "84e54f66dc75cbf3e9cf20b8bf34a7f1c4eca2924b52e464671214062fbedde9",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:04:41.685Z",
+  "completed_at": "2026-08-04T17:06:04.492Z",
+  "duration_ms": 549704,
+  "sentence_count": 85,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 44212,
+      "bytes": 710061,
+      "sha256": "0924944a152504edf47bd411482113ade41c5e675fbe88d02b55b7f0ca9d72b4",
+      "sentence_ids": [
+        "ch13-s04-n0001",
+        "ch13-s04-n0002",
+        "ch13-s04-n0003",
+        "ch13-s04-n0004",
+        "ch13-s04-n0005",
+        "ch13-s04-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 42123,
+      "bytes": 678573,
+      "sha256": "3e06f093bd2e1373862c9e15670edd5db965084197e70e2c53e4835f499d4583",
+      "sentence_ids": [
+        "ch13-s04-n0007",
+        "ch13-s04-n0008",
+        "ch13-s04-n0009",
+        "ch13-s04-n0010",
+        "ch13-s04-n0011",
+        "ch13-s04-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 38861,
+      "bytes": 624813,
+      "sha256": "a3b3416c1c6c915a283162a358df6d94a55cc38f1cf1541b6dd2d014c38464ac",
+      "sentence_ids": [
+        "ch13-s04-n0013",
+        "ch13-s04-n0014",
+        "ch13-s04-n0015",
+        "ch13-s04-n0016",
+        "ch13-s04-n0017",
+        "ch13-s04-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 45502,
+      "bytes": 727341,
+      "sha256": "ca10804a893398ceae20ab2443b17b6d468591666f58a582237dd26f82367936",
+      "sentence_ids": [
+        "ch13-s04-n0019",
+        "ch13-s04-n0020",
+        "ch13-s04-n0021",
+        "ch13-s04-n0022",
+        "ch13-s04-n0023",
+        "ch13-s04-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 36395,
+      "bytes": 582189,
+      "sha256": "10769a44b4bd82661eabf970e321c3869370c6b7ed82ce707f1dfc60289cdff6",
+      "sentence_ids": [
+        "ch13-s04-n0025",
+        "ch13-s04-n0026",
+        "ch13-s04-n0027",
+        "ch13-s04-n0028",
+        "ch13-s04-n0029",
+        "ch13-s04-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 49942,
+      "bytes": 800301,
+      "sha256": "e5417f2ee84ce7b13905417a7e22b9bab0c50d01fd50569a49f56900983268c5",
+      "sentence_ids": [
+        "ch13-s04-n0031",
+        "ch13-s04-n0032",
+        "ch13-s04-n0033",
+        "ch13-s04-n0034",
+        "ch13-s04-n0035",
+        "ch13-s04-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 35454,
+      "bytes": 569901,
+      "sha256": "959309434fa8f5ea1fb3a48947f9bd7a13f6a6874119ce1eb552dfc2f5847988",
+      "sentence_ids": [
+        "ch13-s04-n0037",
+        "ch13-s04-n0038",
+        "ch13-s04-n0039",
+        "ch13-s04-n0040",
+        "ch13-s04-n0041",
+        "ch13-s04-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 27305,
+      "bytes": 439341,
+      "sha256": "da94e8a0dc8929c330edcc2d9a8ca01d66ca330e7be58dbe73313e24fb33d795",
+      "sentence_ids": [
+        "ch13-s04-n0043",
+        "ch13-s04-n0044",
+        "ch13-s04-n0045",
+        "ch13-s04-n0046",
+        "ch13-s04-n0047",
+        "ch13-s04-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 37812,
+      "bytes": 605229,
+      "sha256": "acd0d93444029173f8f796376917bd7a46e23d99b1f0971df1d27490377efb36",
+      "sentence_ids": [
+        "ch13-s04-n0049",
+        "ch13-s04-n0050",
+        "ch13-s04-n0051",
+        "ch13-s04-n0052",
+        "ch13-s04-n0053",
+        "ch13-s04-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 31385,
+      "bytes": 505773,
+      "sha256": "9e35458f77f63f7b68fcc519cc39c94af67086a348bcbdc6d5dbbce30344c9c4",
+      "sentence_ids": [
+        "ch13-s04-n0055",
+        "ch13-s04-n0056",
+        "ch13-s04-n0057",
+        "ch13-s04-n0058",
+        "ch13-s04-n0059",
+        "ch13-s04-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 31325,
+      "bytes": 499629,
+      "sha256": "ce80914e38c76e7bb2cbb6680ae9c01b2aeaab92e615dd35bf90a2ad453b8b68",
+      "sentence_ids": [
+        "ch13-s04-n0061",
+        "ch13-s04-n0062",
+        "ch13-s04-n0063",
+        "ch13-s04-n0064",
+        "ch13-s04-n0065",
+        "ch13-s04-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 43179,
+      "bytes": 695085,
+      "sha256": "ada3e6185451967849b539e69b29effcbbb3003cd42c1ae8568deaa56ddcebb2",
+      "sentence_ids": [
+        "ch13-s04-n0067",
+        "ch13-s04-n0068",
+        "ch13-s04-n0069",
+        "ch13-s04-n0070",
+        "ch13-s04-n0071",
+        "ch13-s04-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 39769,
+      "bytes": 638253,
+      "sha256": "c0d4ea7337745c10387254846015fa95b2ec4c66b964d2ced9e26d9c7cf81220",
+      "sentence_ids": [
+        "ch13-s04-n0073",
+        "ch13-s04-n0074",
+        "ch13-s04-n0075",
+        "ch13-s04-n0076",
+        "ch13-s04-n0077",
+        "ch13-s04-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 42455,
+      "bytes": 678957,
+      "sha256": "3aae8302b3657a82f896ef04cf0ec5fe6f460f1de7c79a1553f95e1697c02bf8",
+      "sentence_ids": [
+        "ch13-s04-n0079",
+        "ch13-s04-n0080",
+        "ch13-s04-n0081",
+        "ch13-s04-n0082",
+        "ch13-s04-n0083",
+        "ch13-s04-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 3985,
+      "bytes": 64173,
+      "sha256": "b01dc10840aff69f507e0a1b37a610446e1e84d2f4fe02d04f3ee1b07c3853c7",
+      "sentence_ids": [
+        "ch13-s04-n0085"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s04-n0001",
+      "text": "本章开头，我们先考察了工厂的躯体，也就是机器体系的组成。",
+      "start_ms": 635,
+      "end_ms": 4255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s04-n0002",
+      "text": "接着我们看到，机器怎样把妇女和儿童也纳入雇佣范围，为资本增加了可供剥削的人；怎样把工作日无限延长，侵占工人的全部生活时间；又怎样凭借技术进步，在越来越短的时间里生产出极其庞大的产品，从而成为一种系统化的手段，使工人在每一刻都付出更多劳动，让资本以越来越高的强度使用劳动力。",
+      "start_ms": 4570,
+      "end_ms": 25705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s04-n0003",
+      "text": "现在，我们来考察工厂这个整体，而且考察它发展得最完备的形态。",
+      "start_ms": 26095,
+      "end_ms": 30245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s04-n0004",
+      "text": "尤尔博士是自动化工厂的热情歌颂者。",
+      "start_ms": 30977,
+      "end_ms": 33012,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s04-n0005",
+      "text": "他一方面把工厂说成“不同类别的成年和未成年工人的协作。",
+      "start_ms": 33437,
+      "end_ms": 37142,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s04-n0006",
+      "text": "他们熟练而勤奋地照管一套生产机器；整套机器由一个中央动力，也就是原动机，持续驱动”。",
+      "start_ms": 37477,
+      "end_ms": 44062,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s04-n0007",
+      "text": "另一方面，他又把工厂说成“一个巨大的自动机，由无数机械器官和有意识的器官组成。",
+      "start_ms": 115,
+      "end_ms": 6305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s04-n0008",
+      "text": "这些器官协调一致、不停地运转，共同生产同一种产品，并且全都服从一个能自行运动的动力”。",
+      "start_ms": 6580,
+      "end_ms": 13805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s04-n0009",
+      "text": "这两种说法并不相同。",
+      "start_ms": 14080,
+      "end_ms": 15275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s04-n0010",
+      "text": "按照第一种说法，由工人共同组成的社会劳动组织是行动主体，自动化机器只是他们使用的对象。",
+      "start_ms": 15520,
+      "end_ms": 22845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s04-n0011",
+      "text": "按照第二种说法，自动机本身成了主体，工人只是有意识的器官，被安排在机器那些没有意识的器官旁边，与机器一起服从中央动力。",
+      "start_ms": 23120,
+      "end_ms": 33305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s04-n0012",
+      "text": "第一种说法适用于任何以大规模方式使用机器的生产，第二种说法才描述了机器在资本主义下的用法，也就是现代工厂制度。",
+      "start_ms": 33638,
+      "end_ms": 41973,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s04-n0013",
+      "text": "正因如此，尤尔不仅喜欢把发出动力的中央机器写成自动机，还喜欢把它写成专制君主：“在这些巨大的工场里，仁慈的蒸汽力量把成千上万的臣民召集到自己周围。”",
+      "start_ms": 145,
+      "end_ms": 10785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s04-n0014",
+      "text": "劳动工具一旦并入机器，熟练使用工具的本领也就从工人转移到了机器上。",
+      "start_ms": 11200,
+      "end_ms": 15595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s04-n0015",
+      "text": "工具能够发挥多大效能，不再受工人个人能力的限制。",
+      "start_ms": 16275,
+      "end_ms": 19665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s04-n0016",
+      "text": "这样一来，工场手工业分工赖以存在的技术基础也就消失了。",
+      "start_ms": 20000,
+      "end_ms": 23885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s04-n0017",
+      "text": "在自动化工厂里，过去那种按技能高低排列的专业工人等级，因而让位于另一种趋势：为机器提供辅助劳动的各类工作日益变得相同。",
+      "start_ms": 24220,
+      "end_ms": 33335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s04-n0018",
+      "text": "工场手工业原先人为造出的专业差别，主要被年龄和性别这些自然差别取代。",
+      "start_ms": 33736,
+      "end_ms": 38711,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s04-n0019",
+      "text": "自动化工厂里仍然存在分工，但这种分工首先只是把工人分配给不同的专用机器，并把大批工人分配到工厂的不同部门。",
+      "start_ms": 485,
+      "end_ms": 8995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s04-n0020",
+      "text": "这些人并不组成内部层次分明的工作组，只是在一排排同类机器旁劳动，彼此之间只是简单协作。",
+      "start_ms": 9335,
+      "end_ms": 15515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s04-n0021",
+      "text": "工场手工业中组织严密的工作组，被一名主要操作工和少数助手的配合取代。",
+      "start_ms": 16395,
+      "end_ms": 21875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s04-n0022",
+      "text": "最基本的区别是两类人：一类直接操作工作机，还包括少数看管或供给动力机的工人；另一类只是给这些机器操作工打下手，而且几乎全是儿童。",
+      "start_ms": 22300,
+      "end_ms": 32455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s04-n0023",
+      "text": "大体说来，各种“喂料工”都属于助手，他们只负责把原料送进机器。",
+      "start_ms": 32927,
+      "end_ms": 37592,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s04-n0024",
+      "text": "除此之外，还有人数很少的一类职工，负责监督整套机器并不断维修，例如工程师、机械工、木匠等。",
+      "start_ms": 37907,
+      "end_ms": 45352,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s04-n0025",
+      "text": "他们属于层次较高的劳动者，一部分受过科学教育，一部分掌握手艺。",
+      "start_ms": 195,
+      "end_ms": 4325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s04-n0026",
+      "text": "他们不属于普通工厂工人的范围，只是附属于这个群体。",
+      "start_ms": 4775,
+      "end_ms": 8485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s04-n0027",
+      "text": "这里所说的分工，完全由技术上的需要造成。",
+      "start_ms": 9065,
+      "end_ms": 11555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s04-n0028",
+      "text": "凡是在机器旁劳动，工人都要从小接受训练，学会让自己的动作适应自动机均匀而连续的运动。",
+      "start_ms": 12235,
+      "end_ms": 19155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s04-n0029",
+      "text": "当整套机器由多种机器组成，这些机器又同时运转、互相配合时，以机器为基础的协作也要求把不同工人组分配到不同机器旁。",
+      "start_ms": 19450,
+      "end_ms": 29295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s04-n0030",
+      "text": "不过，机器生产不再需要像工场手工业那样，让同一批工人长期固定在同一种工作上。",
+      "start_ms": 29630,
+      "end_ms": 36245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s04-n0031",
+      "text": "因为工厂的整体运动不是从工人发出的，而是由机器带动的，所以即使不断更换人员，劳动过程也不会中断。",
+      "start_ms": 395,
+      "end_ms": 8275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s04-n0032",
+      "text": "1848—1850年英国工厂主反抗工厂法时实行的轮班替换制，就是最有力的证明。",
+      "start_ms": 9925,
+      "end_ms": 14755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s04-n0033",
+      "text": "此外，人在年轻时很快就能学会机器旁的工作，因此也没有必要专门培养一个只从事机器劳动的特殊工人阶层。",
+      "start_ms": 15555,
+      "end_ms": 23745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s04-n0034",
+      "text": "至于那些只负责打下手的工作，有些可以直接由机器代替；另一些极其简单，因此承担这些苦差的人可以经常迅速更换。",
+      "start_ms": 24130,
+      "end_ms": 33275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s04-n0035",
+      "text": "机器虽然从技术上推翻了旧的分工制度，但这种制度起初仍作为工场手工业留下的传统，按习惯在工厂里延续。",
+      "start_ms": 33807,
+      "end_ms": 42192,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s04-n0036",
+      "text": "随后，资本又把它变成剥削劳动力的系统手段，以更加令人厌恶的形式重新建立并固定下来。",
+      "start_ms": 42547,
+      "end_ms": 49792,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s04-n0037",
+      "text": "过去，工人一辈子只会使用一种局部工具。",
+      "start_ms": 305,
+      "end_ms": 3305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s04-n0038",
+      "text": "现在，他一辈子只为一台机器的某个局部服务。",
+      "start_ms": 3650,
+      "end_ms": 6725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s04-n0039",
+      "text": "机器在这里遭到滥用：资本从小训练工人，让他变成某一局部机器的附属部件。",
+      "start_ms": 7150,
+      "end_ms": 12775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s04-n0040",
+      "text": "这样不仅能大幅降低维持和延续工人劳动力所需的费用，还能让工人完全依赖整个工厂，因而完全依赖资本家。",
+      "start_ms": 13055,
+      "end_ms": 21095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s04-n0041",
+      "text": "在这里和其他地方一样，我们必须分清两件事：生产率提高，有些来自社会生产过程本身的发展，有些则来自资本主义对这一过程更强的剥削。",
+      "start_ms": 21510,
+      "end_ms": 31755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s04-n0042",
+      "text": "在工场手工业和手工业中，工人使用工具。",
+      "start_ms": 32299,
+      "end_ms": 35304,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s04-n0043",
+      "text": "在工厂里，工人却为机器服务。",
+      "start_ms": 295,
+      "end_ms": 2545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s04-n0044",
+      "text": "前一种情况下，劳动工具由工人带动。",
+      "start_ms": 3060,
+      "end_ms": 5475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s04-n0045",
+      "text": "后一种情况下，工人必须跟上机器的运动。",
+      "start_ms": 5840,
+      "end_ms": 8735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s04-n0046",
+      "text": "在工场手工业中，工人是一个活的生产组织的组成部分。",
+      "start_ms": 9335,
+      "end_ms": 13275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s04-n0047",
+      "text": "在工厂里，一套死的机器独立存在，工人则作为活的附属物被并入其中。",
+      "start_ms": 14045,
+      "end_ms": 19925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s04-n0048",
+      "text": "“同一种机械动作反复进行，劳动永无休止，整个过程令人麻木，仿佛西西弗斯的苦役。",
+      "start_ms": 20400,
+      "end_ms": 27155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s04-n0049",
+      "text": "劳动的重担就像他推上山的巨石，一次次重新压回筋疲力尽的工人身上。”",
+      "start_ms": 505,
+      "end_ms": 5355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s04-n0050",
+      "text": "机器劳动把人的神经系统逼到极限，同时压制肌肉的多样活动，夺走身体和精神上的一切自由活动。",
+      "start_ms": 5950,
+      "end_ms": 12605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s04-n0051",
+      "text": "就连减轻劳动也变成折磨人的手段，因为机器并没有把工人从劳动中解放出来，只是抽空了劳动的内容。",
+      "start_ms": 13435,
+      "end_ms": 20845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s04-n0052",
+      "text": "这种折磨体现了资本主义生产中普遍存在的一种颠倒。",
+      "start_ms": 21285,
+      "end_ms": 24815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s04-n0053",
+      "text": "只要生产既是劳动过程，又是资本增殖过程，使用生产条件的就不是工人，反而是生产条件支配和使用工人。",
+      "start_ms": 25185,
+      "end_ms": 33575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s04-n0054",
+      "text": "采用机器以后，这种颠倒第一次在技术上变得看得见。",
+      "start_ms": 33987,
+      "end_ms": 37662,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s04-n0055",
+      "text": "机器本是过去劳动的产物，如今却作为资本站到工人面前，支配并榨取工人的活劳动力。",
+      "start_ms": 525,
+      "end_ms": 6605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s04-n0056",
+      "text": "生产过程中的知识和思考与体力劳动彼此分离，并变成资本支配劳动的力量。",
+      "start_ms": 7060,
+      "end_ms": 12435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s04-n0057",
+      "text": "这种分离在以机器为基础的大工业中最终完成，前面已经提到过这一点。",
+      "start_ms": 12910,
+      "end_ms": 17525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s04-n0058",
+      "text": "机器工人只剩下一点贫乏的局部技能。",
+      "start_ms": 18075,
+      "end_ms": 20535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s04-n0059",
+      "text": "在机器体系所包含的科学、巨大自然力和大规模社会劳动面前，这点技能成了微不足道的附属品。",
+      "start_ms": 21045,
+      "end_ms": 27805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s04-n0060",
+      "text": "这些力量与机器一起，构成了“主人”的权力。",
+      "start_ms": 28250,
+      "end_ms": 31235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s04-n0061",
+      "text": "在资本家头脑里，机器和他对机器的垄断无法分开。",
+      "start_ms": 95,
+      "end_ms": 3465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s04-n0062",
+      "text": "所以一旦发生冲突，他就会轻蔑地对工人这样说：“工厂工人最好牢牢记住，他们的工作其实只是一种很低级的熟练劳动。",
+      "start_ms": 3760,
+      "end_ms": 11885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s04-n0063",
+      "text": "没有哪种工作更容易学会，也没有哪种同等水平的工作报酬更高。",
+      "start_ms": 12285,
+      "end_ms": 16715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s04-n0064",
+      "text": "哪怕经验最少的人，只要稍加训练，也能在很短时间内大量补充进来。",
+      "start_ms": 17090,
+      "end_ms": 22365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s04-n0065",
+      "text": "在生产中，主人的机器远比工人的劳动和技能重要。",
+      "start_ms": 22750,
+      "end_ms": 26225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s04-n0066",
+      "text": "工人那点本领，六个月就能教会，任何普通农工都学得会。”",
+      "start_ms": 26955,
+      "end_ms": 31175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s04-n0067",
+      "text": "工人在技术上必须服从劳动工具单调不变的运转。",
+      "start_ms": 275,
+      "end_ms": 3925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s04-n0068",
+      "text": "工厂里的劳动组织又由不同性别、不同年龄的人组成。",
+      "start_ms": 4400,
+      "end_ms": 7865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s04-n0069",
+      "text": "这两个条件共同产生了一套军营式纪律，并逐渐发展成完整的工厂统治制度。",
+      "start_ms": 8255,
+      "end_ms": 14115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s04-n0070",
+      "text": "前面讲过的监督工作也因此得到充分发展，工人被分成从事操作的人和监督劳动的人，也就是普通产业士兵和产业军士。",
+      "start_ms": 14715,
+      "end_ms": 23935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s04-n0071",
+      "text": "“自动化工厂面对的主要困难，是怎样建立必要的纪律，让人们放弃过去工作时不规律的习惯，使他们适应大型自动机一成不变的规律。",
+      "start_ms": 24350,
+      "end_ms": 34905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s04-n0072",
+      "text": "要制定一套符合自动体系需要和速度的纪律，并把它成功实行，简直是一项配得上赫拉克勒斯的事业。",
+      "start_ms": 35264,
+      "end_ms": 43029,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s04-n0073",
+      "text": "这就是阿克莱的高尚功绩！",
+      "start_ms": 95,
+      "end_ms": 1965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s04-n0074",
+      "text": "即使到了今天，这套制度已经组织得十分完备，也几乎不可能从成年工人中找到适合自动体系的助手。”",
+      "start_ms": 2300,
+      "end_ms": 9955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s04-n0075",
+      "text": "大规模协作和共同使用机器等劳动资料以后，社会必须对劳动过程作出统一安排。",
+      "start_ms": 10285,
+      "end_ms": 16365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s04-n0076",
+      "text": "工厂规章却把这种必要安排变成了一幅资本主义的讽刺画：资本家凭私人权力自行制定法律，确立自己对工人的专制统治，既没有资产阶级在其他地方如此爱谈的权力分立，也没有他们更加爱谈的代议制度。",
+      "start_ms": 16760,
+      "end_ms": 32875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s04-n0077",
+      "text": "监工的罚款簿代替了奴隶监工的皮鞭。",
+      "start_ms": 33434,
+      "end_ms": 36369,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s04-n0078",
+      "text": "所有处罚自然都变成罚款和扣工资。",
+      "start_ms": 36734,
+      "end_ms": 39619,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s04-n0079",
+      "text": "那些为工厂立法的“莱库古”极尽聪明，尽量让工人违反规章比遵守规章更能给资本家赚钱。",
+      "start_ms": 285,
+      "end_ms": 6325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s04-n0080",
+      "text": "这里只简单指出工厂劳动的物质条件。",
+      "start_ms": 6715,
+      "end_ms": 9085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s04-n0081",
+      "text": "人为升高的温度、充满原料碎屑的空气、震耳欲聋的噪声等等，一起损害人的各种感官。",
+      "start_ms": 9370,
+      "end_ms": 15605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s04-n0082",
+      "text": "密集排列的机器还时刻威胁工人的生命，工厂事故像四季轮回一样定期产生一份份工业战报。",
+      "start_ms": 16305,
+      "end_ms": 23375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s04-n0083",
+      "text": "工厂制度把共同生产资料的节约推到前所未有的程度。",
+      "start_ms": 23770,
+      "end_ms": 27415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s04-n0084",
+      "text": "可在资本手中，这种节约同时变成系统性的掠夺：工人劳动时所需的空间、空气、光线和防范致命危险及健康损害的个人保护措施，都遭到克扣，更不用说让工人稍感舒适的设施了。",
+      "start_ms": 27710,
+      "end_ms": 42305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s04-n0085",
+      "text": "傅立叶把工厂称为“稍加缓和的苦役监狱”，难道说错了吗？",
+      "start_ms": 145,
+      "end_ms": 3835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    }
+  ]
+}

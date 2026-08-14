@@ -1,0 +1,1570 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s06-v2-audio-dfa1d3f6d113",
+  "unit_id": "ch13-s06",
+  "translation_version_id": "ch13-s06-v2",
+  "translation_sha256": "a78f53a33342fa2f37f2770a47ddbcf8579770a4bc2d049defb052047885f889",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:08:02.885Z",
+  "completed_at": "2026-08-04T17:10:21.271Z",
+  "duration_ms": 911811,
+  "sentence_count": 147,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 34120,
+      "bytes": 548013,
+      "sha256": "442b46915e4bf8e8c729e4c4f6af713a26631d9654e440f7128df975d51251e6",
+      "sentence_ids": [
+        "ch13-s06-n0001",
+        "ch13-s06-n0002",
+        "ch13-s06-n0003",
+        "ch13-s06-n0004",
+        "ch13-s06-n0005",
+        "ch13-s06-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 35050,
+      "bytes": 564141,
+      "sha256": "b8eea74f426dfee8b6f0694367b808e9c7bd3b01ebfc418af433dd8564ee3cda",
+      "sentence_ids": [
+        "ch13-s06-n0007",
+        "ch13-s06-n0008",
+        "ch13-s06-n0009",
+        "ch13-s06-n0010",
+        "ch13-s06-n0011",
+        "ch13-s06-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 42806,
+      "bytes": 685101,
+      "sha256": "1ef9391f1a8e4e063cf289c593c515361880c4ea6ced258c2d4da81a270b02b8",
+      "sentence_ids": [
+        "ch13-s06-n0013",
+        "ch13-s06-n0014",
+        "ch13-s06-n0015",
+        "ch13-s06-n0016",
+        "ch13-s06-n0017",
+        "ch13-s06-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 33327,
+      "bytes": 538413,
+      "sha256": "b6163c0913c9257cab908a6574b632b1b97bbca7923d5a8b697a5bdc38b6d583",
+      "sentence_ids": [
+        "ch13-s06-n0019",
+        "ch13-s06-n0020",
+        "ch13-s06-n0021",
+        "ch13-s06-n0022",
+        "ch13-s06-n0023",
+        "ch13-s06-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 37619,
+      "bytes": 605229,
+      "sha256": "7ac2a97f4ed0288323d7f3a9849a711baff4216e3e15cd5b2b81a2b67c9d479d",
+      "sentence_ids": [
+        "ch13-s06-n0025",
+        "ch13-s06-n0026",
+        "ch13-s06-n0027",
+        "ch13-s06-n0028",
+        "ch13-s06-n0029",
+        "ch13-s06-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 31735,
+      "bytes": 506541,
+      "sha256": "bbb58542b02b7a5ff47adf25e0fce810d2658ecfefb51761072f1b1128c5e45e",
+      "sentence_ids": [
+        "ch13-s06-n0031",
+        "ch13-s06-n0032",
+        "ch13-s06-n0033",
+        "ch13-s06-n0034",
+        "ch13-s06-n0035",
+        "ch13-s06-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 25005,
+      "bytes": 409773,
+      "sha256": "014887855ae892357caacf7d136599e89f244bef8c906a1fe680c387fa39dde3",
+      "sentence_ids": [
+        "ch13-s06-n0037",
+        "ch13-s06-n0038",
+        "ch13-s06-n0039",
+        "ch13-s06-n0040",
+        "ch13-s06-n0041",
+        "ch13-s06-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 47032,
+      "bytes": 753453,
+      "sha256": "b83586a8a22435d8e43a8c4ec4675690f97945d953a3c3ec1a85fac9dbf1ee74",
+      "sentence_ids": [
+        "ch13-s06-n0043",
+        "ch13-s06-n0044",
+        "ch13-s06-n0045",
+        "ch13-s06-n0046",
+        "ch13-s06-n0047",
+        "ch13-s06-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 36696,
+      "bytes": 595245,
+      "sha256": "3df977af2585bf246ec4e09df9a45986e554f590647c55890ea04b3a16b31673",
+      "sentence_ids": [
+        "ch13-s06-n0049",
+        "ch13-s06-n0050",
+        "ch13-s06-n0051",
+        "ch13-s06-n0052",
+        "ch13-s06-n0053",
+        "ch13-s06-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 35224,
+      "bytes": 567213,
+      "sha256": "92250c6532419bfe894c756118f5262cf07a1e49ce6224c2e66567cd91b108c4",
+      "sentence_ids": [
+        "ch13-s06-n0055",
+        "ch13-s06-n0056",
+        "ch13-s06-n0057",
+        "ch13-s06-n0058",
+        "ch13-s06-n0059",
+        "ch13-s06-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 28665,
+      "bytes": 461613,
+      "sha256": "1a764e58da42274dbf59eb6cab0fc1e4859ed60a6e7f3cc0705abea32ef00f7b",
+      "sentence_ids": [
+        "ch13-s06-n0061",
+        "ch13-s06-n0062",
+        "ch13-s06-n0063",
+        "ch13-s06-n0064",
+        "ch13-s06-n0065",
+        "ch13-s06-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 31495,
+      "bytes": 505773,
+      "sha256": "6f02c05337a4b48b840d01ee5119119f25c96cefff3166dbb7bc076843d206d9",
+      "sentence_ids": [
+        "ch13-s06-n0067",
+        "ch13-s06-n0068",
+        "ch13-s06-n0069",
+        "ch13-s06-n0070",
+        "ch13-s06-n0071",
+        "ch13-s06-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 33235,
+      "bytes": 531501,
+      "sha256": "909ed4fa5c9102b60a043fd4fa3d0c129dd26fd7a2b61e6524a7a6b4efa5d16b",
+      "sentence_ids": [
+        "ch13-s06-n0073",
+        "ch13-s06-n0074",
+        "ch13-s06-n0075",
+        "ch13-s06-n0076",
+        "ch13-s06-n0077",
+        "ch13-s06-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 23775,
+      "bytes": 384045,
+      "sha256": "5a91aac33bc1feed81bcd2b18bf896748d06d668595436cab2fcfaa65e0f2d8d",
+      "sentence_ids": [
+        "ch13-s06-n0079",
+        "ch13-s06-n0080",
+        "ch13-s06-n0081",
+        "ch13-s06-n0082",
+        "ch13-s06-n0083",
+        "ch13-s06-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 40734,
+      "bytes": 657069,
+      "sha256": "07bda57218b9b488c674ea63da83052f9af7da7228bbedf4c627fb382ce61fd9",
+      "sentence_ids": [
+        "ch13-s06-n0085",
+        "ch13-s06-n0086",
+        "ch13-s06-n0087",
+        "ch13-s06-n0088",
+        "ch13-s06-n0089",
+        "ch13-s06-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 46527,
+      "bytes": 743469,
+      "sha256": "5a4363db774304da342475724e6647b6ee14120e8473491578bbdf5406b8ff22",
+      "sentence_ids": [
+        "ch13-s06-n0091",
+        "ch13-s06-n0092",
+        "ch13-s06-n0093",
+        "ch13-s06-n0094",
+        "ch13-s06-n0095",
+        "ch13-s06-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 34415,
+      "bytes": 550317,
+      "sha256": "6c5aa35b6f50e4d78a4b38a8e7e1c83a3561fad66db9587a0314fc800eab764f",
+      "sentence_ids": [
+        "ch13-s06-n0097",
+        "ch13-s06-n0098",
+        "ch13-s06-n0099",
+        "ch13-s06-n0100",
+        "ch13-s06-n0101",
+        "ch13-s06-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 41220,
+      "bytes": 659757,
+      "sha256": "02e35629a3fc28ee023d09c15690fb908fc63721d8e8498a492a1d662b3d5aaf",
+      "sentence_ids": [
+        "ch13-s06-n0103",
+        "ch13-s06-n0104",
+        "ch13-s06-n0105",
+        "ch13-s06-n0106",
+        "ch13-s06-n0107",
+        "ch13-s06-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 38779,
+      "bytes": 624045,
+      "sha256": "fd6fcf442b9dc04b7d5eb03070dba0d4accb88965a966e36bda485fad4f821de",
+      "sentence_ids": [
+        "ch13-s06-n0109",
+        "ch13-s06-n0110",
+        "ch13-s06-n0111",
+        "ch13-s06-n0112",
+        "ch13-s06-n0113",
+        "ch13-s06-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 32595,
+      "bytes": 522669,
+      "sha256": "fb1eeafdb92df239ecce64c7a0be71a0a4bceaf97630b9d93fa5f3839f430091",
+      "sentence_ids": [
+        "ch13-s06-n0115",
+        "ch13-s06-n0116",
+        "ch13-s06-n0117",
+        "ch13-s06-n0118",
+        "ch13-s06-n0119",
+        "ch13-s06-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 37635,
+      "bytes": 602925,
+      "sha256": "214b2d30138390160b09927834b18f4134cff5fecddc47da3da661c46616f4b7",
+      "sentence_ids": [
+        "ch13-s06-n0121",
+        "ch13-s06-n0122",
+        "ch13-s06-n0123",
+        "ch13-s06-n0124",
+        "ch13-s06-n0125",
+        "ch13-s06-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 43887,
+      "bytes": 707757,
+      "sha256": "c12599cf47afa58c3f534af44dd3c2de4eebe4acfc10e03f8161f1a038f9e4de",
+      "sentence_ids": [
+        "ch13-s06-n0127",
+        "ch13-s06-n0128",
+        "ch13-s06-n0129",
+        "ch13-s06-n0130",
+        "ch13-s06-n0131",
+        "ch13-s06-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 49715,
+      "bytes": 794925,
+      "sha256": "4f52c13b8521f7a3489ae1d85dfd943bc63b5bc2e6f0563432fb47283527e887",
+      "sentence_ids": [
+        "ch13-s06-n0133",
+        "ch13-s06-n0134",
+        "ch13-s06-n0135",
+        "ch13-s06-n0136",
+        "ch13-s06-n0137",
+        "ch13-s06-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 56735,
+      "bytes": 914733,
+      "sha256": "d0ca18eee2ab355aad20151f9095059876ae6d68168bb68c74d4d43f66d2bd2d",
+      "sentence_ids": [
+        "ch13-s06-n0139",
+        "ch13-s06-n0140",
+        "ch13-s06-n0141",
+        "ch13-s06-n0142",
+        "ch13-s06-n0143",
+        "ch13-s06-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 13785,
+      "bytes": 224301,
+      "sha256": "02b7f3b87ab6bca809f6992ece054cffa7e9dedabaf09501e121cdc433f6012c",
+      "sentence_ids": [
+        "ch13-s06-n0145",
+        "ch13-s06-n0146",
+        "ch13-s06-n0147"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s06-n0001",
+      "text": "詹姆斯·穆勒、麦克库洛赫、托伦斯、西尼尔、约翰·斯图亚特·穆勒等许多资产阶级经济学家提出：机器每排挤一批工人，必然同时“释放”出一笔足够的资本，恰好可以重新雇用这些工人。",
+      "start_ms": 165,
+      "end_ms": 12635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s06-n0002",
+      "text": "假设一名资本家经营壁纸工场，雇用一百名工人，每人年工资三十英镑。",
+      "start_ms": 13305,
+      "end_ms": 18325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s06-n0003",
+      "text": "他每年为工资支出的可变资本就是三千英镑。",
+      "start_ms": 18660,
+      "end_ms": 21645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s06-n0004",
+      "text": "现在，他解雇五十人，让剩下五十人使用一套价值一千五百英镑的机器。",
+      "start_ms": 21940,
+      "end_ms": 26575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s06-n0005",
+      "text": "为了简化计算，暂且不算厂房、煤炭等费用。",
+      "start_ms": 27255,
+      "end_ms": 30635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s06-n0006",
+      "text": "再假定每年消耗的原料仍然价值三千英镑。",
+      "start_ms": 31165,
+      "end_ms": 33970,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s06-n0007",
+      "text": "这次改变“释放”了任何资本吗？",
+      "start_ms": 375,
+      "end_ms": 2075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s06-n0008",
+      "text": "采用旧生产方式时，投入的六千英镑总资本，一半是可变资本，一半是不变资本。",
+      "start_ms": 2400,
+      "end_ms": 8615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s06-n0009",
+      "text": "现在，其中四千五百英镑是不变资本，包括三千英镑原料和一千五百英镑机器，只有一千五百英镑是可变资本。",
+      "start_ms": 9075,
+      "end_ms": 17245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s06-n0010",
+      "text": "可变资本原先占总资本的一半，现在只占四分之一。",
+      "start_ms": 17740,
+      "end_ms": 21625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s06-n0011",
+      "text": "这里没有释放资本，反而把资本固定在一种不再用来购买劳动力的形式中，也就是把可变资本变成了不变资本。",
+      "start_ms": 21900,
+      "end_ms": 29605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s06-n0012",
+      "text": "其他条件不变，这笔六千英镑的资本今后最多只能雇用五十名工人。",
+      "start_ms": 30000,
+      "end_ms": 34900,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s06-n0013",
+      "text": "机器每改进一步，这笔资本所能雇用的工人还会更少。",
+      "start_ms": 535,
+      "end_ms": 4025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s06-n0014",
+      "text": "假如新机器的价格低于它所取代的劳动力和工具的总价值，比如不是一千五百英镑，而是一千英镑，那么一千英镑可变资本就会变成不变资本，另有五百英镑被释放出来。",
+      "start_ms": 4400,
+      "end_ms": 15765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s06-n0015",
+      "text": "按原来的年工资计算，这五百英镑大约能雇用十六名工人，被解雇的却有五十人。",
+      "start_ms": 16255,
+      "end_ms": 21765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s06-n0016",
+      "text": "实际能雇用的还远少于十六人，因为这五百英镑要重新变成资本，其中一部分也必须先购买生产资料，只有另一部分能够购买劳动力。",
+      "start_ms": 22170,
+      "end_ms": 31445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s06-n0017",
+      "text": "即使制造新机器会多雇用一些机械工，这能补偿失业的壁纸工人吗？",
+      "start_ms": 32041,
+      "end_ms": 36656,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s06-n0018",
+      "text": "就算按最有利的情况计算，制造机器所需的工人，也比使用机器排挤的工人少。",
+      "start_ms": 37121,
+      "end_ms": 42656,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s06-n0019",
+      "text": "原先的一千五百英镑完全用于支付被解雇的壁纸工人工资。",
+      "start_ms": 125,
+      "end_ms": 3965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s06-n0020",
+      "text": "如今，这笔钱以机器的形式存在，里面包含三部分价值：制造机器所需的生产资料、制造机器的机械工人的工资，以及归他们“主人”所有的剩余价值。",
+      "start_ms": 4360,
+      "end_ms": 15305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s06-n0021",
+      "text": "而且，机器造好以后，在报废之前不需要重造。",
+      "start_ms": 15680,
+      "end_ms": 19235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s06-n0022",
+      "text": "要永久雇用新增的机械工，就必须让一家又一家的壁纸厂不断用机器排挤工人。",
+      "start_ms": 19660,
+      "end_ms": 25605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s06-n0023",
+      "text": "其实，那些辩护者所说的“释放资本”，并不是上面这种情况。",
+      "start_ms": 25955,
+      "end_ms": 30115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s06-n0024",
+      "text": "他们指的是失业工人原先消费的生活资料。",
+      "start_ms": 30532,
+      "end_ms": 33177,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s06-n0025",
+      "text": "前面的例子中，机器不仅把五十名工人“释放”出来，使他们变成随时可用的人，还切断了他们同价值一千五百英镑的生活资料之间的联系，于是这些生活资料也被“释放”出来。",
+      "start_ms": 155,
+      "end_ms": 10595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s06-n0026",
+      "text": "机器使工人失去生活资料，这个简单而且毫不新鲜的事实，换成经济学说法就变成：机器为工人释放了生活资料，或者把这些生活资料变成雇用工人的资本。",
+      "start_ms": 11365,
+      "end_ms": 22065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s06-n0027",
+      "text": "可见，关键全在怎么说。",
+      "start_ms": 22585,
+      "end_ms": 24475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s06-n0028",
+      "text": "只要换个名字，坏事也能变得好听。",
+      "start_ms": 24910,
+      "end_ms": 27155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s06-n0029",
+      "text": "按照这种理论，价值一千五百英镑的生活资料，原来是一笔资本，靠那五十名壁纸工人的劳动增殖。",
+      "start_ms": 27695,
+      "end_ms": 34335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s06-n0030",
+      "text": "五十人一旦失业，这笔资本也就失去了工作。",
+      "start_ms": 34754,
+      "end_ms": 37469,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s06-n0031",
+      "text": "它从此坐立不安，直到找到新的“投资场所”，让那五十个人重新把它生产性地消费掉。",
+      "start_ms": 535,
+      "end_ms": 5725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s06-n0032",
+      "text": "这样一来，资本和工人迟早会再次相遇，补偿也就实现了。",
+      "start_ms": 6165,
+      "end_ms": 9875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s06-n0033",
+      "text": "所以，被机器排挤的工人所受的苦难，原来同人世间的财富一样短暂易逝。",
+      "start_ms": 10190,
+      "end_ms": 15665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s06-n0034",
+      "text": "价值一千五百英镑的生活资料，从来没有以资本的身份站在失业工人面前。",
+      "start_ms": 15905,
+      "end_ms": 20875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s06-n0035",
+      "text": "真正作为资本与他们相对的，是现在变成机器的那一千五百英镑。",
+      "start_ms": 21130,
+      "end_ms": 25435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s06-n0036",
+      "text": "仔细看，这一千五百英镑所代表的，只是五十名工人每年生产的壁纸中的一部分。",
+      "start_ms": 25770,
+      "end_ms": 31585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s06-n0037",
+      "text": "雇主不把这些壁纸实物交给工人，而是把它们的价值以货币工资形式付给工人。",
+      "start_ms": 475,
+      "end_ms": 5525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s06-n0038",
+      "text": "工人再用这笔钱购买同等价值的生活资料。",
+      "start_ms": 5925,
+      "end_ms": 8555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s06-n0039",
+      "text": "因此，对工人来说，生活资料不是资本，而是商品。",
+      "start_ms": 8985,
+      "end_ms": 11985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s06-n0040",
+      "text": "对生活资料来说，工人也不是雇佣劳动者，而是购买者。",
+      "start_ms": 12925,
+      "end_ms": 16425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s06-n0041",
+      "text": "机器把工人从购买手段中“释放”出来，只是让他们从买主变成不再购买的人。",
+      "start_ms": 16960,
+      "end_ms": 22135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s06-n0042",
+      "text": "结果就这么简单：这些商品的需求减少了。",
+      "start_ms": 22535,
+      "end_ms": 24855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s06-n0043",
+      "text": "如果其他人的需求没有增加来弥补，商品的市场价格就会下跌。",
+      "start_ms": 85,
+      "end_ms": 4335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s06-n0044",
+      "text": "需求长期、大规模减少以后，生产这些商品的工人也会被排挤，原来用于生产必要生活资料的一部分资本则会改以其他形式再生产出来。",
+      "start_ms": 4720,
+      "end_ms": 14955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s06-n0045",
+      "text": "在市场价格下跌、资本转移的过程中，生产必要生活资料的工人也会从一部分工资中被“释放”出来，也就是少拿一部分工资。",
+      "start_ms": 15535,
+      "end_ms": 24705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s06-n0046",
+      "text": "因此，这位辩护者并没有证明机器使工人失去生活资料的同时，会把生活资料变成重新雇用他们的资本。",
+      "start_ms": 25245,
+      "end_ms": 32955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s06-n0047",
+      "text": "他借助那条久经考验的供求规律证明的恰恰相反：机器不仅会让采用机器的行业出现失业，还会让没有采用机器的行业出现失业。",
+      "start_ms": 33407,
+      "end_ms": 42702,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s06-n0048",
+      "text": "经济乐观主义把真实情况装扮得面目全非。",
+      "start_ms": 43562,
+      "end_ms": 46882,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s06-n0049",
+      "text": "真实情况是：被机器排挤的工人被赶出工场，抛进劳动力市场，增加了随时可供资本剥削的劳动力。",
+      "start_ms": 285,
+      "end_ms": 7345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s06-n0050",
+      "text": "第七篇将会说明，机器的这种影响被说成对工人阶级的补偿，实际上却像最可怕的鞭子一样抽打工人。",
+      "start_ms": 7740,
+      "end_ms": 14595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s06-n0051",
+      "text": "这里只说明一点。",
+      "start_ms": 15355,
+      "end_ms": 16375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s06-n0052",
+      "text": "从一个行业被赶走的工人，当然可以到其他地方找工作。",
+      "start_ms": 16850,
+      "end_ms": 20335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s06-n0053",
+      "text": "如果他们真能找到工作，重新获得购买那些“被释放”生活资料的收入，雇用他们的也是一笔正在寻找出路的新增资本，绝不是先前已经投入生产、如今变成机器的那笔资本。",
+      "start_ms": 20695,
+      "end_ms": 33575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s06-n0054",
+      "text": "即使如此，他们找到工作的希望又有多大呢？",
+      "start_ms": 34071,
+      "end_ms": 36546,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s06-n0055",
+      "text": "分工已经把这些可怜人的能力弄得残缺不全。",
+      "start_ms": 405,
+      "end_ms": 3315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s06-n0056",
+      "text": "一旦离开原来的工作领域，他们几乎毫无价值，只能进入少数低级行业，而这些行业因此总是人满为患，工资低下。",
+      "start_ms": 3775,
+      "end_ms": 11665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s06-n0057",
+      "text": "此外，每个行业每年都会吸收一批新人，用来补充退出者并扩大生产。",
+      "start_ms": 12215,
+      "end_ms": 17275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s06-n0058",
+      "text": "机器一旦排挤某个行业中原有的一部分工人，原本准备进入这个行业的新人也会转入其他行业。",
+      "start_ms": 17780,
+      "end_ms": 23655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s06-n0059",
+      "text": "于是，在这个过渡过程中，最初遭到机器打击的那批工人大多只能衰败下去。",
+      "start_ms": 24485,
+      "end_ms": 30025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s06-n0060",
+      "text": "有一点毫无疑问：机器本身并不该为工人被“释放”出生活资料负责。",
+      "start_ms": 30394,
+      "end_ms": 35074,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s06-n0061",
+      "text": "机器进入一个行业以后，会使产品变便宜、数量增加，对其他行业生产的生活资料数量起初没有影响。",
+      "start_ms": 1225,
+      "end_ms": 7325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s06-n0062",
+      "text": "因此，无论机器采用前后，社会都拥有同样多甚至更多的生活资料，可以供给被排挤的工人。",
+      "start_ms": 7795,
+      "end_ms": 14165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s06-n0063",
+      "text": "这里还没有计算每年被不劳动的人浪费掉的大量产品。",
+      "start_ms": 14565,
+      "end_ms": 17905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s06-n0064",
+      "text": "这正是经济学家辩护的高明之处！",
+      "start_ms": 18315,
+      "end_ms": 20315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s06-n0065",
+      "text": "机器的资本主义用法确实会造成矛盾和对立。",
+      "start_ms": 20780,
+      "end_ms": 23555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s06-n0066",
+      "text": "可因为这些问题不是机器本身造成的，经济学家便断言这些矛盾根本不存在。",
+      "start_ms": 23900,
+      "end_ms": 28515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s06-n0067",
+      "text": "机器本身缩短劳动时间，资本主义用法却延长工作日。",
+      "start_ms": 155,
+      "end_ms": 3925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s06-n0068",
+      "text": "机器本身减轻劳动，资本主义用法却提高劳动强度。",
+      "start_ms": 4320,
+      "end_ms": 8105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s06-n0069",
+      "text": "机器本身代表人战胜自然力，资本主义用法却借自然力奴役人。",
+      "start_ms": 8460,
+      "end_ms": 13225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s06-n0070",
+      "text": "机器本身增加生产者的财富，资本主义用法却使生产者陷入贫困，等等。",
+      "start_ms": 13505,
+      "end_ms": 18985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s06-n0071",
+      "text": "资产阶级经济学家于是直接宣布：只要单独考察机器本身，就能严密证明现实中那些明明存在的矛盾都只是表象。",
+      "start_ms": 19370,
+      "end_ms": 27085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s06-n0072",
+      "text": "既然机器本身没有这些问题，理论上当然也就没有。",
+      "start_ms": 27895,
+      "end_ms": 31345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s06-n0073",
+      "text": "他们不仅省去了继续思考的麻烦，还把愚蠢归到对手头上，声称对手所反对的不是机器的资本主义用法，而是机器本身。",
+      "start_ms": 135,
+      "end_ms": 9015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s06-n0074",
+      "text": "资产阶级经济学家并不否认，这里也会产生一些暂时的不便。",
+      "start_ms": 9420,
+      "end_ms": 12695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s06-n0075",
+      "text": "但是，哪枚硬币没有反面呢？",
+      "start_ms": 13955,
+      "end_ms": 16195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s06-n0076",
+      "text": "在他看来，机器只能由资本主义来使用。",
+      "start_ms": 16610,
+      "end_ms": 19675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s06-n0077",
+      "text": "所以，让机器剥削工人与让工人使用机器，在他眼里完全是一回事。",
+      "start_ms": 19970,
+      "end_ms": 25165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s06-n0078",
+      "text": "谁揭示机器在资本主义下的真实用法，谁就是反对使用机器本身，就是社会进步的敌人！",
+      "start_ms": 25925,
+      "end_ms": 33085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s06-n0079",
+      "text": "这套推理与著名割喉犯比尔·赛克斯的辩护完全一样：“陪审团先生们，这些推销员的喉咙确实被割断了。",
+      "start_ms": 195,
+      "end_ms": 7675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s06-n0080",
+      "text": "但这不是我的错，是刀子的错。",
+      "start_ms": 7960,
+      "end_ms": 9355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s06-n0081",
+      "text": "难道因为这种暂时的不便，我们就要禁止使用刀子吗？",
+      "start_ms": 10215,
+      "end_ms": 13605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s06-n0082",
+      "text": "请想一想！",
+      "start_ms": 13930,
+      "end_ms": 14465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s06-n0083",
+      "text": "没有刀子，农业和手工业怎么办？",
+      "start_ms": 14670,
+      "end_ms": 16975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s06-n0084",
+      "text": "刀子既能在外科手术中救人，又能在解剖学中帮助研究，聚餐时还总是乐于助人。",
+      "start_ms": 17330,
+      "end_ms": 23625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s06-n0085",
+      "text": "废除刀子，你们就是把我们重新抛回最野蛮的时代！”",
+      "start_ms": 175,
+      "end_ms": 3845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s06-n0086",
+      "text": "机器在它进入的行业中必然排挤工人，但仍可能使其他行业增加就业。",
+      "start_ms": 4555,
+      "end_ms": 9235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s06-n0087",
+      "text": "不过，这与所谓补偿理论毫无关系。",
+      "start_ms": 10015,
+      "end_ms": 12725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s06-n0088",
+      "text": "机器生产的商品，例如一码机器织布，比它取代的同类手工产品便宜。",
+      "start_ms": 13220,
+      "end_ms": 18455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s06-n0089",
+      "text": "因此，可以得出一条确定的规律：如果机器生产的商品总量与它取代的手工业或工场手工业产品总量相同，社会使用的劳动总量必然减少。",
+      "start_ms": 18760,
+      "end_ms": 30075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s06-n0090",
+      "text": "制造机器、煤炭等劳动资料所增加的劳动，必须少于使用机器所减少的劳动，否则机器产品就不会比手工产品便宜，甚至会更贵。",
+      "start_ms": 30794,
+      "end_ms": 40584,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s06-n0091",
+      "text": "实际情况却不是产量保持不变。",
+      "start_ms": 575,
+      "end_ms": 2535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s06-n0092",
+      "text": "更少的工人使用机器，生产出的商品总量远远超过机器所取代的手工产品。",
+      "start_ms": 2870,
+      "end_ms": 8475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s06-n0093",
+      "text": "假设不到原来人数的工人生产出四十万码机器织布，而手工生产原来只有十万码。",
+      "start_ms": 9025,
+      "end_ms": 14725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s06-n0094",
+      "text": "产品增加到四倍，其中使用的原料也增加到四倍，原料生产因而必须扩大到四倍。",
+      "start_ms": 15525,
+      "end_ms": 22135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s06-n0095",
+      "text": "至于厂房、煤炭、机器等被消耗的劳动资料，生产它们还可以增加多少劳动，则取决于两种产量相差多大：一种是机器产品总量，另一种是让人数与机器操作工相同的一批工人改用手工所能生产的产品总量。",
+      "start_ms": 22665,
+      "end_ms": 39685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s06-n0096",
+      "text": "一个行业扩大机器生产以后，为它提供生产资料的其他行业，其生产首先会扩大。",
+      "start_ms": 40187,
+      "end_ms": 46377,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s06-n0097",
+      "text": "由此增加的就业人数有多少，在工作日长度和劳动强度已经确定时，取决于相关资本的构成，也就是不变资本与可变资本的比例。",
+      "start_ms": 145,
+      "end_ms": 8605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s06-n0098",
+      "text": "这个比例本身变化很大，要看机器已经在多大程度上进入或正在进入那些行业。",
+      "start_ms": 8935,
+      "end_ms": 13715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s06-n0099",
+      "text": "英国机器体系发展以后，被送进煤矿和金属矿井劳动的人数急剧增加。",
+      "start_ms": 14625,
+      "end_ms": 19685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s06-n0100",
+      "text": "不过，近几十年采矿业也开始采用新机器，所以矿工人数的增长已经放慢。",
+      "start_ms": 20130,
+      "end_ms": 25305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s06-n0101",
+      "text": "机器还带来一种新的工人，也就是制造机器的人。",
+      "start_ms": 26085,
+      "end_ms": 29055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s06-n0102",
+      "text": "但我们已经知道，机器生产本身也在越来越大规模地进入机器制造业。",
+      "start_ms": 29475,
+      "end_ms": 34265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s06-n0103",
+      "text": "再看原料。",
+      "start_ms": 135,
+      "end_ms": 745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s06-n0104",
+      "text": "棉纺业的突飞猛进，毫无疑问像温室一样催生了美国的棉花种植和非洲奴隶贸易，甚至使所谓边境蓄奴州把繁殖黑人奴隶当成主要生意。",
+      "start_ms": 1400,
+      "end_ms": 11155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s06-n0105",
+      "text": "1790年，美国第一次统计奴隶人口时，共有697,000人，到1861年已接近四百万人。",
+      "start_ms": 12525,
+      "end_ms": 19775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s06-n0106",
+      "text": "另一方面，机器毛纺厂不断兴盛，耕地逐渐改成牧羊场，导致大批农业工人被赶走并变成“过剩人口”。",
+      "start_ms": 20145,
+      "end_ms": 28045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s06-n0107",
+      "text": "这个过程当时仍在爱尔兰进行。",
+      "start_ms": 28610,
+      "end_ms": 30715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s06-n0108",
+      "text": "自1845年以来，爱尔兰人口已经减少近一半，却还在继续被压低，要让人口数量恰好符合爱尔兰地主和英国毛纺厂主的需要。",
+      "start_ms": 31650,
+      "end_ms": 41070,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s06-n0109",
+      "text": "机器有时进入一件产品的前期或中间生产阶段，而产品后面的加工阶段仍采用手工业或工场手工业。",
+      "start_ms": 405,
+      "end_ms": 7105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s06-n0110",
+      "text": "这样，机器提供的材料增加了，后续行业对劳动的需求也会随之增加。",
+      "start_ms": 7505,
+      "end_ms": 11845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s06-n0111",
+      "text": "例如，机器纺纱提供的棉纱又便宜又充足，手工织工起初不用增加成本就能全时开工，收入因此提高。",
+      "start_ms": 12705,
+      "end_ms": 20475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s06-n0112",
+      "text": "大批人于是涌入棉织业。",
+      "start_ms": 20900,
+      "end_ms": 22805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s06-n0113",
+      "text": "珍妮纺纱机、翼锭纺纱机和走锭纺纱机在英国催生了八十万名棉织工，最后蒸汽织机又把他们排挤出去。",
+      "start_ms": 23165,
+      "end_ms": 30695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s06-n0114",
+      "text": "同样，机器大量生产服装材料以后，裁缝、女装工、缝纫女工等人数不断增加，直到缝纫机出现。",
+      "start_ms": 31224,
+      "end_ms": 38629,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s06-n0115",
+      "text": "机器生产用相对较少的工人提供越来越多的原料、半成品和劳动工具。",
+      "start_ms": 645,
+      "end_ms": 4955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s06-n0116",
+      "text": "这些原料和半成品的加工便不断分出新的门类，社会生产部门也变得越来越多样。",
+      "start_ms": 5375,
+      "end_ms": 10535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s06-n0117",
+      "text": "机器生产提高行业生产力的程度远高于工场手工业，因此它也把社会分工推进得远得多。",
+      "start_ms": 10920,
+      "end_ms": 16685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s06-n0118",
+      "text": "机器首先会增加剩余价值，也增加承载剩余价值的产品总量。",
+      "start_ms": 17150,
+      "end_ms": 21315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s06-n0119",
+      "text": "资本家阶级及其附属阶层赖以生活的物质因此增加，这些社会阶层本身也随之扩大。",
+      "start_ms": 21730,
+      "end_ms": 27125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s06-n0120",
+      "text": "他们的财富不断增长，而生产基本生活资料所需的工人相对越来越少。",
+      "start_ms": 27795,
+      "end_ms": 32445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s06-n0121",
+      "text": "这既产生新的奢侈需要，也提供了满足这些需要的新手段。",
+      "start_ms": 435,
+      "end_ms": 4865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s06-n0122",
+      "text": "社会总产品中有更大一部分成为剩余产品，而剩余产品中又有更大一部分以更加精细、更多样的形式重新生产并被消费。",
+      "start_ms": 5230,
+      "end_ms": 13705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s06-n0123",
+      "text": "换句话说，奢侈品生产扩大了。",
+      "start_ms": 14505,
+      "end_ms": 16825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s06-n0124",
+      "text": "大工业建立的世界市场关系，同样促使产品变得更加精细和多样。",
+      "start_ms": 17210,
+      "end_ms": 22025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s06-n0125",
+      "text": "本国产品不仅换回更多外国消费品，大量外国原料、配料、半成品等也作为生产资料进入国内工业。",
+      "start_ms": 22470,
+      "end_ms": 30105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s06-n0126",
+      "text": "世界市场关系扩大以后，运输业对劳动的需求随之增加，运输业本身也分化出许多新门类。",
+      "start_ms": 30800,
+      "end_ms": 37485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s06-n0127",
+      "text": "生产资料和生活资料越来越多，生产它们所需的工人却相对减少，于是劳动开始向另一类行业扩展。",
+      "start_ms": 575,
+      "end_ms": 7615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s06-n0128",
+      "text": "这类行业建设运河、货运码头、隧道和桥梁等工程，而这些工程的成果要到较远的将来才能显现。",
+      "start_ms": 8255,
+      "end_ms": 15755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s06-n0129",
+      "text": "机器本身，或者与机器相适应的整体产业变革，还直接或间接创造出全新的生产部门和就业领域。",
+      "start_ms": 16360,
+      "end_ms": 24735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s06-n0130",
+      "text": "不过，即使在最发达的国家，这些新部门在总生产中所占的比重也不大。",
+      "start_ms": 25445,
+      "end_ms": 31075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s06-n0131",
+      "text": "这些行业中最粗重的手工劳动需要多少，雇用人数就按同样比例增加。",
+      "start_ms": 31757,
+      "end_ms": 37007,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s06-n0132",
+      "text": "当时最主要的新产业有煤气业、电报业、摄影业、轮船业和铁路业。",
+      "start_ms": 37747,
+      "end_ms": 43737,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s06-n0133",
+      "text": "1861年英格兰和威尔士人口普查显示，煤气业雇用15,211人，其中包括煤气厂工人、机械装置制造人员和煤气公司代理人等。",
+      "start_ms": 945,
+      "end_ms": 10105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s06-n0134",
+      "text": "电报业雇用2,399人，摄影业2,366人，轮船业3,570人，铁路业70,599人。",
+      "start_ms": 10635,
+      "end_ms": 19315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s06-n0135",
+      "text": "铁路业人数中包括大约28,000名长期或较长期受雇的非熟练土方工，以及全部行政和商务人员。",
+      "start_ms": 19675,
+      "end_ms": 27255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s06-n0136",
+      "text": "这五个新产业合计雇用94,145人。",
+      "start_ms": 28005,
+      "end_ms": 31385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s06-n0137",
+      "text": "最后，大工业使生产力大幅提高，其他生产领域又同时从广度和强度上加紧剥削劳动力。",
+      "start_ms": 31725,
+      "end_ms": 38725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s06-n0138",
+      "text": "这样，工人阶级中越来越多的人可以被用于非生产性工作，过去的家奴尤其能以“服务阶级”的名义大批重现，例如男仆、女仆和贴身侍从等。",
+      "start_ms": 39000,
+      "end_ms": 49565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s06-n0139",
+      "text": "1861年人口普查显示，英格兰和威尔士共有20,066,224人，其中男性9,776,259人，女性10,289,965人。",
+      "start_ms": 785,
+      "end_ms": 10325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s06-n0140",
+      "text": "〔译者注：德文版把男性人数误印为9,770,259；这里按1861年英国人口普查表订正。",
+      "start_ms": 11505,
+      "end_ms": 18685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s06-n0141",
+      "text": "〕从中扣除年纪太大或太小、不能劳动的人，再扣除所有“非生产性”的妇女、少年和儿童，政府人员、教士、法律工作者、军人等“意识形态”阶层，只靠地租、利息等形式消费别人劳动的人，以及贫民、流浪者、罪犯等，大致还剩八百万人。",
+      "start_ms": 18690,
+      "end_ms": 38405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s06-n0142",
+      "text": "这里包括不同性别和年龄的人，也包括所有以任何方式参与生产、商业、金融等活动的资本家。",
+      "start_ms": 38700,
+      "end_ms": 45575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s06-n0143",
+      "text": "为了作下面的比较，这里只列出其中五类人的数量：",
+      "start_ms": 46335,
+      "end_ms": 49605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s06-n0144",
+      "text": "把所有纺织厂工人与煤矿、金属矿山工人相加，共有1,208,442人。",
+      "start_ms": 49965,
+      "end_ms": 56585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s06-n0145",
+      "text": "把纺织厂工人与各类金属厂和金属制造业工人相加，共有1,039,605人。",
+      "start_ms": 85,
+      "end_ms": 6475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s06-n0146",
+      "text": "两个数字都少于现代家奴的人数。",
+      "start_ms": 7115,
+      "end_ms": 9445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s06-n0147",
+      "text": "这就是资本主义使用机器取得的多么令人振奋的成果！",
+      "start_ms": 9995,
+      "end_ms": 13635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    }
+  ]
+}

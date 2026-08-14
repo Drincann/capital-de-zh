@@ -1,0 +1,1795 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch23-s03-v1-audio-c6ec8d91250b",
+  "unit_id": "ch23-s03",
+  "translation_version_id": "ch23-s03-v1",
+  "translation_sha256": "16b68c5da0dab4ebd2eca7903b4224434a4c29bc3703072f85a241470f9cadfb",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-10T14:55:13.265Z",
+  "completed_at": "2026-08-10T14:58:00.226Z",
+  "duration_ms": 1085678,
+  "sentence_count": 168,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 40824,
+      "bytes": 662829,
+      "sha256": "7b269435a3ff98021b41c2bc780cf4ac45bf5aeb67f0e64947fa248caf511b3f",
+      "sentence_ids": [
+        "ch23-s03-n0001",
+        "ch23-s03-n0002",
+        "ch23-s03-n0003",
+        "ch23-s03-n0004",
+        "ch23-s03-n0005"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 56625,
+      "bytes": 910125,
+      "sha256": "47d833a4f10983e1395d99a5c0ee389aef6cd5195eec7fa69ea0af8538b80254",
+      "sentence_ids": [
+        "ch23-s03-n0006",
+        "ch23-s03-n0007",
+        "ch23-s03-n0008",
+        "ch23-s03-n0009",
+        "ch23-s03-n0010",
+        "ch23-s03-n0011"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 39136,
+      "bytes": 630957,
+      "sha256": "58d33e146a63e2f3bb9221ae8d15a5b8b8da3e580ed85a252e3b3e75b8dabdc6",
+      "sentence_ids": [
+        "ch23-s03-n0012",
+        "ch23-s03-n0013",
+        "ch23-s03-n0014",
+        "ch23-s03-n0015",
+        "ch23-s03-n0016",
+        "ch23-s03-n0017"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 39905,
+      "bytes": 640941,
+      "sha256": "57fa78d09daf00ce81f644b4e681f6ab7136da16103353505e11912ed510bd0f",
+      "sentence_ids": [
+        "ch23-s03-n0018",
+        "ch23-s03-n0019",
+        "ch23-s03-n0020",
+        "ch23-s03-n0021",
+        "ch23-s03-n0022",
+        "ch23-s03-n0023"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 41246,
+      "bytes": 669741,
+      "sha256": "1432d34cb6f1f4f6ba19f59a349df6c2105b69771c5f76b80fc68334a5991236",
+      "sentence_ids": [
+        "ch23-s03-n0024",
+        "ch23-s03-n0025",
+        "ch23-s03-n0026",
+        "ch23-s03-n0027",
+        "ch23-s03-n0028",
+        "ch23-s03-n0029"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 42009,
+      "bytes": 682029,
+      "sha256": "ffe141196ce531cf07a0662ccca2d489934da0cc8cfd2d0c619d2c298ff83802",
+      "sentence_ids": [
+        "ch23-s03-n0030",
+        "ch23-s03-n0031",
+        "ch23-s03-n0032",
+        "ch23-s03-n0033",
+        "ch23-s03-n0034",
+        "ch23-s03-n0035"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 41650,
+      "bytes": 669357,
+      "sha256": "bd6db7caf74e2b82dec2a30a37ea96e73b26109d3129cfdc041dffdfd41c1c83",
+      "sentence_ids": [
+        "ch23-s03-n0036",
+        "ch23-s03-n0037",
+        "ch23-s03-n0038",
+        "ch23-s03-n0039",
+        "ch23-s03-n0040",
+        "ch23-s03-n0041"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 39886,
+      "bytes": 644013,
+      "sha256": "9552fb0b0b243bba7a3600045bdc1fbd9beeb341042d5c2f018a34155096fa6d",
+      "sentence_ids": [
+        "ch23-s03-n0042",
+        "ch23-s03-n0043",
+        "ch23-s03-n0044",
+        "ch23-s03-n0045",
+        "ch23-s03-n0046",
+        "ch23-s03-n0047"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 38711,
+      "bytes": 618669,
+      "sha256": "8aea44490d79ccf10b038a8d692f61bd6c7c5409d107f634a8ff6ec00580edc0",
+      "sentence_ids": [
+        "ch23-s03-n0048",
+        "ch23-s03-n0049",
+        "ch23-s03-n0050",
+        "ch23-s03-n0051",
+        "ch23-s03-n0052",
+        "ch23-s03-n0053"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 43162,
+      "bytes": 695469,
+      "sha256": "e1d64f6ea736f77a57a9ba39c9c5f20323a586867bb7781012565da252ddb548",
+      "sentence_ids": [
+        "ch23-s03-n0054",
+        "ch23-s03-n0055",
+        "ch23-s03-n0056",
+        "ch23-s03-n0057",
+        "ch23-s03-n0058",
+        "ch23-s03-n0059"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 46773,
+      "bytes": 755757,
+      "sha256": "069c59f393be64c67c553d718a793712c8ac1a462309700adaab1438c4a20bdd",
+      "sentence_ids": [
+        "ch23-s03-n0060",
+        "ch23-s03-n0061",
+        "ch23-s03-n0062",
+        "ch23-s03-n0063",
+        "ch23-s03-n0064",
+        "ch23-s03-n0065"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 29965,
+      "bytes": 483501,
+      "sha256": "b8bcffe69b97425d4290fde7a3aba7621de09ede78f94102e85790ac37769fad",
+      "sentence_ids": [
+        "ch23-s03-n0066",
+        "ch23-s03-n0067",
+        "ch23-s03-n0068",
+        "ch23-s03-n0069",
+        "ch23-s03-n0070",
+        "ch23-s03-n0071"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 29695,
+      "bytes": 474285,
+      "sha256": "e6a629572fb5e89dc959294b6a509013183c94da6eaf341ef54b932dc9bb1648",
+      "sentence_ids": [
+        "ch23-s03-n0072",
+        "ch23-s03-n0073",
+        "ch23-s03-n0074",
+        "ch23-s03-n0075",
+        "ch23-s03-n0076",
+        "ch23-s03-n0077"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 38414,
+      "bytes": 617901,
+      "sha256": "611df883fa28fc1cc4cab3d7d58184d3ae98c3e17a96a9ed8944cd7fbff6f8a5",
+      "sentence_ids": [
+        "ch23-s03-n0078",
+        "ch23-s03-n0079",
+        "ch23-s03-n0080",
+        "ch23-s03-n0081",
+        "ch23-s03-n0082",
+        "ch23-s03-n0083"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 42713,
+      "bytes": 686637,
+      "sha256": "13955eba2454ac411e9d94acaf85c1a8cff53db26cabc850f7fb627191253b5c",
+      "sentence_ids": [
+        "ch23-s03-n0084",
+        "ch23-s03-n0085",
+        "ch23-s03-n0086",
+        "ch23-s03-n0087",
+        "ch23-s03-n0088",
+        "ch23-s03-n0089"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 36475,
+      "bytes": 586029,
+      "sha256": "2db7c8b5459f7b1145be2670703cdfec1e6eab2a0ece71f90b5d011afd6e2bf0",
+      "sentence_ids": [
+        "ch23-s03-n0090",
+        "ch23-s03-n0091",
+        "ch23-s03-n0092",
+        "ch23-s03-n0093",
+        "ch23-s03-n0094",
+        "ch23-s03-n0095"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 36081,
+      "bytes": 576429,
+      "sha256": "e12e0e0d3a815ccc829441564dd1dd59879baacc36ced3f74d4d3e426fd14f43",
+      "sentence_ids": [
+        "ch23-s03-n0096",
+        "ch23-s03-n0097",
+        "ch23-s03-n0098",
+        "ch23-s03-n0099",
+        "ch23-s03-n0100",
+        "ch23-s03-n0101"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 44025,
+      "bytes": 704685,
+      "sha256": "653554bdae8fa1a8fd52fef897dd6b470439042717ea62626d7f5c6f464a3f42",
+      "sentence_ids": [
+        "ch23-s03-n0102",
+        "ch23-s03-n0103",
+        "ch23-s03-n0104",
+        "ch23-s03-n0105",
+        "ch23-s03-n0106",
+        "ch23-s03-n0107"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 32845,
+      "bytes": 524589,
+      "sha256": "954d43e2bb226ed3b1f85a8be24ac4c4a83956fb01c0151f8c25c0e9127293e0",
+      "sentence_ids": [
+        "ch23-s03-n0108",
+        "ch23-s03-n0109",
+        "ch23-s03-n0110",
+        "ch23-s03-n0111",
+        "ch23-s03-n0112",
+        "ch23-s03-n0113"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 37777,
+      "bytes": 606765,
+      "sha256": "d35f17788b43f6f24cf273e7a98ccfd13fac6779b822ad2cd8545bb0c6a1ca6c",
+      "sentence_ids": [
+        "ch23-s03-n0114",
+        "ch23-s03-n0115",
+        "ch23-s03-n0116",
+        "ch23-s03-n0117",
+        "ch23-s03-n0118",
+        "ch23-s03-n0119"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 35373,
+      "bytes": 565293,
+      "sha256": "c91ac8cd3926b299af3f4a598e7bbff27f19da1f763a135e55de4f7f2cfbbc59",
+      "sentence_ids": [
+        "ch23-s03-n0120",
+        "ch23-s03-n0121",
+        "ch23-s03-n0122",
+        "ch23-s03-n0123",
+        "ch23-s03-n0124",
+        "ch23-s03-n0125"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 23255,
+      "bytes": 375213,
+      "sha256": "b9241904da75a2c74608884105bd64ca0a164d4724dfab4ac1cf2524fe8a3f2a",
+      "sentence_ids": [
+        "ch23-s03-n0126",
+        "ch23-s03-n0127",
+        "ch23-s03-n0128",
+        "ch23-s03-n0129",
+        "ch23-s03-n0130",
+        "ch23-s03-n0131"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 37455,
+      "bytes": 602157,
+      "sha256": "1a0881f49c5de5e90f75afc5d20d11c402b535961caab91e5a0e8c3cb09ef970",
+      "sentence_ids": [
+        "ch23-s03-n0132",
+        "ch23-s03-n0133",
+        "ch23-s03-n0134",
+        "ch23-s03-n0135",
+        "ch23-s03-n0136",
+        "ch23-s03-n0137"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 39289,
+      "bytes": 634413,
+      "sha256": "6b68a6ef0f726298fa2226ab064867f0260c8bcc3e1de311c06a48d7b9859b13",
+      "sentence_ids": [
+        "ch23-s03-n0138",
+        "ch23-s03-n0139",
+        "ch23-s03-n0140",
+        "ch23-s03-n0141",
+        "ch23-s03-n0142",
+        "ch23-s03-n0143"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 31735,
+      "bytes": 509613,
+      "sha256": "7e8eb5b87664bd35d36c6f52ff9efe4e6ba997f00f59ce40bf03f422fd86086d",
+      "sentence_ids": [
+        "ch23-s03-n0144",
+        "ch23-s03-n0145",
+        "ch23-s03-n0146",
+        "ch23-s03-n0147",
+        "ch23-s03-n0148",
+        "ch23-s03-n0149"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 38535,
+      "bytes": 618669,
+      "sha256": "cb459905e0a5bf39f307ff5b2347b9cd00538881ef812db89b71c2fc7b254cbf",
+      "sentence_ids": [
+        "ch23-s03-n0150",
+        "ch23-s03-n0151",
+        "ch23-s03-n0152",
+        "ch23-s03-n0153",
+        "ch23-s03-n0154",
+        "ch23-s03-n0155"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 22105,
+      "bytes": 352941,
+      "sha256": "11f42ae5934ac226e741dfe88e3d7e21eeb7344246db226568754f340d4251b2",
+      "sentence_ids": [
+        "ch23-s03-n0156",
+        "ch23-s03-n0157",
+        "ch23-s03-n0158",
+        "ch23-s03-n0159",
+        "ch23-s03-n0160",
+        "ch23-s03-n0161"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 40739,
+      "bytes": 653229,
+      "sha256": "896126adf489f4c8b967e6c5fdcc2260cee8c19ea7c9035bbf9ab151e9da90bf",
+      "sentence_ids": [
+        "ch23-s03-n0162",
+        "ch23-s03-n0163",
+        "ch23-s03-n0164",
+        "ch23-s03-n0165",
+        "ch23-s03-n0166",
+        "ch23-s03-n0167"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 19275,
+      "bytes": 310701,
+      "sha256": "79f3d0c90329d0ddcef4c2bdec1d17bc92f03a618bbfd2fea47a919749246ceb",
+      "sentence_ids": [
+        "ch23-s03-n0168"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch23-s03-n0001",
+      "text": "资本积累最初看起来只是资本在数量上增加。",
+      "start_ms": 115,
+      "end_ms": 2925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s03-n0002",
+      "text": "但我们已经看到，积累过程中，资本构成也在不断发生性质上的变化：不变资本所占的比重持续上升，可变资本所占的比重持续下降。",
+      "start_ms": 3315,
+      "end_ms": 12685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s03-n0003",
+      "text": "资本主义特有的生产方式、由此发展起来的劳动生产力，以及资本有机构成随之发生的变化，不只是同积累和社会财富一起增长，而且增长得更快。",
+      "start_ms": 13125,
+      "end_ms": 22605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s03-n0004",
+      "text": "原因在于，社会总资本不断积累的同时，个别资本也在集中；追加资本采用新技术的同时，原有资本也在进行技术改造。",
+      "start_ms": 23515,
+      "end_ms": 32195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s03-n0005",
+      "text": "随着积累发展，不变资本与可变资本的比例会从最初的1∶1变成2∶1、3∶1、4∶1、5∶1、7∶1，等等。",
+      "start_ms": 32619,
+      "end_ms": 40674,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch23-s03-n0006",
+      "text": "因此，资本越大，其中转化为劳动力的部分就会从总价值的二分之一逐步降到三分之一、四分之一、五分之一、六分之一、八分之一，等等；转化为生产资料的部分则相应升到三分之二、四分之三、五分之四、六分之五、八分之七，等等。",
+      "start_ms": 525,
+      "end_ms": 17895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s03-n0007",
+      "text": "劳动需求取决于可变资本，而不是总资本。",
+      "start_ms": 18365,
+      "end_ms": 20775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s03-n0008",
+      "text": "因此，劳动需求不会像前面假定的那样与总资本按同一比例增长，而会相对于总资本越来越小，并且总资本增长得越快，这个相对比重下降得也越快。",
+      "start_ms": 21555,
+      "end_ms": 32585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s03-n0009",
+      "text": "当然，可变资本的绝对量仍会随着总资本增加，资本吸收的劳动力也可能继续增加，只是增加的比例越来越小。",
+      "start_ms": 32900,
+      "end_ms": 40695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s03-n0010",
+      "text": "积累只在原有技术基础上扩大生产的时期，也会越来越短。",
+      "start_ms": 41475,
+      "end_ms": 45665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s03-n0011",
+      "text": "这样一来，为了吸收同样数量的新工人，甚至为了在原有资本不断改造时继续雇用已经在职的工人，社会总资本都必须以越来越快的速度积累。",
+      "start_ms": 46040,
+      "end_ms": 56475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch23-s03-n0012",
+      "text": "反过来，这种加速的积累和集中又会推动资本构成继续变化，使可变资本相对于不变资本下降得更快。",
+      "start_ms": 155,
+      "end_ms": 7175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s03-n0013",
+      "text": "结果是，工人人口的增长看起来总是快于可变资本和就业机会的增长。",
+      "start_ms": 7525,
+      "end_ms": 12195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s03-n0014",
+      "text": "其实，资本主义积累会随着自身规模和力量不断制造相对过剩的工人人口。",
+      "start_ms": 12725,
+      "end_ms": 18025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s03-n0015",
+      "text": "所谓“相对过剩”，是指这部分人口超过了资本在通常增殖条件下所需要的数量，因此对资本来说是多余的后备劳动力。",
+      "start_ms": 18480,
+      "end_ms": 27095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s03-n0016",
+      "text": "从社会总资本来看，上述变化有时会周期性地先后发生，有时会同时分布在不同生产部门。",
+      "start_ms": 27650,
+      "end_ms": 34165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s03-n0017",
+      "text": "一些部门只靠资本集中就改变了资本构成，资本总量并没有增加。",
+      "start_ms": 34591,
+      "end_ms": 38986,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch23-s03-n0018",
+      "text": "另一些部门的资本总量增加了，可变资本或它吸收的劳动力却绝对减少。",
+      "start_ms": 155,
+      "end_ms": 4475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s03-n0019",
+      "text": "还有一些部门先在原有技术基础上扩大，按资本增长的比例吸收更多劳动力，随后又发生有机构成变化，使可变资本收缩。",
+      "start_ms": 4780,
+      "end_ms": 12675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s03-n0020",
+      "text": "不过，在所有部门里，可变资本和就业人数的增长都会剧烈波动，并暂时制造过剩人口。",
+      "start_ms": 13005,
+      "end_ms": 19035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s03-n0021",
+      "text": "这种过剩有时表现得很明显：已经就业的工人被排斥出去。",
+      "start_ms": 19320,
+      "end_ms": 22865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s03-n0022",
+      "text": "有时表现得不那么显眼，却同样有效：新增工人更难通过通常的就业渠道被吸收。",
+      "start_ms": 23140,
+      "end_ms": 28375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s03-n0023",
+      "text": "已经投入生产的社会资本越大，增长越快，生产规模和受雇工人人数越大，劳动生产力和财富来源越发展，资本一面大量吸收工人、一面又大量排斥工人的规模就越大。",
+      "start_ms": 28680,
+      "end_ms": 39755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch23-s03-n0024",
+      "text": "资本有机构成和技术形态变化得更快，受到这种变化影响的生产部门也越来越多，而且这些部门有时同时受到影响，有时先后受到影响。",
+      "start_ms": 145,
+      "end_ms": 9045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s03-n0025",
+      "text": "工人人口通过自己的劳动促成资本积累，同时也在越来越大的规模上造成使自己变得相对多余的条件。",
+      "start_ms": 9400,
+      "end_ms": 15795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s03-n0026",
+      "text": "这是资本主义生产方式特有的人口规律。",
+      "start_ms": 16625,
+      "end_ms": 19165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s03-n0027",
+      "text": "事实上，每一种历史形成的生产方式都有自己在特定历史条件下成立的人口规律。",
+      "start_ms": 19620,
+      "end_ms": 25165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s03-n0028",
+      "text": "只有植物和动物才存在抽象的人口规律，而且也只在人类尚未介入时如此。",
+      "start_ms": 25520,
+      "end_ms": 30705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s03-n0029",
+      "text": "相对过剩的工人人口既然是资本积累和资本主义财富增长的必然产物，它反过来又会成为推动资本积累的杠杆，甚至成为资本主义生产方式存在的条件。",
+      "start_ms": 31201,
+      "end_ms": 41096,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch23-s03-n0030",
+      "text": "它构成一支随时可用的产业后备军，仿佛资本用自己的钱把这批人专门养大，完全供自己支配。",
+      "start_ms": 275,
+      "end_ms": 7135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s03-n0031",
+      "text": "无论现实人口增长得多快或多慢，这支后备军都能为资本不断变化的增殖需要提供随时可以利用的人力。",
+      "start_ms": 7420,
+      "end_ms": 14695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s03-n0032",
+      "text": "随着资本积累和劳动生产力发展，资本突然扩大生产的能力也在增强。",
+      "start_ms": 14980,
+      "end_ms": 19685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s03-n0033",
+      "text": "这种能力增强，不只是因为在用资本变得更有伸缩性、社会财富总量也在扩大，也不只是因为信用能在受到特殊刺激时迅速把大量财富变成追加资本。",
+      "start_ms": 20020,
+      "end_ms": 30425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s03-n0034",
+      "text": "生产过程的技术条件本身，例如机器和运输工具，也使大量剩余产品能够迅速转化为追加生产资料。",
+      "start_ms": 31024,
+      "end_ms": 38039,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s03-n0035",
+      "text": "随着积累增加，可以转化为追加资本的社会财富越来越多。",
+      "start_ms": 38364,
+      "end_ms": 41859,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch23-s03-n0036",
+      "text": "一旦旧行业的市场突然扩大，或者铁路等由旧行业发展催生的新行业出现，这些资本就会蜂拥而入。",
+      "start_ms": 335,
+      "end_ms": 7145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s03-n0037",
+      "text": "在这种时刻，必须迅速把大批工人调到关键地点，同时又不能缩小其他部门的生产规模。",
+      "start_ms": 7480,
+      "end_ms": 13235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s03-n0038",
+      "text": "过剩人口正好提供了这些人。",
+      "start_ms": 14135,
+      "end_ms": 15945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s03-n0039",
+      "text": "现代工业的典型运行方式，是一个大约十年的周期：中等活跃、高压生产、危机和停滞依次出现，其间夹杂较小的波动。",
+      "start_ms": 16390,
+      "end_ms": 25755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s03-n0040",
+      "text": "这个周期之所以能够运行，正是因为产业后备军或过剩人口不断形成，有时被大量吸收，随后又重新形成。",
+      "start_ms": 26050,
+      "end_ms": 34335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s03-n0041",
+      "text": "反过来，工业周期的起伏也会不断补充过剩人口，成为再生产这支后备军最有力的机制之一。",
+      "start_ms": 34735,
+      "end_ms": 41500,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch23-s03-n0042",
+      "text": "现代工业这种特殊的运行方式，在人类以往任何时代都没有出现过，在资本主义生产的幼年时期也不可能出现。",
+      "start_ms": 115,
+      "end_ms": 7825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s03-n0043",
+      "text": "当时资本构成变化得很慢，所以积累大体上会带来按比例增长的劳动需求。",
+      "start_ms": 8235,
+      "end_ms": 13555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s03-n0044",
+      "text": "与现代相比，当时积累进展缓慢，很快就会碰到可供资本使用的工人人口这一自然限制。",
+      "start_ms": 14595,
+      "end_ms": 21415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s03-n0045",
+      "text": "要突破这种限制，只能采用后文将要谈到的暴力手段。",
+      "start_ms": 21865,
+      "end_ms": 25725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s03-n0046",
+      "text": "现代生产会突然、跳跃式地扩大，也会突然收缩，而且二者会互相引发。",
+      "start_ms": 26115,
+      "end_ms": 31775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s03-n0047",
+      "text": "然而，突然扩大生产必须有随时可用的人力，必须能让工人人数增加而不受人口自然增长速度的限制。",
+      "start_ms": 32201,
+      "end_ms": 39736,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch23-s03-n0048",
+      "text": "资本正是通过一个简单过程制造这种人力：它不断采用能以更少工人生产更多产品的方法，从而持续“释放”一部分工人。",
+      "start_ms": 155,
+      "end_ms": 7405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s03-n0049",
+      "text": "因此，现代工业的整个运动方式，都建立在不断把一部分工人人口变成失业或半失业者的基础上。",
+      "start_ms": 7660,
+      "end_ms": 14035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s03-n0050",
+      "text": "庸俗政治经济学的肤浅也表现在这里：它把信用扩张和收缩当成工业周期各阶段交替的原因，其实信用变化只是这种交替的表面现象。",
+      "start_ms": 14705,
+      "end_ms": 23645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s03-n0051",
+      "text": "天体一旦进入某种运动，就会不断重复这种运动。",
+      "start_ms": 24050,
+      "end_ms": 26765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s03-n0052",
+      "text": "社会生产一旦进入扩张与收缩交替的轨道，也会如此。",
+      "start_ms": 27495,
+      "end_ms": 31155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s03-n0053",
+      "text": "在这个不断重新制造自身条件的过程中，结果又会反过来成为原因，整个过程的起伏也就呈现出周期性。",
+      "start_ms": 31556,
+      "end_ms": 38561,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch23-s03-n0054",
+      "text": "等到这种周期性固定下来以后，就连政治经济学也不得不承认：现代工业要维持运行，就必须不断制造相对过剩人口，也就是超过资本通常增殖需要的工人人口。",
+      "start_ms": 115,
+      "end_ms": 11925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s03-n0055",
+      "text": "曾任牛津大学政治经济学教授、后来进入英国殖民部任职的梅里韦尔说：“假设发生危机时，全国竭尽全力，通过移民把几十万被认为多余的穷人送走，结果会怎样？",
+      "start_ms": 12160,
+      "end_ms": 24095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s03-n0056",
+      "text": "劳动需求一恢复，马上就会缺人。",
+      "start_ms": 24430,
+      "end_ms": 26635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s03-n0057",
+      "text": "无论人口繁殖多快，要补充成年的工人，总得等上一代人的时间。",
+      "start_ms": 26975,
+      "end_ms": 31585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s03-n0058",
+      "text": "可是，工厂主的利润主要来自抓住需求旺盛的有利时机，用这时赚到的钱弥补萧条时期的损失。",
+      "start_ms": 32027,
+      "end_ms": 39242,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s03-n0059",
+      "text": "要做到这一点，他们必须能够支配机器和人力。",
+      "start_ms": 39882,
+      "end_ms": 43012,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch23-s03-n0060",
+      "text": "他们必须随时找到可用的工人，并能根据市场情况迅速扩大或缩小生产。",
+      "start_ms": 195,
+      "end_ms": 5395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s03-n0061",
+      "text": "否则，他们就无法在激烈竞争中保持优势，而英国的财富正建立在这种优势上。”",
+      "start_ms": 5780,
+      "end_ms": 11775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s03-n0062",
+      "text": "就连马尔萨斯也承认，过剩人口是现代工业所必需的。",
+      "start_ms": 11780,
+      "end_ms": 15495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s03-n0063",
+      "text": "不过，他眼光狭隘，把过剩人口解释成工人人口绝对增长过多，而没有看到资本怎样使工人变得相对多余。",
+      "start_ms": 15740,
+      "end_ms": 24715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s03-n0064",
+      "text": "他说：“一个主要依靠制造业和商业的国家，如果工人普遍在婚姻问题上过于谨慎，反而可能受到损害……由于人口增长有自己的规律，即使市场突然需要更多工人，也要等十六年或十八年才能增加一批成年劳动力。",
+      "start_ms": 25060,
+      "end_ms": 42213,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s03-n0065",
+      "text": "可是，收入通过储蓄转化为资本，速度可以快得多。",
+      "start_ms": 42488,
+      "end_ms": 46623,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch23-s03-n0066",
+      "text": "因此，一个国家随时可能出现这种情况：用于维持劳动的基金，增长得比人口更快。”",
+      "start_ms": 475,
+      "end_ms": 5075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s03-n0067",
+      "text": "政治经济学就这样先宣布，资本积累必须不断制造相对过剩的工人。",
+      "start_ms": 5690,
+      "end_ms": 9465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s03-n0068",
+      "text": "随后，它又像一个老处女，把下面这番话塞进自己心目中完美资本家的嘴里，对那些被追加资本抛到街头的“多余者”说：“我们工厂主已经尽力了。",
+      "start_ms": 10095,
+      "end_ms": 18965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s03-n0069",
+      "text": "我们增加资本，让你们有东西维持生活。",
+      "start_ms": 19150,
+      "end_ms": 21395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s03-n0070",
+      "text": "剩下的事该由你们来做：你们的人数必须适应现有的生活资料。”",
+      "start_ms": 21670,
+      "end_ms": 24825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s03-n0071",
+      "text": "人口自然增长所能提供的劳动力，远远不能满足资本主义生产的需要。",
+      "start_ms": 25625,
+      "end_ms": 29815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch23-s03-n0072",
+      "text": "资本要自由运转，就必须拥有一支不受这种自然限制的产业后备军。",
+      "start_ms": 135,
+      "end_ms": 3945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s03-n0073",
+      "text": "到目前为止，我们一直假定，可变资本增加或减少多少，受雇工人的人数也会相应增加或减少多少。",
+      "start_ms": 4340,
+      "end_ms": 10915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s03-n0074",
+      "text": "其实，即使资本支配的工人人数不变，甚至减少，可变资本也可能增加。",
+      "start_ms": 11605,
+      "end_ms": 16945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s03-n0075",
+      "text": "只要每个工人提供更多劳动，因而拿到的工资总额增加，就会如此。",
+      "start_ms": 17290,
+      "end_ms": 21755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s03-n0076",
+      "text": "在这种情况下，每单位劳动的价格可能不变，甚至下降。",
+      "start_ms": 22165,
+      "end_ms": 25605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s03-n0077",
+      "text": "即便工资总额增加，也会比劳动量增长得慢。",
+      "start_ms": 26385,
+      "end_ms": 29545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch23-s03-n0078",
+      "text": "于是，可变资本增加只表示资本支配了更多劳动，并不表示它雇用了更多工人。",
+      "start_ms": 395,
+      "end_ms": 6695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s03-n0079",
+      "text": "对每个资本家来说，如果付出的工资相同，甚至更少，他当然更愿意从较少工人身上榨取一定量的劳动，而不是雇用更多工人来完成。",
+      "start_ms": 6970,
+      "end_ms": 16485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s03-n0080",
+      "text": "在后一种情况下，不变资本支出会随着投入的劳动量按比例增加；在前一种情况下，这项支出增加得慢得多。",
+      "start_ms": 17315,
+      "end_ms": 25835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s03-n0081",
+      "text": "生产规模越大，这个动机就越重要。",
+      "start_ms": 26100,
+      "end_ms": 28485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s03-n0082",
+      "text": "随着资本积累，它的作用也越来越强。",
+      "start_ms": 28820,
+      "end_ms": 31285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s03-n0083",
+      "text": "前面已经看到，资本主义生产方式和劳动生产力的发展既是积累的原因，也是积累的结果。",
+      "start_ms": 31709,
+      "end_ms": 38264,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch23-s03-n0084",
+      "text": "它使资本家能够在可变资本支出不变的情况下，加强单个劳动力在时间和强度上的使用，从而取得更多劳动。",
+      "start_ms": 305,
+      "end_ms": 8575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s03-n0085",
+      "text": "前面还看到，资本家可以用同样多的资本购买更多劳动力，办法是不断用不熟练工人代替熟练工人，用不成熟的工人代替成熟工人，用女工代替男工，用青年或儿童代替成年工人。",
+      "start_ms": 9135,
+      "end_ms": 22875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s03-n0086",
+      "text": "因此，随着积累发展，会同时出现三种情况。",
+      "start_ms": 23445,
+      "end_ms": 26945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s03-n0087",
+      "text": "一是更多可变资本支配更多劳动，却不增加工人人数。",
+      "start_ms": 27470,
+      "end_ms": 31375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s03-n0088",
+      "text": "二是同量可变资本用同样多的劳动力取得更多劳动。",
+      "start_ms": 32008,
+      "end_ms": 35703,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s03-n0089",
+      "text": "三是资本用较低等级的劳动力替代较高等级的劳动力，从而雇用更多较便宜的工人。",
+      "start_ms": 36188,
+      "end_ms": 42563,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch23-s03-n0090",
+      "text": "所以，相对过剩人口的形成，也就是工人被“释放”出来，甚至比生产技术的变革更快。",
+      "start_ms": 145,
+      "end_ms": 6435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s03-n0091",
+      "text": "技术变革本来已经随着积累加速，并使可变资本相对于不变资本下降。",
+      "start_ms": 6740,
+      "end_ms": 11675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s03-n0092",
+      "text": "随着生产资料的规模和效能增大，它们越来越少地充当雇用工人的手段。",
+      "start_ms": 12415,
+      "end_ms": 17605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s03-n0093",
+      "text": "劳动生产力越高，资本从在职工人那里取得的劳动量就增长得越快，而它需要的工人人数却增长得较慢。",
+      "start_ms": 18020,
+      "end_ms": 25305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s03-n0094",
+      "text": "这又进一步加强了上述趋势。",
+      "start_ms": 25770,
+      "end_ms": 27525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s03-n0095",
+      "text": "已经就业的工人过度劳动，会扩大后备军；反过来，后备军的竞争压力又迫使在职工人过度劳动，服从资本的命令。",
+      "start_ms": 27910,
+      "end_ms": 36325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch23-s03-n0096",
+      "text": "一部分工人因另一部分工人过度劳动而被迫闲置，闲置工人的竞争又迫使在职工人过度劳动。",
+      "start_ms": 275,
+      "end_ms": 7075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s03-n0097",
+      "text": "这个循环既成为个别资本家致富的手段， 也使产业后备军随着社会积累扩大得更快。",
+      "start_ms": 7345,
+      "end_ms": 12955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s03-n0098",
+      "text": "英国的情况可以说明这一因素有多重要。",
+      "start_ms": 13785,
+      "end_ms": 16225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s03-n0099",
+      "text": "英国节省劳动的技术手段极其强大。",
+      "start_ms": 16600,
+      "end_ms": 18945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s03-n0100",
+      "text": "可是，如果从明天起普遍把劳动时间限制在合理范围内，再按照年龄和性别为工人阶级各群体安排适当工时，现有工人人口根本不足以维持当前规模的全国生产。",
+      "start_ms": 19200,
+      "end_ms": 31445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s03-n0101",
+      "text": "现在被称为“非生产”的绝大多数工人，都必须转为“生产”工人。",
+      "start_ms": 31806,
+      "end_ms": 35931,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch23-s03-n0102",
+      "text": "总的来说，工资的一般变动只受产业后备军扩大和收缩的调节，而后备军的变化又对应工业周期的各个阶段。",
+      "start_ms": 235,
+      "end_ms": 7385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s03-n0103",
+      "text": "决定工资的，不是工人人口绝对数量怎样变化，而是工人阶级怎样在现役劳动军和后备军之间分配，是过剩人口的相对规模扩大还是缩小，以及它被吸收和再次释放到什么程度。",
+      "start_ms": 7640,
+      "end_ms": 20125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s03-n0104",
+      "text": "现代工业大约每十年经历一个周期，周期又被越来越频繁的不规则波动打断。",
+      "start_ms": 20480,
+      "end_ms": 25815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s03-n0105",
+      "text": "在这种工业中，如果有一条规律竟然说，劳动供求不由资本扩张和收缩、也就是资本当时的增殖需要决定，反而让资本运动取决于人口绝对数量的变化，那可真是一条奇妙的规律。",
+      "start_ms": 26140,
+      "end_ms": 38945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s03-n0106",
+      "text": "可经济学教条恰恰这样说。",
+      "start_ms": 39240,
+      "end_ms": 40935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s03-n0107",
+      "text": "按照这种说法，资本积累使工资上涨。",
+      "start_ms": 41345,
+      "end_ms": 43875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch23-s03-n0108",
+      "text": "工资上涨刺激工人人口更快增长，直到劳动市场供过于求，资本相对于工人供给显得不足，工资便会下降。",
+      "start_ms": 245,
+      "end_ms": 8215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s03-n0109",
+      "text": "接下来，事情就走向反面。",
+      "start_ms": 8540,
+      "end_ms": 10335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s03-n0110",
+      "text": "工资下降逐步减少工人人口，直到资本相对于工人重新过剩。",
+      "start_ms": 10640,
+      "end_ms": 15255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s03-n0111",
+      "text": "也有人解释说，工资下降会加强对工人的剥削，从而加快积累，同时低工资又抑制工人阶级增长。",
+      "start_ms": 15720,
+      "end_ms": 22765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s03-n0112",
+      "text": "于是，劳动供给再次低于劳动需求，工资重新上涨，如此循环。",
+      "start_ms": 23145,
+      "end_ms": 28175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s03-n0113",
+      "text": "对于已经成熟的资本主义生产来说，这真是一种奇妙的运动方式！",
+      "start_ms": 28560,
+      "end_ms": 32695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch23-s03-n0114",
+      "text": "工资上涨即使能够使真正有劳动能力的人口开始增加，也要等很久。",
+      "start_ms": 95,
+      "end_ms": 4785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch23-s03-n0115",
+      "text": "在这批人长大以前，工业已经反复完成了多轮扩张与收缩，市场上的仗早已打完，胜负也早已决定。",
+      "start_ms": 5020,
+      "end_ms": 12195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch23-s03-n0116",
+      "text": "1849年至1859年，英国农业区的粮价下降，工资也有所上涨，但从实际效果看，这次上涨几乎只是名义上的。",
+      "start_ms": 13255,
+      "end_ms": 20925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch23-s03-n0117",
+      "text": "例如，威尔特郡的周工资从7先令涨到8先令，多塞特郡从7或8先令涨到9先令，等等。",
+      "start_ms": 21210,
+      "end_ms": 28125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch23-s03-n0118",
+      "text": "这是因为农业过剩人口出现了异常大规模的外流。",
+      "start_ms": 28605,
+      "end_ms": 31825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch23-s03-n0119",
+      "text": "战争需求以及铁路、工厂和矿山的大规模扩张，吸收了许多农业工人。",
+      "start_ms": 32312,
+      "end_ms": 37627,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch23-s03-n0120",
+      "text": "工资越低，同样少的一点上涨，用百分比表示就越显眼。",
+      "start_ms": 155,
+      "end_ms": 4595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch23-s03-n0121",
+      "text": "周工资如果从20先令涨到22先令，涨幅是10%；如果从7先令涨到9先令，涨幅却是28又4/7%，听起来十分可观。",
+      "start_ms": 5040,
+      "end_ms": 14615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch23-s03-n0122",
+      "text": "无论如何，租地农场主们叫苦不迭，连《伦敦经济学家》也一本正经地说，这些饥饿工资有了“一次普遍而显著的上涨”。",
+      "start_ms": 15185,
+      "end_ms": 23465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch23-s03-n0123",
+      "text": "农场主接下来怎样做？",
+      "start_ms": 24170,
+      "end_ms": 25505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch23-s03-n0124",
+      "text": "他们是否像经济学教条设想的那样，等待农业工人因这份优厚工资而繁衍增多，等劳动力供给增加后再让工资下降？",
+      "start_ms": 25710,
+      "end_ms": 34575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch23-s03-n0125",
+      "text": "没有。",
+      "start_ms": 34898,
+      "end_ms": 35223,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch23-s03-n0126",
+      "text": "他们采用了更多机器。",
+      "start_ms": 185,
+      "end_ms": 1455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch23-s03-n0127",
+      "text": "转眼之间，工人又变得“过剩”，而且过剩的程度连农场主也满意。",
+      "start_ms": 1880,
+      "end_ms": 6045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch23-s03-n0128",
+      "text": "农业中投入的资本比从前更多，采用的形式也更有效率。",
+      "start_ms": 6280,
+      "end_ms": 10085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch23-s03-n0129",
+      "text": "结果，劳动需求不仅相对下降，而且绝对下降。",
+      "start_ms": 10320,
+      "end_ms": 13075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch23-s03-n0130",
+      "text": "上述经济学幻想混淆了两类不同的规律。",
+      "start_ms": 13955,
+      "end_ms": 16705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch23-s03-n0131",
+      "text": "一类规律调节工资的一般运动，也就是整个工人阶级或社会总劳动力同社会总资本的关系。",
+      "start_ms": 17150,
+      "end_ms": 23105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch23-s03-n0132",
+      "text": "另一类规律只调节工人人口怎样分配到不同生产部门。",
+      "start_ms": 1625,
+      "end_ms": 5165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch23-s03-n0133",
+      "text": "例如，某个行业行情很好，积累格外活跃，利润高于平均水平，追加资本就会涌入这个行业，劳动需求和工资自然上升。",
+      "start_ms": 5560,
+      "end_ms": 13895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch23-s03-n0134",
+      "text": "较高工资会把更多工人吸引进来，直到这个行业得到足够的劳动力。",
+      "start_ms": 14645,
+      "end_ms": 19065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch23-s03-n0135",
+      "text": "此后，工资会逐渐回到原来的平均水平；如果涌入的人太多，还会降到平均水平以下。",
+      "start_ms": 19450,
+      "end_ms": 25405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch23-s03-n0136",
+      "text": "这时，不仅不再有工人进入这个行业，反而会有工人离开。",
+      "start_ms": 25895,
+      "end_ms": 29925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch23-s03-n0137",
+      "text": "政治经济学家以为自己在这里看到了工资上涨怎样使工人绝对增加，工人绝对增加又怎样使工资下降。",
+      "start_ms": 30560,
+      "end_ms": 37305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch23-s03-n0138",
+      "text": "其实，他看到的只是一个行业内劳动市场的局部波动，只是资本需求发生变化时，工人人口在各投资部门之间重新分配的现象。",
+      "start_ms": 125,
+      "end_ms": 10515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch23-s03-n0139",
+      "text": "在停滞和中等繁荣时期，产业后备军对在职工人形成压力。",
+      "start_ms": 11525,
+      "end_ms": 16735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch23-s03-n0140",
+      "text": "在生产过剩和狂热扩张时期，它又压低在职工人的要求。",
+      "start_ms": 17190,
+      "end_ms": 22165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch23-s03-n0141",
+      "text": "因此，劳动供求规律是在相对过剩人口这个背景上运行的。",
+      "start_ms": 22755,
+      "end_ms": 27945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch23-s03-n0142",
+      "text": "过剩人口把这条规律的活动范围限制在最符合资本剥削欲和支配欲的界限内。",
+      "start_ms": 28480,
+      "end_ms": 34755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch23-s03-n0143",
+      "text": "说到这里，可以回头看看经济学辩护士的一项“伟大成就”。",
+      "start_ms": 35224,
+      "end_ms": 39139,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch23-s03-n0144",
+      "text": "前面说过，采用新机器或扩大机器使用时，一部分可变资本会变成不变资本。",
+      "start_ms": 125,
+      "end_ms": 6035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch23-s03-n0145",
+      "text": "这个过程束缚了资本，也“释放”了工人。",
+      "start_ms": 6485,
+      "end_ms": 9125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch23-s03-n0146",
+      "text": "辩护士却把事情倒过来，说机器为工人释放了资本。",
+      "start_ms": 9620,
+      "end_ms": 13235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch23-s03-n0147",
+      "text": "现在，我们才能看清这种说法有多无耻。",
+      "start_ms": 13805,
+      "end_ms": 16545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch23-s03-n0148",
+      "text": "被“释放”的，不只是直接被机器取代的工人，还包括原本会接替他们的工人，以及企业按旧有基础正常扩张时本来会新增雇用的工人。",
+      "start_ms": 17030,
+      "end_ms": 26915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch23-s03-n0149",
+      "text": "现在，这些人全都可供任何准备投入生产的新资本使用。",
+      "start_ms": 27205,
+      "end_ms": 31585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch23-s03-n0150",
+      "text": "新资本无论雇用他们还是别的工人，只要它雇用的人数刚好等于机器排斥的人数，社会总劳动需求就没有增加。",
+      "start_ms": 315,
+      "end_ms": 7005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch23-s03-n0151",
+      "text": "如果它雇用得更少，过剩人口就会增加。",
+      "start_ms": 7225,
+      "end_ms": 9485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch23-s03-n0152",
+      "text": "如果它雇用得更多，社会总劳动需求也只增加超过被“释放”人数的那一部分。",
+      "start_ms": 9795,
+      "end_ms": 14105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch23-s03-n0153",
+      "text": "因此，追加资本原本可能带来的劳动需求增长，总会被机器抛入失业队伍的人数抵消一部分。",
+      "start_ms": 15075,
+      "end_ms": 21615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch23-s03-n0154",
+      "text": "换句话说，资本主义生产机制会使资本的绝对增长不再带来相同比例的社会总劳动需求增长。",
+      "start_ms": 22020,
+      "end_ms": 28255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch23-s03-n0155",
+      "text": "可经济学辩护士却把这说成对工人的补偿，仿佛足以补偿工人在过渡期遭受的贫困、痛苦甚至毁灭，而正是这个过渡期把他们赶进产业后备军。",
+      "start_ms": 28805,
+      "end_ms": 38385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch23-s03-n0156",
+      "text": "劳动需求不等于资本增长，劳动供给也不等于工人阶级增长，仿佛两股互不相关的力量彼此作用。",
+      "start_ms": 125,
+      "end_ms": 5715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch23-s03-n0157",
+      "text": "骰子早已被做了手脚。",
+      "start_ms": 6080,
+      "end_ms": 7245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch23-s03-n0158",
+      "text": "资本同时控制供求两边。",
+      "start_ms": 7580,
+      "end_ms": 8995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch23-s03-n0159",
+      "text": "一方面，积累会增加劳动需求。",
+      "start_ms": 9240,
+      "end_ms": 11365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch23-s03-n0160",
+      "text": "另一方面，积累又通过“释放”工人来增加劳动力供给。",
+      "start_ms": 11600,
+      "end_ms": 14915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch23-s03-n0161",
+      "text": "与此同时，失业者的压力迫使在职工人提供更多劳动，使劳动供给在一定程度上不再取决于工人人数。",
+      "start_ms": 15220,
+      "end_ms": 21955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch23-s03-n0162",
+      "text": "劳动供求规律以这种方式运行，最终完成了资本的专制统治。",
+      "start_ms": 165,
+      "end_ms": 3695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch23-s03-n0163",
+      "text": "工人逐渐看清了其中的秘密：他们越是劳动，替别人生产的财富越多，劳动生产力越高，自己作为资本增殖工具的地位反而越不稳定。",
+      "start_ms": 4080,
+      "end_ms": 12315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch23-s03-n0164",
+      "text": "他们也发现，工人之间竞争有多激烈，完全取决于相对过剩人口施加的压力。",
+      "start_ms": 13085,
+      "end_ms": 18305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch23-s03-n0165",
+      "text": "于是，在职工人和失业工人试图通过工会等组织有计划地联合起来，消除或减轻这条资本主义生产“自然规律”给整个阶级造成的破坏。",
+      "start_ms": 18710,
+      "end_ms": 27945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch23-s03-n0166",
+      "text": "每当这时，资本及其辩护士政治经济学家就会大叫，说工人破坏了“永恒”而近乎“神圣”的供求规律。",
+      "start_ms": 28465,
+      "end_ms": 35435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch23-s03-n0167",
+      "text": "因为在职与失业工人的任何联合，都会妨碍这条规律“纯粹”地发挥作用。",
+      "start_ms": 35889,
+      "end_ms": 40589,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch23-s03-n0168",
+      "text": "可是在殖民地等地方，如果不利条件妨碍资本制造产业后备军，使工人阶级不能完全依附资本家阶级，资本和它那只会复述常识的桑丘·潘沙又会反过来反对“神圣”的供求规律，设法用强制手段帮它发挥作用。",
+      "start_ms": 645,
+      "end_ms": 19125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    }
+  ]
+}

@@ -1,0 +1,1957 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s07-v1-audio-90ab382e1020",
+  "unit_id": "ch13-s07",
+  "translation_version_id": "ch13-s07-v1",
+  "translation_sha256": "49dfaea7b9c799baa8be963e34cae692f351368c0512170597977b53c3250f1c",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:10:21.346Z",
+  "completed_at": "2026-08-04T17:12:58.068Z",
+  "duration_ms": 1067976,
+  "sentence_count": 184,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 42915,
+      "bytes": 691629,
+      "sha256": "2e0be96f9f95f4ab8eaa536e0517c5c4c0e9852c59042b0088256bc68e1fcba8",
+      "sentence_ids": [
+        "ch13-s07-n0001",
+        "ch13-s07-n0002",
+        "ch13-s07-n0003",
+        "ch13-s07-n0004",
+        "ch13-s07-n0005",
+        "ch13-s07-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 54350,
+      "bytes": 1034157,
+      "sha256": "792afb77a9039b89fa0c77308a4e87e04ee5698f603343dcb2a1b24f414ea763",
+      "sentence_ids": [
+        "ch13-s07-n0007",
+        "ch13-s07-n0008",
+        "ch13-s07-n0009",
+        "ch13-s07-n0010",
+        "ch13-s07-n0011"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 44942,
+      "bytes": 720813,
+      "sha256": "67293f0b4b60126481613704ecda92d122d11df5733cbb65aded5bba733dd6e9",
+      "sentence_ids": [
+        "ch13-s07-n0012",
+        "ch13-s07-n0013",
+        "ch13-s07-n0014",
+        "ch13-s07-n0015",
+        "ch13-s07-n0016",
+        "ch13-s07-n0017"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 40981,
+      "bytes": 663597,
+      "sha256": "52aa8032ab2f51385d759d4894d07ce8ac1044d976d76b3d72cab761c529ab0e",
+      "sentence_ids": [
+        "ch13-s07-n0018",
+        "ch13-s07-n0019",
+        "ch13-s07-n0020",
+        "ch13-s07-n0021",
+        "ch13-s07-n0022",
+        "ch13-s07-n0023"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 46264,
+      "bytes": 740397,
+      "sha256": "bba345ef411bc7776ec0f91d0706af02018950971730250daa932e64aa9ee14f",
+      "sentence_ids": [
+        "ch13-s07-n0024",
+        "ch13-s07-n0025",
+        "ch13-s07-n0026",
+        "ch13-s07-n0027",
+        "ch13-s07-n0028",
+        "ch13-s07-n0029"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 36238,
+      "bytes": 582189,
+      "sha256": "5220357a33ba13e02f025fd9c57e7d3abc03c6b3f65ec5c96975009564b2cde5",
+      "sentence_ids": [
+        "ch13-s07-n0030",
+        "ch13-s07-n0031",
+        "ch13-s07-n0032",
+        "ch13-s07-n0033",
+        "ch13-s07-n0034",
+        "ch13-s07-n0035"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 35633,
+      "bytes": 576045,
+      "sha256": "60e75f70699028bf89a6efd6534725f165813fbc87c7fa5921bd88b4cd39bf1b",
+      "sentence_ids": [
+        "ch13-s07-n0036",
+        "ch13-s07-n0037",
+        "ch13-s07-n0038",
+        "ch13-s07-n0039",
+        "ch13-s07-n0040",
+        "ch13-s07-n0041"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 61557,
+      "bytes": 986157,
+      "sha256": "670c9d779aa5b059c1f2cb4f2e18bef85d0b2b1ee1869f0a88873d0405a0108b",
+      "sentence_ids": [
+        "ch13-s07-n0042",
+        "ch13-s07-n0043",
+        "ch13-s07-n0044",
+        "ch13-s07-n0045",
+        "ch13-s07-n0046",
+        "ch13-s07-n0047"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 35305,
+      "bytes": 563373,
+      "sha256": "2543d211c053b8eb47756454b6a51d25066f5bdab4017f934c97da9cb00e3398",
+      "sentence_ids": [
+        "ch13-s07-n0048",
+        "ch13-s07-n0049",
+        "ch13-s07-n0050",
+        "ch13-s07-n0051",
+        "ch13-s07-n0052",
+        "ch13-s07-n0053"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 30075,
+      "bytes": 480429,
+      "sha256": "0226c393dedf63e2525c45cadd29542b42ae71036330b7cab39ef650321aaa9c",
+      "sentence_ids": [
+        "ch13-s07-n0054",
+        "ch13-s07-n0055",
+        "ch13-s07-n0056",
+        "ch13-s07-n0057",
+        "ch13-s07-n0058",
+        "ch13-s07-n0059"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 29605,
+      "bytes": 473901,
+      "sha256": "f1391f1fee5b350edc171d1fb194c63a16dbab3da03fd964a3be3220570f37a2",
+      "sentence_ids": [
+        "ch13-s07-n0060",
+        "ch13-s07-n0061",
+        "ch13-s07-n0062",
+        "ch13-s07-n0063",
+        "ch13-s07-n0064",
+        "ch13-s07-n0065"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 39807,
+      "bytes": 640941,
+      "sha256": "7722264f4ee66c8b1949dde94ab1a1200296dfde8765f04ca24effc1f67c85b3",
+      "sentence_ids": [
+        "ch13-s07-n0066",
+        "ch13-s07-n0067",
+        "ch13-s07-n0068",
+        "ch13-s07-n0069",
+        "ch13-s07-n0070",
+        "ch13-s07-n0071"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 28195,
+      "bytes": 454701,
+      "sha256": "5b3a6a133a1501d2e9d255de6f8dd87d7eae5f3961b183636ab64db4d8ab103d",
+      "sentence_ids": [
+        "ch13-s07-n0072",
+        "ch13-s07-n0073",
+        "ch13-s07-n0074",
+        "ch13-s07-n0075",
+        "ch13-s07-n0076",
+        "ch13-s07-n0077"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 18825,
+      "bytes": 300717,
+      "sha256": "abd42e18a118836fa1b42f25b774ae30e3f91ffb4ef46b2ef2b6d74072fe97f4",
+      "sentence_ids": [
+        "ch13-s07-n0078",
+        "ch13-s07-n0079",
+        "ch13-s07-n0080",
+        "ch13-s07-n0081",
+        "ch13-s07-n0082",
+        "ch13-s07-n0083"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 28345,
+      "bytes": 454701,
+      "sha256": "70e9ee711ea677200b6dde699a5506930c1d62c0f3f31338fadabc0e75e7c632",
+      "sentence_ids": [
+        "ch13-s07-n0084",
+        "ch13-s07-n0085",
+        "ch13-s07-n0086",
+        "ch13-s07-n0087",
+        "ch13-s07-n0088",
+        "ch13-s07-n0089"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 17805,
+      "bytes": 285357,
+      "sha256": "a2e8c442995d0c9bbb25096e91ccc99f4629552ccbe23e15ae7a516e63c1dda9",
+      "sentence_ids": [
+        "ch13-s07-n0090",
+        "ch13-s07-n0091",
+        "ch13-s07-n0092",
+        "ch13-s07-n0093",
+        "ch13-s07-n0094",
+        "ch13-s07-n0095"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 20415,
+      "bytes": 329901,
+      "sha256": "2be383eff522cb7a9c538b524a2d3c1c8056d8ba4f8f561a831c288d6583ace2",
+      "sentence_ids": [
+        "ch13-s07-n0096",
+        "ch13-s07-n0097",
+        "ch13-s07-n0098",
+        "ch13-s07-n0099",
+        "ch13-s07-n0100",
+        "ch13-s07-n0101"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 16695,
+      "bytes": 272301,
+      "sha256": "69e18839ab0432f8f273ed71b8c946d92cb9808728ab6d8b5939d7bbb82180c8",
+      "sentence_ids": [
+        "ch13-s07-n0102",
+        "ch13-s07-n0103",
+        "ch13-s07-n0104",
+        "ch13-s07-n0105",
+        "ch13-s07-n0106",
+        "ch13-s07-n0107"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 20135,
+      "bytes": 323757,
+      "sha256": "92badf329309653c943049362445a14a1761b07975893f450652eeedfca15f34",
+      "sentence_ids": [
+        "ch13-s07-n0108",
+        "ch13-s07-n0109",
+        "ch13-s07-n0110",
+        "ch13-s07-n0111",
+        "ch13-s07-n0112",
+        "ch13-s07-n0113"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 19125,
+      "bytes": 304557,
+      "sha256": "1865fa98bc970b15e52e06e477ec8662c73faf5fddb12f94670cdb0ca050f114",
+      "sentence_ids": [
+        "ch13-s07-n0114",
+        "ch13-s07-n0115",
+        "ch13-s07-n0116",
+        "ch13-s07-n0117",
+        "ch13-s07-n0118",
+        "ch13-s07-n0119"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 29735,
+      "bytes": 483885,
+      "sha256": "aec380b2b8b0d613fe6e34171a9e176e86beac7d67721196e47f4712837826f0",
+      "sentence_ids": [
+        "ch13-s07-n0120",
+        "ch13-s07-n0121",
+        "ch13-s07-n0122",
+        "ch13-s07-n0123",
+        "ch13-s07-n0124",
+        "ch13-s07-n0125"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 35594,
+      "bytes": 569901,
+      "sha256": "d7f7a17df45af566936fb922a14fb2610ca3bab40d837605368ff66dea02558e",
+      "sentence_ids": [
+        "ch13-s07-n0126",
+        "ch13-s07-n0127",
+        "ch13-s07-n0128",
+        "ch13-s07-n0129",
+        "ch13-s07-n0130",
+        "ch13-s07-n0131"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 33125,
+      "bytes": 531885,
+      "sha256": "070d7a3377b2f134ac483230d67bc4769b027762ae7dad48a64b7b541e5ea11b",
+      "sentence_ids": [
+        "ch13-s07-n0132",
+        "ch13-s07-n0133",
+        "ch13-s07-n0134",
+        "ch13-s07-n0135",
+        "ch13-s07-n0136",
+        "ch13-s07-n0137"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 37512,
+      "bytes": 599853,
+      "sha256": "8a5667bceaf02d5a2b9980c6f1904265a5c7ff999f44c5abc70ad44282ae00ee",
+      "sentence_ids": [
+        "ch13-s07-n0138",
+        "ch13-s07-n0139",
+        "ch13-s07-n0140",
+        "ch13-s07-n0141",
+        "ch13-s07-n0142",
+        "ch13-s07-n0143"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 37789,
+      "bytes": 605997,
+      "sha256": "0f20cac71c100e13ddd09c77627901935ff793f036382c7f1591c00f38e92c05",
+      "sentence_ids": [
+        "ch13-s07-n0144",
+        "ch13-s07-n0145",
+        "ch13-s07-n0146",
+        "ch13-s07-n0147",
+        "ch13-s07-n0148",
+        "ch13-s07-n0149"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 40828,
+      "bytes": 659757,
+      "sha256": "4bf5b0c131c4ebeda42c4b459917d77d7baf7299bfead50119b688a0ad883ce1",
+      "sentence_ids": [
+        "ch13-s07-n0150",
+        "ch13-s07-n0151",
+        "ch13-s07-n0152",
+        "ch13-s07-n0153",
+        "ch13-s07-n0154",
+        "ch13-s07-n0155"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 33425,
+      "bytes": 548397,
+      "sha256": "15835e7908adfb51f0b4267b6544054e2e332a01a92bce9484daade16b7eb163",
+      "sentence_ids": [
+        "ch13-s07-n0156",
+        "ch13-s07-n0157",
+        "ch13-s07-n0158",
+        "ch13-s07-n0159",
+        "ch13-s07-n0160",
+        "ch13-s07-n0161"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 46038,
+      "bytes": 736941,
+      "sha256": "c5d335a77f48edb524f36f3f18d4df60d2d4f09cc13ed07f37fbe7ff0ba353e8",
+      "sentence_ids": [
+        "ch13-s07-n0162",
+        "ch13-s07-n0163",
+        "ch13-s07-n0164",
+        "ch13-s07-n0165",
+        "ch13-s07-n0166",
+        "ch13-s07-n0167"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 34755,
+      "bytes": 560685,
+      "sha256": "d2828095ac1d2b6aaddf9a408d3bdadc2b4fd9ddc2e22adc1e77af1ba48cf44d",
+      "sentence_ids": [
+        "ch13-s07-n0168",
+        "ch13-s07-n0169",
+        "ch13-s07-n0170",
+        "ch13-s07-n0171",
+        "ch13-s07-n0172",
+        "ch13-s07-n0173"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 38578,
+      "bytes": 618669,
+      "sha256": "8cf73411c9f631a64e11f9d3513c27a554c4470aa495489bee66e1d7137875d2",
+      "sentence_ids": [
+        "ch13-s07-n0174",
+        "ch13-s07-n0175",
+        "ch13-s07-n0176",
+        "ch13-s07-n0177",
+        "ch13-s07-n0178",
+        "ch13-s07-n0179"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 33385,
+      "bytes": 534573,
+      "sha256": "d5f252e4ef3efd861fc6da9f6d69b420d3e5b1c7ad0d3d55ffc0d9ec66fdb0e6",
+      "sentence_ids": [
+        "ch13-s07-n0180",
+        "ch13-s07-n0181",
+        "ch13-s07-n0182",
+        "ch13-s07-n0183",
+        "ch13-s07-n0184"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s07-n0001",
+      "text": "头脑还算清楚的政治经济学家都承认，新机器刚刚投入使用时，对那些首先与它竞争的传统手工业和工场手工业工人来说，就像一场瘟疫。",
+      "start_ms": 95,
+      "end_ms": 9845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s07-n0002",
+      "text": "几乎所有人也都会哀叹工厂工人的奴役处境。",
+      "start_ms": 10240,
+      "end_ms": 13175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s07-n0003",
+      "text": "可是，他们最后拿出的最大王牌是什么呢？",
+      "start_ms": 13525,
+      "end_ms": 16015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s07-n0004",
+      "text": "他们说，机器经历最初投入和发展的恐怖时期以后，最终会增加劳动奴隶的人数，而不是把他们越变越少。",
+      "start_ms": 16360,
+      "end_ms": 24015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s07-n0005",
+      "text": "政治经济学甚至为一条令人厌恶的定理欢呼。",
+      "start_ms": 24575,
+      "end_ms": 27405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s07-n0006",
+      "text": "任何相信资本主义生产方式是永恒自然法则的“慈善家”，听到这条定理都该感到厌恶：已经采用机器的工厂经过一段发展，再经历长短不一的“过渡期”以后，最终折磨的工人会比它起初赶到街上的人数更多！",
+      "start_ms": 27900,
+      "end_ms": 42765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s07-n0007",
+      "text": "英国精纺毛纺织厂和丝织厂的例子已经表明，工厂发展到一定程度以后，生产部门即使大幅扩张，雇用的工人也可能不仅相对减少，而且绝对减少。",
+      "start_ms": 235,
+      "end_ms": 9715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s07-n0008",
+      "text": "英国议会下令在1860年对联合王国所有工厂进行专项统计。",
+      "start_ms": 10665,
+      "end_ms": 14935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s07-n0009",
+      "text": "工厂视察员R. 贝克负责的兰开夏、柴郡和约克郡工厂区共有652家工厂，其中570家的数据如下：蒸汽织机85,622台，纱锭6,819,156枚，不包括并线锭，蒸汽机27,439马力，水轮1,390马力，工人94,119人。",
+      "start_ms": 15320,
+      "end_ms": 33815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s07-n0010",
+      "text": "到1865年，同一批工厂拥有织机95,163台、纱锭7,025,031枚、蒸汽机28,925马力、水轮1,445马力，工人却只有88,913人。",
+      "start_ms": 37800,
+      "end_ms": 45990,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s07-n0011",
+      "text": "从1860年到1865年，这些工厂的蒸汽织机增加11%，纱锭增加3%，蒸汽机马力增加5%，工人数却同时减少5.5%。",
+      "start_ms": 47150,
+      "end_ms": 54200,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s07-n0012",
+      "text": "从1852年到1862年，英国毛纺业大幅增长，工人数却几乎没有变化。",
+      "start_ms": 615,
+      "end_ms": 5995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s07-n0013",
+      "text": "“这表明，新机器在多大程度上排挤了前一时期的劳动。”",
+      "start_ms": 6320,
+      "end_ms": 10115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s07-n0014",
+      "text": "现实统计中的工厂工人数增加，可能来自两种完全不同的情况。",
+      "start_ms": 10875,
+      "end_ms": 15295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s07-n0015",
+      "text": "1838—1856年的统计正好把它们区分开来：英国棉织业的机器织机和织机工人增加，确实来自棉织业本身扩大；其他工厂的工人增加，则是因为蒸汽动力刚开始用于地毯织机、织带机、亚麻织机等原先由人力驱动的设备。",
+      "start_ms": 16775,
+      "end_ms": 32995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s07-n0016",
+      "text": "后一种情况只是把原先依靠人力的生产改造成了机器工厂。",
+      "start_ms": 33457,
+      "end_ms": 37262,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s07-n0017",
+      "text": "机器需要的新工人少于它排挤的旧工人，所以工厂工人数看起来增加，全部就业人数却减少了。",
+      "start_ms": 37717,
+      "end_ms": 44792,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s07-n0018",
+      "text": "这里还完全没有考虑另一件事：除金属厂外，各种工厂的人员绝大多数都是不满十八岁的青少年、妇女和儿童。",
+      "start_ms": 95,
+      "end_ms": 7975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s07-n0019",
+      "text": "机器生产确实会排挤许多现有工人，并使本来可能就业的人失去机会。",
+      "start_ms": 8480,
+      "end_ms": 13385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s07-n0020",
+      "text": "但随着机器生产本身扩张，同类工厂越来越多，原有工厂规模越来越大，工厂工人的总数最终仍可能超过被排挤的工场手工业工人或手工业者。",
+      "start_ms": 13860,
+      "end_ms": 24525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s07-n0021",
+      "text": "用一个例子就能看清。",
+      "start_ms": 24995,
+      "end_ms": 26225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s07-n0022",
+      "text": "假设旧生产方式每周使用五百英镑资本，其中五分之二是不变资本，五分之三是可变资本，也就是两百英镑购买生产资料，三百英镑购买劳动力。",
+      "start_ms": 26800,
+      "end_ms": 37385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s07-n0023",
+      "text": "若每名工人每周工资一英镑，就能雇用三百人。",
+      "start_ms": 37796,
+      "end_ms": 40831,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s07-n0024",
+      "text": "改用机器以后，总资本的构成发生变化。",
+      "start_ms": 415,
+      "end_ms": 3215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s07-n0025",
+      "text": "假设不变资本增至五分之四，可变资本降到五分之一，那么只有一百英镑用于购买劳动力，原来三百名工人中的三分之二会被解雇。",
+      "start_ms": 3590,
+      "end_ms": 13565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s07-n0026",
+      "text": "此后，如果工厂扩大，其他生产条件不变，总资本从五百英镑增到一千五百英镑，可变资本也增到三百英镑，于是重新雇用三百名工人，与工业革命前一样多。",
+      "start_ms": 14040,
+      "end_ms": 26005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s07-n0027",
+      "text": "总资本再增到两千英镑，就会雇用四百名工人，比旧生产方式原先雇用的多三分之一。",
+      "start_ms": 26560,
+      "end_ms": 33045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s07-n0028",
+      "text": "按人数看，工人增加了一百名。",
+      "start_ms": 33544,
+      "end_ms": 35674,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s07-n0029",
+      "text": "可是，与投入的总资本相比，工人却少了八百名，因为两千英镑资本如果仍按旧方式使用，本来能雇用一千二百人，而不是四百人。",
+      "start_ms": 35939,
+      "end_ms": 46114,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s07-n0030",
+      "text": "因此，就业人数相对减少与绝对增加完全可以同时发生。",
+      "start_ms": 605,
+      "end_ms": 4625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s07-n0031",
+      "text": "上面的计算暂且假定，总资本扩大时，资本构成不变，生产条件也不变。",
+      "start_ms": 4985,
+      "end_ms": 10475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s07-n0032",
+      "text": "但我们已经知道，机器每前进一步，由机器、原料等构成的不变资本就会增加，用于劳动力的可变资本则会下降。",
+      "start_ms": 11195,
+      "end_ms": 19915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s07-n0033",
+      "text": "没有其他生产方式像机器生产这样不断改进，总资本的构成也没有其他生产方式这样不断变化。",
+      "start_ms": 20235,
+      "end_ms": 26525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s07-n0034",
+      "text": "不过，这种变化会反复出现停顿。",
+      "start_ms": 27475,
+      "end_ms": 30195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s07-n0035",
+      "text": "在技术基础暂时不变的阶段，生产只在数量上扩张，工人数也会增加。",
+      "start_ms": 31213,
+      "end_ms": 36088,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s07-n0036",
+      "text": "1835年，联合王国棉、毛、精纺毛、亚麻和丝织工厂的全部工人只有354,684人。",
+      "start_ms": 925,
+      "end_ms": 8205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s07-n0037",
+      "text": "到1861年，仅蒸汽织机工人就有230,564人，包括不同性别和年龄、最低八岁的工人。",
+      "start_ms": 8735,
+      "end_ms": 16425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s07-n0038",
+      "text": "当然，如果想到1838年英国手工棉织工连同帮他们劳动的家属还有八十万人，工厂就业的增长就没有那么惊人了。",
+      "start_ms": 16880,
+      "end_ms": 24595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s07-n0039",
+      "text": "这里还没有计算机器在亚洲和欧洲大陆排挤的人。",
+      "start_ms": 25115,
+      "end_ms": 28335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s07-n0040",
+      "text": "关于这个问题，下面还要补充几点。",
+      "start_ms": 28680,
+      "end_ms": 30885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s07-n0041",
+      "text": "其中有些只是事实材料，我们的理论分析目前还没有推进到相应位置。",
+      "start_ms": 31348,
+      "end_ms": 35483,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s07-n0042",
+      "text": "只要机器生产仍在一个行业里靠排挤传统手工业或工场手工业来扩张，它取得胜利就像装备针发枪的军队击败弓箭手一样确定。",
+      "start_ms": 195,
+      "end_ms": 10755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s07-n0043",
+      "text": "机器刚刚开拓使用范围的最初阶段尤其重要，因为它能帮助资本家获得极高利润。",
+      "start_ms": 11305,
+      "end_ms": 18045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s07-n0044",
+      "text": "这些利润本身会加快资本积累，还会吸引社会上不断新形成、正在寻找投资场所的大量追加资本，流入这个有利的生产领域。",
+      "start_ms": 18530,
+      "end_ms": 28605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s07-n0045",
+      "text": "凡是新采用机器的行业，都会反复出现这种最初迅猛发展时期的特殊优势。",
+      "start_ms": 29365,
+      "end_ms": 36055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s07-n0046",
+      "text": "工厂制度一旦达到相当规模并发展成熟，情况就会进一步变化。",
+      "start_ms": 36392,
+      "end_ms": 41427,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s07-n0047",
+      "text": "尤其当机器本身也由机器制造，煤铁开采、金属加工和运输业都发生变革，大工业所需要的整体生产条件已经建立以后，这种生产方式便获得很强的伸缩能力，可以突然跳跃式扩张，只受原料和销售市场限制。",
+      "start_ms": 42197,
+      "end_ms": 61407,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s07-n0048",
+      "text": "一方面，机器会直接增加原料产量，例如轧棉机就增加了棉花产量。",
+      "start_ms": 115,
+      "end_ms": 5035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s07-n0049",
+      "text": "另一方面，机器产品价格低廉，运输和通信又发生变革，这些都成为征服外国市场的武器。",
+      "start_ms": 5425,
+      "end_ms": 11675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s07-n0050",
+      "text": "机器生产摧毁当地手工业以后，迫使这些地区转而为它生产原料。",
+      "start_ms": 12315,
+      "end_ms": 16985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s07-n0051",
+      "text": "东印度就这样被迫为英国生产棉花、羊毛、大麻、黄麻、靛蓝等。",
+      "start_ms": 17410,
+      "end_ms": 22735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s07-n0052",
+      "text": "大工业国家不断把本国工人变成“过剩人口”，又像温室催熟一样推动移民和对外殖民。",
+      "start_ms": 23190,
+      "end_ms": 29135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s07-n0053",
+      "text": "这些外国地区随即变成宗主国的原料产地，例如澳大利亚就成了英国的羊毛产地。",
+      "start_ms": 29560,
+      "end_ms": 35155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s07-n0054",
+      "text": "于是，一种适合机器工业中心需要的国际分工形成了：世界的一部分主要成为农业生产区，为另一部分主要从事工业生产的地区提供原料。",
+      "start_ms": 355,
+      "end_ms": 9195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s07-n0055",
+      "text": "这场变革还与农业变革相连，但这里暂不展开。",
+      "start_ms": 10005,
+      "end_ms": 12975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s07-n0056",
+      "text": "在格莱斯顿先生推动下，英国下议院于1867年2月18日下令统计1831—1866年间联合王国进出口的各种谷物和面粉。",
+      "start_ms": 13360,
+      "end_ms": 22105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s07-n0057",
+      "text": "下面是汇总结果。",
+      "start_ms": 22485,
+      "end_ms": 23555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s07-n0058",
+      "text": "面粉已折算成谷物的夸特数。",
+      "start_ms": 24060,
+      "end_ms": 25915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s07-n0059",
+      "text": "工厂制度能以巨大的规模突然扩张，又依赖世界市场。",
+      "start_ms": 26400,
+      "end_ms": 29925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s07-n0060",
+      "text": "这必然造成一阵阵高烧般的生产，随后市场被商品塞满。",
+      "start_ms": 755,
+      "end_ms": 4545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s07-n0061",
+      "text": "市场一收缩，生产就陷入瘫痪。",
+      "start_ms": 4990,
+      "end_ms": 7185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s07-n0062",
+      "text": "工业生活因而不断经历活跃程度一般、繁荣、生产过剩、危机和停滞等阶段。",
+      "start_ms": 7670,
+      "end_ms": 13005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s07-n0063",
+      "text": "机器生产使工人的就业和生活处境变得不稳定，而这种不稳定随着工业周期反复更替，成了常态。",
+      "start_ms": 13785,
+      "end_ms": 21075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s07-n0064",
+      "text": "除了繁荣时期，资本家总要为自己在市场上占有的份额展开最激烈的争夺。",
+      "start_ms": 21420,
+      "end_ms": 26355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s07-n0065",
+      "text": "谁的产品更便宜，谁占的份额就更大。",
+      "start_ms": 26845,
+      "end_ms": 29455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s07-n0066",
+      "text": "这一方面推动资本家竞相采用能替代劳动力的改进机器和新生产方法，另一方面又会反复走到一个地步：他们靠强行把工资压到劳动力价值以下来降低商品价格。",
+      "start_ms": 255,
+      "end_ms": 11075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s07-n0067",
+      "text": "因此，工厂工人人数要增加，投入工厂的总资本就必须以快得多的比例增长。",
+      "start_ms": 12025,
+      "end_ms": 17925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s07-n0068",
+      "text": "但这个过程只发生在工业周期的涨落中，还不断受到技术进步打断。",
+      "start_ms": 18425,
+      "end_ms": 23115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s07-n0069",
+      "text": "技术进步有时使工人在技术上成为多余的人，有时直接把他们排挤出去。",
+      "start_ms": 23865,
+      "end_ms": 28985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s07-n0070",
+      "text": "机器生产发生这种质的变化时，工人不断被赶出工厂，新人也被挡在门外。",
+      "start_ms": 29415,
+      "end_ms": 35085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s07-n0071",
+      "text": "在现有技术基础上单纯扩大规模时，工厂会吸收新的工人。",
+      "start_ms": 35542,
+      "end_ms": 39657,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s07-n0072",
+      "text": "工人就这样不断被排斥，又不断被吸引，在两边来回抛动。",
+      "start_ms": 265,
+      "end_ms": 4335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s07-n0073",
+      "text": "工厂每次招进的人，在性别、年龄和技能上也不断变化。",
+      "start_ms": 5035,
+      "end_ms": 8995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s07-n0074",
+      "text": "要看清工厂工人的命运，最好的办法是快速回顾英国棉纺织业的经历。",
+      "start_ms": 9495,
+      "end_ms": 14285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s07-n0075",
+      "text": "1770—1815年的四十五年中，英国棉纺织业有五年处于萧条或停滞。",
+      "start_ms": 14400,
+      "end_ms": 20645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s07-n0076",
+      "text": "这段时期，英国工厂主垄断着机器和世界市场。",
+      "start_ms": 21125,
+      "end_ms": 24445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s07-n0077",
+      "text": "1815—1821年，行业萧条。",
+      "start_ms": 24450,
+      "end_ms": 28045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s07-n0078",
+      "text": "1822年和1823年繁荣。",
+      "start_ms": 655,
+      "end_ms": 2145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s07-n0079",
+      "text": "1824年，禁止工人结社的法律被废除，工厂普遍大规模扩张。",
+      "start_ms": 2815,
+      "end_ms": 7365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s07-n0080",
+      "text": "1825年发生危机。",
+      "start_ms": 8285,
+      "end_ms": 9205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s07-n0081",
+      "text": "1826年，棉纺织工人遭受严重苦难并爆发骚乱。",
+      "start_ms": 10015,
+      "end_ms": 13535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s07-n0082",
+      "text": "1827年略有好转。",
+      "start_ms": 14445,
+      "end_ms": 15315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s07-n0083",
+      "text": "1828年，蒸汽织机和出口大幅增加。",
+      "start_ms": 16035,
+      "end_ms": 18675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s07-n0084",
+      "text": "1829年的出口超过以往各年，尤其是对印度的出口。",
+      "start_ms": 615,
+      "end_ms": 4185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s07-n0085",
+      "text": "1830年，市场充斥过多商品，社会陷入严重困境。",
+      "start_ms": 4975,
+      "end_ms": 8645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s07-n0086",
+      "text": "1831—1833年，萧条持续，东亚贸易，也就是与印度和中国的贸易，不再由东印度公司垄断。",
+      "start_ms": 9405,
+      "end_ms": 16445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s07-n0087",
+      "text": "1834年，工厂和机器大幅增加，工厂缺少人手。",
+      "start_ms": 17395,
+      "end_ms": 21005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s07-n0088",
+      "text": "新济贫法推动农业工人迁往工厂区。",
+      "start_ms": 21410,
+      "end_ms": 24115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s07-n0089",
+      "text": "农村各郡的儿童被搜罗一空，形成白人奴隶贸易。",
+      "start_ms": 24495,
+      "end_ms": 28195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s07-n0090",
+      "text": "1835年，行业高度繁荣，手工棉织工却同时被活活饿死。",
+      "start_ms": 625,
+      "end_ms": 4445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s07-n0091",
+      "text": "1836年高度繁荣。",
+      "start_ms": 5165,
+      "end_ms": 6115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s07-n0092",
+      "text": "1837年和1838年陷入萧条和危机。",
+      "start_ms": 6775,
+      "end_ms": 9105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s07-n0093",
+      "text": "1839年复苏。",
+      "start_ms": 9855,
+      "end_ms": 10485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s07-n0094",
+      "text": "1840年严重萧条，发生骚乱，军队出动。",
+      "start_ms": 11125,
+      "end_ms": 13745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s07-n0095",
+      "text": "1841年和1842年，工厂工人遭受可怕苦难。",
+      "start_ms": 14545,
+      "end_ms": 17655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s07-n0096",
+      "text": "1842年，工厂主把工人挡在厂外，企图迫使政府废除谷物法。",
+      "start_ms": 655,
+      "end_ms": 4715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s07-n0097",
+      "text": "成千上万工人涌向约克郡，随后被军队赶回去，领头者在兰开斯特受审。",
+      "start_ms": 5120,
+      "end_ms": 10275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s07-n0098",
+      "text": "1843年，苦难严重。",
+      "start_ms": 11265,
+      "end_ms": 12495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s07-n0099",
+      "text": "1844年复苏。",
+      "start_ms": 13245,
+      "end_ms": 13885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s07-n0100",
+      "text": "1845年高度繁荣。",
+      "start_ms": 14585,
+      "end_ms": 15535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s07-n0101",
+      "text": "1846年起初继续上升，随后出现衰退迹象，谷物法被废除。",
+      "start_ms": 16305,
+      "end_ms": 20265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s07-n0102",
+      "text": "1847年发生危机。",
+      "start_ms": 785,
+      "end_ms": 1595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s07-n0103",
+      "text": "为了庆祝承诺中的“大面包”，工资普遍降低10%甚至更多。",
+      "start_ms": 2040,
+      "end_ms": 6365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s07-n0104",
+      "text": "1848年继续萧条，曼彻斯特处于军队保护之下。",
+      "start_ms": 7235,
+      "end_ms": 9955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s07-n0105",
+      "text": "1849年复苏。",
+      "start_ms": 10975,
+      "end_ms": 11635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s07-n0106",
+      "text": "1850年繁荣。",
+      "start_ms": 12295,
+      "end_ms": 12925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s07-n0107",
+      "text": "1851年商品价格下跌，工资低，罢工频繁。",
+      "start_ms": 13605,
+      "end_ms": 16545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s07-n0108",
+      "text": "1852年开始好转，罢工仍在继续，工厂主威胁要从国外输入工人。",
+      "start_ms": 605,
+      "end_ms": 4675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s07-n0109",
+      "text": "1853年出口增加，普雷斯顿发生持续八个月的罢工，工人陷入严重苦难。",
+      "start_ms": 5465,
+      "end_ms": 9935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s07-n0110",
+      "text": "1854年繁荣，市场商品过剩。",
+      "start_ms": 10815,
+      "end_ms": 12545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s07-n0111",
+      "text": "1855年，美国、加拿大和东亚市场接连传来破产消息。",
+      "start_ms": 13465,
+      "end_ms": 16905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s07-n0112",
+      "text": "1856年高度繁荣。",
+      "start_ms": 17855,
+      "end_ms": 18735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s07-n0113",
+      "text": "1857年危机。",
+      "start_ms": 19435,
+      "end_ms": 19985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s07-n0114",
+      "text": "1858年好转。",
+      "start_ms": 595,
+      "end_ms": 1115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s07-n0115",
+      "text": "1859年高度繁荣，工厂增加。",
+      "start_ms": 1855,
+      "end_ms": 3775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s07-n0116",
+      "text": "1860年，英国棉纺织业达到顶峰。",
+      "start_ms": 4495,
+      "end_ms": 6745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s07-n0117",
+      "text": "印度、澳大利亚等市场塞满商品，直到1863年还几乎无法消化这些货物。",
+      "start_ms": 7040,
+      "end_ms": 11555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s07-n0118",
+      "text": "英法签订贸易条约，工厂和机器大幅增加。",
+      "start_ms": 12295,
+      "end_ms": 15395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s07-n0119",
+      "text": "1861年，繁荣延续了一段时间，随后衰退。",
+      "start_ms": 16095,
+      "end_ms": 18975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s07-n0120",
+      "text": "美国内战爆发，棉花短缺。",
+      "start_ms": 625,
+      "end_ms": 2275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s07-n0121",
+      "text": "1862—1863年，行业彻底崩溃。",
+      "start_ms": 2805,
+      "end_ms": 4925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s07-n0122",
+      "text": "棉花短缺时期的经历很有代表性，值得停下来稍作考察。",
+      "start_ms": 5210,
+      "end_ms": 8535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s07-n0123",
+      "text": "从1860—1861年的世界市场形势可以看出，棉花短缺来得正合工厂主心意，并且在某些方面对他们有利。",
+      "start_ms": 9015,
+      "end_ms": 16085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s07-n0124",
+      "text": "曼彻斯特商会的报告承认这一事实，帕默斯顿和德比也在议会公开说过，后来的事态又进一步证实了它。",
+      "start_ms": 16925,
+      "end_ms": 24065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s07-n0125",
+      "text": "1861年，联合王国共有2,887家棉纺织厂，其中确实有许多小厂。",
+      "start_ms": 25055,
+      "end_ms": 29585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s07-n0126",
+      "text": "工厂视察员A. 雷德格雷夫管辖的地区包括2,109家。",
+      "start_ms": 375,
+      "end_ms": 4355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s07-n0127",
+      "text": "这里面有392家，也就是19%，使用不到十蒸汽马力；345家，也就是16%，使用超过十马力、不到二十马力；其余1,372家使用二十马力及以上。",
+      "start_ms": 4660,
+      "end_ms": 16935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s07-n0128",
+      "text": "小厂大多是织布厂，建于1858年以后那段繁荣时期。",
+      "start_ms": 17285,
+      "end_ms": 21365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s07-n0129",
+      "text": "通常几个投机者分别提供棉纱、机器和厂房，再由过去的监工或其他没有资产的人经营。",
+      "start_ms": 21700,
+      "end_ms": 27915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s07-n0130",
+      "text": "这些小厂主大多破产了。",
+      "start_ms": 28735,
+      "end_ms": 30335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s07-n0131",
+      "text": "棉花短缺阻止了本来即将发生的商业危机，否则同样会让他们破产。",
+      "start_ms": 32364,
+      "end_ms": 35444,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s07-n0132",
+      "text": "他们虽然占工厂主总数的三分之一，所掌握的资本在棉纺织业总资本中却只占很小一部分。",
+      "start_ms": 265,
+      "end_ms": 7445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s07-n0133",
+      "text": "这说明，棉花短缺“有利于工厂主”，并不等于每个工厂主都获利。",
+      "start_ms": 7795,
+      "end_ms": 12815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s07-n0134",
+      "text": "至于幸存的工厂主怎样把损失转嫁给工人，后面的材料会具体说明。",
+      "start_ms": 13145,
+      "end_ms": 18345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s07-n0135",
+      "text": "再看全行业停工的程度。",
+      "start_ms": 18805,
+      "end_ms": 20695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s07-n0136",
+      "text": "可靠估计显示，到1862年10月，60.3%的纱锭和58%的织机已经停转。",
+      "start_ms": 21080,
+      "end_ms": 28215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s07-n0137",
+      "text": "这是全行业的平均情况，各地区当然很不相同。",
+      "start_ms": 29175,
+      "end_ms": 32975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s07-n0138",
+      "text": "只有很少几家工厂每周开足六十小时，其余都时开时停。",
+      "start_ms": 155,
+      "end_ms": 4275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s07-n0139",
+      "text": "即使少数工人仍能全时工作，计件单价也没有改变，他们的周工资仍必然下降，因为好棉花被坏棉花替代。",
+      "start_ms": 4640,
+      "end_ms": 12325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s07-n0140",
+      "text": "精纺厂用埃及棉替代海岛棉，其他工厂用苏拉特棉，也就是东印度棉，替代美国棉和埃及棉，还把棉花废料与苏拉特棉混在一起，代替纯棉。",
+      "start_ms": 12860,
+      "end_ms": 23625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s07-n0141",
+      "text": "苏拉特棉纤维短、杂质多，纱线更容易断。",
+      "start_ms": 23995,
+      "end_ms": 27335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s07-n0142",
+      "text": "经纱上浆时，人们又用各种沉重配料代替过去使用的面粉。",
+      "start_ms": 27880,
+      "end_ms": 32015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s07-n0143",
+      "text": "这些变化使机器速度下降，也使每名织工能够照看的织机减少。",
+      "start_ms": 32467,
+      "end_ms": 37362,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s07-n0144",
+      "text": "机器出错更多，工人付出的劳动增加，产品数量和计件工资却同时减少。",
+      "start_ms": 115,
+      "end_ms": 5125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s07-n0145",
+      "text": "全时使用苏拉特棉加工时，工人的损失达到20%、30%甚至更多。",
+      "start_ms": 5560,
+      "end_ms": 10555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s07-n0146",
+      "text": "多数工厂主还把计件单价直接降低5%、7.5%或10%。",
+      "start_ms": 11165,
+      "end_ms": 13835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s07-n0147",
+      "text": "由此不难想象，那些每周只工作三天、三天半、四天，或者每天只工作六小时的人处境怎样。",
+      "start_ms": 14505,
+      "end_ms": 22405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s07-n0148",
+      "text": "即使情况到1863年已经稍有好转，织工、纺纱工等人的周工资仍只有三先令四便士、三先令十便士、四先令六便士、五先令一便士等。",
+      "start_ms": 22735,
+      "end_ms": 32305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s07-n0149",
+      "text": "即使在这种痛苦处境中，工厂主发明扣工资办法的才能也丝毫没有停顿。",
+      "start_ms": 32854,
+      "end_ms": 37639,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s07-n0150",
+      "text": "坏棉花和不合用的机器明明由工厂主提供，产品因此出现瑕疵，工人却会被罚款。",
+      "start_ms": 95,
+      "end_ms": 6635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s07-n0151",
+      "text": "工人的住屋如果也属于工厂主，工厂主还会从名义工资中扣除房租，让自己得到补偿。",
+      "start_ms": 7000,
+      "end_ms": 12595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s07-n0152",
+      "text": "雷德格雷夫说，有些自动走锭纺纱机操作工负责看管一对机器，“完整工作两个星期以后只挣到八先令十一便士，还要从中扣除房租。",
+      "start_ms": 13465,
+      "end_ms": 23425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s07-n0153",
+      "text": "不过，工厂主会把一半房租当作礼物退还，因此操作工最后能把足足六先令十一便士带回家。",
+      "start_ms": 23875,
+      "end_ms": 31085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s07-n0154",
+      "text": "1862年末，织工的周工资从两先令六便士起”。",
+      "start_ms": 31938,
+      "end_ms": 35778,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s07-n0155",
+      "text": "工人即使只工作很短时间，房租也经常照样从工资中扣除。",
+      "start_ms": 35783,
+      "end_ms": 40678,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s07-n0156",
+      "text": "兰开夏一些地区出现近似饥荒的情况，也就毫不奇怪。",
+      "start_ms": 305,
+      "end_ms": 3625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s07-n0157",
+      "text": "比这些情况更有代表性的，是生产过程怎样以工人为代价发生变革。",
+      "start_ms": 3950,
+      "end_ms": 8675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s07-n0158",
+      "text": "工厂主仿佛解剖学家拿青蛙做试验，把工人当成不值钱的活体实验材料。",
+      "start_ms": 8970,
+      "end_ms": 14425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s07-n0159",
+      "text": "雷德格雷夫说：“我虽然列出了许多工厂里工人的实际收入，却不能认为他们每周都能拿到同样数额。",
+      "start_ms": 14860,
+      "end_ms": 21175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s07-n0160",
+      "text": "工厂主不断进行‘试验’，使工人收入发生极大波动……他们的收入随着混棉质量上下变化。",
+      "start_ms": 21965,
+      "end_ms": 28355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s07-n0161",
+      "text": "有时只比过去少15%，下一周或再下一周就会少50%至60%。”",
+      "start_ms": 28750,
+      "end_ms": 33275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s07-n0162",
+      "text": "这些试验夺走的还不只是工人的食物，工人的各种感官也要一起受罪。",
+      "start_ms": 195,
+      "end_ms": 4945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s07-n0163",
+      "text": "“负责开松棉花的工人告诉我，难以忍受的恶臭让他们恶心……混棉、粗梳和梳棉车间的工人则受到粉尘和污物刺激，头部各个孔窍都不舒服，还会咳嗽、呼吸困难……棉纤维很短，所以经纱上浆时要加入大量材料，用各种东西代替过去的面粉。",
+      "start_ms": 5400,
+      "end_ms": 25145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s07-n0164",
+      "text": "这使织工恶心并消化不良。",
+      "start_ms": 25955,
+      "end_ms": 28005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s07-n0165",
+      "text": "粉尘会引起支气管炎和咽喉炎，苏拉特棉里的污物刺激皮肤，还会造成皮肤病。”",
+      "start_ms": 28580,
+      "end_ms": 34505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s07-n0166",
+      "text": "另一方面，用这些配料代替面粉，却成了工厂主取之不尽的钱袋，因为它们能增加棉纱重量。",
+      "start_ms": 34993,
+      "end_ms": 42198,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s07-n0167",
+      "text": "十五磅原料织成布以后，可以变成二十磅。",
+      "start_ms": 42793,
+      "end_ms": 45888,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s07-n0168",
+      "text": "1864年4月30日的工厂视察员报告写道：“这个行业如今利用这种手段，已经到了真正无耻的程度。",
+      "start_ms": 0,
+      "end_ms": 8464,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s07-n0169",
+      "text": "我从可靠来源知道，一块八磅重的布，只用了五又四分之一磅棉花，却加入两又四分之三磅浆料。",
+      "start_ms": 8464,
+      "end_ms": 16207,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s07-n0170",
+      "text": "另一块五又四分之一磅的布，含有两磅浆料。",
+      "start_ms": 16207,
+      "end_ms": 19809,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s07-n0171",
+      "text": "这些都是出口用的普通衬衫布。",
+      "start_ms": 19809,
+      "end_ms": 22330,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s07-n0172",
+      "text": "有些品种甚至加入50%的浆料。",
+      "start_ms": 22330,
+      "end_ms": 25031,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s07-n0173",
+      "text": "工厂主因此可以夸口，而且确实也在夸口：他们出售织物所得的钱，甚至低于布中名义上所含棉纱的价格，却仍能发财。”",
+      "start_ms": 25031,
+      "end_ms": 34755,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s07-n0174",
+      "text": "工人不仅在厂内被工厂主拿来做试验，到了厂外，地方当局也把他们当作试验对象。",
+      "start_ms": 95,
+      "end_ms": 6035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s07-n0175",
+      "text": "〔译者注：这里没有进一步说明地方当局具体做了什么。",
+      "start_ms": 6400,
+      "end_ms": 9555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s07-n0176",
+      "text": "〕除此之外，他们还要承受降薪和失业，在贫困中靠救济过活，同时还得听贵族和下议院议员发表颂词。",
+      "start_ms": 9560,
+      "end_ms": 17775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s07-n0177",
+      "text": "“一些不幸的妇女因为棉花短缺而失业，沦为社会弃民，此后一直如此……年轻妓女增加的数量，超过了过去二十五年中的任何时候。”",
+      "start_ms": 18045,
+      "end_ms": 27375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s07-n0178",
+      "text": "由此可见，英国棉纺织业最初四十五年，也就是1770—1815年，只有五年处于危机和停滞。",
+      "start_ms": 27900,
+      "end_ms": 35535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s07-n0179",
+      "text": "不过，那是英国垄断世界市场的时期。",
+      "start_ms": 35823,
+      "end_ms": 38428,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s07-n0180",
+      "text": "1815—1863年的第二个时期共有四十八年，其中只有二十年复苏或繁荣，另外二十八年都处于萧条和停滞。",
+      "start_ms": 515,
+      "end_ms": 8815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s07-n0181",
+      "text": "1815—1830年，欧洲大陆和美国开始参与竞争。",
+      "start_ms": 9200,
+      "end_ms": 12595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s07-n0182",
+      "text": "1833年以后，人们靠“毁灭人种”强行扩大亚洲市场。",
+      "start_ms": 13915,
+      "end_ms": 17405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s07-n0183",
+      "text": "1846年谷物法废除以后，到1863年为止，十七年中只有八年处于一般活跃或繁荣，九年处于萧条和停滞。",
+      "start_ms": 18355,
+      "end_ms": 26985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s07-n0184",
+      "text": "至于成年男性棉纺织工人即使在繁荣时期处境如何，可以从下面的脚注看出。",
+      "start_ms": 27340,
+      "end_ms": 33235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    }
+  ]
+}

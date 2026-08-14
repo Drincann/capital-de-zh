@@ -1,19 +1,22 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "status": "ready",
-  "audio_version_id": "ch22-s05-v1-audio-fd0fcea52156",
+  "audio_version_id": "ch22-s05-v2-audio-5b6617b1380d",
+  "base_audio_version_id": "ch22-s05-v1-audio-fd0fcea52156",
+  "reused_chunk_count": 5,
+  "generated_chunk_count": 1,
   "unit_id": "ch22-s05",
-  "translation_version_id": "ch22-s05-v1",
-  "translation_sha256": "ffdd95ea558e7239a47b2954098aeed1139748dedf652a9ba21b19958c040397",
+  "translation_version_id": "ch22-s05-v2",
+  "translation_sha256": "efcf38dbe4681400d2d57960d668b1afc34b0809bdbcc2740d93efc931b6f9c5",
   "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
   "model_id": "seed-tts-2.0",
   "model_label": "Seed-TTS 2.0",
   "transport": "tts-unidirectional-http",
   "speaker": "zh_male_dayi_uranus_bigtts",
   "model": "seed-tts-2.0-standard",
-  "created_at": "2026-08-09T21:17:36.962Z",
-  "completed_at": "2026-08-09T21:18:04.578Z",
-  "duration_ms": 202262,
+  "created_at": "2026-08-14T18:34:09.073Z",
+  "completed_at": "2026-08-14T18:34:14.499Z",
+  "duration_ms": 203482,
   "sentence_count": 34,
   "chunks": [
     {
@@ -94,9 +97,9 @@
     {
       "id": "c0006",
       "audio_file": "c0006.mp3",
-      "duration_ms": 28545,
-      "bytes": 464685,
-      "sha256": "ca2fa7d06f5730d00c1cf3398362eacf33dea332b989a744f07fb61df3cb73d8",
+      "duration_ms": 29765,
+      "bytes": 486957,
+      "sha256": "e4fa6521fc12e9ecf7c762612c51dd2b42ec9909aa25beee2aca1f4b03ae85bb",
       "sentence_ids": [
         "ch22-s05-n0031",
         "ch22-s05-n0032",
@@ -349,32 +352,32 @@
     {
       "id": "ch22-s05-n0031",
       "text": "可是，福西特紧接着又说：“英国每年积累的财富总量分成两部分。",
-      "start_ms": 185,
-      "end_ms": 5005,
+      "start_ms": 265,
+      "end_ms": 4635,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0006"
     },
     {
       "id": "ch22-s05-n0032",
       "text": "一部分留在英国，用来维持本国工业；另一部分出口到别国……用于本国工业的那一部分，只占英国每年积累财富的一小部分。”",
-      "start_ms": 5240,
-      "end_ms": 13395,
+      "start_ms": 4880,
+      "end_ms": 12835,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0006"
     },
     {
       "id": "ch22-s05-n0033",
-      "text": "这就是说，英国工人每年无偿交出的新增剩余产品，大部分并没有在英国转化为资本，而是在国外转化为资本。",
-      "start_ms": 14075,
-      "end_ms": 21925,
+      "text": "这就是说，英国每年新增的剩余产品，大部分是在不给等价物的情况下从英国工人手里夺走的，却没有在英国转化为资本，而是在国外转化为资本。",
+      "start_ms": 13355,
+      "end_ms": 23645,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0006"
     },
     {
       "id": "ch22-s05-n0034",
       "text": "可是，同这部分追加资本一起出口的，不也正是上帝和边沁发明的“劳动基金”的一部分吗？",
-      "start_ms": 22345,
-      "end_ms": 28395,
+      "start_ms": 23960,
+      "end_ms": 29615,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0006"
     }

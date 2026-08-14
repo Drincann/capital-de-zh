@@ -1,0 +1,1354 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s05-v2-audio-949a9adbe677",
+  "unit_id": "ch13-s05",
+  "translation_version_id": "ch13-s05-v2",
+  "translation_sha256": "7063018dac9b41c619ce8bba125590582b343ce9fcb56946fbbf2e62c08f2493",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:06:04.572Z",
+  "completed_at": "2026-08-04T17:08:02.812Z",
+  "duration_ms": 790241,
+  "sentence_count": 126,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 44603,
+      "bytes": 714669,
+      "sha256": "48b7265c7c7caea2ff6b7ab3e23e2528aba0fee5acd7bd595d081316ed3ab619",
+      "sentence_ids": [
+        "ch13-s05-n0001",
+        "ch13-s05-n0002",
+        "ch13-s05-n0003",
+        "ch13-s05-n0004",
+        "ch13-s05-n0005",
+        "ch13-s05-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 37915,
+      "bytes": 608301,
+      "sha256": "79a8fc34615d64f81cc086d84ece733f68f2ae481eb891cca6cdf59bb2a60366",
+      "sentence_ids": [
+        "ch13-s05-n0007",
+        "ch13-s05-n0008",
+        "ch13-s05-n0009",
+        "ch13-s05-n0010",
+        "ch13-s05-n0011",
+        "ch13-s05-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 45914,
+      "bytes": 736557,
+      "sha256": "9defe294115826175e4c1fca09277a8851534582221773fa05514b0a8b06edca",
+      "sentence_ids": [
+        "ch13-s05-n0013",
+        "ch13-s05-n0014",
+        "ch13-s05-n0015",
+        "ch13-s05-n0016",
+        "ch13-s05-n0017",
+        "ch13-s05-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 46678,
+      "bytes": 749229,
+      "sha256": "4b7264763483ff72b86e3d450446e8f1a77fa777bd198a775f11902958e06811",
+      "sentence_ids": [
+        "ch13-s05-n0019",
+        "ch13-s05-n0020",
+        "ch13-s05-n0021",
+        "ch13-s05-n0022",
+        "ch13-s05-n0023",
+        "ch13-s05-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 44338,
+      "bytes": 716589,
+      "sha256": "2e7d9c277f1a226d00f820433bf982b6c39650b79ae464573e499b99c9cebf08",
+      "sentence_ids": [
+        "ch13-s05-n0025",
+        "ch13-s05-n0026",
+        "ch13-s05-n0027",
+        "ch13-s05-n0028",
+        "ch13-s05-n0029",
+        "ch13-s05-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 28785,
+      "bytes": 461613,
+      "sha256": "dfb30f75f976958e031f2222b5e12bd4bc238546a9a257f9386c0704f15fb281",
+      "sentence_ids": [
+        "ch13-s05-n0031",
+        "ch13-s05-n0032",
+        "ch13-s05-n0033",
+        "ch13-s05-n0034",
+        "ch13-s05-n0035",
+        "ch13-s05-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 37516,
+      "bytes": 602157,
+      "sha256": "fab814e58964cdd42da8b17667494b6a9fde7baaf21ff34bad049a1fdbc97f8b",
+      "sentence_ids": [
+        "ch13-s05-n0037",
+        "ch13-s05-n0038",
+        "ch13-s05-n0039",
+        "ch13-s05-n0040",
+        "ch13-s05-n0041",
+        "ch13-s05-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 23155,
+      "bytes": 371373,
+      "sha256": "740f0b17c9a17808d329e598b068538c4b9c3de88ecaf5cb91583565398a4e2b",
+      "sentence_ids": [
+        "ch13-s05-n0043",
+        "ch13-s05-n0044",
+        "ch13-s05-n0045",
+        "ch13-s05-n0046",
+        "ch13-s05-n0047",
+        "ch13-s05-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 28155,
+      "bytes": 451629,
+      "sha256": "e945ca11a7fc26204b40418e33b4d68a88045195c3a2c9904d0026832842cdfb",
+      "sentence_ids": [
+        "ch13-s05-n0049",
+        "ch13-s05-n0050",
+        "ch13-s05-n0051",
+        "ch13-s05-n0052",
+        "ch13-s05-n0053",
+        "ch13-s05-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 38718,
+      "bytes": 627885,
+      "sha256": "54eebab34f8bf74e920bfd4a8c8261468ea02b4901090385563fbc49d6561463",
+      "sentence_ids": [
+        "ch13-s05-n0055",
+        "ch13-s05-n0056",
+        "ch13-s05-n0057",
+        "ch13-s05-n0058",
+        "ch13-s05-n0059",
+        "ch13-s05-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 38581,
+      "bytes": 620973,
+      "sha256": "55913957578baff8bf44c7468cb715c0e442b985aac1ed7aa3ba106a12f3ceee",
+      "sentence_ids": [
+        "ch13-s05-n0061",
+        "ch13-s05-n0062",
+        "ch13-s05-n0063",
+        "ch13-s05-n0064",
+        "ch13-s05-n0065",
+        "ch13-s05-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 44131,
+      "bytes": 711213,
+      "sha256": "b592423bce5296c7bee51f3e979a3cf647694fd47c510073ffba1793772917f0",
+      "sentence_ids": [
+        "ch13-s05-n0067",
+        "ch13-s05-n0068",
+        "ch13-s05-n0069",
+        "ch13-s05-n0070",
+        "ch13-s05-n0071",
+        "ch13-s05-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 34845,
+      "bytes": 557613,
+      "sha256": "3c12a940ade651215d722fde803fcd1d3071ae4591e33b557a16b9bf3bd3dddb",
+      "sentence_ids": [
+        "ch13-s05-n0073",
+        "ch13-s05-n0074",
+        "ch13-s05-n0075",
+        "ch13-s05-n0076",
+        "ch13-s05-n0077",
+        "ch13-s05-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 25365,
+      "bytes": 407469,
+      "sha256": "e8ebee38e7d3cab4a55ec5afab248f58c92fcbbf0e0312b9a12acfb80dd305f9",
+      "sentence_ids": [
+        "ch13-s05-n0079",
+        "ch13-s05-n0080",
+        "ch13-s05-n0081",
+        "ch13-s05-n0082",
+        "ch13-s05-n0083",
+        "ch13-s05-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 13665,
+      "bytes": 223917,
+      "sha256": "5aac26aa54ba5f72c90fd75aa8b70945727e9df97a84384fb144abd6e969c9f6",
+      "sentence_ids": [
+        "ch13-s05-n0085",
+        "ch13-s05-n0086",
+        "ch13-s05-n0087",
+        "ch13-s05-n0088",
+        "ch13-s05-n0089",
+        "ch13-s05-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 37360,
+      "bytes": 599469,
+      "sha256": "e975e9212dee744920158685c04f30f35f50349654b1a4b378cfa5619a1f61ed",
+      "sentence_ids": [
+        "ch13-s05-n0091",
+        "ch13-s05-n0092",
+        "ch13-s05-n0093",
+        "ch13-s05-n0094",
+        "ch13-s05-n0095",
+        "ch13-s05-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 39955,
+      "bytes": 640557,
+      "sha256": "16f4bf202fb3c64e63ca2a1473be621958ee18da7c0c9633bf6d9dd4a147d55a",
+      "sentence_ids": [
+        "ch13-s05-n0097",
+        "ch13-s05-n0098",
+        "ch13-s05-n0099",
+        "ch13-s05-n0100",
+        "ch13-s05-n0101",
+        "ch13-s05-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 35095,
+      "bytes": 561069,
+      "sha256": "56d180c2815f95112765952b98962658092c9a601b944370804d7bbabcd58a75",
+      "sentence_ids": [
+        "ch13-s05-n0103",
+        "ch13-s05-n0104",
+        "ch13-s05-n0105",
+        "ch13-s05-n0106",
+        "ch13-s05-n0107",
+        "ch13-s05-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 45949,
+      "bytes": 740013,
+      "sha256": "e3e2633cb32ec847474a17fbde12ccf37a92d13928a8aaa8e938b43aac3f2f20",
+      "sentence_ids": [
+        "ch13-s05-n0109",
+        "ch13-s05-n0110",
+        "ch13-s05-n0111",
+        "ch13-s05-n0112",
+        "ch13-s05-n0113",
+        "ch13-s05-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 58178,
+      "bytes": 938925,
+      "sha256": "48ae5f8e8d3d57309b160a3fbec82a0ea331f7074ff75e6bab1d7e39c65ecd15",
+      "sentence_ids": [
+        "ch13-s05-n0115",
+        "ch13-s05-n0116",
+        "ch13-s05-n0117",
+        "ch13-s05-n0118",
+        "ch13-s05-n0119"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 35305,
+      "bytes": 567597,
+      "sha256": "7d44ce452517ca1a7b79394fc95a34b12a4a1b1210f827c69b83287a7b30be39",
+      "sentence_ids": [
+        "ch13-s05-n0120",
+        "ch13-s05-n0121",
+        "ch13-s05-n0122",
+        "ch13-s05-n0123",
+        "ch13-s05-n0124",
+        "ch13-s05-n0125"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 6035,
+      "bytes": 102957,
+      "sha256": "98ae4c25a18749f58775779d58317ce7717161c0796cda23a5726deb343a8708",
+      "sentence_ids": [
+        "ch13-s05-n0126"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s05-n0001",
+      "text": "资本家与雇佣工人的斗争，随着资本关系本身一同开始，并贯穿了整个工场手工业时期。",
+      "start_ms": 155,
+      "end_ms": 7945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s05-n0002",
+      "text": "但直到机器出现以后，工人才开始反抗劳动工具本身，因为机器就是资本获得物质形态的方式。",
+      "start_ms": 8445,
+      "end_ms": 16655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s05-n0003",
+      "text": "工人所反抗的，是这种特定形式的生产资料，因为它构成了资本主义生产方式的物质基础。",
+      "start_ms": 17020,
+      "end_ms": 24695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s05-n0004",
+      "text": "十七世纪，欧洲几乎各地都发生过反对所谓织带机的工人暴动。",
+      "start_ms": 25250,
+      "end_ms": 30105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s05-n0005",
+      "text": "这种机器也叫织绳机或织带织机，用来织造丝带和花边。",
+      "start_ms": 31138,
+      "end_ms": 35283,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s05-n0006",
+      "text": "十七世纪前三分之一快结束时，一名荷兰人在伦敦附近建造了一座风力锯木厂，结果被暴动的人群摧毁。",
+      "start_ms": 35738,
+      "end_ms": 44453,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s05-n0007",
+      "text": "直到十八世纪初，英国民众仍在反对水力锯木机，而且这种反对得到议会支持。",
+      "start_ms": 555,
+      "end_ms": 6025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s05-n0008",
+      "text": "这类机器费了很大力气才在英国推行开来。",
+      "start_ms": 6170,
+      "end_ms": 8745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s05-n0009",
+      "text": "1758年，埃弗里特制造了第一台水力剪毛机，十万名因此失业的人把它烧毁。",
+      "start_ms": 9315,
+      "end_ms": 14725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s05-n0010",
+      "text": "五万名过去靠梳理羊毛生活的工人，则向议会请愿，反对粗梳机和阿克莱特的梳棉机。",
+      "start_ms": 15050,
+      "end_ms": 21565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s05-n0011",
+      "text": "十九世纪最初十五年，英国工场手工业区发生大规模毁坏机器的事件，尤其是蒸汽织机投入使用以后。",
+      "start_ms": 21980,
+      "end_ms": 29585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s05-n0012",
+      "text": "这场斗争被称为卢德运动，也给西德茅斯、卡斯尔雷等反雅各宾政府提供了借口，让它们采取最反动的暴力措施。",
+      "start_ms": 29855,
+      "end_ms": 37765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s05-n0013",
+      "text": "工人需要经过一段时间，积累足够经验，才能把机器本身同机器的资本主义用法区分开来，并把攻击目标从物质生产资料转向利用机器进行剥削的社会形式。",
+      "start_ms": 125,
+      "end_ms": 11795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s05-n0014",
+      "text": "工场手工业内部围绕工资展开的斗争，以这种生产方式已经存在为前提，并不是要消灭它。",
+      "start_ms": 12485,
+      "end_ms": 19705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s05-n0015",
+      "text": "反对建立工场手工业的，主要是行会师傅和享有特权的城市，而不是雇佣工人。",
+      "start_ms": 20140,
+      "end_ms": 26325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s05-n0016",
+      "text": "因此，工场手工业时期的作者通常认为，分工在效果上能代替本来还需要增加的工人，却不会把已经就业的工人实际赶走。",
+      "start_ms": 27000,
+      "end_ms": 37125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s05-n0017",
+      "text": "这一区别很简单。",
+      "start_ms": 37609,
+      "end_ms": 38544,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s05-n0018",
+      "text": "比如说，英国如今用五十万工人和机器纺出的棉花，如果改用旧式纺车，需要一亿人来纺。",
+      "start_ms": 38914,
+      "end_ms": 45764,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s05-n0019",
+      "text": "这当然不是说机器取代了那从未存在过的一亿人，只是说要替代现有纺纱机器，就得增加几千万工人。",
+      "start_ms": 95,
+      "end_ms": 7715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s05-n0020",
+      "text": "可是，如果说蒸汽织机让英国八十万织工流落街头，说的就是另一回事：这些工人本来确实存在，后来实际被机器取代或排挤了。",
+      "start_ms": 8165,
+      "end_ms": 18445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s05-n0021",
+      "text": "在工场手工业时期，生产即使被分成许多局部工序，基础仍然是手艺劳动。",
+      "start_ms": 18840,
+      "end_ms": 24675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s05-n0022",
+      "text": "中世纪留下的城市工人数量相对不多，无法满足新殖民市场的需求。",
+      "start_ms": 25135,
+      "end_ms": 30455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s05-n0023",
+      "text": "与此同时，封建制度瓦解，把许多农民赶出土地，真正的工场手工业便为他们开辟了新的生产领域。",
+      "start_ms": 30943,
+      "end_ms": 38608,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s05-n0024",
+      "text": "因此，当时工场内部的分工和协作主要显示出积极的一面，也就是让已经就业的工人生产得更多。",
+      "start_ms": 39118,
+      "end_ms": 46528,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s05-n0025",
+      "text": "不过，少数人把劳动者组织起来，把劳动资料集中到自己手中，这种做法应用于农业时，早在大工业出现以前，就已在许多国家迅速而猛烈地改变了生产方式，进而改变农村人口的生活条件和谋生手段。",
+      "start_ms": 495,
+      "end_ms": 15705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s05-n0026",
+      "text": "但这种斗争起初主要发生在大土地所有者与小土地所有者之间，而不是资本与雇佣劳动之间。",
+      "start_ms": 16125,
+      "end_ms": 22745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s05-n0027",
+      "text": "羊、马等劳动资料取代农业工人时，直接暴力首先为这场产业变革创造了前提。",
+      "start_ms": 23425,
+      "end_ms": 29145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s05-n0028",
+      "text": "不是羊先来、工人才离开土地，而是先把工人赶走，羊才占据土地。",
+      "start_ms": 29895,
+      "end_ms": 35195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s05-n0029",
+      "text": "只有像英国那样大规模掠夺土地，才为大农业开辟出施展空间。",
+      "start_ms": 35493,
+      "end_ms": 40208,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s05-n0030",
+      "text": "所以，这场农业变革在开始时更像一场政治革命。",
+      "start_ms": 40608,
+      "end_ms": 44188,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s05-n0031",
+      "text": "劳动工具变成机器以后，就立即成了工人的竞争者。",
+      "start_ms": 235,
+      "end_ms": 3545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s05-n0032",
+      "text": "机器毁掉的工人生计越多，资本从机器中得到的增殖也越大。",
+      "start_ms": 3980,
+      "end_ms": 7965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s05-n0033",
+      "text": "整个资本主义生产制度建立在一个前提上：工人把自己的劳动力当作商品出售。",
+      "start_ms": 8260,
+      "end_ms": 13155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s05-n0034",
+      "text": "分工使这种劳动力片面发展，只剩下操作某一种局部工具的特殊技能。",
+      "start_ms": 13680,
+      "end_ms": 18735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s05-n0035",
+      "text": "一旦机器接手了工具，工人的劳动力失去用途，也就失去了交换价值。",
+      "start_ms": 19155,
+      "end_ms": 23885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s05-n0036",
+      "text": "这个工人再也卖不出去自己的劳动力，就像退出流通的纸币一样。",
+      "start_ms": 24375,
+      "end_ms": 28635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s05-n0037",
+      "text": "机器使一部分工人成了过剩人口，也就是资本增殖不再直接需要的人。",
+      "start_ms": 465,
+      "end_ms": 4995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s05-n0038",
+      "text": "他们一方面在手工业和工场手工业与机器生产的不平等竞争中走向毁灭，另一方面涌入所有比较容易进入的行业，使劳动力市场供过于求，把劳动力的价格压到价值以下。",
+      "start_ms": 5375,
+      "end_ms": 15975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s05-n0039",
+      "text": "有人用两种说法安慰陷入贫困的工人：他们的苦难只是“暂时的不便”，而且机器只会逐步占领整个生产领域，所以破坏的范围和强度会受到限制。",
+      "start_ms": 16835,
+      "end_ms": 26655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s05-n0040",
+      "text": "这两种安慰彼此矛盾。",
+      "start_ms": 26980,
+      "end_ms": 28325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s05-n0041",
+      "text": "机器逐步进入一个生产领域时，与它竞争的工人会长期处于贫困。",
+      "start_ms": 28705,
+      "end_ms": 33235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s05-n0042",
+      "text": "机器迅速进入时，造成的失业和苦难则集中爆发。",
+      "start_ms": 33711,
+      "end_ms": 37366,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s05-n0043",
+      "text": "世界历史上很少有比英国手工棉织工的衰亡更可怕的景象。",
+      "start_ms": 175,
+      "end_ms": 3445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s05-n0044",
+      "text": "这场衰亡拖了几十年，到1838年才最终完成。",
+      "start_ms": 3760,
+      "end_ms": 6925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s05-n0045",
+      "text": "许多人饿死，另一些人长期和家人每天只靠两便士半勉强活着。",
+      "start_ms": 7180,
+      "end_ms": 11145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s05-n0046",
+      "text": "英国棉纺机器在东印度造成的打击则迅速而猛烈。",
+      "start_ms": 11485,
+      "end_ms": 14235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s05-n0047",
+      "text": "当地总督在1834—1835年写道：“这种苦难在商业史上几乎找不到可比的例子。",
+      "start_ms": 14625,
+      "end_ms": 19985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s05-n0048",
+      "text": "印度平原上，到处散落着棉织工的白骨。",
+      "start_ms": 20395,
+      "end_ms": 23005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s05-n0049",
+      "text": "”当然，对那些已经离开人世的织工来说，机器造成的确实只是“尘世间的不便”。",
+      "start_ms": 0,
+      "end_ms": 5955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s05-n0050",
+      "text": "除此以外，机器的“暂时”影响其实一直存在，因为它不断进入新的生产领域。",
+      "start_ms": 5960,
+      "end_ms": 10915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s05-n0051",
+      "text": "资本主义生产方式本来就让劳动条件和劳动产品脱离工人，成为独立而陌生的力量。",
+      "start_ms": 11815,
+      "end_ms": 17625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s05-n0052",
+      "text": "到了机器生产，这种关系发展成彻底的对立。",
+      "start_ms": 18000,
+      "end_ms": 21195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s05-n0053",
+      "text": "正因如此，工人才第一次粗暴地反抗劳动工具本身。",
+      "start_ms": 21620,
+      "end_ms": 25645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s05-n0054",
+      "text": "劳动工具反过来打倒工人。",
+      "start_ms": 26025,
+      "end_ms": 28005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s05-n0055",
+      "text": "新机器与传统手工业或工场手工业竞争时，这种直接对立最容易看见。",
+      "start_ms": 455,
+      "end_ms": 5035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s05-n0056",
+      "text": "但即使在大工业内部，机器不断改进、自动体系不断发展，也会产生同样的结果。",
+      "start_ms": 5300,
+      "end_ms": 10925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s05-n0057",
+      "text": "“改进机器始终有一个目标：减少手工劳动，或者在工厂的生产链中用铁制装置代替人的操作，补齐其中一环。”",
+      "start_ms": 11240,
+      "end_ms": 19195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s05-n0058",
+      "text": "“过去用手带动的机器，如今改用蒸汽力或水力驱动，这样的事每天都在发生……各种细小改进也持续不断。",
+      "start_ms": 20160,
+      "end_ms": 27905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s05-n0059",
+      "text": "它们有的节省动力，有的改善产品，有的在同样时间里增加产量，有的排挤一个儿童、一名妇女或一名男子。",
+      "start_ms": 28180,
+      "end_ms": 35865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s05-n0060",
+      "text": "这些改进看起来不大，却会产生重要结果。”",
+      "start_ms": 36193,
+      "end_ms": 38568,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s05-n0061",
+      "text": "“凡是非常依赖熟练技巧和稳定手法的操作，人们都会尽快从那个技术熟练、却常常不肯服从的工人手中拿走，交给一套专门装置。",
+      "start_ms": 0,
+      "end_ms": 10815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s05-n0062",
+      "text": "装置调节得十分准确，只需一个儿童看管。”",
+      "start_ms": 11605,
+      "end_ms": 14765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s05-n0063",
+      "text": "“在自动体系中，工人的才能不断被排挤。”",
+      "start_ms": 15460,
+      "end_ms": 18495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s05-n0064",
+      "text": "“为了达到一定产量，机器改进不仅会减少成年工人的数量，还会用一类人替换另一类人，用不熟练的人替换熟练的人，用儿童替换成人，用妇女替换男子。",
+      "start_ms": 19060,
+      "end_ms": 31965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s05-n0065",
+      "text": "所有这些变化都会使工资率不断波动。”",
+      "start_ms": 32426,
+      "end_ms": 35461,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s05-n0066",
+      "text": "“机器不断把成年工人赶出工厂。”",
+      "start_ms": 36026,
+      "end_ms": 38431,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s05-n0067",
+      "text": "随着实践经验积累、已有机械设备规模扩大和技术持续进步，机器体系能够极快地扩张。",
+      "start_ms": 395,
+      "end_ms": 6105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s05-n0068",
+      "text": "前面已经看到，工作日缩短的压力怎样使这种发展突飞猛进。",
+      "start_ms": 6390,
+      "end_ms": 10355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s05-n0069",
+      "text": "但在1860年这个英国棉业的巅峰年份，谁能料到，接下来的三年会在美国内战的刺激下，让机器飞速改进，并以相应速度排挤手工劳动？",
+      "start_ms": 10710,
+      "end_ms": 20315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s05-n0070",
+      "text": "这里只举英国工厂视察员报告中的几个例子。",
+      "start_ms": 20750,
+      "end_ms": 23375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s05-n0071",
+      "text": "一名曼彻斯特工厂主说：“过去需要七十五台梳棉机，现在只需十二台，就能生产同样数量、质量相同甚至更好的产品……每周节省工资十英镑，棉花废料减少10%。",
+      "start_ms": 23770,
+      "end_ms": 35641,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s05-n0072",
+      "text": "”曼彻斯特一家精纺厂加快机器运转，并采用多种自动化工序以后，一个部门裁掉四分之一工人，另一个部门裁掉一半以上。",
+      "start_ms": 36201,
+      "end_ms": 43981,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s05-n0073",
+      "text": "第二道梳棉工序又改用精梳机，使梳棉车间的人数大幅减少。",
+      "start_ms": 535,
+      "end_ms": 5125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s05-n0074",
+      "text": "另一家纺纱厂估计，自己总体节省了10%的“人手”。",
+      "start_ms": 5625,
+      "end_ms": 9465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s05-n0075",
+      "text": "曼彻斯特的纺纱厂主吉尔摩兄弟说：“采用新机器以后，我们估计开清棉部门的人手和工资支出足足减少了三分之一……粗纱机和并条机车间的支出和人手减少约三分之一，纺纱车间的支出也减少约三分之一。",
+      "start_ms": 9585,
+      "end_ms": 24325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s05-n0076",
+      "text": "但还不止这些。",
+      "start_ms": 25115,
+      "end_ms": 26065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s05-n0077",
+      "text": "现在，我们的棉纱经过新机器加工，质量提高了。",
+      "start_ms": 26530,
+      "end_ms": 29985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s05-n0078",
+      "text": "织工用这种纱，可以比过去的机器纱织出更多、更好的布。”",
+      "start_ms": 30365,
+      "end_ms": 34695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s05-n0079",
+      "text": "工厂视察员A. 雷德格雷夫接着指出：“工人人数减少，产量却增加，这种变化发展得很快。",
+      "start_ms": 245,
+      "end_ms": 6385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s05-n0080",
+      "text": "毛纺厂最近又开始一轮裁员，而且仍在继续。",
+      "start_ms": 6815,
+      "end_ms": 9665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s05-n0081",
+      "text": "几天前，罗奇代尔附近一名校长告诉我，女校学生大幅减少，不只是危机造成的，也是毛纺机器变化的结果。",
+      "start_ms": 9940,
+      "end_ms": 16585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s05-n0082",
+      "text": "机器变化使半日制童工平均减少了七十人。”",
+      "start_ms": 16780,
+      "end_ms": 19235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s05-n0083",
+      "text": "美国内战推动了英国棉纺织业的机器改进。",
+      "start_ms": 19715,
+      "end_ms": 22275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s05-n0084",
+      "text": "下面几张表列出了这些改进带来的总体结果。",
+      "start_ms": 22650,
+      "end_ms": 25215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s05-n0085",
+      "text": "工厂数量：",
+      "start_ms": 115,
+      "end_ms": 755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s05-n0086",
+      "text": "蒸汽织机数量：",
+      "start_ms": 935,
+      "end_ms": 1815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s05-n0087",
+      "text": "纱锭数量：",
+      "start_ms": 2320,
+      "end_ms": 2745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s05-n0088",
+      "text": "就业人数：",
+      "start_ms": 3015,
+      "end_ms": 3515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s05-n0089",
+      "text": "从1861年到1868年，英国减少了338家棉纺织厂。",
+      "start_ms": 3825,
+      "end_ms": 8555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s05-n0090",
+      "text": "这意味着，生产效率更高、规模更大的机器集中到了更少的资本家手中。",
+      "start_ms": 8880,
+      "end_ms": 13515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s05-n0091",
+      "text": "蒸汽织机减少了20,663台，产量却同时增加，可见一台改进后的织机已经比旧织机生产得更多。",
+      "start_ms": 115,
+      "end_ms": 7775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s05-n0092",
+      "text": "纱锭增加了1,612,547枚，工人却减少了50,505人。",
+      "start_ms": 8100,
+      "end_ms": 12815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s05-n0093",
+      "text": "因此，棉业危机给工人带来的“暂时”苦难，又被机器迅速而持续的发展加重并固定下来。",
+      "start_ms": 14025,
+      "end_ms": 20635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s05-n0094",
+      "text": "机器不只是力量远胜工人的竞争者，随时可能把雇佣工人变成“多余的人”。",
+      "start_ms": 21030,
+      "end_ms": 26965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s05-n0095",
+      "text": "资本还公开把机器宣布为对付工人的力量，并且越来越有意识地这样使用它。",
+      "start_ms": 26970,
+      "end_ms": 32165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s05-n0096",
+      "text": "工人周期性地举行暴动、罢工等斗争，反抗资本的专制统治。",
+      "start_ms": 32585,
+      "end_ms": 37210,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s05-n0097",
+      "text": "机器则成了资本镇压这些斗争最强大的武器。",
+      "start_ms": 145,
+      "end_ms": 3125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s05-n0098",
+      "text": "加斯凯尔指出，蒸汽机从一开始就是“人力”的对手。",
+      "start_ms": 3440,
+      "end_ms": 6575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s05-n0099",
+      "text": "工人不断提高要求，使刚刚兴起的工厂制度面临危机，蒸汽机则让资本家获得了压倒这些要求的手段。",
+      "start_ms": 6880,
+      "end_ms": 13595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s05-n0100",
+      "text": "从1830年以后，完全可以写出一部特殊的发明史：其中许多发明之所以产生，只是为了充当资本对付工人暴动的武器。",
+      "start_ms": 14235,
+      "end_ms": 22665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s05-n0101",
+      "text": "最值得一提的是自动走锭纺纱机，因为它开启了自动体系的新阶段。",
+      "start_ms": 22990,
+      "end_ms": 27205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s05-n0102",
+      "text": "蒸汽锤的发明者内斯密在工会委员会作证时，讲述了1851年机器工人大规模长期罢工怎样促使他改进机器：“现代机械改进最突出的特点，是采用自动工具机。",
+      "start_ms": 27945,
+      "end_ms": 39805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s05-n0103",
+      "text": "机械工人现在不再亲自动手加工，只需监督机器完成的精细工作，而这种看管连孩子都能做。",
+      "start_ms": 155,
+      "end_ms": 6835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s05-n0104",
+      "text": "过去完全依靠熟练技能的那一整类工人，如今已经被排除。",
+      "start_ms": 7080,
+      "end_ms": 11195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s05-n0105",
+      "text": "以前，我每雇一名机械工，同时雇四名男孩。",
+      "start_ms": 11500,
+      "end_ms": 14755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s05-n0106",
+      "text": "采用这些新的机械组合以后，我把成年男子从1,500人减到750人，利润因而大幅增加。",
+      "start_ms": 15175,
+      "end_ms": 22195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s05-n0107",
+      "text": "”",
+      "start_ms": 22200,
+      "end_ms": 22275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s05-n0108",
+      "text": "谈到印花布厂的一种彩色印花机时，尤尔说：“资本家终于求助于科学的力量，努力摆脱这种难以忍受的奴役”，这里所谓的奴役，是指资本家不得不接受他们所厌烦的工人合同条件。",
+      "start_ms": 22200,
+      "end_ms": 34945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s05-n0109",
+      "text": "“不久，他们便重新取得了自己合法的权利”，也就是让身为“头脑”的资本家重新支配被比作身体其他部分的工人。",
+      "start_ms": 0,
+      "end_ms": 9055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s05-n0110",
+      "text": "谈到一项由罢工直接引发的经纱上浆发明时，他说：“那群不满者原以为自己躲在旧分工的防线后面，已经不可战胜。",
+      "start_ms": 9390,
+      "end_ms": 18065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s05-n0111",
+      "text": "现代机械战术却从侧面袭击了他们，摧毁了他们的防御手段。",
+      "start_ms": 18550,
+      "end_ms": 22945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s05-n0112",
+      "text": "他们不得不无条件投降。",
+      "start_ms": 23270,
+      "end_ms": 24505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s05-n0113",
+      "text": "”谈到自动走锭纺纱机的发明时，他又说：“它的使命是恢复各产业阶级之间原有的秩序……这项发明证实了我们已经提出的学说：资本把科学拉来为自己服务，就能不断迫使劳动者反抗的手变得顺从。”",
+      "start_ms": 25335,
+      "end_ms": 40779,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s05-n0114",
+      "text": "尤尔的著作出版于1835年，当时工厂制度还不太发达。",
+      "start_ms": 41449,
+      "end_ms": 45799,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s05-n0115",
+      "text": "它之所以仍是最典型的工厂精神表达，不仅因为它的冷酷和无耻毫不遮掩，还因为尤尔十分天真，无意间说出了资本家头脑里那些未经思考的矛盾。",
+      "start_ms": 105,
+      "end_ms": 11745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s05-n0116",
+      "text": "比如，他刚刚提出一种“学说”，说资本依靠自己雇来的科学，“不断迫使劳动者反抗的手变得顺从”，紧接着却愤怒地抱怨：“有些人指控机械和物理科学投靠富有资本家的专制统治，充当压迫贫苦阶级的工具。",
+      "start_ms": 12020,
+      "end_ms": 28805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s05-n0117",
+      "text": "”他长篇宣讲机器迅速发展给工人带来多少好处，随后又警告工人，反抗和罢工会加快机器的发展。",
+      "start_ms": 29350,
+      "end_ms": 38055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s05-n0118",
+      "text": "“这种暴力反抗，”他说，“展现了人类短视最可鄙的样子：一个人竟亲自充当自己的刽子手。",
+      "start_ms": 38403,
+      "end_ms": 45288,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s05-n0119",
+      "text": "”但就在前几页，他说的却恰好相反：“如果没有工人错误观念造成的激烈冲突和生产中断，工厂制度会发展得更快，而且会给所有有关方面带来更大好处。",
+      "start_ms": 45878,
+      "end_ms": 58028,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s05-n0120",
+      "text": "”接着，他又喊道：“对英国工厂区的居民来说，幸好机械改进只会逐步发生。",
+      "start_ms": 0,
+      "end_ms": 5545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s05-n0121",
+      "text": "”他还说：“有人指责机器排挤一部分成年工人，使他们的人数超过劳动需求，从而降低成年人的工资，这种指责是不对的。",
+      "start_ms": 6070,
+      "end_ms": 14745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s05-n0122",
+      "text": "机器会增加对童工的需求，并提高童工的工资率。",
+      "start_ms": 15260,
+      "end_ms": 18425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s05-n0123",
+      "text": "”可同一位安慰者又为童工工资低辩护，说“低工资能阻止父母过早把孩子送进工厂”。",
+      "start_ms": 18980,
+      "end_ms": 24595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s05-n0124",
+      "text": "他整本书都在为不受限制的工作日辩护。",
+      "start_ms": 25255,
+      "end_ms": 28015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s05-n0125",
+      "text": "法律禁止每天把十三岁儿童折磨十二小时以上，竟让他的自由主义灵魂想起中世纪最黑暗的年代。",
+      "start_ms": 28540,
+      "end_ms": 35155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s05-n0126",
+      "text": "但这并不妨碍他号召工厂工人向上天感恩，因为机器“让他们有空思考自己永恒的利益”。",
+      "start_ms": 415,
+      "end_ms": 5885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    }
+  ]
+}

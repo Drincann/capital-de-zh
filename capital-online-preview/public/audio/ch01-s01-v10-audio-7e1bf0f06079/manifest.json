@@ -1,0 +1,1159 @@
+{
+  "schema_version": 2,
+  "status": "ready",
+  "audio_version_id": "ch01-s01-v10-audio-7e1bf0f06079",
+  "base_audio_version_id": "ch01-s01-v9-audio-f0d1ec297b30",
+  "reused_chunk_count": 17,
+  "generated_chunk_count": 1,
+  "unit_id": "ch01-s01",
+  "translation_version_id": "ch01-s01-v10",
+  "translation_sha256": "120bcf59b25d6a84e03495f0b983c34d4c1772135031c9068e2fa7a1c67ed6ac",
+  "config_sha256": "38448e9085aaf6b8a25d2809647fbf6be1b8c3e4ea04d47fc3b4230c313f3e05",
+  "model_id": "seed-audio-1.0",
+  "model_label": "现有模型 1.0",
+  "transport": "audio-create-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "created_at": "2026-08-14T19:52:22.918Z",
+  "completed_at": "2026-08-14T19:53:04.516Z",
+  "duration_ms": 754944,
+  "sentence_count": 108,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 29467,
+      "bytes": 471980,
+      "sha256": "e7fd10bab41d7344b1003725b84b871d38f1df27b5df868c8f0781e32cdb42b1",
+      "sentence_ids": [
+        "ch01-s01-n0001",
+        "ch01-s01-n0002",
+        "ch01-s01-n0003",
+        "ch01-s01-n0004",
+        "ch01-s01-n0005",
+        "ch01-s01-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 43075,
+      "bytes": 689708,
+      "sha256": "ad2eb99bc5378cb605e88ab499ca95bdd505352476838224d0b4ee83c7fbbb21",
+      "sentence_ids": [
+        "ch01-s01-n0007",
+        "ch01-s01-n0008",
+        "ch01-s01-n0009",
+        "ch01-s01-n0010",
+        "ch01-s01-n0011",
+        "ch01-s01-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 41012,
+      "bytes": 656684,
+      "sha256": "a5a8406b709b634e214c37139e271e288ae7d1bb9197f7a657cc304adf3a27b4",
+      "sentence_ids": [
+        "ch01-s01-n0013",
+        "ch01-s01-n0014",
+        "ch01-s01-n0015",
+        "ch01-s01-n0016",
+        "ch01-s01-n0017",
+        "ch01-s01-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 37786,
+      "bytes": 605997,
+      "sha256": "9ced3cc555c7658cb7257fbd3dad85257be7535ab8a5086d76d3fc57565d4981",
+      "sentence_ids": [
+        "ch01-s01-n0019",
+        "ch01-s01-n0020",
+        "ch01-s01-n0021",
+        "ch01-s01-n0022",
+        "ch01-s01-n0023",
+        "ch01-s01-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 44900,
+      "bytes": 718892,
+      "sha256": "9be9764737da6caf180c41fc047c5a70e6131a34369a3c444523b31b44e4db01",
+      "sentence_ids": [
+        "ch01-s01-n0025",
+        "ch01-s01-n0026",
+        "ch01-s01-n0027",
+        "ch01-s01-n0028",
+        "ch01-s01-n0029",
+        "ch01-s01-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 28990,
+      "bytes": 464300,
+      "sha256": "9ad37b7347fc55719a8007ce95d6a6cc79c7f15a2aad265cfe91ebcaa3bb85ab",
+      "sentence_ids": [
+        "ch01-s01-n0031",
+        "ch01-s01-n0032",
+        "ch01-s01-n0033",
+        "ch01-s01-n0034",
+        "ch01-s01-n0035",
+        "ch01-s01-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 46412,
+      "bytes": 743084,
+      "sha256": "7afde5f86440c4327d5b7aa8ce57109a1346955c72e68fae5024256df50701da",
+      "sentence_ids": [
+        "ch01-s01-n0037",
+        "ch01-s01-n0038",
+        "ch01-s01-n0039",
+        "ch01-s01-n0040",
+        "ch01-s01-n0041",
+        "ch01-s01-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 32528,
+      "bytes": 521132,
+      "sha256": "3aff36cf90acb6c76f4b4ad0953e3c525eb1f4951ed94e9abb0d44bb7cc31b1d",
+      "sentence_ids": [
+        "ch01-s01-n0043",
+        "ch01-s01-n0044",
+        "ch01-s01-n0045",
+        "ch01-s01-n0046",
+        "ch01-s01-n0047",
+        "ch01-s01-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 40900,
+      "bytes": 655148,
+      "sha256": "3e0799b92a232c5f3f17e9afe5a25769b819745ac210caf083093b6b66a09e84",
+      "sentence_ids": [
+        "ch01-s01-n0049",
+        "ch01-s01-n0050",
+        "ch01-s01-n0051",
+        "ch01-s01-n0052",
+        "ch01-s01-n0053",
+        "ch01-s01-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 29880,
+      "bytes": 478508,
+      "sha256": "e54c3abd62648f5fc2d415ba17e64d5d13e782b0c44e803715ba2d530b762ac5",
+      "sentence_ids": [
+        "ch01-s01-n0055",
+        "ch01-s01-n0056",
+        "ch01-s01-n0057",
+        "ch01-s01-n0058",
+        "ch01-s01-n0059",
+        "ch01-s01-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 28424,
+      "bytes": 455468,
+      "sha256": "b54c55674b2bd69ecd896c3a2e54ccd5e4f77ffe56cbcf0c36ca0a3e924b76d7",
+      "sentence_ids": [
+        "ch01-s01-n0061",
+        "ch01-s01-n0062",
+        "ch01-s01-n0063",
+        "ch01-s01-n0064",
+        "ch01-s01-n0065",
+        "ch01-s01-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 57080,
+      "bytes": 913964,
+      "sha256": "225a799be7c74d13c87e7cde622e52d7c1f4ab10e9b5d23719555b51381eacad",
+      "sentence_ids": [
+        "ch01-s01-n0067",
+        "ch01-s01-n0068",
+        "ch01-s01-n0069",
+        "ch01-s01-n0070",
+        "ch01-s01-n0071",
+        "ch01-s01-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 40000,
+      "bytes": 640556,
+      "sha256": "431a6274894f180bc9d9c7a52aa3da4257717e986d490004293b5875c6255917",
+      "sentence_ids": [
+        "ch01-s01-n0073",
+        "ch01-s01-n0074",
+        "ch01-s01-n0075",
+        "ch01-s01-n0076",
+        "ch01-s01-n0077",
+        "ch01-s01-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 54500,
+      "bytes": 872492,
+      "sha256": "e896613cca5f45d434fb45680b9a34bbc9b6263bed601858180755d9a3e654c2",
+      "sentence_ids": [
+        "ch01-s01-n0079",
+        "ch01-s01-n0080",
+        "ch01-s01-n0081",
+        "ch01-s01-n0082",
+        "ch01-s01-n0083",
+        "ch01-s01-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 49690,
+      "bytes": 795692,
+      "sha256": "bcb7ee7c87e695f7c707c61de389cc549562eb58af4014ad7599624f81286700",
+      "sentence_ids": [
+        "ch01-s01-n0085",
+        "ch01-s01-n0086",
+        "ch01-s01-n0087",
+        "ch01-s01-n0088",
+        "ch01-s01-n0089",
+        "ch01-s01-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 52900,
+      "bytes": 847148,
+      "sha256": "46267121404fda110653939607c9fddca54ae4333543266c89b749fcf2912d06",
+      "sentence_ids": [
+        "ch01-s01-n0091",
+        "ch01-s01-n0092",
+        "ch01-s01-n0093",
+        "ch01-s01-n0094",
+        "ch01-s01-n0095",
+        "ch01-s01-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 51200,
+      "bytes": 819884,
+      "sha256": "ae5c0159b12d7c560e3cd07100fccf36f0c5aedacdbcfb0f0bd19fea693fe363",
+      "sentence_ids": [
+        "ch01-s01-n0097",
+        "ch01-s01-n0098",
+        "ch01-s01-n0099",
+        "ch01-s01-n0100",
+        "ch01-s01-n0101",
+        "ch01-s01-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 46200,
+      "bytes": 739628,
+      "sha256": "0906f5b2ca7855e423b184731ab86d65f8cbf96faf89ecdbff069da5373f9813",
+      "sentence_ids": [
+        "ch01-s01-n0103",
+        "ch01-s01-n0104",
+        "ch01-s01-n0105",
+        "ch01-s01-n0106",
+        "ch01-s01-n0107",
+        "ch01-s01-n0108"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch01-s01-n0001",
+      "text": "在资本主义生产占主导地位的社会里，财富表现为数量庞大的商品。",
+      "start_ms": 0,
+      "end_ms": 5400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s01-n0002",
+      "text": "单个商品是这种财富最基本的形式。",
+      "start_ms": 6080,
+      "end_ms": 8840,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s01-n0003",
+      "text": "因此，我们从分析商品开始。",
+      "start_ms": 9600,
+      "end_ms": 11880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s01-n0004",
+      "text": "商品首先是人自身之外的一种东西。",
+      "start_ms": 12720,
+      "end_ms": 15760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s01-n0005",
+      "text": "它凭自身性质满足人的某种需要。",
+      "start_ms": 16520,
+      "end_ms": 19320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s01-n0006",
+      "text": "这里暂时不问这种需要来自生理欲望还是想象， 也不问商品是直接供人生活享用，还是用来生产别的东西。",
+      "start_ms": 20080,
+      "end_ms": 29120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch01-s01-n0007",
+      "text": "无论属于哪种情况，这里只看一个共同点：它能满足人的需要。",
+      "start_ms": 0,
+      "end_ms": 7400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s01-n0008",
+      "text": "接下来，我们先考察商品作为有用物品的一面。",
+      "start_ms": 8320,
+      "end_ms": 13600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s01-n0009",
+      "text": "像铁、纸这样的东西，都要从两个方面看：一是它具有什么性质，二是这种东西有多少。",
+      "start_ms": 14080,
+      "end_ms": 23560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s01-n0010",
+      "text": "一种东西往往有多种性质，因此也有多种用途。",
+      "start_ms": 24760,
+      "end_ms": 29440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s01-n0011",
+      "text": "人们逐渐发现这些用途，是历史发展的结果。",
+      "start_ms": 30400,
+      "end_ms": 35080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s01-n0012",
+      "text": "人们为这些物品找到通用的计量方法，同样是历史发展的结果。",
+      "start_ms": 35960,
+      "end_ms": 42720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch01-s01-n0013",
+      "text": "不同物品采用不同的计量单位，一部分因为物品本身性质不同，一部分来自社会约定。",
+      "start_ms": 240,
+      "end_ms": 7160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s01-n0014",
+      "text": "一件东西能满足人的需要，这种用处就是它的使用价值。",
+      "start_ms": 7440,
+      "end_ms": 13600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s01-n0015",
+      "text": "使用价值不能脱离具体物品单独存在，而是由物品自身的性质决定。",
+      "start_ms": 15080,
+      "end_ms": 20400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s01-n0016",
+      "text": "所以铁、小麦、钻石等有用物品，本身就是一个个使用价值。",
+      "start_ms": 20880,
+      "end_ms": 26880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s01-n0017",
+      "text": "它们有没有使用价值，不取决于人们为获得它们花了多少劳动。",
+      "start_ms": 27880,
+      "end_ms": 32760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s01-n0018",
+      "text": "谈使用价值时，总是指一定数量的物品，比如一打手表、一码麻布或一吨铁。",
+      "start_ms": 32920,
+      "end_ms": 40920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch01-s01-n0019",
+      "text": "商品的各种用途，是商品学研究的对象。",
+      "start_ms": 320,
+      "end_ms": 4040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s01-n0020",
+      "text": "使用价值只有在实际使用或消费时才能发挥出来。",
+      "start_ms": 4520,
+      "end_ms": 8680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s01-n0021",
+      "text": "无论财富采取什么社会形式，有用物品都是财富的实际内容。",
+      "start_ms": 9320,
+      "end_ms": 14200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s01-n0022",
+      "text": "在资本主义社会里，有用物品还会作为商品相互交换，并表现出交换价值。",
+      "start_ms": 14680,
+      "end_ms": 20680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s01-n0023",
+      "text": "交换价值首先表现为一种数量比例：一定数量的一种有用物品，可以按这个比例同另一种有用物品交换。",
+      "start_ms": 21440,
+      "end_ms": 30400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s01-n0024",
+      "text": "这个比例会随时间和地点改变，所以交换价值看起来只是偶然形成的相对关系。",
+      "start_ms": 31040,
+      "end_ms": 37600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch01-s01-n0025",
+      "text": "这样一来，如果又说交换价值是商品自身固有的东西，就显得自相矛盾。",
+      "start_ms": 40,
+      "end_ms": 6960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s01-n0026",
+      "text": "下面仔细看看这个问题。",
+      "start_ms": 7720,
+      "end_ms": 9720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s01-n0027",
+      "text": "比如，一夸特小麦可以换若干鞋油、若干丝绸或若干黄金，还可以按不同比例换取许多其他商品。",
+      "start_ms": 10520,
+      "end_ms": 21880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s01-n0028",
+      "text": "这说明小麦不是只有一个交换价值，而是有许多种。",
+      "start_ms": 22680,
+      "end_ms": 28720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s01-n0029",
+      "text": "既然这些不同数量的鞋油、丝绸和黄金都能同一夸特小麦交换，它们就可以彼此替代，代表同样大小的交换价值。",
+      "start_ms": 29520,
+      "end_ms": 42400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s01-n0030",
+      "text": "由此可以得出两点。",
+      "start_ms": 43160,
+      "end_ms": 44640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch01-s01-n0031",
+      "text": "第一，同一种商品的各种交换比例都在表达同一个东西。",
+      "start_ms": 0,
+      "end_ms": 4560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s01-n0032",
+      "text": "第二，交换价值不是这个东西本身，只是它的表现形式。",
+      "start_ms": 5040,
+      "end_ms": 8800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s01-n0033",
+      "text": "再看小麦和铁。",
+      "start_ms": 9440,
+      "end_ms": 10720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s01-n0034",
+      "text": "无论它们按什么比例交换，都可以写成一个等式，比如：一夸特小麦 = 若干英担铁。",
+      "start_ms": 11200,
+      "end_ms": 18320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s01-n0035",
+      "text": "这个等式说明，两种不同的东西里含有某种数量相等的共同成分。",
+      "start_ms": 18840,
+      "end_ms": 24240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s01-n0036",
+      "text": "因此，它们都等于一个既不是小麦、也不是铁的第三者。",
+      "start_ms": 24920,
+      "end_ms": 28920,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch01-s01-n0037",
+      "text": "只要把小麦和铁当作交换价值来看，就必须能把它们还原为这个共同的第三者。",
+      "start_ms": 0,
+      "end_ms": 7800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s01-n0038",
+      "text": "用一个简单的几何例子可以说明这一点。",
+      "start_ms": 8480,
+      "end_ms": 11520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s01-n0039",
+      "text": "为了计算和比较各种直线图形的面积，可以先把它们分成三角形，再用底乘高的一半来计算三角形的面积。",
+      "start_ms": 12080,
+      "end_ms": 22520,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s01-n0040",
+      "text": "这样就不必比较三角形各自的外形，而是把它们都换算成可以直接比较的数值。",
+      "start_ms": 23040,
+      "end_ms": 28960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s01-n0041",
+      "text": "同样，各种商品的交换价值也必须还原为一种共同的东西，而不同商品只是含有这种东西的数量不同。",
+      "start_ms": 29960,
+      "end_ms": 39800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s01-n0042",
+      "text": "这种共同的东西不可能是商品的几何、物理、化学或其他自然性质。",
+      "start_ms": 40440,
+      "end_ms": 46160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch01-s01-n0043",
+      "text": "商品的自然性质只有在使商品具有某种用途时才重要。",
+      "start_ms": 0,
+      "end_ms": 5069,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s01-n0044",
+      "text": "但商品一进入交换关系，具体用途恰好被放在一边。",
+      "start_ms": 5069,
+      "end_ms": 9927,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s01-n0045",
+      "text": "只要比例合适，一种有用物品就可以同另一种完全不同的有用物品交换。",
+      "start_ms": 9927,
+      "end_ms": 16686,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s01-n0046",
+      "text": "正如巴尔本所说：“只要交换价值相等，一种商品就和另一种商品一样好。",
+      "start_ms": 16686,
+      "end_ms": 23657,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s01-n0047",
+      "text": "交换价值相等的东西之间，不再有区别。”",
+      "start_ms": 23657,
+      "end_ms": 27670,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s01-n0048",
+      "text": "因此，从使用价值来看，商品的区别在于性质不同。",
+      "start_ms": 27670,
+      "end_ms": 32528,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch01-s01-n0049",
+      "text": "从交换价值来看，商品的区别只在于数量，具体用途不再计算在内。",
+      "start_ms": 0,
+      "end_ms": 6320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s01-n0050",
+      "text": "既然交换时不考虑商品的具体用途，那就继续在分析中撇开使用价值。",
+      "start_ms": 6760,
+      "end_ms": 12760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s01-n0051",
+      "text": "这样一来，桌子、房屋、棉纱等物品的具体形态和特性都不再重要，它们只剩下一个共同点：都是劳动产品。",
+      "start_ms": 13480,
+      "end_ms": 22280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s01-n0052",
+      "text": "与此同时，我们也不再区分木工、建筑、纺纱等具体劳动。",
+      "start_ms": 22680,
+      "end_ms": 27360,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s01-n0053",
+      "text": "各种劳动的具体形式都被撇开，只剩下无差别的人类劳动，也就是抽象人类劳动。",
+      "start_ms": 28080,
+      "end_ms": 34720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s01-n0054",
+      "text": "这样分析下来，各种劳动产品的具体差别都消失了，只剩下无差别的人类劳动。",
+      "start_ms": 35320,
+      "end_ms": 40680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch01-s01-n0055",
+      "text": "我们不再问劳动力以什么具体形式耗费，只看这些商品在生产中耗费并积累了多少人类劳动。",
+      "start_ms": 0,
+      "end_ms": 7160,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s01-n0056",
+      "text": "各种商品都是这种共同社会劳动的凝结。",
+      "start_ms": 7720,
+      "end_ms": 10640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s01-n0057",
+      "text": "这就是它们的价值，也就是商品价值。",
+      "start_ms": 11280,
+      "end_ms": 13880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s01-n0058",
+      "text": "前面看到，商品的交换价值好像与它的具体用途完全无关。",
+      "start_ms": 14320,
+      "end_ms": 18640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s01-n0059",
+      "text": "现在在分析中真正撇开使用价值，得到的就是刚才所说的价值。",
+      "start_ms": 19240,
+      "end_ms": 24080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s01-n0060",
+      "text": "因此，商品在交换比例中表现出来的共同内容，就是价值。",
+      "start_ms": 24840,
+      "end_ms": 29640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch01-s01-n0061",
+      "text": "后面我们会回到交换价值，说明它为什么是价值必须采取的表现形式。",
+      "start_ms": 400,
+      "end_ms": 6080,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s01-n0062",
+      "text": "目前先把价值本身单独拿出来考察。",
+      "start_ms": 6720,
+      "end_ms": 9400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s01-n0063",
+      "text": "一件有用物品之所以有价值，是因为抽象人类劳动凝结在里面。",
+      "start_ms": 9800,
+      "end_ms": 15280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s01-n0064",
+      "text": "那么，怎样衡量价值的大小？",
+      "start_ms": 16080,
+      "end_ms": 18400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s01-n0065",
+      "text": "要看其中包含多少形成价值的劳动。",
+      "start_ms": 18520,
+      "end_ms": 21680,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s01-n0066",
+      "text": "劳动量用劳动持续的时间来衡量，劳动时间则用小时、天等单位来计算。",
+      "start_ms": 22120,
+      "end_ms": 28240,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch01-s01-n0067",
+      "text": "这似乎会得出一个荒唐的结论：一个人越懒惰、技术越差，生产同一件商品花的时间越长，他的商品价值反而越高。",
+      "start_ms": 40,
+      "end_ms": 11320,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s01-n0068",
+      "text": "事实并非如此。",
+      "start_ms": 12280,
+      "end_ms": 14280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s01-n0069",
+      "text": "形成价值的不是某个人实际耗费的特殊劳动，而是同等的人类劳动。",
+      "start_ms": 15080,
+      "end_ms": 22120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s01-n0070",
+      "text": "这里把全社会的劳动力看成一股总的劳动力，虽然它实际上由无数个人的劳动力组成。",
+      "start_ms": 22840,
+      "end_ms": 30640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s01-n0071",
+      "text": "衡量价值时，个人实际花了多少时间不能照单全收，而要按社会平均的熟练程度和劳动强度来计算。",
+      "start_ms": 31160,
+      "end_ms": 41120,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s01-n0072",
+      "text": "因此，衡量价值的不是某个人实际用了多久，而是在现有的正常生产条件下，以社会平均的熟练程度和劳动强度，生产这种物品通常需要多久。",
+      "start_ms": 41840,
+      "end_ms": 56760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch01-s01-n0073",
+      "text": "这段时间叫作社会必要劳动时间。",
+      "start_ms": 80,
+      "end_ms": 2960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s01-n0074",
+      "text": "英国采用蒸汽织布机以后，把一定数量的棉纱织成布，所需劳动时间可能只有从前的一半。",
+      "start_ms": 4120,
+      "end_ms": 11960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s01-n0075",
+      "text": "手工织布工完成同样工作，实际花费的时间并没有减少，但他一小时的个人劳动现在只相当于半小时的社会必要劳动。",
+      "start_ms": 12680,
+      "end_ms": 22800,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s01-n0076",
+      "text": "因此，他生产的布价值也降到了原来的一半。",
+      "start_ms": 23440,
+      "end_ms": 27000,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s01-n0077",
+      "text": "所以，决定商品价值量的，是生产这种商品所需的社会必要劳动量，也就是社会必要劳动时间。",
+      "start_ms": 27680,
+      "end_ms": 35560,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s01-n0078",
+      "text": "这里把单个商品看作同类商品的一个平均样品。",
+      "start_ms": 36400,
+      "end_ms": 39960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch01-s01-n0079",
+      "text": "包含同样多社会必要劳动，或者能在同样时间内生产出来的商品，价值量相同。",
+      "start_ms": 0,
+      "end_ms": 8790,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s01-n0080",
+      "text": "两种商品的价值之比，也等于生产它们各自所需劳动时间之比。",
+      "start_ms": 8790,
+      "end_ms": 15823,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s01-n0081",
+      "text": "换句话说：“商品作为价值，不过是一定数量凝结起来的劳动时间。”",
+      "start_ms": 15823,
+      "end_ms": 23608,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s01-n0082",
+      "text": "如果生产一种商品所需的劳动时间不变，它的价值量也不会改变。",
+      "start_ms": 23608,
+      "end_ms": 30892,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s01-n0083",
+      "text": "但劳动生产力一变，所需的劳动时间也会跟着变。",
+      "start_ms": 30892,
+      "end_ms": 36417,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s01-n0084",
+      "text": "劳动生产力受很多因素影响，包括劳动者的平均熟练程度、科学的发展水平及其技术应用程度、生产过程的社会组织方式、生产资料的规模和效能，以及自然条件。",
+      "start_ms": 36417,
+      "end_ms": 54500,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch01-s01-n0085",
+      "text": "同样多的劳动，在丰年可能生产八蒲式耳小麦，在歉年却只能生产四蒲式耳。",
+      "start_ms": 160,
+      "end_ms": 7760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s01-n0086",
+      "text": "同样多的劳动，在富矿中也能比在贫矿中开采出更多金属。",
+      "start_ms": 8480,
+      "end_ms": 14960,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s01-n0087",
+      "text": "钻石在地壳中很少见，寻找钻石平均要耗费很多劳动时间。",
+      "start_ms": 16720,
+      "end_ms": 23600,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s01-n0088",
+      "text": "因此，即使体积很小，钻石中也包含大量劳动。",
+      "start_ms": 25240,
+      "end_ms": 30280,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s01-n0089",
+      "text": "但如果钻石矿更加丰富，同样多的劳动就能开采出更多钻石，钻石的价值便会下降。",
+      "start_ms": 31960,
+      "end_ms": 40440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s01-n0090",
+      "text": "如果只用很少的劳动就能把煤变成钻石，钻石的价值甚至可能低于砖头。",
+      "start_ms": 42200,
+      "end_ms": 49400,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch01-s01-n0091",
+      "text": "另外，这些劳动所形成的价值，未必会在实际售价中完全表现出来。",
+      "start_ms": 80,
+      "end_ms": 7040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s01-n0092",
+      "text": "雅各布就曾怀疑，黄金是否曾经卖出过与其价值相称的价格。",
+      "start_ms": 7760,
+      "end_ms": 14440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s01-n0093",
+      "text": "对钻石来说，这种情况更加明显。",
+      "start_ms": 15040,
+      "end_ms": 18040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s01-n0094",
+      "text": "据埃施韦格统计，到1823年为止，巴西钻石矿八十年全部产出的总价，还不及巴西甘蔗园或咖啡园一年半平均产出的总价。",
+      "start_ms": 18760,
+      "end_ms": 32200,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s01-n0095",
+      "text": "然而，由于开采这些钻石耗费的劳动更多，这些钻石的价值其实更高，只是没有在售价中充分体现出来。",
+      "start_ms": 33120,
+      "end_ms": 42440,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s01-n0096",
+      "text": "一般来说，劳动生产力越高，生产一件商品所需的劳动时间越少，其中凝结的劳动越少，价值也越低。",
+      "start_ms": 43080,
+      "end_ms": 52640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch01-s01-n0097",
+      "text": "反过来，劳动生产力越低，所需的劳动时间越多，价值也越高。",
+      "start_ms": 80,
+      "end_ms": 6480,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s01-n0098",
+      "text": "所以，商品的价值量与其中包含的劳动量同方向变化，与生产这些商品的劳动生产力反方向变化。",
+      "start_ms": 7240,
+      "end_ms": 17760,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s01-n0099",
+      "text": "一种东西可以有使用价值，却没有价值。",
+      "start_ms": 18360,
+      "end_ms": 22720,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s01-n0100",
+      "text": "如果它的用处不是由劳动创造的，就属于这种情况，比如空气、未开垦的土地、天然草地和野生树木。",
+      "start_ms": 23480,
+      "end_ms": 35640,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s01-n0101",
+      "text": "一种东西也可以既有用，又是劳动产品，却不是商品。",
+      "start_ms": 36640,
+      "end_ms": 43880,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s01-n0102",
+      "text": "一个人生产东西供自己使用，创造了使用价值，但没有生产商品。",
+      "start_ms": 44800,
+      "end_ms": 51040,
+      "timing_source": "provider_subtitle",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch01-s01-n0103",
+      "text": "要成为商品，产品还必须对别人有用，成为社会的使用价值。",
+      "start_ms": 0,
+      "end_ms": 7128,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s01-n0104",
+      "text": "【但仅仅为别人生产还不够。",
+      "start_ms": 7128,
+      "end_ms": 10560,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s01-n0105",
+      "text": "中世纪农民向封建主缴纳的租粮和向教士缴纳的什一税粮，虽然都是为别人生产的，却没有因此成为商品。",
+      "start_ms": 10560,
+      "end_ms": 22968,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s01-n0106",
+      "text": "产品要成为商品，必须通过交换转到使用它的人手中。",
+      "start_ms": 22968,
+      "end_ms": 29304,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s01-n0107",
+      "text": "】 最后，一种东西如果没有用，也不可能有价值。",
+      "start_ms": 29304,
+      "end_ms": 35112,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch01-s01-n0108",
+      "text": "因为没有用，生产它所耗费的劳动也就没有用，不能算作形成价值的劳动，因此不会形成价值。",
+      "start_ms": 35112,
+      "end_ms": 46200,
+      "timing_source": "duration_interpolation",
+      "chunk_id": "c0018"
+    }
+  ]
+}

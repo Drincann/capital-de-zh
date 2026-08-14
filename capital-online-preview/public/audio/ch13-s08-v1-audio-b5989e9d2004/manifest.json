@@ -1,0 +1,3343 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s08-v1-audio-b5989e9d2004",
+  "unit_id": "ch13-s08",
+  "translation_version_id": "ch13-s08-v1",
+  "translation_sha256": "eefb89c0a3660194557318fc1cd2e6b779587d49a8a907cf9f09237c9177bb47",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:12:58.144Z",
+  "completed_at": "2026-08-04T17:17:38.722Z",
+  "duration_ms": 1944954,
+  "sentence_count": 316,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 36525,
+      "bytes": 586029,
+      "sha256": "1c54305876a09fda281ba27c3cb91d831c0eded33e542cd7a5d44d444f017a8e",
+      "sentence_ids": [
+        "ch13-s08-n0001",
+        "ch13-s08-n0002",
+        "ch13-s08-n0003",
+        "ch13-s08-n0004",
+        "ch13-s08-n0005",
+        "ch13-s08-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 28045,
+      "bytes": 447789,
+      "sha256": "03375aac2b67f86e4c9884dc92c06c9e557b6182cb5d508dabc3806ffe706227",
+      "sentence_ids": [
+        "ch13-s08-n0007",
+        "ch13-s08-n0008",
+        "ch13-s08-n0009",
+        "ch13-s08-n0010",
+        "ch13-s08-n0011",
+        "ch13-s08-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 27845,
+      "bytes": 448557,
+      "sha256": "62cb6b249be10b6adeb66cacae36c0bc1a77978ec36cff9061719e4b004d0a76",
+      "sentence_ids": [
+        "ch13-s08-n0013",
+        "ch13-s08-n0014",
+        "ch13-s08-n0015",
+        "ch13-s08-n0016",
+        "ch13-s08-n0017",
+        "ch13-s08-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 40362,
+      "bytes": 650157,
+      "sha256": "803df06b2d327ff014f33bc3f0ee7924d22488ed7e646eade4fe8e12665b09c8",
+      "sentence_ids": [
+        "ch13-s08-n0019",
+        "ch13-s08-n0020",
+        "ch13-s08-n0021",
+        "ch13-s08-n0022",
+        "ch13-s08-n0023",
+        "ch13-s08-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 39864,
+      "bytes": 640173,
+      "sha256": "afa130d1856a4560e1af62fdce6f4998e4fddf84b227fad17c1555ecaf406987",
+      "sentence_ids": [
+        "ch13-s08-n0025",
+        "ch13-s08-n0026",
+        "ch13-s08-n0027",
+        "ch13-s08-n0028",
+        "ch13-s08-n0029",
+        "ch13-s08-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 35635,
+      "bytes": 570285,
+      "sha256": "04f1df0f8391373a7eb96f530bf425aaeebd4336dd37fcc26bc39b9e70c1c5d7",
+      "sentence_ids": [
+        "ch13-s08-n0031",
+        "ch13-s08-n0032",
+        "ch13-s08-n0033",
+        "ch13-s08-n0034",
+        "ch13-s08-n0035",
+        "ch13-s08-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 44891,
+      "bytes": 723885,
+      "sha256": "613042613d865f48296bbcb0a841085a56b60f287e60f35e8c622dcbeddf7220",
+      "sentence_ids": [
+        "ch13-s08-n0037",
+        "ch13-s08-n0038",
+        "ch13-s08-n0039",
+        "ch13-s08-n0040",
+        "ch13-s08-n0041",
+        "ch13-s08-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 23855,
+      "bytes": 382125,
+      "sha256": "fbdbba6be6792378f4738a0e5dded0c4f67b988feb905425b44829a02674f838",
+      "sentence_ids": [
+        "ch13-s08-n0043",
+        "ch13-s08-n0044",
+        "ch13-s08-n0045",
+        "ch13-s08-n0046",
+        "ch13-s08-n0047",
+        "ch13-s08-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 49626,
+      "bytes": 797613,
+      "sha256": "31870558f9784f6afae78c6bfbdd4b91f55119e968d5811329ed7e72caceb261",
+      "sentence_ids": [
+        "ch13-s08-n0049",
+        "ch13-s08-n0050",
+        "ch13-s08-n0051",
+        "ch13-s08-n0052",
+        "ch13-s08-n0053",
+        "ch13-s08-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 35845,
+      "bytes": 573357,
+      "sha256": "f8bbff2e0b65a04b4bd38e0d90133b64c290bfea609c4fd822ae711a6eab3581",
+      "sentence_ids": [
+        "ch13-s08-n0055",
+        "ch13-s08-n0056",
+        "ch13-s08-n0057",
+        "ch13-s08-n0058",
+        "ch13-s08-n0059",
+        "ch13-s08-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 32475,
+      "bytes": 522285,
+      "sha256": "f07fa69a5718f7df6e8445467f5544f9020da331fd53ee4941c5b702b6d22794",
+      "sentence_ids": [
+        "ch13-s08-n0061",
+        "ch13-s08-n0062",
+        "ch13-s08-n0063",
+        "ch13-s08-n0064",
+        "ch13-s08-n0065",
+        "ch13-s08-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 23065,
+      "bytes": 368685,
+      "sha256": "1d5294f1687d9cf994c5c5b816a4a8bee0f2c42805900df5b676342bea50cefc",
+      "sentence_ids": [
+        "ch13-s08-n0067",
+        "ch13-s08-n0068",
+        "ch13-s08-n0069",
+        "ch13-s08-n0070",
+        "ch13-s08-n0071",
+        "ch13-s08-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 49009,
+      "bytes": 783789,
+      "sha256": "4ce24ae12a58ea565f37c604e8abce7747c28babf5117fefe88407c4fd6f8826",
+      "sentence_ids": [
+        "ch13-s08-n0073",
+        "ch13-s08-n0074",
+        "ch13-s08-n0075",
+        "ch13-s08-n0076",
+        "ch13-s08-n0077",
+        "ch13-s08-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 39459,
+      "bytes": 633645,
+      "sha256": "0f958a499ae61b9879502c69726fad9ff2d72cd940806a8bb9e5697db5bb16c8",
+      "sentence_ids": [
+        "ch13-s08-n0079",
+        "ch13-s08-n0080",
+        "ch13-s08-n0081",
+        "ch13-s08-n0082",
+        "ch13-s08-n0083",
+        "ch13-s08-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 38370,
+      "bytes": 614061,
+      "sha256": "cd2117a1b518eb52810a54b679bb36edde3fbb13126927a2a1debedc4018ed08",
+      "sentence_ids": [
+        "ch13-s08-n0085",
+        "ch13-s08-n0086",
+        "ch13-s08-n0087",
+        "ch13-s08-n0088",
+        "ch13-s08-n0089",
+        "ch13-s08-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 52088,
+      "bytes": 837165,
+      "sha256": "afdd936f93fbe6bc44f38ea527842cc53a8a8e48caafb05d5c89f9587421a8a0",
+      "sentence_ids": [
+        "ch13-s08-n0091",
+        "ch13-s08-n0092",
+        "ch13-s08-n0093",
+        "ch13-s08-n0094",
+        "ch13-s08-n0095",
+        "ch13-s08-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 33175,
+      "bytes": 531885,
+      "sha256": "a1644b79f697788489e07faf53f9e8732251da823266bf21730bc7e85c37db60",
+      "sentence_ids": [
+        "ch13-s08-n0097",
+        "ch13-s08-n0098",
+        "ch13-s08-n0099",
+        "ch13-s08-n0100",
+        "ch13-s08-n0101",
+        "ch13-s08-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 32325,
+      "bytes": 518829,
+      "sha256": "3f03cbff7aec73a5c0aa95c87da5eaf38f64fbae43290e7bd60fe798ae4771f3",
+      "sentence_ids": [
+        "ch13-s08-n0103",
+        "ch13-s08-n0104",
+        "ch13-s08-n0105",
+        "ch13-s08-n0106",
+        "ch13-s08-n0107",
+        "ch13-s08-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 41222,
+      "bytes": 659373,
+      "sha256": "f98428c2253a0036a0d780e9c282441086dc6d5a35289892ccd4a1007df6fcab",
+      "sentence_ids": [
+        "ch13-s08-n0109",
+        "ch13-s08-n0110",
+        "ch13-s08-n0111",
+        "ch13-s08-n0112",
+        "ch13-s08-n0113",
+        "ch13-s08-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 52482,
+      "bytes": 839085,
+      "sha256": "a63ab88bdcf901cdf89fc3f622a03f5c68a36cef424a9f385c7eeed463ba2fa7",
+      "sentence_ids": [
+        "ch13-s08-n0115",
+        "ch13-s08-n0116",
+        "ch13-s08-n0117",
+        "ch13-s08-n0118",
+        "ch13-s08-n0119",
+        "ch13-s08-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 32535,
+      "bytes": 522669,
+      "sha256": "60af09598313970957d0b5e4d12a5b994d05a8e70f946cfb3807bf8e2faab90c",
+      "sentence_ids": [
+        "ch13-s08-n0121",
+        "ch13-s08-n0122",
+        "ch13-s08-n0123",
+        "ch13-s08-n0124",
+        "ch13-s08-n0125",
+        "ch13-s08-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 26645,
+      "bytes": 435501,
+      "sha256": "fbab1b924d76b15a6690720a7e7e9129472ef103dd8169385235911a0c2e32af",
+      "sentence_ids": [
+        "ch13-s08-n0127",
+        "ch13-s08-n0128",
+        "ch13-s08-n0129",
+        "ch13-s08-n0130",
+        "ch13-s08-n0131",
+        "ch13-s08-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 32485,
+      "bytes": 518829,
+      "sha256": "66c6d42ee7954b614db168a456b92418f6523b75f535033403533671d8062f56",
+      "sentence_ids": [
+        "ch13-s08-n0133",
+        "ch13-s08-n0134",
+        "ch13-s08-n0135",
+        "ch13-s08-n0136",
+        "ch13-s08-n0137",
+        "ch13-s08-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 23285,
+      "bytes": 375213,
+      "sha256": "ebdb6929ab8bb446668fe019a534e5047b434cfad5b5766b149e5b6c00388e41",
+      "sentence_ids": [
+        "ch13-s08-n0139",
+        "ch13-s08-n0140",
+        "ch13-s08-n0141",
+        "ch13-s08-n0142",
+        "ch13-s08-n0143",
+        "ch13-s08-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 32955,
+      "bytes": 528813,
+      "sha256": "17b7c6bb7cf1ddf4eaef2b8150cbc718f893ed170589fad2dcbe33ebf2c62643",
+      "sentence_ids": [
+        "ch13-s08-n0145",
+        "ch13-s08-n0146",
+        "ch13-s08-n0147",
+        "ch13-s08-n0148",
+        "ch13-s08-n0149",
+        "ch13-s08-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 34604,
+      "bytes": 554541,
+      "sha256": "fa77c7f88c05650588dd312dcb8f3d5b5276ff77c725c6e52445bd1eb14fdee4",
+      "sentence_ids": [
+        "ch13-s08-n0151",
+        "ch13-s08-n0152",
+        "ch13-s08-n0153",
+        "ch13-s08-n0154",
+        "ch13-s08-n0155",
+        "ch13-s08-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 33592,
+      "bytes": 537645,
+      "sha256": "55ce087586ffe24a3316c76c740b7bb5f2012e75fbc347f714575536725ac105",
+      "sentence_ids": [
+        "ch13-s08-n0157",
+        "ch13-s08-n0158",
+        "ch13-s08-n0159",
+        "ch13-s08-n0160",
+        "ch13-s08-n0161",
+        "ch13-s08-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 42372,
+      "bytes": 685485,
+      "sha256": "2e22ac4845698f5cdeeef53b3485abfe8fd296d06edc4e06309e44dfad4fe080",
+      "sentence_ids": [
+        "ch13-s08-n0163",
+        "ch13-s08-n0164",
+        "ch13-s08-n0165",
+        "ch13-s08-n0166",
+        "ch13-s08-n0167",
+        "ch13-s08-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 42806,
+      "bytes": 690861,
+      "sha256": "39e72eea0c7ed332e1eee78aedd53388052cc00ad8cbb80eed4cdd82d0c69622",
+      "sentence_ids": [
+        "ch13-s08-n0169",
+        "ch13-s08-n0170",
+        "ch13-s08-n0171",
+        "ch13-s08-n0172",
+        "ch13-s08-n0173",
+        "ch13-s08-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 46002,
+      "bytes": 781485,
+      "sha256": "7b5d659ebaf2e3530e795bfa5f601f92b62177fcb2d33b78bca6a08c0751af97",
+      "sentence_ids": [
+        "ch13-s08-n0175",
+        "ch13-s08-n0176",
+        "ch13-s08-n0177",
+        "ch13-s08-n0178",
+        "ch13-s08-n0179",
+        "ch13-s08-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 46684,
+      "bytes": 749229,
+      "sha256": "e9f3673abb56a113c6a45a2a6569cd2c205d52fa14205aeb6bcbb52726bfb77c",
+      "sentence_ids": [
+        "ch13-s08-n0181",
+        "ch13-s08-n0182",
+        "ch13-s08-n0183",
+        "ch13-s08-n0184",
+        "ch13-s08-n0185",
+        "ch13-s08-n0186"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 26045,
+      "bytes": 425517,
+      "sha256": "f916a9f9a973cffaf2cf377b52b4f0ef39063fdc6be1012f95b7898783008706",
+      "sentence_ids": [
+        "ch13-s08-n0187",
+        "ch13-s08-n0188",
+        "ch13-s08-n0189",
+        "ch13-s08-n0190",
+        "ch13-s08-n0191",
+        "ch13-s08-n0192"
+      ]
+    },
+    {
+      "id": "c0033",
+      "audio_file": "c0033.mp3",
+      "duration_ms": 46753,
+      "bytes": 749613,
+      "sha256": "1f7400408a5e84ae8edec94b97392c6f71abf922f78ca19f302805e78e4ea177",
+      "sentence_ids": [
+        "ch13-s08-n0193",
+        "ch13-s08-n0194",
+        "ch13-s08-n0195",
+        "ch13-s08-n0196",
+        "ch13-s08-n0197",
+        "ch13-s08-n0198"
+      ]
+    },
+    {
+      "id": "c0034",
+      "audio_file": "c0034.mp3",
+      "duration_ms": 32094,
+      "bytes": 515757,
+      "sha256": "b859e4aae9554203128b240b384fd8e8137d870ea97d45bb0fd1d3dd3b5e7c1c",
+      "sentence_ids": [
+        "ch13-s08-n0199",
+        "ch13-s08-n0200",
+        "ch13-s08-n0201",
+        "ch13-s08-n0202",
+        "ch13-s08-n0203",
+        "ch13-s08-n0204"
+      ]
+    },
+    {
+      "id": "c0035",
+      "audio_file": "c0035.mp3",
+      "duration_ms": 29405,
+      "bytes": 474285,
+      "sha256": "821509b6169fbbfbbc519c9298a547a51f6c40502c581416df59bf37c76bd902",
+      "sentence_ids": [
+        "ch13-s08-n0205",
+        "ch13-s08-n0206",
+        "ch13-s08-n0207",
+        "ch13-s08-n0208",
+        "ch13-s08-n0209",
+        "ch13-s08-n0210"
+      ]
+    },
+    {
+      "id": "c0036",
+      "audio_file": "c0036.mp3",
+      "duration_ms": 46288,
+      "bytes": 739629,
+      "sha256": "027d2f68d72a3e8611d33f891d1842baa536a119d4322c6a632b2972d4cc60c4",
+      "sentence_ids": [
+        "ch13-s08-n0211",
+        "ch13-s08-n0212",
+        "ch13-s08-n0213",
+        "ch13-s08-n0214",
+        "ch13-s08-n0215",
+        "ch13-s08-n0216"
+      ]
+    },
+    {
+      "id": "c0037",
+      "audio_file": "c0037.mp3",
+      "duration_ms": 42668,
+      "bytes": 683181,
+      "sha256": "6af01485ba96eba0bd67f35e576067c8a6a89c1c14a597bdd161b5f79f29e1c0",
+      "sentence_ids": [
+        "ch13-s08-n0217",
+        "ch13-s08-n0218",
+        "ch13-s08-n0219",
+        "ch13-s08-n0220",
+        "ch13-s08-n0221",
+        "ch13-s08-n0222"
+      ]
+    },
+    {
+      "id": "c0038",
+      "audio_file": "c0038.mp3",
+      "duration_ms": 34855,
+      "bytes": 560685,
+      "sha256": "7c05de83e0712ea3f43dda0a68fc82dacda1cd37b8223663d8aec79b49fcf60b",
+      "sentence_ids": [
+        "ch13-s08-n0223",
+        "ch13-s08-n0224",
+        "ch13-s08-n0225",
+        "ch13-s08-n0226",
+        "ch13-s08-n0227",
+        "ch13-s08-n0228"
+      ]
+    },
+    {
+      "id": "c0039",
+      "audio_file": "c0039.mp3",
+      "duration_ms": 36509,
+      "bytes": 585645,
+      "sha256": "ede5dd3b64c59c2b79c3d0bcfc3d745889a2410d9a15fe93d2b824f7b8d599be",
+      "sentence_ids": [
+        "ch13-s08-n0229",
+        "ch13-s08-n0230",
+        "ch13-s08-n0231",
+        "ch13-s08-n0232",
+        "ch13-s08-n0233",
+        "ch13-s08-n0234"
+      ]
+    },
+    {
+      "id": "c0040",
+      "audio_file": "c0040.mp3",
+      "duration_ms": 38586,
+      "bytes": 618285,
+      "sha256": "dcda58237e6ba01eb514e7101371e7b9f7df660743ad8cd2e1daa8f5ee320bb9",
+      "sentence_ids": [
+        "ch13-s08-n0235",
+        "ch13-s08-n0236",
+        "ch13-s08-n0237",
+        "ch13-s08-n0238",
+        "ch13-s08-n0239",
+        "ch13-s08-n0240"
+      ]
+    },
+    {
+      "id": "c0041",
+      "audio_file": "c0041.mp3",
+      "duration_ms": 42628,
+      "bytes": 682413,
+      "sha256": "db8e268a9a2bcf7c90d6f73e19fa01cbd311232cd160a2a63d1f33b92c4c11de",
+      "sentence_ids": [
+        "ch13-s08-n0241",
+        "ch13-s08-n0242",
+        "ch13-s08-n0243",
+        "ch13-s08-n0244",
+        "ch13-s08-n0245",
+        "ch13-s08-n0246"
+      ]
+    },
+    {
+      "id": "c0042",
+      "audio_file": "c0042.mp3",
+      "duration_ms": 42818,
+      "bytes": 694701,
+      "sha256": "fc8f58d0c2d0ee571f337ba6cc2cb056841667691743d3e707f58ebda22e7ffb",
+      "sentence_ids": [
+        "ch13-s08-n0247",
+        "ch13-s08-n0248",
+        "ch13-s08-n0249",
+        "ch13-s08-n0250",
+        "ch13-s08-n0251",
+        "ch13-s08-n0252"
+      ]
+    },
+    {
+      "id": "c0043",
+      "audio_file": "c0043.mp3",
+      "duration_ms": 35245,
+      "bytes": 563757,
+      "sha256": "ce428934d72ae7ae783cfa09dade053d9ad63cfb39a9249d6312cbe182b7b935",
+      "sentence_ids": [
+        "ch13-s08-n0253",
+        "ch13-s08-n0254",
+        "ch13-s08-n0255",
+        "ch13-s08-n0256",
+        "ch13-s08-n0257",
+        "ch13-s08-n0258"
+      ]
+    },
+    {
+      "id": "c0044",
+      "audio_file": "c0044.mp3",
+      "duration_ms": 46846,
+      "bytes": 749229,
+      "sha256": "c95a72c78628305137d8233632bdc7a88286433e54dced01b86789213f1b6ae7",
+      "sentence_ids": [
+        "ch13-s08-n0259",
+        "ch13-s08-n0260",
+        "ch13-s08-n0261",
+        "ch13-s08-n0262",
+        "ch13-s08-n0263",
+        "ch13-s08-n0264"
+      ]
+    },
+    {
+      "id": "c0045",
+      "audio_file": "c0045.mp3",
+      "duration_ms": 47795,
+      "bytes": 771501,
+      "sha256": "42e2eff80bcb293b81348db7d145d104327da0696b929dce607535e69368259d",
+      "sentence_ids": [
+        "ch13-s08-n0265",
+        "ch13-s08-n0266",
+        "ch13-s08-n0267",
+        "ch13-s08-n0268",
+        "ch13-s08-n0269",
+        "ch13-s08-n0270"
+      ]
+    },
+    {
+      "id": "c0046",
+      "audio_file": "c0046.mp3",
+      "duration_ms": 30075,
+      "bytes": 480429,
+      "sha256": "cd5b98fb0267c00c80db61df62a7b8ce4d8d720f199dca788598a6b0250162e0",
+      "sentence_ids": [
+        "ch13-s08-n0271",
+        "ch13-s08-n0272",
+        "ch13-s08-n0273",
+        "ch13-s08-n0274",
+        "ch13-s08-n0275",
+        "ch13-s08-n0276"
+      ]
+    },
+    {
+      "id": "c0047",
+      "audio_file": "c0047.mp3",
+      "duration_ms": 39075,
+      "bytes": 630957,
+      "sha256": "8cc82950ef256eb9c0299dab28633b70a86a28e9917a459992279e870c30e8b3",
+      "sentence_ids": [
+        "ch13-s08-n0277",
+        "ch13-s08-n0278",
+        "ch13-s08-n0279",
+        "ch13-s08-n0280",
+        "ch13-s08-n0281",
+        "ch13-s08-n0282"
+      ]
+    },
+    {
+      "id": "c0048",
+      "audio_file": "c0048.mp3",
+      "duration_ms": 19105,
+      "bytes": 311085,
+      "sha256": "c91d50fa928a757de30e50ecb6f938fc94c86d9f49d47e408c4280bf365b786b",
+      "sentence_ids": [
+        "ch13-s08-n0283",
+        "ch13-s08-n0284",
+        "ch13-s08-n0285",
+        "ch13-s08-n0286",
+        "ch13-s08-n0287",
+        "ch13-s08-n0288"
+      ]
+    },
+    {
+      "id": "c0049",
+      "audio_file": "c0049.mp3",
+      "duration_ms": 31425,
+      "bytes": 503469,
+      "sha256": "dd50a7b9878484970cc59f6c916ce6f3062ee761c9d3849e194c57c1b76c9f02",
+      "sentence_ids": [
+        "ch13-s08-n0289",
+        "ch13-s08-n0290",
+        "ch13-s08-n0291",
+        "ch13-s08-n0292",
+        "ch13-s08-n0293",
+        "ch13-s08-n0294"
+      ]
+    },
+    {
+      "id": "c0050",
+      "audio_file": "c0050.mp3",
+      "duration_ms": 34049,
+      "bytes": 548397,
+      "sha256": "f5196bc5631370cca8a361a67fce580c242703736bd5797e28155401a2317bd9",
+      "sentence_ids": [
+        "ch13-s08-n0295",
+        "ch13-s08-n0296",
+        "ch13-s08-n0297",
+        "ch13-s08-n0298",
+        "ch13-s08-n0299",
+        "ch13-s08-n0300"
+      ]
+    },
+    {
+      "id": "c0051",
+      "audio_file": "c0051.mp3",
+      "duration_ms": 32835,
+      "bytes": 524973,
+      "sha256": "fa14fc87ef60b080b7f206ac36a0c8d82675849f17f0577a6e0b90311c7af749",
+      "sentence_ids": [
+        "ch13-s08-n0301",
+        "ch13-s08-n0302",
+        "ch13-s08-n0303",
+        "ch13-s08-n0304",
+        "ch13-s08-n0305",
+        "ch13-s08-n0306"
+      ]
+    },
+    {
+      "id": "c0052",
+      "audio_file": "c0052.mp3",
+      "duration_ms": 35122,
+      "bytes": 563373,
+      "sha256": "dfaf4e4c6aec049b3d77dc0b8da4fa6e33bf4d59420423fddc1a1f79d536ba7e",
+      "sentence_ids": [
+        "ch13-s08-n0307",
+        "ch13-s08-n0308",
+        "ch13-s08-n0309",
+        "ch13-s08-n0310",
+        "ch13-s08-n0311",
+        "ch13-s08-n0312"
+      ]
+    },
+    {
+      "id": "c0053",
+      "audio_file": "c0053.mp3",
+      "duration_ms": 24605,
+      "bytes": 397101,
+      "sha256": "deb0ce59eae4be53dce60a7bdd6f0f922d6d706636385db135438dbbfbe1a2bc",
+      "sentence_ids": [
+        "ch13-s08-n0313",
+        "ch13-s08-n0314",
+        "ch13-s08-n0315",
+        "ch13-s08-n0316"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s08-n0001",
+      "text": "前面已经看到，机器怎样取代以手艺为基础的协作，也怎样取代以手艺分工为基础的工场手工业。",
+      "start_ms": 115,
+      "end_ms": 7695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s08-n0002",
+      "text": "收割机是第一种情况的例子，它取代了一群割麦人的协作。",
+      "start_ms": 8200,
+      "end_ms": 12325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s08-n0003",
+      "text": "制缝衣针的机器则是第二种情况的突出例子。",
+      "start_ms": 12835,
+      "end_ms": 15935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s08-n0004",
+      "text": "亚当·斯密生活的时代，十名男子通过分工，每天能制造四万八千多枚缝衣针。",
+      "start_ms": 16555,
+      "end_ms": 22445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s08-n0005",
+      "text": "现在，一台机器在十一小时工作日里就能制造十四万五千枚。",
+      "start_ms": 22885,
+      "end_ms": 27885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s08-n0006",
+      "text": "一名妇女或女孩平均看管四台这种机器，每天因而能生产大约六十万枚，每周超过三百万枚缝衣针。",
+      "start_ms": 28415,
+      "end_ms": 36375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s08-n0007",
+      "text": "一台工作机取代协作或工场手工业以后，仍可能成为小手工业生产的基础。",
+      "start_ms": 125,
+      "end_ms": 4765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s08-n0008",
+      "text": "不过，这种以机器为基础重新出现的手工业，通常只是通往工厂生产的过渡阶段。",
+      "start_ms": 5165,
+      "end_ms": 10475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s08-n0009",
+      "text": "只要蒸汽力或水力取代人的肌肉，开始驱动机器，工厂生产一般就会出现。",
+      "start_ms": 10915,
+      "end_ms": 15885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s08-n0010",
+      "text": "小生产偶尔也能使用机械动力，但这种状态同样只是暂时的。",
+      "start_ms": 16200,
+      "end_ms": 19915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s08-n0011",
+      "text": "例如，伯明翰有些工场向别人租用蒸汽，一些织造业使用小型热力机。",
+      "start_ms": 20320,
+      "end_ms": 25165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s08-n0012",
+      "text": "考文垂丝织业还自发尝试过“家庭工厂”。",
+      "start_ms": 25650,
+      "end_ms": 27895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s08-n0013",
+      "text": "人们把一排排小屋建成方形，在中间修一座所谓动力房，安放蒸汽机，再用传动轴连接各小屋里的织机。",
+      "start_ms": 325,
+      "end_ms": 7205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s08-n0014",
+      "text": "蒸汽一律租用，例如每台织机每周租金两先令六便士。",
+      "start_ms": 7570,
+      "end_ms": 11335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s08-n0015",
+      "text": "不管织机有没有开工，租金都要按周支付。",
+      "start_ms": 11655,
+      "end_ms": 14115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s08-n0016",
+      "text": "每间小屋里有两至六台织机，有些属于工人本人，有些赊购，有些租来。",
+      "start_ms": 14540,
+      "end_ms": 19235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s08-n0017",
+      "text": "家庭工厂与真正工厂的斗争持续了十二年多，最后三百家家庭工厂全部破产。",
+      "start_ms": 19640,
+      "end_ms": 24675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s08-n0018",
+      "text": "有些生产过程从一开始并不要求大规模生产。",
+      "start_ms": 25090,
+      "end_ms": 27695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s08-n0019",
+      "text": "在当时之前几十年里新出现的制信封、制钢笔尖等行业，通常先短暂经历手工业，再经历工场手工业，随后转入工厂生产。",
+      "start_ms": 105,
+      "end_ms": 10305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s08-n0020",
+      "text": "如果一件产品的工场生产不是由一系列前后相接、逐步加工产品的工序组成，而是包含许多彼此不同的工序，这种转变就最困难。",
+      "start_ms": 10785,
+      "end_ms": 20695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s08-n0021",
+      "text": "钢笔尖制造业就遇到过很大障碍。",
+      "start_ms": 21465,
+      "end_ms": 23705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s08-n0022",
+      "text": "但大约十五年前，人们已经发明了一种自动机，可以一次完成六种不同工序。",
+      "start_ms": 24120,
+      "end_ms": 29785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s08-n0023",
+      "text": "1820年，手工业制造的第一批十二打钢笔尖售价七英镑四先令。",
+      "start_ms": 30497,
+      "end_ms": 35597,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s08-n0024",
+      "text": "1830年，工场手工业制造同样数量只卖八先令。",
+      "start_ms": 36452,
+      "end_ms": 40212,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s08-n0025",
+      "text": "到当时，工厂批发价已经降到二至六便士。",
+      "start_ms": 85,
+      "end_ms": 3245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s08-n0026",
+      "text": "随着工厂制度的发展，以及同它相伴的农业变革，其他各个行业不仅扩大了生产规模，生产方式本身也发生了变化。",
+      "start_ms": 3800,
+      "end_ms": 12245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s08-n0027",
+      "text": "机器生产的原则开始到处决定生产怎样组织：先把生产过程分解成各个阶段，再用力学、化学等自然科学知识解决每个阶段提出的问题。",
+      "start_ms": 12780,
+      "end_ms": 22895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s08-n0028",
+      "text": "因此，机器不断进入工场手工业的某一道工序。",
+      "start_ms": 24015,
+      "end_ms": 27575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s08-n0029",
+      "text": "原有分工把工场手工业凝固成一套固定结构，机器进入以后，这套结构开始瓦解，转入持续变化。",
+      "start_ms": 28150,
+      "end_ms": 35695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s08-n0030",
+      "text": "由不同工人组成的整体劳动组织也从根本上改变了。",
+      "start_ms": 36164,
+      "end_ms": 39714,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s08-n0031",
+      "text": "工场手工业时期的分工以熟练手艺为基础。",
+      "start_ms": 525,
+      "end_ms": 3255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s08-n0032",
+      "text": "现在，只要可能，生产安排便以妇女、各个年龄的儿童和不熟练工人为基础，也就是英国人很能说明问题地称作“cheap labour”的廉价劳动。",
+      "start_ms": 3640,
+      "end_ms": 13515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s08-n0033",
+      "text": "所有大规模组织起来的生产都是如此，无论是否采用机器。",
+      "start_ms": 14045,
+      "end_ms": 17805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s08-n0034",
+      "text": "所谓家庭工业也是如此，不管工作是在工人自己家中还是小作坊里进行。",
+      "start_ms": 18230,
+      "end_ms": 22765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s08-n0035",
+      "text": "这种现代“家庭工业”与旧式家庭工业除了名称，没有任何共同之处。",
+      "start_ms": 23155,
+      "end_ms": 27305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s08-n0036",
+      "text": "旧式家庭工业以独立的城市手工业、自主经营的农民家庭，尤其是劳动者真正拥有自己的家为前提。",
+      "start_ms": 28155,
+      "end_ms": 35485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s08-n0037",
+      "text": "现代家庭工业却成了工厂、工场手工业或商品仓库设在外面的生产部门。",
+      "start_ms": 95,
+      "end_ms": 5655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s08-n0038",
+      "text": "资本一方面把大批工厂工人、工场手工业工人和手工业者集中在同一地点，直接指挥他们；另一方面又用看不见的线操纵另一支工人大军。",
+      "start_ms": 6145,
+      "end_ms": 15665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s08-n0039",
+      "text": "这些家庭工人分散在大城市和乡村各地。",
+      "start_ms": 16100,
+      "end_ms": 18955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s08-n0040",
+      "text": "例如，爱尔兰伦敦德里的蒂利衬衫厂直接雇用一千名工厂工人，另外还让散布在乡村的九千名家庭工人为它生产。",
+      "start_ms": 19280,
+      "end_ms": 27115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s08-n0041",
+      "text": "现代工场手工业剥削廉价而尚未发育成熟的劳动力，比真正的工厂更加无耻。",
+      "start_ms": 27725,
+      "end_ms": 33655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s08-n0042",
+      "text": "工厂用机器代替肌肉，工作也相对容易一些，工场手工业却大多没有这些技术条件，同时还肆无忌惮地让妇女和未成年人的身体接触有毒物质等危险。",
+      "start_ms": 34046,
+      "end_ms": 44741,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s08-n0043",
+      "text": "所谓家庭劳动的剥削又比工场手工业更加无耻。",
+      "start_ms": 135,
+      "end_ms": 3485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s08-n0044",
+      "text": "工人彼此分散，抵抗能力因而减弱。",
+      "start_ms": 3920,
+      "end_ms": 6595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s08-n0045",
+      "text": "实际雇主与工人之间还挤进一连串掠夺性的中间人。",
+      "start_ms": 7000,
+      "end_ms": 10565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s08-n0046",
+      "text": "各地的家庭劳动都要同一行业里的机器生产或至少工场手工业竞争。",
+      "start_ms": 10885,
+      "end_ms": 15785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s08-n0047",
+      "text": "贫困又使工人连最基本的劳动条件也无法得到，例如足够空间、光线和通风。",
+      "start_ms": 16280,
+      "end_ms": 21955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s08-n0048",
+      "text": "就业越来越不规律。",
+      "start_ms": 22485,
+      "end_ms": 23705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s08-n0049",
+      "text": "大工业和农业不断制造“过剩人口”，家庭劳动成了这些人最后的避难所，工人之间的竞争在这里必然达到最高程度。",
+      "start_ms": 355,
+      "end_ms": 9035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s08-n0050",
+      "text": "机器生产第一次系统发展出节约生产资料的方法，但这种节约从一开始就伴随着对劳动力最残酷的浪费，也夺走劳动得以正常进行的基本条件。",
+      "start_ms": 9420,
+      "end_ms": 21105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s08-n0051",
+      "text": "一个行业里劳动的社会生产力越低，共同劳动过程的技术基础越薄弱，这种节约所包含的对立和杀人一面就表现得越明显。",
+      "start_ms": 21535,
+      "end_ms": 31795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s08-n0052",
+      "text": "现在用几个例子说明前面提出的观点。",
+      "start_ms": 32261,
+      "end_ms": 34976,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s08-n0053",
+      "text": "其实，读者已经在讨论工作日的部分见过大量证据。",
+      "start_ms": 35401,
+      "end_ms": 39816,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s08-n0054",
+      "text": "伯明翰及其周边的金属工场大量使用三万名儿童和青少年以及一万名妇女，其中大部分人从事十分繁重的劳动。",
+      "start_ms": 40241,
+      "end_ms": 49476,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s08-n0055",
+      "text": "他们在危害健康的黄铜铸造厂、纽扣厂，以及上釉、电镀和涂漆等工序中劳动。",
+      "start_ms": 285,
+      "end_ms": 6175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s08-n0056",
+      "text": "伦敦一些报纸和书籍印刷厂过度使用成年和未成年工人，赢得了“屠宰场”的光荣称号。",
+      "start_ms": 6580,
+      "end_ms": 12385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s08-n0057",
+      "text": "装订业同样存在这种过度劳动，主要牺牲品是妇女、女孩和儿童。",
+      "start_ms": 12785,
+      "end_ms": 17125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s08-n0058",
+      "text": "未成年人在制绳厂从事重体力劳动，盐场、蜡烛厂和其他化工场使用夜工。",
+      "start_ms": 17665,
+      "end_ms": 23165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s08-n0059",
+      "text": "没有采用机械动力的丝织工场还让男孩转动织机，以毁灭性的方式消耗他们。",
+      "start_ms": 23565,
+      "end_ms": 28675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s08-n0060",
+      "text": "拣破布则是最恶劣、最肮脏、工资最低的工作之一，雇主特别爱让年轻女孩和妇女来做。",
+      "start_ms": 29315,
+      "end_ms": 35695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s08-n0061",
+      "text": "英国除了本国数不清的破布，还是全世界破布贸易的中心。",
+      "start_ms": 115,
+      "end_ms": 4185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s08-n0062",
+      "text": "破布从日本、南美最远的国家和加那利群岛运来，最主要的来源则是德国、法国、俄国、意大利、埃及、土耳其、比利时和荷兰。",
+      "start_ms": 4520,
+      "end_ms": 13555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s08-n0063",
+      "text": "破布可以做肥料、床上用品的填充物和再生毛，也是造纸原料。",
+      "start_ms": 13965,
+      "end_ms": 18215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s08-n0064",
+      "text": "女拣布工却因此成了天花等传染病的传播媒介，而她们自己就是最早的受害者。",
+      "start_ms": 18590,
+      "end_ms": 23425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s08-n0065",
+      "text": "除了矿山和煤矿，制砖业也是一个典型例子。",
+      "start_ms": 24095,
+      "end_ms": 26955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s08-n0066",
+      "text": "工人从小就被过度劳动，工作又繁重而不适合儿童，最后整个人变得粗野。",
+      "start_ms": 27470,
+      "end_ms": 32325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s08-n0067",
+      "text": "1866年在英国，新发明的制砖机还只是偶尔使用。",
+      "start_ms": 795,
+      "end_ms": 3635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s08-n0068",
+      "text": "每年五月到九月，工人从早晨五点做到晚上八点。",
+      "start_ms": 3940,
+      "end_ms": 7135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s08-n0069",
+      "text": "砖坯如果在露天晾干，经常要从早晨四点做到晚上九点。",
+      "start_ms": 7440,
+      "end_ms": 11245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s08-n0070",
+      "text": "早晨五点到晚上七点的工作日，竟被称为“缩短了的”“适中的”工作日。",
+      "start_ms": 11480,
+      "end_ms": 16465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s08-n0071",
+      "text": "男女儿童从六岁甚至四岁起就被投入劳动。",
+      "start_ms": 16740,
+      "end_ms": 19115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s08-n0072",
+      "text": "他们每天工作得和成年人一样久，往往还要更久。",
+      "start_ms": 19665,
+      "end_ms": 22915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s08-n0073",
+      "text": "工作本来就重，夏天的炎热又进一步加剧疲劳。",
+      "start_ms": 135,
+      "end_ms": 3195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s08-n0074",
+      "text": "例如，莫克斯利一家砖厂里，一名二十四岁女孩每天制造两千块砖，由两名未成年女孩帮忙搬运泥土、堆放砖块。",
+      "start_ms": 3520,
+      "end_ms": 11125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s08-n0075",
+      "text": "这两个女孩每天合计要搬运十吨材料，从三十英尺深的砖坑里沿湿滑坑壁搬上来，再运到二百一十英尺外。",
+      "start_ms": 11545,
+      "end_ms": 18995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s08-n0076",
+      "text": "“儿童一旦经历砖厂这座炼狱，道德上不可能不受到严重摧残……他们从很小的时候起，就听着卑劣的言语，在污秽、下流而无耻的习惯中无知、野蛮地长大，成年以后便会目无法纪、堕落放荡……住房方式是另一个可怕的腐化根源。",
+      "start_ms": 19370,
+      "end_ms": 36169,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s08-n0077",
+      "text": "每名制坯工，也就是掌握技术并领导一个工人组的人，都让自己那组七个人在他的棚屋或小屋里住宿吃饭。",
+      "start_ms": 36594,
+      "end_ms": 43899,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s08-n0078",
+      "text": "无论是不是他的家人，男人、男孩和女孩都睡在同一间小屋里。",
+      "start_ms": 44309,
+      "end_ms": 48859,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s08-n0079",
+      "text": "屋子一般只有两间房，极少有三间，而且都在底层，几乎不通风。",
+      "start_ms": 505,
+      "end_ms": 4725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s08-n0080",
+      "text": "白天大量出汗已经使身体疲惫不堪，卫生、清洁和体面因而全都无人顾及。",
+      "start_ms": 5150,
+      "end_ms": 10515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s08-n0081",
+      "text": "许多小屋简直是混乱、污秽和尘土的样板……这个制度使用年轻女孩从事制砖劳动，最大的祸害是通常把她们从童年起就同最堕落的人终身绑在一起。",
+      "start_ms": 10865,
+      "end_ms": 21425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s08-n0082",
+      "text": "大自然还没让她们知道自己已经是女性，她们就变成了粗野、满嘴脏话的小子。",
+      "start_ms": 21905,
+      "end_ms": 26745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s08-n0083",
+      "text": "她们只穿几片肮脏破布，双腿露到膝盖以上，头发和脸上全是污泥，学会蔑视一切端庄和羞耻。",
+      "start_ms": 27080,
+      "end_ms": 34505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s08-n0084",
+      "text": "吃饭时，她们躺倒在田野里，或者看附近运河里的男孩洗澡。",
+      "start_ms": 34994,
+      "end_ms": 39309,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s08-n0085",
+      "text": "繁重的一天终于结束，她们便换上稍好一点的衣服，跟男人一起去酒馆。”",
+      "start_ms": 135,
+      "end_ms": 5635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s08-n0086",
+      "text": "这个阶层的人从小普遍酗酒，完全是这种生活的自然结果。",
+      "start_ms": 6235,
+      "end_ms": 10155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s08-n0087",
+      "text": "“最糟的是，制砖工已经对自己绝望。",
+      "start_ms": 10160,
+      "end_ms": 13535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s08-n0088",
+      "text": "一名情况较好的工人对索撒尔菲尔兹的牧师说：先生，要使一个制砖工提高和改善，还不如去改善魔鬼！”",
+      "start_ms": 13960,
+      "end_ms": 21595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s08-n0089",
+      "text": "现代工场手工业中，资本家怎样在劳动条件上“省钱”，可以从1861年的第四号和1864年的第六号《公共卫生报告》中找到大量官方材料。",
+      "start_ms": 22125,
+      "end_ms": 32960,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s08-n0090",
+      "text": "这里所说的现代工场手工业，包括真正工厂以外的一切大型作坊。",
+      "start_ms": 33335,
+      "end_ms": 38220,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s08-n0091",
+      "text": "报告对这些作坊，尤其对伦敦印刷工场和裁缝作坊的描述，比小说家最令人恶心的想象还要可怕。",
+      "start_ms": 285,
+      "end_ms": 7105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s08-n0092",
+      "text": "它们怎样损害工人健康，自然不必多说。",
+      "start_ms": 7505,
+      "end_ms": 10165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s08-n0093",
+      "text": "枢密院最高医务官、《公共卫生报告》的官方主编西蒙医生指出：“我在第四号报告中说明，工人在实际上无法坚持自己最基本的健康权利。",
+      "start_ms": 10605,
+      "end_ms": 20325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s08-n0094",
+      "text": "无论雇主把他们集中起来做什么工作，雇主都应尽其能力排除可以避免的有害健康条件，这就是他们的权利。",
+      "start_ms": 21205,
+      "end_ms": 29065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s08-n0095",
+      "text": "我还指出，工人实际上没有能力为自己取得这种健康上的公正，而政府任命的卫生管理人员也不能给他们有效帮助……如今，成千上万男女工人的生命，仅仅因为他们从事的工作造成无休止的身体痛苦，就被毫无意义地折磨和缩短。”",
+      "start_ms": 29355,
+      "end_ms": 46918,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s08-n0096",
+      "text": "为了说明劳动场所怎样影响健康，西蒙医生列出下面的死亡率：",
+      "start_ms": 47583,
+      "end_ms": 51938,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s08-n0097",
+      "text": "现在来看所谓家庭劳动。",
+      "start_ms": 885,
+      "end_ms": 2315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s08-n0098",
+      "text": "要了解大工业背景下这个资本剥削领域及其骇人情形，可以看看英国一些偏远村庄中表面上十分田园诗般的手工制钉业。",
+      "start_ms": 2655,
+      "end_ms": 11435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s08-n0099",
+      "text": "不过，这里只需从花边业和草编业中举几个例子。",
+      "start_ms": 11925,
+      "end_ms": 15365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s08-n0100",
+      "text": "这些行业有的还完全没有采用机器，有的正与机器生产和工场手工业竞争。",
+      "start_ms": 15780,
+      "end_ms": 21055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s08-n0101",
+      "text": "英国花边业雇用了十五万人，其中大约一万人受1861年工厂法管辖。",
+      "start_ms": 21585,
+      "end_ms": 26865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s08-n0102",
+      "text": "其余十四万人绝大多数是妇女、青少年和男女儿童，男性只占很小一部分。",
+      "start_ms": 27265,
+      "end_ms": 33025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s08-n0103",
+      "text": "这些“廉价”剥削材料的健康状况，可以从诺丁汉综合诊所医生杜鲁门的统计中看出。",
+      "start_ms": 315,
+      "end_ms": 5715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s08-n0104",
+      "text": "他接诊的花边女工共有686人，大多在十七至二十四岁之间。",
+      "start_ms": 6125,
+      "end_ms": 10315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s08-n0105",
+      "text": "各年患肺结核的比例是：",
+      "start_ms": 11305,
+      "end_ms": 12985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s08-n0106",
+      "text": "肺结核率取得如此“进步”，就连最乐观的进步鼓吹者和最会满口谎话的德国自由贸易推销员，也该感到满意了。",
+      "start_ms": 13325,
+      "end_ms": 20755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s08-n0107",
+      "text": "1861年工厂法管制机器制造花边的工厂，英国花边通常都用这种方式制造。",
+      "start_ms": 22105,
+      "end_ms": 27015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s08-n0108",
+      "text": "这里只简要考察没有集中在工场、商品仓库等场所的所谓家庭工人。",
+      "start_ms": 27465,
+      "end_ms": 32175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s08-n0109",
+      "text": "他们分属两个行业：一是整理机器制造的花边，这项工作本身又分为许多小类；二是手工编结花边。",
+      "start_ms": 105,
+      "end_ms": 8495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s08-n0110",
+      "text": "花边整理作为家庭劳动，有两种组织方式。",
+      "start_ms": 8800,
+      "end_ms": 11595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s08-n0111",
+      "text": "第一种是在所谓“女工头之家”进行，第二种是妇女独自或带着自己的孩子在家中进行。",
+      "start_ms": 12235,
+      "end_ms": 19145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s08-n0112",
+      "text": "经营“女工头之家”的妇女自己也很贫穷，工作场所只是她们私人住宅的一部分。",
+      "start_ms": 19530,
+      "end_ms": 25305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s08-n0113",
+      "text": "她们从工厂主、商品仓库老板等人那里接订单，再按照房间大小和订单需求的变化，雇用妇女、女孩和年幼儿童。",
+      "start_ms": 25805,
+      "end_ms": 35495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s08-n0114",
+      "text": "有些场所雇用二十至四十名女工，另一些雇用十至二十名。",
+      "start_ms": 35847,
+      "end_ms": 41072,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s08-n0115",
+      "text": "儿童开始工作的平均最低年龄是六岁，有些还不满五岁。",
+      "start_ms": 105,
+      "end_ms": 5465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s08-n0116",
+      "text": "通常从早晨八点做到晚上八点，吃饭共一个半小时，但时间不固定，而且经常就在恶臭的工作间里吃。",
+      "start_ms": 5920,
+      "end_ms": 16115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s08-n0117",
+      "text": "生意好时，往往从早晨八点，有时六点，一直做到晚上十点、十一点甚至十二点。",
+      "start_ms": 16760,
+      "end_ms": 24315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s08-n0118",
+      "text": "英国兵营规定每名士兵应有五百至六百立方英尺空间，军医院则有一千二百立方英尺。",
+      "start_ms": 25555,
+      "end_ms": 33915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s08-n0119",
+      "text": "这里的工作间每人却只有六十七至一百立方英尺，煤气灯还在不断消耗空气中的氧气。",
+      "start_ms": 34457,
+      "end_ms": 42982,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s08-n0120",
+      "text": "为了保持花边洁净，孩子们即使冬天也经常要脱鞋，而地面只是石块或砖铺成。",
+      "start_ms": 43622,
+      "end_ms": 52332,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s08-n0121",
+      "text": "“在诺丁汉，一个边长大约十二英尺的小房间里挤进十五至二十名儿童，并不罕见。",
+      "start_ms": 0,
+      "end_ms": 6345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s08-n0122",
+      "text": "他们每天二十四小时中有十五小时做一种工作。",
+      "start_ms": 6715,
+      "end_ms": 9315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s08-n0123",
+      "text": "工作本身单调乏味，令人疲惫，又在各种最损害健康的条件下进行……即使最小的孩子，注意力和动作速度也紧张得惊人。",
+      "start_ms": 9395,
+      "end_ms": 19735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s08-n0124",
+      "text": "他们几乎从不让手指休息或稍微放慢。",
+      "start_ms": 20355,
+      "end_ms": 23335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s08-n0125",
+      "text": "有人向他们问话，他们也不敢把眼睛从工作上移开，唯恐浪费一刻。”",
+      "start_ms": 23800,
+      "end_ms": 28955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s08-n0126",
+      "text": "劳动时间越长，“女工头”越要用“长棍”催促。",
+      "start_ms": 28960,
+      "end_ms": 32385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s08-n0127",
+      "text": "“漫长的束缚快结束时，孩子们渐渐疲惫，像笼中鸟一样坐立不安。",
+      "start_ms": 0,
+      "end_ms": 4285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s08-n0128",
+      "text": "这种工作单调、伤眼，身体姿势始终不变，令人筋疲力尽。",
+      "start_ms": 4660,
+      "end_ms": 8555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s08-n0129",
+      "text": "它是真正的奴隶劳动。”",
+      "start_ms": 8860,
+      "end_ms": 9795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s08-n0130",
+      "text": "妇女如果带着自己的孩子在家中劳动，也就是按现代意义在租来的房间里劳动，通常还是阁楼，情况只会更糟。",
+      "start_ms": 10565,
+      "end_ms": 17075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s08-n0131",
+      "text": "诺丁汉周围八十英里范围内都有人把这种工作发放出去。",
+      "start_ms": 17460,
+      "end_ms": 20745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s08-n0132",
+      "text": "商品仓库里的孩子晚上九点或十点下班时，人们常常再塞给他们一捆活，让他们带回家完成。",
+      "start_ms": 21060,
+      "end_ms": 26495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s08-n0133",
+      "text": "资本主义的伪君子通过一个领工资的手下，装出虔诚口气说“这是给母亲的”，心里却很清楚，可怜的孩子必须熬夜帮着做。",
+      "start_ms": 125,
+      "end_ms": 6855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s08-n0134",
+      "text": "手工编结花边业主要集中在英国两个农业区。",
+      "start_ms": 7220,
+      "end_ms": 10205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s08-n0135",
+      "text": "一个是霍尼顿花边区，沿德文郡南海岸延伸二十至三十英里，还包括北德文的少数地方。",
+      "start_ms": 10485,
+      "end_ms": 16845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s08-n0136",
+      "text": "另一个覆盖白金汉、贝德福德、北安普敦几郡的大部分地区，以及牛津郡和亨廷登郡的邻近地带。",
+      "start_ms": 17230,
+      "end_ms": 24295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s08-n0137",
+      "text": "农业短工的小屋通常就是劳动场所。",
+      "start_ms": 24675,
+      "end_ms": 26745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s08-n0138",
+      "text": "一些工场主让三千多名家庭工人为自己生产，主要是女童和年轻女子，没有男性。",
+      "start_ms": 27190,
+      "end_ms": 32335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s08-n0139",
+      "text": "花边整理业的情况在这里重现，只是“女工头之家”换成所谓“花边学校”。",
+      "start_ms": 125,
+      "end_ms": 5195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s08-n0140",
+      "text": "这些学校由贫穷妇女在自己的小屋里经营。",
+      "start_ms": 5245,
+      "end_ms": 8035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s08-n0141",
+      "text": "儿童从五岁、有时更小开始，一直工作到十二岁或十五岁。",
+      "start_ms": 8465,
+      "end_ms": 12655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s08-n0142",
+      "text": "入学第一年，年龄最小的孩子每天工作四至八小时。",
+      "start_ms": 13080,
+      "end_ms": 16945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s08-n0143",
+      "text": "以后则从早晨六点做到晚上八点或十点。",
+      "start_ms": 17325,
+      "end_ms": 20135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s08-n0144",
+      "text": "“这些房间通常是小屋里普通的起居室。",
+      "start_ms": 20140,
+      "end_ms": 23135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s08-n0145",
+      "text": "烟囱被堵住，以防冷风进入。",
+      "start_ms": 435,
+      "end_ms": 2525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s08-n0146",
+      "text": "即使在冬天，里面的人有时也只靠彼此身体发出的热量取暖。",
+      "start_ms": 2940,
+      "end_ms": 6935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s08-n0147",
+      "text": "还有一些所谓教室，像没有壁炉的小储藏室……这些洞穴经常拥挤到极点，空气也受到极严重的污染。",
+      "start_ms": 7160,
+      "end_ms": 14795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s08-n0148",
+      "text": "小屋入口处通常还有排水沟、厕所、腐烂物和其他垃圾，也会造成危害。”",
+      "start_ms": 15260,
+      "end_ms": 20095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s08-n0149",
+      "text": "空间方面，“一所花边学校有十八名女孩和一名女教师，每人只有三十三立方英尺。",
+      "start_ms": 20635,
+      "end_ms": 26855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s08-n0150",
+      "text": "另一所气味令人无法忍受的学校有十八人，每人只有二十四又二分之一立方英尺。",
+      "start_ms": 27260,
+      "end_ms": 32805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s08-n0151",
+      "text": "这个行业甚至使用两岁和两岁半的儿童”。",
+      "start_ms": 375,
+      "end_ms": 2865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s08-n0152",
+      "text": "在白金汉郡和贝德福德郡的乡村，花边编织业消失的地方，正是草辫编织业开始的地方。",
+      "start_ms": 3490,
+      "end_ms": 10445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s08-n0153",
+      "text": "这一行业遍布赫特福德郡的大部分地区，以及埃塞克斯郡的西部和北部。",
+      "start_ms": 10795,
+      "end_ms": 15805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s08-n0154",
+      "text": "1861年，共有48043人从事编草辫和制作草帽，其中各年龄段的男性有3815人，其余都是女性。",
+      "start_ms": 16935,
+      "end_ms": 26225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s08-n0155",
+      "text": "女性中有14913人不满二十岁，约6000人还是儿童。",
+      "start_ms": 26905,
+      "end_ms": 31515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s08-n0156",
+      "text": "这里用“草辫学校”取代了花边学校。",
+      "start_ms": 31974,
+      "end_ms": 34454,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s08-n0157",
+      "text": "孩子通常四岁开始学习编草辫，有时三四岁之间就开始了，当然完全得不到文化教育。",
+      "start_ms": 265,
+      "end_ms": 5515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s08-n0158",
+      "text": "他们把真正的小学称为“自然学校”，以区别于这些吸血场所。",
+      "start_ms": 5810,
+      "end_ms": 9485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s08-n0159",
+      "text": "在草辫学校里，孩子只是被逼着不停干活，完成吃不饱饭的母亲规定的任务，通常每天要编三十码。",
+      "start_ms": 9915,
+      "end_ms": 16395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s08-n0160",
+      "text": "回家以后，母亲还常让他们干到夜里十点、十一点甚至十二点。",
+      "start_ms": 16750,
+      "end_ms": 20045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s08-n0161",
+      "text": "他们必须不断用嘴把草秆润湿，手指和嘴都会被割伤。",
+      "start_ms": 20805,
+      "end_ms": 24825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s08-n0162",
+      "text": "伦敦的医务官员一致认为，无论卧室还是工作间，每人至少需要三百立方英尺空间；这是巴拉德医生归纳出的最低标准。",
+      "start_ms": 25350,
+      "end_ms": 33442,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s08-n0163",
+      "text": "草辫学校留给每个人的空间却比花边学校还少，分别只有12⅔、17、18½或不到22立方英尺。",
+      "start_ms": 3615,
+      "end_ms": 10205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s08-n0164",
+      "text": "怀特委员说，其中较小的数字，甚至不到一个孩子被装进长、宽、高各三英尺的箱子时所占空间的一半。",
+      "start_ms": 10675,
+      "end_ms": 17765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s08-n0165",
+      "text": "这就是孩子在十二岁或十四岁以前享受到的生活。",
+      "start_ms": 18235,
+      "end_ms": 21505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s08-n0166",
+      "text": "那些穷困而堕落的父母，只想着尽可能多地从孩子身上榨取收入。",
+      "start_ms": 21905,
+      "end_ms": 26455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s08-n0167",
+      "text": "孩子长大以后，自然也毫不关心父母，纷纷离开他们。",
+      "start_ms": 26810,
+      "end_ms": 30395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s08-n0168",
+      "text": "“这样养大的人充满无知和恶习，毫不奇怪……他们的道德处在最低水平……许多妇女生下私生子，有些人生育时年纪小得惊人，就连熟悉犯罪统计的人也为之震惊。”",
+      "start_ms": 30847,
+      "end_ms": 42222,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s08-n0169",
+      "text": "而这些“模范家庭”的祖国，恰恰是欧洲“基督教的模范国家”——至少深谙基督教的蒙塔朗贝尔伯爵是这样称呼英国的。",
+      "start_ms": 485,
+      "end_ms": 8945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s08-n0170",
+      "text": "上述行业的工资本来就少得可怜，草辫学校的儿童即使偶尔拿到最高工资，也只有三先令。",
+      "start_ms": 9400,
+      "end_ms": 16105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s08-n0171",
+      "text": "尤其在花边产区，普遍实行实物工资制，工人只能按雇主规定的方式领取或使用工资。",
+      "start_ms": 16555,
+      "end_ms": 23675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s08-n0172",
+      "text": "因此，他们实际拿到的价值远低于名义工资。",
+      "start_ms": 24000,
+      "end_ms": 27415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s08-n0173",
+      "text": "资本可以压低劳动力的价格，因为它肆意使用妇女和未成年人，剥夺工人正常劳动和生活所需的一切条件，还用残酷的加班和夜班压榨他们。",
+      "start_ms": 27965,
+      "end_ms": 38835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s08-n0174",
+      "text": "可是，这种做法最终会碰到无法突破的生理极限。",
+      "start_ms": 39266,
+      "end_ms": 42656,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s08-n0175",
+      "text": "以此为基础的商品降价和资本主义剥削，也会同时达到极限。",
+      "start_ms": 125,
+      "end_ms": 4835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s08-n0176",
+      "text": "达到这一步往往需要很长时间。",
+      "start_ms": 5180,
+      "end_ms": 7255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s08-n0177",
+      "text": "但一旦走到这里，采用机器的时刻就到了，分散的家庭劳动或工场手工业随即会迅速变成工厂生产。",
+      "start_ms": 7535,
+      "end_ms": 15495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s08-n0178",
+      "text": "这种转变规模最大的例子，是服装用品生产。",
+      "start_ms": 15890,
+      "end_ms": 19035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s08-n0179",
+      "text": "按照童工调查委员会的分类，这一行业包括草帽工、女帽工、便帽工、裁缝、时装工、女装工、衬衫工、缝纫女工、紧身胸衣工、手套工和制鞋工，还包括制作领带、衣领等许多较小的行业。",
+      "start_ms": 19450,
+      "end_ms": 35905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s08-n0180",
+      "text": "1861年，英格兰和威尔士共有586298名女性从事这些行业，其中至少115242人不满二十岁，16560人不满十五岁。",
+      "start_ms": 36732,
+      "end_ms": 45852,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s08-n0181",
+      "text": "整个联合王国共有750334名这类女工。",
+      "start_ms": 405,
+      "end_ms": 4175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s08-n0182",
+      "text": "同一时期，英格兰和威尔士在制帽、制鞋、制手套和裁缝业工作的男性共有437969人，其中14964人不满十五岁，89285人在十五至二十岁之间，333117人超过二十岁。",
+      "start_ms": 4465,
+      "end_ms": 20235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s08-n0183",
+      "text": "这里还没有算进许多相关的小行业。",
+      "start_ms": 22505,
+      "end_ms": 24635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s08-n0184",
+      "text": "即使只按现有数字计算，1861年英格兰和威尔士也有1024267人从事这些行业，大致相当于农业和畜牧业吸收的全部劳动力。",
+      "start_ms": 25025,
+      "end_ms": 35445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s08-n0185",
+      "text": "现在我们开始明白，机器为什么一面帮助资本生产出数量如此惊人的商品，一面又“腾出”如此庞大的工人人口。",
+      "start_ms": 36294,
+      "end_ms": 44014,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s08-n0186",
+      "text": "服装用品由三类生产者制造。",
+      "start_ms": 44424,
+      "end_ms": 46534,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s08-n0187",
+      "text": "第一类是工场手工业。",
+      "start_ms": 265,
+      "end_ms": 1565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s08-n0188",
+      "text": "它只是把原本分散在外的各道工序集中起来，在内部重现原有的分工。",
+      "start_ms": 1880,
+      "end_ms": 6665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s08-n0189",
+      "text": "第二类是小手工业者。",
+      "start_ms": 7020,
+      "end_ms": 8365,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s08-n0190",
+      "text": "他们不再像过去那样为个人顾客制作，而是替工场和商品仓库加工，因此整个城市或地区往往专门从事制鞋等某个行业。",
+      "start_ms": 8600,
+      "end_ms": 17765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s08-n0191",
+      "text": "第三类人数最多，是所谓的家庭工人。",
+      "start_ms": 18200,
+      "end_ms": 20925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s08-n0192",
+      "text": "他们实际上成了工场、商品仓库甚至小手工业者设在外面的生产部门。",
+      "start_ms": 21260,
+      "end_ms": 25895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s08-n0193",
+      "text": "大工业提供大量劳动材料、原料和半成品，也制造出大量廉价劳动力：这些人被大工业和农业排挤出来，只能任人摆布。",
+      "start_ms": 295,
+      "end_ms": 9095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s08-n0194",
+      "text": "资本家建立这一领域的工场，主要是为了随时掌握一支劳动后备军，以便根据需求变化立即扩大或缩小生产。",
+      "start_ms": 9500,
+      "end_ms": 16655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s08-n0195",
+      "text": "但这些工场并没有消灭分散的手工业和家庭劳动，而是继续以它们为广阔基础。",
+      "start_ms": 17110,
+      "end_ms": 22315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s08-n0196",
+      "text": "这些行业能够生产大量剩余价值，同时不断压低商品价格，过去和现在主要都靠同一种办法：把工资压到只能勉强活命的最低限度，再把工作时间延长到人体所能承受的最高限度。",
+      "start_ms": 22690,
+      "end_ms": 35795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s08-n0197",
+      "text": "正因为人的血汗被变成极其廉价的商品，销路才不断扩大。",
+      "start_ms": 36273,
+      "end_ms": 40403,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s08-n0198",
+      "text": "对英国来说，这尤其扩大了殖民地市场，因为那里还流行英国的生活习惯和审美趣味。",
+      "start_ms": 40793,
+      "end_ms": 46603,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s08-n0199",
+      "text": "可是，这种办法最终遇到了极限。",
+      "start_ms": 265,
+      "end_ms": 2585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s08-n0200",
+      "text": "只靠残酷压榨工人，即使再配上系统分工，也满足不了不断扩大的市场，更抵挡不住资本家之间增长得更快的竞争。",
+      "start_ms": 3000,
+      "end_ms": 11115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s08-n0201",
+      "text": "于是，采用机器的时刻到了。",
+      "start_ms": 11985,
+      "end_ms": 14005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s08-n0202",
+      "text": "在女装、男装、制鞋、缝纫、制帽等所有相关行业中，真正带来革命性变化的机器都是同一种：缝纫机。",
+      "start_ms": 14540,
+      "end_ms": 23815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s08-n0203",
+      "text": "缝纫机对工人的直接影响，大体和大工业时期进入其他新行业的机器相同。",
+      "start_ms": 24205,
+      "end_ms": 29685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s08-n0204",
+      "text": "年龄最小的儿童被排除出去。",
+      "start_ms": 29994,
+      "end_ms": 31944,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s08-n0205",
+      "text": "机器工人的工资比家庭工人高一些，而许多家庭工人本来就属于“穷人中的穷人”。",
+      "start_ms": 125,
+      "end_ms": 5105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s08-n0206",
+      "text": "机器还同处境较好的手工业者竞争，使他们的工资下降。",
+      "start_ms": 5560,
+      "end_ms": 9155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s08-n0207",
+      "text": "新出现的机器工人全是少女和年轻妇女。",
+      "start_ms": 9520,
+      "end_ms": 11985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s08-n0208",
+      "text": "借助机械动力，她们打破了男子对重体力工作的垄断，也把大批年老妇女和年幼儿童从较轻的工作中排挤出去。",
+      "start_ms": 12320,
+      "end_ms": 19875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s08-n0209",
+      "text": "强大的机器竞争首先击垮最弱的手工劳动者。",
+      "start_ms": 20265,
+      "end_ms": 23445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s08-n0210",
+      "text": "过去十年，伦敦饿死人数骇人地增长，恰好与机器缝纫不断扩张同时发生。",
+      "start_ms": 23820,
+      "end_ms": 29255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s08-n0211",
+      "text": "新女工操作的缝纫机大小和用途不同，有的要手脚并用，有的只用手，有的坐着操作，有的站着操作，无论哪种都耗费大量体力。",
+      "start_ms": 115,
+      "end_ms": 8145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s08-n0212",
+      "text": "她们的劳动时间通常比旧制度下短一些，但仍然长得损害健康。",
+      "start_ms": 8460,
+      "end_ms": 11955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s08-n0213",
+      "text": "制鞋、制作紧身胸衣和制帽等行业的作坊本来就狭小拥挤，缝纫机进入以后，危害变得更加严重。",
+      "start_ms": 12995,
+      "end_ms": 20065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s08-n0214",
+      "text": "洛德委员说：“走进那些屋顶低矮、挤着三四十名机器工人的工作间，简直令人无法忍受……室内热得可怕，部分热量来自加热熨斗的煤气炉……即使这里实行所谓适度的工作时间，也就是早八点到晚六点，每天仍照例有三四个人昏倒。”",
+      "start_ms": 20410,
+      "end_ms": 37048,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s08-n0215",
+      "text": "生产工具发生变化，社会组织生产的方式也必然随之改变。",
+      "start_ms": 37513,
+      "end_ms": 40748,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s08-n0216",
+      "text": "不过，这种变化不是一步完成的，而是同时出现许多交错的过渡形式。",
+      "start_ms": 41528,
+      "end_ms": 46138,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s08-n0217",
+      "text": "具体采用哪种形式，要看缝纫机进入某个行业的范围和时间、工人原来的处境、工场手工业、手工业或家庭劳动哪一种原本占优势，以及工作场所的租金等条件。",
+      "start_ms": 435,
+      "end_ms": 11275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s08-n0218",
+      "text": "例如，女装业的劳动原本大多已经通过简单协作组织起来，所以缝纫机起初只是工场手工业中新增加的一种生产条件。",
+      "start_ms": 12185,
+      "end_ms": 20335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s08-n0219",
+      "text": "在裁缝、衬衫、制鞋等行业，各种形式却混在一起。",
+      "start_ms": 20760,
+      "end_ms": 24755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s08-n0220",
+      "text": "有些地方已经是真正的工厂。",
+      "start_ms": 25135,
+      "end_ms": 26855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s08-n0221",
+      "text": "有些地方由中间雇主从大资本家那里领取原料，再把十人、五十人甚至更多的雇佣工人和缝纫机塞进房间或阁楼。",
+      "start_ms": 27280,
+      "end_ms": 35275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s08-n0222",
+      "text": "还有一些地方，手工业者和家庭工人用自己所有的缝纫机生产，由家人帮忙，或者再雇少数外人。",
+      "start_ms": 35623,
+      "end_ms": 42518,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s08-n0223",
+      "text": "这是因为缝纫机不像一套彼此衔接的机器体系，可以做得很小，供个人使用。",
+      "start_ms": 355,
+      "end_ms": 5235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s08-n0224",
+      "text": "不过，当时英国最常见的制度，还是资本家把较多机器集中在自己的厂房中，先用机器加工，再把产品分给大批家庭工人继续完成。",
+      "start_ms": 5615,
+      "end_ms": 14115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s08-n0225",
+      "text": "这些纷繁的过渡形式并没有掩盖一个共同趋势：生产正在转向真正的工厂。",
+      "start_ms": 15095,
+      "end_ms": 20345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s08-n0226",
+      "text": "缝纫机本身推动了这种趋势。",
+      "start_ms": 21155,
+      "end_ms": 23025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s08-n0227",
+      "text": "它用途广泛，促使过去分开的行业集中到同一座厂房中，听从同一个资本指挥。",
+      "start_ms": 23290,
+      "end_ms": 28865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s08-n0228",
+      "text": "缝纫前的准备工作和一些其他工序，也最适合在机器所在的地方完成。",
+      "start_ms": 29745,
+      "end_ms": 34705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s08-n0229",
+      "text": "与此同时，拥有机器的手工业者和家庭工人不可避免地会失去自己的生产条件，其中一部分人当时已经遭遇这种命运。",
+      "start_ms": 585,
+      "end_ms": 8785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s08-n0230",
+      "text": "投入缝纫机的资本越来越多，生产随之扩张，市场也不断出现商品积压。",
+      "start_ms": 9345,
+      "end_ms": 14225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s08-n0231",
+      "text": "家庭工人一遇到滞销，就不得不卖掉自己的机器。",
+      "start_ms": 15065,
+      "end_ms": 18535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s08-n0232",
+      "text": "缝纫机生产过剩以后，制造商为了卖出机器，又开始按周出租，使小机器所有者面临致命竞争。",
+      "start_ms": 19095,
+      "end_ms": 25985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s08-n0233",
+      "text": "机器的设计不断变化，价格不断下降，旧机器便持续贬值。",
+      "start_ms": 26515,
+      "end_ms": 30995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s08-n0234",
+      "text": "只有大资本家能以极低价格大批买进旧机器，并继续从中获利。",
+      "start_ms": 31464,
+      "end_ms": 36359,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s08-n0235",
+      "text": "最后，蒸汽机取代人力，决定了这场变化的结局。",
+      "start_ms": 475,
+      "end_ms": 3965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s08-n0236",
+      "text": "起初，蒸汽动力会使机器震动，转速不易控制，较轻的机器也容易损坏，但这些技术困难很快都能靠经验解决。",
+      "start_ms": 4370,
+      "end_ms": 11845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s08-n0237",
+      "text": "一方面，较大的工场集中许多工作机以后，会推动资本家采用蒸汽动力。",
+      "start_ms": 12815,
+      "end_ms": 17905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s08-n0238",
+      "text": "另一方面，蒸汽与人力竞争，又会促使更多工人和机器集中进大工厂。",
+      "start_ms": 18230,
+      "end_ms": 23295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s08-n0239",
+      "text": "因此，当时英国庞大的服装用品行业，和大多数其他行业一样，正把工场手工业、手工业和家庭劳动改造成工厂生产。",
+      "start_ms": 23795,
+      "end_ms": 33275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s08-n0240",
+      "text": "在此以前，这几种生产形式已经受大工业影响而彻底变形和瓦解。",
+      "start_ms": 33751,
+      "end_ms": 38436,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s08-n0241",
+      "text": "它们早已重现甚至放大了工厂制度的一切恶果，却没有带来工厂制度在生产发展上的积极作用。",
+      "start_ms": 525,
+      "end_ms": 6625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s08-n0242",
+      "text": "工厂法又人为加快了这场自发进行的工业革命，因为法律的适用范围扩大到一切雇用妇女、青少年和儿童的行业。",
+      "start_ms": 6980,
+      "end_ms": 14435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s08-n0243",
+      "text": "法律强制规定每天工作多长、何时开始和结束、何时休息，还规定儿童必须轮班，并禁止雇用低于一定年龄的儿童。",
+      "start_ms": 15205,
+      "end_ms": 24145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s08-n0244",
+      "text": "这样一来，雇主一方面不得不采用更多机器，并用蒸汽动力代替人的肌肉。",
+      "start_ms": 24595,
+      "end_ms": 29725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s08-n0245",
+      "text": "另一方面，为了用空间弥补时间上的损失，雇主还必须扩大共同使用的生产资料——如炉窑和厂房——的规模。",
+      "start_ms": 30125,
+      "end_ms": 37825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s08-n0246",
+      "text": "结果是生产资料进一步集中，工人也相应地更多聚集起来。",
+      "start_ms": 38248,
+      "end_ms": 42478,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s08-n0247",
+      "text": "每当某种工场手工业将被纳入工厂法时，雇主反复提出的主要反对理由，恰恰是他们要维持原有生产规模，就必须投入更多资本。",
+      "start_ms": 85,
+      "end_ms": 9615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s08-n0248",
+      "text": "至于介于工场和家庭劳动之间的过渡形式，以及家庭劳动本身，一旦工作日和童工受到限制，它们赖以存在的基础便会消失。",
+      "start_ms": 10020,
+      "end_ms": 19265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s08-n0249",
+      "text": "因为它们只有靠无限压榨廉价劳动力，才能维持竞争力。",
+      "start_ms": 19580,
+      "end_ms": 23425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s08-n0250",
+      "text": "工厂生产必须能可靠地完成预定结果，尤其是在工作日受法律限制以后。",
+      "start_ms": 23840,
+      "end_ms": 28755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s08-n0251",
+      "text": "也就是说，工厂必须在一定时间内生产出一定数量的商品，或者达到预定效果。",
+      "start_ms": 29595,
+      "end_ms": 35235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s08-n0252",
+      "text": "法律还规定工作日内必须定时休息，这就要求生产能够立即暂停，而且不能损坏正在加工的产品。",
+      "start_ms": 35573,
+      "end_ms": 42668,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s08-n0253",
+      "text": "纯机械行业比较容易做到产量稳定、随时停工。",
+      "start_ms": 85,
+      "end_ms": 3165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s08-n0254",
+      "text": "陶器、漂白、染色、烘焙和大多数金属加工等行业涉及化学或物理变化，就较难做到。",
+      "start_ms": 3620,
+      "end_ms": 10335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s08-n0255",
+      "text": "可是，在工作日没有限制、可以通宵劳动并任意消耗人命时，生产中每一个自然形成的困难很快都会被说成不可改变的“自然限制”。",
+      "start_ms": 10555,
+      "end_ms": 19995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s08-n0256",
+      "text": "消灭这种“自然限制”，工厂法比任何灭虫药消灭害虫都更有效。",
+      "start_ms": 20540,
+      "end_ms": 24965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s08-n0257",
+      "text": "陶器厂主当初喊得最响，坚称改革“根本不可能”。",
+      "start_ms": 25280,
+      "end_ms": 28705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s08-n0258",
+      "text": "1864年，工厂法强制适用于陶器业，仅仅十六个月后，所有“不可能”就消失了。",
+      "start_ms": 29605,
+      "end_ms": 35095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s08-n0259",
+      "text": "法律促成了许多改进，例如不用蒸发而用压力制造陶泥浆，重新设计烘干未烧制陶器的炉窑等。",
+      "start_ms": 125,
+      "end_ms": 7205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s08-n0260",
+      "text": "这些改进“对制陶技术极为重要，代表了这个行业在过去一个世纪从未取得的进步……炉温显著下降，用煤大幅减少，陶器干燥得反而更快”。",
+      "start_ms": 7580,
+      "end_ms": 17165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s08-n0261",
+      "text": "陶器的生产成本并没有像雇主预言的那样上升，产量反而增加了。",
+      "start_ms": 17760,
+      "end_ms": 22235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s08-n0262",
+      "text": "1864年12月至1865年12月的十二个月里，出口陶器的价值比此前三年的平均值多出138628英镑。",
+      "start_ms": 23075,
+      "end_ms": 31325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s08-n0263",
+      "text": "火柴制造业也曾把一种做法说成自然规律：男孩连午饭都要一边吞咽，一边把火柴浸入温热的磷液，毒气直接扑到脸上。",
+      "start_ms": 31611,
+      "end_ms": 39986,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s08-n0264",
+      "text": "1864年的工厂法迫使雇主节省时间，结果他们采用了浸渍机，工人不再接触毒气。",
+      "start_ms": 41086,
+      "end_ms": 46696,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s08-n0265",
+      "text": "当时，尚未受工厂法约束的花边制造业也声称无法规定统一的吃饭时间，因为不同花边材料的干燥时间不同，短则三分钟，长则一小时以上。",
+      "start_ms": 515,
+      "end_ms": 11865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s08-n0266",
+      "text": "童工调查委员会的委员回答说：“这种情况与壁纸印刷业完全相同。",
+      "start_ms": 12595,
+      "end_ms": 17685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s08-n0267",
+      "text": "那个行业的一些主要工厂主曾强烈声称，原料的性质和加工过程各不相同，如果突然停工吃饭，就会造成重大损失……1864年《工厂法扩展法》第六节第六款规定，自法令颁布起给他们十八个月期限。",
+      "start_ms": 18060,
+      "end_ms": 34135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s08-n0268",
+      "text": "期限届满后，他们必须实行工厂法规定的用餐休息时间。”",
+      "start_ms": 34530,
+      "end_ms": 38875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s08-n0269",
+      "text": "法律刚得到议会批准，那些工厂主就发现：“实行工厂法以后，我们预料的弊端并没有发生。",
+      "start_ms": 39450,
+      "end_ms": 46255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s08-n0270",
+      "text": "生产丝毫没有受阻。",
+      "start_ms": 46590,
+      "end_ms": 47645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s08-n0271",
+      "text": "事实上，我们在同样时间里生产得更多。”",
+      "start_ms": 295,
+      "end_ms": 2575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s08-n0272",
+      "text": "可见，英国议会——肯定没有人会指责它天才过人——从经验中明白了一件事：只要颁布强制性法律，所有据说妨碍缩短和规范工作日的“自然障碍”，都可以被限期清除。",
+      "start_ms": 3120,
+      "end_ms": 16445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s08-n0273",
+      "text": "因此，工厂法进入某个行业时，会给工厂主六至十八个月，让他们自行解决技术障碍。",
+      "start_ms": 17010,
+      "end_ms": 23435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s08-n0274",
+      "text": "米拉波说：“不可能？",
+      "start_ms": 23895,
+      "end_ms": 25485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s08-n0275",
+      "text": "永远别对我说这个愚蠢的词！”",
+      "start_ms": 26070,
+      "end_ms": 27925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s08-n0276",
+      "text": "这句话尤其适用于现代技术。",
+      "start_ms": 27930,
+      "end_ms": 29925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s08-n0277",
+      "text": "不过，工厂法在加速创造条件、推动工场变成工厂的同时，也要求增加资本投入，因此会加快小业主破产和资本集中。",
+      "start_ms": 605,
+      "end_ms": 10005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s08-n0278",
+      "text": "除了那些纯属技术、可以靠技术进步解决的障碍，限制工作日还会遇到工人自身不规律的工作习惯。",
+      "start_ms": 10320,
+      "end_ms": 16925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s08-n0279",
+      "text": "这种情况在实行计件工资的地方尤其常见。",
+      "start_ms": 17360,
+      "end_ms": 20105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s08-n0280",
+      "text": "工人可能在一天或一周的某段时间里拖延，后来再靠超时工作或熬夜补回来。",
+      "start_ms": 20595,
+      "end_ms": 25795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s08-n0281",
+      "text": "这种做法使成年工人变得粗野，也毁坏了未成年工人和女工的健康。",
+      "start_ms": 26385,
+      "end_ms": 31295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s08-n0282",
+      "text": "这种不规律，一部分是工人对单调苦役的自发而粗糙的反抗，但更主要的原因是生产本身没有计划。",
+      "start_ms": 31730,
+      "end_ms": 38925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s08-n0283",
+      "text": "资本可以不受约束地使用劳动力，正是这种混乱的前提。",
+      "start_ms": 165,
+      "end_ms": 3315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s08-n0284",
+      "text": "工业周期普遍会起伏，每个行业的市场还会单独波动。",
+      "start_ms": 3600,
+      "end_ms": 6935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s08-n0285",
+      "text": "此外，还有所谓的旺季。",
+      "start_ms": 7240,
+      "end_ms": 8435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s08-n0286",
+      "text": "它可能由适合航海的季节周期造成，也可能由时尚造成。",
+      "start_ms": 8640,
+      "end_ms": 12135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s08-n0287",
+      "text": "最后，大订单常会突然出现，而且必须在极短时间内完成。",
+      "start_ms": 12340,
+      "end_ms": 15955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s08-n0288",
+      "text": "铁路和电报越发展，这种临时大订单反而越普遍。",
+      "start_ms": 16180,
+      "end_ms": 18955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s08-n0289",
+      "text": "一位伦敦工厂主说：“铁路网遍布全国以后，临时下单的习惯大大增加了。",
+      "start_ms": 165,
+      "end_ms": 4805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s08-n0290",
+      "text": "如今，格拉斯哥、曼彻斯特和爱丁堡的买主每两周来一次，或者直接到我们供货的伦敦金融城批发商店大批采购。",
+      "start_ms": 5120,
+      "end_ms": 12355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s08-n0291",
+      "text": "他们不再像过去那样从库存里买货，而是下单后要求立即交货。",
+      "start_ms": 12675,
+      "end_ms": 16645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s08-n0292",
+      "text": "过去，我们总能在淡季提前生产，为下一个旺季备货。",
+      "start_ms": 16930,
+      "end_ms": 20275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s08-n0293",
+      "text": "现在，却没人能预先知道到时会流行什么。”",
+      "start_ms": 20550,
+      "end_ms": 23025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s08-n0294",
+      "text": "在尚未受工厂法约束的工厂和工场里，旺季会定期带来最可怕的加班，临时订单则不定期地造成同样结果。",
+      "start_ms": 23645,
+      "end_ms": 31275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s08-n0295",
+      "text": "所谓家庭劳动，就是工厂、工场和商品仓库设在外面的生产环节。",
+      "start_ms": 125,
+      "end_ms": 4755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s08-n0296",
+      "text": "这类劳动本来就毫无规律，原料和订单又完全取决于资本家的喜怒。",
+      "start_ms": 5235,
+      "end_ms": 9845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s08-n0297",
+      "text": "资本家在这里不用顾虑厂房和机器能否得到充分利用，冒险付出的只有工人的皮肉。",
+      "start_ms": 10265,
+      "end_ms": 15825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s08-n0298",
+      "text": "因此，资本家有计划地把从事家庭劳动的工人养成一支随时待命的产业后备军。",
+      "start_ms": 16240,
+      "end_ms": 21745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s08-n0299",
+      "text": "一年中的一部分时间，他们被惨无人道的强迫劳动摧残；另一部分时间，他们又因为没有工作而穷困潦倒。",
+      "start_ms": 22155,
+      "end_ms": 29315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s08-n0300",
+      "text": "童工调查委员会说：“雇主利用家庭劳动一贯没有规律的特点。",
+      "start_ms": 29669,
+      "end_ms": 33899,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s08-n0301",
+      "text": "需要赶工时，他们便把工作时间延长到夜里十一点、十二点、两点，实际上就像常用的说法那样，‘任何钟点都可能’。”",
+      "start_ms": 595,
+      "end_ms": 7945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s08-n0302",
+      "text": "工人就在这样的房间里劳动：“臭气足以把人熏倒。",
+      "start_ms": 8445,
+      "end_ms": 11755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s08-n0303",
+      "text": "你也许走到门口，打开门，却会吓得不敢再往前一步。”",
+      "start_ms": 12125,
+      "end_ms": 15225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s08-n0304",
+      "text": "一名受访的鞋匠说：“我们的雇主真是些怪人。",
+      "start_ms": 15830,
+      "end_ms": 18885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s08-n0305",
+      "text": "他们以为，一个男孩半年累得要死，另外半年又几乎被迫游手好闲，反正也不会害了他。”",
+      "start_ms": 19130,
+      "end_ms": 24805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s08-n0306",
+      "text": "资本家把这些所谓的“行业惯例”也说成生产无法突破的“自然限制”，就像他们把技术困难说成自然限制一样。",
+      "start_ms": 25525,
+      "end_ms": 32685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s08-n0307",
+      "text": "英国棉纺厂主最初受到工厂法威胁时，最爱这样叫喊。",
+      "start_ms": 405,
+      "end_ms": 4045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s08-n0308",
+      "text": "他们的行业比任何行业都更依赖世界市场和航运，但事实仍证明这些说法是假的。",
+      "start_ms": 4390,
+      "end_ms": 9285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s08-n0309",
+      "text": "从那以后，英国工厂视察员便把每一种所谓“经营障碍”都看作空洞托词。",
+      "start_ms": 10115,
+      "end_ms": 14955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s08-n0310",
+      "text": "童工调查委员会的细致调查也证明，限制工作日以后，有些行业根本不必减少全年使用的劳动量，只需把劳动更均匀地分配到全年。",
+      "start_ms": 15370,
+      "end_ms": 24005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s08-n0311",
+      "text": "对时尚那种反复无常、害人性命而又毫无实际内容的变化来说，限制工作日也是第一道合理约束。",
+      "start_ms": 24595,
+      "end_ms": 31645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s08-n0312",
+      "text": "这种时尚变化本来就不符合大工业的生产方式。",
+      "start_ms": 32047,
+      "end_ms": 34972,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s08-n0313",
+      "text": "远洋航运以及各种交通和通信手段的发展，已经消除了旺季劳动原有的真正技术原因。",
+      "start_ms": 325,
+      "end_ms": 6125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s08-n0314",
+      "text": "其他那些据说无法控制的情况，也能通过扩大厂房、增加机器、同时多雇一些工人来解决。",
+      "start_ms": 6455,
+      "end_ms": 12675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s08-n0315",
+      "text": "这些生产调整还会自然推动批发制度作出相应改变。",
+      "start_ms": 13465,
+      "end_ms": 16895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s08-n0316",
+      "text": "资本的代表却一再声明，资本只有在一部普遍适用的议会法令强制限制工作日时，才肯实行这些改变。",
+      "start_ms": 17375,
+      "end_ms": 24455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    }
+  ]
+}

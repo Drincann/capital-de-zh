@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s10-v1-audio-0bd55f910bfe",
+  "unit_id": "ch13-s10",
+  "translation_version_id": "ch13-s10-v1",
+  "translation_sha256": "e108b6d87dc732a0c938100dddde3fbd5bf6ffdca5351c62ac61f763f64b8612",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:23:28.743Z",
+  "completed_at": "2026-08-04T17:23:53.579Z",
+  "duration_ms": 188510,
+  "sentence_count": 29,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 30105,
+      "bytes": 480045,
+      "sha256": "7995160092d7e6b5adea308a802ce119caa91c3dd6881c53fc29844a48a026ef",
+      "sentence_ids": [
+        "ch13-s10-n0001",
+        "ch13-s10-n0002",
+        "ch13-s10-n0003",
+        "ch13-s10-n0004",
+        "ch13-s10-n0005",
+        "ch13-s10-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 50348,
+      "bytes": 810669,
+      "sha256": "82f1a85486d17ed40e88c84d2be4c1f724760841fa05c56956bb1895f1bbd0dd",
+      "sentence_ids": [
+        "ch13-s10-n0007",
+        "ch13-s10-n0008",
+        "ch13-s10-n0009",
+        "ch13-s10-n0010",
+        "ch13-s10-n0011",
+        "ch13-s10-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 28715,
+      "bytes": 461229,
+      "sha256": "f29863e225fac26ecd6cf0aa49d9f11c5854b05bbbffa9dd1e57ff07a4f4c5cc",
+      "sentence_ids": [
+        "ch13-s10-n0013",
+        "ch13-s10-n0014",
+        "ch13-s10-n0015",
+        "ch13-s10-n0016",
+        "ch13-s10-n0017",
+        "ch13-s10-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 42197,
+      "bytes": 678957,
+      "sha256": "2df3ae7177a19f0f092e9042834954b4a09bffa91f5844ef221dbb7eb79373ea",
+      "sentence_ids": [
+        "ch13-s10-n0019",
+        "ch13-s10-n0020",
+        "ch13-s10-n0021",
+        "ch13-s10-n0022",
+        "ch13-s10-n0023",
+        "ch13-s10-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 37145,
+      "bytes": 595245,
+      "sha256": "7a83bf59554c41e5ba5992aa47f8d658c9c6b52ddbf23df8fabf2007ee3eb05b",
+      "sentence_ids": [
+        "ch13-s10-n0025",
+        "ch13-s10-n0026",
+        "ch13-s10-n0027",
+        "ch13-s10-n0028",
+        "ch13-s10-n0029"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s10-n0001",
+      "text": "大工业给农业以及农业生产者之间的社会关系带来的革命，要到后面才能详细说明。",
+      "start_ms": 655,
+      "end_ms": 5925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s10-n0002",
+      "text": "这里只提前指出几个结果。",
+      "start_ms": 6160,
+      "end_ms": 7765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s10-n0003",
+      "text": "农业机器大体不会像工厂机器那样直接伤害工人的身体。",
+      "start_ms": 8020,
+      "end_ms": 11155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s10-n0004",
+      "text": "但在把工人变成“多余人口”这件事上，它的作用更强，而且不会创造出足够多的新岗位来抵消这种排挤。",
+      "start_ms": 12005,
+      "end_ms": 18955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s10-n0005",
+      "text": "后文将详细看到这一点。",
+      "start_ms": 19360,
+      "end_ms": 20735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s10-n0006",
+      "text": "例如，过去二十年，剑桥郡和萨福克郡的耕地面积大幅增加，农业人口却不仅在相对比例上减少，绝对人数也减少了。",
+      "start_ms": 21000,
+      "end_ms": 29955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s10-n0007",
+      "text": "在美国，农业机器当时只是在效果上代替了本来还需要增加的工人，让生产者能够耕种更多土地，却没有把已经就业的工人实际赶走。",
+      "start_ms": 305,
+      "end_ms": 10155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s10-n0008",
+      "text": "机器制造和操作本身吸收的就业人数也很少：1861年，英格兰和威尔士共有1034人制造农业机器，而操作蒸汽机和其他工作机的农业工人只有1205人。",
+      "start_ms": 10625,
+      "end_ms": 22855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s10-n0009",
+      "text": "大工业对农业最具革命性的影响，是摧毁旧社会的堡垒——农民——并让雇佣工人取代他们。",
+      "start_ms": 23655,
+      "end_ms": 30175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s10-n0010",
+      "text": "这样，农村也出现了同城市一样的社会变革要求和社会矛盾。",
+      "start_ms": 30623,
+      "end_ms": 35008,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s10-n0011",
+      "text": "过去依赖习惯、效率低下又缺乏合理方法的生产，逐渐被有意识地运用科学技术所取代。",
+      "start_ms": 35443,
+      "end_ms": 41638,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s10-n0012",
+      "text": "农业和工场手工业原本以家庭纽带结合在一起，这种联系同时把两者都包裹在尚未发展的幼稚形态里。",
+      "start_ms": 42398,
+      "end_ms": 50198,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s10-n0013",
+      "text": "资本主义生产方式最终斩断了这条纽带，也使农业和工业分别发展成彼此对立的形态。",
+      "start_ms": 535,
+      "end_ms": 6395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s10-n0014",
+      "text": "正是在这个基础上，它创造出物质条件，使两者将来能以更高级的形式重新结合。",
+      "start_ms": 6740,
+      "end_ms": 12515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s10-n0015",
+      "text": "资本主义生产把越来越多人口集中到大城市。",
+      "start_ms": 12895,
+      "end_ms": 15815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s10-n0016",
+      "text": "一方面，这会聚集推动社会历史发展的力量。",
+      "start_ms": 16020,
+      "end_ms": 18855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s10-n0017",
+      "text": "另一方面，它也破坏人和土地之间的物质循环。",
+      "start_ms": 18860,
+      "end_ms": 22635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s10-n0018",
+      "text": "人从土地取得粮食、衣料等物质，却没有让其中来自土壤的成分回到土壤。",
+      "start_ms": 23070,
+      "end_ms": 28565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s10-n0019",
+      "text": "这就破坏了土地持久肥沃所必需的永恒自然条件。",
+      "start_ms": 515,
+      "end_ms": 3545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s10-n0020",
+      "text": "结果，城市工人的身体健康和农村工人的精神生活同时受到摧残。",
+      "start_ms": 3810,
+      "end_ms": 7975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s10-n0021",
+      "text": "不过，资本主义生产在破坏这个循环原有的自发条件时，也迫使这种循环必须以有计划的方式重新建立，成为调节社会生产的一条规律，并采取适合人充分发展的形式。",
+      "start_ms": 8345,
+      "end_ms": 20295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s10-n0022",
+      "text": "在农业和工场中，资本主义改造生产过程都会让生产者付出苦难。",
+      "start_ms": 20650,
+      "end_ms": 25075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s10-n0023",
+      "text": "劳动工具变成奴役工人、剥削工人并使工人贫困的手段，各种劳动结合成社会化过程，也变成有组织地压制工人的个人活力、自由和独立。",
+      "start_ms": 25490,
+      "end_ms": 35185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s10-n0024",
+      "text": "农业工人分散在广大地区，削弱了他们的反抗力量；城市工人集中在一起，反抗力量则会增强。",
+      "start_ms": 35472,
+      "end_ms": 42047,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s10-n0025",
+      "text": "同城市工业一样，现代农业提高生产力、使劳动更便于流动和调配，也是以摧残和耗尽劳动力本身为代价。",
+      "start_ms": 85,
+      "end_ms": 8705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s10-n0026",
+      "text": "资本主义农业每取得一步进展，不只更善于掠夺工人，也更善于掠夺土地。",
+      "start_ms": 9140,
+      "end_ms": 14555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s10-n0027",
+      "text": "它在一段时间内越能提高土壤肥力，也就越会破坏这种肥力长久存在的来源。",
+      "start_ms": 15080,
+      "end_ms": 20635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s10-n0028",
+      "text": "一个国家越像美国那样，以大工业作为发展的出发点，这种破坏就进行得越快。",
+      "start_ms": 21065,
+      "end_ms": 26795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s10-n0029",
+      "text": "所以，资本主义生产只有在同时破坏一切财富的两个源泉——土地和劳动者——的情况下，才能发展社会化生产的技术和组织方式。",
+      "start_ms": 27240,
+      "end_ms": 36995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    }
+  ]
+}

@@ -1,0 +1,4531 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "audio_version_id": "ch13-s09-v2-audio-a0d043a66a2c",
+  "unit_id": "ch13-s09",
+  "translation_version_id": "ch13-s09-v2",
+  "translation_sha256": "b579370e4c536cca407d6291b2dabc16a1fdee3ef8abde5651515b0e5675d064",
+  "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
+  "model_id": "seed-tts-2.0",
+  "model_label": "Seed-TTS 2.0",
+  "transport": "tts-unidirectional-http",
+  "speaker": "zh_male_dayi_uranus_bigtts",
+  "model": "seed-tts-2.0-standard",
+  "created_at": "2026-08-04T17:17:38.800Z",
+  "completed_at": "2026-08-04T17:23:28.671Z",
+  "duration_ms": 2325016,
+  "sentence_count": 429,
+  "chunks": [
+    {
+      "id": "c0001",
+      "audio_file": "c0001.mp3",
+      "duration_ms": 34405,
+      "bytes": 550317,
+      "sha256": "7f42609fd925afde50effac1c35e1a47aaf543c787b94afb454e3e64b68fe130",
+      "sentence_ids": [
+        "ch13-s09-n0001",
+        "ch13-s09-n0002",
+        "ch13-s09-n0003",
+        "ch13-s09-n0004",
+        "ch13-s09-n0005",
+        "ch13-s09-n0006"
+      ]
+    },
+    {
+      "id": "c0002",
+      "audio_file": "c0002.mp3",
+      "duration_ms": 33565,
+      "bytes": 538413,
+      "sha256": "1bcd7e23047f4ba28a297d992187dee4cdc2e845daef14527c29e8d4551550f6",
+      "sentence_ids": [
+        "ch13-s09-n0007",
+        "ch13-s09-n0008",
+        "ch13-s09-n0009",
+        "ch13-s09-n0010",
+        "ch13-s09-n0011",
+        "ch13-s09-n0012"
+      ]
+    },
+    {
+      "id": "c0003",
+      "audio_file": "c0003.mp3",
+      "duration_ms": 35224,
+      "bytes": 567213,
+      "sha256": "23621a04c2c1f157ef5a3737bfe9dc004952daa81ed38ebe15abfb568edcc728",
+      "sentence_ids": [
+        "ch13-s09-n0013",
+        "ch13-s09-n0014",
+        "ch13-s09-n0015",
+        "ch13-s09-n0016",
+        "ch13-s09-n0017",
+        "ch13-s09-n0018"
+      ]
+    },
+    {
+      "id": "c0004",
+      "audio_file": "c0004.mp3",
+      "duration_ms": 38512,
+      "bytes": 618285,
+      "sha256": "247b8781823e2aba576b74bff3124f2cb72dc45511c0d3b041354291ea87c408",
+      "sentence_ids": [
+        "ch13-s09-n0019",
+        "ch13-s09-n0020",
+        "ch13-s09-n0021",
+        "ch13-s09-n0022",
+        "ch13-s09-n0023",
+        "ch13-s09-n0024"
+      ]
+    },
+    {
+      "id": "c0005",
+      "audio_file": "c0005.mp3",
+      "duration_ms": 47218,
+      "bytes": 755757,
+      "sha256": "3a30297f797d5a95d1dcbf728cb14bad8f3fd5004aa96276753cf46a720f6690",
+      "sentence_ids": [
+        "ch13-s09-n0025",
+        "ch13-s09-n0026",
+        "ch13-s09-n0027",
+        "ch13-s09-n0028",
+        "ch13-s09-n0029",
+        "ch13-s09-n0030"
+      ]
+    },
+    {
+      "id": "c0006",
+      "audio_file": "c0006.mp3",
+      "duration_ms": 40737,
+      "bytes": 663213,
+      "sha256": "25c39075653c78121713b07376665200bd8cdac838cf8701271cd2770ec46ba1",
+      "sentence_ids": [
+        "ch13-s09-n0031",
+        "ch13-s09-n0032",
+        "ch13-s09-n0033",
+        "ch13-s09-n0034",
+        "ch13-s09-n0035",
+        "ch13-s09-n0036"
+      ]
+    },
+    {
+      "id": "c0007",
+      "audio_file": "c0007.mp3",
+      "duration_ms": 43328,
+      "bytes": 694701,
+      "sha256": "8f4baa07f72101c2f9d4862dd3690221ca115f2a9bc785af5a042ab86a97adfa",
+      "sentence_ids": [
+        "ch13-s09-n0037",
+        "ch13-s09-n0038",
+        "ch13-s09-n0039",
+        "ch13-s09-n0040",
+        "ch13-s09-n0041",
+        "ch13-s09-n0042"
+      ]
+    },
+    {
+      "id": "c0008",
+      "audio_file": "c0008.mp3",
+      "duration_ms": 40160,
+      "bytes": 644781,
+      "sha256": "c5f56fd719109cf32c09cd874f8e460eac933384922de9a9c73f838e7deede0b",
+      "sentence_ids": [
+        "ch13-s09-n0043",
+        "ch13-s09-n0044",
+        "ch13-s09-n0045",
+        "ch13-s09-n0046",
+        "ch13-s09-n0047",
+        "ch13-s09-n0048"
+      ]
+    },
+    {
+      "id": "c0009",
+      "audio_file": "c0009.mp3",
+      "duration_ms": 35498,
+      "bytes": 569133,
+      "sha256": "67d6c72d890ef802c3be2ec92cba9141bd7bf6cfa861889a773da159c8d1d53d",
+      "sentence_ids": [
+        "ch13-s09-n0049",
+        "ch13-s09-n0050",
+        "ch13-s09-n0051",
+        "ch13-s09-n0052",
+        "ch13-s09-n0053",
+        "ch13-s09-n0054"
+      ]
+    },
+    {
+      "id": "c0010",
+      "audio_file": "c0010.mp3",
+      "duration_ms": 31395,
+      "bytes": 506541,
+      "sha256": "9ed0676a83b9af6f1d06fb77660ae2fe0b33c7ffe8b56c9310be2101ae3a8951",
+      "sentence_ids": [
+        "ch13-s09-n0055",
+        "ch13-s09-n0056",
+        "ch13-s09-n0057",
+        "ch13-s09-n0058",
+        "ch13-s09-n0059",
+        "ch13-s09-n0060"
+      ]
+    },
+    {
+      "id": "c0011",
+      "audio_file": "c0011.mp3",
+      "duration_ms": 33475,
+      "bytes": 534957,
+      "sha256": "3d0800b07e5e7018a56a6c182228620c2cc65c3d6e6e7a6fafe97db9bae96435",
+      "sentence_ids": [
+        "ch13-s09-n0061",
+        "ch13-s09-n0062",
+        "ch13-s09-n0063",
+        "ch13-s09-n0064",
+        "ch13-s09-n0065",
+        "ch13-s09-n0066"
+      ]
+    },
+    {
+      "id": "c0012",
+      "audio_file": "c0012.mp3",
+      "duration_ms": 35177,
+      "bytes": 563373,
+      "sha256": "1d699f59496ded2b37ffe04305edf46398aae86642cba613007b1abdfe064099",
+      "sentence_ids": [
+        "ch13-s09-n0067",
+        "ch13-s09-n0068",
+        "ch13-s09-n0069",
+        "ch13-s09-n0070",
+        "ch13-s09-n0071",
+        "ch13-s09-n0072"
+      ]
+    },
+    {
+      "id": "c0013",
+      "audio_file": "c0013.mp3",
+      "duration_ms": 31895,
+      "bytes": 515373,
+      "sha256": "d45c056258f414bc00d8fbd455c475ad27fe2122688a1ca69459cf1672a88628",
+      "sentence_ids": [
+        "ch13-s09-n0073",
+        "ch13-s09-n0074",
+        "ch13-s09-n0075",
+        "ch13-s09-n0076",
+        "ch13-s09-n0077",
+        "ch13-s09-n0078"
+      ]
+    },
+    {
+      "id": "c0014",
+      "audio_file": "c0014.mp3",
+      "duration_ms": 41735,
+      "bytes": 672429,
+      "sha256": "39691a5b1aa2ab6129b17dc9c601bc6435f59050cc397456dd46e6e8e3b35825",
+      "sentence_ids": [
+        "ch13-s09-n0079",
+        "ch13-s09-n0080",
+        "ch13-s09-n0081",
+        "ch13-s09-n0082",
+        "ch13-s09-n0083",
+        "ch13-s09-n0084"
+      ]
+    },
+    {
+      "id": "c0015",
+      "audio_file": "c0015.mp3",
+      "duration_ms": 36071,
+      "bytes": 576045,
+      "sha256": "9ab1e4d411b448838814847b86cc966364be4f39b628dfd9d061059f559de727",
+      "sentence_ids": [
+        "ch13-s09-n0085",
+        "ch13-s09-n0086",
+        "ch13-s09-n0087",
+        "ch13-s09-n0088",
+        "ch13-s09-n0089",
+        "ch13-s09-n0090"
+      ]
+    },
+    {
+      "id": "c0016",
+      "audio_file": "c0016.mp3",
+      "duration_ms": 57987,
+      "bytes": 932397,
+      "sha256": "27c16f96ecb62f279ad009afc078a0bdac6213de492c687b863d30e3bfe0fdfe",
+      "sentence_ids": [
+        "ch13-s09-n0091",
+        "ch13-s09-n0092",
+        "ch13-s09-n0093",
+        "ch13-s09-n0094",
+        "ch13-s09-n0095",
+        "ch13-s09-n0096"
+      ]
+    },
+    {
+      "id": "c0017",
+      "audio_file": "c0017.mp3",
+      "duration_ms": 47029,
+      "bytes": 753453,
+      "sha256": "5fda1b8edd80464342b0ff527cebafa7684eca7c488833f19c698be75b7b2966",
+      "sentence_ids": [
+        "ch13-s09-n0097",
+        "ch13-s09-n0098",
+        "ch13-s09-n0099",
+        "ch13-s09-n0100",
+        "ch13-s09-n0101",
+        "ch13-s09-n0102"
+      ]
+    },
+    {
+      "id": "c0018",
+      "audio_file": "c0018.mp3",
+      "duration_ms": 59760,
+      "bytes": 956973,
+      "sha256": "eed5614b9d58f650796a04fb0a01a5c5547b285e45b863b5772d4fcd48cb36d1",
+      "sentence_ids": [
+        "ch13-s09-n0103",
+        "ch13-s09-n0104",
+        "ch13-s09-n0105",
+        "ch13-s09-n0106",
+        "ch13-s09-n0107",
+        "ch13-s09-n0108"
+      ]
+    },
+    {
+      "id": "c0019",
+      "audio_file": "c0019.mp3",
+      "duration_ms": 53299,
+      "bytes": 861357,
+      "sha256": "1d27388f29def667c4c9b24ea46a52dffcd72a1eea151c9637b3709c48be57b8",
+      "sentence_ids": [
+        "ch13-s09-n0109",
+        "ch13-s09-n0110",
+        "ch13-s09-n0111",
+        "ch13-s09-n0112",
+        "ch13-s09-n0113",
+        "ch13-s09-n0114"
+      ]
+    },
+    {
+      "id": "c0020",
+      "audio_file": "c0020.mp3",
+      "duration_ms": 42017,
+      "bytes": 676269,
+      "sha256": "88a41e1abe66e15085642d076e8c41bd2d6fb3537937a31d8e6bad5f5844cdb9",
+      "sentence_ids": [
+        "ch13-s09-n0115",
+        "ch13-s09-n0116",
+        "ch13-s09-n0117",
+        "ch13-s09-n0118",
+        "ch13-s09-n0119",
+        "ch13-s09-n0120"
+      ]
+    },
+    {
+      "id": "c0021",
+      "audio_file": "c0021.mp3",
+      "duration_ms": 39321,
+      "bytes": 631341,
+      "sha256": "8d5c4e10f4b247090db5dc0e15133db23defa1034b904798e885ef0bff8f12d3",
+      "sentence_ids": [
+        "ch13-s09-n0121",
+        "ch13-s09-n0122",
+        "ch13-s09-n0123",
+        "ch13-s09-n0124",
+        "ch13-s09-n0125",
+        "ch13-s09-n0126"
+      ]
+    },
+    {
+      "id": "c0022",
+      "audio_file": "c0022.mp3",
+      "duration_ms": 54053,
+      "bytes": 865581,
+      "sha256": "c032a18cf033aee1f2051c1422e1c0140e5db6817644b7b5a12ccb78e39b2f24",
+      "sentence_ids": [
+        "ch13-s09-n0127",
+        "ch13-s09-n0128",
+        "ch13-s09-n0129",
+        "ch13-s09-n0130",
+        "ch13-s09-n0131",
+        "ch13-s09-n0132"
+      ]
+    },
+    {
+      "id": "c0023",
+      "audio_file": "c0023.mp3",
+      "duration_ms": 45932,
+      "bytes": 743085,
+      "sha256": "1469174fcd8697afedb4d294107ffb66f1d5b5f9e83c9d9e35a51f86888609b8",
+      "sentence_ids": [
+        "ch13-s09-n0133",
+        "ch13-s09-n0134",
+        "ch13-s09-n0135",
+        "ch13-s09-n0136",
+        "ch13-s09-n0137",
+        "ch13-s09-n0138"
+      ]
+    },
+    {
+      "id": "c0024",
+      "audio_file": "c0024.mp3",
+      "duration_ms": 43412,
+      "bytes": 695085,
+      "sha256": "6d1e3c6a7887df99aa749c9b05b2429b62160c32f45b7f233723eff5219cc9b9",
+      "sentence_ids": [
+        "ch13-s09-n0139",
+        "ch13-s09-n0140",
+        "ch13-s09-n0141",
+        "ch13-s09-n0142",
+        "ch13-s09-n0143",
+        "ch13-s09-n0144"
+      ]
+    },
+    {
+      "id": "c0025",
+      "audio_file": "c0025.mp3",
+      "duration_ms": 37332,
+      "bytes": 605613,
+      "sha256": "a6c85c89b6c288c8ef7181252f1680b1249f0082bc3373a65721bedb2ccd4665",
+      "sentence_ids": [
+        "ch13-s09-n0145",
+        "ch13-s09-n0146",
+        "ch13-s09-n0147",
+        "ch13-s09-n0148",
+        "ch13-s09-n0149",
+        "ch13-s09-n0150"
+      ]
+    },
+    {
+      "id": "c0026",
+      "audio_file": "c0026.mp3",
+      "duration_ms": 43907,
+      "bytes": 708141,
+      "sha256": "77a98fc856a1c111e043cf77e696895c6fc00d75db0a293013a54c23faab83f7",
+      "sentence_ids": [
+        "ch13-s09-n0151",
+        "ch13-s09-n0152",
+        "ch13-s09-n0153",
+        "ch13-s09-n0154",
+        "ch13-s09-n0155",
+        "ch13-s09-n0156"
+      ]
+    },
+    {
+      "id": "c0027",
+      "audio_file": "c0027.mp3",
+      "duration_ms": 50405,
+      "bytes": 810669,
+      "sha256": "163e40b458467a65a426327acb07fc29e1fcb050b0208356bc079b0361374227",
+      "sentence_ids": [
+        "ch13-s09-n0157",
+        "ch13-s09-n0158",
+        "ch13-s09-n0159",
+        "ch13-s09-n0160",
+        "ch13-s09-n0161",
+        "ch13-s09-n0162"
+      ]
+    },
+    {
+      "id": "c0028",
+      "audio_file": "c0028.mp3",
+      "duration_ms": 55861,
+      "bytes": 893997,
+      "sha256": "f0dbd2e615f6a5e2145c8843d245e3c994bf154fa8e83581972d1c51e9d2e914",
+      "sentence_ids": [
+        "ch13-s09-n0163",
+        "ch13-s09-n0164",
+        "ch13-s09-n0165",
+        "ch13-s09-n0166",
+        "ch13-s09-n0167",
+        "ch13-s09-n0168"
+      ]
+    },
+    {
+      "id": "c0029",
+      "audio_file": "c0029.mp3",
+      "duration_ms": 39351,
+      "bytes": 631725,
+      "sha256": "3766e1c289f4542c7be02c3a7103259afa270f117e09cb362869d61586bc797e",
+      "sentence_ids": [
+        "ch13-s09-n0169",
+        "ch13-s09-n0170",
+        "ch13-s09-n0171",
+        "ch13-s09-n0172",
+        "ch13-s09-n0173",
+        "ch13-s09-n0174"
+      ]
+    },
+    {
+      "id": "c0030",
+      "audio_file": "c0030.mp3",
+      "duration_ms": 35665,
+      "bytes": 569901,
+      "sha256": "58af963835f17917f5e561be31570fc5d5cbeddfd36f0fc5b590af846fe5c12f",
+      "sentence_ids": [
+        "ch13-s09-n0175",
+        "ch13-s09-n0176",
+        "ch13-s09-n0177",
+        "ch13-s09-n0178",
+        "ch13-s09-n0179",
+        "ch13-s09-n0180"
+      ]
+    },
+    {
+      "id": "c0031",
+      "audio_file": "c0031.mp3",
+      "duration_ms": 30505,
+      "bytes": 490029,
+      "sha256": "5e6f3b12ffffb77743ddd939606a9fa93410b6fa72cad2020a6168c9d738573d",
+      "sentence_ids": [
+        "ch13-s09-n0181",
+        "ch13-s09-n0182",
+        "ch13-s09-n0183",
+        "ch13-s09-n0184",
+        "ch13-s09-n0185",
+        "ch13-s09-n0186"
+      ]
+    },
+    {
+      "id": "c0032",
+      "audio_file": "c0032.mp3",
+      "duration_ms": 39726,
+      "bytes": 637869,
+      "sha256": "75340cf998d1b58702745e08f1016ec8035f5f5696698d838f13b51ce12e1b19",
+      "sentence_ids": [
+        "ch13-s09-n0187",
+        "ch13-s09-n0188",
+        "ch13-s09-n0189",
+        "ch13-s09-n0190",
+        "ch13-s09-n0191",
+        "ch13-s09-n0192"
+      ]
+    },
+    {
+      "id": "c0033",
+      "audio_file": "c0033.mp3",
+      "duration_ms": 30175,
+      "bytes": 486573,
+      "sha256": "29f3d2f8b55d6f25f5a5dd8d2ada7ea7d50e30e26927562634d5cc41f766fb71",
+      "sentence_ids": [
+        "ch13-s09-n0193",
+        "ch13-s09-n0194",
+        "ch13-s09-n0195",
+        "ch13-s09-n0196",
+        "ch13-s09-n0197",
+        "ch13-s09-n0198"
+      ]
+    },
+    {
+      "id": "c0034",
+      "audio_file": "c0034.mp3",
+      "duration_ms": 35415,
+      "bytes": 631341,
+      "sha256": "9ff469101433c9e7e4dd50dd1c9b2f29f346d324958677413d9f3d79d881a3c9",
+      "sentence_ids": [
+        "ch13-s09-n0199",
+        "ch13-s09-n0200",
+        "ch13-s09-n0201",
+        "ch13-s09-n0202",
+        "ch13-s09-n0203",
+        "ch13-s09-n0204"
+      ]
+    },
+    {
+      "id": "c0035",
+      "audio_file": "c0035.mp3",
+      "duration_ms": 25655,
+      "bytes": 415917,
+      "sha256": "8b42decdd906c69101bee2adef46dd017ed11642ec860790043965b1f361f2a0",
+      "sentence_ids": [
+        "ch13-s09-n0205",
+        "ch13-s09-n0206",
+        "ch13-s09-n0207",
+        "ch13-s09-n0208",
+        "ch13-s09-n0209",
+        "ch13-s09-n0210"
+      ]
+    },
+    {
+      "id": "c0036",
+      "audio_file": "c0036.mp3",
+      "duration_ms": 20715,
+      "bytes": 336045,
+      "sha256": "3b314f80013cea82e8882b677b1c68c9e9b0943fcf97f8e885cc0db2dae668dc",
+      "sentence_ids": [
+        "ch13-s09-n0211",
+        "ch13-s09-n0212",
+        "ch13-s09-n0213",
+        "ch13-s09-n0214",
+        "ch13-s09-n0215",
+        "ch13-s09-n0216"
+      ]
+    },
+    {
+      "id": "c0037",
+      "audio_file": "c0037.mp3",
+      "duration_ms": 25215,
+      "bytes": 403245,
+      "sha256": "88c7137af04e0502fb02952e909413ca96e4cc3060c0433fcd7b0acd09c11fd5",
+      "sentence_ids": [
+        "ch13-s09-n0217",
+        "ch13-s09-n0218",
+        "ch13-s09-n0219",
+        "ch13-s09-n0220",
+        "ch13-s09-n0221",
+        "ch13-s09-n0222"
+      ]
+    },
+    {
+      "id": "c0038",
+      "audio_file": "c0038.mp3",
+      "duration_ms": 15625,
+      "bytes": 253869,
+      "sha256": "7a15ff1c082abdc09912e6a5258e832f545e9123d682bcaa947970dc3ba48f90",
+      "sentence_ids": [
+        "ch13-s09-n0223",
+        "ch13-s09-n0224",
+        "ch13-s09-n0225",
+        "ch13-s09-n0226",
+        "ch13-s09-n0227",
+        "ch13-s09-n0228"
+      ]
+    },
+    {
+      "id": "c0039",
+      "audio_file": "c0039.mp3",
+      "duration_ms": 18265,
+      "bytes": 298029,
+      "sha256": "0e4f3dbaf4bb0be9eb7baa2aa525a31a5daaae49348f9ec303fbb095d434d774",
+      "sentence_ids": [
+        "ch13-s09-n0229",
+        "ch13-s09-n0230",
+        "ch13-s09-n0231",
+        "ch13-s09-n0232",
+        "ch13-s09-n0233",
+        "ch13-s09-n0234"
+      ]
+    },
+    {
+      "id": "c0040",
+      "audio_file": "c0040.mp3",
+      "duration_ms": 20915,
+      "bytes": 332973,
+      "sha256": "eb806327f1de552adf315410479e6a5c623269a4fa0b2ab060c233d40789bfc2",
+      "sentence_ids": [
+        "ch13-s09-n0235",
+        "ch13-s09-n0236",
+        "ch13-s09-n0237",
+        "ch13-s09-n0238",
+        "ch13-s09-n0239",
+        "ch13-s09-n0240"
+      ]
+    },
+    {
+      "id": "c0041",
+      "audio_file": "c0041.mp3",
+      "duration_ms": 16685,
+      "bytes": 269229,
+      "sha256": "6f272ef08c549ca2ace7274e6ec6ab81c404eab3bb2a77fb262a3caba8b593ea",
+      "sentence_ids": [
+        "ch13-s09-n0241",
+        "ch13-s09-n0242",
+        "ch13-s09-n0243",
+        "ch13-s09-n0244",
+        "ch13-s09-n0245",
+        "ch13-s09-n0246"
+      ]
+    },
+    {
+      "id": "c0042",
+      "audio_file": "c0042.mp3",
+      "duration_ms": 14485,
+      "bytes": 234669,
+      "sha256": "9b9be229b517c8740cb405f5865c63d6f0bf05297baab04ba794844e2179d357",
+      "sentence_ids": [
+        "ch13-s09-n0247",
+        "ch13-s09-n0248",
+        "ch13-s09-n0249",
+        "ch13-s09-n0250",
+        "ch13-s09-n0251",
+        "ch13-s09-n0252"
+      ]
+    },
+    {
+      "id": "c0043",
+      "audio_file": "c0043.mp3",
+      "duration_ms": 22845,
+      "bytes": 369069,
+      "sha256": "2a74743444340de9dfde76e0a2ec0a73fb650477b178e05e79af9dea604e85f2",
+      "sentence_ids": [
+        "ch13-s09-n0253",
+        "ch13-s09-n0254",
+        "ch13-s09-n0255",
+        "ch13-s09-n0256",
+        "ch13-s09-n0257",
+        "ch13-s09-n0258"
+      ]
+    },
+    {
+      "id": "c0044",
+      "audio_file": "c0044.mp3",
+      "duration_ms": 17205,
+      "bytes": 279213,
+      "sha256": "d005eed9eec72df587a399aaa3c7511db2221d7cbc2a13f9dd0f17cbbce2b0c8",
+      "sentence_ids": [
+        "ch13-s09-n0259",
+        "ch13-s09-n0260",
+        "ch13-s09-n0261",
+        "ch13-s09-n0262",
+        "ch13-s09-n0263",
+        "ch13-s09-n0264"
+      ]
+    },
+    {
+      "id": "c0045",
+      "audio_file": "c0045.mp3",
+      "duration_ms": 19575,
+      "bytes": 313773,
+      "sha256": "d2e0b1cac7419bf0b5fc9cb5964387868c8fa57ee8bbccea960bdfa29a28bdb6",
+      "sentence_ids": [
+        "ch13-s09-n0265",
+        "ch13-s09-n0266",
+        "ch13-s09-n0267",
+        "ch13-s09-n0268",
+        "ch13-s09-n0269",
+        "ch13-s09-n0270"
+      ]
+    },
+    {
+      "id": "c0046",
+      "audio_file": "c0046.mp3",
+      "duration_ms": 27385,
+      "bytes": 439341,
+      "sha256": "fe0c585c350962277f5ff524f8c691e5555dfc2c79df3e8bb14247d648571052",
+      "sentence_ids": [
+        "ch13-s09-n0271",
+        "ch13-s09-n0272",
+        "ch13-s09-n0273",
+        "ch13-s09-n0274",
+        "ch13-s09-n0275",
+        "ch13-s09-n0276"
+      ]
+    },
+    {
+      "id": "c0047",
+      "audio_file": "c0047.mp3",
+      "duration_ms": 21745,
+      "bytes": 352173,
+      "sha256": "3b7c6d179b2ff6935e2e2e0a003591348b632f3d3619fa02f1edbfd2d524e706",
+      "sentence_ids": [
+        "ch13-s09-n0277",
+        "ch13-s09-n0278",
+        "ch13-s09-n0279",
+        "ch13-s09-n0280",
+        "ch13-s09-n0281",
+        "ch13-s09-n0282"
+      ]
+    },
+    {
+      "id": "c0048",
+      "audio_file": "c0048.mp3",
+      "duration_ms": 13695,
+      "bytes": 227757,
+      "sha256": "176ec2182cae79c621f60d5ce8515de1603078af7658673da2e9c63323cf5d02",
+      "sentence_ids": [
+        "ch13-s09-n0283",
+        "ch13-s09-n0284",
+        "ch13-s09-n0285",
+        "ch13-s09-n0286",
+        "ch13-s09-n0287",
+        "ch13-s09-n0288"
+      ]
+    },
+    {
+      "id": "c0049",
+      "audio_file": "c0049.mp3",
+      "duration_ms": 20095,
+      "bytes": 323757,
+      "sha256": "762ba07069ab14377b201656ca053ef9b33a372e318d01c55598c1871389aef1",
+      "sentence_ids": [
+        "ch13-s09-n0289",
+        "ch13-s09-n0290",
+        "ch13-s09-n0291",
+        "ch13-s09-n0292",
+        "ch13-s09-n0293",
+        "ch13-s09-n0294"
+      ]
+    },
+    {
+      "id": "c0050",
+      "audio_file": "c0050.mp3",
+      "duration_ms": 17955,
+      "bytes": 291501,
+      "sha256": "caafaef61f72fc5fe0061dfd6cca78a4f97709d68da838d9de76068216ba33bd",
+      "sentence_ids": [
+        "ch13-s09-n0295",
+        "ch13-s09-n0296",
+        "ch13-s09-n0297",
+        "ch13-s09-n0298",
+        "ch13-s09-n0299",
+        "ch13-s09-n0300"
+      ]
+    },
+    {
+      "id": "c0051",
+      "audio_file": "c0051.mp3",
+      "duration_ms": 19125,
+      "bytes": 311085,
+      "sha256": "0ceb1aa11c70f54e63d2f7762df0b9d85f4579dc73a519a939f5a0b0c07ff655",
+      "sentence_ids": [
+        "ch13-s09-n0301",
+        "ch13-s09-n0302",
+        "ch13-s09-n0303",
+        "ch13-s09-n0304",
+        "ch13-s09-n0305",
+        "ch13-s09-n0306"
+      ]
+    },
+    {
+      "id": "c0052",
+      "audio_file": "c0052.mp3",
+      "duration_ms": 33775,
+      "bytes": 541869,
+      "sha256": "9168d9bb9bb2748a79274236e58ff4e2bc055649058ffce8ef642902d711ce60",
+      "sentence_ids": [
+        "ch13-s09-n0307",
+        "ch13-s09-n0308",
+        "ch13-s09-n0309",
+        "ch13-s09-n0310",
+        "ch13-s09-n0311",
+        "ch13-s09-n0312"
+      ]
+    },
+    {
+      "id": "c0053",
+      "audio_file": "c0053.mp3",
+      "duration_ms": 20485,
+      "bytes": 332973,
+      "sha256": "9d7445ec598e3925c1b8177adaa508cc7ddf88e8eb68f937e1e680f8bd54012f",
+      "sentence_ids": [
+        "ch13-s09-n0313",
+        "ch13-s09-n0314",
+        "ch13-s09-n0315",
+        "ch13-s09-n0316",
+        "ch13-s09-n0317",
+        "ch13-s09-n0318"
+      ]
+    },
+    {
+      "id": "c0054",
+      "audio_file": "c0054.mp3",
+      "duration_ms": 37109,
+      "bytes": 596013,
+      "sha256": "7a8f907f7f7818e9371a63d3f94897a319735e0422acd936999ac2c65ae44420",
+      "sentence_ids": [
+        "ch13-s09-n0319",
+        "ch13-s09-n0320",
+        "ch13-s09-n0321",
+        "ch13-s09-n0322",
+        "ch13-s09-n0323",
+        "ch13-s09-n0324"
+      ]
+    },
+    {
+      "id": "c0055",
+      "audio_file": "c0055.mp3",
+      "duration_ms": 14975,
+      "bytes": 241197,
+      "sha256": "1b52a9fc3afc8db7da2b4571d7cd758bd05829346f699ef8d816d9f32248b33c",
+      "sentence_ids": [
+        "ch13-s09-n0325",
+        "ch13-s09-n0326",
+        "ch13-s09-n0327",
+        "ch13-s09-n0328",
+        "ch13-s09-n0329",
+        "ch13-s09-n0330"
+      ]
+    },
+    {
+      "id": "c0056",
+      "audio_file": "c0056.mp3",
+      "duration_ms": 14545,
+      "bytes": 234285,
+      "sha256": "5dec8b5174e6c0ae4fd98569bc66bb25532d5dedf67f97084809b0df167bc1f7",
+      "sentence_ids": [
+        "ch13-s09-n0331",
+        "ch13-s09-n0332",
+        "ch13-s09-n0333",
+        "ch13-s09-n0334",
+        "ch13-s09-n0335",
+        "ch13-s09-n0336"
+      ]
+    },
+    {
+      "id": "c0057",
+      "audio_file": "c0057.mp3",
+      "duration_ms": 21755,
+      "bytes": 356013,
+      "sha256": "f8f8d22b1380160dd8551ee072ba55e468bdf953d3fca7ecd9ca57ab60a46e4d",
+      "sentence_ids": [
+        "ch13-s09-n0337",
+        "ch13-s09-n0338",
+        "ch13-s09-n0339",
+        "ch13-s09-n0340",
+        "ch13-s09-n0341",
+        "ch13-s09-n0342"
+      ]
+    },
+    {
+      "id": "c0058",
+      "audio_file": "c0058.mp3",
+      "duration_ms": 18745,
+      "bytes": 304557,
+      "sha256": "54d037351b19df23f435fe8525ff92c9dde85e2398434b22d4564eb5b5c7c151",
+      "sentence_ids": [
+        "ch13-s09-n0343",
+        "ch13-s09-n0344",
+        "ch13-s09-n0345",
+        "ch13-s09-n0346",
+        "ch13-s09-n0347",
+        "ch13-s09-n0348"
+      ]
+    },
+    {
+      "id": "c0059",
+      "audio_file": "c0059.mp3",
+      "duration_ms": 24755,
+      "bytes": 403245,
+      "sha256": "a02023fd5f7c85bc25977923ed12001b764fb932da02d3b3155e4be69a1c2085",
+      "sentence_ids": [
+        "ch13-s09-n0349",
+        "ch13-s09-n0350",
+        "ch13-s09-n0351",
+        "ch13-s09-n0352",
+        "ch13-s09-n0353",
+        "ch13-s09-n0354"
+      ]
+    },
+    {
+      "id": "c0060",
+      "audio_file": "c0060.mp3",
+      "duration_ms": 29865,
+      "bytes": 480813,
+      "sha256": "c72bae2ecdb0501c8faf3224c05c6d74a00ba7d2893e6868d1f6efc338c7de2c",
+      "sentence_ids": [
+        "ch13-s09-n0355",
+        "ch13-s09-n0356",
+        "ch13-s09-n0357",
+        "ch13-s09-n0358",
+        "ch13-s09-n0359",
+        "ch13-s09-n0360"
+      ]
+    },
+    {
+      "id": "c0061",
+      "audio_file": "c0061.mp3",
+      "duration_ms": 18025,
+      "bytes": 291885,
+      "sha256": "e3c63fe1576adfdb747533d16ab3db034f48ea05ec0f547df7bf7ebe8a79a4fa",
+      "sentence_ids": [
+        "ch13-s09-n0361",
+        "ch13-s09-n0362",
+        "ch13-s09-n0363",
+        "ch13-s09-n0364",
+        "ch13-s09-n0365",
+        "ch13-s09-n0366"
+      ]
+    },
+    {
+      "id": "c0062",
+      "audio_file": "c0062.mp3",
+      "duration_ms": 22785,
+      "bytes": 368685,
+      "sha256": "3df6265df7004f424ea2ff619383307da1b87c0786b5d08fa8b903a3156497ce",
+      "sentence_ids": [
+        "ch13-s09-n0367",
+        "ch13-s09-n0368",
+        "ch13-s09-n0369",
+        "ch13-s09-n0370",
+        "ch13-s09-n0371",
+        "ch13-s09-n0372"
+      ]
+    },
+    {
+      "id": "c0063",
+      "audio_file": "c0063.mp3",
+      "duration_ms": 34825,
+      "bytes": 561069,
+      "sha256": "ea6e6be9a19df722e2c62fbd8a7ed7b8052cd1f7fc93b86108f265b7787c7b79",
+      "sentence_ids": [
+        "ch13-s09-n0373",
+        "ch13-s09-n0374",
+        "ch13-s09-n0375",
+        "ch13-s09-n0376",
+        "ch13-s09-n0377",
+        "ch13-s09-n0378"
+      ]
+    },
+    {
+      "id": "c0064",
+      "audio_file": "c0064.mp3",
+      "duration_ms": 27185,
+      "bytes": 439341,
+      "sha256": "47fcfaaedec20ad40933271790706ef711f7628b98741a78db303d250f76f7e0",
+      "sentence_ids": [
+        "ch13-s09-n0379",
+        "ch13-s09-n0380",
+        "ch13-s09-n0381",
+        "ch13-s09-n0382",
+        "ch13-s09-n0383",
+        "ch13-s09-n0384"
+      ]
+    },
+    {
+      "id": "c0065",
+      "audio_file": "c0065.mp3",
+      "duration_ms": 27545,
+      "bytes": 441645,
+      "sha256": "234060a3a9fb351fd340ec904450584b853948bc4bf28e12a400b837d345ce58",
+      "sentence_ids": [
+        "ch13-s09-n0385",
+        "ch13-s09-n0386",
+        "ch13-s09-n0387",
+        "ch13-s09-n0388",
+        "ch13-s09-n0389",
+        "ch13-s09-n0390"
+      ]
+    },
+    {
+      "id": "c0066",
+      "audio_file": "c0066.mp3",
+      "duration_ms": 31815,
+      "bytes": 509997,
+      "sha256": "a0e04012381cf96484ff00d15594cf79ebd29f185049534202dd240d6d6f0a44",
+      "sentence_ids": [
+        "ch13-s09-n0391",
+        "ch13-s09-n0392",
+        "ch13-s09-n0393",
+        "ch13-s09-n0394",
+        "ch13-s09-n0395",
+        "ch13-s09-n0396"
+      ]
+    },
+    {
+      "id": "c0067",
+      "audio_file": "c0067.mp3",
+      "duration_ms": 38911,
+      "bytes": 627501,
+      "sha256": "7e4ee2d4cd5a7911bca96648f7d19d052dfb7f34e195a99507ebf516a973c982",
+      "sentence_ids": [
+        "ch13-s09-n0397",
+        "ch13-s09-n0398",
+        "ch13-s09-n0399",
+        "ch13-s09-n0400",
+        "ch13-s09-n0401",
+        "ch13-s09-n0402"
+      ]
+    },
+    {
+      "id": "c0068",
+      "audio_file": "c0068.mp3",
+      "duration_ms": 52290,
+      "bytes": 839085,
+      "sha256": "a2ed3879920d604f85278be142c11edc6eb775df41172f29bccaba277ae38ec2",
+      "sentence_ids": [
+        "ch13-s09-n0403",
+        "ch13-s09-n0404",
+        "ch13-s09-n0405",
+        "ch13-s09-n0406",
+        "ch13-s09-n0407",
+        "ch13-s09-n0408"
+      ]
+    },
+    {
+      "id": "c0069",
+      "audio_file": "c0069.mp3",
+      "duration_ms": 36369,
+      "bytes": 582189,
+      "sha256": "7885b08f709a3188fb53d89a061eb55ac8a7d2dc8f69ba15ce2146d99b30c50e",
+      "sentence_ids": [
+        "ch13-s09-n0409",
+        "ch13-s09-n0410",
+        "ch13-s09-n0411",
+        "ch13-s09-n0412",
+        "ch13-s09-n0413",
+        "ch13-s09-n0414"
+      ]
+    },
+    {
+      "id": "c0070",
+      "audio_file": "c0070.mp3",
+      "duration_ms": 31275,
+      "bytes": 502701,
+      "sha256": "9092f31292b25544a9a61f02ac237ddbbae0a52924d1168a1aec67492791e2ce",
+      "sentence_ids": [
+        "ch13-s09-n0415",
+        "ch13-s09-n0416",
+        "ch13-s09-n0417",
+        "ch13-s09-n0418",
+        "ch13-s09-n0419",
+        "ch13-s09-n0420"
+      ]
+    },
+    {
+      "id": "c0071",
+      "audio_file": "c0071.mp3",
+      "duration_ms": 35285,
+      "bytes": 566829,
+      "sha256": "ca15209d96889a695cb037eb64dc3d62289cb6f6e54b0dec745a61bf77071296",
+      "sentence_ids": [
+        "ch13-s09-n0421",
+        "ch13-s09-n0422",
+        "ch13-s09-n0423",
+        "ch13-s09-n0424",
+        "ch13-s09-n0425",
+        "ch13-s09-n0426"
+      ]
+    },
+    {
+      "id": "c0072",
+      "audio_file": "c0072.mp3",
+      "duration_ms": 15965,
+      "bytes": 253485,
+      "sha256": "18ee166220d294d342f25817f83cb928415d460c6abda09c50cbc60ed7e71bdd",
+      "sentence_ids": [
+        "ch13-s09-n0427",
+        "ch13-s09-n0428",
+        "ch13-s09-n0429"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ch13-s09-n0001",
+      "text": "工厂法是社会第一次有意识、有计划地干预自发形成的生产过程。",
+      "start_ms": 95,
+      "end_ms": 4265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s09-n0002",
+      "text": "前面已经看到，它和棉纱、自动走锭纺纱机、电报一样，都是大工业必然产生的结果。",
+      "start_ms": 4600,
+      "end_ms": 10635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s09-n0003",
+      "text": "在说明工厂法怎样推广到英国其他行业以前，还要简要介绍其中几项与工作日长短无关的规定。",
+      "start_ms": 10940,
+      "end_ms": 17155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s09-n0004",
+      "text": "工厂法的卫生条款极其薄弱，法律写法还便于资本家规避。",
+      "start_ms": 17475,
+      "end_ms": 21355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s09-n0005",
+      "text": "它实际上只要求粉刷墙壁、采取少数清洁和通风措施，并防止危险机器伤人。",
+      "start_ms": 21700,
+      "end_ms": 27475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s09-n0006",
+      "text": "工厂主为了反对机器防护条款，曾展开狂热斗争，因为法律强迫他们花一点钱保护工人的手脚。",
+      "start_ms": 27800,
+      "end_ms": 34255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0001"
+    },
+    {
+      "id": "ch13-s09-n0007",
+      "text": "这件事将在第三卷再谈。",
+      "start_ms": 145,
+      "end_ms": 1785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s09-n0008",
+      "text": "自由贸易信条说，在利益彼此对立的社会里，每个人只要追逐私利，就会促进公共利益。",
+      "start_ms": 2200,
+      "end_ms": 8775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s09-n0009",
+      "text": "这里又出现了检验这条信条的绝好例子。",
+      "start_ms": 9080,
+      "end_ms": 11555,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s09-n0010",
+      "text": "过去二十年，爱尔兰的亚麻业大幅扩张，打麻厂也随之增加，1864年约有1800家。",
+      "start_ms": 12065,
+      "end_ms": 18565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s09-n0011",
+      "text": "每到秋冬，附近小佃农家的儿女和妻子会暂时离开农田，到打麻厂里把亚麻送进滚轴。",
+      "start_ms": 18920,
+      "end_ms": 25645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s09-n0012",
+      "text": "这些年轻人和妇女完全不熟悉机器，因此发生事故的数量和严重程度，在机器生产史上都没有先例。",
+      "start_ms": 26150,
+      "end_ms": 33415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0002"
+    },
+    {
+      "id": "ch13-s09-n0013",
+      "text": "科克附近基尔迪南的一家打麻厂，1852至1856年间就造成六人死亡、六十人重伤致残。",
+      "start_ms": 175,
+      "end_ms": 6635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s09-n0014",
+      "text": "只需花几先令安装最简单的装置，所有这些事故都可以避免。",
+      "start_ms": 7060,
+      "end_ms": 10795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s09-n0015",
+      "text": "1865年12月16日，唐帕特里克的工厂认证医生W. 怀特在正式报告中说：“打麻厂的事故极其可怕。",
+      "start_ms": 12175,
+      "end_ms": 19375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s09-n0016",
+      "text": "许多伤者身体的四分之一会从躯干上被扯掉，通常不是死亡，就是终身残疾和痛苦。",
+      "start_ms": 19790,
+      "end_ms": 25985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s09-n0017",
+      "text": "这个国家的工厂越来越多，可怕的后果自然也会随之扩大。",
+      "start_ms": 26470,
+      "end_ms": 29965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s09-n0018",
+      "text": "我相信，只要国家对打麻厂实行适当监督，就能避免许多人伤亡。”",
+      "start_ms": 30384,
+      "end_ms": 35074,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0003"
+    },
+    {
+      "id": "ch13-s09-n0019",
+      "text": "资本主义生产方式有一个再鲜明不过的特征：连最简单的清洁和卫生设施，也必须由国家用强制法律迫使它采用。",
+      "start_ms": 445,
+      "end_ms": 7345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s09-n0020",
+      "text": "“1864年的工厂法使陶器业两百多间作坊得到粉刷和清洁。",
+      "start_ms": 8005,
+      "end_ms": 12265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s09-n0021",
+      "text": "这些地方已经二十年，甚至从来没有做过这种工作——资本就是这样‘节制’开支的！",
+      "start_ms": 12575,
+      "end_ms": 16865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s09-n0022",
+      "text": "27878名工人在里面工作，过去每天长时间、往往还通宵呼吸恶臭空气，使本来危害不算大的工作充满疾病和死亡。",
+      "start_ms": 19125,
+      "end_ms": 26895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s09-n0023",
+      "text": "法律还大大改善了通风。”",
+      "start_ms": 27365,
+      "end_ms": 28565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s09-n0024",
+      "text": "不过，这些卫生规定也清楚表明：资本主义生产方式只容许合理改善到某个限度；一旦越过这条界限，它就会从根本上排斥改善。",
+      "start_ms": 29415,
+      "end_ms": 38362,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0004"
+    },
+    {
+      "id": "ch13-s09-n0025",
+      "text": "英国医生一再一致指出，持续工作时，每人五百立方英尺空气只能算勉强够用的最低标准。",
+      "start_ms": 465,
+      "end_ms": 7185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s09-n0026",
+      "text": "可是，工厂法的各种强制规定会间接推动小作坊变成工厂，也就是间接侵犯小资本家的财产权，并让大资本家取得垄断。",
+      "start_ms": 7470,
+      "end_ms": 17195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s09-n0027",
+      "text": "假如法律直接规定每名工人必须拥有五百立方英尺空气，就会一下子使数千名小资本家失去经营条件。",
+      "start_ms": 17770,
+      "end_ms": 25545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s09-n0028",
+      "text": "这会触及资本主义生产方式的根本：无论资本大小，都要通过“自由”购买和使用劳动力来增殖。",
+      "start_ms": 26055,
+      "end_ms": 33235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s09-n0029",
+      "text": "因此，工厂法一碰到这五百立方英尺空气，自己就喘不过气来。",
+      "start_ms": 33778,
+      "end_ms": 38528,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s09-n0030",
+      "text": "卫生部门、产业调查委员会和工厂视察员反复说明五百立方英尺的必要性，也反复说明不可能把它强加给资本。",
+      "start_ms": 38893,
+      "end_ms": 47068,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0005"
+    },
+    {
+      "id": "ch13-s09-n0031",
+      "text": "他们实际上等于宣布，工人患肺结核和其他肺病，是资本生存所必需的条件。",
+      "start_ms": 165,
+      "end_ms": 6535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s09-n0032",
+      "text": "工厂法的教育条款总体上虽然很不完善，却规定：儿童接受基础教育，是他们参加劳动的强制条件。",
+      "start_ms": 7105,
+      "end_ms": 14595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s09-n0033",
+      "text": "实行这些条款以后，事实首次证明，教育和体育可以同体力劳动结合，体力劳动也可以同教育和体育结合。",
+      "start_ms": 15505,
+      "end_ms": 24815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s09-n0034",
+      "text": "工厂视察员询问教师后很快发现，工厂儿童上课时间只有全日制学生的一半，学到的东西却一样多，往往还更多。",
+      "start_ms": 25110,
+      "end_ms": 33925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s09-n0035",
+      "text": "“道理很简单。",
+      "start_ms": 34272,
+      "end_ms": 35127,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s09-n0036",
+      "text": "每天只在学校待半天的孩子总是精神饱满，几乎随时都有能力、也愿意听课。",
+      "start_ms": 35527,
+      "end_ms": 40587,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0006"
+    },
+    {
+      "id": "ch13-s09-n0037",
+      "text": "半天劳动、半天上学的制度，使两种活动轮流成为另一种活动后的休息，因此比整天只做其中一件更适合孩子。",
+      "start_ms": 85,
+      "end_ms": 8775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s09-n0038",
+      "text": "一个男孩从一大早就坐在教室里，天气炎热时尤其如此。",
+      "start_ms": 9255,
+      "end_ms": 13345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s09-n0039",
+      "text": "他不可能同一个刚结束劳动、精神振奋地来上课的男孩竞争。”",
+      "start_ms": 13800,
+      "end_ms": 18855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s09-n0040",
+      "text": "西尼尔1863年在爱丁堡社会科学大会上的演说还提供了更多证据。",
+      "start_ms": 18860,
+      "end_ms": 23255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s09-n0041",
+      "text": "他也指出，上层和中间阶级儿童漫长、单一而低效的上学日，不仅白白增加教师的工作，还毫无收益、甚至有害地浪费孩子的时间、健康和精力。",
+      "start_ms": 24055,
+      "end_ms": 36505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s09-n0042",
+      "text": "未来教育的萌芽正是从工厂制度中产生的，罗伯特·欧文的实践把这一点表现得很清楚。",
+      "start_ms": 37088,
+      "end_ms": 43178,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0007"
+    },
+    {
+      "id": "ch13-s09-n0043",
+      "text": "未来的教育会让超过一定年龄的儿童，把生产劳动、教育和体育结合起来。",
+      "start_ms": 155,
+      "end_ms": 5925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s09-n0044",
+      "text": "这不只是提高社会生产的方法，也是培养全面发展的人唯一的方法。",
+      "start_ms": 6305,
+      "end_ms": 10675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s09-n0045",
+      "text": "前面已经看到，大工业在技术上取消了工场手工业的旧式分工，不再要求一个人终身固定在一道局部工序上。",
+      "start_ms": 11425,
+      "end_ms": 19645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s09-n0046",
+      "text": "可是，大工业采取资本主义形式以后，又以更加畸形的方式重现这种分工。",
+      "start_ms": 19940,
+      "end_ms": 25995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s09-n0047",
+      "text": "在真正的工厂里，工人成了局部机器上一个有意识的附属物。",
+      "start_ms": 26490,
+      "end_ms": 30845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s09-n0048",
+      "text": "在其他地方，资本有时零星采用机器和机器劳动， 有时又把妇女、儿童和非熟练劳动变成新的分工基础。",
+      "start_ms": 31365,
+      "end_ms": 40010,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0008"
+    },
+    {
+      "id": "ch13-s09-n0049",
+      "text": "旧式分工同大工业的技术本性发生了尖锐冲突。",
+      "start_ms": 425,
+      "end_ms": 3665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s09-n0050",
+      "text": "现代工厂和工场里的许多儿童，从极小的年纪起就被固定在最简单的操作上，连续受剥削多年，却学不会任何完整工作，长大后甚至无法继续在原工场或工厂中谋生。",
+      "start_ms": 4080,
+      "end_ms": 16455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s09-n0051",
+      "text": "这正是冲突最可怕的表现之一。",
+      "start_ms": 16860,
+      "end_ms": 18765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s09-n0052",
+      "text": "以英国印刷厂为例，过去的学徒会按照手工业和旧式工场的办法，从简单工作逐步转到较复杂、较有内容的工作。",
+      "start_ms": 19175,
+      "end_ms": 27515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s09-n0053",
+      "text": "他们经过完整学习，最后成为合格的印刷工，读写能力也是从业的必要条件。",
+      "start_ms": 27925,
+      "end_ms": 33595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s09-n0054",
+      "text": "印刷机改变了这一切。",
+      "start_ms": 34008,
+      "end_ms": 35348,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0009"
+    },
+    {
+      "id": "ch13-s09-n0055",
+      "text": "现在工人分为两类：成年机器看管工和机器童工。",
+      "start_ms": 85,
+      "end_ms": 4125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s09-n0056",
+      "text": "童工大多十一至十七岁，只负责把白纸送进机器，或取下印好的纸。",
+      "start_ms": 4620,
+      "end_ms": 9835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s09-n0057",
+      "text": "在伦敦，他们每周有几天要连续做这种苦役十四、十五或十六小时，有时甚至连续三十六小时，中间只有两小时吃饭和睡觉。",
+      "start_ms": 10375,
+      "end_ms": 19925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s09-n0058",
+      "text": "其中许多人不会读书，通常都变得粗野而发育失常。",
+      "start_ms": 20805,
+      "end_ms": 24915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s09-n0059",
+      "text": "“这项工作不需要任何智力训练。",
+      "start_ms": 25340,
+      "end_ms": 27385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s09-n0060",
+      "text": "他们几乎没有机会发展技能，更谈不上判断力。",
+      "start_ms": 27760,
+      "end_ms": 31245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0010"
+    },
+    {
+      "id": "ch13-s09-n0061",
+      "text": "他们的工资对孩子来说似乎不低，却不会随着他们长大而相应增加。",
+      "start_ms": 85,
+      "end_ms": 4725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s09-n0062",
+      "text": "绝大多数人也没有希望升任工资更高、责任更大的机器看管工，因为每台机器只有一名看管工，却往往配四名童工。”",
+      "start_ms": 5120,
+      "end_ms": 13975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s09-n0063",
+      "text": "童工一旦超过这种幼稚工作所适合的年龄，最迟到十七岁，印刷厂就把他们解雇。",
+      "start_ms": 13980,
+      "end_ms": 19605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s09-n0064",
+      "text": "他们于是成了犯罪队伍的新兵。",
+      "start_ms": 20055,
+      "end_ms": 22255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s09-n0065",
+      "text": "人们曾设法替他们寻找其他工作，却因为他们无知、粗野，身心都遭到摧残而失败。",
+      "start_ms": 22760,
+      "end_ms": 28965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s09-n0066",
+      "text": "工场内部的分工如此，整个社会内部的分工也是如此。",
+      "start_ms": 29525,
+      "end_ms": 33325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0011"
+    },
+    {
+      "id": "ch13-s09-n0067",
+      "text": "只要手工业和工场手工业仍是社会生产的普遍基础，生产者就必须专门从事一个生产部门，原有的多种活动也必然被拆散。",
+      "start_ms": 275,
+      "end_ms": 8405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s09-n0068",
+      "text": "在这种基础上，每个生产部门通过经验找到适合自己的技术形式，再缓慢地改进。",
+      "start_ms": 8760,
+      "end_ms": 14475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s09-n0069",
+      "text": "达到一定成熟程度以后，这种形式很快就会固定下来。",
+      "start_ms": 14740,
+      "end_ms": 17875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s09-n0070",
+      "text": "除了贸易带来新材料以外，只有劳动工具逐渐变化，才会偶尔引起技术改变。",
+      "start_ms": 18715,
+      "end_ms": 24315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s09-n0071",
+      "text": "工具一旦在经验中取得适用形式，也会变得僵化，往往几千年都由一代原样传给下一代。",
+      "start_ms": 24660,
+      "end_ms": 31295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s09-n0072",
+      "text": "直到十八世纪，各种行业仍被称作“秘密”。",
+      "start_ms": 31832,
+      "end_ms": 35027,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0012"
+    },
+    {
+      "id": "ch13-s09-n0073",
+      "text": "只有凭经验受过专业训练的人，才能进入这些行业的隐秘世界。",
+      "start_ms": 475,
+      "end_ms": 4235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s09-n0074",
+      "text": "大工业撕开了这层帷幕。",
+      "start_ms": 4650,
+      "end_ms": 6305,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s09-n0075",
+      "text": "帷幕原本遮住了人们自己的社会生产过程，使各个自发分开的生产部门彼此成为谜，甚至连本行业的内行也看不懂其他部门。",
+      "start_ms": 6730,
+      "end_ms": 14465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s09-n0076",
+      "text": "大工业采用一个基本原则：先不考虑人的手怎样操作，把每一种生产过程本身分解成构成它的各个环节。",
+      "start_ms": 15295,
+      "end_ms": 22465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s09-n0077",
+      "text": "现代技术科学由此产生。",
+      "start_ms": 22885,
+      "end_ms": 24565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s09-n0078",
+      "text": "社会生产过程原来形态各异、看似彼此无关而且已经僵化，现在都被分解成自然科学的应用。",
+      "start_ms": 24940,
+      "end_ms": 31745,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0013"
+    },
+    {
+      "id": "ch13-s09-n0079",
+      "text": "人们先确定想达到什么效果，再有意识、有计划地选择相应方法。",
+      "start_ms": 325,
+      "end_ms": 4465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s09-n0080",
+      "text": "无论使用的工具多么不同，人体在生产活动中都只能采取少数几种基本动作，技术科学也揭示了这些基本形式。",
+      "start_ms": 4855,
+      "end_ms": 11725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s09-n0081",
+      "text": "这就像机械学不会被机器的复杂外表迷惑，仍能看出其中反复出现的简单机械作用。",
+      "start_ms": 12505,
+      "end_ms": 18095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s09-n0082",
+      "text": "现代工业从不把现有生产方式看作最终形式，因此它的技术基础不断发生革命，而以前一切生产方式的技术基础本质上都是保守的。",
+      "start_ms": 18420,
+      "end_ms": 27195,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s09-n0083",
+      "text": "现代工业不断使用机器、化学过程和其他方法，改变生产的技术基础，同时改变工人的职能和劳动过程中的社会组合。",
+      "start_ms": 27660,
+      "end_ms": 35715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s09-n0084",
+      "text": "它也因此不断改变社会内部的分工，把大量资本和工人从一个生产部门抛向另一个部门。",
+      "start_ms": 36010,
+      "end_ms": 41585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0014"
+    },
+    {
+      "id": "ch13-s09-n0085",
+      "text": "所以，大工业本身要求工作不断转换、职能不断流动，工人具有多方面的适应能力。",
+      "start_ms": 115,
+      "end_ms": 5725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s09-n0086",
+      "text": "可是，大工业的资本主义形式又保留了旧分工，把每个人僵硬地限制在一种局部职能上。",
+      "start_ms": 5985,
+      "end_ms": 12285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s09-n0087",
+      "text": "我们已经看到，这个绝对矛盾怎样摧毁工人生活的一切安定、稳定和保障。",
+      "start_ms": 12575,
+      "end_ms": 17355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s09-n0088",
+      "text": "这个矛盾随时可能连同劳动工具一道，夺走工人赖以生活的手段， 还可能随着局部职能变得多余，使工人本人一同变得多余。",
+      "start_ms": 17915,
+      "end_ms": 26965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s09-n0089",
+      "text": "这个矛盾造成无休止的工人牺牲，极端浪费劳动力，也让社会生产在无计划状态中不断遭受破坏。",
+      "start_ms": 27240,
+      "end_ms": 34445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s09-n0090",
+      "text": "这是它消极的一面。",
+      "start_ms": 34796,
+      "end_ms": 35921,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0015"
+    },
+    {
+      "id": "ch13-s09-n0091",
+      "text": "可是，劳动不断转换虽然仍像无法抵抗的自然规律一样盲目破坏，并到处遇到阻力，危机本身却迫使社会面对一个生死问题：必须承认工作转换是社会生产的普遍规律，让工人尽可能具备多方面能力，并创造条件使这条规律能够正常实现。",
+      "start_ms": 225,
+      "end_ms": 18665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s09-n0092",
+      "text": "社会不能再保留一批贫困工人，任由资本根据不断变化的剥削需要随时调用，而必须使每个人都能适应不断变化的劳动要求。",
+      "start_ms": 19080,
+      "end_ms": 28675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s09-n0093",
+      "text": "人不能再只是某一种社会局部职能的承担者，而应成为全面发展的人，能够把不同社会职能当作轮流进行的活动。",
+      "start_ms": 29005,
+      "end_ms": 37845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s09-n0094",
+      "text": "大工业自然发展出来的综合技术学校和农艺学校，是这场变革的一个因素。",
+      "start_ms": 38202,
+      "end_ms": 43517,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s09-n0095",
+      "text": "职业学校则是另一个因素，工人的孩子在那里学习一些技术知识，也实际练习使用各种生产工具。",
+      "start_ms": 44127,
+      "end_ms": 51577,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s09-n0096",
+      "text": "工厂法只是资本被迫作出的第一步让步，只把基础教育同工厂劳动结合起来。",
+      "start_ms": 52002,
+      "end_ms": 57837,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0016"
+    },
+    {
+      "id": "ch13-s09-n0097",
+      "text": "工人阶级必然会取得政治权力，也必然会让劳动者在学校同时接受理论和实践的技术教育。",
+      "start_ms": 135,
+      "end_ms": 6495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s09-n0098",
+      "text": "同样毫无疑问，资本主义生产形式和与它相应的劳动关系，同这些变革因素以及它们的目标——消灭旧式分工——处在最尖锐的对立中。",
+      "start_ms": 6820,
+      "end_ms": 17045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s09-n0099",
+      "text": "不过，一种历史生产形式只有把自身矛盾发展出来，才可能在历史上得到解决并转变为新形式。",
+      "start_ms": 17380,
+      "end_ms": 24335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s09-n0100",
+      "text": "“鞋匠只管鞋，别管鞋以上的事！”",
+      "start_ms": 24635,
+      "end_ms": 27645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s09-n0101",
+      "text": "这句手工业智慧的最高准则，从钟表匠瓦特发明蒸汽机、理发师阿克莱特发明纺纱机、首饰工人富尔顿发明轮船的那一刻起，就变成了可怕的蠢话。",
+      "start_ms": 27805,
+      "end_ms": 40315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s09-n0102",
+      "text": "工厂法限制工厂、工场等场所的劳动，最初看起来只是干预资本剥削工人的权利。",
+      "start_ms": 40659,
+      "end_ms": 46879,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0017"
+    },
+    {
+      "id": "ch13-s09-n0103",
+      "text": "可是，一旦法律要限制所谓的家庭劳动，就会立刻被说成直接侵犯父权，也就是现代人所说的父母权威。",
+      "start_ms": 295,
+      "end_ms": 8785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s09-n0104",
+      "text": "感情细腻的英国议会长期假装不敢迈出这一步。",
+      "start_ms": 9260,
+      "end_ms": 11915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s09-n0105",
+      "text": "可是，事实最终迫使人们承认，大工业不只瓦解了旧家庭赖以存在的经济基础和相应的家庭劳动，也瓦解了旧的家庭关系。",
+      "start_ms": 13335,
+      "end_ms": 22595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s09-n0106",
+      "text": "因此，法律必须宣布儿童拥有自己的权利。",
+      "start_ms": 23215,
+      "end_ms": 26325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s09-n0107",
+      "text": "1866年童工调查委员会的最终报告说：“不幸的是，所有证词都清楚表明，男女儿童最需要防范的人，正是他们的父母。”",
+      "start_ms": 27445,
+      "end_ms": 36795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s09-n0108",
+      "text": "儿童劳动，尤其家庭劳动的无限剥削之所以能够维持，是因为“父母对幼小脆弱的孩子行使任意而有害的权力，没有任何约束或监督……父母不应拥有绝对权力，把孩子变成纯粹的机器，只为每周榨取一定工资……儿童和青少年有权得到立法保护，免受父母滥用权力。",
+      "start_ms": 37265,
+      "end_ms": 59610,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0018"
+    },
+    {
+      "id": "ch13-s09-n0109",
+      "text": "那种权力会过早耗尽他们的体力，也使他们在道德和智力上降到更低等级”。",
+      "start_ms": 85,
+      "end_ms": 9355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s09-n0110",
+      "text": "不过，事情的因果关系不能倒过来看。",
+      "start_ms": 9360,
+      "end_ms": 13295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s09-n0111",
+      "text": "不是父母滥用权力，才让资本能够直接或间接剥削未成年劳动力。",
+      "start_ms": 14030,
+      "end_ms": 17275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s09-n0112",
+      "text": "恰恰相反，是资本主义剥削摧毁了旧家庭权力原有的经济基础，才使这种权力变成了滥用。",
+      "start_ms": 17850,
+      "end_ms": 26825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s09-n0113",
+      "text": "旧家庭在资本主义制度下的瓦解，无论多么可怕、令人厌恶，大工业仍然创造了一种新的经济基础，使更高级的家庭形式和两性关系成为可能。",
+      "start_ms": 27615,
+      "end_ms": 42585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s09-n0114",
+      "text": "因为它让妇女、青年和男女儿童走出家庭，在有组织的社会生产中发挥决定性作用。",
+      "start_ms": 43689,
+      "end_ms": 53149,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0019"
+    },
+    {
+      "id": "ch13-s09-n0115",
+      "text": "把基督教日耳曼家庭看作绝对不变的形式，当然同把古罗马、古希腊或东方家庭看作绝对形式一样荒谬；这些家庭形式本来就构成了一条历史发展序列。",
+      "start_ms": 85,
+      "end_ms": 10795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s09-n0116",
+      "text": "同样明显的是，由男女和各种年龄的人共同组成劳动队伍，在资本主义自发而野蛮的形式下，会成为腐化和奴役的源头，因为这里是人为生产过程服务，而不是生产过程为人服务。",
+      "start_ms": 11475,
+      "end_ms": 25105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s09-n0117",
+      "text": "可是在适当的社会条件下，这种共同劳动反过来必然会推动人的发展。",
+      "start_ms": 25455,
+      "end_ms": 30185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s09-n0118",
+      "text": "工厂法起初只是纺纱和织布业的特殊法律，因为这些行业最早采用机器。",
+      "start_ms": 30732,
+      "end_ms": 35677,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s09-n0119",
+      "text": "后来却必须推广为适用于一切社会生产的普遍法律。",
+      "start_ms": 36052,
+      "end_ms": 39547,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s09-n0120",
+      "text": "原因来自大工业自身的历史发展。",
+      "start_ms": 39972,
+      "end_ms": 41867,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0020"
+    },
+    {
+      "id": "ch13-s09-n0121",
+      "text": "传统工场、手工业和家庭劳动在大工业影响下被彻底改变：工场不断变成工厂，手工业不断变成工场，手工业和家庭劳动又会在短得惊人的时间里化为悲惨洞穴，资本主义剥削最疯狂的暴行在那里不受约束地进行。",
+      "start_ms": 505,
+      "end_ms": 14095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s09-n0122",
+      "text": "最终有两个因素决定了法律必须推广。",
+      "start_ms": 14545,
+      "end_ms": 16725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s09-n0123",
+      "text": "第一，经验一再证明，只要国家只在社会生产的少数边缘领域限制资本，资本就会在其他领域更加没有节制地补偿自己的损失。",
+      "start_ms": 17080,
+      "end_ms": 25765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s09-n0124",
+      "text": "第二，资本家自己也要求竞争条件平等，也就是所有人都受同样的剥削限制。",
+      "start_ms": 26060,
+      "end_ms": 31245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s09-n0125",
+      "text": "听听他们的两次肺腑之言。",
+      "start_ms": 31726,
+      "end_ms": 33181,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s09-n0126",
+      "text": "布里斯托尔制造钉子和链条等产品的库克斯利先生们，自愿在自己的企业实行工厂规定。",
+      "start_ms": 33606,
+      "end_ms": 39171,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0021"
+    },
+    {
+      "id": "ch13-s09-n0127",
+      "text": "可是，“附近工厂继续采用旧的不规则制度，所以他们遭受一种不公：自己的童工在晚上六点下班后，又被引诱到别处继续工作”。",
+      "start_ms": 485,
+      "end_ms": 9605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s09-n0128",
+      "text": "他们自然说：“这对我们不公平，也使我们蒙受损失，因为孩子的一部分体力被消耗掉了，而这些体力本应全部归我们使用。”",
+      "start_ms": 10055,
+      "end_ms": 18475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s09-n0129",
+      "text": "伦敦纸盒纸袋制造商J. 辛普森则对童工调查委员会说，他愿意签署任何要求实行工厂法的请愿书。",
+      "start_ms": 19115,
+      "end_ms": 26605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s09-n0130",
+      "text": "自己的作坊下班以后，他“一到晚上就总觉得不安”，因为想到别人让工人干得更久，可能从他眼前抢走订单。",
+      "start_ms": 26975,
+      "end_ms": 34805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s09-n0131",
+      "text": "童工调查委员会总结说：“如果同一行业的小企业不受法律限制工作时间，只让大雇主的工厂受管制，就是对大雇主不公平。",
+      "start_ms": 35308,
+      "end_ms": 44303,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s09-n0132",
+      "text": "除了工作时间不同会造成不平等竞争以外，青年和女工还会流向不受法律约束的小作坊，使大工厂处于另一种不利地位。",
+      "start_ms": 44873,
+      "end_ms": 53903,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0022"
+    },
+    {
+      "id": "ch13-s09-n0133",
+      "text": "这也会促使小作坊增多，而小作坊几乎总是最不利于健康、舒适、教育和整个社会改善的场所。”",
+      "start_ms": 295,
+      "end_ms": 6615,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s09-n0134",
+      "text": "童工调查委员会在最终报告中建议，把140多万名儿童、青少年和妇女纳入工厂法，其中约一半正受小企业和家庭劳动剥削。",
+      "start_ms": 7315,
+      "end_ms": 16605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s09-n0135",
+      "text": "委员会说：“如果议会完整采纳我们的建议，这些法律无疑会产生极其有益的影响。",
+      "start_ms": 17090,
+      "end_ms": 22535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s09-n0136",
+      "text": "受益的不只是法律首先保护的青少年和弱者，还包括数量更大的成年工人，其中妇女直接受到保护，男子也会间接受益。",
+      "start_ms": 23030,
+      "end_ms": 31295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s09-n0137",
+      "text": "法律会强迫他们实行较短而有规律的工作时间，保存并积累体力，而个人和国家的福祉都如此依赖这种体力。",
+      "start_ms": 31847,
+      "end_ms": 39702,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s09-n0138",
+      "text": "法律会保护正在成长的一代，避免他们年幼时过度劳累，毁坏体质并过早衰退。",
+      "start_ms": 40007,
+      "end_ms": 45782,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0023"
+    },
+    {
+      "id": "ch13-s09-n0139",
+      "text": "最后，至少到十三岁以前，它会给儿童接受基础教育的机会，从而结束委员会报告如实描写的惊人无知。",
+      "start_ms": 315,
+      "end_ms": 8985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s09-n0140",
+      "text": "面对这种无知，人只能感到极其痛苦，并深深体会到国家的耻辱。”",
+      "start_ms": 9495,
+      "end_ms": 13835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s09-n0141",
+      "text": "1867年2月5日，保守党政府在王座演说中宣布，它已经把产业调查委员会的建议写成法案。",
+      "start_ms": 15235,
+      "end_ms": 21685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s09-n0142",
+      "text": "可是，为了走到这一步，又用社会地位低微的人做了二十年活体实验。",
+      "start_ms": 22040,
+      "end_ms": 26855,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s09-n0143",
+      "text": "早在1840年，议会就任命委员会调查童工问题。",
+      "start_ms": 27715,
+      "end_ms": 31695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s09-n0144",
+      "text": "1842年的报告，用N. W. 西尼尔的话说，展现了“资本家和父母的贪婪、自私和残酷，以及儿童和青少年的贫困、堕落与毁灭。",
+      "start_ms": 32622,
+      "end_ms": 43262,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0024"
+    },
+    {
+      "id": "ch13-s09-n0145",
+      "text": "这是世界有史以来见过的最可怕画面……人们也许以为，报告描写的是过去时代的恐怖。",
+      "start_ms": 375,
+      "end_ms": 6575,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s09-n0146",
+      "text": "可惜，现有报告证明，这些恐怖仍像从前一样严重。",
+      "start_ms": 6930,
+      "end_ms": 11005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s09-n0147",
+      "text": "哈德威克两年前出版的小册子说，1842年受到谴责的恶习，今天，也就是1863年，仍在全面盛行……1842年的报告被搁置了二十年。",
+      "start_ms": 11905,
+      "end_ms": 22925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s09-n0148",
+      "text": "那些孩子在成长过程中，完全不知道什么叫道德，也没有学校教育、宗教或自然的家庭亲情。",
+      "start_ms": 23575,
+      "end_ms": 31175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s09-n0149",
+      "text": "人们却任由他们长大，成为现在这一代人的父母”。",
+      "start_ms": 31667,
+      "end_ms": 35482,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s09-n0150",
+      "text": "不过，社会形势已经改变。",
+      "start_ms": 35487,
+      "end_ms": 37182,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0025"
+    },
+    {
+      "id": "ch13-s09-n0151",
+      "text": "议会不敢像当年拒绝1842年委员会的要求那样，再拒绝1863年委员会的要求。",
+      "start_ms": 85,
+      "end_ms": 6185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s09-n0152",
+      "text": "因此，委员会还只公布部分报告时，议会便在1864年把陶器等土制品行业、壁纸、火柴、弹药筒和击发帽制造业，以及剪绒业，纳入原本适用于纺织业的法律。",
+      "start_ms": 6595,
+      "end_ms": 20995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s09-n0153",
+      "text": "委员会在1866年完成全部工作。",
+      "start_ms": 21510,
+      "end_ms": 23775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s09-n0154",
+      "text": "1867年2月5日，当时的保守党政府又在王座演说中宣布，将根据委员会的最终建议提出更多法案。",
+      "start_ms": 24715,
+      "end_ms": 32595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s09-n0155",
+      "text": "1867年8月15日，《工厂法扩展法》获得御准；8月21日，《作坊管理法》获得御准。",
+      "start_ms": 33647,
+      "end_ms": 40217,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s09-n0156",
+      "text": "前一部法律管理大企业，后一部管理小企业。",
+      "start_ms": 40642,
+      "end_ms": 43757,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0026"
+    },
+    {
+      "id": "ch13-s09-n0157",
+      "text": "《工厂法扩展法》管理炼铁高炉、铁厂和铜厂、铸造厂、机器制造厂、金属作坊、古塔胶厂、造纸厂、玻璃厂、烟草厂、印刷厂和装订厂等工业作坊。",
+      "start_ms": 0,
+      "end_ms": 11105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s09-n0158",
+      "text": "这些行业中，凡一年至少有一百天同时雇用五十人以上的工业作坊，都受这部法律管理。",
+      "start_ms": 11515,
+      "end_ms": 17735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s09-n0159",
+      "text": "为了说明这部法律覆盖的范围有多广，下面列出其中的几项定义。",
+      "start_ms": 18175,
+      "end_ms": 22255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s09-n0160",
+      "text": "“本法所说的‘手工业劳动’，是指以营业方式或为了获利而进行的任何手工劳动。",
+      "start_ms": 22460,
+      "end_ms": 28225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s09-n0161",
+      "text": "这些劳动必须是在制造、改造、装饰、修理某件物品或其一部分、为出售而完成其最后加工的过程中进行，或者附带于上述工作。”",
+      "start_ms": 28580,
+      "end_ms": 38225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s09-n0162",
+      "text": "“本法所说的‘作坊’，是指任何符合以下条件的室内或室外场所：有儿童、青少年或妇女在那里从事上述‘手工业劳动’，并且雇用他们的人有权进入和管理这个场所。”",
+      "start_ms": 38690,
+      "end_ms": 50255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0027"
+    },
+    {
+      "id": "ch13-s09-n0163",
+      "text": "“本法所说的‘受雇’，是指在师傅、父亲或母亲的管理下从事上述‘手工业劳动’，无论是否领取工资。",
+      "start_ms": 645,
+      "end_ms": 8925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s09-n0164",
+      "text": "这里所说的‘父母’，将在下文进一步定义。”",
+      "start_ms": 9295,
+      "end_ms": 12025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s09-n0165",
+      "text": "“本法所说的‘父母’，包括父亲、母亲、监护人，以及其他负责监护或管理任何儿童或青少年工人的人。”",
+      "start_ms": 12030,
+      "end_ms": 21315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s09-n0166",
+      "text": "法律第七条规定，如果有人违反本法，雇用儿童、青少年工人或妇女，不只作坊经营者要缴纳罚款，无论经营者是不是他们的父母，以下人员也要受罚：“负责照管儿童、青少年工人或妇女的父母或其他人，以及从他们的劳动中直接获利的人。”",
+      "start_ms": 21375,
+      "end_ms": 41021,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s09-n0167",
+      "text": "《工厂法扩展法》管理大企业，却不如原来的工厂法严格，因为其中塞进了大量糟糕的例外规定，又对资本家作出许多怯懦的妥协。",
+      "start_ms": 41026,
+      "end_ms": 52201,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s09-n0168",
+      "text": "《作坊管理法》的每一项具体规定都很不完善。",
+      "start_ms": 52236,
+      "end_ms": 55711,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0028"
+    },
+    {
+      "id": "ch13-s09-n0169",
+      "text": "负责执行的城市和地方政府又几乎不采取行动，使它成了一纸空文。",
+      "start_ms": 175,
+      "end_ms": 5675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s09-n0170",
+      "text": "1871年，议会收回这些机构的执法权，转交给工厂视察员。",
+      "start_ms": 6705,
+      "end_ms": 11045,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s09-n0171",
+      "text": "视察员的管辖范围因此一下子增加了十万多家作坊，仅制砖厂就有三百家。",
+      "start_ms": 11400,
+      "end_ms": 17375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s09-n0172",
+      "text": "可是，原有人员本来已经严重不足，这时却只“精心”增加了八名下级视察员。",
+      "start_ms": 17790,
+      "end_ms": 24535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s09-n0173",
+      "text": "因此，英国1867年这些法律最引人注目的是一种鲜明矛盾。",
+      "start_ms": 25075,
+      "end_ms": 29735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s09-n0174",
+      "text": "一方面，统治阶级的议会被迫在原则上接受范围如此广、力度如此大的措施，来限制资本主义剥削的越界行为。",
+      "start_ms": 30161,
+      "end_ms": 39201,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0029"
+    },
+    {
+      "id": "ch13-s09-n0175",
+      "text": "另一方面，议会在真正实施这些措施时，却又敷衍、抗拒，而且毫无诚意。",
+      "start_ms": 135,
+      "end_ms": 6355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s09-n0176",
+      "text": "1862年的调查委员会还建议重新用法律管理采矿业。",
+      "start_ms": 7205,
+      "end_ms": 10955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s09-n0177",
+      "text": "这个行业同其他行业有一个不同之处：土地所有者和产业资本家的利益在这里完全一致。",
+      "start_ms": 11215,
+      "end_ms": 17335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s09-n0178",
+      "text": "这两种利益过去彼此冲突，曾推动工厂法产生。",
+      "start_ms": 17590,
+      "end_ms": 21235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s09-n0179",
+      "text": "到了采矿业，利益冲突不再存在，只凭这一点就足以解释，为什么矿业立法会遭到拖延和刁难。",
+      "start_ms": 21550,
+      "end_ms": 28675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s09-n0180",
+      "text": "1840年的调查委员会揭露了极其骇人、令人愤怒的事实，在整个欧洲引起巨大丑闻。",
+      "start_ms": 29485,
+      "end_ms": 35515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0030"
+    },
+    {
+      "id": "ch13-s09-n0181",
+      "text": "议会不得不通过1842年的《矿业法》，给自己的良心一个交代。",
+      "start_ms": 135,
+      "end_ms": 4015,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s09-n0182",
+      "text": "可是，它只禁止妇女和不满十岁的儿童在井下劳动。",
+      "start_ms": 4475,
+      "end_ms": 8525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s09-n0183",
+      "text": "1860年又通过了《矿山视察法》。",
+      "start_ms": 9465,
+      "end_ms": 11165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s09-n0184",
+      "text": "法律规定，由专门任命的公职人员检查矿山；十至十二岁的男孩只有持有上学证明，或上够一定课时，才能受雇。",
+      "start_ms": 11745,
+      "end_ms": 21325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s09-n0185",
+      "text": "可是，这部法律实际上完全没有执行，因为任命的视察员少得可笑，职权又小得可怜。",
+      "start_ms": 21825,
+      "end_ms": 28665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s09-n0186",
+      "text": "后文还会看到其他原因。",
+      "start_ms": 29010,
+      "end_ms": 30355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0031"
+    },
+    {
+      "id": "ch13-s09-n0187",
+      "text": "当时最新的矿业蓝皮书之一，是1866年7月23日的《矿业特别委员会报告及证词》。",
+      "start_ms": 85,
+      "end_ms": 5945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s09-n0188",
+      "text": "下院议员组成一个委员会，有权传唤和询问证人，最后写成厚厚的一大册文件。",
+      "start_ms": 6620,
+      "end_ms": 12395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s09-n0189",
+      "text": "可是，里面真正的“报告”只有五行，内容只是：委员会无话可说，还需要询问更多证人！",
+      "start_ms": 12775,
+      "end_ms": 19455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s09-n0190",
+      "text": "委员会询问证人的方式，很像英国法庭上的交叉询问。",
+      "start_ms": 19925,
+      "end_ms": 23645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s09-n0191",
+      "text": "律师会抛出一连串蛮横而混乱的问题，试图让证人不知所措，也试图把他的话扭成另一种意思。",
+      "start_ms": 24015,
+      "end_ms": 30925,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s09-n0192",
+      "text": "在这里，充当律师的就是负责询问的议员，其中还有矿主和矿山经营者；证人则是矿工，主要来自煤矿。",
+      "start_ms": 31381,
+      "end_ms": 39576,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0032"
+    },
+    {
+      "id": "ch13-s09-n0193",
+      "text": "这场闹剧如此典型地表现了资本的精神，不能不摘录几段。",
+      "start_ms": 1305,
+      "end_ms": 5035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s09-n0194",
+      "text": "为了便于阅读，下面按主题列出调查结果。",
+      "start_ms": 5400,
+      "end_ms": 8115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s09-n0195",
+      "text": "需要提醒的是，英国蓝皮书会给每一个问题和相应回答编号，下面引用的证人都是煤矿工人。",
+      "start_ms": 8340,
+      "end_ms": 14655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s09-n0196",
+      "text": "男孩每天劳动，再加上往返矿山，通常要花十四至十五小时，有时更久。",
+      "start_ms": 14935,
+      "end_ms": 20335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s09-n0197",
+      "text": "他们早晨三点、四点或五点出发，下午四点或五点才结束。",
+      "start_ms": 20580,
+      "end_ms": 24895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s09-n0198",
+      "text": "（第6、452、83项）成年工人分两班，每班八小时。",
+      "start_ms": 25220,
+      "end_ms": 30025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0033"
+    },
+    {
+      "id": "ch13-s09-n0199",
+      "text": "为了节省费用，男孩却没有轮班。",
+      "start_ms": 645,
+      "end_ms": 2865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s09-n0200",
+      "text": "（第80、203、204项）年龄较小的孩子主要负责开关矿山各区之间的通风门。",
+      "start_ms": 4365,
+      "end_ms": 9825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s09-n0201",
+      "text": "年龄大一些的孩子则做运煤等重活。",
+      "start_ms": 10285,
+      "end_ms": 13025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s09-n0202",
+      "text": "（第122、739、740、1717项）这种长时间井下劳动会一直持续到十八岁，甚至二十二岁，此后他们才转去做正式矿工的工作。",
+      "start_ms": 13500,
+      "end_ms": 25345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s09-n0203",
+      "text": "（第161项）当时儿童和青少年遭受的苦役，比以往任何时期都更严重。",
+      "start_ms": 26275,
+      "end_ms": 31385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s09-n0204",
+      "text": "（第1663—1667项）矿工几乎一致要求议会立法，禁止不满十四岁的儿童下矿。",
+      "start_ms": 32005,
+      "end_ms": 35265,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0034"
+    },
+    {
+      "id": "ch13-s09-n0205",
+      "text": "布鲁斯先生问：“这个要求难道不取决于父母贫穷到什么程度吗？”",
+      "start_ms": 165,
+      "end_ms": 3985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s09-n0206",
+      "text": "他又问：“如果父亲死了或残疾了，剥夺全家这项收入来源，不是很残酷吗？",
+      "start_ms": 4360,
+      "end_ms": 9545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s09-n0207",
+      "text": "法律又必须对所有人一视同仁。",
+      "start_ms": 9920,
+      "end_ms": 11885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s09-n0208",
+      "text": "你们真的要求在一切情况下都禁止不满十四岁的儿童下矿吗？”",
+      "start_ms": 12135,
+      "end_ms": 15915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s09-n0209",
+      "text": "回答：“在一切情况下都应禁止。”",
+      "start_ms": 16295,
+      "end_ms": 18435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s09-n0210",
+      "text": "（第107—110项）维维安问：“如果不满十四岁不能下矿，父母不会把孩子送进工厂等其他地方吗？”",
+      "start_ms": 19215,
+      "end_ms": 25505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0035"
+    },
+    {
+      "id": "ch13-s09-n0211",
+      "text": "回答：“通常不会。”",
+      "start_ms": 325,
+      "end_ms": 2225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s09-n0212",
+      "text": "（第174项）一名工人说：“开关通风门看起来轻松，其实非常痛苦。",
+      "start_ms": 2625,
+      "end_ms": 7225,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s09-n0213",
+      "text": "别说气流一直吹着，男孩还被关在那里，和关在黑暗的牢房里没有区别。”",
+      "start_ms": 7565,
+      "end_ms": 11625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s09-n0214",
+      "text": "资产者维维安问：“如果有灯，他看门时不能读书吗？”",
+      "start_ms": 12425,
+      "end_ms": 15985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s09-n0215",
+      "text": "回答：“第一，蜡烛要他自己买。",
+      "start_ms": 16450,
+      "end_ms": 18655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s09-n0216",
+      "text": "更何况，矿上也不会准许。",
+      "start_ms": 18910,
+      "end_ms": 20565,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0036"
+    },
+    {
+      "id": "ch13-s09-n0217",
+      "text": "他在那里就是为了专心看门，必须履行职责。",
+      "start_ms": 115,
+      "end_ms": 3135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s09-n0218",
+      "text": "我从没见过男孩在矿井里读书。”",
+      "start_ms": 3400,
+      "end_ms": 5085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s09-n0219",
+      "text": "（第139—160项）",
+      "start_ms": 5860,
+      "end_ms": 8275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s09-n0220",
+      "text": "矿工要求像工厂一样，用法律强制矿工子女接受教育。",
+      "start_ms": 8275,
+      "end_ms": 12105,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s09-n0221",
+      "text": "他们说，1860年的法律要求十至十二岁男孩受雇时出示上学证明，实际上完全是空话。",
+      "start_ms": 12420,
+      "end_ms": 19315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s09-n0222",
+      "text": "资本家调查官用令人难受的方式盘问他们，场面在这里甚至显得滑稽。",
+      "start_ms": 19800,
+      "end_ms": 25065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0037"
+    },
+    {
+      "id": "ch13-s09-n0223",
+      "text": "“这部法律更需要用来约束雇主，还是父母？”",
+      "start_ms": 0,
+      "end_ms": 3115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s09-n0224",
+      "text": "——“两者都需要。”",
+      "start_ms": 3120,
+      "end_ms": 3825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s09-n0225",
+      "text": "（第115项）“两者之中更需要约束哪一个？”",
+      "start_ms": 4100,
+      "end_ms": 7475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s09-n0226",
+      "text": "——“这个问题要我怎样回答？”",
+      "start_ms": 7480,
+      "end_ms": 8865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s09-n0227",
+      "text": "（第116项）“雇主有没有表现出任何意愿，愿意调整工作时间来配合上学？”",
+      "start_ms": 9805,
+      "end_ms": 14155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s09-n0228",
+      "text": "——“从来没有。”",
+      "start_ms": 14160,
+      "end_ms": 15475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0038"
+    },
+    {
+      "id": "ch13-s09-n0229",
+      "text": "（第137项）“矿工后来会提高自己的文化水平吗？”",
+      "start_ms": 0,
+      "end_ms": 3175,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s09-n0230",
+      "text": "——“总体上反而越来越差。",
+      "start_ms": 3630,
+      "end_ms": 4785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s09-n0231",
+      "text": "他们养成坏习惯，酗酒、赌博等等，最后完全毁掉自己。”",
+      "start_ms": 5030,
+      "end_ms": 8145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s09-n0232",
+      "text": "（第211项）“为什么不送孩子上夜校？”",
+      "start_ms": 9125,
+      "end_ms": 10585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s09-n0233",
+      "text": "——“大多数煤矿区根本没有夜校。",
+      "start_ms": 10590,
+      "end_ms": 13235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s09-n0234",
+      "text": "更重要的是，孩子长时间过度劳动以后累得要命，眼睛都会困得闭上。”",
+      "start_ms": 13580,
+      "end_ms": 18115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0039"
+    },
+    {
+      "id": "ch13-s09-n0235",
+      "text": "（第454项）资产者于是总结说：“那么，你们反对教育？”",
+      "start_ms": 375,
+      "end_ms": 4255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s09-n0236",
+      "text": "——“绝不是！",
+      "start_ms": 4660,
+      "end_ms": 5115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s09-n0237",
+      "text": "可是……”（第441—443项）“1860年的法律不是已经要求矿主雇用十至十二岁的儿童时检查上学证明吗？”",
+      "start_ms": 5260,
+      "end_ms": 12795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s09-n0238",
+      "text": "——“法律确实这样规定，雇主却不这样做。”",
+      "start_ms": 12800,
+      "end_ms": 15345,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s09-n0239",
+      "text": "（第444项）“按你们的看法，这条规定没有普遍执行？”",
+      "start_ms": 15910,
+      "end_ms": 19515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s09-n0240",
+      "text": "——“根本没有执行。”",
+      "start_ms": 19930,
+      "end_ms": 20765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0040"
+    },
+    {
+      "id": "ch13-s09-n0241",
+      "text": "（第717项）“矿工很关心教育问题吗？”",
+      "start_ms": 0,
+      "end_ms": 2655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s09-n0242",
+      "text": "——“绝大多数都很关心。”",
+      "start_ms": 3020,
+      "end_ms": 3845,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s09-n0243",
+      "text": "（第718项）“他们迫切希望法律得到执行吗？”",
+      "start_ms": 4595,
+      "end_ms": 7275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s09-n0244",
+      "text": "——“绝大多数都希望。”",
+      "start_ms": 7580,
+      "end_ms": 8455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s09-n0245",
+      "text": "（第720项）“那他们为什么不强迫雇主执行？”",
+      "start_ms": 9215,
+      "end_ms": 11235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s09-n0246",
+      "text": "——“有些工人确实想拒绝使用没有上学证明的男孩，可是这样做的人会被列入黑名单。”",
+      "start_ms": 11680,
+      "end_ms": 16535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0041"
+    },
+    {
+      "id": "ch13-s09-n0247",
+      "text": "（第721项）“被谁列入黑名单？”",
+      "start_ms": 0,
+      "end_ms": 2235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s09-n0248",
+      "text": "——“雇主。”",
+      "start_ms": 2860,
+      "end_ms": 3515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s09-n0249",
+      "text": "（第722项）“你们总不会相信，雇主会因为一个人遵守法律而迫害他吧？”",
+      "start_ms": 3520,
+      "end_ms": 8115,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s09-n0250",
+      "text": "——“我相信他们会。”",
+      "start_ms": 8520,
+      "end_ms": 9155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s09-n0251",
+      "text": "（第723项）“工人为什么不拒绝使用这些男孩？”",
+      "start_ms": 9720,
+      "end_ms": 12435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s09-n0252",
+      "text": "——“这不由他们选择。”",
+      "start_ms": 12440,
+      "end_ms": 14335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0042"
+    },
+    {
+      "id": "ch13-s09-n0253",
+      "text": "（第1634项）“你们要求议会干预吗？”",
+      "start_ms": 0,
+      "end_ms": 2895,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s09-n0254",
+      "text": "——“如果真想让矿工的孩子受到教育，就必须由议会立法强制实行。”",
+      "start_ms": 3120,
+      "end_ms": 7185,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s09-n0255",
+      "text": "（第1636项）“这项法律应适用于英国所有工人的孩子，还是只适用于矿工子女？”",
+      "start_ms": 7840,
+      "end_ms": 13805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s09-n0256",
+      "text": "——“我到这里来，是代表矿工说话。”",
+      "start_ms": 13880,
+      "end_ms": 16355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s09-n0257",
+      "text": "（第1638项）“为什么要把矿工子女同其他孩子区别开？”",
+      "start_ms": 17695,
+      "end_ms": 20695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s09-n0258",
+      "text": "——“因为他们的处境是例外。”",
+      "start_ms": 21060,
+      "end_ms": 22695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0043"
+    },
+    {
+      "id": "ch13-s09-n0259",
+      "text": "（第1639项）“例外在哪里？”",
+      "start_ms": 0,
+      "end_ms": 1685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s09-n0260",
+      "text": "——“身体状况。”",
+      "start_ms": 1880,
+      "end_ms": 2675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s09-n0261",
+      "text": "（第1640项）“教育为什么对他们比对其他阶级的男孩更有价值？”",
+      "start_ms": 3445,
+      "end_ms": 6715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s09-n0262",
+      "text": "——“我没有说教育对他们更有价值。",
+      "start_ms": 6980,
+      "end_ms": 8705,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s09-n0263",
+      "text": "我说的是，他们在矿山过度劳动，所以比别人更少有机会去日校和主日学校。”",
+      "start_ms": 8800,
+      "end_ms": 13975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s09-n0264",
+      "text": "（第1644项）“这种问题不可能一概而论，对吧？”",
+      "start_ms": 13980,
+      "end_ms": 17055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0044"
+    },
+    {
+      "id": "ch13-s09-n0265",
+      "text": "（第1646项）“矿区有足够的学校吗？”",
+      "start_ms": 995,
+      "end_ms": 2545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s09-n0266",
+      "text": "——“没有。”",
+      "start_ms": 2980,
+      "end_ms": 3145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s09-n0267",
+      "text": "（第1647项）“如果国家要求每个孩子都上学，哪里会凭空出现足够的学校？”",
+      "start_ms": 3905,
+      "end_ms": 8835,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s09-n0268",
+      "text": "——“我认为，只要形势真的提出要求，学校自然就会建起来。”",
+      "start_ms": 8840,
+      "end_ms": 12675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s09-n0269",
+      "text": "“不仅绝大多数儿童，成年矿工中也有绝大多数不会读写。”",
+      "start_ms": 13045,
+      "end_ms": 16965,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s09-n0270",
+      "text": "（第705、726项）",
+      "start_ms": 18825,
+      "end_ms": 19425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0045"
+    },
+    {
+      "id": "ch13-s09-n0271",
+      "text": "1842年以后，妇女不再下井，但仍在地面装煤，把煤斗拖到运河和铁路货车旁，分拣煤炭等等。",
+      "start_ms": 655,
+      "end_ms": 7995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s09-n0272",
+      "text": "过去三四年，矿山使用女工大幅增加。",
+      "start_ms": 8420,
+      "end_ms": 11435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s09-n0273",
+      "text": "（第1727项）她们大多是矿工的妻子、女儿和寡妇，年龄从十二岁到五六十岁。",
+      "start_ms": 11480,
+      "end_ms": 18585,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s09-n0274",
+      "text": "（第647、1779、1781项）“矿工怎样看妇女在矿山工作？”",
+      "start_ms": 18650,
+      "end_ms": 24165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s09-n0275",
+      "text": "——“普遍反对。”",
+      "start_ms": 24790,
+      "end_ms": 25765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s09-n0276",
+      "text": "（第648项）“为什么？”",
+      "start_ms": 25770,
+      "end_ms": 27235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0046"
+    },
+    {
+      "id": "ch13-s09-n0277",
+      "text": "——“他们认为这种劳动侮辱女性……女工穿一种男式衣服，许多人的羞耻感也被完全压抑。",
+      "start_ms": 0,
+      "end_ms": 6475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s09-n0278",
+      "text": "有些女人还吸烟。",
+      "start_ms": 6895,
+      "end_ms": 7945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s09-n0279",
+      "text": "工作和井下劳动一样脏。",
+      "start_ms": 8380,
+      "end_ms": 9795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s09-n0280",
+      "text": "许多已婚妇女无法履行家庭责任。”",
+      "start_ms": 10415,
+      "end_ms": 12795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s09-n0281",
+      "text": "（第649、651—654、701项）“寡妇还能在别处找到收入这么高的工作吗？",
+      "start_ms": 13310,
+      "end_ms": 19465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s09-n0282",
+      "text": "每周八至十先令。”",
+      "start_ms": 20195,
+      "end_ms": 21595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0047"
+    },
+    {
+      "id": "ch13-s09-n0283",
+      "text": "——“我不知道。”",
+      "start_ms": 0,
+      "end_ms": 795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s09-n0284",
+      "text": "（第709项）“即使如此——真是铁石心肠！",
+      "start_ms": 1335,
+      "end_ms": 3775,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s09-n0285",
+      "text": "——你们仍决心断掉她们这项收入？”",
+      "start_ms": 3970,
+      "end_ms": 5685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s09-n0286",
+      "text": "——“当然。”",
+      "start_ms": 6030,
+      "end_ms": 6205,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s09-n0287",
+      "text": "（第710项）“为什么会有这种态度？”",
+      "start_ms": 6925,
+      "end_ms": 8525,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s09-n0288",
+      "text": "——“我们矿工太尊重女性，不愿看见她们被判去煤矿劳动……这种工作大多非常沉重。",
+      "start_ms": 8810,
+      "end_ms": 13545,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0048"
+    },
+    {
+      "id": "ch13-s09-n0289",
+      "text": "许多女孩每天要搬运十吨煤。”",
+      "start_ms": 185,
+      "end_ms": 2475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s09-n0290",
+      "text": "（第1715、1717项）“你认为矿山女工比工厂女工更不道德吗？”",
+      "start_ms": 3145,
+      "end_ms": 7795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s09-n0291",
+      "text": "——“其中品行不好的人比例更高。”",
+      "start_ms": 7800,
+      "end_ms": 10085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s09-n0292",
+      "text": "（第1732项）“但你对工厂女工的道德状况也不满意吧？”",
+      "start_ms": 10540,
+      "end_ms": 14755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s09-n0293",
+      "text": "——“不满意。”",
+      "start_ms": 15170,
+      "end_ms": 15445,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s09-n0294",
+      "text": "（第1733项）“那你也想禁止妇女在工厂劳动吗？”",
+      "start_ms": 16030,
+      "end_ms": 19945,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0049"
+    },
+    {
+      "id": "ch13-s09-n0295",
+      "text": "——“不想。”",
+      "start_ms": 0,
+      "end_ms": 465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s09-n0296",
+      "text": "（第1734项）“为什么？”",
+      "start_ms": 1370,
+      "end_ms": 3035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s09-n0297",
+      "text": "——“工厂劳动对女性更体面，也更合适。”",
+      "start_ms": 3190,
+      "end_ms": 6075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s09-n0298",
+      "text": "（第1735项）“可你仍认为工厂劳动会损害她们的道德？”",
+      "start_ms": 6630,
+      "end_ms": 10685,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s09-n0299",
+      "text": "——“损害远没有矿山劳动严重。",
+      "start_ms": 10690,
+      "end_ms": 13715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s09-n0300",
+      "text": "而且我不只从道德上反对，也考虑身体和社会后果。",
+      "start_ms": 14110,
+      "end_ms": 17805,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0050"
+    },
+    {
+      "id": "ch13-s09-n0301",
+      "text": "矿山使女孩的社会处境降到极其悲惨的程度。",
+      "start_ms": 315,
+      "end_ms": 3035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s09-n0302",
+      "text": "她们后来成为矿工的妻子，丈夫也深受这种堕落影响，因而离开家庭去酗酒。”",
+      "start_ms": 3360,
+      "end_ms": 8315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s09-n0303",
+      "text": "（第1736项）“钢铁厂女工不也一样吗？”",
+      "start_ms": 9585,
+      "end_ms": 11735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s09-n0304",
+      "text": "——“我不能替其他行业说话。”",
+      "start_ms": 12040,
+      "end_ms": 13795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s09-n0305",
+      "text": "（第1737项）“钢铁厂女工和矿山女工究竟有什么区别？”",
+      "start_ms": 13800,
+      "end_ms": 17645,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s09-n0306",
+      "text": "——“我没有研究过这个问题。”",
+      "start_ms": 18000,
+      "end_ms": 18975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0051"
+    },
+    {
+      "id": "ch13-s09-n0307",
+      "text": "（第1740项）“你能在两类女工之间找出区别吗？”",
+      "start_ms": 235,
+      "end_ms": 5655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s09-n0308",
+      "text": "——“我没有查明这一点。",
+      "start_ms": 5960,
+      "end_ms": 7285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s09-n0309",
+      "text": "不过，我逐户访问过本地区的家庭，知道这里的情况可耻到了什么程度。”",
+      "start_ms": 7500,
+      "end_ms": 13955,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s09-n0310",
+      "text": "（第1741项）“那么，凡是会使妇女堕落的工作，你都很想取消吧？”",
+      "start_ms": 13960,
+      "end_ms": 22055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s09-n0311",
+      "text": "——“是的……儿童最好的感情应当来自母亲的教养。”",
+      "start_ms": 22450,
+      "end_ms": 27145,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s09-n0312",
+      "text": "（第1750项）“这不是同样适用于妇女从事农业劳动吗？”",
+      "start_ms": 27150,
+      "end_ms": 33625,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0052"
+    },
+    {
+      "id": "ch13-s09-n0313",
+      "text": "——“农业劳动一年只进行两个季节。",
+      "start_ms": 0,
+      "end_ms": 2315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s09-n0314",
+      "text": "我们这里却四季都干，有时还要昼夜劳动，衣服湿透，体质衰弱，健康毁掉。”",
+      "start_ms": 2520,
+      "end_ms": 7315,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s09-n0315",
+      "text": "（第1751项）“看来你并没有普遍研究妇女劳动问题？”",
+      "start_ms": 7760,
+      "end_ms": 10795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s09-n0316",
+      "text": "——“我观察过周围的情况。",
+      "start_ms": 10800,
+      "end_ms": 12725,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s09-n0317",
+      "text": "至少可以说，我从未在其他地方见过能同煤矿女工相比的情形。”",
+      "start_ms": 13030,
+      "end_ms": 16535,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s09-n0318",
+      "text": "（第1753项）“这是男人的工作，而且应由强壮男子来做。”",
+      "start_ms": 16830,
+      "end_ms": 20335,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0053"
+    },
+    {
+      "id": "ch13-s09-n0319",
+      "text": "“矿工中比较上进的一类人，正努力提高自己、变得更文明，妻子却不能支持他们，反而把他们拖下去。”",
+      "start_ms": 0,
+      "end_ms": 6795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s09-n0320",
+      "text": "（第1793、1794、1808项）资产者继续东问西问以后，他们为何如此“同情”寡妇和贫困家庭，秘密终于暴露出来：“煤矿所有者会任命一些先生负责监督。",
+      "start_ms": 7380,
+      "end_ms": 20735,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s09-n0321",
+      "text": "这些人为了赢得老板赞许，总想用最省钱的办法完成一切。",
+      "start_ms": 21110,
+      "end_ms": 25415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s09-n0322",
+      "text": "女孩每天只拿一至一先令六便士；如果换成男子，就必须付两先令六便士。”",
+      "start_ms": 25765,
+      "end_ms": 31245,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s09-n0323",
+      "text": "（第1816项）",
+      "start_ms": 32589,
+      "end_ms": 33199,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s09-n0324",
+      "text": "“你们地区发生事故后，会由验尸官主持调查。",
+      "start_ms": 33559,
+      "end_ms": 36959,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0054"
+    },
+    {
+      "id": "ch13-s09-n0325",
+      "text": "工人对调查程序满意吗？”",
+      "start_ms": 135,
+      "end_ms": 1755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s09-n0326",
+      "text": "——“不满意。”",
+      "start_ms": 2180,
+      "end_ms": 2915,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s09-n0327",
+      "text": "（第360项）“为什么？”",
+      "start_ms": 2920,
+      "end_ms": 4165,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s09-n0328",
+      "text": "——“主要因为陪审员完全不懂矿山。",
+      "start_ms": 4520,
+      "end_ms": 6655,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s09-n0329",
+      "text": "除非作为证人，工人从来不能参加。",
+      "start_ms": 7020,
+      "end_ms": 9155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s09-n0330",
+      "text": "陪审员通常是附近的小店主，矿主是他们的顾客，所以他们受矿主影响。",
+      "start_ms": 9875,
+      "end_ms": 14825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0055"
+    },
+    {
+      "id": "ch13-s09-n0331",
+      "text": "他们甚至听不懂证人使用的技术词汇。",
+      "start_ms": 135,
+      "end_ms": 2505,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s09-n0332",
+      "text": "我们要求陪审团中应有矿工。",
+      "start_ms": 2985,
+      "end_ms": 4765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s09-n0333",
+      "text": "裁决总体上同证词矛盾。”",
+      "start_ms": 5300,
+      "end_ms": 7025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s09-n0334",
+      "text": "（第361—375项）“陪审团不是应当保持公正吗？”",
+      "start_ms": 8075,
+      "end_ms": 11275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s09-n0335",
+      "text": "——“是的。”",
+      "start_ms": 11440,
+      "end_ms": 11985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s09-n0336",
+      "text": "（第378项）“工人能公正吗？”",
+      "start_ms": 12550,
+      "end_ms": 14395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0056"
+    },
+    {
+      "id": "ch13-s09-n0337",
+      "text": "——“我看不出他们有什么理由不能公正。",
+      "start_ms": 0,
+      "end_ms": 2255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s09-n0338",
+      "text": "他们懂得实际情况。”",
+      "start_ms": 2570,
+      "end_ms": 3405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s09-n0339",
+      "text": "（第379项）“但他们不会为了工人的利益，作出不公正而过分严厉的判决吗？”",
+      "start_ms": 3990,
+      "end_ms": 10005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s09-n0340",
+      "text": "——“我认为不会。”",
+      "start_ms": 10010,
+      "end_ms": 11465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s09-n0341",
+      "text": "（第380项）",
+      "start_ms": 11470,
+      "end_ms": 12095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s09-n0342",
+      "text": "工人要求每周而不是每两周发一次工资；煤应按重量而不是按煤斗容积计量；法律还应保护他们不受虚假称重等手段欺骗。",
+      "start_ms": 12255,
+      "end_ms": 21605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0057"
+    },
+    {
+      "id": "ch13-s09-n0343",
+      "text": "（第1071项）“如果煤斗被人偷偷加大，工人不是可以提前两周通知，然后离开矿山吗？”",
+      "start_ms": 0,
+      "end_ms": 5385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch13-s09-n0344",
+      "text": "——“可他换到另一个地方，遇到的还是同样情况。”",
+      "start_ms": 5760,
+      "end_ms": 7935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch13-s09-n0345",
+      "text": "（第1072项）“但他总可以离开这个对他不公的地方吧？”",
+      "start_ms": 8535,
+      "end_ms": 11355,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch13-s09-n0346",
+      "text": "——“这种做法到处都有。”",
+      "start_ms": 11360,
+      "end_ms": 13085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch13-s09-n0347",
+      "text": "（第1073项）“可是不管在哪个地方，他都能提前两周通知，然后离开吧？”",
+      "start_ms": 13715,
+      "end_ms": 18025,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch13-s09-n0348",
+      "text": "——“是的。”",
+      "start_ms": 18280,
+      "end_ms": 18595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0058"
+    },
+    {
+      "id": "ch13-s09-n0349",
+      "text": "好吧，给这套高论撒把沙，晾干墨迹，存进档案！",
+      "start_ms": 175,
+      "end_ms": 3935,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch13-s09-n0350",
+      "text": "矿工受害的原因不只有瓦斯爆炸事故。",
+      "start_ms": 4320,
+      "end_ms": 6475,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch13-s09-n0351",
+      "text": "（第234项及以下）一名工人说：“煤矿通风很差，同样值得我们控诉。",
+      "start_ms": 6920,
+      "end_ms": 12125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch13-s09-n0352",
+      "text": "人们在里面几乎无法呼吸，最后什么工作都做不了。",
+      "start_ms": 12435,
+      "end_ms": 15595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch13-s09-n0353",
+      "text": "例如，我现在工作的矿区，恶劣空气已经使许多人卧病几个星期。",
+      "start_ms": 16090,
+      "end_ms": 20795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch13-s09-n0354",
+      "text": "主要巷道通常通风还够，可我们真正工作的地方却不够。",
+      "start_ms": 21110,
+      "end_ms": 24605,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0059"
+    },
+    {
+      "id": "ch13-s09-n0355",
+      "text": "如果工人向视察员投诉通风问题，他就会被解雇，并列入黑名单，到别处也找不到工作。",
+      "start_ms": 75,
+      "end_ms": 5765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch13-s09-n0356",
+      "text": "1860年的《矿山视察法》只是一张废纸。",
+      "start_ms": 6515,
+      "end_ms": 8515,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch13-s09-n0357",
+      "text": "视察员人数少得可怜，也许七年才来正式看一次。",
+      "start_ms": 8920,
+      "end_ms": 12495,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch13-s09-n0358",
+      "text": "负责我们这里的视察员已经七十岁，完全不能胜任，却要管理一百三十多座煤矿。",
+      "start_ms": 12970,
+      "end_ms": 18055,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch13-s09-n0359",
+      "text": "除了增加视察员，我们还需要下级视察员。”",
+      "start_ms": 18510,
+      "end_ms": 21075,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch13-s09-n0360",
+      "text": "（第280项）“那么，政府要维持一支如此庞大的检查队伍，让他们不用工人提供信息，就能完成你们要求的一切吗？”",
+      "start_ms": 21230,
+      "end_ms": 29715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0060"
+    },
+    {
+      "id": "ch13-s09-n0361",
+      "text": "——“这不可能。",
+      "start_ms": 0,
+      "end_ms": 695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch13-s09-n0362",
+      "text": "但他们应当亲自到矿里获取信息。”",
+      "start_ms": 980,
+      "end_ms": 2995,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch13-s09-n0363",
+      "text": "（第285项）“这样做不会把通风等问题的责任，从矿主身上转嫁给政府官员吗？”",
+      "start_ms": 3000,
+      "end_ms": 7755,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch13-s09-n0364",
+      "text": "——“完全不会。",
+      "start_ms": 8100,
+      "end_ms": 8635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch13-s09-n0365",
+      "text": "官员的职责应当是强制执行已经存在的法律。”",
+      "start_ms": 8955,
+      "end_ms": 11485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch13-s09-n0366",
+      "text": "（第294项）“你说下级视察员，是指工资更低、品格也比现任视察员更低的人吗？”",
+      "start_ms": 11940,
+      "end_ms": 17875,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0061"
+    },
+    {
+      "id": "ch13-s09-n0367",
+      "text": "——“如果能找到更好的人，我当然不希望他们品格更低。”",
+      "start_ms": 0,
+      "end_ms": 3295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch13-s09-n0368",
+      "text": "（第295项）“你们究竟需要更多视察员，还是需要等级比视察员低的人？”",
+      "start_ms": 3970,
+      "end_ms": 9065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch13-s09-n0369",
+      "text": "——“我们需要能亲自钻进矿井到处查看、不怕自己受伤的人。”",
+      "start_ms": 9070,
+      "end_ms": 12765,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch13-s09-n0370",
+      "text": "（第297项）“如果按你们的愿望，任命素质较差的视察员，他们能力不足，不会反而造成危险吗？”",
+      "start_ms": 12770,
+      "end_ms": 19865,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch13-s09-n0371",
+      "text": "——“不会。",
+      "start_ms": 20380,
+      "end_ms": 20715,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch13-s09-n0372",
+      "text": "政府有责任任命合适的人。”",
+      "start_ms": 21020,
+      "end_ms": 22635,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0062"
+    },
+    {
+      "id": "ch13-s09-n0373",
+      "text": "这种盘问连调查委员会主席终于也觉得太荒唐。",
+      "start_ms": 85,
+      "end_ms": 3085,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch13-s09-n0374",
+      "text": "（第298、299项）他插话总结道：“你们需要的是有实际经验的人。",
+      "start_ms": 3520,
+      "end_ms": 9235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch13-s09-n0375",
+      "text": "他们亲自下矿查看，再向视察员报告，由视察员运用更高深的知识。”",
+      "start_ms": 9525,
+      "end_ms": 14885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch13-s09-n0376",
+      "text": "（第531项）“为所有这些老矿改善通风，不会花很多钱吗？”",
+      "start_ms": 16215,
+      "end_ms": 20325,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch13-s09-n0377",
+      "text": "——“会花钱，但可以保护人的生命。”",
+      "start_ms": 20720,
+      "end_ms": 22375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch13-s09-n0378",
+      "text": "（第581项）一名煤矿工人还反对1860年法律的第十七条：“目前，如果矿山视察员发现矿井某处不适合劳动，他必须报告矿主和内政大臣。",
+      "start_ms": 22380,
+      "end_ms": 34675,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0063"
+    },
+    {
+      "id": "ch13-s09-n0379",
+      "text": "此后，矿主有二十天考虑。",
+      "start_ms": 165,
+      "end_ms": 2095,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch13-s09-n0380",
+      "text": "二十天后，他可以拒绝进行任何改进。",
+      "start_ms": 2525,
+      "end_ms": 5235,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch13-s09-n0381",
+      "text": "不过，他必须写信给内政大臣，提出五名矿业工程师，由大臣从中选择仲裁人。",
+      "start_ms": 5560,
+      "end_ms": 12275,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch13-s09-n0382",
+      "text": "我们认为，这实际上等于让矿主任命审判自己的法官。”",
+      "start_ms": 12685,
+      "end_ms": 16255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch13-s09-n0383",
+      "text": "（第586项）负责询问的资产者本人也是矿主，他说：“这只是一个纯粹的臆测。”",
+      "start_ms": 17635,
+      "end_ms": 23395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch13-s09-n0384",
+      "text": "（第588项）“看来你很不信任矿业工程师的正直？”",
+      "start_ms": 23975,
+      "end_ms": 27035,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0064"
+    },
+    {
+      "id": "ch13-s09-n0385",
+      "text": "——“我说的是，这种制度极不合理，也不公正。”",
+      "start_ms": 0,
+      "end_ms": 4155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch13-s09-n0386",
+      "text": "（第589项）“矿业工程师难道不具有某种公共身份，足以使他们避免你担心的偏袒吗？”",
+      "start_ms": 4760,
+      "end_ms": 11415,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch13-s09-n0387",
+      "text": "——“我拒绝回答关于这些人个人品格的问题。",
+      "start_ms": 11580,
+      "end_ms": 14465,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch13-s09-n0388",
+      "text": "我相信，他们在许多情况下会偏袒一方。",
+      "start_ms": 14795,
+      "end_ms": 17825,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch13-s09-n0389",
+      "text": "人的生命受到威胁时，不应让他们掌握这种权力。”",
+      "start_ms": 18110,
+      "end_ms": 21065,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch13-s09-n0390",
+      "text": "同一个资产者竟然还厚着脸皮问：“难道矿主在爆炸中不也会遭受损失吗？”",
+      "start_ms": 21835,
+      "end_ms": 27395,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0065"
+    },
+    {
+      "id": "ch13-s09-n0391",
+      "text": "最后又问：“你们工人不能自己维护利益，非要求政府帮助吗？”",
+      "start_ms": 365,
+      "end_ms": 4295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch13-s09-n0392",
+      "text": "——“不能。”",
+      "start_ms": 4660,
+      "end_ms": 5295,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch13-s09-n0393",
+      "text": "（第1042项）1865年，英国共有3217座煤矿，却只有十二名视察员。",
+      "start_ms": 5775,
+      "end_ms": 11695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch13-s09-n0394",
+      "text": "约克郡的一名矿主自己计算说，视察员还有许多占满全部时间的行政工作，即使不算这些，每座矿也只能十年检查一次。",
+      "start_ms": 12165,
+      "end_ms": 20785,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch13-s09-n0395",
+      "text": "见1867年1月26日《泰晤士报》。",
+      "start_ms": 21110,
+      "end_ms": 23885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch13-s09-n0396",
+      "text": "难怪近几年，尤其1866和1867年，矿难次数和规模不断增长，有时一次就造成两三百名工人死亡。",
+      "start_ms": 23890,
+      "end_ms": 31665,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0066"
+    },
+    {
+      "id": "ch13-s09-n0397",
+      "text": "这就是“自由”资本主义生产的美景！",
+      "start_ms": 265,
+      "end_ms": 2285,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch13-s09-n0398",
+      "text": "无论如何，1872年的法律虽然仍有很多缺陷，却是第一部限制矿山童工劳动时间，并让矿山经营者和矿主在一定程度上为所谓事故负责的法律。",
+      "start_ms": 2700,
+      "end_ms": 13695,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch13-s09-n0399",
+      "text": "1867年成立的皇家委员会调查农业中的儿童、青少年和妇女劳动，发表了几份很重要的报告。",
+      "start_ms": 14505,
+      "end_ms": 20905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch13-s09-n0400",
+      "text": "人们曾多次尝试修改工厂法的原则，使它适用于农业，可是到当时全都彻底失败了。",
+      "start_ms": 21310,
+      "end_ms": 27215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch13-s09-n0401",
+      "text": "这里需要注意的，是一种不可阻挡的趋势已经存在：这些原则最终会普遍适用。",
+      "start_ms": 27610,
+      "end_ms": 33375,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch13-s09-n0402",
+      "text": "工厂法普遍推广，作为保护工人身体和精神的手段，已经不可避免。",
+      "start_ms": 33866,
+      "end_ms": 38761,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0067"
+    },
+    {
+      "id": "ch13-s09-n0403",
+      "text": "可另一方面，前面已经指出，它也会把分散、小规模的劳动过程，更快、更普遍地改造成大规模、社会化的共同劳动，从而促进资本集中，让工厂制度取得独占地位。",
+      "start_ms": 85,
+      "end_ms": 12795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch13-s09-n0404",
+      "text": "资本统治原本还部分隐藏在古老形式和各种过渡形式背后，工厂法会消灭这些形式，使资本的统治变得直接而公开。",
+      "start_ms": 13175,
+      "end_ms": 21975,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch13-s09-n0405",
+      "text": "这样一来，反对资本统治的斗争也会普遍变成直接斗争。",
+      "start_ms": 22310,
+      "end_ms": 26125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch13-s09-n0406",
+      "text": "工厂法迫使每个作坊内部实行统一、有规律、有秩序而且节约的生产。",
+      "start_ms": 26705,
+      "end_ms": 32255,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch13-s09-n0407",
+      "text": "可是，限制并规范工作日又会强烈推动技术发展，从而加剧整个资本主义生产的混乱和危机，也加剧劳动强度以及机器同工人的竞争。",
+      "start_ms": 32685,
+      "end_ms": 43220,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch13-s09-n0408",
+      "text": "小企业和家庭劳动一旦消失，资本认为“多余”的工人便失去最后的避难所，整个社会机制原有的安全阀也随之消失。",
+      "start_ms": 43640,
+      "end_ms": 52140,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0068"
+    },
+    {
+      "id": "ch13-s09-n0409",
+      "text": "工厂法在推动生产过程的物质条件和社会化组织成熟的同时，也使这种生产的资本主义形式中的矛盾和对抗成熟起来。",
+      "start_ms": 295,
+      "end_ms": 8005,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch13-s09-n0410",
+      "text": "这样，它既使新社会的形成因素成熟，也使推动旧社会变革的因素成熟。",
+      "start_ms": 8295,
+      "end_ms": 13155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch13-s09-n0411",
+      "text": "〔第四版注：英国先后制定彼此矛盾的《工厂法》《工厂法扩展法》和《作坊法》，制造出一个“新的法律乱麻”（见第295页）。",
+      "start_ms": 13160,
+      "end_ms": 22905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch13-s09-n0412",
+      "text": "这种情况终于变得无法忍受，于是1878年的《工厂和作坊法》把全部相关法律统一编订。",
+      "start_ms": 22910,
+      "end_ms": 29215,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch13-s09-n0413",
+      "text": "这里当然不能详细批评这部当时有效的英国工业法典，只能列出几点。",
+      "start_ms": 29615,
+      "end_ms": 34425,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch13-s09-n0414",
+      "text": "第一，纺织工厂。",
+      "start_ms": 34894,
+      "end_ms": 36219,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0069"
+    },
+    {
+      "id": "ch13-s09-n0415",
+      "text": "规定大体保持原样：十岁以上儿童每天可工作五个半小时，或者每天六小时但星期六休息。",
+      "start_ms": 465,
+      "end_ms": 5985,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch13-s09-n0416",
+      "text": "青少年和妇女每周五天每天十小时，星期六最多六个半小时。",
+      "start_ms": 6445,
+      "end_ms": 10405,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch13-s09-n0417",
+      "text": "第二，非纺织工厂。",
+      "start_ms": 10975,
+      "end_ms": 12435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch13-s09-n0418",
+      "text": "规定比过去更接近纺织工厂，但仍保留不少有利于资本家的例外，内政大臣在某些情况下还可以特许扩大例外。",
+      "start_ms": 12930,
+      "end_ms": 20455,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch13-s09-n0419",
+      "text": "第三，作坊，其定义大致沿用此前法律。",
+      "start_ms": 20790,
+      "end_ms": 23885,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch13-s09-n0420",
+      "text": "只要其中使用儿童、青少年或妇女，管理规定就大体接近非纺织工厂，但具体条款仍较宽松。",
+      "start_ms": 24175,
+      "end_ms": 31125,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0070"
+    },
+    {
+      "id": "ch13-s09-n0421",
+      "text": "第四，只雇用十八岁以上男女、而不雇儿童和青少年的作坊，适用更加宽松的规定。",
+      "start_ms": 145,
+      "end_ms": 5595,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch13-s09-n0422",
+      "text": "第五，家庭作坊，只由家人在家中劳动，规定更加灵活。",
+      "start_ms": 6095,
+      "end_ms": 9795,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch13-s09-n0423",
+      "text": "视察员如果没有内政大臣或法院特别许可，只能进入不兼作居室的房间。",
+      "start_ms": 10325,
+      "end_ms": 15385,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch13-s09-n0424",
+      "text": "此外，家庭内部编草辫、织花边和制手套完全不受限制。",
+      "start_ms": 15790,
+      "end_ms": 19905,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch13-s09-n0425",
+      "text": "这部法律虽然有种种缺陷，但除了1877年3月23日的瑞士联邦工厂法以外，仍远远优于其他同类法律。",
+      "start_ms": 20395,
+      "end_ms": 28155,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch13-s09-n0426",
+      "text": "把它同瑞士法律相比尤其有意思，因为两者清楚表现了两种立法方法各自的长处和短处。",
+      "start_ms": 28540,
+      "end_ms": 35135,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0071"
+    },
+    {
+      "id": "ch13-s09-n0427",
+      "text": "英国采取“历史式”方法，遇到问题逐项处理；欧洲大陆则沿袭法国革命传统，更倾向于作出普遍规定。",
+      "start_ms": 165,
+      "end_ms": 7485,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0072"
+    },
+    {
+      "id": "ch13-s09-n0428",
+      "text": "遗憾的是，英国法典在作坊中的执行大多仍是一纸空文，因为检查人员不足。",
+      "start_ms": 7920,
+      "end_ms": 13435,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0072"
+    },
+    {
+      "id": "ch13-s09-n0429",
+      "text": "——弗里德里希·恩格斯〕",
+      "start_ms": 13440,
+      "end_ms": 15815,
+      "timing_source": "provider_word_timestamps",
+      "chunk_id": "c0072"
+    }
+  ]
+}

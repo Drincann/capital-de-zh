@@ -1,19 +1,22 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "status": "ready",
-  "audio_version_id": "ch13-s03-v2-audio-9752913c0a16",
+  "audio_version_id": "ch13-s03-v3-audio-f9b695e4983b",
+  "base_audio_version_id": "ch13-s03-v2-audio-9752913c0a16",
+  "reused_chunk_count": 56,
+  "generated_chunk_count": 2,
   "unit_id": "ch13-s03",
-  "translation_version_id": "ch13-s03-v2",
-  "translation_sha256": "aab85a956775706a19cfe569f49a5b8d922d3f13235471571d266f7f22443a8e",
+  "translation_version_id": "ch13-s03-v3",
+  "translation_sha256": "b4b6a063bfa13cb862ffa10388ee974594f1bd72ffc34dba988161583f5c11f2",
   "config_sha256": "3219df4bf879386bd79922c7e8c83ead2053b45c71495ef5b32c547ddf59287f",
   "model_id": "seed-tts-2.0",
   "model_label": "Seed-TTS 2.0",
   "transport": "tts-unidirectional-http",
   "speaker": "zh_male_dayi_uranus_bigtts",
   "model": "seed-tts-2.0-standard",
-  "created_at": "2026-08-04T16:31:05.973Z",
-  "completed_at": "2026-08-04T16:39:49.709Z",
-  "duration_ms": 2301662,
+  "created_at": "2026-08-14T18:31:51.193Z",
+  "completed_at": "2026-08-14T18:32:04.994Z",
+  "duration_ms": 2309350,
   "sentence_count": 344,
   "chunks": [
     {
@@ -199,9 +202,9 @@
     {
       "id": "c0013",
       "audio_file": "c0013.mp3",
-      "duration_ms": 36395,
-      "bytes": 583341,
-      "sha256": "48d53d8835a22e1bc312a04c83285ea9e70e3609132c4409fbc225b7488f74e9",
+      "duration_ms": 42060,
+      "bytes": 671661,
+      "sha256": "9d2627d1e376e344c34b2776b6cedc9784ec842d2cd0c826d64ec8fe31763335",
       "sentence_ids": [
         "ch13-s03-n0073",
         "ch13-s03-n0074",
@@ -648,9 +651,9 @@
     {
       "id": "c0043",
       "audio_file": "c0043.mp3",
-      "duration_ms": 45246,
-      "bytes": 727341,
-      "sha256": "9d600fc0e6fe9237f63fda3725bafd2f185ae1c388a1203213dacdeb0591cb4c",
+      "duration_ms": 47269,
+      "bytes": 759213,
+      "sha256": "12360067b697a1b1af52f15126def53b5881b56b923e48af3cbce7c29590a733",
       "sentence_ids": [
         "ch13-s03-n0252",
         "ch13-s03-n0253",
@@ -1462,49 +1465,49 @@
     },
     {
       "id": "ch13-s03-n0073",
-      "text": "这些敷衍的条文和形同虚设的执行机制清楚地表明：资本只想使用儿童劳动，却不愿承担教育他们的责任。",
-      "start_ms": 265,
-      "end_ms": 7795,
+      "text": "教育条款写得敷衍，执行机构又形同虚设，强制教育因此大半沦为空文；再加上工厂主反对这项法律，并用种种手段逃避它，资本主义生产的精神由此“光芒四射”。",
+      "start_ms": 125,
+      "end_ms": 13235,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0013"
     },
     {
       "id": "ch13-s03-n0074",
       "text": "“应当责怪的只有立法机关。",
-      "start_ms": 8195,
-      "end_ms": 9815,
+      "start_ms": 13240,
+      "end_ms": 14865,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0013"
     },
     {
       "id": "ch13-s03-n0075",
       "text": "它制定了一部骗人的法律，表面上关心儿童教育，却没有任何一条规定能保证实现这个声称的目的。",
-      "start_ms": 10140,
-      "end_ms": 16595,
+      "start_ms": 15160,
+      "end_ms": 21995,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0013"
     },
     {
       "id": "ch13-s03-n0076",
       "text": "法律只规定，儿童每天必须在一个叫作学校的地方关上一定时间，也就是3小时。",
-      "start_ms": 17245,
-      "end_ms": 22655,
+      "start_ms": 22455,
+      "end_ms": 27975,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0013"
     },
     {
       "id": "ch13-s03-n0077",
       "text": "雇用儿童的人每周还必须取得一张证明，由一个签名自称男教师或女教师的人开具。”",
-      "start_ms": 22950,
-      "end_ms": 28785,
+      "start_ms": 28380,
+      "end_ms": 34285,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0013"
     },
     {
       "id": "ch13-s03-n0078",
       "text": "1844年修订工厂法以前，有些出勤证明甚至由教师画十字签名，因为教师本人也不会写字。",
-      "start_ms": 29705,
-      "end_ms": 36245,
+      "start_ms": 35280,
+      "end_ms": 41910,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0013"
     },
@@ -2896,47 +2899,47 @@
       "id": "ch13-s03-n0252",
       "text": "“如今，在这些工厂生产环节工作的工人，劳动量已经是这类工序刚采用时的三倍。",
       "start_ms": 0,
-      "end_ms": 5905,
+      "end_ms": 6115,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0043"
     },
     {
       "id": "ch13-s03-n0253",
-      "text": "机器无疑替代了原本需要千百万人用肌肉完成的工作，但与此同时，机器越转越快，照管机器的工人承担的劳动也大幅增加……1815年，一个工人要照看一对走锭纺纱机，用12小时纺40号纱，必须跟着机器来回走8英里。",
-      "start_ms": 6300,
-      "end_ms": 23165,
+      "text": "机器无疑替代了原本需要千百万人用肌肉完成的工作，但它也让受其可怕运动支配的工人承担了多得惊人的劳动……1815年，一个工人要照看一对走锭纺纱机，用12小时纺40号纱，必须跟着机器来回走8英里。",
+      "start_ms": 6580,
+      "end_ms": 22635,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0043"
     },
     {
       "id": "ch13-s03-n0254",
       "text": "到1832年，纺同样的纱，12小时内要走20英里，往往还不止。",
-      "start_ms": 23540,
-      "end_ms": 28545,
+      "start_ms": 23285,
+      "end_ms": 28505,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0043"
     },
     {
       "id": "ch13-s03-n0255",
       "text": "1825年，纺纱工在12小时内必须操作每台走锭纺纱机完成820次牵伸，两台合计1640次。",
-      "start_ms": 29320,
-      "end_ms": 36660,
+      "start_ms": 29455,
+      "end_ms": 37675,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0043"
     },
     {
       "id": "ch13-s03-n0256",
       "text": "1832年，每台增到2200次，合计4400次。",
-      "start_ms": 37536,
-      "end_ms": 40236,
+      "start_ms": 38649,
+      "end_ms": 41659,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0043"
     },
     {
       "id": "ch13-s03-n0257",
       "text": "1844年，每台2400次，合计4800次。",
-      "start_ms": 41886,
-      "end_ms": 45096,
+      "start_ms": 43469,
+      "end_ms": 47119,
       "timing_source": "provider_word_timestamps",
       "chunk_id": "c0043"
     },
