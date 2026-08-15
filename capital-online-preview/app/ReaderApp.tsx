@@ -48,6 +48,12 @@ type ReleaseManifest = {
   parts: ReleasePart[];
 };
 
+export type ReaderFeatures = {
+  analytics?: boolean;
+  audio?: boolean;
+  notes?: boolean;
+};
+
 type ReleaseEntry =
   | (ReleaseSection & {
       kind: "preface";
@@ -186,10 +192,15 @@ function restoreReadingPosition(sectionId: string) {
 export function ReaderApp({
   release,
   viewer,
+  features,
 }: {
   release: ReleaseManifest;
   viewer: ReaderViewer;
+  features?: ReaderFeatures;
 }) {
+  const analyticsEnabled = features?.analytics !== false;
+  const audioEnabled = features?.audio !== false;
+  const notesEnabled = features?.notes !== false;
   const flatSections = useMemo<ReleaseEntry[]>(
     () => [
       ...(release.preface
@@ -394,7 +405,7 @@ export function ReaderApp({
     if (currentHashId || selected.id !== firstSection?.id) {
       history.replaceState(null, "", `#${encodeURIComponent(selected.id)}`);
     }
-    if (trackedSection.current !== selected.id) {
+    if (analyticsEnabled && trackedSection.current !== selected.id) {
       trackedSection.current = selected.id;
       void trackReadingView();
     }
@@ -402,7 +413,7 @@ export function ReaderApp({
     return () => {
       cancelled = true;
     };
-  }, [firstSection?.id, locationResolved, selected]);
+  }, [analyticsEnabled, firstSection?.id, locationResolved, selected]);
 
   useEffect(() => {
     let frame = 0;
@@ -751,13 +762,15 @@ export function ReaderApp({
           <small>ChatGPT 译</small>
         </a>
         <div className="reading-tools">
-          <ReaderNotes
-            key={selected.id}
-            sectionId={selected.id}
-            versionId={content?.versionId || selected.versionId}
-            viewer={viewer}
-            contentReady={Boolean(content && !loading && !contentError)}
-          />
+          {notesEnabled ? (
+            <ReaderNotes
+              key={selected.id}
+              sectionId={selected.id}
+              versionId={content?.versionId || selected.versionId}
+              viewer={viewer}
+              contentReady={Boolean(content && !loading && !contentError)}
+            />
+          ) : null}
           <div className="reading-settings" ref={settingsRef}>
             <button
               className={
@@ -1102,7 +1115,7 @@ export function ReaderApp({
               </>
             )}
 
-            {!loading && !contentError && content ? (
+            {audioEnabled && !loading && !contentError && content ? (
               <AudioReader
                 key={`${selected.id}:${content.versionId}`}
                 sectionId={selected.id}

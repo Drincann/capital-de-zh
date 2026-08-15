@@ -41,6 +41,19 @@ npm run export:release
 
 线上构建环境找不到本地翻译工程时，会使用仓库中已经提交的发布快照。
 
+## GitHub Pages 静态版
+
+GitHub Pages 使用独立的纯静态构建目标：
+
+```bash
+npm run export:release
+npm run build:pages
+```
+
+产物位于 `pages-dist/`。它保留目录、正文、阅读位置和界面设置，但不包含语音文件，也不会显示朗读入口或“暂无语音”。服务端笔记、登录和访问统计同样不会在这个静态版本中启用。Sites 版本不受影响，继续使用原有的 D1、R2 和登录能力。
+
+推送到 `main` 后，GitHub Actions 会重新导出当前采用稿并发布这一静态快照。默认项目路径是 `/capital-de-zh/`；如果仓库名发生变化，可通过 `GITHUB_PAGES_BASE_PATH` 调整。
+
 ## 匿名统计
 
 运行环境需要配置：
