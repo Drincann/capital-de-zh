@@ -21,6 +21,16 @@ function directNetworkEnvironment(environment = process.env) {
   return direct;
 }
 
+function failureDetail(errorOutput) {
+  const lines = errorOutput.trim().split(/\r?\n/).filter(Boolean);
+  return (
+    lines.find((line) => /^Error:\s+/.test(line)) ||
+    lines.find((line) => /生成失败：HTTP/.test(line)) ||
+    lines.at(-1) ||
+    ""
+  );
+}
+
 function createAudioGenerationQueue({
   controller,
   cwd,
@@ -145,7 +155,7 @@ function createAudioGenerationQueue({
       finish(item, error instanceof Error ? error.message : "语音任务未能启动")
     );
     child.once("exit", (code, signal) => {
-      const detail = errorOutput.trim().split(/\r?\n/).filter(Boolean).at(-1);
+      const detail = failureDetail(errorOutput);
       finish(
         item,
         code === 0
@@ -297,12 +307,18 @@ function applyAudioQueueState(state, queueSnapshot) {
     const audio = {
       ...(unit.audio || {}),
     };
+    const storedAudioError = audio.error || "";
     audio.models = (audio.models || []).map((model) => {
       const override = runtime.get(`${unit.unit_id}:${model.id}`);
       return override
         ? {
             ...model,
             ...override,
+            label: model.label,
+            error:
+              override.status === "failed" && model.error
+                ? model.error
+                : override.error || "",
             canGenerate:
               override.status === "failed" && override.operation !== "patch"
                 ? model.canGenerate
@@ -311,12 +327,23 @@ function applyAudioQueueState(state, queueSnapshot) {
         : model;
     });
     const [, primaryOverride] = modelEntries[0];
+    const primaryModelId = modelEntries[0][0].slice(unit.unit_id.length + 1);
+    const primaryModel = audio.models.find((model) => model.id === primaryModelId);
     audio.generation = {
       ...primaryOverride,
-      modelId: modelEntries[0][0].slice(unit.unit_id.length + 1),
+      modelId: primaryModelId,
+      error:
+        primaryOverride.status === "failed" && primaryModel?.error
+          ? primaryModel.error
+          : primaryOverride.error || "",
     };
     audio.canGenerate = audio.models.some((model) => model.canGenerate);
-    if (audio.status !== "ready") Object.assign(audio, primaryOverride);
+    if (audio.status !== "ready") {
+      Object.assign(audio, primaryOverride);
+      if (primaryOverride.status === "failed" && storedAudioError) {
+        audio.error = storedAudioError;
+      }
+    }
     unit.audio = audio;
     const adopted = (unit.versions || []).find(
       (version) => version.id === unit.adoptedVersionId,

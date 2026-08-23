@@ -791,6 +791,104 @@ async function generateChunk(
   return retryTransient(request, { onRetry });
 }
 
+async function generationEstimate(unitId, modelId = "") {
+  if (!unitId) throw new Error("缺少 --unit。");
+  const [config, source] = await Promise.all([
+    loadModelProfile(modelId),
+    adoptedVersion(unitId),
+  ]);
+  const content = await narrationContent(source);
+  const planned = makeChunks(content.sentences, config);
+  const configSha256 = sha256(JSON.stringify(config));
+  const audioVersionId = `${source.versionId}-audio-${sha256(`${source.translationSha256}:${configSha256}`).slice(0, 12)}`;
+  const currentIndex = await readJson(indexPath);
+  const legacyConfig = (await exists(configPath))
+    ? await readJson(configPath)
+    : null;
+  const legacyConfigSha256 = legacyConfig
+    ? sha256(JSON.stringify(legacyConfig))
+    : "";
+  const legacyProfileCompatible =
+    legacyConfig &&
+    config.id === "seed-audio-1.0" &&
+    legacyConfig.model === config.model &&
+    legacyConfig.speaker === config.speaker &&
+    legacyConfig.endpoint === config.endpoint &&
+    JSON.stringify(legacyConfig.audio_config) === JSON.stringify(config.audio_config) &&
+    JSON.stringify(legacyConfig.chunking) === JSON.stringify(config.chunking) &&
+    legacyConfig.prompt === config.prompt;
+  const baseCandidates = (currentIndex.audio_versions || [])
+    .filter(
+      (item) =>
+        item.audio_version_id !== audioVersionId &&
+        item.unit_id === unitId &&
+        item.status === "ready" &&
+        ((item.model_id === config.id && item.config_sha256 === configSha256) ||
+          (!item.model_id &&
+            legacyProfileCompatible &&
+            item.config_sha256 === legacyConfigSha256)) &&
+        item.manifest_path,
+    )
+    .sort((left, right) =>
+      String(right.completed_at || right.updated_at || "").localeCompare(
+        String(left.completed_at || left.updated_at || ""),
+      ),
+    );
+  let baseRecord = null;
+  let baseManifest = null;
+  for (const candidate of baseCandidates) {
+    const candidatePath = path.join(projectRoot, candidate.manifest_path);
+    if (!(await exists(candidatePath))) continue;
+    const candidateManifest = await readJson(candidatePath);
+    if (
+      candidateManifest.model === config.model &&
+      candidateManifest.speaker === config.speaker &&
+      (!candidateManifest.transport || candidateManifest.transport === config.transport)
+    ) {
+      baseRecord = candidate;
+      baseManifest = candidateManifest;
+      break;
+    }
+  }
+  const reusableChunks = baseManifest
+    ? planned.filter((chunk) => chunkCanBeReused(chunk, baseManifest))
+    : [];
+  const baseReusableIds = new Set(reusableChunks.map((chunk) => chunk.id));
+  const versionRoot = path.join(audioRoot, "versions", audioVersionId);
+  const cachedChunks = [];
+  for (const chunk of planned) {
+    if (baseReusableIds.has(chunk.id)) continue;
+    const audioPath = path.join(versionRoot, `${chunk.id}.mp3`);
+    const metadataPath = path.join(versionRoot, `${chunk.id}.json`);
+    if (!(await exists(audioPath)) || !(await exists(metadataPath))) continue;
+    const metadata = await readJson(metadataPath).catch(() => null);
+    if (metadata?.text_sha256 === sha256(chunk.text)) cachedChunks.push(chunk);
+  }
+  const reusableIds = new Set([
+    ...baseReusableIds,
+    ...cachedChunks.map((chunk) => chunk.id),
+  ]);
+  const generatedChunks = planned.filter((chunk) => !reusableIds.has(chunk.id));
+  return {
+    unit_id: unitId,
+    translation_version_id: source.versionId,
+    model_id: config.id,
+    model_label: config.label,
+    audio_version_id: audioVersionId,
+    base_audio_version_id: baseRecord?.audio_version_id || "",
+    base_translation_version_id: baseRecord?.translation_version_id || "",
+    chunk_count: planned.length,
+    base_reusable_chunk_count: reusableChunks.length,
+    cached_chunk_count: cachedChunks.length,
+    reusable_chunk_count: reusableIds.size,
+    generated_chunk_count: generatedChunks.length,
+    generated_character_count: generatedChunks.reduce(
+      (total, chunk) => total + [...chunk.text].length,
+      0,
+    ),
+  };
+}
+
 const updateIndex = createSerializedJsonUpdater(indexPath);
 
 async function generateUnlocked(unitId, modelId = "") {
@@ -1477,6 +1575,15 @@ if (isMain) {
   if (command === "generate") {
     await generate(option("--unit"), option("--model"));
   }
+  else if (command === "estimate") {
+    console.log(
+      JSON.stringify(
+        await generationEstimate(option("--unit"), option("--model")),
+        null,
+        2,
+      ),
+    );
+  }
   else if (command === "patch") {
     await patchAudio({
       unitId: option("--unit"),
@@ -1497,6 +1604,7 @@ export {
   isRetryableGenerationError,
   parseJsonStream,
   chunkCanBeReused,
+  generationEstimate,
   patchedChunks,
   retryTransient,
   runWorkerQueue,

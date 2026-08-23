@@ -1,4 +1,5 @@
 import http from "node:http";
+import { randomUUID } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { spawn } from "node:child_process";
 import path from "node:path";
@@ -12,6 +13,7 @@ import { handleAudioRequest } from "./audio-files.mjs";
 import {
   applyAudioQueueState,
   createAudioGenerationQueue,
+  directNetworkEnvironment,
 } from "./audio-generation-queue.mjs";
 import {
   applyAudioPublishQueueState,
@@ -36,6 +38,7 @@ const audioQueue = createAudioGenerationQueue({
   controller: audioController,
   cwd: root,
 });
+const audioGenerationPlans = new Map();
 const audioPublishConfig = await loadAudioPublishConfig(root);
 const audioPublishQueue = createAudioPublishQueue({
   projectRoot,
@@ -52,6 +55,64 @@ async function progressState() {
   );
 }
 
+function findUnitContext(state, unitId) {
+  for (const group of state.frontMatter || []) {
+    const unit = (group.sections || []).find((item) => item.unit_id === unitId);
+    if (unit) {
+      return {
+        unit,
+        chapterNumberLabel: group.numberLabel || "",
+        chapterTitle: group.title || "",
+      };
+    }
+  }
+  for (const part of state.parts || []) {
+    for (const chapter of part.chapters || []) {
+      const unit = (chapter.sections || []).find((item) => item.unit_id === unitId);
+      if (unit) {
+        return {
+          unit,
+          chapterNumberLabel: chapter.numberLabel || "",
+          chapterTitle: chapter.title || "",
+        };
+      }
+    }
+  }
+  return null;
+}
+
+function audioConflict(state, active) {
+  const context = findUnitContext(state, active.unitId);
+  const model = context?.unit.audio?.models?.find(
+    (item) => item.id === active.modelId
+  );
+  const completedChunks = Number(model?.completedChunks || 0);
+  const chunkCount = Number(model?.chunkCount || 0);
+  const chapterLabel = [context?.chapterNumberLabel, context?.chapterTitle]
+    .filter(Boolean)
+    .join(" ");
+  const sectionTitle = context?.unit.title_zh || "";
+  const location = [chapterLabel, sectionTitle && `「${sectionTitle}」`]
+    .filter(Boolean)
+    .join(" · ") || active.unitId;
+  const progress = chunkCount ? `（${completedChunks}/${chunkCount}）` : "";
+  const action = active.operation === "patch" ? "修正语音" : "生成语音";
+  return {
+    error: `${location}正在${action}${progress}，完成后才能开始新的任务。`,
+    activeTask: {
+      unitId: active.unitId,
+      modelId: active.modelId,
+      operation: active.operation,
+      chapterNumberLabel: context?.chapterNumberLabel || "",
+      chapterTitle: context?.chapterTitle || "",
+      sectionTitle,
+      completedChunks,
+      chunkCount,
+      startedAt: active.startedAt || "",
+    },
+  };
+}
+
 async function readJsonBody(request) {
   let body = "";
   for await (const chunk of request) {
@@ -59,6 +120,43 @@ async function readJsonBody(request) {
     if (body.length > 8192) throw new Error("请求过大");
   }
   return JSON.parse(body || "{}");
+}
+
+async function createAudioGenerationPlan(unitId, modelId) {
+  return new Promise((resolve, reject) => {
+    const child = spawn(
+      process.execPath,
+      [audioController, "estimate", "--unit", unitId, "--model", modelId],
+      {
+        cwd: root,
+        env: directNetworkEnvironment(process.env),
+        stdio: ["ignore", "pipe", "pipe"],
+        windowsHide: true,
+      },
+    );
+    let output = "";
+    let errors = "";
+    child.stdout.setEncoding("utf8");
+    child.stderr.setEncoding("utf8");
+    child.stdout.on("data", (chunk) => {
+      output += chunk;
+    });
+    child.stderr.on("data", (chunk) => {
+      errors += chunk;
+    });
+    child.once("error", reject);
+    child.once("exit", (code) => {
+      if (code !== 0) {
+        reject(new Error(errors.trim() || "无法估算语音生成量"));
+        return;
+      }
+      try {
+        resolve(JSON.parse(output));
+      } catch {
+        reject(new Error("语音生成预估结果无效"));
+      }
+    });
+  });
 }
 
 const server = http.createServer(async (request, response) => {
@@ -118,7 +216,32 @@ const server = http.createServer(async (request, response) => {
         response.end(JSON.stringify({ error: "缺少翻译单元或语音模型" }));
         return;
       }
+      const plan = audioGenerationPlans.get(body.planToken);
+      if (
+        !plan ||
+        plan.unitId !== body.unitId ||
+        plan.modelId !== body.modelId ||
+        Date.now() - plan.createdAt > 5 * 60 * 1000
+      ) {
+        response.writeHead(409, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "请先查看并确认本次生成量" }));
+        return;
+      }
+      const queueState = audioQueue.snapshot();
       const state = await progressState();
+      if (queueState.active || queueState.waiting.length) {
+        const conflict = audioConflict(
+          state,
+          queueState.active || queueState.waiting[0]
+        );
+        response.writeHead(409, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify(conflict));
+        return;
+      }
       const unit = [...(state.frontMatter || []), ...state.parts]
         .flatMap((item) =>
           item.chapters
@@ -126,6 +249,13 @@ const server = http.createServer(async (request, response) => {
             : item.sections || []
         )
         .find((item) => item.unit_id === body.unitId);
+      if (unit?.adoptedVersionId !== plan.translationVersionId) {
+        response.writeHead(409, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "采用的译文已经变化，请重新预估" }));
+        return;
+      }
       if (!unit?.adoptedVersionId) {
         response.writeHead(409, {
           "content-type": "application/json; charset=utf-8",
@@ -157,6 +287,7 @@ const server = http.createServer(async (request, response) => {
         response.end(JSON.stringify({ error: "这个模型已有可用语音" }));
         return;
       }
+      audioGenerationPlans.delete(body.planToken);
       const queued = audioQueue.enqueue(body.unitId, body.modelId);
       response.writeHead(202, {
         "content-type": "application/json; charset=utf-8",
@@ -170,6 +301,46 @@ const server = http.createServer(async (request, response) => {
           ...queued,
         })
       );
+      return;
+    }
+    if (url.pathname === "/api/audio/plan" && request.method === "POST") {
+      const body = await readJsonBody(request);
+      if (
+        typeof body.unitId !== "string" ||
+        !body.unitId.trim() ||
+        typeof body.modelId !== "string" ||
+        !body.modelId.trim()
+      ) {
+        response.writeHead(400, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(JSON.stringify({ error: "缺少翻译单元或语音模型" }));
+        return;
+      }
+      try {
+        const estimate = await createAudioGenerationPlan(body.unitId, body.modelId);
+        const planToken = randomUUID();
+        audioGenerationPlans.set(planToken, {
+          unitId: body.unitId,
+          modelId: body.modelId,
+          translationVersionId: estimate.translation_version_id,
+          createdAt: Date.now(),
+        });
+        response.writeHead(200, {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "no-store",
+        });
+        response.end(JSON.stringify({ ok: true, planToken, ...estimate }));
+      } catch (error) {
+        response.writeHead(500, {
+          "content-type": "application/json; charset=utf-8",
+        });
+        response.end(
+          JSON.stringify({
+            error: error instanceof Error ? error.message : "无法估算语音生成量",
+          }),
+        );
+      }
       return;
     }
     if (url.pathname === "/api/audio/patch" && request.method === "POST") {

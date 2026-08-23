@@ -157,6 +157,7 @@
       .workspace.catalog-collapsed { grid-template-columns: minmax(0, 1fr); }
       .workspace.catalog-collapsed .catalog { display: none; }
       .catalog {
+        min-width: 0;
         min-height: 720px;
         border-right: 1px solid var(--line);
         background: var(--catalog);
@@ -227,10 +228,10 @@
       .chapter {
         width: 100%;
         display: grid;
-        grid-template-columns: 30px minmax(0, 1fr) auto;
-        align-items: center;
+        grid-template-columns: 30px minmax(0, 1fr);
+        align-items: start;
         gap: 10px;
-        padding: 10px 9px;
+        padding: 11px 9px;
         border: 0;
         border-radius: 5px;
         color: inherit;
@@ -241,11 +242,14 @@
       .chapter:hover { background: var(--hover); }
       .chapter.selected { background: var(--selected); }
       .chapter-no {
+        padding-top: 2px;
         color: var(--faint);
         font: 500 12px/1 var(--serif);
         font-variant-numeric: tabular-nums;
       }
+      .chapter-copy { min-width: 0; }
       .chapter-title {
+        display: block;
         overflow: hidden;
         font-size: 13px;
         line-height: 1.35;
@@ -254,11 +258,30 @@
       }
       .chapter-meta {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        gap: 7px;
+        gap: 3px 8px;
+        margin-top: 5px;
         color: var(--faint);
         font-size: 10px;
+        line-height: 1.4;
+      }
+      .chapter-meta + .chapter-meta { margin-top: 2px; }
+      .catalog-fact {
         white-space: nowrap;
+      }
+      .catalog-fact.problem { color: var(--accent); }
+      .catalog-fact.active { color: var(--blue); }
+      .catalog-fact.ready { color: var(--green); }
+      .catalog-fact::after {
+        margin-left: 8px;
+        color: var(--line);
+        content: "·";
+      }
+      .catalog-fact:last-child::after { display: none; }
+      .catalog-fact-label {
+        margin-right: 3px;
+        color: var(--muted);
       }
       .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--dot); }
       .dot.completed { background: var(--green); }
@@ -273,10 +296,7 @@
       }
       .catalog-section {
         width: 100%;
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        align-items: center;
-        gap: 10px;
+        display: block;
         padding: 8px 9px;
         border: 0;
         border-radius: 4px;
@@ -306,11 +326,19 @@
         white-space: nowrap;
       }
       .catalog-section small {
-        display: block;
-        margin-top: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px 8px;
+        margin-top: 3px;
         color: var(--faint);
         font-size: 10px;
-        line-height: 1.35;
+        line-height: 1.4;
+      }
+      .catalog-section small + small { margin-top: 1px; }
+      .catalog-section .catalog-fact {
+        overflow: hidden;
+        max-width: 100%;
+        text-overflow: ellipsis;
       }
 
       .content { min-width: 0; background: var(--surface); }
@@ -474,6 +502,7 @@
       .adopted-mark { color: var(--green); font-size: 11px; white-space: nowrap; }
       .audio-manager {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         gap: 14px;
@@ -510,6 +539,23 @@
       .audio-operation.ready { color: var(--green); }
       .audio-operation-detail {
         overflow-wrap: anywhere;
+      }
+      .audio-generation-plan {
+        flex: 1 0 100%;
+        display: grid;
+        gap: 10px;
+        padding: 14px 16px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: color-mix(in srgb, var(--surface) 86%, var(--paper));
+        color: var(--muted);
+        font: 12px/1.6 var(--sans);
+      }
+      .audio-generation-plan strong { color: var(--ink); }
+      .audio-generation-plan-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
       }
       .audio-publish-state {
         color: var(--muted);
@@ -1029,8 +1075,9 @@
         .shell { padding: 18px 16px 36px; }
         .overview { align-items: flex-start; flex-direction: column; gap: 22px; }
         .stats { width: 100%; justify-content: space-between; gap: 12px; }
-        .workspace { grid-template-columns: 1fr; }
+        .workspace { grid-template-columns: minmax(0, 1fr); }
         .catalog {
+          width: 100%;
           min-height: 0;
           border-right: 0;
           border-bottom: 1px solid var(--line);
@@ -1226,6 +1273,7 @@
         diffMode: "inline",
         audioModelSelections: {},
         audioVersionSelections: {},
+        audioGenerationPlan: null,
         speechPatch: {
           active: false,
           unitId: "",
@@ -2563,9 +2611,166 @@
         }
       }
 
+      function catalogFact(label, value, tone = "") {
+        const labelMarkup = label
+          ? `<span class="catalog-fact-label">${escapeHtml(label)}</span>`
+          : "";
+        return `<span class="catalog-fact ${escapeHtml(tone)}">${labelMarkup}${escapeHtml(value)}</span>`;
+      }
+
+      function unitVersionCatalogFact(unit) {
+        if (unit.adoptedVersionId) {
+          return catalogFact(
+            "译文",
+            `第${unit.currentVersion}版已采用 / 共${unit.versionCount}版`,
+            unit.status === "needs_review" ? "problem" : ""
+          );
+        }
+        if (unit.versionCount) {
+          return catalogFact("译文", `${unit.versionCount}版待采用`, "active");
+        }
+        return catalogFact("译文", unit.statusLabel || "未开始");
+      }
+
+      function audioProgressText(audio) {
+        return audio?.chunkCount
+          ? ` ${audio.completedChunks || 0}/${audio.chunkCount}`
+          : "";
+      }
+
+      function unitAudioCatalogFact(unit) {
+        const audio = unit.audio || {};
+        const readyCount = (audio.versions || []).filter(
+          (version) => version.status === "ready"
+        ).length;
+        const facts = {
+          ready: {
+            value: readyCount > 1 ? `已采用 / 共${readyCount}版` : "已采用",
+            tone: "ready",
+          },
+          unadopted: {
+            value: `${readyCount || 1}版待采用`,
+            tone: "active",
+          },
+          generating: {
+            value: `生成中${audioProgressText(audio)}`,
+            tone: "active",
+          },
+          queued: { value: "等待生成", tone: "active" },
+          interrupted: {
+            value: `生成中断${audioProgressText(audio)}`,
+            tone: "problem",
+          },
+          failed: { value: "生成失败", tone: "problem" },
+          stale: { value: "旧语音不可用", tone: "problem" },
+          missing: { value: "暂无", tone: "" },
+        };
+        const fact = facts[audio.status] || {
+          value: audio.label || "暂无",
+          tone: "",
+        };
+        return catalogFact("语音", fact.value, fact.tone);
+      }
+
+      function unitPublicationCatalogFact(unit) {
+        const audio = unit.audio || {};
+        if (audio.status === "unadopted") {
+          return catalogFact("发布", "采用语音后可上传", "active");
+        }
+        if (audio.status !== "ready") {
+          return catalogFact("发布", "未上传");
+        }
+        const publication = audio.publication || {};
+        const facts = {
+          published: { value: "已上线", tone: "ready" },
+          uploaded: { value: "已上传，待上线", tone: "active" },
+          uploading: { value: publication.label || "上传中", tone: "active" },
+          queued: { value: "等待上传", tone: "active" },
+          interrupted: {
+            value: publication.label || "上传中断",
+            tone: "problem",
+          },
+          failed: { value: "上传失败", tone: "problem" },
+          pending: { value: "待上传", tone: "active" },
+          unavailable: { value: "待上传", tone: "active" },
+        };
+        const fact = facts[publication.status] || {
+          value: publication.label || "待上传",
+          tone: "active",
+        };
+        return catalogFact("发布", fact.value, fact.tone);
+      }
+
+      function chapterCatalogFacts(chapter) {
+        const sections = chapter.sections || [];
+        const total = chapter.totalSections || sections.length || 1;
+        const completed = sections.filter(
+          (unit) => unit.status === "completed"
+        ).length;
+        const adopted = sections.filter((unit) => unit.adoptedVersionId).length;
+        const versionCount = sections.reduce(
+          (sum, unit) => sum + Number(unit.versionCount || 0),
+          0
+        );
+        const voiced = sections.filter((unit) =>
+          (unit.audio?.versions || []).some(
+            (version) => version.status === "ready"
+          )
+        ).length;
+        const published = sections.filter(
+          (unit) =>
+            unit.audio?.status === "ready" &&
+            unit.audio?.publication?.status === "published"
+        ).length;
+        const issueDefinitions = [
+          ["needs_review", "待复核", (unit) => unit.status],
+          ["unadopted", "语音待选", (unit) => unit.audio?.status],
+          ["generating", "语音生成中", (unit) => unit.audio?.status],
+          ["queued", "语音等待生成", (unit) => unit.audio?.status],
+          ["interrupted", "语音生成中断", (unit) => unit.audio?.status],
+          ["failed", "语音生成失败", (unit) => unit.audio?.status],
+          ["stale", "旧语音不可用", (unit) => unit.audio?.status],
+          ["uploaded", "已上传待上线", (unit) => unit.audio?.publication?.status],
+          ["uploading", "上传中", (unit) => unit.audio?.publication?.status],
+          ["queued", "等待上传", (unit) =>
+            unit.audio?.status === "ready"
+              ? unit.audio?.publication?.status
+              : ""
+          ],
+          ["interrupted", "上传中断", (unit) => unit.audio?.publication?.status],
+          ["failed", "上传失败", (unit) => unit.audio?.publication?.status],
+          ["pending", "待上传", (unit) =>
+            unit.audio?.status === "ready"
+              ? unit.audio?.publication?.status
+              : ""
+          ],
+        ];
+        const issues = issueDefinitions.flatMap(
+          ([status, label, read]) => {
+            const count = sections.filter((unit) => read(unit) === status).length;
+            return count ? [catalogFact("", `${count}${label}`, status === "uploaded" || status === "uploading" || status === "queued" || status === "pending" || status === "unadopted" || status === "generating" ? "active" : "problem")] : [];
+          }
+        );
+        return {
+          translation: [
+            catalogFact("译文", `${completed}/${total}完成`, completed === total ? "ready" : ""),
+            catalogFact("采用", `${adopted}/${total}`, adopted === total && adopted ? "ready" : adopted ? "active" : ""),
+            ...(versionCount ? [catalogFact("", `共${versionCount}版`)] : []),
+          ].join(""),
+          audio: versionCount
+            ? [
+                catalogFact("语音", `${voiced}/${total}`, voiced === total ? "ready" : ""),
+                catalogFact("上线", `${published}/${total}`, published === total ? "ready" : ""),
+                ...issues,
+              ].join("")
+            : "",
+        };
+      }
+
       function renderCatalog() {
-        const chapterMarkup = (chapter) => `
-          <div class="chapter-group">
+        const chapterMarkup = (chapter) => {
+          const facts = chapterCatalogFacts(chapter);
+          return `<div class="chapter-group">
             <button
               class="chapter ${chapter.id === model.chapterId ? "selected" : ""}"
               data-chapter="${chapter.id}"
@@ -2575,11 +2780,10 @@
                 : ""}
             >
               <span class="chapter-no">${String(chapter.number).padStart(2, "0")}</span>
-              <span class="chapter-title">${escapeHtml(chapter.title)}</span>
-              <span class="chapter-meta">
-                <span class="dot ${chapter.status}"></span>
-                ${chapter.statusLabel}${chapter.versionCount ? ` · ${chapter.versionCount}版` : ""}
-                ${chapter.sections?.some((unit) => unit.audio?.publication?.status === "published") ? " · 语音已上线" : chapter.sections?.some((unit) => unit.audio?.status === "ready") ? " · 有语音" : ""}
+              <span class="chapter-copy">
+                <span class="chapter-title">${escapeHtml(chapter.title)}</span>
+                <span class="chapter-meta">${facts.translation}</span>
+                ${facts.audio ? `<span class="chapter-meta">${facts.audio}</span>` : ""}
               </span>
             </button>
             ${chapter.id === model.chapterId && chapter.sections?.length > 1 ? `
@@ -2592,15 +2796,16 @@
                   >
                     <span class="catalog-section-copy">
                       <strong>${unit.number && !chapter.frontMatter ? `第${unit.number}节 · ` : ""}${escapeHtml(unit.title_zh)}</strong>
-                      <small>${unit.statusLabel}${unit.versionCount ? ` · ${unit.versionCount} 个版本` : ""}${unit.audio?.publication?.status === "published" ? " · 语音已上线" : unit.audio?.status === "ready" ? " · 语音待上传" : unit.audio?.status === "generating" ? " · 语音生成中" : ""}</small>
+                      <small>${unitVersionCatalogFact(unit)}</small>
+                      <small>${unitAudioCatalogFact(unit)}${unitPublicationCatalogFact(unit)}</small>
                     </span>
-                    <span class="dot ${unit.status}"></span>
                   </button>
                 `).join("")}
               </div>
             ` : ""}
           </div>
         `;
+        };
         el("catalog").innerHTML = `
           <div class="catalog-toolbar">
             <strong>全书目录</strong>
@@ -2648,6 +2853,12 @@
         );
         const selectedVersion = selectedAudioVersion(unit, version);
         const selectedModel = selectedAudioModel(unit, version);
+        const generationPlan =
+          model.audioGenerationPlan?.unitId === unit?.unit_id &&
+          model.audioGenerationPlan?.versionId === version?.id &&
+          model.audioGenerationPlan?.modelId === selectedModel?.id
+            ? model.audioGenerationPlan
+            : null;
         const patchStatus = speechPatchStatusFor(unit, version);
         const publication = selectedVersion?.publication;
         const publishing = ["uploading", "queued"].includes(
@@ -2730,8 +2941,8 @@
                   ${patchStatus.detail ? `<span class="audio-operation-detail">${escapeHtml(patchStatus.detail)}</span>` : ""}
                 </div>`
               : ""}
-            ${version.adopted && modelOptions.length
-              ? `<div class="audio-manager-actions">
+              ${version.adopted && modelOptions.length
+                ? `<div class="audio-manager-actions">
                   <span class="audio-manager-label">生成</span>
                   ${renderVersionPicker({
                     id: `audio-model-${version.id}`,
@@ -2745,6 +2956,24 @@
                     : generation
                       ? `<span class="audio-manager-label">${escapeHtml(generation)}</span>`
                       : ""}
+                </div>`
+              : ""}
+            ${generationPlan
+              ? `<div class="audio-generation-plan" role="status" aria-live="polite">
+                  <strong>生成前确认</strong>
+                  ${generationPlan.error
+                    ? `<span>${escapeHtml(generationPlan.error)}</span>`
+                    : `<span>${generationPlan.cachedChunkCount
+                        ? `当前版本已有 ${generationPlan.cachedChunkCount} 块本地语音。`
+                        : ""}${generationPlan.baseTranslationVersionId && generationPlan.baseReusableChunkCount
+                        ? `另可从 ${escapeHtml(generationPlan.baseTranslationVersionId)} 复用 ${generationPlan.baseReusableChunkCount} 块。`
+                        : ""}共 ${generationPlan.reusableChunkCount}/${generationPlan.chunkCount} 块无需调用接口；本次将新生成 ${generationPlan.generatedChunkCount} 块，共约 ${Number(generationPlan.generatedCharacterCount || 0).toLocaleString("zh-CN")} 个字。接口重试可能产生额外调用。</span>`}
+                  <div class="audio-generation-plan-actions">
+                    ${generationPlan.error
+                      ? ""
+                      : `<button class="small-action" id="confirmGenerateAudioButton">确认生成 ${generationPlan.generatedChunkCount} 块</button>`}
+                    <button class="small-action" id="cancelGenerateAudioButton">取消</button>
+                  </div>
                 </div>`
               : ""}
           </section>
@@ -2966,13 +3195,40 @@
         await refresh(true);
       }
 
-      async function generateAudio(modelId) {
+      async function requestAudioGenerationPlan(modelId) {
         const unit = currentUnit();
-        if (!unit?.unit_id || !modelId) return;
-        const response = await fetch("/api/audio/generate", {
+        const version = displayedVersion(unit);
+        if (!unit?.unit_id || !version?.id || !modelId) return;
+        const response = await fetch("/api/audio/plan", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ unitId: unit.unit_id, modelId }),
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(result.error || "无法估算语音生成量");
+        model.audioGenerationPlan = {
+          unitId: unit.unit_id,
+          versionId: version.id,
+          modelId,
+          planToken: result.planToken,
+          baseTranslationVersionId: result.base_translation_version_id || "",
+          chunkCount: Number(result.chunk_count || 0),
+          baseReusableChunkCount: Number(result.base_reusable_chunk_count || 0),
+          cachedChunkCount: Number(result.cached_chunk_count || 0),
+          reusableChunkCount: Number(result.reusable_chunk_count || 0),
+          generatedChunkCount: Number(result.generated_chunk_count || 0),
+          generatedCharacterCount: Number(result.generated_character_count || 0),
+          error: "",
+        };
+      }
+
+      async function generateAudio(modelId, planToken) {
+        const unit = currentUnit();
+        if (!unit?.unit_id || !modelId || !planToken) return;
+        const response = await fetch("/api/audio/generate", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ unitId: unit.unit_id, modelId, planToken }),
         });
         const result = await response.json().catch(() => ({}));
         if (!response.ok) throw new Error(result.error || "语音任务未能启动");
@@ -3272,6 +3528,7 @@
                 const unit = currentUnit();
                 const version = displayedVersion(unit);
                 model.audioModelSelections[audioSelectionKey(unit, version)] = value;
+                model.audioGenerationPlan = null;
               } else if (action === "audio-version") {
                 const unit = currentUnit();
                 const version = displayedVersion(unit);
@@ -3369,14 +3626,45 @@
                 audioModel.id;
             }
             generateAudioButton.disabled = true;
-            generateAudioButton.textContent = "正在启动";
+            generateAudioButton.textContent = "正在计算";
             try {
-              await generateAudio(audioModel?.id);
+              await requestAudioGenerationPlan(audioModel?.id);
+              renderReader();
             } catch (error) {
-              generateAudioButton.disabled = false;
-              generateAudioButton.textContent =
-                error instanceof Error ? error.message : "未能启动";
+              model.audioGenerationPlan = {
+                unitId: unit?.unit_id || "",
+                versionId: version?.id || "",
+                modelId: audioModel?.id || "",
+                error: error instanceof Error ? error.message : "无法估算语音生成量",
+              };
+              renderReader();
             }
+          });
+        }
+        const confirmGenerateAudioButton = el("confirmGenerateAudioButton");
+        if (confirmGenerateAudioButton) {
+          confirmGenerateAudioButton.addEventListener("click", async () => {
+            const plan = model.audioGenerationPlan;
+            if (!plan?.planToken) return;
+            confirmGenerateAudioButton.disabled = true;
+            confirmGenerateAudioButton.textContent = "正在启动";
+            try {
+              await generateAudio(plan.modelId, plan.planToken);
+              model.audioGenerationPlan = null;
+            } catch (error) {
+              model.audioGenerationPlan = {
+                ...plan,
+                error: error instanceof Error ? error.message : "语音任务未能启动",
+              };
+              renderReader();
+            }
+          });
+        }
+        const cancelGenerateAudioButton = el("cancelGenerateAudioButton");
+        if (cancelGenerateAudioButton) {
+          cancelGenerateAudioButton.addEventListener("click", () => {
+            model.audioGenerationPlan = null;
+            renderReader();
           });
         }
         const previewAudioButton = el("previewAudioButton");

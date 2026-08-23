@@ -16,7 +16,9 @@ readability_reviewed -> approved`
 2. Open only the next pending task package and the active specification.
 3. Write reader-facing Chinese only to the task's draft artifact.
 4. Save meaning and readability reviews as separate Markdown files. Each review
-   must contain the required evidence and exact draft hash.
+   must contain the required evidence and exact draft hash. Meaning review maps
+   the source's speaking position, target, force, and rhetorical function for
+   every source item; criticism and irony are not presumed expendable style.
 5. Update task status only after the controller validates the review content,
    not merely the file's existence.
 6. Assemble a chapter only from approved tasks with unchanged hashes.

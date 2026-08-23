@@ -22,8 +22,8 @@
 任何新任务或上下文压缩后，先运行：
 
 ```powershell
-& 'C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' skill-snapshot/reader-edition-v20/scripts/reader_project_controller.py validate .
-& 'C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' skill-snapshot/reader-edition-v20/scripts/reader_project_controller.py context .
+& 'C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' skill-snapshot/reader-edition-v21/scripts/reader_project_controller.py validate .
+& 'C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' skill-snapshot/reader-edition-v21/scripts/reader_project_controller.py context .
 ```
 
 在 Codex Desktop 中先读取工作区依赖，并使用其中返回的 Python。不要回退

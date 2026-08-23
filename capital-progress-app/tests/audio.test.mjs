@@ -42,7 +42,25 @@ test("ready audio exposes a version-bound manifest and byte ranges", async () =>
     assert.equal(manifest.translation_sha256, record.translation_sha256);
     assert.equal(manifest.chunks.length, 26);
     assert.equal(manifest.sentences.length, 156);
-    assert.equal(manifest.sentences[0].paragraph_index, 0);
+    const currentContent = JSON.parse(
+      await readFile(
+        path.join(
+          repoRoot,
+          "capital-online-preview",
+          "public",
+          "content",
+          `${record.unit_id}.json`,
+        ),
+        "utf8",
+      ),
+    );
+    const contentMatchesAudio =
+      currentContent.versionId === record.translation_version_id &&
+      currentContent.translationSha256 === record.translation_sha256;
+    assert.equal(
+      manifest.sentences[0].paragraph_index,
+      contentMatchesAudio ? 0 : undefined,
+    );
     assert.match(manifest.chunks[0].audio_file, /^\/api\/audio\/file\//);
 
     const audioResponse = await fetch(

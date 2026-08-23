@@ -235,3 +235,70 @@ test("a failed speech correction exposes its error in queue state", async () => 
   assert.equal(audio.generation.error, "Error: 基础语音版本不兼容");
   assert.equal(audio.models[0].canGenerate, false);
 });
+
+test("a failed generation keeps the model name and provider error", async () => {
+  let child;
+  const queue = createAudioGenerationQueue({
+    controller: "controller.mjs",
+    cwd: ".",
+    spawnProcess: () => {
+      child = new EventEmitter();
+      child.pid = 5300;
+      child.stderr = new PassThrough();
+      return child;
+    },
+  });
+  queue.enqueue("ch01-s01", "seed-audio-1.0");
+  child.stderr.write("Error: c0004 生成失败：HTTP 403 requested resource not granted\n");
+  child.stderr.write("    at generateChunk (controller.mjs:1:1)\n");
+  child.stderr.write("Node.js v20.20.0\n");
+  child.emit("exit", 1);
+  await nextTurn();
+
+  const state = {
+    frontMatter: [],
+    parts: [
+      {
+        chapters: [
+          {
+            sections: [
+              {
+                unit_id: "ch01-s01",
+                adoptedVersionId: "ch01-s01-v10",
+                audio: {
+                  status: "failed",
+                  error: "c0004 生成失败：HTTP 403 requested resource not granted",
+                  models: [
+                    {
+                      id: "seed-audio-1.0",
+                      label: "现有模型 1.0",
+                      status: "failed",
+                      error: "c0004 生成失败：HTTP 403 requested resource not granted",
+                      canGenerate: true,
+                    },
+                  ],
+                },
+                versions: [{ id: "ch01-s01-v10" }],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  };
+  applyAudioQueueState(state, queue.snapshot());
+  const audio = state.parts[0].chapters[0].sections[0].audio;
+  assert.equal(audio.models[0].label, "现有模型 1.0");
+  assert.equal(
+    audio.models[0].error,
+    "c0004 生成失败：HTTP 403 requested resource not granted"
+  );
+  assert.equal(
+    audio.generation.error,
+    "c0004 生成失败：HTTP 403 requested resource not granted"
+  );
+  assert.equal(
+    audio.error,
+    "c0004 生成失败：HTTP 403 requested resource not granted"
+  );
+});
