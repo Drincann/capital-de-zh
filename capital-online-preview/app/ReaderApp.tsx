@@ -52,6 +52,7 @@ export type ReaderFeatures = {
   analytics?: boolean;
   audio?: boolean;
   notes?: boolean;
+  pdfDownloadHref?: string;
 };
 
 type ReleaseEntry =
@@ -201,6 +202,7 @@ export function ReaderApp({
   const analyticsEnabled = features?.analytics !== false;
   const audioEnabled = features?.audio !== false;
   const notesEnabled = features?.notes !== false;
+  const pdfDownloadHref = features?.pdfDownloadHref;
   const flatSections = useMemo<ReleaseEntry[]>(
     () => [
       ...(release.preface
@@ -850,6 +852,21 @@ export function ReaderApp({
               </div>
             ) : null}
           </div>
+          {pdfDownloadHref ? (
+            <a
+              className="pdf-download-link"
+              href={pdfDownloadHref}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="在新标签页打开全书 PDF"
+              title="下载 PDF"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M5 2.75h8.75L19 8v13.25H5z" />
+                <path d="M13.75 2.75V8H19M12 9.75v7M8.75 13.5 12 16.75l3.25-3.25" />
+              </svg>
+            </a>
+          ) : null}
           <a
             className="github-link"
             href="https://github.com/Drincann/capital-de-zh"

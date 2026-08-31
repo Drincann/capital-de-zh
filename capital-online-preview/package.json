@@ -10,6 +10,8 @@
     "dev": "vinext dev",
     "prebuild": "node scripts/export-release.mjs",
     "build": "vinext build",
+    "build:pdf": "node scripts/build-book-pdf.mjs",
+    "prebuild:pages": "node scripts/export-release.mjs",
     "build:pages": "node scripts/build-pages.mjs",
     "start": "vinext start",
     "export:release": "node scripts/export-release.mjs",

@@ -40,6 +40,8 @@ next-env.d.ts
 /dist/
 /pages-dist/
 /.pages-public/
+/output/
+/tmp/
 *.tsbuildinfo
 /.wrangler/
 /outputs/

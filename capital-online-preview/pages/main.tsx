@@ -37,7 +37,12 @@ createRoot(document.getElementById("root")!).render(
         signInHref: "#",
         signOutHref: "#",
       }}
-      features={{ analytics: false, audio: false, notes: false }}
+      features={{
+        analytics: false,
+        audio: false,
+        notes: false,
+        pdfDownloadHref: `${import.meta.env.BASE_URL}downloads/capital-volume1-modern-chinese.pdf`,
+      }}
     />
   </StrictMode>,
 );
