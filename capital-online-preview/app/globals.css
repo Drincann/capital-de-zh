@@ -451,6 +451,10 @@ html::-webkit-scrollbar {
   transition: opacity 160ms ease;
 }
 
+.reading-position * {
+  touch-action: none;
+}
+
 .reading-position-hidden {
   pointer-events: none;
   opacity: 0;

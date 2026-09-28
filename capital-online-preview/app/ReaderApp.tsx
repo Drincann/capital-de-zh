@@ -4,6 +4,7 @@ import FingerprintJS from "@fingerprintjs/fingerprintjs";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { AudioReader, type NarrationSentence } from "@/app/AudioReader";
 import { ReaderNotes, type ReaderViewer } from "@/app/ReaderNotes";
+import { attachReadingPositionDrag } from "@/app/reading-position-drag";
 
 type ReleaseSection = {
   id: string;
@@ -159,6 +160,18 @@ function scrollWithoutAnimation(top: number) {
   root.style.scrollBehavior = previousBehavior;
 }
 
+function scrollToParagraph(index: number) {
+  const paragraph = document.querySelectorAll<HTMLElement>(
+    "#reading-content .prose p",
+  )[index];
+  paragraph?.scrollIntoView({
+    behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+      ? "auto"
+      : "smooth",
+    block: "center",
+  });
+}
+
 function restoreReadingPosition(sectionId: string) {
   let position: SavedReadingPosition | null = null;
   try {
@@ -255,13 +268,6 @@ export function ReaderApp({
   const [restoredSectionId, setRestoredSectionId] = useState("");
   const trackedSection = useRef("");
   const readingPosition = useRef<HTMLElement>(null);
-  const readingPositionDrag = useRef<{
-    pointerId: number;
-    startY: number;
-    dragging: boolean;
-    previousScrollBehavior: string;
-  } | null>(null);
-  const suppressReadingPositionClick = useRef(false);
   const settingsRef = useRef<HTMLDivElement>(null);
 
   const selectedIndex = flatSections.findIndex(
@@ -365,15 +371,9 @@ export function ReaderApp({
   }, [settingsOpen]);
 
   useEffect(() => {
-    return () => {
-      const drag = readingPositionDrag.current;
-      if (drag) {
-        document.documentElement.style.scrollBehavior =
-          drag.previousScrollBehavior;
-      }
-      document.body.classList.remove("reading-position-dragging");
-    };
-  }, []);
+    const rail = readingPosition.current;
+    if (rail) return attachReadingPositionDrag(rail, scrollToParagraph);
+  }, [selected?.id]);
 
   useEffect(() => {
     if (!selected || !locationResolved) return;
@@ -652,77 +652,6 @@ export function ReaderApp({
     }
   }
 
-  function scrollToParagraph(index: number) {
-    const paragraph = document.querySelectorAll<HTMLElement>(
-      "#reading-content .prose p",
-    )[index];
-    paragraph?.scrollIntoView({
-      behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
-        ? "auto"
-        : "smooth",
-      block: "center",
-    });
-  }
-
-  function scrollFromReadingPosition(clientY: number) {
-    const position = readingPosition.current;
-    if (!position) return;
-    const bounds = position.getBoundingClientRect();
-    const ratio = Math.min(
-      1,
-      Math.max(0, (clientY - bounds.top) / Math.max(1, bounds.height)),
-    );
-    const maximumScroll = Math.max(
-      0,
-      document.documentElement.scrollHeight - window.innerHeight,
-    );
-    window.scrollTo(0, ratio * maximumScroll);
-  }
-
-  function startReadingPositionDrag(event: React.PointerEvent<HTMLElement>) {
-    if (event.pointerType === "mouse" && event.button !== 0) return;
-    const root = document.documentElement;
-    readingPositionDrag.current = {
-      pointerId: event.pointerId,
-      startY: event.clientY,
-      dragging: false,
-      previousScrollBehavior: root.style.scrollBehavior,
-    };
-    root.style.scrollBehavior = "auto";
-    event.currentTarget.setPointerCapture(event.pointerId);
-  }
-
-  function moveReadingPositionDrag(event: React.PointerEvent<HTMLElement>) {
-    const drag = readingPositionDrag.current;
-    if (!drag || drag.pointerId !== event.pointerId) return;
-    if (!drag.dragging && Math.abs(event.clientY - drag.startY) < 4) return;
-    if (!drag.dragging) {
-      drag.dragging = true;
-      document.body.classList.add("reading-position-dragging");
-    }
-    event.preventDefault();
-    scrollFromReadingPosition(event.clientY);
-  }
-
-  function finishReadingPositionDrag(event: React.PointerEvent<HTMLElement>) {
-    const drag = readingPositionDrag.current;
-    if (!drag || drag.pointerId !== event.pointerId) return;
-    const wasDragging = drag.dragging;
-    readingPositionDrag.current = null;
-    document.documentElement.style.scrollBehavior =
-      drag.previousScrollBehavior;
-    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
-      event.currentTarget.releasePointerCapture(event.pointerId);
-    }
-    document.body.classList.remove("reading-position-dragging");
-    if (!wasDragging) return;
-    event.preventDefault();
-    suppressReadingPositionClick.current = true;
-    window.setTimeout(() => {
-      suppressReadingPositionClick.current = false;
-    }, 0);
-  }
-
   function scrollToHeading(headingId: string) {
     document.getElementById(headingId)?.scrollIntoView({
       behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
@@ -896,16 +825,12 @@ export function ReaderApp({
             : "reading-position reading-position-hidden"
         }
         aria-label="正文段落定位，可按住拖动"
-        onPointerDown={startReadingPositionDrag}
-        onPointerMove={moveReadingPositionDrag}
-        onPointerUp={finishReadingPositionDrag}
-        onPointerCancel={finishReadingPositionDrag}
-        onLostPointerCapture={finishReadingPositionDrag}
       >
         {paragraphMarkers.map((marker) => (
           <button
             type="button"
             key={marker.index}
+            data-paragraph-index={marker.index}
             className={`paragraph-marker${
               marker.position < 0.1
                 ? " near-start"
@@ -920,10 +845,6 @@ export function ReaderApp({
                 "--paragraph-hit-size": marker.hitSize,
               } as React.CSSProperties
             }
-            onClick={() => {
-              if (suppressReadingPositionClick.current) return;
-              scrollToParagraph(marker.index);
-            }}
             aria-label={`跳到第 ${marker.index + 1} 段：${marker.preview}`}
           >
             <span className="paragraph-line" aria-hidden="true" />
